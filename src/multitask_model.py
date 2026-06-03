@@ -49,6 +49,7 @@ class EuroBertUposLemmaConfig(PretrainedConfig):
 class EuroBertForUposLemma(PreTrainedModel):
     config_class = EuroBertUposLemmaConfig
     base_model_prefix = "model"
+    supports_gradient_checkpointing = True
 
     def __init__(self, config: EuroBertUposLemmaConfig) -> None:
         super().__init__(config)
@@ -83,6 +84,12 @@ class EuroBertForUposLemma(PreTrainedModel):
 
     def set_input_embeddings(self, value):
         return self.model.set_input_embeddings(value)
+
+    def gradient_checkpointing_enable(self, gradient_checkpointing_kwargs=None):
+        self.model.gradient_checkpointing_enable(gradient_checkpointing_kwargs)
+
+    def gradient_checkpointing_disable(self):
+        self.model.gradient_checkpointing_disable()
 
     def _init_task_heads(self):
         for head in (self.upos_classifier, self.lemma_classifier):

@@ -228,6 +228,7 @@ def main():
     load_best_model_at_end = env_bool("TRAIN_LOAD_BEST_MODEL_AT_END", eval_during_training)
     bf16 = env_bool("TRAIN_BF16", True)
     fp16 = env_bool("TRAIN_FP16", False)
+    torch_empty_cache_steps = env_int("TRAIN_TORCH_EMPTY_CACHE_STEPS", 0) or None
 
     if bf16 and fp16:
         raise ValueError("Set only one of TRAIN_BF16 or TRAIN_FP16")
@@ -269,6 +270,7 @@ def main():
         report_to="none",
         fp16=fp16,
         bf16=bf16,
+        torch_empty_cache_steps=torch_empty_cache_steps,
     )
 
     trainer = NoEmbeddingSaveTrainer(
