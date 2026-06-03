@@ -1,220 +1,270 @@
 {
   "config": {
     "eval_limit": 0,
-    "per_lang_limit": 5,
+    "per_lang_limit": 0,
     "batch_size": 8,
     "device": "mps"
   },
   "languages": {
     "de": {
       "lang": "de",
-      "total": 66,
-      "lemma_accuracy": 0.8939,
-      "unknown_rate": 0.0,
-      "raw_wrong_language_rate": 0.0,
+      "total": 16499,
+      "upos_accuracy": 0.9648,
+      "lemma_accuracy": 0.9489,
+      "lemma_total": 15553,
+      "unknown_rate": 0.01,
+      "raw_wrong_language_rate": 0.0005,
       "constrained_wrong_language_rate": 0.0,
-      "failed_apply_rate": 0.0758,
+      "failed_apply_rate": 0.0221,
       "missing_prediction_rate": 0.0,
-      "oov_accuracy": 0.8571,
-      "in_vocab_accuracy": 0.8983,
+      "oov_accuracy": 0.6497,
+      "in_vocab_accuracy": 0.9807,
       "source_counts": {
-        "edit": 61,
-        "lexicon": 5
+        "edit": 15025,
+        "lexicon": 84,
+        "identity": 260,
+        "propn": 184
       },
-      "upos_accuracy": {
-        "DET": {
-          "total": 12,
-          "accuracy": 0.8333
+      "upos_by_gold": {
+        "NOUN": {
+          "total": 3187,
+          "accuracy": 0.9504
         },
         "PUNCT": {
-          "total": 10,
-          "accuracy": 1.0
+          "total": 2366,
+          "accuracy": 0.9992
         },
-        "NOUN": {
-          "total": 8,
-          "accuracy": 1.0
-        },
-        "ADV": {
-          "total": 7,
-          "accuracy": 0.8571
-        },
-        "AUX": {
-          "total": 5,
-          "accuracy": 0.8
-        },
-        "VERB": {
-          "total": 5,
-          "accuracy": 0.6
+        "DET": {
+          "total": 2264,
+          "accuracy": 0.992
         },
         "ADP": {
-          "total": 4,
-          "accuracy": 1.0
+          "total": 1603,
+          "accuracy": 0.9875
+        },
+        "VERB": {
+          "total": 1326,
+          "accuracy": 0.9495
+        },
+        "ADJ": {
+          "total": 1249,
+          "accuracy": 0.9327
+        },
+        "ADV": {
+          "total": 1058,
+          "accuracy": 0.9282
+        },
+        "PROPN": {
+          "total": 946,
+          "accuracy": 0.9471
         },
         "PRON": {
+          "total": 705,
+          "accuracy": 0.9872
+        },
+        "AUX": {
+          "total": 691,
+          "accuracy": 0.9826
+        },
+        "CCONJ": {
+          "total": 460,
+          "accuracy": 0.9543
+        },
+        "NUM": {
+          "total": 233,
+          "accuracy": 0.9442
+        },
+        "PART": {
+          "total": 210,
+          "accuracy": 0.9667
+        },
+        "SCONJ": {
+          "total": 168,
+          "accuracy": 0.8929
+        },
+        "X": {
+          "total": 25,
+          "accuracy": 0.08
+        },
+        "INTJ": {
           "total": 4,
           "accuracy": 0.75
         },
-        "CCONJ": {
-          "total": 3,
-          "accuracy": 1.0
-        },
-        "PROPN": {
-          "total": 3,
-          "accuracy": 1.0
-        },
-        "NUM": {
-          "total": 2,
-          "accuracy": 1.0
-        },
-        "ADJ": {
-          "total": 1,
-          "accuracy": 1.0
-        },
-        "PART": {
-          "total": 1,
-          "accuracy": 1.0
-        },
-        "SCONJ": {
-          "total": 1,
-          "accuracy": 1.0
+        "SYM": {
+          "total": 4,
+          "accuracy": 0.5
         }
       }
     },
     "es": {
       "lang": "es",
-      "total": 243,
-      "lemma_accuracy": 0.9547,
-      "unknown_rate": 0.0,
-      "raw_wrong_language_rate": 0.0,
+      "total": 53622,
+      "upos_accuracy": 0.9888,
+      "lemma_accuracy": 0.9872,
+      "lemma_total": 49651,
+      "unknown_rate": 0.0031,
+      "raw_wrong_language_rate": 0.0004,
       "constrained_wrong_language_rate": 0.0,
-      "failed_apply_rate": 0.0535,
+      "failed_apply_rate": 0.0082,
       "missing_prediction_rate": 0.0,
-      "oov_accuracy": 0.9,
-      "in_vocab_accuracy": 0.9571,
+      "oov_accuracy": 0.7411,
+      "in_vocab_accuracy": 0.9963,
       "source_counts": {
-        "edit": 230,
-        "lexicon": 12,
-        "identity": 1
+        "edit": 49198,
+        "identity": 317,
+        "lexicon": 91,
+        "propn": 45
       },
-      "upos_accuracy": {
-        "ADP": {
-          "total": 49,
-          "accuracy": 1.0
-        },
+      "upos_by_gold": {
         "NOUN": {
-          "total": 37,
-          "accuracy": 0.9189
+          "total": 9579,
+          "accuracy": 0.9834
+        },
+        "ADP": {
+          "total": 8332,
+          "accuracy": 0.9966
         },
         "DET": {
-          "total": 32,
-          "accuracy": 1.0
-        },
-        "PROPN": {
-          "total": 32,
-          "accuracy": 1.0
+          "total": 8055,
+          "accuracy": 0.9964
         },
         "PUNCT": {
-          "total": 29,
+          "total": 6334,
           "accuracy": 1.0
-        },
-        "ADJ": {
-          "total": 20,
-          "accuracy": 0.85
         },
         "VERB": {
-          "total": 15,
-          "accuracy": 0.6667
+          "total": 4636,
+          "accuracy": 0.9918
         },
-        "NUM": {
-          "total": 10,
-          "accuracy": 1.0
+        "PROPN": {
+          "total": 3971,
+          "accuracy": 0.9892
         },
-        "ADV": {
-          "total": 7,
-          "accuracy": 1.0
-        },
-        "CCONJ": {
-          "total": 5,
-          "accuracy": 1.0
+        "ADJ": {
+          "total": 3523,
+          "accuracy": 0.9557
         },
         "PRON": {
-          "total": 4,
-          "accuracy": 1.0
+          "total": 2434,
+          "accuracy": 0.9823
+        },
+        "ADV": {
+          "total": 1785,
+          "accuracy": 0.981
+        },
+        "CCONJ": {
+          "total": 1416,
+          "accuracy": 0.9972
         },
         "AUX": {
-          "total": 3,
-          "accuracy": 1.0
+          "total": 1305,
+          "accuracy": 0.9847
+        },
+        "SCONJ": {
+          "total": 1231,
+          "accuracy": 0.9886
+        },
+        "NUM": {
+          "total": 977,
+          "accuracy": 0.9795
+        },
+        "SYM": {
+          "total": 28,
+          "accuracy": 0.75
+        },
+        "INTJ": {
+          "total": 16,
+          "accuracy": 0.6875
         }
       }
     },
     "en": {
       "lang": "en",
-      "total": 95,
-      "lemma_accuracy": 0.9474,
-      "unknown_rate": 0.0,
+      "total": 25079,
+      "upos_accuracy": 0.969,
+      "lemma_accuracy": 0.9748,
+      "lemma_total": 23004,
+      "unknown_rate": 0.0066,
       "raw_wrong_language_rate": 0.0,
       "constrained_wrong_language_rate": 0.0,
-      "failed_apply_rate": 0.0316,
+      "failed_apply_rate": 0.0101,
       "missing_prediction_rate": 0.0,
-      "oov_accuracy": 0.7,
-      "in_vocab_accuracy": 0.9765,
+      "oov_accuracy": 0.715,
+      "in_vocab_accuracy": 0.9901,
       "source_counts": {
-        "edit": 92,
-        "lexicon": 2,
-        "identity": 1
+        "edit": 22627,
+        "identity": 157,
+        "lexicon": 75,
+        "propn": 145
       },
-      "upos_accuracy": {
-        "PUNCT": {
-          "total": 17,
-          "accuracy": 1.0
-        },
+      "upos_by_gold": {
         "NOUN": {
-          "total": 13,
-          "accuracy": 0.9231
+          "total": 4123,
+          "accuracy": 0.9551
         },
-        "PROPN": {
-          "total": 10,
-          "accuracy": 0.9
-        },
-        "ADP": {
-          "total": 9,
-          "accuracy": 1.0
-        },
-        "ADV": {
-          "total": 9,
-          "accuracy": 1.0
-        },
-        "PRON": {
-          "total": 8,
-          "accuracy": 1.0
-        },
-        "DET": {
-          "total": 7,
-          "accuracy": 1.0
+        "PUNCT": {
+          "total": 3096,
+          "accuracy": 0.9945
         },
         "VERB": {
-          "total": 6,
-          "accuracy": 0.5
+          "total": 2605,
+          "accuracy": 0.9754
         },
-        "AUX": {
-          "total": 5,
-          "accuracy": 1.0
+        "PRON": {
+          "total": 2164,
+          "accuracy": 0.9945
+        },
+        "PROPN": {
+          "total": 2075,
+          "accuracy": 0.9041
+        },
+        "ADP": {
+          "total": 2025,
+          "accuracy": 0.9793
+        },
+        "DET": {
+          "total": 1897,
+          "accuracy": 0.9958
         },
         "ADJ": {
-          "total": 4,
-          "accuracy": 1.0
+          "total": 1788,
+          "accuracy": 0.9446
+        },
+        "AUX": {
+          "total": 1543,
+          "accuracy": 0.9935
+        },
+        "ADV": {
+          "total": 1191,
+          "accuracy": 0.9454
         },
         "CCONJ": {
-          "total": 3,
-          "accuracy": 1.0
-        },
-        "SCONJ": {
-          "total": 3,
-          "accuracy": 1.0
+          "total": 736,
+          "accuracy": 0.9891
         },
         "PART": {
-          "total": 1,
-          "accuracy": 1.0
+          "total": 649,
+          "accuracy": 0.9892
+        },
+        "NUM": {
+          "total": 542,
+          "accuracy": 0.9982
+        },
+        "SCONJ": {
+          "total": 384,
+          "accuracy": 0.9609
+        },
+        "INTJ": {
+          "total": 121,
+          "accuracy": 0.876
+        },
+        "SYM": {
+          "total": 113,
+          "accuracy": 0.8938
+        },
+        "X": {
+          "total": 27,
+          "accuracy": 0.3333
         }
       }
     }

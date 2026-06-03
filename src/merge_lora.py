@@ -3,10 +3,9 @@ import os
 from pathlib import Path
 
 from peft import PeftModel
-
-from multitask_model import EuroBertForUposLemma, EuroBertUposLemmaConfig
 from transformers import AutoTokenizer
 
+from multitask_model import EuroBertForUposLemma, EuroBertUposLemmaConfig
 
 BASE_MODEL = "EuroBERT/EuroBERT-210m"
 ADAPTER_DIR = "runs/eurobert-multilingual-lemma-210m-lora"

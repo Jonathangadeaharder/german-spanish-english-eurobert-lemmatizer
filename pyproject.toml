@@ -11,8 +11,9 @@ requires-python = ">=3.13,<3.14"
 dependencies = [
   "accelerate>=0.33.0",
   "datasets>=2.20.0",
-  "numpy>=1.26.0,<2.0.0",
-  "onnx>=1.16.0",
+  "ml-dtypes>=0.5",
+  "numpy>=1.26.0",
+  "onnx>=1.18",
   "onnxruntime==1.23.1",
   "optimum>=1.21.0",
   "peft>=0.12.0",

@@ -4,7 +4,7 @@ from typing import Any
 
 import torch
 from torch import nn
-from transformers import AutoConfig, AutoModel, PreTrainedModel, PretrainedConfig
+from transformers import AutoConfig, AutoModel, PretrainedConfig, PreTrainedModel
 from transformers.modeling_outputs import TokenClassifierOutput
 
 
@@ -66,6 +66,10 @@ class EuroBertForUposLemma(PreTrainedModel):
             config=backbone_config,
             trust_remote_code=True,
         )
+
+        saved_vocab_size = getattr(config, "vocab_size", None)
+        if saved_vocab_size is not None and saved_vocab_size != self.model.config.vocab_size:
+            self.model.resize_token_embeddings(saved_vocab_size)
 
         hidden_size = getattr(self.model.config, "hidden_size", None)
         if hidden_size is None:
@@ -163,7 +167,11 @@ class MultiTaskDataCollator:
         lemma_labels = [feature.pop("labels") for feature in features]
         upos_labels = [feature.pop("upos_labels") for feature in features]
         model_features = [
-            {key: value for key, value in feature.items() if key in self.tokenizer.model_input_names}
+            {
+                key: value
+                for key, value in feature.items()
+                if key in self.tokenizer.model_input_names
+            }
             for feature in features
         ]
 

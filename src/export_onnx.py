@@ -6,7 +6,6 @@ from transformers import AutoTokenizer
 
 from multitask_model import EuroBertForUposLemma
 
-
 MERGED_DIR = "models/eurobert-multilingual-lemma-210m-merged"
 ONNX_DIR = "onnx/eurobert-multilingual-lemma-210m"
 
@@ -53,8 +52,9 @@ def main():
             "upos_logits": {0: "batch", 1: "sequence"},
             "lemma_logits": {0: "batch", 1: "sequence"},
         },
-        opset_version=17,
+        opset_version=14,
         do_constant_folding=True,
+        dynamo=False,
     )
 
     print(f"Saved ONNX model to {onnx_path}")
