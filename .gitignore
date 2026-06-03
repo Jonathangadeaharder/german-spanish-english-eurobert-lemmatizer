@@ -1,0 +1,16 @@
+.venv/
+.venv-arm64/
+data/gold/
+data/processed/
+artifacts/tokenizer/
+runs/
+models/
+onnx/
+web/model/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store

@@ -1,0 +1,9 @@
+{
+  "name": "eurobert-lemmatizer-web",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.3",
+    "onnxruntime-web": "^1.23.2"
+  }
+}

@@ -1,0 +1,64 @@
+import os
+from pathlib import Path
+
+import torch
+from transformers import AutoTokenizer
+
+from multitask_model import EuroBertForUposLemma
+
+
+MERGED_DIR = "models/eurobert-multilingual-lemma-210m-merged"
+ONNX_DIR = "onnx/eurobert-multilingual-lemma-210m"
+
+
+class MultiTaskExportWrapper(torch.nn.Module):
+    def __init__(self, model):
+        super().__init__()
+        self.model = model
+
+    def forward(self, input_ids, attention_mask):
+        outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
+        return outputs.logits[0], outputs.logits[1]
+
+
+def main():
+    merged_dir = os.getenv("MERGED_DIR", MERGED_DIR)
+    onnx_dir = os.getenv("ONNX_DIR", ONNX_DIR)
+
+    Path(onnx_dir).mkdir(parents=True, exist_ok=True)
+
+    tokenizer = AutoTokenizer.from_pretrained(merged_dir, trust_remote_code=True)
+    model = EuroBertForUposLemma.from_pretrained(
+        merged_dir,
+        trust_remote_code=True,
+        attn_implementation="eager",
+    )
+    model = model.half()
+    model.eval()
+
+    sample = tokenizer("Dies ist ein Test.", return_tensors="pt")
+    wrapper = MultiTaskExportWrapper(model)
+
+    onnx_path = Path(onnx_dir) / "model.onnx"
+
+    torch.onnx.export(
+        wrapper,
+        (sample["input_ids"], sample["attention_mask"]),
+        onnx_path,
+        input_names=["input_ids", "attention_mask"],
+        output_names=["upos_logits", "lemma_logits"],
+        dynamic_axes={
+            "input_ids": {0: "batch", 1: "sequence"},
+            "attention_mask": {0: "batch", 1: "sequence"},
+            "upos_logits": {0: "batch", 1: "sequence"},
+            "lemma_logits": {0: "batch", 1: "sequence"},
+        },
+        opset_version=17,
+        do_constant_folding=True,
+    )
+
+    print(f"Saved ONNX model to {onnx_path}")
+
+
+if __name__ == "__main__":
+    main()
