@@ -19,6 +19,7 @@
       "missing_prediction_rate": 0.0,
       "oov_accuracy": 0.6497,
       "in_vocab_accuracy": 0.9807,
+      "edit_tree_accuracy": 0.9603,
       "source_counts": {
         "edit": 15025,
         "lexicon": 84,
@@ -109,6 +110,7 @@
       "missing_prediction_rate": 0.0,
       "oov_accuracy": 0.7411,
       "in_vocab_accuracy": 0.9963,
+      "edit_tree_accuracy": 0.9881,
       "source_counts": {
         "edit": 49198,
         "identity": 317,
@@ -191,6 +193,7 @@
       "missing_prediction_rate": 0.0,
       "oov_accuracy": 0.715,
       "in_vocab_accuracy": 0.9901,
+      "edit_tree_accuracy": 0.981,
       "source_counts": {
         "edit": 22627,
         "identity": 157,
