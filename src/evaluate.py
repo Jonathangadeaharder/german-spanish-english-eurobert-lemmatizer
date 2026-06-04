@@ -13,7 +13,7 @@ from edit_trees import apply_edit_label
 from multitask_model import EuroBertForUposLemma, EuroBertUposLemmaConfig
 
 MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-lora"
-CHAR_MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-char-gen"
+CHAR_MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-stage2"
 DATASET_PATH = "data/processed/eurobert_multilingual_lemma_dataset"
 CHAR_DATASET_PATH = "data/processed/eurobert_char_lemma_dataset"
 LABEL2ID_PATH = "artifacts/label2id.json"
@@ -219,10 +219,21 @@ def decode_char_lemma(
 
 def main():
     use_char_gen = env_bool("EVAL_USE_CHAR_GENERATOR", False)
+    stage2 = env_bool("EVAL_STAGE2", False)
 
-    label2id_path = LABEL2ID_TOP300_PATH if use_char_gen else LABEL2ID_PATH
-    id2label_path = ID2LABEL_TOP300_PATH if use_char_gen else ID2LABEL_PATH
-    dataset_path = CHAR_DATASET_PATH if use_char_gen else DATASET_PATH
+    if stage2:
+        label2id_path = LABEL2ID_PATH
+        id2label_path = ID2LABEL_PATH
+        dataset_path = CHAR_DATASET_PATH
+        use_char_gen = True
+    elif use_char_gen:
+        label2id_path = LABEL2ID_TOP300_PATH
+        id2label_path = ID2LABEL_TOP300_PATH
+        dataset_path = CHAR_DATASET_PATH
+    else:
+        label2id_path = LABEL2ID_PATH
+        id2label_path = ID2LABEL_PATH
+        dataset_path = DATASET_PATH
 
     label2id = load_json(label2id_path)
     id2label = load_json(id2label_path)
