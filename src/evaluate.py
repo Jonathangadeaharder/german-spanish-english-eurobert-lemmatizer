@@ -12,18 +12,14 @@ from transformers import AutoTokenizer
 from edit_trees import apply_edit_label
 from multitask_model import EuroBertForUposLemma, EuroBertUposLemmaConfig
 
-MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-lora"
-CHAR_MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-stage2"
+MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-lora-full-mpsfix"
+TOKENIZER_DIR = "artifacts/tokenizer"
 DATASET_PATH = "data/processed/eurobert_multilingual_lemma_dataset"
-CHAR_DATASET_PATH = "data/processed/eurobert_char_lemma_dataset"
 LABEL2ID_PATH = "artifacts/label2id.json"
-LABEL2ID_TOP300_PATH = "artifacts/label2id_top300.json"
 ID2LABEL_PATH = "artifacts/id2label.json"
-ID2LABEL_TOP300_PATH = "artifacts/id2label_top300.json"
 UPOS_LABEL2ID_PATH = "artifacts/upos_label2id.json"
 UPOS_ID2LABEL_PATH = "artifacts/upos_id2label.json"
 LEXICON_PATH = "artifacts/lexicon.json"
-CHAR_VOCAB_PATH = "artifacts/char_vocab.json"
 REPORT_PATH = Path("artifacts/eval_report.json")
 MAX_LENGTH = 256
 
@@ -39,11 +35,9 @@ def load_json(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
-def env_bool(name, default):
+def env_int(name, default):
     value = os.getenv(name)
-    if value is None or value == "":
-        return default
-    return value.lower() in {"1", "true", "yes", "on"}
+    return default if value is None or value == "" else int(value)
 
 
 def get_device():
@@ -149,120 +143,24 @@ def ensure_upos(words, upos):
     return upos[: len(words)]
 
 
-def decode_char_lemma(
-    char_generator,
-    encoder_hidden,
-    encoder_mask,
-    word_chars_tensor,
-    word_char_mask_tensor,
-    char_vocab,
-    device,
-):
-    id2char = {v: k for k, v in char_vocab["char2id"].items()}
-    bos_id = char_vocab["char2id"]["<BOS>"]
-    eos_id = char_vocab["char2id"]["<EOS>"]
-    unk_id = char_vocab["char2id"]["<UNK>"]
-
-    with torch.inference_mode():
-        encoder_hidden_single = encoder_hidden.unsqueeze(0)
-        encoder_mask_single = encoder_mask.unsqueeze(0) if encoder_mask is not None else None
-        word_chars_single = (
-            word_chars_tensor.unsqueeze(0) if word_chars_tensor is not None else None
-        )
-        word_char_mask_single = (
-            word_char_mask_tensor.unsqueeze(0) if word_char_mask_tensor is not None else None
-        )
-
-        outputs = char_generator(
-            encoder_outputs=encoder_hidden_single,
-            encoder_mask=encoder_mask_single,
-            word_chars=word_chars_single,
-            word_char_mask=word_char_mask_single,
-        )
-
-    char_logits = outputs["char_logits"][0]
-    copy_logits = outputs.get("copy_logits")
-    p_gen = outputs.get("p_gen")
-
-    if copy_logits is not None and p_gen is not None and word_chars_tensor is not None:
-        vocab_logits = char_logits
-        p_gen_val = p_gen[0, :, 0]
-        copy_weights = torch.softmax(copy_logits[0], dim=-1)
-
-        for t in range(vocab_logits.shape[0]):
-            gen_dist = torch.softmax(vocab_logits[t], dim=0) * p_gen_val[t]
-            copy_dist = copy_weights[t] * (1 - p_gen_val[t])
-
-            word_char_ids = word_chars_tensor[t]
-            word_char_mask_t = word_char_mask_tensor[t]
-
-            for ci, char_id in enumerate(word_char_ids):
-                if word_char_mask_t[ci] == 0 or char_id.item() < 4:
-                    continue
-                if char_id.item() < vocab_logits.shape[0]:
-                    gen_dist[char_id.item()] += copy_dist[ci].item()
-
-            char_logits[t] = gen_dist
-
-    predicted_ids = char_logits.argmax(dim=-1)
-    chars = []
-    for cid in predicted_ids:
-        cid = cid.item()
-        if cid == eos_id:
-            break
-        if cid == bos_id or cid == 0:
-            continue
-        chars.append(id2char.get(cid, id2char.get(unk_id, "?")))
-
-    return "".join(chars)
-
-
 def main():
-    use_char_gen = env_bool("EVAL_USE_CHAR_GENERATOR", False)
-    stage2 = env_bool("EVAL_STAGE2", False)
-
-    if stage2:
-        label2id_path = LABEL2ID_PATH
-        id2label_path = ID2LABEL_PATH
-        dataset_path = CHAR_DATASET_PATH
-        use_char_gen = True
-    elif use_char_gen:
-        label2id_path = LABEL2ID_TOP300_PATH
-        id2label_path = ID2LABEL_TOP300_PATH
-        dataset_path = CHAR_DATASET_PATH
-    else:
-        label2id_path = LABEL2ID_PATH
-        id2label_path = ID2LABEL_PATH
-        dataset_path = DATASET_PATH
-
-    label2id = load_json(label2id_path)
-    id2label = load_json(id2label_path)
+    label2id = load_json(LABEL2ID_PATH)
+    id2label = load_json(ID2LABEL_PATH)
     upos_label2id = load_json(UPOS_LABEL2ID_PATH)
     upos_id2label = load_json(UPOS_ID2LABEL_PATH)
     lexicon = load_lexicon(LEXICON_PATH)
     candidate_ids_by_lang = build_candidate_label_ids(id2label)
-    model_dir = os.getenv("MODEL_DIR", CHAR_MODEL_DIR if use_char_gen else MODEL_DIR)
+    model_dir = os.getenv("MODEL_DIR", MODEL_DIR)
 
-    char_vocab = None
-    if use_char_gen:
-        char_vocab = load_json(CHAR_VOCAB_PATH)
-
-    tokenizer = AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_DIR, trust_remote_code=True)
 
     device = get_device()
 
-    config_kwargs = {
-        "base_model_name_or_path": "EuroBERT/EuroBERT-210m",
-        "upos_label2id": upos_label2id,
-        "lemma_label2id": label2id,
-    }
-
-    if use_char_gen:
-        config_kwargs["use_char_generator"] = True
-        config_kwargs["char_vocab_size"] = char_vocab["vocab_size"]
-        config_kwargs["max_lemma_length"] = char_vocab["max_lemma_length"]
-
-    config = EuroBertUposLemmaConfig(**config_kwargs)
+    config = EuroBertUposLemmaConfig(
+        base_model_name_or_path="EuroBERT/EuroBERT-210m",
+        upos_label2id=upos_label2id,
+        lemma_label2id=label2id,
+    )
 
     base_model = EuroBertForUposLemma.from_pretrained(
         "EuroBERT/EuroBERT-210m",
@@ -275,11 +173,11 @@ def main():
     model.to(device)
     model.eval()
 
-    dataset = load_from_disk(dataset_path)
+    dataset = load_from_disk(DATASET_PATH)
 
-    eval_limit = int(os.getenv("EVAL_LIMIT", "0"))
-    per_lang_limit = int(os.getenv("EVAL_PER_LANG_LIMIT", "0"))
-    batch_size = max(1, int(os.getenv("EVAL_BATCH_SIZE", "8")))
+    eval_limit = env_int("EVAL_LIMIT", 0)
+    per_lang_limit = env_int("EVAL_PER_LANG_LIMIT", 0)
+    batch_size = max(1, env_int("EVAL_BATCH_SIZE", 8))
 
     rows = list(dataset["test"])
 
@@ -312,8 +210,6 @@ def main():
             "oov_correct": 0,
             "in_vocab_total": 0,
             "in_vocab_correct": 0,
-            "char_gen_total": 0,
-            "char_gen_correct": 0,
             "edit_tree_total": 0,
             "edit_tree_correct": 0,
             "source_counts": Counter(),
@@ -322,11 +218,6 @@ def main():
         }
         for lang in LANGS
     }
-
-    unwrapped = model
-    if hasattr(model, "base_model"):
-        unwrapped = model.base_model.model
-    char_gen_module = getattr(unwrapped, "char_generator", None) if use_char_gen else None
 
     with torch.inference_mode():
         for batch_start in range(0, len(rows), batch_size):
@@ -346,7 +237,6 @@ def main():
             outputs = model(**model_inputs)
             upos_logits = outputs.logits[0].detach().cpu().numpy()
             lemma_logits = outputs.logits[1].detach().cpu().numpy()
-            route_logits = outputs.logits[2].detach().cpu() if len(outputs.logits) > 2 else None
 
             for batch_index, row in enumerate(batch_rows):
                 lang = row["lang"]
@@ -368,15 +258,6 @@ def main():
                     id2label,
                     upos_id2label,
                 )
-
-                route_by_word = {}
-                if route_logits is not None:
-                    seen = set()
-                    for token_idx, wid in enumerate(word_ids):
-                        if wid is None or wid == 0 or wid in seen:
-                            continue
-                        seen.add(wid)
-                        route_by_word[wid] = route_logits[batch_index, token_idx].item() > 0
 
                 for word_index, (word, gold_lemma) in enumerate(
                     zip(words, lemmas, strict=True), start=1
@@ -401,71 +282,7 @@ def main():
                         else:
                             stats[lang]["in_vocab_total"] += 1
 
-                        use_char_route = route_by_word.get(word_index, False)
-
-                        if (
-                            use_char_route
-                            and char_gen_module is not None
-                            and char_vocab is not None
-                        ):
-                            stats[lang]["char_gen_total"] += 1
-
-                            unk_id = char_vocab["char2id"]["<UNK>"]
-                            word_char_ids = [char_vocab["char2id"].get(c, unk_id) for c in word]
-                            word_char_ids = word_char_ids[: char_vocab.get("max_word_length", 64)]
-                            max_wl = char_vocab.get("max_word_length", 64)
-                            pad_len = max_wl - len(word_char_ids)
-                            wc_tensor = torch.tensor(
-                                [word_char_ids + [0] * pad_len],
-                                dtype=torch.long,
-                                device=device,
-                            )
-                            wcm_tensor = torch.tensor(
-                                [[1] * len(word_char_ids) + [0] * pad_len],
-                                dtype=torch.long,
-                                device=device,
-                            )
-
-                            token_positions = [
-                                i for i, wid in enumerate(word_ids) if wid == word_index
-                            ]
-                            if token_positions:
-                                token_idx = token_positions[0]
-                                hidden = (
-                                    outputs.hidden_states[-1][batch_index, token_idx]
-                                    if outputs.hidden_states
-                                    else None
-                                )
-                                if hidden is None:
-                                    slice_inputs = {
-                                        k: v[batch_index : batch_index + 1]
-                                        for k, v in model_inputs.items()
-                                    }
-                                    backbone_out = model.model.model(
-                                        **slice_inputs,
-                                        output_hidden_states=True,
-                                    )
-                                    hidden = backbone_out.hidden_states[-1][0, token_idx]
-                            else:
-                                hidden = None
-
-                            if hidden is not None:
-                                predicted_lemma = decode_char_lemma(
-                                    char_gen_module,
-                                    hidden,
-                                    model_inputs["attention_mask"][batch_index],
-                                    wc_tensor[0],
-                                    wcm_tensor[0],
-                                    char_vocab,
-                                    device,
-                                )
-                                source = "char_gen"
-                                failed_apply = False
-                            else:
-                                predicted_lemma = word
-                                source = "char_gen_fail"
-                                failed_apply = False
-                        elif predicted_upos == "PROPN":
+                        if predicted_upos == "PROPN":
                             predicted_lemma, source, failed_apply = resolve_prediction(
                                 word,
                                 predicted_upos,
@@ -514,11 +331,7 @@ def main():
 
                         if predicted_lemma == gold_lemma:
                             stats[lang]["lemma_correct"] += 1
-
-                            if source == "char_gen":
-                                stats[lang]["char_gen_correct"] += 1
-                            else:
-                                stats[lang]["edit_tree_correct"] += 1
+                            stats[lang]["edit_tree_correct"] += 1
 
                             if word not in lexicon[lang]:
                                 stats[lang]["oov_correct"] += 1
@@ -553,14 +366,6 @@ def main():
                 "accuracy": round(bucket["correct"] / upos_total, 4),
             }
 
-        char_gen_total = stats[lang]["char_gen_total"] or 1
-        char_gen_report = {}
-        if stats[lang]["char_gen_total"] > 0:
-            char_gen_report = {
-                "total": stats[lang]["char_gen_total"],
-                "accuracy": round(stats[lang]["char_gen_correct"] / char_gen_total, 4),
-            }
-
         edit_tree_total = stats[lang]["edit_tree_total"] or 1
 
         summary = {
@@ -578,7 +383,6 @@ def main():
             "missing_prediction_rate": round(stats[lang]["missing_prediction"] / lemma_total, 4),
             "oov_accuracy": round(stats[lang]["oov_correct"] / oov_total, 4),
             "in_vocab_accuracy": round(stats[lang]["in_vocab_correct"] / in_vocab_total, 4),
-            "char_gen": char_gen_report,
             "edit_tree_accuracy": (
                 round(stats[lang]["edit_tree_correct"] / edit_tree_total, 4)
                 if stats[lang]["edit_tree_total"] > 0
