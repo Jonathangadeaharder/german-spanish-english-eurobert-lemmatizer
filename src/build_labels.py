@@ -3,10 +3,10 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from conllu_reader import read_conllu
-from edit_trees import make_edit_label, apply_edit_label
-
+from edit_trees import apply_edit_label, make_edit_label
 
 MIN_LABEL_COUNT = 2
+TOP_TREE_COUNT = 300
 
 LANGS = ["de", "es", "en"]
 
@@ -41,7 +41,9 @@ def main():
             sentences = read_conllu(path, lang=lang)
 
             for sent in sentences:
-                for word, lemma, upos in zip(sent["words"], sent["lemmas"], sent["upos"]):
+                for word, lemma, upos in zip(
+                    sent["words"], sent["lemmas"], sent["upos"], strict=True
+                ):
                     if upos and upos != "_":
                         upos_counts[upos] += 1
 
@@ -150,7 +152,40 @@ def main():
         encoding="utf-8",
     )
 
+    top_trees = []
+    for label, _count in counter.most_common():
+        if label in labels and label != "UNKNOWN":
+            top_trees.append(label)
+        if len(top_trees) >= TOP_TREE_COUNT:
+            break
+
+    reduced_labels = ["UNKNOWN"] + top_trees
+    for lang in LANGS:
+        for base in ["IDENTITY", "LOWERCASE"]:
+            label = f"{lang}::{base}"
+            if label not in reduced_labels:
+                reduced_labels.append(label)
+
+    reduced_label2id = {label: i for i, label in enumerate(reduced_labels)}
+    reduced_id2label = {str(i): label for label, i in reduced_label2id.items()}
+
+    (OUT_DIR / "label2id_top300.json").write_text(
+        json.dumps(reduced_label2id, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    (OUT_DIR / "id2label_top300.json").write_text(
+        json.dumps(reduced_id2label, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    (OUT_DIR / "top_edit_trees.json").write_text(
+        json.dumps(top_trees, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
     print(f"Created {len(labels)} multilingual labels")
+    print(f"Created {len(reduced_labels)} reduced labels (top {TOP_TREE_COUNT})")
     print(f"Created {len(upos_labels)} UPOS labels")
     print("Top labels:")
     for label, count in counter.most_common(30):

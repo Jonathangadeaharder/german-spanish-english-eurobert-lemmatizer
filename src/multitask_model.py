@@ -36,6 +36,13 @@ class EuroBertUposLemmaConfig(PretrainedConfig):
         base_model_name_or_path: str | None = None,
         upos_label2id: dict[str, int] | None = None,
         lemma_label2id: dict[str, int] | None = None,
+        use_char_generator: bool = False,
+        char_vocab_size: int = 276,
+        max_lemma_length: int = 32,
+        max_word_length: int = 64,
+        char_hidden_size: int = 256,
+        char_num_layers: int = 2,
+        char_num_heads: int = 4,
         **kwargs: Any,
     ) -> None:
         super().__init__(**kwargs)
@@ -44,6 +51,13 @@ class EuroBertUposLemmaConfig(PretrainedConfig):
         self.lemma_label2id = lemma_label2id or {}
         self.upos_id2label = {str(index): label for label, index in self.upos_label2id.items()}
         self.lemma_id2label = {str(index): label for label, index in self.lemma_label2id.items()}
+        self.use_char_generator = use_char_generator
+        self.char_vocab_size = char_vocab_size
+        self.max_lemma_length = max_lemma_length
+        self.max_word_length = max_word_length
+        self.char_hidden_size = char_hidden_size
+        self.char_num_layers = char_num_layers
+        self.char_num_heads = char_num_heads
 
 
 class EuroBertForUposLemma(PreTrainedModel):
@@ -81,6 +95,23 @@ class EuroBertForUposLemma(PreTrainedModel):
         self.dropout = nn.Dropout(dropout_prob)
         self.upos_classifier = nn.Linear(hidden_size, len(config.upos_label2id))
         self.lemma_classifier = nn.Linear(hidden_size, len(config.lemma_label2id))
+
+        self.lemma_router = nn.Linear(hidden_size, 1)
+
+        self.char_generator = None
+        if config.use_char_generator:
+            from char_generator import PointerGenerator
+
+            self.char_generator = PointerGenerator(
+                encoder_hidden_size=hidden_size,
+                char_vocab_size=config.char_vocab_size,
+                char_hidden_size=config.char_hidden_size,
+                num_layers=config.char_num_layers,
+                num_heads=config.char_num_heads,
+                max_lemma_length=config.max_lemma_length,
+                max_word_length=config.max_word_length,
+            )
+
         self._init_task_heads()
 
     def get_input_embeddings(self):
@@ -96,7 +127,7 @@ class EuroBertForUposLemma(PreTrainedModel):
         self.model.gradient_checkpointing_disable()
 
     def _init_task_heads(self):
-        for head in (self.upos_classifier, self.lemma_classifier):
+        for head in (self.upos_classifier, self.lemma_classifier, self.lemma_router):
             nn.init.normal_(head.weight, mean=0.0, std=0.02)
             if head.bias is not None:
                 nn.init.zeros_(head.bias)
@@ -108,6 +139,10 @@ class EuroBertForUposLemma(PreTrainedModel):
         token_type_ids: torch.Tensor | None = None,
         labels: torch.Tensor | None = None,
         upos_labels: torch.Tensor | None = None,
+        lemma_route: torch.Tensor | None = None,
+        lemma_chars: torch.Tensor | None = None,
+        word_chars: torch.Tensor | None = None,
+        word_char_mask: torch.Tensor | None = None,
         output_attentions: bool | None = None,
         output_hidden_states: bool | None = None,
         return_dict: bool | None = None,
@@ -128,10 +163,44 @@ class EuroBertForUposLemma(PreTrainedModel):
         sequence_output = self.dropout(backbone_outputs.last_hidden_state)
         upos_logits = self.upos_classifier(sequence_output)
         lemma_logits = self.lemma_classifier(sequence_output)
+        route_logits = self.lemma_router(sequence_output).squeeze(-1)
+
+        char_outputs = None
+        if self.char_generator is not None and word_chars is not None:
+            batch_size = backbone_outputs.last_hidden_state.shape[0]
+            seq_len = backbone_outputs.last_hidden_state.shape[1]
+            flat_batch = batch_size * seq_len
+            hidden_size = backbone_outputs.last_hidden_state.shape[2]
+
+            flat_encoder = backbone_outputs.last_hidden_state.reshape(
+                flat_batch, 1, hidden_size
+            )
+            flat_encoder_mask = None
+            if attention_mask is not None:
+                flat_encoder_mask = attention_mask.reshape(flat_batch, 1)
+
+            max_word_len = word_chars.shape[2]
+            flat_word_chars = word_chars.reshape(flat_batch, max_word_len)
+            flat_word_char_mask = word_char_mask.reshape(flat_batch, max_word_len)
+
+            flat_target_chars = None
+            if lemma_chars is not None:
+                max_lemma_len = lemma_chars.shape[2]
+                flat_target_chars = lemma_chars.reshape(flat_batch, max_lemma_len)
+
+            char_outputs = self.char_generator(
+                encoder_outputs=flat_encoder,
+                encoder_mask=flat_encoder_mask,
+                word_chars=flat_word_chars,
+                word_char_mask=flat_word_char_mask,
+                target_chars=flat_target_chars,
+            )
 
         loss = None
         upos_loss = None
         lemma_loss = None
+        route_loss = None
+        char_loss = None
 
         if upos_labels is not None:
             upos_loss = masked_cross_entropy(upos_logits, upos_labels)
@@ -139,20 +208,53 @@ class EuroBertForUposLemma(PreTrainedModel):
         if labels is not None:
             lemma_loss = masked_cross_entropy(lemma_logits, labels)
 
-        if upos_loss is not None and lemma_loss is not None:
-            loss = upos_loss + lemma_loss
-        elif upos_loss is not None:
-            loss = upos_loss
-        elif lemma_loss is not None:
-            loss = lemma_loss
+        if lemma_route is not None:
+            valid_route_mask = lemma_route.ne(-100)
+            if valid_route_mask.any():
+                route_loss = nn.functional.binary_cross_entropy_with_logits(
+                    route_logits[valid_route_mask],
+                    lemma_route[valid_route_mask].float(),
+                )
+
+        if (
+            char_outputs is not None
+            and lemma_chars is not None
+            and lemma_route is not None
+        ):
+            char_gen_mask = lemma_route == 1
+            if char_gen_mask.any() and char_outputs["char_logits"].shape[1] > 0:
+                char_logits = char_outputs["char_logits"]
+                flat_mask = char_gen_mask.reshape(-1)
+                if flat_mask.any():
+                    max_lemma_len = lemma_chars.shape[2]
+                    flat_lemma_chars = lemma_chars.reshape(-1, max_lemma_len)
+                    char_logits_shifted = char_logits[:, :-1, :]
+                    target_shifted = flat_lemma_chars[:, 1:]
+                    seq_len = min(
+                        char_logits_shifted.shape[1], target_shifted.shape[1]
+                    )
+                    if seq_len > 0:
+                        masked_logits = char_logits_shifted[flat_mask, :seq_len, :]
+                        masked_targets = target_shifted[flat_mask, :seq_len]
+                        char_loss = nn.functional.cross_entropy(
+                            masked_logits.reshape(
+                                -1, self.config.char_vocab_size
+                            ),
+                            masked_targets.reshape(-1),
+                            ignore_index=0,
+                        )
+
+        components = [v for v in [upos_loss, lemma_loss, route_loss, char_loss] if v is not None]
+        if components:
+            loss = sum(components)
 
         if not return_dict:
-            output = (upos_logits, lemma_logits)
+            output = (upos_logits, lemma_logits, route_logits)
             return ((loss,) + output) if loss is not None else output
 
         return TokenClassifierOutput(
             loss=loss,
-            logits=(upos_logits, lemma_logits),
+            logits=(upos_logits, lemma_logits, route_logits),
             hidden_states=backbone_outputs.hidden_states,
             attentions=backbone_outputs.attentions,
         )
@@ -166,6 +268,10 @@ class MultiTaskDataCollator:
     def __call__(self, features):
         lemma_labels = [feature.pop("labels") for feature in features]
         upos_labels = [feature.pop("upos_labels") for feature in features]
+        lemma_route = [feature.pop("lemma_route", None) for feature in features]
+        lemma_chars = [feature.pop("lemma_chars", None) for feature in features]
+        word_chars = [feature.pop("word_chars", None) for feature in features]
+
         model_features = [
             {
                 key: value
@@ -192,12 +298,42 @@ class MultiTaskDataCollator:
             dtype=torch.long,
         )
 
+        if lemma_route[0] is not None:
+            batch["lemma_route"] = torch.tensor(
+                [pad_label_sequence(values, seq_len) for values in lemma_route],
+                dtype=torch.long,
+            )
+
+        if lemma_chars[0] is not None:
+            max_lemma_len = len(lemma_chars[0][0])
+            padded_chars = []
+            for sent_chars in lemma_chars:
+                padded = list(sent_chars[:seq_len])
+                while len(padded) < seq_len:
+                    padded.append([0] * max_lemma_len)
+                padded_chars.append(padded[:seq_len])
+            batch["lemma_chars"] = torch.tensor(padded_chars, dtype=torch.long)
+
+        if word_chars[0] is not None:
+            max_word_len = len(word_chars[0][0])
+            padded_wchars = []
+            for sent_wchars in word_chars:
+                padded = list(sent_wchars[:seq_len])
+                while len(padded) < seq_len:
+                    padded.append([0] * max_word_len)
+                padded_wchars.append(padded[:seq_len])
+            batch["word_chars"] = torch.tensor(padded_wchars, dtype=torch.long)
+            batch["word_char_mask"] = (batch["word_chars"] != 0).long()
+
         return batch
 
 
 def unpack_multitask_logits(predictions):
+    if isinstance(predictions, (tuple, list)) and len(predictions) >= 3:
+        return predictions[0], predictions[1], predictions[2]
+
     if isinstance(predictions, (tuple, list)) and len(predictions) >= 2:
-        return predictions[0], predictions[1]
+        return predictions[0], predictions[1], None
 
     raise TypeError(f"Expected multitask logits tuple, got {type(predictions)!r}")
 
@@ -205,7 +341,8 @@ def unpack_multitask_logits(predictions):
 def compute_multitask_metrics(eval_pred):
     predictions = eval_pred.predictions
     label_ids = eval_pred.label_ids
-    upos_logits, lemma_logits = unpack_multitask_logits(predictions)
+
+    upos_logits, lemma_logits, route_logits = unpack_multitask_logits(predictions)
 
     if not isinstance(label_ids, (tuple, list)) or len(label_ids) < 2:
         raise TypeError(f"Expected multitask label tuple, got {type(label_ids)!r}")
@@ -229,6 +366,17 @@ def compute_multitask_metrics(eval_pred):
         "upos_accuracy": round(upos_correct / upos_total, 4) if upos_total else 0.0,
         "lemma_accuracy": round(lemma_correct / lemma_total, 4) if lemma_total else 0.0,
     }
+
+    if route_logits is not None and len(label_ids) >= 3:
+        route_labels = label_ids[2]
+        route_pred = (route_logits > 0).astype(int)
+        route_mask = route_labels != -100
+        if route_mask.any():
+            route_correct = int((route_pred[route_mask] == route_labels[route_mask]).sum())
+            route_total = int(route_mask.sum())
+            metrics["route_accuracy"] = (
+                round(route_correct / route_total, 4) if route_total else 0.0
+            )
 
     joint_total = upos_total + lemma_total
     joint_correct = upos_correct + lemma_correct
