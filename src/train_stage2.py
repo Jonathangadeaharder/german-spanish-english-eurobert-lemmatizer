@@ -90,12 +90,14 @@ def main():
         use_char_generator=True,
         char_vocab_size=char_vocab["vocab_size"],
         max_lemma_length=char_vocab["max_lemma_length"],
+        vocab_size=len(tokenizer),
     )
 
     model = EuroBertForUposLemma.from_pretrained(
         pretrained_dir,
         config=config,
         trust_remote_code=True,
+        ignore_mismatched_sizes=True,
     )
     model.resize_token_embeddings(len(tokenizer))
 
