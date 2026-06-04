@@ -183,7 +183,6 @@ class EuroBertForUposLemma(PreTrainedModel):
                 hidden = backbone_outputs.last_hidden_state
                 max_word_len = word_chars.shape[2]
                 max_lemma_len = lemma_chars.shape[2] if lemma_chars is not None else 1
-                hidden_size = hidden.shape[2]
 
                 selected_hidden = []
                 selected_mask = []
@@ -267,9 +266,18 @@ class EuroBertForUposLemma(PreTrainedModel):
                         ignore_index=0,
                     )
 
-        components = [v for v in [upos_loss, lemma_loss, route_loss, char_loss] if v is not None]
-        if components:
-            loss = sum(components)
+        trainable_components = []
+        if upos_loss is not None and self.upos_classifier.weight.requires_grad:
+            trainable_components.append(upos_loss)
+        if lemma_loss is not None and self.lemma_classifier.weight.requires_grad:
+            trainable_components.append(lemma_loss)
+        if route_loss is not None:
+            trainable_components.append(route_loss)
+        if char_loss is not None:
+            trainable_components.append(char_loss)
+
+        if trainable_components:
+            loss = sum(trainable_components)
 
         if not return_dict:
             output = (upos_logits, lemma_logits, route_logits)
