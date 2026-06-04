@@ -51,7 +51,8 @@ py-modules = [
   "merge_lora",
   "multitask_model",
   "package_web_model",
-  "train",
+   "train",
+   "train_stage2",
 ]
 
 [tool.uv]
