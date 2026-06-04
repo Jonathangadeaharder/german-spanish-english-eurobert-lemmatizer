@@ -188,7 +188,13 @@ class EuroBertForUposLemma(PreTrainedModel):
                 max_lemma_len = lemma_chars.shape[2]
                 flat_target_chars = lemma_chars.reshape(flat_batch, max_lemma_len)
 
-            char_outputs = self.char_generator(
+            char_gen = self.char_generator
+            if hasattr(char_gen, "modules_to_save"):
+                char_gen = char_gen.modules_to_save[char_gen.active_adapter]
+            elif hasattr(char_gen, "original_module"):
+                char_gen = char_gen.original_module
+
+            char_outputs = char_gen(
                 encoder_outputs=flat_encoder,
                 encoder_mask=flat_encoder_mask,
                 word_chars=flat_word_chars,
