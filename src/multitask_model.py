@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
+import numpy as np
 import torch
 from torch import nn
 from transformers import AutoConfig, AutoModel, PretrainedConfig, PreTrainedModel
@@ -43,6 +44,7 @@ class EuroBertUposLemmaConfig(PretrainedConfig):
         char_hidden_size: int = 256,
         char_num_layers: int = 2,
         char_num_heads: int = 4,
+        route_pos_weight: float = 17.5,
         **kwargs: Any,
     ) -> None:
         super().__init__(**kwargs)
@@ -58,6 +60,7 @@ class EuroBertUposLemmaConfig(PretrainedConfig):
         self.char_hidden_size = char_hidden_size
         self.char_num_layers = char_num_layers
         self.char_num_heads = char_num_heads
+        self.route_pos_weight = route_pos_weight
 
 
 class EuroBertForUposLemma(PreTrainedModel):
@@ -241,9 +244,15 @@ class EuroBertForUposLemma(PreTrainedModel):
         if lemma_route is not None:
             valid_route_mask = lemma_route.ne(-100)
             if valid_route_mask.any():
+                pos_weight = torch.tensor(
+                    self.config.route_pos_weight,
+                    device=route_logits.device,
+                    dtype=route_logits.dtype,
+                )
                 route_loss = nn.functional.binary_cross_entropy_with_logits(
                     route_logits[valid_route_mask],
                     lemma_route[valid_route_mask].float(),
+                    pos_weight=pos_weight,
                 )
 
         if (
@@ -371,6 +380,14 @@ def unpack_multitask_logits(predictions):
     raise TypeError(f"Expected multitask logits tuple, got {type(predictions)!r}")
 
 
+_lang_eval_indices: dict[str, np.ndarray] | None = None
+
+
+def set_lang_eval_indices(indices: dict[str, np.ndarray]) -> None:
+    global _lang_eval_indices
+    _lang_eval_indices = indices
+
+
 def compute_multitask_metrics(eval_pred):
     predictions = eval_pred.predictions
     label_ids = eval_pred.label_ids
@@ -410,6 +427,18 @@ def compute_multitask_metrics(eval_pred):
             metrics["route_accuracy"] = (
                 round(route_correct / route_total, 4) if route_total else 0.0
             )
+
+            if _lang_eval_indices is not None:
+                for lang, indices in _lang_eval_indices.items():
+                    lang_labels = route_labels[indices]
+                    lang_pred = route_pred[indices]
+                    lang_mask = lang_labels != -100
+                    if lang_mask.any():
+                        lang_correct = int((lang_pred[lang_mask] == lang_labels[lang_mask]).sum())
+                        lang_total = int(lang_mask.sum())
+                        metrics[f"route_accuracy_{lang}"] = (
+                            round(lang_correct / lang_total, 4) if lang_total else 0.0
+                        )
 
     joint_total = upos_total + lemma_total
     joint_correct = upos_correct + lemma_correct

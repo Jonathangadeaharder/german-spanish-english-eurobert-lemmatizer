@@ -13,6 +13,7 @@ import torch
 from datasets import load_from_disk
 from transformers import (
     AutoTokenizer,
+    EarlyStoppingCallback,
     Trainer,
     TrainingArguments,
 )
@@ -22,6 +23,7 @@ from multitask_model import (
     EuroBertUposLemmaConfig,
     MultiTaskDataCollator,
     compute_multitask_metrics,
+    set_lang_eval_indices,
 )
 from runtime_utils import MPSMemoryCleanupCallback, cleanup_torch_mps
 
@@ -91,6 +93,7 @@ def main():
         char_vocab_size=char_vocab["vocab_size"],
         max_lemma_length=char_vocab["max_lemma_length"],
         vocab_size=len(tokenizer),
+        route_pos_weight=env_float("TRAIN_ROUTE_POS_WEIGHT", 17.5),
     )
 
     model = EuroBertForUposLemma.from_pretrained(
@@ -140,6 +143,8 @@ def main():
     bf16 = env_bool("TRAIN_BF16", True)
     fp16 = env_bool("TRAIN_FP16", False)
     torch_empty_cache_steps = env_int("TRAIN_TORCH_EMPTY_CACHE_STEPS", 0) or None
+    max_grad_norm = env_float("TRAIN_MAX_GRAD_NORM", 1.0)
+    early_stopping_patience = env_int("TRAIN_EARLY_STOPPING_PATIENCE", 3)
 
     if bf16 and fp16:
         raise ValueError("Set only one of TRAIN_BF16 or TRAIN_FP16")
@@ -177,14 +182,31 @@ def main():
         length_column_name="length",
         gradient_checkpointing=gradient_checkpointing,
         load_best_model_at_end=load_best,
-        metric_for_best_model="joint_accuracy",
-        greater_is_better=True,
-        label_names=["labels", "upos_labels"],
+        metric_for_best_model="eval_loss",
+        greater_is_better=False,
+        label_names=["labels", "upos_labels", "lemma_route"],
         report_to="none",
         fp16=fp16,
         bf16=bf16,
         torch_empty_cache_steps=torch_empty_cache_steps,
+        max_grad_norm=max_grad_norm,
     )
+
+    callbacks = [MPSMemoryCleanupCallback()]
+
+    if early_stopping_patience > 0 and eval_during_training:
+        callbacks.append(
+            EarlyStoppingCallback(early_stopping_patience=early_stopping_patience)
+        )
+
+    if "lang" in dataset["validation"].column_names:
+        import numpy as _np
+
+        lang_indices = {}
+        langs = dataset["validation"]["lang"]
+        for lang in sorted(set(langs)):
+            lang_indices[lang] = _np.array([i for i, l in enumerate(langs) if l == lang])
+        set_lang_eval_indices(lang_indices)
 
     trainer = Trainer(
         model=model,
@@ -194,7 +216,7 @@ def main():
         processing_class=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_multitask_metrics,
-        callbacks=[MPSMemoryCleanupCallback()],
+        callbacks=callbacks,
     )
 
     trainer.train()
