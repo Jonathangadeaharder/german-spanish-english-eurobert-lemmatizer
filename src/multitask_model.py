@@ -165,42 +165,67 @@ class EuroBertForUposLemma(PreTrainedModel):
         lemma_logits = self.lemma_classifier(sequence_output)
         route_logits = self.lemma_router(sequence_output).squeeze(-1)
 
-        char_outputs = None
-        if self.char_generator is not None and word_chars is not None:
-            batch_size = backbone_outputs.last_hidden_state.shape[0]
-            seq_len = backbone_outputs.last_hidden_state.shape[1]
-            flat_batch = batch_size * seq_len
-            hidden_size = backbone_outputs.last_hidden_state.shape[2]
+        char_gen_result = None
+        sel_tc = None
+        if (
+            self.char_generator is not None
+            and word_chars is not None
+            and lemma_route is not None
+        ):
+            char_gen_mask = lemma_route == 1
+            if char_gen_mask.any():
+                char_gen = self.char_generator
+                if hasattr(char_gen, "modules_to_save"):
+                    char_gen = char_gen.modules_to_save[char_gen.active_adapter]
+                elif hasattr(char_gen, "original_module"):
+                    char_gen = char_gen.original_module
 
-            flat_encoder = backbone_outputs.last_hidden_state.reshape(
-                flat_batch, 1, hidden_size
-            )
-            flat_encoder_mask = None
-            if attention_mask is not None:
-                flat_encoder_mask = attention_mask.reshape(flat_batch, 1)
+                hidden = backbone_outputs.last_hidden_state
+                max_word_len = word_chars.shape[2]
+                max_lemma_len = lemma_chars.shape[2] if lemma_chars is not None else 1
+                hidden_size = hidden.shape[2]
 
-            max_word_len = word_chars.shape[2]
-            flat_word_chars = word_chars.reshape(flat_batch, max_word_len)
-            flat_word_char_mask = word_char_mask.reshape(flat_batch, max_word_len)
+                selected_hidden = []
+                selected_mask = []
+                selected_word_chars = []
+                selected_word_char_mask = []
+                selected_target_chars = []
 
-            flat_target_chars = None
-            if lemma_chars is not None:
-                max_lemma_len = lemma_chars.shape[2]
-                flat_target_chars = lemma_chars.reshape(flat_batch, max_lemma_len)
+                for b in range(hidden.shape[0]):
+                    for s in range(hidden.shape[1]):
+                        if char_gen_mask[b, s]:
+                            selected_hidden.append(hidden[b, s])
+                            if attention_mask is not None:
+                                selected_mask.append(attention_mask[b, s])
+                            selected_word_chars.append(
+                                word_chars[b, s, :max_word_len]
+                            )
+                            selected_word_char_mask.append(
+                                word_char_mask[b, s, :max_word_len]
+                            )
+                            if lemma_chars is not None:
+                                selected_target_chars.append(
+                                    lemma_chars[b, s, :max_lemma_len]
+                                )
 
-            char_gen = self.char_generator
-            if hasattr(char_gen, "modules_to_save"):
-                char_gen = char_gen.modules_to_save[char_gen.active_adapter]
-            elif hasattr(char_gen, "original_module"):
-                char_gen = char_gen.original_module
+                if selected_hidden:
+                    sel_hidden = torch.stack(selected_hidden).unsqueeze(1)
+                    sel_mask = None
+                    if attention_mask is not None:
+                        sel_mask = torch.stack(selected_mask).unsqueeze(1)
+                    sel_wc = torch.stack(selected_word_chars)
+                    sel_wcm = torch.stack(selected_word_char_mask)
+                    sel_tc = None
+                    if selected_target_chars:
+                        sel_tc = torch.stack(selected_target_chars)
 
-            char_outputs = char_gen(
-                encoder_outputs=flat_encoder,
-                encoder_mask=flat_encoder_mask,
-                word_chars=flat_word_chars,
-                word_char_mask=flat_word_char_mask,
-                target_chars=flat_target_chars,
-            )
+                    char_gen_result = char_gen(
+                        encoder_outputs=sel_hidden,
+                        encoder_mask=sel_mask,
+                        word_chars=sel_wc,
+                        word_char_mask=sel_wcm,
+                        target_chars=sel_tc,
+                    )
 
         loss = None
         upos_loss = None
@@ -223,32 +248,24 @@ class EuroBertForUposLemma(PreTrainedModel):
                 )
 
         if (
-            char_outputs is not None
-            and lemma_chars is not None
-            and lemma_route is not None
+            char_gen_result is not None
+            and sel_tc is not None
         ):
-            char_gen_mask = lemma_route == 1
-            if char_gen_mask.any() and char_outputs["char_logits"].shape[1] > 0:
-                char_logits = char_outputs["char_logits"]
-                flat_mask = char_gen_mask.reshape(-1)
-                if flat_mask.any():
-                    max_lemma_len = lemma_chars.shape[2]
-                    flat_lemma_chars = lemma_chars.reshape(-1, max_lemma_len)
-                    char_logits_shifted = char_logits[:, :-1, :]
-                    target_shifted = flat_lemma_chars[:, 1:]
-                    seq_len = min(
-                        char_logits_shifted.shape[1], target_shifted.shape[1]
+            char_logits = char_gen_result["char_logits"]
+            if char_logits.shape[1] > 0:
+                char_logits_shifted = char_logits[:, :-1, :]
+                target_shifted = sel_tc[:, 1:]
+                seq_len = min(
+                    char_logits_shifted.shape[1], target_shifted.shape[1]
+                )
+                if seq_len > 0:
+                    char_loss = nn.functional.cross_entropy(
+                        char_logits_shifted[:, :seq_len, :].reshape(
+                            -1, self.config.char_vocab_size
+                        ),
+                        target_shifted[:, :seq_len].reshape(-1),
+                        ignore_index=0,
                     )
-                    if seq_len > 0:
-                        masked_logits = char_logits_shifted[flat_mask, :seq_len, :]
-                        masked_targets = target_shifted[flat_mask, :seq_len]
-                        char_loss = nn.functional.cross_entropy(
-                            masked_logits.reshape(
-                                -1, self.config.char_vocab_size
-                            ),
-                            masked_targets.reshape(-1),
-                            ignore_index=0,
-                        )
 
         components = [v for v in [upos_loss, lemma_loss, route_loss, char_loss] if v is not None]
         if components:
