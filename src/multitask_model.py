@@ -278,6 +278,8 @@ class EuroBertForUposLemma(PreTrainedModel):
 
         if trainable_components:
             loss = sum(trainable_components)
+        else:
+            loss = route_logits.sum() * 0.0
 
         if not return_dict:
             output = (upos_logits, lemma_logits, route_logits)
