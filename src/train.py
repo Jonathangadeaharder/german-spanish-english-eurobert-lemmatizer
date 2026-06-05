@@ -30,11 +30,8 @@ from runtime_utils import MPSMemoryCleanupCallback, cleanup_torch_mps
 MODEL_ID = "EuroBERT/EuroBERT-210m"
 TOKENIZER_DIR = "artifacts/tokenizer"
 DATASET_PATH = "data/processed/eurobert_multilingual_lemma_dataset"
-CHAR_DATASET_PATH = "data/processed/eurobert_char_lemma_dataset"
 LABEL2ID_PATH = "artifacts/label2id.json"
-LABEL2ID_TOP300_PATH = "artifacts/label2id_top300.json"
 UPOS_LABEL2ID_PATH = "artifacts/upos_label2id.json"
-CHAR_VOCAB_PATH = "artifacts/char_vocab.json"
 DEFAULT_OUTPUT_DIR = "runs/eurobert-multilingual-lemma-210m-lora"
 LANGUAGE_TOKENS = ["[LANG_DE]", "[LANG_ES]", "[LANG_EN]"]
 
@@ -157,8 +154,13 @@ def main():
     warn_if_rosetta()
 
     use_char_gen = env_bool("TRAIN_USE_CHAR_GENERATOR", False)
+    if use_char_gen:
+        raise ValueError(
+            "TRAIN_USE_CHAR_GENERATOR is no longer supported. "
+            "Use the edit-tree lemma classifier path."
+        )
 
-    label2id_path = LABEL2ID_TOP300_PATH if use_char_gen else LABEL2ID_PATH
+    label2id_path = LABEL2ID_PATH
     label2id = load_json(label2id_path)
     upos_label2id = load_json(UPOS_LABEL2ID_PATH)
     output_dir = env_str("OUTPUT_DIR", DEFAULT_OUTPUT_DIR)
@@ -177,12 +179,6 @@ def main():
         "lemma_label2id": label2id,
     }
 
-    if use_char_gen:
-        char_vocab = load_json(CHAR_VOCAB_PATH)
-        config_kwargs["use_char_generator"] = True
-        config_kwargs["char_vocab_size"] = char_vocab["vocab_size"]
-        config_kwargs["max_lemma_length"] = char_vocab["max_lemma_length"]
-
     config = EuroBertUposLemmaConfig(**config_kwargs)
 
     model = EuroBertForUposLemma.from_pretrained(
@@ -194,8 +190,6 @@ def main():
     model.resize_token_embeddings(len(tokenizer))
 
     modules_to_save = ["upos_classifier", "lemma_classifier", "lemma_router"]
-    if use_char_gen:
-        modules_to_save.append("char_generator")
 
     lora_config = LoraConfig(
         task_type=TaskType.TOKEN_CLS,
@@ -218,8 +212,7 @@ def main():
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
 
-    dataset_path = CHAR_DATASET_PATH if use_char_gen else DATASET_PATH
-    dataset = load_from_disk(dataset_path)
+    dataset = load_from_disk(DATASET_PATH)
     eval_limit = int(os.getenv("TRAIN_EVAL_LIMIT", "0"))
     if eval_limit > 0:
         dataset = dataset.copy()
