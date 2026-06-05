@@ -36,6 +36,13 @@ Expected improvement: OOV accuracy from 65-74% → 85-90% (+20-25 percentage poi
 
 ### Recommended: Hybrid Approach (Option C)
 
+> **Status:** Partially implemented. The routing head (`lemma_router`) and data pipeline
+> (`make_char_dataset.py`, `build_char_vocab.py`) exist in `src/`. The `PointerGenerator`
+> module is archived at `archive/char_generator.py`. The character generator is currently
+> **disabled** in the production build — `use_char_generator=True` raises `ValueError` in
+> both `multitask_model.py` and `train.py`. The model trains and evaluates using only the
+> edit-tree classifier + lexicon fallback path.
+
 ```
 Input: word + context (from EuroBERT encoder)
          ↓
@@ -66,7 +73,7 @@ Apply tree   Generate lemma
    - 301 classes instead of 3,981
    - Much easier to learn (higher accuracy on common patterns)
 
-3. **Character Generator** (new)
+3. **Character Generator** (new — currently archived at `archive/char_generator.py`; disabled in production)
    - Pointer-generator network
    - Can copy characters from input word OR generate new characters
    - Handles arbitrary transformations including unseen patterns
@@ -138,8 +145,8 @@ def make_char_dataset():
 
 **Key decisions:**
 - Character vocabulary: Unicode characters seen in training (likely 200-500 chars)
-- Max lemma length: 30 characters (covers 99.9% of lemmas)
-- Special tokens: `<BOS>`, `<EOS>`, `<PAD>`, `<COPY>`
+- Max lemma length: 32 characters (covers 99.9% of lemmas; config default is 32)
+- Special tokens: `<PAD>`, `<BOS>`, `<EOS>`, `<UNK>` (as implemented in `build_char_vocab.py`; no `<COPY>` token)
 
 #### 1.2 Build character vocabulary
 
@@ -152,9 +159,11 @@ def build_char_vocab():
     
     Output: artifacts/char_vocab.json
     {
-        "char2id": {"a": 0, "b": 1, ...},
-        "id2char": {"0": "a", "1": "b", ...},
-        "special_tokens": ["<BOS>", "<EOS>", "<PAD>", "<COPY>"]
+        "char2id": {"a": 4, "b": 5, ...},   # IDs 0-3 reserved for special tokens
+        "id2char": {"4": "a", "5": "b", ...},
+        "special_tokens": ["<PAD>", "<BOS>", "<EOS>", "<UNK>"],
+        "vocab_size": <total count>,
+        "max_lemma_length": 32
     }
     """
 ```
@@ -190,24 +199,26 @@ class EuroBertUposLemmaConfig(PretrainedConfig):
         upos_label2id: dict[str, int] | None = None,
         lemma_label2id: dict[str, int] | None = None,
         # NEW: character generation config
-        char_vocab_size: int = 300,
-        max_lemma_length: int = 30,
+        char_vocab_size: int = 276,
+        max_lemma_length: int = 32,
+        max_word_length: int = 64,
         char_hidden_size: int = 256,
         char_num_layers: int = 2,
         char_num_heads: int = 4,
+        route_pos_weight: float = 17.5,
         use_char_generator: bool = True,
-        routing_threshold: float = 0.5,
         **kwargs: Any,
     ) -> None:
         super().__init__(**kwargs)
         # ... existing code ...
         self.char_vocab_size = char_vocab_size
         self.max_lemma_length = max_lemma_length
+        self.max_word_length = max_word_length
         self.char_hidden_size = char_hidden_size
         self.char_num_layers = char_num_layers
         self.char_num_heads = char_num_heads
+        self.route_pos_weight = route_pos_weight
         self.use_char_generator = use_char_generator
-        self.routing_threshold = routing_threshold
 ```
 
 #### 2.2 Add character generator module
@@ -249,7 +260,7 @@ class PointerGenerator(nn.Module):
         self.copy_output = nn.Linear(config.char_hidden_size, 1)  # copy probability
         
         # Projection from encoder hidden size to decoder hidden size
-        self.encoder_proj = nn.Linear(768, config.char_hidden_size)  # EuroBERT hidden=768
+        self.encoder_proj = nn.Linear(768, config.char_hidden_size)  # EuroBERT-210m hidden=768
     
     def forward(
         self,
@@ -307,16 +318,18 @@ class EuroBertForUposLemma(PreTrainedModel):
         super().__init__(config)
         # ... existing code ...
         
-        # Reduced edit tree classifier (top 300 + UNKNOWN)
-        self.lemma_tree_classifier = nn.Linear(hidden_size, 301)
+        # Existing edit tree classifier (uses full label2id vocabulary, not reduced to top 300)
+        self.lemma_classifier = nn.Linear(hidden_size, len(config.lemma_label2id))
         
         # Routing head
         self.lemma_router = nn.Linear(hidden_size, 1)
         
-        # Character generator (optional)
+        # Character generator (optional — currently raises ValueError if enabled)
         if config.use_char_generator:
-            from char_generator import PointerGenerator
-            self.char_generator = PointerGenerator(config)
+            raise ValueError(
+                "Character-generator lemma decoding is not supported in this build. "
+                "Use the edit-tree lemma classifier path."
+            )
         
         self._init_task_heads()
     
@@ -338,8 +351,8 @@ class EuroBertForUposLemma(PreTrainedModel):
         sequence_output = self.dropout(backbone_outputs.last_hidden_state)
         upos_logits = self.upos_classifier(sequence_output)
         
-        # Edit tree logits (reduced vocabulary)
-        tree_logits = self.lemma_tree_classifier(sequence_output)
+        # Edit tree logits (full vocabulary, not reduced)
+        tree_logits = self.lemma_classifier(sequence_output)
         
         # Routing logits
         route_logits = self.lemma_router(sequence_output).squeeze(-1)
@@ -384,13 +397,8 @@ class EuroBertForUposLemma(PreTrainedModel):
                 )
                 loss = loss + char_loss if loss is not None else char_loss
         
-        # Return outputs
-        logits = {
-            "upos": upos_logits,
-            "tree": tree_logits,
-            "route": route_logits,
-            "char": char_outputs,
-        }
+        # Return outputs (actual code returns TokenClassifierOutput with logits as tuple)
+        logits = (upos_logits, lemma_logits, route_logits)
         
         return TokenClassifierOutput(
             loss=loss,
@@ -571,20 +579,21 @@ def evaluate():
         outputs = model(**batch)
         
         # UPOS predictions (existing)
-        upos_preds = outputs.logits["upos"].argmax(-1)
+        upos_preds = outputs.logits[0].argmax(axis=-1)
         
-        # Lemma predictions (new hybrid approach)
-        route_preds = torch.sigmoid(outputs.logits["route"])
-        tree_preds = outputs.logits["tree"].argmax(-1)
+        # Lemma predictions (hybrid approach — not yet implemented;
+        # current evaluate.py uses constrained label selection + lexicon fallback)
+        route_preds = (outputs.logits[2] > 0).astype(int)
+        tree_preds = outputs.logits[1].argmax(axis=-1)
         
-        for i, (route_prob, tree_pred) in enumerate(zip(route_preds, tree_preds)):
-            if route_prob < config.routing_threshold:
+        for i, (route_pred, tree_pred) in enumerate(zip(route_preds, tree_preds)):
+            if route_pred == 0:
                 # Use edit tree
-                lemma_pred = apply_edit_tree(tree_pred, word)
+                base_label = strip_prefix(id2label[str(tree_pred)], lang)
+                lemma_pred = apply_edit_label(word, base_label)
             else:
-                # Use character generator
-                char_outputs = outputs.logits["char"]
-                lemma_pred = decode_characters(char_outputs[i], id2char)
+                # Use character generator (not yet available)
+                lemma_pred = word
             
             # Compare with gold lemma
             # ...
@@ -592,7 +601,7 @@ def evaluate():
 
 #### 4.2 Character decoding
 
-**New function in `src/char_generator.py`**
+**New function in `archive/char_generator.py`** (archived; not in `src/`)
 
 ```python
 def decode_characters(
@@ -642,11 +651,16 @@ def decode_characters(
 
 **Modify: `src/export_onnx.py`**
 
+> **Note:** The current `export_onnx.py` exports only `upos_logits` and `lemma_logits`
+> (via `MultiTaskExportWrapper` which returns `outputs.logits[0], outputs.logits[1]`).
+> The route logits are not included in the ONNX export. This section describes the
+> future two-model export for when the char generator is enabled.
+
 ```python
 def export():
     # ... existing code ...
     
-    # Export both paths
+    # Export both paths (future: when char generator is enabled)
     # 1. Edit tree path (fast, for common cases)
     # 2. Character generator path (slower, for rare cases)
     
@@ -684,7 +698,11 @@ def export():
 
 #### 5.1 Update web inference
 
-**Modify: `web/src/lemmatizer.js`**
+**Modify: `web/demo.js`** (actual runtime file; plan originally referenced non-existent `web/src/lemmatizer.js`)
+
+> **Note:** The current `web/demo.js` uses a single ONNX model that outputs `upos_logits`
+> and `lemma_logits`. The routing/char-gen two-model architecture below is the target
+> design once the char generator is enabled.
 
 ```javascript
 class Lemmatizer {
@@ -748,19 +766,19 @@ Test on held-out data:
 ## File Changes Summary
 
 ### New Files
-1. `src/char_generator.py` - Pointer-generator network
+1. `src/char_generator.py` → **archived** at `archive/char_generator.py` (Pointer-generator network; disabled in production)
 2. `src/make_char_dataset.py` - Convert dataset to character-level format
 3. `src/build_char_vocab.py` - Build character vocabulary
-4. `src/benchmark_char_gen.py` - Performance benchmarking
-5. `configs/mps-char-gen.toml` - Training config for character generation
+4. `src/benchmark_char_gen.py` - Performance benchmarking (not yet created)
+5. `configs/mps-char-gen.toml` - Training config for character generation (not yet created)
 
 ### Modified Files
-1. `src/multitask_model.py` - Add routing head, character generator, updated collator
-2. `src/build_labels.py` - Identify top 300 edit trees
-3. `src/train.py` - Two-stage training pipeline
-4. `src/evaluate.py` - Hybrid inference logic
-5. `src/export_onnx.py` - Export both models
-6. `web/src/lemmatizer.js` - Hybrid inference in browser
+1. `src/multitask_model.py` - Add routing head, char generator placeholder (disabled), updated collator
+2. `src/build_labels.py` - Identify top 300 edit trees, produce `label2id_top300.json` and `top_edit_trees.json`
+3. `src/train.py` - Rejects `TRAIN_USE_CHAR_GENERATOR=True` with `ValueError`
+4. `src/evaluate.py` - Constrained label selection, lexicon fallback, PROPN gating
+5. `src/export_onnx.py` - Exports only upos_logits and lemma_logits (no route_logits)
+6. `web/postprocess.js` - Edit-tree application, language-prefix stripping, lexicon lookup
 
 ### New Artifacts
 1. `artifacts/char_vocab.json` - Character vocabulary
