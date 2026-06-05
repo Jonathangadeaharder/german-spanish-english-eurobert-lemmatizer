@@ -398,7 +398,7 @@ class EuroBertForUposLemma(PreTrainedModel):
                 loss = loss + char_loss if loss is not None else char_loss
         
         # Return outputs (actual code returns TokenClassifierOutput with logits as tuple)
-        logits = (upos_logits, lemma_logits, route_logits)
+        logits = (upos_logits, tree_logits, route_logits)
         
         return TokenClassifierOutput(
             loss=loss,
@@ -583,13 +583,15 @@ def evaluate():
         
         # Lemma predictions (hybrid approach — not yet implemented;
         # current evaluate.py uses constrained label selection + lexicon fallback)
-        route_preds = (outputs.logits[2] > 0).astype(int)
+        route_preds = (outputs.logits[2] > 0).int()
         tree_preds = outputs.logits[1].argmax(axis=-1)
         
         for i, (route_pred, tree_pred) in enumerate(zip(route_preds, tree_preds)):
             if route_pred == 0:
                 # Use edit tree
-                base_label = strip_prefix(id2label[str(tree_pred)], lang)
+                expected_prefix = f"{lang}::"
+                label = id2label[str(tree_pred)]
+                base_label = label[len(expected_prefix):] if label.startswith(expected_prefix) else None
                 lemma_pred = apply_edit_label(word, base_label)
             else:
                 # Use character generator (not yet available)
