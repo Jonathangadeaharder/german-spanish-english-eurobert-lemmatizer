@@ -2,18 +2,18 @@
 
 ## Goal
 
-Build one EuroBERT-610m multilingual token classifier for German, Spanish, and English. The model predicts one language-specific edit-tree label per original word. Runtime applies the predicted edit label in JavaScript and returns `{ word, lemma, lang }`.
+Build one EuroBERT-210m multilingual token classifier for German, Spanish, and English. The model predicts UPOS, a language-specific edit-tree label, and a routing signal per original word. Runtime applies the predicted edit label in JavaScript and returns `{ word, upos, lemma, lang }`, setting `lemma` to `null` when UPOS is `PROPN`.
 
 Do not train three separate models for v1.
 
 ## Fixed decisions
 
-- Base model: `EuroBERT/EuroBERT-610m`
+- Base model: `EuroBERT/EuroBERT-210m`
 - Languages: German, Spanish, English
 - Task: token classification
 - Input: sentence + language code
-- Output: one edit-tree label per token
-- Runtime output: `[{ "word": "...", "lemma": "...", "lang": "de" }]`
+- Output: UPOS label, edit-tree label, and route signal per token
+- Runtime output: `[{ "word": "...", "upos": "...", "lemma": "...", "lang": "de" }]` (lemma is `null` for PROPN)
 - Training framework: Hugging Face Transformers
 - Fine-tuning method: LoRA first
 - Deployment target: ONNX + Transformers.js
@@ -64,7 +64,15 @@ If the model predicts an English label for a German word, ignore it and fall bac
 ```text
 german-spanish-english-eurobert-lemmatizer/
   README.md
+  pyproject.toml
   requirements.txt
+
+  configs/
+    mps-full.toml
+    smoke.toml
+
+  scripts/
+    bootstrap_arm64_venv.sh
 
   data/
     gold/
@@ -85,22 +93,42 @@ german-spanish-english-eurobert-lemmatizer/
   artifacts/
     label2id.json
     id2label.json
+    label2id_top300.json
+    id2label_top300.json
+    upos_label2id.json
+    upos_id2label.json
     edit_trees.json
+    top_edit_trees.json
+    lexicon.json
     exceptions.json
+    char_vocab.json
+    tokenizer/
 
   src/
+    cli.py
+    config.py
     conllu_reader.py
     edit_trees.py
     build_labels.py
+    build_char_vocab.py
     make_dataset.py
+    make_char_dataset.py
+    multitask_model.py
     train.py
     evaluate.py
     merge_lora.py
     export_onnx.py
+    package_web_model.py
+    fetch_ud.py
+    runtime_utils.py
+    benchmark_mps.py
 
   web/
     postprocess.js
     demo.js
+    model/
+
+  tests/
 ```
 
 ## Data placement
@@ -201,11 +229,10 @@ artifacts/tokenizer
 ## Step 6: Train multilingual EuroBERT
 
 Use:
-
-- `MODEL_ID = "EuroBERT/EuroBERT-610m"`
+- `MODEL_ID = "EuroBERT/EuroBERT-210m"`
 - `TOKENIZER_DIR = "artifacts/tokenizer"`
 - `DATASET_PATH = "data/processed/eurobert_multilingual_lemma_dataset"`
-- `OUTPUT_DIR = "runs/eurobert-multilingual-lemma-610m-lora"`
+- `OUTPUT_DIR = "runs/eurobert-multilingual-lemma-210m-lora"`
 
 Load tokenizer from `TOKENIZER_DIR`.
 
@@ -248,7 +275,7 @@ wrong-language-label rate <= 0.02 per language
 
 ## Step 8: JavaScript postprocessor must be language-aware
 
-Replace `web/postprocess.js` so it strips a language prefix, applies an edit label, tokenizes simple text, and maps language codes to `[LANG_*]` tokens.
+Replace `web/postprocess.js` so it strips a language prefix, applies an edit label, resolves lemmas with lexicon fallback, tokenizes simple text, and maps language codes to `[LANG_*]` tokens.
 
 ## Step 9: JavaScript runtime API
 
@@ -272,39 +299,38 @@ The runtime should:
 - prepend the correct language token
 - validate that predicted labels match the requested language prefix
 - apply edit-tree labels in JavaScript
-- fall back to the original word on invalid or mismatched labels
+- fall back to lexicon lookup on invalid or mismatched labels
+- fall back to the original word if lexicon has no entry
+- set `lemma` to `null` when predicted UPOS is `PROPN`
 
 ## Step 10: Multilingual command sequence
 
 Run:
 
 ```bash
-source .venv/bin/activate
-export PYTORCH_ENABLE_MPS_FALLBACK=1
+uv run --active --no-sync eurobert-lemma prepare
+uv run --active --no-sync eurobert-lemma train --profile mps-full
+uv run --active --no-sync eurobert-lemma evaluate --profile mps-full
+uv run --active --no-sync eurobert-lemma merge --profile mps-full
+uv run --active --no-sync eurobert-lemma export-onnx --profile mps-full
+uv run --active --no-sync eurobert-lemma package-web --profile mps-full
+```
 
-PYTHONPATH=src python src/build_labels.py
-PYTHONPATH=src python src/make_dataset.py
-PYTHONPATH=src python src/train.py
-PYTHONPATH=src python src/evaluate.py
-PYTHONPATH=src python src/merge_lora.py
-PYTHONPATH=src python src/export_onnx.py
+Or use the pipeline command:
+
+```bash
+uv run --active --no-sync eurobert-lemma pipeline --profile mps-full
 ```
 
 Copy web artifacts:
 
 ```bash
-mkdir -p web/model
-
-cp -r onnx/eurobert-multilingual-lemma-610m/* web/model/
-cp artifacts/id2label.json web/model/
-cp artifacts/edit_trees.json web/model/
-
-cp models/eurobert-multilingual-lemma-610m-merged/config.json web/model/
-cp models/eurobert-multilingual-lemma-610m-merged/tokenizer.json web/model/
-cp models/eurobert-multilingual-lemma-610m-merged/tokenizer_config.json web/model/
-cp models/eurobert-multilingual-lemma-610m-merged/special_tokens_map.json web/model/
+# Already done by the package-web command, which copies:
+# onnx/eurobert-multilingual-lemma-210m/model.onnx → web/model/
+# artifacts/{id2label,edit_trees,lexicon,...}.json → web/model/
+# models/eurobert-multilingual-lemma-210m-merged/{config,tokenizer,...}.json → web/model/
 ```
 
 ## Dumb-model one-sentence instruction
 
-Build one EuroBERT-610m multilingual token classifier for German, Spanish, and English by prepending `[LANG_DE]`, `[LANG_ES]`, or `[LANG_EN]`, training it to predict language-prefixed edit-tree labels like `de::P4|S0|Ds|I`, evaluating by applying those labels back into lemmas, exporting to ONNX, and using JavaScript only for tokenization, language-prefix validation, and edit-tree postprocessing.
+Build one EuroBERT-210m multilingual token classifier for German, Spanish, and English by prepending `[LANG_DE]`, `[LANG_ES]`, or `[LANG_EN]`, training it to predict UPOS tags, language-prefixed edit-tree labels like `de::P4|S0|Ds|I`, and a routing signal, evaluating by applying those labels back into lemmas (with PROPN lemma gated to null), exporting to ONNX, and using JavaScript only for tokenization, language-prefix validation, edit-tree postprocessing, and lexicon fallback.

@@ -1,21 +1,33 @@
 # Selective Forward + Two-Stage Training Implementation Plan
 
+> **Status:** Partially implemented. The selective forward char_loss fix (Task 1) is already
+> applied in `src/multitask_model.py` (lines 164-269). The char generator module is archived
+> at `archive/char_generator.py` and disabled in the production build. `train_stage2.py` is
+> archived at `archive/train_stage2.py`. The `configs/mps-stage2.toml` config has not been
+> created. Stage 2 training has not been run.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Fix the OOM crash by running the char generator only on route=1 tokens (~5% of batch), and train it in a second stage with a frozen backbone.
 
-**Architecture:** Stage 1 (already done): backbone + edit tree classifier trained to 94-98% accuracy. Stage 2: freeze backbone + edit tree, train only the routing head + char generator on the residual ~5% of tokens that need character-level generation. Selective forward gathers only route=1 tokens before passing to the char generator, reducing memory from O(batch × seq_len) to O(batch × seq_len × 0.05).
+**Architecture:** Stage 1 (already done): backbone + edit tree classifier trained to 94-98% accuracy. Stage 2: freeze backbone + edit tree, train only the routing head + char generator on the residual ~5% of tokens that need character-level generation. Selective forward gathers only route=1 tokens before passing to the char generator, reducing memory from O(batch x seq_len) to O(batch x seq_len x 0.05).
+
+**Current state:** The char generator is disabled. `use_char_generator=True` raises `ValueError` in both `multitask_model.py` and `train.py`. The routing head (`lemma_router`) and selective forward infrastructure exist but are unused.
 
 **Tech Stack:** PyTorch, PEFT/LoRA, Transformers, MPS (Apple Silicon)
 
 ---
 
-### Task 1: Fix selective forward in multitask_model.py
+### Task 1: Fix selective forward in multitask_model.py ✅ DONE
 
 **Files:**
 - Modify: `src/multitask_model.py:168-280`
 
 The selective forward is partially implemented but has a bug: the char_loss block references `char_outputs` which was renamed to `char_gen_result`. Also, the char_loss logic still assumes flat-batch shape. Fix both.
+
+> **Already applied.** The current `src/multitask_model.py` uses `char_gen_result` (line 164),
+> `sel_tc = None` (line 165), and the corrected char_loss block (lines 251-269).
+> Note: `self.char_generator` raises `ValueError` on init, so this code path is unreachable.
 
 - [ ] **Step 1: Replace the char_loss block to use `char_gen_result`**
 
@@ -77,12 +89,15 @@ git commit -m "fix: selective forward char_loss uses char_gen_result"
 
 ---
 
-### Task 2: Create stage-2 training script
+### Task 2: Create stage-2 training script ⚠️ ARCHIVED
 
 **Files:**
-- Create: `src/train_stage2.py`
+- Create: `src/train_stage2.py` → **archived at** `archive/train_stage2.py`
 
 Stage 2 loads the existing trained model, freezes the backbone + edit tree classifier, and trains only the routing head + char generator.
+
+> **Note:** `train_stage2.py` exists in `archive/`, not `src/`. It is not registered in
+> `pyproject.toml` py-modules. The char generator is disabled in the production build.
 
 - [ ] **Step 1: Write `src/train_stage2.py`**
 
@@ -329,10 +344,13 @@ git commit -m "feat: add stage 2 training script (frozen backbone + char gen)"
 
 ---
 
-### Task 3: Create stage-2 config
+### Task 3: Create stage-2 config ⚠️ NOT CREATED
 
 **Files:**
-- Create: `configs/mps-stage2.toml`
+- Create: `configs/mps-stage2.toml` → **does not exist**
+
+> **Note:** The `configs/` directory contains `mps-full.toml` and `smoke.toml` only.
+> No `mps-stage2.toml` has been created.
 
 - [ ] **Step 1: Write the config**
 
@@ -441,12 +459,17 @@ Expected: Training completes all epochs. Memory stays stable. Loss converges.
 
 ---
 
-### Task 6: Update evaluate.py for stage 2 model
+### Task 6: Update evaluate.py for stage 2 model ⚠️ NOT NEEDED YET
 
 **Files:**
 - Modify: `src/evaluate.py`
 
 The evaluate script needs to load the stage 2 model (which has char_generator + router but uses the full label2id, not top-300).
+
+> **Note:** The current `evaluate.py` loads the LoRA adapter and uses constrained label
+> selection with lexicon fallback. It does not have `EVAL_USE_CHAR_GENERATOR` or
+> `EVAL_STAGE2` support. Since the char generator is disabled, these additions are
+> deferred until stage 2 is enabled.
 
 - [ ] **Step 1: Update model loading to support stage 2**
 
