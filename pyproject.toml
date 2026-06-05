@@ -36,9 +36,7 @@ dev = [
 package-dir = {"" = "src"}
 py-modules = [
   "benchmark_mps",
-  "build_char_vocab",
   "build_labels",
-  "char_generator",
   "cli",
   "config",
   "conllu_reader",
@@ -46,13 +44,11 @@ py-modules = [
   "evaluate",
   "export_onnx",
   "fetch_ud",
-  "make_char_dataset",
   "make_dataset",
   "merge_lora",
   "multitask_model",
   "package_web_model",
-   "train",
-   "train_stage2",
+  "train",
 ]
 
 [tool.uv]

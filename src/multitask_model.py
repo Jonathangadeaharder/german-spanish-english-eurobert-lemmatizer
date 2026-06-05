@@ -103,16 +103,9 @@ class EuroBertForUposLemma(PreTrainedModel):
 
         self.char_generator = None
         if config.use_char_generator:
-            from char_generator import PointerGenerator
-
-            self.char_generator = PointerGenerator(
-                encoder_hidden_size=hidden_size,
-                char_vocab_size=config.char_vocab_size,
-                char_hidden_size=config.char_hidden_size,
-                num_layers=config.char_num_layers,
-                num_heads=config.char_num_heads,
-                max_lemma_length=config.max_lemma_length,
-                max_word_length=config.max_word_length,
+            raise ValueError(
+                "Character-generator lemma decoding is not supported in this build. "
+                "Use the edit-tree lemma classifier path."
             )
 
         self._init_task_heads()
