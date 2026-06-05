@@ -111,6 +111,6 @@ def test_multitask_model_loads_backbone_config_as_keyword_and_initializes_heads(
         "attention_mask": torch.tensor([[1, 1, 1]]),
     }
     out = model(**batch)
-    upos_logits, lemma_logits = out.logits
+    upos_logits, lemma_logits, route_logits = out.logits
     assert torch.isfinite(upos_logits).all().item()
     assert torch.isfinite(lemma_logits).all().item()
