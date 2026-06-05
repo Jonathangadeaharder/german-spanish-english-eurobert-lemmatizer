@@ -12,8 +12,8 @@ from transformers import AutoTokenizer
 from edit_trees import apply_edit_label
 from multitask_model import EuroBertForUposLemma, EuroBertUposLemmaConfig
 
-
-MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-lora"
+MODEL_DIR = "runs/eurobert-multilingual-lemma-210m-lora-full-mpsfix"
+TOKENIZER_DIR = "artifacts/tokenizer"
 DATASET_PATH = "data/processed/eurobert_multilingual_lemma_dataset"
 LABEL2ID_PATH = "artifacts/label2id.json"
 ID2LABEL_PATH = "artifacts/id2label.json"
@@ -35,6 +35,11 @@ def load_json(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def env_int(name, default):
+    value = os.getenv(name)
+    return default if value is None or value == "" else int(value)
+
+
 def get_device():
     if torch.cuda.is_available():
         return torch.device("cuda")
@@ -49,7 +54,11 @@ def build_candidate_label_ids(id2label):
     candidate_ids = {}
 
     for lang in LANGS:
-        ids = [int(label_id) for label_id, label in id2label.items() if label != "UNKNOWN" and label.startswith(f"{lang}::")]
+        ids = [
+            int(label_id)
+            for label_id, label in id2label.items()
+            if label != "UNKNOWN" and label.startswith(f"{lang}::")
+        ]
         candidate_ids[lang] = np.array(sorted(ids), dtype=np.int64)
 
     return candidate_ids
@@ -69,7 +78,15 @@ def select_best_label_id(logits_row, candidate_ids):
     return int(candidate_ids[best_offset])
 
 
-def collect_word_predictions(upos_logits_row, lemma_logits_row, word_ids, candidate_ids_by_lang, lang, id2label, upos_id2label):
+def collect_word_predictions(
+    upos_logits_row,
+    lemma_logits_row,
+    word_ids,
+    candidate_ids_by_lang,
+    lang,
+    id2label,
+    upos_id2label,
+):
     raw_labels_by_word = {}
     constrained_ids_by_word = {}
     upos_by_word = {}
@@ -85,7 +102,9 @@ def collect_word_predictions(upos_logits_row, lemma_logits_row, word_ids, candid
         raw_label_id = int(np.argmax(lemma_logits_row[token_idx]))
         raw_labels_by_word[word_id] = id2label.get(str(raw_label_id), "UNKNOWN")
 
-        constrained_ids_by_word[word_id] = select_best_label_id(lemma_logits_row[token_idx], candidate_ids)
+        constrained_ids_by_word[word_id] = select_best_label_id(
+            lemma_logits_row[token_idx], candidate_ids
+        )
         upos_label_id = int(np.argmax(upos_logits_row[token_idx]))
         upos_by_word[word_id] = upos_id2label.get(str(upos_label_id), "X")
 
@@ -133,7 +152,7 @@ def main():
     candidate_ids_by_lang = build_candidate_label_ids(id2label)
     model_dir = os.getenv("MODEL_DIR", MODEL_DIR)
 
-    tokenizer = AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_DIR, trust_remote_code=True)
 
     device = get_device()
 
@@ -156,9 +175,9 @@ def main():
 
     dataset = load_from_disk(DATASET_PATH)
 
-    eval_limit = int(os.getenv("EVAL_LIMIT", "0"))
-    per_lang_limit = int(os.getenv("EVAL_PER_LANG_LIMIT", "0"))
-    batch_size = max(1, int(os.getenv("EVAL_BATCH_SIZE", "8")))
+    eval_limit = env_int("EVAL_LIMIT", 0)
+    per_lang_limit = env_int("EVAL_PER_LANG_LIMIT", 0)
+    batch_size = max(1, env_int("EVAL_BATCH_SIZE", 8))
 
     rows = list(dataset["test"])
 
@@ -191,6 +210,8 @@ def main():
             "oov_correct": 0,
             "in_vocab_total": 0,
             "in_vocab_correct": 0,
+            "edit_tree_total": 0,
+            "edit_tree_correct": 0,
             "source_counts": Counter(),
             "pred_upos": Counter(),
             "upos": defaultdict(lambda: {"total": 0, "correct": 0}),
@@ -224,7 +245,11 @@ def main():
                 gold_upos = ensure_upos(words, row.get("upos"))
                 word_ids = encoded.word_ids(batch_index=batch_index)
 
-                raw_labels_by_word, constrained_ids_by_word, predicted_upos_by_word = collect_word_predictions(
+                (
+                    raw_labels_by_word,
+                    constrained_ids_by_word,
+                    predicted_upos_by_word,
+                ) = collect_word_predictions(
                     upos_logits[batch_index],
                     lemma_logits[batch_index],
                     word_ids,
@@ -234,7 +259,9 @@ def main():
                     upos_id2label,
                 )
 
-                for word_index, (word, gold_lemma) in enumerate(zip(words, lemmas), start=1):
+                for word_index, (word, gold_lemma) in enumerate(
+                    zip(words, lemmas, strict=True), start=1
+                ):
                     stats[lang]["total"] += 1
 
                     upos_tag = gold_upos[word_index - 1] if word_index - 1 < len(gold_upos) else "_"
@@ -263,11 +290,13 @@ def main():
                                 lexicon[lang],
                             )
                         else:
+                            stats[lang]["edit_tree_total"] += 1
+
                             raw_label = raw_labels_by_word.get(word_index)
 
                             if raw_label == "UNKNOWN":
                                 stats[lang]["unknown"] += 1
-                            elif not raw_label.startswith(f"{lang}::"):
+                            elif raw_label is not None and not raw_label.startswith(f"{lang}::"):
                                 stats[lang]["raw_wrong_language"] += 1
 
                             constrained_id = constrained_ids_by_word.get(word_index)
@@ -302,6 +331,7 @@ def main():
 
                         if predicted_lemma == gold_lemma:
                             stats[lang]["lemma_correct"] += 1
+                            stats[lang]["edit_tree_correct"] += 1
 
                             if word not in lexicon[lang]:
                                 stats[lang]["oov_correct"] += 1
@@ -326,12 +356,17 @@ def main():
 
         upos_report = {}
 
-        for upos_tag, bucket in sorted(stats[lang]["upos"].items(), key=lambda item: (-item[1]["total"], item[0])):
+        for upos_tag, bucket in sorted(
+            stats[lang]["upos"].items(),
+            key=lambda item: (-item[1]["total"], item[0]),
+        ):
             upos_total = bucket["total"] or 1
             upos_report[upos_tag] = {
                 "total": bucket["total"],
                 "accuracy": round(bucket["correct"] / upos_total, 4),
             }
+
+        edit_tree_total = stats[lang]["edit_tree_total"] or 1
 
         summary = {
             "lang": lang,
@@ -341,11 +376,18 @@ def main():
             "lemma_total": stats[lang]["lemma_total"],
             "unknown_rate": round(stats[lang]["unknown"] / lemma_total, 4),
             "raw_wrong_language_rate": round(stats[lang]["raw_wrong_language"] / lemma_total, 4),
-            "constrained_wrong_language_rate": round(stats[lang]["constrained_wrong_language"] / lemma_total, 4),
+            "constrained_wrong_language_rate": round(
+                stats[lang]["constrained_wrong_language"] / lemma_total, 4
+            ),
             "failed_apply_rate": round(stats[lang]["failed_apply"] / lemma_total, 4),
             "missing_prediction_rate": round(stats[lang]["missing_prediction"] / lemma_total, 4),
             "oov_accuracy": round(stats[lang]["oov_correct"] / oov_total, 4),
             "in_vocab_accuracy": round(stats[lang]["in_vocab_correct"] / in_vocab_total, 4),
+            "edit_tree_accuracy": (
+                round(stats[lang]["edit_tree_correct"] / edit_tree_total, 4)
+                if stats[lang]["edit_tree_total"] > 0
+                else None
+            ),
             "source_counts": dict(stats[lang]["source_counts"]),
             "upos_by_gold": upos_report,
         }

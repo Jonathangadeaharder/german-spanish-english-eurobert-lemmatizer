@@ -87,20 +87,25 @@ def cleanup_torch_mps(stage: str, emit: bool = True) -> None:
 
 class MPSMemoryCleanupCallback(TrainerCallback):
     def __init__(self) -> None:
-        self.cleanup_steps = int(os.getenv("TRAIN_MPS_CLEANUP_STEPS", "0") or "0")
-        self._last_cleanup_step = 0
+        self.log_steps = int(os.getenv("TRAIN_MPS_LOG_STEPS", "0") or "0")
+        self._last_log_step = 0
 
     def on_step_end(self, args, state, control, **kwargs):
-        if self.cleanup_steps <= 0:
+        if self.log_steps <= 0:
             return control
 
         step = int(state.global_step)
-        if step <= 0 or step == self._last_cleanup_step:
+        if step <= 0 or step == self._last_log_step:
             return control
 
-        if step % self.cleanup_steps == 0:
-            self._last_cleanup_step = step
-            cleanup_torch_mps(f"step_{step}")
+        if step % self.log_steps == 0:
+            self._last_log_step = step
+            snapshot = mps_memory_snapshot()
+            if snapshot:
+                print(
+                    f"[MPS-MEM] step={step} {format_memory_snapshot(snapshot)}",
+                    file=sys.stderr,
+                )
 
         return control
 

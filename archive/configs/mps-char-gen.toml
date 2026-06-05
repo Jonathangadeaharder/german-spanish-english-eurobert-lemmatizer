@@ -1,6 +1,7 @@
 [env]
-OUTPUT_DIR = "runs/eurobert-multilingual-lemma-210m-lora-full-mpsfix"
-TRAIN_MAX_STEPS = 7621
+OUTPUT_DIR = "runs/eurobert-multilingual-lemma-210m-char-gen"
+TRAIN_USE_CHAR_GENERATOR = true
+TRAIN_MAX_STEPS = 0
 TRAIN_EPOCHS = 3
 TRAIN_LEARNING_RATE = 0.0002
 TRAIN_WARMUP_RATIO = 0.06

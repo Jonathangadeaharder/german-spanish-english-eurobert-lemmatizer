@@ -27,7 +27,6 @@ from multitask_model import (
 )
 from runtime_utils import MPSMemoryCleanupCallback, cleanup_torch_mps
 
-
 MODEL_ID = "EuroBERT/EuroBERT-210m"
 TOKENIZER_DIR = "artifacts/tokenizer"
 DATASET_PATH = "data/processed/eurobert_multilingual_lemma_dataset"
@@ -154,7 +153,15 @@ def warn_if_rosetta():
 def main():
     warn_if_rosetta()
 
-    label2id = load_json(LABEL2ID_PATH)
+    use_char_gen = env_bool("TRAIN_USE_CHAR_GENERATOR", False)
+    if use_char_gen:
+        raise ValueError(
+            "TRAIN_USE_CHAR_GENERATOR is no longer supported. "
+            "Use the edit-tree lemma classifier path."
+        )
+
+    label2id_path = LABEL2ID_PATH
+    label2id = load_json(label2id_path)
     upos_label2id = load_json(UPOS_LABEL2ID_PATH)
     output_dir = env_str("OUTPUT_DIR", DEFAULT_OUTPUT_DIR)
     resume_from = resolve_resume_from(output_dir, env_str("TRAIN_RESUME_FROM", ""))
@@ -166,11 +173,13 @@ def main():
         trust_remote_code=True,
     )
 
-    config = EuroBertUposLemmaConfig(
-        base_model_name_or_path=MODEL_ID,
-        upos_label2id=upos_label2id,
-        lemma_label2id=label2id,
-    )
+    config_kwargs = {
+        "base_model_name_or_path": MODEL_ID,
+        "upos_label2id": upos_label2id,
+        "lemma_label2id": label2id,
+    }
+
+    config = EuroBertUposLemmaConfig(**config_kwargs)
 
     model = EuroBertForUposLemma.from_pretrained(
         MODEL_ID,
@@ -179,6 +188,8 @@ def main():
     )
 
     model.resize_token_embeddings(len(tokenizer))
+
+    modules_to_save = ["upos_classifier", "lemma_classifier", "lemma_router"]
 
     lora_config = LoraConfig(
         task_type=TaskType.TOKEN_CLS,
@@ -195,7 +206,7 @@ def main():
             "up_proj",
             "down_proj",
         ],
-        modules_to_save=["upos_classifier", "lemma_classifier"],
+        modules_to_save=modules_to_save,
         trainable_token_indices=trainable_language_token_indices(tokenizer),
     )
     model = get_peft_model(model, lora_config)
@@ -205,7 +216,9 @@ def main():
     eval_limit = int(os.getenv("TRAIN_EVAL_LIMIT", "0"))
     if eval_limit > 0:
         dataset = dataset.copy()
-        dataset["validation"] = dataset["validation"].select(range(min(eval_limit, len(dataset["validation"]))))
+        dataset["validation"] = dataset["validation"].select(
+            range(min(eval_limit, len(dataset["validation"])))
+        )
 
     data_collator = MultiTaskDataCollator(tokenizer=tokenizer)
 
@@ -228,6 +241,7 @@ def main():
     load_best_model_at_end = env_bool("TRAIN_LOAD_BEST_MODEL_AT_END", eval_during_training)
     bf16 = env_bool("TRAIN_BF16", True)
     fp16 = env_bool("TRAIN_FP16", False)
+    torch_empty_cache_steps = env_int("TRAIN_TORCH_EMPTY_CACHE_STEPS", 0) or None
 
     if bf16 and fp16:
         raise ValueError("Set only one of TRAIN_BF16 or TRAIN_FP16")
@@ -251,7 +265,9 @@ def main():
         max_steps=max_steps if max_steps > 0 else -1,
         weight_decay=0.01,
         logging_steps=50,
-        evaluation_strategy=("steps" if max_steps > 0 else "epoch") if eval_during_training else "no",
+        evaluation_strategy=(
+            ("steps" if max_steps > 0 else "epoch") if eval_during_training else "no"
+        ),
         save_strategy="steps" if max_steps > 0 else "epoch",
         eval_steps=eval_steps if max_steps > 0 and eval_during_training else None,
         save_steps=save_steps if max_steps > 0 else None,
@@ -269,6 +285,7 @@ def main():
         report_to="none",
         fp16=fp16,
         bf16=bf16,
+        torch_empty_cache_steps=torch_empty_cache_steps,
     )
 
     trainer = NoEmbeddingSaveTrainer(
