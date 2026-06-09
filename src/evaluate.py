@@ -228,7 +228,16 @@ def main():
 
     device = get_device()
 
-    if use_lora:
+    onnx_model_path = os.getenv("EVAL_ONNX_MODEL", "")
+    ort_session = None
+    if onnx_model_path:
+        import onnxruntime as ort
+
+        ort_session = ort.InferenceSession(
+            onnx_model_path, providers=["CPUExecutionProvider"]
+        )
+        model = None
+    elif use_lora:
         config = EuroBertUposLemmaConfig(
             base_model_name_or_path="EuroBERT/EuroBERT-210m",
             upos_label2id=upos_label2id,
@@ -247,8 +256,9 @@ def main():
             trust_remote_code=True,
         )
 
-    model.to(device)
-    model.eval()
+    if model is not None:
+        model.to(device)
+        model.eval()
 
     dataset = load_from_disk(str(assets.dataset_path))
 
@@ -306,10 +316,21 @@ def main():
                 return_tensors="pt",
             )
 
-            model_inputs = {key: value.to(device) for key, value in encoded.items()}
-            outputs = model(**model_inputs)
-            upos_logits = outputs.logits[0].detach().cpu().numpy()
-            lemma_logits = outputs.logits[1].detach().cpu().numpy()
+            if ort_session is not None:
+                ort_inputs = {
+                    "input_ids": encoded["input_ids"].cpu().numpy(),
+                    "attention_mask": encoded["attention_mask"].cpu().numpy(),
+                }
+                upos_logits, lemma_logits = ort_session.run(
+                    ["upos_logits", "lemma_logits"], ort_inputs
+                )
+                upos_logits = np.asarray(upos_logits, dtype=np.float32)
+                lemma_logits = np.asarray(lemma_logits, dtype=np.float32)
+            else:
+                model_inputs = {key: value.to(device) for key, value in encoded.items()}
+                outputs = model(**model_inputs)
+                upos_logits = outputs.logits[0].detach().cpu().numpy()
+                lemma_logits = outputs.logits[1].detach().cpu().numpy()
 
             for batch_index, row in enumerate(batch_rows):
                 words = row["words"]

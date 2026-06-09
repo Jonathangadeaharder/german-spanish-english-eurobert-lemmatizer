@@ -5,9 +5,8 @@ import {
   buildLanguageLabelIds,
   languageToken,
   resolveLemma,
-  selectBestLabel,
+  selectValidLabel,
   simpleTokenizer,
-  stripLanguagePrefix,
 } from "./postprocess.js";
 
 const MODEL_PATH = "./model/";
@@ -127,9 +126,13 @@ export async function lemmatize(text, lang) {
 
     if (upos !== "PROPN") {
       const lemmaRow = getOutputRow(lemmaTensor, tokenIndex);
-      const labelId = selectBestLabel(lemmaRow, labelIdsByLang[lang]);
-      const fullLabel = labelId !== null ? id2label[String(labelId)] || "UNKNOWN" : null;
-      const baseLabel = fullLabel !== null ? stripLanguagePrefix(fullLabel, lang) : null;
+      const baseLabel = selectValidLabel(
+        lemmaRow,
+        labelIdsByLang[lang],
+        id2label,
+        lang,
+        word,
+      );
       const resolved = resolveLemma(word, upos, baseLabel, lexicon[lang]);
       lemma = resolved.lemma;
     }

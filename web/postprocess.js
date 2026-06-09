@@ -56,6 +56,31 @@ export function selectBestLabel(logitsRow, candidateIds) {
   return bestId;
 }
 
+export function selectValidLabel(logitsRow, candidateIds, id2label, lang, word, topK = 12) {
+  if (!candidateIds || candidateIds.length === 0) {
+    return "IDENTITY";
+  }
+
+  const ordered = [...candidateIds].sort((a, b) => logitsRow[b] - logitsRow[a]);
+  const limit = topK > 0 ? Math.min(topK, ordered.length) : ordered.length;
+
+  for (let i = 0; i < limit; i++) {
+    const label = id2label[String(ordered[i])] || "UNKNOWN";
+
+    if (label === "UNKNOWN") {
+      continue;
+    }
+
+    const baseLabel = stripLanguagePrefix(label, lang);
+
+    if (applyEditLabel(word, baseLabel) !== null) {
+      return baseLabel;
+    }
+  }
+
+  return "IDENTITY";
+}
+
 export function argmax(values) {
   if (!values || values.length === 0) {
     return -1;

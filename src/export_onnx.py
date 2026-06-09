@@ -26,13 +26,17 @@ def main():
 
     Path(onnx_dir).mkdir(parents=True, exist_ok=True)
 
+    export_dtype = os.getenv("EXPORT_DTYPE", "fp16").lower()
+    quantize = os.getenv("QUANTIZE", "none").lower()
+
     tokenizer = AutoTokenizer.from_pretrained(merged_dir, trust_remote_code=True)
     model = EuroBertForUposLemma.from_pretrained(
         merged_dir,
         trust_remote_code=True,
         attn_implementation="eager",
     )
-    model = model.half()
+    if export_dtype == "fp16":
+        model = model.half()
     model.eval()
 
     sample = tokenizer("Dies ist ein Test.", return_tensors="pt")
@@ -58,6 +62,17 @@ def main():
     )
 
     print(f"Saved ONNX model to {onnx_path}")
+
+    if quantize == "int8":
+        from onnxruntime.quantization import QuantType, quantize_dynamic
+
+        int8_path = Path(onnx_dir) / "model.int8.onnx"
+        quantize_dynamic(
+            model_input=str(onnx_path),
+            model_output=str(int8_path),
+            weight_type=QuantType.QInt8,
+        )
+        print(f"Saved int8-quantized ONNX model to {int8_path}")
 
 
 if __name__ == "__main__":
