@@ -5,8 +5,7 @@ import sys
 from pathlib import Path
 
 os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
-os.environ.setdefault("PYTORCH_MPS_HIGH_WATERMARK_RATIO", "1.2")
-os.environ.setdefault("PYTORCH_MPS_LOW_WATERMARK_RATIO", "1.0")
+os.environ.setdefault("PYTORCH_MPS_HIGH_WATERMARK_RATIO", "0.0")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
 import torch
@@ -19,6 +18,7 @@ from transformers import (
 )
 from transformers.trainer import TRAINING_ARGS_NAME
 
+from language_assets import language_assets
 from multitask_model import (
     EuroBertForUposLemma,
     EuroBertUposLemmaConfig,
@@ -28,11 +28,8 @@ from multitask_model import (
 from runtime_utils import MPSMemoryCleanupCallback, cleanup_torch_mps
 
 MODEL_ID = "EuroBERT/EuroBERT-210m"
-TOKENIZER_DIR = "artifacts/tokenizer"
-DATASET_PATH = "data/processed/eurobert_multilingual_lemma_dataset"
-LABEL2ID_PATH = "artifacts/label2id.json"
-UPOS_LABEL2ID_PATH = "artifacts/upos_label2id.json"
-DEFAULT_OUTPUT_DIR = "runs/eurobert-multilingual-lemma-210m-lora"
+MULTILINGUAL_TOKENIZER_DIR = "artifacts/tokenizer"
+WARM_START_DIR = "models/eurobert-multilingual-lemma-210m-merged"
 LANGUAGE_TOKENS = ["[LANG_DE]", "[LANG_ES]", "[LANG_EN]"]
 
 
@@ -160,16 +157,20 @@ def main():
             "Use the edit-tree lemma classifier path."
         )
 
-    label2id_path = LABEL2ID_PATH
-    label2id = load_json(label2id_path)
-    upos_label2id = load_json(UPOS_LABEL2ID_PATH)
-    output_dir = env_str("OUTPUT_DIR", DEFAULT_OUTPUT_DIR)
+    assets = language_assets()
+    lang = assets.lang
+    print(f"Training language: {lang}")
+
+    label2id = load_json(str(assets.label2id_path))
+    upos_label2id = load_json(str(assets.upos_label2id_path))
+
+    output_dir = env_str("TRAIN_OUTPUT_DIR", str(assets.output_dir))
     resume_from = resolve_resume_from(output_dir, env_str("TRAIN_RESUME_FROM", ""))
 
     configure_torch_runtime(torch)
 
     tokenizer = AutoTokenizer.from_pretrained(
-        TOKENIZER_DIR,
+        MULTILINGUAL_TOKENIZER_DIR,
         trust_remote_code=True,
     )
 
@@ -181,10 +182,12 @@ def main():
 
     config = EuroBertUposLemmaConfig(**config_kwargs)
 
+    warm_start = env_str("TRAIN_WARM_START", WARM_START_DIR)
     model = EuroBertForUposLemma.from_pretrained(
-        MODEL_ID,
+        warm_start,
         config=config,
         trust_remote_code=True,
+        ignore_mismatched_sizes=True,
     )
 
     model.resize_token_embeddings(len(tokenizer))
@@ -212,7 +215,7 @@ def main():
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
 
-    dataset = load_from_disk(DATASET_PATH)
+    dataset = load_from_disk(str(assets.dataset_path))
     eval_limit = int(os.getenv("TRAIN_EVAL_LIMIT", "0"))
     if eval_limit > 0:
         dataset = dataset.copy()

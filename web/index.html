@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EuroBERT Lemmatizer Demo</title>
+<style>
+body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+h1 { font-size: 1.5rem; }
+.controls { display: flex; gap: 1rem; margin: 1rem 0; flex-wrap: wrap; }
+select, button, input { font-size: 1rem; padding: 0.4rem 0.8rem; }
+input[type="text"] { flex: 1; min-width: 200px; }
+button { cursor: pointer; }
+table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+th, td { border: 1px solid #ccc; padding: 0.3rem 0.6rem; text-align: left; }
+th { background: #f0f0f0; }
+.vocab-yes { color: green; font-weight: bold; }
+.vocab-no { color: #999; }
+.level { font-size: 0.85rem; color: #555; }
+#status { margin: 0.5rem 0; color: #666; }
+</style>
+</head>
+<body>
+<h1>EuroBERT Lemmatizer</h1>
+<div class="controls">
+  <select id="lang">
+    <option value="de">Deutsch</option>
+    <option value="en">English</option>
+    <option value="es">Español</option>
+  </select>
+  <input type="text" id="input" placeholder="Enter text..." value="Die Katzen saßen auf dem Sofa">
+  <button id="lemmaBtn">Lemmatize</button>
+  <button id="vocabBtn">Vocab Check</button>
+</div>
+<div id="status"></div>
+<table id="results" style="display:none">
+  <thead>
+    <tr>
+      <th>Word</th>
+      <th>UPOS</th>
+      <th>Lemma</th>
+      <th>Canonical Vocab</th>
+      <th>CEFR Level</th>
+    </tr>
+  </thead>
+  <tbody id="tbody"></tbody>
+</table>
+
+<script type="module">
+import { lemmatize, classifyCanonicalVocab } from "./demo.js";
+
+const langEl = document.getElementById("lang");
+const inputEl = document.getElementById("input");
+const statusEl = document.getElementById("status");
+const resultsEl = document.getElementById("results");
+const tbodyEl = document.getElementById("tbody");
+
+function setStatus(msg) { statusEl.textContent = msg; }
+
+async function runLemmatize() {
+  const lang = langEl.value;
+  const text = inputEl.value.trim();
+  if (!text) return;
+  setStatus("Loading model & running...");
+  tbodyEl.innerHTML = "";
+  resultsEl.style.display = "none";
+  try {
+    const lemmaResults = await lemmatize(text, lang);
+    let vocabResults = [];
+    try {
+      vocabResults = await classifyCanonicalVocab(text, lang);
+    } catch { /* vocab classifier optional */ }
+    const vocabMap = new Map(vocabResults.map((v) => [v.word, v]));
+    for (const r of lemmaResults) {
+      const v = vocabMap.get(r.word);
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${r.word}</td><td>${r.upos}</td><td>${r.lemma}</td>
+        <td class="${v?.canonical_vocab ? "vocab-yes" : "vocab-no"}">${v ? (v.canonical_vocab ? "yes" : "no") : ""}</td>
+        <td class="level">${v?.level || ""}</td>`;
+      tbodyEl.appendChild(tr);
+    }
+    resultsEl.style.display = "";
+    setStatus(`Done — ${lemmaResults.length} tokens`);
+  } catch (e) {
+    setStatus("Error: " + e.message);
+    console.error(e);
+  }
+}
+
+async function runVocab() {
+  const lang = langEl.value;
+  const text = inputEl.value.trim();
+  if (!text) return;
+  setStatus("Loading vocab classifier...");
+  tbodyEl.innerHTML = "";
+  resultsEl.style.display = "none";
+  try {
+    const results = await classifyCanonicalVocab(text, lang);
+    for (const r of results) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${r.word}</td><td></td><td></td>
+        <td class="${r.canonical_vocab ? "vocab-yes" : "vocab-no"}">${r.canonical_vocab ? "yes" : "no"}</td>
+        <td class="level">${r.level || ""}</td>`;
+      tbodyEl.appendChild(tr);
+    }
+    resultsEl.style.display = "";
+    setStatus(`Done — ${results.length} tokens`);
+  } catch (e) {
+    setStatus("Error: " + e.message);
+    console.error(e);
+  }
+}
+
+document.getElementById("lemmaBtn").addEventListener("click", runLemmatize);
+document.getElementById("vocabBtn").addEventListener("click", runVocab);
+inputEl.addEventListener("keydown", (e) => { if (e.key === "Enter") runLemmatize(); });
+</script>
+</body>
+</html>

@@ -91,14 +91,14 @@ class MPSMemoryCleanupCallback(TrainerCallback):
         self._last_log_step = 0
 
     def on_step_end(self, args, state, control, **kwargs):
-        if self.log_steps <= 0:
-            return control
-
         step = int(state.global_step)
         if step <= 0 or step == self._last_log_step:
             return control
 
-        if step % self.log_steps == 0:
+        if args.torch_empty_cache_steps and step % args.torch_empty_cache_steps == 0:
+            cleanup_torch_mps(f"step_{step}", emit=False)
+            self._last_log_step = step
+        elif self.log_steps > 0 and step % self.log_steps == 0:
             self._last_log_step = step
             snapshot = mps_memory_snapshot()
             if snapshot:
