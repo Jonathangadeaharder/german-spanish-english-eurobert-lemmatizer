@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import os
-from pathlib import Path
 
 import typer
 
@@ -188,12 +187,12 @@ def benchmark_mps(
 def pipeline(profile: str | None = typer.Option(None, help="Optional config profile")) -> None:
     _load_profile(profile)
     from build_labels import main as build_labels_main
-    from make_dataset import main as make_dataset_main
-    from train import main as train_main
     from evaluate import main as evaluate_main
-    from merge_lora import main as merge_main
     from export_onnx import main as export_main
+    from make_dataset import main as make_dataset_main
+    from merge_lora import main as merge_main
     from package_web_model import main as package_main
+    from train import main as train_main
 
     build_labels_main()
     make_dataset_main()

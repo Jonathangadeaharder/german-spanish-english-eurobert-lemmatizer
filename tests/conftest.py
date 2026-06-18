@@ -1,4 +1,3 @@
-import pytest
 
 
 def pytest_runtest_setup(item):

@@ -205,7 +205,7 @@ def main():
         lang_indices = {}
         langs = dataset["validation"]["lang"]
         for lang in sorted(set(langs)):
-            lang_indices[lang] = _np.array([i for i, l in enumerate(langs) if l == lang])
+            lang_indices[lang] = _np.array([i for i, x in enumerate(langs) if x == lang])
         set_lang_eval_indices(lang_indices)
 
     trainer = Trainer(

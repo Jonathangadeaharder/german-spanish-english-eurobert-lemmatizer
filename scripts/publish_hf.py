@@ -1,6 +1,5 @@
 """Publish per-language int8 ONNX lemmatizers + assets to HuggingFace."""
 
-import json
 import shutil
 from pathlib import Path
 

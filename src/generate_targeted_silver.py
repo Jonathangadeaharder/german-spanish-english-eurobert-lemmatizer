@@ -189,7 +189,8 @@ EN_PROMPTS = [
         "Each sentence must contain an adjective or participle whose lemma equals its surface form "
         "(her, finished, retarded, involved, means, amazed, nuts, done, soaked, "
         "disappointed, opening, pairing, dying, looking, watching, insulting). "
-        "These words are NOT lemmatized to a different base form — their lemma IS the surface form. "
+        "These words are NOT lemmatized to a different base form — "
+        "their lemma IS the surface form. "
         "Return only sentences, one per line.",
     ),
 ]
@@ -262,7 +263,8 @@ ES_PROMPTS = [
         "flextionada es igual al lema (tan, bolas, finales, horas, sí, mecenas, "
         "herido, fría, dado, vecina, homicida, rodillas, medias, llegado, "
         "centrista, adversaria, espaldas, saben, gritos, falta, buenas). "
-        "Estas palabras NO se lematizan a una forma base diferente — el lema ES la forma superficial. "
+        "Estas palabras NO se lematizan a una forma base diferente — "
+        "el lema ES la forma superficial. "
         "Devuelve solo las oraciones, una por línea.",
     ),
 ]

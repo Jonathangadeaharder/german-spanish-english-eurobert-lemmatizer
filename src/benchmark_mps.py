@@ -71,7 +71,8 @@ def warn_if_rosetta():
         return
 
     print(
-        "Warning: benchmark is running under x86_64. Results will not reflect a native arm64 MPS run.",
+        "Warning: benchmark is running under x86_64. "
+        "Results will not reflect a native arm64 MPS run.",
         file=sys.stderr,
     )
 
@@ -241,6 +242,7 @@ def run_child(config_json):
         TrainingArguments,
         set_seed,
     )
+
     from multitask_model import (
         EuroBertForUposLemma,
         EuroBertUposLemmaConfig,
@@ -260,7 +262,9 @@ def run_child(config_json):
         }
 
     def configure_runtime():
-        precision = config.get("float32_matmul_precision", runtime_defaults["float32_matmul_precision"])
+        precision = config.get(
+            "float32_matmul_precision", runtime_defaults["float32_matmul_precision"],
+        )
 
         if hasattr(torch, "set_float32_matmul_precision"):
             torch.set_float32_matmul_precision(precision)
@@ -420,8 +424,12 @@ def run_child(config_json):
             "platform": platform.platform(),
             "machine": platform.machine(),
             "torch": torch.__version__,
-            "mps_available": bool(getattr(torch.backends, "mps", None) and torch.backends.mps.is_available()),
-            "float32_matmul_precision": getattr(torch, "get_float32_matmul_precision", lambda: "unknown")(),
+            "mps_available": bool(
+                getattr(torch.backends, "mps", None) and torch.backends.mps.is_available(),
+            ),
+            "float32_matmul_precision": getattr(
+                torch, "get_float32_matmul_precision", lambda: "unknown",
+            )(),
         },
         "train_examples": train_limit,
         "eval_examples": eval_limit,
@@ -554,7 +562,10 @@ def rejection_reasons(result, runtime_defaults, full_train_examples):
     train_metrics = result.get("train_metrics", {})
     eval_metrics = result.get("eval_metrics", {})
 
-    for key in ["train_runtime", "train_samples_per_second", "train_steps_per_second", "train_loss"]:
+    for key in [
+        "train_runtime", "train_samples_per_second",
+        "train_steps_per_second", "train_loss",
+    ]:
         if key in train_metrics and not _finite_metric(train_metrics.get(key)):
             reasons.append(f"non_finite_{key}")
 
@@ -572,7 +583,9 @@ def rejection_reasons(result, runtime_defaults, full_train_examples):
     samples_per_second = train_metrics.get("train_samples_per_second")
     if _finite_metric(samples_per_second) and float(samples_per_second) > 0:
         total_examples = full_train_examples * runtime_defaults["full_epochs"]
-        result["estimated_full_train_seconds"] = round(total_examples / float(samples_per_second), 2)
+        result["estimated_full_train_seconds"] = round(
+            total_examples / float(samples_per_second), 2,
+        )
 
     return sorted(set(reasons))
 
@@ -625,8 +638,12 @@ def aggregate_group(results, runtime_defaults, full_train_examples):
 
     summary["median_elapsed_seconds"] = collect(["elapsed_seconds"])
     summary["median_train_runtime"] = collect(["train_metrics", "train_runtime"])
-    summary["median_train_samples_per_second"] = collect(["train_metrics", "train_samples_per_second"])
-    summary["median_train_steps_per_second"] = collect(["train_metrics", "train_steps_per_second"])
+    summary["median_train_samples_per_second"] = collect(
+        ["train_metrics", "train_samples_per_second"],
+    )
+    summary["median_train_steps_per_second"] = collect(
+        ["train_metrics", "train_steps_per_second"],
+    )
     summary["median_train_loss"] = collect(["train_metrics", "train_loss"])
     summary["median_eval_runtime"] = collect(["eval_metrics", "eval_runtime"])
     summary["median_eval_samples_per_second"] = collect(["eval_metrics", "eval_samples_per_second"])
@@ -648,13 +665,15 @@ def aggregate_group(results, runtime_defaults, full_train_examples):
     }
     summary["best_run"] = max(
         successful,
-        key=lambda result: float(result.get("train_metrics", {}).get("train_steps_per_second", 0.0)),
+        key=lambda r: float(r.get("train_metrics", {}).get("train_steps_per_second", 0.0)),
     )
 
     samples_per_second = summary["median_train_samples_per_second"]
     if _finite_metric(samples_per_second) and float(samples_per_second) > 0:
         total_examples = full_train_examples * runtime_defaults["full_epochs"]
-        summary["estimated_full_train_seconds"] = round(total_examples / float(samples_per_second), 2)
+        summary["estimated_full_train_seconds"] = round(
+            total_examples / float(samples_per_second), 2,
+        )
 
     return summary
 
@@ -752,13 +771,16 @@ def parent_main():
             "estimated_full_train_seconds": best.get("estimated_full_train_seconds"),
             "best_run_train_samples_per_second": best_metrics.get("train_samples_per_second"),
             "best_run_train_steps_per_second": best_metrics.get("train_steps_per_second"),
-            "best_run_eval_token_accuracy": best_eval.get("eval_token_accuracy", best_eval.get("token_accuracy")),
+            "best_run_eval_token_accuracy": best_eval.get(
+                "eval_token_accuracy", best_eval.get("token_accuracy"),
+            ),
         }
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(json.dumps(report["recommendation"], ensure_ascii=False, indent=2) if report["recommendation"] else "{}")
+    rec = report["recommendation"]
+    print(json.dumps(rec, ensure_ascii=False, indent=2) if rec else "{}")
     print(f"Saved benchmark report to {OUTPUT_PATH}")
 
 

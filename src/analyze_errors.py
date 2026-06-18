@@ -2,8 +2,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
-import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -97,7 +95,7 @@ DE_IRREGULAR_VERBS = {
     "sprechen": {"sprach", "gesprochen", "spreche", "sprichst", "spricht"},
     "treffen": {"traf", "getroffen", "treffe", "triffst", "trifft"},
     "essen": {"aß", "gegessen", "esse", "isst", "esst"},
-    "sitzen": {"saß", "gesessen", "sitze", "sitzt", "sitzt"},
+    "sitzen": {"saß", "gesessen", "sitze", "sitzt"},
     "liegen": {"lag", "gelegen", "liege", "liegst", "liegt"},
     "schreiben": {"schrieb", "geschrieben", "schreibe", "schreibst", "schreibt"},
     "bleiben": {"blieb", "geblieben", "bleibe", "bleibst", "bleibt"},
@@ -233,7 +231,7 @@ ES_IRREGULAR_VERBS = {
     "decía": "decir", "digo": "decir", "dices": "decir",
     "puede": "poder", "pueden": "poder", "pudo": "poder",
     "podía": "poder", "puedo": "poder", "puedes": "poder",
-    "va": "ir", "van": "ir", "fue": "ir", "iba": "ir",
+    "va": "ir", "van": "ir", "iba": "ir",
     "voy": "ir", "vas": "ir", "vamos": "ir",
     "sabe": "saber", "saben": "saber", "supo": "saber",
     "sabía": "saber", "sé": "saber", "sabes": "saber",
@@ -249,7 +247,7 @@ ES_IRREGULAR_VERBS = {
 def is_irregular_verb(word: str, gold_lemma: str, lang: str) -> bool:
     w = word.lower()
     if lang == "de":
-        for lemma, forms in DE_IRREGULAR_VERBS.items():
+        for _lemma, forms in DE_IRREGULAR_VERBS.items():
             if w in forms or (w.startswith("ge") and w[2:] in forms):
                 return True
         for prefix in DE_SEPARABLE_PREFIXES:
@@ -331,11 +329,15 @@ def is_contraction(word: str, lang: str) -> bool:
 def is_case_or_number_inflection(word: str, gold_lemma: str, lang: str) -> bool:
     if lang == "de":
         w = word.lower()
-        if w.endswith(("e", "en", "er", "es", "em")) and gold_lemma.lower().rstrip("enrsmte") != w.rstrip("enrsmte"):
+        stripped_gold = gold_lemma.lower().rstrip("enrsmte")  # noqa: B005
+        stripped_w = w.rstrip("enrsmte")  # noqa: B005
+        if w.endswith(("e", "en", "er", "es", "em")) and stripped_gold != stripped_w:
             return True
     elif lang == "es":
         w = word.lower()
-        if w.endswith(("o", "a", "os", "as")) and gold_lemma.lower().rstrip("oas") != w.rstrip("oas"):
+        stripped_gold_es = gold_lemma.lower().rstrip("oas")
+        stripped_w_es = w.rstrip("oas")
+        if w.endswith(("o", "a", "os", "as")) and stripped_gold_es != stripped_w_es:
             return True
     return False
 
@@ -534,7 +536,9 @@ def run_analysis(lang: str) -> dict:
         },
         "top_confused_labels": [
             {"gold": gold, "pred": pred, "count": cnt}
-            for gold, preds in sorted(label_confusion.items(), key=lambda x: -sum(x[1].values()))[:20]
+            for gold, preds in sorted(
+                label_confusion.items(), key=lambda x: -sum(x[1].values()),
+            )[:20]
             for pred, cnt in preds.most_common(3)
         ],
         "rare_gold_labels": [
