@@ -35,6 +35,8 @@ dev = [
 [tool.setuptools]
 package-dir = {"" = "src"}
 py-modules = [
+  "analyze_errors",
+  "annotate_silver",
   "benchmark_mps",
   "build_char_vocab",
   "build_labels",
@@ -43,20 +45,37 @@ py-modules = [
   "conllu_reader",
   "edit_trees",
   "evaluate",
+  "evaluate_cefr",
   "export_onnx",
+  "export_vocab_classifier",
   "fetch_ud",
+  "generate_de_lemma_silver",
+  "generate_silver",
+  "generate_targeted_silver",
+  "language_assets",
+  "lmstudio_client",
+  "make_cefr_eval_dataset",
   "make_char_dataset",
   "make_dataset",
+  "make_vocab_dataset",
   "merge_lora",
   "multitask_model",
+  "package_vocab_classifier",
   "package_web_model",
+  "postprocess_rules",
   "runtime_utils",
   "train",
+  "train_vocab_classifier",
+  "validate_held_out",
+  "vocab_inventory",
 ]
 
 [tool.uv]
-environments = ["sys_platform == 'darwin' and platform_machine == 'arm64'"]
-required-environments = ["sys_platform == 'darwin' and platform_machine == 'arm64'"]
+environments = [
+  "sys_platform == 'darwin' and platform_machine == 'arm64'",
+  "sys_platform == 'linux' and platform_machine == 'x86_64'",
+  "sys_platform == 'linux' and platform_machine == 'aarch64'",
+]
 
 [tool.ruff]
 target-version = "py313"

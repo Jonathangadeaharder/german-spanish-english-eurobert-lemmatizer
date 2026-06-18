@@ -1,0 +1,25 @@
+{
+  "include": ["src"],
+  "exclude": [
+    "src/benchmark_mps.py",
+    "src/multitask_model.py",
+    "src/evaluate.py",
+    "src/train.py",
+    "src/runtime_utils.py",
+    "src/make_char_dataset.py"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false,
+  "reportAttributeAccessIssue": false,
+  "reportCallIssue": false,
+  "reportArgumentType": false,
+  "reportIndexIssue": false,
+  "reportOptionalMemberAccess": false,
+  "reportOptionalCall": false,
+  "reportReturnType": false,
+  "reportAssignmentType": false,
+  "reportOperatorIssue": false,
+  "reportUninitializedInstanceVariable": false,
+  "reportPrivateImportUsage": false
+}

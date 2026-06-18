@@ -1,0 +1,35 @@
+[
+  {
+    "lang": "de",
+    "total": 196,
+    "lemma_acc": 0.9175,
+    "upos_acc": 0.9439,
+    "in_vocab_acc": 0.9382,
+    "oov_acc": 0.6875,
+    "canonical_oov_acc": 0.0597,
+    "edit_failed": 17,
+    "errors": 16
+  },
+  {
+    "lang": "en",
+    "total": 204,
+    "lemma_acc": 0.9406,
+    "upos_acc": 0.9314,
+    "in_vocab_acc": 0.9663,
+    "oov_acc": 0.75,
+    "canonical_oov_acc": 0.6842,
+    "edit_failed": 8,
+    "errors": 12
+  },
+  {
+    "lang": "es",
+    "total": 212,
+    "lemma_acc": 0.9623,
+    "upos_acc": 0.967,
+    "in_vocab_acc": 0.9754,
+    "oov_acc": 0.6667,
+    "canonical_oov_acc": 1.0,
+    "edit_failed": 13,
+    "errors": 8
+  }
+]

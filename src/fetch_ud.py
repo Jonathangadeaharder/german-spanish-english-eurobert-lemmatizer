@@ -1,7 +1,6 @@
 from pathlib import Path
 from urllib.request import urlretrieve
 
-
 TREEBANKS = {
     "de": {
         "repo": "UD_German-GSD",

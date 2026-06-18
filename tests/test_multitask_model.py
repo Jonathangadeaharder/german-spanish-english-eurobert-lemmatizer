@@ -1,10 +1,16 @@
+from types import SimpleNamespace
+
 import numpy as np
 import torch
-from types import SimpleNamespace
 from torch import nn
 
 import multitask_model
-from multitask_model import compute_multitask_metrics, pad_label_sequence, EuroBertForUposLemma, EuroBertUposLemmaConfig
+from multitask_model import (
+    EuroBertForUposLemma,
+    EuroBertUposLemmaConfig,
+    compute_multitask_metrics,
+    pad_label_sequence,
+)
 
 
 class DummyEvalPrediction:
@@ -90,8 +96,12 @@ def test_multitask_model_loads_backbone_config_as_keyword_and_initializes_heads(
         calls["kwargs"] = kwargs
         return DummyBackbone(backbone_config)
 
-    monkeypatch.setattr(multitask_model.AutoConfig, "from_pretrained", fake_auto_config_from_pretrained)
-    monkeypatch.setattr(multitask_model.AutoModel, "from_pretrained", fake_auto_model_from_pretrained)
+    monkeypatch.setattr(
+        multitask_model.AutoConfig, "from_pretrained", fake_auto_config_from_pretrained,
+    )
+    monkeypatch.setattr(
+        multitask_model.AutoModel, "from_pretrained", fake_auto_model_from_pretrained,
+    )
 
     model = EuroBertForUposLemma(
         EuroBertUposLemmaConfig(

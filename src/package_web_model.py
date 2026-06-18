@@ -2,7 +2,6 @@ import os
 import shutil
 from pathlib import Path
 
-
 ARTIFACTS_DIR = Path("artifacts")
 MERGED_DIR = Path("models/eurobert-multilingual-lemma-210m-merged")
 ONNX_DIR = Path("onnx/eurobert-multilingual-lemma-210m")

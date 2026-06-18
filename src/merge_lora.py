@@ -5,13 +5,12 @@ from pathlib import Path
 from peft import PeftModel
 from transformers import AutoTokenizer
 
+from language_assets import language_assets
 from multitask_model import EuroBertForUposLemma, EuroBertUposLemmaConfig
 
 BASE_MODEL = "EuroBERT/EuroBERT-210m"
-ADAPTER_DIR = "runs/eurobert-multilingual-lemma-210m-lora"
-MERGED_DIR = "models/eurobert-multilingual-lemma-210m-merged"
-LABEL2ID_PATH = "artifacts/label2id.json"
-UPOS_LABEL2ID_PATH = "artifacts/upos_label2id.json"
+MULTILINGUAL_TOKENIZER_DIR = "artifacts/tokenizer"
+WARM_START_DIR = "models/eurobert-multilingual-lemma-210m-merged"
 
 
 def load_json(path):
@@ -19,23 +18,29 @@ def load_json(path):
 
 
 def main():
-    adapter_dir = os.getenv("ADAPTER_DIR", ADAPTER_DIR)
-    merged_dir = os.getenv("MERGED_DIR", MERGED_DIR)
+    assets = language_assets()
+    lang = assets.lang
+    print(f"Merging LoRA for language: {lang}")
+
+    adapter_dir = os.getenv("ADAPTER_DIR", str(assets.output_dir))
+    merged_dir = os.getenv("MERGED_DIR", str(assets.merged_dir))
 
     Path(merged_dir).mkdir(parents=True, exist_ok=True)
 
-    label2id = load_json(LABEL2ID_PATH)
-    upos_label2id = load_json(UPOS_LABEL2ID_PATH)
-    tokenizer = AutoTokenizer.from_pretrained(adapter_dir, trust_remote_code=True)
+    label2id = load_json(str(assets.label2id_path))
+    upos_label2id = load_json(str(assets.upos_label2id_path))
+    tokenizer = AutoTokenizer.from_pretrained(MULTILINGUAL_TOKENIZER_DIR, trust_remote_code=True)
     config = EuroBertUposLemmaConfig(
         base_model_name_or_path=BASE_MODEL,
         upos_label2id=upos_label2id,
         lemma_label2id=label2id,
     )
+    warm_start = os.getenv("TRAIN_WARM_START", WARM_START_DIR)
     base_model = EuroBertForUposLemma.from_pretrained(
-        BASE_MODEL,
+        warm_start,
         config=config,
         trust_remote_code=True,
+        ignore_mismatched_sizes=True,
     )
     base_model.resize_token_embeddings(len(tokenizer))
     model = PeftModel.from_pretrained(base_model, adapter_dir)

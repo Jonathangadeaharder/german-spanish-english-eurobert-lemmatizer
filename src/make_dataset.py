@@ -7,7 +7,6 @@ from transformers import AutoTokenizer
 from conllu_reader import read_conllu
 from edit_trees import make_edit_label
 
-
 MODEL_ID = "EuroBERT/EuroBERT-210m"
 MAX_LENGTH = 256
 
@@ -53,7 +52,7 @@ def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
         lemma_labels = [-100]
         upos_labels = [-100]
 
-        for word, lemma, upos in zip(original_words, lemmas, upos_tags):
+        for word, lemma, upos in zip(original_words, lemmas, upos_tags, strict=True):
             base_label = make_edit_label(word, lemma)
             full_label = f"{lang}::{base_label}"
             lemma_label_id = lemma_label2id.get(full_label, lemma_label2id["UNKNOWN"])

@@ -5,20 +5,29 @@ import {
   buildLanguageLabelIds,
   languageToken,
   resolveLemma,
-  selectBestLabel,
+  selectValidLabel,
   simpleTokenizer,
-  stripLanguagePrefix,
 } from "./postprocess.js";
 
-const MODEL_PATH = "./model/";
 const MAX_LENGTH = 256;
+const HF_RESOLVE_BASE = "https://huggingface.co";
+const LEMMATIZER_MODELS = {
+  de: "Jonandrop/eurobert-lemma-de-210m",
+  en: "Jonandrop/eurobert-lemma-en-210m",
+  es: "Jonandrop/eurobert-lemma-es-210m",
+};
 
-let tokenizer = null;
-let session = null;
-let id2label = null;
-let uposId2label = null;
-let lexicon = null;
-let labelIdsByLang = null;
+const lemmatizers = new Map();
+
+function assertSupportedLang(lang) {
+  if (!Object.prototype.hasOwnProperty.call(LEMMATIZER_MODELS, lang)) {
+    throw new Error("lang must be one of: de, es, en");
+  }
+}
+
+function modelFileUrl(lang, file) {
+  return `${HF_RESOLVE_BASE}/${LEMMATIZER_MODELS[lang]}/resolve/main/${file}`;
+}
 
 function toArray(values) {
   if (!values) {
@@ -59,30 +68,46 @@ function getOutputRow(tensor, rowIndex) {
   return Array.from(tensor.data.slice(offset, offset + classCount));
 }
 
-export async function loadLemmatizer() {
+export async function loadLemmatizer(lang) {
+  assertSupportedLang(lang);
+
+  if (lemmatizers.has(lang)) {
+    return lemmatizers.get(lang);
+  }
+
+  const repoId = LEMMATIZER_MODELS[lang];
   const [loadedTokenizer, id2labelResponse, uposResponse, lexiconResponse] = await Promise.all([
-    AutoTokenizer.from_pretrained(MODEL_PATH),
-    fetch(`${MODEL_PATH}id2label.json`),
-    fetch(`${MODEL_PATH}upos_id2label.json`),
-    fetch(`${MODEL_PATH}lexicon.json`),
+    AutoTokenizer.from_pretrained(repoId),
+    fetch(modelFileUrl(lang, "id2label.json")),
+    fetch(modelFileUrl(lang, "upos_id2label.json")),
+    fetch(modelFileUrl(lang, "lexicon.json")),
   ]);
 
-  tokenizer = loadedTokenizer;
-  session = await ort.InferenceSession.create(`${MODEL_PATH}model.onnx`);
-  id2label = await id2labelResponse.json();
-  uposId2label = await uposResponse.json();
-  labelIdsByLang = buildLanguageLabelIds(id2label);
-  lexicon = lexiconResponse.ok ? await lexiconResponse.json() : { de: {}, es: {}, en: {} };
+  if (!id2labelResponse.ok) {
+    throw new Error(`Failed to load ${repoId}/id2label.json`);
+  }
+
+  if (!uposResponse.ok) {
+    throw new Error(`Failed to load ${repoId}/upos_id2label.json`);
+  }
+
+  const id2label = await id2labelResponse.json();
+  const lemmatizer = {
+    tokenizer: loadedTokenizer,
+    session: await ort.InferenceSession.create(modelFileUrl(lang, "model.int8.onnx")),
+    id2label,
+    uposId2label: await uposResponse.json(),
+    labelIdsByLang: buildLanguageLabelIds(id2label),
+    lexicon: lexiconResponse.ok ? await lexiconResponse.json() : {},
+  };
+
+  lemmatizers.set(lang, lemmatizer);
+  return lemmatizer;
 }
 
 export async function lemmatize(text, lang) {
-  if (!["de", "es", "en"].includes(lang)) {
-    throw new Error("lang must be one of: de, es, en");
-  }
-
-  if (!tokenizer || !session || !id2label || !uposId2label) {
-    await loadLemmatizer();
-  }
+  const { tokenizer, session, id2label, uposId2label, labelIdsByLang, lexicon } =
+    await loadLemmatizer(lang);
 
   const originalWords = simpleTokenizer(text);
   const wordsForModel = [languageToken(lang), ...originalWords];
@@ -127,10 +152,14 @@ export async function lemmatize(text, lang) {
 
     if (upos !== "PROPN") {
       const lemmaRow = getOutputRow(lemmaTensor, tokenIndex);
-      const labelId = selectBestLabel(lemmaRow, labelIdsByLang[lang]);
-      const fullLabel = labelId !== null ? id2label[String(labelId)] || "UNKNOWN" : null;
-      const baseLabel = fullLabel !== null ? stripLanguagePrefix(fullLabel, lang) : null;
-      const resolved = resolveLemma(word, upos, baseLabel, lexicon[lang]);
+      const baseLabel = selectValidLabel(
+        lemmaRow,
+        labelIdsByLang[lang],
+        id2label,
+        lang,
+        word,
+      );
+      const resolved = resolveLemma(word, upos, baseLabel, lexicon);
       lemma = resolved.lemma;
     }
 
