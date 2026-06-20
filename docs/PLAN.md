@@ -65,7 +65,6 @@ If the model predicts an English label for a German word, ignore it and fall bac
 german-spanish-english-eurobert-lemmatizer/
   README.md
   pyproject.toml
-  requirements.txt
 
   configs/
     mps-full.toml
