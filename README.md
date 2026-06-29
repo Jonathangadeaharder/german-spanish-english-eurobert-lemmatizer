@@ -1,12 +1,24 @@
-# German, Spanish, English EuroBERT UPOS/Lemma tagger
+# Per-language EuroBERT UPOS/Lemma taggers
 
-One multilingual EuroBERT-210m token classifier for German, Spanish, and English that predicts UPOS for every token and predicts lemmas only when the token is not `PROPN`.
+Per-language EuroBERT-210m token classifiers for German, Spanish, English, and French, plus a separate vocabulary classifier path. Fine-tuned with LoRA, merged, and **exported to ONNX to run in the browser via Transformers.js — no server.**
+
+## Results (held-out validation)
+
+| language | UPOS accuracy | lemma accuracy | tokens |
+|----------|---------------|----------------|--------|
+| Spanish  | 96.7%         | 96.2%          | 212    |
+| German   | 94.4%         | 91.8%          | 196    |
+| English  | 93.1%         | 94.1%          | 204    |
+
+Lemma is predicted via language-prefixed **edit-trees** with a gold-lexicon backoff, and gated
+off for `PROPN`. Each language is a separately fine-tuned `EuroBERT/EuroBERT-210m` adapter.
+(French is supported in the pipeline; numbers above are the current held-out snapshot.)
 
 ## What this repository does
 
 - Builds language-prefixed edit-tree labels
 - Builds a per-language lexicon backoff from train/dev data
-- Converts gold CoNLL-U data into a token-classification dataset
+- Converts gold CoNLL-U data into per-language token-classification datasets
 - Fine-tunes `EuroBERT/EuroBERT-210m`
 - Evaluates UPOS accuracy and lemma accuracy with lemma gated off for `PROPN`
 - Merges LoRA adapters into the base model
@@ -21,6 +33,7 @@ data/
     de/
     es/
     en/
+    fr/
   processed/
 
 artifacts/
@@ -44,6 +57,10 @@ data/gold/es/test.conllu
 data/gold/en/train.conllu
 data/gold/en/dev.conllu
 data/gold/en/test.conllu
+
+data/gold/fr/train.conllu
+data/gold/fr/dev.conllu
+data/gold/fr/test.conllu
 ```
 
 Recommended treebanks:
@@ -51,6 +68,7 @@ Recommended treebanks:
 - German: UD German-HDT or UD German-GSD
 - Spanish: UD Spanish-AnCora or UD Spanish-GSD
 - English: UD English-EWT
+- French: UD French-GSD
 
 You can download the recommended gold files with:
 
