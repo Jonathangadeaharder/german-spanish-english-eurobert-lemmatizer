@@ -2,6 +2,9 @@
   "name": "eurobert-lemmatizer-web",
   "private": true,
   "type": "module",
+  "scripts": {
+    "test": "node --test postprocess.test.js"
+  },
   "dependencies": {
     "@huggingface/transformers": "^3.3.3",
     "onnxruntime-web": "^1.23.2"

@@ -36,9 +36,9 @@ Expected improvement: OOV accuracy from 65-74% → 85-90% (+20-25 percentage poi
 
 ### Recommended: Hybrid Approach (Option C)
 
-> **Status:** Partially implemented. The routing head (`lemma_router`) and data pipeline
-> (`make_char_dataset.py`, `build_char_vocab.py`) exist in `src/`. The `PointerGenerator`
-> module is archived at `archive/char_generator.py`. The character generator is currently
+> **Status:** Not active. The routing head (`lemma_router`) remains for checkpoint
+> compatibility, but the character-generator data scripts were removed from `src/`.
+> The `PointerGenerator` module is archived at `archive/char_generator.py`. The character generator is currently
 > **disabled** in the production build — `use_char_generator=True` raises `ValueError` in
 > both `multitask_model.py` and `train.py`. The model trains and evaluates using only the
 > edit-tree classifier + lexicon fallback path.
@@ -117,7 +117,7 @@ Apply tree   Generate lemma
 
 #### 1.1 Create character-level dataset
 
-**New file: `src/make_char_dataset.py`**
+**Historical sketch:** this experiment file was removed from active `src/`.
 
 ```python
 def make_char_dataset():
@@ -146,11 +146,11 @@ def make_char_dataset():
 **Key decisions:**
 - Character vocabulary: Unicode characters seen in training (likely 200-500 chars)
 - Max lemma length: 32 characters (covers 99.9% of lemmas; config default is 32)
-- Special tokens: `<PAD>`, `<BOS>`, `<EOS>`, `<UNK>` (as implemented in `build_char_vocab.py`; no `<COPY>` token)
+- Special tokens: `<PAD>`, `<BOS>`, `<EOS>`, `<UNK>`; no `<COPY>` token.
 
 #### 1.2 Build character vocabulary
 
-**New file: `src/build_char_vocab.py`**
+**Historical sketch:** this experiment file was removed from active `src/`.
 
 ```python
 def build_char_vocab():
@@ -769,8 +769,8 @@ Test on held-out data:
 
 ### New Files
 1. `src/char_generator.py` → **archived** at `archive/char_generator.py` (Pointer-generator network; disabled in production)
-2. `src/make_char_dataset.py` - Convert dataset to character-level format
-3. `src/build_char_vocab.py` - Build character vocabulary
+2. `src/make_char_dataset.py` → removed from active source; recover from git history if this experiment is resumed
+3. `src/build_char_vocab.py` → removed from active source; recover from git history if this experiment is resumed
 4. `src/benchmark_char_gen.py` - Performance benchmarking (not yet created)
 5. `configs/mps-char-gen.toml` - Training config for character generation (not yet created)
 

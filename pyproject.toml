@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "eurobert-lemmatizer"
 version = "0.1.0"
-description = "Multilingual EuroBERT lemmatizer for German, Spanish, and English"
+description = "Per-language EuroBERT lemmatizers plus vocabulary classifier"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
@@ -38,7 +38,6 @@ py-modules = [
   "analyze_errors",
   "annotate_silver",
   "benchmark_mps",
-  "build_char_vocab",
   "build_labels",
   "cli",
   "config",
@@ -55,7 +54,6 @@ py-modules = [
   "language_assets",
   "lmstudio_client",
   "make_cefr_eval_dataset",
-  "make_char_dataset",
   "make_dataset",
   "make_vocab_dataset",
   "merge_lora",

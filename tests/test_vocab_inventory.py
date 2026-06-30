@@ -1,5 +1,6 @@
 import csv
 
+from language_assets import LANGS, LANGUAGE_NAMES, VOCAB_LEMMA_COLUMNS
 from vocab_inventory import build_inventory, canonical_terms, lookup_level
 
 
@@ -20,18 +21,20 @@ VALUES = {
 }
 
 
-def test_build_inventory_marks_basic_single_word_entries(tmp_path):
-    for dirname, lemma_col in [
-        ("english", "English_Lemma"),
-        ("german", "German_Lemma"),
-        ("spanish", "Spanish_Lemma"),
-    ]:
+def write_vocab_fixture(root):
+    for lang in LANGS:
+        dirname = LANGUAGE_NAMES[lang]
+        lemma_col = VOCAB_LEMMA_COLUMNS[lang]
         for level in ["A1", "A2", "B1", "B2", "C1"]:
             write_vocab_file(
-                tmp_path / dirname / f"{level}.csv",
+                root / dirname / f"{level}.csv",
                 lemma_col,
                 [{lemma_col: f"{dirname}_{VALUES[level]}", "T1": "x", "T2": "y"}],
             )
+
+
+def test_build_inventory_marks_basic_single_word_entries(tmp_path):
+    write_vocab_fixture(tmp_path)
 
     inventory = build_inventory(tmp_path)
 
@@ -40,11 +43,9 @@ def test_build_inventory_marks_basic_single_word_entries(tmp_path):
 
 
 def test_build_inventory_rejects_multi_word_entries(tmp_path):
-    for dirname, lemma_col in [
-        ("english", "English_Lemma"),
-        ("german", "German_Lemma"),
-        ("spanish", "Spanish_Lemma"),
-    ]:
+    for lang in LANGS:
+        dirname = LANGUAGE_NAMES[lang]
+        lemma_col = VOCAB_LEMMA_COLUMNS[lang]
         for level in ["A1", "A2", "B1", "B2", "C1"]:
             value = (
                 "two words"

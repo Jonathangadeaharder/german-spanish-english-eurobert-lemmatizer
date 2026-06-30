@@ -14,6 +14,7 @@ LANG_TOKEN = {
     "de": "[LANG_DE]",
     "es": "[LANG_ES]",
     "en": "[LANG_EN]",
+    "fr": "[LANG_FR]",
 }
 
 DATA_FILES = {
@@ -21,16 +22,19 @@ DATA_FILES = {
         "de": "data/gold/de/train.conllu",
         "es": "data/gold/es/train.conllu",
         "en": "data/gold/en/train.conllu",
+        "fr": "data/gold/fr/train.conllu",
     },
     "validation": {
         "de": "data/gold/de/dev.conllu",
         "es": "data/gold/es/dev.conllu",
         "en": "data/gold/en/dev.conllu",
+        "fr": "data/gold/fr/dev.conllu",
     },
     "test": {
         "de": "data/gold/de/test.conllu",
         "es": "data/gold/es/test.conllu",
         "en": "data/gold/en/test.conllu",
+        "fr": "data/gold/fr/test.conllu",
     },
 }
 
@@ -122,15 +126,7 @@ def main():
         trust_remote_code=True,
     )
 
-    tokenizer.add_special_tokens(
-        {
-            "additional_special_tokens": [
-                "[LANG_DE]",
-                "[LANG_ES]",
-                "[LANG_EN]",
-            ]
-        }
-    )
+    tokenizer.add_special_tokens({"additional_special_tokens": list(LANG_TOKEN.values())})
 
     dataset = DatasetDict(
         {

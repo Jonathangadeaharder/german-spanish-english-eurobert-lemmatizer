@@ -47,9 +47,7 @@ def build_candidate_label_ids(id2label, lang=None):
 
     if lang is not None:
         has_prefix = any(
-            label.startswith(f"{lang}::")
-            for label in id2label.values()
-            if label != "UNKNOWN"
+            label.startswith(f"{lang}::") for label in id2label.values() if label != "UNKNOWN"
         )
 
         if has_prefix:
@@ -59,11 +57,7 @@ def build_candidate_label_ids(id2label, lang=None):
                 if label != "UNKNOWN" and label.startswith(f"{lang}::")
             ]
         else:
-            ids = [
-                int(label_id)
-                for label_id, label in id2label.items()
-                if label != "UNKNOWN"
-            ]
+            ids = [int(label_id) for label_id, label in id2label.items() if label != "UNKNOWN"]
 
         candidate_ids[lang] = np.array(sorted(ids), dtype=np.int64)
     else:
@@ -183,7 +177,7 @@ def ensure_upos(words, upos):
 def strip_lang_prefix(label, lang):
     prefix = f"{lang}::"
     if label.startswith(prefix):
-        return label[len(prefix):]
+        return label[len(prefix) :]
     return label
 
 
@@ -219,12 +213,8 @@ def main():
     candidate_ids_by_lang = build_candidate_label_ids(id2label, lang=lang)
     candidate_ids = candidate_ids_by_lang[lang]
 
-    multilingual_tokenizer_dir = os.getenv(
-        "MULTILINGUAL_TOKENIZER_DIR", "artifacts/tokenizer"
-    )
-    tokenizer = AutoTokenizer.from_pretrained(
-        multilingual_tokenizer_dir, trust_remote_code=True
-    )
+    multilingual_tokenizer_dir = os.getenv("MULTILINGUAL_TOKENIZER_DIR", "artifacts/tokenizer")
+    tokenizer = AutoTokenizer.from_pretrained(multilingual_tokenizer_dir, trust_remote_code=True)
 
     device = get_device()
 
@@ -233,9 +223,7 @@ def main():
     if onnx_model_path:
         import onnxruntime as ort
 
-        ort_session = ort.InferenceSession(
-            onnx_model_path, providers=["CPUExecutionProvider"]
-        )
+        ort_session = ort.InferenceSession(onnx_model_path, providers=["CPUExecutionProvider"])
         model = None
     elif use_lora:
         config = EuroBertUposLemmaConfig(
@@ -354,9 +342,7 @@ def main():
                     upos_id2label,
                 )
 
-                for word_offset, (word, gold_lemma) in enumerate(
-                    zip(words, lemmas, strict=True)
-                ):
+                for word_offset, (word, gold_lemma) in enumerate(zip(words, lemmas, strict=True)):
                     word_id = first_word_id + word_offset
                     stats["total"] += 1
 

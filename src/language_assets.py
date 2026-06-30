@@ -4,24 +4,27 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
-LANGS = ("en", "de", "es")
+LANGS = ("en", "de", "es", "fr")
 
 LANGUAGE_NAMES = {
     "en": "english",
     "de": "german",
     "es": "spanish",
+    "fr": "french",
 }
 
 VOCAB_LEMMA_COLUMNS = {
     "en": "English_Lemma",
     "de": "German_Lemma",
     "es": "Spanish_Lemma",
+    "fr": "French_Lemma",
 }
 
 SPACY_MODELS = {
     "en": "en_core_web_lg",
     "de": "de_core_news_lg",
     "es": "es_core_news_lg",
+    "fr": "fr_core_news_lg",
 }
 
 UD_FILES = {
@@ -29,16 +32,19 @@ UD_FILES = {
         "de": "data/gold/de/train.conllu",
         "es": "data/gold/es/train.conllu",
         "en": "data/gold/en/train.conllu",
+        "fr": "data/gold/fr/train.conllu",
     },
     "validation": {
         "de": "data/gold/de/dev.conllu",
         "es": "data/gold/es/dev.conllu",
         "en": "data/gold/en/dev.conllu",
+        "fr": "data/gold/fr/dev.conllu",
     },
     "test": {
         "de": "data/gold/de/test.conllu",
         "es": "data/gold/es/test.conllu",
         "en": "data/gold/en/test.conllu",
+        "fr": "data/gold/fr/test.conllu",
     },
 }
 
@@ -74,6 +80,9 @@ def normalize_lang(lang: str | None = None) -> str:
         "spanish": "es",
         "espanol": "es",
         "español": "es",
+        "french": "fr",
+        "francais": "fr",
+        "français": "fr",
     }
     resolved = aliases.get(resolved, resolved)
 
@@ -97,15 +106,9 @@ def vocab_levels_root() -> Path:
 def language_assets(lang: str | None = None) -> LanguageAssets:
     lang = normalize_lang(lang)
     artifacts_dir = Path(os.getenv("ARTIFACTS_DIR", f"artifacts/lemma_{lang}"))
-    dataset_path = Path(
-        os.getenv("DATASET_PATH", f"data/processed/eurobert_lemma_{lang}_dataset")
-    )
-    output_dir = Path(
-        os.getenv("OUTPUT_DIR", f"runs/eurobert-lemma-{lang}-210m-lora")
-    )
-    merged_dir = Path(
-        os.getenv("MERGED_DIR", f"models/eurobert-lemma-{lang}-210m-merged")
-    )
+    dataset_path = Path(os.getenv("DATASET_PATH", f"data/processed/eurobert_lemma_{lang}_dataset"))
+    output_dir = Path(os.getenv("OUTPUT_DIR", f"runs/eurobert-lemma-{lang}-210m-lora"))
+    merged_dir = Path(os.getenv("MERGED_DIR", f"models/eurobert-lemma-{lang}-210m-merged"))
     onnx_dir = Path(os.getenv("ONNX_DIR", f"onnx/eurobert-lemma-{lang}-210m"))
     web_model_dir = Path(os.getenv("WEB_MODEL_DIR", f"web/model/lemma_{lang}"))
     tokenizer_dir = Path(os.getenv("TOKENIZER_DIR", str(artifacts_dir / "tokenizer")))

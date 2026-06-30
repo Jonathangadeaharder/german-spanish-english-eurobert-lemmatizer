@@ -263,7 +263,8 @@ def run_child(config_json):
 
     def configure_runtime():
         precision = config.get(
-            "float32_matmul_precision", runtime_defaults["float32_matmul_precision"],
+            "float32_matmul_precision",
+            runtime_defaults["float32_matmul_precision"],
         )
 
         if hasattr(torch, "set_float32_matmul_precision"):
@@ -428,7 +429,9 @@ def run_child(config_json):
                 getattr(torch.backends, "mps", None) and torch.backends.mps.is_available(),
             ),
             "float32_matmul_precision": getattr(
-                torch, "get_float32_matmul_precision", lambda: "unknown",
+                torch,
+                "get_float32_matmul_precision",
+                lambda: "unknown",
             )(),
         },
         "train_examples": train_limit,
@@ -444,8 +447,7 @@ def run_child(config_json):
 
     if eval_result is not None:
         result["eval_metrics"] = {
-            k: (float(v) if isinstance(v, (int, float)) else v)
-            for k, v in eval_result.items()
+            k: (float(v) if isinstance(v, (int, float)) else v) for k, v in eval_result.items()
         }
 
     if error is not None:
@@ -523,11 +525,7 @@ def choose_best_config(results):
 
 
 def config_signature(config):
-    filtered = {
-        key: value
-        for key, value in config.items()
-        if key not in {"name", "repeat"}
-    }
+    filtered = {key: value for key, value in config.items() if key not in {"name", "repeat"}}
     return json.dumps(filtered, sort_keys=True)
 
 
@@ -563,8 +561,10 @@ def rejection_reasons(result, runtime_defaults, full_train_examples):
     eval_metrics = result.get("eval_metrics", {})
 
     for key in [
-        "train_runtime", "train_samples_per_second",
-        "train_steps_per_second", "train_loss",
+        "train_runtime",
+        "train_samples_per_second",
+        "train_steps_per_second",
+        "train_loss",
     ]:
         if key in train_metrics and not _finite_metric(train_metrics.get(key)):
             reasons.append(f"non_finite_{key}")
@@ -584,7 +584,8 @@ def rejection_reasons(result, runtime_defaults, full_train_examples):
     if _finite_metric(samples_per_second) and float(samples_per_second) > 0:
         total_examples = full_train_examples * runtime_defaults["full_epochs"]
         result["estimated_full_train_seconds"] = round(
-            total_examples / float(samples_per_second), 2,
+            total_examples / float(samples_per_second),
+            2,
         )
 
     return sorted(set(reasons))
@@ -672,7 +673,8 @@ def aggregate_group(results, runtime_defaults, full_train_examples):
     if _finite_metric(samples_per_second) and float(samples_per_second) > 0:
         total_examples = full_train_examples * runtime_defaults["full_epochs"]
         summary["estimated_full_train_seconds"] = round(
-            total_examples / float(samples_per_second), 2,
+            total_examples / float(samples_per_second),
+            2,
         )
 
     return summary
@@ -772,7 +774,8 @@ def parent_main():
             "best_run_train_samples_per_second": best_metrics.get("train_samples_per_second"),
             "best_run_train_steps_per_second": best_metrics.get("train_steps_per_second"),
             "best_run_eval_token_accuracy": best_eval.get(
-                "eval_token_accuracy", best_eval.get("token_accuracy"),
+                "eval_token_accuracy",
+                best_eval.get("token_accuracy"),
             ),
         }
 

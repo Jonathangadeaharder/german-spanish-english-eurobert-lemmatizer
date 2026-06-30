@@ -163,11 +163,7 @@ class EuroBertForUposLemma(PreTrainedModel):
 
         char_gen_result = None
         sel_tc = None
-        if (
-            self.char_generator is not None
-            and word_chars is not None
-            and lemma_route is not None
-        ):
+        if self.char_generator is not None and word_chars is not None and lemma_route is not None:
             char_gen_mask = lemma_route == 1
             if char_gen_mask.any():
                 char_gen = self.char_generator
@@ -192,16 +188,10 @@ class EuroBertForUposLemma(PreTrainedModel):
                             selected_hidden.append(hidden[b, s])
                             if attention_mask is not None:
                                 selected_mask.append(attention_mask[b, s])
-                            selected_word_chars.append(
-                                word_chars[b, s, :max_word_len]
-                            )
-                            selected_word_char_mask.append(
-                                word_char_mask[b, s, :max_word_len]
-                            )
+                            selected_word_chars.append(word_chars[b, s, :max_word_len])
+                            selected_word_char_mask.append(word_char_mask[b, s, :max_word_len])
                             if lemma_chars is not None:
-                                selected_target_chars.append(
-                                    lemma_chars[b, s, :max_lemma_len]
-                                )
+                                selected_target_chars.append(lemma_chars[b, s, :max_lemma_len])
 
                 if selected_hidden:
                     sel_hidden = torch.stack(selected_hidden).unsqueeze(1)
@@ -248,17 +238,12 @@ class EuroBertForUposLemma(PreTrainedModel):
                     pos_weight=pos_weight,
                 )
 
-        if (
-            char_gen_result is not None
-            and sel_tc is not None
-        ):
+        if char_gen_result is not None and sel_tc is not None:
             char_logits = char_gen_result["char_logits"]
             if char_logits.shape[1] > 0:
                 char_logits_shifted = char_logits[:, :-1, :]
                 target_shifted = sel_tc[:, 1:]
-                seq_len = min(
-                    char_logits_shifted.shape[1], target_shifted.shape[1]
-                )
+                seq_len = min(char_logits_shifted.shape[1], target_shifted.shape[1])
                 if seq_len > 0:
                     char_loss = nn.functional.cross_entropy(
                         char_logits_shifted[:, :seq_len, :].reshape(

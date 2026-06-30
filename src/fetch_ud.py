@@ -14,6 +14,10 @@ TREEBANKS = {
         "repo": "UD_English-EWT",
         "prefix": "en_ewt",
     },
+    "fr": {
+        "repo": "UD_French-GSD",
+        "prefix": "fr_gsd",
+    },
 }
 
 
@@ -29,7 +33,7 @@ def download_treebank(lang: str):
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for split in SPLITS:
-      # Use the official UD GitHub mirror.
+        # Use the official UD GitHub mirror.
         filename = f"{prefix}-ud-{split}.conllu"
         url = f"https://raw.githubusercontent.com/UniversalDependencies/{repo}/master/{filename}"
         out_path = out_dir / f"{split}.conllu"
@@ -38,7 +42,7 @@ def download_treebank(lang: str):
 
 
 def main():
-    for lang in ["de", "es", "en"]:
+    for lang in ["de", "es", "en", "fr"]:
         download_treebank(lang)
 
 

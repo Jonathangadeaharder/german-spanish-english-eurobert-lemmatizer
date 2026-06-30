@@ -113,6 +113,7 @@ MANUAL_CORRECTIONS = {
 
 def get_gold(lang, sentences):
     import spacy
+
     nlp = spacy.load(SPACY_MODELS[lang])
     corrections = MANUAL_CORRECTIONS.get(lang, {})
     results = []
@@ -124,12 +125,14 @@ def get_gold(lang, sentences):
             lemma = corrections.get(tok.text, tok.lemma_)
             gold_lemmas.append(lemma)
         gold_upos = [tok.pos_ for tok in doc]
-        results.append({
-            "words": tokens,
-            "lemmas": gold_lemmas,
-            "upos": gold_upos,
-            "lang": lang,
-        })
+        results.append(
+            {
+                "words": tokens,
+                "lemmas": gold_lemmas,
+                "upos": gold_upos,
+                "lang": lang,
+            }
+        )
     return results
 
 
@@ -182,21 +185,23 @@ def predict_batch(tokenizer, model, id2label, upos_id2label, rows, lang):
             )
             if lemma is None:
                 lemma = word
-            word_preds.append({
-                "word": word,
-                "upos": upos,
-                "lemma": lemma,
-                "source": source,
-                "edit_failed": edit_failed,
-            })
+            word_preds.append(
+                {
+                    "word": word,
+                    "upos": upos,
+                    "lemma": lemma,
+                    "source": source,
+                    "edit_failed": edit_failed,
+                }
+            )
         all_preds.append(word_preds)
     return all_preds
 
 
 def evaluate_lang(lang):
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print(f"  {lang.upper()} Held-Out Validation (manually corrected gold)")
-    print(f"{'='*60}")
+    print(f"{'=' * 60}")
 
     tokenizer, model, id2label, upos_id2label, lexicon, canonical_vocab = load_artifacts(lang)
     rows = get_gold(lang, NOVEL_SENTENCES[lang])
@@ -236,15 +241,17 @@ def evaluate_lang(lang):
             if lemma_match:
                 lemma_correct += 1
             else:
-                errors.append({
-                    "word": pred["word"],
-                    "gold": gold_lemma.lower(),
-                    "pred": pred["lemma"].lower(),
-                    "gold_upos": gold_upos,
-                    "pred_upos": pred["upos"],
-                    "source": pred["source"],
-                    "edit_failed": pred["edit_failed"],
-                })
+                errors.append(
+                    {
+                        "word": pred["word"],
+                        "gold": gold_lemma.lower(),
+                        "pred": pred["lemma"].lower(),
+                        "gold_upos": gold_upos,
+                        "pred_upos": pred["upos"],
+                        "source": pred["source"],
+                        "edit_failed": pred["edit_failed"],
+                    }
+                )
 
             if pred["edit_failed"]:
                 edit_failed_count += 1
@@ -281,8 +288,7 @@ def evaluate_lang(lang):
     print(f"In-vocab accuracy:  {in_vocab_acc:.4f} ({in_vocab_correct}/{in_vocab_total})")
     print(f"OOV accuracy:       {oov_acc:.4f} ({oov_correct}/{oov_total})")
     print(
-        f"Canonical OOV acc:  "
-        f"{canon_oov_acc:.4f} ({canonical_oov_correct}/{canonical_oov_total})"
+        f"Canonical OOV acc:  {canon_oov_acc:.4f} ({canonical_oov_correct}/{canonical_oov_total})"
     )
     print(f"Edit-failed count:  {edit_failed_count}")
 
@@ -313,9 +319,9 @@ def main():
     for lang in ["de", "en", "es"]:
         results.append(evaluate_lang(lang))
 
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print("  HELD-OUT VALIDATION SUMMARY")
-    print(f"{'='*60}")
+    print(f"{'=' * 60}")
     hdr = (
         f"{'Lang':<6} {'Tokens':<8} {'Lemma':<10} {'UPOS':<10} "
         f"{'InVocab':<10} {'OOV':<10} {'CanOOV':<10} {'Errs':<6}"
