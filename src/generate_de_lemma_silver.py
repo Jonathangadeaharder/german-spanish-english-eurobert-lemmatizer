@@ -154,8 +154,7 @@ def main():
     with output_path.open("a", encoding="utf-8") as handle:
         with ThreadPoolExecutor(max_workers=parallel) as executor:
             futures = {
-                executor.submit(generate_job, client, job, sentences_per_seed): job
-                for job in jobs
+                executor.submit(generate_job, client, job, sentences_per_seed): job for job in jobs
             }
             for future in as_completed(futures):
                 job = futures[future]

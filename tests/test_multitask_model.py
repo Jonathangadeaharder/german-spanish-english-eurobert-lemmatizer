@@ -97,10 +97,14 @@ def test_multitask_model_loads_backbone_config_as_keyword_and_initializes_heads(
         return DummyBackbone(backbone_config)
 
     monkeypatch.setattr(
-        multitask_model.AutoConfig, "from_pretrained", fake_auto_config_from_pretrained,
+        multitask_model.AutoConfig,
+        "from_pretrained",
+        fake_auto_config_from_pretrained,
     )
     monkeypatch.setattr(
-        multitask_model.AutoModel, "from_pretrained", fake_auto_model_from_pretrained,
+        multitask_model.AutoModel,
+        "from_pretrained",
+        fake_auto_model_from_pretrained,
     )
 
     model = EuroBertForUposLemma(

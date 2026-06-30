@@ -195,9 +195,7 @@ def main():
     callbacks = [MPSMemoryCleanupCallback()]
 
     if early_stopping_patience > 0 and eval_during_training:
-        callbacks.append(
-            EarlyStoppingCallback(early_stopping_patience=early_stopping_patience)
-        )
+        callbacks.append(EarlyStoppingCallback(early_stopping_patience=early_stopping_patience))
 
     if "lang" in dataset["validation"].column_names:
         import numpy as _np

@@ -1,5 +1,5 @@
 import json
-import time
+import threading
 
 import generate_silver
 
@@ -16,6 +16,8 @@ def test_generate_silver_uses_parallel_lmstudio_requests(monkeypatch, tmp_path):
     active = 0
     max_active = 0
     calls = []
+    barrier = threading.Barrier(4)
+    lock = threading.Lock()
 
     class FakeClient:
         def __init__(self, **_kwargs):
@@ -24,10 +26,12 @@ def test_generate_silver_uses_parallel_lmstudio_requests(monkeypatch, tmp_path):
         def chat(self, input_text, system_prompt=""):
             nonlocal active, max_active
             calls.append((input_text, system_prompt))
-            active += 1
-            max_active = max(max_active, active)
-            time.sleep(0.05)
-            active -= 1
+            with lock:
+                active += 1
+                max_active = max(max_active, active)
+            barrier.wait(timeout=1)
+            with lock:
+                active -= 1
             return "Ein Satz."
 
     monkeypatch.setenv("LEMMA_LANG", "de")

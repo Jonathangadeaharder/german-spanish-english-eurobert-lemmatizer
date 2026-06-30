@@ -1,5 +1,7 @@
 # Multilingual EuroBERT Lemmatizer Plan
 
+> Historical note: this was the original multilingual plan. Current code and `docs/RESUME.md` use per-language lemmatizers plus a separate vocabulary classifier.
+
 ## Goal
 
 Build one EuroBERT-210m multilingual token classifier for German, Spanish, and English. The model predicts UPOS, a language-specific edit-tree label, and a routing signal per original word. Runtime applies the predicted edit label in JavaScript and returns `{ word, upos, lemma, lang }`, setting `lemma` to `null` when UPOS is `PROPN`.

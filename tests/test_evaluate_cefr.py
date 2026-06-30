@@ -64,12 +64,18 @@ def _write_jsonl(path, rows):
 def test_load_cefr_rows_parses_valid(tmp_path):
     rows = [
         {
-            "lang": "de", "level": "A1", "term": "Haus",
-            "sentences": ["Das Haus ist groß."], "raw_output": "",
+            "lang": "de",
+            "level": "A1",
+            "term": "Haus",
+            "sentences": ["Das Haus ist groß."],
+            "raw_output": "",
         },
         {
-            "lang": "de", "level": "A2", "term": "lernen",
-            "sentences": ["Ich lerne Deutsch."], "raw_output": "",
+            "lang": "de",
+            "level": "A2",
+            "term": "lernen",
+            "sentences": ["Ich lerne Deutsch."],
+            "raw_output": "",
         },
     ]
     _write_jsonl(tmp_path / "test.jsonl", rows)
@@ -82,12 +88,19 @@ def test_load_cefr_rows_parses_valid(tmp_path):
 def test_load_cefr_rows_skips_errors(tmp_path):
     rows = [
         {
-            "lang": "de", "level": "A1", "term": "Haus",
-            "sentences": ["Das Haus."], "raw_output": "",
+            "lang": "de",
+            "level": "A1",
+            "term": "Haus",
+            "sentences": ["Das Haus."],
+            "raw_output": "",
         },
         {
-            "lang": "de", "level": "A1", "term": "bad",
-            "sentences": [], "raw_output": "", "error": "timeout",
+            "lang": "de",
+            "level": "A1",
+            "term": "bad",
+            "sentences": [],
+            "raw_output": "",
+            "error": "timeout",
         },
     ]
     _write_jsonl(tmp_path / "test.jsonl", rows)

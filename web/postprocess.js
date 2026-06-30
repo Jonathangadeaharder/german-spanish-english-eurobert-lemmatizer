@@ -114,18 +114,18 @@ export function resolveLemma(word, upos, baseLabel, lexicon) {
     return { lemma: null, source: "propn" };
   }
 
+  const lexiconLemma = lookupLexicon(lexicon, word);
+
+  if (lexiconLemma !== null) {
+    return { lemma: lexiconLemma, source: "lexicon" };
+  }
+
   if (baseLabel !== null) {
     const applied = applyEditLabel(word, baseLabel);
 
     if (applied !== null) {
       return { lemma: applied, source: "edit" };
     }
-  }
-
-  const lexiconLemma = lookupLexicon(lexicon, word);
-
-  if (lexiconLemma !== null) {
-    return { lemma: lexiconLemma, source: "lexicon" };
   }
 
   return { lemma: word, source: "identity" };

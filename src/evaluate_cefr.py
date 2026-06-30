@@ -43,11 +43,7 @@ def wilson_interval(correct: int, total: int, z: float = 1.96) -> tuple[float, f
     p = correct / total
     denom = 1 + z * z / total
     center = (p + z * z / (2 * total)) / denom
-    margin = (
-        z
-        * math.sqrt((p * (1 - p) + z * z / (4 * total)) / total)
-        / denom
-    )
+    margin = z * math.sqrt((p * (1 - p) + z * z / (4 * total)) / total) / denom
     return max(0.0, center - margin), min(1.0, center + margin)
 
 
@@ -174,9 +170,7 @@ def main():
 
                 level = row["level"]
                 lemma_label = (
-                    id2label.get(str(predicted), "UNKNOWN")
-                    if predicted is not None
-                    else "UNKNOWN"
+                    id2label.get(str(predicted), "UNKNOWN") if predicted is not None else "UNKNOWN"
                 )
                 stats[level]["total"] += 1
                 predicted_lemma = (
@@ -185,8 +179,7 @@ def main():
                     else words[idx].lower()
                 )
                 correct = (
-                    predicted_lemma is not None
-                    and predicted_lemma.lower() == row["term"].lower()
+                    predicted_lemma is not None and predicted_lemma.lower() == row["term"].lower()
                 )
                 if correct:
                     stats[level]["correct"] += 1

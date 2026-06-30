@@ -10,8 +10,9 @@ LANGS = {
     "de": {"name": "German", "treebank": "UD German-GSD", "lemma": 91.09, "upos": 90.24},
     "en": {"name": "English", "treebank": "UD English-EWT", "lemma": 92.43, "upos": 86.34},
     "es": {"name": "Spanish", "treebank": "UD Spanish-AnCora", "lemma": 94.99, "upos": 94.16},
+    "fr": {"name": "French", "treebank": "UD French-GSD", "lemma": 94.07, "upos": 97.46},
 }
-FP_LEMMA = {"de": 95.27, "en": 96.72, "es": 98.65}
+FP_LEMMA = {"de": 95.27, "en": 96.72, "es": 98.65, "fr": 94.07}
 
 ROOT = Path(__file__).resolve().parent.parent
 STAGE = Path("/tmp/hf_publish")
@@ -31,10 +32,10 @@ tags:
 base_model: EuroBERT/EuroBERT-210m
 ---
 
-# EuroBERT-210m Lemmatizer ({meta['name']}, int8 ONNX)
+# EuroBERT-210m Lemmatizer ({meta["name"]}, int8 ONNX)
 
 Per-language lemmatizer + UPOS tagger fine-tuned from
-[EuroBERT/EuroBERT-210m](https://huggingface.co/EuroBERT/EuroBERT-210m) on {meta['treebank']}.
+[EuroBERT/EuroBERT-210m](https://huggingface.co/EuroBERT/EuroBERT-210m) on {meta["treebank"]}.
 Predicts an **edit-tree label** per token; applying it to the surface word yields the lemma.
 Dynamic-int8 quantized ONNX (~204 MB).
 
@@ -42,8 +43,8 @@ Dynamic-int8 quantized ONNX (~204 MB).
 
 | Metric | int8 | fp (reference) |
 |--------|------|----------------|
-| Lemma accuracy | {meta['lemma']}% | {FP_LEMMA[lang]}% |
-| UPOS accuracy | {meta['upos']}% | — |
+| Lemma accuracy | {meta["lemma"]}% | {FP_LEMMA[lang]}% |
+| UPOS accuracy | {meta["upos"]}% | — |
 
 int8 trades accuracy for size; the fp16/torch model is several points higher (UPOS head is
 most affected by quantization).
@@ -91,11 +92,21 @@ def main():
         onnx_src = ROOT / f"onnx/eurobert-lemma-{lang}-210m/model.int8.onnx"
 
         shutil.copy(onnx_src, dst / "model.int8.onnx")
-        for f in ["config.json", "tokenizer.json", "tokenizer_config.json",
-                  "special_tokens_map.json"]:
+        for f in [
+            "config.json",
+            "tokenizer.json",
+            "tokenizer_config.json",
+            "special_tokens_map.json",
+        ]:
             shutil.copy(merged / f, dst / f)
-        for f in ["id2label.json", "label2id.json", "upos_id2label.json",
-                  "upos_label2id.json", "edit_trees.json", "lexicon.json"]:
+        for f in [
+            "id2label.json",
+            "label2id.json",
+            "upos_id2label.json",
+            "upos_label2id.json",
+            "edit_trees.json",
+            "lexicon.json",
+        ]:
             shutil.copy(arts / f, dst / f)
 
         (dst / "README.md").write_text(card(lang, meta))

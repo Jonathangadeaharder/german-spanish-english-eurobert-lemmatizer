@@ -8,8 +8,23 @@ from edit_trees import EXCLUDE_UPOS, apply_edit_label, make_edit_label
 from language_assets import SPACY_MODELS, normalize_lang
 
 UD_UPOS = {
-    "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN",
-    "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X",
+    "ADJ",
+    "ADP",
+    "ADV",
+    "AUX",
+    "CCONJ",
+    "DET",
+    "INTJ",
+    "NOUN",
+    "NUM",
+    "PART",
+    "PRON",
+    "PROPN",
+    "PUNCT",
+    "SCONJ",
+    "SYM",
+    "VERB",
+    "X",
 }
 
 MIN_SENTENCE_LENGTH = 2
@@ -143,9 +158,7 @@ def main():
         print("Building gold lexicon from UD treebanks ...")
         gold_lexicon = build_gold_lexicon(lang)
         gold_lexicon_path.parent.mkdir(parents=True, exist_ok=True)
-        gold_lexicon_path.write_text(
-            json.dumps(gold_lexicon, ensure_ascii=False), encoding="utf-8"
-        )
+        gold_lexicon_path.write_text(json.dumps(gold_lexicon, ensure_ascii=False), encoding="utf-8")
         print(f"Saved gold lexicon ({len(gold_lexicon)} entries) to {gold_lexicon_path}")
 
     raw_paths: list[Path] = []
@@ -197,9 +210,7 @@ def main():
                                 == len(ann.get("lemmas", []))
                                 == len(ann.get("upos", []))
                             ):
-                                corrected, issues = validate_and_correct(
-                                    ann, gold_lexicon, lang
-                                )
+                                corrected, issues = validate_and_correct(ann, gold_lexicon, lang)
                                 for iss in issues:
                                     cat = iss.split("@")[0]
                                     issue_categories[cat] += 1
@@ -227,9 +238,7 @@ def main():
                         if ann is None:
                             total_skipped += 1
                             continue
-                        corrected, issues = validate_and_correct(
-                            ann, gold_lexicon, lang
-                        )
+                        corrected, issues = validate_and_correct(ann, gold_lexicon, lang)
                         for iss in issues:
                             cat = iss.split("@")[0]
                             issue_categories[cat] += 1
@@ -257,13 +266,9 @@ def main():
         "issue_categories": dict(issue_categories.most_common()),
         "lemma_disagree_samples": lemma_disagree_samples[:30],
         "roundtrip_fail_samples": roundtrip_fail_samples[:30],
-        "pass_rate": round(
-            total_annotated / max(1, total_annotated + total_skipped), 4
-        ),
+        "pass_rate": round(total_annotated / max(1, total_annotated + total_skipped), 4),
     }
-    report_path.write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"\n=== Validation Report ({lang}) ===")
     print(f"Annotated: {total_annotated}")
@@ -272,10 +277,7 @@ def main():
     print(f"Pass rate: {report['pass_rate']:.4f}")
     print(f"Issue categories: {dict(issue_categories.most_common())}")
     print(f"Full report: {report_path}")
-    print(
-        f"\nWrote {total_annotated} annotated sentences from "
-        f"{total_rows} rows to {output_path}"
-    )
+    print(f"\nWrote {total_annotated} annotated sentences from {total_rows} rows to {output_path}")
 
 
 if __name__ == "__main__":

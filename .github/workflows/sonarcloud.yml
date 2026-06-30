@@ -7,7 +7,7 @@ on:
 jobs:
   sonarcloud:
     name: SonarCloud
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
     steps:
       - uses: actions/checkout@v4
         with:

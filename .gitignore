@@ -2,9 +2,14 @@
 .venv-arm64/
 data/gold/
 data/processed/
+data/silver/
+data/cefr_eval/
 artifacts/tokenizer/
 artifacts/eval_report.json
 artifacts/mps_benchmark.json
+# Generated per-language model artifacts + shared vocab classifier outputs
+artifacts/lemma_*/
+artifacts/vocab/
 runs/
 models/
 onnx/

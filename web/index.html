@@ -5,50 +5,317 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EuroBERT Lemmatizer Demo</title>
 <style>
-body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-h1 { font-size: 1.5rem; }
-.controls { display: flex; gap: 1rem; margin: 1rem 0; flex-wrap: wrap; }
-select, button, input { font-size: 1rem; padding: 0.4rem 0.8rem; }
-input[type="text"] { flex: 1; min-width: 200px; }
-button { cursor: pointer; }
-table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
-th, td { border: 1px solid #ccc; padding: 0.3rem 0.6rem; text-align: left; }
-th { background: #f0f0f0; }
-.vocab-yes { color: green; font-weight: bold; }
-.vocab-no { color: #999; }
-.level { font-size: 0.85rem; color: #555; }
-#status { margin: 0.5rem 0; color: #666; }
+:root {
+  color-scheme: light;
+  --bg: #f6f7f9;
+  --panel: #ffffff;
+  --panel-strong: #111827;
+  --ink: #17202e;
+  --muted: #5e6878;
+  --border: #d9dee7;
+  --accent: #2563eb;
+  --accent-strong: #1d4ed8;
+  --success: #137a45;
+  --warning: #8a5b00;
+  --shadow: 0 18px 45px rgba(17, 24, 39, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.app-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 1.15;
+}
+
+.header-meta {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.model-pill {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.tool-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 170px minmax(240px, 1fr) auto auto;
+  gap: 12px;
+  align-items: end;
+  padding: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+label {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+select,
+button,
+input {
+  min-height: 44px;
+  border-radius: 6px;
+  font: inherit;
+}
+
+select,
+input[type="text"] {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--ink);
+  padding: 0 12px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+select:focus-visible,
+input[type="text"]:focus-visible,
+button:focus-visible {
+  border-color: var(--accent);
+  outline-color: rgba(37, 99, 235, 0.35);
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 0 16px;
+  cursor: pointer;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.primary-btn {
+  background: var(--accent);
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background: var(--accent-strong);
+}
+
+.secondary-btn {
+  background: #eef2f7;
+  border-color: var(--border);
+  color: var(--ink);
+}
+
+.secondary-btn:hover {
+  background: #e4e9f1;
+}
+
+#status {
+  min-height: 28px;
+  border-top: 1px solid var(--border);
+  padding: 12px 18px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border-top: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 720px;
+}
+
+caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--border);
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #f0f3f7;
+  color: #3d4756;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+td {
+  background: #fff;
+}
+
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.vocab-yes {
+  color: var(--success);
+  font-weight: 800;
+}
+
+.vocab-no {
+  color: var(--warning);
+  font-weight: 700;
+}
+
+.level {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  main {
+    width: min(100% - 24px, 1120px);
+    padding: 20px 0;
+  }
+
+  .app-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  h1 {
+    font-size: 1.45rem;
+  }
+
+	  .controls {
+	    grid-template-columns: 1fr;
+	    padding: 14px;
+	  }
+
+	  .table-wrap {
+	    overflow-x: visible;
+	  }
+
+	  table {
+	    min-width: 0;
+	    table-layout: fixed;
+	  }
+
+	  th,
+	  td {
+	    padding: 10px 6px;
+	    font-size: 0.8rem;
+	    overflow-wrap: anywhere;
+	  }
+
+	  th {
+	    font-size: 0.68rem;
+	  }
+
+	  button {
+	    width: 100%;
+	  }
+}
 </style>
 </head>
 <body>
-<h1>EuroBERT Lemmatizer</h1>
-<div class="controls">
-  <select id="lang">
-    <option value="de">Deutsch</option>
-    <option value="en">English</option>
-    <option value="es">Español</option>
-  </select>
-  <input type="text" id="input" placeholder="Enter text..." value="Die Katzen saßen auf dem Sofa">
-  <button id="lemmaBtn">Lemmatize</button>
-  <button id="vocabBtn">Vocab Check</button>
-</div>
-<div id="status"></div>
-<table id="results" style="display:none">
-  <thead>
-    <tr>
-      <th>Word</th>
-      <th>UPOS</th>
-      <th>Lemma</th>
-      <th>Canonical Vocab</th>
-      <th>CEFR Level</th>
-    </tr>
-  </thead>
-  <tbody id="tbody"></tbody>
-</table>
+<main>
+  <header class="app-header">
+    <div>
+      <h1>EuroBERT Lemmatizer</h1>
+      <p class="header-meta">German, English, and Spanish token analysis</p>
+    </div>
+    <div class="model-pill">ONNX browser demo</div>
+  </header>
+
+  <section class="tool-panel" aria-label="Lemmatizer demo">
+    <form class="controls" id="controls">
+      <div class="field">
+        <label for="lang">Language</label>
+        <select id="lang">
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="input">Text</label>
+        <input type="text" id="input" placeholder="Enter text..." value="Die Katzen saßen auf dem Sofa" autocomplete="off">
+      </div>
+
+      <button class="primary-btn" id="lemmaBtn" type="submit">Lemmatize</button>
+      <button class="secondary-btn" id="vocabBtn" type="button">Vocab Check</button>
+    </form>
+
+    <div id="status" role="status" aria-live="polite"></div>
+
+    <div class="table-wrap">
+      <table id="results" hidden>
+        <caption>EuroBERT token analysis results</caption>
+        <thead>
+          <tr>
+            <th scope="col">Word</th>
+            <th scope="col">UPOS</th>
+            <th scope="col">Lemma</th>
+	            <th scope="col">Vocab</th>
+	            <th scope="col">CEFR</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
 
 <script type="module">
 import { lemmatize, classifyCanonicalVocab } from "./demo.js";
 
+const controlsEl = document.getElementById("controls");
 const langEl = document.getElementById("lang");
 const inputEl = document.getElementById("input");
 const statusEl = document.getElementById("status");
@@ -63,7 +330,7 @@ async function runLemmatize() {
   if (!text) return;
   setStatus("Loading model & running...");
   tbodyEl.innerHTML = "";
-  resultsEl.style.display = "none";
+  resultsEl.hidden = true;
   try {
     const lemmaResults = await lemmatize(text, lang);
     let vocabResults = [];
@@ -73,13 +340,16 @@ async function runLemmatize() {
     const vocabMap = new Map(vocabResults.map((v) => [v.word, v]));
     for (const r of lemmaResults) {
       const v = vocabMap.get(r.word);
-      const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${r.word}</td><td>${r.upos}</td><td>${r.lemma}</td>
-        <td class="${v?.canonical_vocab ? "vocab-yes" : "vocab-no"}">${v ? (v.canonical_vocab ? "yes" : "no") : ""}</td>
-        <td class="level">${v?.level || ""}</td>`;
-      tbodyEl.appendChild(tr);
+      appendResultRow({
+        word: r.word,
+        upos: r.upos,
+        lemma: r.lemma ?? "",
+        canonicalVocab: v ? (v.canonical_vocab ? "yes" : "no") : "",
+        canonical: v?.canonical_vocab,
+        level: v?.level || "",
+      });
     }
-    resultsEl.style.display = "";
+    resultsEl.hidden = false;
     setStatus(`Done — ${lemmaResults.length} tokens`);
   } catch (e) {
     setStatus("Error: " + e.message);
@@ -93,17 +363,20 @@ async function runVocab() {
   if (!text) return;
   setStatus("Loading vocab classifier...");
   tbodyEl.innerHTML = "";
-  resultsEl.style.display = "none";
+  resultsEl.hidden = true;
   try {
     const results = await classifyCanonicalVocab(text, lang);
     for (const r of results) {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${r.word}</td><td></td><td></td>
-        <td class="${r.canonical_vocab ? "vocab-yes" : "vocab-no"}">${r.canonical_vocab ? "yes" : "no"}</td>
-        <td class="level">${r.level || ""}</td>`;
-      tbodyEl.appendChild(tr);
+      appendResultRow({
+        word: r.word,
+        upos: "",
+        lemma: "",
+        canonicalVocab: r.canonical_vocab ? "yes" : "no",
+        canonical: r.canonical_vocab,
+        level: r.level || "",
+      });
     }
-    resultsEl.style.display = "";
+    resultsEl.hidden = false;
     setStatus(`Done — ${results.length} tokens`);
   } catch (e) {
     setStatus("Error: " + e.message);
@@ -111,9 +384,28 @@ async function runVocab() {
   }
 }
 
-document.getElementById("lemmaBtn").addEventListener("click", runLemmatize);
+function appendCell(row, text, className) {
+  const cell = document.createElement("td");
+  if (className) cell.className = className;
+  cell.textContent = text;
+  row.appendChild(cell);
+}
+
+function appendResultRow({ word, upos, lemma, canonicalVocab, canonical, level }) {
+  const tr = document.createElement("tr");
+  appendCell(tr, word, "");
+  appendCell(tr, upos, "");
+  appendCell(tr, lemma, "");
+  appendCell(tr, canonicalVocab, canonical ? "vocab-yes" : "vocab-no");
+  appendCell(tr, level, "level");
+  tbodyEl.appendChild(tr);
+}
+
+controlsEl.addEventListener("submit", (event) => {
+  event.preventDefault();
+  runLemmatize();
+});
 document.getElementById("vocabBtn").addEventListener("click", runVocab);
-inputEl.addEventListener("keydown", (e) => { if (e.key === "Enter") runLemmatize(); });
 </script>
 </body>
 </html>

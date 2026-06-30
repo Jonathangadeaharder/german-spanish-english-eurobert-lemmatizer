@@ -8,7 +8,7 @@ from edit_trees import apply_edit_label, make_edit_label
 MIN_LABEL_COUNT = 2
 TOP_TREE_COUNT = 300
 
-LANGS = ["de", "es", "en"]
+LANGS = ["de", "es", "en", "fr"]
 
 INPUT_FILES = {
     "de": [
@@ -22,6 +22,10 @@ INPUT_FILES = {
     "en": [
         "data/gold/en/train.conllu",
         "data/gold/en/dev.conllu",
+    ],
+    "fr": [
+        "data/gold/fr/train.conllu",
+        "data/gold/fr/dev.conllu",
     ],
 }
 
