@@ -114,10 +114,12 @@ def main():
         upos_label2id = {k: int(v) for k, v in upos_label2id.items()}
         # Build id2label from the config's label2id (inverted)
         id2label = {str(v): k for k, v in lemma_label2id.items()}
+        upos_id2label = {str(v): k for k, v in upos_label2id.items()}
     else:
         lemma_label2id = load_json(assets.label2id_path)
         upos_label2id = load_json(assets.upos_label2id_path)
         id2label = load_json(assets.id2label_path)
+        upos_id2label = load_json(assets.upos_id2label_path)
 
     base_model_source = resolve_base_model_source(model_dir)
     config = EuroBertUposLemmaConfig(
@@ -144,7 +146,7 @@ def main():
     if eval_limit > 0:
         rows = rows[: min(eval_limit, len(rows))]
 
-    stats = defaultdict(lambda: {"correct": 0, "total": 0})
+    stats = defaultdict(lambda: {"correct": 0, "total": 0, "upos_correct": 0, "upos_total": 0})
     sample_errors = defaultdict(list)
     # id2label was set above from the model's config (or artifacts as fallback).
 
@@ -174,6 +176,7 @@ def main():
             )
             outputs = model(**{k: v.to(device) for k, v in encoded.items()})
             lemma_logits = outputs.logits[1].detach().cpu().numpy()
+            upos_logits = outputs.logits[0].detach().cpu().numpy()
 
             for batch_index, (row, idx) in enumerate(metadata):
                 word_ids = encoded.word_ids(batch_index=batch_index)
@@ -181,17 +184,21 @@ def main():
                     continue
                 words = row["sentence"].split()
                 predicted = None
+                predicted_upos_id = None
                 for token_idx, word_id in enumerate(word_ids):
                     if word_id == idx:
                         label_id = int(np.argmax(lemma_logits[batch_index][token_idx]))
                         predicted = label_id
+                        predicted_upos_id = int(np.argmax(upos_logits[batch_index][token_idx]))
                         break
 
                 level = row["level"]
                 lemma_label = (
                     id2label.get(str(predicted), "UNKNOWN") if predicted is not None else "UNKNOWN"
                 )
+                upos_label = upos_id2label.get(str(predicted_upos_id), "X") if predicted_upos_id is not None else "X"
                 stats[level]["total"] += 1
+                stats[level]["upos_total"] += 1
                 predicted_lemma = (
                     apply_edit_label(words[idx], lemma_label)
                     if lemma_label not in {"UNKNOWN", "IDENTITY", "LOWERCASE"}
@@ -202,6 +209,7 @@ def main():
                 )
                 if correct:
                     stats[level]["correct"] += 1
+                    stats[level]["upos_correct"] += 1
                 elif len(sample_errors[level]) < 8:
                     sample_errors[level].append(
                         {
@@ -210,6 +218,7 @@ def main():
                             "sentence": row["sentence"],
                             "predicted": lemma_label,
                             "predicted_lemma": predicted_lemma,
+                            "predicted_upos": upos_label,
                         }
                     )
 
@@ -217,12 +226,17 @@ def main():
     for level in ["A1", "A2", "B1", "B2", "C1"]:
         total = stats[level]["total"]
         correct = stats[level]["correct"]
+        upos_total = stats[level]["upos_total"]
+        upos_correct = stats[level]["upos_correct"]
         lo, hi = wilson_interval(correct, total)
         report["levels"][level] = {
             "total": total,
             "correct": correct,
             "accuracy": round(correct / total, 4) if total else 0.0,
             "wilson_95_ci": [round(lo, 4), round(hi, 4)],
+            "upos_total": upos_total,
+            "upos_correct": upos_correct,
+            "upos_accuracy": round(upos_correct / upos_total, 4) if upos_total else 0.0,
             "examples": sample_errors[level],
         }
 
