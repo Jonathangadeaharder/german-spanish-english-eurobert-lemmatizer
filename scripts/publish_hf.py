@@ -7,12 +7,15 @@ from huggingface_hub import HfApi, create_repo
 
 USER = "Jonandrop"
 LANGS = {
-    "de": {"name": "German", "treebank": "UD German-GSD", "lemma": 91.09, "upos": 90.24},
-    "en": {"name": "English", "treebank": "UD English-EWT", "lemma": 92.43, "upos": 86.34},
-    "es": {"name": "Spanish", "treebank": "UD Spanish-AnCora", "lemma": 94.99, "upos": 94.16},
-    "fr": {"name": "French", "treebank": "UD French-GSD", "lemma": 94.07, "upos": 97.46},
+    "de": {"name": "German", "treebank": "UD German-GSD", "lemma": 95.06, "upos": 95.72},
+    "en": {"name": "English", "treebank": "UD English-EWT", "lemma": 96.99, "upos": 96.62},
+    "es": {"name": "Spanish", "treebank": "UD Spanish-AnCora", "lemma": 98.68, "upos": 98.79},
+    "fr": {"name": "French", "treebank": "UD French-GSD", "lemma": 70.46, "upos": 21.22},
+    "ar": {"name": "Arabic", "treebank": "UD Arabic-PADT", "lemma": 43.91, "upos": 68.32},
+    "sv": {"name": "Swedish", "treebank": "UD Swedish-Talbanken", "lemma": 63.80, "upos": 66.71},
+    "zh": {"name": "Chinese", "treebank": "UD Chinese-GSDSimp", "lemma": 71.20, "upos": 91.60},
 }
-FP_LEMMA = {"de": 95.27, "en": 96.72, "es": 98.65, "fr": 94.07}
+FP_LEMMA = {"de": 95.06, "en": 96.99, "es": 98.68, "fr": 70.46, "ar": 43.91, "sv": 63.80, "zh": 71.20}
 
 ROOT = Path(__file__).resolve().parent.parent
 STAGE = Path("/tmp/hf_publish")
