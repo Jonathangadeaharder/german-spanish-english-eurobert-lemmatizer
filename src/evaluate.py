@@ -27,6 +27,18 @@ def load_json(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def filter_test_rows_for_lang(rows, lang):
+    """Filter a HuggingFace Dataset to rows matching `lang`.
+
+    Returns the original dataset unchanged when it has no `lang` column
+    (e.g. single-language evaluation), so callers can pass mixed and
+    single-language datasets uniformly.
+    """
+    if "lang" not in rows.column_names:
+        return rows
+    return rows.filter(lambda row: row["lang"] == lang)
+
+
 def env_int(name, default):
     value = os.getenv(name)
     return default if value is None or value == "" else int(value)
