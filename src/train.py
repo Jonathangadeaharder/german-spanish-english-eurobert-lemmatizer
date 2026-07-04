@@ -169,22 +169,25 @@ def main():
 
     configure_torch_runtime(torch)
 
+    tokenizer_dir = env_str("TOKENIZER_DIR", MULTILINGUAL_TOKENIZER_DIR)
     tokenizer = AutoTokenizer.from_pretrained(
-        MULTILINGUAL_TOKENIZER_DIR,
+        tokenizer_dir,
         trust_remote_code=True,
     )
 
+    # Use the warm-start model as the base (supports CamelBERT, EuroBERT, etc.)
+    base_model = env_str("TRAIN_WARM_START", WARM_START_DIR)
+
     config_kwargs = {
-        "base_model_name_or_path": MODEL_ID,
+        "base_model_name_or_path": base_model,
         "upos_label2id": upos_label2id,
         "lemma_label2id": label2id,
     }
 
     config = EuroBertUposLemmaConfig(**config_kwargs)
 
-    warm_start = env_str("TRAIN_WARM_START", WARM_START_DIR)
     model = EuroBertForUposLemma.from_pretrained(
-        warm_start,
+        base_model,
         config=config,
         trust_remote_code=True,
         ignore_mismatched_sizes=True,
@@ -201,6 +204,12 @@ def main():
         lora_dropout=0.05,
         bias="none",
         target_modules=[
+            "query",
+            "key",
+            "value",
+            "attention.output.dense",
+            "intermediate.dense",
+            "output.dense",
             "q_proj",
             "k_proj",
             "v_proj",

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -9,18 +10,23 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class LMStudioClient:
     base_url: str = "http://127.0.0.1:1234"
-    model: str = "gemma-4-e2b-it-qat"
+    model: str = os.getenv("LMSTUDIO_MODEL", "qwen3.6-35b-a3b-uncensored-hauhaucs-aggressive-text-oq4")
     timeout: float = 120.0
 
     def chat(self, input_text: str, system_prompt: str = "") -> str:
+        # Use OpenAI-compatible endpoint (LM Studio supports /v1/chat/completions)
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": input_text})
         payload = {
             "model": self.model,
-            "system_prompt": system_prompt,
-            "input": input_text,
+            "messages": messages,
+            "temperature": 0.7,
         }
         body = json.dumps(payload).encode("utf-8")
         request = urllib.request.Request(
-            f"{self.base_url.rstrip('/')}/api/v1/chat",
+            f"{self.base_url.rstrip('/')}/v1/chat/completions",
             data=body,
             headers={"Content-Type": "application/json"},
             method="POST",
@@ -31,6 +37,13 @@ class LMStudioClient:
                 data = json.loads(response.read().decode("utf-8"))
         except urllib.error.URLError as exc:
             raise RuntimeError(f"LM Studio request failed: {exc}") from exc
+
+        # OpenAI response format: choices[0].message.content
+        choices = data.get("choices", [])
+        if choices and isinstance(choices[0], dict):
+            content = choices[0].get("message", {}).get("content", "")
+            if content:
+                return content
 
         return extract_chat_text(data)
 

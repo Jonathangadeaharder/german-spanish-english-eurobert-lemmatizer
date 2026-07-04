@@ -35,8 +35,11 @@ def sentence_prompt(lang: str, level: str, term: str, count: int) -> str:
     language_name = LANGUAGE_NAMES[lang]
     return (
         f"Write {count} natural {language_name} sentences at CEFR {level} level. "
-        f"Each sentence must contain the vocabulary item '{term}' or a natural inflected "
-        "form of it. Return only one sentence per line. Do not number the lines."
+        f"Each sentence MUST contain an INFLECTED form of the word '{term}' — "
+        f"NOT the dictionary form itself. Use conjugated verbs, plural nouns, "
+        f"declined adjectives, or case-marked forms. The sentence must contain "
+        f"a word that, when lemmatized, yields '{term}'. "
+        f"Return only one sentence per line. Do not number the lines."
     )
 
 
