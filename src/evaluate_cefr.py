@@ -100,11 +100,30 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(str(assets.tokenizer_dir), trust_remote_code=True)
     device = get_device()
 
+    # Load label mappings from the MODEL's config (not the artifacts), because
+    # the artifacts may have been regenerated with different label IDs after
+    # training (FR has 1383/1384 mismatches). The config's lemma_id2label is
+    # the ground truth the model was trained with.
+    model_config_path = Path(model_dir) / "config.json"
+    if model_config_path.exists():
+        model_config = load_json(model_config_path)
+        lemma_label2id = model_config.get("lemma_label2id", load_json(assets.label2id_path))
+        # Convert string IDs to int (JSON keys are strings)
+        lemma_label2id = {k: int(v) for k, v in lemma_label2id.items()}
+        upos_label2id = model_config.get("upos_label2id", load_json(assets.upos_label2id_path))
+        upos_label2id = {k: int(v) for k, v in upos_label2id.items()}
+        # Build id2label from the config's label2id (inverted)
+        id2label = {str(v): k for k, v in lemma_label2id.items()}
+    else:
+        lemma_label2id = load_json(assets.label2id_path)
+        upos_label2id = load_json(assets.upos_label2id_path)
+        id2label = load_json(assets.id2label_path)
+
     base_model_source = resolve_base_model_source(model_dir)
     config = EuroBertUposLemmaConfig(
         base_model_name_or_path=base_model_source,
-        upos_label2id=load_json(assets.upos_label2id_path),
-        lemma_label2id=load_json(assets.label2id_path),
+        upos_label2id=upos_label2id,
+        lemma_label2id=lemma_label2id,
     )
 
     base_model = EuroBertForUposLemma.from_pretrained(
@@ -127,7 +146,7 @@ def main():
 
     stats = defaultdict(lambda: {"correct": 0, "total": 0})
     sample_errors = defaultdict(list)
-    id2label = load_json(assets.id2label_path)
+    # id2label was set above from the model's config (or artifacts as fallback).
 
     with torch.inference_mode():
         for start in range(0, len(rows), batch_size):

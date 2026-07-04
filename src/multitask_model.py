@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import contextlib
 from typing import Any
 
 import numpy as np
@@ -7,6 +8,44 @@ import torch
 from torch import nn
 from transformers import AutoConfig, AutoModel, PretrainedConfig, PreTrainedModel
 from transformers.modeling_outputs import TokenClassifierOutput
+from transformers.modeling_rope_utils import ROPE_INIT_FUNCTIONS
+
+
+def _patch_rope_default():
+    """Add 'default' rope init for transformers 5.x compatibility.
+
+    EuroBERT's remote code expects ROPE_INIT_FUNCTIONS['default'] which was
+    removed in transformers 5.0+. This re-adds it as a no-op that returns
+    standard inverse frequencies without scaling.
+    """
+    if "default" not in ROPE_INIT_FUNCTIONS:
+        def _compute_default_rope_parameters(config, device, **kwargs):
+            base = getattr(config, "rope_theta", 10000.0)
+            dim = config.hidden_size // config.num_attention_heads
+            inv_freq = 1.0 / (
+                base ** (torch.arange(0, dim, 2, device=device, dtype=torch.float32) / dim)
+            )
+            return inv_freq, 1.0
+        ROPE_INIT_FUNCTIONS["default"] = _compute_default_rope_parameters
+
+
+_patch_rope_default()
+
+
+@contextlib.contextmanager
+def _no_meta_device():
+    """Context manager that disables the meta device default set by
+    PreTrainedModel.__init__ in transformers 5.x.
+
+    Without this, AutoModel.from_pretrained() inside EuroBertForUposLemma.__init__
+    fails with 'You are using from_pretrained with a meta device context manager'.
+    """
+    old_default = torch.get_default_device()
+    torch.set_default_device('cpu')
+    try:
+        yield
+    finally:
+        torch.set_default_device(old_default)
 
 
 def pad_label_sequence(values: list[int], length: int, pad_value: int = -100) -> list[int]:
@@ -70,6 +109,11 @@ class EuroBertForUposLemma(PreTrainedModel):
 
     def __init__(self, config: EuroBertUposLemmaConfig) -> None:
         super().__init__(config)
+        # transformers 5.x: all_tied_weights_keys is set dynamically by the
+        # base class but _finalize_model_loading may call mark_tied_weights_as_initialized
+        # before it's populated. Pre-populate to avoid AttributeError.
+        if not hasattr(self, 'all_tied_weights_keys'):
+            self.all_tied_weights_keys = {}
 
         if not config.base_model_name_or_path:
             raise ValueError("config.base_model_name_or_path is required")
@@ -78,11 +122,15 @@ class EuroBertForUposLemma(PreTrainedModel):
             config.base_model_name_or_path,
             trust_remote_code=True,
         )
-        self.model = AutoModel.from_pretrained(
-            config.base_model_name_or_path,
-            config=backbone_config,
-            trust_remote_code=True,
-        )
+        # transformers 5.x: from_pretrained inside __init__ triggers a meta-device
+        # error because the parent PreTrainedModel.__init__ sets default_device=meta.
+        # Reset to CPU so weights actually load.
+        with _no_meta_device():
+            self.model = AutoModel.from_pretrained(
+                config.base_model_name_or_path,
+                config=backbone_config,
+                trust_remote_code=True,
+            )
 
         saved_vocab_size = getattr(config, "vocab_size", None)
         if saved_vocab_size is not None and saved_vocab_size != self.model.config.vocab_size:

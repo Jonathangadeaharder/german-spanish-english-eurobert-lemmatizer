@@ -268,7 +268,7 @@ def main():
         max_steps=max_steps if max_steps > 0 else -1,
         weight_decay=0.01,
         logging_steps=50,
-        evaluation_strategy=(
+        eval_strategy=(
             ("steps" if max_steps > 0 else "epoch") if eval_during_training else "no"
         ),
         save_strategy="steps" if max_steps > 0 else "epoch",
@@ -278,7 +278,6 @@ def main():
         eval_accumulation_steps=eval_accumulation_steps,
         dataloader_num_workers=dataloader_num_workers,
         dataloader_pin_memory=dataloader_pin_memory,
-        group_by_length=group_by_length,
         length_column_name="length",
         gradient_checkpointing=gradient_checkpointing,
         load_best_model_at_end=load_best_model_at_end,
