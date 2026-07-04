@@ -4,13 +4,16 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
-LANGS = ("en", "de", "es", "fr")
+LANGS = ("en", "de", "es", "fr", "ar", "sv", "zh")
 
 LANGUAGE_NAMES = {
     "en": "english",
     "de": "german",
     "es": "spanish",
     "fr": "french",
+    "ar": "arabic",
+    "sv": "swedish",
+    "zh": "chinese",
 }
 
 VOCAB_LEMMA_COLUMNS = {
@@ -18,6 +21,9 @@ VOCAB_LEMMA_COLUMNS = {
     "de": "German_Lemma",
     "es": "Spanish_Lemma",
     "fr": "French_Lemma",
+    "ar": "Arabic_Lemma",
+    "sv": "Swedish_Lemma",
+    "zh": "Chinese_Lemma",
 }
 
 SPACY_MODELS = {
@@ -33,18 +39,27 @@ UD_FILES = {
         "es": "data/gold/es/train.conllu",
         "en": "data/gold/en/train.conllu",
         "fr": "data/gold/fr/train.conllu",
+        "ar": "data/gold/ar/train.conllu",
+        "sv": "data/gold/sv/train.conllu",
+        "zh": "data/gold/zh/train.conllu",
     },
     "validation": {
         "de": "data/gold/de/dev.conllu",
         "es": "data/gold/es/dev.conllu",
         "en": "data/gold/en/dev.conllu",
         "fr": "data/gold/fr/dev.conllu",
+        "ar": "data/gold/ar/dev.conllu",
+        "sv": "data/gold/sv/dev.conllu",
+        "zh": "data/gold/zh/dev.conllu",
     },
     "test": {
         "de": "data/gold/de/test.conllu",
         "es": "data/gold/es/test.conllu",
         "en": "data/gold/en/test.conllu",
         "fr": "data/gold/fr/test.conllu",
+        "ar": "data/gold/ar/test.conllu",
+        "sv": "data/gold/sv/test.conllu",
+        "zh": "data/gold/zh/test.conllu",
     },
 }
 

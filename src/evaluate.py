@@ -20,6 +20,10 @@ LANG_TOKENS = {
     "de": "[LANG_DE]",
     "es": "[LANG_ES]",
     "en": "[LANG_EN]",
+    "fr": "[LANG_FR]",
+    "ar": "[LANG_AR]",
+    "sv": "[LANG_SV]",
+    "zh": "[LANG_ZH]",
 }
 
 

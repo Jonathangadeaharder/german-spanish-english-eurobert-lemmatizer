@@ -196,12 +196,15 @@ def main():
                 lemma_label = (
                     id2label.get(str(predicted), "UNKNOWN") if predicted is not None else "UNKNOWN"
                 )
+                # Strip language prefix (e.g. "sv::IDENTITY" → "IDENTITY")
+                # for the identity/lowercase check and edit label application.
+                base_lemma_label = lemma_label.split("::", 1)[-1] if "::" in lemma_label else lemma_label
                 upos_label = upos_id2label.get(str(predicted_upos_id), "X") if predicted_upos_id is not None else "X"
                 stats[level]["total"] += 1
                 stats[level]["upos_total"] += 1
                 predicted_lemma = (
-                    apply_edit_label(words[idx], lemma_label)
-                    if lemma_label not in {"UNKNOWN", "IDENTITY", "LOWERCASE"}
+                    apply_edit_label(words[idx], base_lemma_label)
+                    if base_lemma_label not in {"UNKNOWN", "IDENTITY", "LOWERCASE"}
                     else words[idx].lower()
                 )
                 correct = (

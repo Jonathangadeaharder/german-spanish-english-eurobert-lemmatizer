@@ -30,7 +30,7 @@ from runtime_utils import MPSMemoryCleanupCallback, cleanup_torch_mps
 MODEL_ID = "EuroBERT/EuroBERT-210m"
 MULTILINGUAL_TOKENIZER_DIR = "artifacts/tokenizer"
 WARM_START_DIR = "models/eurobert-multilingual-lemma-210m-merged"
-LANGUAGE_TOKENS = ["[LANG_DE]", "[LANG_ES]", "[LANG_EN]", "[LANG_FR]"]
+LANGUAGE_TOKENS = ["[LANG_DE]", "[LANG_ES]", "[LANG_EN]", "[LANG_FR]", "[LANG_AR]", "[LANG_SV]", "[LANG_ZH]"]
 
 
 class NoEmbeddingSaveTrainer(Trainer):
