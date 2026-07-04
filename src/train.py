@@ -43,7 +43,7 @@ class NoEmbeddingSaveTrainer(Trainer):
             model_to_save.save_pretrained(
                 output_dir,
                 state_dict=state_dict,
-                safe_serialization=self.args.save_safetensors,
+                safe_serialization=getattr(self.args, 'save_safetensors', True),
                 save_embedding_layers=False,
             )
 
