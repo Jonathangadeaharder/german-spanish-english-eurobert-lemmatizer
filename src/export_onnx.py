@@ -4,7 +4,9 @@ from pathlib import Path
 import torch
 from transformers import AutoTokenizer
 
-from multitask_model import EuroBertForUposLemma
+from multitask_model import EuroBertForUposLemma, _patch_rope_default
+
+_patch_rope_default()
 
 MERGED_DIR = "models/eurobert-multilingual-lemma-210m-merged"
 ONNX_DIR = "onnx/eurobert-multilingual-lemma-210m"
