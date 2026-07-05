@@ -12,6 +12,8 @@ import mlx.optimizers as optim
 import numpy as np
 from datasets import load_from_disk
 
+from lemmatizer.languages import LanguageSpec
+from lemmatizer.train import TrainOptions
 from lemmatizer.train.byt5_lemma_model import ByT5EncoderLemmaClassifier, masked_cross_entropy
 
 PAD_LABEL = -100
@@ -224,6 +226,7 @@ def train_epoch(
 
 
 def main():
+    """argparse wrapper around `run()` for `python -m lemmatizer.train.train_byt5`."""
     parser = argparse.ArgumentParser()
     parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--batch-size", type=int, default=4)
@@ -238,13 +241,39 @@ def main():
     parser.add_argument("--checkpoint", type=str, default="")
     args = parser.parse_args()
 
-    artifacts_dir = Path(args.artifacts_dir)
-    output_dir = Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    from lemmatizer.languages import spec
 
-    print("=== ByT5 Arabic lemma classifier (MLX) ===", flush=True)
-    print(f"dataset={args.dataset_path} epochs={args.epochs} batch={args.batch_size} "
-          f"grad_accum={args.grad_accum} lr={args.lr} dropout={args.dropout}", flush=True)
+    opts = TrainOptions(
+        checkpoint=args.checkpoint,
+        output_dir=args.output_dir,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        lr=args.lr,
+        curriculum=args.curriculum,
+        extra={
+            "grad_accum": args.grad_accum,
+            "warmup": args.warmup,
+            "dropout": args.dropout,
+            "dataset_path": args.dataset_path,
+            "artifacts_dir": args.artifacts_dir,
+        },
+    )
+    run(spec("ar"), opts)
+
+
+def run(spec: LanguageSpec, opts: TrainOptions) -> None:
+    """Canonical entry: train the ByT5 lemma classifier for `spec.lang` (ar)."""
+    artifacts_dir = Path(opts.extra.get("artifacts_dir", f"artifacts/lemma_{spec.lang}"))
+    output_dir = Path(opts.output_dir or f"runs/{spec.lang}-byt5-mlx")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    dataset_path = opts.extra.get("dataset_path", f"data/processed/{spec.lang}_byt5_lemma")
+    grad_accum = opts.extra.get("grad_accum", 4)
+    warmup = opts.extra.get("warmup", 0.06)
+    dropout = opts.extra.get("dropout", 0.1)
+
+    print(f"=== ByT5 {spec.name} lemma classifier (MLX) ===", flush=True)
+    print(f"dataset={dataset_path} epochs={opts.epochs} batch={opts.batch_size} "
+          f"grad_accum={grad_accum} lr={opts.lr} dropout={dropout}", flush=True)
 
     lemma2id = json.loads((artifacts_dir / "lemma_label2id.json").read_text(encoding="utf-8"))
     id2lemma = {int(k): v for k, v in json.loads(
@@ -256,15 +285,15 @@ def main():
     lexicon = json.loads(lexicon_path.read_text(encoding="utf-8")) if lexicon_path.exists() else {}
     print(f"Lexicon: {len(lexicon)} entries", flush=True)
 
-    ds = load_from_disk(args.dataset_path)
+    ds = load_from_disk(dataset_path)
     train_rows = [ds["train"][i] for i in range(len(ds["train"]))]
     val_rows = [ds["validation"][i] for i in range(len(ds["validation"]))]
     print(f"Loaded train={len(train_rows)}, val={len(val_rows)}", flush=True)
 
-    model = ByT5EncoderLemmaClassifier(num_lemmas=len(lemma2id), dropout=args.dropout)
-    if args.checkpoint:
-        model.load_weights(args.checkpoint)
-        print(f"Loaded weights from checkpoint: {args.checkpoint}", flush=True)
+    model = ByT5EncoderLemmaClassifier(num_lemmas=len(lemma2id), dropout=dropout)
+    if opts.checkpoint:
+        model.load_weights(opts.checkpoint)
+        print(f"Loaded weights from checkpoint: {opts.checkpoint}", flush=True)
     else:
         model.load_pretrained()
         print("ByT5 encoder weights loaded", flush=True)
@@ -272,23 +301,23 @@ def main():
     print(json.dumps({"event": "baseline_start"}), flush=True)
     results = {
         "baseline": {
-            "train": evaluate(model, train_rows[:1000], args.batch_size, id2lemma, lexicon),
-            "validation": evaluate(model, val_rows, args.batch_size, id2lemma, lexicon),
+            "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon),
+            "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon),
         },
         "finetune": [],
     }
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
-    if args.epochs > 0:
-        total_steps = len(train_rows) // (args.batch_size * args.grad_accum) * args.epochs
-        warmup_steps = max(1, int(total_steps * args.warmup))
+    if opts.epochs > 0:
+        total_steps = len(train_rows) // (opts.batch_size * grad_accum) * opts.epochs
+        warmup_steps = max(1, int(total_steps * warmup))
         decay_steps = max(1, total_steps - warmup_steps)
         print(f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}", flush=True)
 
         lr_schedule = optim.join_schedules(
             [
-                optim.linear_schedule(0.0, args.lr, warmup_steps),
-                optim.cosine_decay(args.lr, decay_steps, end=0.0),
+                optim.linear_schedule(0.0, opts.lr, warmup_steps),
+                optim.cosine_decay(opts.lr, decay_steps, end=0.0),
             ],
             [warmup_steps],
         )
@@ -297,11 +326,11 @@ def main():
         best_val_loss = float("inf")
         best_val_acc = -1.0
 
-        if args.curriculum:
+        if opts.curriculum:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
             train_pool, val_pool = build_curriculum_datasets(train_rows, val_rows, max_train=6075, max_val=909)
 
-            epochs = int(args.epochs)
+            epochs = int(opts.epochs)
             current_train_indices = set(range(min(len(train_pool), max(1, len(train_pool) // epochs))))
             current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
 
@@ -313,12 +342,12 @@ def main():
 
             for epoch in range(1, epochs + 1):
                 t0 = time.time()
-                train_loss = train_epoch(model, current_train, args.batch_size, args.grad_accum, optimizer, epoch)
+                train_loss = train_epoch(model, current_train, opts.batch_size, grad_accum, optimizer, epoch)
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:1000], args.batch_size, id2lemma, lexicon),
-                    "validation": evaluate(model, val_rows, args.batch_size, id2lemma, lexicon),
+                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon),
+                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)
@@ -337,7 +366,7 @@ def main():
                 model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
 
                 if epoch < epochs:
-                    struggles = find_struggles(model, current_val, args.batch_size, id2lemma, lexicon)
+                    struggles = find_struggles(model, current_val, opts.batch_size, id2lemma, lexicon)
                     print(json.dumps({"event": f"struggles_identified_epoch_{epoch}", "count": len(struggles)}), flush=True)
 
                     next_train_size = min(int((epoch + 1) * len(train_pool) / epochs), len(train_pool))
@@ -359,14 +388,14 @@ def main():
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
-            for epoch in range(1, args.epochs + 1):
+            for epoch in range(1, opts.epochs + 1):
                 t0 = time.time()
-                train_loss = train_epoch(model, train_rows, args.batch_size, args.grad_accum, optimizer, epoch)
+                train_loss = train_epoch(model, train_rows, opts.batch_size, grad_accum, optimizer, epoch)
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:1000], args.batch_size, id2lemma, lexicon),
-                    "validation": evaluate(model, val_rows, args.batch_size, id2lemma, lexicon),
+                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon),
+                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)

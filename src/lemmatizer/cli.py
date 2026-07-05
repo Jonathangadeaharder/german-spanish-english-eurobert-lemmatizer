@@ -13,7 +13,8 @@ import os
 
 import typer
 
-from lemmatizer.languages import LANGS
+from lemmatizer.languages import LANGUAGES, lang_codes, spec
+from lemmatizer.train import TrainOptions, train_language
 
 app = typer.Typer(
     add_completion=False,
@@ -31,12 +32,20 @@ def _set_env(**values: object) -> None:
         )
 
 
-@app.command()
-def fetch_ud() -> None:
-    """Download UD treebanks."""
-    from lemmatizer.data.ud import main
+@app.command("fetch-ud")
+def fetch_ud(
+    lang: str | None = typer.Option(
+        None, help=f"Language code (default: all of {', '.join(lang_codes())})"
+    ),
+) -> None:
+    """Download UD treebanks. One language, or all registered languages."""
+    from lemmatizer.data.ud import download_treebank
 
-    main()
+    if lang is None:
+        for s in LANGUAGES:
+            download_treebank(s)
+    else:
+        download_treebank(spec(lang))
 
 
 @app.command()
@@ -67,28 +76,42 @@ def prepare() -> None:
 
 @app.command()
 def train(
-    lang: str = typer.Option(..., help=f"Language: {', '.join(LANGS)}"),
+    lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())}"),
+    checkpoint: str = typer.Option(..., help="Base/pretrained model dir or id"),
+    output_dir: str = typer.Option("", help="Output dir (default: per-family)"),
+    epochs: float = typer.Option(0.0, help="Epochs (0 = baseline eval only)"),
+    batch_size: int = typer.Option(64, help="Batch size"),
+    lr: float = typer.Option(2e-5, help="Learning rate"),
+    lora_rank: int = typer.Option(8, help="LoRA rank (0 = full finetune)"),
+    lora_alpha: float = typer.Option(16.0, help="LoRA alpha"),
+    curriculum: bool = typer.Option(False, help="Enable curriculum sampling"),
+    max_train_rows: int = typer.Option(0, help="Cap train rows (0 = all)"),
+    max_val_rows: int = typer.Option(0, help="Cap val rows (0 = all)"),
+    unfreeze_encoder: bool = typer.Option(False, help="Unfreeze all encoder layers"),
+    unfreeze_last_n: int = typer.Option(0, help="Unfreeze last N encoder layers"),
 ) -> None:
     """Train the MLX model for one language.
 
-    Dispatches by language family:
+    Dispatches to the canonical trainer by `lang`'s family (registry-driven):
       ar → ByT5 encoder + lemma classifier
       zh → BERT BIO-POS (openmed-backed)
       de/en/es/fr/sv → EuroBERT/ScandiBERT multitask (upos + lemma)
     """
-    if lang not in LANGS:
-        raise typer.BadParameter(
-            f"Unknown language '{lang}'. Supported: {', '.join(LANGS)}"
-        )
-
-    if lang == "ar":
-        from lemmatizer.train.train_byt5 import main
-    elif lang == "zh":
-        from lemmatizer.train.zh_bio import main
-    else:
-        from lemmatizer.train.mlx_multitask import main
-
-    main()
+    opts = TrainOptions(
+        checkpoint=checkpoint,
+        output_dir=output_dir,
+        epochs=epochs,
+        batch_size=batch_size,
+        lr=lr,
+        lora_rank=lora_rank,
+        lora_alpha=lora_alpha,
+        curriculum=curriculum,
+        max_train_rows=max_train_rows,
+        max_val_rows=max_val_rows,
+        unfreeze_encoder=unfreeze_encoder,
+        unfreeze_last_n=unfreeze_last_n,
+    )
+    train_language(lang, opts)
 
 
 @app.command()
@@ -121,7 +144,7 @@ def evaluate_cefr(
 
 @app.command("export-onnx")
 def export_onnx(
-    lang: str = typer.Option(..., help=f"Language: {', '.join(LANGS)}"),
+    lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())}"),
     model_dir: str | None = typer.Option(None, help="MLX checkpoint dir"),
     onnx_dir: str | None = typer.Option(None, help="ONNX output directory"),
     lexicon_dir: str | None = typer.Option(None, help="Lexicon artifacts dir"),
@@ -131,17 +154,14 @@ def export_onnx(
     Currently only Arabic (ByT5) has an MLX→ONNX bridge.
     de/en/es/fr/sv require a future bridge (see plan non-goals).
     """
-    if lang not in LANGS:
-        raise typer.BadParameter(
-            f"Unknown language '{lang}'. Supported: {', '.join(LANGS)}"
-        )
+    s = spec(lang)  # raises ValueError on unknown lang
     _set_env(
         MODEL_DIR=model_dir,
         ONNX_DIR=onnx_dir,
         LEXICON_DIR=lexicon_dir,
     )
 
-    if lang == "ar":
+    if s.lang == "ar":
         from lemmatizer.export.byt5_onnx import main
 
         main()

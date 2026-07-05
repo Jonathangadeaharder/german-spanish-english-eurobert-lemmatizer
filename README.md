@@ -27,17 +27,37 @@ backoff, gated off for `PROPN`.
 
 ```text
 src/lemmatizer/
-  cli.py              Typer entry point (MLX dispatch by lang)
-  languages.py        Langs, base models, asset paths
+  cli.py              Typer entry point (registry-driven dispatch)
+  languages.py        LANGUAGES registry — single source of truth
   data/               CoNLL-U reader, UD fetch, labels, dataset builders
-  train/              MLX trainers (multitask, byt5, zh_bio)
+  train/              TrainOptions + train_language() dispatcher + MLX trainers
   eval/               EvalContext + backends + treebank/CEFR eval
   export/             ByT5 ONNX bridge + web packaging
-  inference/          Postprocess rules
+  inference/           Postprocess rules
 data/                 Gold UD + processed HF datasets
 artifacts/            Built lexicons / edit_trees / id2label (serving assets)
 web/                  Browser runtime (demo.js + ONNX model bundle)
 ```
+
+## Adding a language
+
+One entry in `src/lemmatizer/languages.py`:
+
+```python
+LanguageSpec(
+    lang="it", name="italian", family=Family.MULTITASK,
+    base_model="EuroBERT/EuroBERT-210m", lang_token="[LANG_IT]",
+    ud_repo="UD_Italian-ISDT", ud_prefix="it_isdt",
+    spacy_model="it_core_news_lg", vocab_lemma_column="Italian_Lemma",
+),
+```
+
+Then: `eurobert-lemma fetch-ud --lang it` → `build-labels` → `make-dataset`
+→ `train --lang it --checkpoint EuroBERT/EuroBERT-210m` → `evaluate`.
+
+No other file edits. Trainers, data pipeline, eval, and CLI all read from
+the `LANGUAGES` registry. A new *family* (rare) needs a `Family` member + a
+`run()` in a new `train/` module + one branch in `train_language()`.
 
 ## Setup
 
