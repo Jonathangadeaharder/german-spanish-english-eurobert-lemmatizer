@@ -1,4 +1,4 @@
-from postprocess_rules import (
+from lemmatizer.inference.postprocess import (
     DE_CONTRACTIONS,
     EN_DET_LEMMAS,
     EN_IRREGULAR_PLURALS,

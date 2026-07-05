@@ -5,68 +5,34 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "eurobert-lemmatizer"
 version = "0.1.0"
-description = "Per-language EuroBERT lemmatizers plus vocabulary classifier"
+description = "MLX-trained per-language lemmatizers with multi-backend eval"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
-  "accelerate>=0.33.0",
   "datasets>=2.20.0",
-  "ml-dtypes>=0.5",
-  "numpy>=1.26.0",
+  "mlx>=0.31.2",
+  "numpy>=1.26.0,<2.0",
   "onnx>=1.18",
   "onnxruntime==1.23.1",
-  "optimum>=1.21.0",
-  "peft>=0.12.0",
   "scikit-learn>=1.5.0",
+  "spacy>=3.7.0",
   "torch>=2.12.1",
-  "transformers==5.3.0",
+  "transformers>=4.41.0,<4.50",
   "typer>=0.13.0",
 ]
 
 [project.scripts]
-eurobert-lemma = "cli:app"
+eurobert-lemma = "lemmatizer.cli:app"
 
 [dependency-groups]
 dev = [
   "pytest>=8.0.0",
+  "pytest-socket>=0.7.0",
   "ruff>=0.6.0",
 ]
 
-[tool.setuptools]
-package-dir = {"" = "src"}
-py-modules = [
-  "analyze_errors",
-  "annotate_silver",
-  "benchmark_mps",
-  "build_labels",
-  "cli",
-  "config",
-  "conllu_reader",
-  "edit_trees",
-  "evaluate",
-  "evaluate_cefr",
-  "export_onnx",
-  "export_vocab_classifier",
-  "fetch_ud",
-  "generate_de_lemma_silver",
-  "generate_silver",
-  "generate_targeted_silver",
-  "language_assets",
-  "lmstudio_client",
-  "make_cefr_eval_dataset",
-  "make_dataset",
-  "make_vocab_dataset",
-  "merge_lora",
-  "multitask_model",
-  "package_vocab_classifier",
-  "package_web_model",
-  "postprocess_rules",
-  "runtime_utils",
-  "train",
-  "train_vocab_classifier",
-  "validate_held_out",
-  "vocab_inventory",
-]
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.uv]
 environments = [
@@ -81,6 +47,18 @@ line-length = 100
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B"]
+
+# Pre-existing long lines in retained MLX trainer/export files (moved verbatim
+# during the refactor). Cleanup is tracked separately; do not let it block the
+# structural refactor PR.
+[tool.ruff.lint.per-file-ignores]
+"src/lemmatizer/train/mlx_multitask.py" = ["E501"]
+"src/lemmatizer/train/train_byt5.py" = ["E501"]
+"src/lemmatizer/train/zh_bio.py" = ["E501"]
+"src/lemmatizer/train/byt5_encoder.py" = ["E501"]
+"src/lemmatizer/export/byt5_onnx.py" = ["E501"]
+"src/lemmatizer/data/dataset.py" = ["E501"]
+"scripts/publish_hf.py" = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -1,13 +1,5 @@
 {
   "include": ["src"],
-  "exclude": [
-    "src/benchmark_mps.py",
-    "src/multitask_model.py",
-    "src/evaluate.py",
-    "src/train.py",
-    "src/runtime_utils.py",
-    "src/make_char_dataset.py"
-  ],
   "typeCheckingMode": "basic",
   "reportMissingImports": false,
   "reportMissingTypeStubs": false,
@@ -17,6 +9,7 @@
   "reportIndexIssue": false,
   "reportOptionalMemberAccess": false,
   "reportOptionalCall": false,
+  "reportOptionalIterable": false,
   "reportReturnType": false,
   "reportAssignmentType": false,
   "reportOperatorIssue": false,
