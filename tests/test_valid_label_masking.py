@@ -1,6 +1,6 @@
 import numpy as np
 
-from evaluate import select_valid_label_id
+from lemmatizer.eval.evaluate import select_valid_label_id
 
 
 def _row(values):
@@ -14,7 +14,7 @@ def test_picks_highest_logit_valid_label():
     candidate_ids = [0, 1]
     label = select_valid_label_id(logits, candidate_ids, id2label, lang="de", word="Hunde")
     assert label == "P4|S0|De|I"
-    from edit_trees import apply_edit_label
+    from lemmatizer.data.edit_trees import apply_edit_label
 
     assert apply_edit_label("Hunde", label) == "Hund"
 

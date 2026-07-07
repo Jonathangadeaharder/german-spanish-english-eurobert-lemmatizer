@@ -1,4 +1,4 @@
-from language_assets import language_assets, normalize_lang, split_files_for_lang
+from lemmatizer.languages import language_assets, normalize_lang, split_files_for_lang
 
 
 def test_normalize_lang_accepts_aliases():

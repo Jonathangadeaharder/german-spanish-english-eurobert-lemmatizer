@@ -1,131 +1,88 @@
-# Per-language EuroBERT UPOS/Lemma taggers
+# EuroBERT Lemmatizer
 
-Per-language EuroBERT-210m token classifiers for German, Spanish, English, and French, plus a separate vocabulary classifier path. Fine-tuned with LoRA, merged, and **exported to ONNX to run in the browser via Transformers.js — no server.**
+Per-language UPOS + lemma taggers trained on Apple MLX, evaluated with a
+multi-backend Python stack (ONNX / merged / LoRA), and **served in the
+browser via Transformers.js + onnxruntime-web — no server**.
 
-## Results (held-out validation)
+Seven languages share one repo, three model families:
 
-| language | UPOS accuracy | lemma accuracy | tokens |
-|----------|---------------|----------------|--------|
-| Spanish  | 96.7%         | 96.2%          | 212    |
-| German   | 94.4%         | 91.8%          | 196    |
-| English  | 93.1%         | 94.1%          | 204    |
+| family | languages | backbone |
+|---|---|---|
+| multilingual multitask | de, en, es, fr, sv | EuroBERT-210m / ScandiBERT |
+| ByT5 encoder + lemma head | ar | google/byt5-small |
+| BERT BIO-POS | zh | bert-base-chinese (via openmed) |
 
-Lemma is predicted via language-prefixed **edit-trees** with a gold-lexicon backoff, and gated
-off for `PROPN`. Each language is a separately fine-tuned `EuroBERT/EuroBERT-210m` adapter.
-(French is supported in the pipeline; numbers above are the current held-out snapshot.)
+## Held-out validation (de / es / en)
 
-## What this repository does
+| language | UPOS acc | lemma acc | tokens |
+|---|---|---|---|
+| Spanish  | 96.7% | 96.2% | 212 |
+| German   | 94.4% | 91.8% | 196 |
+| English  | 93.1% | 94.1% | 204 |
 
-- Builds language-prefixed edit-tree labels
-- Builds a per-language lexicon backoff from train/dev data
-- Converts gold CoNLL-U data into per-language token-classification datasets
-- Fine-tunes `EuroBERT/EuroBERT-210m`
-- Evaluates UPOS accuracy and lemma accuracy with lemma gated off for `PROPN`
-- Merges LoRA adapters into the base model
-- Exports the merged model to ONNX for Transformers.js
-- Provides a browser/runtime postprocessor in JavaScript
+Lemmas are predicted via language-prefixed **edit-trees** with a gold-lexicon
+backoff, gated off for `PROPN`.
 
 ## Repository layout
 
 ```text
-data/
-  gold/
-    de/
-    es/
-    en/
-    fr/
-  processed/
-
-artifacts/
-src/
-web/
+src/lemmatizer/
+  cli.py              Typer entry point (registry-driven dispatch)
+  languages.py        LANGUAGES registry — single source of truth
+  data/               CoNLL-U reader, UD fetch, labels, dataset builders
+  train/              TrainOptions + train_language() dispatcher + MLX trainers
+  eval/               EvalContext + backends + treebank/CEFR eval
+  export/             ByT5 ONNX bridge + web packaging
+  inference/           Postprocess rules
+data/                 Gold UD + processed HF datasets
+artifacts/            Built lexicons / edit_trees / id2label (serving assets)
+web/                  Browser runtime (demo.js + ONNX model bundle)
 ```
 
-## Data requirements
+## Adding a language
 
-Place gold-only UD CoNLL-U files here:
+One entry in `src/lemmatizer/languages.py`:
 
-```text
-data/gold/de/train.conllu
-data/gold/de/dev.conllu
-data/gold/de/test.conllu
-
-data/gold/es/train.conllu
-data/gold/es/dev.conllu
-data/gold/es/test.conllu
-
-data/gold/en/train.conllu
-data/gold/en/dev.conllu
-data/gold/en/test.conllu
-
-data/gold/fr/train.conllu
-data/gold/fr/dev.conllu
-data/gold/fr/test.conllu
+```python
+LanguageSpec(
+    lang="it", name="italian", family=Family.MULTITASK,
+    base_model="EuroBERT/EuroBERT-210m", lang_token="[LANG_IT]",
+    ud_repo="UD_Italian-ISDT", ud_prefix="it_isdt",
+    spacy_model="it_core_news_lg", vocab_lemma_column="Italian_Lemma",
+),
 ```
 
-Recommended treebanks:
+Then: `eurobert-lemma fetch-ud --lang it` → `build-labels` → `make-dataset`
+→ `train --lang it --checkpoint EuroBERT/EuroBERT-210m` → `evaluate`.
 
-- German: UD German-HDT or UD German-GSD
-- Spanish: UD Spanish-AnCora or UD Spanish-GSD
-- English: UD English-EWT
-- French: UD French-GSD
-
-You can download the recommended gold files with:
-
-```bash
-uv run --active --no-sync eurobert-lemma fetch-ud
-```
+No other file edits. Trainers, data pipeline, eval, and CLI all read from
+the `LANGUAGES` registry. A new *family* (rare) needs a `Family` member + a
+`run()` in a new `train/` module + one branch in `train_language()`.
 
 ## Setup
 
 ```bash
-bash scripts/bootstrap_arm64_venv.sh
-source .venv/bin/activate
+uv sync
 ```
-
-## Apple Silicon Setup
-
-On the M5 Pro, use a native arm64 environment for training and benchmarking:
-
-```bash
-/opt/homebrew/bin/uv python install 3.13
-bash scripts/bootstrap_arm64_venv.sh
-source .venv/bin/activate
-uv run --active --no-sync eurobert-lemma benchmark-mps --profile smoke
-```
-
-If you need to invoke uv manually, point it at the native Homebrew Python:
-
-```bash
-/opt/homebrew/bin/uv sync --python 3.13
-```
-
-## Pipeline
-
-```bash
-uv run --active --no-sync eurobert-lemma prepare
-uv run --active --no-sync eurobert-lemma train --profile mps-full
-uv run --active --no-sync eurobert-lemma evaluate --profile mps-full
-uv run --active --no-sync eurobert-lemma merge --profile mps-full
-uv run --active --no-sync eurobert-lemma export-onnx --profile mps-full
-uv run --active --no-sync eurobert-lemma package-web --profile mps-full
-```
-
-To continue an interrupted run in the same output directory instead of starting fresh, set `TRAIN_RESUME_FROM=auto` or pass `--resume-from auto` to `uv run --active --no-sync eurobert-lemma train`.
 
 ## CLI
 
-The primary entrypoint is `uv run --active --no-sync eurobert-lemma`.
-
 ```bash
-uv run --active --no-sync eurobert-lemma --help
-uv run --active --no-sync eurobert-lemma train --profile mps-full
-uv run --active --no-sync eurobert-lemma benchmark-mps --profile smoke
+uv run eurobert-lemma --help
+uv run eurobert-lemma fetch-ud
+uv run eurobert-lemma prepare
+uv run eurobert-lemma train --lang de
+uv run eurobert-lemma evaluate --model-dir models/eurobert-lemma-de-210m-merged
+uv run eurobert-lemma export-onnx --lang ar
+uv run eurobert-lemma package-web
 ```
+
+Each MLX trainer also accepts its own argparse flags — see
+`uv run python -m lemmatizer.train.mlx_multitask --help` etc.
 
 ## Runtime
 
-The runtime entry point is `web/demo.js`.
+The browser runtime is `web/demo.js`:
 
 ```js
 await lemmatize("Die besseren Ergebnisse wurden veröffentlicht.", "de");
@@ -133,4 +90,12 @@ await lemmatize("Los mejores resultados fueron publicados.", "es");
 await lemmatize("The better results were published.", "en");
 ```
 
-The runtime returns `{ word, upos, lemma, lang }` and sets `lemma` to `null` when the predicted UPOS is `PROPN`.
+Returns `{ word, upos, lemma, lang }`; `lemma` is `null` when UPOS is `PROPN`.
+
+## Known gaps
+
+- MLX→ONNX export only exists for Arabic (`export.byt5_onnx`). The
+  de/en/es/fr/sv/zh ONNX bundles currently ship from prior PyTorch exports;
+  regenerating them from MLX checkpoints needs a new bridge.
+- `openmed` (ZH trainer only) is an undeclared optional dependency — install
+  separately if training Chinese.

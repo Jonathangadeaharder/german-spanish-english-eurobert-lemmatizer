@@ -1,6 +1,6 @@
 from datasets import Dataset
 
-from evaluate import filter_test_rows_for_lang
+from lemmatizer.eval.evaluate import filter_test_rows_for_lang
 
 
 def test_filter_test_rows_for_lang_filters_multilingual_dataset():
