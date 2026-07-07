@@ -16,7 +16,8 @@ from transformers import AutoConfig
 
 from lemmatizer.data.edit_trees import apply_edit_label
 from lemmatizer.data.label_space import LabelSpace
-from lemmatizer.languages import language_assets
+from lemmatizer.languages import LanguageSpec, language_assets
+from lemmatizer.train import TrainOptions
 
 
 def read_json(path: Path) -> dict:
@@ -653,6 +654,7 @@ def train_epoch(
 
 
 def main() -> None:
+    """argparse wrapper around `run()` for `python -m lemmatizer.train.mlx_multitask`."""
     parser = argparse.ArgumentParser()
     parser.add_argument("--lang", required=True)
     parser.add_argument("--checkpoint", required=True)
@@ -670,42 +672,65 @@ def main() -> None:
     parser.add_argument("--unfreeze-last-n", type=int, default=0)
     args = parser.parse_args()
 
-    assets = language_assets(args.lang)
+    from lemmatizer.languages import spec
+
+    opts = TrainOptions(
+        checkpoint=args.checkpoint,
+        output_dir=args.output_dir,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        lr=args.lr,
+        max_train_rows=args.max_train_rows,
+        max_val_rows=args.max_val_rows,
+        lora_rank=args.lora_rank,
+        lora_alpha=args.lora_alpha,
+        curriculum=args.curriculum,
+        unfreeze_encoder=args.unfreeze_encoder,
+        unfreeze_last_n=args.unfreeze_last_n,
+        extra={"finetune_rows": args.finetune_rows},
+    )
+    run(spec(args.lang), opts)
+
+
+def run(spec: LanguageSpec, opts: TrainOptions) -> None:
+    """Canonical entry: train the multilingual multitask model for `spec.lang`."""
+    lang = spec.lang
+    assets = language_assets(lang)
     label_remap = raw_to_contiguous_map(read_json(assets.label2id_path))
-    model = build_model(args.lang, Path(args.checkpoint))
+    model = build_model(lang, Path(opts.checkpoint))
     dataset = load_from_disk(str(assets.dataset_path))
     train_rows = list(dataset["train"])
     val_rows = list(dataset["validation"])
-    if args.max_train_rows > 0:
-        train_rows = train_rows[:args.max_train_rows]
-    if args.max_val_rows > 0:
-        val_rows = val_rows[:args.max_val_rows]
+    if opts.max_train_rows > 0:
+        train_rows = train_rows[:opts.max_train_rows]
+    if opts.max_val_rows > 0:
+        val_rows = val_rows[:opts.max_val_rows]
 
-    output_dir = Path(args.output_dir or f"runs/mlx-{args.lang}-multitask")
+    output_dir = Path(opts.output_dir or f"runs/mlx-{lang}-multitask")
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(json.dumps({"event": "baseline_start", "lang": args.lang}), flush=True)
+    print(json.dumps({"event": "baseline_start", "lang": lang}), flush=True)
     results = {
-        "lang": args.lang,
-        "checkpoint": args.checkpoint,
+        "lang": lang,
+        "checkpoint": opts.checkpoint,
         "baseline": {
-            "train": evaluate(model, train_rows[:5000], args.lang, assets, args.batch_size, "baseline_train"),
-            "validation": evaluate(model, val_rows, args.lang, assets, args.batch_size, "baseline_validation"),
+            "train": evaluate(model, train_rows[:5000], lang, assets, opts.batch_size, "baseline_train"),
+            "validation": evaluate(model, val_rows, lang, assets, opts.batch_size, "baseline_validation"),
         },
         "finetune": [],
     }
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
-    if args.epochs > 0:
-        if args.lora_rank > 0:
-            attach_lora(model, args.lora_rank, args.lora_alpha)
+    if opts.epochs > 0:
+        if opts.lora_rank > 0:
+            attach_lora(model, opts.lora_rank, opts.lora_alpha)
             print(
                 json.dumps(
                     {
                         "event": "lora_attached",
-                        "lang": args.lang,
-                        "rank": args.lora_rank,
-                        "alpha": args.lora_alpha,
+                        "lang": lang,
+                        "rank": opts.lora_rank,
+                        "alpha": opts.lora_alpha,
                     }
                 ),
                 flush=True,
@@ -713,25 +738,25 @@ def main() -> None:
         else:
             print("No LoRA modules attached (full fine-tuning)", flush=True)
 
-        if args.unfreeze_encoder:
+        if opts.unfreeze_encoder:
             for layer in model.layers:
                 layer.unfreeze()
             print("Unfroze all encoder layers", flush=True)
-        elif args.unfreeze_last_n > 0:
+        elif opts.unfreeze_last_n > 0:
             n_layers = len(model.layers)
-            for idx in range(max(0, n_layers - args.unfreeze_last_n), n_layers):
+            for idx in range(max(0, n_layers - opts.unfreeze_last_n), n_layers):
                 model.layers[idx].unfreeze()
-            print(f"Unfroze last {args.unfreeze_last_n} encoder layers", flush=True)
+            print(f"Unfroze last {opts.unfreeze_last_n} encoder layers", flush=True)
 
-        optimizer = optim.AdamW(learning_rate=args.lr, weight_decay=0.01)
+        optimizer = optim.AdamW(learning_rate=opts.lr, weight_decay=0.01)
 
-        if args.curriculum:
+        if opts.curriculum:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
-            max_train = 50000 if args.lang == "sv" else 7000
-            max_val = 5000 if args.lang == "sv" else 700
+            max_train = 50000 if lang == "sv" else 7000
+            max_val = 5000 if lang == "sv" else 700
             train_pool, val_pool = build_curriculum_datasets(train_rows, val_rows, max_train, max_val)
 
-            epochs = int(args.epochs)
+            epochs = int(opts.epochs)
             current_train_indices = set(range(min(len(train_pool), max(1, len(train_pool) // epochs))))
             current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
 
@@ -742,12 +767,12 @@ def main() -> None:
 
             for epoch in range(1, epochs + 1):
                 t0 = time.time()
-                train_loss = train_epoch(model, current_train, args.batch_size, optimizer, args.lang, epoch, label_remap)
+                train_loss = train_epoch(model, current_train, opts.batch_size, optimizer, lang, epoch, label_remap)
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:5000], args.lang, assets, args.batch_size, f"epoch_{epoch}_train"),
-                    "validation": evaluate(model, val_rows, args.lang, assets, args.batch_size, f"epoch_{epoch}_validation"),
+                    "train": evaluate(model, train_rows[:5000], lang, assets, opts.batch_size, f"epoch_{epoch}_train"),
+                    "validation": evaluate(model, val_rows, lang, assets, opts.batch_size, f"epoch_{epoch}_validation"),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)
@@ -762,7 +787,7 @@ def main() -> None:
                 model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
 
                 if epoch < epochs:
-                    struggles = find_struggles(model, current_val, args.lang, assets, args.batch_size)
+                    struggles = find_struggles(model, current_val, lang, assets, opts.batch_size)
                     print(json.dumps({"event": f"struggles_identified_epoch_{epoch}", "count": len(struggles)}), flush=True)
 
                     next_train_size = min(int((epoch + 1) * len(train_pool) / epochs), len(train_pool))
@@ -784,23 +809,24 @@ def main() -> None:
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
-            finetune_rows = train_rows[:args.finetune_rows] if args.finetune_rows > 0 else train_rows
-            for epoch in range(int(args.epochs)):
+            finetune_rows_limit = opts.extra.get("finetune_rows", 0)
+            finetune_rows = train_rows[:finetune_rows_limit] if finetune_rows_limit > 0 else train_rows
+            for epoch in range(int(opts.epochs)):
                 t0 = time.time()
                 train_loss = train_epoch(
                     model,
                     finetune_rows,
-                    args.batch_size,
+                    opts.batch_size,
                     optimizer,
-                    args.lang,
+                    lang,
                     epoch + 1,
                     label_remap,
                 )
                 metrics = {
                     "epoch": epoch + 1,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:5000], args.lang, assets, args.batch_size, f"epoch_{epoch + 1}_train"),
-                    "validation": evaluate(model, val_rows, args.lang, assets, args.batch_size, f"epoch_{epoch + 1}_validation"),
+                    "train": evaluate(model, train_rows[:5000], lang, assets, opts.batch_size, f"epoch_{epoch + 1}_train"),
+                    "validation": evaluate(model, val_rows, lang, assets, opts.batch_size, f"epoch_{epoch + 1}_validation"),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)

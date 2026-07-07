@@ -12,6 +12,9 @@ import mlx.optimizers as optim
 import numpy as np
 from transformers import AutoTokenizer
 
+from lemmatizer.languages import LanguageSpec
+from lemmatizer.train import TrainOptions
+
 
 # openmed is an undeclared optional dep; lazy-import so the module loads
 # without it. Fails at runtime only if ZH trainer is invoked.
@@ -265,6 +268,7 @@ def train_epoch(
 
 
 def main():
+    """argparse wrapper around `run()` for `python -m lemmatizer.train.zh_bio`."""
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint", required=True)
     parser.add_argument("--epochs", type=int, default=3)
@@ -277,16 +281,36 @@ def main():
     parser.add_argument("--output-dir", default="runs/mlx-zh-bio-pos")
     args = parser.parse_args()
 
-    tokenizer = AutoTokenizer.from_pretrained(args.checkpoint)
-    model = _load_openmed_model()(args.checkpoint)
+    from lemmatizer.languages import spec
+
+    opts = TrainOptions(
+        checkpoint=args.checkpoint,
+        output_dir=args.output_dir,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        lr=args.lr,
+        lora_rank=args.lora_rank,
+        lora_alpha=args.lora_alpha,
+        curriculum=args.curriculum,
+        extra={"prune_layers": args.prune_layers},
+    )
+    run(spec("zh"), opts)
+
+
+def run(spec: LanguageSpec, opts: TrainOptions) -> None:
+    """Canonical entry: train the ZH BIO-POS model for `spec.lang` (zh)."""
+    prune_layers = opts.extra.get("prune_layers", 12)
+
+    tokenizer = AutoTokenizer.from_pretrained(opts.checkpoint)
+    model = _load_openmed_model()(opts.checkpoint)
 
     # Prune model layers if requested
-    if args.prune_layers > 0 and len(model.encoder.layers) > args.prune_layers:
-        model.encoder.layers = model.encoder.layers[:args.prune_layers]
-        print(f"Pruned model to {args.prune_layers} layers")
+    if prune_layers > 0 and len(model.encoder.layers) > prune_layers:
+        model.encoder.layers = model.encoder.layers[:prune_layers]
+        print(f"Pruned model to {prune_layers} layers")
 
     # Attach classifier head
-    config = json.load(open(Path(args.checkpoint) / "config.json"))
+    config = json.load(open(Path(opts.checkpoint) / "config.json"))
     hidden_size = config.get("hidden_size", 768)
     model.classifier = nn.Linear(hidden_size, 35)
 
@@ -302,30 +326,30 @@ def main():
     val_data = make_dataset(val_raw, tokenizer, label2id)
     print(f"Loaded train={len(train_data)}, val={len(val_data)}")
 
-    output_dir = Path(args.output_dir)
+    output_dir = Path(opts.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     print(json.dumps({"event": "baseline_start"}), flush=True)
     results = {
         "baseline": {
-            "train": evaluate(model, train_data, args.batch_size, "baseline_train"),
-            "validation": evaluate(model, val_data, args.batch_size, "baseline_validation"),
+            "train": evaluate(model, train_data, opts.batch_size, "baseline_train"),
+            "validation": evaluate(model, val_data, opts.batch_size, "baseline_validation"),
         },
         "finetune": [],
     }
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
-    if args.epochs > 0:
-        attach_lora(model, args.lora_rank, args.lora_alpha)
-        print(json.dumps({"event": "lora_attached", "rank": args.lora_rank, "alpha": args.lora_alpha}), flush=True)
+    if opts.epochs > 0:
+        attach_lora(model, opts.lora_rank, opts.lora_alpha)
+        print(json.dumps({"event": "lora_attached", "rank": opts.lora_rank, "alpha": opts.lora_alpha}), flush=True)
 
-        optimizer = optim.AdamW(learning_rate=args.lr, weight_decay=0.01)
+        optimizer = optim.AdamW(learning_rate=opts.lr, weight_decay=0.01)
 
-        if args.curriculum:
+        if opts.curriculum:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
             train_pool, val_pool = build_curriculum_datasets(train_data, val_data)
 
-            epochs = int(args.epochs)
+            epochs = int(opts.epochs)
             current_train_indices = set(range(min(len(train_pool), max(1, len(train_pool) // epochs))))
             current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
 
@@ -336,12 +360,12 @@ def main():
 
             for epoch in range(1, epochs + 1):
                 t0 = time.time()
-                train_loss = train_epoch(model, current_train, args.batch_size, optimizer, epoch)
+                train_loss = train_epoch(model, current_train, opts.batch_size, optimizer, epoch)
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_data, args.batch_size, f"epoch_{epoch}_train"),
-                    "validation": evaluate(model, val_data, args.batch_size, f"epoch_{epoch}_validation"),
+                    "train": evaluate(model, train_data, opts.batch_size, f"epoch_{epoch}_train"),
+                    "validation": evaluate(model, val_data, opts.batch_size, f"epoch_{epoch}_validation"),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)
@@ -356,7 +380,7 @@ def main():
                 model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
 
                 if epoch < epochs:
-                    struggles = find_struggles(model, current_val, args.batch_size)
+                    struggles = find_struggles(model, current_val, opts.batch_size)
                     print(json.dumps({"event": f"struggles_identified_epoch_{epoch}", "count": len(struggles)}), flush=True)
 
                     next_train_size = min(int((epoch + 1) * len(train_pool) / epochs), len(train_pool))

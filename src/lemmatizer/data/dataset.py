@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 
 from lemmatizer.data.conllu import read_conllu
 from lemmatizer.data.edit_trees import make_edit_label
-from lemmatizer.languages import language_assets
+from lemmatizer.languages import LANGUAGES, UD_FILES, language_assets
 
 MODEL_ID = "EuroBERT/EuroBERT-210m"
 MAX_LENGTH = 256
@@ -37,45 +37,11 @@ def build_row_features(sample_enc: dict) -> Features:
             features[key] = Sequence(Value("int64"))
     return Features(features)
 
-LANG_TOKEN = {
-    "de": "[LANG_DE]",
-    "es": "[LANG_ES]",
-    "en": "[LANG_EN]",
-    "fr": "[LANG_FR]",
-    "ar": "[LANG_AR]",
-    "sv": "[LANG_SV]",
-    "zh": "[LANG_ZH]",
-}
+LANG_TOKEN = {s.lang: s.lang_token for s in LANGUAGES}
 
-DATA_FILES = {
-    "train": {
-        "de": "data/gold/de/train.conllu",
-        "es": "data/gold/es/train.conllu",
-        "en": "data/gold/en/train.conllu",
-        "fr": "data/gold/fr/train.conllu",
-        "ar": "data/gold/ar/train.conllu",
-        "sv": "data/gold/sv/train.conllu",
-        "zh": "data/gold/zh/train.conllu",
-    },
-    "validation": {
-        "de": "data/gold/de/dev.conllu",
-        "es": "data/gold/es/dev.conllu",
-        "en": "data/gold/en/dev.conllu",
-        "fr": "data/gold/fr/dev.conllu",
-        "ar": "data/gold/ar/dev.conllu",
-        "sv": "data/gold/sv/dev.conllu",
-        "zh": "data/gold/zh/dev.conllu",
-    },
-    "test": {
-        "de": "data/gold/de/test.conllu",
-        "es": "data/gold/es/test.conllu",
-        "en": "data/gold/en/test.conllu",
-        "fr": "data/gold/fr/test.conllu",
-        "ar": "data/gold/ar/test.conllu",
-        "sv": "data/gold/sv/test.conllu",
-        "zh": "data/gold/zh/test.conllu",
-    },
-}
+# Gold split paths per lang, derived from the registry. Use split_files_for_lang
+# rather than indexing this dict directly in new code.
+DATA_FILES = UD_FILES
 
 
 def load_json(path):

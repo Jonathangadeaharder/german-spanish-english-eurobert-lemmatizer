@@ -4,44 +4,28 @@ from pathlib import Path
 
 from lemmatizer.data.conllu import read_conllu
 from lemmatizer.data.edit_trees import apply_edit_label, make_edit_label
+from lemmatizer.languages import LANGUAGES, split_files_for_lang
 
 MIN_LABEL_COUNT = 2
 TOP_TREE_COUNT = 300
-
-LANGS = ["de", "es", "en", "fr"]
-
-INPUT_FILES = {
-    "de": [
-        "data/gold/de/train.conllu",
-        "data/gold/de/dev.conllu",
-    ],
-    "es": [
-        "data/gold/es/train.conllu",
-        "data/gold/es/dev.conllu",
-    ],
-    "en": [
-        "data/gold/en/train.conllu",
-        "data/gold/en/dev.conllu",
-    ],
-    "fr": [
-        "data/gold/fr/train.conllu",
-        "data/gold/fr/dev.conllu",
-    ],
-}
 
 OUT_DIR = Path("artifacts")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def main():
+    langs = [s.lang for s in LANGUAGES]
     counter = Counter()
     examples = {}
-    lexicon_counts = {lang: defaultdict(Counter) for lang in LANGS}
+    lexicon_counts = {lang: defaultdict(Counter) for lang in langs}
     upos_counts = Counter()
     exceptions = []
 
-    for lang in LANGS:
-        for path in INPUT_FILES[lang]:
+    for lang in langs:
+        # train + validation gold splits → label/lexicon mining input
+        splits = split_files_for_lang(lang)
+        paths = [splits["train"], splits["validation"]]
+        for path in paths:
             sentences = read_conllu(path, lang=lang)
 
             for sent in sentences:
@@ -86,7 +70,7 @@ def main():
         if count >= MIN_LABEL_COUNT:
             labels.append(label)
 
-    for lang in LANGS:
+    for lang in langs:
         for base in ["IDENTITY", "LOWERCASE"]:
             label = f"{lang}::{base}"
             if label not in labels:
@@ -109,7 +93,7 @@ def main():
 
     lexicon = {}
 
-    for lang in LANGS:
+    for lang in langs:
         lang_lexicon = {}
 
         for word, lemma_counts in lexicon_counts[lang].items():
@@ -164,7 +148,7 @@ def main():
             break
 
     reduced_labels = ["UNKNOWN"] + top_trees
-    for lang in LANGS:
+    for lang in langs:
         for base in ["IDENTITY", "LOWERCASE"]:
             label = f"{lang}::{base}"
             if label not in reduced_labels:
