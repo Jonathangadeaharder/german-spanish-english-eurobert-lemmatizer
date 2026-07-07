@@ -15,7 +15,7 @@ compat with code that iterates per-lang dicts; prefer `spec(lang)` / `LANGUAGES`
 from __future__ import annotations
 
 import os
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 
@@ -45,15 +45,6 @@ class LanguageSpec:
     ud_prefix: str
     spacy_model: str | None = None
     vocab_lemma_column: str | None = None
-    # Splits for `data/gold/<lang>/{train,dev,test}.conllu`; overridable per
-    # spec for treebanks whose split filenames differ (default = standard).
-    gold_split_files: dict[str, str] = field(
-        default_factory=lambda: {
-            "train": "",  # filled by _resolve_gold_split below
-            "validation": "",
-            "test": "",
-        }
-    )
 
 
 def _gold_split(lang: str, split: str) -> str:
@@ -112,13 +103,17 @@ LANGUAGES: tuple[LanguageSpec, ...] = (
 
 
 def spec(lang: str) -> LanguageSpec:
-    """Lookup a LanguageSpec by code. Raises ValueError if unknown."""
-    lang = lang.strip().lower()
+    """Lookup a LanguageSpec by code. Raises ValueError if unknown.
+
+    Normalizes aliases (e.g. "german" → "de") and case via `normalize_lang`
+    so callers passing user input or env values resolve consistently.
+    """
+    resolved = normalize_lang(lang)
     for s in LANGUAGES:
-        if s.lang == lang:
+        if s.lang == resolved:
             return s
     raise ValueError(
-        f"Unsupported language '{lang}'. Expected one of: {', '.join(lang_codes())}"
+        f"Unsupported language '{resolved}'. Expected one of: {', '.join(lang_codes())}"
     )
 
 

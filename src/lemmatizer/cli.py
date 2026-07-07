@@ -45,7 +45,10 @@ def fetch_ud(
         for s in LANGUAGES:
             download_treebank(s)
     else:
-        download_treebank(spec(lang))
+        try:
+            download_treebank(spec(lang))
+        except ValueError as e:
+            raise typer.BadParameter(str(e)) from e
 
 
 @app.command()
@@ -111,7 +114,10 @@ def train(
         unfreeze_encoder=unfreeze_encoder,
         unfreeze_last_n=unfreeze_last_n,
     )
-    train_language(lang, opts)
+    try:
+        train_language(lang, opts)
+    except ValueError as e:
+        raise typer.BadParameter(str(e)) from e
 
 
 @app.command()
@@ -154,7 +160,10 @@ def export_onnx(
     Currently only Arabic (ByT5) has an MLX→ONNX bridge.
     de/en/es/fr/sv require a future bridge (see plan non-goals).
     """
-    s = spec(lang)  # raises ValueError on unknown lang
+    try:
+        s = spec(lang)  # raises ValueError on unknown lang
+    except ValueError as e:
+        raise typer.BadParameter(str(e)) from e
     _set_env(
         MODEL_DIR=model_dir,
         ONNX_DIR=onnx_dir,

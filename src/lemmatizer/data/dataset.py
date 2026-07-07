@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 
 from lemmatizer.data.conllu import read_conllu
 from lemmatizer.data.edit_trees import make_edit_label
-from lemmatizer.languages import LANGUAGES, language_assets, split_files_for_lang
+from lemmatizer.languages import LANGUAGES, UD_FILES, language_assets
 
 MODEL_ID = "EuroBERT/EuroBERT-210m"
 MAX_LENGTH = 256
@@ -41,10 +41,7 @@ LANG_TOKEN = {s.lang: s.lang_token for s in LANGUAGES}
 
 # Gold split paths per lang, derived from the registry. Use split_files_for_lang
 # rather than indexing this dict directly in new code.
-DATA_FILES = {
-    split: {s.lang: path for s in LANGUAGES for path in [split_files_for_lang(s.lang)[split]]}
-    for split in ("train", "validation", "test")
-}
+DATA_FILES = UD_FILES
 
 
 def load_json(path):

@@ -809,7 +809,8 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
-            finetune_rows = train_rows[:opts.extra["finetune_rows"]] if opts.extra["finetune_rows"] > 0 else train_rows
+            finetune_rows_limit = opts.extra.get("finetune_rows", 0)
+            finetune_rows = train_rows[:finetune_rows_limit] if finetune_rows_limit > 0 else train_rows
             for epoch in range(int(opts.epochs)):
                 t0 = time.time()
                 train_loss = train_epoch(
