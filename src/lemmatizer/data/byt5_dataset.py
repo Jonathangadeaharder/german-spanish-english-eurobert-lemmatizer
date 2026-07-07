@@ -9,6 +9,7 @@ Produces a token-level, sentence-context dataset:
 PROPN tokens are masked to PAD_LABEL (-100) (parity with the EuroBERT path).
 Lemma vocabulary is built from the train split, excluding PROPN and "_" lemmas.
 """
+
 from __future__ import annotations
 
 import json
@@ -23,11 +24,13 @@ from lemmatizer.data.conllu import read_conllu
 
 PAD_LABEL = -100
 
-# ByT5 byte vocabulary: 256 bytes + PAD(0)... actually ByT5 uses 384-token
-# vocab where 0-255 are bytes and 256 is EOS. We use raw byte ids here.
-# ByT5 pad_token_id = 0, eos_token_id = 1. Bytes 2-255 are literal bytes.
+# ByT5 vocab layout (matches google/byt5-small SentencePiece byte encoding):
+# id 0 = <pad>, id 1 = </s> (EOS), id 2 = <unk>, ids 3..258 are the 256 byte
+# values (byte value b -> id b + 3), ids 259..383 are unused/sentinel slots.
 # We prepend EOS at sentence start and append EOS at the end (ByT5 convention).
+BYT5_PAD = 0
 BYT5_EOS = 1
+BYTE_ID_OFFSET = 3
 SPECIAL_TOKENS = ["<PAD>", "<UNK>", "<IDENTITY>"]
 SPECIAL_TOKEN_IDS = {"<PAD>": 0, "<UNK>": 1, "<IDENTITY>": 2}
 
@@ -102,15 +105,15 @@ def encode_sentence(
         start = len(byte_ids)
         word_bytes = word.encode("utf-8")
         for b in word_bytes:
-            # ByT5 byte ids: byte value b in [0,255] maps directly. Bytes 0/1
-            # are PAD/EOS in ByT5; we remap literal 0/1 bytes to 2/3 to avoid
-            # collision. (ByT5's vocab reserves 256-383 for special tokens.)
-            byte_ids.append(b if b > 1 else b + 256)
+            # ByT5 SentencePiece maps each byte value b in [0,255] to id b + 3
+            # (ids 0/1/2 are PAD/EOS/UNK). This is the canonical google/byt5
+            # byte vocabulary; literal bytes 0 and 1 are NOT special here.
+            byte_ids.append(b + BYTE_ID_OFFSET)
         end = len(byte_ids)
         spans.append((start, end))
 
-        # Separator space byte between words.
-        byte_ids.append(ord(" "))
+        # Separator space byte between words (space = 0x20 -> id 0x20 + 3).
+        byte_ids.append(ord(" ") + BYTE_ID_OFFSET)
 
         if upos == "PROPN" or lemma in ("_", "-"):
             labels.append(PAD_LABEL)
@@ -143,9 +146,7 @@ def build_split(
     """Build a Dataset for one split (train/dev/test)."""
     rows = []
     for sent in read_conllu(conllu_path, lang="ar"):
-        encoded = encode_sentence(
-            sent["words"], sent["lemmas"], sent["upos"], lemma2id
-        )
+        encoded = encode_sentence(sent["words"], sent["lemmas"], sent["upos"], lemma2id)
         row = _encoded_to_row(encoded)
         row["words"] = sent["words"]
         row["lemmas"] = sent["lemmas"]
@@ -200,9 +201,7 @@ def main():
     test_ds = build_split(test_path, lemma2id)
     print(f"  test: {len(test_ds)} sentences")
 
-    dataset = DatasetDict(
-        {"train": train_ds, "validation": dev_ds, "test": test_ds}
-    )
+    dataset = DatasetDict({"train": train_ds, "validation": dev_ds, "test": test_ds})
 
     out_dir.mkdir(parents=True, exist_ok=True)
     dataset.save_to_disk(str(out_dir))

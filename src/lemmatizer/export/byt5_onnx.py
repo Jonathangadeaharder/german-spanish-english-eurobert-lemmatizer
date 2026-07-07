@@ -26,6 +26,7 @@ Usage:
   MODEL_DIR=runs/ar-byt5-mlx ONNX_DIR=onnx/lemma_ar_byt5 \\
     LEXICON_DIR=artifacts/lemma_ar uv run python src/export_byt5_onnx.py
 """
+
 from __future__ import annotations
 
 import json
@@ -53,7 +54,7 @@ def _map_mlx_to_hf(mlx_key: str) -> str | None:
     if mlx_key == "encoder.ln.weight":
         return "encoder.final_layer_norm.weight"
     if mlx_key.startswith("encoder.layers."):
-        rest = mlx_key[len("encoder.layers."):]
+        rest = mlx_key[len("encoder.layers.") :]
         idx_str, tail = rest.split(".", 1)
         idx = int(idx_str)
         block = f"encoder.block.{idx}"
@@ -104,7 +105,6 @@ class ByT5LemmaONNXWrapper(nn.Module):
         ).last_hidden_state  # (B, T, D)
 
         B, T, D = enc_out.shape
-        word_byte_spans.shape[1]
         byte_idx = torch.arange(T, device=enc_out.device)  # (T,)
         starts = word_byte_spans[:, :, 0:1]  # (B, N_words, 1)
         ends = word_byte_spans[:, :, 1:2]
@@ -189,8 +189,11 @@ def main() -> None:
 
     print(f"Syncing MLX weights from {mlx_weights}", flush=True)
     report = load_mlx_weights_into_t5(str(mlx_weights), encoder)
-    print(f"  mapped={report['mapped']} skipped={len(report['skipped'])} "
-          f"missing_in_hf={len(report['missing_in_hf'])}", flush=True)
+    print(
+        f"  mapped={report['mapped']} skipped={len(report['skipped'])} "
+        f"missing_in_hf={len(report['missing_in_hf'])}",
+        flush=True,
+    )
     if report["skipped"]:
         print(f"  skipped (first 5): {report['skipped'][:5]}", flush=True)
 
@@ -208,9 +211,7 @@ def main() -> None:
     B, T, _N = 2, 32, 4
     sample_input_ids = torch.zeros((B, T), dtype=torch.long)
     sample_attn = torch.ones((B, T), dtype=torch.long)
-    sample_spans = torch.tensor(
-        [[[0, 4], [5, 9], [10, 14], [15, 19]]] * B, dtype=torch.long
-    )
+    sample_spans = torch.tensor([[[0, 4], [5, 9], [10, 14], [15, 19]]] * B, dtype=torch.long)
 
     onnx_path = onnx_dir / "model.onnx"
     print(f"Exporting ONNX to {onnx_path}", flush=True)

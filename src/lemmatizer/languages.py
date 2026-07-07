@@ -12,6 +12,7 @@ Each spec binds a language code to:
 Derived helpers (`LANG_TOKENS`, `LANGUAGE_NAMES`, etc.) exist for backward
 compat with code that iterates per-lang dicts; prefer `spec(lang)` / `LANGUAGES`.
 """
+
 from __future__ import annotations
 
 import os
@@ -23,9 +24,9 @@ from pathlib import Path
 class Family(str, Enum):
     """Which trainer module owns a language."""
 
-    MULTITASK = "multitask"   # EuroBERT/BERT token-cls, upos + lemma (mlx_multitask)
-    BYT5 = "byt5"             # ByT5 encoder + lemma head, byte-level (train_byt5)
-    ZH_BIO = "zh_bio"         # bert-base-chinese BIO-POS (zh_bio)
+    MULTITASK = "multitask"  # EuroBERT/BERT token-cls, upos + lemma (mlx_multitask)
+    BYT5 = "byt5"  # ByT5 encoder + lemma head, byte-level (train_byt5)
+    ZH_BIO = "zh_bio"  # bert-base-chinese BIO-POS (zh_bio)
 
 
 @dataclass(frozen=True)
@@ -55,46 +56,81 @@ def _gold_split(lang: str, split: str) -> str:
 
 LANGUAGES: tuple[LanguageSpec, ...] = (
     LanguageSpec(
-        lang="en", name="english", family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m", lang_token="[LANG_EN]",
-        ud_repo="UD_English-EWT", ud_prefix="en_ewt",
-        spacy_model="en_core_web_lg", vocab_lemma_column="English_Lemma",
+        lang="en",
+        name="english",
+        family=Family.MULTITASK,
+        base_model="EuroBERT/EuroBERT-210m",
+        lang_token="[LANG_EN]",
+        ud_repo="UD_English-EWT",
+        ud_prefix="en_ewt",
+        spacy_model="en_core_web_lg",
+        vocab_lemma_column="English_Lemma",
     ),
     LanguageSpec(
-        lang="de", name="german", family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m", lang_token="[LANG_DE]",
-        ud_repo="UD_German-GSD", ud_prefix="de_gsd",
-        spacy_model="de_core_news_lg", vocab_lemma_column="German_Lemma",
+        lang="de",
+        name="german",
+        family=Family.MULTITASK,
+        base_model="EuroBERT/EuroBERT-210m",
+        lang_token="[LANG_DE]",
+        ud_repo="UD_German-GSD",
+        ud_prefix="de_gsd",
+        spacy_model="de_core_news_lg",
+        vocab_lemma_column="German_Lemma",
     ),
     LanguageSpec(
-        lang="es", name="spanish", family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m", lang_token="[LANG_ES]",
-        ud_repo="UD_Spanish-AnCora", ud_prefix="es_ancora",
-        spacy_model="es_core_news_lg", vocab_lemma_column="Spanish_Lemma",
+        lang="es",
+        name="spanish",
+        family=Family.MULTITASK,
+        base_model="EuroBERT/EuroBERT-210m",
+        lang_token="[LANG_ES]",
+        ud_repo="UD_Spanish-AnCora",
+        ud_prefix="es_ancora",
+        spacy_model="es_core_news_lg",
+        vocab_lemma_column="Spanish_Lemma",
     ),
     LanguageSpec(
-        lang="fr", name="french", family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m", lang_token="[LANG_FR]",
-        ud_repo="UD_French-GSD", ud_prefix="fr_gsd",
-        spacy_model="fr_core_news_lg", vocab_lemma_column="French_Lemma",
+        lang="fr",
+        name="french",
+        family=Family.MULTITASK,
+        base_model="EuroBERT/EuroBERT-210m",
+        lang_token="[LANG_FR]",
+        ud_repo="UD_French-GSD",
+        ud_prefix="fr_gsd",
+        spacy_model="fr_core_news_lg",
+        vocab_lemma_column="French_Lemma",
     ),
     LanguageSpec(
-        lang="sv", name="swedish", family=Family.MULTITASK,
-        base_model="vesteinn/ScandiBERT", lang_token="[LANG_SV]",
-        ud_repo="UD_Swedish-Talbanken", ud_prefix="sv_talbanken",
-        spacy_model=None, vocab_lemma_column="Swedish_Lemma",
+        lang="sv",
+        name="swedish",
+        family=Family.MULTITASK,
+        base_model="vesteinn/ScandiBERT",
+        lang_token="[LANG_SV]",
+        ud_repo="UD_Swedish-Talbanken",
+        ud_prefix="sv_talbanken",
+        spacy_model=None,
+        vocab_lemma_column="Swedish_Lemma",
     ),
     LanguageSpec(
-        lang="ar", name="arabic", family=Family.BYT5,
-        base_model="google/byt5-small", lang_token="[LANG_AR]",
-        ud_repo="UD_Arabic-PADT", ud_prefix="ar_padt",
-        spacy_model=None, vocab_lemma_column="Arabic_Lemma",
+        lang="ar",
+        name="arabic",
+        family=Family.BYT5,
+        base_model="google/byt5-small",
+        lang_token="[LANG_AR]",
+        ud_repo="UD_Arabic-PADT",
+        ud_prefix="ar_padt",
+        spacy_model=None,
+        vocab_lemma_column="Arabic_Lemma",
     ),
     LanguageSpec(
-        lang="zh", name="chinese", family=Family.ZH_BIO,
-        base_model="bert-base-chinese", lang_token="[LANG_ZH]",
-        ud_repo="UD_Chinese-GSD", ud_prefix="zh_gsd",
-        spacy_model=None, vocab_lemma_column="Chinese_Lemma",
+        lang="zh",
+        name="chinese",
+        family=Family.ZH_BIO,
+        base_model="bert-base-chinese",
+        lang_token="[LANG_ZH]",
+        ud_repo="UD_Chinese-GSD",
+        ud_prefix="zh_gsd",
+        spacy_model=None,
+        vocab_lemma_column="Chinese_Lemma",
     ),
 )
 
@@ -134,6 +170,12 @@ def lang_codes() -> tuple[str, ...]:
 
 DEFAULT_BASE_MODEL = "EuroBERT/EuroBERT-210m"
 
+# Local multilingual tokenizer saved by dataset.main() (shared EuroBERT
+# WordPiece + LANG_* special tokens). Used as the tokenizer fallback for
+# languages without a dedicated BASE_MODELS entry, so per-language dataset
+# builds resolve a local path instead of fetching EuroBERT remotely.
+DEFAULT_LOCAL_TOKENIZER = "artifacts/tokenizer"
+
 # Kept as a tuple for `from lemmatizer.languages import LANGS` callers.
 LANGS = lang_codes()
 
@@ -141,9 +183,7 @@ LANG_TOKENS = {s.lang: s.lang_token for s in LANGUAGES}
 LANGUAGE_NAMES = {s.lang: s.name for s in LANGUAGES}
 BASE_MODELS = {s.lang: s.base_model for s in LANGUAGES}
 SPACY_MODELS = {s.lang: s.spacy_model for s in LANGUAGES if s.spacy_model}
-VOCAB_LEMMA_COLUMNS = {
-    s.lang: s.vocab_lemma_column for s in LANGUAGES if s.vocab_lemma_column
-}
+VOCAB_LEMMA_COLUMNS = {s.lang: s.vocab_lemma_column for s in LANGUAGES if s.vocab_lemma_column}
 
 UD_FILES = {
     split: {s.lang: _gold_split(s.lang, split) for s in LANGUAGES}
@@ -206,8 +246,7 @@ def normalize_lang(lang: str | None = None) -> str:
     resolved = _ALIASES.get(resolved, resolved)
     if resolved not in lang_codes():
         raise ValueError(
-            f"Unsupported language '{resolved}'. "
-            f"Expected one of: {', '.join(lang_codes())}"
+            f"Unsupported language '{resolved}'. Expected one of: {', '.join(lang_codes())}"
         )
     return resolved
 
@@ -243,20 +282,24 @@ def language_assets(lang: str | None = None) -> LanguageAssets:
     dataset_path = Path(
         os.getenv("DATASET_PATH", f"data/processed/eurobert_lemma_{resolved}_dataset")
     )
-    output_dir = Path(
-        os.getenv("OUTPUT_DIR", f"runs/eurobert-lemma-{resolved}-210m-lora")
-    )
-    merged_dir = Path(
-        os.getenv("MERGED_DIR", f"models/eurobert-lemma-{resolved}-210m-merged")
-    )
+    output_dir = Path(os.getenv("OUTPUT_DIR", f"runs/eurobert-lemma-{resolved}-210m-lora"))
+    merged_dir = Path(os.getenv("MERGED_DIR", f"models/eurobert-lemma-{resolved}-210m-merged"))
     onnx_dir = Path(os.getenv("ONNX_DIR", f"onnx/eurobert-lemma-{resolved}-210m"))
     web_model_dir = Path(os.getenv("WEB_MODEL_DIR", f"web/model/lemma_{resolved}"))
-    tokenizer_dir = Path(
-        os.getenv("TOKENIZER_DIR", str(artifacts_dir / "tokenizer"))
-    )
+    tokenizer_dir = Path(os.getenv("TOKENIZER_DIR", str(artifacts_dir / "tokenizer")))
 
     base_model = os.getenv("TRAIN_WARM_START") or s.base_model
-    tokenizer_name = os.getenv("TOKENIZER_NAME") or base_model
+    # Tokenizer fallback chain: explicit env > per-language base model >
+    # local multilingual tokenizer (saved at artifacts/tokenizer). The local
+    # fallback avoids a remote HF fetch for languages without a dedicated
+    # BASE_MODELS entry (e.g. en/de/es/fr fall back to the shared EuroBERT
+    # tokenizer, which dataset.main() persists locally).
+    local_tok = Path(DEFAULT_LOCAL_TOKENIZER)
+    tokenizer_name = (
+        os.getenv("TOKENIZER_NAME")
+        or base_model
+        or (str(local_tok) if local_tok.exists() else DEFAULT_BASE_MODEL)
+    )
 
     return LanguageAssets(
         lang=resolved,

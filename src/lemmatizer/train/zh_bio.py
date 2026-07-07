@@ -20,7 +20,9 @@ from lemmatizer.train import TrainOptions
 # without it. Fails at runtime only if ZH trainer is invoked.
 def _load_openmed_model():
     from openmed.mlx.models import load_model
+
     return load_model
+
 
 MAX_LENGTH = 256
 
@@ -56,7 +58,9 @@ def attach_lora(model: nn.Module, rank: int, alpha: float) -> None:
 
 
 def load_jsonl(path: Path) -> list[dict]:
-    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    return [
+        json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()
+    ]
 
 
 def make_dataset(data: list[dict], tokenizer, label2id: dict[str, int]) -> list[dict]:
@@ -72,34 +76,36 @@ def make_dataset(data: list[dict], tokenizer, label2id: dict[str, int]) -> list[
         )
         input_ids = encoding["input_ids"]
         attention_mask = encoding["attention_mask"]
-        
+
         # Labels: -100 for [CLS] and [SEP] and padding
         label_ids = [-100] * len(input_ids)
-        for i, label_id in enumerate(labels[:len(input_ids) - 2]):
+        for i, label_id in enumerate(labels[: len(input_ids) - 2]):
             label_ids[i + 1] = label_id
-            
-        samples.append({
-            "input_ids": np.array(input_ids, dtype=np.int32),
-            "attention_mask": np.array(attention_mask, dtype=np.int32),
-            "labels": np.array(label_ids, dtype=np.int32),
-        })
+
+        samples.append(
+            {
+                "input_ids": np.array(input_ids, dtype=np.int32),
+                "attention_mask": np.array(attention_mask, dtype=np.int32),
+                "labels": np.array(label_ids, dtype=np.int32),
+            }
+        )
     return samples
 
 
 def pad_batch(batch_list: list[dict]) -> dict[str, mx.array]:
     max_len = max(b["input_ids"].shape[0] for b in batch_list)
     B = len(batch_list)
-    
+
     input_ids = np.zeros((B, max_len), dtype=np.int32)
     attention_mask = np.zeros((B, max_len), dtype=np.int32)
     labels = np.full((B, max_len), -100, dtype=np.int32)
-    
+
     for i, b in enumerate(batch_list):
         n = b["input_ids"].shape[0]
         input_ids[i, :n] = b["input_ids"]
         attention_mask[i, :n] = b["attention_mask"]
         labels[i, :n] = b["labels"]
-        
+
     return {
         "input_ids": mx.array(input_ids),
         "attention_mask": mx.array(attention_mask),
@@ -129,36 +135,38 @@ def evaluate(model, rows: list[dict], batch_size: int, split: str = "") -> dict:
     loss_batches = 0
     batches = math.ceil(len(rows) / batch_size)
     t0 = time.time()
-    
+
     for batch_index, start in enumerate(range(0, len(rows), batch_size), start=1):
-        batch_rows = rows[start:start + batch_size]
+        batch_rows = rows[start : start + batch_size]
         batch = pad_batch(batch_rows)
         logits = model(batch["input_ids"])
         loss = loss_fn(model, batch)
         mx.eval(logits, loss)
         loss_total += float(loss)
         loss_batches += 1
-        
+
         preds = np.array(mx.argmax(logits, axis=-1))
         gold = np.array(batch["labels"])
         mask = gold != -100
         correct += np.sum((preds == gold) & mask)
         total += np.sum(mask)
-        
+
         if split and (batch_index % 100 == 0 or batch_index == batches):
             print(
-                json.dumps({
-                    "event": "eval_progress",
-                    "split": split,
-                    "batch": batch_index,
-                    "batches": batches,
-                    "elapsed_s": round(time.time() - t0, 1),
-                }),
+                json.dumps(
+                    {
+                        "event": "eval_progress",
+                        "split": split,
+                        "batch": batch_index,
+                        "batches": batches,
+                        "elapsed_s": round(time.time() - t0, 1),
+                    }
+                ),
                 flush=True,
             )
         if batch_index % 10 == 0:
             mx.clear_cache()
-            
+
     return {
         "loss": round(loss_total / max(loss_batches, 1), 4),
         "accuracy": round(correct / max(total, 1), 4),
@@ -170,7 +178,7 @@ def find_struggles(model, rows: list[dict], batch_size: int) -> set[int]:
     model.eval()
     struggles = set()
     for start in range(0, len(rows), batch_size):
-        batch_rows = rows[start:start + batch_size]
+        batch_rows = rows[start : start + batch_size]
         batch = pad_batch(batch_rows)
         logits = model(batch["input_ids"])
         mx.eval(logits)
@@ -243,7 +251,7 @@ def train_epoch(
     batches = math.ceil(len(order) / batch_size)
     t0 = time.time()
     for batch_index, start in enumerate(range(0, len(order), batch_size), start=1):
-        batch_rows = [rows[int(i)] for i in order[start:start + batch_size]]
+        batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = pad_batch(batch_rows)
         loss, grads = loss_and_grad(model, batch)
         grads, _ = optim.clip_grad_norm(grads, 1.0)
@@ -253,14 +261,16 @@ def train_epoch(
         n += 1
         if batch_index % 10 == 0 or batch_index == batches:
             print(
-                json.dumps({
-                    "event": "train_progress",
-                    "epoch": epoch,
-                    "batch": batch_index,
-                    "batches": batches,
-                    "loss": round(total / max(n, 1), 4),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }),
+                json.dumps(
+                    {
+                        "event": "train_progress",
+                        "epoch": epoch,
+                        "batch": batch_index,
+                        "batches": batches,
+                        "loss": round(total / max(n, 1), 4),
+                        "elapsed_s": round(time.time() - t0, 1),
+                    }
+                ),
                 flush=True,
             )
             mx.clear_cache()
@@ -277,7 +287,12 @@ def main():
     parser.add_argument("--lora-rank", type=int, default=8)
     parser.add_argument("--lora-alpha", type=float, default=16.0)
     parser.add_argument("--curriculum", action="store_true")
-    parser.add_argument("--prune-layers", type=int, default=12, help="Number of layers to keep (0 or 12 to disable pruning)")
+    parser.add_argument(
+        "--prune-layers",
+        type=int,
+        default=12,
+        help="Number of layers to keep (0 or 12 to disable pruning)",
+    )
     parser.add_argument("--output-dir", default="runs/mlx-zh-bio-pos")
     args = parser.parse_args()
 
@@ -309,14 +324,14 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         model.encoder.layers = model.encoder.layers[:prune_layers]
         print(f"Pruned model to {prune_layers} layers")
 
-    # Attach classifier head
-    config = json.load(open(Path(opts.checkpoint) / "config.json"))
-    hidden_size = config.get("hidden_size", 768)
-    model.classifier = nn.Linear(hidden_size, 35)
-
     data_dir = Path("data/processed/zh_bio")
     label_meta = json.load(open(data_dir / "labels.json"))
     label2id = label_meta["label2id"]
+
+    # Attach classifier head sized to the loaded label set (was hardcoded 35).
+    config = json.load(open(Path(opts.checkpoint) / "config.json"))
+    hidden_size = config.get("hidden_size", 768)
+    model.classifier = nn.Linear(hidden_size, len(label2id))
 
     print("Loading datasets...", flush=True)
     train_raw = load_jsonl(data_dir / "train.jsonl")
@@ -341,7 +356,12 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
     if opts.epochs > 0:
         attach_lora(model, opts.lora_rank, opts.lora_alpha)
-        print(json.dumps({"event": "lora_attached", "rank": opts.lora_rank, "alpha": opts.lora_alpha}), flush=True)
+        print(
+            json.dumps(
+                {"event": "lora_attached", "rank": opts.lora_rank, "alpha": opts.lora_alpha}
+            ),
+            flush=True,
+        )
 
         optimizer = optim.AdamW(learning_rate=opts.lr, weight_decay=0.01)
 
@@ -350,7 +370,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             train_pool, val_pool = build_curriculum_datasets(train_data, val_data)
 
             epochs = int(opts.epochs)
-            current_train_indices = set(range(min(len(train_pool), max(1, len(train_pool) // epochs))))
+            current_train_indices = set(
+                range(min(len(train_pool), max(1, len(train_pool) // epochs)))
+            )
             current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
 
             current_train = [train_pool[i] for i in current_train_indices]
@@ -365,7 +387,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
                     "train": evaluate(model, train_data, opts.batch_size, f"epoch_{epoch}_train"),
-                    "validation": evaluate(model, val_data, opts.batch_size, f"epoch_{epoch}_validation"),
+                    "validation": evaluate(
+                        model, val_data, opts.batch_size, f"epoch_{epoch}_validation"
+                    ),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)
@@ -381,19 +405,43 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
                 if epoch < epochs:
                     struggles = find_struggles(model, current_val, opts.batch_size)
-                    print(json.dumps({"event": f"struggles_identified_epoch_{epoch}", "count": len(struggles)}), flush=True)
+                    print(
+                        json.dumps(
+                            {
+                                "event": f"struggles_identified_epoch_{epoch}",
+                                "count": len(struggles),
+                            }
+                        ),
+                        flush=True,
+                    )
 
-                    next_train_size = min(int((epoch + 1) * len(train_pool) / epochs), len(train_pool))
+                    next_train_size = min(
+                        int((epoch + 1) * len(train_pool) / epochs), len(train_pool)
+                    )
                     next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
 
-                    remaining_train_indices = [i for i in range(len(train_pool)) if i not in current_train_indices]
-                    remaining_train_indices.sort(key=lambda i: sum(1 for lbl in train_pool[i]["labels"] if lbl in struggles), reverse=True)
+                    remaining_train_indices = [
+                        i for i in range(len(train_pool)) if i not in current_train_indices
+                    ]
+                    remaining_train_indices.sort(
+                        key=lambda i: sum(1 for lbl in train_pool[i]["labels"] if lbl in struggles),
+                        reverse=True,
+                    )
 
-                    remaining_val_indices = [i for i in range(len(val_pool)) if i not in current_val_indices]
-                    remaining_val_indices.sort(key=lambda i: sum(1 for lbl in val_pool[i]["labels"] if lbl in struggles), reverse=True)
+                    remaining_val_indices = [
+                        i for i in range(len(val_pool)) if i not in current_val_indices
+                    ]
+                    remaining_val_indices.sort(
+                        key=lambda i: sum(1 for lbl in val_pool[i]["labels"] if lbl in struggles),
+                        reverse=True,
+                    )
 
-                    added_train_indices = remaining_train_indices[:(next_train_size - len(current_train_indices))]
-                    added_val_indices = remaining_val_indices[:(next_val_size - len(current_val_indices))]
+                    added_train_indices = remaining_train_indices[
+                        : (next_train_size - len(current_train_indices))
+                    ]
+                    added_val_indices = remaining_val_indices[
+                        : (next_val_size - len(current_val_indices))
+                    ]
 
                     current_train_indices.update(added_train_indices)
                     current_val_indices.update(added_val_indices)

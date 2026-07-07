@@ -86,10 +86,7 @@ def evaluate(
             mx.clear_cache()
 
     acc = stats["correct"] / max(stats["total"], 1)
-    by_upos = {
-        u: round(v["correct"] / max(v["total"], 1), 4)
-        for u, v in stats["by_upos"].items()
-    }
+    by_upos = {u: round(v["correct"] / max(v["total"], 1), 4) for u, v in stats["by_upos"].items()}
     return {"lemma_accuracy": acc, "by_upos": by_upos, "stats": stats}
 
 
@@ -103,11 +100,11 @@ def find_struggles(
     model.eval()
     struggles = set()
     for start in range(0, len(rows), batch_size):
-        batch_rows = rows[start:start + batch_size]
+        batch_rows = rows[start : start + batch_size]
         batch = collate_batch(batch_rows)
         logits = model(batch["input_ids"], batch["word_byte_spans"])
         preds = np.array(mx.argmax(logits, axis=-1))
-        
+
         for b, row in enumerate(batch_rows):
             for w, (word, lemma, upos) in enumerate(
                 zip(row["words"], row["lemmas"], row["upos"], strict=True)
@@ -127,7 +124,9 @@ def find_struggles(
     return struggles
 
 
-def build_curriculum_datasets(train_data: list[dict], val_data: list[dict], max_train: int = 6075, max_val: int = 909):
+def build_curriculum_datasets(
+    train_data: list[dict], val_data: list[dict], max_train: int = 6075, max_val: int = 909
+):
     train_label_map = {}
     for idx, row in enumerate(train_data):
         for label in row["labels"]:
@@ -185,6 +184,7 @@ def train_epoch(
     t0 = time.time()
     order = np.random.permutation(len(rows))
     batches = math.ceil(len(order) / batch_size)
+    accum_steps = max(1, int(grad_accum))
 
     def loss_fn(model, batch):
         logits = model(batch["input_ids"], batch["word_byte_spans"])
@@ -192,33 +192,57 @@ def train_epoch(
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
 
-    def _tree_map_grads(grads, scale):
+    def _tree_scale(grads, scale):
         if isinstance(grads, dict):
-            return {k: _tree_map_grads(v, scale) for k, v in grads.items()}
+            return {k: _tree_scale(v, scale) for k, v in grads.items()}
         if isinstance(grads, list):
-            return [_tree_map_grads(g, scale) for g in grads]
-        return grads / scale if grads is not None else None
+            return [_tree_scale(g, scale) for g in grads]
+        return grads * scale if grads is not None else None
+
+    def _tree_add(a, b):
+        if a is None:
+            return b
+        if isinstance(b, dict):
+            return {k: _tree_add(a[k], b[k]) for k in b}
+        if isinstance(b, list):
+            return [_tree_add(a[i], b[i]) for i in range(len(b))]
+        return a + b
+
+    accumulated = None
+    pending = 0
 
     for batch_index, start in enumerate(range(0, len(order), batch_size), start=1):
-        batch_rows = [rows[int(i)] for i in order[start:start + batch_size]]
+        batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = collate_batch(batch_rows)
         loss, grads = loss_and_grad(model, batch)
-        grads = _tree_map_grads(grads, float(grad_accum))
-        grads, _ = optim.clip_grad_norm(grads, 1.0)
-        optimizer.update(model, grads)
-        mx.eval(loss, model, optimizer)
+        # Scale by 1/accum_steps so the accumulated gradient is the mean over
+        # the accumulation window (matches dividing loss by accum_steps).
+        grads = _tree_scale(grads, 1.0 / accum_steps)
+        accumulated = _tree_add(accumulated, grads)
+        pending += 1
         total_loss += float(loss)
         n_batches += 1
+
+        if pending >= accum_steps or batch_index == batches:
+            accumulated, _ = optim.clip_grad_norm(accumulated, 1.0)
+            optimizer.update(model, accumulated)
+            mx.eval(optimizer)
+            accumulated = None
+            pending = 0
+
+        mx.eval(loss)
         if batch_index % 50 == 0 or batch_index == batches:
             print(
-                json.dumps({
-                    "event": "train_progress",
-                    "epoch": epoch,
-                    "batch": batch_index,
-                    "batches": batches,
-                    "loss": round(total_loss / n_batches, 4),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }),
+                json.dumps(
+                    {
+                        "event": "train_progress",
+                        "epoch": epoch,
+                        "batch": batch_index,
+                        "batches": batches,
+                        "loss": round(total_loss / n_batches, 4),
+                        "elapsed_s": round(time.time() - t0, 1),
+                    }
+                ),
                 flush=True,
             )
             mx.clear_cache()
@@ -272,13 +296,19 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     dropout = opts.extra.get("dropout", 0.1)
 
     print(f"=== ByT5 {spec.name} lemma classifier (MLX) ===", flush=True)
-    print(f"dataset={dataset_path} epochs={opts.epochs} batch={opts.batch_size} "
-          f"grad_accum={grad_accum} lr={opts.lr} dropout={dropout}", flush=True)
+    print(
+        f"dataset={dataset_path} epochs={opts.epochs} batch={opts.batch_size} "
+        f"grad_accum={grad_accum} lr={opts.lr} dropout={dropout}",
+        flush=True,
+    )
 
     lemma2id = json.loads((artifacts_dir / "lemma_label2id.json").read_text(encoding="utf-8"))
-    id2lemma = {int(k): v for k, v in json.loads(
-        (artifacts_dir / "lemma_id2label.json").read_text(encoding="utf-8")
-    ).items()}
+    id2lemma = {
+        int(k): v
+        for k, v in json.loads(
+            (artifacts_dir / "lemma_id2label.json").read_text(encoding="utf-8")
+        ).items()
+    }
     print(f"Lemma vocab: {len(lemma2id)} classes", flush=True)
 
     lexicon_path = artifacts_dir / "lexicon.json"
@@ -328,10 +358,14 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
         if opts.curriculum:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
-            train_pool, val_pool = build_curriculum_datasets(train_rows, val_rows, max_train=6075, max_val=909)
+            train_pool, val_pool = build_curriculum_datasets(
+                train_rows, val_rows, max_train=6075, max_val=909
+            )
 
             epochs = int(opts.epochs)
-            current_train_indices = set(range(min(len(train_pool), max(1, len(train_pool) // epochs))))
+            current_train_indices = set(
+                range(min(len(train_pool), max(1, len(train_pool) // epochs)))
+            )
             current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
 
             current_train = [train_pool[i] for i in current_train_indices]
@@ -342,7 +376,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
             for epoch in range(1, epochs + 1):
                 t0 = time.time()
-                train_loss = train_epoch(model, current_train, opts.batch_size, grad_accum, optimizer, epoch)
+                train_loss = train_epoch(
+                    model, current_train, opts.batch_size, grad_accum, optimizer, epoch
+                )
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
@@ -366,20 +402,46 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
 
                 if epoch < epochs:
-                    struggles = find_struggles(model, current_val, opts.batch_size, id2lemma, lexicon)
-                    print(json.dumps({"event": f"struggles_identified_epoch_{epoch}", "count": len(struggles)}), flush=True)
+                    struggles = find_struggles(
+                        model, current_val, opts.batch_size, id2lemma, lexicon
+                    )
+                    print(
+                        json.dumps(
+                            {
+                                "event": f"struggles_identified_epoch_{epoch}",
+                                "count": len(struggles),
+                            }
+                        ),
+                        flush=True,
+                    )
 
-                    next_train_size = min(int((epoch + 1) * len(train_pool) / epochs), len(train_pool))
+                    next_train_size = min(
+                        int((epoch + 1) * len(train_pool) / epochs), len(train_pool)
+                    )
                     next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
 
-                    remaining_train_indices = [i for i in range(len(train_pool)) if i not in current_train_indices]
-                    remaining_train_indices.sort(key=lambda i: sum(1 for lbl in train_pool[i]["labels"] if lbl in struggles), reverse=True)
+                    remaining_train_indices = [
+                        i for i in range(len(train_pool)) if i not in current_train_indices
+                    ]
+                    remaining_train_indices.sort(
+                        key=lambda i: sum(1 for lbl in train_pool[i]["labels"] if lbl in struggles),
+                        reverse=True,
+                    )
 
-                    remaining_val_indices = [i for i in range(len(val_pool)) if i not in current_val_indices]
-                    remaining_val_indices.sort(key=lambda i: sum(1 for lbl in val_pool[i]["labels"] if lbl in struggles), reverse=True)
+                    remaining_val_indices = [
+                        i for i in range(len(val_pool)) if i not in current_val_indices
+                    ]
+                    remaining_val_indices.sort(
+                        key=lambda i: sum(1 for lbl in val_pool[i]["labels"] if lbl in struggles),
+                        reverse=True,
+                    )
 
-                    added_train_indices = remaining_train_indices[:(next_train_size - len(current_train_indices))]
-                    added_val_indices = remaining_val_indices[:(next_val_size - len(current_val_indices))]
+                    added_train_indices = remaining_train_indices[
+                        : (next_train_size - len(current_train_indices))
+                    ]
+                    added_val_indices = remaining_val_indices[
+                        : (next_val_size - len(current_val_indices))
+                    ]
 
                     current_train_indices.update(added_train_indices)
                     current_val_indices.update(added_val_indices)
@@ -390,7 +452,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         else:
             for epoch in range(1, opts.epochs + 1):
                 t0 = time.time()
-                train_loss = train_epoch(model, train_rows, opts.batch_size, grad_accum, optimizer, epoch)
+                train_loss = train_epoch(
+                    model, train_rows, opts.batch_size, grad_accum, optimizer, epoch
+                )
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
@@ -400,7 +464,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 }
                 results["finetune"].append(metrics)
                 print(json.dumps({"event": "epoch", **metrics}), flush=True)
-                
+
                 # Fix best model saving logic by validation accuracy
                 if metrics["validation"]["lemma_accuracy"] >= best_val_acc:
                     best_val_acc = metrics["validation"]["lemma_accuracy"]

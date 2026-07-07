@@ -37,6 +37,7 @@ def build_row_features(sample_enc: dict) -> Features:
             features[key] = Sequence(Value("int64"))
     return Features(features)
 
+
 LANG_TOKEN = {s.lang: s.lang_token for s in LANGUAGES}
 
 # Gold split paths per lang, derived from the registry. Use split_files_for_lang
@@ -158,18 +159,28 @@ def main():
         target_lang = None
         lang_tokens = list(LANG_TOKEN.values())
 
+    # trust_remote_code is only safe for the known EuroBERT backbone id; an
+    # env-supplied TOKENIZER_NAME could point at an arbitrary repo, so we
+    # disable remote code execution for env-resolved tokenizer ids.
+    trust_remote = tokenizer_name == MODEL_ID
     tokenizer = AutoTokenizer.from_pretrained(
         tokenizer_name,
-        trust_remote_code=True,
+        trust_remote_code=trust_remote,
     )
     tokenizer.add_special_tokens({"additional_special_tokens": lang_tokens})
 
     langs_for_split = [target_lang] if target_lang is not None else None
     dataset = DatasetDict(
         {
-            "train": convert_split("train", tokenizer, lemma_label2id, upos_label2id, langs_for_split),
-            "validation": convert_split("validation", tokenizer, lemma_label2id, upos_label2id, langs_for_split),
-            "test": convert_split("test", tokenizer, lemma_label2id, upos_label2id, langs_for_split),
+            "train": convert_split(
+                "train", tokenizer, lemma_label2id, upos_label2id, langs_for_split
+            ),
+            "validation": convert_split(
+                "validation", tokenizer, lemma_label2id, upos_label2id, langs_for_split
+            ),
+            "test": convert_split(
+                "test", tokenizer, lemma_label2id, upos_label2id, langs_for_split
+            ),
         }
     )
 

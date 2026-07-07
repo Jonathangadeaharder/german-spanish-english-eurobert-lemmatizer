@@ -3,6 +3,7 @@
 Uses the shared EvalContext (label space, tokenizer, model backend, lexicon)
 so there is a single source of truth across treebank and CEFR evaluation.
 """
+
 from __future__ import annotations
 
 import json
@@ -119,9 +120,7 @@ def collect_word_predictions(
     )
 
 
-def _select_best_label_id(
-    logits_row: np.ndarray, candidate_ids
-) -> int:
+def _select_best_label_id(logits_row: np.ndarray, candidate_ids) -> int:
     candidate_logits = logits_row[candidate_ids]
     best_offset = int(np.argmax(candidate_logits))
     return int(candidate_ids[best_offset])
@@ -152,19 +151,12 @@ def resolve_prediction(
     lexicon_entry = lexicon.get(word)
     if lexicon_entry is not None:
         if isinstance(lexicon_entry, dict):
-            lexicon_lemma = lexicon_entry.get(
-                upos, lexicon_entry.get(next(iter(lexicon_entry)))
-            )
+            lexicon_lemma = lexicon_entry.get(upos, lexicon_entry.get(next(iter(lexicon_entry))))
         else:
             lexicon_lemma = lexicon_entry
         return lexicon_lemma, "lexicon", edit_failed
 
     return word, "identity", edit_failed
-
-
-def is_clean_vocab_oov(word: str, gold_lemma: str, gold_upos: str) -> bool:
-    """Heuristic: is this OOV word a 'clean' failure (proper noun / number)?"""
-    return gold_upos in {"PROPN", "NUM", "PUNCT", "SYM", "X"}
 
 
 def main() -> None:
@@ -234,17 +226,11 @@ def main() -> None:
                 upos_id2label,
             )
 
-            for word_offset, (word, gold_lemma) in enumerate(
-                zip(words, lemmas, strict=True)
-            ):
+            for word_offset, (word, gold_lemma) in enumerate(zip(words, lemmas, strict=True)):
                 word_id = first_word_id + word_offset
                 stats["total"] += 1
 
-                upos_tag = (
-                    gold_upos[word_offset]
-                    if word_offset < len(gold_upos)
-                    else "_"
-                )
+                upos_tag = gold_upos[word_offset] if word_offset < len(gold_upos) else "_"
                 upos_bucket = stats["upos"][upos_tag]
                 upos_bucket["total"] += 1
 
@@ -279,9 +265,7 @@ def main() -> None:
                         stats["missing_prediction"] += 1
                         base_label = None
                     else:
-                        constrained_label = id2label.get(
-                            str(constrained_id), "UNKNOWN"
-                        )
+                        constrained_label = id2label.get(str(constrained_id), "UNKNOWN")
                         if constrained_label == "UNKNOWN":
                             stats["unknown"] += 1
                         base_label = strip_lang_prefix(constrained_label, lang)
@@ -339,9 +323,7 @@ def main() -> None:
         "lemma_total": stats["lemma_total"],
         "unknown_rate": round(stats["unknown"] / lemma_total, 4),
         "failed_apply_rate": round(stats["failed_apply"] / lemma_total, 4),
-        "missing_prediction_rate": round(
-            stats["missing_prediction"] / lemma_total, 4
-        ),
+        "missing_prediction_rate": round(stats["missing_prediction"] / lemma_total, 4),
         "oov_accuracy": round(stats["oov_correct"] / oov_total, 4),
         "in_vocab_accuracy": round(stats["in_vocab_correct"] / in_vocab_total, 4),
         "edit_tree_accuracy": (
@@ -363,9 +345,7 @@ def main() -> None:
     }
 
     report_path = ctx.assets.artifacts_dir / "eval_report.json"
-    report_path.write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     print(f"Saved evaluation report to {report_path}")
 

@@ -7,6 +7,7 @@ Commands dispatch to MLX trainers (one canonical stack per language family):
 
 Eval and packaging are backend-agnostic (ONNX/LoRA/merged resolved by EvalContext).
 """
+
 from __future__ import annotations
 
 import os
@@ -27,9 +28,7 @@ def _set_env(**values: object) -> None:
     for key, value in values.items():
         if value is None:
             continue
-        os.environ[key] = (
-            "1" if value is True else "0" if value is False else str(value)
-        )
+        os.environ[key] = "1" if value is True else "0" if value is False else str(value)
 
 
 @app.command("fetch-ud")
@@ -114,6 +113,10 @@ def train(
         unfreeze_encoder=unfreeze_encoder,
         unfreeze_last_n=unfreeze_last_n,
     )
+    # Forward the target language to backend trainers and the dataset builder,
+    # which resolve per-language artifacts via LEMMA_LANG. spec()/train_language
+    # also normalize via this env when the CLI's --lang isn't propagated.
+    _set_env(LEMMA_LANG=lang)
     try:
         train_language(lang, opts)
     except ValueError as e:

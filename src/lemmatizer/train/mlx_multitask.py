@@ -36,7 +36,9 @@ class RMSNorm(nn.Module):
         self.eps = eps
 
     def __call__(self, x: mx.array) -> mx.array:
-        return self.weight * (x * mx.rsqrt(mx.mean(mx.square(x), axis=-1, keepdims=True) + self.eps))
+        return self.weight * (
+            x * mx.rsqrt(mx.mean(mx.square(x), axis=-1, keepdims=True) + self.eps)
+        )
 
 
 class LoRALinear(nn.Module):
@@ -71,16 +73,20 @@ class EuroBertLayer(nn.Module):
         heads = cfg["num_attention_heads"]
         self.heads = heads
         self.head_dim = cfg.get("head_dim") or h // heads
-        self.scale = self.head_dim ** -0.5
+        self.scale = self.head_dim**-0.5
         self.input_layernorm = RMSNorm(h, cfg["rms_norm_eps"])
         self.post_attention_layernorm = RMSNorm(h, cfg["rms_norm_eps"])
         self.q_proj = nn.Linear(h, h, bias=cfg.get("attention_bias", False))
         self.k_proj = nn.Linear(h, h, bias=cfg.get("attention_bias", False))
         self.v_proj = nn.Linear(h, h, bias=cfg.get("attention_bias", False))
         self.o_proj = nn.Linear(h, h, bias=cfg.get("attention_bias", False))
-        self.gate_proj = nn.Linear(h, cfg["intermediate_size"], bias=bool(cfg.get("mlp_bias", False)))
+        self.gate_proj = nn.Linear(
+            h, cfg["intermediate_size"], bias=bool(cfg.get("mlp_bias", False))
+        )
         self.up_proj = nn.Linear(h, cfg["intermediate_size"], bias=bool(cfg.get("mlp_bias", False)))
-        self.down_proj = nn.Linear(cfg["intermediate_size"], h, bias=bool(cfg.get("mlp_bias", False)))
+        self.down_proj = nn.Linear(
+            cfg["intermediate_size"], h, bias=bool(cfg.get("mlp_bias", False))
+        )
 
     def __call__(self, x: mx.array, mask: mx.array, cos: mx.array, sin: mx.array) -> mx.array:
         residual = x
@@ -115,7 +121,8 @@ class EuroBertMultitask(nn.Module):
 
     def _build_inv_freq(self) -> mx.array:
         dim = self.cfg.get("head_dim") or self.cfg["hidden_size"] // self.cfg["num_attention_heads"]
-        values = 1.0 / (self.cfg["rope_theta"] ** (np.arange(0, dim, 2, dtype=np.float32) / dim))
+        rope_theta = self.cfg.get("rope_theta", 10000.0)
+        values = 1.0 / (rope_theta ** (np.arange(0, dim, 2, dtype=np.float32) / dim))
         return mx.array(values)
 
     def _rope(self, seq_len: int) -> tuple[mx.array, mx.array]:
@@ -142,7 +149,7 @@ class BertAttention(nn.Module):
         h = cfg["hidden_size"]
         self.num_heads = cfg["num_attention_heads"]
         self.head_dim = h // self.num_heads
-        self.scale = self.head_dim ** -0.5
+        self.scale = self.head_dim**-0.5
         self.query = nn.Linear(h, h)
         self.key = nn.Linear(h, h)
         self.value = nn.Linear(h, h)
@@ -232,7 +239,7 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
 
 def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> None:
     has_model_prefix = any(k.startswith("model.") for k in weights)
-    
+
     def get_weight(key: str) -> mx.array:
         orig_key = key
         if not has_model_prefix and key.startswith("model."):
@@ -252,7 +259,7 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
             alt_key_no_pref = alt_key[6:]
             if alt_key_no_pref in weights:
                 return weights[alt_key_no_pref]
-                
+
         # Check alternates for encoder layers
         if "model.encoder.layer." in orig_key:
             parts = orig_key.split(".")
@@ -287,21 +294,29 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
                         return weights[alt_key_no_pref]
             except Exception:
                 pass
-                
+
         raise KeyError(f"Could not find key {key} in weights.")
 
     assign(model, "word_embeddings.weight", get_weight("model.embeddings.word_embeddings.weight"))
-    assign(model, "position_embeddings.weight", get_weight("model.embeddings.position_embeddings.weight"))
-    assign(model, "token_type_embeddings.weight", get_weight("model.embeddings.token_type_embeddings.weight"))
+    assign(
+        model,
+        "position_embeddings.weight",
+        get_weight("model.embeddings.position_embeddings.weight"),
+    )
+    assign(
+        model,
+        "token_type_embeddings.weight",
+        get_weight("model.embeddings.token_type_embeddings.weight"),
+    )
     assign(model, "LayerNorm.weight", get_weight("model.embeddings.LayerNorm.weight"))
     assign(model, "LayerNorm.bias", get_weight("model.embeddings.LayerNorm.bias"))
-    
+
     if "upos_classifier.weight" in weights:
         assign(model, "upos_classifier.weight", weights["upos_classifier.weight"])
         assign(model, "upos_classifier.bias", weights["upos_classifier.bias"])
         assign(model, "lemma_classifier.weight", weights["lemma_classifier.weight"])
         assign(model, "lemma_classifier.bias", weights["lemma_classifier.bias"])
-        
+
     for i, layer in enumerate(model.layers):
         prefix = f"model.encoder.layer.{i}"
         assign(layer, "attention.query.weight", get_weight(f"{prefix}.attention.self.query.weight"))
@@ -310,11 +325,23 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
         assign(layer, "attention.key.bias", get_weight(f"{prefix}.attention.self.key.bias"))
         assign(layer, "attention.value.weight", get_weight(f"{prefix}.attention.self.value.weight"))
         assign(layer, "attention.value.bias", get_weight(f"{prefix}.attention.self.value.bias"))
-        assign(layer, "attention.dense.weight", get_weight(f"{prefix}.attention.output.dense.weight"))
+        assign(
+            layer, "attention.dense.weight", get_weight(f"{prefix}.attention.output.dense.weight")
+        )
         assign(layer, "attention.dense.bias", get_weight(f"{prefix}.attention.output.dense.bias"))
-        assign(layer, "attention.LayerNorm.weight", get_weight(f"{prefix}.attention.output.LayerNorm.weight"))
-        assign(layer, "attention.LayerNorm.bias", get_weight(f"{prefix}.attention.output.LayerNorm.bias"))
-        assign(layer, "intermediate_dense.weight", get_weight(f"{prefix}.intermediate.dense.weight"))
+        assign(
+            layer,
+            "attention.LayerNorm.weight",
+            get_weight(f"{prefix}.attention.output.LayerNorm.weight"),
+        )
+        assign(
+            layer,
+            "attention.LayerNorm.bias",
+            get_weight(f"{prefix}.attention.output.LayerNorm.bias"),
+        )
+        assign(
+            layer, "intermediate_dense.weight", get_weight(f"{prefix}.intermediate.dense.weight")
+        )
         assign(layer, "intermediate_dense.bias", get_weight(f"{prefix}.intermediate.dense.bias"))
         assign(layer, "output_dense.weight", get_weight(f"{prefix}.output.dense.weight"))
         assign(layer, "output_dense.bias", get_weight(f"{prefix}.output.dense.bias"))
@@ -356,7 +383,10 @@ def pad_batch(rows: list[dict], label_remap: dict[int, int] | None = None) -> di
         batch["attention_mask"][i, :n] = row["attention_mask"]
         labels = row["labels"]
         if label_remap is not None:
-            labels = [label_remap.get(int(label), -100) if int(label) != -100 else -100 for label in labels]
+            labels = [
+                label_remap.get(int(label), -100) if int(label) != -100 else -100
+                for label in labels
+            ]
         batch["labels"][i, :n] = labels
         batch["upos_labels"][i, :n] = row["upos_labels"]
     return {key: mx.array(value) for key, value in batch.items()}
@@ -377,10 +407,12 @@ def word_positions(row: dict) -> list[int]:
 
 def strip_lang(label: str, lang: str) -> str:
     prefix = f"{lang}::"
-    return label[len(prefix):] if label.startswith(prefix) else label
+    return label[len(prefix) :] if label.startswith(prefix) else label
 
 
-def select_valid(logits: np.ndarray, ids: np.ndarray, id2label: dict[str, str], lang: str, word: str) -> str:
+def select_valid(
+    logits: np.ndarray, ids: np.ndarray, id2label: dict[str, str], lang: str, word: str
+) -> str:
     values = logits[ids]
     if len(values) <= 12:
         offsets = np.argsort(values)[::-1]
@@ -436,10 +468,12 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
     batches = math.ceil(len(rows) / batch_size)
     t0 = time.time()
     for batch_index, start in enumerate(range(0, len(rows), batch_size), start=1):
-        batch_rows = rows[start:start + batch_size]
+        batch_rows = rows[start : start + batch_size]
         batch = pad_batch(batch_rows, label_remap)
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        loss = masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(lemma_logits, batch["labels"])
+        loss = masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(
+            lemma_logits, batch["labels"]
+        )
         mx.eval(upos_logits, lemma_logits, loss)
         loss_total += float(loss)
         loss_batches += 1
@@ -447,7 +481,16 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
-            for word_i, (word, gold_lemma, gold_pos) in enumerate(zip(row["words"], row["lemmas"], row["upos"], strict=True)):
+            if len(positions) != len(row["words"]):
+                raise ValueError(
+                    f"Alignment mismatch in {split} row: "
+                    f"{len(positions)} non-masked UPOS positions vs "
+                    f"{len(row['words'])} words. Unknown UPOS tags would "
+                    f"silently shift word->token alignment."
+                )
+            for word_i, (word, gold_lemma, gold_pos) in enumerate(
+                zip(row["words"], row["lemmas"], row["upos"], strict=True)
+            ):
                 if word_i >= len(positions):
                     break
                 token_i = positions[word_i]
@@ -458,7 +501,11 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
                 if gold_pos == "PROPN":
                     continue
                 lemma_total += 1
-                base = None if predicted_upos == "PROPN" else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
+                base = (
+                    None
+                    if predicted_upos == "PROPN"
+                    else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
+                )
                 if resolve(word, predicted_upos, base, lexicon) == gold_lemma:
                     lemma_correct += 1
         if split and (batch_index % 100 == 0 or batch_index == batches):
@@ -486,7 +533,9 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
     }
 
 
-def find_struggles(model, validation_rows: list[dict], lang: str, assets, batch_size: int) -> set[str]:
+def find_struggles(
+    model, validation_rows: list[dict], lang: str, assets, batch_size: int
+) -> set[str]:
     label2id = read_json(assets.label2id_path)
     upos_label2id = read_json(assets.upos_label2id_path)
     label_space = LabelSpace(label2id)
@@ -501,7 +550,7 @@ def find_struggles(model, validation_rows: list[dict], lang: str, assets, batch_
     struggles = set()
     model.eval()
     for start in range(0, len(validation_rows), batch_size):
-        batch_rows = validation_rows[start:start + batch_size]
+        batch_rows = validation_rows[start : start + batch_size]
         batch = pad_batch(batch_rows, label_remap)
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
         mx.eval(upos_logits, lemma_logits)
@@ -509,14 +558,26 @@ def find_struggles(model, validation_rows: list[dict], lang: str, assets, batch_
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
-            for word_i, (word, gold_lemma, gold_pos) in enumerate(zip(row["words"], row["lemmas"], row["upos"], strict=True)):
+            if len(positions) != len(row["words"]):
+                raise ValueError(
+                    f"Alignment mismatch: {len(positions)} non-masked UPOS "
+                    f"positions vs {len(row['words'])} words. Unknown UPOS "
+                    f"tags would silently shift word->token alignment."
+                )
+            for word_i, (word, gold_lemma, gold_pos) in enumerate(
+                zip(row["words"], row["lemmas"], row["upos"], strict=True)
+            ):
                 if word_i >= len(positions):
                     break
                 token_i = positions[word_i]
                 predicted_upos = upos_id2label.get(str(int(np.argmax(upos_np[b, token_i]))), "X")
                 if gold_pos == "PROPN":
                     continue
-                base = None if predicted_upos == "PROPN" else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
+                base = (
+                    None
+                    if predicted_upos == "PROPN"
+                    else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
+                )
                 pred_lemma = resolve(word, predicted_upos, base, lexicon)
                 if pred_lemma != gold_lemma:
                     struggles.add(gold_lemma)
@@ -524,7 +585,9 @@ def find_struggles(model, validation_rows: list[dict], lang: str, assets, batch_
     return struggles
 
 
-def build_curriculum_datasets(train_rows: list[dict], val_rows: list[dict], max_train: int = 7000, max_val: int = 700):
+def build_curriculum_datasets(
+    train_rows: list[dict], val_rows: list[dict], max_train: int = 7000, max_val: int = 700
+):
     train_lemma_map = {}
     for idx, row in enumerate(train_rows):
         for lemma in row["lemmas"]:
@@ -590,12 +653,20 @@ def build_model(lang: str, checkpoint: Path):
 
     has_model_prefix = any(k.startswith("model.") for k in weights)
     if "model.embed_tokens.weight" in weights or "embed_tokens.weight" in weights:
-        key = "model.embed_tokens.weight" if "model.embed_tokens.weight" in weights else "embed_tokens.weight"
+        key = (
+            "model.embed_tokens.weight"
+            if "model.embed_tokens.weight" in weights
+            else "embed_tokens.weight"
+        )
         vocab_size = weights[key].shape[0]
         model = EuroBertMultitask(cfg, vocab_size=vocab_size, n_upos=n_upos, n_lemma=n_lemma)
         load_eurobert_weights(model, weights)
     else:
-        key = "model.embeddings.word_embeddings.weight" if has_model_prefix else "embeddings.word_embeddings.weight"
+        key = (
+            "model.embeddings.word_embeddings.weight"
+            if has_model_prefix
+            else "embeddings.word_embeddings.weight"
+        )
         vocab_size = weights[key].shape[0]
         model = BertMultitask(cfg, vocab_size=vocab_size, n_upos=n_upos, n_lemma=n_lemma)
         load_bert_weights(model, weights)
@@ -617,7 +688,9 @@ def train_epoch(
 
     def loss_fn(model, batch):
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        return masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(lemma_logits, batch["labels"])
+        return masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(
+            lemma_logits, batch["labels"]
+        )
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
     order = np.random.permutation(len(rows))
@@ -625,7 +698,7 @@ def train_epoch(
     batches = math.ceil(len(order) / batch_size)
     t0 = time.time()
     for batch_index, start in enumerate(range(0, len(order), batch_size), start=1):
-        batch_rows = [rows[int(i)] for i in order[start:start + batch_size]]
+        batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = pad_batch(batch_rows, label_remap)
         loss, grads = loss_and_grad(model, batch)
         grads, _ = optim.clip_grad_norm(grads, 1.0)
@@ -702,9 +775,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     train_rows = list(dataset["train"])
     val_rows = list(dataset["validation"])
     if opts.max_train_rows > 0:
-        train_rows = train_rows[:opts.max_train_rows]
+        train_rows = train_rows[: opts.max_train_rows]
     if opts.max_val_rows > 0:
-        val_rows = val_rows[:opts.max_val_rows]
+        val_rows = val_rows[: opts.max_val_rows]
 
     output_dir = Path(opts.output_dir or f"runs/mlx-{lang}-multitask")
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -714,8 +787,12 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         "lang": lang,
         "checkpoint": opts.checkpoint,
         "baseline": {
-            "train": evaluate(model, train_rows[:5000], lang, assets, opts.batch_size, "baseline_train"),
-            "validation": evaluate(model, val_rows, lang, assets, opts.batch_size, "baseline_validation"),
+            "train": evaluate(
+                model, train_rows[:5000], lang, assets, opts.batch_size, "baseline_train"
+            ),
+            "validation": evaluate(
+                model, val_rows, lang, assets, opts.batch_size, "baseline_validation"
+            ),
         },
         "finetune": [],
     }
@@ -754,10 +831,14 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
             max_train = 50000 if lang == "sv" else 7000
             max_val = 5000 if lang == "sv" else 700
-            train_pool, val_pool = build_curriculum_datasets(train_rows, val_rows, max_train, max_val)
+            train_pool, val_pool = build_curriculum_datasets(
+                train_rows, val_rows, max_train, max_val
+            )
 
-            epochs = int(opts.epochs)
-            current_train_indices = set(range(min(len(train_pool), max(1, len(train_pool) // epochs))))
+            epochs = max(1, int(opts.epochs))
+            current_train_indices = set(
+                range(min(len(train_pool), max(1, len(train_pool) // epochs)))
+            )
             current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
 
             current_train = [train_pool[i] for i in current_train_indices]
@@ -767,12 +848,23 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
             for epoch in range(1, epochs + 1):
                 t0 = time.time()
-                train_loss = train_epoch(model, current_train, opts.batch_size, optimizer, lang, epoch, label_remap)
+                train_loss = train_epoch(
+                    model, current_train, opts.batch_size, optimizer, lang, epoch, label_remap
+                )
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:5000], lang, assets, opts.batch_size, f"epoch_{epoch}_train"),
-                    "validation": evaluate(model, val_rows, lang, assets, opts.batch_size, f"epoch_{epoch}_validation"),
+                    "train": evaluate(
+                        model,
+                        train_rows[:5000],
+                        lang,
+                        assets,
+                        opts.batch_size,
+                        f"epoch_{epoch}_train",
+                    ),
+                    "validation": evaluate(
+                        model, val_rows, lang, assets, opts.batch_size, f"epoch_{epoch}_validation"
+                    ),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)
@@ -788,19 +880,43 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
                 if epoch < epochs:
                     struggles = find_struggles(model, current_val, lang, assets, opts.batch_size)
-                    print(json.dumps({"event": f"struggles_identified_epoch_{epoch}", "count": len(struggles)}), flush=True)
+                    print(
+                        json.dumps(
+                            {
+                                "event": f"struggles_identified_epoch_{epoch}",
+                                "count": len(struggles),
+                            }
+                        ),
+                        flush=True,
+                    )
 
-                    next_train_size = min(int((epoch + 1) * len(train_pool) / epochs), len(train_pool))
+                    next_train_size = min(
+                        int((epoch + 1) * len(train_pool) / epochs), len(train_pool)
+                    )
                     next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
 
-                    remaining_train_indices = [i for i in range(len(train_pool)) if i not in current_train_indices]
-                    remaining_train_indices.sort(key=lambda i: sum(1 for lbl in train_pool[i]["lemmas"] if lbl in struggles), reverse=True)
+                    remaining_train_indices = [
+                        i for i in range(len(train_pool)) if i not in current_train_indices
+                    ]
+                    remaining_train_indices.sort(
+                        key=lambda i: sum(1 for lbl in train_pool[i]["lemmas"] if lbl in struggles),
+                        reverse=True,
+                    )
 
-                    remaining_val_indices = [i for i in range(len(val_pool)) if i not in current_val_indices]
-                    remaining_val_indices.sort(key=lambda i: sum(1 for lbl in val_pool[i]["lemmas"] if lbl in struggles), reverse=True)
+                    remaining_val_indices = [
+                        i for i in range(len(val_pool)) if i not in current_val_indices
+                    ]
+                    remaining_val_indices.sort(
+                        key=lambda i: sum(1 for lbl in val_pool[i]["lemmas"] if lbl in struggles),
+                        reverse=True,
+                    )
 
-                    added_train_indices = remaining_train_indices[:(next_train_size - len(current_train_indices))]
-                    added_val_indices = remaining_val_indices[:(next_val_size - len(current_val_indices))]
+                    added_train_indices = remaining_train_indices[
+                        : (next_train_size - len(current_train_indices))
+                    ]
+                    added_val_indices = remaining_val_indices[
+                        : (next_val_size - len(current_val_indices))
+                    ]
 
                     current_train_indices.update(added_train_indices)
                     current_val_indices.update(added_val_indices)
@@ -810,7 +926,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
         else:
             finetune_rows_limit = opts.extra.get("finetune_rows", 0)
-            finetune_rows = train_rows[:finetune_rows_limit] if finetune_rows_limit > 0 else train_rows
+            finetune_rows = (
+                train_rows[:finetune_rows_limit] if finetune_rows_limit > 0 else train_rows
+            )
             for epoch in range(int(opts.epochs)):
                 t0 = time.time()
                 train_loss = train_epoch(
@@ -825,8 +943,22 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 metrics = {
                     "epoch": epoch + 1,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:5000], lang, assets, opts.batch_size, f"epoch_{epoch + 1}_train"),
-                    "validation": evaluate(model, val_rows, lang, assets, opts.batch_size, f"epoch_{epoch + 1}_validation"),
+                    "train": evaluate(
+                        model,
+                        train_rows[:5000],
+                        lang,
+                        assets,
+                        opts.batch_size,
+                        f"epoch_{epoch + 1}_train",
+                    ),
+                    "validation": evaluate(
+                        model,
+                        val_rows,
+                        lang,
+                        assets,
+                        opts.batch_size,
+                        f"epoch_{epoch + 1}_validation",
+                    ),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)

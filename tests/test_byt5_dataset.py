@@ -7,13 +7,16 @@ the contract that `make_byt5_dataset` must satisfy:
 - PROPN words masked to PAD_LABEL (-100).
 - per-sentence output: input_ids, word_byte_spans, labels, words, lemmas.
 """
+
 from __future__ import annotations
 
 from pathlib import Path
 
+import numpy as np
 import pytest
 
 from lemmatizer.data.byt5_dataset import (
+    BYTE_ID_OFFSET,
     PAD_LABEL,
     build_lemma_vocab,
     encode_sentence,
@@ -111,3 +114,42 @@ def test_encode_sentence_unknown_lemma_gets_unk(mini_conllu: Path):
 
     assert encoded["labels"][0] == vocab["كَتَبَ"]
     assert encoded["labels"][1] == vocab["<UNK>"]
+
+
+def test_encode_sentence_byte_ids_match_byt5_vocabulary(mini_conllu: Path):
+    """ByT5 SentencePiece maps byte value b -> id b + 3 (ids 0/1/2 are
+    PAD/EOS/UNK). Regression for the wrong `b if b > 1 else b + 256` mapping.
+    """
+    vocab, _ = build_lemma_vocab([str(mini_conllu)])
+    # ASCII word "AB" so byte values are deterministic: 0x41, 0x42.
+    words = ["AB"]
+    lemmas = ["AB"]
+    upos_tags = ["NOUN"]
+
+    encoded = encode_sentence(words, lemmas, upos_tags, vocab)
+    ids = list(np.array(encoded["input_ids"]))
+
+    # Layout: EOS, 'A', 'B', space, EOS.
+    assert ids[0] == 1  # BYT5_EOS
+    assert ids[1] == ord("A") + BYTE_ID_OFFSET
+    assert ids[2] == ord("B") + BYTE_ID_OFFSET
+    assert ids[3] == ord(" ") + BYTE_ID_OFFSET
+    assert ids[-1] == 1  # trailing EOS
+    # Every non-special id must be in the byte range [3, 258].
+    for i in ids[1:-1]:
+        assert 3 <= i <= 258
+
+
+def test_encode_sentence_literal_zero_byte_maps_to_offset(mini_conllu: Path):
+    """A word containing a literal 0x00 byte must not collide with PAD(0)
+    or EOS(1); it must map to 0 + BYTE_ID_OFFSET = 3."""
+    vocab, _ = build_lemma_vocab([str(mini_conllu)])
+    word = "a\x00b"
+    encoded = encode_sentence([word], [word], ["NOUN"], vocab)
+    ids = list(np.array(encoded["input_ids"]))
+    # The 0x00 byte sits between 'a' (0x61) and 'b' (0x62).
+    assert 0 not in ids[1:-1]
+    assert 1 not in ids[1:-1]
+    assert BYTE_ID_OFFSET in ids[1:-1]  # 0x00 -> 3
+    assert ord("a") + BYTE_ID_OFFSET in ids[1:-1]
+    assert ord("b") + BYTE_ID_OFFSET in ids[1:-1]

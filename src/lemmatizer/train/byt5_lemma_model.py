@@ -19,6 +19,7 @@ word vector using a byte→word index map, then classify. This is the
 
 PROPN tokens are masked to label -100 (parity with the EuroBERT path).
 """
+
 from __future__ import annotations
 
 import json
@@ -30,6 +31,9 @@ import mlx.nn as nn
 
 from lemmatizer.train.byt5_encoder import T5
 
+BYT5_MODEL_ID = "google/byt5-small"
+# Cached snapshot dirs (config + weights may resolve to different revisions).
+# _resolve_byt5_path falls back to snapshot_download when the cache is absent.
 BYT5_SMALL_SNAPSHOT = (
     "~/.cache/huggingface/hub/models--google--byt5-small/"
     "snapshots/68377bdc18a2ffec8a0533fef03b1c513a4dd49d"
@@ -41,9 +45,24 @@ BYT5_SMALL_WEIGHTS = (
 PAD_LABEL = -100
 
 
+def _resolve_byt5_path(local_path: str, filename: str = "") -> str:
+    """Return an existing byt5-small cache path, or fetch via snapshot_download.
+
+    Falls back to huggingface_hub.snapshot_download when the hardcoded cache
+    snapshot is absent (e.g. fresh machine, different HF_HOME).
+    """
+    expanded = os.path.expanduser(local_path)
+    target = os.path.join(expanded, filename) if filename else expanded
+    if os.path.exists(target):
+        return target
+    from huggingface_hub import snapshot_download
+
+    return str(snapshot_download(repo_id=BYT5_MODEL_ID, allow_patterns=[filename or "*"]))
+
+
 def load_byt5_config() -> SimpleNamespace:
     """Load byt5-small config from the HF cache into a SimpleNamespace."""
-    cfg_path = os.path.expanduser(BYT5_SMALL_SNAPSHOT + "/config.json")
+    cfg_path = _resolve_byt5_path(BYT5_SMALL_SNAPSHOT, "config.json")
     cfg = json.load(open(cfg_path, encoding="utf-8"))
     return SimpleNamespace(
         vocab_size=cfg["vocab_size"],
@@ -80,7 +99,8 @@ class ByT5EncoderLemmaClassifier(nn.Module):
 
     def load_pretrained(self) -> None:
         """Load byt5-small encoder weights into the T5 backbone."""
-        weights = mx.load(os.path.expanduser(BYT5_SMALL_WEIGHTS))
+        weights_path = _resolve_byt5_path(BYT5_SMALL_WEIGHTS, "model.safetensors")
+        weights = mx.load(weights_path)
         sanitized = T5.sanitize(weights)
         missing = self.t5.load_weights(list(sanitized.items()), strict=False)
         # Decoder weights (4 of them) are expected-missing — encoder-only path.
@@ -126,7 +146,6 @@ class ByT5EncoderLemmaClassifier(nn.Module):
             (B, N_words, num_lemmas)
         """
         B, T, D = enc_out.shape
-        word_byte_spans.shape[1]
 
         # Build a per-word, per-byte mask: mask[b, w, t] = 1 if byte t is in
         # word w's span [start, end), else 0. Vectorized via broadcasting.

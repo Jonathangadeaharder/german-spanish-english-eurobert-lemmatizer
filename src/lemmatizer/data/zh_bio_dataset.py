@@ -10,6 +10,7 @@ Each character in the sentence gets a label:
 
 Lemma = surface form (trivial copy in post-processing).
 """
+
 from __future__ import annotations
 
 import json
@@ -25,8 +26,23 @@ MAX_LENGTH = 256
 
 # 17 UPOS tags × 2 (B/I) + O = 35 labels
 UPOS_TAGS = [
-    "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN",
-    "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X",
+    "ADJ",
+    "ADP",
+    "ADV",
+    "AUX",
+    "CCONJ",
+    "DET",
+    "INTJ",
+    "NOUN",
+    "NUM",
+    "PART",
+    "PRON",
+    "PROPN",
+    "PUNCT",
+    "SCONJ",
+    "SYM",
+    "VERB",
+    "X",
 ]
 LABELS = ["O"] + [f"B-{t}" for t in UPOS_TAGS] + [f"I-{t}" for t in UPOS_TAGS]
 LABEL2ID = {label: i for i, label in enumerate(LABELS)}
@@ -40,7 +56,7 @@ def build_pairs(conllu_path: Path) -> list[dict]:
         # Flatten words into characters with BIO labels
         chars = []
         labels = []
-        for word, upos in zip(words, upos_tags, strict=False):
+        for word, upos in zip(words, upos_tags, strict=True):
             upos = upos if upos in UPOS_TAGS else "X"
             for i, char in enumerate(word):
                 chars.append(char)
@@ -51,11 +67,13 @@ def build_pairs(conllu_path: Path) -> list[dict]:
             labels = labels[: MAX_LENGTH - 2]
 
         label_ids = [LABEL2ID[lbl] for lbl in labels]
-        pairs.append({
-            "chars": chars,
-            "labels": label_ids,
-            "length": len(chars),
-        })
+        pairs.append(
+            {
+                "chars": chars,
+                "labels": label_ids,
+                "length": len(chars),
+            }
+        )
     return pairs
 
 
