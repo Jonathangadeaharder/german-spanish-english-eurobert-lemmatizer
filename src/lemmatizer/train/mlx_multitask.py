@@ -914,9 +914,6 @@ def train_epoch(
         batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = pad_batch(batch_rows, label_remap)
         loss, grads = loss_and_grad(model, batch)
-        # Clip per-batch before accumulation to prevent large grads
-        # from dominating when grad_accum is high.
-        grads, _ = optim.clip_grad_norm(grads, 1.0)
         # Scale by 1/accum_steps so the accumulated gradient is the mean
         # over the accumulation window (matches dividing loss by accum_steps).
         grads = tree_scale(grads, 1.0 / accum_steps)
@@ -1209,15 +1206,11 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
-            finetune_rows_limit = opts.extra.get("finetune_rows", 0)
-            finetune_rows = (
-                train_rows[:finetune_rows_limit] if finetune_rows_limit > 0 else train_rows
-            )
             for epoch in range(epochs_int):
                 t0 = time.time()
                 train_loss = train_epoch(
                     model,
-                    finetune_rows,
+                    effective_rows,
                     opts.batch_size,
                     optimizer,
                     lang,
