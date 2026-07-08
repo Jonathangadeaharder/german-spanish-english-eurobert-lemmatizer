@@ -108,13 +108,6 @@ jobs:
           set +e
           HEAD_SHA=$(git rev-parse HEAD)
           WORK_DIR="${{ github.workspace }}"
-          echo "WORK_DIR=$WORK_DIR"
-          which jq || echo "jq NOT IN PATH"
-          ls -la "$WORK_DIR/ocr-output.json" || echo "ocr-output.json NOT FOUND"
-          jq '.summary.comments // "missing"' "$WORK_DIR/ocr-output.json" 2>&1 || echo "jq failed"
-          echo "jq comments[] test:"
-          jq -c '.comments[]' "$WORK_DIR/ocr-output.json" 2>&1 | head -2 || echo "jq -c failed"
-          echo "loop test done"
           POSTED=0
           FAILED=0
           while IFS= read -r comment; do
@@ -124,7 +117,6 @@ jobs:
             CONTENT=$(echo "$comment" | jq -r '.content')
             SUGGESTION=$(echo "$comment" | jq -r '.suggestion_code // empty')
             if [ -n "$SUGGESTION" ]; then
-              # shellcheck disable=SC2016
               BODY=$(printf '%s\n\n```suggestion\n%s\n```' "$CONTENT" "$SUGGESTION")
             else
               BODY="$CONTENT"
@@ -141,21 +133,11 @@ jobs:
               FAILED=$((FAILED + 1))
             fi
           done < <(jq -c '.comments[]' "$WORK_DIR/ocr-output.json")
-          if [ "$FAILED" -gt 0 ] && [ "$POSTED" -eq 0 ]; then
-            # shellcheck disable=SC2016
-            SUMMARY=$(
-              jq -r \
-                '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' \
-                "$WORK_DIR/ocr-output.json"
-            )
-            BODY=$(
-              printf '## OpenCodeReview found %s issue(s)\n\n%s' \
-                "$REVIEW_COMMENT_COUNT" \
-                "$SUMMARY"
-            )
-            gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" \
-              -f body="$BODY" \
-              2>/dev/null
+          echo "POSTED=$POSTED FAILED=$FAILED"
+          if [ "$POSTED" -eq 0 ] && [ "$REVIEW_COMMENT_COUNT" -gt 0 ]; then
+            SUMMARY=$(jq -r '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' "$WORK_DIR/ocr-output.json")
+            BODY=$(printf '## OpenCodeReview found %s issue(s)\n\n%s' "$REVIEW_COMMENT_COUNT" "$SUMMARY")
+            gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" -f body="$BODY"
           fi
           exit 0
       - name: Gate
