@@ -61,8 +61,12 @@ def evaluate(
 ) -> dict:
     model.eval()
     stats = {
-        "correct": 0, "total": 0, "propn": 0, "by_upos": {},
-        "upos_correct": 0, "upos_total": 0,
+        "correct": 0,
+        "total": 0,
+        "propn": 0,
+        "by_upos": {},
+        "upos_correct": 0,
+        "upos_total": 0,
     }
     for i in range(0, len(rows), batch_size):
         batch = collate_batch(rows[i : i + batch_size])
@@ -213,6 +217,7 @@ def train_epoch(
     grad_accum: int,
     optimizer,
     epoch: int,
+    upos_weight: float = 1.0,
 ) -> float:
     model.train()
     total_loss = 0.0
@@ -227,8 +232,11 @@ def train_epoch(
         if isinstance(output, tuple):
             lemma_logits, upos_logits = output
             loss = masked_cross_entropy(lemma_logits, batch["labels"])
+            # Weight the auxiliary UPOS head so its smaller class count
+            # (~17) doesn't dominate or be dominated by the lemma head
+            # (hundreds of classes). Default 1.0 preserves prior behavior.
             if "upos_labels" in batch:
-                loss = loss + masked_cross_entropy(upos_logits, batch["upos_labels"])
+                loss = loss + upos_weight * masked_cross_entropy(upos_logits, batch["upos_labels"])
             return loss
         return masked_cross_entropy(output, batch["labels"])
 
@@ -300,6 +308,7 @@ def main():
     parser.add_argument("--lr", type=float, default=5e-4)
     parser.add_argument("--warmup", type=float, default=0.06)
     parser.add_argument("--dropout", type=float, default=0.1)
+    parser.add_argument("--upos-weight", type=float, default=1.0)
     parser.add_argument("--curriculum", action="store_true")
     parser.add_argument("--dataset-path", default="data/processed/ar_byt5_lemma")
     parser.add_argument("--artifacts-dir", default="artifacts/lemma_ar")
@@ -320,6 +329,7 @@ def main():
             "grad_accum": args.grad_accum,
             "warmup": args.warmup,
             "dropout": args.dropout,
+            "upos_weight": args.upos_weight,
             "dataset_path": args.dataset_path,
             "artifacts_dir": args.artifacts_dir,
         },
@@ -336,11 +346,13 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     grad_accum = opts.extra.get("grad_accum", 4)
     warmup = opts.extra.get("warmup", 0.06)
     dropout = opts.extra.get("dropout", 0.1)
+    upos_weight = float(opts.extra.get("upos_weight", 1.0))
 
     print(f"=== ByT5 {spec.name} lemma classifier (MLX) ===", flush=True)
     print(
         f"dataset={dataset_path} epochs={opts.epochs} batch={opts.batch_size} "
-        f"grad_accum={grad_accum} lr={opts.lr} dropout={dropout}",
+        f"grad_accum={grad_accum} lr={opts.lr} dropout={dropout} "
+        f"upos_weight={upos_weight}",
         flush=True,
     )
 
@@ -359,10 +371,10 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
     # Load UPOS label maps for joint UPOS training.
     upos2id_path = artifacts_dir / "upos_label2id.json"
-    upos2id = json.loads(upos2id_path.read_text(encoding="utf-8")) if upos2id_path.exists() else None
-    upos_id2label = (
-        {int(v): k for k, v in upos2id.items()} if upos2id else None
+    upos2id = (
+        json.loads(upos2id_path.read_text(encoding="utf-8")) if upos2id_path.exists() else None
     )
+    upos_id2label = {int(v): k for k, v in upos2id.items()} if upos2id else None
     num_upos = len(upos2id) if upos2id else 0
     if num_upos:
         print(f"UPOS vocab: {num_upos} classes (joint training enabled)", flush=True)
@@ -372,9 +384,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     val_rows = [ds["validation"][i] for i in range(len(ds["validation"]))]
     print(f"Loaded train={len(train_rows)}, val={len(val_rows)}", flush=True)
 
-    model = ByT5EncoderLemmaClassifier(
-        num_lemmas=len(lemma2id), dropout=dropout, num_upos=num_upos
-    )
+    model = ByT5EncoderLemmaClassifier(num_lemmas=len(lemma2id), dropout=dropout, num_upos=num_upos)
     if opts.checkpoint:
         model.load_weights(opts.checkpoint)
         print(f"Loaded weights from checkpoint: {opts.checkpoint}", flush=True)
@@ -385,8 +395,12 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline_start"}), flush=True)
     results = {
         "baseline": {
-            "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label),
-            "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label),
+            "train": evaluate(
+                model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label
+            ),
+            "validation": evaluate(
+                model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label
+            ),
         },
         "finetune": [],
     }
@@ -431,13 +445,23 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             for epoch in range(1, epochs + 1):
                 t0 = time.time()
                 train_loss = train_epoch(
-                    model, current_train, opts.batch_size, grad_accum, optimizer, epoch
+                    model,
+                    current_train,
+                    opts.batch_size,
+                    grad_accum,
+                    optimizer,
+                    epoch,
+                    upos_weight=upos_weight,
                 )
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label),
-                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label),
+                    "train": evaluate(
+                        model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label
+                    ),
+                    "validation": evaluate(
+                        model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label
+                    ),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)
@@ -507,13 +531,23 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             for epoch in range(1, int(opts.epochs) + 1):
                 t0 = time.time()
                 train_loss = train_epoch(
-                    model, train_rows, opts.batch_size, grad_accum, optimizer, epoch
+                    model,
+                    train_rows,
+                    opts.batch_size,
+                    grad_accum,
+                    optimizer,
+                    epoch,
+                    upos_weight=upos_weight,
                 )
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label),
-                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label),
+                    "train": evaluate(
+                        model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label
+                    ),
+                    "validation": evaluate(
+                        model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label
+                    ),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)

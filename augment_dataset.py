@@ -134,15 +134,18 @@ def augment_multitask(lang_code: str) -> int:
 
         word_ids = enc.word_ids()
 
-        # Build labels
-        # CEFR words are lemmas, so the edit tree is IDENTITY
-        # (or LOWERCASE if the word is capitalized and the lemma is lowercase)
+        # Build labels. CEFR words are lemmas → IDENTITY or LOWERCASE.
+        # Check both prefixed and unprefixed forms in label2id.
         identity_label = f"{lang_code}::IDENTITY"
         lowercase_label = f"{lang_code}::LOWERCASE"
+        # Fallback to unprefixed if prefixed not in label2id
+        if identity_label not in label2id:
+            identity_label = "IDENTITY"
+        if lowercase_label not in label2id:
+            lowercase_label = "LOWERCASE"
 
         # Use IDENTITY by default, LOWERCASE if word is capitalized
         if word[0].isupper() and word.lower() != word:
-            # Check if the lowercase form is a plausible lemma
             label_name = lowercase_label
         else:
             label_name = identity_label

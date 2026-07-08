@@ -227,9 +227,19 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
     embed = _get("model.embed_tokens.weight", "embed_tokens.weight")
     if embed is not None:
         assign(model, "embed_tokens.weight", embed)
+    else:
+        print(
+            json.dumps({"event": "weight_missing", "key": "embed_tokens.weight"}),
+            flush=True,
+        )
     norm = _get("model.norm.weight", "norm.weight")
     if norm is not None:
         assign(model, "norm.weight", norm)
+    else:
+        print(
+            json.dumps({"event": "weight_missing", "key": "norm.weight"}),
+            flush=True,
+        )
     # Classifier heads may not exist in base model checkpoints; only load
     # them when present so training can warm-start from a bare backbone.
     for head in ("upos_classifier", "lemma_classifier"):
@@ -257,6 +267,11 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
             w = _get(hf_key, mlx_key)
             if w is not None:
                 assign(layer, local, w)
+            else:
+                print(
+                    json.dumps({"event": "weight_missing", "key": mlx_key}),
+                    flush=True,
+                )
 
 
 def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> None:
@@ -512,6 +527,18 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
             # beyond MAX_LENGTH that didn't get token positions.
             # Slice locally to avoid mutating the input row.
             n_positions = len(positions)
+            n_words = len(row["words"])
+            if n_positions != n_words:
+                print(
+                    json.dumps(
+                        {
+                            "event": "eval_truncate",
+                            "n_words": n_words,
+                            "n_positions": n_positions,
+                        }
+                    ),
+                    flush=True,
+                )
             words = row["words"][:n_positions]
             lemmas = row["lemmas"][:n_positions]
             upos = row["upos"][:n_positions]
@@ -586,6 +613,18 @@ def find_struggles(
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
             n_positions = len(positions)
+            n_words = len(row["words"])
+            if n_positions != n_words:
+                print(
+                    json.dumps(
+                        {
+                            "event": "struggles_truncate",
+                            "n_words": n_words,
+                            "n_positions": n_positions,
+                        }
+                    ),
+                    flush=True,
+                )
             words = row["words"][:n_positions]
             lemmas = row["lemmas"][:n_positions]
             upos = row["upos"][:n_positions]
@@ -600,7 +639,7 @@ def find_struggles(
                     continue
                 base = (
                     None
-                    if predicted_upos == "PROPN"
+                    if predicted_upos in IDENTITY_UPOS
                     else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
                 )
                 pred_lemma = resolve(word, predicted_upos, base, lexicon)

@@ -79,7 +79,11 @@ def prepare() -> None:
 @app.command()
 def train(
     lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())}"),
-    checkpoint: str = typer.Option("", help="Base model dir/id (empty=ByT5 only)"),
+    checkpoint: str = typer.Option(
+        "",
+        help="Base model dir/id. Empty only valid for ByT5 family (ar); "
+        "MULTITASK/ZH_BIO families require a checkpoint path.",
+    ),
     output_dir: str = typer.Option("", help="Output dir (default: per-family)"),
     epochs: float = typer.Option(0.0, help="Epochs (0 = baseline eval only)"),
     batch_size: int = typer.Option(64, help="Batch size"),

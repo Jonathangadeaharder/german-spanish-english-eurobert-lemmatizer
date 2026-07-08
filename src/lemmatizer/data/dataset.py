@@ -109,14 +109,14 @@ def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
         enc["labels"] = labels
         enc["upos_labels"] = upos_batch_labels
         enc["lang"] = lang
-        # Truncate words/lemmas/upos to the set of words that have a
-        # non-masked UPOS position (first sub-token within MAX_LENGTH).
-        # This keeps words/lemmas/upos aligned with upos_batch_labels.
-        words_with_positions = set()
-        for idx_t, wid in enumerate(word_ids):
-            if wid is not None and upos_batch_labels[idx_t] != -100:
-                words_with_positions.add(wid)
-        n_kept = max(words_with_positions) + 1 if words_with_positions else 0
+        # Truncate words/lemmas/upos to the words that survive
+        # tokenization within MAX_LENGTH. Use word presence (non-None
+        # word_ids) rather than UPOS label validity, so a word with an
+        # unknown UPOS tag (-100) at the tail still counts — otherwise
+        # n_kept could undershoot and downstream word_ids indexing
+        # would hit an IndexError.
+        present_word_ids = {wid for wid in word_ids if wid is not None}
+        n_kept = max(present_word_ids) + 1 if present_word_ids else 0
         enc["words"] = original_words[:n_kept]
         enc["lemmas"] = lemmas[:n_kept]
         enc["upos"] = sent["upos"][:n_kept]

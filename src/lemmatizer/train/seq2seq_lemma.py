@@ -85,9 +85,7 @@ def loss_fn(model, batch):
 
     # Gather the log-prob of the correct token at each position
     label_ids = mx.clip(labels, 0, logits.shape[-1] - 1)
-    gathered = mx.take_along_axis(
-        log_probs, label_ids[:, :, None], axis=-1
-    ).squeeze(-1)
+    gathered = mx.take_along_axis(log_probs, label_ids[:, :, None], axis=-1).squeeze(-1)
 
     loss = -gathered * mask
     n_tokens = mask.sum()
@@ -108,12 +106,15 @@ def generate(
 
     for _ in range(max_len):
         logits, cache = model.decode(
-            decoder_input[:, -1:,], memory, cache=cache
+            decoder_input[
+                :,
+                -1:,
+            ],
+            memory,
+            cache=cache,
         )
         next_token = mx.argmax(logits[:, -1, :], axis=-1)
-        decoder_input = mx.concatenate(
-            [decoder_input, next_token[:, None]], axis=1
-        )
+        decoder_input = mx.concatenate([decoder_input, next_token[:, None]], axis=1)
         if mx.all(next_token == BYT5_EOS):
             break
 
@@ -276,6 +277,7 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
     if not Path(weights_path).is_file():
         # Fallback: use the known snapshot path directly
         import os
+
         weights_path = os.path.expanduser(
             "~/.cache/huggingface/hub/models--google--byt5-small/"
             "snapshots/6f07f879d308b7b762708b50c83d41b27e329992/model.safetensors"
@@ -295,7 +297,9 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
         lr_schedule = optim.join_schedules(
             [
                 optim.linear_schedule(0.0, lr, warmup_steps),
-                optim.cosine_decay(lr, len(train_rows) // batch_size - warmup_steps, end=0.0),
+                optim.cosine_decay(
+                    lr, max(1, len(train_rows) // batch_size - warmup_steps), end=0.0
+                ),
             ],
             [warmup_steps],
         )
@@ -304,9 +308,7 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
         best_val_loss = None
         for epoch in range(1, epochs + 1):
             t0 = time.time()
-            train_loss = train_epoch(
-                model, train_rows, batch_size, optimizer, epoch
-            )
+            train_loss = train_epoch(model, train_rows, batch_size, optimizer, epoch)
             val_metrics = evaluate(model, val_rows[:200], batch_size=4)
             metrics = {
                 "epoch": epoch,
@@ -320,9 +322,7 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
             out.mkdir(parents=True, exist_ok=True)
             model.save_weights(str(out / f"epoch-{epoch}.safetensors"))
             val_loss = val_metrics.get("loss")
-            if val_loss is not None and (
-                best_val_loss is None or val_loss < best_val_loss
-            ):
+            if val_loss is not None and (best_val_loss is None or val_loss < best_val_loss):
                 best_val_loss = val_loss
                 model.save_weights(str(out / "best.safetensors"))
 

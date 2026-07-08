@@ -8,6 +8,7 @@ entry; its `main()` is a thin argparse wrapper for `python -m ...` use.
 Adding a new *family* (rare): add a `Family` member, a `run()` in a new module
 under this package, and one branch in `train_language()`.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -54,4 +55,13 @@ def train_language(lang: str, opts: TrainOptions) -> None:
         from lemmatizer.train.zh_bio import run
     else:  # pragma: no cover — exhaustiveness guard
         raise ValueError(f"Unknown family for {lang}: {s.family}")
+    # Empty checkpoint auto-loads pretrained weights only for ByT5;
+    # MULTITASK/ZH_BIO pass opts.checkpoint straight to model loading
+    # where Path("") collapses to Path(".") and yields cryptic errors.
+    if not opts.checkpoint and s.family != Family.BYT5:
+        raise ValueError(
+            f"--checkpoint is required for {s.family.value} family "
+            f"(lang={lang}). Only ByT5 supports the empty-checkpoint "
+            "auto-load fallback."
+        )
     run(s, opts)

@@ -27,8 +27,23 @@ from lemmatizer.data.conllu import read_conllu
 
 # All valid UPOS tags for noise injection
 UPOS_TAGS = [
-    "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN",
-    "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X",
+    "ADJ",
+    "ADP",
+    "ADV",
+    "AUX",
+    "CCONJ",
+    "DET",
+    "INTJ",
+    "NOUN",
+    "NUM",
+    "PART",
+    "PRON",
+    "PROPN",
+    "PUNCT",
+    "SCONJ",
+    "SYM",
+    "VERB",
+    "X",
 ]
 
 NOISE_RATE = 0.10
@@ -43,14 +58,20 @@ def encode_bytes(text: str) -> list[int]:
     return byte_ids
 
 
-def format_input(words: list[str], upos_tags: list[str], noise: bool = False) -> str:
+def format_input(
+    words: list[str],
+    upos_tags: list[str],
+    noise: bool = False,
+    rng: random.Random | None = None,
+) -> str:
     """Format a sentence as 'word [UPOS] word [UPOS] ...' for Model 2 input."""
+    r = rng if rng is not None else random
     parts = []
     for word, upos in zip(words, upos_tags, strict=True):
-        if noise and random.random() < NOISE_RATE:
+        if noise and r.random() < NOISE_RATE:
             # Corrupt the UPOS tag with a random wrong one
             wrong_choices = [t for t in UPOS_TAGS if t != upos]
-            upos = random.choice(wrong_choices)
+            upos = r.choice(wrong_choices)
         parts.append(f"{word} [{upos}]")
     return " ".join(parts)
 
@@ -67,17 +88,21 @@ def build_split(
     seed: int = 42,
 ) -> Dataset:
     """Build a seq2seq dataset split from a CoNLL-U file."""
-    random.seed(seed)
+    # Local RNG isolates noise-injection state from the global `random`
+    # module so callers relying on the global stream aren't disturbed.
+    rng = random.Random(seed)
     rows = []
+    skipped = 0
     for sent in read_conllu(conllu_path, lang=lang):
         words = sent["words"]
         lemmas = sent["lemmas"]
         upos_tags = sent["upos"]
 
         if not words or len(words) != len(lemmas) or len(words) != len(upos_tags):
+            skipped += 1
             continue
 
-        input_text = format_input(words, upos_tags, noise=noise)
+        input_text = format_input(words, upos_tags, noise=noise, rng=rng)
         output_text = format_output(lemmas)
 
         input_ids = encode_bytes(input_text)
@@ -92,6 +117,9 @@ def build_split(
                 "length": len(input_ids),
             }
         )
+
+    if skipped:
+        print(f"  Skipped {skipped} malformed sentences in {conllu_path}")
 
     return Dataset.from_list(rows)
 
@@ -111,9 +139,7 @@ def build_cefr_split(
 def main():
     lang = os.getenv("LEMMA_LANG", "de")
     gold_dir = Path(f"data/gold/{lang}")
-    out_dir = Path(
-        os.getenv("DATASET_PATH", f"data/processed/{lang}_seq2seq_lemma")
-    )
+    out_dir = Path(os.getenv("DATASET_PATH", f"data/processed/{lang}_seq2seq_lemma"))
 
     train_path = str(gold_dir / "train.conllu")
     dev_path = str(gold_dir / "dev.conllu")
@@ -126,7 +152,9 @@ def main():
     train_ds = build_split(train_path, lang, noise=True, seed=42)
     print(f"  train (treebank): {len(train_ds)} sentences")
 
-    # Add CEFR contextual sentences (no noise — these are gold)
+    # CEFR contextual sentences are gold identity pairs (lemma == word);
+    # noise is off so the model learns clean identity mappings for these
+    # high-value vocab items. Treebank rows above carry the 10% noise.
     cefr_ds = build_cefr_split(cefr_path, lang, noise=False, seed=43)
     if len(cefr_ds) > 0:
         from datasets import concatenate_datasets
@@ -139,9 +167,7 @@ def main():
     print(f"  dev: {len(dev_ds)} sentences")
     print(f"  test: {len(test_ds)} sentences")
 
-    dataset = DatasetDict(
-        {"train": train_ds, "validation": dev_ds, "test": test_ds}
-    )
+    dataset = DatasetDict({"train": train_ds, "validation": dev_ds, "test": test_ds})
 
     out_dir.mkdir(parents=True, exist_ok=True)
     dataset.save_to_disk(str(out_dir))

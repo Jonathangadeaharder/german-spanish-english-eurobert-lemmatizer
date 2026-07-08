@@ -90,18 +90,29 @@ def read_cefr_words(lang_dir: str, lemma_col: str) -> list[tuple[str, str]]:
                     continue
                 seen.add(word.lower())
                 if upos not in (
-                    "NOUN", "VERB", "ADJ", "ADV", "PROPN", "ADP",
-                    "PRON", "DET", "PART", "NUM", "CCONJ", "SCONJ",
-                    "INTJ", "AUX", "SYM", "X",
+                    "NOUN",
+                    "VERB",
+                    "ADJ",
+                    "ADV",
+                    "PROPN",
+                    "ADP",
+                    "PRON",
+                    "DET",
+                    "PART",
+                    "NUM",
+                    "CCONJ",
+                    "SCONJ",
+                    "INTJ",
+                    "AUX",
+                    "SYM",
+                    "X",
                 ):
                     upos = "X"
                 words.append((word, upos))
     return words
 
 
-def make_conllu_sentence(
-    sent_id: str, word: str, lemma: str, upos: str
-) -> str:
+def make_conllu_sentence(sent_id: str, word: str, lemma: str, upos: str) -> str:
     """Create a single-word CoNLL-U sentence with blank-line separator."""
     return (
         f"# sent_id = {sent_id}\n"
@@ -132,10 +143,7 @@ def augment_language(lang_code: str) -> int:
     print(f"  CEFR words (unique): {len(cefr_words)}", flush=True)
 
     # Find missing
-    missing = [
-        (w, u) for w, u in cefr_words
-        if w.lower() not in existing
-    ]
+    missing = [(w, u) for w, u in cefr_words if w.lower() not in existing]
     print(f"  Missing from treebank: {len(missing)}", flush=True)
 
     if not missing:
@@ -164,6 +172,23 @@ def augment_language(lang_code: str) -> int:
     if not backup.exists():
         backup.write_text(original, encoding="utf-8")
         print(f"  Backed up original to {backup}", flush=True)
+    elif "cefr-augmented" in original:
+        # train.conllu was already augmented on a previous run; restore
+        # from the pristine backup before re-augmenting so the marker
+        # count stays stable across re-runs.
+        print(
+            "  WARNING: train.conllu appears already augmented; "
+            "restoring from backup before re-augmenting...",
+            flush=True,
+        )
+        original = backup.read_text(encoding="utf-8")
+        parts = [original]
+        if original and not original.endswith("\n"):
+            parts.append("\n")
+        for i, (word, upos) in enumerate(missing, start=1):
+            sent_id = f"cefr-augmented-{lang_code}-{i:05d}"
+            parts.append(make_conllu_sentence(sent_id, word, word, upos))
+        augmented = "".join(parts)
 
     tmp_fd, tmp_path = tempfile.mkstemp(dir=gold_dir, suffix=".tmp")
     try:
@@ -179,9 +204,7 @@ def augment_language(lang_code: str) -> int:
 
 
 def main(argv: list[str]) -> int:
-    parser = argparse.ArgumentParser(
-        description="Augment UD training data with CEFR words."
-    )
+    parser = argparse.ArgumentParser(description="Augment UD training data with CEFR words.")
     parser.add_argument(
         "--lang",
         choices=tuple(LANGUAGES.keys()),
