@@ -119,7 +119,7 @@ jobs:
             if gh api "repos/${REPO}/pulls/${PR_NUMBER}/comments" \
               -f body="$BODY" \
               -f path="$PATH_VAL" \
-              -F start_line="$START_LINE" \
+              ${START_LINE:+-F start_line="$START_LINE"} \
               -F line="$END_LINE" \
               -f commit_id="$HEAD_SHA" \
               -H "Accept: application/vnd.github+json" 2>/dev/null; then
@@ -128,7 +128,7 @@ jobs:
               FAILED=$((FAILED + 1))
             fi
           done < <(jq -c '.comments[]' "$WORK_DIR/ocr-output.json")
-          if [ "$FAILED" -gt 0 ] && [ "$POSTED" -eq 0 ]; then
+          if [ "$POSTED" -eq 0 ] && [ "$REVIEW_COMMENT_COUNT" -gt 0 ]; then
             SUMMARY=$(
               jq -r \
                 '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' \
