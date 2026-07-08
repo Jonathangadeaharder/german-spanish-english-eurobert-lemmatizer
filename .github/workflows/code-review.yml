@@ -24,7 +24,7 @@ jobs:
     env:
       HOME: /Users/jonathangadeaharder
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -35,6 +35,10 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           REPO: ${{ github.repository }}
         run: |
+          # Resolve (minimize) all previous review comments authored by this
+          # bot before posting fresh ones. Prevents the gate from accumulating
+          # stale findings across runs — only the current run's comments
+          # remain active.
           set +e
           COMMENTS_JSON=$(gh api "repos/${REPO}/pulls/${PR_NUMBER}/comments" \
             --paginate \
@@ -48,6 +52,7 @@ jobs:
               --method POST \
               -f body="Resolved — superseded by a newer review run." \
               > /dev/null 2>&1 || true
+            # Minimize (mark resolved) via the GraphQL API.
             gh api graphql -f query="
               mutation {
                 minimizeComment(input: {subjectId: \"${id}\"}) {
@@ -112,6 +117,7 @@ jobs:
             CONTENT=$(echo "$comment" | jq -r '.content')
             SUGGESTION=$(echo "$comment" | jq -r '.suggestion_code // empty')
             if [ -n "$SUGGESTION" ]; then
+              # shellcheck disable=SC2016
               BODY=$(printf '%s\n\n```suggestion\n%s\n```' "$CONTENT" "$SUGGESTION")
             else
               BODY="$CONTENT"
@@ -119,7 +125,7 @@ jobs:
             if gh api "repos/${REPO}/pulls/${PR_NUMBER}/comments" \
               -f body="$BODY" \
               -f path="$PATH_VAL" \
-              ${START_LINE:+-F start_line="$START_LINE"} \
+              -F start_line="$START_LINE" \
               -F line="$END_LINE" \
               -f commit_id="$HEAD_SHA" \
               -H "Accept: application/vnd.github+json" 2>/dev/null; then
@@ -128,8 +134,8 @@ jobs:
               FAILED=$((FAILED + 1))
             fi
           done < <(jq -c '.comments[]' "$WORK_DIR/ocr-output.json")
-          echo "POSTED=$POSTED FAILED=$FAILED"
-          if [ "$POSTED" -eq 0 ] && [ "$REVIEW_COMMENT_COUNT" -gt 0 ]; then
+          if [ "$FAILED" -gt 0 ] && [ "$POSTED" -eq 0 ]; then
+            # shellcheck disable=SC2016
             SUMMARY=$(
               jq -r \
                 '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' \
@@ -141,7 +147,8 @@ jobs:
                 "$SUMMARY"
             )
             gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" \
-              -f body="$BODY"
+              -f body="$BODY" \
+              2>/dev/null
           fi
           exit 0
       - name: Gate
