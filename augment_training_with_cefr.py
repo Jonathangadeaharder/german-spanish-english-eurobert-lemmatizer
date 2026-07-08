@@ -92,6 +92,9 @@ def read_cefr_words(lang_dir: str, lemma_col: str) -> list[tuple[str, str]]:
             for row in reader:
                 word = row.get(lemma_col, "").strip()
                 upos = row.get("POS", "").strip()
+                # Sanitize: tabs/newlines in a CEFR word would corrupt the
+                # CoNLL-U (broken columns or spurious sentence boundaries).
+                word = word.replace("\t", " ").replace("\r", " ").replace("\n", " ")
                 if not word or word.lower() in seen:
                     continue
                 seen.add(word.lower())
@@ -240,9 +243,20 @@ def main(argv: list[str]) -> int:
 
     if args.all:
         total = 0
+        failed: list[str] = []
         for code in LANGUAGES:
-            total += augment_language(code)
+            # Isolate per-language failures so one language raising mid-way
+            # does not abort the batch (previously-augmented languages already
+            # had train.conllu replaced; remaining ones would be skipped).
+            try:
+                total += augment_language(code)
+            except Exception as exc:  # noqa: BLE001 — report, don't abort siblings
+                failed.append(code)
+                print(f"  {code}: FAILED — {exc}", flush=True)
         print(f"\nTotal augmented: {total} words across all languages")
+        if failed:
+            print(f"Failed languages: {', '.join(failed)}", flush=True)
+            return 1
     elif args.lang:
         augment_language(args.lang)
     else:

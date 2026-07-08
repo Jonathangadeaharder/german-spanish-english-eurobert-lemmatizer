@@ -6,6 +6,7 @@ make_cefr_eval_from_treebank.py (treebank-based) with a unified interface.
 Each source produces a list of CefrEvalRow: one sentence containing a
 CEFR-level vocabulary term, for a specific language.
 """
+
 from __future__ import annotations
 
 import csv
@@ -31,8 +32,7 @@ class CefrEvalRow:
 
 
 class CefrDataSource(Protocol):
-    def load(self, lang: str) -> list[CefrEvalRow]:
-        ...
+    def load(self, lang: str) -> list[CefrEvalRow]: ...
 
 
 def load_cefr_vocab(lang: str) -> dict[str, list[str]]:
@@ -116,12 +116,14 @@ class TreebankCefrSource:
                 sentences = sentence_index.get(term.lower(), [])
                 if not sentences:
                     continue
-                rows.append(CefrEvalRow(
-                    lang=lang,
-                    level=level,
-                    term=term,
-                    sentence=sentences[0],
-                ))
+                rows.append(
+                    CefrEvalRow(
+                        lang=lang,
+                        level=level,
+                        term=term,
+                        sentence=sentences[0],
+                    )
+                )
 
         return rows
 
@@ -183,12 +185,14 @@ class JsonlCefrSource:
                 if row.get("error"):
                     continue
                 for sentence in row.get("sentences", []):
-                    rows.append(CefrEvalRow(
-                        lang=row.get("lang", lang),
-                        level=row.get("level", ""),
-                        term=row.get("term", ""),
-                        sentence=sentence,
-                    ))
+                    rows.append(
+                        CefrEvalRow(
+                            lang=row.get("lang", lang),
+                            level=row.get("level", ""),
+                            term=row.get("term", ""),
+                            sentence=sentence,
+                        )
+                    )
 
         return rows
 

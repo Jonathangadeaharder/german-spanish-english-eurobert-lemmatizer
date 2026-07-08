@@ -24,6 +24,10 @@ from lemmatizer.data.conllu import read_conllu
 
 PAD_LABEL = -100
 
+# Tracks unknown UPOS tags seen during encoding so the warning fires once
+# per tag rather than once per occurrence (which would flood build logs).
+_UNKNOWN_UPOS_SEEN: set[str] = set()
+
 # ByT5 vocab layout (matches google/byt5-small SentencePiece byte encoding):
 # id 0 = <pad>, id 1 = </s> (EOS), id 2 = <unk>, ids 3..258 are the 256 byte
 # values (byte value b -> id b + 3); 259..383 unused. EOS at start and end.
@@ -119,7 +123,20 @@ def encode_sentence(
             labels.append(lemma2id.get(lemma, unk_id))
 
         if upos2id is not None:
-            upos_labels.append(upos2id.get(upos, PAD_LABEL))
+            if upos in upos2id:
+                upos_labels.append(upos2id[upos])
+            else:
+                # Unknown UPOS tags are masked from the loss (PAD_LABEL).
+                # Warn once per tag so silent signal loss surfaces in builds
+                # using malformed or non-standard data.
+                if upos not in _UNKNOWN_UPOS_SEEN:
+                    _UNKNOWN_UPOS_SEEN.add(upos)
+                    print(
+                        f"WARNING: unknown UPOS tag '{upos}' not in upos2id; "
+                        "masking to PAD_LABEL (-100).",
+                        flush=True,
+                    )
+                upos_labels.append(PAD_LABEL)
 
     byte_ids.append(BYT5_EOS)
 

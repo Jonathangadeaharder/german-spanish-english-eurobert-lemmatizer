@@ -40,6 +40,34 @@ BYT5_EOS = 1
 MAX_SEQ_LEN = 256
 
 
+def _tree_scale(tree, s):
+    """Recursively scale a nested grads tree by s; None leaves pass through.
+
+    Matches train_byt5._tree_scale: a None param (tied/unused weights) would
+    crash on `None * s`, so guard it explicitly.
+    """
+    if tree is None:
+        return None
+    if isinstance(tree, dict):
+        return {k: _tree_scale(v, s) for k, v in tree.items()}
+    if isinstance(tree, list):
+        return [_tree_scale(v, s) for v in tree]
+    return tree * s
+
+
+def _tree_add(a, b):
+    """Element-wise add two nested trees; None on either side passes through."""
+    if a is None:
+        return b
+    if b is None:
+        return a
+    if isinstance(a, dict):
+        return {k: _tree_add(a[k], b[k]) for k in b}
+    if isinstance(a, list):
+        return [_tree_add(a[i], b[i]) for i in range(len(b))]
+    return a + b
+
+
 def collate_batch(rows: list[dict]) -> dict:
     """Pad sequences to max length in batch (capped at MAX_SEQ_LEN).
 
@@ -205,8 +233,6 @@ def evaluate(
 
         mx.clear_cache()
 
-        mx.clear_cache()
-
     token_acc = correct / max(total, 1)
     seq_acc = exact_match / max(n_sentences, 1)
     return {"token_accuracy": token_acc, "sequence_accuracy": seq_acc}
@@ -238,30 +264,16 @@ def train_epoch(
         batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = collate_batch(batch_rows)
         loss, grads = loss_and_grad(model, batch)
-        # Scale by 1/accum_steps (recursive for nested dicts)
-        scale = 1.0 / accum_steps
-
-        def tree_scale(tree, s):
-            if isinstance(tree, dict):
-                return {k: tree_scale(v, s) for k, v in tree.items()}
-            if isinstance(tree, list):
-                return [tree_scale(v, s) for v in tree]
-            return tree * s
-
-        def tree_add(a, b):
-            if isinstance(a, dict):
-                return {k: tree_add(a[k], b[k]) for k in b}
-            if isinstance(a, list):
-                return [tree_add(a[i], b[i]) for i in range(len(a))]
-            return a + b
-
-        grads = tree_scale(grads, scale)
+        # Scale by 1/accum_steps so the accumulated gradient is the mean over
+        # the accumulation window. Hoisted _tree_scale/_tree_add (with None
+        # guards) replace per-iteration closures defined here previously.
+        grads = _tree_scale(grads, 1.0 / accum_steps)
 
         # Accumulate
         if accumulated is None:
             accumulated = grads
         else:
-            accumulated = tree_add(accumulated, grads)
+            accumulated = _tree_add(accumulated, grads)
 
         pending += 1
         total_loss += float(loss)
@@ -310,13 +322,27 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
     model = T5(config)
     weights_path = _resolve_byt5_path(BYT5_SMALL_WEIGHTS, "model.safetensors")
     if not Path(weights_path).is_file():
-        # Fallback: use the known snapshot path directly
+        # Fallback: known snapshot path. This hash is fragile (HF may
+        # purge/replace); warn loudly so a missing file plus strict=False
+        # weight loading does not silently train a random-init model.
         import os
 
         weights_path = os.path.expanduser(
             "~/.cache/huggingface/hub/models--google--byt5-small/"
             "snapshots/6f07f879d308b7b762708b50c83d41b27e329992/model.safetensors"
         )
+        print(
+            "WARNING: resolved ByT5 weights path missing; falling back to a "
+            f"hardcoded HF snapshot hash: {weights_path}. If this file does "
+            "not exist, weights load with strict=False and the model trains "
+            "from random initialization. Re-fetch google/byt5-small to fix.",
+            flush=True,
+        )
+        if not Path(weights_path).is_file():
+            raise FileNotFoundError(
+                f"ByT5 weights not found at resolved path or fallback: "
+                f"{weights_path}. Refusing to train with random weights."
+            )
     weights = mx.load(weights_path)
     sanitized = T5.sanitize(weights)
     model.load_weights(list(sanitized.items()), strict=False)
@@ -328,11 +354,14 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
     print(json.dumps({"event": "baseline", **baseline}), flush=True)
 
     if epochs > 0:
+        # grad_accum: optimizer steps happen every accum_steps batches. The
+        # optimizer is reused across all epochs, so the schedule must span
+        # every epoch's optimizer steps. Prior code froze later epochs.
+        accum_steps = max(1, 8)
+        batches_per_epoch = math.ceil(len(train_rows) / batch_size)
+        optimizer_steps_per_epoch = math.ceil(batches_per_epoch / accum_steps)
+        total_steps = max(1, optimizer_steps_per_epoch * int(epochs))
         warmup_steps = max(1, len(train_rows) // (batch_size * 10))
-        # Use math.ceil for total steps so the LR schedule covers every batch;
-        # train_epoch computes the actual batch count as ceil(len/batch_size),
-        # and floor division here would end the schedule before the last batch.
-        total_steps = max(1, math.ceil(len(train_rows) / batch_size))
         decay_steps = max(1, total_steps - warmup_steps)
         lr_schedule = optim.join_schedules(
             [

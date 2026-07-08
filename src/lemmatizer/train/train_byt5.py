@@ -421,9 +421,14 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
     if opts.epochs > 0:
-        # Cast to int: opts.epochs is a float, so the product is a float
-        # (e.g. 3.5); MLX schedulers expect int step counts.
-        total_steps = int(len(train_rows) // (opts.batch_size * grad_accum) * opts.epochs)
+        # Truncate opts.epochs to int BEFORE total_steps: both training
+        # loops iterate int(opts.epochs) times, so a fractional value (e.g.
+        # 3.5) would over-configure the scheduler and block full LR decay.
+        epochs_int = int(opts.epochs)
+        # total_steps mirrors the actual optimizer-step count across all
+        # epochs: (rows / (batch * grad_accum)) * epochs, floored per epoch.
+        steps_per_epoch = len(train_rows) // (opts.batch_size * grad_accum)
+        total_steps = max(1, int(steps_per_epoch * epochs_int))
         warmup_steps = max(1, int(total_steps * warmup))
         decay_steps = max(1, total_steps - warmup_steps)
         print(f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}", flush=True)

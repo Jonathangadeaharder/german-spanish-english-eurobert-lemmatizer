@@ -6,6 +6,7 @@ the 2-way branch (LoRA/merged, no ONNX) in evaluate_cefr.py.
 Each backend implements `run(encoded) -> (upos_logits, lemma_logits)` so the
 evaluation loop is backend-agnostic.
 """
+
 from __future__ import annotations
 
 import json
@@ -62,18 +63,14 @@ class OnnxBackend:
     def load(self, tokenizer, assets, label_space) -> None:
         import onnxruntime as ort
 
-        self._session = ort.InferenceSession(
-            self._model_path, providers=["CPUExecutionProvider"]
-        )
+        self._session = ort.InferenceSession(self._model_path, providers=["CPUExecutionProvider"])
 
     def run(self, encoded: dict[str, Any]) -> tuple[np.ndarray, np.ndarray]:
         ort_inputs = {
             "input_ids": encoded["input_ids"].cpu().numpy(),
             "attention_mask": encoded["attention_mask"].cpu().numpy(),
         }
-        upos_logits, lemma_logits = self._session.run(
-            ["upos_logits", "lemma_logits"], ort_inputs
-        )
+        upos_logits, lemma_logits = self._session.run(["upos_logits", "lemma_logits"], ort_inputs)
         return (
             np.asarray(upos_logits, dtype=np.float32),
             np.asarray(lemma_logits, dtype=np.float32),
@@ -160,9 +157,7 @@ class MergedBackend:
     def run(self, encoded: dict[str, Any]) -> tuple[np.ndarray, np.ndarray]:
         import torch
 
-        model_inputs = {
-            key: value.to(self._device) for key, value in encoded.items()
-        }
+        model_inputs = {key: value.to(self._device) for key, value in encoded.items()}
         with torch.inference_mode():
             outputs = self._model(**model_inputs)
         upos_logits = outputs.logits[0].detach().cpu().numpy()
@@ -186,9 +181,7 @@ class LoraBackend:
         from multitask_model import EuroBertForUposLemma, EuroBertUposLemmaConfig
         from peft import PeftModel
 
-        upos_label2id = json.loads(
-            Path(assets.upos_label2id_path).read_text(encoding="utf-8")
-        )
+        upos_label2id = json.loads(Path(assets.upos_label2id_path).read_text(encoding="utf-8"))
         config = EuroBertUposLemmaConfig(
             base_model_name_or_path=self._base_model,
             upos_label2id=upos_label2id,
@@ -209,9 +202,7 @@ class LoraBackend:
     def run(self, encoded: dict[str, Any]) -> tuple[np.ndarray, np.ndarray]:
         import torch
 
-        model_inputs = {
-            key: value.to(self._device) for key, value in encoded.items()
-        }
+        model_inputs = {key: value.to(self._device) for key, value in encoded.items()}
         with torch.inference_mode():
             outputs = self._model(**model_inputs)
         upos_logits = outputs.logits[0].detach().cpu().numpy()

@@ -1,9 +1,11 @@
 """Regression tests for lemmatizer.train.mlx_multitask.evaluate.
 
-Pins the truncation behavior: a row whose `upos_labels` has fewer non-masked
-entries than `words` (e.g. an unknown UPOS tag mapped to -100) yields fewer
-token positions than words. Rather than raising, evaluate() truncates the
-word lists to match the available positions (legitimate MAX_LENGTH case).
+Pins the upos_mask_alignment path: a row whose `upos_labels` has fewer
+non-masked entries than `words` (e.g. an unknown UPOS tag mapped to -100)
+yields fewer token positions than words. With n_words == n_tokens (no
+MAX_LENGTH truncation), the diagnostic classifies the mismatch as
+"upos_mask_alignment" rather than "max_length". Rather than raising,
+evaluate() truncates the word lists to match the available positions.
 """
 
 from __future__ import annotations
@@ -57,7 +59,12 @@ def _row(words, upos_labels):
 
 
 def test_evaluate_truncates_on_alignment_mismatch(tmp_path: Path):
-    """Unknown UPOS (-100) drops a position -> words truncated, no raise."""
+    """Unknown UPOS (-100) drops a position -> upos_mask_alignment path.
+
+    n_words == n_tokens (no MAX_LENGTH truncation), but n_positions < n_words
+    because the middle UPOS is masked to -100. evaluate() logs the
+    upos_mask_alignment cause and truncates the word lists; no raise.
+    """
     row = _row(["w1", "w2", "w3"], [0, -100, 1])
 
     result = mt.evaluate(

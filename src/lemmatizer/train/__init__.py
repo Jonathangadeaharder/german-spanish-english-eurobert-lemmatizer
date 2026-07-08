@@ -47,6 +47,15 @@ def train_language(lang: str, opts: TrainOptions) -> None:
     lazily so importing this package never pulls mlx/openmed/torch.
     """
     s = spec(lang)
+    # Empty checkpoint auto-loads pretrained weights only for ByT5;
+    # MULTITASK/ZH_BIO pass opts.checkpoint to model loading where Path("")
+    # collapses to Path(".") and yields cryptic errors. Validate before
+    if not opts.checkpoint and s.family != Family.BYT5:
+        raise ValueError(
+            f"--checkpoint is required for {s.family.value} family "
+            f"(lang={lang}). Only ByT5 supports the empty-checkpoint "
+            "auto-load fallback."
+        )
     if s.family == Family.MULTITASK:
         from lemmatizer.train.mlx_multitask import run
     elif s.family == Family.BYT5:
@@ -55,13 +64,4 @@ def train_language(lang: str, opts: TrainOptions) -> None:
         from lemmatizer.train.zh_bio import run
     else:  # pragma: no cover — exhaustiveness guard
         raise ValueError(f"Unknown family for {lang}: {s.family}")
-    # Empty checkpoint auto-loads pretrained weights only for ByT5;
-    # MULTITASK/ZH_BIO pass opts.checkpoint straight to model loading
-    # where Path("") collapses to Path(".") and yields cryptic errors.
-    if not opts.checkpoint and s.family != Family.BYT5:
-        raise ValueError(
-            f"--checkpoint is required for {s.family.value} family "
-            f"(lang={lang}). Only ByT5 supports the empty-checkpoint "
-            "auto-load fallback."
-        )
     run(s, opts)

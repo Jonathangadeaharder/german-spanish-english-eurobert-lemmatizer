@@ -4,6 +4,7 @@ Refactored to use the shared EvalContext (same as treebank eval) and the
 CefrDataSource strategy. This gives CEFR eval the same model backend support
 (ONNX, merged, LoRA) and the same prediction logic as treebank eval.
 """
+
 from __future__ import annotations
 
 import json
@@ -106,9 +107,7 @@ def main():
             lemma_row = lemma_logits[batch_index][token_idx]
 
             # Predict lemma
-            predicted_lemma, source, upos_tag, _ = ctx.predict_word(
-                words[term_idx], "", lemma_row
-            )
+            predicted_lemma, source, upos_tag, _ = ctx.predict_word(words[term_idx], "", lemma_row)
 
             if predicted_lemma is None:
                 predicted_lemma = words[term_idx].lower()
@@ -120,13 +119,15 @@ def main():
             if correct:
                 stats[level]["correct"] += 1
             elif len(sample_errors[level]) < 8:
-                sample_errors[level].append({
-                    "term": row.term,
-                    "level": level,
-                    "sentence": row.sentence,
-                    "predicted_lemma": predicted_lemma,
-                    "source": source,
-                })
+                sample_errors[level].append(
+                    {
+                        "term": row.term,
+                        "level": level,
+                        "sentence": row.sentence,
+                        "predicted_lemma": predicted_lemma,
+                        "source": source,
+                    }
+                )
 
     # Build report
     report = {"lang": lang, "levels": {}}

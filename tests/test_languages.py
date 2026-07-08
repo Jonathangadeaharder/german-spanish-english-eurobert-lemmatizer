@@ -4,6 +4,7 @@ The core invariant: adding a language = one `LanguageSpec` entry in `LANGUAGES`.
 No other module hardcodes a lang list. These tests pin that contract so a
 future edit that re-introduces a parallel dict fails CI.
 """
+
 from __future__ import annotations
 
 import pytest

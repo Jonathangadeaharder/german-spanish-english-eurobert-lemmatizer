@@ -292,6 +292,12 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
             key = key[6:]
         if key in weights:
             return weights[key]
+        # Try roberta. prefix for ScandiBERT
+        roberta_key = (
+            key.replace("model.", "roberta.") if key.startswith("model.") else f"roberta.{key}"
+        )
+        if roberta_key in weights:
+            return weights[roberta_key]
         alternates = {
             "model.embeddings.LayerNorm.weight": "model.embeddings.norm.weight",
             "model.embeddings.LayerNorm.bias": "model.embeddings.norm.bias",
@@ -301,6 +307,14 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
         alt_key = alternates.get(key)
         if alt_key and alt_key in weights:
             return weights[alt_key]
+        # Also try roberta-prefixed alternates
+        roberta_alt = (
+            alt_key.replace("model.", "roberta.")
+            if alt_key and alt_key.startswith("model.")
+            else None
+        )
+        if roberta_alt and roberta_alt in weights:
+            return weights[roberta_alt]
         if alt_key and not has_model_prefix and alt_key.startswith("model."):
             alt_key_no_pref = alt_key[6:]
             if alt_key_no_pref in weights:
@@ -417,12 +431,18 @@ def pad_batch(rows: list[dict], label_remap: dict[int, int] | None = None) -> di
     # Round to next multiple of 64 to avoid MLX dynamic shape recompilation
     max_len = ((max_len + 63) // 64) * 64
 
+    # A dataset built without a UPOS label map (e.g. byt5_dataset with
+    # upos2id=None) omits "upos_labels" from each row. Detect once so
+    # pad_batch does not KeyError; when absent, loss/eval skip the UPOS head.
+    has_upos = "upos_labels" in rows[0] if rows else False
+
     batch = {
         "input_ids": np.zeros((len(rows), max_len), dtype=np.int32),
         "attention_mask": np.zeros((len(rows), max_len), dtype=np.int32),
         "labels": np.full((len(rows), max_len), -100, dtype=np.int32),
-        "upos_labels": np.full((len(rows), max_len), -100, dtype=np.int32),
     }
+    if has_upos:
+        batch["upos_labels"] = np.full((len(rows), max_len), -100, dtype=np.int32)
     for i, row in enumerate(rows):
         n = len(row["input_ids"])
         batch["input_ids"][i, :n] = row["input_ids"]
@@ -434,7 +454,8 @@ def pad_batch(rows: list[dict], label_remap: dict[int, int] | None = None) -> di
                 for label in labels
             ]
         batch["labels"][i, :n] = labels
-        batch["upos_labels"][i, :n] = row["upos_labels"]
+        if has_upos:
+            batch["upos_labels"][i, :n] = row["upos_labels"]
     return {key: mx.array(value) for key, value in batch.items()}
 
 
@@ -449,6 +470,19 @@ def masked_ce(logits: mx.array, labels: mx.array) -> mx.array:
 
 def word_positions(row: dict) -> list[int]:
     return [i for i, label in enumerate(row["upos_labels"]) if label != -100]
+
+
+def _n_kept_words(row: dict) -> int:
+    # Number of original words the tokenizer kept (post MAX_LENGTH truncation).
+    # Prefer explicit build-time signals when present; otherwise fall back to
+    # the words list, which dataset.py pre-trims to the kept count.
+    if "n_kept" in row:
+        return int(row["n_kept"])
+    word_ids = row.get("word_ids")
+    if word_ids is not None:
+        kept = {wid for wid in word_ids if wid is not None}
+        return max(kept) if kept else 0
+    return len(row["words"])
 
 
 def strip_lang(label: str, lang: str) -> str:
@@ -522,9 +556,11 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         batch_rows = rows[start : start + batch_size]
         batch = pad_batch(batch_rows, label_remap)
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        loss = masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(
-            lemma_logits, batch["labels"]
-        )
+        loss = masked_ce(lemma_logits, batch["labels"])
+        # UPOS loss is only computable when the batch carries upos_labels
+        # (dataset built with a UPOS label map).
+        if "upos_labels" in batch:
+            loss = loss + masked_ce(upos_logits, batch["upos_labels"])
         mx.eval(upos_logits, lemma_logits, loss)
         loss_total += float(loss)
         loss_batches += 1
@@ -537,9 +573,15 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
             # word's UPOS masked to -100). Distinguish so drops surface.
             n_positions = len(positions)
             n_words = len(row["words"])
-            n_tokens = len(row.get("input_ids", []))
+            # Use input_ids directly (pad_batch already requires it); a
+            # missing key should fail loudly, not silently default to [].
+            n_tokens = len(row["input_ids"])
             if n_positions != n_words:
-                legit_truncation = n_words > n_tokens
+                # Compare word counts, not subword token counts: n_tokens is
+                # subword pieces and usually >> n_words, so the prior check
+                # rarely flagged real MAX_LENGTH truncation.
+                n_kept = _n_kept_words(row)
+                legit_truncation = n_words > n_kept
                 print(
                     json.dumps(
                         {
@@ -547,6 +589,7 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
                             "n_words": n_words,
                             "n_positions": n_positions,
                             "n_tokens": n_tokens,
+                            "n_kept": n_kept,
                             "legit_truncation": legit_truncation,
                             "cause": "max_length" if legit_truncation else "upos_mask_alignment",
                         }
@@ -628,9 +671,15 @@ def find_struggles(
             positions = word_positions(row)
             n_positions = len(positions)
             n_words = len(row["words"])
-            n_tokens = len(row.get("input_ids", []))
+            # Use input_ids directly (pad_batch already requires it); a
+            # missing key should fail loudly, not silently default to [].
+            n_tokens = len(row["input_ids"])
             if n_positions != n_words:
-                legit_truncation = n_words > n_tokens
+                # Compare against kept-word count, not subword token count
+                # (n_tokens is subword pieces and >> n_words, so the prior
+                # check rarely flagged MAX_LENGTH truncation). upos drop.
+                n_kept = _n_kept_words(row)
+                legit_truncation = n_words > n_kept
                 print(
                     json.dumps(
                         {
@@ -638,6 +687,7 @@ def find_struggles(
                             "n_words": n_words,
                             "n_positions": n_positions,
                             "n_tokens": n_tokens,
+                            "n_kept": n_kept,
                             "legit_truncation": legit_truncation,
                             "cause": "max_length" if legit_truncation else "upos_mask_alignment",
                         }
@@ -744,6 +794,11 @@ def build_model(lang: str, checkpoint: Path):
         vocab_size = weights[key].shape[0]
         model = EuroBertMultitask(cfg, vocab_size=vocab_size, n_upos=n_upos, n_lemma=n_lemma)
         load_eurobert_weights(model, weights)
+    elif "roberta.embeddings.word_embeddings.weight" in weights:
+        key = "roberta.embeddings.word_embeddings.weight"
+        vocab_size = weights[key].shape[0]
+        model = BertMultitask(cfg, vocab_size=vocab_size, n_upos=n_upos, n_lemma=n_lemma)
+        load_bert_weights(model, weights)
     else:
         key = (
             "model.embeddings.word_embeddings.weight"
@@ -771,9 +826,12 @@ def train_epoch(
 
     def loss_fn(model, batch):
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        return masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(
-            lemma_logits, batch["labels"]
-        )
+        loss = masked_ce(lemma_logits, batch["labels"])
+        # Skip the UPOS head when the batch has no upos_labels (dataset built
+        # without a UPOS label map); avoids KeyError on batch["upos_labels"].
+        if "upos_labels" in batch:
+            loss = loss + masked_ce(upos_logits, batch["upos_labels"])
+        return loss
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
     order = np.random.permutation(len(rows))

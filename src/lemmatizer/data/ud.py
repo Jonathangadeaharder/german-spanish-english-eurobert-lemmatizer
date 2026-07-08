@@ -3,6 +3,7 @@
 Driven by `LANGUAGES` registry — adding a language = one `LanguageSpec`
 entry, and `fetch-ud` immediately downloads it. No per-lang dict here.
 """
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -21,8 +22,7 @@ def download_treebank(s: LanguageSpec, out_root: Path = Path("data/gold")) -> No
     for split in SPLITS:
         filename = f"{s.ud_prefix}-ud-{split}.conllu"
         url = (
-            f"https://raw.githubusercontent.com/UniversalDependencies/"
-            f"{s.ud_repo}/master/{filename}"
+            f"https://raw.githubusercontent.com/UniversalDependencies/{s.ud_repo}/master/{filename}"
         )
         out_path = out_dir / f"{split}.conllu"
         print(f"Downloading {url} -> {out_path}")
