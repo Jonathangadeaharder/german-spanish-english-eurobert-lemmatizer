@@ -153,3 +153,69 @@ def test_encode_sentence_literal_zero_byte_maps_to_offset(mini_conllu: Path):
     assert BYTE_ID_OFFSET in ids[1:-1]  # 0x00 -> 3
     assert ord("a") + BYTE_ID_OFFSET in ids[1:-1]
     assert ord("b") + BYTE_ID_OFFSET in ids[1:-1]
+
+
+# --- UPOS encoding (added per OCR finding: the upos2id paths had no coverage) ---
+
+
+def test_encode_sentence_upos_known_tags_mapped_to_ids(mini_conllu: Path):
+    """Known UPOS tags map to their upos2id ids (PROPN included)."""
+    vocab, _ = build_lemma_vocab([str(mini_conllu)])
+    upos2id = {"VERB": 5, "NOUN": 7, "PROPN": 9}
+    words = ["كَتَبَ", "الْوَلَدُ", "أَحْمَد"]
+    lemmas = ["كَتَبَ", "وَلَد", "_"]
+    upos_tags = ["VERB", "NOUN", "PROPN"]
+
+    encoded = encode_sentence(words, lemmas, upos_tags, vocab, upos2id=upos2id)
+
+    upos_labels = list(np.array(encoded["upos_labels"]))
+    assert upos_labels == [5, 7, 9]
+
+
+def test_encode_sentence_unknown_upos_masked_to_pad_label(mini_conllu: Path):
+    """Unknown UPOS tags are masked to PAD_LABEL in upos_labels."""
+    vocab, _ = build_lemma_vocab([str(mini_conllu)])
+    upos2id = {"VERB": 5, "NOUN": 7}  # no PROPN
+    words = ["كَتَبَ", "أَحْمَد"]
+    lemmas = ["كَتَبَ", "أَحْمَد"]
+    upos_tags = ["VERB", "PROPN"]
+
+    encoded = encode_sentence(
+        words, lemmas, upos_tags, vocab, upos2id=upos2id, unknown_upos_seen=set()
+    )
+
+    upos_labels = list(np.array(encoded["upos_labels"]))
+    assert upos_labels == [5, PAD_LABEL]
+
+
+def test_encode_sentence_upos_labels_present_when_upos2id_given(mini_conllu: Path):
+    """`upos_labels` key is present in output when upos2id is provided."""
+    vocab, _ = build_lemma_vocab([str(mini_conllu)])
+    encoded = encode_sentence(["كَتَبَ"], ["كَتَبَ"], ["VERB"], vocab, upos2id={"VERB": 0})
+    assert "upos_labels" in encoded
+
+
+def test_encode_sentence_upos_labels_absent_when_upos2id_none(mini_conllu: Path):
+    """`upos_labels` key is absent when upos2id is None (lemma-only build)."""
+    vocab, _ = build_lemma_vocab([str(mini_conllu)])
+    encoded = encode_sentence(["كَتَبَ"], ["كَتَبَ"], ["VERB"], vocab, upos2id=None)
+    assert "upos_labels" not in encoded
+
+
+def test_encode_sentence_propn_included_in_upos_labels(mini_conllu: Path):
+    """PROPN words are masked in `labels` but KEPT in `upos_labels` (UPOS
+    head must learn all tags, unlike the lemma head which skips PROPN)."""
+    vocab, _ = build_lemma_vocab([str(mini_conllu)])
+    upos2id = {"VERB": 5, "PROPN": 9}
+    words = ["كَتَبَ", "أَحْمَد"]
+    lemmas = ["كَتَبَ", "_"]  # PROPN lemma "_" → masked in labels
+    upos_tags = ["VERB", "PROPN"]
+
+    encoded = encode_sentence(words, lemmas, upos_tags, vocab, upos2id=upos2id)
+
+    labels = list(np.array(encoded["labels"]))
+    upos_labels = list(np.array(encoded["upos_labels"]))
+    # Lemma label for PROPN is masked...
+    assert labels[1] == PAD_LABEL
+    # ...but the UPOS label is retained (not masked).
+    assert upos_labels[1] == 9

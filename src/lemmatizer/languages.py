@@ -132,6 +132,17 @@ LANGUAGES: tuple[LanguageSpec, ...] = (
         spacy_model=None,
         vocab_lemma_column="Chinese_Lemma",
     ),
+    LanguageSpec(
+        lang="nl",
+        name="dutch",
+        family=Family.MULTITASK,
+        base_model="EuroBERT/EuroBERT-210m",
+        lang_token="[LANG_NL]",
+        ud_repo="UD_Dutch-Alpino",
+        ud_prefix="nl_alpino",
+        spacy_model="nl_core_news_lg",
+        vocab_lemma_column="Dutch_Lemma",
+    ),
 )
 
 
@@ -232,6 +243,8 @@ _ALIASES = {
     "french": "fr",
     "francais": "fr",
     "français": "fr",
+    "dutch": "nl",
+    "nederlands": "nl",
 }
 
 

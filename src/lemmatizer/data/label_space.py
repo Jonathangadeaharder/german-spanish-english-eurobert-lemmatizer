@@ -6,6 +6,7 @@ logits, but label files may use sparse multilingual IDs (e.g. French has
 1384 labels with max ID 5363). This class resolves the mapping once and
 exposes contiguous IDs for logits indexing.
 """
+
 from __future__ import annotations
 
 import numpy as np
@@ -21,9 +22,7 @@ class LabelSpace:
         self._raw_id2label = {str(v): k for k, v in label2id.items()}
 
         # Sort by sparse ID value to get deterministic contiguous ordering.
-        self._all_ids_sorted = sorted(
-            int(v) for v in label2id.values()
-        )
+        self._all_ids_sorted = sorted(int(v) for v in label2id.values())
         self._max_id = max(self._all_ids_sorted) if self._all_ids_sorted else 0
         self._num_labels = len(self._all_ids_sorted)
         # Sparse → contiguous: needed when max_id exceeds the number of labels.
@@ -33,13 +32,10 @@ class LabelSpace:
 
         if self._needs_remap:
             self._sparse_to_contiguous = {
-                sparse: contiguous
-                for contiguous, sparse in enumerate(self._all_ids_sorted)
+                sparse: contiguous for contiguous, sparse in enumerate(self._all_ids_sorted)
             }
         else:
-            self._sparse_to_contiguous = {
-                i: i for i in self._all_ids_sorted
-            }
+            self._sparse_to_contiguous = {i: i for i in self._all_ids_sorted}
 
         # Build contiguous id2label by looking up each sparse ID in raw_id2label.
         self._contiguous_id2label = {
@@ -72,24 +68,14 @@ class LabelSpace:
         Falls back to all non-UNKNOWN labels if no `lang::` prefix is found.
         """
         labels = self._contiguous_id2label
-        has_prefix = any(
-            v.startswith(f"{lang}::")
-            for v in labels.values()
-            if v != "UNKNOWN"
-        )
+        has_prefix = any(v.startswith(f"{lang}::") for v in labels.values() if v != "UNKNOWN")
 
         if has_prefix:
             ids = [
-                int(k)
-                for k, v in labels.items()
-                if v != "UNKNOWN" and v.startswith(f"{lang}::")
+                int(k) for k, v in labels.items() if v != "UNKNOWN" and v.startswith(f"{lang}::")
             ]
         else:
-            ids = [
-                int(k)
-                for k, v in labels.items()
-                if v != "UNKNOWN"
-            ]
+            ids = [int(k) for k, v in labels.items() if v != "UNKNOWN"]
 
         return np.array(sorted(ids), dtype=np.int64)
 

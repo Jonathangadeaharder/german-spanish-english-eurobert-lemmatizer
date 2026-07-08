@@ -24,7 +24,7 @@ jobs:
     env:
       HOME: /Users/jonathangadeaharder
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -35,6 +35,10 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           REPO: ${{ github.repository }}
         run: |
+          # Resolve (minimize) all previous review comments authored by this
+          # bot before posting fresh ones. Prevents the gate from accumulating
+          # stale findings across runs — only the current run's comments
+          # remain active.
           set +e
           COMMENTS_JSON=$(gh api "repos/${REPO}/pulls/${PR_NUMBER}/comments" \
             --paginate \
@@ -48,6 +52,7 @@ jobs:
               --method POST \
               -f body="Resolved — superseded by a newer review run." \
               > /dev/null 2>&1 || true
+            # Minimize (mark resolved) via the GraphQL API.
             gh api graphql -f query="
               mutation {
                 minimizeComment(input: {subjectId: \"${id}\"}) {
@@ -99,49 +104,15 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           REPO: ${{ github.repository }}
           REVIEW_COMMENT_COUNT: ${{ steps.ocr.outputs.comments }}
+        shell: bash
         run: |
-          set +e
-          HEAD_SHA=$(git rev-parse HEAD)
           WORK_DIR="${{ github.workspace }}"
-          POSTED=0
-          FAILED=0
-          while IFS= read -r comment; do
-            PATH_VAL=$(echo "$comment" | jq -r '.path')
-            START_LINE=$(echo "$comment" | jq -r '.start_line')
-            END_LINE=$(echo "$comment" | jq -r '.end_line')
-            CONTENT=$(echo "$comment" | jq -r '.content')
-            SUGGESTION=$(echo "$comment" | jq -r '.suggestion_code // empty')
-            if [ -n "$SUGGESTION" ]; then
-              BODY=$(printf '%s\n\n```suggestion\n%s\n```' "$CONTENT" "$SUGGESTION")
-            else
-              BODY="$CONTENT"
-            fi
-            if gh api "repos/${REPO}/pulls/${PR_NUMBER}/comments" \
-              -f body="$BODY" \
-              -f path="$PATH_VAL" \
-              -F start_line="$START_LINE" \
-              -F line="$END_LINE" \
-              -f commit_id="$HEAD_SHA" \
-              -H "Accept: application/vnd.github+json" 2>/dev/null; then
-              POSTED=$((POSTED + 1))
-            else
-              FAILED=$((FAILED + 1))
-            fi
-          done < <(jq -c '.comments[]' "$WORK_DIR/ocr-output.json")
-          if [ "$FAILED" -gt 0 ] && [ "$POSTED" -eq 0 ]; then
-            SUMMARY=$(
-              jq -r \
-                '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' \
-                "$WORK_DIR/ocr-output.json"
-            )
-            BODY=$(
-              printf '## OpenCodeReview found %s issue(s)\n\n%s' \
-                "$REVIEW_COMMENT_COUNT" \
-                "$SUMMARY"
-            )
-            gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" \
-              -f body="$BODY" \
-              2>/dev/null
+          COMMENTS_FILE="$WORK_DIR/ocr-output.json"
+          SUMMARY=$(jq -r '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' "$COMMENTS_FILE")
+          BODY=$(printf '## OpenCodeReview found %s issue(s)\n\n%s' "$REVIEW_COMMENT_COUNT" "$SUMMARY")
+          if ! gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" -f body="$BODY"; then
+            echo "::error::Failed to post OCR summary comment"
+            exit 1
           fi
           exit 0
       - name: Gate

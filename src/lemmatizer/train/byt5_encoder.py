@@ -71,24 +71,21 @@ def _relative_position_bucket(
         relative_buckets += (relative_position > 0).astype(mx.int16) * num_buckets
         relative_position = mx.abs(relative_position)
     else:
-        relative_position = -mx.minimum(
-            relative_position, mx.zeros_like(relative_position)
-        )
+        relative_position = -mx.minimum(relative_position, mx.zeros_like(relative_position))
     # now relative_position is in the range [0, inf)
 
     # half of the buckets are for exact increments in positions
     max_exact = num_buckets // 2
     is_small = relative_position < max_exact
 
-    # The other half of the buckets are for logarithmically bigger bins in positions up to max_distance
+    # The other half of the buckets are for logarithmically bigger bins
+    # in positions up to max_distance.
     scale = (num_buckets - max_exact) / np.log(max_distance / max_exact)
     relative_position_if_large = max_exact + (
         mx.log(relative_position.astype(mx.float32) / max_exact) * scale
     ).astype(mx.int16)
     relative_position_if_large = mx.minimum(relative_position_if_large, num_buckets - 1)
-    relative_buckets += mx.where(
-        is_small, relative_position, relative_position_if_large
-    )
+    relative_buckets += mx.where(is_small, relative_position, relative_position_if_large)
     return relative_buckets
 
 
@@ -99,9 +96,7 @@ class RelativePositionBias(nn.Module):
         self.num_buckets = config.relative_attention_num_buckets
         self.max_distance = getattr(config, "relative_attention_max_distance", 128)
         self.n_heads = config.num_heads
-        self.embeddings = nn.Embedding(
-            config.relative_attention_num_buckets, config.num_heads
-        )
+        self.embeddings = nn.Embedding(config.relative_attention_num_buckets, config.num_heads)
 
     def __call__(self, query_length: int, key_length: int, offset: int = 0):
         """Compute binned relative position bias"""
@@ -173,11 +168,7 @@ class DenseActivation(nn.Module):
         super().__init__()
         mlp_dims = config.d_ff or config.d_model * 4
         self.gated = hasattr(config, "feed_forward_proj")
-        activation = (
-            "relu"
-            if not self.gated
-            else config.feed_forward_proj.removeprefix("gated-")
-        )
+        activation = "relu" if not self.gated else config.feed_forward_proj.removeprefix("gated-")
         if self.gated:
             self.wi_0 = nn.Linear(config.d_model, mlp_dims, bias=False)
             self.wi_1 = nn.Linear(config.d_model, mlp_dims, bias=False)
@@ -211,9 +202,12 @@ class TransformerEncoderLayer(nn.Module):
         self.ln2 = nn.RMSNorm(config.d_model, eps=config.layer_norm_epsilon)
         self.dense = DenseActivation(config)
 
-    def __call__(self, x, mask):
+    def __call__(self, x, mask, padding_mask=None):
         y = self.ln1(x)
-        y, _ = self.attention(y, y, y, mask=mask)
+        full_mask = mask
+        if padding_mask is not None:
+            full_mask = mask + padding_mask if mask is not None else padding_mask
+        y, _ = self.attention(y, y, y, mask=full_mask)
         x = x + y
 
         y = self.ln2(x)
@@ -224,16 +218,14 @@ class TransformerEncoderLayer(nn.Module):
 class TransformerEncoder(nn.Module):
     def __init__(self, config):
         super().__init__()
-        self.layers = [
-            TransformerEncoderLayer(config) for i in range(config.num_layers)
-        ]
+        self.layers = [TransformerEncoderLayer(config) for i in range(config.num_layers)]
         self.ln = nn.RMSNorm(config.d_model, eps=config.layer_norm_epsilon)
         self.relative_attention_bias = RelativePositionBias(config, bidirectional=True)
 
-    def __call__(self, x: mx.array):
+    def __call__(self, x: mx.array, padding_mask: Optional[mx.array] = None):
         pos_bias = self.relative_attention_bias(x.shape[1], x.shape[1])
         for layer in self.layers:
-            x = layer(x, mask=pos_bias)
+            x = layer(x, mask=pos_bias, padding_mask=padding_mask)
         return self.ln(x)
 
 
@@ -319,8 +311,8 @@ class T5(nn.Module):
             self.lm_head = OutputHead(config)
         self.model_dim = config.d_model
 
-    def encode(self, inputs: mx.array):
-        return self.encoder(self.wte(inputs))
+    def encode(self, inputs: mx.array, padding_mask: Optional[mx.array] = None):
+        return self.encoder(self.wte(inputs), padding_mask=padding_mask)
 
     def decode(
         self,
@@ -336,9 +328,7 @@ class T5(nn.Module):
         else:
             mask = None
 
-        y, cache = self.decoder(
-            inputs, memory=memory, mask=mask, memory_mask=None, cache=cache
-        )
+        y, cache = self.decoder(inputs, memory=memory, mask=mask, memory_mask=None, cache=cache)
         if not self.tie_word_embeddings:
             y = self.lm_head(y)
         else:
@@ -350,8 +340,9 @@ class T5(nn.Module):
         self,
         inputs: mx.array,
         decoder_inputs: mx.array,
+        padding_mask: Optional[mx.array] = None,
     ):
-        return self.decode(decoder_inputs, self.encode(inputs))[0]
+        return self.decode(decoder_inputs, self.encode(inputs, padding_mask))[0]
 
     @classmethod
     def sanitize(cls, weights):
@@ -384,9 +375,7 @@ class T5(nn.Module):
             (".layer.2.DenseReluDense.", ".dense."),
         ]
 
-        ignored_keys = [
-            "decoder.layers.0.cross_attention.relative_attention_bias.weight"
-        ]
+        ignored_keys = ["decoder.layers.0.cross_attention.relative_attention_bias.weight"]
 
         def replace_key(key: str) -> str:
             for old, new in shared_replacement_patterns:

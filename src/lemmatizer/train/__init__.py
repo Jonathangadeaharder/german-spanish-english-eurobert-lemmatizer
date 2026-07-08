@@ -8,6 +8,7 @@ entry; its `main()` is a thin argparse wrapper for `python -m ...` use.
 Adding a new *family* (rare): add a `Family` member, a `run()` in a new module
 under this package, and one branch in `train_language()`.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -46,6 +47,15 @@ def train_language(lang: str, opts: TrainOptions) -> None:
     lazily so importing this package never pulls mlx/openmed/torch.
     """
     s = spec(lang)
+    # Empty checkpoint auto-loads pretrained weights only for ByT5;
+    # MULTITASK/ZH_BIO pass opts.checkpoint to model loading where Path("")
+    # collapses to Path(".") and yields cryptic errors. Validate before
+    if not opts.checkpoint and s.family != Family.BYT5:
+        raise ValueError(
+            f"--checkpoint is required for {s.family.value} family "
+            f"(lang={lang}). Only ByT5 supports the empty-checkpoint "
+            "auto-load fallback."
+        )
     if s.family == Family.MULTITASK:
         from lemmatizer.train.mlx_multitask import run
     elif s.family == Family.BYT5:

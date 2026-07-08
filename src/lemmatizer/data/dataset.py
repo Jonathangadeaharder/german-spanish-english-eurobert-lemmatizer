@@ -109,9 +109,14 @@ def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
         enc["labels"] = labels
         enc["upos_labels"] = upos_batch_labels
         enc["lang"] = lang
-        enc["words"] = original_words
-        enc["lemmas"] = lemmas
-        enc["upos"] = sent["upos"]
+        # word_ids are 1-indexed vs original_words (words[0] is LANG_TOKEN),
+        # so max(present_word_ids) is already the surviving original-word
+        # count; the prior +1 over-counted and leaked truncated words.
+        present_word_ids = {wid for wid in word_ids if wid is not None}
+        n_kept = max(present_word_ids) if present_word_ids else 0
+        enc["words"] = original_words[:n_kept]
+        enc["lemmas"] = lemmas[:n_kept]
+        enc["upos"] = sent["upos"][:n_kept]
         enc["length"] = len(enc["input_ids"])
 
         rows.append(enc)

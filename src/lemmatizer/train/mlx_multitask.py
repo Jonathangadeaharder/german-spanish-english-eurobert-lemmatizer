@@ -215,14 +215,47 @@ def assign(obj, name: str, value: mx.array) -> None:
 
 
 def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]) -> None:
-    assign(model, "embed_tokens.weight", weights["model.embed_tokens.weight"])
-    assign(model, "norm.weight", weights["model.norm.weight"])
-    assign(model, "upos_classifier.weight", weights["upos_classifier.weight"])
-    assign(model, "upos_classifier.bias", weights["upos_classifier.bias"])
-    assign(model, "lemma_classifier.weight", weights["lemma_classifier.weight"])
-    assign(model, "lemma_classifier.bias", weights["lemma_classifier.bias"])
+    # Handle both HF format (model.embed_tokens.weight, model.layers.N.self_attn.)
+    # and MLX-saved format (embed_tokens.weight, layers.N.q_proj.).
+    def _get(key_hf: str, key_mlx: str = "") -> mx.array | None:
+        if key_hf in weights:
+            return weights[key_hf]
+        if key_mlx and key_mlx in weights:
+            return weights[key_mlx]
+        return None
+
+    embed = _get("model.embed_tokens.weight", "embed_tokens.weight")
+    if embed is not None:
+        assign(model, "embed_tokens.weight", embed)
+    else:
+        # Missing backbone weights leave the model randomly initialized
+        # and produce garbage predictions; raise rather than silently
+        # continue. Only classifier heads are legitimately optional.
+        raise ValueError(
+            "Missing critical backbone weight: embed_tokens.weight. "
+            "The checkpoint format does not match the model; refusing to "
+            "train with randomly initialized embeddings."
+        )
+    norm = _get("model.norm.weight", "norm.weight")
+    if norm is not None:
+        assign(model, "norm.weight", norm)
+    else:
+        raise ValueError(
+            "Missing critical backbone weight: norm.weight. "
+            "Refusing to train with randomly initialized final norm."
+        )
+    # Classifier heads may not exist in base model checkpoints; only load
+    # them when present so training can warm-start from a bare backbone.
+    for head in ("upos_classifier", "lemma_classifier"):
+        for suffix in ("weight", "bias"):
+            key = f"{head}.{suffix}"
+            w = _get(f"model.{key}", key)
+            if w is not None:
+                assign(model, key, w)
+    missing_layer_weights: list[str] = []
     for i, layer in enumerate(model.layers):
-        prefix = f"model.layers.{i}"
+        # Try HF format first (model.layers.N.self_attn.q_proj.weight),
+        # then MLX format (layers.N.q_proj.weight).
         for local, remote in [
             ("input_layernorm.weight", "input_layernorm.weight"),
             ("post_attention_layernorm.weight", "post_attention_layernorm.weight"),
@@ -234,7 +267,20 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
             ("up_proj.weight", "mlp.up_proj.weight"),
             ("down_proj.weight", "mlp.down_proj.weight"),
         ]:
-            assign(layer, local, weights[f"{prefix}.{remote}"])
+            hf_key = f"model.layers.{i}.{remote}"
+            mlx_key = f"layers.{i}.{local}"
+            w = _get(hf_key, mlx_key)
+            if w is not None:
+                assign(layer, local, w)
+            else:
+                missing_layer_weights.append(mlx_key)
+    if missing_layer_weights:
+        raise ValueError(
+            "Missing critical backbone layer weights (first 3): "
+            f"{', '.join(missing_layer_weights[:3])}. "
+            f"Total missing: {len(missing_layer_weights)}. "
+            "Refusing to train with randomly initialized layer parameters."
+        )
 
 
 def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> None:
@@ -246,6 +292,15 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
             key = key[6:]
         if key in weights:
             return weights[key]
+        # Try roberta. prefix for ScandiBERT. Replace only the leading
+        # "model." (count=1) so a key containing "model." later in its
+        # path is not corrupted — replace-all would silently remap such
+        # keys and fail to load the weight.
+        roberta_key = (
+            key.replace("model.", "roberta.", 1) if key.startswith("model.") else f"roberta.{key}"
+        )
+        if roberta_key in weights:
+            return weights[roberta_key]
         alternates = {
             "model.embeddings.LayerNorm.weight": "model.embeddings.norm.weight",
             "model.embeddings.LayerNorm.bias": "model.embeddings.norm.bias",
@@ -255,6 +310,15 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
         alt_key = alternates.get(key)
         if alt_key and alt_key in weights:
             return weights[alt_key]
+        # Also try roberta-prefixed alternates. count=1 to avoid replacing
+        # a "model." substring later in the key path.
+        roberta_alt = (
+            alt_key.replace("model.", "roberta.", 1)
+            if alt_key and alt_key.startswith("model.")
+            else None
+        )
+        if roberta_alt and roberta_alt in weights:
+            return weights[roberta_alt]
         if alt_key and not has_model_prefix and alt_key.startswith("model."):
             alt_key_no_pref = alt_key[6:]
             if alt_key_no_pref in weights:
@@ -371,12 +435,18 @@ def pad_batch(rows: list[dict], label_remap: dict[int, int] | None = None) -> di
     # Round to next multiple of 64 to avoid MLX dynamic shape recompilation
     max_len = ((max_len + 63) // 64) * 64
 
+    # A dataset built without a UPOS label map (e.g. byt5_dataset with
+    # upos2id=None) omits "upos_labels" from each row. Detect once so
+    # pad_batch does not KeyError; when absent, loss/eval skip the UPOS head.
+    has_upos = "upos_labels" in rows[0] if rows else False
+
     batch = {
         "input_ids": np.zeros((len(rows), max_len), dtype=np.int32),
         "attention_mask": np.zeros((len(rows), max_len), dtype=np.int32),
         "labels": np.full((len(rows), max_len), -100, dtype=np.int32),
-        "upos_labels": np.full((len(rows), max_len), -100, dtype=np.int32),
     }
+    if has_upos:
+        batch["upos_labels"] = np.full((len(rows), max_len), -100, dtype=np.int32)
     for i, row in enumerate(rows):
         n = len(row["input_ids"])
         batch["input_ids"][i, :n] = row["input_ids"]
@@ -388,7 +458,8 @@ def pad_batch(rows: list[dict], label_remap: dict[int, int] | None = None) -> di
                 for label in labels
             ]
         batch["labels"][i, :n] = labels
-        batch["upos_labels"][i, :n] = row["upos_labels"]
+        if has_upos:
+            batch["upos_labels"][i, :n] = row["upos_labels"]
     return {key: mx.array(value) for key, value in batch.items()}
 
 
@@ -402,7 +473,28 @@ def masked_ce(logits: mx.array, labels: mx.array) -> mx.array:
 
 
 def word_positions(row: dict) -> list[int]:
-    return [i for i, label in enumerate(row["upos_labels"]) if label != -100]
+    # Datasets built without a UPOS label map (e.g. byt5_dataset with
+    # upos2id=None) omit "upos_labels". Fall back to the lemma labels so
+    # evaluate/find_struggles still resolve per-word token positions instead
+    # of KeyErrors. PROPN is masked (-100) in the lemma labels, so the
+    # returned indices skip mid-sequence PROPN words — callers MUST pair
+    # words via `word_positions` (see _aligned_words) rather than
+    # `row["words"][:n_positions]`, which would misalign after the first
+    # masked word.
+    label_key = "upos_labels" if "upos_labels" in row else "labels"
+    return [i for i, label in enumerate(row[label_key]) if label != -100]
+
+
+def _n_kept_words(row: dict) -> int:
+    # Number of original words the tokenizer kept (post MAX_LENGTH truncation).
+    # Prefer explicit build-time signals when present; otherwise fall back to
+    # the words list, which dataset.py pre-trims to the kept count.
+    # (The prior `row.get("word_ids")` branch was dead code: dataset builders
+    # never store word_ids in the row, only n_kept, so it always fell through
+    # to len(row["words"]). Removed to avoid confusion.)
+    if "n_kept" in row:
+        return int(row["n_kept"])
+    return len(row["words"])
 
 
 def strip_lang(label: str, lang: str) -> str:
@@ -429,8 +521,13 @@ def select_valid(
     return "IDENTITY"
 
 
+# UPOS tags where the lemma is always the word itself (identity).
+# These tokens have no morphology to undo — return them unchanged.
+IDENTITY_UPOS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
+
+
 def resolve(word: str, predicted_upos: str, base_label: str | None, lexicon: dict) -> str | None:
-    if predicted_upos == "PROPN":
+    if predicted_upos in IDENTITY_UPOS:
         return None
     if base_label is not None:
         applied = apply_edit_label(word, base_label)
@@ -452,7 +549,16 @@ def raw_to_contiguous_map(label2id: dict[str, str]) -> dict[int, int]:
 
 def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split: str = "") -> dict:
     label2id = read_json(assets.label2id_path)
-    upos_label2id = read_json(assets.upos_label2id_path)
+    # upos_label2id may be absent for datasets built without a UPOS label
+    # map (byt5_dataset with upos2id=None). Read it lazily so evaluate
+    # does not raise FileNotFoundError before the per-row has_upos branch
+    # runs — mirroring the guard already present in find_struggles().
+    has_upos_dataset = bool(rows) and "upos_labels" in rows[0]
+    upos_label2id = (
+        read_json(assets.upos_label2id_path)
+        if has_upos_dataset and assets.upos_label2id_path.exists()
+        else {}
+    )
     label_space = LabelSpace(label2id)
     label_remap = raw_to_contiguous_map(label2id)
     id2label = label_space.id2label
@@ -462,8 +568,8 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
     if not isinstance(lexicon, dict):
         lexicon = {}
 
-    total = upos_correct = lemma_total = lemma_correct = 0
-    loss_total = loss_batches = 0
+    total = upos_correct = upos_total = lemma_total = lemma_correct = 0
+    loss_total = loss_batches = alignment_drops = 0
     model.eval()
     batches = math.ceil(len(rows) / batch_size)
     t0 = time.time()
@@ -471,9 +577,11 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         batch_rows = rows[start : start + batch_size]
         batch = pad_batch(batch_rows, label_remap)
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        loss = masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(
-            lemma_logits, batch["labels"]
-        )
+        loss = masked_ce(lemma_logits, batch["labels"])
+        # UPOS loss is only computable when the batch carries upos_labels
+        # (dataset built with a UPOS label map).
+        if "upos_labels" in batch:
+            loss = loss + masked_ce(upos_logits, batch["upos_labels"])
         mx.eval(upos_logits, lemma_logits, loss)
         loss_total += float(loss)
         loss_batches += 1
@@ -481,13 +589,40 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
-            if len(positions) != len(row["words"]):
-                raise ValueError(
-                    f"Alignment mismatch in {split} row: "
-                    f"{len(positions)} non-masked UPOS positions vs "
-                    f"{len(row['words'])} words. Unknown UPOS tags would "
-                    f"silently shift word->token alignment."
+            # n_positions != n_words: (1) MAX_LENGTH truncation (tail words
+            # beyond the token budget), or (2) an alignment drop (a present
+            # word's UPOS masked to -100). Distinguish so drops surface.
+            n_positions = len(positions)
+            n_words = len(row["words"])
+            # Use input_ids directly (pad_batch already requires it); a
+            # missing key should fail loudly, not silently default to [].
+            n_tokens = len(row["input_ids"])
+            if n_positions != n_words:
+                # Compare word counts, not subword token counts: n_tokens is
+                # subword pieces and usually >> n_words, so the prior check
+                # rarely flagged real MAX_LENGTH truncation.
+                n_kept = _n_kept_words(row)
+                legit_truncation = n_words > n_kept
+                if not legit_truncation:
+                    # An alignment drop, not MAX_LENGTH truncation — a real
+                    # mismatch that would previously pass silently. Track it
+                    # so it surfaces prominently in the returned metrics.
+                    alignment_drops += 1
+                print(
+                    json.dumps(
+                        {
+                            "event": "eval_truncate",
+                            "n_words": n_words,
+                            "n_positions": n_positions,
+                            "n_tokens": n_tokens,
+                            "n_kept": n_kept,
+                            "legit_truncation": legit_truncation,
+                            "cause": "max_length" if legit_truncation else "upos_mask_alignment",
+                        }
+                    ),
+                    flush=True,
                 )
+            has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
                 zip(row["words"], row["lemmas"], row["upos"], strict=True)
             ):
@@ -495,15 +630,25 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
                     break
                 token_i = positions[word_i]
                 total += 1
-                predicted_upos = upos_id2label.get(str(int(np.argmax(upos_np[b, token_i]))), "X")
-                if predicted_upos == gold_pos:
-                    upos_correct += 1
-                if gold_pos == "PROPN":
+                if has_upos:
+                    predicted_upos = upos_id2label.get(
+                        str(int(np.argmax(upos_np[b, token_i]))), "X"
+                    )
+                    upos_total += 1
+                    if predicted_upos == gold_pos:
+                        upos_correct += 1
+                else:
+                    # No trained UPOS head: do NOT count upos_correct, else
+                    # the reported upos_accuracy would be a misleading 100%
+                    # (predicted_upos defaults to gold_pos below only for the
+                    # IDENTITY_UPOS skip / resolve() path, never as a score).
+                    predicted_upos = gold_pos
+                if gold_pos in IDENTITY_UPOS:
                     continue
                 lemma_total += 1
                 base = (
                     None
-                    if predicted_upos == "PROPN"
+                    if predicted_upos in IDENTITY_UPOS
                     else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
                 )
                 if resolve(word, predicted_upos, base, lexicon) == gold_lemma:
@@ -529,7 +674,12 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         "tokens": total,
         "lemma_total": lemma_total,
         "lemma_accuracy": round(lemma_correct / max(lemma_total, 1), 4),
-        "upos_accuracy": round(upos_correct / max(total, 1), 4),
+        # upos_total == 0 when no row carried upos_labels (untrained UPOS
+        # head); report None so callers cannot misread a 0/0 as "0% accuracy".
+        "upos_accuracy": (round(upos_correct / max(upos_total, 1), 4) if upos_total else None),
+        # Non-zero alignment_drops indicate real word/token mismatches (not
+        # MAX_LENGTH truncation) that may corrupt evaluation metrics.
+        "alignment_drops": alignment_drops,
     }
 
 
@@ -537,7 +687,15 @@ def find_struggles(
     model, validation_rows: list[dict], lang: str, assets, batch_size: int
 ) -> set[str]:
     label2id = read_json(assets.label2id_path)
-    upos_label2id = read_json(assets.upos_label2id_path)
+    # upos_label2id may be absent for datasets built without a UPOS label map
+    # (byt5_dataset with upos2id=None). Read it lazily so find_struggles does
+    # not raise FileNotFoundError before the per-row has_upos branch runs.
+    has_upos_dataset = bool(validation_rows) and "upos_labels" in validation_rows[0]
+    upos_label2id = (
+        read_json(assets.upos_label2id_path)
+        if has_upos_dataset and assets.upos_label2id_path.exists()
+        else {}
+    )
     label_space = LabelSpace(label2id)
     label_remap = raw_to_contiguous_map(label2id)
     id2label = label_space.id2label
@@ -548,6 +706,7 @@ def find_struggles(
         lexicon = {}
 
     struggles = set()
+    alignment_drops = 0
     model.eval()
     for start in range(0, len(validation_rows), batch_size):
         batch_rows = validation_rows[start : start + batch_size]
@@ -558,30 +717,67 @@ def find_struggles(
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
-            if len(positions) != len(row["words"]):
-                raise ValueError(
-                    f"Alignment mismatch: {len(positions)} non-masked UPOS "
-                    f"positions vs {len(row['words'])} words. Unknown UPOS "
-                    f"tags would silently shift word->token alignment."
+            n_positions = len(positions)
+            n_words = len(row["words"])
+            # Use input_ids directly (pad_batch already requires it); a
+            # missing key should fail loudly, not silently default to [].
+            n_tokens = len(row["input_ids"])
+            if n_positions != n_words:
+                # Compare against kept-word count, not subword token count
+                # (n_tokens is subword pieces and >> n_words, so the prior
+                # check rarely flagged MAX_LENGTH truncation). upos drop.
+                n_kept = _n_kept_words(row)
+                legit_truncation = n_words > n_kept
+                if not legit_truncation:
+                    alignment_drops += 1
+                print(
+                    json.dumps(
+                        {
+                            "event": "struggles_truncate",
+                            "n_words": n_words,
+                            "n_positions": n_positions,
+                            "n_tokens": n_tokens,
+                            "n_kept": n_kept,
+                            "legit_truncation": legit_truncation,
+                            "cause": "max_length" if legit_truncation else "upos_mask_alignment",
+                        }
+                    ),
+                    flush=True,
                 )
+            # Align words/lemmas/upos to the exact `positions` indices
+            # (see _aligned_words); `[:n_positions]` would misalign after the
+            # first mid-sequence masked word in the no-upos_labels fallback.
+            has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
                 zip(row["words"], row["lemmas"], row["upos"], strict=True)
             ):
                 if word_i >= len(positions):
                     break
                 token_i = positions[word_i]
-                predicted_upos = upos_id2label.get(str(int(np.argmax(upos_np[b, token_i]))), "X")
-                if gold_pos == "PROPN":
+                if has_upos:
+                    predicted_upos = upos_id2label.get(
+                        str(int(np.argmax(upos_np[b, token_i]))), "X"
+                    )
+                else:
+                    predicted_upos = gold_pos
+                if gold_pos in IDENTITY_UPOS:
                     continue
                 base = (
                     None
-                    if predicted_upos == "PROPN"
+                    if predicted_upos in IDENTITY_UPOS
                     else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
                 )
                 pred_lemma = resolve(word, predicted_upos, base, lexicon)
                 if pred_lemma != gold_lemma:
                     struggles.add(gold_lemma)
         mx.clear_cache()
+    # Surface alignment drops prominently: non-zero means real word/token
+    # mismatches (not MAX_LENGTH truncation) corrupted some rows' scores.
+    if alignment_drops:
+        print(
+            json.dumps({"event": "struggles_alignment_drops", "count": alignment_drops}),
+            flush=True,
+        )
     return struggles
 
 
@@ -661,6 +857,11 @@ def build_model(lang: str, checkpoint: Path):
         vocab_size = weights[key].shape[0]
         model = EuroBertMultitask(cfg, vocab_size=vocab_size, n_upos=n_upos, n_lemma=n_lemma)
         load_eurobert_weights(model, weights)
+    elif "roberta.embeddings.word_embeddings.weight" in weights:
+        key = "roberta.embeddings.word_embeddings.weight"
+        vocab_size = weights[key].shape[0]
+        model = BertMultitask(cfg, vocab_size=vocab_size, n_upos=n_upos, n_lemma=n_lemma)
+        load_bert_weights(model, weights)
     else:
         key = (
             "model.embeddings.word_embeddings.weight"
@@ -688,9 +889,12 @@ def train_epoch(
 
     def loss_fn(model, batch):
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        return masked_ce(upos_logits, batch["upos_labels"]) + masked_ce(
-            lemma_logits, batch["labels"]
-        )
+        loss = masked_ce(lemma_logits, batch["labels"])
+        # Skip the UPOS head when the batch has no upos_labels (dataset built
+        # without a UPOS label map); avoids KeyError on batch["upos_labels"].
+        if "upos_labels" in batch:
+            loss = loss + masked_ce(upos_logits, batch["upos_labels"])
+        return loss
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
     order = np.random.permutation(len(rows))

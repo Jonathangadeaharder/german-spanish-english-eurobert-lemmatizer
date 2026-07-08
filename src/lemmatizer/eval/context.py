@@ -8,6 +8,7 @@ The `predict_word` method is the factored-out `resolve_prediction` +
 `select_valid_label_id` + `strip_lang_prefix` that was inline in evaluate.py
 and absent from evaluate_cefr.py.
 """
+
 from __future__ import annotations
 
 import json
@@ -71,9 +72,7 @@ class EvalContext:
         """
         # UPOS prediction
         if upos_logits is not None:
-            upos_tag = self.upos_id2label.get(
-                str(int(np.argmax(upos_logits))), "X"
-            )
+            upos_tag = self.upos_id2label.get(str(int(np.argmax(upos_logits))), "X")
         else:
             upos_tag = upos or "X"
 
@@ -128,9 +127,7 @@ class EvalContext:
 
         return None
 
-    def _select_best_label_with_word(
-        self, logits_row: np.ndarray, word: str
-    ) -> str:
+    def _select_best_label_with_word(self, logits_row: np.ndarray, word: str) -> str:
         """Like _select_best_label but also checks edit-tree applicability."""
         candidate_logits = logits_row[self.candidate_ids]
         order = np.argsort(candidate_logits)[::-1][:12]
@@ -173,12 +170,8 @@ def build_eval_context(lang: str | None = None) -> EvalContext:
     resolved_lang = assets.lang
 
     # 1. Load label files
-    label2id = json.loads(
-        Path(assets.label2id_path).read_text(encoding="utf-8")
-    )
-    upos_label2id = json.loads(
-        Path(assets.upos_label2id_path).read_text(encoding="utf-8")
-    )
+    label2id = json.loads(Path(assets.label2id_path).read_text(encoding="utf-8"))
+    upos_label2id = json.loads(Path(assets.upos_label2id_path).read_text(encoding="utf-8"))
 
     # If using a merged model, the model dir's config may override label2id
     model_dir = os.getenv("MODEL_DIR", str(assets.merged_dir))
@@ -203,15 +196,11 @@ def build_eval_context(lang: str | None = None) -> EvalContext:
     from transformers import AutoTokenizer
 
     per_lang_tokenizer_dir = str(assets.tokenizer_dir)
-    multilingual_tokenizer_dir = os.getenv(
-        "MULTILINGUAL_TOKENIZER_DIR", "artifacts/tokenizer"
-    )
+    multilingual_tokenizer_dir = os.getenv("MULTILINGUAL_TOKENIZER_DIR", "artifacts/tokenizer")
 
     if onnx_model_path and Path(per_lang_tokenizer_dir).exists():
         # Per-language ONNX model: use its own tokenizer
-        tokenizer = AutoTokenizer.from_pretrained(
-            per_lang_tokenizer_dir, trust_remote_code=True
-        )
+        tokenizer = AutoTokenizer.from_pretrained(per_lang_tokenizer_dir, trust_remote_code=True)
     else:
         tokenizer = AutoTokenizer.from_pretrained(
             multilingual_tokenizer_dir, trust_remote_code=True
@@ -224,7 +213,8 @@ def build_eval_context(lang: str | None = None) -> EvalContext:
     # 5. Resolve lang token
     lang_token = LANG_TOKENS.get(resolved_lang)
     prepend_lang = bool(
-        lang_token and lang_token in tokenizer.get_vocab()
+        lang_token
+        and lang_token in tokenizer.get_vocab()
         and os.getenv("EVAL_PREPEND_LANG", "").lower() in {"1", "true", "yes"}
     )
 
