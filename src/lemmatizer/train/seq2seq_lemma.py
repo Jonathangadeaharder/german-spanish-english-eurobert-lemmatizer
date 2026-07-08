@@ -104,9 +104,12 @@ def generate(
     memory = model.encode(input_ids)
 
     decoder_input = mx.full((B, 1), BYT5_EOS, dtype=mx.int32)
+    cache = None
 
     for _ in range(max_len):
-        logits, _ = model.decode(decoder_input, memory)
+        logits, cache = model.decode(
+            decoder_input[:, -1:,], memory, cache=cache
+        )
         next_token = mx.argmax(logits[:, -1, :], axis=-1)
         decoder_input = mx.concatenate(
             [decoder_input, next_token[:, None]], axis=1
@@ -298,24 +301,30 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
         )
         optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
 
+        best_val_loss = None
         for epoch in range(1, epochs + 1):
             t0 = time.time()
             train_loss = train_epoch(
                 model, train_rows, batch_size, optimizer, epoch
             )
+            val_metrics = evaluate(model, val_rows[:200], batch_size=4)
             metrics = {
                 "epoch": epoch,
                 "train_loss": round(train_loss, 4),
-                "validation": evaluate(model, val_rows[:200], batch_size=4),
+                "validation": val_metrics,
                 "elapsed_s": round(time.time() - t0, 1),
             }
             print(json.dumps({"event": "epoch", **metrics}), flush=True)
 
-            # Save checkpoint
             out = Path(output_dir)
             out.mkdir(parents=True, exist_ok=True)
             model.save_weights(str(out / f"epoch-{epoch}.safetensors"))
-            model.save_weights(str(out / "best.safetensors"))
+            val_loss = val_metrics.get("loss")
+            if val_loss is not None and (
+                best_val_loss is None or val_loss < best_val_loss
+            ):
+                best_val_loss = val_loss
+                model.save_weights(str(out / "best.safetensors"))
 
     print(json.dumps({"event": "training_complete", "lang": lang}), flush=True)
 
