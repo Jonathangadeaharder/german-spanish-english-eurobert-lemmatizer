@@ -275,6 +275,13 @@ def train_epoch(
         n_batches += 1
 
         if pending >= accum_steps or batch_index == batches:
+            # Final window often has fewer than accum_steps batches.
+            # Each batch was scaled by 1/accum_steps, so the accumulated
+            # gradient is (pending/accum_steps) * mean_grad — under-weighted
+            # at epoch boundaries. Rescale to a true mean by multiplying by
+            # accum_steps/pending (no-op when pending == accum_steps).
+            if pending < accum_steps:
+                accumulated = tree_scale(accumulated, accum_steps / pending)
             accumulated, _ = optim.clip_grad_norm(accumulated, 1.0)
             optimizer.update(model, accumulated)
             mx.eval(optimizer)

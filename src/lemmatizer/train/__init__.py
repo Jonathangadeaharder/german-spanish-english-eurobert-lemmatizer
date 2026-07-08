@@ -37,6 +37,9 @@ class TrainOptions:
     max_val_rows: int = 0
     unfreeze_encoder: bool = False
     unfreeze_last_n: int = 0
+    grad_accum: int = 1
+    warmup: float = 0.06
+    upos_weight: float = 1.0
     extra: dict = field(default_factory=dict)
 
 

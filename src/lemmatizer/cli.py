@@ -95,6 +95,8 @@ def train(
     max_val_rows: int = typer.Option(0, help="Cap val rows (0 = all)"),
     unfreeze_encoder: bool = typer.Option(False, help="Unfreeze all encoder layers"),
     unfreeze_last_n: int = typer.Option(0, help="Unfreeze last N encoder layers"),
+    grad_accum: int = typer.Option(1, help="Gradient accumulation steps"),
+    upos_weight: float = typer.Option(1.0, help="UPOS loss weight (default 1.0)"),
 ) -> None:
     """Train the MLX model for one language.
 
@@ -116,6 +118,8 @@ def train(
         max_val_rows=max_val_rows,
         unfreeze_encoder=unfreeze_encoder,
         unfreeze_last_n=unfreeze_last_n,
+        grad_accum=grad_accum,
+        upos_weight=upos_weight,
     )
     # Forward the target language to backend trainers and the dataset builder,
     # which resolve per-language artifacts via LEMMA_LANG. spec()/train_language
