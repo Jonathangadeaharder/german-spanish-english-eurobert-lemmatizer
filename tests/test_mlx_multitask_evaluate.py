@@ -58,8 +58,6 @@ def _row(words, upos_labels):
 
 def test_evaluate_truncates_on_alignment_mismatch(tmp_path: Path):
     """Unknown UPOS (-100) drops a position -> words truncated, no raise."""
-    # 3 words, but upos_labels has only 2 non-masked entries (one is -100),
-    # so word_positions returns 2 positions for 3 words.
     row = _row(["w1", "w2", "w3"], [0, -100, 1])
 
     result = mt.evaluate(
@@ -71,11 +69,9 @@ def test_evaluate_truncates_on_alignment_mismatch(tmp_path: Path):
         split="test",
     )
 
-    # Word lists truncated to match the 2 available positions.
-    assert len(row["words"]) == 2
-    assert row["words"] == ["w1", "w2"]
-    assert len(row["lemmas"]) == 2
-    assert len(row["upos"]) == 2
+    # Input row is not mutated in-place; evaluation succeeds.
+    assert len(row["words"]) == 3
+    assert row["words"] == ["w1", "w2", "w3"]
     assert "lemma_accuracy" in result
 
 

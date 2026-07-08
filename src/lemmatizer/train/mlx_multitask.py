@@ -235,8 +235,9 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
     for head in ("upos_classifier", "lemma_classifier"):
         for suffix in ("weight", "bias"):
             key = f"{head}.{suffix}"
-            if key in weights:
-                assign(model, key, weights[key])
+            w = _get(f"model.{key}", key)
+            if w is not None:
+                assign(model, key, w)
     for i, layer in enumerate(model.layers):
         # Try HF format first (model.layers.N.self_attn.q_proj.weight),
         # then MLX format (layers.N.q_proj.weight).
@@ -507,15 +508,15 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
-            if len(positions) != len(row["words"]):
-                # Truncation boundary: a few rows have 1-2 extra words
-                # beyond MAX_LENGTH that didn't get token positions.
-                # Truncate the word lists to match rather than crashing.
-                row["words"] = row["words"][: len(positions)]
-                row["lemmas"] = row["lemmas"][: len(positions)]
-                row["upos"] = row["upos"][: len(positions)]
+            # Truncation boundary: a few rows have 1-2 extra words
+            # beyond MAX_LENGTH that didn't get token positions.
+            # Slice locally to avoid mutating the input row.
+            n_positions = len(positions)
+            words = row["words"][:n_positions]
+            lemmas = row["lemmas"][:n_positions]
+            upos = row["upos"][:n_positions]
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
-                zip(row["words"], row["lemmas"], row["upos"], strict=True)
+                zip(words, lemmas, upos, strict=True)
             ):
                 if word_i >= len(positions):
                     break
@@ -584,12 +585,12 @@ def find_struggles(
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
-            if len(positions) != len(row["words"]):
-                row["words"] = row["words"][: len(positions)]
-                row["lemmas"] = row["lemmas"][: len(positions)]
-                row["upos"] = row["upos"][: len(positions)]
+            n_positions = len(positions)
+            words = row["words"][:n_positions]
+            lemmas = row["lemmas"][:n_positions]
+            upos = row["upos"][:n_positions]
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
-                zip(row["words"], row["lemmas"], row["upos"], strict=True)
+                zip(words, lemmas, upos, strict=True)
             ):
                 if word_i >= len(positions):
                     break

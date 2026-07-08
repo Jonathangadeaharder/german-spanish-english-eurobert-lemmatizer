@@ -243,6 +243,8 @@ _ALIASES = {
     "french": "fr",
     "francais": "fr",
     "français": "fr",
+    "dutch": "nl",
+    "nederlands": "nl",
 }
 
 

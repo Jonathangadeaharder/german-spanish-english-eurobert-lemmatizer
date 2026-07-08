@@ -16,7 +16,9 @@ from __future__ import annotations
 
 import argparse
 import csv
+import os
 import sys
+import tempfile
 from pathlib import Path
 
 LEM_REPO = Path(__file__).parent
@@ -140,27 +142,37 @@ def augment_language(lang_code: str) -> int:
         print("  Nothing to augment.", flush=True)
         return 0
 
-    # Copy original train.conllu and append synthetic sentences
+    if not train_path.exists():
+        print(f"Error: {train_path} not found. Run fetch-ud first.", flush=True)
+        return 0
+
     with train_path.open(encoding="utf-8") as f:
         original = f.read()
 
-    augmented = original
+    parts = [original]
+    if original and not original.endswith("\n"):
+        parts.append("\n")
     for i, (word, upos) in enumerate(missing, start=1):
         sent_id = f"cefr-augmented-{lang_code}-{i:05d}"
-        # CEFR words are already lemmas, so lemma = word
-        augmented += make_conllu_sentence(sent_id, word, word, upos)
+        parts.append(make_conllu_sentence(sent_id, word, word, upos))
+    augmented = "".join(parts)
 
     aug_path.write_text(augmented, encoding="utf-8")
     print(f"  Written {len(missing)} synthetic sentences to {aug_path}", flush=True)
 
-    # Also create augmented version that REPLACES train.conllu
-    # (for the dataset builder to pick up)
     backup = gold_dir / "train_original.conllu"
     if not backup.exists():
         backup.write_text(original, encoding="utf-8")
         print(f"  Backed up original to {backup}", flush=True)
 
-    train_path.write_text(augmented, encoding="utf-8")
+    tmp_fd, tmp_path = tempfile.mkstemp(dir=gold_dir, suffix=".tmp")
+    try:
+        with os.fdopen(tmp_fd, "w", encoding="utf-8") as tmp_f:
+            tmp_f.write(augmented)
+        os.replace(tmp_path, train_path)
+    except Exception:
+        os.unlink(tmp_path)
+        raise
     print(f"  Replaced {train_path} with augmented version", flush=True)
 
     return len(missing)
@@ -172,6 +184,7 @@ def main(argv: list[str]) -> int:
     )
     parser.add_argument(
         "--lang",
+        choices=tuple(LANGUAGES.keys()),
         help="Language code (de/en/es/fr/sv/ar/zh/nl)",
     )
     parser.add_argument(

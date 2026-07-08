@@ -70,7 +70,7 @@ def loss_fn(model, batch):
     decoder_input = mx.full((B, T), BYT5_PAD, dtype=mx.int32)
     decoder_input[:, 0] = BYT5_EOS  # decoder start token
     if T > 1:
-        decoder_input[:, 1:] = labels[:, :-1]
+        decoder_input[:, 1:] = mx.maximum(labels[:, :-1], 0)
 
     # Forward: encoder + decoder
     logits = model(input_ids, decoder_input)  # (B, T, vocab_size)
@@ -144,7 +144,7 @@ def evaluate(
         decoder_input = mx.full((B, T), BYT5_PAD, dtype=mx.int32)
         decoder_input[:, 0] = BYT5_EOS
         if T > 1:
-            decoder_input[:, 1:] = mx.clip(labels[:, :-1], 0, 1e9)
+            decoder_input[:, 1:] = mx.maximum(labels[:, :-1], 0)
 
         # Forward pass
         logits = model(batch["input_ids"], decoder_input)

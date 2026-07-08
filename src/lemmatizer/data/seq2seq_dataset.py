@@ -22,11 +22,8 @@ from pathlib import Path
 
 from datasets import Dataset, DatasetDict
 
+from lemmatizer.data.byt5_dataset import BYT5_EOS, BYTE_ID_OFFSET
 from lemmatizer.data.conllu import read_conllu
-
-# ByT5 byte-level encoding (same as byt5_dataset.py)
-BYT5_EOS = 1
-BYTE_ID_OFFSET = 3
 
 # All valid UPOS tags for noise injection
 UPOS_TAGS = [
