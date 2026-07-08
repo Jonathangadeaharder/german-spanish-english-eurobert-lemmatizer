@@ -64,10 +64,18 @@ def format_input(
     noise: bool = False,
     rng: random.Random | None = None,
 ) -> str:
-    """Format a sentence as 'word [UPOS] word [UPOS] ...' for Model 2 input."""
+    """Format a sentence as 'word [UPOS] word [UPOS] ...' for Model 2 input.
+
+    Unknown UPOS tags (e.g. "_") are normalized to the "X" sentinel before
+    formatting so they appear verbatim on dev/test (noise=False) and so noise
+    injection only swaps among the 17 valid tags rather than "fixing" invalid
+    tags 10% of the time.
+    """
     r = rng if rng is not None else random
     parts = []
     for word, upos in zip(words, upos_tags, strict=True):
+        if upos not in UPOS_TAGS:
+            upos = "X"
         if noise and r.random() < NOISE_RATE:
             # Corrupt the UPOS tag with a random wrong one
             wrong_choices = [t for t in UPOS_TAGS if t != upos]

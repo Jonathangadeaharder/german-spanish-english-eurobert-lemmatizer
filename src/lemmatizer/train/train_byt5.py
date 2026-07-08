@@ -63,21 +63,26 @@ def evaluate(
     stats = {
         "correct": 0,
         "total": 0,
-        "propn": 0,
+        # Identity-skip counter (PROPN/PUNCT/SYM/X/NUM): lemma == surface
+        # form for these, so they are excluded from lemma scoring. Named
+        # "identity_skip" rather than "propn" since the skip set grew.
+        "identity_skip": 0,
         "by_upos": {},
         "upos_correct": 0,
         "upos_total": 0,
     }
+    # Model output type is fixed across batches; hoist the UPOS-tracking
+    # decision out of the per-word loop.
+    track_upos = upos_id2label is not None
     for i in range(0, len(rows), batch_size):
         batch = collate_batch(rows[i : i + batch_size])
         output = model(batch["input_ids"], batch["word_byte_spans"])
-        if isinstance(output, tuple):
-            logits, upos_logits = output
+        logits, upos_logits = output
+        if upos_logits is not None:
             upos_preds = mx.argmax(upos_logits, axis=-1)
             mx.eval(upos_preds)
             upos_preds_np = np.array(upos_preds)
         else:
-            logits = output
             upos_preds_np = None
         preds = mx.argmax(logits, axis=-1)
         mx.eval(preds)
@@ -91,16 +96,18 @@ def evaluate(
                 if w >= len(preds_np[b]):
                     break
                 # UPOS accuracy (all words including PROPN)
-                if upos_preds_np is not None and w < len(upos_preds_np[b]):
+                if track_upos and upos_preds_np is not None and w < len(upos_preds_np[b]):
                     pred_upos_id = int(upos_preds_np[b, w])
                     if upos_id2label and pred_upos_id in upos_id2label:
                         stats["upos_total"] += 1
                         if upos_id2label[pred_upos_id] == upos:
                             stats["upos_correct"] += 1
 
-                # Identity tags: lemma = word, skip from lemma scoring
-                if upos in ("PROPN", "PUNCT", "SYM", "X", "NUM"):
-                    stats["propn"] += 1
+                # Identity tags: lemma == word, skip from lemma scoring.
+                # PROPN/PUNCT/SYM/X/NUM are skipped for EuroBERT parity; the
+                # `lemma == word` fallback catches identity-lemma tokens.
+                if upos in ("PROPN", "PUNCT", "SYM", "X", "NUM") or lemma == word:
+                    stats["identity_skip"] += 1
                     continue
                 if lemma in ("_", "-"):
                     continue
@@ -141,8 +148,7 @@ def find_struggles(
     for start in range(0, len(rows), batch_size):
         batch_rows = rows[start : start + batch_size]
         batch = collate_batch(batch_rows)
-        output = model(batch["input_ids"], batch["word_byte_spans"])
-        logits = output[0] if isinstance(output, tuple) else output
+        logits, _ = model(batch["input_ids"], batch["word_byte_spans"])
         preds = np.array(mx.argmax(logits, axis=-1))
 
         for b, row in enumerate(batch_rows):
@@ -228,17 +234,14 @@ def train_epoch(
     accum_steps = max(1, int(grad_accum))
 
     def loss_fn(model, batch):
-        output = model(batch["input_ids"], batch["word_byte_spans"])
-        if isinstance(output, tuple):
-            lemma_logits, upos_logits = output
-            loss = masked_cross_entropy(lemma_logits, batch["labels"])
-            # Weight the auxiliary UPOS head so its smaller class count
-            # (~17) doesn't dominate or be dominated by the lemma head
-            # (hundreds of classes). Default 1.0 preserves prior behavior.
-            if "upos_labels" in batch:
-                loss = loss + upos_weight * masked_cross_entropy(upos_logits, batch["upos_labels"])
-            return loss
-        return masked_cross_entropy(output, batch["labels"])
+        lemma_logits, upos_logits = model(batch["input_ids"], batch["word_byte_spans"])
+        loss = masked_cross_entropy(lemma_logits, batch["labels"])
+        # Weight the auxiliary UPOS head so its smaller class count
+        # (~17) doesn't dominate or be dominated by the lemma head
+        # (hundreds of classes). Default 1.0 preserves prior behavior.
+        if upos_logits is not None and "upos_labels" in batch:
+            loss = loss + upos_weight * masked_cross_entropy(upos_logits, batch["upos_labels"])
+        return loss
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
 
@@ -384,6 +387,17 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     val_rows = [ds["validation"][i] for i in range(len(ds["validation"]))]
     print(f"Loaded train={len(train_rows)}, val={len(val_rows)}", flush=True)
 
+    # The model has a UPOS head but the dataset rows lack upos_labels (e.g.
+    # an older dataset format built without upos_label2id.json). Warn once
+    # so the untrained head isn't silently skipped every batch.
+    if num_upos and train_rows and "upos_labels" not in train_rows[0]:
+        print(
+            "WARNING: model has a UPOS head (num_upos>0) but the dataset "
+            "rows lack 'upos_labels'; UPOS loss will be skipped. Rebuild "
+            "the dataset with upos_label2id.json present to enable it.",
+            flush=True,
+        )
+
     model = ByT5EncoderLemmaClassifier(num_lemmas=len(lemma2id), dropout=dropout, num_upos=num_upos)
     if opts.checkpoint:
         model.load_weights(opts.checkpoint)
@@ -407,7 +421,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
     if opts.epochs > 0:
-        total_steps = len(train_rows) // (opts.batch_size * grad_accum) * opts.epochs
+        # Cast to int: opts.epochs is a float, so the product is a float
+        # (e.g. 3.5); MLX schedulers expect int step counts.
+        total_steps = int(len(train_rows) // (opts.batch_size * grad_accum) * opts.epochs)
         warmup_steps = max(1, int(total_steps * warmup))
         decay_steps = max(1, total_steps - warmup_steps)
         print(f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}", flush=True)

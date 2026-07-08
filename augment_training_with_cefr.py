@@ -21,8 +21,10 @@ import sys
 import tempfile
 from pathlib import Path
 
+from lemmatizer.languages import vocab_levels_root
+
 LEM_REPO = Path(__file__).parent
-VOCAB_REPO = LEM_REPO.parent / "VocabLevels"
+VOCAB_REPO = vocab_levels_root()
 
 LANGUAGES = {
     "de": "german",
@@ -49,28 +51,32 @@ LEMMAS = {
 CEFR_LEVELS = ("A1", "A2", "B1", "B2", "C1")
 
 
+def _tokens_from_conllu_text(text: str) -> set[str]:
+    """Read all FORM and LEMMA tokens from CoNLL-U text (lowercased)."""
+    tokens: set[str] = set()
+    for line in text.splitlines():
+        if line.startswith("#") or not line.strip():
+            continue
+        cols = line.split("\t")
+        if len(cols) < 4:
+            continue
+        token_id = cols[0]
+        if "-" in token_id or "." in token_id:
+            continue
+        form = cols[1].strip().lower()
+        lemma = cols[2].strip().lower()
+        if form:
+            tokens.add(form)
+        if lemma:
+            tokens.add(lemma)
+    return tokens
+
+
 def read_treebank_tokens(conllu_path: Path) -> set[str]:
     """Read all FORM and LEMMA tokens from a CoNLL-U file (lowercased)."""
-    tokens: set[str] = set()
     if not conllu_path.exists():
-        return tokens
-    with conllu_path.open(encoding="utf-8") as f:
-        for line in f:
-            if line.startswith("#") or not line.strip():
-                continue
-            cols = line.split("\t")
-            if len(cols) < 4:
-                continue
-            token_id = cols[0]
-            if "-" in token_id or "." in token_id:
-                continue
-            form = cols[1].strip().lower()
-            lemma = cols[2].strip().lower()
-            if form:
-                tokens.add(form)
-            if lemma:
-                tokens.add(lemma)
-    return tokens
+        return set()
+    return _tokens_from_conllu_text(conllu_path.read_text(encoding="utf-8"))
 
 
 def read_cefr_words(lang_dir: str, lemma_col: str) -> list[tuple[str, str]]:
@@ -134,6 +140,18 @@ def augment_language(lang_code: str) -> int:
 
     print(f"=== {lang_name} ({lang_code}) ===", flush=True)
 
+    # Fail fast if the VocabLevels repository is missing or the language
+    # directory has no level CSVs — otherwise read_cefr_words silently
+    # returns an empty list and "Nothing to augment" misleads the user.
+    lang_vocab_dir = VOCAB_REPO / lang_name
+    if not VOCAB_REPO.exists() or not lang_vocab_dir.exists():
+        print(
+            f"  ERROR: CEFR vocab directory not found: {lang_vocab_dir}\n"
+            "         Set VOCAB_LEVELS_DIR or clone the VocabLevels repo.",
+            flush=True,
+        )
+        return 0
+
     # Read existing treebank tokens
     existing = read_treebank_tokens(train_path) | read_treebank_tokens(dev_path)
     print(f"  Treebank tokens: {len(existing)}", flush=True)
@@ -157,6 +175,29 @@ def augment_language(lang_code: str) -> int:
     with train_path.open(encoding="utf-8") as f:
         original = f.read()
 
+    backup = gold_dir / "train_original.conllu"
+    if not backup.exists():
+        # First run: persist the pristine treebank before augmentation so
+        # later re-runs can restore from it.
+        backup.write_text(original, encoding="utf-8")
+        print(f"  Backed up original to {backup}", flush=True)
+    elif "cefr-augmented" in original:
+        # Already augmented on a previous run: restore the pristine backup
+        # BEFORE re-augmenting, then recompute missing against the pristine
+        # content so previously-augmented CEFR words are not dropped.
+        print(
+            "  WARNING: train.conllu appears already augmented; "
+            "restoring from backup before re-augmenting...",
+            flush=True,
+        )
+        original = backup.read_text(encoding="utf-8")
+        pristine_existing = _tokens_from_conllu_text(original) | read_treebank_tokens(dev_path)
+        missing = [(w, u) for w, u in cefr_words if w.lower() not in pristine_existing]
+        print(f"  Missing from pristine treebank: {len(missing)}", flush=True)
+        if not missing:
+            print("  Nothing to augment after restore.", flush=True)
+            return 0
+
     parts = [original]
     if original and not original.endswith("\n"):
         parts.append("\n")
@@ -165,30 +206,10 @@ def augment_language(lang_code: str) -> int:
         parts.append(make_conllu_sentence(sent_id, word, word, upos))
     augmented = "".join(parts)
 
+    # Write the augmented snapshot (aug_path) AFTER the restore/recompute
+    # block so it always reflects the same final content as train_path.
     aug_path.write_text(augmented, encoding="utf-8")
     print(f"  Written {len(missing)} synthetic sentences to {aug_path}", flush=True)
-
-    backup = gold_dir / "train_original.conllu"
-    if not backup.exists():
-        backup.write_text(original, encoding="utf-8")
-        print(f"  Backed up original to {backup}", flush=True)
-    elif "cefr-augmented" in original:
-        # train.conllu was already augmented on a previous run; restore
-        # from the pristine backup before re-augmenting so the marker
-        # count stays stable across re-runs.
-        print(
-            "  WARNING: train.conllu appears already augmented; "
-            "restoring from backup before re-augmenting...",
-            flush=True,
-        )
-        original = backup.read_text(encoding="utf-8")
-        parts = [original]
-        if original and not original.endswith("\n"):
-            parts.append("\n")
-        for i, (word, upos) in enumerate(missing, start=1):
-            sent_id = f"cefr-augmented-{lang_code}-{i:05d}"
-            parts.append(make_conllu_sentence(sent_id, word, word, upos))
-        augmented = "".join(parts)
 
     tmp_fd, tmp_path = tempfile.mkstemp(dir=gold_dir, suffix=".tmp")
     try:

@@ -102,9 +102,7 @@ class ByT5EncoderLemmaClassifier(nn.Module):
         self.hidden_size = config.d_model
         self.dropout = nn.Dropout(p=dropout)
         self.classifier = nn.Linear(self.hidden_size, num_lemmas)
-        self.upos_classifier = (
-            nn.Linear(self.hidden_size, num_upos) if num_upos > 0 else None
-        )
+        self.upos_classifier = nn.Linear(self.hidden_size, num_upos) if num_upos > 0 else None
         self._weights_loaded = False
 
     def load_pretrained(self) -> None:
@@ -125,7 +123,7 @@ class ByT5EncoderLemmaClassifier(nn.Module):
         self,
         input_ids: mx.array,
         word_byte_spans: mx.array,
-    ) -> mx.array | tuple[mx.array, mx.array]:
+    ) -> tuple[mx.array, mx.array | None]:
         """Forward pass.
 
         Args:
@@ -134,8 +132,8 @@ class ByT5EncoderLemmaClassifier(nn.Module):
                 Words with no bytes (span [0,0)) are masked to PAD_LABEL upstream.
 
         Returns:
-            If upos_classifier is set: (lemma_logits, upos_logits) tuple.
-            Otherwise: lemma_logits (B, N_words, num_lemmas).
+            Always a (lemma_logits, upos_logits) tuple. upos_logits is None
+            when the UPOS head is absent, so callers need no isinstance check.
         """
         enc_out = self.t5.encode(input_ids)  # (B, T, d_model)
         enc_out = self.dropout(enc_out)
@@ -144,7 +142,7 @@ class ByT5EncoderLemmaClassifier(nn.Module):
         if self.upos_classifier is not None:
             upos_logits = self.upos_classifier(pooled)
             return lemma_logits, upos_logits
-        return lemma_logits
+        return lemma_logits, None
 
     def _pool(
         self,

@@ -228,17 +228,21 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
     if embed is not None:
         assign(model, "embed_tokens.weight", embed)
     else:
-        print(
-            json.dumps({"event": "weight_missing", "key": "embed_tokens.weight"}),
-            flush=True,
+        # Missing backbone weights leave the model randomly initialized
+        # and produce garbage predictions; raise rather than silently
+        # continue. Only classifier heads are legitimately optional.
+        raise ValueError(
+            "Missing critical backbone weight: embed_tokens.weight. "
+            "The checkpoint format does not match the model; refusing to "
+            "train with randomly initialized embeddings."
         )
     norm = _get("model.norm.weight", "norm.weight")
     if norm is not None:
         assign(model, "norm.weight", norm)
     else:
-        print(
-            json.dumps({"event": "weight_missing", "key": "norm.weight"}),
-            flush=True,
+        raise ValueError(
+            "Missing critical backbone weight: norm.weight. "
+            "Refusing to train with randomly initialized final norm."
         )
     # Classifier heads may not exist in base model checkpoints; only load
     # them when present so training can warm-start from a bare backbone.
@@ -248,6 +252,7 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
             w = _get(f"model.{key}", key)
             if w is not None:
                 assign(model, key, w)
+    missing_layer_weights: list[str] = []
     for i, layer in enumerate(model.layers):
         # Try HF format first (model.layers.N.self_attn.q_proj.weight),
         # then MLX format (layers.N.q_proj.weight).
@@ -268,10 +273,14 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
             if w is not None:
                 assign(layer, local, w)
             else:
-                print(
-                    json.dumps({"event": "weight_missing", "key": mlx_key}),
-                    flush=True,
-                )
+                missing_layer_weights.append(mlx_key)
+    if missing_layer_weights:
+        raise ValueError(
+            "Missing critical backbone layer weights (first 3): "
+            f"{', '.join(missing_layer_weights[:3])}. "
+            f"Total missing: {len(missing_layer_weights)}. "
+            "Refusing to train with randomly initialized layer parameters."
+        )
 
 
 def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> None:
@@ -523,18 +532,23 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
-            # Truncation boundary: a few rows have 1-2 extra words
-            # beyond MAX_LENGTH that didn't get token positions.
-            # Slice locally to avoid mutating the input row.
+            # n_positions != n_words: (1) MAX_LENGTH truncation (tail words
+            # beyond the token budget), or (2) an alignment drop (a present
+            # word's UPOS masked to -100). Distinguish so drops surface.
             n_positions = len(positions)
             n_words = len(row["words"])
+            n_tokens = len(row.get("input_ids", []))
             if n_positions != n_words:
+                legit_truncation = n_words > n_tokens
                 print(
                     json.dumps(
                         {
                             "event": "eval_truncate",
                             "n_words": n_words,
                             "n_positions": n_positions,
+                            "n_tokens": n_tokens,
+                            "legit_truncation": legit_truncation,
+                            "cause": "max_length" if legit_truncation else "upos_mask_alignment",
                         }
                     ),
                     flush=True,
@@ -614,13 +628,18 @@ def find_struggles(
             positions = word_positions(row)
             n_positions = len(positions)
             n_words = len(row["words"])
+            n_tokens = len(row.get("input_ids", []))
             if n_positions != n_words:
+                legit_truncation = n_words > n_tokens
                 print(
                     json.dumps(
                         {
                             "event": "struggles_truncate",
                             "n_words": n_words,
                             "n_positions": n_positions,
+                            "n_tokens": n_tokens,
+                            "legit_truncation": legit_truncation,
+                            "cause": "max_length" if legit_truncation else "upos_mask_alignment",
                         }
                     ),
                     flush=True,

@@ -22,8 +22,10 @@ from pathlib import Path
 
 from datasets import Dataset, load_from_disk
 
+from lemmatizer.languages import vocab_levels_root
+
 ROOT = Path(__file__).parent
-VOCAB_ROOT = ROOT.parent / "VocabLevels"
+VOCAB_ROOT = vocab_levels_root()
 
 LANGUAGES = {
     "de": ("german", "German_Lemma"),
@@ -181,24 +183,29 @@ def augment_multitask(lang_code: str) -> int:
         enc["length"] = int(len(enc["input_ids"]))
         new_rows.append(enc)
 
-    # Add language token to input_ids if not already present
-    # (the original dataset has it, so we need to match)
-    if train_rows and train_rows[0]["input_ids"][0] != new_rows[0]["input_ids"][0]:
-        # The original dataset might prepend [LANG_XX] — check
-        sample_orig = train_rows[0]["input_ids"][:5]
-        sample_new = new_rows[0]["input_ids"][:5]
-        if sample_orig[0] not in sample_new:
-            # Prepend lang token id
-            # Find the lang token id from the tokenizer
-            lang_token_ids = tokenizer.encode(lang_token, add_special_tokens=False)
-            if lang_token_ids:
-                lang_id = lang_token_ids[0]
-                for row in new_rows:
-                    row["input_ids"] = [lang_id] + row["input_ids"]
-                    row["attention_mask"] = [1] + row["attention_mask"]
-                    row["labels"] = [-100] + row["labels"]
-                    row["upos_labels"] = [-100] + row["upos_labels"]
-                    row["length"] = len(row["input_ids"])
+    # Prepend the language token to new rows when the original dataset
+    # starts with it. Resolve the lang-token id from the tokenizer once and
+    # check its presence at index 0 of the first original row.
+    lang_token_ids = tokenizer.encode(lang_token, add_special_tokens=False)
+    orig_has_lang = bool(
+        train_rows and lang_token_ids and train_rows[0]["input_ids"][0] == lang_token_ids[0]
+    )
+    new_has_lang = bool(
+        lang_token_ids and new_rows and new_rows[0]["input_ids"][0] == lang_token_ids[0]
+    )
+    if orig_has_lang and not new_has_lang and lang_token_ids:
+        lang_id = lang_token_ids[0]
+        has_token_type = "token_type_ids" in new_rows[0]
+        for row in new_rows:
+            row["input_ids"] = [lang_id] + row["input_ids"]
+            row["attention_mask"] = [1] + row["attention_mask"]
+            row["labels"] = [-100] + row["labels"]
+            row["upos_labels"] = [-100] + row["upos_labels"]
+            # Keep token_type_ids aligned with input_ids in length so the
+            # model does not crash on the +1 length mismatch.
+            if has_token_type:
+                row["token_type_ids"] = [0] + row["token_type_ids"]
+            row["length"] = len(row["input_ids"])
 
     # Combine
     all_train = train_rows + new_rows
@@ -222,9 +229,17 @@ def main(argv: list[str]) -> int:
 
     if args.all:
         total = 0
+        failed: list[str] = []
         for code in LANGUAGES:
-            total += augment_multitask(code)
+            try:
+                total += augment_multitask(code)
+            except Exception as exc:  # noqa: BLE001 — report, don't abort siblings
+                failed.append(code)
+                print(f"  {code}: FAILED — {exc}", flush=True)
         print(f"\nTotal: {total} CEFR rows added across all languages")
+        if failed:
+            print(f"Failed languages: {', '.join(failed)}", flush=True)
+            return 1
     elif args.lang:
         augment_multitask(args.lang)
     else:

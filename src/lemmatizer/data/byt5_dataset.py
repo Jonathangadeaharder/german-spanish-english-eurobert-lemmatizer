@@ -26,8 +26,7 @@ PAD_LABEL = -100
 
 # ByT5 vocab layout (matches google/byt5-small SentencePiece byte encoding):
 # id 0 = <pad>, id 1 = </s> (EOS), id 2 = <unk>, ids 3..258 are the 256 byte
-# values (byte value b -> id b + 3), ids 259..383 are unused/sentinel slots.
-# We prepend EOS at sentence start and append EOS at the end (ByT5 convention).
+# values (byte value b -> id b + 3); 259..383 unused. EOS at start and end.
 BYT5_PAD = 0
 BYT5_EOS = 1
 BYTE_ID_OFFSET = 3
@@ -155,9 +154,7 @@ def build_split(
     """Build a Dataset for one split (train/dev/test)."""
     rows = []
     for sent in read_conllu(conllu_path, lang="ar"):
-        encoded = encode_sentence(
-            sent["words"], sent["lemmas"], sent["upos"], lemma2id, upos2id
-        )
+        encoded = encode_sentence(sent["words"], sent["lemmas"], sent["upos"], lemma2id, upos2id)
         row = _encoded_to_row(encoded)
         row["words"] = sent["words"]
         row["lemmas"] = sent["lemmas"]
@@ -198,6 +195,14 @@ def main():
     if upos2id_path.exists():
         upos2id = json.loads(upos2id_path.read_text(encoding="utf-8"))
         print(f"UPOS vocab: {len(upos2id)} classes")
+    else:
+        # Multitask training (mlx_multitask.py / train_byt5.py) expects
+        # upos_labels in the dataset; emit a warning so a missing label map
+        # does not silently degrade to a lemma-only dataset.
+        print(
+            f"WARNING: {upos2id_path} not found; UPOS labels will be omitted from the dataset.",
+            flush=True,
+        )
 
     artifacts_dir.mkdir(parents=True, exist_ok=True)
     (artifacts_dir / "lemma_label2id.json").write_text(
