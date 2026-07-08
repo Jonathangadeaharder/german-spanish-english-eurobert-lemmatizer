@@ -18,6 +18,7 @@ from lemmatizer.data.edit_trees import apply_edit_label
 from lemmatizer.data.label_space import LabelSpace
 from lemmatizer.languages import LanguageSpec, language_assets
 from lemmatizer.train import TrainOptions
+from lemmatizer.train.grad_utils import tree_add, tree_scale
 
 
 def read_json(path: Path) -> dict:
@@ -884,32 +885,57 @@ def train_epoch(
     lang: str,
     epoch: int,
     label_remap: dict[int, int],
+    grad_accum: int = 1,
+    upos_weight: float = 1.0,
 ) -> float:
     model.train()
 
     def loss_fn(model, batch):
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        loss = masked_ce(lemma_logits, batch["labels"])
-        # Skip the UPOS head when the batch has no upos_labels (dataset built
-        # without a UPOS label map); avoids KeyError on batch["upos_labels"].
+        lemma_loss = masked_ce(lemma_logits, batch["labels"])
+        # Weight the auxiliary UPOS head so its smaller class count
+        # (~17) doesn't dominate or be dominated by the lemma head
+        # (hundreds of classes). Default 1.0 preserves prior behavior.
         if "upos_labels" in batch:
-            loss = loss + masked_ce(upos_logits, batch["upos_labels"])
-        return loss
+            return lemma_loss + upos_weight * masked_ce(upos_logits, batch["upos_labels"])
+        return lemma_loss
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
     order = np.random.permutation(len(rows))
     total = n = 0
     batches = math.ceil(len(order) / batch_size)
     t0 = time.time()
+    accum_steps = max(1, int(grad_accum))
+
+    accumulated = None
+    pending = 0
+
     for batch_index, start in enumerate(range(0, len(order), batch_size), start=1):
         batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = pad_batch(batch_rows, label_remap)
         loss, grads = loss_and_grad(model, batch)
-        grads, _ = optim.clip_grad_norm(grads, 1.0)
-        optimizer.update(model, grads)
-        mx.eval(loss, model, optimizer)
+        # Scale by 1/accum_steps so the accumulated gradient is the mean
+        # over the accumulation window (matches dividing loss by accum_steps).
+        grads = tree_scale(grads, 1.0 / accum_steps)
+        accumulated = tree_add(accumulated, grads)
+        pending += 1
         total += float(loss)
         n += 1
+
+        if pending >= accum_steps or batch_index == batches:
+            # Final window often has fewer than accum_steps batches.
+            # Each batch was scaled by 1/accum_steps, so the accumulated
+            # gradient is (pending/accum_steps) * mean_grad — under-weighted
+            # at epoch boundaries. Rescale to a true mean by multiplying by
+            # accum_steps/pending (no-op when pending == accum_steps).
+            if pending < accum_steps:
+                accumulated = tree_scale(accumulated, accum_steps / pending)
+            accumulated, _ = optim.clip_grad_norm(accumulated, 1.0)
+            optimizer.update(model, accumulated)
+            mx.eval(loss, model, optimizer)
+            accumulated = None
+            pending = 0
+
         if batch_index % 100 == 0 or batch_index == batches:
             print(
                 json.dumps(
@@ -947,6 +973,9 @@ def main() -> None:
     parser.add_argument("--curriculum", action="store_true")
     parser.add_argument("--unfreeze-encoder", action="store_true")
     parser.add_argument("--unfreeze-last-n", type=int, default=0)
+    parser.add_argument("--grad-accum", type=int, default=1)
+    parser.add_argument("--warmup", type=float, default=0.06)
+    parser.add_argument("--upos-weight", type=float, default=1.0)
     args = parser.parse_args()
 
     from lemmatizer.languages import spec
@@ -964,6 +993,9 @@ def main() -> None:
         curriculum=args.curriculum,
         unfreeze_encoder=args.unfreeze_encoder,
         unfreeze_last_n=args.unfreeze_last_n,
+        grad_accum=args.grad_accum,
+        warmup=args.warmup,
+        upos_weight=args.upos_weight,
         extra={"finetune_rows": args.finetune_rows},
     )
     run(spec(args.lang), opts)
@@ -1029,14 +1061,51 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 model.layers[idx].unfreeze()
             print(f"Unfroze last {opts.unfreeze_last_n} encoder layers", flush=True)
 
-        optimizer = optim.AdamW(learning_rate=opts.lr, weight_decay=0.01)
+        # total_steps mirrors the actual optimizer-step count across all
+        # epochs. Optimizer steps per epoch = ceil(batches / grad_accum)
+        # where batches = ceil(rows / batch_size).
+        # Note: when curriculum is enabled, actual steps are fewer
+        # (early epochs use subsets). The schedule is approximate —
+        # the LR will remain elevated rather than decaying fully.
+        warmup_frac = max(0.0, min(0.99, opts.warmup))
+        epochs_int = max(1, int(opts.epochs))
+        grad_accum = max(1, int(opts.grad_accum))
+        finetune_limit = opts.extra.get("finetune_rows", 0)
+        effective_rows = (
+            train_rows[:finetune_limit] if finetune_limit > 0 else train_rows
+        )
+        batches_per_epoch = math.ceil(
+            len(effective_rows) / opts.batch_size
+        )
+        steps_per_epoch = max(
+            1, math.ceil(batches_per_epoch / grad_accum)
+        )
+        total_steps = max(1, steps_per_epoch * epochs_int)
+        warmup_steps = min(
+            max(1, int(total_steps * warmup_frac)),
+            max(1, total_steps - 1),
+        )
+        decay_steps = max(1, total_steps - warmup_steps)
+        lr_schedule = optim.join_schedules(
+            [
+                optim.linear_schedule(0.0, opts.lr, warmup_steps),
+                optim.cosine_decay(opts.lr, decay_steps, end=0.0),
+            ],
+            [warmup_steps],
+        )
+        optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
+        print(
+            f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}, "
+            f"grad_accum: {grad_accum}, upos_weight: {opts.upos_weight}",
+            flush=True,
+        )
 
         if opts.curriculum:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
             max_train = 50000 if lang == "sv" else 7000
             max_val = 5000 if lang == "sv" else 700
             train_pool, val_pool = build_curriculum_datasets(
-                train_rows, val_rows, max_train, max_val
+                effective_rows, val_rows, max_train, max_val
             )
 
             epochs = max(1, int(opts.epochs))
@@ -1053,7 +1122,15 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             for epoch in range(1, epochs + 1):
                 t0 = time.time()
                 train_loss = train_epoch(
-                    model, current_train, opts.batch_size, optimizer, lang, epoch, label_remap
+                    model,
+                    current_train,
+                    opts.batch_size,
+                    optimizer,
+                    lang,
+                    epoch,
+                    label_remap,
+                    grad_accum=grad_accum,
+                    upos_weight=opts.upos_weight,
                 )
                 metrics = {
                     "epoch": epoch,
@@ -1129,20 +1206,18 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
-            finetune_rows_limit = opts.extra.get("finetune_rows", 0)
-            finetune_rows = (
-                train_rows[:finetune_rows_limit] if finetune_rows_limit > 0 else train_rows
-            )
-            for epoch in range(int(opts.epochs)):
+            for epoch in range(epochs_int):
                 t0 = time.time()
                 train_loss = train_epoch(
                     model,
-                    finetune_rows,
+                    effective_rows,
                     opts.batch_size,
                     optimizer,
                     lang,
                     epoch + 1,
                     label_remap,
+                    grad_accum=grad_accum,
+                    upos_weight=opts.upos_weight,
                 )
                 metrics = {
                     "epoch": epoch + 1,

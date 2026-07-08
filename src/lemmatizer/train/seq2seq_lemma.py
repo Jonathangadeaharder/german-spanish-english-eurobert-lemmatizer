@@ -316,7 +316,7 @@ def train_epoch(
     return total_loss / max(n_batches, 1)
 
 
-def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
+def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, warmup: float = 0.06):
     """Train the seq2seq lemmatizer for one language."""
     print(f"=== Seq2Seq Lemmatizer ({lang}) ===", flush=True)
 
@@ -389,7 +389,11 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
         batches_per_epoch = math.ceil(len(train_rows) / batch_size)
         optimizer_steps_per_epoch = math.ceil(batches_per_epoch / accum_steps)
         total_steps = max(1, optimizer_steps_per_epoch * int(epochs))
-        warmup_steps = max(1, len(train_rows) // (batch_size * 10))
+        warmup_frac = max(0.0, min(0.99, warmup))
+        warmup_steps = min(
+            max(1, int(total_steps * warmup_frac)),
+            max(1, total_steps - 1),
+        )
         decay_steps = max(1, total_steps - warmup_steps)
         lr_schedule = optim.join_schedules(
             [
@@ -440,11 +444,12 @@ def main():
     parser.add_argument("--epochs", type=int, default=5)
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--lr", type=float, default=3e-4)
+    parser.add_argument("--warmup", type=float, default=0.06)
     parser.add_argument("--output-dir", default="")
     args = parser.parse_args()
 
     output_dir = args.output_dir or f"runs/{args.lang}-seq2seq-lemma"
-    run(args.lang, args.epochs, args.batch_size, args.lr, output_dir)
+    run(args.lang, args.epochs, args.batch_size, args.lr, output_dir, args.warmup)
 
 
 if __name__ == "__main__":

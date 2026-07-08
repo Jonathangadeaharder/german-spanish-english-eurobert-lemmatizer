@@ -20,9 +20,9 @@ from lemmatizer.languages import Family, spec
 class TrainOptions:
     """Shared training options. Family-specific extras go in `extra`.
 
-    `checkpoint` is the only required field — the base/pretrained model dir
-    or id the trainer loads. Family trainers read family-specific knobs
-    (e.g. byt5 `grad_accum`, zh `prune_layers`) from `extra`.
+    `checkpoint` is the only required field — the base/pretrained model
+    dir or id the trainer loads. Family-specific knobs (e.g. zh
+    `prune_layers`) go in `extra`.
     """
 
     checkpoint: str
@@ -37,6 +37,9 @@ class TrainOptions:
     max_val_rows: int = 0
     unfreeze_encoder: bool = False
     unfreeze_last_n: int = 0
+    grad_accum: int = 1
+    warmup: float = 0.06
+    upos_weight: float = 1.0
     extra: dict = field(default_factory=dict)
 
 
