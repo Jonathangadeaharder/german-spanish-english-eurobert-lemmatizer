@@ -178,46 +178,6 @@ class ByT5EncoderLemmaClassifier(nn.Module):
 
         return pooled
 
-    def _pool_and_classify(
-        self,
-        enc_out: mx.array,
-        word_byte_spans: mx.array,
-    ) -> mx.array:
-        """Mean-pool each word's byte representations, then classify.
-
-        Args:
-            enc_out: (B, T, d_model)
-            word_byte_spans: (B, N_words, 2)
-
-        Returns:
-            (B, N_words, num_lemmas)
-        """
-        B, T, D = enc_out.shape
-
-        # Build a per-word, per-byte mask: mask[b, w, t] = 1 if byte t is in
-        # word w's span [start, end), else 0. Vectorized via broadcasting.
-        byte_idx = mx.arange(T)  # (T,)
-        starts = word_byte_spans[:, :, 0:1]  # (B, N_words, 1)
-        ends = word_byte_spans[:, :, 1:2]  # (B, N_words, 1)
-        in_span = (byte_idx >= starts) & (byte_idx < ends)  # (B, N_words, T)
-        in_span = in_span.astype(mx.float32)
-
-        # Mean pool: (B, N_words, T) @ (B, T, D) → (B, N_words, D), then divide
-        # by per-word byte count to get the mean.
-        pooled = mx.einsum("bnt,btd->bnd", in_span, enc_out)
-        word_lens = in_span.sum(axis=2, keepdims=True)  # (B, N_words, 1)
-        # Avoid div-by-zero for empty spans (e.g. padded word slots).
-        safe_lens = mx.maximum(word_lens, mx.array(1.0))
-        pooled = pooled / safe_lens
-
-        # Zero out pooled vectors for empty spans (zero byte count) so they
-        # don't produce spurious logits. The loss mask (PAD_LABEL) handles
-        # these upstream, but this keeps the forward numerically clean.
-        empty = (word_lens == 0).astype(pooled.dtype)
-        pooled = pooled * (1.0 - empty)
-
-        return self.classifier(pooled)
-
 
 def masked_cross_entropy(logits: mx.array, labels: mx.array) -> mx.array:
     """Mean cross-entropy over non-PAD labels.

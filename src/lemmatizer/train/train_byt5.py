@@ -88,9 +88,9 @@ def evaluate(
                     break
                 # UPOS accuracy (all words including PROPN)
                 if upos_preds_np is not None and w < len(upos_preds_np[b]):
-                    stats["upos_total"] += 1
                     pred_upos_id = int(upos_preds_np[b, w])
                     if upos_id2label and pred_upos_id in upos_id2label:
+                        stats["upos_total"] += 1
                         if upos_id2label[pred_upos_id] == upos:
                             stats["upos_correct"] += 1
 
