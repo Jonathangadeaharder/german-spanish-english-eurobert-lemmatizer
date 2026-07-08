@@ -485,21 +485,6 @@ def word_positions(row: dict) -> list[int]:
     return [i for i, label in enumerate(row[label_key]) if label != -100]
 
 
-def _aligned_words(row: dict, positions: list[int], key: str) -> list:
-    """Return the words/lemmas/upos aligned to `positions`.
-
-    When `word_positions` falls back to `labels` (no upos_labels), PROPN
-    words are masked mid-sequence, so `positions` skips their indices.
-    `row[key][:len(positions)]` would then pair every word with the wrong
-    token position. Instead, select the exact rows whose label index is in
-    `positions`. `row[key]` is the per-word list (no LANG_TOKEN padding in
-    the byt5_dataset case; padded by LANG_TOKEN in the dataset.py case where
-    positions already start at 1).
-    """
-    words = row[key]
-    return [words[i] for i in positions if i < len(words)]
-
-
 def _n_kept_words(row: dict) -> int:
     # Number of original words the tokenizer kept (post MAX_LENGTH truncation).
     # Prefer explicit build-time signals when present; otherwise fall back to
@@ -637,24 +622,9 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
                     ),
                     flush=True,
                 )
-            # Align words/lemmas/upos to the exact `positions` indices.
-            # `row["words"][:n_positions]` would misalign after the first
-            # mid-sequence masked word (e.g. PROPN in the no-upos_labels
-            # fallback); select the rows at the kept label indices instead.
-            words = _aligned_words(row, positions, "words")
-            lemmas = _aligned_words(row, positions, "lemmas")
-            upos = _aligned_words(row, positions, "upos")
-            # _aligned_words returns at most len(positions) items, so a
-            # `len(words) > n_positions` truncation here is unreachable
-            # (kept intentionally absent to avoid confusion). When the
-            # dataset lacks upos_labels the UPOS head is untrained; its
-            # argmax would be random and corrupt the IDENTITY_UPOS skip
-            # + resolve() path. Skip UPOS scoring entirely when there is
-            # no trained UPOS head (otherwise upos_accuracy would be a
-            # meaningless 100% via predicted_upos = gold_pos).
             has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
-                zip(words, lemmas, upos, strict=True)
+                zip(row["words"], row["lemmas"], row["upos"], strict=True)
             ):
                 if word_i >= len(positions):
                     break
@@ -777,19 +747,9 @@ def find_struggles(
             # Align words/lemmas/upos to the exact `positions` indices
             # (see _aligned_words); `[:n_positions]` would misalign after the
             # first mid-sequence masked word in the no-upos_labels fallback.
-            words = _aligned_words(row, positions, "words")
-            lemmas = _aligned_words(row, positions, "lemmas")
-            upos = _aligned_words(row, positions, "upos")
-            # _aligned_words returns at most len(positions) items, so the
-            # prior `len(words) > n_positions` truncation here was dead
-            # code (removed to avoid reader confusion). When the dataset
-            # lacks upos_labels the UPOS head is untrained; its argmax
-            # would be random and corrupt the IDENTITY_UPOS skip +
-            # resolve() path. Default to the gold POS so struggles
-            # reflect the lemma head alone rather than a random UPOS head.
             has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
-                zip(words, lemmas, upos, strict=True)
+                zip(row["words"], row["lemmas"], row["upos"], strict=True)
             ):
                 if word_i >= len(positions):
                     break
