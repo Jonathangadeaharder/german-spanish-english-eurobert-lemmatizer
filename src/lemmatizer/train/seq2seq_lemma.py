@@ -141,7 +141,13 @@ def generate(
     input_ids: mx.array,
     max_len: int = 256,
 ) -> mx.array:
-    """Autoregressive generation (slow, used only for final eval)."""
+    """Autoregressive generation (slow, used only for final eval).
+
+    Returns decoder_input of shape (B, T) where T = min(max_len+1, first
+    batch-wide EOS). The first column is the BYT5_EOS decoder-start token;
+    callers must strip it (decoder_input[:, 1:]) and truncate each sequence
+    at its first emitted BYT5_EOS to recover the predicted lemma stream.
+    """
     B = input_ids.shape[0]
     # Build a padding mask so the encoder ignores trailing PAD positions
     # (input_ids may be a padded batch).
@@ -166,6 +172,10 @@ def generate(
         )
         next_token = mx.argmax(logits[:, -1, :], axis=-1)
         decoder_input = mx.concatenate([decoder_input, next_token[:, None]], axis=1)
+        # Materialize decoder_input each step: without this, the lazy MLX
+        # graph grows linearly with max_len (each concatenate wraps the
+        # previous array), bloating memory and slowing eval.
+        mx.eval(decoder_input)
         finished = finished | (next_token == BYT5_EOS)
         if mx.all(finished):
             break

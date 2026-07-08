@@ -158,10 +158,15 @@ def find_struggles(
                 if w >= len(preds[b]):
                     break
                 # Align with evaluate()'s expanded identity-skip set
-                # (PROPN/PUNCT/SYM/X/NUM): these tokens are not scored for
-                # lemma accuracy, so mispredictions on them must not enter
-                # the struggles set and skew curriculum decisions.
-                if upos in ("PROPN", "PUNCT", "SYM", "X", "NUM") or lemma in ("_", "-"):
+                # (PROPN/PUNCT/SYM/X/NUM) plus the `lemma == word` identity
+                # check: these tokens are not scored for lemma accuracy, so
+                # mispredictions on them must not enter the struggles set
+                # and skew curriculum decisions.
+                if (
+                    upos in ("PROPN", "PUNCT", "SYM", "X", "NUM")
+                    or lemma == word
+                    or lemma in ("_", "-")
+                ):
                     continue
                 pred_id = int(preds[b, w])
                 pred_lemma = id2lemma.get(pred_id, "<UNK>")
@@ -556,7 +561,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
-            for epoch in range(1, int(opts.epochs) + 1):
+            for epoch in range(1, epochs_int + 1):
                 t0 = time.time()
                 train_loss = train_epoch(
                     model,

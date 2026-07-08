@@ -48,11 +48,12 @@ UPOS_TAGS = [
 
 NOISE_RATE = 0.10
 
-# Max byte-level token length. ByT5-small has a 1024-token context window;
-# a long sentence (100+ words) can produce thousands of byte tokens and OOM
-# or silently truncate at collation. Filter these out up-front so `length`
-# is enforced consistently across train/dev/test.
-MAX_SEQ_LEN = 1024
+# Max byte-level token length. Aligned with seq2seq_lemma.MAX_SEQ_LEN (256):
+# the training collate_batch caps sequences to 256 via min(max(...), MAX_SEQ_LEN).
+# Filtering here at 256 means over-length sentences are skipped with explicit
+# logging rather than silently truncated downstream (which would cut off the
+# trailing EOS and corrupt the training signal).
+MAX_SEQ_LEN = 256
 
 # Lemma delimiter. A bare space is ambiguous when a lemma itself contains a
 # space (multi-word expressions like "à la"); the model cannot tell word
@@ -113,6 +114,13 @@ def build_split(
     seed: int = 42,
 ) -> Dataset:
     """Build a seq2seq dataset split from a CoNLL-U file."""
+    # Guard against a missing treebank file so callers get a clear error
+    # instead of an unhandled FileNotFoundError deep inside read_conllu.
+    if not Path(conllu_path).exists():
+        raise FileNotFoundError(
+            f"CoNLL-U file not found: {conllu_path}. Run fetch-ud/prepare "
+            "first or check LEMMA_LANG."
+        )
     # Local RNG isolates noise-injection state from the global `random`
     # module so callers relying on the global stream aren't disturbed.
     rng = random.Random(seed)

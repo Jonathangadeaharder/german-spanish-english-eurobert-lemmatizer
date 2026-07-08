@@ -18,9 +18,10 @@ import argparse
 import csv
 import json
 import sys
+import traceback
 from pathlib import Path
 
-from datasets import Dataset, load_from_disk
+from datasets import Dataset, concatenate_datasets, load_from_disk
 
 from lemmatizer.languages import LANG_TOKENS, LANGUAGES, vocab_levels_root
 
@@ -50,9 +51,9 @@ def read_cefr_words(lang_name: str, lemma_col: str) -> list[tuple[str, str]]:
             for row in reader:
                 word = row.get(lemma_col, "").strip()
                 upos = row.get("POS", "").strip() or "X"
-                if not word or word.lower() in seen:
+                if not word or word in seen:
                     continue
-                seen.add(word.lower())
+                seen.add(word)
                 words.append((word, upos))
     return words
 
@@ -84,7 +85,7 @@ def augment_multitask(lang_code: str) -> int:
 
     # Load existing dataset (with ORIGINAL label space)
     ds = load_from_disk(str(dataset_path))
-    train_rows = list(ds["train"])
+    n_existing_train = len(ds["train"])
 
     # Load existing label2id + upos_label2id
     label2id = json.loads((assets_dir / "label2id.json").read_text())
@@ -193,16 +194,19 @@ def augment_multitask(lang_code: str) -> int:
     # (words=[lang_token, word]); the prior logic checked input_ids[0]
     # against the lang token id, but index 0 is BOS, so it never matched.
 
-    # Combine
-    all_train = train_rows + new_rows
+    # Combine. concatenate_datasets appends the new rows in Arrow directly,
+    # avoiding the doubling of memory from list(ds["train"]) -> from_list.
+    # all_train count is kept only for the summary log.
+    all_train = n_existing_train + len(new_rows)
     features = ds["train"].features
-    new_train = Dataset.from_list(all_train, features=features)
+    new_ds = Dataset.from_list(new_rows, features=features)
+    new_train = concatenate_datasets([ds["train"], new_ds])
 
     # Save to new path (can't overwrite in place)
     aug_path = dataset_path.parent / f"{dataset_path.name}_cefr_augmented"
     ds["train"] = new_train
     ds.save_to_disk(str(aug_path))
-    print(f"  {lang_code}: added {len(new_rows)} rows (total train: {len(all_train)})", flush=True)
+    print(f"  {lang_code}: added {len(new_rows)} rows (total train: {all_train})", flush=True)
     print(f"  Saved to {aug_path}", flush=True)
     return len(new_rows)
 
@@ -221,7 +225,10 @@ def main(argv: list[str]) -> int:
                 total += augment_multitask(code)
             except Exception as exc:  # noqa: BLE001 — report, don't abort siblings
                 failed.append(code)
-                print(f"  {code}: FAILED — {exc}", flush=True)
+                print(
+                    f"  {code}: FAILED — {exc}\n{traceback.format_exc()}",
+                    flush=True,
+                )
         print(f"\nTotal: {total} CEFR rows added across all languages")
         if failed:
             print(f"Failed languages: {', '.join(failed)}", flush=True)

@@ -110,12 +110,16 @@ jobs:
           WORK_DIR="${{ github.workspace }}"
           POSTED=0
           FAILED=0
-          while IFS= read -r comment; do
-            PATH_VAL=$(echo "$comment" | jq -r '.path')
-            START_LINE=$(echo "$comment" | jq -r '.start_line')
-            END_LINE=$(echo "$comment" | jq -r '.end_line')
-            CONTENT=$(echo "$comment" | jq -r '.content')
-            SUGGESTION=$(echo "$comment" | jq -r '.suggestion_code // empty')
+          COMMENTS_FILE="$WORK_DIR/ocr-output.json"
+          COMMENT_COUNT=$(jq '.comments | length' "$COMMENTS_FILE" 2>/dev/null)
+          echo "comment_count=$COMMENT_COUNT"
+          i=0
+          while [ "$i" -lt "$COMMENT_COUNT" ]; do
+            PATH_VAL=$(jq -r ".comments[$i].path" "$COMMENTS_FILE")
+            START_LINE=$(jq -r ".comments[$i].start_line" "$COMMENTS_FILE")
+            END_LINE=$(jq -r ".comments[$i].end_line" "$COMMENTS_FILE")
+            CONTENT=$(jq -r ".comments[$i].content" "$COMMENTS_FILE")
+            SUGGESTION=$(jq -r ".comments[$i].suggestion_code // empty" "$COMMENTS_FILE")
             if [ -n "$SUGGESTION" ]; then
               BODY=$(printf '%s\n\n```suggestion\n%s\n```' "$CONTENT" "$SUGGESTION")
             else
@@ -132,10 +136,11 @@ jobs:
             else
               FAILED=$((FAILED + 1))
             fi
-          done < <(jq -c '.comments[]' "$WORK_DIR/ocr-output.json")
+            i=$((i + 1))
+          done
           echo "POSTED=$POSTED FAILED=$FAILED"
           if [ "$POSTED" -eq 0 ] && [ "$REVIEW_COMMENT_COUNT" -gt 0 ]; then
-            SUMMARY=$(jq -r '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' "$WORK_DIR/ocr-output.json")
+            SUMMARY=$(jq -r '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' "$COMMENTS_FILE")
             BODY=$(printf '## OpenCodeReview found %s issue(s)\n\n%s' "$REVIEW_COMMENT_COUNT" "$SUMMARY")
             gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" -f body="$BODY"
           fi

@@ -104,8 +104,18 @@ def read_cefr_words(lang_dir: str, lemma_col: str) -> list[tuple[str, str]]:
     return words
 
 
+def _sanitize_conllu_field(value: str) -> str:
+    """Sanitize a CoNLL-U field: strip tabs/CR/LF that would break columns
+    or spurious sentence boundaries. Defense-in-depth even when callers
+    (read_cefr_words) already sanitize — a new call path must not corrupt
+    the CoNLL-U structure."""
+    return value.replace("\t", " ").replace("\r", " ").replace("\n", " ")
+
+
 def make_conllu_sentence(sent_id: str, word: str, lemma: str, upos: str) -> str:
     """Create a single-word CoNLL-U sentence with blank-line separator."""
+    word = _sanitize_conllu_field(word)
+    lemma = _sanitize_conllu_field(lemma)
     return (
         f"# sent_id = {sent_id}\n"
         f"# text = {word}\n"
@@ -161,12 +171,23 @@ def augment_language(lang_code: str) -> int:
         original = f.read()
 
     backup = gold_dir / "train_original.conllu"
-    if not backup.exists():
-        # First run: persist the pristine treebank before augmentation so
-        # later re-runs can restore from it.
-        backup.write_text(original, encoding="utf-8")
-        print(f"  Backed up original to {backup}", flush=True)
-    elif "cefr-augmented" in original:
+    # Check for augmented content BEFORE the backup-exists check: if the
+    # backup was deleted but train.conllu is still augmented from a prior
+    # run, blindly backing it up would persist the augmented (not pristine)
+    # content and produce duplicate synthetic sentences on every future run.
+    if "cefr-augmented" in original:
+        if not backup.exists():
+            # train.conllu is already augmented AND the pristine backup is
+            # missing — we cannot restore. Refuse rather than corrupt the
+            # backup permanently with augmented content.
+            print(
+                "  ERROR: train.conllu appears already augmented but the "
+                f"pristine backup ({backup}) is missing. Refusing to "
+                "re-augment (would duplicate CEFR sentences). Re-fetch the "
+                "treebank or restore the backup manually.",
+                flush=True,
+            )
+            return 0
         # Already augmented on a previous run: restore the pristine backup
         # BEFORE re-augmenting, then recompute missing against the pristine
         # content so previously-augmented CEFR words are not dropped.
@@ -182,6 +203,11 @@ def augment_language(lang_code: str) -> int:
         if not missing:
             print("  Nothing to augment after restore.", flush=True)
             return 0
+    elif not backup.exists():
+        # First run: persist the pristine treebank before augmentation so
+        # later re-runs can restore from it.
+        backup.write_text(original, encoding="utf-8")
+        print(f"  Backed up original to {backup}", flush=True)
 
     parts = [original]
     if original and not original.endswith("\n"):
