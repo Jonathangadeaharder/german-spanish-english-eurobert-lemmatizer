@@ -22,7 +22,7 @@ class TrainOptions:
 
     `checkpoint` is the only required field — the base/pretrained model
     dir or id the trainer loads. Family-specific knobs (e.g. zh
-    `prune_layers`, byt5 `warmup`) go in `extra`.
+    `prune_layers`) go in `extra`.
     """
 
     checkpoint: str

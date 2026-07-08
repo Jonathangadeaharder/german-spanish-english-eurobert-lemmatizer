@@ -914,6 +914,9 @@ def train_epoch(
         batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = pad_batch(batch_rows, label_remap)
         loss, grads = loss_and_grad(model, batch)
+        # Clip per-batch before accumulation to prevent large grads
+        # from dominating when grad_accum is high.
+        grads, _ = optim.clip_grad_norm(grads, 1.0)
         # Scale by 1/accum_steps so the accumulated gradient is the mean
         # over the accumulation window (matches dividing loss by accum_steps).
         grads = tree_scale(grads, 1.0 / accum_steps)
@@ -1064,6 +1067,10 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         # total_steps mirrors the actual optimizer-step count across all
         # epochs. Optimizer steps per epoch = ceil(batches / grad_accum)
         # where batches = ceil(rows / batch_size).
+        # Note: when curriculum is enabled, actual steps are fewer
+        # (early epochs use subsets). The schedule is approximate —
+        # the LR will remain elevated rather than decaying fully.
+        warmup_frac = max(0.0, min(0.99, opts.warmup))
         epochs_int = max(1, int(opts.epochs))
         grad_accum = max(1, int(opts.grad_accum))
         batches_per_epoch = math.ceil(
@@ -1074,7 +1081,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         )
         total_steps = max(1, steps_per_epoch * epochs_int)
         warmup_steps = min(
-            max(1, int(total_steps * opts.warmup)),
+            max(1, int(total_steps * warmup_frac)),
             max(1, total_steps - 1),
         )
         decay_steps = max(1, total_steps - warmup_steps)

@@ -96,6 +96,7 @@ def train(
     unfreeze_encoder: bool = typer.Option(False, help="Unfreeze all encoder layers"),
     unfreeze_last_n: int = typer.Option(0, help="Unfreeze last N encoder layers"),
     grad_accum: int = typer.Option(1, help="Gradient accumulation steps"),
+    warmup: float = typer.Option(0.06, help="Warmup fraction (0-1)"),
     upos_weight: float = typer.Option(1.0, help="UPOS loss weight (default 1.0)"),
 ) -> None:
     """Train the MLX model for one language.
@@ -119,6 +120,7 @@ def train(
         unfreeze_encoder=unfreeze_encoder,
         unfreeze_last_n=unfreeze_last_n,
         grad_accum=grad_accum,
+        warmup=warmup,
         upos_weight=upos_weight,
     )
     # Forward the target language to backend trainers and the dataset builder,
