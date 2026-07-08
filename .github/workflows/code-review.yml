@@ -105,7 +105,8 @@ jobs:
           REPO: ${{ github.repository }}
           REVIEW_COMMENT_COUNT: ${{ steps.ocr.outputs.comments }}
         run: |
-          set +ex
+          set +e
+          set -x
           echo "step started"
           HEAD_SHA=$(git rev-parse HEAD)
           WORK_DIR="${{ github.workspace }}"
