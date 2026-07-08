@@ -128,6 +128,7 @@ jobs:
               FAILED=$((FAILED + 1))
             fi
           done < <(jq -c '.comments[]' "$WORK_DIR/ocr-output.json")
+          echo "POSTED=$POSTED FAILED=$FAILED"
           if [ "$POSTED" -eq 0 ] && [ "$REVIEW_COMMENT_COUNT" -gt 0 ]; then
             SUMMARY=$(
               jq -r \
@@ -140,8 +141,7 @@ jobs:
                 "$SUMMARY"
             )
             gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" \
-              -f body="$BODY" \
-              2>/dev/null
+              -f body="$BODY"
           fi
           exit 0
       - name: Gate
