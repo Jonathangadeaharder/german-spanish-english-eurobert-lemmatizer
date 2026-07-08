@@ -22,7 +22,7 @@ from pathlib import Path
 
 from datasets import Dataset, DatasetDict, concatenate_datasets
 
-from lemmatizer.data.byt5_dataset import BYT5_EOS, BYTE_ID_OFFSET
+from lemmatizer.data.byt5_dataset import BYT5_EOS, BYTE_ID_OFFSET, MAX_SEQ_LEN
 from lemmatizer.data.conllu import read_conllu
 
 # All valid UPOS tags for noise injection
@@ -48,12 +48,10 @@ UPOS_TAGS = [
 
 NOISE_RATE = 0.10
 
-# Max byte-level token length. Aligned with seq2seq_lemma.MAX_SEQ_LEN (256):
-# the training collate_batch caps sequences to 256 via min(max(...), MAX_SEQ_LEN).
-# Filtering here at 256 means over-length sentences are skipped with explicit
-# logging rather than silently truncated downstream (which would cut off the
-# trailing EOS and corrupt the training signal).
-MAX_SEQ_LEN = 256
+# Imported from byt5_dataset so the dataset builder and the trainer
+# (seq2seq_lemma.MAX_SEQ_LEN) share one definition; a drift between the
+# two would let collate_batch silently truncate the trailing EOS and
+# corrupt the training signal. See byt5_dataset.MAX_SEQ_LEN.
 
 # Lemma delimiter. A bare space is ambiguous when a lemma itself contains a
 # space (multi-word expressions like "à la"); the model cannot tell word
@@ -173,6 +171,13 @@ def build_cefr_split(
 ) -> Dataset:
     """Build a seq2seq dataset split from CEFR contextual sentences."""
     if not Path(cefr_path).exists():
+        # CEFR sentences are high-value vocab items; missing them silently
+        # degrades training quality. Surface it so the operator notices.
+        print(
+            f"  WARNING: CEFR sentences file not found at {cefr_path}; "
+            "training will proceed without CEFR data.",
+            flush=True,
+        )
         return Dataset.from_list([])
     return build_split(cefr_path, lang, noise=noise, seed=seed)
 

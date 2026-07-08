@@ -41,7 +41,10 @@ MAX_LENGTH = 256
 def read_cefr_words(lang_name: str, lemma_col: str) -> list[tuple[str, str]]:
     """Read CEFR words. Returns (word, upos) tuples."""
     words: list[tuple[str, str]] = []
-    seen: set[str] = set()
+    # Key on (word, upos) so a word appearing at multiple CEFR levels with
+    # different POS tags (e.g. 'record' NOUN@A1, VERB@B1) keeps each POS
+    # variant rather than collapsing to the first-seen tag.
+    seen: set[tuple[str, str]] = set()
     for level in LEVELS:
         csv_path = VOCAB_ROOT / lang_name / f"{level}.csv"
         if not csv_path.exists():
@@ -51,9 +54,10 @@ def read_cefr_words(lang_name: str, lemma_col: str) -> list[tuple[str, str]]:
             for row in reader:
                 word = row.get(lemma_col, "").strip()
                 upos = row.get("POS", "").strip() or "X"
-                if not word or word in seen:
+                key = (word, upos)
+                if not word or key in seen:
                     continue
-                seen.add(word)
+                seen.add(key)
                 words.append((word, upos))
     return words
 
@@ -143,17 +147,19 @@ def augment_multitask(lang_code: str) -> int:
             identity_label = "IDENTITY"
         label_name = identity_label
 
-        fallback = label2id.get(identity_label, label2id.get("UNKNOWN", 0))
+        # When the IDENTITY label is absent from label2id, the CEFR word
+        # would silently fall back to UNKNOWN (id 0) and train the model
+        # on a wrong lemma edit. Skip the word entirely instead of adding
+        # a corrupted row.
         if label_name not in label2id:
-            # The IDENTITY label is absent from label2id AND the fallback
-            # resolved to UNKNOWN (id 0) — the CEFR word would silently get
-            # the UNKNOWN class, corrupting training. Warn so this surfaces.
             print(
                 f"  WARNING: label '{label_name}' not in label2id for "
-                f"{lang_code}; falling back to UNKNOWN (id={fallback}).",
+                f"{lang_code}; skipping CEFR word {word!r} to avoid "
+                "training it as UNKNOWN.",
                 flush=True,
             )
-        lemma_label_id = label2id.get(label_name, fallback)
+            continue
+        lemma_label_id = label2id[label_name]
         upos_label_id = upos_label2id.get(upos, upos_label2id.get("X", -1))
 
         if upos == "PROPN":

@@ -80,6 +80,11 @@ def test_evaluate_truncates_on_alignment_mismatch(tmp_path: Path):
     assert len(row["words"]) == 3
     assert row["words"] == ["w1", "w2", "w3"]
     assert "lemma_accuracy" in result
+    # The masked middle UPOS drops a position with no MAX_LENGTH
+    # truncation, so the diagnostic must classify it as an alignment
+    # drop and increment the counter. Pinned so a regression that
+    # silently zeroes the counter is caught.
+    assert result["alignment_drops"] == 1
 
 
 def test_evaluate_accepts_aligned_row(tmp_path: Path):

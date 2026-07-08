@@ -28,6 +28,7 @@ import mlx.optimizers as optim
 import numpy as np
 from datasets import load_from_disk
 
+from lemmatizer.data.byt5_dataset import MAX_SEQ_LEN
 from lemmatizer.train.byt5_encoder import T5
 from lemmatizer.train.byt5_lemma_model import (
     BYT5_SMALL_WEIGHTS,
@@ -37,7 +38,6 @@ from lemmatizer.train.byt5_lemma_model import (
 
 BYT5_PAD = 0
 BYT5_EOS = 1
-MAX_SEQ_LEN = 256
 
 
 def _tree_scale(tree, s):
@@ -360,9 +360,28 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
     weights = mx.load(weights_path)
     sanitized = T5.sanitize(weights)
     model.load_weights(list(sanitized.items()), strict=False)
+    # strict=False silently skips unmatched keys, so a sanitize() rename
+    # bug would leave backbone params at random init and produce garbage
+    # with no error. Verify every model parameter was covered by the
+    # sanitized weight set; this is a full encoder+decoder T5, so ALL
+    # byt5-small weights should map after sanitization.
+    param_keys = {k for k, _ in nn.utils.tree_flatten(model.parameters())}
+    missing = sorted(param_keys - set(sanitized.keys()))
+    if missing:
+        raise RuntimeError(
+            "ByT5 weight load failed: "
+            f"{len(missing)} model params have no matching weight after "
+            f"sanitize. First: {missing[:3]}. Refusing to train with "
+            "random init for backbone parameters."
+        )
     print("ByT5 weights loaded (encoder + decoder)", flush=True)
 
-    # Baseline eval
+    # Baseline eval. The subset (val_rows[:100]) is intentional: a full
+    # teacher-forcing pass over the dev split is slow, and the baseline
+    # is only a sanity check, not model selection. CoNLL-U files are
+    # ordered by sentence ID, so this is the file's first 100 sentences,
+    # not a random sample — acceptable for a sanity baseline but not for
+    # final accuracy reporting (use the full dev set for that).
     print(json.dumps({"event": "baseline_start"}), flush=True)
     baseline = evaluate(model, val_rows[:100], batch_size=4)
     print(json.dumps({"event": "baseline", **baseline}), flush=True)
@@ -393,6 +412,11 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
         for epoch in range(1, epochs + 1):
             t0 = time.time()
             train_loss = train_epoch(model, train_rows, batch_size, optimizer, epoch)
+            # Per-epoch validation uses the first 200 dev rows (ordered by
+            # sentence ID, not shuffled) to keep eval cost bounded during
+            # training; model selection on this subset may be biased. Treat
+            # the resulting checkpoint as provisional and re-evaluate on
+            # the full dev set before reporting final accuracy.
             val_metrics = evaluate(model, val_rows[:200], batch_size=4)
             metrics = {
                 "epoch": epoch,

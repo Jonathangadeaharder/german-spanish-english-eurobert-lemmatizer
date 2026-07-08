@@ -292,9 +292,12 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
             key = key[6:]
         if key in weights:
             return weights[key]
-        # Try roberta. prefix for ScandiBERT
+        # Try roberta. prefix for ScandiBERT. Replace only the leading
+        # "model." (count=1) so a key containing "model." later in its
+        # path is not corrupted — replace-all would silently remap such
+        # keys and fail to load the weight.
         roberta_key = (
-            key.replace("model.", "roberta.") if key.startswith("model.") else f"roberta.{key}"
+            key.replace("model.", "roberta.", 1) if key.startswith("model.") else f"roberta.{key}"
         )
         if roberta_key in weights:
             return weights[roberta_key]
@@ -307,9 +310,10 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
         alt_key = alternates.get(key)
         if alt_key and alt_key in weights:
             return weights[alt_key]
-        # Also try roberta-prefixed alternates
+        # Also try roberta-prefixed alternates. count=1 to avoid replacing
+        # a "model." substring later in the key path.
         roberta_alt = (
-            alt_key.replace("model.", "roberta.")
+            alt_key.replace("model.", "roberta.", 1)
             if alt_key and alt_key.startswith("model.")
             else None
         )
@@ -560,7 +564,16 @@ def raw_to_contiguous_map(label2id: dict[str, str]) -> dict[int, int]:
 
 def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split: str = "") -> dict:
     label2id = read_json(assets.label2id_path)
-    upos_label2id = read_json(assets.upos_label2id_path)
+    # upos_label2id may be absent for datasets built without a UPOS label
+    # map (byt5_dataset with upos2id=None). Read it lazily so evaluate
+    # does not raise FileNotFoundError before the per-row has_upos branch
+    # runs — mirroring the guard already present in find_struggles().
+    has_upos_dataset = bool(rows) and "upos_labels" in rows[0]
+    upos_label2id = (
+        read_json(assets.upos_label2id_path)
+        if has_upos_dataset and assets.upos_label2id_path.exists()
+        else {}
+    )
     label_space = LabelSpace(label2id)
     label_remap = raw_to_contiguous_map(label2id)
     id2label = label_space.id2label
@@ -631,14 +644,13 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
             words = _aligned_words(row, positions, "words")
             lemmas = _aligned_words(row, positions, "lemmas")
             upos = _aligned_words(row, positions, "upos")
-            if len(words) > n_positions:
-                words = words[:n_positions]
-                lemmas = lemmas[:n_positions]
-                upos = upos[:n_positions]
-            # When the dataset lacks upos_labels the UPOS head is untrained;
-            # its argmax would be random and corrupt the IDENTITY_UPOS skip
-            # + resolve() path. Skip UPOS scoring entirely when there is no
-            # trained UPOS head (otherwise upos_accuracy would be a
+            # _aligned_words returns at most len(positions) items, so a
+            # `len(words) > n_positions` truncation here is unreachable
+            # (kept intentionally absent to avoid confusion). When the
+            # dataset lacks upos_labels the UPOS head is untrained; its
+            # argmax would be random and corrupt the IDENTITY_UPOS skip
+            # + resolve() path. Skip UPOS scoring entirely when there is
+            # no trained UPOS head (otherwise upos_accuracy would be a
             # meaningless 100% via predicted_upos = gold_pos).
             has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
@@ -768,14 +780,13 @@ def find_struggles(
             words = _aligned_words(row, positions, "words")
             lemmas = _aligned_words(row, positions, "lemmas")
             upos = _aligned_words(row, positions, "upos")
-            if len(words) > n_positions:
-                words = words[:n_positions]
-                lemmas = lemmas[:n_positions]
-                upos = upos[:n_positions]
-            # When the dataset lacks upos_labels the UPOS head is untrained;
-            # its argmax would be random and corrupt the IDENTITY_UPOS skip
-            # + resolve() path. Default to the gold POS so struggles reflect
-            # the lemma head alone rather than a random UPOS head.
+            # _aligned_words returns at most len(positions) items, so the
+            # prior `len(words) > n_positions` truncation here was dead
+            # code (removed to avoid reader confusion). When the dataset
+            # lacks upos_labels the UPOS head is untrained; its argmax
+            # would be random and corrupt the IDENTITY_UPOS skip +
+            # resolve() path. Default to the gold POS so struggles
+            # reflect the lemma head alone rather than a random UPOS head.
             has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
                 zip(words, lemmas, upos, strict=True)

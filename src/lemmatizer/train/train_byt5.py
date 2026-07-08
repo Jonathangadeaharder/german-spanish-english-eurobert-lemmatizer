@@ -126,7 +126,11 @@ def evaluate(
             mx.clear_cache()
 
     acc = stats["correct"] / max(stats["total"], 1)
-    upos_acc = stats["upos_correct"] / max(stats["upos_total"], 1)
+    # upos_total == 0 when UPOS tracking is inactive (upos_id2label is None
+    # or the model has no UPOS head). Return None instead of 0.0 so
+    # downstream consumers can distinguish "not evaluated" from a model
+    # that actually scored 0% UPOS accuracy.
+    upos_acc = stats["upos_correct"] / max(stats["upos_total"], 1) if stats["upos_total"] else None
     by_upos = {u: round(v["correct"] / max(v["total"], 1), 4) for u, v in stats["by_upos"].items()}
     return {
         "lemma_accuracy": acc,
