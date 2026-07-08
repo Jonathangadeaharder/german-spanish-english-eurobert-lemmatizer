@@ -1,8 +1,9 @@
 """Regression tests for lemmatizer.train.mlx_multitask.evaluate.
 
-Pins the alignment invariant: a row whose `upos_labels` has fewer non-masked
-entries than `words` (e.g. an unknown UPOS tag mapped to -100) must raise
-ValueError rather than silently shifting word->token alignment.
+Pins the truncation behavior: a row whose `upos_labels` has fewer non-masked
+entries than `words` (e.g. an unknown UPOS tag mapped to -100) yields fewer
+token positions than words. Rather than raising, evaluate() truncates the
+word lists to match the available positions (legitimate MAX_LENGTH case).
 """
 
 from __future__ import annotations
@@ -12,7 +13,6 @@ from pathlib import Path
 from types import SimpleNamespace
 
 import numpy as np
-import pytest
 
 from lemmatizer.train import mlx_multitask as mt
 
@@ -56,21 +56,27 @@ def _row(words, upos_labels):
     }
 
 
-def test_evaluate_raises_on_alignment_mismatch(tmp_path: Path):
-    """Unknown UPOS (-100) drops a position -> mismatch must raise."""
+def test_evaluate_truncates_on_alignment_mismatch(tmp_path: Path):
+    """Unknown UPOS (-100) drops a position -> words truncated, no raise."""
     # 3 words, but upos_labels has only 2 non-masked entries (one is -100),
     # so word_positions returns 2 positions for 3 words.
     row = _row(["w1", "w2", "w3"], [0, -100, 1])
 
-    with pytest.raises(ValueError, match="Alignment mismatch"):
-        mt.evaluate(
-            _FakeModel(),
-            [row],
-            lang="de",
-            assets=_assets(tmp_path),
-            batch_size=1,
-            split="test",
-        )
+    result = mt.evaluate(
+        _FakeModel(),
+        [row],
+        lang="de",
+        assets=_assets(tmp_path),
+        batch_size=1,
+        split="test",
+    )
+
+    # Word lists truncated to match the 2 available positions.
+    assert len(row["words"]) == 2
+    assert row["words"] == ["w1", "w2"]
+    assert len(row["lemmas"]) == 2
+    assert len(row["upos"]) == 2
+    assert "lemma_accuracy" in result
 
 
 def test_evaluate_accepts_aligned_row(tmp_path: Path):

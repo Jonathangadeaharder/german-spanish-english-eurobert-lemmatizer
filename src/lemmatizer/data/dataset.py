@@ -109,9 +109,17 @@ def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
         enc["labels"] = labels
         enc["upos_labels"] = upos_batch_labels
         enc["lang"] = lang
-        enc["words"] = original_words
-        enc["lemmas"] = lemmas
-        enc["upos"] = sent["upos"]
+        # Truncate words/lemmas/upos to the set of words that have a
+        # non-masked UPOS position (first sub-token within MAX_LENGTH).
+        # This keeps words/lemmas/upos aligned with upos_batch_labels.
+        words_with_positions = set()
+        for idx_t, wid in enumerate(word_ids):
+            if wid is not None and upos_batch_labels[idx_t] != -100:
+                words_with_positions.add(wid)
+        n_kept = max(words_with_positions) + 1 if words_with_positions else 0
+        enc["words"] = original_words[:n_kept]
+        enc["lemmas"] = lemmas[:n_kept]
+        enc["upos"] = sent["upos"][:n_kept]
         enc["length"] = len(enc["input_ids"])
 
         rows.append(enc)

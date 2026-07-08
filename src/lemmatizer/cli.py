@@ -79,7 +79,7 @@ def prepare() -> None:
 @app.command()
 def train(
     lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())}"),
-    checkpoint: str = typer.Option(..., help="Base/pretrained model dir or id"),
+    checkpoint: str = typer.Option("", help="Base model dir/id (empty=ByT5 auto-load)"),
     output_dir: str = typer.Option("", help="Output dir (default: per-family)"),
     epochs: float = typer.Option(0.0, help="Epochs (0 = baseline eval only)"),
     batch_size: int = typer.Option(64, help="Batch size"),

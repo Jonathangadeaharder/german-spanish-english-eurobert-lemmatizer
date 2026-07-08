@@ -28,6 +28,8 @@ def collate_batch(rows: list[dict]) -> dict:
     input_ids = np.zeros((B, max_len), dtype=np.int32)
     word_byte_spans = np.zeros((B, max_words, 2), dtype=np.int32)
     labels = np.full((B, max_words), -100, dtype=np.int32)
+    has_upos = any("upos_labels" in r for r in rows)
+    upos_labels = np.full((B, max_words), -100, dtype=np.int32) if has_upos else None
 
     for i, r in enumerate(rows):
         n_bytes = min(len(r["input_ids"]), max_len)
@@ -36,12 +38,17 @@ def collate_batch(rows: list[dict]) -> dict:
         spans = np.minimum(r["word_byte_spans"][:n_words], max_len)
         word_byte_spans[i, :n_words, :] = spans
         labels[i, :n_words] = r["labels"][:n_words]
+        if upos_labels is not None and "upos_labels" in r:
+            upos_labels[i, :n_words] = r["upos_labels"][:n_words]
 
-    return {
+    result = {
         "input_ids": mx.array(input_ids),
         "word_byte_spans": mx.array(word_byte_spans),
         "labels": mx.array(labels),
     }
+    if upos_labels is not None:
+        result["upos_labels"] = mx.array(upos_labels)
+    return result
 
 
 def evaluate(
@@ -50,28 +57,50 @@ def evaluate(
     batch_size: int,
     id2lemma: dict[int, str],
     lexicon: dict[str, str],
+    upos_id2label: dict[int, str] | None = None,
 ) -> dict:
     model.eval()
-    stats = {"correct": 0, "total": 0, "propn": 0, "by_upos": {}}
+    stats = {
+        "correct": 0, "total": 0, "propn": 0, "by_upos": {},
+        "upos_correct": 0, "upos_total": 0,
+    }
     for i in range(0, len(rows), batch_size):
         batch = collate_batch(rows[i : i + batch_size])
-        logits = model(batch["input_ids"], batch["word_byte_spans"])
+        output = model(batch["input_ids"], batch["word_byte_spans"])
+        if isinstance(output, tuple):
+            logits, upos_logits = output
+            upos_preds = mx.argmax(upos_logits, axis=-1)
+            mx.eval(upos_preds)
+            upos_preds_np = np.array(upos_preds)
+        else:
+            logits = output
+            upos_preds_np = None
         preds = mx.argmax(logits, axis=-1)
         mx.eval(preds)
+        preds_np = np.array(preds)
 
         for b in range(len(rows[i : i + batch_size])):
             row = rows[i + b]
             for w, (word, lemma, upos) in enumerate(
                 zip(row["words"], row["lemmas"], row["upos"], strict=True)
             ):
-                if w >= len(preds[b]):
+                if w >= len(preds_np[b]):
                     break
-                if upos == "PROPN":
+                # UPOS accuracy (all words including PROPN)
+                if upos_preds_np is not None and w < len(upos_preds_np[b]):
+                    stats["upos_total"] += 1
+                    pred_upos_id = int(upos_preds_np[b, w])
+                    if upos_id2label and pred_upos_id in upos_id2label:
+                        if upos_id2label[pred_upos_id] == upos:
+                            stats["upos_correct"] += 1
+
+                # Identity tags: lemma = word, skip from lemma scoring
+                if upos in ("PROPN", "PUNCT", "SYM", "X", "NUM"):
                     stats["propn"] += 1
                     continue
                 if lemma in ("_", "-"):
                     continue
-                pred_id = int(preds[b, w])
+                pred_id = int(preds_np[b, w])
                 pred_lemma = id2lemma.get(pred_id, "<UNK>")
                 if pred_lemma == "<UNK>":
                     pred_lemma = lexicon.get(word, word)
@@ -86,8 +115,14 @@ def evaluate(
             mx.clear_cache()
 
     acc = stats["correct"] / max(stats["total"], 1)
+    upos_acc = stats["upos_correct"] / max(stats["upos_total"], 1)
     by_upos = {u: round(v["correct"] / max(v["total"], 1), 4) for u, v in stats["by_upos"].items()}
-    return {"lemma_accuracy": acc, "by_upos": by_upos, "stats": stats}
+    return {
+        "lemma_accuracy": acc,
+        "upos_accuracy": upos_acc,
+        "by_upos": by_upos,
+        "stats": stats,
+    }
 
 
 def find_struggles(
@@ -102,7 +137,8 @@ def find_struggles(
     for start in range(0, len(rows), batch_size):
         batch_rows = rows[start : start + batch_size]
         batch = collate_batch(batch_rows)
-        logits = model(batch["input_ids"], batch["word_byte_spans"])
+        output = model(batch["input_ids"], batch["word_byte_spans"])
+        logits = output[0] if isinstance(output, tuple) else output
         preds = np.array(mx.argmax(logits, axis=-1))
 
         for b, row in enumerate(batch_rows):
@@ -187,8 +223,14 @@ def train_epoch(
     accum_steps = max(1, int(grad_accum))
 
     def loss_fn(model, batch):
-        logits = model(batch["input_ids"], batch["word_byte_spans"])
-        return masked_cross_entropy(logits, batch["labels"])
+        output = model(batch["input_ids"], batch["word_byte_spans"])
+        if isinstance(output, tuple):
+            lemma_logits, upos_logits = output
+            loss = masked_cross_entropy(lemma_logits, batch["labels"])
+            if "upos_labels" in batch:
+                loss = loss + masked_cross_entropy(upos_logits, batch["upos_labels"])
+            return loss
+        return masked_cross_entropy(output, batch["labels"])
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
 
@@ -315,12 +357,24 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     lexicon = json.loads(lexicon_path.read_text(encoding="utf-8")) if lexicon_path.exists() else {}
     print(f"Lexicon: {len(lexicon)} entries", flush=True)
 
+    # Load UPOS label maps for joint UPOS training.
+    upos2id_path = artifacts_dir / "upos_label2id.json"
+    upos2id = json.loads(upos2id_path.read_text(encoding="utf-8")) if upos2id_path.exists() else None
+    upos_id2label = (
+        {int(v): k for k, v in upos2id.items()} if upos2id else None
+    )
+    num_upos = len(upos2id) if upos2id else 0
+    if num_upos:
+        print(f"UPOS vocab: {num_upos} classes (joint training enabled)", flush=True)
+
     ds = load_from_disk(dataset_path)
     train_rows = [ds["train"][i] for i in range(len(ds["train"]))]
     val_rows = [ds["validation"][i] for i in range(len(ds["validation"]))]
     print(f"Loaded train={len(train_rows)}, val={len(val_rows)}", flush=True)
 
-    model = ByT5EncoderLemmaClassifier(num_lemmas=len(lemma2id), dropout=dropout)
+    model = ByT5EncoderLemmaClassifier(
+        num_lemmas=len(lemma2id), dropout=dropout, num_upos=num_upos
+    )
     if opts.checkpoint:
         model.load_weights(opts.checkpoint)
         print(f"Loaded weights from checkpoint: {opts.checkpoint}", flush=True)
@@ -331,8 +385,8 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline_start"}), flush=True)
     results = {
         "baseline": {
-            "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon),
-            "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon),
+            "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label),
+            "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label),
         },
         "finetune": [],
     }
@@ -382,8 +436,8 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon),
-                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon),
+                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label),
+                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)
@@ -450,7 +504,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
-            for epoch in range(1, opts.epochs + 1):
+            for epoch in range(1, int(opts.epochs) + 1):
                 t0 = time.time()
                 train_loss = train_epoch(
                     model, train_rows, opts.batch_size, grad_accum, optimizer, epoch
@@ -458,8 +512,8 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 metrics = {
                     "epoch": epoch,
                     "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon),
-                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon),
+                    "train": evaluate(model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label),
+                    "validation": evaluate(model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label),
                     "elapsed_s": round(time.time() - t0, 1),
                 }
                 results["finetune"].append(metrics)

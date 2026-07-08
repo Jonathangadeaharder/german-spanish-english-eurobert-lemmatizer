@@ -1,0 +1,339 @@
+"""Seq2Seq lemmatizer trainer (Stage 2 of the two-stage pipeline).
+
+Trains a ByT5-small model (encoder + decoder) to produce lemma sequences
+from UPOS-annotated input sentences. Uses MLX.
+
+Training:
+  Input:  "The [DET] fliegen [NOUN] are [AUX] . [PUNCT]"
+  Output: "the fly be ."
+
+The encoder reads the annotated input; the decoder autoregressively
+generates the lemma sequence. Loss is cross-entropy on decoder tokens.
+
+Usage:
+    LEMMA_LANG=de uv run python -m lemmatizer.train.seq2seq_lemma --epochs 5
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import math
+import time
+from pathlib import Path
+
+import mlx.core as mx
+import mlx.nn as nn
+import mlx.optimizers as optim
+import numpy as np
+from datasets import load_from_disk
+
+from lemmatizer.train.byt5_encoder import T5
+from lemmatizer.train.byt5_lemma_model import (
+    BYT5_SMALL_WEIGHTS,
+    _resolve_byt5_path,
+    load_byt5_config,
+)
+
+BYT5_PAD = 0
+BYT5_EOS = 1
+MAX_SEQ_LEN = 256
+
+
+def collate_batch(rows: list[dict]) -> dict:
+    """Pad sequences to max length in batch (capped at MAX_SEQ_LEN)."""
+    max_input = min(max(len(r["input_ids"]) for r in rows), MAX_SEQ_LEN)
+    max_label = min(max(len(r["labels"]) for r in rows), MAX_SEQ_LEN)
+
+    B = len(rows)
+    input_ids = np.zeros((B, max_input), dtype=np.int32)
+    labels = np.full((B, max_label), -100, dtype=np.int32)
+
+    for i, r in enumerate(rows):
+        inp = r["input_ids"][:max_input]
+        lbl = r["labels"][:max_label]
+        input_ids[i, : len(inp)] = inp
+        labels[i, : len(lbl)] = lbl
+
+    return {
+        "input_ids": mx.array(input_ids),
+        "labels": mx.array(labels),
+    }
+
+
+def loss_fn(model, batch):
+    input_ids = batch["input_ids"]
+    labels = batch["labels"]
+
+    # Decoder input: shift labels right (prepend EOS as decoder start)
+    B, T = labels.shape
+    decoder_input = mx.full((B, T), BYT5_PAD, dtype=mx.int32)
+    decoder_input[:, 0] = BYT5_EOS  # decoder start token
+    if T > 1:
+        decoder_input[:, 1:] = labels[:, :-1]
+
+    # Forward: encoder + decoder
+    logits = model(input_ids, decoder_input)  # (B, T, vocab_size)
+
+    # Cross-entropy loss on non-masked (-100) positions
+    mask = (labels != -100).astype(mx.float32)
+    # Shift: we predict labels[t] from decoder_input[t]
+    # logits[:, :-1] predicts labels[:, 1:]
+    # But our setup: decoder_input = [EOS, l0, l1, ...] predicts [l0, l1, ...]
+    # So logits[:, t] predicts labels[:, t]
+    log_probs = nn.log_softmax(logits, axis=-1)
+
+    # Gather the log-prob of the correct token at each position
+    label_ids = mx.clip(labels, 0, logits.shape[-1] - 1)
+    gathered = mx.take_along_axis(
+        log_probs, label_ids[:, :, None], axis=-1
+    ).squeeze(-1)
+
+    loss = -gathered * mask
+    n_tokens = mask.sum()
+    return loss.sum() / mx.maximum(n_tokens, mx.array(1.0))
+
+
+def generate(
+    model: T5,
+    input_ids: mx.array,
+    max_len: int = 256,
+) -> mx.array:
+    """Autoregressive generation (slow, used only for final eval)."""
+    B = input_ids.shape[0]
+    memory = model.encode(input_ids)
+
+    decoder_input = mx.full((B, 1), BYT5_EOS, dtype=mx.int32)
+
+    for _ in range(max_len):
+        logits, _ = model.decode(decoder_input, memory)
+        next_token = mx.argmax(logits[:, -1, :], axis=-1)
+        decoder_input = mx.concatenate(
+            [decoder_input, next_token[:, None]], axis=1
+        )
+        if mx.all(next_token == BYT5_EOS):
+            break
+
+    return decoder_input
+
+
+def evaluate(
+    model: T5,
+    rows: list[dict],
+    batch_size: int,
+) -> dict:
+    """Teacher-forcing evaluation (fast — one forward pass per batch).
+
+    Measures token-level accuracy: for each position, does the model's
+    argmax prediction match the gold token? This is an upper bound on
+    autoregressive accuracy.
+    """
+    model.eval()
+    total = 0
+    correct = 0
+    exact_match = 0
+    n_sentences = 0
+
+    for i in range(0, len(rows), batch_size):
+        batch_rows = rows[i : i + batch_size]
+        batch = collate_batch(batch_rows)
+        labels = batch["labels"]
+
+        # Build decoder input (shift right with EOS as start)
+        B, T = labels.shape
+        decoder_input = mx.full((B, T), BYT5_PAD, dtype=mx.int32)
+        decoder_input[:, 0] = BYT5_EOS
+        if T > 1:
+            decoder_input[:, 1:] = mx.clip(labels[:, :-1], 0, 1e9)
+
+        # Forward pass
+        logits = model(batch["input_ids"], decoder_input)
+        preds = mx.argmax(logits, axis=-1)
+        mx.eval(preds)
+        preds_np = np.array(preds)
+
+        for b, row in enumerate(batch_rows):
+            gold = [t for t in row["labels"] if t != -100]
+            pred = preds_np[b].tolist()[: len(gold)]
+
+            n_sentences += 1
+            if pred == gold:
+                exact_match += 1
+
+            for t in range(min(len(pred), len(gold))):
+                total += 1
+                if pred[t] == gold[t]:
+                    correct += 1
+            total += abs(len(pred) - len(gold))
+
+        mx.clear_cache()
+
+    token_acc = correct / max(total, 1)
+    seq_acc = exact_match / max(n_sentences, 1)
+    return {"token_accuracy": token_acc, "sequence_accuracy": seq_acc}
+
+
+def train_epoch(
+    model: T5,
+    rows: list[dict],
+    batch_size: int,
+    optimizer,
+    epoch: int,
+    grad_accum: int = 8,
+) -> float:
+    """Train one epoch with gradient accumulation."""
+    model.train()
+    total_loss = 0.0
+    n_batches = 0
+    t0 = time.time()
+    order = np.random.permutation(len(rows))
+    batches = math.ceil(len(order) / batch_size)
+    accum_steps = max(1, int(grad_accum))
+
+    loss_and_grad = nn.value_and_grad(model, loss_fn)
+
+    accumulated = None
+    pending = 0
+
+    for batch_idx, start in enumerate(range(0, len(order), batch_size), 1):
+        batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
+        batch = collate_batch(batch_rows)
+        loss, grads = loss_and_grad(model, batch)
+        # Scale by 1/accum_steps (recursive for nested dicts)
+        scale = 1.0 / accum_steps
+
+        def tree_scale(tree, s):
+            if isinstance(tree, dict):
+                return {k: tree_scale(v, s) for k, v in tree.items()}
+            if isinstance(tree, list):
+                return [tree_scale(v, s) for v in tree]
+            return tree * s
+
+        def tree_add(a, b):
+            if isinstance(a, dict):
+                return {k: tree_add(a[k], b[k]) for k in b}
+            if isinstance(a, list):
+                return [tree_add(a[i], b[i]) for i in range(len(a))]
+            return a + b
+
+        grads = tree_scale(grads, scale)
+
+        # Accumulate
+        if accumulated is None:
+            accumulated = grads
+        else:
+            accumulated = tree_add(accumulated, grads)
+
+        pending += 1
+        total_loss += float(loss)
+        n_batches += 1
+
+        if pending >= accum_steps or batch_idx == batches:
+            accumulated, _ = optim.clip_grad_norm(accumulated, 1.0)
+            optimizer.update(model, accumulated)
+            mx.eval(optimizer)
+            accumulated = None
+            pending = 0
+
+        mx.eval(loss)
+
+        if batch_idx % 50 == 0 or batch_idx == batches:
+            print(
+                json.dumps(
+                    {
+                        "event": "train_progress",
+                        "epoch": epoch,
+                        "batch": batch_idx,
+                        "batches": batches,
+                        "loss": round(total_loss / n_batches, 4),
+                        "elapsed_s": round(time.time() - t0, 1),
+                    }
+                ),
+                flush=True,
+            )
+            mx.clear_cache()
+
+    return total_loss / max(n_batches, 1)
+
+
+def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str):
+    """Train the seq2seq lemmatizer for one language."""
+    print(f"=== Seq2Seq Lemmatizer ({lang}) ===", flush=True)
+
+    dataset_path = f"data/processed/{lang}_seq2seq_lemma"
+    ds = load_from_disk(dataset_path)
+    train_rows = list(ds["train"])
+    val_rows = list(ds["validation"])
+    print(f"train={len(train_rows)}, val={len(val_rows)}", flush=True)
+
+    # Build model
+    config = load_byt5_config()
+    model = T5(config)
+    weights_path = _resolve_byt5_path(BYT5_SMALL_WEIGHTS, "model.safetensors")
+    if not Path(weights_path).is_file():
+        # Fallback: use the known snapshot path directly
+        import os
+        weights_path = os.path.expanduser(
+            "~/.cache/huggingface/hub/models--google--byt5-small/"
+            "snapshots/6f07f879d308b7b762708b50c83d41b27e329992/model.safetensors"
+        )
+    weights = mx.load(weights_path)
+    sanitized = T5.sanitize(weights)
+    model.load_weights(list(sanitized.items()), strict=False)
+    print("ByT5 weights loaded (encoder + decoder)", flush=True)
+
+    # Baseline eval
+    print(json.dumps({"event": "baseline_start"}), flush=True)
+    baseline = evaluate(model, val_rows[:100], batch_size=4)
+    print(json.dumps({"event": "baseline", **baseline}), flush=True)
+
+    if epochs > 0:
+        warmup_steps = max(1, len(train_rows) // (batch_size * 10))
+        lr_schedule = optim.join_schedules(
+            [
+                optim.linear_schedule(0.0, lr, warmup_steps),
+                optim.cosine_decay(lr, len(train_rows) // batch_size - warmup_steps, end=0.0),
+            ],
+            [warmup_steps],
+        )
+        optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
+
+        for epoch in range(1, epochs + 1):
+            t0 = time.time()
+            train_loss = train_epoch(
+                model, train_rows, batch_size, optimizer, epoch
+            )
+            metrics = {
+                "epoch": epoch,
+                "train_loss": round(train_loss, 4),
+                "validation": evaluate(model, val_rows[:200], batch_size=4),
+                "elapsed_s": round(time.time() - t0, 1),
+            }
+            print(json.dumps({"event": "epoch", **metrics}), flush=True)
+
+            # Save checkpoint
+            out = Path(output_dir)
+            out.mkdir(parents=True, exist_ok=True)
+            model.save_weights(str(out / f"epoch-{epoch}.safetensors"))
+            model.save_weights(str(out / "best.safetensors"))
+
+    print(json.dumps({"event": "training_complete", "lang": lang}), flush=True)
+
+
+def main():
+    import os
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--lang", default=os.getenv("LEMMA_LANG", "de"))
+    parser.add_argument("--epochs", type=int, default=5)
+    parser.add_argument("--batch-size", type=int, default=8)
+    parser.add_argument("--lr", type=float, default=3e-4)
+    parser.add_argument("--output-dir", default="")
+    args = parser.parse_args()
+
+    output_dir = args.output_dir or f"runs/{args.lang}-seq2seq-lemma"
+    run(args.lang, args.epochs, args.batch_size, args.lr, output_dir)
+
+
+if __name__ == "__main__":
+    main()

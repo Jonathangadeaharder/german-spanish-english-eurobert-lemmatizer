@@ -52,9 +52,15 @@ def _resolve_byt5_path(local_path: str, filename: str = "") -> str:
     snapshot is absent (e.g. fresh machine, different HF_HOME).
     """
     expanded = os.path.expanduser(local_path)
-    target = os.path.join(expanded, filename) if filename else expanded
-    if os.path.exists(target):
-        return target
+    # If local_path already points to an existing file, return it directly.
+    if os.path.isfile(expanded):
+        return expanded
+    # If local_path is a directory and filename is given, join them.
+    if filename and os.path.isdir(expanded):
+        joined = os.path.join(expanded, filename)
+        if os.path.isfile(joined):
+            return joined
+    # Fall back to snapshot_download.
     from huggingface_hub import snapshot_download
 
     return str(snapshot_download(repo_id=BYT5_MODEL_ID, allow_patterns=[filename or "*"]))
@@ -81,20 +87,24 @@ def load_byt5_config() -> SimpleNamespace:
 
 
 class ByT5EncoderLemmaClassifier(nn.Module):
-    """ByT5 encoder + per-word pooling + linear lemma classification head.
+    """ByT5 encoder + per-word pooling + lemma and UPOS classification heads.
 
     The encoder is the pretrained byt5-small backbone (fine-tunable). The
-    head is a single `nn.Linear(d_model, num_lemmas)` over the mean-pooled
-    per-word byte representations.
+    lemma head is `nn.Linear(d_model, num_lemmas)` over the mean-pooled
+    per-word byte representations. An optional UPOS head
+    `nn.Linear(d_model, num_upos)` provides joint UPOS tagging.
     """
 
-    def __init__(self, num_lemmas: int, dropout: float = 0.1):
+    def __init__(self, num_lemmas: int, dropout: float = 0.1, num_upos: int = 0):
         super().__init__()
         config = load_byt5_config()
         self.t5 = T5(config)
         self.hidden_size = config.d_model
         self.dropout = nn.Dropout(p=dropout)
         self.classifier = nn.Linear(self.hidden_size, num_lemmas)
+        self.upos_classifier = (
+            nn.Linear(self.hidden_size, num_upos) if num_upos > 0 else None
+        )
         self._weights_loaded = False
 
     def load_pretrained(self) -> None:
@@ -115,7 +125,7 @@ class ByT5EncoderLemmaClassifier(nn.Module):
         self,
         input_ids: mx.array,
         word_byte_spans: mx.array,
-    ) -> mx.array:
+    ) -> mx.array | tuple[mx.array, mx.array]:
         """Forward pass.
 
         Args:
@@ -124,12 +134,49 @@ class ByT5EncoderLemmaClassifier(nn.Module):
                 Words with no bytes (span [0,0)) are masked to PAD_LABEL upstream.
 
         Returns:
-            logits: (B, N_words, num_lemmas) per-word lemma classification logits.
+            If upos_classifier is set: (lemma_logits, upos_logits) tuple.
+            Otherwise: lemma_logits (B, N_words, num_lemmas).
         """
         enc_out = self.t5.encode(input_ids)  # (B, T, d_model)
         enc_out = self.dropout(enc_out)
-        logits = self._pool_and_classify(enc_out, word_byte_spans)
-        return logits
+        pooled = self._pool(enc_out, word_byte_spans)
+        lemma_logits = self.classifier(pooled)
+        if self.upos_classifier is not None:
+            upos_logits = self.upos_classifier(pooled)
+            return lemma_logits, upos_logits
+        return lemma_logits
+
+    def _pool(
+        self,
+        enc_out: mx.array,
+        word_byte_spans: mx.array,
+    ) -> mx.array:
+        """Mean-pool each word's byte representations.
+
+        Args:
+            enc_out: (B, T, d_model)
+            word_byte_spans: (B, N_words, 2)
+
+        Returns:
+            (B, N_words, d_model) pooled word vectors.
+        """
+        B, T, D = enc_out.shape
+
+        byte_idx = mx.arange(T)  # (T,)
+        starts = word_byte_spans[:, :, 0:1]  # (B, N_words, 1)
+        ends = word_byte_spans[:, :, 1:2]  # (B, N_words, 1)
+        in_span = (byte_idx >= starts) & (byte_idx < ends)  # (B, N_words, T)
+        in_span = in_span.astype(mx.float32)
+
+        pooled = mx.einsum("bnt,btd->bnd", in_span, enc_out)
+        word_lens = in_span.sum(axis=2, keepdims=True)  # (B, N_words, 1)
+        safe_lens = mx.maximum(word_lens, mx.array(1.0))
+        pooled = pooled / safe_lens
+
+        empty = (word_lens == 0).astype(pooled.dtype)
+        pooled = pooled * (1.0 - empty)
+
+        return pooled
 
     def _pool_and_classify(
         self,

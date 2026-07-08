@@ -80,24 +80,27 @@ def encode_sentence(
     lemmas: list[str],
     upos_tags: list[str],
     lemma2id: dict[str, int],
+    upos2id: dict[str, int] | None = None,
 ) -> dict:
     """Encode one sentence to byte-level input_ids + per-word spans + labels.
 
     Words are joined with a single space byte, then the whole sentence is
     UTF-8 encoded. Each word's byte span is recorded for downstream pooling.
 
-    PROPN words are masked to PAD_LABEL. Unknown lemmas get <UNK>.
+    PROPN words are masked to PAD_LABEL for lemma labels. Unknown lemmas get
+    <UNK>. When upos2id is provided, upos_labels are also produced (PROPN
+    included — UPOS head should learn all tags).
 
     Returns a dict with mlx arrays:
         input_ids: (T,) int32 byte ids, EOS-framed.
         word_byte_spans: (N_words, 2) int32 start/end byte indices.
         labels: (N_words,) int32 lemma ids (or PAD_LABEL).
+        upos_labels: (N_words,) int32 UPOS ids (only when upos2id given).
     """
-    # Build the byte sequence: EOS + word1 + space + word2 + space + ... + EOS
-    # Track each word's byte span as we go.
     byte_ids: list[int] = [BYT5_EOS]
     spans: list[tuple[int, int]] = []
     labels: list[int] = []
+    upos_labels: list[int] = []
 
     unk_id = lemma2id.get("<UNK>", 1)
 
@@ -105,14 +108,10 @@ def encode_sentence(
         start = len(byte_ids)
         word_bytes = word.encode("utf-8")
         for b in word_bytes:
-            # ByT5 SentencePiece maps each byte value b in [0,255] to id b + 3
-            # (ids 0/1/2 are PAD/EOS/UNK). This is the canonical google/byt5
-            # byte vocabulary; literal bytes 0 and 1 are NOT special here.
             byte_ids.append(b + BYTE_ID_OFFSET)
         end = len(byte_ids)
         spans.append((start, end))
 
-        # Separator space byte between words (space = 0x20 -> id 0x20 + 3).
         byte_ids.append(ord(" ") + BYTE_ID_OFFSET)
 
         if upos == "PROPN" or lemma in ("_", "-"):
@@ -120,51 +119,63 @@ def encode_sentence(
         else:
             labels.append(lemma2id.get(lemma, unk_id))
 
+        if upos2id is not None:
+            upos_labels.append(upos2id.get(upos, PAD_LABEL))
+
     byte_ids.append(BYT5_EOS)
 
-    return {
+    result = {
         "input_ids": mx.array(byte_ids, dtype=mx.int32),
         "word_byte_spans": mx.array(spans, dtype=mx.int32),
         "labels": mx.array(labels, dtype=mx.int32),
     }
+    if upos2id is not None:
+        result["upos_labels"] = mx.array(upos_labels, dtype=mx.int32)
+    return result
 
 
 def _encoded_to_row(encoded: dict) -> dict:
     """Convert mlx arrays to lists for HF Dataset compatibility."""
-    return {
+    row = {
         "input_ids": np.array(encoded["input_ids"]).tolist(),
         "word_byte_spans": np.array(encoded["word_byte_spans"]).tolist(),
         "labels": np.array(encoded["labels"]).tolist(),
         "length": len(encoded["input_ids"]),
     }
+    if "upos_labels" in encoded:
+        row["upos_labels"] = np.array(encoded["upos_labels"]).tolist()
+    return row
 
 
 def build_split(
     conllu_path: str,
     lemma2id: dict[str, int],
+    upos2id: dict[str, int] | None = None,
 ) -> Dataset:
     """Build a Dataset for one split (train/dev/test)."""
     rows = []
     for sent in read_conllu(conllu_path, lang="ar"):
-        encoded = encode_sentence(sent["words"], sent["lemmas"], sent["upos"], lemma2id)
+        encoded = encode_sentence(
+            sent["words"], sent["lemmas"], sent["upos"], lemma2id, upos2id
+        )
         row = _encoded_to_row(encoded)
         row["words"] = sent["words"]
         row["lemmas"] = sent["lemmas"]
         row["upos"] = sent["upos"]
         rows.append(row)
 
-    features = Features(
-        {
-            "input_ids": Sequence(Value("int64")),
-            "word_byte_spans": Sequence(Sequence(Value("int64"))),
-            "labels": Sequence(Value("int64")),
-            "length": Value("int64"),
-            "words": Sequence(Value("string")),
-            "lemmas": Sequence(Value("string")),
-            "upos": Sequence(Value("string")),
-        }
-    )
-    return Dataset.from_list(rows, features=features)
+    features = {
+        "input_ids": Sequence(Value("int64")),
+        "word_byte_spans": Sequence(Sequence(Value("int64"))),
+        "labels": Sequence(Value("int64")),
+        "length": Value("int64"),
+        "words": Sequence(Value("string")),
+        "lemmas": Sequence(Value("string")),
+        "upos": Sequence(Value("string")),
+    }
+    if upos2id is not None:
+        features["upos_labels"] = Sequence(Value("int64"))
+    return Dataset.from_list(rows, features=Features(features))
 
 
 def main():
@@ -180,6 +191,14 @@ def main():
     lemma2id, id2lemma = build_lemma_vocab([train_path, dev_path])
     print(f"Lemma vocab: {len(lemma2id)} classes")
 
+    # Load UPOS label map (shared across languages, already built by
+    # build_labels.py).
+    upos2id_path = artifacts_dir / "upos_label2id.json"
+    upos2id = None
+    if upos2id_path.exists():
+        upos2id = json.loads(upos2id_path.read_text(encoding="utf-8"))
+        print(f"UPOS vocab: {len(upos2id)} classes")
+
     artifacts_dir.mkdir(parents=True, exist_ok=True)
     (artifacts_dir / "lemma_label2id.json").write_text(
         json.dumps(lemma2id, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -190,15 +209,15 @@ def main():
     print(f"Saved lemma vocab to {artifacts_dir}")
 
     print(f"Building train split from {train_path}...")
-    train_ds = build_split(train_path, lemma2id)
+    train_ds = build_split(train_path, lemma2id, upos2id)
     print(f"  train: {len(train_ds)} sentences")
 
     print(f"Building dev split from {dev_path}...")
-    dev_ds = build_split(dev_path, lemma2id)
+    dev_ds = build_split(dev_path, lemma2id, upos2id)
     print(f"  dev: {len(dev_ds)} sentences")
 
     print(f"Building test split from {test_path}...")
-    test_ds = build_split(test_path, lemma2id)
+    test_ds = build_split(test_path, lemma2id, upos2id)
     print(f"  test: {len(test_ds)} sentences")
 
     dataset = DatasetDict({"train": train_ds, "validation": dev_ds, "test": test_ds})

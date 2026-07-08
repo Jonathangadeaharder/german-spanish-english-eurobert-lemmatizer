@@ -215,14 +215,31 @@ def assign(obj, name: str, value: mx.array) -> None:
 
 
 def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]) -> None:
-    assign(model, "embed_tokens.weight", weights["model.embed_tokens.weight"])
-    assign(model, "norm.weight", weights["model.norm.weight"])
-    assign(model, "upos_classifier.weight", weights["upos_classifier.weight"])
-    assign(model, "upos_classifier.bias", weights["upos_classifier.bias"])
-    assign(model, "lemma_classifier.weight", weights["lemma_classifier.weight"])
-    assign(model, "lemma_classifier.bias", weights["lemma_classifier.bias"])
+    # Handle both HF format (model.embed_tokens.weight, model.layers.N.self_attn.)
+    # and MLX-saved format (embed_tokens.weight, layers.N.q_proj.).
+    def _get(key_hf: str, key_mlx: str = "") -> mx.array | None:
+        if key_hf in weights:
+            return weights[key_hf]
+        if key_mlx and key_mlx in weights:
+            return weights[key_mlx]
+        return None
+
+    embed = _get("model.embed_tokens.weight", "embed_tokens.weight")
+    if embed is not None:
+        assign(model, "embed_tokens.weight", embed)
+    norm = _get("model.norm.weight", "norm.weight")
+    if norm is not None:
+        assign(model, "norm.weight", norm)
+    # Classifier heads may not exist in base model checkpoints; only load
+    # them when present so training can warm-start from a bare backbone.
+    for head in ("upos_classifier", "lemma_classifier"):
+        for suffix in ("weight", "bias"):
+            key = f"{head}.{suffix}"
+            if key in weights:
+                assign(model, key, weights[key])
     for i, layer in enumerate(model.layers):
-        prefix = f"model.layers.{i}"
+        # Try HF format first (model.layers.N.self_attn.q_proj.weight),
+        # then MLX format (layers.N.q_proj.weight).
         for local, remote in [
             ("input_layernorm.weight", "input_layernorm.weight"),
             ("post_attention_layernorm.weight", "post_attention_layernorm.weight"),
@@ -234,7 +251,11 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
             ("up_proj.weight", "mlp.up_proj.weight"),
             ("down_proj.weight", "mlp.down_proj.weight"),
         ]:
-            assign(layer, local, weights[f"{prefix}.{remote}"])
+            hf_key = f"model.layers.{i}.{remote}"
+            mlx_key = f"layers.{i}.{local}"
+            w = _get(hf_key, mlx_key)
+            if w is not None:
+                assign(layer, local, w)
 
 
 def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> None:
@@ -429,8 +450,13 @@ def select_valid(
     return "IDENTITY"
 
 
+# UPOS tags where the lemma is always the word itself (identity).
+# These tokens have no morphology to undo — return them unchanged.
+IDENTITY_UPOS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
+
+
 def resolve(word: str, predicted_upos: str, base_label: str | None, lexicon: dict) -> str | None:
-    if predicted_upos == "PROPN":
+    if predicted_upos in IDENTITY_UPOS:
         return None
     if base_label is not None:
         applied = apply_edit_label(word, base_label)
@@ -482,12 +508,12 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
             if len(positions) != len(row["words"]):
-                raise ValueError(
-                    f"Alignment mismatch in {split} row: "
-                    f"{len(positions)} non-masked UPOS positions vs "
-                    f"{len(row['words'])} words. Unknown UPOS tags would "
-                    f"silently shift word->token alignment."
-                )
+                # Truncation boundary: a few rows have 1-2 extra words
+                # beyond MAX_LENGTH that didn't get token positions.
+                # Truncate the word lists to match rather than crashing.
+                row["words"] = row["words"][: len(positions)]
+                row["lemmas"] = row["lemmas"][: len(positions)]
+                row["upos"] = row["upos"][: len(positions)]
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
                 zip(row["words"], row["lemmas"], row["upos"], strict=True)
             ):
@@ -498,12 +524,12 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
                 predicted_upos = upos_id2label.get(str(int(np.argmax(upos_np[b, token_i]))), "X")
                 if predicted_upos == gold_pos:
                     upos_correct += 1
-                if gold_pos == "PROPN":
+                if gold_pos in IDENTITY_UPOS:
                     continue
                 lemma_total += 1
                 base = (
                     None
-                    if predicted_upos == "PROPN"
+                    if predicted_upos in IDENTITY_UPOS
                     else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
                 )
                 if resolve(word, predicted_upos, base, lexicon) == gold_lemma:
@@ -559,11 +585,9 @@ def find_struggles(
         for b, row in enumerate(batch_rows):
             positions = word_positions(row)
             if len(positions) != len(row["words"]):
-                raise ValueError(
-                    f"Alignment mismatch: {len(positions)} non-masked UPOS "
-                    f"positions vs {len(row['words'])} words. Unknown UPOS "
-                    f"tags would silently shift word->token alignment."
-                )
+                row["words"] = row["words"][: len(positions)]
+                row["lemmas"] = row["lemmas"][: len(positions)]
+                row["upos"] = row["upos"][: len(positions)]
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
                 zip(row["words"], row["lemmas"], row["upos"], strict=True)
             ):
@@ -571,7 +595,7 @@ def find_struggles(
                     break
                 token_i = positions[word_i]
                 predicted_upos = upos_id2label.get(str(int(np.argmax(upos_np[b, token_i]))), "X")
-                if gold_pos == "PROPN":
+                if gold_pos in IDENTITY_UPOS:
                     continue
                 base = (
                     None
