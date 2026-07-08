@@ -389,7 +389,11 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
         batches_per_epoch = math.ceil(len(train_rows) / batch_size)
         optimizer_steps_per_epoch = math.ceil(batches_per_epoch / accum_steps)
         total_steps = max(1, optimizer_steps_per_epoch * int(epochs))
-        warmup_steps = max(1, int(total_steps * warmup))
+        warmup_frac = max(0.0, min(0.99, warmup))
+        warmup_steps = min(
+            max(1, int(total_steps * warmup_frac)),
+            max(1, total_steps - 1),
+        )
         decay_steps = max(1, total_steps - warmup_steps)
         lr_schedule = optim.join_schedules(
             [

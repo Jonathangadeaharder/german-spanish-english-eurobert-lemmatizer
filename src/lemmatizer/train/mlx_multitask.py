@@ -1073,8 +1073,12 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         warmup_frac = max(0.0, min(0.99, opts.warmup))
         epochs_int = max(1, int(opts.epochs))
         grad_accum = max(1, int(opts.grad_accum))
+        finetune_limit = opts.extra.get("finetune_rows", 0)
+        effective_rows = (
+            train_rows[:finetune_limit] if finetune_limit > 0 else train_rows
+        )
         batches_per_epoch = math.ceil(
-            len(train_rows) / opts.batch_size
+            len(effective_rows) / opts.batch_size
         )
         steps_per_epoch = max(
             1, math.ceil(batches_per_epoch / grad_accum)
