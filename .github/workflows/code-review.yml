@@ -109,8 +109,12 @@ jobs:
           HEAD_SHA=$(git rev-parse HEAD)
           WORK_DIR="${{ github.workspace }}"
           echo "WORK_DIR=$WORK_DIR"
+          which jq || echo "jq NOT IN PATH"
           ls -la "$WORK_DIR/ocr-output.json" || echo "ocr-output.json NOT FOUND"
           jq '.summary.comments // "missing"' "$WORK_DIR/ocr-output.json" 2>&1 || echo "jq failed"
+          echo "jq comments[] test:"
+          jq -c '.comments[]' "$WORK_DIR/ocr-output.json" 2>&1 | head -2 || echo "jq -c failed"
+          echo "loop test done"
           POSTED=0
           FAILED=0
           while IFS= read -r comment; do
