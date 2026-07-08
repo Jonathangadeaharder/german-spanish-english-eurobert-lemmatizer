@@ -160,7 +160,7 @@ def augment_multitask(lang_code: str) -> int:
             )
             continue
         lemma_label_id = label2id[label_name]
-        upos_label_id = upos_label2id.get(upos, upos_label2id.get("X", -1))
+        upos_label_id = upos_label2id.get(upos, upos_label2id.get("X", -100))
 
         if upos == "PROPN":
             lemma_label_id = -100

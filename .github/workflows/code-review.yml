@@ -110,7 +110,10 @@ jobs:
           COMMENTS_FILE="$WORK_DIR/ocr-output.json"
           SUMMARY=$(jq -r '.comments[] | "**\(.path):\(.start_line)-\(.end_line)**\n\(.content)\n"' "$COMMENTS_FILE")
           BODY=$(printf '## OpenCodeReview found %s issue(s)\n\n%s' "$REVIEW_COMMENT_COUNT" "$SUMMARY")
-          gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" -f body="$BODY"
+          if ! gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" -f body="$BODY"; then
+            echo "::error::Failed to post OCR summary comment"
+            exit 1
+          fi
           exit 0
       - name: Gate
         if: steps.ocr.outputs.comments != '0' && steps.ocr.outputs.exit_code == '0'

@@ -35,37 +35,10 @@ from lemmatizer.train.byt5_lemma_model import (
     _resolve_byt5_path,
     load_byt5_config,
 )
+from lemmatizer.train.grad_utils import tree_add, tree_scale
 
 BYT5_PAD = 0
 BYT5_EOS = 1
-
-
-def _tree_scale(tree, s):
-    """Recursively scale a nested grads tree by s; None leaves pass through.
-
-    Matches train_byt5._tree_scale: a None param (tied/unused weights) would
-    crash on `None * s`, so guard it explicitly.
-    """
-    if tree is None:
-        return None
-    if isinstance(tree, dict):
-        return {k: _tree_scale(v, s) for k, v in tree.items()}
-    if isinstance(tree, list):
-        return [_tree_scale(v, s) for v in tree]
-    return tree * s
-
-
-def _tree_add(a, b):
-    """Element-wise add two nested trees; None on either side passes through."""
-    if a is None:
-        return b
-    if b is None:
-        return a
-    if isinstance(a, dict):
-        return {k: _tree_add(a[k], b[k]) for k in b}
-    if isinstance(a, list):
-        return [_tree_add(a[i], b[i]) for i in range(len(b))]
-    return a + b
 
 
 def collate_batch(rows: list[dict]) -> dict:
@@ -140,13 +113,14 @@ def generate(
     model: T5,
     input_ids: mx.array,
     max_len: int = 256,
-) -> mx.array:
+) -> list[list[int]]:
     """Autoregressive generation (slow, used only for final eval).
 
-    Returns decoder_input of shape (B, T) where T = min(max_len+1, first
-    batch-wide EOS). The first column is the BYT5_EOS decoder-start token;
-    callers must strip it (decoder_input[:, 1:]) and truncate each sequence
-    at its first emitted BYT5_EOS to recover the predicted lemma stream.
+    Returns a list of token lists, one per input sequence. Each inner list
+    is the predicted lemma byte-stream with the leading BYT5_EOS
+    decoder-start token stripped and truncated at the first emitted
+    BYT5_EOS (so callers receive clean predictions with no decoder-start
+    or trailing EOS markers).
     """
     B = input_ids.shape[0]
     # Build a padding mask so the encoder ignores trailing PAD positions
@@ -180,7 +154,28 @@ def generate(
         if mx.all(finished):
             break
 
-    return decoder_input
+    # Post-process: drop the leading decoder-start BYT5_EOS (column 0) and
+    # truncate each sequence at its first emitted BYT5_EOS so callers get
+    # clean predicted streams with no sentinel markers.
+    return _strip_decoder_start_and_truncate_at_eos(decoder_input)
+
+
+def _strip_decoder_start_and_truncate_at_eos(
+    decoder_input: mx.array,
+) -> list[list[int]]:
+    """Drop column 0 (decoder-start EOS) and cut each row at first EOS."""
+    tokens_np = np.array(decoder_input)
+    out: list[list[int]] = []
+    for row in tokens_np:
+        # row[0] is the decoder-start BYT5_EOS; predicted tokens start at 1.
+        emitted = row[1:].tolist()
+        truncated: list[int] = []
+        for tok in emitted:
+            if tok == BYT5_EOS:
+                break
+            truncated.append(int(tok))
+        out.append(truncated)
+    return out
 
 
 def evaluate(
@@ -271,16 +266,16 @@ def train_epoch(
         batch_rows = [rows[int(i)] for i in order[start : start + batch_size]]
         batch = collate_batch(batch_rows)
         loss, grads = loss_and_grad(model, batch)
-        # Scale by 1/accum_steps so the accumulated gradient is the mean over
-        # the accumulation window. Hoisted _tree_scale/_tree_add (with None
-        # guards) replace per-iteration closures defined here previously.
-        grads = _tree_scale(grads, 1.0 / accum_steps)
+        # Scale by 1/accum_steps so the accumulated gradient is the mean
+        # over the accumulation window. Shared tree_scale/tree_add (with
+        # None guards) live in grad_utils and are reused by train_byt5.
+        grads = tree_scale(grads, 1.0 / accum_steps)
 
         # Accumulate
         if accumulated is None:
             accumulated = grads
         else:
-            accumulated = _tree_add(accumulated, grads)
+            accumulated = tree_add(accumulated, grads)
 
         pending += 1
         total_loss += float(loss)
@@ -293,7 +288,7 @@ def train_epoch(
             # at epoch boundaries. Rescale to a true mean by multiplying by
             # accum_steps/pending (no-op when pending == accum_steps).
             if pending < accum_steps:
-                accumulated = _tree_scale(accumulated, accum_steps / pending)
+                accumulated = tree_scale(accumulated, accum_steps / pending)
             accumulated, _ = optim.clip_grad_norm(accumulated, 1.0)
             optimizer.update(model, accumulated)
             mx.eval(optimizer)

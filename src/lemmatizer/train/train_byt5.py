@@ -15,6 +15,7 @@ from datasets import load_from_disk
 from lemmatizer.languages import LanguageSpec
 from lemmatizer.train import TrainOptions
 from lemmatizer.train.byt5_lemma_model import ByT5EncoderLemmaClassifier, masked_cross_entropy
+from lemmatizer.train.grad_utils import tree_add, tree_scale
 
 PAD_LABEL = -100
 
@@ -258,22 +259,6 @@ def train_epoch(
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
 
-    def _tree_scale(grads, scale):
-        if isinstance(grads, dict):
-            return {k: _tree_scale(v, scale) for k, v in grads.items()}
-        if isinstance(grads, list):
-            return [_tree_scale(g, scale) for g in grads]
-        return grads * scale if grads is not None else None
-
-    def _tree_add(a, b):
-        if a is None:
-            return b
-        if isinstance(b, dict):
-            return {k: _tree_add(a[k], b[k]) for k in b}
-        if isinstance(b, list):
-            return [_tree_add(a[i], b[i]) for i in range(len(b))]
-        return a + b
-
     accumulated = None
     pending = 0
 
@@ -283,8 +268,8 @@ def train_epoch(
         loss, grads = loss_and_grad(model, batch)
         # Scale by 1/accum_steps so the accumulated gradient is the mean over
         # the accumulation window (matches dividing loss by accum_steps).
-        grads = _tree_scale(grads, 1.0 / accum_steps)
-        accumulated = _tree_add(accumulated, grads)
+        grads = tree_scale(grads, 1.0 / accum_steps)
+        accumulated = tree_add(accumulated, grads)
         pending += 1
         total_loss += float(loss)
         n_batches += 1

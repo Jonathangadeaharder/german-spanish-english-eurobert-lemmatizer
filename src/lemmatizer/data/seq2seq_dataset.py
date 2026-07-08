@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import os
 import random
+import sys
 from pathlib import Path
 
 from datasets import Dataset, DatasetDict, concatenate_datasets
@@ -101,7 +102,12 @@ def format_output(lemmas: list[str]) -> str:
     Uses LEMMA_DELIM (" | ") rather than a bare space so multi-word lemmas
     (e.g. "à la") stay unambiguous — the decoder can split on the sentinel
     without conflating word boundaries with intra-lemma spaces.
+
+    Assumption: no input lemma contains the delimiter string itself.
     """
+    for lemma in lemmas:
+        if LEMMA_DELIM in lemma:
+            raise ValueError(f"Lemma contains delimiter: {lemma!r}")
     return LEMMA_DELIM.join(lemmas)
 
 
@@ -153,7 +159,6 @@ def build_split(
                 "labels": labels,
                 "input_text": input_text,
                 "output_text": output_text,
-                "length": len(input_ids),
             }
         )
 
@@ -172,10 +177,12 @@ def build_cefr_split(
     """Build a seq2seq dataset split from CEFR contextual sentences."""
     if not Path(cefr_path).exists():
         # CEFR sentences are high-value vocab items; missing them silently
-        # degrades training quality. Surface it so the operator notices.
+        # degrades training quality. Write to stderr (not stdout) so the
+        # warning stays visible in CI logs that separate the two streams.
         print(
             f"  WARNING: CEFR sentences file not found at {cefr_path}; "
             "training will proceed without CEFR data.",
+            file=sys.stderr,
             flush=True,
         )
         return Dataset.from_list([])
