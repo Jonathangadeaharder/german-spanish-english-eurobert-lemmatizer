@@ -1105,7 +1105,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             max_train = 50000 if lang == "sv" else 7000
             max_val = 5000 if lang == "sv" else 700
             train_pool, val_pool = build_curriculum_datasets(
-                train_rows, val_rows, max_train, max_val
+                effective_rows, val_rows, max_train, max_val
             )
 
             epochs = max(1, int(opts.epochs))
