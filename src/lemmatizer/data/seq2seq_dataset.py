@@ -20,7 +20,7 @@ import os
 import random
 from pathlib import Path
 
-from datasets import Dataset, DatasetDict
+from datasets import Dataset, DatasetDict, concatenate_datasets
 
 from lemmatizer.data.byt5_dataset import BYT5_EOS, BYTE_ID_OFFSET
 from lemmatizer.data.conllu import read_conllu
@@ -47,6 +47,18 @@ UPOS_TAGS = [
 ]
 
 NOISE_RATE = 0.10
+
+# Max byte-level token length. ByT5-small has a 1024-token context window;
+# a long sentence (100+ words) can produce thousands of byte tokens and OOM
+# or silently truncate at collation. Filter these out up-front so `length`
+# is enforced consistently across train/dev/test.
+MAX_SEQ_LEN = 1024
+
+# Lemma delimiter. A bare space is ambiguous when a lemma itself contains a
+# space (multi-word expressions like "à la"); the model cannot tell word
+# boundaries from intra-lemma spaces. Use " | " so multi-word lemmas stay
+# unambiguous and decoders can split on it cleanly.
+LEMMA_DELIM = " | "
 
 
 def encode_bytes(text: str) -> list[int]:
@@ -85,8 +97,13 @@ def format_input(
 
 
 def format_output(lemmas: list[str]) -> str:
-    """Format lemmas as space-separated string for Model 2 output."""
-    return " ".join(lemmas)
+    """Format lemmas as a delimiter-joined string for Model 2 output.
+
+    Uses LEMMA_DELIM (" | ") rather than a bare space so multi-word lemmas
+    (e.g. "à la") stay unambiguous — the decoder can split on the sentinel
+    without conflating word boundaries with intra-lemma spaces.
+    """
+    return LEMMA_DELIM.join(lemmas)
 
 
 def build_split(
@@ -115,6 +132,14 @@ def build_split(
 
         input_ids = encode_bytes(input_text)
         labels = encode_bytes(output_text)
+
+        # Filter over-length sequences: a long sentence can produce byte
+        # sequences exceeding ByT5-small's context window, causing OOM or
+        # silent truncation at collation. The `length` field is now enforced
+        # rather than computed-but-unused.
+        if len(input_ids) > MAX_SEQ_LEN or len(labels) > MAX_SEQ_LEN:
+            skipped += 1
+            continue
 
         rows.append(
             {
@@ -165,8 +190,6 @@ def main():
     # high-value vocab items. Treebank rows above carry the 10% noise.
     cefr_ds = build_cefr_split(cefr_path, lang, noise=False, seed=43)
     if len(cefr_ds) > 0:
-        from datasets import concatenate_datasets
-
         train_ds = concatenate_datasets([train_ds, cefr_ds])
         print(f"  train (+CEFR): {len(train_ds)} sentences")
 

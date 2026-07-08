@@ -211,12 +211,13 @@ def evaluate(
 
         for b, row in enumerate(batch_rows):
             gold = [t for t in row["labels"] if t != -100]
-            # Compare the full prediction against gold. The prior code
-            # truncated pred to len(gold), making abs(len(pred)-len(gold))
-            # always 0 and silently ignoring extra/fewer-token positions.
-            pred_full = preds_np[b].tolist()
-            pred = pred_full[: len(gold)]
-            extra = len(pred_full) - len(gold)
+            # Teacher-forcing: the decoder predicts at every position (input
+            # is fixed), so pred_full has length T (padded). Comparing the
+            # full prediction length against gold counts padding positions as
+            # over-predictions, deflating token_accuracy. Only positions with
+            # valid gold tokens contribute to total — over-prediction must be
+            # measured via autoregressive generate(), not teacher-forcing.
+            pred = preds_np[b][: len(gold)].tolist()
 
             n_sentences += 1
             if pred == gold:
@@ -226,10 +227,6 @@ def evaluate(
                 total += 1
                 if pred[t] == gold[t]:
                     correct += 1
-            # Count positions where the model over-predicted beyond gold as
-            # errors (each extra token is a wrong token).
-            if extra > 0:
-                total += extra
 
         mx.clear_cache()
 
@@ -280,6 +277,13 @@ def train_epoch(
         n_batches += 1
 
         if pending >= accum_steps or batch_idx == batches:
+            # The final window often has fewer than accum_steps batches.
+            # Each batch was scaled by 1/accum_steps, so the accumulated
+            # gradient is (pending/accum_steps) * mean_grad — under-weighted
+            # at epoch boundaries. Rescale to a true mean by multiplying by
+            # accum_steps/pending (no-op when pending == accum_steps).
+            if pending < accum_steps:
+                accumulated = _tree_scale(accumulated, accum_steps / pending)
             accumulated, _ = optim.clip_grad_norm(accumulated, 1.0)
             optimizer.update(model, accumulated)
             mx.eval(optimizer)

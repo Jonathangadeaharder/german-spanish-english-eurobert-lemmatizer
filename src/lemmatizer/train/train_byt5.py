@@ -157,7 +157,11 @@ def find_struggles(
             ):
                 if w >= len(preds[b]):
                     break
-                if upos == "PROPN" or lemma in ("_", "-"):
+                # Align with evaluate()'s expanded identity-skip set
+                # (PROPN/PUNCT/SYM/X/NUM): these tokens are not scored for
+                # lemma accuracy, so mispredictions on them must not enter
+                # the struggles set and skew curriculum decisions.
+                if upos in ("PROPN", "PUNCT", "SYM", "X", "NUM") or lemma in ("_", "-"):
                     continue
                 pred_id = int(preds[b, w])
                 pred_lemma = id2lemma.get(pred_id, "<UNK>")
@@ -424,7 +428,10 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         # Truncate opts.epochs to int BEFORE total_steps: both training
         # loops iterate int(opts.epochs) times, so a fractional value (e.g.
         # 3.5) would over-configure the scheduler and block full LR decay.
-        epochs_int = int(opts.epochs)
+        # max(1, ...) guards against fractional epochs in (0, 1) where
+        # int() would yield 0 and cause ZeroDivisionError downstream
+        # (e.g. len(train_pool) // epochs).
+        epochs_int = max(1, int(opts.epochs))
         # total_steps mirrors the actual optimizer-step count across all
         # epochs: (rows / (batch * grad_accum)) * epochs, floored per epoch.
         steps_per_epoch = len(train_rows) // (opts.batch_size * grad_accum)
@@ -451,7 +458,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 train_rows, val_rows, max_train=6075, max_val=909
             )
 
-            epochs = int(opts.epochs)
+            epochs = epochs_int
             current_train_indices = set(
                 range(min(len(train_pool), max(1, len(train_pool) // epochs)))
             )

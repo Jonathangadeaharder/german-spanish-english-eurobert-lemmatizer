@@ -24,10 +24,6 @@ from lemmatizer.data.conllu import read_conllu
 
 PAD_LABEL = -100
 
-# Tracks unknown UPOS tags seen during encoding so the warning fires once
-# per tag rather than once per occurrence (which would flood build logs).
-_UNKNOWN_UPOS_SEEN: set[str] = set()
-
 # ByT5 vocab layout (matches google/byt5-small SentencePiece byte encoding):
 # id 0 = <pad>, id 1 = </s> (EOS), id 2 = <unk>, ids 3..258 are the 256 byte
 # values (byte value b -> id b + 3); 259..383 unused. EOS at start and end.
@@ -84,6 +80,7 @@ def encode_sentence(
     upos_tags: list[str],
     lemma2id: dict[str, int],
     upos2id: dict[str, int] | None = None,
+    unknown_upos_seen: set[str] | None = None,
 ) -> dict:
     """Encode one sentence to byte-level input_ids + per-word spans + labels.
 
@@ -93,6 +90,10 @@ def encode_sentence(
     PROPN words are masked to PAD_LABEL for lemma labels. Unknown lemmas get
     <UNK>. When upos2id is provided, upos_labels are also produced (PROPN
     included — UPOS head should learn all tags).
+
+    `unknown_upos_seen` scopes the once-per-tag warning: the caller owns it
+    (typically one fresh set per `build_split` call) so warnings do not leak
+    across splits or tests and the function is safe under parallel `map`.
 
     Returns a dict with mlx arrays:
         input_ids: (T,) int32 byte ids, EOS-framed.
@@ -106,6 +107,7 @@ def encode_sentence(
     upos_labels: list[int] = []
 
     unk_id = lemma2id.get("<UNK>", 1)
+    seen = unknown_upos_seen if unknown_upos_seen is not None else set()
 
     for word, lemma, upos in zip(words, lemmas, upos_tags, strict=True):
         start = len(byte_ids)
@@ -127,10 +129,10 @@ def encode_sentence(
                 upos_labels.append(upos2id[upos])
             else:
                 # Unknown UPOS tags are masked from the loss (PAD_LABEL).
-                # Warn once per tag so silent signal loss surfaces in builds
-                # using malformed or non-standard data.
-                if upos not in _UNKNOWN_UPOS_SEEN:
-                    _UNKNOWN_UPOS_SEEN.add(upos)
+                # Warn once per tag (scoped to the caller's `seen` set) so
+                # silent signal loss surfaces without flooding build logs.
+                if upos not in seen:
+                    seen.add(upos)
                     print(
                         f"WARNING: unknown UPOS tag '{upos}' not in upos2id; "
                         "masking to PAD_LABEL (-100).",
@@ -169,9 +171,20 @@ def build_split(
     upos2id: dict[str, int] | None = None,
 ) -> Dataset:
     """Build a Dataset for one split (train/dev/test)."""
+    # One fresh seen-set per build_split call so unknown-UPOS warnings are
+    # scoped to this split (not leaked across train/dev/test) and the
+    # function is safe under parallel Dataset.map (no module-level mutation).
+    unknown_upos_seen: set[str] = set()
     rows = []
     for sent in read_conllu(conllu_path, lang="ar"):
-        encoded = encode_sentence(sent["words"], sent["lemmas"], sent["upos"], lemma2id, upos2id)
+        encoded = encode_sentence(
+            sent["words"],
+            sent["lemmas"],
+            sent["upos"],
+            lemma2id,
+            upos2id,
+            unknown_upos_seen=unknown_upos_seen,
+        )
         row = _encoded_to_row(encoded)
         row["words"] = sent["words"]
         row["lemmas"] = sent["lemmas"]

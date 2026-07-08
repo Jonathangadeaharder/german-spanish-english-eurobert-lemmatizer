@@ -132,27 +132,21 @@ def augment_multitask(lang_code: str) -> int:
 
         word_ids = enc.word_ids()
 
-        # Build labels. CEFR words are lemmas → IDENTITY or LOWERCASE.
-        # Check both prefixed and unprefixed forms in label2id.
+        # Build labels. CEFR words are already lemmas (per the module
+        # docstring), so the correct edit label is always IDENTITY — the
+        # surface form equals the lemma. LOWERCASE would train the model to
+        # output word.lower() (e.g. German "Haus" → "haus"), which is wrong
+        # for languages where capitalized nouns ARE the lemma.
         identity_label = f"{lang_code}::IDENTITY"
-        lowercase_label = f"{lang_code}::LOWERCASE"
-        # Fallback to unprefixed if prefixed not in label2id
         if identity_label not in label2id:
             identity_label = "IDENTITY"
-        if lowercase_label not in label2id:
-            lowercase_label = "LOWERCASE"
-
-        # Use IDENTITY by default, LOWERCASE if word is capitalized
-        if word[0].isupper() and word.lower() != word:
-            label_name = lowercase_label
-        else:
-            label_name = identity_label
+        label_name = identity_label
 
         fallback = label2id.get(identity_label, label2id.get("UNKNOWN", 0))
         if label_name not in label2id:
-            # The chosen label is absent from label2id AND the IDENTITY
-            # fallback missed too — the CEFR word would silently get the
-            # UNKNOWN class (id 0), corrupting training. Warn so this surfaces.
+            # The IDENTITY label is absent from label2id AND the fallback
+            # resolved to UNKNOWN (id 0) — the CEFR word would silently get
+            # the UNKNOWN class, corrupting training. Warn so this surfaces.
             print(
                 f"  WARNING: label '{label_name}' not in label2id for "
                 f"{lang_code}; falling back to UNKNOWN (id={fallback}).",
@@ -233,6 +227,9 @@ def main(argv: list[str]) -> int:
             print(f"Failed languages: {', '.join(failed)}", flush=True)
             return 1
     elif args.lang:
+        if args.lang not in _LANGUAGE_TABLE:
+            available = ", ".join(sorted(_LANGUAGE_TABLE))
+            parser.error(f"unsupported --lang {args.lang!r}; expected one of: {available}")
         augment_multitask(args.lang)
     else:
         parser.print_help()

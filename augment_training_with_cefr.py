@@ -21,32 +21,15 @@ import sys
 import tempfile
 from pathlib import Path
 
-from lemmatizer.languages import vocab_levels_root
+from lemmatizer.languages import LANGUAGES, vocab_levels_root
 
 LEM_REPO = Path(__file__).parent
 VOCAB_REPO = vocab_levels_root()
 
-LANGUAGES = {
-    "de": "german",
-    "en": "english",
-    "es": "spanish",
-    "fr": "french",
-    "sv": "swedish",
-    "ar": "arabic",
-    "zh": "chinese",
-    "nl": "dutch",
-}
-
-LEMMAS = {
-    "de": "German_Lemma",
-    "en": "English_Lemma",
-    "es": "Spanish_Lemma",
-    "fr": "French_Lemma",
-    "sv": "Swedish_Lemma",
-    "ar": "Arabic_Lemma",
-    "zh": "Chinese_Lemma",
-    "nl": "Dutch_Lemma",
-}
+# Single source of truth: derive (lang_name, lemma_col) from the registry in
+# lemmatizer.languages instead of duplicating the mapping here. Adding or
+# renaming a language/column in LanguageSpec propagates automatically.
+_LANG_TABLE = {s.lang: (s.name, s.vocab_lemma_column) for s in LANGUAGES if s.vocab_lemma_column}
 
 CEFR_LEVELS = ("A1", "A2", "B1", "B2", "C1")
 
@@ -133,8 +116,7 @@ def make_conllu_sentence(sent_id: str, word: str, lemma: str, upos: str) -> str:
 
 def augment_language(lang_code: str) -> int:
     """Augment training data for one language. Returns count of added words."""
-    lang_name = LANGUAGES[lang_code]
-    lemma_col = LEMMAS[lang_code]
+    lang_name, lemma_col = _LANG_TABLE[lang_code]
     gold_dir = LEM_REPO / "data" / "gold" / lang_code
 
     train_path = gold_dir / "train.conllu"
@@ -211,16 +193,28 @@ def augment_language(lang_code: str) -> int:
 
     # Write the augmented snapshot (aug_path) AFTER the restore/recompute
     # block so it always reflects the same final content as train_path.
+    # Crash-window note: if a crash occurs between this write and the
+    # os.replace below, aug_path may briefly differ from train_path on
+    # disk. This is self-healing — the next run detects 'cefr-augmented'
+    # in train.conllu and restores from the backup before re-augmenting.
     aug_path.write_text(augmented, encoding="utf-8")
     print(f"  Written {len(missing)} synthetic sentences to {aug_path}", flush=True)
 
     tmp_fd, tmp_path = tempfile.mkstemp(dir=gold_dir, suffix=".tmp")
     try:
-        with os.fdopen(tmp_fd, "w", encoding="utf-8") as tmp_f:
+        try:
+            tmp_f = os.fdopen(tmp_fd, "w", encoding="utf-8")
+        except Exception:
+            # os.fdopen takes ownership of tmp_fd; if it raises, mkstemp
+            # already opened the FD — close it explicitly to avoid a leak.
+            os.close(tmp_fd)
+            raise
+        with tmp_f:
             tmp_f.write(augmented)
         os.replace(tmp_path, train_path)
     except Exception:
-        os.unlink(tmp_path)
+        if Path(tmp_path).exists():
+            os.unlink(tmp_path)
         raise
     print(f"  Replaced {train_path} with augmented version", flush=True)
 
@@ -231,7 +225,7 @@ def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description="Augment UD training data with CEFR words.")
     parser.add_argument(
         "--lang",
-        choices=tuple(LANGUAGES.keys()),
+        choices=tuple(_LANG_TABLE.keys()),
         help="Language code (de/en/es/fr/sv/ar/zh/nl)",
     )
     parser.add_argument(
@@ -244,7 +238,7 @@ def main(argv: list[str]) -> int:
     if args.all:
         total = 0
         failed: list[str] = []
-        for code in LANGUAGES:
+        for code in _LANG_TABLE:
             # Isolate per-language failures so one language raising mid-way
             # does not abort the batch (previously-augmented languages already
             # had train.conllu replaced; remaining ones would be skipped).

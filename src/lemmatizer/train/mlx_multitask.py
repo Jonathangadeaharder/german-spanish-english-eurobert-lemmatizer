@@ -469,19 +469,24 @@ def masked_ce(logits: mx.array, labels: mx.array) -> mx.array:
 
 
 def word_positions(row: dict) -> list[int]:
-    return [i for i, label in enumerate(row["upos_labels"]) if label != -100]
+    # Datasets built without a UPOS label map (e.g. byt5_dataset with
+    # upos2id=None) omit "upos_labels". Fall back to the lemma labels so
+    # evaluate/find_struggles still resolve per-word token positions instead
+    # of KeyErrors. PROPN is masked in lemma labels but present in words;
+    # callers tolerate n_positions < n_words via the truncation path.
+    label_key = "upos_labels" if "upos_labels" in row else "labels"
+    return [i for i, label in enumerate(row[label_key]) if label != -100]
 
 
 def _n_kept_words(row: dict) -> int:
     # Number of original words the tokenizer kept (post MAX_LENGTH truncation).
     # Prefer explicit build-time signals when present; otherwise fall back to
     # the words list, which dataset.py pre-trims to the kept count.
+    # (The prior `row.get("word_ids")` branch was dead code: dataset builders
+    # never store word_ids in the row, only n_kept, so it always fell through
+    # to len(row["words"]). Removed to avoid confusion.)
     if "n_kept" in row:
         return int(row["n_kept"])
-    word_ids = row.get("word_ids")
-    if word_ids is not None:
-        kept = {wid for wid in word_ids if wid is not None}
-        return max(kept) if kept else 0
     return len(row["words"])
 
 
@@ -599,6 +604,11 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
             words = row["words"][:n_positions]
             lemmas = row["lemmas"][:n_positions]
             upos = row["upos"][:n_positions]
+            # When the dataset lacks upos_labels the UPOS head is untrained;
+            # its argmax would be random and corrupt the IDENTITY_UPOS skip
+            # + resolve() path. Default to the gold POS so eval reflects the
+            # lemma head alone rather than a random UPOS head.
+            has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
                 zip(words, lemmas, upos, strict=True)
             ):
@@ -606,7 +616,12 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
                     break
                 token_i = positions[word_i]
                 total += 1
-                predicted_upos = upos_id2label.get(str(int(np.argmax(upos_np[b, token_i]))), "X")
+                if has_upos:
+                    predicted_upos = upos_id2label.get(
+                        str(int(np.argmax(upos_np[b, token_i]))), "X"
+                    )
+                else:
+                    predicted_upos = gold_pos
                 if predicted_upos == gold_pos:
                     upos_correct += 1
                 if gold_pos in IDENTITY_UPOS:
@@ -697,13 +712,23 @@ def find_struggles(
             words = row["words"][:n_positions]
             lemmas = row["lemmas"][:n_positions]
             upos = row["upos"][:n_positions]
+            # When the dataset lacks upos_labels the UPOS head is untrained;
+            # its argmax would be random and corrupt the IDENTITY_UPOS skip
+            # + resolve() path. Default to the gold POS so struggles reflect
+            # the lemma head alone rather than a random UPOS head.
+            has_upos = "upos_labels" in row
             for word_i, (word, gold_lemma, gold_pos) in enumerate(
                 zip(words, lemmas, upos, strict=True)
             ):
                 if word_i >= len(positions):
                     break
                 token_i = positions[word_i]
-                predicted_upos = upos_id2label.get(str(int(np.argmax(upos_np[b, token_i]))), "X")
+                if has_upos:
+                    predicted_upos = upos_id2label.get(
+                        str(int(np.argmax(upos_np[b, token_i]))), "X"
+                    )
+                else:
+                    predicted_upos = gold_pos
                 if gold_pos in IDENTITY_UPOS:
                     continue
                 base = (
