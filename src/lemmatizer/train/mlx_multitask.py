@@ -1062,14 +1062,21 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             print(f"Unfroze last {opts.unfreeze_last_n} encoder layers", flush=True)
 
         # total_steps mirrors the actual optimizer-step count across all
-        # epochs: (rows / (batch * grad_accum)) * epochs, floored per epoch.
-        # The optimizer is reused across all epochs, so the schedule must
-        # span every epoch's optimizer steps.
+        # epochs. Optimizer steps per epoch = ceil(batches / grad_accum)
+        # where batches = ceil(rows / batch_size).
         epochs_int = max(1, int(opts.epochs))
         grad_accum = max(1, int(opts.grad_accum))
-        steps_per_epoch = len(train_rows) // (opts.batch_size * grad_accum)
-        total_steps = max(1, int(steps_per_epoch * epochs_int))
-        warmup_steps = max(1, int(total_steps * opts.warmup))
+        batches_per_epoch = math.ceil(
+            len(train_rows) / opts.batch_size
+        )
+        steps_per_epoch = max(
+            1, math.ceil(batches_per_epoch / grad_accum)
+        )
+        total_steps = max(1, steps_per_epoch * epochs_int)
+        warmup_steps = min(
+            max(1, int(total_steps * opts.warmup)),
+            max(1, total_steps - 1),
+        )
         decay_steps = max(1, total_steps - warmup_steps)
         lr_schedule = optim.join_schedules(
             [
