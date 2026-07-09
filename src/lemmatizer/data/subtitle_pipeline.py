@@ -6,6 +6,7 @@ For de/en/es/fr/nl: uses spaCy large models.
 
 Quality filters: length, garble detection, deduplication.
 """
+
 from __future__ import annotations
 
 import os
@@ -34,9 +35,7 @@ def _token_count(text: str) -> int:
     if not text:
         return 0
     words = text.split()
-    if len(words) <= 1 and any(
-        "\u4e00" <= c <= "\u9fff" for c in text
-    ):
+    if len(words) <= 1 and any("\u4e00" <= c <= "\u9fff" for c in text):
         return len(text)
     return len(words)
 
@@ -71,9 +70,7 @@ def filter_sentences(sentences: list[str]) -> list[str]:
     return result
 
 
-def annotate_with_stanza(
-    sentences: list[str], lang: str, nlp=None
-) -> list[str]:
+def annotate_with_stanza(sentences: list[str], lang: str, nlp=None) -> list[str]:
     """Annotate sentences with stanza → CoNLL-U strings.
 
     Returns a list of CoNLL-U sentence blocks (one per input sentence
@@ -81,43 +78,61 @@ def annotate_with_stanza(
     """
     if nlp is None:
         import stanza
-        # mwt is not available for all languages; use only
-        # tokenize,pos,lemma (lemma requires pos).
-        nlp = stanza.Pipeline(
-            lang=lang,
-            processors="tokenize,pos,lemma",
-            verbose=False,
-            use_gpu=False,
-        )
+
+        try:
+            # mwt is not available for all languages; use only
+            # tokenize,pos,lemma (lemma requires pos).
+            nlp = stanza.Pipeline(
+                lang=lang,
+                processors="tokenize,pos,lemma",
+                verbose=False,
+                use_gpu=False,
+            )
+        except Exception as exc:
+            raise RuntimeError(f"Failed to load stanza pipeline for {lang}: {exc}") from exc
 
     results: list[str] = []
     for i, sent in enumerate(sentences):
-        doc = nlp(sent)
-        for j, sentence in enumerate(doc.sentences):
-            lines: list[str] = []
-            lines.append(f"# sent_id = subtitle-{lang}-{i:05d}-{j}")
-            lines.append(f"# text = {sent}")
-            for word in sentence.words:
-                form = word.text
-                lemma = word.lemma or form
-                upos = word.upos or "X"
-                tid = word.id
-                # 10-column CoNLL-U.
-                cols = [
-                    str(tid), form, lemma, upos, "_", "_",
-                    "0" if j == 0 else "_",
-                    "root" if j == 0 else "_",
-                    "_", "_",
-                ]
-                lines.append("\t".join(cols))
-            lines.append("")
-            results.append("\n".join(lines))
+        try:
+            doc = nlp(sent)
+            for j, sentence in enumerate(doc.sentences):
+                lines: list[str] = []
+                lines.append(f"# sent_id = subtitle-{lang}-{i:05d}-{j}")
+                lines.append(f"# text = {sent}")
+                for word in sentence.words:
+                    form = word.text
+                    lemma = word.lemma or form
+                    upos = word.upos or "X"
+                    tid = word.id
+                    head = word.head if word.head else "0"
+                    deprel = word.deprel or "_"
+                    # 10-column CoNLL-U.
+                    cols = [
+                        str(tid),
+                        form,
+                        lemma,
+                        upos,
+                        "_",
+                        "_",
+                        str(head),
+                        deprel,
+                        "_",
+                        "_",
+                    ]
+                    lines.append("\t".join(cols))
+                lines.append("")
+                results.append("\n".join(lines))
+        except Exception as exc:
+            print(
+                f"  stanza: failed sentence {i}: {exc}",
+                file=sys.stderr,
+                flush=True,
+            )
+            continue
     return results
 
 
-def annotate_with_spacy(
-    sentences: list[str], lang: str, nlp=None
-) -> list[str]:
+def annotate_with_spacy(sentences: list[str], lang: str, nlp=None) -> list[str]:
     """Annotate sentences with spaCy → CoNLL-U strings."""
     spacy_models = {
         "de": "de_core_news_lg",
@@ -128,28 +143,55 @@ def annotate_with_spacy(
     }
     if nlp is None:
         import spacy
+
         model = spacy_models[lang]
-        nlp = spacy.load(model)
+        try:
+            nlp = spacy.load(model)
+        except Exception as exc:
+            raise RuntimeError(f"Failed to load spaCy model {model}: {exc}") from exc
 
     results: list[str] = []
-    for i, sent in enumerate(sentences):
-        doc = nlp(sent)
-        lines: list[str] = []
-        lines.append(f"# sent_id = subtitle-{lang}-{i:05d}")
-        lines.append(f"# text = {sent}")
-        for k, token in enumerate(doc, start=1):
-            form = token.text
-            lemma = token.lemma_ or form
-            upos = token.pos_ or "X"
-            cols = [
-                str(k), form, lemma, upos, "_", "_",
-                "0" if k == 1 else "_",
-                "root" if k == 1 else "_",
-                "_", "_",
-            ]
-            lines.append("\t".join(cols))
-        lines.append("")
-        results.append("\n".join(lines))
+    # Batch-process for efficiency on large subtitle datasets.
+    docs = list(nlp.pipe(sentences))
+    for i, (sent, doc) in enumerate(zip(sentences, docs, strict=True)):
+        try:
+            lines: list[str] = []
+            lines.append(f"# sent_id = subtitle-{lang}-{i:05d}")
+            lines.append(f"# text = {sent}")
+            for k, token in enumerate(doc, start=1):
+                form = token.text
+                lemma = token.lemma_ or form
+                upos = token.pos_ or "X"
+                # token.head.i is absolute (0-based) within the doc;
+                # the doc is a single sentence, so +1 gives the
+                # 1-based head index, root → 0.
+                if token.head == token:
+                    head = "0"
+                else:
+                    head = str(token.head.i + 1)
+                deprel = token.dep_ or "_"
+                cols = [
+                    str(k),
+                    form,
+                    lemma,
+                    upos,
+                    "_",
+                    "_",
+                    head,
+                    deprel,
+                    "_",
+                    "_",
+                ]
+                lines.append("\t".join(cols))
+            lines.append("")
+            results.append("\n".join(lines))
+        except Exception as exc:
+            print(
+                f"  spacy: failed sentence {i}: {exc}",
+                file=sys.stderr,
+                flush=True,
+            )
+            continue
     return results
 
 
@@ -170,8 +212,7 @@ def process_language(
 
     filtered = filter_sentences(all_sentences)
     print(
-        f"  {lang}: {len(all_sentences)} raw → "
-        f"{len(filtered)} after filter",
+        f"  {lang}: {len(all_sentences)} raw → {len(filtered)} after filter",
         flush=True,
     )
     if not filtered:
@@ -183,18 +224,21 @@ def process_language(
         annotated = annotate_with_spacy(filtered, lang, nlp=nlp)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(
-        "\n".join(annotated), encoding="utf-8"
-    )
+    output_path.write_text("\n".join(annotated), encoding="utf-8")
     print(f"  {lang}: wrote {len(annotated)} sentences to {output_path}")
     return len(annotated)
 
 
 if __name__ == "__main__":
     lang = sys.argv[1] if len(sys.argv) > 1 else "sv"
-    sub_dir = Path(
-        os.getenv("SUBTITLE_DIR", "/Users/jonathangadeaharder/projects/vidiomtm/local-subtitles")
-    )
+    sub_dir_env = os.getenv("SUBTITLE_DIR")
+    if not sub_dir_env:
+        print(
+            "Error: SUBTITLE_DIR env var must point to the subtitle directory.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    sub_dir = Path(sub_dir_env)
     gold_dir = Path("data/gold")
 
     # Map language to subtitle files (VTT + SRT).
@@ -218,6 +262,7 @@ if __name__ == "__main__":
         "en": ["extra_english.vtt"],
         "es": ["extra_spanish.vtt"],
         "fr": ["extra_french.vtt"],
+        "nl": ["extra_dutch.vtt"],
     }
 
     files = [sub_dir / f for f in vtt_map.get(lang, [])]

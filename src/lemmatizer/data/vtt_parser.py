@@ -4,6 +4,7 @@ Strips timing lines, joins fragmented captions, splits into
 well-formed sentences. Output is plain text sentences ready for
 POS/lemma annotation.
 """
+
 from __future__ import annotations
 
 import re
@@ -11,10 +12,10 @@ from pathlib import Path
 
 _TIMING_RE = re.compile(r"^\d{2}:\d{2}[:.]")
 _TAG_RE = re.compile(r"<[^>]+>")
-_HEADER_RE = re.compile(r"^(WEBVTT|NOTE|STYLE|REGION|META)")
-_SRT_TIMING_RE = re.compile(
-    r"^\d{2}:\d{2}:\d{2}[,.]\d{3}\s*-->\s*\d{2}:\d{2}:\d{2}[,.]\d{3}"
-)
+# Only strip genuine VTT headers: the keyword must be followed by a
+# colon or optional trailing whitespace then end-of-line, so caption
+# text like "NOTE that the meeting is at 3pm" is preserved.
+_HEADER_RE = re.compile(r"^(WEBVTT|NOTE|STYLE|REGION|META)(:|\s*$)")
 
 
 def parse_vtt(path: Path) -> list[str]:
@@ -64,7 +65,12 @@ def blocks_to_sentences(blocks: list[str]) -> list[str]:
         if not text:
             continue
         # Split on sentence-final punctuation, keeping the delimiter.
-        parts = re.split(r"(?<=[.!?。])\s+", text)
+        # CJK text has no spaces between sentences, so split on the
+        # punctuation itself rather than requiring trailing whitespace.
+        if any("\u4e00" <= c <= "\u9fff" for c in text):
+            parts = re.split(r"(?<=[.!?。])", text)
+        else:
+            parts = re.split(r"(?<=[.!?。])\s+", text)
         for part in parts:
             part = part.strip()
             if len(part) >= 5:
