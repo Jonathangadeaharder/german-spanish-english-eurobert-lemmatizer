@@ -22,3 +22,7 @@ dist/
 build/
 .DS_Store
 logs/
+
+# Validation pipeline intermediates
+data/validation_batches/
+data/validation_results/
