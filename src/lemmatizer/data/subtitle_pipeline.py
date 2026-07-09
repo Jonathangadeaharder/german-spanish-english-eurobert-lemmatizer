@@ -29,6 +29,20 @@ COL_FORM = 1
 COL_LEMMA = 2
 COL_UPOS = 3
 
+# Raise if more than this fraction of sentences fail annotation,
+# since silently emitting near-empty training data is worse than
+# failing loudly.
+FAILURE_THRESHOLD = 0.5
+
+
+def _raise_on_excess_failures(failures: int, total: int, backend: str) -> None:
+    if total <= 0:
+        return
+    if failures / total > FAILURE_THRESHOLD:
+        raise RuntimeError(
+            f"{backend}: {failures}/{total} sentences failed (>{FAILURE_THRESHOLD:.0%}); aborting"
+        )
+
 
 def _token_count(text: str) -> int:
     # For CJK text (no spaces), count characters as tokens.
@@ -80,11 +94,10 @@ def annotate_with_stanza(sentences: list[str], lang: str, nlp=None) -> list[str]
         import stanza
 
         try:
-            # mwt is not available for all languages; use only
-            # tokenize,pos,lemma (lemma requires pos).
+            # depparse fills word.head / word.deprel; lemma requires pos.
             nlp = stanza.Pipeline(
                 lang=lang,
-                processors="tokenize,pos,lemma",
+                processors="tokenize,pos,lemma,depparse",
                 verbose=False,
                 use_gpu=False,
             )
@@ -92,6 +105,7 @@ def annotate_with_stanza(sentences: list[str], lang: str, nlp=None) -> list[str]
             raise RuntimeError(f"Failed to load stanza pipeline for {lang}: {exc}") from exc
 
     results: list[str] = []
+    failures = 0
     for i, sent in enumerate(sentences):
         try:
             doc = nlp(sent)
@@ -123,12 +137,14 @@ def annotate_with_stanza(sentences: list[str], lang: str, nlp=None) -> list[str]
                 lines.append("")
                 results.append("\n".join(lines))
         except Exception as exc:
+            failures += 1
             print(
                 f"  stanza: failed sentence {i}: {exc}",
                 file=sys.stderr,
                 flush=True,
             )
             continue
+    _raise_on_excess_failures(failures, len(sentences), "stanza")
     return results
 
 
@@ -151,29 +167,28 @@ def annotate_with_spacy(sentences: list[str], lang: str, nlp=None) -> list[str]:
             raise RuntimeError(f"Failed to load spaCy model {model}: {exc}") from exc
 
     results: list[str] = []
+    failures = 0
     # Batch-process for efficiency on large subtitle datasets.
     # Iterate nlp.pipe directly rather than materializing a list, so
     # memory stays bounded on large subtitle corpora.
-    for i, (sent, doc) in enumerate(zip(sentences, nlp.pipe(sentences), strict=True)):
+    for i, (_sent, doc) in enumerate(zip(sentences, nlp.pipe(sentences), strict=True)):
         try:
-            lines: list[str] = []
-            lines.append(f"# sent_id = subtitle-{lang}-{i:05d}")
-            lines.append(f"# text = {sent}")
-            # Iterate doc.sents for consistency with stanza's
-            # doc.sentences path; honors spaCy's sentence
-            # segmentation so CoNLL-U output stays well-formed.
-            for sentence in doc.sents:
+            # Emit one CoNLL-U block per spaCy sentence so each
+            # block's head indices stay 1-based relative to its own
+            # sentence. token.head.i is doc-level (absolute), so the
+            # relative head index is token.head.i - sentence.start + 1.
+            for j, sentence in enumerate(doc.sents):
+                lines: list[str] = []
+                lines.append(f"# sent_id = subtitle-{lang}-{i:05d}-{j}")
+                lines.append(f"# text = {sentence.text}")
                 for k, token in enumerate(sentence, start=1):
                     form = token.text
                     lemma = token.lemma_ or form
                     upos = token.pos_ or "X"
-                    # token.head.i is absolute (0-based) within the
-                    # doc; the doc is a single sentence, so +1 gives
-                    # the 1-based head index, root → 0.
                     if token.head == token:
                         head = "0"
                     else:
-                        head = str(token.head.i + 1)
+                        head = str(token.head.i - sentence.start + 1)
                     deprel = token.dep_ or "_"
                     cols = [
                         str(k),
@@ -188,15 +203,17 @@ def annotate_with_spacy(sentences: list[str], lang: str, nlp=None) -> list[str]:
                         "_",
                     ]
                     lines.append("\t".join(cols))
-            lines.append("")
-            results.append("\n".join(lines))
+                lines.append("")
+                results.append("\n".join(lines))
         except Exception as exc:
+            failures += 1
             print(
                 f"  spacy: failed sentence {i}: {exc}",
                 file=sys.stderr,
                 flush=True,
             )
             continue
+    _raise_on_excess_failures(failures, len(sentences), "spacy")
     return results
 
 

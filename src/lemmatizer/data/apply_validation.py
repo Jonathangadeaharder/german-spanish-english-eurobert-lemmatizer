@@ -26,26 +26,20 @@ def parse_validation_results(
             line = line.strip()
             if not (line.startswith("VALID: ") or line.startswith("FIXED: ")):
                 continue
-            # Guard against malformed lines missing the " — " separator
-            # or the ": " id split, which would otherwise IndexError.
-            parts = line.split(" — ", 1)
-            if len(parts) < 2:
+            # Strip the " — reason" suffix if present (VALID lines may
+            # not have one). The sent_id is everything after "VALID: "
+            # or "FIXED: " up to the first " — ".
+            prefix_and_rest = line.split(": ", 1)
+            if len(prefix_and_rest) < 2:
                 print(
-                    f"  WARNING: skipping malformed validation line: {line[:60]!r}",
+                    f"  WARNING: skipping malformed line: {line[:60]!r}",
                     file=sys.stderr,
                     flush=True,
                 )
                 continue
-            id_parts = parts[0].split(": ", 1)
-            if len(id_parts) < 2:
-                print(
-                    f"  WARNING: skipping malformed validation line: {line[:60]!r}",
-                    file=sys.stderr,
-                    flush=True,
-                )
-                continue
-            sent_id = id_parts[1].strip()
-            keep.add(sent_id)
+            sent_id = prefix_and_rest[1].split(" — ", 1)[0].strip()
+            if sent_id:
+                keep.add(sent_id)
     return keep
 
 
@@ -57,6 +51,7 @@ def filter_conllu_by_sent_ids(
     text = conllu_path.read_text(encoding="utf-8")
     blocks = [b.strip() for b in text.split("\n\n") if b.strip()]
     result: list[str] = []
+    found_ids: set[str] = set()
     for block in blocks:
         m = _SENT_ID_RE.search(block)
         if m is None:
@@ -68,8 +63,18 @@ def filter_conllu_by_sent_ids(
                 flush=True,
             )
             continue
-        if m.group(1) in keep_ids:
+        sid = m.group(1)
+        if sid in keep_ids:
             result.append(block)
+            found_ids.add(sid)
+    missing = keep_ids - found_ids
+    if missing:
+        print(
+            f"  NOTE: {len(missing)} keep_ids not found in {conllu_path.name} "
+            f"(e.g. {sorted(missing)[:5]})",
+            file=sys.stderr,
+            flush=True,
+        )
     return result
 
 
@@ -127,6 +132,35 @@ def _has_subtitle_blocks(conllu_path: Path) -> bool:
     return bool(re.search(r"# sent_id = subtitle-", text))
 
 
+def _append_blocks_atomically(conllu_path: Path, blocks: list[str]) -> None:
+    """Append CoNLL-U blocks to a file atomically.
+
+    Reads the current contents, appends the blocks, then writes via a
+    tempfile + os.replace so a crash mid-write cannot leave
+    train.conllu truncated or half-appended.
+    """
+    if not blocks:
+        return
+    existing = conllu_path.read_text(encoding="utf-8")
+    addition = "\n\n" + "\n\n".join(blocks) + "\n"
+    new_text = existing + addition
+    parent = conllu_path.parent
+    tmp_fd, tmp_path = tempfile.mkstemp(dir=parent, suffix=".tmp")
+    try:
+        try:
+            tmp_f = os.fdopen(tmp_fd, "w", encoding="utf-8")
+        except Exception:
+            os.close(tmp_fd)
+            raise
+        with tmp_f:
+            tmp_f.write(new_text)
+        os.replace(tmp_path, conllu_path)
+    except Exception:
+        if Path(tmp_path).exists():
+            os.unlink(tmp_path)
+        raise
+
+
 def run_pipeline(langs: list[str]) -> None:
     gold_dir = Path("data/gold")
     val_dir = Path("data/validation_results")
@@ -150,9 +184,12 @@ def run_pipeline(langs: list[str]) -> None:
         validated_blocks = filter_conllu_by_sent_ids(sub_path, keep_ids)
         print(f"  Validated subtitle blocks: {len(validated_blocks)}")
 
-        # Write validated subtitle file.
+        # Write validated subtitle file (avoid stray newlines when empty).
         validated_path = gold_dir / lang / "subtitle_validated.conllu"
-        validated_path.write_text("\n\n".join(validated_blocks) + "\n", encoding="utf-8")
+        if validated_blocks:
+            validated_path.write_text("\n\n".join(validated_blocks) + "\n", encoding="utf-8")
+        else:
+            validated_path.write_text("", encoding="utf-8")
 
         # 3. Remove cefr-augmented sentences from train.conllu.
         train_path = gold_dir / lang / "train.conllu"
@@ -164,9 +201,10 @@ def run_pipeline(langs: list[str]) -> None:
             # skip if subtitle- sent_ids already present).
             if _has_subtitle_blocks(train_path):
                 print("  subtitle- sent_ids already present; skipping append")
+            elif not validated_blocks:
+                print("  No validated blocks to append; skipping")
             else:
-                with train_path.open("a", encoding="utf-8") as f:
-                    f.write("\n\n" + "\n\n".join(validated_blocks) + "\n")
+                _append_blocks_atomically(train_path, validated_blocks)
                 print(f"  Appended {len(validated_blocks)} validated subtitle sentences")
 
             # 5. Snapshot train.conllu (treebank + subtitle blocks,
