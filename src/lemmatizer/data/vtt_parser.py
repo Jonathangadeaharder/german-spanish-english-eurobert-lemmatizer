@@ -67,8 +67,10 @@ def blocks_to_sentences(blocks: list[str]) -> list[str]:
         # Split on sentence-final punctuation, keeping the delimiter.
         # CJK text has no spaces between sentences, so split on the
         # punctuation itself rather than requiring trailing whitespace.
+        # Use only CJK punctuation in the CJK path so ASCII periods
+        # inside numbers (3.14) or abbreviations (Dr.) are preserved.
         if any("\u4e00" <= c <= "\u9fff" for c in text):
-            parts = re.split(r"(?<=[.!?。])", text)
+            parts = re.split(r"(?<=[。！？])", text)
         else:
             parts = re.split(r"(?<=[.!?。])\s+", text)
         for part in parts:

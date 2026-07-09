@@ -152,37 +152,42 @@ def annotate_with_spacy(sentences: list[str], lang: str, nlp=None) -> list[str]:
 
     results: list[str] = []
     # Batch-process for efficiency on large subtitle datasets.
-    docs = list(nlp.pipe(sentences))
-    for i, (sent, doc) in enumerate(zip(sentences, docs, strict=True)):
+    # Iterate nlp.pipe directly rather than materializing a list, so
+    # memory stays bounded on large subtitle corpora.
+    for i, (sent, doc) in enumerate(zip(sentences, nlp.pipe(sentences), strict=True)):
         try:
             lines: list[str] = []
             lines.append(f"# sent_id = subtitle-{lang}-{i:05d}")
             lines.append(f"# text = {sent}")
-            for k, token in enumerate(doc, start=1):
-                form = token.text
-                lemma = token.lemma_ or form
-                upos = token.pos_ or "X"
-                # token.head.i is absolute (0-based) within the doc;
-                # the doc is a single sentence, so +1 gives the
-                # 1-based head index, root → 0.
-                if token.head == token:
-                    head = "0"
-                else:
-                    head = str(token.head.i + 1)
-                deprel = token.dep_ or "_"
-                cols = [
-                    str(k),
-                    form,
-                    lemma,
-                    upos,
-                    "_",
-                    "_",
-                    head,
-                    deprel,
-                    "_",
-                    "_",
-                ]
-                lines.append("\t".join(cols))
+            # Iterate doc.sents for consistency with stanza's
+            # doc.sentences path; honors spaCy's sentence
+            # segmentation so CoNLL-U output stays well-formed.
+            for sentence in doc.sents:
+                for k, token in enumerate(sentence, start=1):
+                    form = token.text
+                    lemma = token.lemma_ or form
+                    upos = token.pos_ or "X"
+                    # token.head.i is absolute (0-based) within the
+                    # doc; the doc is a single sentence, so +1 gives
+                    # the 1-based head index, root → 0.
+                    if token.head == token:
+                        head = "0"
+                    else:
+                        head = str(token.head.i + 1)
+                    deprel = token.dep_ or "_"
+                    cols = [
+                        str(k),
+                        form,
+                        lemma,
+                        upos,
+                        "_",
+                        "_",
+                        head,
+                        deprel,
+                        "_",
+                        "_",
+                    ]
+                    lines.append("\t".join(cols))
             lines.append("")
             results.append("\n".join(lines))
         except Exception as exc:
@@ -220,8 +225,12 @@ def process_language(
 
     if lang in STANZA_LANGS:
         annotated = annotate_with_stanza(filtered, lang, nlp=nlp)
-    else:
+    elif lang in SPACY_LANGS:
         annotated = annotate_with_spacy(filtered, lang, nlp=nlp)
+    else:
+        raise ValueError(
+            f"Unsupported language {lang!r}: expected one of {sorted(STANZA_LANGS | SPACY_LANGS)}"
+        )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text("\n".join(annotated), encoding="utf-8")

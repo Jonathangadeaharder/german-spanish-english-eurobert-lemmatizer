@@ -1,14 +1,16 @@
 """Apply validation results to subtitle CoNLL-U files.
 
 Reads validation result files, drops INVALID sentences, keeps VALID
-and FIXED sentences. Then exterminates cefr-augmented-* sentences
+and FIXED sentences. Then removes cefr-augmented-* sentences
 from train.conllu and appends the validated subtitle data.
 """
 
 from __future__ import annotations
 
+import os
 import re
 import sys
+import tempfile
 from pathlib import Path
 
 _SENT_ID_RE = re.compile(r"# sent_id = (\S+)")
@@ -22,10 +24,28 @@ def parse_validation_results(
     for f in sorted(results_dir.glob("batch_*.txt")):
         for line in f.read_text(encoding="utf-8").splitlines():
             line = line.strip()
-            if line.startswith("VALID: ") or line.startswith("FIXED: "):
-                parts = line.split(" — ", 1)
-                sent_id = parts[0].split(": ", 1)[1].strip()
-                keep.add(sent_id)
+            if not (line.startswith("VALID: ") or line.startswith("FIXED: ")):
+                continue
+            # Guard against malformed lines missing the " — " separator
+            # or the ": " id split, which would otherwise IndexError.
+            parts = line.split(" — ", 1)
+            if len(parts) < 2:
+                print(
+                    f"  WARNING: skipping malformed validation line: {line[:60]!r}",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                continue
+            id_parts = parts[0].split(": ", 1)
+            if len(id_parts) < 2:
+                print(
+                    f"  WARNING: skipping malformed validation line: {line[:60]!r}",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                continue
+            sent_id = id_parts[1].strip()
+            keep.add(sent_id)
     return keep
 
 
@@ -53,10 +73,12 @@ def filter_conllu_by_sent_ids(
     return result
 
 
-def exterminate_single_word_sentences(conllu_path: Path) -> int:
+def remove_cefr_augmented_sentences(conllu_path: Path) -> int:
     """Remove cefr-augmented-* sentences from a CoNLL-U file.
 
-    Returns the number of sentences removed.
+    Writes atomically (tempfile + os.replace) so a crash mid-write
+    cannot leave train.conllu truncated. Returns the number of
+    sentences removed.
     """
     text = conllu_path.read_text(encoding="utf-8")
     blocks = [b.strip() for b in text.split("\n\n") if b.strip()]
@@ -64,12 +86,38 @@ def exterminate_single_word_sentences(conllu_path: Path) -> int:
     removed = 0
     for block in blocks:
         m = _SENT_ID_RE.search(block)
-        sent_id = m.group(1) if m else ""
+        if m is None:
+            # Warn on blocks lacking sent_id so silent data loss
+            # is visible to the operator.
+            print(
+                f"  WARNING: dropping block without sent_id (preview: {block[:40]!r})",
+                file=sys.stderr,
+                flush=True,
+            )
+            continue
+        sent_id = m.group(1)
         if "cefr-augmented" in sent_id:
             removed += 1
         else:
             kept.append(block)
-    conllu_path.write_text("\n\n".join(kept) + "\n", encoding="utf-8")
+    new_text = "\n\n".join(kept) + "\n"
+    parent = conllu_path.parent
+    tmp_fd, tmp_path = tempfile.mkstemp(dir=parent, suffix=".tmp")
+    try:
+        try:
+            tmp_f = os.fdopen(tmp_fd, "w", encoding="utf-8")
+        except Exception:
+            # os.fdopen takes ownership of tmp_fd; if it raises,
+            # mkstemp already opened the FD — close it to avoid a leak.
+            os.close(tmp_fd)
+            raise
+        with tmp_f:
+            tmp_f.write(new_text)
+        os.replace(tmp_path, conllu_path)
+    except Exception:
+        if Path(tmp_path).exists():
+            os.unlink(tmp_path)
+        raise
     return removed
 
 
@@ -106,11 +154,11 @@ def run_pipeline(langs: list[str]) -> None:
         validated_path = gold_dir / lang / "subtitle_validated.conllu"
         validated_path.write_text("\n\n".join(validated_blocks) + "\n", encoding="utf-8")
 
-        # 3. Exterminate cefr-augmented sentences.
+        # 3. Remove cefr-augmented sentences from train.conllu.
         train_path = gold_dir / lang / "train.conllu"
         if train_path.exists():
-            removed = exterminate_single_word_sentences(train_path)
-            print(f"  Exterminated {removed} cefr-augmented sentences")
+            removed = remove_cefr_augmented_sentences(train_path)
+            print(f"  Removed {removed} cefr-augmented sentences")
 
             # 4. Append validated subtitle sentences (idempotent:
             # skip if subtitle- sent_ids already present).
@@ -121,9 +169,11 @@ def run_pipeline(langs: list[str]) -> None:
                     f.write("\n\n" + "\n\n".join(validated_blocks) + "\n")
                 print(f"  Appended {len(validated_blocks)} validated subtitle sentences")
 
-            # 5. Regenerate the cefr-augmented snapshot from the
-            # updated train.conllu (treebank + subtitle blocks),
-            # so it stays consistent instead of being truncated.
+            # 5. Snapshot train.conllu (treebank + subtitle blocks,
+            # no cefr-augmented single-word sentences) into
+            # train_cefr_augmented.conllu so the two stay in sync.
+            # Note: the file name is historical; the snapshot no
+            # longer contains CEFR-augmented sentences.
             aug_path = gold_dir / lang / "train_cefr_augmented.conllu"
             if aug_path.exists():
                 aug_path.write_text(
