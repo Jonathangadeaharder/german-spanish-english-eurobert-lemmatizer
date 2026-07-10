@@ -1,0 +1,31 @@
+name: Nightly CEFR Eval
+
+on:
+  schedule:
+    # 03:00 UTC daily
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cefr-eval:
+    name: CEFR vocabulary gate (>90% lemma + UPOS)
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6.0.3
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --all-groups --frozen
+      - name: CEFR eval gate (all languages)
+        run: |
+          uv run python -m lemmatizer.eval.cefr_eval --lang all
+      - name: Upload CEFR eval reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cefr-eval-reports
+          path: artifacts/cefr_eval/

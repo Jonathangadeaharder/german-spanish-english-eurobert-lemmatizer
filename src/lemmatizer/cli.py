@@ -161,6 +161,23 @@ def evaluate_cefr(
     main()
 
 
+@app.command("cefr-eval")
+def cefr_eval(
+    lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())} or 'all'"),
+    batch_size: int = typer.Option(8, min=1, help="Evaluation batch size"),
+) -> None:
+    """CEFR vocabulary eval gate (>90% lemma + UPOS, nonzero exit on fail)."""
+    if lang != "all":
+        try:
+            resolved = spec(lang)  # raises ValueError on unknown lang
+        except ValueError as e:
+            raise typer.BadParameter(str(e)) from e
+        lang = resolved.lang  # normalize aliases (e.g. "english" -> "en")
+    from lemmatizer.eval.cefr_eval import main
+
+    raise typer.Exit(code=main(["--lang", lang, "--batch-size", str(batch_size)]))
+
+
 @app.command("export-onnx")
 def export_onnx(
     lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())}"),

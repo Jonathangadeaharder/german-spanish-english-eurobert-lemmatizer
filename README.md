@@ -77,6 +77,26 @@ uv run eurobert-lemma export-onnx --lang ar
 uv run eurobert-lemma package-web
 ```
 
+## CEFR vocabulary evaluation gate
+
+Treebank test-set accuracy != CEFR-vocabulary accuracy. The CEFR eval
+harness reads VocabLevels CSVs and runs the full production pipeline
+(constrained argmax + lexicon fallback + postprocess) on every CEFR word
+in a treebank-sourced sentence, gated at >90% on both lemma and UPOS:
+
+```bash
+# one language
+uv run python -m lemmatizer.eval.cefr_eval --lang de
+
+# all 8 languages (nonzero exit if any <90%)
+uv run python -m lemmatizer.eval.cefr_eval --lang all
+uv run eurobert-lemma cefr-eval --lang all
+```
+
+Reports land in `artifacts/cefr_eval/<lang>.json`. The nightly
+`nightly-cefr-eval.yml` workflow runs the gate (too slow for the PR gate —
+it loads model checkpoints and runs MLX inference).
+
 Each MLX trainer also accepts its own argparse flags — see
 `uv run python -m lemmatizer.train.mlx_multitask --help` etc.
 
