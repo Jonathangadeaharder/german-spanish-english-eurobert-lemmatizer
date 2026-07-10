@@ -204,6 +204,9 @@ def test_main_lang_all_fails_when_one_below(monkeypatch, tmp_path):
     )
     rc = main(["--lang", "all", "--out-dir", str(tmp_path)])
     assert rc == 1
+
+
+def test_main_gate_fails_when_lemma_below_threshold(monkeypatch, tmp_path):
     """Gate returns 1 when lemma falls below GATE_ACCURACY."""
     failing_report = {
         "levels": {},
