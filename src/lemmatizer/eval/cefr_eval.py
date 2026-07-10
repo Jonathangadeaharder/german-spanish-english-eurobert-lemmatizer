@@ -204,9 +204,20 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
 
 
 def _find_term_index(words: list[str], term: str) -> int | None:
+    """Find the word index matching ``term``.
+
+    Matches case-insensitively. Also strips trailing punctuation from each
+    word so that a CEFR term at a sentence boundary (e.g. "Haus." in the
+    raw UD text) is still matched.
+    """
     term_lower = term.lower()
     for idx, word in enumerate(words):
         if word.lower() == term_lower:
+            return idx
+    # Fallback: compare with trailing punctuation stripped, so words
+    # adjacent to sentence-final punctuation are not silently skipped.
+    for idx, word in enumerate(words):
+        if word.lower().rstrip(".,;:!?\"'()[]") == term_lower:
             return idx
     return None
 
@@ -240,7 +251,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    langs = (
+    langs: list[str] = (
         [s.lang for s in LANGUAGES] if args.lang == "all" else [args.lang]
     )
     out_dir: Path = args.out_dir
@@ -249,7 +260,13 @@ def main(argv: list[str] | None = None) -> int:
     failed: list[str] = []
     for lang in langs:
         print(f"CEFR eval: {lang}", flush=True)
-        report = evaluate_language(lang, out_dir, args.batch_size)
+        try:
+            report = evaluate_language(lang, out_dir, args.batch_size)
+        except Exception as exc:  # noqa: BLE001 — CI gate must report all langs
+            print(f"  {lang}: ERROR {exc}", file=sys.stderr, flush=True)
+            summary[lang] = {"error": str(exc)}
+            failed.append(lang)
+            continue
         ov = report["overall"]
         summary[lang] = ov
         lemma_ok = ov["lemma_accuracy"] >= GATE_ACCURACY
