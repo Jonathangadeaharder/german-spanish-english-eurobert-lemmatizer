@@ -30,7 +30,12 @@ from pathlib import Path
 
 from lemmatizer.eval.cefr_data import LEVELS, build_sentence_index
 from lemmatizer.eval.context import build_eval_context
-from lemmatizer.languages import LANGUAGE_NAMES, LANGUAGES, vocab_levels_root
+from lemmatizer.languages import (
+    LANGUAGE_NAMES,
+    LANGUAGES,
+    VOCAB_LEMMA_COLUMNS,
+    vocab_levels_root,
+)
 
 # POS classes where the lemma concept does not apply. Lemma metric skips
 # these. UPOS is scored on content tokens (i.e. excluding these too, since
@@ -67,12 +72,15 @@ def load_cefr_vocab_with_pos(lang: str) -> list[CefrVocabEntry]:
         csv_path = vocab_dir / lang_name / f"{level}.csv"
         if not csv_path.exists():
             continue
-        with csv_path.open(encoding="utf-8") as f:
+        # utf-8-sig strips a BOM if present (Windows exports).
+        with csv_path.open(encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
             fieldnames = reader.fieldnames
             if not fieldnames:
                 continue
-            first_col = fieldnames[0]
+            # Use the registry's exact lemma column name; fall back to
+            # first column only if the registry has no mapping.
+            first_col = VOCAB_LEMMA_COLUMNS.get(lang) or fieldnames[0]
             header_pos = _resolve_pos_column(fieldnames)
             for row in reader:
                 term = (row.get(first_col) or "").strip()
@@ -94,6 +102,8 @@ def _resolve_pos_column(fieldnames: list[str] | None) -> str | None:
 
 def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     """Run CEFR eval for one language. Returns the per-language report dict."""
+    if batch_size < 1:
+        raise ValueError(f"batch_size must be >= 1, got {batch_size}")
     ctx = build_eval_context(lang)
     try:
         first_word_offset = ctx.first_word_offset()

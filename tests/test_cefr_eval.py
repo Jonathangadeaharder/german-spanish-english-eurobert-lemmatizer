@@ -117,7 +117,93 @@ def test_main_gate_passes_when_above_threshold(monkeypatch, tmp_path):
     assert rc == 0
 
 
-def test_main_gate_fails_when_below_threshold(monkeypatch, tmp_path):
+def test_main_gate_passes_at_exact_boundary(monkeypatch, tmp_path):
+    """Gate returns 0 when accuracy is exactly GATE_ACCURACY (>= comparison)."""
+    boundary_report = {
+        "levels": {},
+        "overall": {
+            "lemma_accuracy": GATE_ACCURACY,
+            "upos_accuracy": GATE_ACCURACY,
+            "lemma_total": 10,
+            "upos_total": 10,
+        },
+    }
+    monkeypatch.setattr(
+        "lemmatizer.eval.cefr_eval.evaluate_language",
+        lambda lang, out_dir, bs: boundary_report,
+    )
+    rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
+    assert rc == 0
+
+
+def test_main_lang_all_passes_when_all_clear(monkeypatch, tmp_path):
+    """--lang all returns 0 when every language clears the gate."""
+    passing_report = {
+        "levels": {},
+        "overall": {
+            "lemma_accuracy": GATE_ACCURACY + 0.01,
+            "upos_accuracy": GATE_ACCURACY + 0.01,
+            "lemma_total": 10,
+            "upos_total": 10,
+        },
+    }
+    monkeypatch.setattr(
+        "lemmatizer.eval.cefr_eval.evaluate_language",
+        lambda lang, out_dir, bs: passing_report,
+    )
+
+    class _FakeSpec:
+        __slots__ = ("lang",)
+
+        def __init__(self, lang):
+            self.lang = lang
+
+    monkeypatch.setattr(
+        "lemmatizer.eval.cefr_eval.LANGUAGES",
+        [_FakeSpec("de"), _FakeSpec("en")],
+    )
+    rc = main(["--lang", "all", "--out-dir", str(tmp_path)])
+    assert rc == 0
+
+
+def test_main_lang_all_fails_when_one_below(monkeypatch, tmp_path):
+    """--lang all returns 1 when any language fails the gate."""
+    passing_report = {
+        "levels": {},
+        "overall": {
+            "lemma_accuracy": GATE_ACCURACY + 0.01,
+            "upos_accuracy": GATE_ACCURACY + 0.01,
+            "lemma_total": 10,
+            "upos_total": 10,
+        },
+    }
+    failing_report = {
+        "levels": {},
+        "overall": {
+            "lemma_accuracy": GATE_ACCURACY - 0.05,
+            "upos_accuracy": GATE_ACCURACY + 0.01,
+            "lemma_total": 10,
+            "upos_total": 10,
+        },
+    }
+
+    def fake_eval(lang, out_dir, bs):
+        return failing_report if lang == "de" else passing_report
+
+    monkeypatch.setattr("lemmatizer.eval.cefr_eval.evaluate_language", fake_eval)
+
+    class _FakeSpec:
+        __slots__ = ("lang",)
+
+        def __init__(self, lang):
+            self.lang = lang
+
+    monkeypatch.setattr(
+        "lemmatizer.eval.cefr_eval.LANGUAGES",
+        [_FakeSpec("de"), _FakeSpec("en")],
+    )
+    rc = main(["--lang", "all", "--out-dir", str(tmp_path)])
+    assert rc == 1
     """Gate returns 1 when lemma falls below GATE_ACCURACY."""
     failing_report = {
         "levels": {},
