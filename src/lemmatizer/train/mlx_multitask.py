@@ -464,13 +464,48 @@ def pad_batch(rows: list[dict], label_remap: dict[int, int] | None = None) -> di
     return {key: mx.array(value) for key, value in batch.items()}
 
 
-def masked_ce(logits: mx.array, labels: mx.array) -> mx.array:
+def masked_ce(
+    logits: mx.array, labels: mx.array, class_weights: mx.array | None = None
+) -> mx.array:
     flat_logits = logits.reshape(-1, logits.shape[-1])
     flat_labels = labels.reshape(-1)
     mask = flat_labels != -100
     safe = mx.maximum(flat_labels, 0)
     losses = nn.losses.cross_entropy(flat_logits, safe, reduction="none")
+    if class_weights is not None:
+        token_weights = class_weights[safe]
+        losses = losses * token_weights
     return mx.sum(losses * mask.astype(losses.dtype)) / mx.maximum(mx.sum(mask), 1)
+
+
+def compute_class_weights(
+    rows: list[dict],
+    label_remap: dict[int, int],
+    n_classes: int,
+    max_weight: float = 10.0,
+) -> mx.array:
+    """Inverse-sqrt-frequency class weights, normalized to mean=1.0.
+
+    IDENTITY/LOWERCASE labels dominate (~83%+ of tokens), causing the model
+    to predict them for everything under plain CE. Sqrt-frequency weighting
+    down-weights dominant classes and up-weights rare edit trees without
+    the extreme variance of plain inverse-frequency. Capped at max_weight
+    to prevent gradient spikes from ultra-rare labels.
+    """
+    counts = np.zeros(n_classes, dtype=np.float64)
+    for row in rows:
+        for label in row["labels"]:
+            if label == -100:
+                continue
+            cid = label_remap.get(int(label), -100)
+            if 0 <= cid < n_classes:
+                counts[cid] += 1
+    weights = np.ones(n_classes, dtype=np.float32)
+    nonzero = counts > 0
+    raw = np.sqrt(counts.sum() / np.maximum(counts, 1.0))
+    mean_raw = raw[nonzero].mean() if nonzero.any() else 1.0
+    weights[nonzero] = np.minimum(raw[nonzero] / mean_raw, max_weight)
+    return mx.array(weights)
 
 
 def word_positions(row: dict) -> list[int]:
@@ -887,12 +922,15 @@ def train_epoch(
     label_remap: dict[int, int],
     grad_accum: int = 1,
     upos_weight: float = 1.0,
+    lemma_class_weights: mx.array | None = None,
 ) -> float:
     model.train()
 
     def loss_fn(model, batch):
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        lemma_loss = masked_ce(lemma_logits, batch["labels"])
+        lemma_loss = masked_ce(
+            lemma_logits, batch["labels"], lemma_class_weights
+        )
         # Weight the auxiliary UPOS head so its smaller class count
         # (~17) doesn't dominate or be dominated by the lemma head
         # (hundreds of classes). Default 1.0 preserves prior behavior.
@@ -1100,6 +1138,27 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             flush=True,
         )
 
+        n_lemma_classes = len(label_remap) if label_remap else 0
+        lemma_cw = None
+        if n_lemma_classes > 0:
+            lemma_cw = compute_class_weights(
+                effective_rows, label_remap, n_lemma_classes
+            )
+            cw_np = np.array(lemma_cw)
+            nonzero = cw_np[cw_np > 0]
+            print(
+                json.dumps(
+                    {
+                        "event": "class_weights",
+                        "n_classes": n_lemma_classes,
+                        "min": float(nonzero.min()) if len(nonzero) else 0.0,
+                        "max": float(nonzero.max()) if len(nonzero) else 0.0,
+                        "mean": float(nonzero.mean()) if len(nonzero) else 0.0,
+                    }
+                ),
+                flush=True,
+            )
+
         if opts.curriculum:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
             max_train = 50000 if lang == "sv" else 7000
@@ -1131,6 +1190,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     label_remap,
                     grad_accum=grad_accum,
                     upos_weight=opts.upos_weight,
+                    lemma_class_weights=lemma_cw,
                 )
                 metrics = {
                     "epoch": epoch,
@@ -1218,6 +1278,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     label_remap,
                     grad_accum=grad_accum,
                     upos_weight=opts.upos_weight,
+                    lemma_class_weights=lemma_cw,
                 )
                 metrics = {
                     "epoch": epoch + 1,

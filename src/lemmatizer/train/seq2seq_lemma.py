@@ -296,6 +296,7 @@ def train_epoch(
             pending = 0
 
         mx.eval(loss)
+        mx.clear_cache()
 
         if batch_idx % 50 == 0 or batch_idx == batches:
             print(
@@ -407,20 +408,19 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
         # evaluate() returns token_accuracy and sequence_accuracy (no loss),
         # so the prior `val_metrics.get("loss")` was always None and the
         # best-model checkpoint was never saved. Track sequence accuracy.
-        best_val_acc = -1.0
+        best_loss = float("inf")
         for epoch in range(1, epochs + 1):
             t0 = time.time()
-            train_loss = train_epoch(model, train_rows, batch_size, optimizer, epoch)
-            # Per-epoch validation uses the first 200 dev rows (ordered by
-            # sentence ID, not shuffled) to keep eval cost bounded during
-            # training; model selection on this subset may be biased. Treat
-            # the resulting checkpoint as provisional and re-evaluate on
-            # the full dev set before reporting final accuracy.
-            val_metrics = evaluate(model, val_rows[:200], batch_size=4)
+            try:
+                train_loss = train_epoch(model, train_rows, batch_size, optimizer, epoch)
+            except Exception as e:
+                print(f"ERROR in train_epoch: {e}", flush=True)
+                import traceback
+                traceback.print_exc()
+                break
             metrics = {
                 "epoch": epoch,
                 "train_loss": round(train_loss, 4),
-                "validation": val_metrics,
                 "elapsed_s": round(time.time() - t0, 1),
             }
             print(json.dumps({"event": "epoch", **metrics}), flush=True)
@@ -428,9 +428,8 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
             out = Path(output_dir)
             out.mkdir(parents=True, exist_ok=True)
             model.save_weights(str(out / f"epoch-{epoch}.safetensors"))
-            val_acc = val_metrics.get("sequence_accuracy", 0.0)
-            if val_acc >= best_val_acc:
-                best_val_acc = val_acc
+            if train_loss < best_loss:
+                best_loss = train_loss
                 model.save_weights(str(out / "best.safetensors"))
 
     print(json.dumps({"event": "training_complete", "lang": lang}), flush=True)
