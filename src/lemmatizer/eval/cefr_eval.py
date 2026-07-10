@@ -122,12 +122,19 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
             if not sentences:
                 skipped_no_sentence += 1
                 continue
-            words = sentences[0].split()
-            idx = _find_term_index(words, entry.term)
-            if idx is None:
+            # Try each available sentence until one matches the term,
+            # so a tokenization mismatch on one sentence does not drop
+            # the term from evaluation.
+            matched = False
+            for sentence in sentences:
+                words = sentence.split()
+                idx = _find_term_index(words, entry.term)
+                if idx is not None:
+                    rows.append((entry, words, idx))
+                    matched = True
+                    break
+            if not matched:
                 skipped_no_match += 1
-                continue
-            rows.append((entry, words, idx))
 
         stats: dict[str, dict] = defaultdict(
             lambda: {
