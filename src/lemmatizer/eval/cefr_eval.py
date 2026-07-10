@@ -1,0 +1,271 @@
+"""CEFR vocabulary evaluation harness — the real acceptance gate.
+
+Treebank test-set accuracy != CEFR-vocabulary accuracy. This harness reads
+VocabLevels CSVs (one row per (lemma, POS) pair) and runs the *full*
+production pipeline on each CEFR word in a treebank-sourced sentence:
+
+    model forward -> constrained argmax -> lexicon fallback -> postprocess
+
+NOT bare argmax. Word-level exact match. Lemma metric skips POS classes
+where the lemma concept does not apply (PROPN/PUNCT/SYM/X/NUM); UPOS is
+scored on all content tokens. Gates >90% on both metrics (nonzero exit on
+failure).
+
+Reproducible:
+    uv run python -m lemmatizer.eval.cefr_eval --lang de
+    uv run python -m lemmatizer.eval.cefr_eval --lang all
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import os
+import sys
+from collections import defaultdict
+from dataclasses import dataclass
+from pathlib import Path
+
+from lemmatizer.eval.cefr_data import LEVELS, build_sentence_index
+from lemmatizer.eval.context import build_eval_context
+from lemmatizer.languages import LANGUAGE_NAMES, LANGUAGES, vocab_levels_root
+
+# POS classes where the lemma concept does not apply. Lemma metric skips
+# these. UPOS is scored on content tokens (i.e. excluding these too, since
+# PUNCT/SYM/X/NUM carry no semantic content worth gating on).
+SKIP_POS_FOR_LEMMA = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
+
+# Gate: every language must clear this on both metrics.
+GATE_ACCURACY = 0.90
+
+DEFAULT_OUT_DIR = Path("artifacts/cefr_eval")
+
+
+@dataclass
+class CefrVocabEntry:
+    level: str
+    term: str
+    pos: str
+
+
+def load_cefr_vocab_with_pos(lang: str) -> list[CefrVocabEntry]:
+    """Load (lemma, POS) pairs from VocabLevels CSVs for one language.
+
+    The VocabLevels schema's first column is the language lemma column
+    (German_Lemma, French_Lemma, ...) and the POS column is named ``POS``.
+    """
+    vocab_dir = vocab_levels_root()
+    lang_name = LANGUAGE_NAMES.get(lang, lang)
+    entries: list[CefrVocabEntry] = []
+
+    for level in LEVELS:
+        csv_path = vocab_dir / lang_name / f"{level}.csv"
+        if not csv_path.exists():
+            continue
+        with csv_path.open(encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            header_pos = _resolve_pos_column(reader.fieldnames)
+            for row in reader:
+                term = (row.get(next(iter(reader.fieldnames))) or "").strip()
+                pos = (row.get(header_pos) or "").strip() if header_pos else ""
+                if term:
+                    entries.append(CefrVocabEntry(level=level, term=term, pos=pos))
+
+    return entries
+
+
+def _resolve_pos_column(fieldnames: list[str] | None) -> str | None:
+    if not fieldnames:
+        return None
+    for name in fieldnames:
+        if name.strip().upper() == "POS":
+            return name
+    return None
+
+
+def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
+    """Run CEFR eval for one language. Returns the per-language report dict."""
+    ctx = build_eval_context(lang)
+    first_word_offset = ctx.first_word_offset()
+
+    vocab = load_cefr_vocab_with_pos(lang)
+    sentence_index = build_sentence_index(lang)
+
+    # Index vocab by (level, term) so each CEFR word is scored once.
+    rows: list[tuple[CefrVocabEntry, str, int]] = []
+    for entry in vocab:
+        sentences = sentence_index.get(entry.term.lower(), [])
+        if not sentences:
+            continue
+        sentence = sentences[0]
+        words = sentence.split()
+        idx = _find_term_index(words, entry.term)
+        if idx is None:
+            continue
+        rows.append((entry, sentence, idx))
+
+    stats: dict[str, dict] = defaultdict(
+        lambda: {
+            "lemma_correct": 0,
+            "lemma_total": 0,
+            "upos_correct": 0,
+            "upos_total": 0,
+            "never_correct": [],
+        }
+    )
+
+    for start in range(0, len(rows), batch_size):
+        batch = rows[start : start + batch_size]
+        words_batch = [entry_sentence_words(e, s) for e, s, _ in batch]
+        encoded = ctx.encode(words_batch)
+        upos_logits, lemma_logits = ctx.backend.run(encoded)
+
+        for batch_index, (entry, sentence, term_idx) in enumerate(batch):
+            words = sentence.split()
+            word_ids = encoded.word_ids(batch_index=batch_index)
+            token_idx = _first_token_for_word(word_ids, first_word_offset, term_idx)
+            if token_idx is None:
+                continue
+
+            word = words[term_idx]
+            predicted_lemma, source, predicted_upos, _ = ctx.predict_word(
+                word,
+                "",
+                lemma_logits[batch_index][token_idx],
+                upos_logits[batch_index][token_idx],
+            )
+            gold_pos = entry.pos.upper() if entry.pos else ""
+
+            # Lemma metric: skip POS where lemma concept does not apply.
+            if gold_pos not in SKIP_POS_FOR_LEMMA:
+                stats[entry.level]["lemma_total"] += 1
+                if predicted_lemma is not None and predicted_lemma.lower() == entry.term.lower():
+                    stats[entry.level]["lemma_correct"] += 1
+                else:
+                    if len(stats[entry.level]["never_correct"]) < 20:
+                        stats[entry.level]["never_correct"].append(
+                            {
+                                "term": entry.term,
+                                "level": entry.level,
+                                "pos": gold_pos,
+                                "predicted_lemma": predicted_lemma,
+                                "source": source,
+                            }
+                        )
+
+            # UPOS metric: score on content tokens (skip non-content).
+            if gold_pos and gold_pos not in SKIP_POS_FOR_LEMMA:
+                stats[entry.level]["upos_total"] += 1
+                if predicted_upos == gold_pos:
+                    stats[entry.level]["upos_correct"] += 1
+
+    ctx.backend.close()
+
+    report = {"lang": lang, "levels": {}}
+    for level in LEVELS:
+        s = stats[level]
+        lemma_acc = s["lemma_correct"] / s["lemma_total"] if s["lemma_total"] else 0.0
+        upos_acc = s["upos_correct"] / s["upos_total"] if s["upos_total"] else 0.0
+        report["levels"][level] = {
+            "lemma_total": s["lemma_total"],
+            "lemma_correct": s["lemma_correct"],
+            "lemma_accuracy": round(lemma_acc, 4),
+            "upos_total": s["upos_total"],
+            "upos_correct": s["upos_correct"],
+            "upos_accuracy": round(upos_acc, 4),
+            "never_correct_count": len(s["never_correct"]),
+            "never_correct_examples": s["never_correct"],
+        }
+
+    total_lemma_c = sum(stats[lv]["lemma_correct"] for lv in LEVELS)
+    total_lemma_t = sum(stats[lv]["lemma_total"] for lv in LEVELS)
+    total_upos_c = sum(stats[lv]["upos_correct"] for lv in LEVELS)
+    total_upos_t = sum(stats[lv]["upos_total"] for lv in LEVELS)
+    report["overall"] = {
+        "lemma_accuracy": round(total_lemma_c / total_lemma_t, 4) if total_lemma_t else 0.0,
+        "upos_accuracy": round(total_upos_c / total_upos_t, 4) if total_upos_t else 0.0,
+        "lemma_total": total_lemma_t,
+        "upos_total": total_upos_t,
+    }
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / f"{lang}.json").write_text(
+        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    return report
+
+
+def entry_sentence_words(_entry: CefrVocabEntry, sentence: str) -> list[str]:
+    return sentence.split()
+
+
+def _find_term_index(words: list[str], term: str) -> int | None:
+    term_lower = term.lower()
+    for idx, word in enumerate(words):
+        if word.lower() == term_lower:
+            return idx
+    return None
+
+
+def _first_token_for_word(
+    word_ids: list[int | None], first_word_offset: int, term_idx: int
+) -> int | None:
+    word_id = first_word_offset + term_idx
+    for ti, wid in enumerate(word_ids):
+        if wid == word_id:
+            return ti
+    return None
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="CEFR vocabulary eval gate.")
+    parser.add_argument(
+        "--lang",
+        required=True,
+        help="Language code (de/en/es/fr/sv/nl/ar/zh) or 'all'.",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=int(os.getenv("EVAL_BATCH_SIZE", "8")),
+    )
+    parser.add_argument(
+        "--out-dir",
+        type=Path,
+        default=Path(os.getenv("CEFR_EVAL_OUT", str(DEFAULT_OUT_DIR))),
+    )
+    args = parser.parse_args()
+
+    langs = (
+        [s.lang for s in LANGUAGES] if args.lang == "all" else [args.lang]
+    )
+    out_dir: Path = args.out_dir
+
+    summary: dict[str, dict] = {}
+    failed: list[str] = []
+    for lang in langs:
+        print(f"CEFR eval: {lang}", flush=True)
+        report = evaluate_language(lang, out_dir, args.batch_size)
+        ov = report["overall"]
+        summary[lang] = ov
+        lemma_ok = ov["lemma_accuracy"] >= GATE_ACCURACY
+        upos_ok = ov["upos_accuracy"] >= GATE_ACCURACY
+        status = "PASS" if lemma_ok and upos_ok else "FAIL"
+        print(
+            f"  {lang}: lemma={ov['lemma_accuracy']:.4f} "
+            f"upos={ov['upos_accuracy']:.4f} [{status}]",
+            flush=True,
+        )
+        if not (lemma_ok and upos_ok):
+            failed.append(lang)
+
+    print(json.dumps({"summary": summary, "gate": GATE_ACCURACY}, indent=2))
+    if failed:
+        print(f"GATE FAILED: {failed} below {GATE_ACCURACY:.0%}", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
