@@ -46,6 +46,10 @@ NON_CONTENT_POS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
 # Gate: every language must clear this on both metrics.
 GATE_ACCURACY = 0.90
 
+# Minimum fraction of vocab entries that must be evaluated (not skipped).
+# Prevents a false-positive gate pass when most entries are dropped.
+MIN_COVERAGE = 0.50
+
 # Cap on per-level error examples retained in the report (keeps JSON bounded).
 MAX_NEVER_CORRECT_EXAMPLES = 20
 
@@ -237,11 +241,16 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     total_lemma_t = sum(stats[lv]["lemma_total"] for lv in LEVELS)
     total_upos_c = sum(stats[lv]["upos_correct"] for lv in LEVELS)
     total_upos_t = sum(stats[lv]["upos_total"] for lv in LEVELS)
+    vocab_total = len(vocab)
+    evaluated = total_lemma_t
+    coverage = evaluated / vocab_total if vocab_total else 0.0
     report["overall"] = {
         "lemma_accuracy": round(total_lemma_c / total_lemma_t, 4) if total_lemma_t else 0.0,
         "upos_accuracy": round(total_upos_c / total_upos_t, 4) if total_upos_t else 0.0,
         "lemma_total": total_lemma_t,
         "upos_total": total_upos_t,
+        "vocab_total": vocab_total,
+        "coverage": round(coverage, 4),
         "skipped_no_sentence": skipped_no_sentence,
         "skipped_no_match": skipped_no_match,
         "skipped_no_token": skipped_no_token,
@@ -342,13 +351,15 @@ def main(argv: list[str] | None = None) -> int:
         summary[lang] = ov
         lemma_ok = ov["lemma_accuracy"] >= GATE_ACCURACY
         upos_ok = ov["upos_accuracy"] >= GATE_ACCURACY
-        status = "PASS" if lemma_ok and upos_ok else "FAIL"
+        coverage_ok = ov["coverage"] >= MIN_COVERAGE
+        status = "PASS" if lemma_ok and upos_ok and coverage_ok else "FAIL"
         print(
             f"  {lang}: lemma={ov['lemma_accuracy']:.4f} "
-            f"upos={ov['upos_accuracy']:.4f} [{status}]",
+            f"upos={ov['upos_accuracy']:.4f} "
+            f"coverage={ov['coverage']:.4f} [{status}]",
             flush=True,
         )
-        if not (lemma_ok and upos_ok):
+        if not (lemma_ok and upos_ok and coverage_ok):
             failed.append(lang)
 
     print(json.dumps({"summary": summary, "gate": GATE_ACCURACY}, indent=2))

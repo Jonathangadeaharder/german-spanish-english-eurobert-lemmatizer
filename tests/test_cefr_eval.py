@@ -106,7 +106,7 @@ def test_main_gate_passes_when_above_threshold(monkeypatch, tmp_path):
             "lemma_accuracy": GATE_ACCURACY + 0.01,
             "upos_accuracy": GATE_ACCURACY + 0.01,
             "lemma_total": 10,
-            "upos_total": 10,
+            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
         },
     }
     monkeypatch.setattr(
@@ -125,7 +125,7 @@ def test_main_gate_passes_at_exact_boundary(monkeypatch, tmp_path):
             "lemma_accuracy": GATE_ACCURACY,
             "upos_accuracy": GATE_ACCURACY,
             "lemma_total": 10,
-            "upos_total": 10,
+            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
         },
     }
     monkeypatch.setattr(
@@ -144,7 +144,7 @@ def test_main_lang_all_passes_when_all_clear(monkeypatch, tmp_path):
             "lemma_accuracy": GATE_ACCURACY + 0.01,
             "upos_accuracy": GATE_ACCURACY + 0.01,
             "lemma_total": 10,
-            "upos_total": 10,
+            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
         },
     }
     monkeypatch.setattr(
@@ -174,7 +174,7 @@ def test_main_lang_all_fails_when_one_below(monkeypatch, tmp_path):
             "lemma_accuracy": GATE_ACCURACY + 0.01,
             "upos_accuracy": GATE_ACCURACY + 0.01,
             "lemma_total": 10,
-            "upos_total": 10,
+            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
         },
     }
     failing_report = {
@@ -183,7 +183,7 @@ def test_main_lang_all_fails_when_one_below(monkeypatch, tmp_path):
             "lemma_accuracy": GATE_ACCURACY - 0.05,
             "upos_accuracy": GATE_ACCURACY + 0.01,
             "lemma_total": 10,
-            "upos_total": 10,
+            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
         },
     }
 
@@ -214,7 +214,7 @@ def test_main_gate_fails_when_lemma_below_threshold(monkeypatch, tmp_path):
             "lemma_accuracy": GATE_ACCURACY - 0.05,
             "upos_accuracy": GATE_ACCURACY + 0.01,
             "lemma_total": 10,
-            "upos_total": 10,
+            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
         },
     }
     monkeypatch.setattr(
@@ -233,7 +233,7 @@ def test_main_gate_fails_when_upos_below_threshold(monkeypatch, tmp_path):
             "lemma_accuracy": GATE_ACCURACY + 0.01,
             "upos_accuracy": GATE_ACCURACY - 0.05,
             "lemma_total": 10,
-            "upos_total": 10,
+            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
         },
     }
     monkeypatch.setattr(
@@ -250,5 +250,28 @@ def test_main_handles_exception_as_failure(monkeypatch, tmp_path):
         raise RuntimeError("model load failed")
 
     monkeypatch.setattr("lemmatizer.eval.cefr_eval.evaluate_language", raising_eval)
+    rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
+    assert rc == 1
+
+
+def test_main_gate_fails_when_coverage_too_low(monkeypatch, tmp_path):
+    """Gate returns 1 when coverage falls below MIN_COVERAGE."""
+    from lemmatizer.eval.cefr_eval import MIN_COVERAGE
+
+    report = {
+        "levels": {},
+        "overall": {
+            "lemma_accuracy": GATE_ACCURACY + 0.01,
+            "upos_accuracy": GATE_ACCURACY + 0.01,
+            "lemma_total": 5,
+            "upos_total": 5,
+            "vocab_total": 100,
+            "coverage": MIN_COVERAGE - 0.01,
+        },
+    }
+    monkeypatch.setattr(
+        "lemmatizer.eval.cefr_eval.evaluate_language",
+        lambda lang, out_dir, bs: report,
+    )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 1

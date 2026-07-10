@@ -164,7 +164,7 @@ def evaluate_cefr(
 @app.command("cefr-eval")
 def cefr_eval(
     lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())} or 'all'"),
-    batch_size: int = typer.Option(8, help="Evaluation batch size"),
+    batch_size: int = typer.Option(8, min=1, help="Evaluation batch size"),
 ) -> None:
     """CEFR vocabulary eval gate (>90% lemma + UPOS, nonzero exit on fail)."""
     if lang != "all":
