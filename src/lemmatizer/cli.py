@@ -169,9 +169,10 @@ def cefr_eval(
     """CEFR vocabulary eval gate (>90% lemma + UPOS, nonzero exit on fail)."""
     if lang != "all":
         try:
-            spec(lang)  # raises ValueError on unknown lang
+            resolved = spec(lang)  # raises ValueError on unknown lang
         except ValueError as e:
             raise typer.BadParameter(str(e)) from e
+        lang = resolved.lang  # normalize aliases (e.g. "english" -> "en")
     from lemmatizer.eval.cefr_eval import main
 
     raise SystemExit(main(["--lang", lang, "--batch-size", str(batch_size)]))

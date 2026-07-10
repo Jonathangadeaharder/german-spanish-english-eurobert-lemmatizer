@@ -109,8 +109,9 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     """Run CEFR eval for one language. Returns the per-language report dict."""
     if batch_size < 1:
         raise ValueError(f"batch_size must be >= 1, got {batch_size}")
-    ctx = build_eval_context(lang)
+    ctx = None
     try:
+        ctx = build_eval_context(lang)
         first_word_offset = ctx.first_word_offset()
 
         vocab = load_cefr_vocab_with_pos(lang)
@@ -122,7 +123,11 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         skipped_no_sentence = 0
         skipped_no_match = 0
         skipped_no_token = 0
+        content_vocab_total = 0
         for entry in vocab:
+            if entry.pos.upper() in NON_CONTENT_POS:
+                continue
+            content_vocab_total += 1
             sentences = sentence_index.get(entry.term.lower(), [])
             if not sentences:
                 skipped_no_sentence += 1
@@ -217,7 +222,8 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                                 }
                             )
     finally:
-        ctx.backend.close()
+        if ctx is not None:
+            ctx.backend.close()
 
     report = {"lang": lang, "levels": {}}
     for level in LEVELS:
@@ -243,7 +249,9 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     total_upos_t = sum(stats[lv]["upos_total"] for lv in LEVELS)
     vocab_total = len(vocab)
     evaluated = total_lemma_t
-    coverage = evaluated / vocab_total if vocab_total else 0.0
+    # Coverage denominator = content-POS vocab only, matching the lemma
+    # metric's numerator (NON_CONTENT_POS entries are never evaluated).
+    coverage = evaluated / content_vocab_total if content_vocab_total else 0.0
     report["overall"] = {
         "lemma_accuracy": round(total_lemma_c / total_lemma_t, 4) if total_lemma_t else 0.0,
         "upos_accuracy": round(total_upos_c / total_upos_t, 4) if total_upos_t else 0.0,
