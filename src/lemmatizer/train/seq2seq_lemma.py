@@ -294,9 +294,10 @@ def train_epoch(
             mx.eval(optimizer)
             accumulated = None
             pending = 0
-
-        mx.eval(loss)
-        mx.clear_cache()
+            # Clear only after the optimizer step evaluated the accumulated
+            # gradient graph. Per-batch clearing would free intermediates
+            # backing un-evaluated `accumulated`, forcing a full recompute.
+            mx.clear_cache()
 
         if batch_idx % 50 == 0 or batch_idx == batches:
             print(
@@ -417,8 +418,13 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
             except Exception as e:
                 print(f"ERROR in train_epoch: {e}", flush=True)
                 import traceback
+
                 traceback.print_exc()
-                break
+                # Re-raise after logging: a silently-swallowed training error
+                # would leave run() printing {"event": "training_complete"}
+                # and returning normally, risking deployment of a partially
+                # trained model with no signal to the caller.
+                raise
             val_metrics = evaluate(model, val_rows[:200], batch_size=4)
             metrics = {
                 "epoch": epoch,
