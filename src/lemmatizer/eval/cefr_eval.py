@@ -23,6 +23,7 @@ import csv
 import json
 import os
 import sys
+import traceback
 import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass
@@ -302,9 +303,15 @@ def main(argv: list[str] | None = None) -> int:
         choices=[s.lang for s in LANGUAGES] + ["all"],
         help="Language code (de/en/es/fr/sv/nl/ar/zh) or 'all'.",
     )
+    def _positive_int(value: str) -> int:
+        ivalue = int(value)
+        if ivalue < 1:
+            raise argparse.ArgumentTypeError(f"batch-size must be >= 1, got {value}")
+        return ivalue
+
     parser.add_argument(
         "--batch-size",
-        type=int,
+        type=_positive_int,
         default=int(os.getenv("EVAL_BATCH_SIZE", "8")),
     )
     parser.add_argument(
@@ -326,8 +333,9 @@ def main(argv: list[str] | None = None) -> int:
         try:
             report = evaluate_language(lang, out_dir, args.batch_size)
         except Exception as exc:  # noqa: BLE001 — CI gate must report all langs
-            print(f"  {lang}: ERROR {exc}", file=sys.stderr, flush=True)
-            summary[lang] = {"error": str(exc)}
+            tb = traceback.format_exc()
+            print(f"  {lang}: ERROR {type(exc).__name__}: {exc}\n{tb}", file=sys.stderr, flush=True)
+            summary[lang] = {"error": str(exc), "type": type(exc).__name__}
             failed.append(lang)
             continue
         ov = report["overall"]
