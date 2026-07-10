@@ -65,9 +65,13 @@ def load_cefr_vocab_with_pos(lang: str) -> list[CefrVocabEntry]:
             continue
         with csv_path.open(encoding="utf-8") as f:
             reader = csv.DictReader(f)
-            header_pos = _resolve_pos_column(reader.fieldnames)
+            fieldnames = reader.fieldnames
+            if not fieldnames:
+                continue
+            first_col = fieldnames[0]
+            header_pos = _resolve_pos_column(fieldnames)
             for row in reader:
-                term = (row.get(next(iter(reader.fieldnames))) or "").strip()
+                term = (row.get(first_col) or "").strip()
                 pos = (row.get(header_pos) or "").strip() if header_pos else ""
                 if term:
                     entries.append(CefrVocabEntry(level=level, term=term, pos=pos))
@@ -93,17 +97,17 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     sentence_index = build_sentence_index(lang)
 
     # Index vocab by (level, term) so each CEFR word is scored once.
-    rows: list[tuple[CefrVocabEntry, str, int]] = []
+    # Store pre-split words to avoid re-splitting every batch iteration.
+    rows: list[tuple[CefrVocabEntry, list[str], int]] = []
     for entry in vocab:
         sentences = sentence_index.get(entry.term.lower(), [])
         if not sentences:
             continue
-        sentence = sentences[0]
-        words = sentence.split()
+        words = sentences[0].split()
         idx = _find_term_index(words, entry.term)
         if idx is None:
             continue
-        rows.append((entry, sentence, idx))
+        rows.append((entry, words, idx))
 
     stats: dict[str, dict] = defaultdict(
         lambda: {
@@ -115,52 +119,55 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         }
     )
 
-    for start in range(0, len(rows), batch_size):
-        batch = rows[start : start + batch_size]
-        words_batch = [entry_sentence_words(e, s) for e, s, _ in batch]
-        encoded = ctx.encode(words_batch)
-        upos_logits, lemma_logits = ctx.backend.run(encoded)
+    try:
+        for start in range(0, len(rows), batch_size):
+            batch = rows[start : start + batch_size]
+            words_batch = [words for _, words, _ in batch]
+            encoded = ctx.encode(words_batch)
+            upos_logits, lemma_logits = ctx.backend.run(encoded)
 
-        for batch_index, (entry, sentence, term_idx) in enumerate(batch):
-            words = sentence.split()
-            word_ids = encoded.word_ids(batch_index=batch_index)
-            token_idx = _first_token_for_word(word_ids, first_word_offset, term_idx)
-            if token_idx is None:
-                continue
+            for batch_index, (entry, words, term_idx) in enumerate(batch):
+                word_ids = encoded.word_ids(batch_index=batch_index)
+                token_idx = _first_token_for_word(word_ids, first_word_offset, term_idx)
+                if token_idx is None:
+                    continue
 
-            word = words[term_idx]
-            predicted_lemma, source, predicted_upos, _ = ctx.predict_word(
-                word,
-                "",
-                lemma_logits[batch_index][token_idx],
-                upos_logits[batch_index][token_idx],
-            )
-            gold_pos = entry.pos.upper() if entry.pos else ""
+                word = words[term_idx]
+                predicted_lemma, source, predicted_upos, _ = ctx.predict_word(
+                    word,
+                    "",
+                    lemma_logits[batch_index][token_idx],
+                    upos_logits[batch_index][token_idx],
+                )
+                gold_pos = entry.pos.upper() if entry.pos else ""
 
-            # Lemma metric: skip POS where lemma concept does not apply.
-            if gold_pos not in SKIP_POS_FOR_LEMMA:
-                stats[entry.level]["lemma_total"] += 1
-                if predicted_lemma is not None and predicted_lemma.lower() == entry.term.lower():
-                    stats[entry.level]["lemma_correct"] += 1
-                else:
-                    if len(stats[entry.level]["never_correct"]) < 20:
-                        stats[entry.level]["never_correct"].append(
-                            {
-                                "term": entry.term,
-                                "level": entry.level,
-                                "pos": gold_pos,
-                                "predicted_lemma": predicted_lemma,
-                                "source": source,
-                            }
-                        )
+                # Lemma metric: skip POS where lemma concept does not apply.
+                if gold_pos not in SKIP_POS_FOR_LEMMA:
+                    stats[entry.level]["lemma_total"] += 1
+                    if (
+                        predicted_lemma is not None
+                        and predicted_lemma.lower() == entry.term.lower()
+                    ):
+                        stats[entry.level]["lemma_correct"] += 1
+                    else:
+                        if len(stats[entry.level]["never_correct"]) < 20:
+                            stats[entry.level]["never_correct"].append(
+                                {
+                                    "term": entry.term,
+                                    "level": entry.level,
+                                    "pos": gold_pos,
+                                    "predicted_lemma": predicted_lemma,
+                                    "source": source,
+                                }
+                            )
 
-            # UPOS metric: score on content tokens (skip non-content).
-            if gold_pos and gold_pos not in SKIP_POS_FOR_LEMMA:
-                stats[entry.level]["upos_total"] += 1
-                if predicted_upos == gold_pos:
-                    stats[entry.level]["upos_correct"] += 1
-
-    ctx.backend.close()
+                # UPOS metric: score on content tokens (skip non-content).
+                if gold_pos and gold_pos not in SKIP_POS_FOR_LEMMA:
+                    stats[entry.level]["upos_total"] += 1
+                    if predicted_upos == gold_pos:
+                        stats[entry.level]["upos_correct"] += 1
+    finally:
+        ctx.backend.close()
 
     report = {"lang": lang, "levels": {}}
     for level in LEVELS:
@@ -196,10 +203,6 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     return report
 
 
-def entry_sentence_words(_entry: CefrVocabEntry, sentence: str) -> list[str]:
-    return sentence.split()
-
-
 def _find_term_index(words: list[str], term: str) -> int | None:
     term_lower = term.lower()
     for idx, word in enumerate(words):
@@ -218,7 +221,7 @@ def _first_token_for_word(
     return None
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="CEFR vocabulary eval gate.")
     parser.add_argument(
         "--lang",
@@ -235,7 +238,7 @@ def main() -> int:
         type=Path,
         default=Path(os.getenv("CEFR_EVAL_OUT", str(DEFAULT_OUT_DIR))),
     )
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     langs = (
         [s.lang for s in LANGUAGES] if args.lang == "all" else [args.lang]
