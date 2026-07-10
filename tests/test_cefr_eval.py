@@ -63,6 +63,13 @@ def test_find_term_index_strips_trailing_punctuation():
     assert _find_term_index(["Ende!"], "Ende") == 0
 
 
+def test_find_term_index_strips_cjk_and_arabic_punctuation():
+    # Non-Latin sentence-final punctuation must also be stripped.
+    assert _find_term_index(["汉字。"], "汉字") == 0
+    assert _find_term_index(["كلمة،"], "كلمة") == 0
+    assert _find_term_index(["سؤال؟"], "سؤال") == 0
+
+
 def test_first_token_for_word_no_lang_token_offset_zero():
     word_ids = [0, 1, 1, 2, None]
     assert _first_token_for_word(word_ids, first_word_offset=0, term_idx=1) == 1
@@ -111,7 +118,7 @@ def test_main_gate_passes_when_above_threshold(monkeypatch, tmp_path):
 
 
 def test_main_gate_fails_when_below_threshold(monkeypatch, tmp_path):
-    """Gate returns 1 when any language falls below GATE_ACCURACY."""
+    """Gate returns 1 when lemma falls below GATE_ACCURACY."""
     failing_report = {
         "levels": {},
         "overall": {
@@ -125,5 +132,34 @@ def test_main_gate_fails_when_below_threshold(monkeypatch, tmp_path):
         "lemmatizer.eval.cefr_eval.evaluate_language",
         lambda lang, out_dir, bs: failing_report,
     )
+    rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
+    assert rc == 1
+
+
+def test_main_gate_fails_when_upos_below_threshold(monkeypatch, tmp_path):
+    """Gate returns 1 when UPOS (not lemma) falls below GATE_ACCURACY."""
+    report = {
+        "levels": {},
+        "overall": {
+            "lemma_accuracy": GATE_ACCURACY + 0.01,
+            "upos_accuracy": GATE_ACCURACY - 0.05,
+            "lemma_total": 10,
+            "upos_total": 10,
+        },
+    }
+    monkeypatch.setattr(
+        "lemmatizer.eval.cefr_eval.evaluate_language",
+        lambda lang, out_dir, bs: report,
+    )
+    rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
+    assert rc == 1
+
+
+def test_main_handles_exception_as_failure(monkeypatch, tmp_path):
+    """A language raising during eval is caught and counts as a gate failure."""
+    def raising_eval(lang, out_dir, bs):
+        raise RuntimeError("model load failed")
+
+    monkeypatch.setattr("lemmatizer.eval.cefr_eval.evaluate_language", raising_eval)
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 1

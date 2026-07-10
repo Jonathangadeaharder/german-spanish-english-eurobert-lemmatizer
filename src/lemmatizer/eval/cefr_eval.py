@@ -23,6 +23,7 @@ import csv
 import json
 import os
 import sys
+import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -38,6 +39,9 @@ SKIP_POS_FOR_LEMMA = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
 
 # Gate: every language must clear this on both metrics.
 GATE_ACCURACY = 0.90
+
+# Cap on per-level error examples retained in the report (keeps JSON bounded).
+MAX_NEVER_CORRECT_EXAMPLES = 20
 
 DEFAULT_OUT_DIR = Path("artifacts/cefr_eval")
 
@@ -150,7 +154,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                     ):
                         stats[entry.level]["lemma_correct"] += 1
                     else:
-                        if len(stats[entry.level]["never_correct"]) < 20:
+                        if len(stats[entry.level]["never_correct"]) < MAX_NEVER_CORRECT_EXAMPLES:
                             stats[entry.level]["never_correct"].append(
                                 {
                                     "term": entry.term,
@@ -203,12 +207,24 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     return report
 
 
+def _strip_trailing_punct(word: str) -> str:
+    """Strip trailing Unicode punctuation (any category P*).
+
+    Handles Latin (``.``, ``,``) and CJK/Arabic marks (``。``, ``،``, ``؟``)
+    so CEFR terms at sentence boundaries in any script are matched.
+    """
+    result = word
+    while result and unicodedata.category(result[-1]).startswith("P"):
+        result = result[:-1]
+    return result
+
+
 def _find_term_index(words: list[str], term: str) -> int | None:
     """Find the word index matching ``term``.
 
     Matches case-insensitively. Also strips trailing punctuation from each
     word so that a CEFR term at a sentence boundary (e.g. "Haus." in the
-    raw UD text) is still matched.
+    raw UD text, or "字。" in Chinese) is still matched.
     """
     term_lower = term.lower()
     for idx, word in enumerate(words):
@@ -217,7 +233,7 @@ def _find_term_index(words: list[str], term: str) -> int | None:
     # Fallback: compare with trailing punctuation stripped, so words
     # adjacent to sentence-final punctuation are not silently skipped.
     for idx, word in enumerate(words):
-        if word.lower().rstrip(".,;:!?\"'()[]") == term_lower:
+        if _strip_trailing_punct(word.lower()) == term_lower:
             return idx
     return None
 
