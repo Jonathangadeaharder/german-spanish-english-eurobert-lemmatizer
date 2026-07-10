@@ -6,7 +6,7 @@ from lemmatizer.data.conllu import read_conllu
 from lemmatizer.data.edit_trees import apply_edit_label, make_edit_label
 from lemmatizer.languages import LANGUAGES, split_files_for_lang
 
-MIN_LABEL_COUNT = 2
+MIN_LABEL_COUNT = 3
 TOP_TREE_COUNT = 300
 
 OUT_DIR = Path("artifacts")

@@ -294,8 +294,10 @@ def train_epoch(
             mx.eval(optimizer)
             accumulated = None
             pending = 0
-
-        mx.eval(loss)
+            # Clear only after the optimizer step evaluated the accumulated
+            # gradient graph. Per-batch clearing would free intermediates
+            # backing un-evaluated `accumulated`, forcing a full recompute.
+            mx.clear_cache()
 
         if batch_idx % 50 == 0 or batch_idx == batches:
             print(
@@ -404,18 +406,25 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
         )
         optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
 
-        # evaluate() returns token_accuracy and sequence_accuracy (no loss),
-        # so the prior `val_metrics.get("loss")` was always None and the
-        # best-model checkpoint was never saved. Track sequence accuracy.
+        # Select best checkpoint by validation sequence accuracy (not train
+        # loss, which decreases monotonically and always picks the last epoch).
+        # Per-epoch validation uses the first 200 dev rows to keep eval cost
+        # bounded; re-evaluate on the full dev set before reporting final.
         best_val_acc = -1.0
         for epoch in range(1, epochs + 1):
             t0 = time.time()
-            train_loss = train_epoch(model, train_rows, batch_size, optimizer, epoch)
-            # Per-epoch validation uses the first 200 dev rows (ordered by
-            # sentence ID, not shuffled) to keep eval cost bounded during
-            # training; model selection on this subset may be biased. Treat
-            # the resulting checkpoint as provisional and re-evaluate on
-            # the full dev set before reporting final accuracy.
+            try:
+                train_loss = train_epoch(model, train_rows, batch_size, optimizer, epoch)
+            except Exception as e:
+                print(f"ERROR in train_epoch: {e}", flush=True)
+                import traceback
+
+                traceback.print_exc()
+                # Re-raise after logging: a silently-swallowed training error
+                # would leave run() printing {"event": "training_complete"}
+                # and returning normally, risking deployment of a partially
+                # trained model with no signal to the caller.
+                raise
             val_metrics = evaluate(model, val_rows[:200], batch_size=4)
             metrics = {
                 "epoch": epoch,

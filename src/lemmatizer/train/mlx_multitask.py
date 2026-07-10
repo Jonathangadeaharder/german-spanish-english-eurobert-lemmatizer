@@ -464,13 +464,55 @@ def pad_batch(rows: list[dict], label_remap: dict[int, int] | None = None) -> di
     return {key: mx.array(value) for key, value in batch.items()}
 
 
-def masked_ce(logits: mx.array, labels: mx.array) -> mx.array:
+def masked_ce(
+    logits: mx.array, labels: mx.array, class_weights: mx.array | None = None
+) -> mx.array:
     flat_logits = logits.reshape(-1, logits.shape[-1])
     flat_labels = labels.reshape(-1)
     mask = flat_labels != -100
     safe = mx.maximum(flat_labels, 0)
     losses = nn.losses.cross_entropy(flat_logits, safe, reduction="none")
+    if class_weights is not None:
+        token_weights = class_weights[safe]
+        losses = losses * token_weights
     return mx.sum(losses * mask.astype(losses.dtype)) / mx.maximum(mx.sum(mask), 1)
+
+
+def compute_class_weights(
+    rows: list[dict],
+    label_remap: dict[int, int],
+    n_classes: int,
+    max_weight: float = 10.0,
+) -> tuple[np.ndarray, np.ndarray]:
+    """Inverse-sqrt-frequency class weights, normalized to mean=1.0.
+
+    IDENTITY/LOWERCASE labels dominate (~83%+ of tokens), causing the model
+    to predict them for everything under plain CE. Sqrt-frequency weighting
+    down-weights dominant classes and up-weights rare edit trees without
+    the extreme variance of plain inverse-frequency. Capped at max_weight
+    to prevent gradient spikes from ultra-rare labels.
+
+    Returns (weights_np, nonzero_mask) as numpy arrays so callers can compute
+    summary stats without a device-to-host round-trip. Convert to mx.array
+    once at the call site before passing into train_epoch.
+    """
+    all_labels = []
+    for row in rows:
+        all_labels.extend(
+            label_remap.get(int(label), -100) for label in row["labels"] if int(label) != -100
+        )
+    counts = np.zeros(n_classes, dtype=np.float64)
+    if all_labels:
+        valid = np.array(all_labels)
+        valid = valid[valid >= 0]
+        if len(valid):
+            counts = np.bincount(valid, minlength=n_classes).astype(np.float64)
+    nonzero = counts > 0
+    weights = np.ones(n_classes, dtype=np.float32)
+    raw = np.sqrt(counts.sum() / np.maximum(counts, 1.0))
+    mean_raw = raw[nonzero].mean() if nonzero.any() else 1.0
+    weights[nonzero] = np.minimum(raw[nonzero] / mean_raw, max_weight)
+    return weights, nonzero
 
 
 def word_positions(row: dict) -> list[int]:
@@ -887,12 +929,13 @@ def train_epoch(
     label_remap: dict[int, int],
     grad_accum: int = 1,
     upos_weight: float = 1.0,
+    lemma_class_weights: mx.array | None = None,
 ) -> float:
     model.train()
 
     def loss_fn(model, batch):
         upos_logits, lemma_logits = model(batch["input_ids"], batch["attention_mask"])
-        lemma_loss = masked_ce(lemma_logits, batch["labels"])
+        lemma_loss = masked_ce(lemma_logits, batch["labels"], lemma_class_weights)
         # Weight the auxiliary UPOS head so its smaller class count
         # (~17) doesn't dominate or be dominated by the lemma head
         # (hundreds of classes). Default 1.0 preserves prior behavior.
@@ -1071,15 +1114,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         epochs_int = max(1, int(opts.epochs))
         grad_accum = max(1, int(opts.grad_accum))
         finetune_limit = opts.extra.get("finetune_rows", 0)
-        effective_rows = (
-            train_rows[:finetune_limit] if finetune_limit > 0 else train_rows
-        )
-        batches_per_epoch = math.ceil(
-            len(effective_rows) / opts.batch_size
-        )
-        steps_per_epoch = max(
-            1, math.ceil(batches_per_epoch / grad_accum)
-        )
+        effective_rows = train_rows[:finetune_limit] if finetune_limit > 0 else train_rows
+        batches_per_epoch = math.ceil(len(effective_rows) / opts.batch_size)
+        steps_per_epoch = max(1, math.ceil(batches_per_epoch / grad_accum))
         total_steps = max(1, steps_per_epoch * epochs_int)
         warmup_steps = min(
             max(1, int(total_steps * warmup_frac)),
@@ -1099,6 +1136,31 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
             f"grad_accum: {grad_accum}, upos_weight: {opts.upos_weight}",
             flush=True,
         )
+
+        n_lemma_classes = len(label_remap) if label_remap else 0
+        lemma_cw = None
+        if n_lemma_classes > 0:
+            cw_np, nonzero_mask = compute_class_weights(
+                effective_rows, label_remap, n_lemma_classes
+            )
+            nonzero = cw_np[nonzero_mask]
+            # Computed once from the full training set; under curriculum mode
+            # the growing subset over-represents easy labels early, so global
+            # weights under-correct then. Accepted (curriculum is off by default).
+            lemma_cw = mx.array(cw_np)
+            print(
+                json.dumps(
+                    {
+                        "event": "class_weights",
+                        "n_classes": n_lemma_classes,
+                        "n_present": int(nonzero_mask.sum()),
+                        "min": float(nonzero.min()) if len(nonzero) else 0.0,
+                        "max": float(nonzero.max()) if len(nonzero) else 0.0,
+                        "mean": float(nonzero.mean()) if len(nonzero) else 0.0,
+                    }
+                ),
+                flush=True,
+            )
 
         if opts.curriculum:
             print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
@@ -1131,6 +1193,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     label_remap,
                     grad_accum=grad_accum,
                     upos_weight=opts.upos_weight,
+                    lemma_class_weights=lemma_cw,
                 )
                 metrics = {
                     "epoch": epoch,
@@ -1218,6 +1281,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     label_remap,
                     grad_accum=grad_accum,
                     upos_weight=opts.upos_weight,
+                    lemma_class_weights=lemma_cw,
                 )
                 metrics = {
                     "epoch": epoch + 1,
