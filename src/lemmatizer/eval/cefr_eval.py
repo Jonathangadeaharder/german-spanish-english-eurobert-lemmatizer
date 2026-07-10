@@ -114,16 +114,17 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         # Index vocab by (level, term) so each CEFR word is scored once.
         # Store pre-split words to avoid re-splitting every batch iteration.
         rows: list[tuple[CefrVocabEntry, list[str], int]] = []
-        skipped = 0
+        skipped_no_sentence = 0
+        skipped_no_token = 0
         for entry in vocab:
             sentences = sentence_index.get(entry.term.lower(), [])
             if not sentences:
-                skipped += 1
+                skipped_no_sentence += 1
                 continue
             words = sentences[0].split()
             idx = _find_term_index(words, entry.term)
             if idx is None:
-                skipped += 1
+                skipped_no_sentence += 1
                 continue
             rows.append((entry, words, idx))
 
@@ -131,8 +132,10 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
             lambda: {
                 "lemma_correct": 0,
                 "lemma_total": 0,
+                "lemma_errors": 0,
                 "upos_correct": 0,
                 "upos_total": 0,
+                "upos_errors_count": 0,
                 "never_correct": [],
                 "upos_errors": [],
             }
@@ -148,7 +151,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                 word_ids = encoded.word_ids(batch_index=batch_index)
                 token_idx = _first_token_for_word(word_ids, first_word_offset, term_idx)
                 if token_idx is None:
-                    skipped += 1
+                    skipped_no_token += 1
                     continue
 
                 word = words[term_idx]
@@ -169,6 +172,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                     ):
                         stats[entry.level]["lemma_correct"] += 1
                     else:
+                        stats[entry.level]["lemma_errors"] += 1
                         if len(stats[entry.level]["never_correct"]) < MAX_NEVER_CORRECT_EXAMPLES:
                             stats[entry.level]["never_correct"].append(
                                 {
@@ -185,15 +189,17 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                     stats[entry.level]["upos_total"] += 1
                     if predicted_upos == gold_pos:
                         stats[entry.level]["upos_correct"] += 1
-                    elif len(stats[entry.level]["upos_errors"]) < MAX_NEVER_CORRECT_EXAMPLES:
-                        stats[entry.level]["upos_errors"].append(
-                            {
-                                "term": entry.term,
-                                "level": entry.level,
-                                "gold_upos": gold_pos,
-                                "predicted_upos": predicted_upos,
-                            }
-                        )
+                    else:
+                        stats[entry.level]["upos_errors_count"] += 1
+                        if len(stats[entry.level]["upos_errors"]) < MAX_NEVER_CORRECT_EXAMPLES:
+                            stats[entry.level]["upos_errors"].append(
+                                {
+                                    "term": entry.term,
+                                    "level": entry.level,
+                                    "gold_upos": gold_pos,
+                                    "predicted_upos": predicted_upos,
+                                }
+                            )
     finally:
         ctx.backend.close()
 
@@ -205,13 +211,14 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         report["levels"][level] = {
             "lemma_total": s["lemma_total"],
             "lemma_correct": s["lemma_correct"],
+            "lemma_errors": s["lemma_errors"],
             "lemma_accuracy": round(lemma_acc, 4),
             "upos_total": s["upos_total"],
             "upos_correct": s["upos_correct"],
+            "upos_errors": s["upos_errors_count"],
             "upos_accuracy": round(upos_acc, 4),
-            "never_correct_count": len(s["never_correct"]),
             "never_correct_examples": s["never_correct"],
-            "upos_errors": s["upos_errors"],
+            "upos_error_examples": s["upos_errors"],
         }
 
     total_lemma_c = sum(stats[lv]["lemma_correct"] for lv in LEVELS)
@@ -223,7 +230,8 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         "upos_accuracy": round(total_upos_c / total_upos_t, 4) if total_upos_t else 0.0,
         "lemma_total": total_lemma_t,
         "upos_total": total_upos_t,
-        "skipped_count": skipped,
+        "skipped_no_sentence": skipped_no_sentence,
+        "skipped_no_token": skipped_no_token,
     }
 
     out_dir.mkdir(parents=True, exist_ok=True)
