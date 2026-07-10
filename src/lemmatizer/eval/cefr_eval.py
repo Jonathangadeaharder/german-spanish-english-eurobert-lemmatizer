@@ -318,7 +318,7 @@ def main(argv: list[str] | None = None) -> int:
         "--lang",
         required=True,
         choices=[s.lang for s in LANGUAGES] + ["all"],
-        help="Language code (de/en/es/fr/sv/nl/ar/zh) or 'all'.",
+        help=f"Language code ({'/'.join(s.lang for s in LANGUAGES)}) or 'all'.",
     )
     def _positive_int(value: str) -> int:
         ivalue = int(value)
