@@ -156,6 +156,9 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                     continue
 
                 word = words[term_idx]
+                # upos="" is safe: predict_word only uses it as a fallback when
+                # upos_logits is None, which never happens here. We want UPOS
+                # predicted from logits, not from the gold POS value.
                 predicted_lemma, source, predicted_upos, _ = ctx.predict_word(
                     word,
                     "",
@@ -289,6 +292,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--lang",
         required=True,
+        choices=[s.lang for s in LANGUAGES] + ["all"],
         help="Language code (de/en/es/fr/sv/nl/ar/zh) or 'all'.",
     )
     parser.add_argument(
