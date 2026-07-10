@@ -91,35 +91,35 @@ def _resolve_pos_column(fieldnames: list[str] | None) -> str | None:
 def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
     """Run CEFR eval for one language. Returns the per-language report dict."""
     ctx = build_eval_context(lang)
-    first_word_offset = ctx.first_word_offset()
-
-    vocab = load_cefr_vocab_with_pos(lang)
-    sentence_index = build_sentence_index(lang)
-
-    # Index vocab by (level, term) so each CEFR word is scored once.
-    # Store pre-split words to avoid re-splitting every batch iteration.
-    rows: list[tuple[CefrVocabEntry, list[str], int]] = []
-    for entry in vocab:
-        sentences = sentence_index.get(entry.term.lower(), [])
-        if not sentences:
-            continue
-        words = sentences[0].split()
-        idx = _find_term_index(words, entry.term)
-        if idx is None:
-            continue
-        rows.append((entry, words, idx))
-
-    stats: dict[str, dict] = defaultdict(
-        lambda: {
-            "lemma_correct": 0,
-            "lemma_total": 0,
-            "upos_correct": 0,
-            "upos_total": 0,
-            "never_correct": [],
-        }
-    )
-
     try:
+        first_word_offset = ctx.first_word_offset()
+
+        vocab = load_cefr_vocab_with_pos(lang)
+        sentence_index = build_sentence_index(lang)
+
+        # Index vocab by (level, term) so each CEFR word is scored once.
+        # Store pre-split words to avoid re-splitting every batch iteration.
+        rows: list[tuple[CefrVocabEntry, list[str], int]] = []
+        for entry in vocab:
+            sentences = sentence_index.get(entry.term.lower(), [])
+            if not sentences:
+                continue
+            words = sentences[0].split()
+            idx = _find_term_index(words, entry.term)
+            if idx is None:
+                continue
+            rows.append((entry, words, idx))
+
+        stats: dict[str, dict] = defaultdict(
+            lambda: {
+                "lemma_correct": 0,
+                "lemma_total": 0,
+                "upos_correct": 0,
+                "upos_total": 0,
+                "never_correct": [],
+            }
+        )
+
         for start in range(0, len(rows), batch_size):
             batch = rows[start : start + batch_size]
             words_batch = [words for _, words, _ in batch]
