@@ -1,6 +1,6 @@
 from lemmatizer.eval.cefr_eval import (
     GATE_ACCURACY,
-    SKIP_POS_FOR_LEMMA,
+    NON_CONTENT_POS,
     CefrVocabEntry,
     _find_term_index,
     _first_token_for_word,
@@ -10,13 +10,13 @@ from lemmatizer.eval.cefr_eval import (
 
 
 def test_skip_pos_set_excludes_proper_nouns_and_punctuation():
-    assert "PROPN" in SKIP_POS_FOR_LEMMA
-    assert "PUNCT" in SKIP_POS_FOR_LEMMA
-    assert "SYM" in SKIP_POS_FOR_LEMMA
-    assert "X" in SKIP_POS_FOR_LEMMA
-    assert "NUM" in SKIP_POS_FOR_LEMMA
-    assert "NOUN" not in SKIP_POS_FOR_LEMMA
-    assert "VERB" not in SKIP_POS_FOR_LEMMA
+    assert "PROPN" in NON_CONTENT_POS
+    assert "PUNCT" in NON_CONTENT_POS
+    assert "SYM" in NON_CONTENT_POS
+    assert "X" in NON_CONTENT_POS
+    assert "NUM" in NON_CONTENT_POS
+    assert "NOUN" not in NON_CONTENT_POS
+    assert "VERB" not in NON_CONTENT_POS
 
 
 def test_gate_accuracy_is_90_percent():

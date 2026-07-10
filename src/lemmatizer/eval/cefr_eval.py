@@ -37,10 +37,10 @@ from lemmatizer.languages import (
     vocab_levels_root,
 )
 
-# POS classes where the lemma concept does not apply. Lemma metric skips
-# these. UPOS is scored on content tokens (i.e. excluding these too, since
-# PUNCT/SYM/X/NUM carry no semantic content worth gating on).
-SKIP_POS_FOR_LEMMA = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
+# POS classes excluded from both lemma and UPOS metrics: lemma concept does
+# not apply (PROPN/PUNCT/SYM/X/NUM), and these carry no semantic content
+# worth gating UPOS on either.
+NON_CONTENT_POS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
 
 # Gate: every language must clear this on both metrics.
 GATE_ACCURACY = 0.90
@@ -115,6 +115,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         # Store pre-split words to avoid re-splitting every batch iteration.
         rows: list[tuple[CefrVocabEntry, list[str], int]] = []
         skipped_no_sentence = 0
+        skipped_no_match = 0
         skipped_no_token = 0
         for entry in vocab:
             sentences = sentence_index.get(entry.term.lower(), [])
@@ -124,7 +125,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
             words = sentences[0].split()
             idx = _find_term_index(words, entry.term)
             if idx is None:
-                skipped_no_sentence += 1
+                skipped_no_match += 1
                 continue
             rows.append((entry, words, idx))
 
@@ -164,7 +165,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                 gold_pos = entry.pos.upper() if entry.pos else ""
 
                 # Lemma metric: skip POS where lemma concept does not apply.
-                if gold_pos not in SKIP_POS_FOR_LEMMA:
+                if gold_pos not in NON_CONTENT_POS:
                     stats[entry.level]["lemma_total"] += 1
                     if (
                         predicted_lemma is not None
@@ -185,7 +186,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
                             )
 
                 # UPOS metric: score on content tokens (skip non-content).
-                if gold_pos and gold_pos not in SKIP_POS_FOR_LEMMA:
+                if gold_pos and gold_pos not in NON_CONTENT_POS:
                     stats[entry.level]["upos_total"] += 1
                     if predicted_upos == gold_pos:
                         stats[entry.level]["upos_correct"] += 1
@@ -231,6 +232,7 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         "lemma_total": total_lemma_t,
         "upos_total": total_upos_t,
         "skipped_no_sentence": skipped_no_sentence,
+        "skipped_no_match": skipped_no_match,
         "skipped_no_token": skipped_no_token,
     }
 
