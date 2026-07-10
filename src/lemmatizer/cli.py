@@ -175,7 +175,7 @@ def cefr_eval(
         lang = resolved.lang  # normalize aliases (e.g. "english" -> "en")
     from lemmatizer.eval.cefr_eval import main
 
-    raise SystemExit(main(["--lang", lang, "--batch-size", str(batch_size)]))
+    raise typer.Exit(code=main(["--lang", lang, "--batch-size", str(batch_size)]))
 
 
 @app.command("export-onnx")

@@ -98,20 +98,49 @@ def test_cefr_vocab_entry_carries_level_term_pos():
     assert entry.pos == "NOUN"
 
 
-def test_main_gate_passes_when_above_threshold(monkeypatch, tmp_path):
-    """Gate returns 0 when every language clears GATE_ACCURACY."""
-    passing_report = {
+def _make_report(
+    lemma_accuracy=GATE_ACCURACY + 0.01,
+    upos_accuracy=GATE_ACCURACY + 0.01,
+    lemma_total=10,
+    upos_total=10,
+    vocab_total=10,
+    coverage=1.0,
+):
+    """Factory for eval report dicts used by gate tests."""
+    return {
         "levels": {},
         "overall": {
-            "lemma_accuracy": GATE_ACCURACY + 0.01,
-            "upos_accuracy": GATE_ACCURACY + 0.01,
-            "lemma_total": 10,
-            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
+            "lemma_accuracy": lemma_accuracy,
+            "upos_accuracy": upos_accuracy,
+            "lemma_total": lemma_total,
+            "upos_total": upos_total,
+            "vocab_total": vocab_total,
+            "coverage": coverage,
         },
     }
+
+
+class _FakeSpec:
+    __slots__ = ("lang",)
+
+    def __init__(self, lang):
+        self.lang = lang
+
+
+def _patch_langs(monkeypatch, langs):
+    """Monkeypatch LANGUAGES so --lang choices are test-isolated."""
+    monkeypatch.setattr(
+        "lemmatizer.eval.cefr_eval.LANGUAGES",
+        [_FakeSpec(code) for code in langs],
+    )
+
+
+def test_main_gate_passes_when_above_threshold(monkeypatch, tmp_path):
+    """Gate returns 0 when every language clears GATE_ACCURACY."""
+    _patch_langs(monkeypatch, ["de"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: passing_report,
+        lambda lang, out_dir, bs: _make_report(),
     )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 0
@@ -119,18 +148,12 @@ def test_main_gate_passes_when_above_threshold(monkeypatch, tmp_path):
 
 def test_main_gate_passes_at_exact_boundary(monkeypatch, tmp_path):
     """Gate returns 0 when accuracy is exactly GATE_ACCURACY (>= comparison)."""
-    boundary_report = {
-        "levels": {},
-        "overall": {
-            "lemma_accuracy": GATE_ACCURACY,
-            "upos_accuracy": GATE_ACCURACY,
-            "lemma_total": 10,
-            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
-        },
-    }
+    _patch_langs(monkeypatch, ["de"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: boundary_report,
+        lambda lang, out_dir, bs: _make_report(
+            lemma_accuracy=GATE_ACCURACY, upos_accuracy=GATE_ACCURACY
+        ),
     )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 0
@@ -138,29 +161,10 @@ def test_main_gate_passes_at_exact_boundary(monkeypatch, tmp_path):
 
 def test_main_lang_all_passes_when_all_clear(monkeypatch, tmp_path):
     """--lang all returns 0 when every language clears the gate."""
-    passing_report = {
-        "levels": {},
-        "overall": {
-            "lemma_accuracy": GATE_ACCURACY + 0.01,
-            "upos_accuracy": GATE_ACCURACY + 0.01,
-            "lemma_total": 10,
-            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
-        },
-    }
+    _patch_langs(monkeypatch, ["de", "en"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: passing_report,
-    )
-
-    class _FakeSpec:
-        __slots__ = ("lang",)
-
-        def __init__(self, lang):
-            self.lang = lang
-
-    monkeypatch.setattr(
-        "lemmatizer.eval.cefr_eval.LANGUAGES",
-        [_FakeSpec("de"), _FakeSpec("en")],
+        lambda lang, out_dir, bs: _make_report(),
     )
     rc = main(["--lang", "all", "--out-dir", str(tmp_path)])
     assert rc == 0
@@ -168,58 +172,26 @@ def test_main_lang_all_passes_when_all_clear(monkeypatch, tmp_path):
 
 def test_main_lang_all_fails_when_one_below(monkeypatch, tmp_path):
     """--lang all returns 1 when any language fails the gate."""
-    passing_report = {
-        "levels": {},
-        "overall": {
-            "lemma_accuracy": GATE_ACCURACY + 0.01,
-            "upos_accuracy": GATE_ACCURACY + 0.01,
-            "lemma_total": 10,
-            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
-        },
-    }
-    failing_report = {
-        "levels": {},
-        "overall": {
-            "lemma_accuracy": GATE_ACCURACY - 0.05,
-            "upos_accuracy": GATE_ACCURACY + 0.01,
-            "lemma_total": 10,
-            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
-        },
-    }
+    _patch_langs(monkeypatch, ["de", "en"])
 
     def fake_eval(lang, out_dir, bs):
-        return failing_report if lang == "de" else passing_report
+        if lang == "de":
+            return _make_report(lemma_accuracy=GATE_ACCURACY - 0.05)
+        return _make_report()
 
     monkeypatch.setattr("lemmatizer.eval.cefr_eval.evaluate_language", fake_eval)
-
-    class _FakeSpec:
-        __slots__ = ("lang",)
-
-        def __init__(self, lang):
-            self.lang = lang
-
-    monkeypatch.setattr(
-        "lemmatizer.eval.cefr_eval.LANGUAGES",
-        [_FakeSpec("de"), _FakeSpec("en")],
-    )
     rc = main(["--lang", "all", "--out-dir", str(tmp_path)])
     assert rc == 1
 
 
 def test_main_gate_fails_when_lemma_below_threshold(monkeypatch, tmp_path):
     """Gate returns 1 when lemma falls below GATE_ACCURACY."""
-    failing_report = {
-        "levels": {},
-        "overall": {
-            "lemma_accuracy": GATE_ACCURACY - 0.05,
-            "upos_accuracy": GATE_ACCURACY + 0.01,
-            "lemma_total": 10,
-            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
-        },
-    }
+    _patch_langs(monkeypatch, ["de"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: failing_report,
+        lambda lang, out_dir, bs: _make_report(
+            lemma_accuracy=GATE_ACCURACY - 0.05
+        ),
     )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 1
@@ -227,18 +199,12 @@ def test_main_gate_fails_when_lemma_below_threshold(monkeypatch, tmp_path):
 
 def test_main_gate_fails_when_upos_below_threshold(monkeypatch, tmp_path):
     """Gate returns 1 when UPOS (not lemma) falls below GATE_ACCURACY."""
-    report = {
-        "levels": {},
-        "overall": {
-            "lemma_accuracy": GATE_ACCURACY + 0.01,
-            "upos_accuracy": GATE_ACCURACY - 0.05,
-            "lemma_total": 10,
-            "upos_total": 10, "vocab_total": 10, "coverage": 1.0,
-        },
-    }
+    _patch_langs(monkeypatch, ["de"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: report,
+        lambda lang, out_dir, bs: _make_report(
+            upos_accuracy=GATE_ACCURACY - 0.05
+        ),
     )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 1
@@ -246,6 +212,8 @@ def test_main_gate_fails_when_upos_below_threshold(monkeypatch, tmp_path):
 
 def test_main_handles_exception_as_failure(monkeypatch, tmp_path):
     """A language raising during eval is caught and counts as a gate failure."""
+    _patch_langs(monkeypatch, ["de"])
+
     def raising_eval(lang, out_dir, bs):
         raise RuntimeError("model load failed")
 
@@ -258,20 +226,15 @@ def test_main_gate_fails_when_coverage_too_low(monkeypatch, tmp_path):
     """Gate returns 1 when coverage falls below MIN_COVERAGE."""
     from lemmatizer.eval.cefr_eval import MIN_COVERAGE
 
-    report = {
-        "levels": {},
-        "overall": {
-            "lemma_accuracy": GATE_ACCURACY + 0.01,
-            "upos_accuracy": GATE_ACCURACY + 0.01,
-            "lemma_total": 5,
-            "upos_total": 5,
-            "vocab_total": 100,
-            "coverage": MIN_COVERAGE - 0.01,
-        },
-    }
+    _patch_langs(monkeypatch, ["de"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: report,
+        lambda lang, out_dir, bs: _make_report(
+            lemma_total=5,
+            upos_total=5,
+            vocab_total=100,
+            coverage=MIN_COVERAGE - 0.01,
+        ),
     )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 1
