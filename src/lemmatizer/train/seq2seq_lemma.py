@@ -405,10 +405,11 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
         )
         optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
 
-        # evaluate() returns token_accuracy and sequence_accuracy (no loss),
-        # so the prior `val_metrics.get("loss")` was always None and the
-        # best-model checkpoint was never saved. Track sequence accuracy.
-        best_loss = float("inf")
+        # Select best checkpoint by validation sequence accuracy (not train
+        # loss, which decreases monotonically and always picks the last epoch).
+        # Per-epoch validation uses the first 200 dev rows to keep eval cost
+        # bounded; re-evaluate on the full dev set before reporting final.
+        best_val_acc = -1.0
         for epoch in range(1, epochs + 1):
             t0 = time.time()
             try:
@@ -418,9 +419,11 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
                 import traceback
                 traceback.print_exc()
                 break
+            val_metrics = evaluate(model, val_rows[:200], batch_size=4)
             metrics = {
                 "epoch": epoch,
                 "train_loss": round(train_loss, 4),
+                "validation": val_metrics,
                 "elapsed_s": round(time.time() - t0, 1),
             }
             print(json.dumps({"event": "epoch", **metrics}), flush=True)
@@ -428,8 +431,9 @@ def run(lang: str, epochs: int, batch_size: int, lr: float, output_dir: str, war
             out = Path(output_dir)
             out.mkdir(parents=True, exist_ok=True)
             model.save_weights(str(out / f"epoch-{epoch}.safetensors"))
-            if train_loss < best_loss:
-                best_loss = train_loss
+            val_acc = val_metrics.get("sequence_accuracy", 0.0)
+            if val_acc >= best_val_acc:
+                best_val_acc = val_acc
                 model.save_weights(str(out / "best.safetensors"))
 
     print(json.dumps({"event": "training_complete", "lang": lang}), flush=True)

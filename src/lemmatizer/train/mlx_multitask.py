@@ -483,7 +483,7 @@ def compute_class_weights(
     label_remap: dict[int, int],
     n_classes: int,
     max_weight: float = 10.0,
-) -> mx.array:
+) -> tuple[mx.array, np.ndarray]:
     """Inverse-sqrt-frequency class weights, normalized to mean=1.0.
 
     IDENTITY/LOWERCASE labels dominate (~83%+ of tokens), causing the model
@@ -491,21 +491,29 @@ def compute_class_weights(
     down-weights dominant classes and up-weights rare edit trees without
     the extreme variance of plain inverse-frequency. Capped at max_weight
     to prevent gradient spikes from ultra-rare labels.
+
+    Returns (weights, nonzero_mask) so callers can filter stats to only
+    the classes present in this language's data.
     """
-    counts = np.zeros(n_classes, dtype=np.float64)
+    all_labels = []
     for row in rows:
-        for label in row["labels"]:
-            if label == -100:
-                continue
-            cid = label_remap.get(int(label), -100)
-            if 0 <= cid < n_classes:
-                counts[cid] += 1
-    weights = np.ones(n_classes, dtype=np.float32)
+        all_labels.extend(
+            label_remap.get(int(label), -100)
+            for label in row["labels"]
+            if label != -100
+        )
+    counts = np.zeros(n_classes, dtype=np.float64)
+    if all_labels:
+        valid = np.array(all_labels)
+        valid = valid[valid >= 0]
+        if len(valid):
+            counts = np.bincount(valid, minlength=n_classes).astype(np.float64)
     nonzero = counts > 0
+    weights = np.ones(n_classes, dtype=np.float32)
     raw = np.sqrt(counts.sum() / np.maximum(counts, 1.0))
     mean_raw = raw[nonzero].mean() if nonzero.any() else 1.0
     weights[nonzero] = np.minimum(raw[nonzero] / mean_raw, max_weight)
-    return mx.array(weights)
+    return mx.array(weights), nonzero
 
 
 def word_positions(row: dict) -> list[int]:
@@ -1141,16 +1149,17 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
         n_lemma_classes = len(label_remap) if label_remap else 0
         lemma_cw = None
         if n_lemma_classes > 0:
-            lemma_cw = compute_class_weights(
+            lemma_cw, nonzero_mask = compute_class_weights(
                 effective_rows, label_remap, n_lemma_classes
             )
             cw_np = np.array(lemma_cw)
-            nonzero = cw_np[cw_np > 0]
+            nonzero = cw_np[nonzero_mask]
             print(
                 json.dumps(
                     {
                         "event": "class_weights",
                         "n_classes": n_lemma_classes,
+                        "n_present": int(nonzero_mask.sum()),
                         "min": float(nonzero.min()) if len(nonzero) else 0.0,
                         "max": float(nonzero.max()) if len(nonzero) else 0.0,
                         "mean": float(nonzero.mean()) if len(nonzero) else 0.0,
