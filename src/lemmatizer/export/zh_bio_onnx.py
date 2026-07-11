@@ -192,6 +192,10 @@ def main() -> None:
     print(f"  mapped={mapped} skipped={len(skipped)} missing={len(missing)}", flush=True)
     if skipped:
         print(f"  skipped: {skipped[:5]}", flush=True)
+    # Verify classifier weights were loaded
+    if "classifier.weight" not in weights or "classifier.bias" not in weights:
+        raise RuntimeError("[zh] Missing classifier weights in checkpoint")
+
     if missing:
         critical = [m for m in missing if any(c in m[0] for c in ("embed", "query", "key"))]
         if critical:

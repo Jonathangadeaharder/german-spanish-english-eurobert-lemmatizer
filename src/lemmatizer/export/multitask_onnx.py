@@ -305,6 +305,7 @@ def export_lang(lang: str) -> None:
         else:
             lora_rank = 32 if lang == "de" else 16
         # Alpha is a training hyperparameter not stored in the checkpoint.
+        # Training commands used: de → --lora-alpha 64, en/es/fr/nl → --lora-alpha 32.
         # Override via LORA_ALPHA env var if training used a non-standard value.
         default_alpha = 64.0 if lang == "de" else 32.0
         lora_alpha = float(os.getenv("LORA_ALPHA", str(default_alpha)))
@@ -344,7 +345,20 @@ def export_lang(lang: str) -> None:
         critical = [
             m
             for m in report["missing"]
-            if any(c in m[0] for c in ("embed", "norm", "q_proj", "k_proj"))
+            if any(
+                c in m[0]
+                for c in (
+                    "embed",
+                    "norm",
+                    "q_proj",
+                    "k_proj",
+                    "v_proj",
+                    "o_proj",
+                    "gate_proj",
+                    "up_proj",
+                    "down_proj",
+                )
+            )
         ]
         if critical:
             raise RuntimeError(
