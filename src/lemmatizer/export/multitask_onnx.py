@@ -258,7 +258,13 @@ def sync_weights(
     if missing_cls:
         raise RuntimeError(f"Missing classifier weights: {missing_cls}")
 
-    return {"mapped": mapped, "skipped": skipped[:10], "missing": missing[:10]}
+    return {
+        "mapped": mapped,
+        "skipped": skipped[:10],
+        "missing": missing,
+        "n_skipped": len(skipped),
+        "n_missing": len(missing),
+    }
 
 
 def export_lang(lang: str) -> None:
@@ -329,8 +335,7 @@ def export_lang(lang: str) -> None:
     print(f"[{lang}] Syncing weights...", flush=True)
     report = sync_weights(weights, backbone, wrapper, is_eurobert)
     print(
-        f"  mapped={report['mapped']} skipped={len(report['skipped'])} "
-        f"missing={len(report['missing'])}",
+        f"  mapped={report['mapped']} skipped={report['n_skipped']} missing={report['n_missing']}",
         flush=True,
     )
     if report["skipped"]:
