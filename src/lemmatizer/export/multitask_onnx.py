@@ -244,6 +244,20 @@ def sync_weights(
                 cls_state[key] = torch.from_numpy(weights[key]).to(target.dtype)
     wrapper.load_state_dict(cls_state, strict=False)
 
+    # Verify all 4 classifier params were loaded
+    missing_cls = [
+        k
+        for k in (
+            "upos_classifier.weight",
+            "upos_classifier.bias",
+            "lemma_classifier.weight",
+            "lemma_classifier.bias",
+        )
+        if k not in weights
+    ]
+    if missing_cls:
+        raise RuntimeError(f"Missing classifier weights: {missing_cls}")
+
     return {"mapped": mapped, "skipped": skipped[:10], "missing": missing[:10]}
 
 
@@ -285,8 +299,9 @@ def export_lang(lang: str) -> None:
         else:
             lora_rank = 32 if lang == "de" else 16
         # Alpha is a training hyperparameter not stored in the checkpoint.
-        # Use the known training recipe values.
-        lora_alpha = 64.0 if lang == "de" else 32.0
+        # Override via LORA_ALPHA env var if training used a non-standard value.
+        default_alpha = 64.0 if lang == "de" else 32.0
+        lora_alpha = float(os.getenv("LORA_ALPHA", str(default_alpha)))
         print(
             f"[{lang}] Found LoRA adapters ({len(lora_keys)} keys), "
             f"merging (rank={lora_rank}, alpha={lora_alpha})...",

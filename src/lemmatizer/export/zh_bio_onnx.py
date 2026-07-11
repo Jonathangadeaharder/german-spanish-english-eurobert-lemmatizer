@@ -129,6 +129,11 @@ def main() -> None:
 
     onnx_dir.mkdir(parents=True, exist_ok=True)
 
+    if not Path(checkpoint).exists():
+        raise FileNotFoundError(f"No checkpoint at {checkpoint}")
+    if not Path(labels_path).exists():
+        raise FileNotFoundError(f"No labels file at {labels_path}")
+
     label_meta = json.loads(Path(labels_path).read_text("utf-8"))
     n_labels = len(label_meta["label2id"])
     print(f"[zh] n_labels={n_labels}", flush=True)
@@ -139,8 +144,15 @@ def main() -> None:
     # Check for LoRA
     has_lora = any("lora" in k for k in weights)
     if has_lora:
-        print("[zh] Found LoRA adapters, merging (rank=8, alpha=16)...", flush=True)
-        weights = merge_lora(weights, rank=8, alpha=16.0)
+        # Infer rank from lora_a tensor shape
+        first_a = next((k for k in weights if "lora_a" in k), None)
+        lora_rank = weights[first_a].shape[0] if first_a else 8
+        lora_alpha = float(os.getenv("LORA_ALPHA", "16.0"))
+        print(
+            f"[zh] Found LoRA adapters, merging (rank={lora_rank}, alpha={lora_alpha})...",
+            flush=True,
+        )
+        weights = merge_lora(weights, rank=lora_rank, alpha=lora_alpha)
 
     # Load HF BERT
     print(f"[zh] Loading HF BertForTokenClassification from {model_path}", flush=True)
@@ -181,6 +193,12 @@ def main() -> None:
     if skipped:
         print(f"  skipped: {skipped[:5]}", flush=True)
     if missing:
+        critical = [m for m in missing if any(c in m[0] for c in ("embed", "query", "key"))]
+        if critical:
+            raise RuntimeError(
+                f"[zh] Critical backbone weights not synced: {critical[:3]}. "
+                "Refusing to export with pretrained/random weights."
+            )
         print(f"  missing: {missing[:5]}", flush=True)
 
     # Export
