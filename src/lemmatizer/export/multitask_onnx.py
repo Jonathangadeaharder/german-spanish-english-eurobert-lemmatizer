@@ -99,7 +99,7 @@ def merge_lora_weights(
         m = re.match(r"layers\.(\d+)\.(q_proj|k_proj|v_proj|o_proj)\.lora_(a|b)", key)
         if m:
             layer_idx, proj, ab = m.groups()
-            base = f"layers.{layer_idx}.{proj}_proj"
+            base = f"layers.{layer_idx}.{proj}"
             lora_pairs.setdefault(base, {})[ab] = weights.pop(key)
 
     for base, pair in lora_pairs.items():
