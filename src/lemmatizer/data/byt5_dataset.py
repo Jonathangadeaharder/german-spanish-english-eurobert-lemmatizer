@@ -30,12 +30,8 @@ PAD_LABEL = -100
 BYT5_PAD = 0
 BYT5_EOS = 1
 BYTE_ID_OFFSET = 3
-# Max byte-level token length. Single source of truth imported by both
-# the dataset builder (seq2seq_dataset.MAX_SEQ_LEN, used to filter
-# over-length sentences) and the trainer (seq2seq_lemma.MAX_SEQ_LEN,
-# used by collate_batch to cap padded batches via min(max(...), MAX_SEQ_LEN)).
-# Keeping one definition prevents the two from drifting and silently
-# truncating the trailing EOS at collation time.
+# Max byte-level token length. Imported by train_byt5 and byt5_lemma_model
+# to cap padded batches via min(max(...), MAX_SEQ_LEN).
 MAX_SEQ_LEN = 256
 SPECIAL_TOKENS = ["<PAD>", "<UNK>", "<IDENTITY>"]
 SPECIAL_TOKEN_IDS = {"<PAD>": 0, "<UNK>": 1, "<IDENTITY>": 2}
