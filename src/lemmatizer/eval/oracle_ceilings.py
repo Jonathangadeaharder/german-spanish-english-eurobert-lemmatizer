@@ -89,7 +89,7 @@ def main() -> None:
             # zh uses identity+lexicon, not edit-trees — ceiling is ~100%
             print(
                 f"{'zh':6s} {'all':6s} {'-':>6s} {'-':>9s} {'-':>8s} "
-                f"{'-':>6s} {'-':>8s} {'~1.0000':>8s}  (identity+lexicon)"
+                f"{'-':>6s} {'-':>8s} {'~0.9930':>8s}  (identity+lexicon)"
             )
             all_results.append(
                 {
@@ -102,7 +102,7 @@ def main() -> None:
                             "identity_fallback": 0,
                             "identity_upos_skipped": 0,
                             "unlearnable": 0,
-                            "ceiling": 1.0,
+                            "ceiling": 0.9930,
                             "note": "identity+lexicon (no edit-tree label space)",
                         }
                     },

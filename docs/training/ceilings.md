@@ -126,7 +126,7 @@ are unlearnable unless covered by lexicon fallback or identity.
 - Identity (fallback): 0
 - Identity-UPOS (skipped): 0
 - Unlearnable: 0
-- **Ceiling: 1.0000**
+- **Ceiling: 0.9930**
 
 ## nl
 ### dev

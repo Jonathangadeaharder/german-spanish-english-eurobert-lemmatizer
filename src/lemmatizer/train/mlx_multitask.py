@@ -1223,7 +1223,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 print(json.dumps({"event": "epoch", **metrics}), flush=True)
 
                 val_acc = metrics["validation"]["lemma_accuracy"]
-                if val_acc >= best_val_acc:
+                if val_acc > best_val_acc:
                     best_val_acc = val_acc
                     model.save_weights(str(output_dir / "best.safetensors"))
                     print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
@@ -1317,7 +1317,7 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 results["finetune"].append(metrics)
                 print(json.dumps({"event": "epoch", **metrics}), flush=True)
                 val_acc = metrics["validation"]["lemma_accuracy"]
-                if val_acc >= best_val_acc:
+                if val_acc > best_val_acc:
                     best_val_acc = val_acc
                     model.save_weights(str(output_dir / "best.safetensors"))
                     print(
