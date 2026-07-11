@@ -1019,6 +1019,8 @@ def main() -> None:
     parser.add_argument("--grad-accum", type=int, default=1)
     parser.add_argument("--warmup", type=float, default=0.06)
     parser.add_argument("--upos-weight", type=float, default=1.0)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--patience", type=int, default=0)
     args = parser.parse_args()
 
     from lemmatizer.languages import spec
@@ -1039,6 +1041,8 @@ def main() -> None:
         grad_accum=args.grad_accum,
         warmup=args.warmup,
         upos_weight=args.upos_weight,
+        seed=args.seed,
+        patience=args.patience,
         extra={"finetune_rows": args.finetune_rows},
     )
     run(spec(args.lang), opts)
@@ -1046,6 +1050,10 @@ def main() -> None:
 
 def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     """Canonical entry: train the multilingual multitask model for `spec.lang`."""
+    import random
+
+    random.seed(opts.seed)
+    np.random.seed(opts.seed)
     lang = spec.lang
     assets = language_assets(lang)
     label_remap = raw_to_contiguous_map(read_json(assets.label2id_path))
@@ -1269,6 +1277,8 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                     current_val = [val_pool[i] for i in current_val_indices]
 
         else:
+            best_val_acc = -1.0
+            epochs_since_best = 0
             for epoch in range(epochs_int):
                 t0 = time.time()
                 train_loss = train_epoch(
@@ -1306,7 +1316,30 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
                 }
                 results["finetune"].append(metrics)
                 print(json.dumps({"event": "epoch", **metrics}), flush=True)
-                model.save_weights(str(output_dir / f"epoch-{epoch + 1}.safetensors"))
+                val_acc = metrics["validation"]["lemma_accuracy"]
+                if val_acc >= best_val_acc:
+                    best_val_acc = val_acc
+                    model.save_weights(str(output_dir / "best.safetensors"))
+                    print(
+                        f"  saved best (val_lemma={best_val_acc:.4f})",
+                        flush=True,
+                    )
+                    epochs_since_best = 0
+                else:
+                    epochs_since_best += 1
+                    if opts.patience > 0 and epochs_since_best >= opts.patience:
+                        print(
+                            json.dumps(
+                                {
+                                    "event": "early_stopping",
+                                    "epoch": epoch + 1,
+                                    "best_val_acc": round(best_val_acc, 4),
+                                    "epochs_since_best": epochs_since_best,
+                                }
+                            ),
+                            flush=True,
+                        )
+                        break
 
     (output_dir / "metrics.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     print(json.dumps({"event": "saved", "path": str(output_dir / "metrics.json")}), flush=True)

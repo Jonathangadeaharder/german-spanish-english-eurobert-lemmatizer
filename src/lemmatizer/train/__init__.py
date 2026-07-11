@@ -30,8 +30,8 @@ class TrainOptions:
     epochs: float = 0.0
     batch_size: int = 64
     lr: float = 2e-5
-    lora_rank: int = 8
-    lora_alpha: float = 16.0
+    lora_rank: int = 32
+    lora_alpha: float = 64.0
     curriculum: bool = False
     max_train_rows: int = 0
     max_val_rows: int = 0
@@ -40,6 +40,8 @@ class TrainOptions:
     grad_accum: int = 1
     warmup: float = 0.06
     upos_weight: float = 1.0
+    seed: int = 42
+    patience: int = 0
     extra: dict = field(default_factory=dict)
 
 

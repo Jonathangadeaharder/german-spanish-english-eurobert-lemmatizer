@@ -1,0 +1,124 @@
+# Edit-Tree Oracle Ceilings
+
+Maximum achievable lemma accuracy given the current label space.
+Tokens where the gold edit tree is absent from the label space
+are unlearnable unless covered by lexicon fallback or identity.
+
+## en
+### dev
+- Total scored: 19683
+- Learnable via edit-tree: 19513
+- In lexicon: 170
+- Identity (skipped): 5439
+- Unlearnable: 0
+- **Ceiling: 1.0000**
+
+### test
+- Total scored: 19226
+- Learnable via edit-tree: 19036
+- In lexicon: 65
+- Identity (skipped): 5853
+- Unlearnable: 125
+- **Ceiling: 0.9950**
+
+## de
+### dev
+- Total scored: 10043
+- Learnable via edit-tree: 9940
+- In lexicon: 103
+- Identity (skipped): 2437
+- Unlearnable: 0
+- **Ceiling: 1.0000**
+
+### test
+- Total scored: 12925
+- Learnable via edit-tree: 12697
+- In lexicon: 91
+- Identity (skipped): 3574
+- Unlearnable: 137
+- **Ceiling: 0.9917**
+
+## es
+### dev
+- Total scored: 42284
+- Learnable via edit-tree: 42167
+- In lexicon: 117
+- Identity (skipped): 11192
+- Unlearnable: 0
+- **Ceiling: 1.0000**
+
+### test
+- Total scored: 42312
+- Learnable via edit-tree: 42132
+- In lexicon: 53
+- Identity (skipped): 11310
+- Unlearnable: 127
+- **Ceiling: 0.9976**
+
+## fr
+### dev
+- Total scored: 28128
+- Learnable via edit-tree: 28002
+- In lexicon: 9
+- Identity (skipped): 7586
+- Unlearnable: 117
+- **Ceiling: 0.9967**
+
+### test
+- Total scored: 8049
+- Learnable via edit-tree: 7978
+- In lexicon: 1
+- Identity (skipped): 1966
+- Unlearnable: 70
+- **Ceiling: 0.9930**
+
+## sv
+### dev
+- Total scored: 8729
+- Learnable via edit-tree: 8617
+- In lexicon: 112
+- Identity (skipped): 1068
+- Unlearnable: 0
+- **Ceiling: 1.0000**
+
+### test
+- Total scored: 17672
+- Learnable via edit-tree: 17193
+- In lexicon: 120
+- Identity (skipped): 2704
+- Unlearnable: 359
+- **Ceiling: 0.9824**
+
+## ar
+### dev
+- Total scored: 24302
+- Learnable via edit-tree: 23398
+- In lexicon: 76
+- Identity (skipped): 5937
+- Unlearnable: 828
+- **Ceiling: 0.9726**
+
+### test
+- Total scored: 23981
+- Learnable via edit-tree: 22342
+- In lexicon: 141
+- Identity (skipped): 4283
+- Unlearnable: 1498
+- **Ceiling: 0.9470**
+
+## nl
+### dev
+- Total scored: 8657
+- Learnable via edit-tree: 8457
+- In lexicon: 38
+- Identity (skipped): 2884
+- Unlearnable: 162
+- **Ceiling: 0.9860**
+
+### test
+- Total scored: 8914
+- Learnable via edit-tree: 8506
+- In lexicon: 49
+- Identity (skipped): 2132
+- Unlearnable: 359
+- **Ceiling: 0.9675**
