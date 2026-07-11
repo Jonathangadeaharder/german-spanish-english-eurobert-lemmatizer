@@ -55,7 +55,15 @@ def compute_ceiling(lang: str) -> dict:
                 if full_label in label2id:
                     learnable += 1
                 elif word in lexicon:
-                    in_lexicon += 1
+                    lex_entry = lexicon[word]
+                    if isinstance(lex_entry, dict):
+                        lex_lemma = lex_entry.get(upos, next(iter(lex_entry.values())))
+                    else:
+                        lex_lemma = lex_entry
+                    if lex_lemma == lemma:
+                        in_lexicon += 1
+                    else:
+                        unlearnable += 1
                 elif word == lemma:
                     identity_fallback += 1
                 else:
