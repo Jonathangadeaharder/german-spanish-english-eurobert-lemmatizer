@@ -127,9 +127,13 @@ def load_mlx_weights_into_t5(mlx_weights_path: str, encoder: T5EncoderModel) -> 
 
     mapped, skipped, missing = 0, [], []
     for mlx_key, tensor in mlx_state.items():
-        hf_key = _map_mlx_to_hf(mlx_key)
+        # Strip t5. prefix if present (checkpoint stores as t5.encoder.* etc.)
+        stripped_key = mlx_key
+        if stripped_key.startswith("t5."):
+            stripped_key = stripped_key[3:]
+        hf_key = _map_mlx_to_hf(stripped_key)
         if hf_key is None:
-            if not mlx_key.startswith("decoder."):
+            if not stripped_key.startswith("decoder.") and not stripped_key.startswith("lm_head."):
                 skipped.append(mlx_key)
             continue
         if hf_key not in hf_state:
