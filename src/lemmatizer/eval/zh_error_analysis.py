@@ -23,8 +23,6 @@ ZH_BIO_CHECKPOINT = "runs/mlx-zh-bio-pos/best.safetensors"
 BIO_LABELS_PATH = "data/processed/zh_bio/labels.json"
 MAX_LENGTH = 256
 
-IDENTITY_UPOS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
-
 
 def load_label_maps():
     meta = json.loads(Path(BIO_LABELS_PATH).read_text(encoding="utf-8"))

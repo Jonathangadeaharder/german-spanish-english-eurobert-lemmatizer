@@ -130,6 +130,7 @@ def build_split(
     # module so callers relying on the global stream aren't disturbed.
     rng = random.Random(seed)
     rows = []
+    all_raw_words: list[str] = []
     skipped = 0
     for sent in read_conllu(conllu_path, lang=lang):
         words = sent["words"]
@@ -162,13 +163,13 @@ def build_split(
                 "output_text": output_text,
             }
         )
+        all_raw_words.extend(words)
 
     if skipped:
         print(f"  Skipped {skipped} malformed sentences in {conllu_path}")
 
-    if rows:
-        all_words = [w for r in rows for w in r.get("input_text", "").split() if w]
-        assert_language_plausible(lang, all_words)
+    if all_raw_words:
+        assert_language_plausible(lang, all_raw_words)
 
     return Dataset.from_list(rows)
 

@@ -49,6 +49,8 @@ def _script_ratio(words: list[str], predicate) -> float:
         for ch in word:
             if ch.isspace() or ch in ".,;:!?\"'()[]{}—–-":
                 continue
+            if ch.isdigit():
+                continue
             total += 1
             if predicate(ch):
                 matching += 1

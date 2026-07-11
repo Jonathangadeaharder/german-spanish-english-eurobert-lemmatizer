@@ -40,8 +40,13 @@ def build_exceptions(conllu_path: str = GOLD_TRAIN) -> dict[str, str]:
 
     exceptions: dict[str, str] = {}
     for form, counts in form_lemma_counts.items():
-        best_lemma, best_count = counts.most_common(1)[0]
+        # Deterministic tie-break: sort by count desc, then lemma alpha.
+        best_lemma = sorted(counts.items(), key=lambda x: (-x[1], x[0]))[0][0]
         exceptions[form] = best_lemma
+
+    if total_tokens == 0:
+        print("WARNING: no tokens found in CoNLL-U file")
+        return {}
 
     print(f"Total tokens: {total_tokens}")
     print(f"Identity (form==lemma): {identity_tokens} ({identity_tokens / total_tokens:.4f})")

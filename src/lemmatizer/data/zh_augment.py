@@ -17,7 +17,7 @@ import json
 import random
 from pathlib import Path
 
-random.seed(42)
+rng = random.Random(42)
 
 # Label2id mapping from data/processed/zh_bio/labels.json
 UPOS_TO_B = {
@@ -113,7 +113,7 @@ SENTENCES: list[tuple[list[str], list[str]]] = [
     ),
     (
         ["快", "来", "，", "我们", "等", "你", "很", "久", "了", "。"],
-        ["ADJ", "VERB", "PUNCT", "PRON", "VERB", "PRON", "ADV", "ADJ", "PART", "PUNCT"],
+        ["ADV", "VERB", "PUNCT", "PRON", "VERB", "PRON", "ADV", "ADJ", "PART", "PUNCT"],
     ),
     (
         ["这个", "想法", "很", "好", "，", "但", "执行", "很", "难", "。"],
@@ -374,9 +374,23 @@ def main() -> None:
     train_path = Path("data/processed/zh_bio/train.jsonl")
     val_path = Path("data/processed/zh_bio/validation.jsonl")
 
-    train_count_before = sum(1 for _ in open(train_path, encoding="utf-8"))
-    val_count_before = sum(1 for _ in open(val_path, encoding="utf-8"))
+    with open(train_path, encoding="utf-8") as f:
+        train_count_before = sum(1 for _ in f)
+    with open(val_path, encoding="utf-8") as f:
+        val_count_before = sum(1 for _ in f)
     print(f"Before: train={train_count_before}, val={val_count_before}")
+
+    # Idempotency: check if augmentation already applied by looking for
+    # the marker comment in the first augmented sentence ID.
+    already_applied = False
+    with open(train_path, encoding="utf-8") as f:
+        for line in f:
+            if "zh-aug-" in line:
+                already_applied = True
+                break
+    if already_applied:
+        print("Augmentation already applied — skipping (idempotent)")
+        return
 
     n_train = 0
     n_val = 0
@@ -387,15 +401,17 @@ def main() -> None:
         for words, upos in SENTENCES:
             entry = sentence_to_jsonl(words, upos)
             line = json.dumps(entry, ensure_ascii=False)
-            if random.random() < 0.1:
+            if rng.random() < 0.1:
                 val_f.write(line + "\n")
                 n_val += 1
             else:
                 train_f.write(line + "\n")
                 n_train += 1
 
-    train_count_after = sum(1 for _ in open(train_path, encoding="utf-8"))
-    val_count_after = sum(1 for _ in open(val_path, encoding="utf-8"))
+    with open(train_path, encoding="utf-8") as f:
+        train_count_after = sum(1 for _ in f)
+    with open(val_path, encoding="utf-8") as f:
+        val_count_after = sum(1 for _ in f)
     print(f"Added: train=+{n_train}, val=+{n_val}")
     print(f"After: train={train_count_after}, val={val_count_after}")
 

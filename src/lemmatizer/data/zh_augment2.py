@@ -13,7 +13,7 @@ import json
 import random
 from pathlib import Path
 
-random.seed(99)
+rng = random.Random(99)
 
 UPOS_TO_B = {
     "ADJ": 1,
@@ -145,7 +145,7 @@ SENTENCES: list[tuple[list[str], list[str]]] = [
     (["他", "走", "了", "很久", "。"], ["PRON", "VERB", "PART", "ADV", "PUNCT"]),
     (["你", "吃", "了", "吗", "？"], ["PRON", "VERB", "PART", "PART", "PUNCT"]),
     (["他", "回来", "了", "吗", "？"], ["PRON", "VERB", "PART", "PART", "PUNCT"]),
-    (["你知道", "了", "吧", "？"], ["VERB", "PART", "PART", "PUNCT"]),
+    (["你", "知道", "了", "吧", "？"], ["PRON", "VERB", "PART", "PART", "PUNCT"]),
     (["算", "了", "吧", "。"], ["VERB", "PART", "PART", "PUNCT"]),
     (
         ["走", "吧", "，", "别", "等", "了", "。"],
@@ -155,13 +155,13 @@ SENTENCES: list[tuple[list[str], list[str]]] = [
         ["好", "了", "，", "别", "说", "了", "。"],
         ["ADJ", "PART", "PUNCT", "ADV", "VERB", "PART", "PUNCT"],
     ),
-    (["这是", "我", "的", "书", "。"], ["VERB", "PRON", "PART", "NOUN", "PUNCT"]),
-    (["那是", "你", "的", "吗", "？"], ["VERB", "PRON", "PART", "PART", "PUNCT"]),
+    (["这", "是", "我", "的", "书", "。"], ["DET", "AUX", "PRON", "PART", "NOUN", "PUNCT"]),
+    (["那", "是", "你", "的", "吗", "？"], ["DET", "AUX", "PRON", "PART", "PART", "PUNCT"]),
     (["这", "是", "他", "的", "。"], ["DET", "AUX", "PRON", "PART", "PUNCT"]),
     (["我", "的", "家", "在", "北京", "。"], ["PRON", "PART", "NOUN", "ADP", "PROPN", "PUNCT"]),
     (["她", "的", "书包", "很", "新", "。"], ["PRON", "PART", "NOUN", "ADV", "ADJ", "PUNCT"]),
     (["他", "的", "朋友", "来", "了", "。"], ["PRON", "PART", "NOUN", "VERB", "PART", "PUNCT"]),
-    (["这是", "大家", "的", "意见", "。"], ["VERB", "PRON", "PART", "NOUN", "PUNCT"]),
+    (["这", "是", "大家", "的", "意见", "。"], ["DET", "AUX", "PRON", "PART", "NOUN", "PUNCT"]),
     (["我", "买", "了", "一些", "水果", "。"], ["PRON", "VERB", "PART", "NUM", "NOUN", "PUNCT"]),
     (["他", "说", "了", "很多", "话", "。"], ["PRON", "VERB", "PART", "ADJ", "NOUN", "PUNCT"]),
     (
@@ -330,9 +330,22 @@ def main() -> None:
     train_path = Path("data/processed/zh_bio/train.jsonl")
     val_path = Path("data/processed/zh_bio/validation.jsonl")
 
-    before_train = sum(1 for _ in open(train_path, encoding="utf-8"))
-    before_val = sum(1 for _ in open(val_path, encoding="utf-8"))
+    with open(train_path, encoding="utf-8") as f:
+        before_train = sum(1 for _ in f)
+    with open(val_path, encoding="utf-8") as f:
+        before_val = sum(1 for _ in f)
     print(f"Before: train={before_train}, val={before_val}")
+
+    # Idempotency: skip if zh-aug- entries already exist.
+    already = False
+    with open(train_path, encoding="utf-8") as f:
+        for line in f:
+            if "zh-aug-" in line:
+                already = True
+                break
+    if already:
+        print("Augmentation already applied — skipping (idempotent)")
+        return
 
     n_train = 0
     n_val = 0
@@ -340,15 +353,17 @@ def main() -> None:
         for words, upos in SENTENCES:
             entry = sentence_to_jsonl(words, upos)
             line = json.dumps(entry, ensure_ascii=False)
-            if random.random() < 0.1:
+            if rng.random() < 0.1:
                 vf.write(line + "\n")
                 n_val += 1
             else:
                 tf.write(line + "\n")
                 n_train += 1
 
-    after_train = sum(1 for _ in open(train_path, encoding="utf-8"))
-    after_val = sum(1 for _ in open(val_path, encoding="utf-8"))
+    with open(train_path, encoding="utf-8") as f:
+        after_train = sum(1 for _ in f)
+    with open(val_path, encoding="utf-8") as f:
+        after_val = sum(1 for _ in f)
     print(f"Added: train=+{n_train}, val=+{n_val}")
     print(f"After: train={after_train}, val={after_val}")
 
