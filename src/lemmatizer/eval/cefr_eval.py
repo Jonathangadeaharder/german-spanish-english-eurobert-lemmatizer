@@ -320,6 +320,7 @@ def main(argv: list[str] | None = None) -> int:
         choices=[s.lang for s in LANGUAGES] + ["all"],
         help=f"Language code ({'/'.join(s.lang for s in LANGUAGES)}) or 'all'.",
     )
+
     def _positive_int(value: str) -> int:
         ivalue = int(value)
         if ivalue < 1:
@@ -338,9 +339,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    langs: list[str] = (
-        [s.lang for s in LANGUAGES] if args.lang == "all" else [args.lang]
-    )
+    langs: list[str] = [s.lang for s in LANGUAGES] if args.lang == "all" else [args.lang]
     out_dir: Path = args.out_dir
 
     summary: dict[str, dict] = {}

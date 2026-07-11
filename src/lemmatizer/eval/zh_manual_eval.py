@@ -120,11 +120,17 @@ def run() -> None:
         for i, (word, gold_lemma, gold_pos) in enumerate(
             zip(gold_words, gold_lemmas, gold_upos, strict=True)
         ):
+            offset = word_start_offsets[i] if i < len(word_start_offsets) else 0
+
+            # Skip words beyond the truncation boundary — they can't be
+            # scored because the model never saw their chars.
+            if offset >= n_chars:
+                continue
+
             total_tokens += 1
 
             # UPOS: use the first char of this word.
-            offset = word_start_offsets[i] if i < len(word_start_offsets) else 0
-            if offset < n_chars and char_label[offset] is not None:
+            if char_label[offset] is not None:
                 raw_label = id2label.get(char_label[offset], "O")
                 pred_pos = label_to_upos(raw_label)
             else:

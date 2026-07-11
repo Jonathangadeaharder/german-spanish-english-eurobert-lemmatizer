@@ -336,14 +336,9 @@ def main() -> None:
         before_val = sum(1 for _ in f)
     print(f"Before: train={before_train}, val={before_val}")
 
-    # Idempotency: skip if zh-aug- entries already exist.
-    already = False
-    with open(train_path, encoding="utf-8") as f:
-        for line in f:
-            if "zh-aug-" in line:
-                already = True
-                break
-    if already:
+    # Idempotency: use a sentinel file to prevent duplicate appends.
+    sentinel = Path("data/processed/zh_bio/.zh_augment2_applied")
+    if sentinel.exists():
         print("Augmentation already applied — skipping (idempotent)")
         return
 
@@ -366,6 +361,7 @@ def main() -> None:
         after_val = sum(1 for _ in f)
     print(f"Added: train=+{n_train}, val=+{n_val}")
     print(f"After: train={after_train}, val={after_val}")
+    sentinel.touch()
 
 
 if __name__ == "__main__":

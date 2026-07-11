@@ -78,6 +78,8 @@ def run() -> None:
         logits = model(input_ids)
         mx.eval(logits)
         preds = np.array(mx.argmax(logits, axis=-1))[0]
+        if sent_idx % 50 == 0:
+            mx.clear_cache()
 
         word_ids = encoding.word_ids()
         char_label: list[int | None] = [None] * n_chars
@@ -91,7 +93,10 @@ def run() -> None:
 
         for i, (word, gold_pos) in enumerate(zip(gold_words, gold_upos, strict=True)):
             offset = word_start_offsets[i] if i < len(word_start_offsets) else 0
-            if offset < n_chars and char_label[offset] is not None:
+            # Skip words beyond truncation boundary.
+            if offset >= n_chars:
+                continue
+            if char_label[offset] is not None:
                 raw_label = id2label.get(char_label[offset], "O")
                 pred_pos = label_to_upos(raw_label)
             else:

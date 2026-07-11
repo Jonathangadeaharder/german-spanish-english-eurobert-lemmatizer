@@ -380,15 +380,9 @@ def main() -> None:
         val_count_before = sum(1 for _ in f)
     print(f"Before: train={train_count_before}, val={val_count_before}")
 
-    # Idempotency: check if augmentation already applied by looking for
-    # the marker comment in the first augmented sentence ID.
-    already_applied = False
-    with open(train_path, encoding="utf-8") as f:
-        for line in f:
-            if "zh-aug-" in line:
-                already_applied = True
-                break
-    if already_applied:
+    # Idempotency: use a sentinel file to prevent duplicate appends.
+    sentinel = Path("data/processed/zh_bio/.zh_augment_applied")
+    if sentinel.exists():
         print("Augmentation already applied — skipping (idempotent)")
         return
 
@@ -414,6 +408,7 @@ def main() -> None:
         val_count_after = sum(1 for _ in f)
     print(f"Added: train=+{n_train}, val=+{n_val}")
     print(f"After: train={train_count_after}, val={val_count_after}")
+    sentinel.touch()
 
 
 if __name__ == "__main__":

@@ -15,15 +15,6 @@ from transformers import AutoTokenizer
 from lemmatizer.languages import LanguageSpec
 from lemmatizer.train import TrainOptions
 
-
-# openmed is an undeclared optional dep; lazy-import so the module loads
-# without it. Fails at runtime only if ZH trainer is invoked.
-def _load_openmed_model():
-    from openmed.mlx.models import load_model
-
-    return load_model
-
-
 MAX_LENGTH = 256
 
 
