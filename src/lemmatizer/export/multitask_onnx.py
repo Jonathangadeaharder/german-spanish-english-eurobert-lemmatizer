@@ -248,6 +248,8 @@ def sync_weights(
 
 
 def export_lang(lang: str) -> None:
+    if lang not in RUN_DIRS:
+        raise ValueError(f"Unknown language '{lang}'. Valid: {sorted(RUN_DIRS.keys())}")
     model_dir = Path(os.getenv("MODEL_DIR", RUN_DIRS[lang]))
     onnx_dir = Path(os.getenv("ONNX_DIR", f"onnx/eurobert-lemma-{lang}-210m"))
     lexicon_dir = Path(os.getenv("LEXICON_DIR", f"artifacts/lemma_{lang}"))
@@ -276,9 +278,20 @@ def export_lang(lang: str) -> None:
     has_lora = any("lora" in k for k in weights)
     if has_lora:
         lora_keys = [k for k in weights if "lora" in k]
-        print(f"[{lang}] Found LoRA adapters ({len(lora_keys)} keys), merging...", flush=True)
-        lora_rank = 32 if lang == "de" else 16
+        # Infer rank from lora_a tensor shape: (rank, in_features)
+        first_a = next((k for k in lora_keys if "lora_a" in k), None)
+        if first_a is not None:
+            lora_rank = weights[first_a].shape[0]
+        else:
+            lora_rank = 32 if lang == "de" else 16
+        # Alpha is a training hyperparameter not stored in the checkpoint.
+        # Use the known training recipe values.
         lora_alpha = 64.0 if lang == "de" else 32.0
+        print(
+            f"[{lang}] Found LoRA adapters ({len(lora_keys)} keys), "
+            f"merging (rank={lora_rank}, alpha={lora_alpha})...",
+            flush=True,
+        )
         weights = merge_lora_weights(weights, lora_rank, lora_alpha)
 
     # Load HF backbone
@@ -308,6 +321,16 @@ def export_lang(lang: str) -> None:
     if report["skipped"]:
         print(f"  skipped: {report['skipped'][:5]}", flush=True)
     if report["missing"]:
+        critical = [
+            m
+            for m in report["missing"]
+            if any(c in m[0] for c in ("embed", "norm", "q_proj", "k_proj"))
+        ]
+        if critical:
+            raise RuntimeError(
+                f"[{lang}] Critical backbone weights not synced: {critical[:3]}. "
+                "Refusing to export with pretrained/random weights."
+            )
         print(f"  missing: {report['missing'][:5]}", flush=True)
 
     wrapper.eval()

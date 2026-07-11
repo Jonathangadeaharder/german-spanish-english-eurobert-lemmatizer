@@ -61,10 +61,6 @@ def merge_lora(weights: dict[str, np.ndarray], rank: int, alpha: float) -> dict[
         b = pair["b"]
         delta = (b @ a) * scale
         weights[w_key] = weights[w_key] + delta
-        # Also merge bias if present
-        b_key = f"{base}.bias"
-        if b_key in weights:
-            pass
 
     return weights
 
