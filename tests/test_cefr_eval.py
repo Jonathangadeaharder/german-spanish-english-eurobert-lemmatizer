@@ -189,9 +189,7 @@ def test_main_gate_fails_when_lemma_below_threshold(monkeypatch, tmp_path):
     _patch_langs(monkeypatch, ["de"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: _make_report(
-            lemma_accuracy=GATE_ACCURACY - 0.05
-        ),
+        lambda lang, out_dir, bs: _make_report(lemma_accuracy=GATE_ACCURACY - 0.05),
     )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 1
@@ -202,9 +200,7 @@ def test_main_gate_fails_when_upos_below_threshold(monkeypatch, tmp_path):
     _patch_langs(monkeypatch, ["de"])
     monkeypatch.setattr(
         "lemmatizer.eval.cefr_eval.evaluate_language",
-        lambda lang, out_dir, bs: _make_report(
-            upos_accuracy=GATE_ACCURACY - 0.05
-        ),
+        lambda lang, out_dir, bs: _make_report(upos_accuracy=GATE_ACCURACY - 0.05),
     )
     rc = main(["--lang", "de", "--out-dir", str(tmp_path)])
     assert rc == 1

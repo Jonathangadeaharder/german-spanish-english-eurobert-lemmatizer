@@ -30,14 +30,40 @@ src/lemmatizer/
   cli.py              Typer entry point (registry-driven dispatch)
   languages.py        LANGUAGES registry — single source of truth
   data/               CoNLL-U reader, UD fetch, labels, dataset builders
+                      script_guard.py — cross-language corruption guard
+                      zh_lexicon.py — zh exception lexicon builder
+                      zh_augment.py, zh_augment2.py — handcrafted zh training data
   train/              TrainOptions + train_language() dispatcher + MLX trainers
+    mlx_multitask.py   de/en/es/fr/nl/sv (EuroBERT/ScandiBERT)
+    train_byt5.py      ar (ByT5-small)
+    zh_bio.py          zh (bert-base-chinese via openmed)
   eval/               EvalContext + backends + treebank/CEFR eval
+    zh_manual_eval.py  Independent gold-test eval for zh
+    zh_error_analysis.py  Per-tag UPOS confusion matrix for zh
   export/             ByT5 ONNX bridge + web packaging
-  inference/           Postprocess rules
+  inference/          Postprocess rules
 data/                 Gold UD + processed HF datasets
 artifacts/            Built lexicons / edit_trees / id2label (serving assets)
+runs/                 Trained checkpoints (best.safetensors + metrics.json only)
 web/                  Browser runtime (demo.js + ONNX model bundle)
 ```
+
+### What was removed (2026-07-11 cleanup)
+
+- **Byte-level seq2seq approach** (`seq2seq_lemma.py`, `seq2seq_dataset.py`):
+  unreachable from CLI/dispatch, proven worthless (0% exact-match). Deleted
+  code, tests, run dirs, and datasets.
+- **Subtitle pipeline** (`subtitle_pipeline.py`, `vtt_parser.py`,
+  `apply_validation.py`): no production entry point. Deleted code + tests.
+- **Root augment scripts** (`augment_dataset.py`,
+  `augment_training_with_cefr.py`): unreferenced. Deleted.
+- **Upload hacks** (`scripts/upload_loop.sh`, `scripts/upload_once.py`):
+  superseded by `scripts/publish_hf.py`. Deleted.
+- **Superseded run dirs** (v1/v2/v3 multitask, all seq2seq): 149 GB → 6 GB.
+  Only `best.safetensors` + `metrics.json` kept per language.
+- **Orphaned datasets** (`eurobert_char_lemma_dataset`,
+  `eurobert_vocab_classifier_dataset`, `eurobert_lemma_ar_dataset_camelbert`):
+  zero consumers. Deleted.
 
 ## Adding a language
 
