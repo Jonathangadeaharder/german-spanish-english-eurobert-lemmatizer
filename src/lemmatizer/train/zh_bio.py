@@ -312,12 +312,43 @@ def main():
     run(spec("zh"), opts)
 
 
+def _load_bert_model(model_path: str):
+    """Load a BERT model from model_path, tolerating extra MLM head weights.
+
+    openmed's load_model is strict — it rejects pretrained checkpoints
+    that carry MLM head keys (cls.*) not present in
+    BertForTokenClassification. This wrapper builds the model from config
+    and loads weights with strict=False to skip those unmatched keys.
+    """
+    import mlx.core as mx
+    from openmed.mlx.artifact import load_artifact_config, resolve_weight_candidates
+    from openmed.mlx.models import build_model, normalize_model_config
+
+    model_path = Path(model_path)
+    manifest, config = load_artifact_config(model_path)
+    config = normalize_model_config(config, manifest=manifest)
+    candidate_paths = resolve_weight_candidates(model_path, config=config, manifest=manifest)
+    weights_path = next((p for p in candidate_paths if p.exists()), None)
+    if weights_path is None:
+        raise FileNotFoundError(
+            f"No weights found in {model_path}. Expected weights.safetensors or weights.npz."
+        )
+    weights = dict(mx.load(str(weights_path)))
+    model = build_model(config, manifest=manifest)
+    # strict=False: skip cls.* (MLM head) and pooler keys not in the
+    # token-classification model. The classifier head is replaced below.
+    model.load_weights(list(weights.items()), strict=False)
+    model.eval()
+    mx.eval(model.parameters())
+    return model
+
+
 def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     """Canonical entry: train the ZH BIO-POS model for `spec.lang` (zh)."""
     prune_layers = opts.extra.get("prune_layers", 12)
 
     tokenizer = AutoTokenizer.from_pretrained(opts.checkpoint)
-    model = _load_openmed_model()(opts.checkpoint)
+    model = _load_bert_model(opts.checkpoint)
 
     # Prune model layers if requested
     if prune_layers > 0 and len(model.encoder.layers) > prune_layers:
@@ -355,13 +386,17 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
     if opts.epochs > 0:
-        attach_lora(model, opts.lora_rank, opts.lora_alpha)
-        print(
-            json.dumps(
-                {"event": "lora_attached", "rank": opts.lora_rank, "alpha": opts.lora_alpha}
-            ),
-            flush=True,
-        )
+        if opts.lora_rank > 0:
+            attach_lora(model, opts.lora_rank, opts.lora_alpha)
+            print(
+                json.dumps(
+                    {"event": "lora_attached", "rank": opts.lora_rank, "alpha": opts.lora_alpha}
+                ),
+                flush=True,
+            )
+        else:
+            model.unfreeze()
+            print("Full fine-tuning (no LoRA)", flush=True)
 
         optimizer = optim.AdamW(learning_rate=opts.lr, weight_decay=0.01)
 
@@ -448,6 +483,33 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
 
                     current_train = [train_pool[i] for i in current_train_indices]
                     current_val = [val_pool[i] for i in current_val_indices]
+
+        else:
+            best_val_acc = -1.0
+            for epoch in range(1, int(opts.epochs) + 1):
+                t0 = time.time()
+                train_loss = train_epoch(model, train_data, opts.batch_size, optimizer, epoch)
+                metrics = {
+                    "epoch": epoch,
+                    "train_loss": round(train_loss, 4),
+                    "train": evaluate(model, train_data, opts.batch_size, f"epoch_{epoch}_train"),
+                    "validation": evaluate(
+                        model, val_data, opts.batch_size, f"epoch_{epoch}_validation"
+                    ),
+                    "elapsed_s": round(time.time() - t0, 1),
+                }
+                results["finetune"].append(metrics)
+                print(json.dumps({"event": "epoch", **metrics}), flush=True)
+
+                val_acc = metrics["validation"]["accuracy"]
+                if val_acc >= best_val_acc:
+                    best_val_acc = val_acc
+                    model.save_weights(str(output_dir / "best.safetensors"))
+                    print(
+                        f"  saved best model weights (val_acc={best_val_acc:.4f})",
+                        flush=True,
+                    )
+                model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
 
     (output_dir / "metrics.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     print(json.dumps({"event": "saved", "path": str(output_dir / "metrics.json")}), flush=True)

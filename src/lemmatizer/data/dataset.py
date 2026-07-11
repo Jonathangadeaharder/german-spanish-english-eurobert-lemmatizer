@@ -7,6 +7,7 @@ from transformers import AutoTokenizer
 
 from lemmatizer.data.conllu import read_conllu
 from lemmatizer.data.edit_trees import make_edit_label
+from lemmatizer.data.script_guard import assert_language_plausible
 from lemmatizer.languages import LANGUAGES, UD_FILES, language_assets
 
 MODEL_ID = "EuroBERT/EuroBERT-210m"
@@ -123,6 +124,10 @@ def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
 
         if features is None:
             features = build_row_features(enc)
+
+    if rows:
+        all_words = [w for r in rows for w in r["words"] if w]
+        assert_language_plausible(lang, all_words)
 
     return Dataset.from_list(rows, features=features)
 
