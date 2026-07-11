@@ -30,9 +30,6 @@ PAD_LABEL = -100
 BYT5_PAD = 0
 BYT5_EOS = 1
 BYTE_ID_OFFSET = 3
-# Max byte-level token length. Imported by train_byt5 and byt5_lemma_model
-# to cap padded batches via min(max(...), MAX_SEQ_LEN).
-MAX_SEQ_LEN = 256
 SPECIAL_TOKENS = ["<PAD>", "<UNK>", "<IDENTITY>"]
 SPECIAL_TOKEN_IDS = {"<PAD>": 0, "<UNK>": 1, "<IDENTITY>": 2}
 
