@@ -25,6 +25,7 @@ from datasets import Dataset, DatasetDict, concatenate_datasets
 
 from lemmatizer.data.byt5_dataset import BYT5_EOS, BYTE_ID_OFFSET, MAX_SEQ_LEN
 from lemmatizer.data.conllu import read_conllu
+from lemmatizer.data.script_guard import assert_language_plausible
 
 # All valid UPOS tags for noise injection
 UPOS_TAGS = [
@@ -129,6 +130,7 @@ def build_split(
     # module so callers relying on the global stream aren't disturbed.
     rng = random.Random(seed)
     rows = []
+    all_raw_words: list[str] = []
     skipped = 0
     for sent in read_conllu(conllu_path, lang=lang):
         words = sent["words"]
@@ -161,9 +163,13 @@ def build_split(
                 "output_text": output_text,
             }
         )
+        all_raw_words.extend(words)
 
     if skipped:
         print(f"  Skipped {skipped} malformed sentences in {conllu_path}")
+
+    if all_raw_words:
+        assert_language_plausible(lang, all_raw_words)
 
     return Dataset.from_list(rows)
 

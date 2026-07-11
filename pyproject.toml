@@ -14,6 +14,7 @@ dependencies = [
   "numpy>=1.26.0,<2.0",
   "onnx>=1.18",
   "onnxruntime==1.23.1",
+  "openmed>=1.8.1",
   "scikit-learn>=1.5.0",
   "spacy>=3.7.0",
   "stanza>=1.13.0",
