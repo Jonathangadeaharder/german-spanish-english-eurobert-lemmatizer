@@ -9,7 +9,8 @@ are unlearnable unless covered by lexicon fallback or identity.
 - Total scored: 19683
 - Learnable via edit-tree: 19513
 - In lexicon: 170
-- Identity (skipped): 5439
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 5439
 - Unlearnable: 0
 - **Ceiling: 1.0000**
 
@@ -17,16 +18,18 @@ are unlearnable unless covered by lexicon fallback or identity.
 - Total scored: 19226
 - Learnable via edit-tree: 19036
 - In lexicon: 65
-- Identity (skipped): 5853
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 5853
 - Unlearnable: 125
-- **Ceiling: 0.9950**
+- **Ceiling: 0.9935**
 
 ## de
 ### dev
 - Total scored: 10043
 - Learnable via edit-tree: 9940
 - In lexicon: 103
-- Identity (skipped): 2437
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 2437
 - Unlearnable: 0
 - **Ceiling: 1.0000**
 
@@ -34,16 +37,18 @@ are unlearnable unless covered by lexicon fallback or identity.
 - Total scored: 12925
 - Learnable via edit-tree: 12697
 - In lexicon: 91
-- Identity (skipped): 3574
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 3574
 - Unlearnable: 137
-- **Ceiling: 0.9917**
+- **Ceiling: 0.9894**
 
 ## es
 ### dev
 - Total scored: 42284
 - Learnable via edit-tree: 42167
 - In lexicon: 117
-- Identity (skipped): 11192
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 11192
 - Unlearnable: 0
 - **Ceiling: 1.0000**
 
@@ -51,33 +56,37 @@ are unlearnable unless covered by lexicon fallback or identity.
 - Total scored: 42312
 - Learnable via edit-tree: 42132
 - In lexicon: 53
-- Identity (skipped): 11310
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 11310
 - Unlearnable: 127
-- **Ceiling: 0.9976**
+- **Ceiling: 0.9970**
 
 ## fr
 ### dev
 - Total scored: 28128
 - Learnable via edit-tree: 28002
 - In lexicon: 9
-- Identity (skipped): 7586
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 7586
 - Unlearnable: 117
-- **Ceiling: 0.9967**
+- **Ceiling: 0.9958**
 
 ### test
 - Total scored: 8049
 - Learnable via edit-tree: 7978
 - In lexicon: 1
-- Identity (skipped): 1966
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 1966
 - Unlearnable: 70
-- **Ceiling: 0.9930**
+- **Ceiling: 0.9913**
 
 ## sv
 ### dev
 - Total scored: 8729
 - Learnable via edit-tree: 8617
 - In lexicon: 112
-- Identity (skipped): 1068
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 1068
 - Unlearnable: 0
 - **Ceiling: 1.0000**
 
@@ -85,40 +94,55 @@ are unlearnable unless covered by lexicon fallback or identity.
 - Total scored: 17672
 - Learnable via edit-tree: 17193
 - In lexicon: 120
-- Identity (skipped): 2704
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 2704
 - Unlearnable: 359
-- **Ceiling: 0.9824**
+- **Ceiling: 0.9797**
 
 ## ar
 ### dev
 - Total scored: 24302
 - Learnable via edit-tree: 23398
 - In lexicon: 76
-- Identity (skipped): 5937
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 5937
 - Unlearnable: 828
-- **Ceiling: 0.9726**
+- **Ceiling: 0.9659**
 
 ### test
 - Total scored: 23981
 - Learnable via edit-tree: 22342
 - In lexicon: 141
-- Identity (skipped): 4283
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 4283
 - Unlearnable: 1498
-- **Ceiling: 0.9470**
+- **Ceiling: 0.9375**
+
+## zh
+### all
+- Total scored: 0
+- Learnable via edit-tree: 0
+- In lexicon: 0
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 0
+- Unlearnable: 0
+- **Ceiling: 1.0000**
 
 ## nl
 ### dev
 - Total scored: 8657
 - Learnable via edit-tree: 8457
 - In lexicon: 38
-- Identity (skipped): 2884
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 2884
 - Unlearnable: 162
-- **Ceiling: 0.9860**
+- **Ceiling: 0.9813**
 
 ### test
 - Total scored: 8914
 - Learnable via edit-tree: 8506
 - In lexicon: 49
-- Identity (skipped): 2132
+- Identity (fallback): 0
+- Identity-UPOS (skipped): 2132
 - Unlearnable: 359
-- **Ceiling: 0.9675**
+- **Ceiling: 0.9597**

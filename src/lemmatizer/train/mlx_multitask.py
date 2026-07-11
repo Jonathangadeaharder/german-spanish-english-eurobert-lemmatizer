@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import random
 import time
 from pathlib import Path
 
@@ -1050,10 +1051,9 @@ def main() -> None:
 
 def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     """Canonical entry: train the multilingual multitask model for `spec.lang`."""
-    import random
-
     random.seed(opts.seed)
     np.random.seed(opts.seed)
+    mx.random.seed(opts.seed)
     lang = spec.lang
     assets = language_assets(lang)
     label_remap = raw_to_contiguous_map(read_json(assets.label2id_path))

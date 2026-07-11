@@ -37,14 +37,15 @@ def compute_ceiling(lang: str) -> dict:
         sentences = read_conllu(str(conllu_path), lang=lang)
         total = 0
         learnable = 0
-        identity = 0
+        identity_upos_skipped = 0
+        identity_fallback = 0
         in_lexicon = 0
         unlearnable = 0
 
         for sent in sentences:
             for word, lemma, upos in zip(sent["words"], sent["lemmas"], sent["upos"], strict=True):
                 if upos in IDENTITY_UPOS or lemma in ("_", "-"):
-                    identity += 1
+                    identity_upos_skipped += 1
                     continue
 
                 total += 1
@@ -56,16 +57,18 @@ def compute_ceiling(lang: str) -> dict:
                 elif word in lexicon:
                     in_lexicon += 1
                 elif word == lemma:
-                    identity += 1
+                    identity_fallback += 1
                 else:
                     unlearnable += 1
 
-        ceiling = (learnable + in_lexicon + identity) / max(total + identity, 1)
+        solvable = learnable + in_lexicon + identity_fallback
+        ceiling = solvable / max(total, 1)
         results["splits"][split] = {
             "total_scored": total,
             "learnable_via_edit_tree": learnable,
             "in_lexicon": in_lexicon,
-            "identity_skipped": identity,
+            "identity_fallback": identity_fallback,
+            "identity_upos_skipped": identity_upos_skipped,
             "unlearnable": unlearnable,
             "ceiling": round(ceiling, 4),
         }
@@ -88,6 +91,23 @@ def main() -> None:
                 f"{'zh':6s} {'all':6s} {'-':>6s} {'-':>9s} {'-':>8s} "
                 f"{'-':>6s} {'-':>8s} {'~1.0000':>8s}  (identity+lexicon)"
             )
+            all_results.append(
+                {
+                    "lang": "zh",
+                    "splits": {
+                        "all": {
+                            "total_scored": 0,
+                            "learnable_via_edit_tree": 0,
+                            "in_lexicon": 0,
+                            "identity_fallback": 0,
+                            "identity_upos_skipped": 0,
+                            "unlearnable": 0,
+                            "ceiling": 1.0,
+                            "note": "identity+lexicon (no edit-tree label space)",
+                        }
+                    },
+                }
+            )
             continue
 
         r = compute_ceiling(spec.lang)
@@ -96,7 +116,7 @@ def main() -> None:
             print(
                 f"{spec.lang:6s} {split:6s} {s['total_scored']:6d} "
                 f"{s['learnable_via_edit_tree']:9d} {s['in_lexicon']:8d} "
-                f"{s['identity_skipped']:6d} {s['unlearnable']:8d} "
+                f"{s['identity_fallback']:6d} {s['unlearnable']:8d} "
                 f"{s['ceiling']:8.4f}"
             )
 
@@ -119,7 +139,8 @@ def main() -> None:
             lines.append(f"- Total scored: {s['total_scored']}")
             lines.append(f"- Learnable via edit-tree: {s['learnable_via_edit_tree']}")
             lines.append(f"- In lexicon: {s['in_lexicon']}")
-            lines.append(f"- Identity (skipped): {s['identity_skipped']}")
+            lines.append(f"- Identity (fallback): {s['identity_fallback']}")
+            lines.append(f"- Identity-UPOS (skipped): {s['identity_upos_skipped']}")
             lines.append(f"- Unlearnable: {s['unlearnable']}")
             lines.append(f"- **Ceiling: {s['ceiling']:.4f}**")
             lines.append("")
