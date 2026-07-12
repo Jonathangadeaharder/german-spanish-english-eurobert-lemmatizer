@@ -1,0 +1,4437 @@
+# sent_id = es_c1_train_201
+# text = El tribunal constitucional examinó si la delegación legislativa excedió los límites fijados por la ley de habilitación parlamentaria.
+1	El	el	DET	_	_	_	_	_	_
+2	tribunal	tribunal	NOUN	_	_	_	_	_	_
+3	constitucional	constitucional	ADJ	_	_	_	_	_	_
+4	examinó	examinar	VERB	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	delegación	delegación	NOUN	_	_	_	_	_	_
+8	legislativa	legislativo	ADJ	_	_	_	_	_	_
+9	excedió	exceder	VERB	_	_	_	_	_	_
+10	los	el	DET	_	_	_	_	_	_
+11	límites	límite	NOUN	_	_	_	_	_	_
+12	fijados	fijado	ADJ	_	_	_	_	_	_
+13	por	por	ADP	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	ley	ley	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	habilitación	habilitación	NOUN	_	_	_	_	_	_
+18	parlamentaria	parlamentario	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_202
+# text = El control de constitucionalidad garantiza que decretos ejecutivos respeten derechos fundamentales consagrados en la carta magna nacional.
+1	El	el	DET	_	_	_	_	_	_
+2	control	control	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	constitucionalidad	constitucionalidad	NOUN	_	_	_	_	_	_
+5	garantiza	garantizar	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	decretos	decreto	NOUN	_	_	_	_	_	_
+8	ejecutivos	ejecutivo	ADJ	_	_	_	_	_	_
+9	respeten	respetar	VERB	_	_	_	_	_	_
+10	derechos	derecho	NOUN	_	_	_	_	_	_
+11	fundamentales	fundamental	ADJ	_	_	_	_	_	_
+12	consagrados	consagrado	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	carta	carta	NOUN	_	_	_	_	_	_
+16	magna	magno	ADJ	_	_	_	_	_	_
+17	nacional	nacional	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_203
+# text = Aunque el federalismo distribuye competencias entre niveles de gobierno, surgen conflictos frecuentes sobre jurisdicción regulatoria concurrente en comercio.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	federalismo	federalismo	NOUN	_	_	_	_	_	_
+4	distribuye	distribuir	VERB	_	_	_	_	_	_
+5	competencias	competencia	NOUN	_	_	_	_	_	_
+6	entre	entre	ADP	_	_	_	_	_	_
+7	niveles	nivel	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	gobierno	gobierno	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	surgen	surgir	VERB	_	_	_	_	_	_
+12	conflictos	conflicto	NOUN	_	_	_	_	_	_
+13	frecuentes	frecuente	ADJ	_	_	_	_	_	_
+14	sobre	sobre	ADP	_	_	_	_	_	_
+15	jurisdicción	jurisdicción	NOUN	_	_	_	_	_	_
+16	regulatoria	regulatorio	ADJ	_	_	_	_	_	_
+17	concurrente	concurrente	ADJ	_	_	_	_	_	_
+18	en	en	ADP	_	_	_	_	_	_
+19	comercio	comercio	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_204
+# text = La separación de poderes limita el exceso legislativo al facultar tribunales independientes para invalidar normas inconstitucionales.
+1	La	el	DET	_	_	_	_	_	_
+2	separación	separación	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	poderes	poder	NOUN	_	_	_	_	_	_
+5	limita	limitar	VERB	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	exceso	exceso	NOUN	_	_	_	_	_	_
+8	legislativo	legislativo	ADJ	_	_	_	_	_	_
+9	al	al	ADP	_	_	_	_	_	_
+10	facultar	facultar	VERB	_	_	_	_	_	_
+11	tribunales	tribunal	NOUN	_	_	_	_	_	_
+12	independientes	independiente	ADJ	_	_	_	_	_	_
+13	para	para	ADP	_	_	_	_	_	_
+14	invalidar	invalidar	VERB	_	_	_	_	_	_
+15	normas	norma	NOUN	_	_	_	_	_	_
+16	inconstitucionales	inconstitucional	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_205
+# text = Las reformas constitucionales requieren aprobación cualificada y deliberación prolongada para evitar revisiones apresuradas que debiliten la estabilidad institucional.
+1	Las	el	DET	_	_	_	_	_	_
+2	reformas	reforma	NOUN	_	_	_	_	_	_
+3	constitucionales	constitucional	ADJ	_	_	_	_	_	_
+4	requieren	requerir	VERB	_	_	_	_	_	_
+5	aprobación	aprobación	NOUN	_	_	_	_	_	_
+6	cualificada	cualificado	ADJ	_	_	_	_	_	_
+7	y	y	CCONJ	_	_	_	_	_	_
+8	deliberación	deliberación	NOUN	_	_	_	_	_	_
+9	prolongada	prolongado	ADJ	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	evitar	evitar	VERB	_	_	_	_	_	_
+12	revisiones	revisión	NOUN	_	_	_	_	_	_
+13	apresuradas	apresurado	ADJ	_	_	_	_	_	_
+14	que	que	SCONJ	_	_	_	_	_	_
+15	debiliten	debilitar	VERB	_	_	_	_	_	_
+16	la	el	DET	_	_	_	_	_	_
+17	estabilidad	estabilidad	NOUN	_	_	_	_	_	_
+18	institucional	institucional	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_206
+# text = Sigue siendo controvertido si los poderes de emergencia concedidos en crisis deben caducar automáticamente tras umbrales temporales predeterminados.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	siendo	ser	AUX	_	_	_	_	_	_
+3	controvertido	controvertido	ADJ	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	poderes	poder	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	emergencia	emergencia	NOUN	_	_	_	_	_	_
+9	concedidos	concedido	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	crisis	crisis	NOUN	_	_	_	_	_	_
+12	deben	deber	AUX	_	_	_	_	_	_
+13	caducar	caducar	VERB	_	_	_	_	_	_
+14	automáticamente	automáticamente	ADV	_	_	_	_	_	_
+15	tras	tras	ADP	_	_	_	_	_	_
+16	umbrales	umbral	NOUN	_	_	_	_	_	_
+17	temporales	temporal	ADJ	_	_	_	_	_	_
+18	predeterminados	predeterminar	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_207
+# text = La declaración de derechos garantiza equidad procesal mientras obliga al Estado a justificar proporcionalmente limitaciones a libertades civiles.
+1	La	el	DET	_	_	_	_	_	_
+2	declaración	declaración	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	derechos	derecho	NOUN	_	_	_	_	_	_
+5	garantiza	garantizar	VERB	_	_	_	_	_	_
+6	equidad	equidad	NOUN	_	_	_	_	_	_
+7	procesal	procesal	ADJ	_	_	_	_	_	_
+8	mientras	mientras	SCONJ	_	_	_	_	_	_
+9	obliga	obligar	VERB	_	_	_	_	_	_
+10	al	al	ADP	_	_	_	_	_	_
+11	Estado	estar	AUX	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	justificar	justificar	VERB	_	_	_	_	_	_
+14	proporcionalmente	proporcionalmente	ADV	_	_	_	_	_	_
+15	limitaciones	limitación	NOUN	_	_	_	_	_	_
+16	a	a	ADP	_	_	_	_	_	_
+17	libertades	libertad	NOUN	_	_	_	_	_	_
+18	civiles	civil	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_208
+# text = Tras ratificar el convenio, el Estado incorporó normas internacionales de derechos humanos en marcos de adjudicación constitucional exigible.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	ratificar	ratificar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	convenio	convenio	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	Estado	estar	AUX	_	_	_	_	_	_
+8	incorporó	incorporar	VERB	_	_	_	_	_	_
+9	normas	norma	NOUN	_	_	_	_	_	_
+10	internacionales	internacional	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	derechos	derecho	NOUN	_	_	_	_	_	_
+13	humanos	humano	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	marcos	marco	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	adjudicación	adjudicación	NOUN	_	_	_	_	_	_
+18	constitucional	constitucional	ADJ	_	_	_	_	_	_
+19	exigible	exigible	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_209
+# text = Académicos debatieron si la interpretación originalista aborda adecuadamente desarrollos tecnológicos imprevistos por redactores constitucionales del siglo XVIII.
+1	Académicos	Académico	PROPN	_	_	_	_	_	_
+2	debatieron	debatir	VERB	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	interpretación	interpretación	NOUN	_	_	_	_	_	_
+6	originalista	originalista	ADJ	_	_	_	_	_	_
+7	aborda	abordar	VERB	_	_	_	_	_	_
+8	adecuadamente	adecuadamente	ADV	_	_	_	_	_	_
+9	desarrollos	desarrollo	NOUN	_	_	_	_	_	_
+10	tecnológicos	tecnológico	ADJ	_	_	_	_	_	_
+11	imprevistos	imprevisto	ADJ	_	_	_	_	_	_
+12	por	por	ADP	_	_	_	_	_	_
+13	redactores	redactor	NOUN	_	_	_	_	_	_
+14	constitucionales	constitucional	ADJ	_	_	_	_	_	_
+15	del	del	ADP	_	_	_	_	_	_
+16	siglo	siglo	NOUN	_	_	_	_	_	_
+17	XVIII	xviii	NUM	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_210
+# text = El defensor del pueblo impugnó órdenes de detención administrativa sin autorización judicial individual dentro de plazos constitucionalmente exigidos.
+1	El	el	DET	_	_	_	_	_	_
+2	defensor	defensor	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	pueblo	pueblo	NOUN	_	_	_	_	_	_
+5	impugnó	impugnar	VERB	_	_	_	_	_	_
+6	órdenes	orden	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	detención	detención	NOUN	_	_	_	_	_	_
+9	administrativa	administrativo	ADJ	_	_	_	_	_	_
+10	sin	sin	ADP	_	_	_	_	_	_
+11	autorización	autorización	NOUN	_	_	_	_	_	_
+12	judicial	judicial	ADJ	_	_	_	_	_	_
+13	individual	individual	ADJ	_	_	_	_	_	_
+14	dentro	dentro	ADV	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	plazos	plazo	NOUN	_	_	_	_	_	_
+17	constitucionalmente	constitucionalmente	ADV	_	_	_	_	_	_
+18	exigidos	exigir	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_211
+# text = Las cuestiones prejudiciales permiten que tribunales nacionales soliciten orientación autoritativa del tribunal supranacional sobre compatibilidad con tratados.
+1	Las	el	DET	_	_	_	_	_	_
+2	cuestiones	cuestión	NOUN	_	_	_	_	_	_
+3	prejudiciales	prejudicial	ADJ	_	_	_	_	_	_
+4	permiten	permitir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	tribunales	tribunal	NOUN	_	_	_	_	_	_
+7	nacionales	nacional	ADJ	_	_	_	_	_	_
+8	soliciten	solicitar	VERB	_	_	_	_	_	_
+9	orientación	orientación	NOUN	_	_	_	_	_	_
+10	autoritativa	autoritativo	ADJ	_	_	_	_	_	_
+11	del	del	ADP	_	_	_	_	_	_
+12	tribunal	tribunal	NOUN	_	_	_	_	_	_
+13	supranacional	supranacional	ADJ	_	_	_	_	_	_
+14	sobre	sobre	ADP	_	_	_	_	_	_
+15	compatibilidad	compatibilidad	NOUN	_	_	_	_	_	_
+16	con	con	ADP	_	_	_	_	_	_
+17	tratados	tratado	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_212
+# text = No obstante la soberanía parlamentaria, ciertas normas jurídicas pueden vincular legislaturas futuras mediante garantías constitucionales reforzadas.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	soberanía	soberanía	NOUN	_	_	_	_	_	_
+5	parlamentaria	parlamentario	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	ciertas	cierto	DET	_	_	_	_	_	_
+8	normas	norma	NOUN	_	_	_	_	_	_
+9	jurídicas	jurídico	ADJ	_	_	_	_	_	_
+10	pueden	poder	AUX	_	_	_	_	_	_
+11	vincular	vincular	VERB	_	_	_	_	_	_
+12	legislaturas	legislatura	NOUN	_	_	_	_	_	_
+13	futuras	futuro	ADJ	_	_	_	_	_	_
+14	mediante	mediante	ADP	_	_	_	_	_	_
+15	garantías	garantía	NOUN	_	_	_	_	_	_
+16	constitucionales	constitucional	ADJ	_	_	_	_	_	_
+17	reforzadas	reforzado	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_213
+# text = El tribunal constitucional declaró que la demarcación electoral vulneró principios de sufragio igualitario consagrados en textos constitucionales fundacionales.
+1	El	el	DET	_	_	_	_	_	_
+2	tribunal	tribunal	NOUN	_	_	_	_	_	_
+3	constitucional	constitucional	ADJ	_	_	_	_	_	_
+4	declaró	declarar	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	demarcación	demarcación	NOUN	_	_	_	_	_	_
+8	electoral	electoral	ADJ	_	_	_	_	_	_
+9	vulneró	vulnerar	VERB	_	_	_	_	_	_
+10	principios	principio	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	sufragio	sufragio	NOUN	_	_	_	_	_	_
+13	igualitario	igualitario	ADJ	_	_	_	_	_	_
+14	consagrados	consagrado	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	textos	texto	NOUN	_	_	_	_	_	_
+17	constitucionales	constitucional	ADJ	_	_	_	_	_	_
+18	fundacionales	fundacional	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_214
+# text = Las cláusulas de supremacía federal resuelven conflictos entre legislación estatal y estatutos nacionales en dominios de competencia enumerada.
+1	Las	el	DET	_	_	_	_	_	_
+2	cláusulas	cláusula	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	supremacía	supremacía	NOUN	_	_	_	_	_	_
+5	federal	federal	ADJ	_	_	_	_	_	_
+6	resuelven	resolver	VERB	_	_	_	_	_	_
+7	conflictos	conflicto	NOUN	_	_	_	_	_	_
+8	entre	entre	ADP	_	_	_	_	_	_
+9	legislación	legislación	NOUN	_	_	_	_	_	_
+10	estatal	estatal	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	estatutos	estatuto	NOUN	_	_	_	_	_	_
+13	nacionales	nacional	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	dominios	dominio	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	competencia	competencia	NOUN	_	_	_	_	_	_
+18	enumerada	enumerado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_215
+# text = El fiscal general defendió la constitucionalidad de la ley demostrando objetivos estrechamente ajustados servidos por medidas regulatorias impugnadas.
+1	El	el	DET	_	_	_	_	_	_
+2	fiscal	fiscal	NOUN	_	_	_	_	_	_
+3	general	general	ADJ	_	_	_	_	_	_
+4	defendió	defender	VERB	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	constitucionalidad	constitucionalidad	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	ley	ley	NOUN	_	_	_	_	_	_
+10	demostrando	demostrar	VERB	_	_	_	_	_	_
+11	objetivos	objetivo	NOUN	_	_	_	_	_	_
+12	estrechamente	estrechamente	ADV	_	_	_	_	_	_
+13	ajustados	ajustado	ADJ	_	_	_	_	_	_
+14	servidos	servir	ADJ	_	_	_	_	_	_
+15	por	por	ADP	_	_	_	_	_	_
+16	medidas	medida	NOUN	_	_	_	_	_	_
+17	regulatorias	regulatorio	ADJ	_	_	_	_	_	_
+18	impugnadas	impugnado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_216
+# text = Las convenciones constitucionales complementan disposiciones escritas orientando conducta ejecutiva cuando mandatos textuales formales permanecen deliberadamente ambiguos.
+1	Las	el	DET	_	_	_	_	_	_
+2	convenciones	convención	NOUN	_	_	_	_	_	_
+3	constitucionales	constitucional	ADJ	_	_	_	_	_	_
+4	complementan	complementar	VERB	_	_	_	_	_	_
+5	disposiciones	disposición	NOUN	_	_	_	_	_	_
+6	escritas	escrito	ADJ	_	_	_	_	_	_
+7	orientando	orientar	VERB	_	_	_	_	_	_
+8	conducta	conducta	NOUN	_	_	_	_	_	_
+9	ejecutiva	ejecutivo	ADJ	_	_	_	_	_	_
+10	cuando	cuando	SCONJ	_	_	_	_	_	_
+11	mandatos	mandato	NOUN	_	_	_	_	_	_
+12	textuales	textual	ADJ	_	_	_	_	_	_
+13	formales	formal	ADJ	_	_	_	_	_	_
+14	permanecen	permanecer	VERB	_	_	_	_	_	_
+15	deliberadamente	deliberadamente	ADV	_	_	_	_	_	_
+16	ambiguos	ambiguo	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_217
+# text = El voto disidente advirtió que escrutinio deferente de leyes de seguridad erosionaba protección judicial de comunidades marginadas.
+1	El	el	DET	_	_	_	_	_	_
+2	voto	voto	NOUN	_	_	_	_	_	_
+3	disidente	disidente	ADJ	_	_	_	_	_	_
+4	advirtió	advertir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	escrutinio	escrutinio	NOUN	_	_	_	_	_	_
+7	deferente	deferente	ADJ	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	leyes	ley	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	seguridad	seguridad	NOUN	_	_	_	_	_	_
+12	erosionaba	erosionar	VERB	_	_	_	_	_	_
+13	protección	protección	NOUN	_	_	_	_	_	_
+14	judicial	judicial	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	comunidades	comunidad	NOUN	_	_	_	_	_	_
+17	marginadas	marginado	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_218
+# text = Los gobiernos subnacionales invocaron garantías de autonomía constitucional para resistir estandarización centralizada de currículos educativos a nivel nacional.
+1	Los	el	DET	_	_	_	_	_	_
+2	gobiernos	gobierno	NOUN	_	_	_	_	_	_
+3	subnacionales	subnacional	ADJ	_	_	_	_	_	_
+4	invocaron	invocar	VERB	_	_	_	_	_	_
+5	garantías	garantía	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	autonomía	autonomía	NOUN	_	_	_	_	_	_
+8	constitucional	constitucional	ADJ	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	resistir	resistir	VERB	_	_	_	_	_	_
+11	estandarización	estandarización	NOUN	_	_	_	_	_	_
+12	centralizada	centralizado	ADJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	currículos	currículo	NOUN	_	_	_	_	_	_
+15	educativos	educativo	ADJ	_	_	_	_	_	_
+16	a	a	ADP	_	_	_	_	_	_
+17	nivel	nivel	NOUN	_	_	_	_	_	_
+18	nacional	nacional	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_219
+# text = El recurso de amparo constitucional permite a particulares impugnar leyes directamente ante el máximo adjudicador constitucional del país.
+1	El	el	DET	_	_	_	_	_	_
+2	recurso	recurso	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	amparo	amparo	NOUN	_	_	_	_	_	_
+5	constitucional	constitucional	ADJ	_	_	_	_	_	_
+6	permite	permitir	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	particulares	particular	NOUN	_	_	_	_	_	_
+9	impugnar	impugnar	VERB	_	_	_	_	_	_
+10	leyes	ley	NOUN	_	_	_	_	_	_
+11	directamente	directamente	ADV	_	_	_	_	_	_
+12	ante	ante	ADP	_	_	_	_	_	_
+13	el	el	DET	_	_	_	_	_	_
+14	máximo	máximo	ADJ	_	_	_	_	_	_
+15	adjudicador	adjudicador	NOUN	_	_	_	_	_	_
+16	constitucional	constitucional	ADJ	_	_	_	_	_	_
+17	del	del	ADP	_	_	_	_	_	_
+18	país	país	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_220
+# text = El análisis de proporcionalidad exige evaluar idoneidad, necesidad y gravedad equilibrada antes de restringir libertades expresivas constitucionalmente protegidas.
+1	El	el	DET	_	_	_	_	_	_
+2	análisis	análisis	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	proporcionalidad	proporcionalidad	NOUN	_	_	_	_	_	_
+5	exige	exigir	VERB	_	_	_	_	_	_
+6	evaluar	evaluar	VERB	_	_	_	_	_	_
+7	idoneidad	idoneidad	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	necesidad	necesidad	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	gravedad	gravedad	NOUN	_	_	_	_	_	_
+12	equilibrada	equilibrado	ADJ	_	_	_	_	_	_
+13	antes	antes	SCONJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	restringir	restringir	VERB	_	_	_	_	_	_
+16	libertades	libertad	NOUN	_	_	_	_	_	_
+17	expresivas	expresivo	ADJ	_	_	_	_	_	_
+18	constitucionalmente	constitucionalmente	ADV	_	_	_	_	_	_
+19	protegidas	protegido	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_221
+# text = La gran sala reexaminó el caso tras decisiones contradictorias que crearon incertidumbre doctrinal sobre derechos de privacidad en línea.
+1	La	el	DET	_	_	_	_	_	_
+2	gran	gran	ADJ	_	_	_	_	_	_
+3	sala	sala	NOUN	_	_	_	_	_	_
+4	reexaminó	reexaminar	VERB	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	caso	caso	NOUN	_	_	_	_	_	_
+7	tras	tras	ADP	_	_	_	_	_	_
+8	decisiones	decisión	NOUN	_	_	_	_	_	_
+9	contradictorias	contradictorio	ADJ	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	crearon	crear	VERB	_	_	_	_	_	_
+12	incertidumbre	incertidumbre	NOUN	_	_	_	_	_	_
+13	doctrinal	doctrinal	ADJ	_	_	_	_	_	_
+14	sobre	sobre	ADP	_	_	_	_	_	_
+15	derechos	derecho	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	privacidad	privacidad	NOUN	_	_	_	_	_	_
+18	en	en	ADP	_	_	_	_	_	_
+19	línea	línea	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_222
+# text = Las cláusulas de identidad constitucional permiten a Estados miembros resistir armonización percibida como amenaza a tradiciones jurídicas fundacionales domésticas.
+1	Las	el	DET	_	_	_	_	_	_
+2	cláusulas	cláusula	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	identidad	identidad	NOUN	_	_	_	_	_	_
+5	constitucional	constitucional	ADJ	_	_	_	_	_	_
+6	permiten	permitir	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	Estados	Estados	PROPN	_	_	_	_	_	_
+9	miembros	miembro	NOUN	_	_	_	_	_	_
+10	resistir	resistir	VERB	_	_	_	_	_	_
+11	armonización	armonización	NOUN	_	_	_	_	_	_
+12	percibida	percibido	ADJ	_	_	_	_	_	_
+13	como	como	SCONJ	_	_	_	_	_	_
+14	amenaza	amenaza	NOUN	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	tradiciones	tradición	NOUN	_	_	_	_	_	_
+17	jurídicas	jurídico	ADJ	_	_	_	_	_	_
+18	fundacionales	fundacional	ADJ	_	_	_	_	_	_
+19	domésticas	doméstico	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_223
+# text = El juicio político examinó si la conducta ejecutiva constituía delitos graves justificando destitución conforme a estándares constitucionales de remoción.
+1	El	el	DET	_	_	_	_	_	_
+2	juicio	juicio	NOUN	_	_	_	_	_	_
+3	político	político	ADJ	_	_	_	_	_	_
+4	examinó	examinar	VERB	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	conducta	conducta	NOUN	_	_	_	_	_	_
+8	ejecutiva	ejecutivo	ADJ	_	_	_	_	_	_
+9	constituía	constituir	VERB	_	_	_	_	_	_
+10	delitos	delito	NOUN	_	_	_	_	_	_
+11	graves	grave	ADJ	_	_	_	_	_	_
+12	justificando	justificar	VERB	_	_	_	_	_	_
+13	destitución	destitución	NOUN	_	_	_	_	_	_
+14	conforme	conformar	ADV	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	estándares	estándar	NOUN	_	_	_	_	_	_
+17	constitucionales	constitucional	ADJ	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	remoción	remoción	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_224
+# text = Las comisiones de nombramiento judicial buscan despolitizar selección preservando rendición de cuentas democrática mediante audiencias de nominación transparentes.
+1	Las	el	DET	_	_	_	_	_	_
+2	comisiones	comisión	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	nombramiento	nombramiento	NOUN	_	_	_	_	_	_
+5	judicial	judicial	ADJ	_	_	_	_	_	_
+6	buscan	buscar	VERB	_	_	_	_	_	_
+7	despolitizar	despolitizar	VERB	_	_	_	_	_	_
+8	selección	selección	NOUN	_	_	_	_	_	_
+9	preservando	preservar	VERB	_	_	_	_	_	_
+10	rendición	rendición	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	cuentas	cuenta	NOUN	_	_	_	_	_	_
+13	democrática	democrático	ADJ	_	_	_	_	_	_
+14	mediante	mediante	ADP	_	_	_	_	_	_
+15	audiencias	audiencia	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	nominación	nominación	NOUN	_	_	_	_	_	_
+18	transparentes	transparente	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_225
+# text = El acuerdo constitucional equilibró mecanismos de veto minoritario con reglas mayoritarias para evitar parálisis legislativa en sociedades pluralistas.
+1	El	el	DET	_	_	_	_	_	_
+2	acuerdo	acuerdo	NOUN	_	_	_	_	_	_
+3	constitucional	constitucional	ADJ	_	_	_	_	_	_
+4	equilibró	equilibrar	VERB	_	_	_	_	_	_
+5	mecanismos	mecanismo	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	veto	veto	NOUN	_	_	_	_	_	_
+8	minoritario	minoritario	ADJ	_	_	_	_	_	_
+9	con	con	ADP	_	_	_	_	_	_
+10	reglas	regla	NOUN	_	_	_	_	_	_
+11	mayoritarias	mayoritario	ADJ	_	_	_	_	_	_
+12	para	para	ADP	_	_	_	_	_	_
+13	evitar	evitar	VERB	_	_	_	_	_	_
+14	parálisis	parálisis	NOUN	_	_	_	_	_	_
+15	legislativa	legislativo	ADJ	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	sociedades	sociedad	NOUN	_	_	_	_	_	_
+18	pluralistas	pluralista	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_226
+# text = Los responsables monetarios señalaron disposición a mantener tipos restrictivos hasta que expectativas inflacionarias converjan sosteniblemente hacia objetivos oficiales.
+1	Los	el	DET	_	_	_	_	_	_
+2	responsables	responsable	NOUN	_	_	_	_	_	_
+3	monetarios	monetario	ADJ	_	_	_	_	_	_
+4	señalaron	señalar	VERB	_	_	_	_	_	_
+5	disposición	disposición	NOUN	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	mantener	mantener	VERB	_	_	_	_	_	_
+8	tipos	tipo	NOUN	_	_	_	_	_	_
+9	restrictivos	restrictivo	ADJ	_	_	_	_	_	_
+10	hasta	hasta	ADP	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	expectativas	expectativa	NOUN	_	_	_	_	_	_
+13	inflacionarias	inflacionario	ADJ	_	_	_	_	_	_
+14	converjan	convergir	VERB	_	_	_	_	_	_
+15	sosteniblemente	sosteniblemente	ADV	_	_	_	_	_	_
+16	hacia	hacia	ADP	_	_	_	_	_	_
+17	objetivos	objetivo	NOUN	_	_	_	_	_	_
+18	oficiales	oficial	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_227
+# text = El multiplicador fiscal de inversión en infraestructura parece mayor en recesiones cuando capacidad ociosa y condiciones monetarias acomodaticias coexisten.
+1	El	el	DET	_	_	_	_	_	_
+2	multiplicador	multiplicador	NOUN	_	_	_	_	_	_
+3	fiscal	fiscal	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	inversión	inversión	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	infraestructura	infraestructura	NOUN	_	_	_	_	_	_
+8	parece	parecer	VERB	_	_	_	_	_	_
+9	mayor	mayor	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	recesiones	recesión	NOUN	_	_	_	_	_	_
+12	cuando	cuando	SCONJ	_	_	_	_	_	_
+13	capacidad	capacidad	NOUN	_	_	_	_	_	_
+14	ociosa	ocioso	ADJ	_	_	_	_	_	_
+15	y	y	CCONJ	_	_	_	_	_	_
+16	condiciones	condición	NOUN	_	_	_	_	_	_
+17	monetarias	monetario	ADJ	_	_	_	_	_	_
+18	acomodaticias	acomodaticio	ADJ	_	_	_	_	_	_
+19	coexisten	coexistir	VERB	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_228
+# text = Aunque el desempleo descendió, efectos de trabajadores desalentados y caída de participación complicaron interpretación de indicadores laborales principales.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	desempleo	desempleo	NOUN	_	_	_	_	_	_
+4	descendió	descender	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	efectos	efecto	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	trabajadores	trabajador	NOUN	_	_	_	_	_	_
+9	desalentados	desalentado	ADJ	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	caída	caída	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	participación	participación	NOUN	_	_	_	_	_	_
+14	complicaron	complicar	VERB	_	_	_	_	_	_
+15	interpretación	interpretación	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	indicadores	indicador	NOUN	_	_	_	_	_	_
+18	laborales	laboral	ADJ	_	_	_	_	_	_
+19	principales	principal	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_229
+# text = La independencia del banco central protege tipos de interés de presiones políticas que alimentarían expansiones insostenibles de demanda agregada.
+1	La	el	DET	_	_	_	_	_	_
+2	independencia	independencia	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	banco	banco	NOUN	_	_	_	_	_	_
+5	central	central	ADJ	_	_	_	_	_	_
+6	protege	proteger	VERB	_	_	_	_	_	_
+7	tipos	tipo	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	interés	interés	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	presiones	presión	NOUN	_	_	_	_	_	_
+12	políticas	político	ADJ	_	_	_	_	_	_
+13	que	que	SCONJ	_	_	_	_	_	_
+14	alimentarían	alimentar	VERB	_	_	_	_	_	_
+15	expansiones	expansión	NOUN	_	_	_	_	_	_
+16	insostenibles	insostenible	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	demanda	demanda	NOUN	_	_	_	_	_	_
+19	agregada	agregar	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_230
+# text = La curva de Phillips se debilitó cuando choques de oferta alteraron compensaciones históricas entre inflación y desempleo.
+1	La	el	DET	_	_	_	_	_	_
+2	curva	curva	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	Phillips	Phillips	PROPN	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	debilitó	debilitar	VERB	_	_	_	_	_	_
+7	cuando	cuando	SCONJ	_	_	_	_	_	_
+8	choques	choque	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	oferta	oferta	NOUN	_	_	_	_	_	_
+11	alteraron	alterar	VERB	_	_	_	_	_	_
+12	compensaciones	compensación	NOUN	_	_	_	_	_	_
+13	históricas	histórico	ADJ	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	inflación	inflación	NOUN	_	_	_	_	_	_
+16	y	y	CCONJ	_	_	_	_	_	_
+17	desempleo	desempleo	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_231
+# text = Sigue debatiéndose si la flexibilización cuantitativa estimuló principalmente actividad real o infló valoraciones de activos favoreciendo desproporcionadamente hogares adinerados.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	debatiéndose	debatir	VERB	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	flexibilización	flexibilización	NOUN	_	_	_	_	_	_
+6	cuantitativa	cuantitativo	ADJ	_	_	_	_	_	_
+7	estimuló	estimular	VERB	_	_	_	_	_	_
+8	principalmente	principalmente	ADV	_	_	_	_	_	_
+9	actividad	actividad	NOUN	_	_	_	_	_	_
+10	real	real	ADJ	_	_	_	_	_	_
+11	o	o	CCONJ	_	_	_	_	_	_
+12	infló	inflar	VERB	_	_	_	_	_	_
+13	valoraciones	valoración	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	activos	activo	NOUN	_	_	_	_	_	_
+16	favoreciendo	favorecer	VERB	_	_	_	_	_	_
+17	desproporcionadamente	desproporcionadamente	ADV	_	_	_	_	_	_
+18	hogares	hogar	NOUN	_	_	_	_	_	_
+19	adinerados	adinerado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_232
+# text = Los déficits gemelos presupuestarios y de cuenta corriente reflejan desequilibrios estructurales que requieren programas coordinados de ajuste fiscal.
+1	Los	el	DET	_	_	_	_	_	_
+2	déficits	déficit	NOUN	_	_	_	_	_	_
+3	gemelos	gemelo	ADJ	_	_	_	_	_	_
+4	presupuestarios	presupuestario	ADJ	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	cuenta	cuenta	NOUN	_	_	_	_	_	_
+8	corriente	corriente	ADJ	_	_	_	_	_	_
+9	reflejan	reflejar	VERB	_	_	_	_	_	_
+10	desequilibrios	desequilibrio	NOUN	_	_	_	_	_	_
+11	estructurales	estructural	ADJ	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	requieren	requerir	VERB	_	_	_	_	_	_
+14	programas	programa	NOUN	_	_	_	_	_	_
+15	coordinados	coordinado	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	ajuste	ajuste	NOUN	_	_	_	_	_	_
+18	fiscal	fiscal	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_233
+# text = La inversión de la curva de rendimientos precede históricamente recesiones cuando primas a plazo fluctúan impredeciblemente ante incertidumbre política.
+1	La	el	DET	_	_	_	_	_	_
+2	inversión	inversión	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	curva	curva	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	rendimientos	rendimiento	NOUN	_	_	_	_	_	_
+8	precede	preceder	VERB	_	_	_	_	_	_
+9	históricamente	históricamente	ADV	_	_	_	_	_	_
+10	recesiones	recesión	NOUN	_	_	_	_	_	_
+11	cuando	cuando	SCONJ	_	_	_	_	_	_
+12	primas	prima	NOUN	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	plazo	plazo	NOUN	_	_	_	_	_	_
+15	fluctúan	fluctuar	VERB	_	_	_	_	_	_
+16	impredeciblemente	impredeciblemente	ADV	_	_	_	_	_	_
+17	ante	ante	ADP	_	_	_	_	_	_
+18	incertidumbre	incertidumbre	NOUN	_	_	_	_	_	_
+19	política	político	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_234
+# text = Tras acumular reservas precautorias, economías emergentes resistieron presiones de salida de capital mejor que en crisis financieras anteriores.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	acumular	acumular	VERB	_	_	_	_	_	_
+3	reservas	reserva	NOUN	_	_	_	_	_	_
+4	precautorias	precautorio	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	economías	economía	NOUN	_	_	_	_	_	_
+7	emergentes	emergente	ADJ	_	_	_	_	_	_
+8	resistieron	resister	VERB	_	_	_	_	_	_
+9	presiones	presión	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	salida	salida	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	capital	capital	NOUN	_	_	_	_	_	_
+14	mejor	mejor	ADJ	_	_	_	_	_	_
+15	que	que	SCONJ	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	crisis	crisis	NOUN	_	_	_	_	_	_
+18	financieras	financiero	ADJ	_	_	_	_	_	_
+19	anteriores	anterior	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_235
+# text = Los reguladores macroprudenciales endurecieron ratios de crédito para frenar boom inmobiliario financiado con préstamos que amenazaba estabilidad del sistema.
+1	Los	el	DET	_	_	_	_	_	_
+2	reguladores	regulador	NOUN	_	_	_	_	_	_
+3	macroprudenciales	macroprudencial	ADJ	_	_	_	_	_	_
+4	endurecieron	endurecer	VERB	_	_	_	_	_	_
+5	ratios	ratio	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	crédito	crédito	NOUN	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	frenar	frenar	VERB	_	_	_	_	_	_
+10	boom	boom	NOUN	_	_	_	_	_	_
+11	inmobiliario	inmobiliario	ADJ	_	_	_	_	_	_
+12	financiado	financiar	ADJ	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	préstamos	préstamo	NOUN	_	_	_	_	_	_
+15	que	que	SCONJ	_	_	_	_	_	_
+16	amenazaba	amenazar	VERB	_	_	_	_	_	_
+17	estabilidad	estabilidad	NOUN	_	_	_	_	_	_
+18	del	del	ADP	_	_	_	_	_	_
+19	sistema	sistema	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_236
+# text = El ratio de deuda pública se estabilizó tras superávits fiscales primarios y crecimiento nominal favorable del producto interior.
+1	El	el	DET	_	_	_	_	_	_
+2	ratio	ratio	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	deuda	deuda	NOUN	_	_	_	_	_	_
+5	pública	público	ADJ	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	estabilizó	estabilizar	VERB	_	_	_	_	_	_
+8	tras	tras	ADP	_	_	_	_	_	_
+9	superávits	superávit	NOUN	_	_	_	_	_	_
+10	fiscales	fiscal	ADJ	_	_	_	_	_	_
+11	primarios	primario	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	crecimiento	crecimiento	NOUN	_	_	_	_	_	_
+14	nominal	nominal	ADJ	_	_	_	_	_	_
+15	favorable	favorable	ADJ	_	_	_	_	_	_
+16	del	del	ADP	_	_	_	_	_	_
+17	producto	producto	NOUN	_	_	_	_	_	_
+18	interior	interior	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_237
+# text = Las depreciaciones cambiarias se transmiten a precios al consumo según dinámicas de traspaso del tipo de cambio.
+1	Las	el	DET	_	_	_	_	_	_
+2	depreciaciones	depreciación	NOUN	_	_	_	_	_	_
+3	cambiarias	cambiario	ADJ	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	transmiten	transmitir	VERB	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	precios	precio	NOUN	_	_	_	_	_	_
+8	al	al	ADP	_	_	_	_	_	_
+9	consumo	consumo	NOUN	_	_	_	_	_	_
+10	según	según	ADP	_	_	_	_	_	_
+11	dinámicas	dinámico	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	traspaso	traspaso	NOUN	_	_	_	_	_	_
+14	del	del	ADP	_	_	_	_	_	_
+15	tipo	tipo	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	cambio	cambio	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_238
+# text = La inflación subyacente de servicios persistió por crecimiento salarial en sectores con restricciones laborales pese a endurecimiento monetario agresivo.
+1	La	el	DET	_	_	_	_	_	_
+2	inflación	inflación	NOUN	_	_	_	_	_	_
+3	subyacente	subyacente	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	servicios	servicio	NOUN	_	_	_	_	_	_
+6	persistió	persistir	VERB	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	crecimiento	crecimiento	NOUN	_	_	_	_	_	_
+9	salarial	salarial	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	sectores	sector	NOUN	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	restricciones	restricción	NOUN	_	_	_	_	_	_
+14	laborales	laboral	ADJ	_	_	_	_	_	_
+15	pese	pese	NOUN	_	_	_	_	_	_
+16	a	a	ADP	_	_	_	_	_	_
+17	endurecimiento	endurecimiento	NOUN	_	_	_	_	_	_
+18	monetario	monetario	ADJ	_	_	_	_	_	_
+19	agresivo	agresivo	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_239
+# text = La revisión de cuentas nacionales incorporó medición mejorada de inversión intangible y aportaciones digitales al producto interior bruto.
+1	La	el	DET	_	_	_	_	_	_
+2	revisión	revisión	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	cuentas	cuenta	NOUN	_	_	_	_	_	_
+5	nacionales	nacional	ADJ	_	_	_	_	_	_
+6	incorporó	incorporar	VERB	_	_	_	_	_	_
+7	medición	medición	NOUN	_	_	_	_	_	_
+8	mejorada	mejorado	ADJ	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	inversión	inversión	NOUN	_	_	_	_	_	_
+11	intangible	intangible	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	aportaciones	aportación	NOUN	_	_	_	_	_	_
+14	digitales	digital	ADJ	_	_	_	_	_	_
+15	al	al	ADP	_	_	_	_	_	_
+16	producto	producto	NOUN	_	_	_	_	_	_
+17	interior	interior	ADJ	_	_	_	_	_	_
+18	bruto	bruto	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_240
+# text = Los estabilizadores automáticos atenuaron severidad de la recesión expandiendo transferencias y reduciendo impuestos al contraerse ingreso agregado cíclicamente.
+1	Los	el	DET	_	_	_	_	_	_
+2	estabilizadores	estabilizador	NOUN	_	_	_	_	_	_
+3	automáticos	automático	ADJ	_	_	_	_	_	_
+4	atenuaron	atenuar	VERB	_	_	_	_	_	_
+5	severidad	severidad	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	recesión	recesión	NOUN	_	_	_	_	_	_
+9	expandiendo	expandir	VERB	_	_	_	_	_	_
+10	transferencias	transferencia	NOUN	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	reduciendo	reducir	VERB	_	_	_	_	_	_
+13	impuestos	impuesto	NOUN	_	_	_	_	_	_
+14	al	al	ADP	_	_	_	_	_	_
+15	contraerse	contraer	VERB	_	_	_	_	_	_
+16	ingreso	ingreso	NOUN	_	_	_	_	_	_
+17	agregado	agregar	ADJ	_	_	_	_	_	_
+18	cíclicamente	cíclicamente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_241
+# text = La orientación forward guía expectativas comunicando trayectorias condicionales de política según evolución de datos de inflación y empleo publicados.
+1	La	el	DET	_	_	_	_	_	_
+2	orientación	orientación	NOUN	_	_	_	_	_	_
+3	forward	forward	ADJ	_	_	_	_	_	_
+4	guía	guiar	VERB	_	_	_	_	_	_
+5	expectativas	expectativa	NOUN	_	_	_	_	_	_
+6	comunicando	comunicar	VERB	_	_	_	_	_	_
+7	trayectorias	trayectoria	NOUN	_	_	_	_	_	_
+8	condicionales	condicional	ADJ	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	política	política	NOUN	_	_	_	_	_	_
+11	según	según	ADP	_	_	_	_	_	_
+12	evolución	evolución	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	datos	dato	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	inflación	inflación	NOUN	_	_	_	_	_	_
+17	y	y	CCONJ	_	_	_	_	_	_
+18	empleo	empleo	NOUN	_	_	_	_	_	_
+19	publicados	publicado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_242
+# text = La estimación de brecha sugirió holgura persistente pese a bajo desempleo, reflejando errores en medición del potencial productivo.
+1	La	el	DET	_	_	_	_	_	_
+2	estimación	estimación	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	brecha	brecha	NOUN	_	_	_	_	_	_
+5	sugirió	sugerir	VERB	_	_	_	_	_	_
+6	holgura	holgura	NOUN	_	_	_	_	_	_
+7	persistente	persistente	ADJ	_	_	_	_	_	_
+8	pese	pese	NOUN	_	_	_	_	_	_
+9	a	a	ADP	_	_	_	_	_	_
+10	bajo	bajo	ADP	_	_	_	_	_	_
+11	desempleo	desempleo	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	reflejando	reflejar	VERB	_	_	_	_	_	_
+14	errores	error	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	medición	medición	NOUN	_	_	_	_	_	_
+17	del	del	ADP	_	_	_	_	_	_
+18	potencial	potencial	NOUN	_	_	_	_	_	_
+19	productivo	productivo	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_243
+# text = Las primas de riesgo soberano se ampliaron ante temores de que pasivos estatales desestabilizaran sostenibilidad fiscal de mediano plazo.
+1	Las	el	DET	_	_	_	_	_	_
+2	primas	prima	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	riesgo	riesgo	NOUN	_	_	_	_	_	_
+5	soberano	soberano	ADJ	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	ampliaron	ampliar	VERB	_	_	_	_	_	_
+8	ante	ante	ADP	_	_	_	_	_	_
+9	temores	temor	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	pasivos	pasivo	NOUN	_	_	_	_	_	_
+13	estatales	estatal	ADJ	_	_	_	_	_	_
+14	desestabilizaran	desestabilizar	VERB	_	_	_	_	_	_
+15	sostenibilidad	sostenibilidad	NOUN	_	_	_	_	_	_
+16	fiscal	fiscal	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	mediano	mediano	ADJ	_	_	_	_	_	_
+19	plazo	plazo	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_244
+# text = La moneda de reserva confería privilegio exorbitante, permitiendo endeudamiento barato pese a déficits crónicos de cuenta corriente.
+1	La	el	DET	_	_	_	_	_	_
+2	moneda	moneda	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	reserva	reserva	NOUN	_	_	_	_	_	_
+5	confería	confer	VERB	_	_	_	_	_	_
+6	privilegio	privilegio	NOUN	_	_	_	_	_	_
+7	exorbitante	exorbitante	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	permitiendo	permitir	VERB	_	_	_	_	_	_
+10	endeudamiento	endeudamiento	NOUN	_	_	_	_	_	_
+11	barato	barato	ADJ	_	_	_	_	_	_
+12	pese	pese	NOUN	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	déficits	déficit	NOUN	_	_	_	_	_	_
+15	crónicos	crónico	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	cuenta	cuenta	NOUN	_	_	_	_	_	_
+18	corriente	corriente	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_245
+# text = Escenarios de estanflación complican política cuando respuestas monetarias contractivas arriesgan amplificar desempleo sin contener inflación impulsada por oferta.
+1	Escenarios	escenario	NOUN	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	estanflación	estanflación	NOUN	_	_	_	_	_	_
+4	complican	complicar	VERB	_	_	_	_	_	_
+5	política	política	NOUN	_	_	_	_	_	_
+6	cuando	cuando	SCONJ	_	_	_	_	_	_
+7	respuestas	respuesta	NOUN	_	_	_	_	_	_
+8	monetarias	monetario	ADJ	_	_	_	_	_	_
+9	contractivas	contractivo	ADJ	_	_	_	_	_	_
+10	arriesgan	arriesgar	VERB	_	_	_	_	_	_
+11	amplificar	amplificar	VERB	_	_	_	_	_	_
+12	desempleo	desempleo	NOUN	_	_	_	_	_	_
+13	sin	sin	ADP	_	_	_	_	_	_
+14	contener	contener	VERB	_	_	_	_	_	_
+15	inflación	inflación	NOUN	_	_	_	_	_	_
+16	impulsada	impulsado	ADJ	_	_	_	_	_	_
+17	por	por	ADP	_	_	_	_	_	_
+18	oferta	oferta	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_246
+# text = La descomposición contable del crecimiento atribuyó desaceleración a menor productividad factorial total más que solo a vientos demográficos adversos.
+1	La	el	DET	_	_	_	_	_	_
+2	descomposición	descomposición	NOUN	_	_	_	_	_	_
+3	contable	contable	ADJ	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	crecimiento	crecimiento	NOUN	_	_	_	_	_	_
+6	atribuyó	atribuir	VERB	_	_	_	_	_	_
+7	desaceleración	desaceleración	NOUN	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	menor	menor	ADJ	_	_	_	_	_	_
+10	productividad	productividad	NOUN	_	_	_	_	_	_
+11	factorial	factorial	ADJ	_	_	_	_	_	_
+12	total	total	ADJ	_	_	_	_	_	_
+13	más	más	ADV	_	_	_	_	_	_
+14	que	que	SCONJ	_	_	_	_	_	_
+15	solo	sólo	ADV	_	_	_	_	_	_
+16	a	a	ADP	_	_	_	_	_	_
+17	vientos	viento	NOUN	_	_	_	_	_	_
+18	demográficos	demográfico	ADJ	_	_	_	_	_	_
+19	adversos	adverso	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_247
+# text = La fuga de capitales se aceleró tras anticiparse devaluación inminente e imposición de controles cambiarios por autoridades monetarias desesperadas.
+1	La	el	DET	_	_	_	_	_	_
+2	fuga	fuga	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	capitales	capital	NOUN	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	aceleró	acelerar	VERB	_	_	_	_	_	_
+7	tras	tras	ADP	_	_	_	_	_	_
+8	anticiparse	anticipar	VERB	_	_	_	_	_	_
+9	devaluación	devaluación	NOUN	_	_	_	_	_	_
+10	inminente	inminente	ADJ	_	_	_	_	_	_
+11	e	y	CCONJ	_	_	_	_	_	_
+12	imposición	imposición	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	controles	control	NOUN	_	_	_	_	_	_
+15	cambiarios	cambiario	ADJ	_	_	_	_	_	_
+16	por	por	ADP	_	_	_	_	_	_
+17	autoridades	autoridad	NOUN	_	_	_	_	_	_
+18	monetarias	monetario	ADJ	_	_	_	_	_	_
+19	desesperadas	desesperado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_248
+# text = La regla de Taylor implicaba tipos elevados dado exceso inflacionario y producción superior al potencial estimado consistentemente.
+1	La	el	DET	_	_	_	_	_	_
+2	regla	regla	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	Taylor	Taylor	PROPN	_	_	_	_	_	_
+5	implicaba	implicar	VERB	_	_	_	_	_	_
+6	tipos	tipo	NOUN	_	_	_	_	_	_
+7	elevados	elevado	ADJ	_	_	_	_	_	_
+8	dado	dado	ADJ	_	_	_	_	_	_
+9	exceso	exceso	NOUN	_	_	_	_	_	_
+10	inflacionario	inflacionario	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	producción	producción	NOUN	_	_	_	_	_	_
+13	superior	superior	ADJ	_	_	_	_	_	_
+14	al	al	ADP	_	_	_	_	_	_
+15	potencial	potencial	NOUN	_	_	_	_	_	_
+16	estimado	estimado	ADJ	_	_	_	_	_	_
+17	consistentemente	consistentemente	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_249
+# text = Los efectos de histeresis sugieren que recesiones prolongadas reducen producción potencial mediante atrofia de habilidades y menor creación empresarial.
+1	Los	el	DET	_	_	_	_	_	_
+2	efectos	efecto	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	histeresis	histeresis	NOUN	_	_	_	_	_	_
+5	sugieren	sugerir	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	recesiones	recesión	NOUN	_	_	_	_	_	_
+8	prolongadas	prolongado	ADJ	_	_	_	_	_	_
+9	reducen	reducir	VERB	_	_	_	_	_	_
+10	producción	producción	NOUN	_	_	_	_	_	_
+11	potencial	potencial	ADJ	_	_	_	_	_	_
+12	mediante	mediante	ADP	_	_	_	_	_	_
+13	atrofia	atrofio	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	habilidades	habilidad	NOUN	_	_	_	_	_	_
+16	y	y	CCONJ	_	_	_	_	_	_
+17	menor	menor	ADJ	_	_	_	_	_	_
+18	creación	creación	NOUN	_	_	_	_	_	_
+19	empresarial	empresarial	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_250
+# text = La restricción presupuestaria intertemporal exige deuda actual coherente con compromisos futuros creíbles de balance primario políticamente.
+1	La	el	DET	_	_	_	_	_	_
+2	restricción	restricción	NOUN	_	_	_	_	_	_
+3	presupuestaria	presupuestario	ADJ	_	_	_	_	_	_
+4	intertemporal	intertemporal	ADJ	_	_	_	_	_	_
+5	exige	exigir	VERB	_	_	_	_	_	_
+6	deuda	deuda	NOUN	_	_	_	_	_	_
+7	actual	actual	ADJ	_	_	_	_	_	_
+8	coherente	coherente	ADJ	_	_	_	_	_	_
+9	con	con	ADP	_	_	_	_	_	_
+10	compromisos	compromiso	NOUN	_	_	_	_	_	_
+11	futuros	futuro	ADJ	_	_	_	_	_	_
+12	creíbles	creíble	ADJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	balance	balance	NOUN	_	_	_	_	_	_
+15	primario	primario	ADJ	_	_	_	_	_	_
+16	políticamente	políticamente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_251
+# text = Los filósofos analíticos examinan si las proposiciones morales expresan actitudes o describen hechos objetivos verificables empíricamente.
+1	Los	el	DET	_	_	_	_	_	_
+2	filósofos	filósofo	NOUN	_	_	_	_	_	_
+3	analíticos	analítico	ADJ	_	_	_	_	_	_
+4	examinan	examinar	VERB	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	las	el	DET	_	_	_	_	_	_
+7	proposiciones	proposición	NOUN	_	_	_	_	_	_
+8	morales	moral	ADJ	_	_	_	_	_	_
+9	expresan	expresar	VERB	_	_	_	_	_	_
+10	actitudes	actitud	NOUN	_	_	_	_	_	_
+11	o	o	CCONJ	_	_	_	_	_	_
+12	describen	describir	VERB	_	_	_	_	_	_
+13	hechos	hecho	NOUN	_	_	_	_	_	_
+14	objetivos	objetivo	ADJ	_	_	_	_	_	_
+15	verificables	verificable	ADJ	_	_	_	_	_	_
+16	empíricamente	empíricamente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_252
+# text = El dilema del tranvía ilustra tensiones entre consecuencialismo utilitario y deontología que prohíbe usar personas meramente como medios.
+1	El	el	DET	_	_	_	_	_	_
+2	dilema	dilema	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	tranvía	tranvía	NOUN	_	_	_	_	_	_
+5	ilustra	ilustrar	VERB	_	_	_	_	_	_
+6	tensiones	tensión	NOUN	_	_	_	_	_	_
+7	entre	entre	ADP	_	_	_	_	_	_
+8	consecuencialismo	consecuencialismo	NOUN	_	_	_	_	_	_
+9	utilitario	utilitario	ADJ	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	deontología	deontología	NOUN	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	prohíbe	prohibir	VERB	_	_	_	_	_	_
+14	usar	usar	VERB	_	_	_	_	_	_
+15	personas	persona	NOUN	_	_	_	_	_	_
+16	meramente	meramente	ADV	_	_	_	_	_	_
+17	como	como	SCONJ	_	_	_	_	_	_
+18	medios	medio	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_253
+# text = Aunque el relativismo cultural reconoce diversidad normativa, críticos advierten que dificulta condenar prácticas gravemente lesivas universalmente.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	relativismo	relativismo	NOUN	_	_	_	_	_	_
+4	cultural	cultural	ADJ	_	_	_	_	_	_
+5	reconoce	reconocer	VERB	_	_	_	_	_	_
+6	diversidad	diversidad	NOUN	_	_	_	_	_	_
+7	normativa	normativa	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	críticos	crítico	NOUN	_	_	_	_	_	_
+10	advierten	advertir	VERB	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	dificulta	dificultar	VERB	_	_	_	_	_	_
+13	condenar	condenar	VERB	_	_	_	_	_	_
+14	prácticas	práctica	NOUN	_	_	_	_	_	_
+15	gravemente	gravemente	ADV	_	_	_	_	_	_
+16	lesivas	lesivo	ADJ	_	_	_	_	_	_
+17	universalmente	universalmente	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_254
+# text = La ética de la virtud enfatiza disposiciones habituales cultivadas mediante práctica reflexiva más que cumplimiento de reglas abstractas.
+1	La	el	DET	_	_	_	_	_	_
+2	ética	ética	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	virtud	virtud	NOUN	_	_	_	_	_	_
+6	enfatiza	enfatizar	VERB	_	_	_	_	_	_
+7	disposiciones	disposición	NOUN	_	_	_	_	_	_
+8	habituales	habitual	ADJ	_	_	_	_	_	_
+9	cultivadas	cultivar	ADJ	_	_	_	_	_	_
+10	mediante	mediante	ADP	_	_	_	_	_	_
+11	práctica	práctica	NOUN	_	_	_	_	_	_
+12	reflexiva	reflexivo	ADJ	_	_	_	_	_	_
+13	más	más	ADV	_	_	_	_	_	_
+14	que	que	SCONJ	_	_	_	_	_	_
+15	cumplimiento	cumplimiento	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	reglas	regla	NOUN	_	_	_	_	_	_
+18	abstractas	abstracto	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_255
+# text = Es ampliamente debatido si el libre albedrío es compatible con determinismo causal sugerido por neurociencia cognitiva contemporánea.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	ampliamente	ampliamente	ADV	_	_	_	_	_	_
+3	debatido	debatir	ADJ	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	libre	libre	ADJ	_	_	_	_	_	_
+7	albedrío	albedrío	NOUN	_	_	_	_	_	_
+8	es	ser	AUX	_	_	_	_	_	_
+9	compatible	compatible	ADJ	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	determinismo	determinismo	NOUN	_	_	_	_	_	_
+12	causal	causal	ADJ	_	_	_	_	_	_
+13	sugerido	sugerir	ADJ	_	_	_	_	_	_
+14	por	por	ADP	_	_	_	_	_	_
+15	neurociencia	neurociencia	NOUN	_	_	_	_	_	_
+16	cognitiva	cognitivo	ADJ	_	_	_	_	_	_
+17	contemporánea	contemporáneo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_256
+# text = El imperativo categórico kantiano exige actuar solo según máximas que podrían universalizarse sin contradicción lógica interna.
+1	El	el	DET	_	_	_	_	_	_
+2	imperativo	imperativo	NOUN	_	_	_	_	_	_
+3	categórico	categórico	ADJ	_	_	_	_	_	_
+4	kantiano	kantiano	ADJ	_	_	_	_	_	_
+5	exige	exigir	VERB	_	_	_	_	_	_
+6	actuar	actuar	VERB	_	_	_	_	_	_
+7	solo	sólo	ADV	_	_	_	_	_	_
+8	según	según	ADP	_	_	_	_	_	_
+9	máximas	máxima	NOUN	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	podrían	poder	AUX	_	_	_	_	_	_
+12	universalizarse	universalizar	VERB	_	_	_	_	_	_
+13	sin	sin	ADP	_	_	_	_	_	_
+14	contradicción	contradicción	NOUN	_	_	_	_	_	_
+15	lógica	lógico	ADJ	_	_	_	_	_	_
+16	interna	interno	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_257
+# text = Tras revisar experimentos mentales, el comité reevaluó criterios de personalidad para atribuir derechos morales a entidades artificiales avanzadas.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	revisar	revisar	VERB	_	_	_	_	_	_
+3	experimentos	experimento	NOUN	_	_	_	_	_	_
+4	mentales	mental	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	comité	comité	NOUN	_	_	_	_	_	_
+8	reevaluó	reevaluar	VERB	_	_	_	_	_	_
+9	criterios	criterio	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	personalidad	personalidad	NOUN	_	_	_	_	_	_
+12	para	para	ADP	_	_	_	_	_	_
+13	atribuir	atribuir	VERB	_	_	_	_	_	_
+14	derechos	derecho	NOUN	_	_	_	_	_	_
+15	morales	moral	ADJ	_	_	_	_	_	_
+16	a	a	ADP	_	_	_	_	_	_
+17	entidades	entidad	NOUN	_	_	_	_	_	_
+18	artificiales	artificial	ADJ	_	_	_	_	_	_
+19	avanzadas	avanzado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_258
+# text = La paradoja del mentiroso socava teorías semánticas que equiparan significado con condiciones de verdad en lenguaje natural ordinario.
+1	La	el	DET	_	_	_	_	_	_
+2	paradoja	paradoja	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	mentiroso	mentiroso	NOUN	_	_	_	_	_	_
+5	socava	socavar	VERB	_	_	_	_	_	_
+6	teorías	teoría	NOUN	_	_	_	_	_	_
+7	semánticas	semántico	ADJ	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	equiparan	equipar	VERB	_	_	_	_	_	_
+10	significado	significado	NOUN	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	condiciones	condición	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	verdad	verdad	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	lenguaje	lenguaje	NOUN	_	_	_	_	_	_
+17	natural	natural	ADJ	_	_	_	_	_	_
+18	ordinario	ordinario	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_259
+# text = Filósofos feministas cuestionan supuestos androcéntricos que invisibilizan experiencias de cuidado y trabajo reproductivo no remunerado doméstico.
+1	Filósofos	filósofo	NOUN	_	_	_	_	_	_
+2	feministas	feminista	ADJ	_	_	_	_	_	_
+3	cuestionan	cuestionar	VERB	_	_	_	_	_	_
+4	supuestos	supuesto	NOUN	_	_	_	_	_	_
+5	androcéntricos	androcéntrico	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	invisibilizan	invisibilizar	VERB	_	_	_	_	_	_
+8	experiencias	experiencia	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	cuidado	cuidado	NOUN	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	trabajo	trabajo	NOUN	_	_	_	_	_	_
+13	reproductivo	reproductivo	ADJ	_	_	_	_	_	_
+14	no	no	PART	_	_	_	_	_	_
+15	remunerado	remunerado	ADJ	_	_	_	_	_	_
+16	doméstico	doméstico	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_260
+# text = No obstante avances biomédicos, comités de ética debaten límites aceptables de mejora cognitiva y manipulación genética germinal humana.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	avances	avance	NOUN	_	_	_	_	_	_
+4	biomédicos	biomédico	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	comités	comités	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	ética	ética	NOUN	_	_	_	_	_	_
+9	debaten	debatar	VERB	_	_	_	_	_	_
+10	límites	límite	NOUN	_	_	_	_	_	_
+11	aceptables	aceptable	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	mejora	mejora	NOUN	_	_	_	_	_	_
+14	cognitiva	cognitivo	ADJ	_	_	_	_	_	_
+15	y	y	CCONJ	_	_	_	_	_	_
+16	manipulación	manipulación	NOUN	_	_	_	_	_	_
+17	genética	genético	ADJ	_	_	_	_	_	_
+18	germinal	germinal	ADJ	_	_	_	_	_	_
+19	humana	humano	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_261
+# text = La distinción entre hecho y valor impide deducir prescripciones normativas directamente desde descripciones empíricas científicas aisladas.
+1	La	el	DET	_	_	_	_	_	_
+2	distinción	distinción	NOUN	_	_	_	_	_	_
+3	entre	entre	ADP	_	_	_	_	_	_
+4	hecho	hecho	NOUN	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	valor	valor	NOUN	_	_	_	_	_	_
+7	impide	impedir	VERB	_	_	_	_	_	_
+8	deducir	deducir	VERB	_	_	_	_	_	_
+9	prescripciones	prescripción	NOUN	_	_	_	_	_	_
+10	normativas	normativa	ADJ	_	_	_	_	_	_
+11	directamente	directamente	ADV	_	_	_	_	_	_
+12	desde	desde	ADP	_	_	_	_	_	_
+13	descripciones	descripción	NOUN	_	_	_	_	_	_
+14	empíricas	empírico	ADJ	_	_	_	_	_	_
+15	científicas	científico	ADJ	_	_	_	_	_	_
+16	aisladas	aislado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_262
+# text = El contractualismo busca principios de justicia que ciudadanos racionales aceptarían en posición hipotética de equidad original imparcial.
+1	El	el	DET	_	_	_	_	_	_
+2	contractualismo	contractualismo	NOUN	_	_	_	_	_	_
+3	busca	buscar	VERB	_	_	_	_	_	_
+4	principios	principio	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	justicia	justicia	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	ciudadanos	ciudadano	NOUN	_	_	_	_	_	_
+9	racionales	racional	ADJ	_	_	_	_	_	_
+10	aceptarían	aceptar	VERB	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	posición	posición	NOUN	_	_	_	_	_	_
+13	hipotética	hipotético	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	equidad	equidad	NOUN	_	_	_	_	_	_
+16	original	original	ADJ	_	_	_	_	_	_
+17	imparcial	imparcial	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_263
+# text = Sigue siendo polémico si animales no humanos poseen intereses morales fundamentales que imponen deberes directos de no causación.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	siendo	ser	AUX	_	_	_	_	_	_
+3	polémico	polémico	ADJ	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	animales	animal	NOUN	_	_	_	_	_	_
+6	no	no	PART	_	_	_	_	_	_
+7	humanos	humano	ADJ	_	_	_	_	_	_
+8	poseen	poseer	VERB	_	_	_	_	_	_
+9	intereses	interés	NOUN	_	_	_	_	_	_
+10	morales	moral	ADJ	_	_	_	_	_	_
+11	fundamentales	fundamental	ADJ	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	imponen	imponer	VERB	_	_	_	_	_	_
+14	deberes	deber	NOUN	_	_	_	_	_	_
+15	directos	directo	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	no	no	PART	_	_	_	_	_	_
+18	causación	causación	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_264
+# text = La fenomenología describe estructuras de experiencia vivida desafiando reduccionismos que ignoran cualidades subjetivas irreductibles de conciencia.
+1	La	el	DET	_	_	_	_	_	_
+2	fenomenología	fenomenología	NOUN	_	_	_	_	_	_
+3	describe	describir	VERB	_	_	_	_	_	_
+4	estructuras	estructura	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	experiencia	experiencia	NOUN	_	_	_	_	_	_
+7	vivida	vivido	ADJ	_	_	_	_	_	_
+8	desafiando	desafiar	VERB	_	_	_	_	_	_
+9	reduccionismos	reduccionismo	NOUN	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	ignoran	ignorar	VERB	_	_	_	_	_	_
+12	cualidades	cualidad	NOUN	_	_	_	_	_	_
+13	subjetivas	subjetivo	ADJ	_	_	_	_	_	_
+14	irreductibles	irreductible	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	conciencia	conciencia	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_265
+# text = Argumentos de superinteligencia artificial plantean riesgos existenciales si objetivos instrumentalmente racionales divergen de valores humanos.
+1	Argumentos	argumento	NOUN	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	superinteligencia	superinteligencia	NOUN	_	_	_	_	_	_
+4	artificial	artificial	ADJ	_	_	_	_	_	_
+5	plantean	plantear	VERB	_	_	_	_	_	_
+6	riesgos	riesgo	NOUN	_	_	_	_	_	_
+7	existenciales	existencial	ADJ	_	_	_	_	_	_
+8	si	si	SCONJ	_	_	_	_	_	_
+9	objetivos	objetivo	NOUN	_	_	_	_	_	_
+10	instrumentalmente	instrumentalmente	ADV	_	_	_	_	_	_
+11	racionales	racional	ADJ	_	_	_	_	_	_
+12	divergen	divergir	VERB	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	valores	valor	NOUN	_	_	_	_	_	_
+15	humanos	humano	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_266
+# text = El principio de igual consideración de intereses rechaza discriminación arbitraria basada en especie al evaluar sufrimiento evitable comparable.
+1	El	el	DET	_	_	_	_	_	_
+2	principio	principio	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	igual	igual	ADJ	_	_	_	_	_	_
+5	consideración	consideración	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	intereses	interés	NOUN	_	_	_	_	_	_
+8	rechaza	rechazar	VERB	_	_	_	_	_	_
+9	discriminación	discriminación	NOUN	_	_	_	_	_	_
+10	arbitraria	arbitrario	ADJ	_	_	_	_	_	_
+11	basada	basado	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	especie	especie	NOUN	_	_	_	_	_	_
+14	al	al	ADP	_	_	_	_	_	_
+15	evaluar	evaluar	VERB	_	_	_	_	_	_
+16	sufrimiento	sufrimiento	NOUN	_	_	_	_	_	_
+17	evitable	evitable	ADJ	_	_	_	_	_	_
+18	comparable	comparable	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_267
+# text = Los escépticos morales desafían pretensiones de fundamentación objetiva sosteniendo que juicios éticos reflejan convenciones sociales contingentes históricamente.
+1	Los	el	DET	_	_	_	_	_	_
+2	escépticos	escéptico	NOUN	_	_	_	_	_	_
+3	morales	moral	ADJ	_	_	_	_	_	_
+4	desafían	desafiar	VERB	_	_	_	_	_	_
+5	pretensiones	pretensión	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	fundamentación	fundamentación	NOUN	_	_	_	_	_	_
+8	objetiva	objetivo	ADJ	_	_	_	_	_	_
+9	sosteniendo	sostener	VERB	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	juicios	juicio	NOUN	_	_	_	_	_	_
+12	éticos	ético	ADJ	_	_	_	_	_	_
+13	reflejan	reflejar	VERB	_	_	_	_	_	_
+14	convenciones	convención	NOUN	_	_	_	_	_	_
+15	sociales	social	ADJ	_	_	_	_	_	_
+16	contingentes	contingente	ADJ	_	_	_	_	_	_
+17	históricamente	históricamente	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_268
+# text = Tras confrontar objeciones, el autor refinó teoría de justicia incorporando prioridad para peores situados y equidad de oportunidades.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	confrontar	confrontar	VERB	_	_	_	_	_	_
+3	objeciones	objeción	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	autor	autor	NOUN	_	_	_	_	_	_
+7	refinó	refinar	VERB	_	_	_	_	_	_
+8	teoría	teoría	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	justicia	justicia	NOUN	_	_	_	_	_	_
+11	incorporando	incorporar	VERB	_	_	_	_	_	_
+12	prioridad	prioridad	NOUN	_	_	_	_	_	_
+13	para	para	ADP	_	_	_	_	_	_
+14	peores	peor	ADJ	_	_	_	_	_	_
+15	situados	situado	ADJ	_	_	_	_	_	_
+16	y	y	CCONJ	_	_	_	_	_	_
+17	equidad	equidad	NOUN	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	oportunidades	oportunidad	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_269
+# text = La ética del cuidado prioriza relaciones contextualizadas y responsabilidades interdependientes frente a abstracciones racionales universalistas descontextualizadas.
+1	La	el	DET	_	_	_	_	_	_
+2	ética	ética	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	cuidado	cuidado	NOUN	_	_	_	_	_	_
+5	prioriza	priorizar	VERB	_	_	_	_	_	_
+6	relaciones	relación	NOUN	_	_	_	_	_	_
+7	contextualizadas	contextualizado	ADJ	_	_	_	_	_	_
+8	y	y	CCONJ	_	_	_	_	_	_
+9	responsabilidades	responsabilidad	NOUN	_	_	_	_	_	_
+10	interdependientes	interdependiente	ADJ	_	_	_	_	_	_
+11	frente	frente	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	abstracciones	abstracción	NOUN	_	_	_	_	_	_
+14	racionales	racional	ADJ	_	_	_	_	_	_
+15	universalistas	universalista	ADJ	_	_	_	_	_	_
+16	descontextualizadas	descontextualizado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_270
+# text = Es reconocido que sesgos cognitivos sistemáticos distorsionan intuiciones morales en escenarios de riesgo, aversión a pérdidas y disponibilidad.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	reconocido	reconocer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	sesgos	sesgo	NOUN	_	_	_	_	_	_
+5	cognitivos	cognitivo	ADJ	_	_	_	_	_	_
+6	sistemáticos	sistemático	ADJ	_	_	_	_	_	_
+7	distorsionan	distorsionar	VERB	_	_	_	_	_	_
+8	intuiciones	intuición	NOUN	_	_	_	_	_	_
+9	morales	moral	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	escenarios	escenario	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	riesgo	riesgo	NOUN	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	aversión	aversión	NOUN	_	_	_	_	_	_
+16	a	a	ADP	_	_	_	_	_	_
+17	pérdidas	pérdida	NOUN	_	_	_	_	_	_
+18	y	y	CCONJ	_	_	_	_	_	_
+19	disponibilidad	disponibilidad	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_271
+# text = El problema difícil de la conciencia pregunta por qué procesamiento neural genera experiencia subjetiva cualitativa aparentemente irreducible físicamente.
+1	El	el	DET	_	_	_	_	_	_
+2	problema	problema	NOUN	_	_	_	_	_	_
+3	difícil	difícil	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	conciencia	conciencia	NOUN	_	_	_	_	_	_
+7	pregunta	preguntar	VERB	_	_	_	_	_	_
+8	por	por	ADP	_	_	_	_	_	_
+9	qué	que	DET	_	_	_	_	_	_
+10	procesamiento	procesamiento	NOUN	_	_	_	_	_	_
+11	neural	neural	ADJ	_	_	_	_	_	_
+12	genera	generar	VERB	_	_	_	_	_	_
+13	experiencia	experiencia	NOUN	_	_	_	_	_	_
+14	subjetiva	subjetivo	ADJ	_	_	_	_	_	_
+15	cualitativa	cualitativo	ADJ	_	_	_	_	_	_
+16	aparentemente	aparentemente	ADV	_	_	_	_	_	_
+17	irreducible	irreducible	ADJ	_	_	_	_	_	_
+18	físicamente	físicamente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_272
+# text = Deontólogos insisten que consecuencias agregadas no justifican violar derechos individuales inviolables aunque beneficien mayorías numéricamente superiores.
+1	Deontólogos	Deontólogos	PROPN	_	_	_	_	_	_
+2	insisten	insistir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	consecuencias	consecuencia	NOUN	_	_	_	_	_	_
+5	agregadas	agregar	ADJ	_	_	_	_	_	_
+6	no	no	PART	_	_	_	_	_	_
+7	justifican	justificar	VERB	_	_	_	_	_	_
+8	violar	violar	VERB	_	_	_	_	_	_
+9	derechos	derecho	NOUN	_	_	_	_	_	_
+10	individuales	individual	ADJ	_	_	_	_	_	_
+11	inviolables	inviolable	ADJ	_	_	_	_	_	_
+12	aunque	aunque	SCONJ	_	_	_	_	_	_
+13	beneficien	beneficiar	VERB	_	_	_	_	_	_
+14	mayorías	mayoría	NOUN	_	_	_	_	_	_
+15	numéricamente	numéricamente	ADJ	_	_	_	_	_	_
+16	superiores	superior	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_273
+# text = La bioética clínica integra autonomía del paciente, beneficencia, no maleficencia y justicia distributiva en protocolos de consentimiento.
+1	La	el	DET	_	_	_	_	_	_
+2	bioética	bioética	NOUN	_	_	_	_	_	_
+3	clínica	clínico	ADJ	_	_	_	_	_	_
+4	integra	integrar	VERB	_	_	_	_	_	_
+5	autonomía	autonomía	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	paciente	paciente	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	beneficencia	beneficencia	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	no	no	PART	_	_	_	_	_	_
+12	maleficencia	maleficencia	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	justicia	justicia	NOUN	_	_	_	_	_	_
+15	distributiva	distributivo	ADJ	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	protocolos	protocolo	NOUN	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	consentimiento	consentimiento	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_274
+# text = No obstante pluralismo moral, sociedades democráticas requieren marcos institucionales para resolver desacuerdos razonables sobre bienes públicos comunes.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	pluralismo	pluralismo	NOUN	_	_	_	_	_	_
+4	moral	moral	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	sociedades	sociedad	NOUN	_	_	_	_	_	_
+7	democráticas	democrático	ADJ	_	_	_	_	_	_
+8	requieren	requerir	VERB	_	_	_	_	_	_
+9	marcos	marco	NOUN	_	_	_	_	_	_
+10	institucionales	institucional	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	resolver	resolver	VERB	_	_	_	_	_	_
+13	desacuerdos	desacuerdo	NOUN	_	_	_	_	_	_
+14	razonables	razonable	ADJ	_	_	_	_	_	_
+15	sobre	sobre	ADP	_	_	_	_	_	_
+16	bienes	bien	NOUN	_	_	_	_	_	_
+17	públicos	público	ADJ	_	_	_	_	_	_
+18	comunes	común	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_275
+# text = El argumento ontológico afirma existencia divina deducida conceptualmente, aunque críticos detectan fallos lógicos en inferencias modales involucradas.
+1	El	el	DET	_	_	_	_	_	_
+2	argumento	argumento	NOUN	_	_	_	_	_	_
+3	ontológico	ontológico	ADJ	_	_	_	_	_	_
+4	afirma	afirmar	VERB	_	_	_	_	_	_
+5	existencia	existencia	NOUN	_	_	_	_	_	_
+6	divina	divino	ADJ	_	_	_	_	_	_
+7	deducida	deducido	ADJ	_	_	_	_	_	_
+8	conceptualmente	conceptualmente	ADV	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	aunque	aunque	SCONJ	_	_	_	_	_	_
+11	críticos	crítico	NOUN	_	_	_	_	_	_
+12	detectan	detectar	VERB	_	_	_	_	_	_
+13	fallos	fallo	NOUN	_	_	_	_	_	_
+14	lógicos	lógico	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	inferencias	inferencia	NOUN	_	_	_	_	_	_
+17	modales	modales	ADJ	_	_	_	_	_	_
+18	involucradas	involucrado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_276
+# text = Los planificadores urbanos integraron corredores verdes para mitigar islas de calor y mejorar conectividad peatonal entre barrios fragmentados históricamente.
+1	Los	el	DET	_	_	_	_	_	_
+2	planificadores	planificador	NOUN	_	_	_	_	_	_
+3	urbanos	urbano	ADJ	_	_	_	_	_	_
+4	integraron	integrar	VERB	_	_	_	_	_	_
+5	corredores	corredor	NOUN	_	_	_	_	_	_
+6	verdes	verde	ADJ	_	_	_	_	_	_
+7	para	para	ADP	_	_	_	_	_	_
+8	mitigar	mitigar	VERB	_	_	_	_	_	_
+9	islas	isla	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	calor	calor	NOUN	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	mejorar	mejorar	VERB	_	_	_	_	_	_
+14	conectividad	conectividad	NOUN	_	_	_	_	_	_
+15	peatonal	peatonal	ADJ	_	_	_	_	_	_
+16	entre	entre	ADP	_	_	_	_	_	_
+17	barrios	barrio	NOUN	_	_	_	_	_	_
+18	fragmentados	fragmentado	ADJ	_	_	_	_	_	_
+19	históricamente	históricamente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_277
+# text = La regeneración del frente fluvial equilibró conservación industrial patrimonial con vivienda mixta y espacios culturales de acceso público.
+1	La	el	DET	_	_	_	_	_	_
+2	regeneración	regeneración	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	frente	frente	NOUN	_	_	_	_	_	_
+5	fluvial	fluvial	ADJ	_	_	_	_	_	_
+6	equilibró	equilibrar	VERB	_	_	_	_	_	_
+7	conservación	conservación	NOUN	_	_	_	_	_	_
+8	industrial	industrial	ADJ	_	_	_	_	_	_
+9	patrimonial	patrimonial	ADJ	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	vivienda	vivienda	NOUN	_	_	_	_	_	_
+12	mixta	mixto	ADJ	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	espacios	espacio	NOUN	_	_	_	_	_	_
+15	culturales	cultural	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	acceso	acceso	NOUN	_	_	_	_	_	_
+18	público	público	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_278
+# text = Aunque la densificación redujo expansión periférica, residentes exigieron salvaguardas contra gentrificación que desplace comunidades de renta baja establecidas.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	densificación	densificación	NOUN	_	_	_	_	_	_
+4	redujo	reducir	VERB	_	_	_	_	_	_
+5	expansión	expansión	NOUN	_	_	_	_	_	_
+6	periférica	periférico	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	residentes	residente	NOUN	_	_	_	_	_	_
+9	exigieron	exigir	VERB	_	_	_	_	_	_
+10	salvaguardas	salvaguarda	NOUN	_	_	_	_	_	_
+11	contra	contra	ADP	_	_	_	_	_	_
+12	gentrificación	gentrificación	NOUN	_	_	_	_	_	_
+13	que	que	SCONJ	_	_	_	_	_	_
+14	desplace	desplacer	VERB	_	_	_	_	_	_
+15	comunidades	comunidad	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	renta	renta	NOUN	_	_	_	_	_	_
+18	baja	bajo	ADJ	_	_	_	_	_	_
+19	establecidas	establecido	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_279
+# text = Los códigos de edificación histórica exigen materiales compatibles y restauración reversible respetando capas arquitectónicas acumuladas secularmente.
+1	Los	el	DET	_	_	_	_	_	_
+2	códigos	código	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	edificación	edificación	NOUN	_	_	_	_	_	_
+5	histórica	histórico	ADJ	_	_	_	_	_	_
+6	exigen	exigir	VERB	_	_	_	_	_	_
+7	materiales	material	NOUN	_	_	_	_	_	_
+8	compatibles	compatible	ADJ	_	_	_	_	_	_
+9	y	y	CCONJ	_	_	_	_	_	_
+10	restauración	restauración	NOUN	_	_	_	_	_	_
+11	reversible	reversible	ADJ	_	_	_	_	_	_
+12	respetando	respetar	VERB	_	_	_	_	_	_
+13	capas	capa	NOUN	_	_	_	_	_	_
+14	arquitectónicas	arquitectónico	ADJ	_	_	_	_	_	_
+15	acumuladas	acumulado	ADJ	_	_	_	_	_	_
+16	secularmente	secularmente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_280
+# text = Es evidente que peatonalizar centros comerciales mejora calidad del aire sin sacrificar necesariamente accesibilidad para personas con movilidad reducida.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	evidente	evidente	ADJ	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	peatonalizar	peatonalizar	VERB	_	_	_	_	_	_
+5	centros	centro	NOUN	_	_	_	_	_	_
+6	comerciales	comercial	ADJ	_	_	_	_	_	_
+7	mejora	mejorar	VERB	_	_	_	_	_	_
+8	calidad	calidad	NOUN	_	_	_	_	_	_
+9	del	del	ADP	_	_	_	_	_	_
+10	aire	aire	NOUN	_	_	_	_	_	_
+11	sin	sin	ADP	_	_	_	_	_	_
+12	sacrificar	sacrificar	VERB	_	_	_	_	_	_
+13	necesariamente	necesariamente	ADV	_	_	_	_	_	_
+14	accesibilidad	accesibilidad	NOUN	_	_	_	_	_	_
+15	para	para	ADP	_	_	_	_	_	_
+16	personas	persona	NOUN	_	_	_	_	_	_
+17	con	con	ADP	_	_	_	_	_	_
+18	movilidad	movilidad	NOUN	_	_	_	_	_	_
+19	reducida	reducido	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_281
+# text = El inventario patrimonial catalogó edificios modernistas amenazados por presiones inmobiliarias y falta de mantenimiento preventivo sistemático adecuado.
+1	El	el	DET	_	_	_	_	_	_
+2	inventario	inventario	NOUN	_	_	_	_	_	_
+3	patrimonial	patrimonial	ADJ	_	_	_	_	_	_
+4	catalogó	catalogar	VERB	_	_	_	_	_	_
+5	edificios	edificio	NOUN	_	_	_	_	_	_
+6	modernistas	modernista	ADJ	_	_	_	_	_	_
+7	amenazados	amenazado	ADJ	_	_	_	_	_	_
+8	por	por	ADP	_	_	_	_	_	_
+9	presiones	presión	NOUN	_	_	_	_	_	_
+10	inmobiliarias	inmobiliario	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	falta	falta	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	mantenimiento	mantenimiento	NOUN	_	_	_	_	_	_
+15	preventivo	preventivo	ADJ	_	_	_	_	_	_
+16	sistemático	sistemático	ADJ	_	_	_	_	_	_
+17	adecuado	adecuado	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_282
+# text = Tras consultas vecinales, el ayuntamiento aprobó límites de altura preservando vistas panorámicas desde fortalezas declaradas monumento nacional protegido.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	consultas	consulta	NOUN	_	_	_	_	_	_
+3	vecinales	vecinal	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	ayuntamiento	ayuntamiento	NOUN	_	_	_	_	_	_
+7	aprobó	aprobar	VERB	_	_	_	_	_	_
+8	límites	límite	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	altura	altura	NOUN	_	_	_	_	_	_
+11	preservando	preservar	VERB	_	_	_	_	_	_
+12	vistas	ver	NOUN	_	_	_	_	_	_
+13	panorámicas	panorámico	ADJ	_	_	_	_	_	_
+14	desde	desde	ADP	_	_	_	_	_	_
+15	fortalezas	fortaleza	NOUN	_	_	_	_	_	_
+16	declaradas	declarar	ADJ	_	_	_	_	_	_
+17	monumento	monumento	NOUN	_	_	_	_	_	_
+18	nacional	nacional	ADJ	_	_	_	_	_	_
+19	protegido	protegido	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_283
+# text = La movilidad activa prioriza ciclovías protegidas conectadas a transporte público frecuente en corredores de alta demanda intermodal diaria.
+1	La	el	DET	_	_	_	_	_	_
+2	movilidad	movilidad	NOUN	_	_	_	_	_	_
+3	activa	activo	ADJ	_	_	_	_	_	_
+4	prioriza	priorizar	VERB	_	_	_	_	_	_
+5	ciclovías	ciclovía	NOUN	_	_	_	_	_	_
+6	protegidas	protegido	ADJ	_	_	_	_	_	_
+7	conectadas	conectar	ADJ	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	transporte	transporte	NOUN	_	_	_	_	_	_
+10	público	público	ADJ	_	_	_	_	_	_
+11	frecuente	frecuente	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	corredores	corredor	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	alta	alto	ADJ	_	_	_	_	_	_
+16	demanda	demanda	NOUN	_	_	_	_	_	_
+17	intermodal	intermodal	ADJ	_	_	_	_	_	_
+18	diaria	diario	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_284
+# text = Arquitectos críticos cuestionaron iconos espectaculares que priorizan imagen global sobre habitabilidad cotidiana y eficiencia energética de largo plazo.
+1	Arquitectos	Arquitectos	PROPN	_	_	_	_	_	_
+2	críticos	crítico	ADJ	_	_	_	_	_	_
+3	cuestionaron	cuestionar	VERB	_	_	_	_	_	_
+4	iconos	icono	NOUN	_	_	_	_	_	_
+5	espectaculares	espectacular	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	priorizan	priorizar	VERB	_	_	_	_	_	_
+8	imagen	imagen	NOUN	_	_	_	_	_	_
+9	global	global	ADJ	_	_	_	_	_	_
+10	sobre	sobre	ADP	_	_	_	_	_	_
+11	habitabilidad	habitabilidad	NOUN	_	_	_	_	_	_
+12	cotidiana	cotidiano	ADJ	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	eficiencia	eficiencia	NOUN	_	_	_	_	_	_
+15	energética	energético	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	largo	largo	ADJ	_	_	_	_	_	_
+18	plazo	plazo	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_285
+# text = No obstante inversión en metro, barrios periféricos mantienen dependencia automovilística por carencias persistentes en servicios proximidad esenciales.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	ADJ	_	_	_	_	_	_
+3	inversión	inversión	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	metro	metro	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	barrios	barrio	NOUN	_	_	_	_	_	_
+8	periféricos	periférico	ADJ	_	_	_	_	_	_
+9	mantienen	mantener	VERB	_	_	_	_	_	_
+10	dependencia	dependencia	NOUN	_	_	_	_	_	_
+11	automovilística	automovilístico	ADJ	_	_	_	_	_	_
+12	por	por	ADP	_	_	_	_	_	_
+13	carencias	carencia	NOUN	_	_	_	_	_	_
+14	persistentes	persistente	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	servicios	servicio	NOUN	_	_	_	_	_	_
+17	proximidad	proximidad	NOUN	_	_	_	_	_	_
+18	esenciales	esencial	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_286
+# text = La rehabilitación energética de cascos antiguos combina aislamiento térmico discreto con ventilación natural compatible con fachadas protegidas legalmente.
+1	La	el	DET	_	_	_	_	_	_
+2	rehabilitación	rehabilitación	NOUN	_	_	_	_	_	_
+3	energética	energético	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	cascos	casco	NOUN	_	_	_	_	_	_
+6	antiguos	antiguo	ADJ	_	_	_	_	_	_
+7	combina	combinar	VERB	_	_	_	_	_	_
+8	aislamiento	aislamiento	NOUN	_	_	_	_	_	_
+9	térmico	térmico	ADJ	_	_	_	_	_	_
+10	discreto	discreto	ADJ	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	ventilación	ventilación	NOUN	_	_	_	_	_	_
+13	natural	natural	ADJ	_	_	_	_	_	_
+14	compatible	compatible	ADJ	_	_	_	_	_	_
+15	con	con	ADP	_	_	_	_	_	_
+16	fachadas	fachada	NOUN	_	_	_	_	_	_
+17	protegidas	protegido	ADJ	_	_	_	_	_	_
+18	legalmente	legalmente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_287
+# text = El plan director zonificó usos mixtos reduciendo desplazamientos obligatorios entre vivienda, empleo y equipamientos educativos comunitarios cercanos.
+1	El	el	DET	_	_	_	_	_	_
+2	plan	plan	NOUN	_	_	_	_	_	_
+3	director	director	ADJ	_	_	_	_	_	_
+4	zonificó	zonificar	VERB	_	_	_	_	_	_
+5	usos	uso	NOUN	_	_	_	_	_	_
+6	mixtos	mixto	ADJ	_	_	_	_	_	_
+7	reduciendo	reducir	VERB	_	_	_	_	_	_
+8	desplazamientos	desplazamiento	NOUN	_	_	_	_	_	_
+9	obligatorios	obligatorio	ADJ	_	_	_	_	_	_
+10	entre	entre	ADP	_	_	_	_	_	_
+11	vivienda	vivienda	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	empleo	empleo	NOUN	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	equipamientos	equipamiento	NOUN	_	_	_	_	_	_
+16	educativos	educativo	ADJ	_	_	_	_	_	_
+17	comunitarios	comunitario	ADJ	_	_	_	_	_	_
+18	cercanos	cercano	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_288
+# text = Sigue siendo complejo conciliar turismo masivo con conservación de espacios sagrados que requieren solemnidad y límites estrictos de aforo.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	siendo	ser	AUX	_	_	_	_	_	_
+3	complejo	complejo	ADJ	_	_	_	_	_	_
+4	conciliar	conciliar	VERB	_	_	_	_	_	_
+5	turismo	turismo	NOUN	_	_	_	_	_	_
+6	masivo	masivo	ADJ	_	_	_	_	_	_
+7	con	con	ADP	_	_	_	_	_	_
+8	conservación	conservación	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	espacios	espacio	NOUN	_	_	_	_	_	_
+11	sagrados	sagrado	ADJ	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	requieren	requerir	VERB	_	_	_	_	_	_
+14	solemnidad	solemnidad	NOUN	_	_	_	_	_	_
+15	y	y	CCONJ	_	_	_	_	_	_
+16	límites	límite	NOUN	_	_	_	_	_	_
+17	estrictos	estricto	ADJ	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	aforo	aforo	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_289
+# text = Los paisajistas diseñaron humedales urbanos que filtran escorrentía pluvial mientras albergan biodiversidad y espacios recreativos educativos intergeneracionales.
+1	Los	el	DET	_	_	_	_	_	_
+2	paisajistas	paisajista	NOUN	_	_	_	_	_	_
+3	diseñaron	diseñar	VERB	_	_	_	_	_	_
+4	humedales	humedal	NOUN	_	_	_	_	_	_
+5	urbanos	urbano	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	filtran	filtrar	VERB	_	_	_	_	_	_
+8	escorrentía	escorrentía	NOUN	_	_	_	_	_	_
+9	pluvial	pluvial	ADJ	_	_	_	_	_	_
+10	mientras	mientras	SCONJ	_	_	_	_	_	_
+11	albergan	albergar	VERB	_	_	_	_	_	_
+12	biodiversidad	biodiversidad	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	espacios	espacio	NOUN	_	_	_	_	_	_
+15	recreativos	recreativo	ADJ	_	_	_	_	_	_
+16	educativos	educativo	ADJ	_	_	_	_	_	_
+17	intergeneracionales	intergeneracional	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_290
+# text = El catastro cultural documentó técnicas constructivas vernáculas amenazadas por estandarización global de materiales industriales importados económicamente.
+1	El	el	DET	_	_	_	_	_	_
+2	catastro	catastro	NOUN	_	_	_	_	_	_
+3	cultural	cultural	ADJ	_	_	_	_	_	_
+4	documentó	documentar	VERB	_	_	_	_	_	_
+5	técnicas	técnica	NOUN	_	_	_	_	_	_
+6	constructivas	constructivo	ADJ	_	_	_	_	_	_
+7	vernáculas	vernáculo	ADJ	_	_	_	_	_	_
+8	amenazadas	amenazado	ADJ	_	_	_	_	_	_
+9	por	por	ADP	_	_	_	_	_	_
+10	estandarización	estandarización	NOUN	_	_	_	_	_	_
+11	global	global	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	materiales	material	NOUN	_	_	_	_	_	_
+14	industriales	industrial	ADJ	_	_	_	_	_	_
+15	importados	importar	ADJ	_	_	_	_	_	_
+16	económicamente	económicamente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_291
+# text = Tras incendios recurrentes, autoridades reforzaron normas contra materiales combustibles en rehabilitaciones de edificios patrimoniales de madera histórica.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	incendios	incendio	NOUN	_	_	_	_	_	_
+3	recurrentes	recurrente	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	autoridades	autoridad	NOUN	_	_	_	_	_	_
+6	reforzaron	reforzar	VERB	_	_	_	_	_	_
+7	normas	norma	NOUN	_	_	_	_	_	_
+8	contra	contra	ADP	_	_	_	_	_	_
+9	materiales	material	NOUN	_	_	_	_	_	_
+10	combustibles	combustible	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	rehabilitaciones	rehabilitación	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	edificios	edificio	NOUN	_	_	_	_	_	_
+15	patrimoniales	patrimonial	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	madera	madera	NOUN	_	_	_	_	_	_
+18	histórica	histórico	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_292
+# text = La participación ciudadana en masterplans incorporó criterios de accesibilidad universal y espacios lúdicos seguros para población infantil diversa.
+1	La	el	DET	_	_	_	_	_	_
+2	participación	participación	NOUN	_	_	_	_	_	_
+3	ciudadana	ciudadano	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	masterplans	masterplan	NOUN	_	_	_	_	_	_
+6	incorporó	incorporar	VERB	_	_	_	_	_	_
+7	criterios	criterio	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	accesibilidad	accesibilidad	NOUN	_	_	_	_	_	_
+10	universal	universal	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	espacios	espacio	NOUN	_	_	_	_	_	_
+13	lúdicos	lúdico	ADJ	_	_	_	_	_	_
+14	seguros	seguro	ADJ	_	_	_	_	_	_
+15	para	para	ADP	_	_	_	_	_	_
+16	población	población	NOUN	_	_	_	_	_	_
+17	infantil	infantil	ADJ	_	_	_	_	_	_
+18	diversa	diverso	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_293
+# text = Urbanistas estudian cómo morfologías de cuadrícula y calles radiales moldean patrones de segregación socioespacial en metrópolis latinoamericanas contemporáneas.
+1	Urbanistas	Urbanistas	PROPN	_	_	_	_	_	_
+2	estudian	estudiar	VERB	_	_	_	_	_	_
+3	cómo	cómo	ADV	_	_	_	_	_	_
+4	morfologías	morfología	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	cuadrícula	cuadrícula	NOUN	_	_	_	_	_	_
+7	y	y	CCONJ	_	_	_	_	_	_
+8	calles	calle	NOUN	_	_	_	_	_	_
+9	radiales	radial	ADJ	_	_	_	_	_	_
+10	moldean	moldear	VERB	_	_	_	_	_	_
+11	patrones	patrón	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	segregación	segregación	NOUN	_	_	_	_	_	_
+14	socioespacial	socioespacial	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	metrópolis	metrópoli	NOUN	_	_	_	_	_	_
+17	latinoamericanas	latinoamericano	ADJ	_	_	_	_	_	_
+18	contemporáneas	contemporáneo	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_294
+# text = El premio reconoció intervención mínima que reveló estructuras romanas durante excavaciones arqueológicas integradas en plaza contemporánea renovada cuidadosamente.
+1	El	el	DET	_	_	_	_	_	_
+2	premio	premio	NOUN	_	_	_	_	_	_
+3	reconoció	reconocer	VERB	_	_	_	_	_	_
+4	intervención	intervención	NOUN	_	_	_	_	_	_
+5	mínima	mínimo	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	reveló	revelar	VERB	_	_	_	_	_	_
+8	estructuras	estructura	NOUN	_	_	_	_	_	_
+9	romanas	romano	ADJ	_	_	_	_	_	_
+10	durante	durante	ADP	_	_	_	_	_	_
+11	excavaciones	excavación	NOUN	_	_	_	_	_	_
+12	arqueológicas	arqueológico	ADJ	_	_	_	_	_	_
+13	integradas	integrado	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	plaza	plaza	NOUN	_	_	_	_	_	_
+16	contemporánea	contemporáneo	ADJ	_	_	_	_	_	_
+17	renovada	renovado	ADJ	_	_	_	_	_	_
+18	cuidadosamente	cuidadosamente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_295
+# text = No obstante certificaciones verdes, edificios inteligentes plantean riesgos de vigilancia doméstica mediante sensores conectados sin consentimiento explícito informado.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	certificaciones	certificación	NOUN	_	_	_	_	_	_
+4	verdes	verde	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	edificios	edificio	NOUN	_	_	_	_	_	_
+7	inteligentes	inteligente	ADJ	_	_	_	_	_	_
+8	plantean	plantear	VERB	_	_	_	_	_	_
+9	riesgos	riesgo	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	vigilancia	vigilancia	NOUN	_	_	_	_	_	_
+12	doméstica	doméstico	ADJ	_	_	_	_	_	_
+13	mediante	mediante	ADP	_	_	_	_	_	_
+14	sensores	sensor	NOUN	_	_	_	_	_	_
+15	conectados	conectar	ADJ	_	_	_	_	_	_
+16	sin	sin	ADP	_	_	_	_	_	_
+17	consentimiento	consentimiento	NOUN	_	_	_	_	_	_
+18	explícito	explícito	ADJ	_	_	_	_	_	_
+19	informado	informado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_296
+# text = La política de vivienda vacía grava propiedades desocupadas incentivando alquiler asequible en distritos con escasez crónica de oferta residencial.
+1	La	el	DET	_	_	_	_	_	_
+2	política	política	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	vivienda	vivienda	NOUN	_	_	_	_	_	_
+5	vacía	vacío	ADJ	_	_	_	_	_	_
+6	grava	gravar	VERB	_	_	_	_	_	_
+7	propiedades	propiedad	NOUN	_	_	_	_	_	_
+8	desocupadas	desocupado	ADJ	_	_	_	_	_	_
+9	incentivando	incentivar	VERB	_	_	_	_	_	_
+10	alquiler	alquiler	NOUN	_	_	_	_	_	_
+11	asequible	asequible	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	distritos	distrito	NOUN	_	_	_	_	_	_
+14	con	con	ADP	_	_	_	_	_	_
+15	escasez	escasez	NOUN	_	_	_	_	_	_
+16	crónica	crónico	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	oferta	oferta	NOUN	_	_	_	_	_	_
+19	residencial	residencial	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_297
+# text = Cooperativas de vivienda autogestionada demostraron modelos alternativos de propiedad colectiva con decisiones asamblearias sobre gastos comunes compartidos.
+1	Cooperativas	cooperativas	NOUN	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	vivienda	vivienda	NOUN	_	_	_	_	_	_
+4	autogestionada	autogestionado	ADJ	_	_	_	_	_	_
+5	demostraron	demostrar	VERB	_	_	_	_	_	_
+6	modelos	modelo	NOUN	_	_	_	_	_	_
+7	alternativos	alternativo	ADJ	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	propiedad	propiedad	NOUN	_	_	_	_	_	_
+10	colectiva	colectivo	ADJ	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	decisiones	decisión	NOUN	_	_	_	_	_	_
+13	asamblearias	asambleario	ADJ	_	_	_	_	_	_
+14	sobre	sobre	ADP	_	_	_	_	_	_
+15	gastos	gasto	NOUN	_	_	_	_	_	_
+16	comunes	común	ADJ	_	_	_	_	_	_
+17	compartidos	compartido	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_298
+# text = Sigue incierto si ciudades de quince minutos reducen desigualdades territoriales sin inversión redistributiva en periferias históricamente infrafinanciadas crónicamente.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	incierto	incierto	ADJ	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	ciudades	ciudad	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	quince	quince	NUM	_	_	_	_	_	_
+7	minutos	minuto	NOUN	_	_	_	_	_	_
+8	reducen	reducir	VERB	_	_	_	_	_	_
+9	desigualdades	desigualdad	NOUN	_	_	_	_	_	_
+10	territoriales	territorial	ADJ	_	_	_	_	_	_
+11	sin	sin	ADP	_	_	_	_	_	_
+12	inversión	inversión	NOUN	_	_	_	_	_	_
+13	redistributiva	redistributivo	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	periferias	periferia	NOUN	_	_	_	_	_	_
+16	históricamente	históricamente	ADV	_	_	_	_	_	_
+17	infrafinanciadas	infrafinanciado	ADJ	_	_	_	_	_	_
+18	crónicamente	crónicamente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_299
+# text = El museo reinterpretó colecciones coloniales mediante diálogo con comunidades originarias sobre restitución de piezas ceremonialmente significativas culturalmente.
+1	El	el	DET	_	_	_	_	_	_
+2	museo	museo	NOUN	_	_	_	_	_	_
+3	reinterpretó	reinterpretar	VERB	_	_	_	_	_	_
+4	colecciones	colección	NOUN	_	_	_	_	_	_
+5	coloniales	colonial	ADJ	_	_	_	_	_	_
+6	mediante	mediante	ADP	_	_	_	_	_	_
+7	diálogo	diálogo	NOUN	_	_	_	_	_	_
+8	con	con	ADP	_	_	_	_	_	_
+9	comunidades	comunidad	NOUN	_	_	_	_	_	_
+10	originarias	originario	ADJ	_	_	_	_	_	_
+11	sobre	sobre	ADP	_	_	_	_	_	_
+12	restitución	restitución	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	piezas	pieza	NOUN	_	_	_	_	_	_
+15	ceremonialmente	ceremonialmente	ADV	_	_	_	_	_	_
+16	significativas	significativo	ADJ	_	_	_	_	_	_
+17	culturalmente	culturalmente	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_300
+# text = Los ingenieros preservaron patrimonio ferroviario industrial reutilizando hangares como mercados gastronómicos y espacios culturales con economía circular local.
+1	Los	el	DET	_	_	_	_	_	_
+2	ingenieros	ingeniero	NOUN	_	_	_	_	_	_
+3	preservaron	preservar	VERB	_	_	_	_	_	_
+4	patrimonio	patrimonio	NOUN	_	_	_	_	_	_
+5	ferroviario	ferroviario	ADJ	_	_	_	_	_	_
+6	industrial	industrial	ADJ	_	_	_	_	_	_
+7	reutilizando	reutilizar	VERB	_	_	_	_	_	_
+8	hangares	hangar	NOUN	_	_	_	_	_	_
+9	como	como	SCONJ	_	_	_	_	_	_
+10	mercados	mercado	NOUN	_	_	_	_	_	_
+11	gastronómicos	gastronómico	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	espacios	espacio	NOUN	_	_	_	_	_	_
+14	culturales	cultural	ADJ	_	_	_	_	_	_
+15	con	con	ADP	_	_	_	_	_	_
+16	economía	economía	NOUN	_	_	_	_	_	_
+17	circular	circular	ADJ	_	_	_	_	_	_
+18	local	local	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_301
+# text = Los sociolingüistas examinan cómo variantes dialectales marcan pertenencia social y generan estigmatización en contextos educativos institucionalizados formales.
+1	Los	el	DET	_	_	_	_	_	_
+2	sociolingüistas	sociolingüista	NOUN	_	_	_	_	_	_
+3	examinan	examinar	VERB	_	_	_	_	_	_
+4	cómo	cómo	ADV	_	_	_	_	_	_
+5	variantes	variante	NOUN	_	_	_	_	_	_
+6	dialectales	dialectal	ADJ	_	_	_	_	_	_
+7	marcan	marcar	VERB	_	_	_	_	_	_
+8	pertenencia	pertenencia	NOUN	_	_	_	_	_	_
+9	social	social	ADJ	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	generan	generar	VERB	_	_	_	_	_	_
+12	estigmatización	estigmatización	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	contextos	contexto	NOUN	_	_	_	_	_	_
+15	educativos	educativo	ADJ	_	_	_	_	_	_
+16	institucionalizados	institucionalizado	ADJ	_	_	_	_	_	_
+17	formales	formal	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_302
+# text = La adquisición del subjuntivo presenta asimetrías temporales entre comprensión pasiva y producción activa en aprendices adultos avanzados hispanohablantes.
+1	La	el	DET	_	_	_	_	_	_
+2	adquisición	adquisición	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	subjuntivo	subjuntivo	NOUN	_	_	_	_	_	_
+5	presenta	presentar	VERB	_	_	_	_	_	_
+6	asimetrías	asimetría	NOUN	_	_	_	_	_	_
+7	temporales	temporal	ADJ	_	_	_	_	_	_
+8	entre	entre	ADP	_	_	_	_	_	_
+9	comprensión	comprensión	NOUN	_	_	_	_	_	_
+10	pasiva	pasivo	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	producción	producción	NOUN	_	_	_	_	_	_
+13	activa	activo	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	aprendices	aprendiz	NOUN	_	_	_	_	_	_
+16	adultos	adulto	ADJ	_	_	_	_	_	_
+17	avanzados	avanzado	ADJ	_	_	_	_	_	_
+18	hispanohablantes	hispanohablante	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_303
+# text = Aunque la estandarización unificó ortografía, persisten tensiones entre normas académicas prescriptivas y prácticas comunicativas digitales juveniles emergentes.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	estandarización	estandarización	NOUN	_	_	_	_	_	_
+4	unificó	unificar	VERB	_	_	_	_	_	_
+5	ortografía	ortografía	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	persisten	persistir	VERB	_	_	_	_	_	_
+8	tensiones	tensión	NOUN	_	_	_	_	_	_
+9	entre	entre	ADP	_	_	_	_	_	_
+10	normas	norma	NOUN	_	_	_	_	_	_
+11	académicas	académico	ADJ	_	_	_	_	_	_
+12	prescriptivas	prescriptivo	ADJ	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	prácticas	práctica	NOUN	_	_	_	_	_	_
+15	comunicativas	comunicativo	ADJ	_	_	_	_	_	_
+16	digitales	digital	ADJ	_	_	_	_	_	_
+17	juveniles	juvenil	ADJ	_	_	_	_	_	_
+18	emergentes	emergente	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_304
+# text = El análisis contrastivo revela interferencias prosódicas cuando hablantes bilingües transfieren patrones acentuales entre lenguas románicas e inglesas.
+1	El	el	DET	_	_	_	_	_	_
+2	análisis	análisis	NOUN	_	_	_	_	_	_
+3	contrastivo	contrastivo	ADJ	_	_	_	_	_	_
+4	revela	revelar	VERB	_	_	_	_	_	_
+5	interferencias	interferencia	NOUN	_	_	_	_	_	_
+6	prosódicas	prosódico	ADJ	_	_	_	_	_	_
+7	cuando	cuando	SCONJ	_	_	_	_	_	_
+8	hablantes	hablante	NOUN	_	_	_	_	_	_
+9	bilingües	bilingüe	ADJ	_	_	_	_	_	_
+10	transfieren	transferir	VERB	_	_	_	_	_	_
+11	patrones	patrón	NOUN	_	_	_	_	_	_
+12	acentuales	acentual	ADJ	_	_	_	_	_	_
+13	entre	entre	ADP	_	_	_	_	_	_
+14	lenguas	lengua	NOUN	_	_	_	_	_	_
+15	románicas	románico	ADJ	_	_	_	_	_	_
+16	e	y	CCONJ	_	_	_	_	_	_
+17	inglesas	inglés	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_305
+# text = Es aceptado que contacto prolongado entre lenguas produce fenómenos de code-switching estratégico en comunidades fronterizas comercialmente interdependientes.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	aceptado	aceptar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	contacto	contacto	NOUN	_	_	_	_	_	_
+5	prolongado	prolongado	ADJ	_	_	_	_	_	_
+6	entre	entre	ADP	_	_	_	_	_	_
+7	lenguas	lengua	NOUN	_	_	_	_	_	_
+8	produce	producir	VERB	_	_	_	_	_	_
+9	fenómenos	fenómeno	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	code-switching	code-switching	NOUN	_	_	_	_	_	_
+12	estratégico	estratégico	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	comunidades	comunidad	NOUN	_	_	_	_	_	_
+15	fronterizas	fronterizo	ADJ	_	_	_	_	_	_
+16	comercialmente	comercialmente	ADV	_	_	_	_	_	_
+17	interdependientes	interdependiente	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_306
+# text = La pragmática intercultural estudia actos de habla corteses que varían según jerarquías sociales y expectativas de formalidad interlocutoria contextualizada.
+1	La	el	DET	_	_	_	_	_	_
+2	pragmática	pragmático	NOUN	_	_	_	_	_	_
+3	intercultural	intercultural	ADJ	_	_	_	_	_	_
+4	estudia	estudiar	VERB	_	_	_	_	_	_
+5	actos	acto	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	habla	habla	NOUN	_	_	_	_	_	_
+8	corteses	cortés	ADJ	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	varían	var	VERB	_	_	_	_	_	_
+11	según	según	ADP	_	_	_	_	_	_
+12	jerarquías	jerarquía	NOUN	_	_	_	_	_	_
+13	sociales	social	ADJ	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	expectativas	expectativa	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	formalidad	formalidad	NOUN	_	_	_	_	_	_
+18	interlocutoria	interlocutorio	ADJ	_	_	_	_	_	_
+19	contextualizada	contextualizado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_307
+# text = Tras documentar corpus orales, investigadores codificaron variantes fonéticas asociadas a procesos de relajación consonántica en habla espontánea urbana.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	documentar	documentar	VERB	_	_	_	_	_	_
+3	corpus	corpus	NOUN	_	_	_	_	_	_
+4	orales	oral	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	investigadores	investigador	NOUN	_	_	_	_	_	_
+7	codificaron	codificar	VERB	_	_	_	_	_	_
+8	variantes	variante	NOUN	_	_	_	_	_	_
+9	fonéticas	fonético	ADJ	_	_	_	_	_	_
+10	asociadas	asociar	ADJ	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	procesos	proceso	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	relajación	relajación	NOUN	_	_	_	_	_	_
+15	consonántica	consonántico	ADJ	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	habla	habla	NOUN	_	_	_	_	_	_
+18	espontánea	espontáneo	ADJ	_	_	_	_	_	_
+19	urbana	urbano	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_308
+# text = Los modelos generativos representan estructuras sintácticas mediante operaciones de movimiento que explican orden de palabras permutado topicalización discursiva.
+1	Los	el	DET	_	_	_	_	_	_
+2	modelos	modelo	NOUN	_	_	_	_	_	_
+3	generativos	generativo	ADJ	_	_	_	_	_	_
+4	representan	representar	VERB	_	_	_	_	_	_
+5	estructuras	estructura	NOUN	_	_	_	_	_	_
+6	sintácticas	sintáctico	ADJ	_	_	_	_	_	_
+7	mediante	mediante	ADP	_	_	_	_	_	_
+8	operaciones	operación	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	movimiento	movimiento	NOUN	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	explican	explicar	VERB	_	_	_	_	_	_
+13	orden	orden	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	palabras	palabra	NOUN	_	_	_	_	_	_
+16	permutado	permutado	ADJ	_	_	_	_	_	_
+17	topicalización	topicalización	NOUN	_	_	_	_	_	_
+18	discursiva	discursivo	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_309
+# text = Politólogos lingüísticos analizan framing mediático mediante metáforas conceptuales que moldean percepción pública de crisis migratorias complejas internacionales.
+1	Politólogos	politólogo	NOUN	_	_	_	_	_	_
+2	lingüísticos	lingüístico	ADJ	_	_	_	_	_	_
+3	analizan	analizar	VERB	_	_	_	_	_	_
+4	framing	framing	NOUN	_	_	_	_	_	_
+5	mediático	mediático	ADJ	_	_	_	_	_	_
+6	mediante	mediante	ADP	_	_	_	_	_	_
+7	metáforas	metáfora	NOUN	_	_	_	_	_	_
+8	conceptuales	conceptual	ADJ	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	moldean	moldear	VERB	_	_	_	_	_	_
+11	percepción	percepción	NOUN	_	_	_	_	_	_
+12	pública	público	ADJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	crisis	crisis	NOUN	_	_	_	_	_	_
+15	migratorias	migratorio	ADJ	_	_	_	_	_	_
+16	complejas	complejo	ADJ	_	_	_	_	_	_
+17	internacionales	internacional	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_310
+# text = No obstante políticas de inmersión, revitalizar lenguas minorizadas requiere dominios institucionales sostenidos más allá de enseñanza escolar.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	políticas	política	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	inmersión	inmersión	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	revitalizar	revitalizar	VERB	_	_	_	_	_	_
+8	lenguas	lengua	NOUN	_	_	_	_	_	_
+9	minorizadas	minorizado	ADJ	_	_	_	_	_	_
+10	requiere	requerir	VERB	_	_	_	_	_	_
+11	dominios	dominio	NOUN	_	_	_	_	_	_
+12	institucionales	institucional	ADJ	_	_	_	_	_	_
+13	sostenidos	sostenido	ADJ	_	_	_	_	_	_
+14	más	más	ADV	_	_	_	_	_	_
+15	allá	allá	ADV	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	enseñanza	enseñanza	NOUN	_	_	_	_	_	_
+18	escolar	escolar	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_311
+# text = La tipología clasifica lenguas según orden básico de constituyente y estrategias morfológicas para expresar relaciones gramaticales de caso.
+1	La	el	DET	_	_	_	_	_	_
+2	tipología	tipología	NOUN	_	_	_	_	_	_
+3	clasifica	clasificar	VERB	_	_	_	_	_	_
+4	lenguas	lengua	NOUN	_	_	_	_	_	_
+5	según	según	ADP	_	_	_	_	_	_
+6	orden	orden	NOUN	_	_	_	_	_	_
+7	básico	básico	ADJ	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	constituyente	constituyente	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	estrategias	estrategia	NOUN	_	_	_	_	_	_
+12	morfológicas	morfológico	ADJ	_	_	_	_	_	_
+13	para	para	ADP	_	_	_	_	_	_
+14	expresar	expresar	VERB	_	_	_	_	_	_
+15	relaciones	relación	NOUN	_	_	_	_	_	_
+16	gramaticales	gramatical	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	caso	caso	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_312
+# text = Sigue debatiéndose si universalidad de categorías sintácticas refleja propiedades cognitivas innatas o generalizaciones inductivas desde input lingüístico limitado.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	debatiéndose	debatir	VERB	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	universalidad	universalidad	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	categorías	categoría	NOUN	_	_	_	_	_	_
+7	sintácticas	sintáctico	ADJ	_	_	_	_	_	_
+8	refleja	reflejar	VERB	_	_	_	_	_	_
+9	propiedades	propiedad	NOUN	_	_	_	_	_	_
+10	cognitivas	cognitivo	ADJ	_	_	_	_	_	_
+11	innatas	innato	ADJ	_	_	_	_	_	_
+12	o	o	CCONJ	_	_	_	_	_	_
+13	generalizaciones	generalización	NOUN	_	_	_	_	_	_
+14	inductivas	inductivo	ADJ	_	_	_	_	_	_
+15	desde	desde	ADP	_	_	_	_	_	_
+16	input	input	NOUN	_	_	_	_	_	_
+17	lingüístico	lingüístico	ADJ	_	_	_	_	_	_
+18	limitado	limitado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_313
+# text = La variación intrahablante muestra estilización consciente cuando entrevistados alternan registros según imagen social proyectada ante interlocutores institucionales prestigiosos.
+1	La	el	DET	_	_	_	_	_	_
+2	variación	variación	NOUN	_	_	_	_	_	_
+3	intrahablante	intrahablante	ADJ	_	_	_	_	_	_
+4	muestra	mostrar	VERB	_	_	_	_	_	_
+5	estilización	estilización	NOUN	_	_	_	_	_	_
+6	consciente	consciente	ADJ	_	_	_	_	_	_
+7	cuando	cuando	SCONJ	_	_	_	_	_	_
+8	entrevistados	entrevistado	ADJ	_	_	_	_	_	_
+9	alternan	alternar	VERB	_	_	_	_	_	_
+10	registros	registro	NOUN	_	_	_	_	_	_
+11	según	según	ADP	_	_	_	_	_	_
+12	imagen	imagen	NOUN	_	_	_	_	_	_
+13	social	social	ADJ	_	_	_	_	_	_
+14	proyectada	proyectado	ADJ	_	_	_	_	_	_
+15	ante	ante	ADP	_	_	_	_	_	_
+16	interlocutores	interlocutor	NOUN	_	_	_	_	_	_
+17	institucionales	institucional	ADJ	_	_	_	_	_	_
+18	prestigiosos	prestigioso	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_314
+# text = El procesamiento psicolingüístico mide tiempos de lectura revelando costos cognitivos en ambigüedades sintácticas temporalmente irresolubles inicialmente on-line.
+1	El	el	DET	_	_	_	_	_	_
+2	procesamiento	procesamiento	NOUN	_	_	_	_	_	_
+3	psicolingüístico	psicolingüístico	ADJ	_	_	_	_	_	_
+4	mide	medir	VERB	_	_	_	_	_	_
+5	tiempos	tiempo	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	lectura	lectura	NOUN	_	_	_	_	_	_
+8	revelando	revelar	VERB	_	_	_	_	_	_
+9	costos	costo	NOUN	_	_	_	_	_	_
+10	cognitivos	cognitivo	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	ambigüedades	ambigüedad	NOUN	_	_	_	_	_	_
+13	sintácticas	sintáctico	ADJ	_	_	_	_	_	_
+14	temporalmente	temporalmente	ADV	_	_	_	_	_	_
+15	irresolubles	irresoluble	ADJ	_	_	_	_	_	_
+16	inicialmente	inicialmente	ADV	_	_	_	_	_	_
+17	on-line	on-line	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_315
+# text = Tras entrevistar generaciones, el estudio documentó cambio generacional acelerado en vocales posteriores entre jóvenes urbanos cosmopolitas educados.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	entrevistar	entrevistar	VERB	_	_	_	_	_	_
+3	generaciones	generación	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	estudio	estudio	NOUN	_	_	_	_	_	_
+7	documentó	documentar	VERB	_	_	_	_	_	_
+8	cambio	cambio	NOUN	_	_	_	_	_	_
+9	generacional	generacional	ADJ	_	_	_	_	_	_
+10	acelerado	acelerado	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	vocales	vocal	NOUN	_	_	_	_	_	_
+13	posteriores	posterior	ADJ	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	jóvenes	joven	NOUN	_	_	_	_	_	_
+16	urbanos	urbano	ADJ	_	_	_	_	_	_
+17	cosmopolitas	cosmopolita	ADJ	_	_	_	_	_	_
+18	educados	educado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_316
+# text = Los hablantes nativos juzgan menos prestigiosas variantes que neutralizan distinciones fonológicas históricas conservadas en dialectos rurales periféricos tradicionales.
+1	Los	el	DET	_	_	_	_	_	_
+2	hablantes	hablante	NOUN	_	_	_	_	_	_
+3	nativos	nativo	ADJ	_	_	_	_	_	_
+4	juzgan	juzgar	VERB	_	_	_	_	_	_
+5	menos	menos	ADV	_	_	_	_	_	_
+6	prestigiosas	prestigioso	ADJ	_	_	_	_	_	_
+7	variantes	variante	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	neutralizan	neutralizar	VERB	_	_	_	_	_	_
+10	distinciones	distinción	NOUN	_	_	_	_	_	_
+11	fonológicas	fonológico	ADJ	_	_	_	_	_	_
+12	históricas	histórico	ADJ	_	_	_	_	_	_
+13	conservadas	conservado	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	dialectos	dialecto	NOUN	_	_	_	_	_	_
+16	rurales	rural	ADJ	_	_	_	_	_	_
+17	periféricos	periférico	ADJ	_	_	_	_	_	_
+18	tradicionales	tradicional	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_317
+# text = La semántica léxica representa redes de polisemia vinculando significados relacionados por metonimia y metáfora mediante principios de economía.
+1	La	el	DET	_	_	_	_	_	_
+2	semántica	semántico	NOUN	_	_	_	_	_	_
+3	léxica	léxico	ADJ	_	_	_	_	_	_
+4	representa	representar	VERB	_	_	_	_	_	_
+5	redes	red	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	polisemia	polisemia	NOUN	_	_	_	_	_	_
+8	vinculando	vincular	VERB	_	_	_	_	_	_
+9	significados	significado	NOUN	_	_	_	_	_	_
+10	relacionados	relacionado	ADJ	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	metonimia	metonimia	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	metáfora	metáfora	NOUN	_	_	_	_	_	_
+15	mediante	mediante	ADP	_	_	_	_	_	_
+16	principios	principio	NOUN	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	economía	economía	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_318
+# text = Es innegable que algoritmos de traducción automática aún fallan capturando matices irónicos y referencias culturales implícitas contextualmente situadas.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	innegable	innegable	ADJ	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	algoritmos	algoritmo	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	traducción	traducción	NOUN	_	_	_	_	_	_
+7	automática	automático	ADJ	_	_	_	_	_	_
+8	aún	aún	ADV	_	_	_	_	_	_
+9	fallan	fallar	VERB	_	_	_	_	_	_
+10	capturando	capturar	VERB	_	_	_	_	_	_
+11	matices	matiz	NOUN	_	_	_	_	_	_
+12	irónicos	irónico	ADJ	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	referencias	referencia	NOUN	_	_	_	_	_	_
+15	culturales	cultural	ADJ	_	_	_	_	_	_
+16	implícitas	implícito	ADJ	_	_	_	_	_	_
+17	contextualmente	contextualmente	ADV	_	_	_	_	_	_
+18	situadas	situado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_319
+# text = La política lingüística promueve diglosia funcional equilibrando lengua nacional con derechos educativos en lenguas cooficiales históricamente marginadas regionalmente.
+1	La	el	DET	_	_	_	_	_	_
+2	política	política	NOUN	_	_	_	_	_	_
+3	lingüística	lingüístico	ADJ	_	_	_	_	_	_
+4	promueve	promover	VERB	_	_	_	_	_	_
+5	diglosia	diglosia	NOUN	_	_	_	_	_	_
+6	funcional	funcional	ADJ	_	_	_	_	_	_
+7	equilibrando	equilibrar	VERB	_	_	_	_	_	_
+8	lengua	lengua	NOUN	_	_	_	_	_	_
+9	nacional	nacional	ADJ	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	derechos	derecho	NOUN	_	_	_	_	_	_
+12	educativos	educativo	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	lenguas	lengua	NOUN	_	_	_	_	_	_
+15	cooficiales	cooficial	ADJ	_	_	_	_	_	_
+16	históricamente	históricamente	ADV	_	_	_	_	_	_
+17	marginadas	marginado	ADJ	_	_	_	_	_	_
+18	regionalmente	regionalmente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_320
+# text = Corpus paralelos multilingües alimentan modelos neuronales que aprenden correspondencias morfosintácticas sin anotación manual exhaustiva palabra por palabra.
+1	Corpus	Corpus	PROPN	_	_	_	_	_	_
+2	paralelos	Paralelo	PROPN	_	_	_	_	_	_
+3	multilingües	multilingüe	ADJ	_	_	_	_	_	_
+4	alimentan	alimentar	VERB	_	_	_	_	_	_
+5	modelos	modelo	NOUN	_	_	_	_	_	_
+6	neuronales	neuronal	ADJ	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	aprenden	aprender	VERB	_	_	_	_	_	_
+9	correspondencias	correspondencia	NOUN	_	_	_	_	_	_
+10	morfosintácticas	morfosintáctico	ADJ	_	_	_	_	_	_
+11	sin	sin	ADP	_	_	_	_	_	_
+12	anotación	anotación	NOUN	_	_	_	_	_	_
+13	manual	manual	ADJ	_	_	_	_	_	_
+14	exhaustiva	exhaustivo	ADJ	_	_	_	_	_	_
+15	palabra	palabra	NOUN	_	_	_	_	_	_
+16	por	por	ADP	_	_	_	_	_	_
+17	palabra	palabra	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_321
+# text = No obstante globalización anglófona, academias hispanas negocian incorporación controlada de anglicismos técnicos mediante equivalencias neológicas científicas propuestas.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	ADJ	_	_	_	_	_	_
+3	globalización	globalización	NOUN	_	_	_	_	_	_
+4	anglófona	anglófón	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	academias	academia	NOUN	_	_	_	_	_	_
+7	hispanas	hispano	ADJ	_	_	_	_	_	_
+8	negocian	negociar	VERB	_	_	_	_	_	_
+9	incorporación	incorporación	NOUN	_	_	_	_	_	_
+10	controlada	controlado	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	anglicismos	anglicismo	NOUN	_	_	_	_	_	_
+13	técnicos	técnico	ADJ	_	_	_	_	_	_
+14	mediante	mediante	ADP	_	_	_	_	_	_
+15	equivalencias	equivalencia	NOUN	_	_	_	_	_	_
+16	neológicas	neológico	ADJ	_	_	_	_	_	_
+17	científicas	científico	ADJ	_	_	_	_	_	_
+18	propuestas	propuesto	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_322
+# text = La fonología generativa formaliza reglas subyacentes que derivan alternancias alomórficas en conjugaciones verbales con diptongación e hiatos vocálicos.
+1	La	el	DET	_	_	_	_	_	_
+2	fonología	fonología	NOUN	_	_	_	_	_	_
+3	generativa	generativo	ADJ	_	_	_	_	_	_
+4	formaliza	formalizar	VERB	_	_	_	_	_	_
+5	reglas	regla	NOUN	_	_	_	_	_	_
+6	subyacentes	subyacente	ADJ	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	derivan	derivar	VERB	_	_	_	_	_	_
+9	alternancias	alternancia	NOUN	_	_	_	_	_	_
+10	alomórficas	alomórfico	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	conjugaciones	conjugación	NOUN	_	_	_	_	_	_
+13	verbales	verbal	ADJ	_	_	_	_	_	_
+14	con	con	ADP	_	_	_	_	_	_
+15	diptongación	diptongación	NOUN	_	_	_	_	_	_
+16	e	y	CCONJ	_	_	_	_	_	_
+17	hiatos	hiato	NOUN	_	_	_	_	_	_
+18	vocálicos	vocálico	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_323
+# text = Sociólogos del lenguaje examinan cómo políticas de exclusión lingüística reproducen desigualdades en mercados laborales altamente competitivos globalizados actuales.
+1	Sociólogos	sociólogo	NOUN	_	_	_	_	_	_
+2	del	del	ADP	_	_	_	_	_	_
+3	lenguaje	lenguaje	NOUN	_	_	_	_	_	_
+4	examinan	examinar	VERB	_	_	_	_	_	_
+5	cómo	cómo	ADV	_	_	_	_	_	_
+6	políticas	política	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	exclusión	exclusión	NOUN	_	_	_	_	_	_
+9	lingüística	lingüístico	ADJ	_	_	_	_	_	_
+10	reproducen	reproducir	VERB	_	_	_	_	_	_
+11	desigualdades	desigualdad	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	mercados	mercado	NOUN	_	_	_	_	_	_
+14	laborales	laboral	ADJ	_	_	_	_	_	_
+15	altamente	altamente	ADV	_	_	_	_	_	_
+16	competitivos	competitivo	ADJ	_	_	_	_	_	_
+17	globalizados	globalizado	ADJ	_	_	_	_	_	_
+18	actuales	actual	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_324
+# text = El análisis del discurso crítico desvela presuposiciones ideológicas en textos periodísticos que naturalizan jerarquías de poder económico financiero.
+1	El	el	DET	_	_	_	_	_	_
+2	análisis	análisis	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	discurso	discurso	NOUN	_	_	_	_	_	_
+5	crítico	crítico	ADJ	_	_	_	_	_	_
+6	desvela	desvelar	VERB	_	_	_	_	_	_
+7	presuposiciones	presuposición	NOUN	_	_	_	_	_	_
+8	ideológicas	ideológico	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	textos	texto	NOUN	_	_	_	_	_	_
+11	periodísticos	periodístico	ADJ	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	naturalizan	naturalizar	VERB	_	_	_	_	_	_
+14	jerarquías	jerarquía	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	poder	poder	AUX	_	_	_	_	_	_
+17	económico	económico	ADJ	_	_	_	_	_	_
+18	financiero	financiero	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_325
+# text = Tras seminarios internacionales, lingüistas acordaron protocolos para documentar lenguas amenazadas con metadatos éticos sobre propiedad intelectual comunitaria indígena.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	seminarios	seminario	NOUN	_	_	_	_	_	_
+3	internacionales	internacional	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	lingüistas	lingüista	NOUN	_	_	_	_	_	_
+6	acordaron	acordar	VERB	_	_	_	_	_	_
+7	protocolos	protocolo	NOUN	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	documentar	documentar	VERB	_	_	_	_	_	_
+10	lenguas	lengua	NOUN	_	_	_	_	_	_
+11	amenazadas	amenazado	ADJ	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	metadatos	metadato	NOUN	_	_	_	_	_	_
+14	éticos	ético	ADJ	_	_	_	_	_	_
+15	sobre	sobre	ADP	_	_	_	_	_	_
+16	propiedad	propiedad	NOUN	_	_	_	_	_	_
+17	intelectual	intelectual	ADJ	_	_	_	_	_	_
+18	comunitaria	comunitario	ADJ	_	_	_	_	_	_
+19	indígena	indígena	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_326
+# text = Los críticos de arte examinaron cómo instituciones museísticas legitimaron narrativas canónicas excluyendo producciones femeninas y no occidentales sistemáticamente históricamente.
+1	Los	el	DET	_	_	_	_	_	_
+2	críticos	crítico	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	arte	arte	NOUN	_	_	_	_	_	_
+5	examinaron	examinar	VERB	_	_	_	_	_	_
+6	cómo	cómo	ADV	_	_	_	_	_	_
+7	instituciones	institución	NOUN	_	_	_	_	_	_
+8	museísticas	museístico	ADJ	_	_	_	_	_	_
+9	legitimaron	legitimar	VERB	_	_	_	_	_	_
+10	narrativas	narrativo	NOUN	_	_	_	_	_	_
+11	canónicas	canónico	ADJ	_	_	_	_	_	_
+12	excluyendo	excluir	VERB	_	_	_	_	_	_
+13	producciones	producción	NOUN	_	_	_	_	_	_
+14	femeninas	femenino	ADJ	_	_	_	_	_	_
+15	y	y	CCONJ	_	_	_	_	_	_
+16	no	no	PART	_	_	_	_	_	_
+17	occidentales	occidental	ADJ	_	_	_	_	_	_
+18	sistemáticamente	sistemáticamente	ADV	_	_	_	_	_	_
+19	históricamente	históricamente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_327
+# text = La estética analítica pregunta si juicios de gusto poseen validez intersubjetiva o expresan meras preferencias subjetivas individualmente contingentes culturalmente.
+1	La	el	DET	_	_	_	_	_	_
+2	estética	estética	NOUN	_	_	_	_	_	_
+3	analítica	analítico	ADJ	_	_	_	_	_	_
+4	pregunta	preguntar	VERB	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	juicios	juicio	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	gusto	gusto	NOUN	_	_	_	_	_	_
+9	poseen	poseer	VERB	_	_	_	_	_	_
+10	validez	validez	NOUN	_	_	_	_	_	_
+11	intersubjetiva	intersubjetivo	ADJ	_	_	_	_	_	_
+12	o	o	CCONJ	_	_	_	_	_	_
+13	expresan	expresar	VERB	_	_	_	_	_	_
+14	meras	mero	ADJ	_	_	_	_	_	_
+15	preferencias	preferencia	NOUN	_	_	_	_	_	_
+16	subjetivas	subjetivo	ADJ	_	_	_	_	_	_
+17	individualmente	individualmente	ADV	_	_	_	_	_	_
+18	contingentes	contingente	ADJ	_	_	_	_	_	_
+19	culturalmente	culturalmente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_328
+# text = Aunque el mercado de subastas creció, artistas emergentes cuestionaron concentración de valor en obras especulativas promovidas por galerías.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	mercado	mercado	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	subastas	subasta	NOUN	_	_	_	_	_	_
+6	creció	crecer	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	artistas	artista	NOUN	_	_	_	_	_	_
+9	emergentes	emergente	ADJ	_	_	_	_	_	_
+10	cuestionaron	cuestionar	VERB	_	_	_	_	_	_
+11	concentración	concentración	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	valor	valor	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	obras	obra	NOUN	_	_	_	_	_	_
+16	especulativas	especulativo	ADJ	_	_	_	_	_	_
+17	promovidas	promovido	ADJ	_	_	_	_	_	_
+18	por	por	ADP	_	_	_	_	_	_
+19	galerías	galería	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_329
+# text = El conservador restauró frescos renacentistas empleando capas reversibles que preservan pigmentos originales sin ocultar huellas del deterioro temporal visible.
+1	El	el	DET	_	_	_	_	_	_
+2	conservador	conservador	NOUN	_	_	_	_	_	_
+3	restauró	restaurar	VERB	_	_	_	_	_	_
+4	frescos	fresco	NOUN	_	_	_	_	_	_
+5	renacentistas	renacentista	ADJ	_	_	_	_	_	_
+6	empleando	emplear	VERB	_	_	_	_	_	_
+7	capas	capa	NOUN	_	_	_	_	_	_
+8	reversibles	reversible	ADJ	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	preservan	preservar	VERB	_	_	_	_	_	_
+11	pigmentos	pigmento	NOUN	_	_	_	_	_	_
+12	originales	original	ADJ	_	_	_	_	_	_
+13	sin	sin	ADP	_	_	_	_	_	_
+14	ocultar	ocultar	VERB	_	_	_	_	_	_
+15	huellas	huella	NOUN	_	_	_	_	_	_
+16	del	del	ADP	_	_	_	_	_	_
+17	deterioro	deterioro	NOUN	_	_	_	_	_	_
+18	temporal	temporal	ADJ	_	_	_	_	_	_
+19	visible	visible	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_330
+# text = Es reconocido que performances interdisciplinares desafían categorías tradicionales separando artes plásticas de prácticas escénicas contemporáneas experimentales híbridas.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	reconocido	reconocer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	performances	performance	NOUN	_	_	_	_	_	_
+5	interdisciplinares	interdisciplinar	ADJ	_	_	_	_	_	_
+6	desafían	desafiar	VERB	_	_	_	_	_	_
+7	categorías	categoría	NOUN	_	_	_	_	_	_
+8	tradicionales	tradicional	ADJ	_	_	_	_	_	_
+9	separando	separar	VERB	_	_	_	_	_	_
+10	artes	arte	NOUN	_	_	_	_	_	_
+11	plásticas	plástico	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	prácticas	práctica	NOUN	_	_	_	_	_	_
+14	escénicas	escénico	ADJ	_	_	_	_	_	_
+15	contemporáneas	contemporáneo	ADJ	_	_	_	_	_	_
+16	experimentales	experimental	ADJ	_	_	_	_	_	_
+17	híbridas	híbrido	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_331
+# text = La historiografía del arte revisó iconografías coloniales reinterpretando símbolos impositivos desde perspectivas descolonizadoras y memoria histórica crítica situada.
+1	La	el	DET	_	_	_	_	_	_
+2	historiografía	historiografía	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	arte	arte	NOUN	_	_	_	_	_	_
+5	revisó	revisar	VERB	_	_	_	_	_	_
+6	iconografías	iconografía	NOUN	_	_	_	_	_	_
+7	coloniales	colonial	ADJ	_	_	_	_	_	_
+8	reinterpretando	reinterpretar	VERB	_	_	_	_	_	_
+9	símbolos	símbolo	NOUN	_	_	_	_	_	_
+10	impositivos	impositivo	ADJ	_	_	_	_	_	_
+11	desde	desde	ADP	_	_	_	_	_	_
+12	perspectivas	perspectiva	NOUN	_	_	_	_	_	_
+13	descolonizadoras	descolonizador	ADJ	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	memoria	memoria	NOUN	_	_	_	_	_	_
+16	histórica	histórico	ADJ	_	_	_	_	_	_
+17	crítica	crítico	ADJ	_	_	_	_	_	_
+18	situada	situado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_332
+# text = Tras la polémica curatorial, el museo reordenó salas priorizando diálogos entre piezas antiguas e instalaciones conceptuales contemporáneas provocadoras.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	polémica	polémica	NOUN	_	_	_	_	_	_
+4	curatorial	curatorial	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	museo	museo	NOUN	_	_	_	_	_	_
+8	reordenó	reordenar	VERB	_	_	_	_	_	_
+9	salas	sala	NOUN	_	_	_	_	_	_
+10	priorizando	priorizar	VERB	_	_	_	_	_	_
+11	diálogos	diálogo	NOUN	_	_	_	_	_	_
+12	entre	entre	ADP	_	_	_	_	_	_
+13	piezas	pieza	NOUN	_	_	_	_	_	_
+14	antiguas	antiguo	ADJ	_	_	_	_	_	_
+15	e	y	CCONJ	_	_	_	_	_	_
+16	instalaciones	instalación	NOUN	_	_	_	_	_	_
+17	conceptuales	conceptual	ADJ	_	_	_	_	_	_
+18	contemporáneas	contemporáneo	ADJ	_	_	_	_	_	_
+19	provocadoras	provocador	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_333
+# text = Los compositores incorporaron microtonalidad y texturas electroacústicas expandiendo paletas sonoras más allá de tonalidad funcional clásica occidental tradicional.
+1	Los	el	DET	_	_	_	_	_	_
+2	compositores	compositor	NOUN	_	_	_	_	_	_
+3	incorporaron	incorporar	VERB	_	_	_	_	_	_
+4	microtonalidad	microtonalidad	NOUN	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	texturas	textura	NOUN	_	_	_	_	_	_
+7	electroacústicas	electroacústico	ADJ	_	_	_	_	_	_
+8	expandiendo	expandir	VERB	_	_	_	_	_	_
+9	paletas	paleta	NOUN	_	_	_	_	_	_
+10	sonoras	sonoro	ADJ	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	allá	allá	ADV	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	tonalidad	tonalidad	NOUN	_	_	_	_	_	_
+15	funcional	funcional	ADJ	_	_	_	_	_	_
+16	clásica	clásico	ADJ	_	_	_	_	_	_
+17	occidental	occidental	ADJ	_	_	_	_	_	_
+18	tradicional	tradicional	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_334
+# text = Críticos literarios debaten si autoficción borra límites éticos entre experiencia autobiográfica y construcción narrativa deliberadamente ficticia literaria.
+1	Críticos	crítico	NOUN	_	_	_	_	_	_
+2	literarios	literario	ADJ	_	_	_	_	_	_
+3	debaten	debatar	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	autoficción	autoficción	NOUN	_	_	_	_	_	_
+6	borra	borrar	VERB	_	_	_	_	_	_
+7	límites	límite	NOUN	_	_	_	_	_	_
+8	éticos	ético	ADJ	_	_	_	_	_	_
+9	entre	entre	ADP	_	_	_	_	_	_
+10	experiencia	experiencia	NOUN	_	_	_	_	_	_
+11	autobiográfica	autobiográfico	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	construcción	construcción	NOUN	_	_	_	_	_	_
+14	narrativa	narrativo	ADJ	_	_	_	_	_	_
+15	deliberadamente	deliberadamente	ADV	_	_	_	_	_	_
+16	ficticia	ficticio	ADJ	_	_	_	_	_	_
+17	literaria	literario	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_335
+# text = No obstante digitalización masiva, bibliotecas defienden preservación material de manuscritos frágiles cuya textura informa prácticas de lectura histórica.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	digitalización	digitalización	NOUN	_	_	_	_	_	_
+4	masiva	masivo	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	bibliotecas	biblioteca	NOUN	_	_	_	_	_	_
+7	defienden	defender	VERB	_	_	_	_	_	_
+8	preservación	preservación	NOUN	_	_	_	_	_	_
+9	material	material	ADJ	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	manuscritos	manuscrito	NOUN	_	_	_	_	_	_
+12	frágiles	frágil	ADJ	_	_	_	_	_	_
+13	cuya	cuyo	DET	_	_	_	_	_	_
+14	textura	textura	NOUN	_	_	_	_	_	_
+15	informa	informar	VERB	_	_	_	_	_	_
+16	prácticas	práctica	NOUN	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	lectura	lectura	NOUN	_	_	_	_	_	_
+19	histórica	histórico	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_336
+# text = La danza contemporánea explora corporeidad política cuestionando normas de género mediante coreografías colectivas participativas en espacios públicos urbanos.
+1	La	el	DET	_	_	_	_	_	_
+2	danza	danza	NOUN	_	_	_	_	_	_
+3	contemporánea	contemporáneo	ADJ	_	_	_	_	_	_
+4	explora	explorar	VERB	_	_	_	_	_	_
+5	corporeidad	corporeidad	NOUN	_	_	_	_	_	_
+6	política	político	ADJ	_	_	_	_	_	_
+7	cuestionando	cuestionar	VERB	_	_	_	_	_	_
+8	normas	norma	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	género	género	NOUN	_	_	_	_	_	_
+11	mediante	mediante	ADP	_	_	_	_	_	_
+12	coreografías	coreografía	NOUN	_	_	_	_	_	_
+13	colectivas	colectivo	ADJ	_	_	_	_	_	_
+14	participativas	participativo	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	espacios	espacio	NOUN	_	_	_	_	_	_
+17	públicos	público	ADJ	_	_	_	_	_	_
+18	urbanos	urbano	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_337
+# text = El festival programó cine de autor latinoamericano destacando estéticas documentales que tensionan fronteras entre observación etnográfica y reenactment escénico.
+1	El	el	DET	_	_	_	_	_	_
+2	festival	festival	NOUN	_	_	_	_	_	_
+3	programó	programar	VERB	_	_	_	_	_	_
+4	cine	cine	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	autor	autor	NOUN	_	_	_	_	_	_
+7	latinoamericano	latinoamericano	ADJ	_	_	_	_	_	_
+8	destacando	destacar	VERB	_	_	_	_	_	_
+9	estéticas	estético	NOUN	_	_	_	_	_	_
+10	documentales	documental	ADJ	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	tensionan	tensionar	VERB	_	_	_	_	_	_
+13	fronteras	frontera	NOUN	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	observación	observación	NOUN	_	_	_	_	_	_
+16	etnográfica	etnográfico	ADJ	_	_	_	_	_	_
+17	y	y	CCONJ	_	_	_	_	_	_
+18	reenactment	reenactment	NOUN	_	_	_	_	_	_
+19	escénico	escénico	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_338
+# text = Sigue siendo discutido si inteligencia artificial genera obras con autoría estética reconocible o reproduce promedios de corpora artísticos existentes.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	siendo	ser	AUX	_	_	_	_	_	_
+3	discutido	discutir	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	inteligencia	inteligencia	NOUN	_	_	_	_	_	_
+6	artificial	artificial	ADJ	_	_	_	_	_	_
+7	genera	generar	VERB	_	_	_	_	_	_
+8	obras	obra	NOUN	_	_	_	_	_	_
+9	con	con	ADP	_	_	_	_	_	_
+10	autoría	autoría	NOUN	_	_	_	_	_	_
+11	estética	estético	ADJ	_	_	_	_	_	_
+12	reconocible	reconocible	ADJ	_	_	_	_	_	_
+13	o	o	CCONJ	_	_	_	_	_	_
+14	reproduce	reproducir	VERB	_	_	_	_	_	_
+15	promedios	promedio	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	corpora	corpora	NOUN	_	_	_	_	_	_
+18	artísticos	artístico	ADJ	_	_	_	_	_	_
+19	existentes	existente	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_339
+# text = Los curadores integraron piezas arqueológicas con arte sonoro invitando reflexión sobre temporalidades múltiples y memoria sensible del territorio.
+1	Los	el	DET	_	_	_	_	_	_
+2	curadores	curador	NOUN	_	_	_	_	_	_
+3	integraron	integrar	VERB	_	_	_	_	_	_
+4	piezas	pieza	NOUN	_	_	_	_	_	_
+5	arqueológicas	arqueológico	ADJ	_	_	_	_	_	_
+6	con	con	ADP	_	_	_	_	_	_
+7	arte	arte	NOUN	_	_	_	_	_	_
+8	sonoro	sonoro	ADJ	_	_	_	_	_	_
+9	invitando	invitar	VERB	_	_	_	_	_	_
+10	reflexión	reflexión	NOUN	_	_	_	_	_	_
+11	sobre	sobre	ADP	_	_	_	_	_	_
+12	temporalidades	temporalidad	NOUN	_	_	_	_	_	_
+13	múltiples	múltiple	ADJ	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	memoria	memoria	NOUN	_	_	_	_	_	_
+16	sensible	sensible	ADJ	_	_	_	_	_	_
+17	del	del	ADP	_	_	_	_	_	_
+18	territorio	territorio	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_340
+# text = La crítica cultural analiza industrias creativas midiendo impacto económico sin reducir valor simbólico de prácticas artísticas subversivas comunitarias periféricas.
+1	La	el	DET	_	_	_	_	_	_
+2	crítica	crítica	NOUN	_	_	_	_	_	_
+3	cultural	cultural	ADJ	_	_	_	_	_	_
+4	analiza	analizar	VERB	_	_	_	_	_	_
+5	industrias	industria	NOUN	_	_	_	_	_	_
+6	creativas	creativo	ADJ	_	_	_	_	_	_
+7	midiendo	medir	VERB	_	_	_	_	_	_
+8	impacto	impacto	NOUN	_	_	_	_	_	_
+9	económico	económico	ADJ	_	_	_	_	_	_
+10	sin	sin	ADP	_	_	_	_	_	_
+11	reducir	reducir	VERB	_	_	_	_	_	_
+12	valor	valor	NOUN	_	_	_	_	_	_
+13	simbólico	simbólico	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	prácticas	práctica	NOUN	_	_	_	_	_	_
+16	artísticas	artístico	ADJ	_	_	_	_	_	_
+17	subversivas	subversivo	ADJ	_	_	_	_	_	_
+18	comunitarias	comunitario	ADJ	_	_	_	_	_	_
+19	periféricas	periférico	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_341
+# text = Tras debates académicos, la facultad reformó planes incorporando estudios visuales decoloniales y teoría queer en análisis iconográfico riguroso.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	debates	debate	NOUN	_	_	_	_	_	_
+3	académicos	académico	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	facultad	facultad	NOUN	_	_	_	_	_	_
+7	reformó	reformar	VERB	_	_	_	_	_	_
+8	planes	plan	NOUN	_	_	_	_	_	_
+9	incorporando	incorporar	VERB	_	_	_	_	_	_
+10	estudios	estudio	NOUN	_	_	_	_	_	_
+11	visuales	visual	ADJ	_	_	_	_	_	_
+12	decoloniales	decolonial	ADJ	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	teoría	teoría	NOUN	_	_	_	_	_	_
+15	queer	queer	ADJ	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	análisis	análisis	NOUN	_	_	_	_	_	_
+18	iconográfico	iconográfico	ADJ	_	_	_	_	_	_
+19	riguroso	riguroso	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_342
+# text = Los fotógrafos documentalistas negociaron consentimiento informado equilibrando testimonio social con riesgos de exposición revictimizante en comunidades vulnerables fotografiadas.
+1	Los	el	DET	_	_	_	_	_	_
+2	fotógrafos	fotógrafo	NOUN	_	_	_	_	_	_
+3	documentalistas	documentalista	ADJ	_	_	_	_	_	_
+4	negociaron	negociar	VERB	_	_	_	_	_	_
+5	consentimiento	consentimiento	NOUN	_	_	_	_	_	_
+6	informado	informado	ADJ	_	_	_	_	_	_
+7	equilibrando	equilibrar	VERB	_	_	_	_	_	_
+8	testimonio	testimonio	NOUN	_	_	_	_	_	_
+9	social	social	ADJ	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	riesgos	riesgo	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	exposición	exposición	NOUN	_	_	_	_	_	_
+14	revictimizante	revictimizante	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	comunidades	comunidad	NOUN	_	_	_	_	_	_
+17	vulnerables	vulnerable	ADJ	_	_	_	_	_	_
+18	fotografiadas	fotografiado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_343
+# text = El patrocinio corporativo de exposiciones plantea conflictos cuando marcas controvertidas buscan reputación cultural mediante mecenazgo estratégicamente calculado publicitariamente.
+1	El	el	DET	_	_	_	_	_	_
+2	patrocinio	patrocinio	NOUN	_	_	_	_	_	_
+3	corporativo	corporativo	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	exposiciones	exposición	NOUN	_	_	_	_	_	_
+6	plantea	plantear	VERB	_	_	_	_	_	_
+7	conflictos	conflicto	NOUN	_	_	_	_	_	_
+8	cuando	cuando	SCONJ	_	_	_	_	_	_
+9	marcas	marca	NOUN	_	_	_	_	_	_
+10	controvertidas	controvertido	ADJ	_	_	_	_	_	_
+11	buscan	buscar	VERB	_	_	_	_	_	_
+12	reputación	reputación	NOUN	_	_	_	_	_	_
+13	cultural	cultural	ADJ	_	_	_	_	_	_
+14	mediante	mediante	ADP	_	_	_	_	_	_
+15	mecenazgo	mecenazgo	NOUN	_	_	_	_	_	_
+16	estratégicamente	estratégicamente	ADV	_	_	_	_	_	_
+17	calculado	calculado	ADJ	_	_	_	_	_	_
+18	publicitariamente	publicitariamente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_344
+# text = No obstante presupuestos recortados, orquestas sinfónicas innovaron formatos inmersivos atrayendo audiencias jóvenes habituadas a experiencias multimedia interactivas.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	presupuestos	presupuesto	NOUN	_	_	_	_	_	_
+4	recortados	recortado	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	orquestas	orquesta	NOUN	_	_	_	_	_	_
+7	sinfónicas	sinfónico	ADJ	_	_	_	_	_	_
+8	innovaron	innovar	VERB	_	_	_	_	_	_
+9	formatos	formato	NOUN	_	_	_	_	_	_
+10	inmersivos	inmersivo	ADJ	_	_	_	_	_	_
+11	atrayendo	atraer	VERB	_	_	_	_	_	_
+12	audiencias	audiencia	NOUN	_	_	_	_	_	_
+13	jóvenes	joven	ADJ	_	_	_	_	_	_
+14	habituadas	habituado	ADJ	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	experiencias	experiencia	NOUN	_	_	_	_	_	_
+17	multimedia	multimedia	ADJ	_	_	_	_	_	_
+18	interactivas	interactivo	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_345
+# text = La poética barroca emplea conceptismo y culteranismo elevando densidad retórica mediante hipérboles, antítesis y metaforización sistemática del lenguaje.
+1	La	el	DET	_	_	_	_	_	_
+2	poética	poético	NOUN	_	_	_	_	_	_
+3	barroca	barroco	ADJ	_	_	_	_	_	_
+4	emplea	emplear	VERB	_	_	_	_	_	_
+5	conceptismo	conceptismo	NOUN	_	_	_	_	_	_
+6	y	y	CCONJ	_	_	_	_	_	_
+7	culteranismo	culteranismo	NOUN	_	_	_	_	_	_
+8	elevando	elevar	VERB	_	_	_	_	_	_
+9	densidad	densidad	NOUN	_	_	_	_	_	_
+10	retórica	retórica	ADJ	_	_	_	_	_	_
+11	mediante	mediante	ADP	_	_	_	_	_	_
+12	hipérboles	hipérbol	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	antítesis	antítesis	NOUN	_	_	_	_	_	_
+15	y	y	CCONJ	_	_	_	_	_	_
+16	metaforización	metaforización	NOUN	_	_	_	_	_	_
+17	sistemática	sistemático	ADJ	_	_	_	_	_	_
+18	del	del	ADP	_	_	_	_	_	_
+19	lenguaje	lenguaje	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_346
+# text = Historiadores del teatro estudian genealogías performativas que vinculan máscaras antiguas con dramaturgias políticas contemporáneas de protesta callejera organizada.
+1	Historiadores	historiador	NOUN	_	_	_	_	_	_
+2	del	del	ADP	_	_	_	_	_	_
+3	teatro	teatro	NOUN	_	_	_	_	_	_
+4	estudian	estudiar	VERB	_	_	_	_	_	_
+5	genealogías	genealogía	NOUN	_	_	_	_	_	_
+6	performativas	performativo	ADJ	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	vinculan	vincular	VERB	_	_	_	_	_	_
+9	máscaras	máscara	NOUN	_	_	_	_	_	_
+10	antiguas	antiguo	ADJ	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	dramaturgias	dramaturgia	NOUN	_	_	_	_	_	_
+13	políticas	político	ADJ	_	_	_	_	_	_
+14	contemporáneas	contemporáneo	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	protesta	protesta	NOUN	_	_	_	_	_	_
+17	callejera	callejero	ADJ	_	_	_	_	_	_
+18	organizada	organizado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_347
+# text = Es evidente que mercados NFT fragmentaron coleccionismo digital generando discusiones sobre autenticidad, sostenibilidad energética y especulación financiera descontrolada.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	evidente	evidente	ADJ	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	mercados	mercado	NOUN	_	_	_	_	_	_
+5	NFT	NFT	PROPN	_	_	_	_	_	_
+6	fragmentaron	fragmentar	VERB	_	_	_	_	_	_
+7	coleccionismo	coleccionismo	NOUN	_	_	_	_	_	_
+8	digital	digital	ADJ	_	_	_	_	_	_
+9	generando	generar	VERB	_	_	_	_	_	_
+10	discusiones	discusión	NOUN	_	_	_	_	_	_
+11	sobre	sobre	ADP	_	_	_	_	_	_
+12	autenticidad	autenticidad	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	sostenibilidad	sostenibilidad	NOUN	_	_	_	_	_	_
+15	energética	energético	ADJ	_	_	_	_	_	_
+16	y	y	CCONJ	_	_	_	_	_	_
+17	especulación	especulación	NOUN	_	_	_	_	_	_
+18	financiera	financiero	ADJ	_	_	_	_	_	_
+19	descontrolada	descontrolado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_348
+# text = El comité de adquisiciones rechazó donaciones con procedencia dudosa exigiendo diligencia debida sobre tráfico ilícito de patrimonio cultural transnacional.
+1	El	el	DET	_	_	_	_	_	_
+2	comité	comité	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	adquisiciones	adquisición	NOUN	_	_	_	_	_	_
+5	rechazó	rechazar	VERB	_	_	_	_	_	_
+6	donaciones	donación	NOUN	_	_	_	_	_	_
+7	con	con	ADP	_	_	_	_	_	_
+8	procedencia	procedencia	NOUN	_	_	_	_	_	_
+9	dudosa	dudoso	ADJ	_	_	_	_	_	_
+10	exigiendo	exigir	VERB	_	_	_	_	_	_
+11	diligencia	diligencia	NOUN	_	_	_	_	_	_
+12	debida	debida	ADJ	_	_	_	_	_	_
+13	sobre	sobre	ADP	_	_	_	_	_	_
+14	tráfico	tráfico	NOUN	_	_	_	_	_	_
+15	ilícito	ilícito	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	patrimonio	patrimonio	NOUN	_	_	_	_	_	_
+18	cultural	cultural	ADJ	_	_	_	_	_	_
+19	transnacional	transnacional	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_349
+# text = Sigue incierto si políticas culturales europeas armonizan diversidad lingüística artística sin homogeneizar financiación de proyectos periféricos experimentalmente radicales.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	incierto	incierto	ADJ	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	políticas	política	NOUN	_	_	_	_	_	_
+5	culturales	cultural	ADJ	_	_	_	_	_	_
+6	europeas	europeo	ADJ	_	_	_	_	_	_
+7	armonizan	armonizar	VERB	_	_	_	_	_	_
+8	diversidad	diversidad	NOUN	_	_	_	_	_	_
+9	lingüística	lingüístico	ADJ	_	_	_	_	_	_
+10	artística	artístico	ADJ	_	_	_	_	_	_
+11	sin	sin	ADP	_	_	_	_	_	_
+12	homogeneizar	homogeneizar	VERB	_	_	_	_	_	_
+13	financiación	financiación	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	proyectos	proyecto	NOUN	_	_	_	_	_	_
+16	periféricos	periférico	ADJ	_	_	_	_	_	_
+17	experimentalmente	experimentalmente	ADV	_	_	_	_	_	_
+18	radicales	radical	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_350
+# text = La arquitectura expositiva diseñó recorridos narrativos que contextualizan instalaciones inmersivas mediante iluminación escenográfica y textos interpretativos accesibles multilingüemente.
+1	La	el	DET	_	_	_	_	_	_
+2	arquitectura	arquitectura	NOUN	_	_	_	_	_	_
+3	expositiva	expositivo	ADJ	_	_	_	_	_	_
+4	diseñó	diseñar	VERB	_	_	_	_	_	_
+5	recorridos	recorrido	NOUN	_	_	_	_	_	_
+6	narrativos	narrativo	ADJ	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	contextualizan	contextualizar	VERB	_	_	_	_	_	_
+9	instalaciones	instalación	NOUN	_	_	_	_	_	_
+10	inmersivas	inmersivo	ADJ	_	_	_	_	_	_
+11	mediante	mediante	ADP	_	_	_	_	_	_
+12	iluminación	iluminación	NOUN	_	_	_	_	_	_
+13	escenográfica	escenográfico	ADJ	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	textos	texto	NOUN	_	_	_	_	_	_
+16	interpretativos	interpretativo	ADJ	_	_	_	_	_	_
+17	accesibles	accesible	ADJ	_	_	_	_	_	_
+18	multilingüemente	multilingüemente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_351
+# text = Los agrónomos evaluaron rotaciones de cultivos que restauran fertilidad del suelo reduciendo dependencia de fertilizantes nitrogenados sintéticos importados costosos.
+1	Los	el	DET	_	_	_	_	_	_
+2	agrónomos	agrónomo	NOUN	_	_	_	_	_	_
+3	evaluaron	evaluar	VERB	_	_	_	_	_	_
+4	rotaciones	rotación	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	cultivos	cultivo	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	restauran	restaurar	VERB	_	_	_	_	_	_
+9	fertilidad	fertilidad	NOUN	_	_	_	_	_	_
+10	del	del	ADP	_	_	_	_	_	_
+11	suelo	suelo	NOUN	_	_	_	_	_	_
+12	reduciendo	reducir	VERB	_	_	_	_	_	_
+13	dependencia	dependencia	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	fertilizantes	fertilizante	NOUN	_	_	_	_	_	_
+16	nitrogenados	nitrogenado	ADJ	_	_	_	_	_	_
+17	sintéticos	sintético	ADJ	_	_	_	_	_	_
+18	importados	importar	ADJ	_	_	_	_	_	_
+19	costosos	costoso	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_352
+# text = La seguridad alimentaria exige cadenas de frío ininterrumpidas para perecederos distribuidos en mercados urbanos con infraestructura logística precaria intermitente.
+1	La	el	DET	_	_	_	_	_	_
+2	seguridad	seguridad	NOUN	_	_	_	_	_	_
+3	alimentaria	alimentario	ADJ	_	_	_	_	_	_
+4	exige	exigir	VERB	_	_	_	_	_	_
+5	cadenas	cadena	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	frío	frío	NOUN	_	_	_	_	_	_
+8	ininterrumpidas	ininterrumpido	ADJ	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	perecederos	perecedero	NOUN	_	_	_	_	_	_
+11	distribuidos	distribuir	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	mercados	mercado	NOUN	_	_	_	_	_	_
+14	urbanos	urbano	ADJ	_	_	_	_	_	_
+15	con	con	ADP	_	_	_	_	_	_
+16	infraestructura	infraestructura	NOUN	_	_	_	_	_	_
+17	logística	logístico	ADJ	_	_	_	_	_	_
+18	precaria	precario	ADJ	_	_	_	_	_	_
+19	intermitente	intermitente	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_353
+# text = Aunque los rendimientos aumentaron, la erosión hídrica amenaza productividad de laderas cultivadas intensivamente sin terrazas ni cobertura vegetal.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	rendimientos	rendimiento	NOUN	_	_	_	_	_	_
+4	aumentaron	aumentar	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	erosión	erosión	NOUN	_	_	_	_	_	_
+8	hídrica	hídrico	ADJ	_	_	_	_	_	_
+9	amenaza	amenazar	VERB	_	_	_	_	_	_
+10	productividad	productividad	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	laderas	ladera	NOUN	_	_	_	_	_	_
+13	cultivadas	cultivar	ADJ	_	_	_	_	_	_
+14	intensivamente	intensivamente	ADV	_	_	_	_	_	_
+15	sin	sin	ADP	_	_	_	_	_	_
+16	terrazas	terraza	NOUN	_	_	_	_	_	_
+17	ni	ni	CCONJ	_	_	_	_	_	_
+18	cobertura	cobertura	NOUN	_	_	_	_	_	_
+19	vegetal	vegetal	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_354
+# text = Los pequeños productores adoptaron semillas criollas resilientes ante sequías prolongadas preservando agrobiodiversidad local frente a monocultivos comerciales homogéneos.
+1	Los	el	DET	_	_	_	_	_	_
+2	pequeños	pequeño	ADJ	_	_	_	_	_	_
+3	productores	productor	NOUN	_	_	_	_	_	_
+4	adoptaron	adoptar	VERB	_	_	_	_	_	_
+5	semillas	semilla	NOUN	_	_	_	_	_	_
+6	criollas	criollo	ADJ	_	_	_	_	_	_
+7	resilientes	resiliente	ADJ	_	_	_	_	_	_
+8	ante	ante	ADP	_	_	_	_	_	_
+9	sequías	sequía	NOUN	_	_	_	_	_	_
+10	prolongadas	prolongado	ADJ	_	_	_	_	_	_
+11	preservando	preservar	VERB	_	_	_	_	_	_
+12	agrobiodiversidad	agrobiodiversidad	NOUN	_	_	_	_	_	_
+13	local	local	ADJ	_	_	_	_	_	_
+14	frente	frente	NOUN	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	monocultivos	monocultivo	NOUN	_	_	_	_	_	_
+17	comerciales	comercial	ADJ	_	_	_	_	_	_
+18	homogéneos	homogéneo	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_355
+# text = Es ampliamente reconocido que deforestación para pastoreo intensivo libera carbono almacenado y reduce precipitaciones regionales de manera acumulativa medible.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	ampliamente	ampliamente	ADV	_	_	_	_	_	_
+3	reconocido	reconocido	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	deforestación	deforestación	NOUN	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	pastoreo	pastoreo	NOUN	_	_	_	_	_	_
+8	intensivo	intensivo	ADJ	_	_	_	_	_	_
+9	libera	liberar	VERB	_	_	_	_	_	_
+10	carbono	carbono	NOUN	_	_	_	_	_	_
+11	almacenado	almacenado	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	reduce	reducir	VERB	_	_	_	_	_	_
+14	precipitaciones	precipitación	NOUN	_	_	_	_	_	_
+15	regionales	regional	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	manera	manera	NOUN	_	_	_	_	_	_
+18	acumulativa	acumulativo	ADJ	_	_	_	_	_	_
+19	medible	medible	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_356
+# text = La certificación orgánica verifica prácticas sin pesticidas sintéticos mediante auditorías periódicas que documentan trazabilidad desde parcela hasta consumidor final.
+1	La	el	DET	_	_	_	_	_	_
+2	certificación	certificación	NOUN	_	_	_	_	_	_
+3	orgánica	orgánico	ADJ	_	_	_	_	_	_
+4	verifica	verificar	VERB	_	_	_	_	_	_
+5	prácticas	práctica	NOUN	_	_	_	_	_	_
+6	sin	sin	ADP	_	_	_	_	_	_
+7	pesticidas	pesticida	NOUN	_	_	_	_	_	_
+8	sintéticos	sintético	ADJ	_	_	_	_	_	_
+9	mediante	mediante	ADP	_	_	_	_	_	_
+10	auditorías	auditoría	NOUN	_	_	_	_	_	_
+11	periódicas	periódico	ADJ	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	documentan	documentar	VERB	_	_	_	_	_	_
+14	trazabilidad	trazabilidad	NOUN	_	_	_	_	_	_
+15	desde	desde	ADP	_	_	_	_	_	_
+16	parcela	parcela	NOUN	_	_	_	_	_	_
+17	hasta	hasta	ADP	_	_	_	_	_	_
+18	consumidor	consumidor	NOUN	_	_	_	_	_	_
+19	final	final	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_357
+# text = Tras negociar acuerdos comerciales, cooperativas accedieron a exportación directa eliminando intermediarios que capturaban márgenes desproporcionados históricamente consolidados.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	negociar	negociar	VERB	_	_	_	_	_	_
+3	acuerdos	acuerdo	NOUN	_	_	_	_	_	_
+4	comerciales	comercial	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	cooperativas	cooperativo	NOUN	_	_	_	_	_	_
+7	accedieron	acceder	VERB	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	exportación	exportación	NOUN	_	_	_	_	_	_
+10	directa	directo	ADJ	_	_	_	_	_	_
+11	eliminando	eliminar	VERB	_	_	_	_	_	_
+12	intermediarios	intermediario	NOUN	_	_	_	_	_	_
+13	que	que	SCONJ	_	_	_	_	_	_
+14	capturaban	capturar	VERB	_	_	_	_	_	_
+15	márgenes	margen	NOUN	_	_	_	_	_	_
+16	desproporcionados	desproporcionado	ADJ	_	_	_	_	_	_
+17	históricamente	históricamente	ADV	_	_	_	_	_	_
+18	consolidados	consolidado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_358
+# text = Los modelos agroecológicos integran polinizadores nativos y barreras cortavientos mejorando estabilidad productiva sin insumos externos energéticamente intensivos contaminantes.
+1	Los	el	DET	_	_	_	_	_	_
+2	modelos	modelo	NOUN	_	_	_	_	_	_
+3	agroecológicos	agroecológico	ADJ	_	_	_	_	_	_
+4	integran	integrar	VERB	_	_	_	_	_	_
+5	polinizadores	polinizador	NOUN	_	_	_	_	_	_
+6	nativos	nativo	ADJ	_	_	_	_	_	_
+7	y	y	CCONJ	_	_	_	_	_	_
+8	barreras	barrera	NOUN	_	_	_	_	_	_
+9	cortavientos	cortaviento	ADJ	_	_	_	_	_	_
+10	mejorando	mejorar	VERB	_	_	_	_	_	_
+11	estabilidad	estabilidad	NOUN	_	_	_	_	_	_
+12	productiva	productivo	ADJ	_	_	_	_	_	_
+13	sin	sin	ADP	_	_	_	_	_	_
+14	insumos	insumo	NOUN	_	_	_	_	_	_
+15	externos	externo	ADJ	_	_	_	_	_	_
+16	energéticamente	energéticamente	ADV	_	_	_	_	_	_
+17	intensivos	intensivo	ADJ	_	_	_	_	_	_
+18	contaminantes	contaminante	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_359
+# text = Economistas rurales analizaron si subsidios a biocombustibles desvían cultivos alimentarios hacia commodities energéticos elevando precios internacionales de granos básicos.
+1	Economistas	Economistas	PROPN	_	_	_	_	_	_
+2	rurales	rural	ADJ	_	_	_	_	_	_
+3	analizaron	analizar	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	subsidios	subsidio	NOUN	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	biocombustibles	biocombustible	NOUN	_	_	_	_	_	_
+8	desvían	desviar	VERB	_	_	_	_	_	_
+9	cultivos	cultivo	NOUN	_	_	_	_	_	_
+10	alimentarios	alimentario	ADJ	_	_	_	_	_	_
+11	hacia	hacia	ADP	_	_	_	_	_	_
+12	commodities	commoditie	NOUN	_	_	_	_	_	_
+13	energéticos	energético	ADJ	_	_	_	_	_	_
+14	elevando	elevar	VERB	_	_	_	_	_	_
+15	precios	precio	NOUN	_	_	_	_	_	_
+16	internacionales	internacional	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	granos	grano	NOUN	_	_	_	_	_	_
+19	básicos	básico	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_360
+# text = No obstante innovaciones biotecnológicas, consumidores exigen etiquetado transparente sobre organismos modificados y posibles alergenos ocultos no declarados explícitamente.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	innovaciones	innovación	NOUN	_	_	_	_	_	_
+4	biotecnológicas	biotecnológico	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	consumidores	consumidor	NOUN	_	_	_	_	_	_
+7	exigen	exigir	VERB	_	_	_	_	_	_
+8	etiquetado	etiquetado	NOUN	_	_	_	_	_	_
+9	transparente	transparente	ADJ	_	_	_	_	_	_
+10	sobre	sobre	ADP	_	_	_	_	_	_
+11	organismos	organismo	NOUN	_	_	_	_	_	_
+12	modificados	modificar	ADJ	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	posibles	posible	ADJ	_	_	_	_	_	_
+15	alergenos	alergeno	NOUN	_	_	_	_	_	_
+16	ocultos	oculto	ADJ	_	_	_	_	_	_
+17	no	no	PART	_	_	_	_	_	_
+18	declarados	declarado	ADJ	_	_	_	_	_	_
+19	explícitamente	explícitamente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_361
+# text = La irrigación por goteo optimiza consumo hídrico en zonas áridas donde acuíferos se sobreexplotan por políticas de acceso gratuito.
+1	La	el	DET	_	_	_	_	_	_
+2	irrigación	irrigación	NOUN	_	_	_	_	_	_
+3	por	por	ADP	_	_	_	_	_	_
+4	goteo	goteo	NOUN	_	_	_	_	_	_
+5	optimiza	optimizar	VERB	_	_	_	_	_	_
+6	consumo	consumo	NOUN	_	_	_	_	_	_
+7	hídrico	hídrico	ADJ	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	zonas	zona	NOUN	_	_	_	_	_	_
+10	áridas	árido	ADJ	_	_	_	_	_	_
+11	donde	donde	ADV	_	_	_	_	_	_
+12	acuíferos	acuífer	NOUN	_	_	_	_	_	_
+13	se	él	PRON	_	_	_	_	_	_
+14	sobreexplotan	sobreexplotar	VERB	_	_	_	_	_	_
+15	por	por	ADP	_	_	_	_	_	_
+16	políticas	política	NOUN	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	acceso	acceso	NOUN	_	_	_	_	_	_
+19	gratuito	gratuito	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_362
+# text = Sigue siendo urgente diversificar dietas dependientes del trigo cuando conflictos geopolíticos interrumpen exportaciones concentradas en pocas regiones productoras dominantes.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	siendo	ser	AUX	_	_	_	_	_	_
+3	urgente	urgente	ADJ	_	_	_	_	_	_
+4	diversificar	diversificar	VERB	_	_	_	_	_	_
+5	dietas	dieta	NOUN	_	_	_	_	_	_
+6	dependientes	dependiente	ADJ	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	trigo	trigo	NOUN	_	_	_	_	_	_
+9	cuando	cuando	SCONJ	_	_	_	_	_	_
+10	conflictos	conflicto	NOUN	_	_	_	_	_	_
+11	geopolíticos	geopolítico	ADJ	_	_	_	_	_	_
+12	interrumpen	interrumpir	VERB	_	_	_	_	_	_
+13	exportaciones	exportación	NOUN	_	_	_	_	_	_
+14	concentradas	concentrado	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	pocas	poco	ADV	_	_	_	_	_	_
+17	regiones	región	NOUN	_	_	_	_	_	_
+18	productoras	productora	ADJ	_	_	_	_	_	_
+19	dominantes	dominante	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_363
+# text = Los veterinarios implementaron planes sanitarios integrados controlando zoonosis emergentes vinculadas a granjas intensivas y comercio ilegal de fauna silvestre.
+1	Los	el	DET	_	_	_	_	_	_
+2	veterinarios	veterinario	NOUN	_	_	_	_	_	_
+3	implementaron	implementar	VERB	_	_	_	_	_	_
+4	planes	plan	NOUN	_	_	_	_	_	_
+5	sanitarios	sanitario	ADJ	_	_	_	_	_	_
+6	integrados	integrado	ADJ	_	_	_	_	_	_
+7	controlando	controlar	VERB	_	_	_	_	_	_
+8	zoonosis	zoonosis	NOUN	_	_	_	_	_	_
+9	emergentes	emergente	ADJ	_	_	_	_	_	_
+10	vinculadas	vinculado	ADJ	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	granjas	granja	NOUN	_	_	_	_	_	_
+13	intensivas	intensivo	ADJ	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	comercio	comercio	NOUN	_	_	_	_	_	_
+16	ilegal	ilegal	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	fauna	fauna	NOUN	_	_	_	_	_	_
+19	silvestre	silvestre	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_364
+# text = El seguro agrícola indexado al clima indemniza pérdidas por sequía mediante indicadores satelitales reduciendo costos de verificación presencial tradicional.
+1	El	el	DET	_	_	_	_	_	_
+2	seguro	seguro	NOUN	_	_	_	_	_	_
+3	agrícola	agrícola	ADJ	_	_	_	_	_	_
+4	indexado	indexado	ADJ	_	_	_	_	_	_
+5	al	al	ADP	_	_	_	_	_	_
+6	clima	clima	NOUN	_	_	_	_	_	_
+7	indemniza	indemnizar	VERB	_	_	_	_	_	_
+8	pérdidas	pérdida	NOUN	_	_	_	_	_	_
+9	por	por	ADP	_	_	_	_	_	_
+10	sequía	sequía	NOUN	_	_	_	_	_	_
+11	mediante	mediante	ADP	_	_	_	_	_	_
+12	indicadores	indicador	NOUN	_	_	_	_	_	_
+13	satelitales	satelital	ADJ	_	_	_	_	_	_
+14	reduciendo	reducir	VERB	_	_	_	_	_	_
+15	costos	costo	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	verificación	verificación	NOUN	_	_	_	_	_	_
+18	presencial	presencial	ADJ	_	_	_	_	_	_
+19	tradicional	tradicional	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_365
+# text = Tras evaluar suelos degradados, técnicos promovieron agroforestería combinando árboles frutales con cultivos anuales diversificando ingresos familiares rurales estacionales.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	evaluar	evaluar	VERB	_	_	_	_	_	_
+3	suelos	suelo	NOUN	_	_	_	_	_	_
+4	degradados	degradado	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	técnicos	técnico	NOUN	_	_	_	_	_	_
+7	promovieron	promover	VERB	_	_	_	_	_	_
+8	agroforestería	agroforestería	NOUN	_	_	_	_	_	_
+9	combinando	combinar	VERB	_	_	_	_	_	_
+10	árboles	árbol	NOUN	_	_	_	_	_	_
+11	frutales	frutal	ADJ	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	cultivos	cultivo	NOUN	_	_	_	_	_	_
+14	anuales	anual	ADJ	_	_	_	_	_	_
+15	diversificando	diversificar	VERB	_	_	_	_	_	_
+16	ingresos	ingreso	NOUN	_	_	_	_	_	_
+17	familiares	familiar	ADJ	_	_	_	_	_	_
+18	rurales	rural	ADJ	_	_	_	_	_	_
+19	estacionales	estacional	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_366
+# text = Las mujeres rurales coordinaron mercados solidarios distribuyendo excedentes locales evitando desperdicio alimentario y fortaleciendo redes de mutuo apoyo comunitario.
+1	Las	el	DET	_	_	_	_	_	_
+2	mujeres	mujer	NOUN	_	_	_	_	_	_
+3	rurales	rural	ADJ	_	_	_	_	_	_
+4	coordinaron	coordinar	VERB	_	_	_	_	_	_
+5	mercados	mercado	NOUN	_	_	_	_	_	_
+6	solidarios	solidario	ADJ	_	_	_	_	_	_
+7	distribuyendo	distribuir	VERB	_	_	_	_	_	_
+8	excedentes	excedente	NOUN	_	_	_	_	_	_
+9	locales	local	ADJ	_	_	_	_	_	_
+10	evitando	evitar	VERB	_	_	_	_	_	_
+11	desperdicio	desperdicio	NOUN	_	_	_	_	_	_
+12	alimentario	alimentario	ADJ	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	fortaleciendo	fortalecer	VERB	_	_	_	_	_	_
+15	redes	red	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	mutuo	mutuo	ADJ	_	_	_	_	_	_
+18	apoyo	apoyo	NOUN	_	_	_	_	_	_
+19	comunitario	comunitario	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_367
+# text = La pesca artesanal reclamó cuotas sostenibles ante flotas industriales extranjeras que agotan stocks migratorios en aguas económicas exclusivas nacionales.
+1	La	el	DET	_	_	_	_	_	_
+2	pesca	pesca	NOUN	_	_	_	_	_	_
+3	artesanal	artesanal	ADJ	_	_	_	_	_	_
+4	reclamó	reclamar	VERB	_	_	_	_	_	_
+5	cuotas	cuota	NOUN	_	_	_	_	_	_
+6	sostenibles	sostenible	ADJ	_	_	_	_	_	_
+7	ante	ante	ADP	_	_	_	_	_	_
+8	flotas	flota	NOUN	_	_	_	_	_	_
+9	industriales	industrial	ADJ	_	_	_	_	_	_
+10	extranjeras	extranjero	ADJ	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	agotan	agotar	VERB	_	_	_	_	_	_
+13	stocks	stocks	NOUN	_	_	_	_	_	_
+14	migratorios	migratorio	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	aguas	agua	NOUN	_	_	_	_	_	_
+17	económicas	económico	ADJ	_	_	_	_	_	_
+18	exclusivas	exclusivo	ADJ	_	_	_	_	_	_
+19	nacionales	nacional	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_368
+# text = Es innegable que precios volátiles de fertilizantes presionan márgenes de cultivadores sin cobertura financiera ante shocks de mercado globales.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	innegable	innegable	ADJ	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	precios	precio	NOUN	_	_	_	_	_	_
+5	volátiles	volátil	ADJ	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	fertilizantes	fertilizante	NOUN	_	_	_	_	_	_
+8	presionan	presionar	VERB	_	_	_	_	_	_
+9	márgenes	margen	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	cultivadores	cultivador	NOUN	_	_	_	_	_	_
+12	sin	sin	ADP	_	_	_	_	_	_
+13	cobertura	cobertura	NOUN	_	_	_	_	_	_
+14	financiera	financiero	ADJ	_	_	_	_	_	_
+15	ante	ante	ADP	_	_	_	_	_	_
+16	shocks	shocks	NOUN	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	mercado	mercado	NOUN	_	_	_	_	_	_
+19	globales	global	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_369
+# text = Los laboratorios analizaron micotoxinas en cereales almacenados deficientemente alertando sobre riesgos hepáticos asociados a humedad inadecuada prolongada postcosecha.
+1	Los	el	DET	_	_	_	_	_	_
+2	laboratorios	laboratorio	NOUN	_	_	_	_	_	_
+3	analizaron	analizar	VERB	_	_	_	_	_	_
+4	micotoxinas	micotoxina	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	cereales	cereal	NOUN	_	_	_	_	_	_
+7	almacenados	almacenado	ADJ	_	_	_	_	_	_
+8	deficientemente	deficientemente	ADV	_	_	_	_	_	_
+9	alertando	alertar	VERB	_	_	_	_	_	_
+10	sobre	sobre	ADP	_	_	_	_	_	_
+11	riesgos	riesgo	NOUN	_	_	_	_	_	_
+12	hepáticos	hepático	ADJ	_	_	_	_	_	_
+13	asociados	asociar	ADJ	_	_	_	_	_	_
+14	a	a	ADP	_	_	_	_	_	_
+15	humedad	humedad	NOUN	_	_	_	_	_	_
+16	inadecuada	inadecuado	ADJ	_	_	_	_	_	_
+17	prolongada	prolongado	ADJ	_	_	_	_	_	_
+18	postcosecha	postcosecha	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_370
+# text = No obstante metas de cero hambre, distribución inequitativa deja millones sin acceso a dietas nutritivas en territorios exportadores.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	metas	meta	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	cero	cero	NUM	_	_	_	_	_	_
+6	hambre	hambre	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	distribución	distribución	NOUN	_	_	_	_	_	_
+9	inequitativa	inequitativo	ADJ	_	_	_	_	_	_
+10	deja	dejar	VERB	_	_	_	_	_	_
+11	millones	millón	NOUN	_	_	_	_	_	_
+12	sin	sin	ADP	_	_	_	_	_	_
+13	acceso	acceso	NOUN	_	_	_	_	_	_
+14	a	a	ADP	_	_	_	_	_	_
+15	dietas	dieta	NOUN	_	_	_	_	_	_
+16	nutritivas	nutritivo	ADJ	_	_	_	_	_	_
+17	en	en	ADP	_	_	_	_	_	_
+18	territorios	territorio	NOUN	_	_	_	_	_	_
+19	exportadores	exportador	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_371
+# text = La ganadería regenerativa rotaciona pastoreo móvil restaurando pastizales y secuestrando carbono mientras mejora bienestar animal frente a confinamiento industrial.
+1	La	el	DET	_	_	_	_	_	_
+2	ganadería	ganadería	NOUN	_	_	_	_	_	_
+3	regenerativa	regenerativo	ADJ	_	_	_	_	_	_
+4	rotaciona	rotacionar	VERB	_	_	_	_	_	_
+5	pastoreo	pastoreo	NOUN	_	_	_	_	_	_
+6	móvil	móvil	ADJ	_	_	_	_	_	_
+7	restaurando	restaurar	VERB	_	_	_	_	_	_
+8	pastizales	pastizal	NOUN	_	_	_	_	_	_
+9	y	y	CCONJ	_	_	_	_	_	_
+10	secuestrando	secuestrar	VERB	_	_	_	_	_	_
+11	carbono	carbono	NOUN	_	_	_	_	_	_
+12	mientras	mientras	SCONJ	_	_	_	_	_	_
+13	mejora	mejorar	VERB	_	_	_	_	_	_
+14	bienestar	bienestar	NOUN	_	_	_	_	_	_
+15	animal	animal	ADJ	_	_	_	_	_	_
+16	frente	frente	NOUN	_	_	_	_	_	_
+17	a	a	ADP	_	_	_	_	_	_
+18	confinamiento	confinamiento	NOUN	_	_	_	_	_	_
+19	industrial	industrial	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_372
+# text = Investigadores cuantificaron huella hídrica virtual exportada mediante productos agrícolas revelando dependencias ocultas de recursos hídricos extranjeros no visibles contablemente.
+1	Investigadores	Investigadores	PROPN	_	_	_	_	_	_
+2	cuantificaron	cuantificar	VERB	_	_	_	_	_	_
+3	huella	huella	NOUN	_	_	_	_	_	_
+4	hídrica	hídrico	ADJ	_	_	_	_	_	_
+5	virtual	virtual	ADJ	_	_	_	_	_	_
+6	exportada	exportado	ADJ	_	_	_	_	_	_
+7	mediante	mediante	ADP	_	_	_	_	_	_
+8	productos	producto	NOUN	_	_	_	_	_	_
+9	agrícolas	agrícola	ADJ	_	_	_	_	_	_
+10	revelando	revelar	VERB	_	_	_	_	_	_
+11	dependencias	dependencia	NOUN	_	_	_	_	_	_
+12	ocultas	oculto	ADJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	recursos	recurso	NOUN	_	_	_	_	_	_
+15	hídricos	hídrico	ADJ	_	_	_	_	_	_
+16	extranjeros	extranjero	ADJ	_	_	_	_	_	_
+17	no	no	PART	_	_	_	_	_	_
+18	visibles	visible	ADJ	_	_	_	_	_	_
+19	contablemente	contablemente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_373
+# text = Tras sequías extremas, gobiernos reorganizaron reservas estratégicas de granos equilibrando precios con incentivos a producción doméstica competitiva sostenible.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	sequías	sequía	NOUN	_	_	_	_	_	_
+3	extremas	extremo	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	gobiernos	gobierno	NOUN	_	_	_	_	_	_
+6	reorganizaron	reorganizar	VERB	_	_	_	_	_	_
+7	reservas	reserva	NOUN	_	_	_	_	_	_
+8	estratégicas	estratégico	ADJ	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	granos	grano	NOUN	_	_	_	_	_	_
+11	equilibrando	equilibrar	VERB	_	_	_	_	_	_
+12	precios	precio	NOUN	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	incentivos	incentivo	NOUN	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	producción	producción	NOUN	_	_	_	_	_	_
+17	doméstica	doméstico	ADJ	_	_	_	_	_	_
+18	competitiva	competitivo	ADJ	_	_	_	_	_	_
+19	sostenible	sostenible	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_374
+# text = Los contratos agrarios justos fijan precios mínimos protegiendo campesinos de subidas en costos de insumos sin compensación comercial posterior.
+1	Los	el	DET	_	_	_	_	_	_
+2	contratos	contrato	NOUN	_	_	_	_	_	_
+3	agrarios	agrario	ADJ	_	_	_	_	_	_
+4	justos	justo	ADJ	_	_	_	_	_	_
+5	fijan	fijar	VERB	_	_	_	_	_	_
+6	precios	precio	NOUN	_	_	_	_	_	_
+7	mínimos	mínimo	ADJ	_	_	_	_	_	_
+8	protegiendo	proteger	VERB	_	_	_	_	_	_
+9	campesinos	campesino	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	subidas	subida	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	costos	costo	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	insumos	insumo	NOUN	_	_	_	_	_	_
+16	sin	sin	ADP	_	_	_	_	_	_
+17	compensación	compensación	NOUN	_	_	_	_	_	_
+18	comercial	comercial	ADJ	_	_	_	_	_	_
+19	posterior	posterior	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_375
+# text = Sigue debatiéndose si verticalización tecnológica en invernaderos automatizados concentra propiedad agraria desplazando economías campesinas tradicionalmente autosuficientes regionalmente arraigadas.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	debatiéndose	debatir	VERB	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	verticalización	verticalización	NOUN	_	_	_	_	_	_
+5	tecnológica	tecnológico	ADJ	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	invernaderos	invernadero	NOUN	_	_	_	_	_	_
+8	automatizados	automatizado	ADJ	_	_	_	_	_	_
+9	concentra	concentrar	VERB	_	_	_	_	_	_
+10	propiedad	propiedad	NOUN	_	_	_	_	_	_
+11	agraria	agrario	ADJ	_	_	_	_	_	_
+12	desplazando	desplazar	VERB	_	_	_	_	_	_
+13	economías	economía	NOUN	_	_	_	_	_	_
+14	campesinas	campesino	ADJ	_	_	_	_	_	_
+15	tradicionalmente	tradicionalmente	ADV	_	_	_	_	_	_
+16	autosuficientes	autosuficiente	ADJ	_	_	_	_	_	_
+17	regionalmente	regionalmente	ADV	_	_	_	_	_	_
+18	arraigadas	arraigado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_376
+# text = Los ingenieros dimensionaron redes inteligentes capaces de integrar generación distribuida variable compensando fluctuaciones mediante almacenamiento electroquímico escalable modularmente.
+1	Los	el	DET	_	_	_	_	_	_
+2	ingenieros	ingeniero	NOUN	_	_	_	_	_	_
+3	dimensionaron	dimensionar	VERB	_	_	_	_	_	_
+4	redes	red	NOUN	_	_	_	_	_	_
+5	inteligentes	inteligente	ADJ	_	_	_	_	_	_
+6	capaces	capaz	ADJ	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	integrar	integrar	VERB	_	_	_	_	_	_
+9	generación	generación	NOUN	_	_	_	_	_	_
+10	distribuida	distribuido	ADJ	_	_	_	_	_	_
+11	variable	variable	ADJ	_	_	_	_	_	_
+12	compensando	compensar	VERB	_	_	_	_	_	_
+13	fluctuaciones	fluctuación	NOUN	_	_	_	_	_	_
+14	mediante	mediante	ADP	_	_	_	_	_	_
+15	almacenamiento	almacenamiento	NOUN	_	_	_	_	_	_
+16	electroquímico	electroquímico	ADJ	_	_	_	_	_	_
+17	escalable	escalable	ADJ	_	_	_	_	_	_
+18	modularmente	modularmente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_377
+# text = La transición energética requiere modernizar redes obsoletas sin interrumpir suministro crítico a hospitales y tratamiento de agua potable urbana.
+1	La	el	DET	_	_	_	_	_	_
+2	transición	transición	NOUN	_	_	_	_	_	_
+3	energética	energético	ADJ	_	_	_	_	_	_
+4	requiere	requerir	VERB	_	_	_	_	_	_
+5	modernizar	modernizar	VERB	_	_	_	_	_	_
+6	redes	red	NOUN	_	_	_	_	_	_
+7	obsoletas	obsoleto	ADJ	_	_	_	_	_	_
+8	sin	sin	ADP	_	_	_	_	_	_
+9	interrumpir	interrumpir	VERB	_	_	_	_	_	_
+10	suministro	suministro	NOUN	_	_	_	_	_	_
+11	crítico	crítico	ADJ	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	hospitales	hospital	NOUN	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	tratamiento	tratamiento	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	agua	agua	NOUN	_	_	_	_	_	_
+18	potable	potable	ADJ	_	_	_	_	_	_
+19	urbana	urbano	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_378
+# text = Aunque la eólica marina creció, comunidades pesqueras exigieron compensaciones por restricciones de acceso a caladeros tradicionalmente explotados generacionalmente.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	eólica	eólico	NOUN	_	_	_	_	_	_
+4	marina	marino	ADJ	_	_	_	_	_	_
+5	creció	crecer	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	comunidades	comunidad	NOUN	_	_	_	_	_	_
+8	pesqueras	pesquero	ADJ	_	_	_	_	_	_
+9	exigieron	exigir	VERB	_	_	_	_	_	_
+10	compensaciones	compensación	NOUN	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	restricciones	restricción	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	acceso	acceso	NOUN	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	caladeros	caladero	NOUN	_	_	_	_	_	_
+17	tradicionalmente	tradicionalmente	ADV	_	_	_	_	_	_
+18	explotados	explotado	ADJ	_	_	_	_	_	_
+19	generacionalmente	generacionalmente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_379
+# text = Los analistas proyectaron brechas de capacidad si electrificación industrial acelera sin licitaciones oportunas de infraestructura de transmisión troncal nacional.
+1	Los	el	DET	_	_	_	_	_	_
+2	analistas	analista	NOUN	_	_	_	_	_	_
+3	proyectaron	proyectar	VERB	_	_	_	_	_	_
+4	brechas	brecha	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	capacidad	capacidad	NOUN	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	electrificación	electrificación	NOUN	_	_	_	_	_	_
+9	industrial	industrial	ADJ	_	_	_	_	_	_
+10	acelera	acelerar	VERB	_	_	_	_	_	_
+11	sin	sin	ADP	_	_	_	_	_	_
+12	licitaciones	licitación	NOUN	_	_	_	_	_	_
+13	oportunas	oportuno	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	infraestructura	infraestructura	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	transmisión	transmisión	NOUN	_	_	_	_	_	_
+18	troncal	troncal	ADJ	_	_	_	_	_	_
+19	nacional	nacional	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_380
+# text = Es reconocido que dependencia energética importada expone economías a volatilidad geopolítica y riesgos de corte abrupto en conflictos regionales.
+1	Es	ser	AUX	_	_	_	_	_	_
+2	reconocido	reconocer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	dependencia	dependencia	NOUN	_	_	_	_	_	_
+5	energética	energético	ADJ	_	_	_	_	_	_
+6	importada	importado	ADJ	_	_	_	_	_	_
+7	expone	exponer	VERB	_	_	_	_	_	_
+8	economías	economía	NOUN	_	_	_	_	_	_
+9	a	a	ADP	_	_	_	_	_	_
+10	volatilidad	volatilidad	NOUN	_	_	_	_	_	_
+11	geopolítica	geopolítico	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	riesgos	riesgo	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	corte	corte	NOUN	_	_	_	_	_	_
+16	abrupto	abrupto	ADJ	_	_	_	_	_	_
+17	en	en	ADP	_	_	_	_	_	_
+18	conflictos	conflicto	NOUN	_	_	_	_	_	_
+19	regionales	regional	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_381
+# text = El operador implementó mercados intradiarios equilibrando oferta y demanda mediante precios dinámicos que reflejan escasez temporal regional horaria.
+1	El	el	DET	_	_	_	_	_	_
+2	operador	operador	NOUN	_	_	_	_	_	_
+3	implementó	implementar	VERB	_	_	_	_	_	_
+4	mercados	mercado	NOUN	_	_	_	_	_	_
+5	intradiarios	intradiario	ADJ	_	_	_	_	_	_
+6	equilibrando	equilibrar	VERB	_	_	_	_	_	_
+7	oferta	oferta	NOUN	_	_	_	_	_	_
+8	y	y	CCONJ	_	_	_	_	_	_
+9	demanda	demanda	NOUN	_	_	_	_	_	_
+10	mediante	mediante	ADP	_	_	_	_	_	_
+11	precios	precio	NOUN	_	_	_	_	_	_
+12	dinámicos	dinámico	ADJ	_	_	_	_	_	_
+13	que	que	SCONJ	_	_	_	_	_	_
+14	reflejan	reflejar	VERB	_	_	_	_	_	_
+15	escasez	escasez	NOUN	_	_	_	_	_	_
+16	temporal	temporal	ADJ	_	_	_	_	_	_
+17	regional	regional	ADJ	_	_	_	_	_	_
+18	horaria	horario	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_382
+# text = Tras auditorías técnicas, autoridades suspendieron permisos a centrales con emisiones superiores a límites de planes nacionales de descarbonización.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	auditorías	auditoría	NOUN	_	_	_	_	_	_
+3	técnicas	técnico	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	autoridades	autoridad	NOUN	_	_	_	_	_	_
+6	suspendieron	suspender	VERB	_	_	_	_	_	_
+7	permisos	permiso	NOUN	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	centrales	central	NOUN	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	emisiones	emisión	NOUN	_	_	_	_	_	_
+12	superiores	superior	ADJ	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	límites	límite	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	planes	plan	NOUN	_	_	_	_	_	_
+17	nacionales	nacional	ADJ	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	descarbonización	descarbonización	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_383
+# text = Los fabricantes desarrollaron turbinas de mayor capacidad reduciendo costo nivelado de energía en parques eólicos terrestres de altitud ventosa.
+1	Los	el	DET	_	_	_	_	_	_
+2	fabricantes	fabricante	NOUN	_	_	_	_	_	_
+3	desarrollaron	desarrollar	VERB	_	_	_	_	_	_
+4	turbinas	turbina	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	mayor	mayor	ADJ	_	_	_	_	_	_
+7	capacidad	capacidad	NOUN	_	_	_	_	_	_
+8	reduciendo	reducir	VERB	_	_	_	_	_	_
+9	costo	costo	NOUN	_	_	_	_	_	_
+10	nivelado	nivelado	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	energía	energía	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	parques	parque	NOUN	_	_	_	_	_	_
+15	eólicos	eólico	ADJ	_	_	_	_	_	_
+16	terrestres	terrestre	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	altitud	altitud	NOUN	_	_	_	_	_	_
+19	ventosa	ventoso	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_384
+# text = Expertos debaten si hidrógeno verde competirá sin subvenciones cuando electrificación directa cubra mayoría de usos residenciales e industriales ligeros.
+1	Expertos	Experto	PROPN	_	_	_	_	_	_
+2	debaten	debatar	VERB	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	hidrógeno	hidrógeno	NOUN	_	_	_	_	_	_
+5	verde	verde	ADJ	_	_	_	_	_	_
+6	competirá	competir	VERB	_	_	_	_	_	_
+7	sin	sin	ADP	_	_	_	_	_	_
+8	subvenciones	subvención	NOUN	_	_	_	_	_	_
+9	cuando	cuando	SCONJ	_	_	_	_	_	_
+10	electrificación	electrificación	NOUN	_	_	_	_	_	_
+11	directa	directo	ADJ	_	_	_	_	_	_
+12	cubra	cubrar	VERB	_	_	_	_	_	_
+13	mayoría	mayoría	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	usos	uso	NOUN	_	_	_	_	_	_
+16	residenciales	residencial	ADJ	_	_	_	_	_	_
+17	e	y	CCONJ	_	_	_	_	_	_
+18	industriales	industrial	ADJ	_	_	_	_	_	_
+19	ligeros	ligero	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_385
+# text = No obstante apagones recurrentes, municipios instalaron microrredes resilientes combinando solar fotovoltaica con baterías comunitarias gestionadas cooperativamente localmente.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	apagones	apagón	NOUN	_	_	_	_	_	_
+4	recurrentes	recurrente	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	municipios	municipio	NOUN	_	_	_	_	_	_
+7	instalaron	instalar	VERB	_	_	_	_	_	_
+8	microrredes	microrred	NOUN	_	_	_	_	_	_
+9	resilientes	resiliente	ADJ	_	_	_	_	_	_
+10	combinando	combinar	VERB	_	_	_	_	_	_
+11	solar	solar	NOUN	_	_	_	_	_	_
+12	fotovoltaica	fotovoltaico	ADJ	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	baterías	batería	NOUN	_	_	_	_	_	_
+15	comunitarias	comunitario	ADJ	_	_	_	_	_	_
+16	gestionadas	gestionar	ADJ	_	_	_	_	_	_
+17	cooperativamente	cooperativamente	ADV	_	_	_	_	_	_
+18	localmente	localmente	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_386
+# text = La nuclear de cuarta generación promete reactores modulares seguros, aunque regulatorios retrasan despliegue comercial previsto a corto plazo.
+1	La	el	DET	_	_	_	_	_	_
+2	nuclear	nuclear	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	cuarta	cuarto	ADJ	_	_	_	_	_	_
+5	generación	generación	NOUN	_	_	_	_	_	_
+6	promete	prometer	VERB	_	_	_	_	_	_
+7	reactores	reactor	NOUN	_	_	_	_	_	_
+8	modulares	modular	ADJ	_	_	_	_	_	_
+9	seguros	seguro	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	aunque	aunque	SCONJ	_	_	_	_	_	_
+12	regulatorios	regulatorio	ADJ	_	_	_	_	_	_
+13	retrasan	retrasar	VERB	_	_	_	_	_	_
+14	despliegue	despliegue	NOUN	_	_	_	_	_	_
+15	comercial	comercial	ADJ	_	_	_	_	_	_
+16	previsto	previsto	ADJ	_	_	_	_	_	_
+17	a	a	ADP	_	_	_	_	_	_
+18	corto	corto	NOUN	_	_	_	_	_	_
+19	plazo	plazo	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_387
+# text = Los fondos canalizan inversión hacia modernización de redes en regiones mineras dependientes de carbón buscando reconversión laboral justa planificada.
+1	Los	el	DET	_	_	_	_	_	_
+2	fondos	fondo	NOUN	_	_	_	_	_	_
+3	canalizan	canalizar	VERB	_	_	_	_	_	_
+4	inversión	inversión	NOUN	_	_	_	_	_	_
+5	hacia	hacia	ADP	_	_	_	_	_	_
+6	modernización	modernización	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	redes	red	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	regiones	región	NOUN	_	_	_	_	_	_
+11	mineras	minero	ADJ	_	_	_	_	_	_
+12	dependientes	dependiente	ADJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	carbón	carbón	NOUN	_	_	_	_	_	_
+15	buscando	buscar	VERB	_	_	_	_	_	_
+16	reconversión	reconversión	NOUN	_	_	_	_	_	_
+17	laboral	laboral	ADJ	_	_	_	_	_	_
+18	justa	justo	ADJ	_	_	_	_	_	_
+19	planificada	planificado	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_388
+# text = Sigue siendo crítico armonizar estándares transfronterizos para comercio de electricidad evitando cuellos de botella en interconexiones binacionales subutilizadas crónicamente.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	siendo	ser	AUX	_	_	_	_	_	_
+3	crítico	crítico	ADJ	_	_	_	_	_	_
+4	armonizar	armonizar	VERB	_	_	_	_	_	_
+5	estándares	estándar	NOUN	_	_	_	_	_	_
+6	transfronterizos	transfronterizo	ADJ	_	_	_	_	_	_
+7	para	para	ADP	_	_	_	_	_	_
+8	comercio	comercio	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	electricidad	electricidad	NOUN	_	_	_	_	_	_
+11	evitando	evitar	VERB	_	_	_	_	_	_
+12	cuellos	cuello	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	botella	botella	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	interconexiones	interconexión	NOUN	_	_	_	_	_	_
+17	binacionales	binacional	ADJ	_	_	_	_	_	_
+18	subutilizadas	subutilizado	ADJ	_	_	_	_	_	_
+19	crónicamente	crónicamente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_389
+# text = La eficiencia energética en edificios reduce picos de demanda más rentablemente que ampliar generación en centrales térmicas de respaldo.
+1	La	el	DET	_	_	_	_	_	_
+2	eficiencia	eficiencia	NOUN	_	_	_	_	_	_
+3	energética	energético	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	edificios	edificio	NOUN	_	_	_	_	_	_
+6	reduce	reducir	VERB	_	_	_	_	_	_
+7	picos	pico	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	demanda	demanda	NOUN	_	_	_	_	_	_
+10	más	más	ADV	_	_	_	_	_	_
+11	rentablemente	rentablemente	ADV	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	ampliar	ampliar	VERB	_	_	_	_	_	_
+14	generación	generación	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	centrales	central	NOUN	_	_	_	_	_	_
+17	térmicas	térmico	ADJ	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	respaldo	respaldo	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_390
+# text = Tras consultas regulatorias, el mercado incorporó señales de carbono internas incentivando inversión en tecnologías bajas en emisiones sectorialmente.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	consultas	consulta	NOUN	_	_	_	_	_	_
+3	regulatorias	regulatorio	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	mercado	mercado	NOUN	_	_	_	_	_	_
+7	incorporó	incorporar	VERB	_	_	_	_	_	_
+8	señales	señal	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	carbono	carbono	NOUN	_	_	_	_	_	_
+11	internas	interno	ADJ	_	_	_	_	_	_
+12	incentivando	incentivar	VERB	_	_	_	_	_	_
+13	inversión	inversión	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	tecnologías	tecnología	NOUN	_	_	_	_	_	_
+16	bajas	bajo	ADJ	_	_	_	_	_	_
+17	en	en	ADP	_	_	_	_	_	_
+18	emisiones	emisión	NOUN	_	_	_	_	_	_
+19	sectorialmente	sectorialmente	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_391
+# text = Los operadores monitorean transformadores críticos mediante sensores predictivos que anticipan fallos reduciendo interrupciones en temporada de máxima demanda estival.
+1	Los	el	DET	_	_	_	_	_	_
+2	operadores	operador	NOUN	_	_	_	_	_	_
+3	monitorean	monitorear	VERB	_	_	_	_	_	_
+4	transformadores	transformador	NOUN	_	_	_	_	_	_
+5	críticos	crítico	ADJ	_	_	_	_	_	_
+6	mediante	mediante	ADP	_	_	_	_	_	_
+7	sensores	sensor	NOUN	_	_	_	_	_	_
+8	predictivos	predictivo	ADJ	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	anticipan	anticipar	VERB	_	_	_	_	_	_
+11	fallos	fallo	NOUN	_	_	_	_	_	_
+12	reduciendo	reducir	VERB	_	_	_	_	_	_
+13	interrupciones	interrupción	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	temporada	temporada	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	máxima	máximo	ADJ	_	_	_	_	_	_
+18	demanda	demanda	NOUN	_	_	_	_	_	_
+19	estival	estival	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_392
+# text = Litigios por expropiación de terrenos retrasan líneas de transmisión necesarias para evacuar energía renovable desde regiones con recurso abundante.
+1	Litigios	litigio	NOUN	_	_	_	_	_	_
+2	por	por	ADP	_	_	_	_	_	_
+3	expropiación	expropiación	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	terrenos	terreno	NOUN	_	_	_	_	_	_
+6	retrasan	retrasar	VERB	_	_	_	_	_	_
+7	líneas	línea	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	transmisión	transmisión	NOUN	_	_	_	_	_	_
+10	necesarias	necesario	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	evacuar	evacuar	VERB	_	_	_	_	_	_
+13	energía	energía	NOUN	_	_	_	_	_	_
+14	renovable	renovable	ADJ	_	_	_	_	_	_
+15	desde	desde	ADP	_	_	_	_	_	_
+16	regiones	región	NOUN	_	_	_	_	_	_
+17	con	con	ADP	_	_	_	_	_	_
+18	recurso	recurso	NOUN	_	_	_	_	_	_
+19	abundante	abundante	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_393
+# text = La geopolítica del gas natural reconfiguró contratos obligando inversiones aceleradas en terminales de gas licuado y almacenamiento subterráneo estratégico.
+1	La	el	DET	_	_	_	_	_	_
+2	geopolítica	geopolítica	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	gas	gas	NOUN	_	_	_	_	_	_
+5	natural	natural	ADJ	_	_	_	_	_	_
+6	reconfiguró	reconfigurar	VERB	_	_	_	_	_	_
+7	contratos	contrato	NOUN	_	_	_	_	_	_
+8	obligando	obligar	VERB	_	_	_	_	_	_
+9	inversiones	inversión	NOUN	_	_	_	_	_	_
+10	aceleradas	acelerado	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	terminales	terminal	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	gas	gas	NOUN	_	_	_	_	_	_
+15	licuado	licuado	ADJ	_	_	_	_	_	_
+16	y	y	CCONJ	_	_	_	_	_	_
+17	almacenamiento	almacenamiento	NOUN	_	_	_	_	_	_
+18	subterráneo	subterráneo	ADJ	_	_	_	_	_	_
+19	estratégico	estratégico	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_394
+# text = No obstante objetivos ambiciosos, combustibles fósiles siguen subsidiados indirectamente mediante externalidades no internalizadas en precios al consumidor final.
+1	No	no	PART	_	_	_	_	_	_
+2	obstante	obstante	NOUN	_	_	_	_	_	_
+3	objetivos	objetivo	NOUN	_	_	_	_	_	_
+4	ambiciosos	ambicioso	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	combustibles	combustible	NOUN	_	_	_	_	_	_
+7	fósiles	fósil	ADJ	_	_	_	_	_	_
+8	siguen	seguir	VERB	_	_	_	_	_	_
+9	subsidiados	subsidiado	ADJ	_	_	_	_	_	_
+10	indirectamente	indirectamente	ADV	_	_	_	_	_	_
+11	mediante	mediante	ADP	_	_	_	_	_	_
+12	externalidades	externalidad	NOUN	_	_	_	_	_	_
+13	no	no	PART	_	_	_	_	_	_
+14	internalizadas	internalizado	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	precios	precio	NOUN	_	_	_	_	_	_
+17	al	al	ADP	_	_	_	_	_	_
+18	consumidor	consumidor	NOUN	_	_	_	_	_	_
+19	final	final	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_395
+# text = Los centros de datos exigen refrigeración eficiente y contratos renovables ante crecimiento exponencial del consumo eléctrico de inteligencia artificial.
+1	Los	el	DET	_	_	_	_	_	_
+2	centros	centro	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	datos	dato	NOUN	_	_	_	_	_	_
+5	exigen	exigir	VERB	_	_	_	_	_	_
+6	refrigeración	refrigeración	NOUN	_	_	_	_	_	_
+7	eficiente	eficiente	ADJ	_	_	_	_	_	_
+8	y	y	CCONJ	_	_	_	_	_	_
+9	contratos	contrato	NOUN	_	_	_	_	_	_
+10	renovables	renovable	ADJ	_	_	_	_	_	_
+11	ante	ante	ADP	_	_	_	_	_	_
+12	crecimiento	crecimiento	NOUN	_	_	_	_	_	_
+13	exponencial	exponencial	ADJ	_	_	_	_	_	_
+14	del	del	ADP	_	_	_	_	_	_
+15	consumo	consumo	NOUN	_	_	_	_	_	_
+16	eléctrico	eléctrico	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	inteligencia	inteligencia	NOUN	_	_	_	_	_	_
+19	artificial	artificial	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_396
+# text = Tras apagón nacional, comisión investigó fallas de coordinación entre operadores que amplificaron cortes evitables mediante protocolos de aislamiento.
+1	Tras	tras	ADP	_	_	_	_	_	_
+2	apagón	apagón	NOUN	_	_	_	_	_	_
+3	nacional	nacional	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	comisión	comisión	NOUN	_	_	_	_	_	_
+6	investigó	investigar	VERB	_	_	_	_	_	_
+7	fallas	falla	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	coordinación	coordinación	NOUN	_	_	_	_	_	_
+10	entre	entre	ADP	_	_	_	_	_	_
+11	operadores	operador	NOUN	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	amplificaron	amplificar	VERB	_	_	_	_	_	_
+14	cortes	corte	NOUN	_	_	_	_	_	_
+15	evitables	evitable	ADJ	_	_	_	_	_	_
+16	mediante	mediante	ADP	_	_	_	_	_	_
+17	protocolos	protocolo	NOUN	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	aislamiento	aislamiento	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_397
+# text = La captura de carbono en industria pesada requiere infraestructura de transporte y almacenamiento geológico insuficientemente desplegada a escala industrial.
+1	La	el	DET	_	_	_	_	_	_
+2	captura	captura	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	carbono	carbono	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	industria	industria	NOUN	_	_	_	_	_	_
+7	pesada	pesado	ADJ	_	_	_	_	_	_
+8	requiere	requerir	VERB	_	_	_	_	_	_
+9	infraestructura	infraestructura	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	transporte	transporte	NOUN	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	almacenamiento	almacenamiento	NOUN	_	_	_	_	_	_
+14	geológico	geológico	ADJ	_	_	_	_	_	_
+15	insuficientemente	insuficientemente	ADV	_	_	_	_	_	_
+16	desplegada	desplegado	ADJ	_	_	_	_	_	_
+17	a	a	ADP	_	_	_	_	_	_
+18	escala	escala	NOUN	_	_	_	_	_	_
+19	industrial	industrial	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_398
+# text = Sigue incierto si tarifas dinámicas domésticas modificarán hábitos de consumo sin afectar desproporcionadamente hogares térmicamente ineficientes de bajos ingresos.
+1	Sigue	seguir	VERB	_	_	_	_	_	_
+2	incierto	incierto	ADJ	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	tarifas	tarifa	NOUN	_	_	_	_	_	_
+5	dinámicas	dinámico	ADJ	_	_	_	_	_	_
+6	domésticas	doméstico	ADJ	_	_	_	_	_	_
+7	modificarán	modificar	VERB	_	_	_	_	_	_
+8	hábitos	hábito	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	consumo	consumo	NOUN	_	_	_	_	_	_
+11	sin	sin	ADP	_	_	_	_	_	_
+12	afectar	afectar	VERB	_	_	_	_	_	_
+13	desproporcionadamente	desproporcionadamente	ADV	_	_	_	_	_	_
+14	hogares	hogar	NOUN	_	_	_	_	_	_
+15	térmicamente	térmicamente	ADV	_	_	_	_	_	_
+16	ineficientes	ineficiente	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	bajos	bajo	ADJ	_	_	_	_	_	_
+19	ingresos	ingreso	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_399
+# text = Los planes sectoriales priorizan electrificación del transporte pesado mediante recarga en corredores logísticos interprovinciales de alto flujo mercantil.
+1	Los	el	DET	_	_	_	_	_	_
+2	planes	plan	NOUN	_	_	_	_	_	_
+3	sectoriales	sectorial	ADJ	_	_	_	_	_	_
+4	priorizan	priorizar	VERB	_	_	_	_	_	_
+5	electrificación	electrificación	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	transporte	transporte	NOUN	_	_	_	_	_	_
+8	pesado	pesado	ADJ	_	_	_	_	_	_
+9	mediante	mediante	ADP	_	_	_	_	_	_
+10	recarga	recarga	NOUN	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	corredores	corredor	NOUN	_	_	_	_	_	_
+13	logísticos	logístico	ADJ	_	_	_	_	_	_
+14	interprovinciales	interprovincial	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	alto	alto	ADJ	_	_	_	_	_	_
+17	flujo	flujo	NOUN	_	_	_	_	_	_
+18	mercantil	mercantil	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_c1_train_400
+# text = Académicos modelaron abandono anticipado de activos fósiles alertando sobre riesgos financieros sistémicos para instituciones con carteras energéticas concentradas.
+1	Académicos	Académico	PROPN	_	_	_	_	_	_
+2	modelaron	modelar	VERB	_	_	_	_	_	_
+3	abandono	abandono	NOUN	_	_	_	_	_	_
+4	anticipado	anticipado	ADJ	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	activos	activo	NOUN	_	_	_	_	_	_
+7	fósiles	fósil	ADJ	_	_	_	_	_	_
+8	alertando	alertar	VERB	_	_	_	_	_	_
+9	sobre	sobre	ADP	_	_	_	_	_	_
+10	riesgos	riesgo	NOUN	_	_	_	_	_	_
+11	financieros	financiero	ADJ	_	_	_	_	_	_
+12	sistémicos	sistémico	ADJ	_	_	_	_	_	_
+13	para	para	ADP	_	_	_	_	_	_
+14	instituciones	institución	NOUN	_	_	_	_	_	_
+15	con	con	ADP	_	_	_	_	_	_
+16	carteras	cartera	NOUN	_	_	_	_	_	_
+17	energéticas	energético	ADJ	_	_	_	_	_	_
+18	concentradas	concentrado	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+

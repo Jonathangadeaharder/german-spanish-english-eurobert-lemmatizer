@@ -1,0 +1,335 @@
+# sent_id = de_b2_train_309
+# text = Obwohl er müde war, lernte er für die Prüfung.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	müde	müde	ADJ	_	_	_	_	_	_
+4	war	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	lernte	lernen	VERB	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_310
+# text = Wenn ich Zeit gehabt hätte, wäre ich gekommen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	Zeit	Zeit	NOUN	_	_	_	_	_	_
+4	gehabt	haben	AUX	_	_	_	_	_	_
+5	hätte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wäre	sein	AUX	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	gekommen	kommen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_311
+# text = Der Student liest ein interessantes Buch in der Bibliothek.
+1	Der	der	DET	_	_	_	_	_	_
+2	Student	Student	NOUN	_	_	_	_	_	_
+3	liest	lesen	VERB	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	interessantes	interessant	ADJ	_	_	_	_	_	_
+6	Buch	Buch	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Bibliothek	Bibliothek	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_312
+# text = Wir freuen uns auf den Urlaub an der See.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	freuen	freuen	VERB	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Urlaub	Urlaub	NOUN	_	_	_	_	_	_
+7	an	an	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	See	See	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_313
+# text = Es ist wichtig, dass alle Bürger die Gesetze respektieren.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	alle	all	DET	_	_	_	_	_	_
+7	Bürger	Bürger	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Gesetze	Gesetz	NOUN	_	_	_	_	_	_
+10	respektieren	respektieren	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_314
+# text = Nachdem sie das Abendessen zubereitet hatte, las sie ein Buch.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	sie	sie	PRON	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Abendessen	Abendessen	NOUN	_	_	_	_	_	_
+5	zubereitet	zubereiten	VERB	_	_	_	_	_	_
+6	hatte	haben	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	las	lesen	VERB	_	_	_	_	_	_
+9	sie	sie	PRON	_	_	_	_	_	_
+10	ein	ein	DET	_	_	_	_	_	_
+11	Buch	Buch	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_315
+# text = Der neue Mitarbeiter begrüßt alle Kollegen im Büro.
+1	Der	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Mitarbeiter	Mitarbeiter	NOUN	_	_	_	_	_	_
+4	begrüßt	begrüßen	VERB	_	_	_	_	_	_
+5	alle	all	DET	_	_	_	_	_	_
+6	Kollegen	Kollege	NOUN	_	_	_	_	_	_
+7	im	in	ADP	_	_	_	_	_	_
+8	Büro	Büro	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_316
+# text = Das Unternehmen möchte seine Produkte auf dem internationalen Markt verkaufen.
+1	Das	der	DET	_	_	_	_	_	_
+2	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+3	möchte	mögen	AUX	_	_	_	_	_	_
+4	seine	sein	PRON	_	_	_	_	_	_
+5	Produkte	Produkt	NOUN	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	dem	der	DET	_	_	_	_	_	_
+8	internationalen	international	ADJ	_	_	_	_	_	_
+9	Markt	Markt	NOUN	_	_	_	_	_	_
+10	verkaufen	verkaufen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_317
+# text = Sie hat sich für die Teilnahme am Kurs entschieden.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Teilnahme	Teilnahme	NOUN	_	_	_	_	_	_
+7	am	an	ADP	_	_	_	_	_	_
+8	Kurs	Kurs	NOUN	_	_	_	_	_	_
+9	entschieden	entscheiden	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_318
+# text = Weil das Wetter so schön war, gingen wir im Park spazieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	so	so	ADV	_	_	_	_	_	_
+5	schön	schön	ADJ	_	_	_	_	_	_
+6	war	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	gingen	gehen	VERB	_	_	_	_	_	_
+9	wir	wir	PRON	_	_	_	_	_	_
+10	im	in	ADP	_	_	_	_	_	_
+11	Park	Park	NOUN	_	_	_	_	_	_
+12	spazieren	spazieren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_319
+# text = Der Lehrer erklärt den Schülern eine schwierige Aufgabe.
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	erklärt	erklären	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Schülern	Schüler	NOUN	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	schwierige	schwierig	ADJ	_	_	_	_	_	_
+8	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_320
+# text = Ich hoffe, dass wir uns bald wiedersehen werden.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hoffe	hoffen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dass	dass	SCONJ	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	uns	wir	PRON	_	_	_	_	_	_
+7	bald	bald	ADV	_	_	_	_	_	_
+8	wiedersehen	wiedersehen	VERB	_	_	_	_	_	_
+9	werden	werden	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_321
+# text = Die Regierung plant neue Maßnahmen zum Schutz der Umwelt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Regierung	Regierung	NOUN	_	_	_	_	_	_
+3	plant	planen	VERB	_	_	_	_	_	_
+4	neue	neu	ADJ	_	_	_	_	_	_
+5	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+6	zum	zu	ADP	_	_	_	_	_	_
+7	Schutz	Schutz	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Umwelt	Umwelt	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_322
+# text = Er konnte die Frage des Prüfers nicht beantworten.
+1	Er	er	PRON	_	_	_	_	_	_
+2	konnte	können	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Frage	Frage	NOUN	_	_	_	_	_	_
+5	des	der	DET	_	_	_	_	_	_
+6	Prüfers	Prüfer	NOUN	_	_	_	_	_	_
+7	nicht	nicht	PART	_	_	_	_	_	_
+8	beantworten	beantworten	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_323
+# text = Viele Menschen reisen während der Ferien in andere Länder.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Menschen	Mensch	NOUN	_	_	_	_	_	_
+3	reisen	reisen	VERB	_	_	_	_	_	_
+4	während	während	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Ferien	Ferien	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	andere	ander	ADJ	_	_	_	_	_	_
+9	Länder	Land	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_324
+# text = Das Museum zeigt interessante Bilder für Kinder.
+1	Das	der	DET	_	_	_	_	_	_
+2	Museum	Museum	NOUN	_	_	_	_	_	_
+3	zeigt	zeigen	VERB	_	_	_	_	_	_
+4	interessante	interessant	ADJ	_	_	_	_	_	_
+5	Bilder	Bild	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	Kinder	Kind	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_325
+# text = Sie arbeitet seit fünf Jahren als Ärztin in diesem Krankenhaus.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+3	seit	seit	ADP	_	_	_	_	_	_
+4	fünf	fünf	NUM	_	_	_	_	_	_
+5	Jahren	Jahr	NOUN	_	_	_	_	_	_
+6	als	als	ADP	_	_	_	_	_	_
+7	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	diesem	dieser	DET	_	_	_	_	_	_
+10	Krankenhaus	Krankenhaus	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_326
+# text = Wir haben eine lange Diskussion über das Thema geführt.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	lange	lang	ADJ	_	_	_	_	_	_
+5	Diskussion	Diskussion	NOUN	_	_	_	_	_	_
+6	über	über	ADP	_	_	_	_	_	_
+7	das	der	DET	_	_	_	_	_	_
+8	Thema	Thema	NOUN	_	_	_	_	_	_
+9	geführt	führen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_327
+# text = Obwohl es regnete, spielten die Kinder draußen im Garten.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	regnete	regnen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	spielten	spielen	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Kinder	Kind	NOUN	_	_	_	_	_	_
+8	draußen	draußen	ADV	_	_	_	_	_	_
+9	im	in	ADP	_	_	_	_	_	_
+10	Garten	Garten	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_328
+# text = Der Bericht beschreibt die aktuelle Situation auf dem Arbeitsmarkt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	beschreibt	beschreiben	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	aktuelle	aktuell	ADJ	_	_	_	_	_	_
+6	Situation	Situation	NOUN	_	_	_	_	_	_
+7	auf	auf	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Arbeitsmarkt	Arbeitsmarkt	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_329
+# text = Ich bin mir sicher, dass wir diese Krise gemeinsam bewältigen können.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	bin	sein	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	sicher	sicher	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	diese	dieser	DET	_	_	_	_	_	_
+9	Krise	Krise	NOUN	_	_	_	_	_	_
+10	gemeinsam	gemeinsam	ADV	_	_	_	_	_	_
+11	bewältigen	bewältigen	VERB	_	_	_	_	_	_
+12	können	können	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_330
+# text = Die neue Technologie bietet viele Vorteile für die Industrie.
+1	Die	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Technologie	Technologie	NOUN	_	_	_	_	_	_
+4	bietet	bieten	VERB	_	_	_	_	_	_
+5	viele	viel	DET	_	_	_	_	_	_
+6	Vorteile	Vorteil	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Industrie	Industrie	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_331
+# text = Nachdem das Konzert geendet hatte, klatschten die Zuschauer.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Konzert	Konzert	NOUN	_	_	_	_	_	_
+4	geendet	enden	VERB	_	_	_	_	_	_
+5	hatte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	klatschten	klatschen	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Zuschauer	Zuschauer	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_332
+# text = Die Zahl der Studenten ist im letzten Jahr gestiegen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Zahl	Zahl	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Studenten	Student	NOUN	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	im	in	ADP	_	_	_	_	_	_
+7	letzten	letzt	ADJ	_	_	_	_	_	_
+8	Jahr	Jahr	NOUN	_	_	_	_	_	_
+9	gestiegen	steigen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_333
+# text = Es ist nicht leicht, eine fremde Sprache schnell zu lernen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	leicht	leicht	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	fremde	fremd	ADJ	_	_	_	_	_	_
+8	Sprache	Sprache	NOUN	_	_	_	_	_	_
+9	schnell	schnell	ADV	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	lernen	lernen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+

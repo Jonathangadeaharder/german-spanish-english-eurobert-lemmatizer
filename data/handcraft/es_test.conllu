@@ -1,0 +1,906 @@
+# sent_id = es-1
+# text = Yo hablo español todos los días.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	hablo	hablar	VERB	_	_	_	_	_	_
+3	español	español	NOUN	_	_	_	_	_	_
+4	todos	todo	DET	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	días	día	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-2
+# text = La casa es muy bonita.
+1	La	el	DET	_	_	_	_	_	_
+2	casa	casa	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	muy	muy	ADV	_	_	_	_	_	_
+5	bonita	bonito	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-3
+# text = Los niños juegan en el parque.
+1	Los	el	DET	_	_	_	_	_	_
+2	niños	niño	NOUN	_	_	_	_	_	_
+3	juegan	jugar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	parque	parque	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-4
+# text = ¿Dónde vives tú ahora?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Dónde	donde	ADV	_	_	_	_	_	_
+3	vives	vivir	VERB	_	_	_	_	_	_
+4	tú	tú	PRON	_	_	_	_	_	_
+5	ahora	ahora	ADV	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-5
+# text = Nosotros comimos pizza anoche.
+1	Nosotros	nosotros	PRON	_	_	_	_	_	_
+2	comimos	comer	VERB	_	_	_	_	_	_
+3	pizza	pizza	NOUN	_	_	_	_	_	_
+4	anoche	anoche	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-6
+# text = Ella estudia medicina en la universidad.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	estudia	estudiar	VERB	_	_	_	_	_	_
+3	medicina	medicina	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	universidad	universidad	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-7
+# text = El gato duerme en el sofá.
+1	El	el	DET	_	_	_	_	_	_
+2	gato	gato	NOUN	_	_	_	_	_	_
+3	duerme	dormir	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	sofá	sofá	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-8
+# text = ¿Qué hora es?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Qué	que	DET	_	_	_	_	_	_
+3	hora	hora	NOUN	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-9
+# text = Mañana iremos a la playa.
+1	Mañana	mañana	ADV	_	_	_	_	_	_
+2	iremos	ir	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	playa	playa	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-10
+# text = Mi hermano trabaja en un banco.
+1	Mi	mío	DET	_	_	_	_	_	_
+2	hermano	hermano	NOUN	_	_	_	_	_	_
+3	trabaja	trabajar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	un	uno	DET	_	_	_	_	_	_
+6	banco	banco	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-11
+# text = Ayer llovió mucho en Madrid.
+1	Ayer	ayer	ADV	_	_	_	_	_	_
+2	llovió	llover	VERB	_	_	_	_	_	_
+3	mucho	mucho	ADV	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	Madrid	Madrid	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-12
+# text = Las flores son rojas y bonitas.
+1	Las	el	DET	_	_	_	_	_	_
+2	flores	flor	NOUN	_	_	_	_	_	_
+3	son	ser	AUX	_	_	_	_	_	_
+4	rojas	rojo	ADJ	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	bonitas	bonito	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-13
+# text = Tú cantas muy bien.
+1	Tú	tú	PRON	_	_	_	_	_	_
+2	cantas	cantar	VERB	_	_	_	_	_	_
+3	muy	muy	ADV	_	_	_	_	_	_
+4	bien	bien	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-14
+# text = El profesor explica la lección.
+1	El	el	DET	_	_	_	_	_	_
+2	profesor	profesor	NOUN	_	_	_	_	_	_
+3	explica	explicar	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	lección	lección	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-15
+# text = Nosotras leemos libros interesantes.
+1	Nosotras	nosotros	PRON	_	_	_	_	_	_
+2	leemos	leer	VERB	_	_	_	_	_	_
+3	libros	libro	NOUN	_	_	_	_	_	_
+4	interesantes	interesante	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-16
+# text = ¿Tienes tú un lápiz?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Tienes	tener	VERB	_	_	_	_	_	_
+3	tú	tú	PRON	_	_	_	_	_	_
+4	un	uno	DET	_	_	_	_	_	_
+5	lápiz	lápiz	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-17
+# text = Ellos vinieron tarde a la fiesta.
+1	Ellos	él	PRON	_	_	_	_	_	_
+2	vinieron	venir	VERB	_	_	_	_	_	_
+3	tarde	tarde	ADV	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	fiesta	fiesta	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-18
+# text = Quiero comprar pan fresco.
+1	Quiero	querer	VERB	_	_	_	_	_	_
+2	comprar	comprar	VERB	_	_	_	_	_	_
+3	pan	pan	NOUN	_	_	_	_	_	_
+4	fresco	fresco	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-19
+# text = Ella escribió una carta larga.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	escribió	escribir	VERB	_	_	_	_	_	_
+3	una	uno	DET	_	_	_	_	_	_
+4	carta	carta	NOUN	_	_	_	_	_	_
+5	larga	largo	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-20
+# text = Los coches corren rápidamente.
+1	Los	el	DET	_	_	_	_	_	_
+2	coches	coche	NOUN	_	_	_	_	_	_
+3	corren	correr	VERB	_	_	_	_	_	_
+4	rápidamente	rápidamente	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-21
+# text = ¿Cuántos años tienes?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Cuántos	cuanto	DET	_	_	_	_	_	_
+3	años	año	NOUN	_	_	_	_	_	_
+4	tienes	tener	VERB	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-22
+# text = Nosotros vivimos en España desde 2010.
+1	Nosotros	nosotros	PRON	_	_	_	_	_	_
+2	vivimos	vivir	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	España	España	PROPN	_	_	_	_	_	_
+5	desde	desde	ADP	_	_	_	_	_	_
+6	2010	2010	NUM	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-23
+# text = El perro corrió tras el gato.
+1	El	el	DET	_	_	_	_	_	_
+2	perro	perro	NOUN	_	_	_	_	_	_
+3	corrió	correr	VERB	_	_	_	_	_	_
+4	tras	tras	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	gato	gato	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-24
+# text = Había mucha gente en el concierto.
+1	Había	haber	VERB	_	_	_	_	_	_
+2	mucha	mucho	DET	_	_	_	_	_	_
+3	gente	gente	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	concierto	concierto	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-25
+# text = Juan y María son amigos.
+1	Juan	Juan	PROPN	_	_	_	_	_	_
+2	y	y	CCONJ	_	_	_	_	_	_
+3	María	María	PROPN	_	_	_	_	_	_
+4	son	ser	AUX	_	_	_	_	_	_
+5	amigos	amigo	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-26
+# text = Yo no sé la respuesta.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	no	no	ADV	_	_	_	_	_	_
+3	sé	saber	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	respuesta	respuesta	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-27
+# text = ¿A dónde vas?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	A	a	ADP	_	_	_	_	_	_
+3	dónde	donde	ADV	_	_	_	_	_	_
+4	vas	ir	VERB	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-28
+# text = Ellos han terminado el trabajo.
+1	Ellos	él	PRON	_	_	_	_	_	_
+2	han	haber	AUX	_	_	_	_	_	_
+3	terminado	terminar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	trabajo	trabajo	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-29
+# text = La niña llora porque tiene hambre.
+1	La	el	DET	_	_	_	_	_	_
+2	niña	niño	NOUN	_	_	_	_	_	_
+3	llora	llorar	VERB	_	_	_	_	_	_
+4	porque	porque	SCONJ	_	_	_	_	_	_
+5	tiene	tener	VERB	_	_	_	_	_	_
+6	hambre	hambre	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-30
+# text = Vosotros sois muy simpáticos.
+1	Vosotros	vosotros	PRON	_	_	_	_	_	_
+2	sois	ser	AUX	_	_	_	_	_	_
+3	muy	muy	ADV	_	_	_	_	_	_
+4	simpáticos	simpático	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-31
+# text = Hace frío en invierno.
+1	Hace	hacer	VERB	_	_	_	_	_	_
+2	frío	frío	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	invierno	invierno	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-32
+# text = Me gusta el café con leche.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	gusta	gustar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	café	café	NOUN	_	_	_	_	_	_
+5	con	con	ADP	_	_	_	_	_	_
+6	leche	leche	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-33
+# text = ¿Puedes ayudarme?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Puedes	poder	VERB	_	_	_	_	_	_
+3	ayudarme	ayudar	VERB	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-34
+# text = Nosotros haremos el viaje en tren.
+1	Nosotros	nosotros	PRON	_	_	_	_	_	_
+2	haremos	hacer	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	viaje	viaje	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	tren	tren	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-35
+# text = Ella estaba cansada después del trabajo.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	estaba	estar	AUX	_	_	_	_	_	_
+3	cansada	cansado	ADJ	_	_	_	_	_	_
+4	después	después	ADV	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	trabajo	trabajo	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-36
+# text = Los estudiantes aprenden español rápidamente.
+1	Los	el	DET	_	_	_	_	_	_
+2	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+3	aprenden	aprender	VERB	_	_	_	_	_	_
+4	español	español	NOUN	_	_	_	_	_	_
+5	rápidamente	rápidamente	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-37
+# text = Él se afeita cada mañana.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	afeita	afeitar	VERB	_	_	_	_	_	_
+4	cada	cada	DET	_	_	_	_	_	_
+5	mañana	mañana	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-38
+# text = Dame ese libro, por favor.
+1	Dame	dar	VERB	_	_	_	_	_	_
+2	ese	ese	DET	_	_	_	_	_	_
+3	libro	libro	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	favor	favor	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-39
+# text = ¿Quién ha llamado?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Quién	quien	PRON	_	_	_	_	_	_
+3	ha	haber	AUX	_	_	_	_	_	_
+4	llamado	llamar	VERB	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-40
+# text = Compraremos unas manzanas rojas.
+1	Compraremos	comprar	VERB	_	_	_	_	_	_
+2	unas	uno	DET	_	_	_	_	_	_
+3	manzanas	manzana	NOUN	_	_	_	_	_	_
+4	rojas	rojo	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-41
+# text = El sol sale por el este.
+1	El	el	DET	_	_	_	_	_	_
+2	sol	sol	NOUN	_	_	_	_	_	_
+3	sale	salir	VERB	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	este	este	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-42
+# text = Tengo tres hermanos y dos hermanas.
+1	Tengo	tener	VERB	_	_	_	_	_	_
+2	tres	tres	NUM	_	_	_	_	_	_
+3	hermanos	hermano	NOUN	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	dos	dos	NUM	_	_	_	_	_	_
+6	hermanas	hermana	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-43
+# text = ¿De dónde eres tú?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	De	de	ADP	_	_	_	_	_	_
+3	dónde	donde	ADV	_	_	_	_	_	_
+4	eres	ser	AUX	_	_	_	_	_	_
+5	tú	tú	PRON	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-44
+# text = La fiesta fue muy divertida.
+1	La	el	DET	_	_	_	_	_	_
+2	fiesta	fiesta	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	muy	muy	ADV	_	_	_	_	_	_
+5	divertida	divertido	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-45
+# text = Estudiamos para el examen.
+1	Estudiamos	estudiar	VERB	_	_	_	_	_	_
+2	para	para	ADP	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	examen	examen	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-46
+# text = Él no quiere ir al cine.
+1	Él	él	PRON	_	_	_	_	_	_
+2	no	no	ADV	_	_	_	_	_	_
+3	quiere	querer	VERB	_	_	_	_	_	_
+4	ir	ir	VERB	_	_	_	_	_	_
+5	al	al	ADP	_	_	_	_	_	_
+6	cine	cine	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-47
+# text = Las niñas dibujan bonitos paisajes.
+1	Las	el	DET	_	_	_	_	_	_
+2	niñas	niño	NOUN	_	_	_	_	_	_
+3	dibujan	dibujar	VERB	_	_	_	_	_	_
+4	bonitos	bonito	ADJ	_	_	_	_	_	_
+5	paisajes	paisaje	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-48
+# text = ¿Te gusta la música clásica?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Te	tú	PRON	_	_	_	_	_	_
+3	gusta	gustar	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	música	música	NOUN	_	_	_	_	_	_
+6	clásica	clásico	ADJ	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-49
+# text = Yo cociné la cena ayer.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	cociné	cocinar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cena	cena	NOUN	_	_	_	_	_	_
+5	ayer	ayer	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-50
+# text = El tren llega a las ocho.
+1	El	el	DET	_	_	_	_	_	_
+2	tren	tren	NOUN	_	_	_	_	_	_
+3	llega	llegar	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	ocho	ocho	NUM	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-51
+# text = Necesitamos más tiempo para terminar.
+1	Necesitamos	necesitar	VERB	_	_	_	_	_	_
+2	más	más	ADV	_	_	_	_	_	_
+3	tiempo	tiempo	NOUN	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	terminar	terminar	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-52
+# text = ¿Qué hiciste ayer?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Qué	que	PRON	_	_	_	_	_	_
+3	hiciste	hacer	VERB	_	_	_	_	_	_
+4	ayer	ayer	ADV	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-53
+# text = Su padre es médico.
+1	Su	suyo	DET	_	_	_	_	_	_
+2	padre	padre	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	médico	médico	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-54
+# text = Los pájaros cantan en los árboles.
+1	Los	el	DET	_	_	_	_	_	_
+2	pájaros	pájaro	NOUN	_	_	_	_	_	_
+3	cantan	cantar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	árboles	árbol	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-55
+# text = No me digas eso.
+1	No	no	ADV	_	_	_	_	_	_
+2	me	yo	PRON	_	_	_	_	_	_
+3	digas	decir	VERB	_	_	_	_	_	_
+4	eso	eso	PRON	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-56
+# text = Ella ha escrito tres poemas.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	ha	haber	AUX	_	_	_	_	_	_
+3	escrito	escribir	VERB	_	_	_	_	_	_
+4	tres	tres	NUM	_	_	_	_	_	_
+5	poemas	poema	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-57
+# text = Caminamos lentamente por la calle.
+1	Caminamos	caminar	VERB	_	_	_	_	_	_
+2	lentamente	lentamente	ADV	_	_	_	_	_	_
+3	por	por	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	calle	calle	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-58
+# text = ¿Cuál es tu nombre?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Cuál	cual	PRON	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	tu	tuyo	DET	_	_	_	_	_	_
+5	nombre	nombre	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-59
+# text = El restaurante abre a las nueve.
+1	El	el	DET	_	_	_	_	_	_
+2	restaurante	restaurante	NOUN	_	_	_	_	_	_
+3	abre	abrir	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	nueve	nueve	NUM	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-60
+# text = Mis abuelos viven en el campo.
+1	Mis	mío	DET	_	_	_	_	_	_
+2	abuelos	abuelo	NOUN	_	_	_	_	_	_
+3	viven	vivir	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	campo	campo	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-61
+# text = Hay muchos libros sobre la mesa.
+1	Hay	haber	VERB	_	_	_	_	_	_
+2	muchos	mucho	DET	_	_	_	_	_	_
+3	libros	libro	NOUN	_	_	_	_	_	_
+4	sobre	sobre	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	mesa	mesa	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-62
+# text = ¿Adónde fuiste de vacaciones?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Adónde	adonde	ADV	_	_	_	_	_	_
+3	fuiste	ir	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	vacaciones	vacaciones	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-63
+# text = Él juega al fútbol los domingos.
+1	Él	él	PRON	_	_	_	_	_	_
+2	juega	jugar	VERB	_	_	_	_	_	_
+3	al	al	ADP	_	_	_	_	_	_
+4	fútbol	fútbol	NOUN	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	domingos	domingo	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-64
+# text = La leche está fría.
+1	La	el	DET	_	_	_	_	_	_
+2	leche	leche	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	fría	frío	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-65
+# text = Quiero que vengas mañana.
+1	Quiero	querer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	vengas	venir	VERB	_	_	_	_	_	_
+4	mañana	mañana	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-66
+# text = Nos vemos el próximo viernes.
+1	Nos	nosotros	PRON	_	_	_	_	_	_
+2	vemos	ver	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	próximo	próximo	ADJ	_	_	_	_	_	_
+5	viernes	viernes	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-67
+# text = ¿Hablas tú francés?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Hablas	hablar	VERB	_	_	_	_	_	_
+3	tú	tú	PRON	_	_	_	_	_	_
+4	francés	francés	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-68
+# text = El coche es muy rápido.
+1	El	el	DET	_	_	_	_	_	_
+2	coche	coche	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	muy	muy	ADV	_	_	_	_	_	_
+5	rápido	rápido	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-69
+# text = Compré un regalo para ti.
+1	Compré	comprar	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	regalo	regalo	NOUN	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	ti	tú	PRON	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-70
+# text = Las manzanas cuestan dos euros.
+1	Las	el	DET	_	_	_	_	_	_
+2	manzanas	manzana	NOUN	_	_	_	_	_	_
+3	cuestan	costar	VERB	_	_	_	_	_	_
+4	dos	dos	NUM	_	_	_	_	_	_
+5	euros	euro	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-71
+# text = ¿Cuándo llega el autobús?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Cuándo	cuando	ADV	_	_	_	_	_	_
+3	llega	llegar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	autobús	autobús	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-72
+# text = Yo siempre me levanto temprano.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	siempre	siempre	ADV	_	_	_	_	_	_
+3	me	yo	PRON	_	_	_	_	_	_
+4	levanto	levantar	VERB	_	_	_	_	_	_
+5	temprano	temprano	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-73
+# text = El agua está muy fría.
+1	El	el	DET	_	_	_	_	_	_
+2	agua	agua	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	muy	muy	ADV	_	_	_	_	_	_
+5	fría	frío	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-74
+# text = Tú fuiste al mercado.
+1	Tú	tú	PRON	_	_	_	_	_	_
+2	fuiste	ir	VERB	_	_	_	_	_	_
+3	al	al	ADP	_	_	_	_	_	_
+4	mercado	mercado	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-75
+# text = Ella sabe tocar el piano.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	sabe	saber	VERB	_	_	_	_	_	_
+3	tocar	tocar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	piano	piano	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-76
+# text = Tenemos mucho frío hoy.
+1	Tenemos	tener	VERB	_	_	_	_	_	_
+2	mucho	mucho	DET	_	_	_	_	_	_
+3	frío	frío	NOUN	_	_	_	_	_	_
+4	hoy	hoy	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-77
+# text = ¿Qué quieres comer?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Qué	que	PRON	_	_	_	_	_	_
+3	quieres	querer	VERB	_	_	_	_	_	_
+4	comer	comer	VERB	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-78
+# text = Los días son más largos en verano.
+1	Los	el	DET	_	_	_	_	_	_
+2	días	día	NOUN	_	_	_	_	_	_
+3	son	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	largos	largo	ADJ	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	verano	verano	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-79
+# text = Me llamo Ana y tengo veinte años.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	llamo	llamar	VERB	_	_	_	_	_	_
+3	Ana	Ana	PROPN	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	tengo	tener	VERB	_	_	_	_	_	_
+6	veinte	veinte	NUM	_	_	_	_	_	_
+7	años	año	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-80
+# text = Cierra la puerta, por favor.
+1	Cierra	cerrar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	puerta	puerta	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	favor	favor	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-81
+# text = Ellos construyeron una casa grande.
+1	Ellos	él	PRON	_	_	_	_	_	_
+2	construyeron	construir	VERB	_	_	_	_	_	_
+3	una	uno	DET	_	_	_	_	_	_
+4	casa	casa	NOUN	_	_	_	_	_	_
+5	grande	grande	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-82
+# text = No entiendo esta lección.
+1	No	no	ADV	_	_	_	_	_	_
+2	entiendo	entender	VERB	_	_	_	_	_	_
+3	esta	este	DET	_	_	_	_	_	_
+4	lección	lección	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-83
+# text = ¿Dónde están mis llaves?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Dónde	donde	ADV	_	_	_	_	_	_
+3	están	estar	AUX	_	_	_	_	_	_
+4	mis	mío	DET	_	_	_	_	_	_
+5	llaves	llave	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-84
+# text = Vamos a comer fuera.
+1	Vamos	ir	VERB	_	_	_	_	_	_
+2	a	a	ADP	_	_	_	_	_	_
+3	comer	comer	VERB	_	_	_	_	_	_
+4	fuera	fuera	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-85
+# text = La película duró dos horas.
+1	La	el	DET	_	_	_	_	_	_
+2	película	película	NOUN	_	_	_	_	_	_
+3	duró	durar	VERB	_	_	_	_	_	_
+4	dos	dos	NUM	_	_	_	_	_	_
+5	horas	hora	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-86
+# text = Él leyó el periódico esta mañana.
+1	Él	él	PRON	_	_	_	_	_	_
+2	leyó	leer	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	periódico	periódico	NOUN	_	_	_	_	_	_
+5	esta	este	DET	_	_	_	_	_	_
+6	mañana	mañana	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-87
+# text = Escribe tu nombre aquí.
+1	Escribe	escribir	VERB	_	_	_	_	_	_
+2	tu	tuyo	DET	_	_	_	_	_	_
+3	nombre	nombre	NOUN	_	_	_	_	_	_
+4	aquí	aquí	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-88
+# text = Los turistas visitaron el museo.
+1	Los	el	DET	_	_	_	_	_	_
+2	turistas	turista	NOUN	_	_	_	_	_	_
+3	visitaron	visitar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	museo	museo	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-89
+# text = ¿Sabes tú la respuesta?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Sabes	saber	VERB	_	_	_	_	_	_
+3	tú	tú	PRON	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	respuesta	respuesta	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-90
+# text = Yo escribí una carta a mi madre.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	escribí	escribir	VERB	_	_	_	_	_	_
+3	una	uno	DET	_	_	_	_	_	_
+4	carta	carta	NOUN	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	mi	mío	DET	_	_	_	_	_	_
+7	madre	madre	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-91
+# text = Hace mucho calor en agosto.
+1	Hace	hacer	VERB	_	_	_	_	_	_
+2	mucho	mucho	DET	_	_	_	_	_	_
+3	calor	calor	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	agosto	agosto	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-92
+# text = Las niñas juegan con sus muñecas.
+1	Las	el	DET	_	_	_	_	_	_
+2	niñas	niño	NOUN	_	_	_	_	_	_
+3	juegan	jugar	VERB	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	sus	suyo	DET	_	_	_	_	_	_
+6	muñecas	muñeca	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-93
+# text = Tengo mucho sueño.
+1	Tengo	tener	VERB	_	_	_	_	_	_
+2	mucho	mucho	DET	_	_	_	_	_	_
+3	sueño	sueño	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-94
+# text = ¿Puedo pasar?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Puedo	poder	VERB	_	_	_	_	_	_
+3	pasar	pasar	VERB	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-95
+# text = Ellos bailan salsa muy bien.
+1	Ellos	él	PRON	_	_	_	_	_	_
+2	bailan	bailar	VERB	_	_	_	_	_	_
+3	salsa	salsa	NOUN	_	_	_	_	_	_
+4	muy	muy	ADV	_	_	_	_	_	_
+5	bien	bien	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-96
+# text = Mi madre cocinó una paella deliciosa.
+1	Mi	mío	DET	_	_	_	_	_	_
+2	madre	madre	NOUN	_	_	_	_	_	_
+3	cocinó	cocinar	VERB	_	_	_	_	_	_
+4	una	uno	DET	_	_	_	_	_	_
+5	paella	paella	NOUN	_	_	_	_	_	_
+6	deliciosa	delicioso	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-97
+# text = ¿Cuánto cuesta este libro?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Cuánto	cuanto	PRON	_	_	_	_	_	_
+3	cuesta	costar	VERB	_	_	_	_	_	_
+4	este	este	DET	_	_	_	_	_	_
+5	libro	libro	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-98
+# text = Nosotros escribimos una canción juntos.
+1	Nosotros	nosotros	PRON	_	_	_	_	_	_
+2	escribimos	escribir	VERB	_	_	_	_	_	_
+3	una	uno	DET	_	_	_	_	_	_
+4	canción	canción	NOUN	_	_	_	_	_	_
+5	juntos	junto	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-99
+# text = La lluvia cayó toda la noche.
+1	La	el	DET	_	_	_	_	_	_
+2	lluvia	lluvia	NOUN	_	_	_	_	_	_
+3	cayó	caer	VERB	_	_	_	_	_	_
+4	toda	todo	DET	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	noche	noche	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es-100
+# text = Yo viviré en esta ciudad para siempre.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	viviré	vivir	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	esta	este	DET	_	_	_	_	_	_
+5	ciudad	ciudad	NOUN	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	siempre	siempre	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_

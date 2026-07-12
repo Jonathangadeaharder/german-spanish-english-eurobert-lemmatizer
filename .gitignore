@@ -27,3 +27,9 @@ logs/
 data/validation_batches/
 data/validation_results/
 scratch_*.py
+
+# Tool caches (editor-specific, downloaded model resources)
+.kilo/
+kilo.json
+.stanza_resources/
+data/handcraft/_lib/

@@ -1,0 +1,258 @@
+# sent_id = de_a2_train_351
+# text = Wir haben ein schönes Auto gekauft.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	schönes	schön	ADJ	_	_	_	_	_	_
+5	Auto	Auto	NOUN	_	_	_	_	_	_
+6	gekauft	kaufen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_352
+# text = Ich hoffe, dass du morgen kommst.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hoffe	hoffen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dass	dass	SCONJ	_	_	_	_	_	_
+5	du	du	PRON	_	_	_	_	_	_
+6	morgen	morgen	ADV	_	_	_	_	_	_
+7	kommst	kommen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_353
+# text = Der Kaffee ist wärmer als der Tee.
+1	Der	der	DET	_	_	_	_	_	_
+2	Kaffee	Kaffee	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	wärmer	warm	ADJ	_	_	_	_	_	_
+5	als	als	CCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Tee	Tee	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_354
+# text = Wenn ich Zeit habe, lese ich ein Buch.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	Zeit	Zeit	NOUN	_	_	_	_	_	_
+4	habe	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	lese	lesen	VERB	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	ein	ein	DET	_	_	_	_	_	_
+9	Buch	Buch	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_355
+# text = Ich kann heute leider nicht kommen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	kann	können	VERB	_	_	_	_	_	_
+3	heute	heute	ADV	_	_	_	_	_	_
+4	leider	leider	ADV	_	_	_	_	_	_
+5	nicht	nicht	PART	_	_	_	_	_	_
+6	kommen	kommen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_356
+# text = Sie hat ihre Tasche im Zug verloren.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	ihre	ihr	DET	_	_	_	_	_	_
+4	Tasche	Tasche	NOUN	_	_	_	_	_	_
+5	im	in	ADP	_	_	_	_	_	_
+6	Zug	Zug	NOUN	_	_	_	_	_	_
+7	verloren	verlieren	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_357
+# text = Wir müssen für die Prüfung lernen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	müssen	müssen	VERB	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+6	lernen	lernen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_358
+# text = Er trinkt ein kaltes Bier.
+1	Er	er	PRON	_	_	_	_	_	_
+2	trinkt	trinken	VERB	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	kaltes	kalt	ADJ	_	_	_	_	_	_
+5	Bier	Bier	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_359
+# text = Das Hotel war sehr teuer.
+1	Das	der	DET	_	_	_	_	_	_
+2	Hotel	Hotel	NOUN	_	_	_	_	_	_
+3	war	sein	AUX	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	teuer	teuer	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_360
+# text = Weil er krank ist, bleibt er im Bett.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	krank	krank	ADJ	_	_	_	_	_	_
+4	ist	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	bleibt	bleiben	VERB	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	im	in	ADP	_	_	_	_	_	_
+9	Bett	Bett	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_361
+# text = Ich treffe meine Freunde im Park.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	treffe	treffen	VERB	_	_	_	_	_	_
+3	meine	mein	DET	_	_	_	_	_	_
+4	Freunde	Freund	NOUN	_	_	_	_	_	_
+5	im	in	ADP	_	_	_	_	_	_
+6	Park	Park	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_362
+# text = Gehst du heute ins Kino?
+1	Gehst	gehen	VERB	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	heute	heute	ADV	_	_	_	_	_	_
+4	ins	in	ADP	_	_	_	_	_	_
+5	Kino	Kino	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_363
+# text = Wir haben am Sonntag eine Torte gebacken.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	am	an	ADP	_	_	_	_	_	_
+4	Sonntag	Sonntag	NOUN	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	Torte	Torte	NOUN	_	_	_	_	_	_
+7	gebacken	backen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_364
+# text = Sie sucht ihren kleinen Hund.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	sucht	suchen	VERB	_	_	_	_	_	_
+3	ihren	ihr	DET	_	_	_	_	_	_
+4	kleinen	klein	ADJ	_	_	_	_	_	_
+5	Hund	Hund	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_365
+# text = Mein Vater kocht ein leckeres Essen.
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Vater	Vater	NOUN	_	_	_	_	_	_
+3	kocht	kochen	VERB	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	leckeres	lecker	ADJ	_	_	_	_	_	_
+6	Essen	Essen	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_366
+# text = Dieses Bild gefällt mir sehr.
+1	Dieses	dies	DET	_	_	_	_	_	_
+2	Bild	Bild	NOUN	_	_	_	_	_	_
+3	gefällt	gefallen	VERB	_	_	_	_	_	_
+4	mir	ich	PRON	_	_	_	_	_	_
+5	sehr	sehr	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_367
+# text = Ich weiß, dass er in Berlin wohnt.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dass	dass	SCONJ	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Berlin	Berlin	PROPN	_	_	_	_	_	_
+8	wohnt	wohnen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_368
+# text = Wir wohnen in einem großen Haus.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	wohnen	wohnen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	einem	ein	DET	_	_	_	_	_	_
+5	großen	groß	ADJ	_	_	_	_	_	_
+6	Haus	Haus	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_369
+# text = Er hat das Fenster geöffnet.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Fenster	Fenster	NOUN	_	_	_	_	_	_
+5	geöffnet	öffnen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_370
+# text = Sie hat gestern einen Brief geschrieben.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	gestern	gestern	ADV	_	_	_	_	_	_
+4	einen	ein	DET	_	_	_	_	_	_
+5	Brief	Brief	NOUN	_	_	_	_	_	_
+6	geschrieben	schreiben	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_371
+# text = Kannst du mir den Weg zeigen?
+1	Kannst	können	VERB	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Weg	Weg	NOUN	_	_	_	_	_	_
+6	zeigen	zeigen	VERB	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_372
+# text = Das neue Auto ist sehr schnell.
+1	Das	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Auto	Auto	NOUN	_	_	_	_	_	_
+4	ist	sein	AUX	_	_	_	_	_	_
+5	sehr	sehr	ADV	_	_	_	_	_	_
+6	schnell	schnell	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_373
+# text = Weil wir müde waren, haben wir ein Taxi genommen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	wir	wir	PRON	_	_	_	_	_	_
+3	müde	müde	ADJ	_	_	_	_	_	_
+4	waren	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	haben	haben	AUX	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	ein	ein	DET	_	_	_	_	_	_
+9	Taxi	Taxi	NOUN	_	_	_	_	_	_
+10	genommen	nehmen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_374
+# text = Ich habe meine Brille überall gesucht.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	meine	mein	DET	_	_	_	_	_	_
+4	Brille	Brille	NOUN	_	_	_	_	_	_
+5	überall	überall	ADV	_	_	_	_	_	_
+6	gesucht	suchen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_train_375
+# text = Morgen besuchen wir unsere Großeltern.
+1	Morgen	morgen	ADV	_	_	_	_	_	_
+2	besuchen	besuchen	VERB	_	_	_	_	_	_
+3	wir	wir	PRON	_	_	_	_	_	_
+4	unsere	unser	DET	_	_	_	_	_	_
+5	Großeltern	Großeltern	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_

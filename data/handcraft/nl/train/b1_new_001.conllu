@@ -1,0 +1,3260 @@
+# sent_id = nl_b1_train_001
+# text = De bakker gaat morgen naar de bakker om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_002
+# text = De bakker gaat morgen naar de bakker om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_003
+# text = De bakker gaat morgen naar de bakker om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_004
+# text = De bakker gaat morgen naar de bakker om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_005
+# text = De bakker gaat morgen naar de bakker om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_006
+# text = De bakker gaat morgen naar de bakker om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_007
+# text = De bakker gaat morgen naar de bakker om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_008
+# text = De bakker gaat morgen naar de bakker om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_009
+# text = De bakker gaat morgen naar de bakker om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_010
+# text = De bakker gaat morgen naar de bakker om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_011
+# text = De bakker gaat morgen naar de boekwinkel om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_012
+# text = De bakker gaat morgen naar de boekwinkel om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_013
+# text = De bakker gaat morgen naar de boekwinkel om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_014
+# text = De bakker gaat morgen naar de boekwinkel om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_015
+# text = De bakker gaat morgen naar de boekwinkel om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_016
+# text = De bakker gaat morgen naar de boekwinkel om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_017
+# text = De bakker gaat morgen naar de boekwinkel om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_018
+# text = De bakker gaat morgen naar de boekwinkel om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_019
+# text = De bakker gaat morgen naar de boekwinkel om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_020
+# text = De bakker gaat morgen naar de boekwinkel om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_021
+# text = De bakker gaat morgen naar de groenteman om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_022
+# text = De bakker gaat morgen naar de groenteman om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_023
+# text = De bakker gaat morgen naar de groenteman om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_024
+# text = De bakker gaat morgen naar de groenteman om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_025
+# text = De bakker gaat morgen naar de groenteman om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_026
+# text = De bakker gaat morgen naar de groenteman om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_027
+# text = De bakker gaat morgen naar de groenteman om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_028
+# text = De bakker gaat morgen naar de groenteman om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_029
+# text = De bakker gaat morgen naar de groenteman om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_030
+# text = De bakker gaat morgen naar de groenteman om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_031
+# text = De bakker gaat morgen naar de kledingwinkel om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_032
+# text = De bakker gaat morgen naar de kledingwinkel om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_033
+# text = De bakker gaat morgen naar de kledingwinkel om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_034
+# text = De bakker gaat morgen naar de kledingwinkel om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_035
+# text = De bakker gaat morgen naar de kledingwinkel om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_036
+# text = De bakker gaat morgen naar de kledingwinkel om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_037
+# text = De bakker gaat morgen naar de kledingwinkel om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_038
+# text = De bakker gaat morgen naar de kledingwinkel om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_039
+# text = De bakker gaat morgen naar de kledingwinkel om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_040
+# text = De bakker gaat morgen naar de kledingwinkel om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_041
+# text = De bakker gaat morgen naar de markt om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_042
+# text = De bakker gaat morgen naar de markt om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_043
+# text = De bakker gaat morgen naar de markt om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_044
+# text = De bakker gaat morgen naar de markt om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_045
+# text = De bakker gaat morgen naar de markt om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_046
+# text = De bakker gaat morgen naar de markt om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_047
+# text = De bakker gaat morgen naar de markt om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_048
+# text = De bakker gaat morgen naar de markt om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_049
+# text = De bakker gaat morgen naar de markt om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_050
+# text = De bakker gaat morgen naar de markt om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_051
+# text = De bakker gaat morgen naar de slager om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_052
+# text = De bakker gaat morgen naar de slager om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_053
+# text = De bakker gaat morgen naar de slager om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_054
+# text = De bakker gaat morgen naar de slager om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_055
+# text = De bakker gaat morgen naar de slager om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_056
+# text = De bakker gaat morgen naar de slager om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_057
+# text = De bakker gaat morgen naar de slager om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_058
+# text = De bakker gaat morgen naar de slager om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_059
+# text = De bakker gaat morgen naar de slager om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_060
+# text = De bakker gaat morgen naar de slager om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_061
+# text = De bakker gaat morgen naar de stad om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_062
+# text = De bakker gaat morgen naar de stad om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_063
+# text = De bakker gaat morgen naar de stad om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_064
+# text = De bakker gaat morgen naar de stad om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_065
+# text = De bakker gaat morgen naar de stad om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_066
+# text = De bakker gaat morgen naar de stad om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_067
+# text = De bakker gaat morgen naar de stad om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_068
+# text = De bakker gaat morgen naar de stad om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_069
+# text = De bakker gaat morgen naar de stad om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_070
+# text = De bakker gaat morgen naar de stad om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_071
+# text = De bakker gaat morgen naar de supermarkt om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_072
+# text = De bakker gaat morgen naar de supermarkt om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_073
+# text = De bakker gaat morgen naar de supermarkt om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_074
+# text = De bakker gaat morgen naar de supermarkt om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_075
+# text = De bakker gaat morgen naar de supermarkt om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_076
+# text = De bakker gaat morgen naar de supermarkt om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_077
+# text = De bakker gaat morgen naar de supermarkt om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_078
+# text = De bakker gaat morgen naar de supermarkt om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_079
+# text = De bakker gaat morgen naar de supermarkt om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_080
+# text = De bakker gaat morgen naar de supermarkt om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_081
+# text = De bakker gaat morgen naar de winkel om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_082
+# text = De bakker gaat morgen naar de winkel om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_083
+# text = De bakker gaat morgen naar de winkel om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_084
+# text = De bakker gaat morgen naar de winkel om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_085
+# text = De bakker gaat morgen naar de winkel om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_086
+# text = De bakker gaat morgen naar de winkel om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_087
+# text = De bakker gaat morgen naar de winkel om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_088
+# text = De bakker gaat morgen naar de winkel om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_089
+# text = De bakker gaat morgen naar de winkel om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_090
+# text = De bakker gaat morgen naar de winkel om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_091
+# text = De bakker gaat morgen naar het winkelcentrum om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_092
+# text = De bakker gaat morgen naar het winkelcentrum om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_093
+# text = De bakker gaat morgen naar het winkelcentrum om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_094
+# text = De bakker gaat morgen naar het winkelcentrum om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_095
+# text = De bakker gaat morgen naar het winkelcentrum om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_096
+# text = De bakker gaat morgen naar het winkelcentrum om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_097
+# text = De bakker gaat morgen naar het winkelcentrum om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_098
+# text = De bakker gaat morgen naar het winkelcentrum om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_099
+# text = De bakker gaat morgen naar het winkelcentrum om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_100
+# text = De bakker gaat morgen naar het winkelcentrum om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	bakker	bakker	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_101
+# text = De docent gaat morgen naar de bakker om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_102
+# text = De docent gaat morgen naar de bakker om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_103
+# text = De docent gaat morgen naar de bakker om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_104
+# text = De docent gaat morgen naar de bakker om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_105
+# text = De docent gaat morgen naar de bakker om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_106
+# text = De docent gaat morgen naar de bakker om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_107
+# text = De docent gaat morgen naar de bakker om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_108
+# text = De docent gaat morgen naar de bakker om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_109
+# text = De docent gaat morgen naar de bakker om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_110
+# text = De docent gaat morgen naar de bakker om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bakker	bakker	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_111
+# text = De docent gaat morgen naar de boekwinkel om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_112
+# text = De docent gaat morgen naar de boekwinkel om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_113
+# text = De docent gaat morgen naar de boekwinkel om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_114
+# text = De docent gaat morgen naar de boekwinkel om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_115
+# text = De docent gaat morgen naar de boekwinkel om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_116
+# text = De docent gaat morgen naar de boekwinkel om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_117
+# text = De docent gaat morgen naar de boekwinkel om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_118
+# text = De docent gaat morgen naar de boekwinkel om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_119
+# text = De docent gaat morgen naar de boekwinkel om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_120
+# text = De docent gaat morgen naar de boekwinkel om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	boekwinkel	boek_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_121
+# text = De docent gaat morgen naar de groenteman om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_122
+# text = De docent gaat morgen naar de groenteman om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_123
+# text = De docent gaat morgen naar de groenteman om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_124
+# text = De docent gaat morgen naar de groenteman om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_125
+# text = De docent gaat morgen naar de groenteman om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_126
+# text = De docent gaat morgen naar de groenteman om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_127
+# text = De docent gaat morgen naar de groenteman om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_128
+# text = De docent gaat morgen naar de groenteman om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_129
+# text = De docent gaat morgen naar de groenteman om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_130
+# text = De docent gaat morgen naar de groenteman om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	groenteman	groenteman	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_131
+# text = De docent gaat morgen naar de kledingwinkel om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_132
+# text = De docent gaat morgen naar de kledingwinkel om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_133
+# text = De docent gaat morgen naar de kledingwinkel om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_134
+# text = De docent gaat morgen naar de kledingwinkel om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_135
+# text = De docent gaat morgen naar de kledingwinkel om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_136
+# text = De docent gaat morgen naar de kledingwinkel om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_137
+# text = De docent gaat morgen naar de kledingwinkel om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_138
+# text = De docent gaat morgen naar de kledingwinkel om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_139
+# text = De docent gaat morgen naar de kledingwinkel om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_140
+# text = De docent gaat morgen naar de kledingwinkel om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kledingwinkel	kleding_winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_141
+# text = De docent gaat morgen naar de markt om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_142
+# text = De docent gaat morgen naar de markt om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_143
+# text = De docent gaat morgen naar de markt om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_144
+# text = De docent gaat morgen naar de markt om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_145
+# text = De docent gaat morgen naar de markt om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_146
+# text = De docent gaat morgen naar de markt om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_147
+# text = De docent gaat morgen naar de markt om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_148
+# text = De docent gaat morgen naar de markt om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_149
+# text = De docent gaat morgen naar de markt om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_150
+# text = De docent gaat morgen naar de markt om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	markt	markt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_151
+# text = De docent gaat morgen naar de slager om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_152
+# text = De docent gaat morgen naar de slager om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_153
+# text = De docent gaat morgen naar de slager om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_154
+# text = De docent gaat morgen naar de slager om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_155
+# text = De docent gaat morgen naar de slager om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_156
+# text = De docent gaat morgen naar de slager om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_157
+# text = De docent gaat morgen naar de slager om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_158
+# text = De docent gaat morgen naar de slager om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_159
+# text = De docent gaat morgen naar de slager om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_160
+# text = De docent gaat morgen naar de slager om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	slager	slager	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_161
+# text = De docent gaat morgen naar de stad om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_162
+# text = De docent gaat morgen naar de stad om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_163
+# text = De docent gaat morgen naar de stad om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_164
+# text = De docent gaat morgen naar de stad om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_165
+# text = De docent gaat morgen naar de stad om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_166
+# text = De docent gaat morgen naar de stad om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_167
+# text = De docent gaat morgen naar de stad om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_168
+# text = De docent gaat morgen naar de stad om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_169
+# text = De docent gaat morgen naar de stad om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_170
+# text = De docent gaat morgen naar de stad om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_171
+# text = De docent gaat morgen naar de supermarkt om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_172
+# text = De docent gaat morgen naar de supermarkt om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_173
+# text = De docent gaat morgen naar de supermarkt om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_174
+# text = De docent gaat morgen naar de supermarkt om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_175
+# text = De docent gaat morgen naar de supermarkt om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_176
+# text = De docent gaat morgen naar de supermarkt om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_177
+# text = De docent gaat morgen naar de supermarkt om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_178
+# text = De docent gaat morgen naar de supermarkt om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_179
+# text = De docent gaat morgen naar de supermarkt om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_180
+# text = De docent gaat morgen naar de supermarkt om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_181
+# text = De docent gaat morgen naar de winkel om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_182
+# text = De docent gaat morgen naar de winkel om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_183
+# text = De docent gaat morgen naar de winkel om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_184
+# text = De docent gaat morgen naar de winkel om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_185
+# text = De docent gaat morgen naar de winkel om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_186
+# text = De docent gaat morgen naar de winkel om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_187
+# text = De docent gaat morgen naar de winkel om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_188
+# text = De docent gaat morgen naar de winkel om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_189
+# text = De docent gaat morgen naar de winkel om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_190
+# text = De docent gaat morgen naar de winkel om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	winkel	winkel	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_191
+# text = De docent gaat morgen naar het winkelcentrum om een brood te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	brood	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_192
+# text = De docent gaat morgen naar het winkelcentrum om een interessant boek te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	interessant	interessant	ADJ	_	_	_	_	_	_
+11	boek	boek	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_193
+# text = De docent gaat morgen naar het winkelcentrum om een krant te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	krant	krant	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_194
+# text = De docent gaat morgen naar het winkelcentrum om een mooi cadeau te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mooi	mooi	ADJ	_	_	_	_	_	_
+11	cadeau	cadeau	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_195
+# text = De docent gaat morgen naar het winkelcentrum om een pak melk te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	pak	pak	NOUN	_	_	_	_	_	_
+11	melk	melk	NOUN	_	_	_	_	_	_
+12	te	te	ADP	_	_	_	_	_	_
+13	kopen	kopen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_196
+# text = De docent gaat morgen naar het winkelcentrum om lekkere broodjes te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	lekkere	lekker	ADJ	_	_	_	_	_	_
+10	broodjes	brood	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_197
+# text = De docent gaat morgen naar het winkelcentrum om nieuwe kleren te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	kleren	klere	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_198
+# text = De docent gaat morgen naar het winkelcentrum om vers fruit te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	vers	vers	ADJ	_	_	_	_	_	_
+10	fruit	fruit	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_199
+# text = De docent gaat morgen naar het winkelcentrum om verse groenten te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	groenten	groente	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_b1_train_200
+# text = De docent gaat morgen naar het winkelcentrum om verse vis te kopen.
+1	De	de	DET	_	_	_	_	_	_
+2	docent	docent	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	winkelcentrum	winkel_centrum	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	verse	vers	ADJ	_	_	_	_	_	_
+10	vis	vis	NOUN	_	_	_	_	_	_
+11	te	te	ADP	_	_	_	_	_	_
+12	kopen	kopen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+

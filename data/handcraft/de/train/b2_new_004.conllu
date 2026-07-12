@@ -1,0 +1,2803 @@
+# sent_id = de_b2_train_334
+# text = Es ist ratsam, sich vor der Reise gründlich zu informieren.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	sich	sich	PRON	_	_	_	_	_	_
+6	vor	vor	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Reise	Reise	NOUN	_	_	_	_	_	_
+9	gründlich	gründlich	ADJ	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	informieren	informieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_335
+# text = Obwohl das Wetter schlecht war, gingen wir im Park spazieren.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	schlecht	schlecht	ADJ	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	gingen	gehen	VERB	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	im	in	ADP	_	_	_	_	_	_
+10	Park	Park	NOUN	_	_	_	_	_	_
+11	spazieren	spazieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_336
+# text = Sie hat die Prüfung bestanden, weil sie sehr viel gelernt hatte.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+5	bestanden	bestehen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	sie	sie	PRON	_	_	_	_	_	_
+9	sehr	sehr	ADV	_	_	_	_	_	_
+10	viel	viel	ADV	_	_	_	_	_	_
+11	gelernt	lernen	VERB	_	_	_	_	_	_
+12	hatte	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_337
+# text = Wenn ich mehr Geld hätte, würde ich eine Weltreise machen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	mehr	mehr	DET	_	_	_	_	_	_
+4	Geld	Geld	NOUN	_	_	_	_	_	_
+5	hätte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würde	werden	AUX	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	Weltreise	Weltreise	NOUN	_	_	_	_	_	_
+11	machen	machen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_338
+# text = Der Bericht muss bis morgen Abend vollständig ausgefüllt sein.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	muss	müssen	AUX	_	_	_	_	_	_
+4	bis	bis	ADP	_	_	_	_	_	_
+5	morgen	morgen	ADV	_	_	_	_	_	_
+6	Abend	Abend	NOUN	_	_	_	_	_	_
+7	vollständig	vollständig	ADJ	_	_	_	_	_	_
+8	ausgefüllt	ausfüllen	VERB	_	_	_	_	_	_
+9	sein	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_339
+# text = Er freut sich sehr auf sein neues Studium in München.
+1	Er	er	PRON	_	_	_	_	_	_
+2	freut	freuen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	sein	sein	PRON	_	_	_	_	_	_
+7	neues	neu	ADJ	_	_	_	_	_	_
+8	Studium	Studium	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	München	München	PROPN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_340
+# text = Je mehr man übt, desto besser wird die Aussprache.
+1	Je	je	ADV	_	_	_	_	_	_
+2	mehr	mehr	ADV	_	_	_	_	_	_
+3	man	man	PRON	_	_	_	_	_	_
+4	übt	üben	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	desto	desto	ADV	_	_	_	_	_	_
+7	besser	gut	ADJ	_	_	_	_	_	_
+8	wird	werden	AUX	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Aussprache	Aussprache	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_341
+# text = Anstatt fernzusehen, las sie lieber ein spannendes Buch.
+1	Anstatt	anstatt	SCONJ	_	_	_	_	_	_
+2	fernzusehen	fernsehen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	las	lesen	VERB	_	_	_	_	_	_
+5	sie	sie	PRON	_	_	_	_	_	_
+6	lieber	gern	ADV	_	_	_	_	_	_
+7	ein	ein	DET	_	_	_	_	_	_
+8	spannendes	spannend	ADJ	_	_	_	_	_	_
+9	Buch	Buch	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_342
+# text = Es fällt mir schwer, mich an das kalte Wetter zu gewöhnen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	fällt	fallen	VERB	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	schwer	schwer	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	mich	ich	PRON	_	_	_	_	_	_
+7	an	an	ADP	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	kalte	kalt	ADJ	_	_	_	_	_	_
+10	Wetter	Wetter	NOUN	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	gewöhnen	gewöhnen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_343
+# text = Nach dem langen Gespräch haben wir endlich eine Lösung gefunden.
+1	Nach	nach	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	langen	lang	ADJ	_	_	_	_	_	_
+4	Gespräch	Gespräch	NOUN	_	_	_	_	_	_
+5	haben	haben	AUX	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	endlich	endlich	ADV	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	Lösung	Lösung	NOUN	_	_	_	_	_	_
+10	gefunden	finden	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_344
+# text = Der Arzt riet dem Patienten, mehr Gemüse zu essen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Arzt	Arzt	NOUN	_	_	_	_	_	_
+3	riet	raten	VERB	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Patienten	Patient	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mehr	mehr	DET	_	_	_	_	_	_
+8	Gemüse	Gemüse	NOUN	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	essen	essen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_345
+# text = Er behauptet, den berühmten Schauspieler persönlich gekannt zu haben.
+1	Er	er	PRON	_	_	_	_	_	_
+2	behauptet	behaupten	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	berühmten	berühmt	ADJ	_	_	_	_	_	_
+6	Schauspieler	Schauspieler	NOUN	_	_	_	_	_	_
+7	persönlich	persönlich	ADJ	_	_	_	_	_	_
+8	gekannt	kennen	VERB	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	haben	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_346
+# text = Der Zug hatte Verspätung, weshalb wir den Anschlusszug verpassten.
+1	Der	der	DET	_	_	_	_	_	_
+2	Zug	Zug	NOUN	_	_	_	_	_	_
+3	hatte	haben	AUX	_	_	_	_	_	_
+4	Verspätung	Verspätung	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	weshalb	weshalb	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Anschlusszug	Anschlusszug	NOUN	_	_	_	_	_	_
+10	verpassten	verpassen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_347
+# text = Sie war enttäuscht, dass niemand zu ihrer Party gekommen war.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	war	sein	AUX	_	_	_	_	_	_
+3	enttäuscht	enttäuscht	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	niemand	niemand	PRON	_	_	_	_	_	_
+7	zu	zu	ADP	_	_	_	_	_	_
+8	ihrer	ihr	PRON	_	_	_	_	_	_
+9	Party	Party	NOUN	_	_	_	_	_	_
+10	gekommen	kommen	VERB	_	_	_	_	_	_
+11	war	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_348
+# text = Der Lehrer erklärte das komplizierte Thema mit einfachen Beispielen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	komplizierte	kompliziert	ADJ	_	_	_	_	_	_
+6	Thema	Thema	NOUN	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	einfachen	einfach	ADJ	_	_	_	_	_	_
+9	Beispielen	Beispiel	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_349
+# text = Wir müssen die Umwelt schützen, damit zukünftige Generationen leben können.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	müssen	müssen	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Umwelt	Umwelt	NOUN	_	_	_	_	_	_
+5	schützen	schützen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	damit	damit	SCONJ	_	_	_	_	_	_
+8	zukünftige	zukünftig	ADJ	_	_	_	_	_	_
+9	Generationen	Generation	NOUN	_	_	_	_	_	_
+10	leben	leben	VERB	_	_	_	_	_	_
+11	können	können	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_350
+# text = Um gesund zu bleiben, sollte man sich regelmäßig bewegen.
+1	Um	um	SCONJ	_	_	_	_	_	_
+2	gesund	gesund	ADJ	_	_	_	_	_	_
+3	zu	zu	PART	_	_	_	_	_	_
+4	bleiben	bleiben	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	sollte	sollen	AUX	_	_	_	_	_	_
+7	man	man	PRON	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	regelmäßig	regelmäßig	ADJ	_	_	_	_	_	_
+10	bewegen	bewegen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_351
+# text = Das Auto wurde gestern von einem erfahrenen Mechaniker repariert.
+1	Das	der	DET	_	_	_	_	_	_
+2	Auto	Auto	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	gestern	gestern	ADV	_	_	_	_	_	_
+5	von	von	ADP	_	_	_	_	_	_
+6	einem	ein	DET	_	_	_	_	_	_
+7	erfahrenen	erfahren	ADJ	_	_	_	_	_	_
+8	Mechaniker	Mechaniker	NOUN	_	_	_	_	_	_
+9	repariert	reparieren	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_352
+# text = Sie interessiert sich sehr für die Geschichte der Kunst.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	interessiert	interessieren	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Geschichte	Geschichte	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Kunst	Kunst	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_353
+# text = Der Direktor hat dem Mitarbeiter für seine Treue gedankt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Direktor	Direktor	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Mitarbeiter	Mitarbeiter	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	seine	sein	PRON	_	_	_	_	_	_
+8	Treue	Treue	NOUN	_	_	_	_	_	_
+9	gedankt	danken	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_354
+# text = Die Chefin glaubt, dass die Verantwortung positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_355
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie diskutieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	diskutieren	diskutieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_356
+# text = Die Lehrerin denkt, dass die Bedeutung notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_357
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie akzeptieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	akzeptieren	akzeptieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_358
+# text = Die Ärztin glaubt, dass die Ausbildung sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_359
+# text = Weil die Zukunft wichtig ist, muss der Chef sie vermeiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	vermeiden	vermeiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_360
+# text = Die Kundin denkt, dass die Möglichkeit deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_361
+# text = Weil die Forschung wichtig ist, muss der Arzt sie entwickeln.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entwickeln	entwickeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_362
+# text = Die Professorin glaubt, dass die Gesellschaft negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_363
+# text = Weil die Beziehung wichtig ist, muss der Professor sie verbessern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_364
+# text = Die Kollegin denkt, dass die Veränderung modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_365
+# text = Weil die Entscheidung wichtig ist, muss der Student sie erklären.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erklären	erklären	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_366
+# text = Die Studentin glaubt, dass die Entwicklung wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_367
+# text = Weil die Kultur wichtig ist, muss der Chef sie entscheiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entscheiden	entscheiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_368
+# text = Die Mitarbeiterin denkt, dass die Technologie schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_369
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie unterstützen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	unterstützen	unterstützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_370
+# text = Die Chefin glaubt, dass die Verantwortung erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_371
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie gestalten.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	gestalten	gestalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_372
+# text = Die Lehrerin denkt, dass die Bedeutung effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_373
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie lösen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	lösen	lösen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_374
+# text = Die Ärztin glaubt, dass die Ausbildung interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_375
+# text = Weil die Zukunft wichtig ist, muss der Chef sie erreichen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erreichen	erreichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_376
+# text = Die Kundin denkt, dass die Möglichkeit positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_377
+# text = Weil die Forschung wichtig ist, muss der Arzt sie beeinflussen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_378
+# text = Die Professorin glaubt, dass die Gesellschaft notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_379
+# text = Weil die Beziehung wichtig ist, muss der Professor sie analysieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	analysieren	analysieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_380
+# text = Die Kollegin denkt, dass die Veränderung sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_381
+# text = Weil die Entscheidung wichtig ist, muss der Student sie fördern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	fördern	fördern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_382
+# text = Die Studentin glaubt, dass die Entwicklung deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_383
+# text = Weil die Kultur wichtig ist, muss der Chef sie verstehen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verstehen	verstehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_384
+# text = Die Mitarbeiterin denkt, dass die Technologie negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_385
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie diskutieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	diskutieren	diskutieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_386
+# text = Die Chefin glaubt, dass die Verantwortung modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_387
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie akzeptieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	akzeptieren	akzeptieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_388
+# text = Die Lehrerin denkt, dass die Bedeutung wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_389
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie vermeiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	vermeiden	vermeiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_390
+# text = Die Ärztin glaubt, dass die Ausbildung schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_391
+# text = Weil die Zukunft wichtig ist, muss der Chef sie entwickeln.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entwickeln	entwickeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_392
+# text = Die Kundin denkt, dass die Möglichkeit erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_393
+# text = Weil die Forschung wichtig ist, muss der Arzt sie verbessern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_394
+# text = Die Professorin glaubt, dass die Gesellschaft effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_395
+# text = Weil die Beziehung wichtig ist, muss der Professor sie erklären.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erklären	erklären	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_396
+# text = Die Kollegin denkt, dass die Veränderung interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_397
+# text = Weil die Entscheidung wichtig ist, muss der Student sie entscheiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entscheiden	entscheiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_398
+# text = Die Studentin glaubt, dass die Entwicklung positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_399
+# text = Weil die Kultur wichtig ist, muss der Chef sie unterstützen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	unterstützen	unterstützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_400
+# text = Die Mitarbeiterin denkt, dass die Technologie notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_401
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie gestalten.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	gestalten	gestalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_402
+# text = Die Chefin glaubt, dass die Verantwortung sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_403
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie lösen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	lösen	lösen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_404
+# text = Die Lehrerin denkt, dass die Bedeutung deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_405
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie erreichen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erreichen	erreichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_406
+# text = Die Ärztin glaubt, dass die Ausbildung negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_407
+# text = Weil die Zukunft wichtig ist, muss der Chef sie beeinflussen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_408
+# text = Die Kundin denkt, dass die Möglichkeit modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_409
+# text = Weil die Forschung wichtig ist, muss der Arzt sie analysieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	analysieren	analysieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_410
+# text = Die Professorin glaubt, dass die Gesellschaft wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_411
+# text = Weil die Beziehung wichtig ist, muss der Professor sie fördern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	fördern	fördern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_412
+# text = Die Kollegin denkt, dass die Veränderung schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_413
+# text = Weil die Entscheidung wichtig ist, muss der Student sie verstehen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verstehen	verstehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_414
+# text = Die Studentin glaubt, dass die Entwicklung erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_415
+# text = Weil die Kultur wichtig ist, muss der Chef sie diskutieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	diskutieren	diskutieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_416
+# text = Die Mitarbeiterin denkt, dass die Technologie effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_417
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie akzeptieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	akzeptieren	akzeptieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_418
+# text = Die Chefin glaubt, dass die Verantwortung interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_419
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie vermeiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	vermeiden	vermeiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_420
+# text = Die Lehrerin denkt, dass die Bedeutung positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_421
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie entwickeln.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entwickeln	entwickeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_422
+# text = Die Ärztin glaubt, dass die Ausbildung notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_423
+# text = Weil die Zukunft wichtig ist, muss der Chef sie verbessern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_424
+# text = Die Kundin denkt, dass die Möglichkeit sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_425
+# text = Weil die Forschung wichtig ist, muss der Arzt sie erklären.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erklären	erklären	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_426
+# text = Die Professorin glaubt, dass die Gesellschaft deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_427
+# text = Weil die Beziehung wichtig ist, muss der Professor sie entscheiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entscheiden	entscheiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_428
+# text = Die Kollegin denkt, dass die Veränderung negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_429
+# text = Weil die Entscheidung wichtig ist, muss der Student sie unterstützen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	unterstützen	unterstützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_430
+# text = Die Studentin glaubt, dass die Entwicklung modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_431
+# text = Weil die Kultur wichtig ist, muss der Chef sie gestalten.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	gestalten	gestalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_432
+# text = Die Mitarbeiterin denkt, dass die Technologie wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_433
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie lösen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	lösen	lösen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_434
+# text = Die Chefin glaubt, dass die Verantwortung schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_435
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie erreichen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erreichen	erreichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_436
+# text = Die Lehrerin denkt, dass die Bedeutung erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_437
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie beeinflussen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_438
+# text = Die Ärztin glaubt, dass die Ausbildung effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_439
+# text = Weil die Zukunft wichtig ist, muss der Chef sie analysieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	analysieren	analysieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_440
+# text = Die Kundin denkt, dass die Möglichkeit interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_441
+# text = Weil die Forschung wichtig ist, muss der Arzt sie fördern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	fördern	fördern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_442
+# text = Die Professorin glaubt, dass die Gesellschaft positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_443
+# text = Weil die Beziehung wichtig ist, muss der Professor sie verstehen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verstehen	verstehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_444
+# text = Die Kollegin denkt, dass die Veränderung notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_445
+# text = Weil die Entscheidung wichtig ist, muss der Student sie diskutieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	diskutieren	diskutieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_446
+# text = Die Studentin glaubt, dass die Entwicklung sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_447
+# text = Weil die Kultur wichtig ist, muss der Chef sie akzeptieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	akzeptieren	akzeptieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_448
+# text = Die Mitarbeiterin denkt, dass die Technologie deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_449
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie vermeiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	vermeiden	vermeiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_450
+# text = Die Chefin glaubt, dass die Verantwortung negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_451
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie entwickeln.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entwickeln	entwickeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_452
+# text = Die Lehrerin denkt, dass die Bedeutung modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_453
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie verbessern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_454
+# text = Die Ärztin glaubt, dass die Ausbildung wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_455
+# text = Weil die Zukunft wichtig ist, muss der Chef sie erklären.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erklären	erklären	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_456
+# text = Die Kundin denkt, dass die Möglichkeit schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_457
+# text = Weil die Forschung wichtig ist, muss der Arzt sie entscheiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entscheiden	entscheiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_458
+# text = Die Professorin glaubt, dass die Gesellschaft erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_459
+# text = Weil die Beziehung wichtig ist, muss der Professor sie unterstützen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	unterstützen	unterstützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_460
+# text = Die Kollegin denkt, dass die Veränderung effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_461
+# text = Weil die Entscheidung wichtig ist, muss der Student sie gestalten.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	gestalten	gestalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_462
+# text = Die Studentin glaubt, dass die Entwicklung interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_463
+# text = Weil die Kultur wichtig ist, muss der Chef sie lösen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	lösen	lösen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_464
+# text = Die Mitarbeiterin denkt, dass die Technologie positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_465
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie erreichen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erreichen	erreichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_466
+# text = Die Chefin glaubt, dass die Verantwortung notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_467
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie beeinflussen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_468
+# text = Die Lehrerin denkt, dass die Bedeutung sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_469
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie analysieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	analysieren	analysieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_470
+# text = Die Ärztin glaubt, dass die Ausbildung deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_471
+# text = Weil die Zukunft wichtig ist, muss der Chef sie fördern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	fördern	fördern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_472
+# text = Die Kundin denkt, dass die Möglichkeit negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_473
+# text = Weil die Forschung wichtig ist, muss der Arzt sie verstehen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verstehen	verstehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_474
+# text = Die Professorin glaubt, dass die Gesellschaft modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_475
+# text = Weil die Beziehung wichtig ist, muss der Professor sie diskutieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	diskutieren	diskutieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_476
+# text = Die Kollegin denkt, dass die Veränderung wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_477
+# text = Weil die Entscheidung wichtig ist, muss der Student sie akzeptieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	akzeptieren	akzeptieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_478
+# text = Die Studentin glaubt, dass die Entwicklung schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_479
+# text = Weil die Kultur wichtig ist, muss der Chef sie vermeiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	vermeiden	vermeiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_480
+# text = Die Mitarbeiterin denkt, dass die Technologie erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_481
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie entwickeln.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entwickeln	entwickeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_482
+# text = Die Chefin glaubt, dass die Verantwortung effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_483
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie verbessern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_484
+# text = Die Lehrerin denkt, dass die Bedeutung interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_485
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie erklären.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erklären	erklären	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_486
+# text = Die Ärztin glaubt, dass die Ausbildung positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_487
+# text = Weil die Zukunft wichtig ist, muss der Chef sie entscheiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entscheiden	entscheiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_488
+# text = Die Kundin denkt, dass die Möglichkeit notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_489
+# text = Weil die Forschung wichtig ist, muss der Arzt sie unterstützen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	unterstützen	unterstützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_490
+# text = Die Professorin glaubt, dass die Gesellschaft sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_491
+# text = Weil die Beziehung wichtig ist, muss der Professor sie gestalten.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	gestalten	gestalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_492
+# text = Die Kollegin denkt, dass die Veränderung deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_493
+# text = Weil die Entscheidung wichtig ist, muss der Student sie lösen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	lösen	lösen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_494
+# text = Die Studentin glaubt, dass die Entwicklung negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_495
+# text = Weil die Kultur wichtig ist, muss der Chef sie erreichen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erreichen	erreichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_496
+# text = Die Mitarbeiterin denkt, dass die Technologie modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_497
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie beeinflussen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_498
+# text = Die Chefin glaubt, dass die Verantwortung wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_499
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie analysieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	analysieren	analysieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_500
+# text = Die Lehrerin denkt, dass die Bedeutung schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_501
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie fördern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	fördern	fördern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_502
+# text = Die Ärztin glaubt, dass die Ausbildung erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_503
+# text = Weil die Zukunft wichtig ist, muss der Chef sie verstehen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verstehen	verstehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_504
+# text = Die Kundin denkt, dass die Möglichkeit effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_505
+# text = Weil die Forschung wichtig ist, muss der Arzt sie diskutieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	diskutieren	diskutieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_506
+# text = Die Professorin glaubt, dass die Gesellschaft interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_507
+# text = Weil die Beziehung wichtig ist, muss der Professor sie akzeptieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	akzeptieren	akzeptieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_508
+# text = Die Kollegin denkt, dass die Veränderung positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_509
+# text = Weil die Entscheidung wichtig ist, muss der Student sie vermeiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	vermeiden	vermeiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_510
+# text = Die Studentin glaubt, dass die Entwicklung notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_511
+# text = Weil die Kultur wichtig ist, muss der Chef sie entwickeln.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entwickeln	entwickeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_512
+# text = Die Mitarbeiterin denkt, dass die Technologie sozial ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	sozial	sozial	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_513
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie verbessern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_514
+# text = Die Chefin glaubt, dass die Verantwortung deutlich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	deutlich	deutlich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_515
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie erklären.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erklären	erklären	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_516
+# text = Die Lehrerin denkt, dass die Bedeutung negativ ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	negativ	negativ	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_517
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie entscheiden.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	entscheiden	entscheiden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_518
+# text = Die Ärztin glaubt, dass die Ausbildung modern ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+8	modern	modern	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_519
+# text = Weil die Zukunft wichtig ist, muss der Chef sie unterstützen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	unterstützen	unterstützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_520
+# text = Die Kundin denkt, dass die Möglichkeit wichtig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kundin	Kundin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Möglichkeit	Möglichkeit	NOUN	_	_	_	_	_	_
+8	wichtig	wichtig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_521
+# text = Weil die Forschung wichtig ist, muss der Arzt sie gestalten.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Forschung	Forschung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	gestalten	gestalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_522
+# text = Die Professorin glaubt, dass die Gesellschaft schwierig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Professorin	Professorin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+8	schwierig	schwierig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_523
+# text = Weil die Beziehung wichtig ist, muss der Professor sie lösen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehung	Beziehung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	lösen	lösen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_524
+# text = Die Kollegin denkt, dass die Veränderung erfolgreich ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_525
+# text = Weil die Entscheidung wichtig ist, muss der Student sie erreichen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	erreichen	erreichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_526
+# text = Die Studentin glaubt, dass die Entwicklung effektiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	effektiv	effektiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_527
+# text = Weil die Kultur wichtig ist, muss der Chef sie beeinflussen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kultur	Kultur	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_528
+# text = Die Mitarbeiterin denkt, dass die Technologie interessant ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitarbeiterin	Mitarbeiterin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Technologie	Technologie	NOUN	_	_	_	_	_	_
+8	interessant	interessant	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_529
+# text = Weil die Erfahrung wichtig ist, muss der Arzt sie analysieren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	analysieren	analysieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_530
+# text = Die Chefin glaubt, dass die Verantwortung positiv ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Chefin	Chefin	NOUN	_	_	_	_	_	_
+3	glaubt	glauben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_531
+# text = Weil die Herausforderung wichtig ist, muss der Professor sie fördern.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Professor	Professor	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	fördern	fördern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_532
+# text = Die Lehrerin denkt, dass die Bedeutung notwendig ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	denkt	denken	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+8	notwendig	notwendig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_533
+# text = Weil die Wirtschaft wichtig ist, muss der Student sie verstehen.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Student	Student	NOUN	_	_	_	_	_	_
+10	sie	sie	PRON	_	_	_	_	_	_
+11	verstehen	verstehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+

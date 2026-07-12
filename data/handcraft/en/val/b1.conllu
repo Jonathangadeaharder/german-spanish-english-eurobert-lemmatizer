@@ -1,0 +1,1625 @@
+# sent_id = en_b1_val_001
+# text = I would wake up earlier if I did not stay up so late every evening.
+1	I	I	PRON	_	_	_	_	_	_
+2	would	will	AUX	_	_	_	_	_	_
+3	wake	wake	VERB	_	_	_	_	_	_
+4	up	up	ADP	_	_	_	_	_	_
+5	earlier	early	ADV	_	_	_	_	_	_
+6	if	if	SCONJ	_	_	_	_	_	_
+7	I	I	PRON	_	_	_	_	_	_
+8	did	do	AUX	_	_	_	_	_	_
+9	not	not	PART	_	_	_	_	_	_
+10	stay	stay	VERB	_	_	_	_	_	_
+11	up	up	ADP	_	_	_	_	_	_
+12	so	so	SCONJ	_	_	_	_	_	_
+13	late	late	ADV	_	_	_	_	_	_
+14	every	every	DET	_	_	_	_	_	_
+15	evening	evening	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_002
+# text = The apartment that we viewed yesterday is much brighter than our current flat.
+1	The	the	DET	_	_	_	_	_	_
+2	apartment	apartment	NOUN	_	_	_	_	_	_
+3	that	that	SCONJ	_	_	_	_	_	_
+4	we	we	PRON	_	_	_	_	_	_
+5	viewed	view	VERB	_	_	_	_	_	_
+6	yesterday	yesterday	NOUN	_	_	_	_	_	_
+7	is	be	AUX	_	_	_	_	_	_
+8	much	much	ADV	_	_	_	_	_	_
+9	brighter	bright	ADJ	_	_	_	_	_	_
+10	than	than	SCONJ	_	_	_	_	_	_
+11	our	our	PRON	_	_	_	_	_	_
+12	current	current	ADJ	_	_	_	_	_	_
+13	flat	flat	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_003
+# text = Without a reservation, you may have to wait a long time for a table.
+1	Without	without	ADP	_	_	_	_	_	_
+2	a	a	DET	_	_	_	_	_	_
+3	reservation	reservation	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	you	you	PRON	_	_	_	_	_	_
+6	may	may	AUX	_	_	_	_	_	_
+7	have	have	AUX	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	wait	wait	VERB	_	_	_	_	_	_
+10	a	a	DET	_	_	_	_	_	_
+11	long	long	ADJ	_	_	_	_	_	_
+12	time	time	NOUN	_	_	_	_	_	_
+13	for	for	ADP	_	_	_	_	_	_
+14	a	a	DET	_	_	_	_	_	_
+15	table	table	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_004
+# text = He decided to move into a smaller house after his children left for university.
+1	He	he	PRON	_	_	_	_	_	_
+2	decided	decide	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	move	move	VERB	_	_	_	_	_	_
+5	into	into	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	smaller	small	ADJ	_	_	_	_	_	_
+8	house	house	NOUN	_	_	_	_	_	_
+9	after	after	SCONJ	_	_	_	_	_	_
+10	his	his	PRON	_	_	_	_	_	_
+11	children	child	NOUN	_	_	_	_	_	_
+12	left	leave	VERB	_	_	_	_	_	_
+13	for	for	ADP	_	_	_	_	_	_
+14	university	university	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_005
+# text = We have to pay the rent before the first day of each month.
+1	We	we	PRON	_	_	_	_	_	_
+2	have	have	AUX	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	pay	pay	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	rent	rent	NOUN	_	_	_	_	_	_
+7	before	before	ADP	_	_	_	_	_	_
+8	the	the	DET	_	_	_	_	_	_
+9	first	first	ADJ	_	_	_	_	_	_
+10	day	day	NOUN	_	_	_	_	_	_
+11	of	of	ADP	_	_	_	_	_	_
+12	each	each	DET	_	_	_	_	_	_
+13	month	month	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_006
+# text = The bedroom was painted by our neighbors while we were away on holiday.
+1	The	the	DET	_	_	_	_	_	_
+2	bedroom	bedroom	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	painted	paint	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	our	our	PRON	_	_	_	_	_	_
+7	neighbors	neighbor	NOUN	_	_	_	_	_	_
+8	while	while	SCONJ	_	_	_	_	_	_
+9	we	we	PRON	_	_	_	_	_	_
+10	were	be	AUX	_	_	_	_	_	_
+11	away	away	ADV	_	_	_	_	_	_
+12	on	on	ADP	_	_	_	_	_	_
+13	holiday	holiday	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_007
+# text = I am looking forward to meeting my new roommate next weekend.
+1	I	I	PRON	_	_	_	_	_	_
+2	am	be	AUX	_	_	_	_	_	_
+3	looking	look	VERB	_	_	_	_	_	_
+4	forward	forward	ADV	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	meeting	meet	VERB	_	_	_	_	_	_
+7	my	my	PRON	_	_	_	_	_	_
+8	new	new	ADJ	_	_	_	_	_	_
+9	roommate	roommate	NOUN	_	_	_	_	_	_
+10	next	next	ADJ	_	_	_	_	_	_
+11	weekend	weekend	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_008
+# text = If you require help with the move, please call me anytime.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	you	you	PRON	_	_	_	_	_	_
+3	require	require	VERB	_	_	_	_	_	_
+4	help	help	NOUN	_	_	_	_	_	_
+5	with	with	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	move	move	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	please	please	INTJ	_	_	_	_	_	_
+10	call	call	VERB	_	_	_	_	_	_
+11	me	I	PRON	_	_	_	_	_	_
+12	anytime	anytime	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_009
+# text = Despite the rain, we went for a walk as we had planned.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	rain	rain	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	we	we	PRON	_	_	_	_	_	_
+6	went	go	VERB	_	_	_	_	_	_
+7	for	for	ADP	_	_	_	_	_	_
+8	a	a	DET	_	_	_	_	_	_
+9	walk	walk	NOUN	_	_	_	_	_	_
+10	as	as	SCONJ	_	_	_	_	_	_
+11	we	we	PRON	_	_	_	_	_	_
+12	had	have	AUX	_	_	_	_	_	_
+13	planned	plan	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_010
+# text = She forgot to take out the rubbish before the collection truck arrived.
+1	She	she	PRON	_	_	_	_	_	_
+2	forgot	forget	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	take	take	VERB	_	_	_	_	_	_
+5	out	out	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	rubbish	rubbish	NOUN	_	_	_	_	_	_
+8	before	before	SCONJ	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	collection	collection	NOUN	_	_	_	_	_	_
+11	truck	truck	NOUN	_	_	_	_	_	_
+12	arrived	arrive	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_011
+# text = The key that you lent me is still lying on the kitchen table.
+1	The	the	DET	_	_	_	_	_	_
+2	key	key	NOUN	_	_	_	_	_	_
+3	that	that	SCONJ	_	_	_	_	_	_
+4	you	you	PRON	_	_	_	_	_	_
+5	lent	loan	VERB	_	_	_	_	_	_
+6	me	I	PRON	_	_	_	_	_	_
+7	is	be	AUX	_	_	_	_	_	_
+8	still	still	ADV	_	_	_	_	_	_
+9	lying	lie	VERB	_	_	_	_	_	_
+10	on	on	ADP	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	kitchen	kitchen	NOUN	_	_	_	_	_	_
+13	table	table	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_012
+# text = We complained to the landlord about the rising cost of heating bills.
+1	We	we	PRON	_	_	_	_	_	_
+2	complained	complain	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	landlord	landlord	NOUN	_	_	_	_	_	_
+6	about	about	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	rising	rise	VERB	_	_	_	_	_	_
+9	cost	cost	NOUN	_	_	_	_	_	_
+10	of	of	ADP	_	_	_	_	_	_
+11	heating	heating	NOUN	_	_	_	_	_	_
+12	bills	bill	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_013
+# text = I could not attend the party because I had a dentist appointment.
+1	I	I	PRON	_	_	_	_	_	_
+2	could	can	AUX	_	_	_	_	_	_
+3	not	not	PART	_	_	_	_	_	_
+4	attend	attend	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	party	party	NOUN	_	_	_	_	_	_
+7	because	because	SCONJ	_	_	_	_	_	_
+8	I	I	PRON	_	_	_	_	_	_
+9	had	have	AUX	_	_	_	_	_	_
+10	a	a	DET	_	_	_	_	_	_
+11	dentist	dentist	NOUN	_	_	_	_	_	_
+12	appointment	appointment	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_014
+# text = The dinner was prepared by my aunt with fresh vegetables from her garden.
+1	The	the	DET	_	_	_	_	_	_
+2	dinner	dinner	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	prepared	prepare	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	my	my	PRON	_	_	_	_	_	_
+7	aunt	aunt	NOUN	_	_	_	_	_	_
+8	with	with	ADP	_	_	_	_	_	_
+9	fresh	fresh	ADJ	_	_	_	_	_	_
+10	vegetables	vegetable	NOUN	_	_	_	_	_	_
+11	from	from	ADP	_	_	_	_	_	_
+12	her	her	PRON	_	_	_	_	_	_
+13	garden	garden	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_015
+# text = Although the kitchen is small, we enjoy cooking together at weekends.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	kitchen	kitchen	NOUN	_	_	_	_	_	_
+4	is	be	AUX	_	_	_	_	_	_
+5	small	small	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	we	we	PRON	_	_	_	_	_	_
+8	enjoy	enjoy	VERB	_	_	_	_	_	_
+9	cooking	cook	VERB	_	_	_	_	_	_
+10	together	together	ADV	_	_	_	_	_	_
+11	at	at	ADP	_	_	_	_	_	_
+12	weekends	weekend	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_016
+# text = He wants us to postpone the housewarming until next month.
+1	He	he	PRON	_	_	_	_	_	_
+2	wants	want	VERB	_	_	_	_	_	_
+3	us	we	PRON	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	postpone	postpone	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	housewarming	housewarming	NOUN	_	_	_	_	_	_
+8	until	until	ADP	_	_	_	_	_	_
+9	next	next	ADJ	_	_	_	_	_	_
+10	month	month	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_017
+# text = Because of the construction work, we had to find another route home.
+1	Because	because	SCONJ	_	_	_	_	_	_
+2	of	of	ADP	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	construction	construction	NOUN	_	_	_	_	_	_
+5	work	work	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	we	we	PRON	_	_	_	_	_	_
+8	had	have	AUX	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	find	find	VERB	_	_	_	_	_	_
+11	another	another	DET	_	_	_	_	_	_
+12	route	route	NOUN	_	_	_	_	_	_
+13	home	home	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_018
+# text = I am very interested in sustainable living in modern apartment buildings.
+1	I	I	PRON	_	_	_	_	_	_
+2	am	be	AUX	_	_	_	_	_	_
+3	very	very	ADV	_	_	_	_	_	_
+4	interested	interested	ADJ	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	sustainable	sustainable	ADJ	_	_	_	_	_	_
+7	living	live	VERB	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	modern	modern	ADJ	_	_	_	_	_	_
+10	apartment	apartment	NOUN	_	_	_	_	_	_
+11	buildings	building	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_019
+# text = The lamp that I bought last week stopped working during the storm.
+1	The	the	DET	_	_	_	_	_	_
+2	lamp	lamp	NOUN	_	_	_	_	_	_
+3	that	that	SCONJ	_	_	_	_	_	_
+4	I	I	PRON	_	_	_	_	_	_
+5	bought	buy	VERB	_	_	_	_	_	_
+6	last	last	ADJ	_	_	_	_	_	_
+7	week	week	NOUN	_	_	_	_	_	_
+8	stopped	stop	VERB	_	_	_	_	_	_
+9	working	work	VERB	_	_	_	_	_	_
+10	during	during	ADP	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	storm	storm	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_020
+# text = If we leave earlier, we will catch the last train home.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	we	we	PRON	_	_	_	_	_	_
+3	leave	leave	VERB	_	_	_	_	_	_
+4	earlier	early	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	we	we	PRON	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	catch	catch	VERB	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	last	last	ADJ	_	_	_	_	_	_
+11	train	train	NOUN	_	_	_	_	_	_
+12	home	home	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_021
+# text = The menu was changed because several dishes were too expensive for students.
+1	The	the	DET	_	_	_	_	_	_
+2	menu	menu	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	changed	change	VERB	_	_	_	_	_	_
+5	because	because	SCONJ	_	_	_	_	_	_
+6	several	several	ADJ	_	_	_	_	_	_
+7	dishes	dish	NOUN	_	_	_	_	_	_
+8	were	be	AUX	_	_	_	_	_	_
+9	too	too	ADV	_	_	_	_	_	_
+10	expensive	expensive	ADJ	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	students	student	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_022
+# text = If customers order online, they can often collect their meals more quickly.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	customers	customer	NOUN	_	_	_	_	_	_
+3	order	order	VERB	_	_	_	_	_	_
+4	online	online	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	they	they	PRON	_	_	_	_	_	_
+7	can	can	AUX	_	_	_	_	_	_
+8	often	often	ADV	_	_	_	_	_	_
+9	collect	collect	VERB	_	_	_	_	_	_
+10	their	their	PRON	_	_	_	_	_	_
+11	meals	meal	NOUN	_	_	_	_	_	_
+12	more	more	ADV	_	_	_	_	_	_
+13	quickly	quickly	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_023
+# text = Many diners believe that restaurants should label allergens more clearly.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	diners	diner	NOUN	_	_	_	_	_	_
+3	believe	believe	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	restaurants	restaurant	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	label	label	VERB	_	_	_	_	_	_
+8	allergens	allergen	NOUN	_	_	_	_	_	_
+9	more	more	ADV	_	_	_	_	_	_
+10	clearly	clearly	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_024
+# text = The recipe was shared by a chef who specializes in Mediterranean cuisine.
+1	The	the	DET	_	_	_	_	_	_
+2	recipe	recipe	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	shared	share	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	chef	chef	NOUN	_	_	_	_	_	_
+8	who	who	PRON	_	_	_	_	_	_
+9	specializes	specialize	VERB	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	Mediterranean	mediterranean	ADJ	_	_	_	_	_	_
+12	cuisine	cuisine	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_025
+# text = Although the soup was spicy, most guests said they enjoyed the flavor.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	soup	soup	NOUN	_	_	_	_	_	_
+4	was	be	AUX	_	_	_	_	_	_
+5	spicy	spicy	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	most	most	ADJ	_	_	_	_	_	_
+8	guests	guest	NOUN	_	_	_	_	_	_
+9	said	say	VERB	_	_	_	_	_	_
+10	they	they	PRON	_	_	_	_	_	_
+11	enjoyed	enjoy	VERB	_	_	_	_	_	_
+12	the	the	DET	_	_	_	_	_	_
+13	flavor	flavor	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_026
+# text = New tasting menus were introduced to attract younger visitors to the bistro.
+1	New	new	ADJ	_	_	_	_	_	_
+2	tasting	tasting	NOUN	_	_	_	_	_	_
+3	menus	menu	NOUN	_	_	_	_	_	_
+4	were	be	AUX	_	_	_	_	_	_
+5	introduced	introduce	VERB	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	attract	attract	VERB	_	_	_	_	_	_
+8	younger	young	ADJ	_	_	_	_	_	_
+9	visitors	visitor	NOUN	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	bistro	bistro	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_027
+# text = I think cafés should offer reusable cups for regular morning customers.
+1	I	I	PRON	_	_	_	_	_	_
+2	think	think	VERB	_	_	_	_	_	_
+3	cafés	café	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	offer	offer	VERB	_	_	_	_	_	_
+6	reusable	reusable	ADJ	_	_	_	_	_	_
+7	cups	cup	NOUN	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	regular	regular	ADJ	_	_	_	_	_	_
+10	morning	morning	NOUN	_	_	_	_	_	_
+11	customers	customer	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_028
+# text = The waiter explained that desserts would be served after the main courses.
+1	The	the	DET	_	_	_	_	_	_
+2	waiter	waiter	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	desserts	dessert	NOUN	_	_	_	_	_	_
+6	would	will	AUX	_	_	_	_	_	_
+7	be	be	AUX	_	_	_	_	_	_
+8	served	serve	VERB	_	_	_	_	_	_
+9	after	after	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	main	main	ADJ	_	_	_	_	_	_
+12	courses	course	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_029
+# text = If ingredients are not fresh, the quality of the meal may disappoint guests.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	ingredients	ingredient	NOUN	_	_	_	_	_	_
+3	are	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	fresh	fresh	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	quality	quality	NOUN	_	_	_	_	_	_
+9	of	of	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	meal	meal	NOUN	_	_	_	_	_	_
+12	may	may	AUX	_	_	_	_	_	_
+13	disappoint	disappoint	VERB	_	_	_	_	_	_
+14	guests	guest	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_030
+# text = The bakery was renovated while staff continued serving customers outside.
+1	The	the	DET	_	_	_	_	_	_
+2	bakery	bakery	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	renovated	renovate	VERB	_	_	_	_	_	_
+5	while	while	SCONJ	_	_	_	_	_	_
+6	staff	staff	NOUN	_	_	_	_	_	_
+7	continued	continue	VERB	_	_	_	_	_	_
+8	serving	serve	VERB	_	_	_	_	_	_
+9	customers	customer	NOUN	_	_	_	_	_	_
+10	outside	outside	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_031
+# text = Many people feel that food waste should be reduced in school canteens.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	people	person	NOUN	_	_	_	_	_	_
+3	feel	feel	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	food	food	NOUN	_	_	_	_	_	_
+6	waste	waste	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	reduced	reduce	VERB	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	school	school	NOUN	_	_	_	_	_	_
+12	canteens	canteen	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_032
+# text = The reservation was confirmed after the manager checked the booking system.
+1	The	the	DET	_	_	_	_	_	_
+2	reservation	reservation	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	confirmed	confirm	VERB	_	_	_	_	_	_
+5	after	after	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	manager	manager	NOUN	_	_	_	_	_	_
+8	checked	check	VERB	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	booking	booking	NOUN	_	_	_	_	_	_
+11	system	system	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_033
+# text = She said she would try the vegetarian option if it contained enough protein.
+1	She	she	PRON	_	_	_	_	_	_
+2	said	say	VERB	_	_	_	_	_	_
+3	she	she	PRON	_	_	_	_	_	_
+4	would	will	AUX	_	_	_	_	_	_
+5	try	try	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	vegetarian	vegetarian	ADJ	_	_	_	_	_	_
+8	option	option	NOUN	_	_	_	_	_	_
+9	if	if	SCONJ	_	_	_	_	_	_
+10	it	it	PRON	_	_	_	_	_	_
+11	contained	contain	VERB	_	_	_	_	_	_
+12	enough	enough	ADJ	_	_	_	_	_	_
+13	protein	protein	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_034
+# text = Cooking classes were organized by volunteers who wanted to teach basic skills.
+1	Cooking	cook	NOUN	_	_	_	_	_	_
+2	classes	class	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	organized	organize	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	volunteers	volunteer	NOUN	_	_	_	_	_	_
+7	who	who	PRON	_	_	_	_	_	_
+8	wanted	want	VERB	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	teach	teach	VERB	_	_	_	_	_	_
+11	basic	basic	ADJ	_	_	_	_	_	_
+12	skills	skill	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_035
+# text = We talked about whether home cooked meals are healthier than fast food.
+1	We	we	PRON	_	_	_	_	_	_
+2	talked	talk	VERB	_	_	_	_	_	_
+3	about	about	ADP	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	home	home	NOUN	_	_	_	_	_	_
+6	cooked	cook	VERB	_	_	_	_	_	_
+7	meals	meal	NOUN	_	_	_	_	_	_
+8	are	be	AUX	_	_	_	_	_	_
+9	healthier	healthy	ADJ	_	_	_	_	_	_
+10	than	than	SCONJ	_	_	_	_	_	_
+11	fast	fast	ADJ	_	_	_	_	_	_
+12	food	food	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_036
+# text = The oven was repaired when the technician discovered a faulty heating element.
+1	The	the	DET	_	_	_	_	_	_
+2	oven	oven	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	repaired	repair	VERB	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	technician	technician	NOUN	_	_	_	_	_	_
+8	discovered	discover	VERB	_	_	_	_	_	_
+9	a	a	DET	_	_	_	_	_	_
+10	faulty	faulty	ADJ	_	_	_	_	_	_
+11	heating	heating	NOUN	_	_	_	_	_	_
+12	element	element	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_037
+# text = If spices are stored incorrectly, they may lose their aroma within months.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	spices	spice	NOUN	_	_	_	_	_	_
+3	are	be	AUX	_	_	_	_	_	_
+4	stored	store	VERB	_	_	_	_	_	_
+5	incorrectly	incorrectly	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	they	they	PRON	_	_	_	_	_	_
+8	may	may	AUX	_	_	_	_	_	_
+9	lose	lose	VERB	_	_	_	_	_	_
+10	their	their	PRON	_	_	_	_	_	_
+11	aroma	aroma	NOUN	_	_	_	_	_	_
+12	within	within	ADP	_	_	_	_	_	_
+13	months	month	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_038
+# text = I believe local markets should support farmers who grow seasonal produce.
+1	I	I	PRON	_	_	_	_	_	_
+2	believe	believe	VERB	_	_	_	_	_	_
+3	local	local	ADJ	_	_	_	_	_	_
+4	markets	market	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	support	support	VERB	_	_	_	_	_	_
+7	farmers	farmer	NOUN	_	_	_	_	_	_
+8	who	who	PRON	_	_	_	_	_	_
+9	grow	grow	VERB	_	_	_	_	_	_
+10	seasonal	seasonal	ADJ	_	_	_	_	_	_
+11	produce	produce	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_039
+# text = The complaint was investigated after customers reported poor hygiene standards.
+1	The	the	DET	_	_	_	_	_	_
+2	complaint	complaint	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	investigated	investigate	VERB	_	_	_	_	_	_
+5	after	after	SCONJ	_	_	_	_	_	_
+6	customers	customer	NOUN	_	_	_	_	_	_
+7	reported	report	VERB	_	_	_	_	_	_
+8	poor	poor	ADJ	_	_	_	_	_	_
+9	hygiene	hygiene	NOUN	_	_	_	_	_	_
+10	standards	standard	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_040
+# text = Although the restaurant is busy, the staff always greet regular guests warmly.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	restaurant	restaurant	NOUN	_	_	_	_	_	_
+4	is	be	AUX	_	_	_	_	_	_
+5	busy	busy	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	staff	staff	NOUN	_	_	_	_	_	_
+9	always	always	ADV	_	_	_	_	_	_
+10	greet	greet	VERB	_	_	_	_	_	_
+11	regular	regular	ADJ	_	_	_	_	_	_
+12	guests	guest	NOUN	_	_	_	_	_	_
+13	warmly	warmly	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_041
+# text = The match was postponed because the pitch was flooded after heavy rain.
+1	The	the	DET	_	_	_	_	_	_
+2	match	match	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	postponed	postpone	VERB	_	_	_	_	_	_
+5	because	because	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	pitch	pitch	NOUN	_	_	_	_	_	_
+8	was	be	AUX	_	_	_	_	_	_
+9	flooded	flood	VERB	_	_	_	_	_	_
+10	after	after	ADP	_	_	_	_	_	_
+11	heavy	heavy	ADJ	_	_	_	_	_	_
+12	rain	rain	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_042
+# text = If athletes warm up properly, they are less likely to suffer serious injuries.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	athletes	athlete	NOUN	_	_	_	_	_	_
+3	warm	warm	VERB	_	_	_	_	_	_
+4	up	up	ADP	_	_	_	_	_	_
+5	properly	properly	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	they	they	PRON	_	_	_	_	_	_
+8	are	be	AUX	_	_	_	_	_	_
+9	less	less	ADV	_	_	_	_	_	_
+10	likely	likely	ADJ	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	suffer	suffer	VERB	_	_	_	_	_	_
+13	serious	serious	ADJ	_	_	_	_	_	_
+14	injuries	injury	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_043
+# text = Many fans believe that ticket prices should be lower for young supporters.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	fans	fan	NOUN	_	_	_	_	_	_
+3	believe	believe	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	ticket	ticket	NOUN	_	_	_	_	_	_
+6	prices	price	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	lower	low	ADJ	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	young	young	ADJ	_	_	_	_	_	_
+12	supporters	supporter	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_044
+# text = The trophy was won by a team that had trained together for several years.
+1	The	the	DET	_	_	_	_	_	_
+2	trophy	trophy	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	won	win	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	team	team	NOUN	_	_	_	_	_	_
+8	that	that	SCONJ	_	_	_	_	_	_
+9	had	have	AUX	_	_	_	_	_	_
+10	trained	train	VERB	_	_	_	_	_	_
+11	together	together	ADV	_	_	_	_	_	_
+12	for	for	ADP	_	_	_	_	_	_
+13	several	several	ADJ	_	_	_	_	_	_
+14	years	year	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_045
+# text = Although the hike was tiring, we reached the summit before sunset.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	hike	hike	NOUN	_	_	_	_	_	_
+4	was	be	AUX	_	_	_	_	_	_
+5	tiring	tiring	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	we	we	PRON	_	_	_	_	_	_
+8	reached	reach	VERB	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	summit	summit	NOUN	_	_	_	_	_	_
+11	before	before	ADP	_	_	_	_	_	_
+12	sunset	sunset	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_046
+# text = New cycling paths were built to encourage residents to leave their cars at home.
+1	New	new	ADJ	_	_	_	_	_	_
+2	cycling	cycling	NOUN	_	_	_	_	_	_
+3	paths	path	NOUN	_	_	_	_	_	_
+4	were	be	AUX	_	_	_	_	_	_
+5	built	build	VERB	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	encourage	encourage	VERB	_	_	_	_	_	_
+8	residents	resident	NOUN	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	leave	leave	VERB	_	_	_	_	_	_
+11	their	their	PRON	_	_	_	_	_	_
+12	cars	car	NOUN	_	_	_	_	_	_
+13	at	at	ADP	_	_	_	_	_	_
+14	home	home	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_047
+# text = I think swimming pools should offer affordable lessons for adult beginners.
+1	I	I	PRON	_	_	_	_	_	_
+2	think	think	VERB	_	_	_	_	_	_
+3	swimming	swim	NOUN	_	_	_	_	_	_
+4	pools	pool	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	offer	offer	VERB	_	_	_	_	_	_
+7	affordable	affordable	ADJ	_	_	_	_	_	_
+8	lessons	lesson	NOUN	_	_	_	_	_	_
+9	for	for	ADP	_	_	_	_	_	_
+10	adult	adult	NOUN	_	_	_	_	_	_
+11	beginners	beginner	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_048
+# text = The coach explained that practice sessions would begin after the school term ends.
+1	The	the	DET	_	_	_	_	_	_
+2	coach	coach	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	practice	practice	NOUN	_	_	_	_	_	_
+6	sessions	session	NOUN	_	_	_	_	_	_
+7	would	will	AUX	_	_	_	_	_	_
+8	begin	begin	VERB	_	_	_	_	_	_
+9	after	after	SCONJ	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	school	school	NOUN	_	_	_	_	_	_
+12	term	term	NOUN	_	_	_	_	_	_
+13	ends	end	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_049
+# text = If equipment is not maintained, accidents may happen during team sports.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	equipment	equipment	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	maintained	maintain	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	accidents	accident	NOUN	_	_	_	_	_	_
+8	may	may	AUX	_	_	_	_	_	_
+9	happen	happen	VERB	_	_	_	_	_	_
+10	during	during	ADP	_	_	_	_	_	_
+11	team	team	NOUN	_	_	_	_	_	_
+12	sports	sport	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_050
+# text = The gym was expanded while members continued to work out in temporary studios.
+1	The	the	DET	_	_	_	_	_	_
+2	gym	gym	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	expanded	expand	VERB	_	_	_	_	_	_
+5	while	while	SCONJ	_	_	_	_	_	_
+6	members	member	NOUN	_	_	_	_	_	_
+7	continued	continue	VERB	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	work	work	VERB	_	_	_	_	_	_
+10	out	out	ADP	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	temporary	temporary	ADJ	_	_	_	_	_	_
+13	studios	studio	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_051
+# text = Many players feel that referees should explain controversial decisions more clearly.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	players	player	NOUN	_	_	_	_	_	_
+3	feel	feel	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	referees	referee	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	explain	explain	VERB	_	_	_	_	_	_
+8	controversial	controversial	ADJ	_	_	_	_	_	_
+9	decisions	decision	NOUN	_	_	_	_	_	_
+10	more	more	ADV	_	_	_	_	_	_
+11	clearly	clearly	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_052
+# text = The membership was renewed after the club offered a discount for families.
+1	The	the	DET	_	_	_	_	_	_
+2	membership	membership	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	renewed	renew	VERB	_	_	_	_	_	_
+5	after	after	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	club	club	NOUN	_	_	_	_	_	_
+8	offered	offer	VERB	_	_	_	_	_	_
+9	a	a	DET	_	_	_	_	_	_
+10	discount	discount	NOUN	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	families	family	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_053
+# text = She said she would join the running group if her knee injury healed completely.
+1	She	she	PRON	_	_	_	_	_	_
+2	said	say	VERB	_	_	_	_	_	_
+3	she	she	PRON	_	_	_	_	_	_
+4	would	will	AUX	_	_	_	_	_	_
+5	join	join	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	running	running	NOUN	_	_	_	_	_	_
+8	group	group	NOUN	_	_	_	_	_	_
+9	if	if	SCONJ	_	_	_	_	_	_
+10	her	her	PRON	_	_	_	_	_	_
+11	knee	knee	NOUN	_	_	_	_	_	_
+12	injury	injury	NOUN	_	_	_	_	_	_
+13	healed	heal	VERB	_	_	_	_	_	_
+14	completely	completely	ADV	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_054
+# text = Tennis lessons were arranged by parents who wanted children to stay active.
+1	Tennis	tenni	NOUN	_	_	_	_	_	_
+2	lessons	lesson	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	arranged	arrange	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	parents	parent	NOUN	_	_	_	_	_	_
+7	who	who	PRON	_	_	_	_	_	_
+8	wanted	want	VERB	_	_	_	_	_	_
+9	children	child	NOUN	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	stay	stay	VERB	_	_	_	_	_	_
+12	active	active	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_055
+# text = We talked about whether competitive sports put too much pressure on teenagers.
+1	We	we	PRON	_	_	_	_	_	_
+2	talked	talk	VERB	_	_	_	_	_	_
+3	about	about	ADP	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	competitive	competitive	ADJ	_	_	_	_	_	_
+6	sports	sport	NOUN	_	_	_	_	_	_
+7	put	put	VERB	_	_	_	_	_	_
+8	too	too	ADV	_	_	_	_	_	_
+9	much	much	ADJ	_	_	_	_	_	_
+10	pressure	pressure	NOUN	_	_	_	_	_	_
+11	on	on	ADP	_	_	_	_	_	_
+12	teenagers	teenager	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_056
+# text = The stadium was opened when the mayor cut a ribbon at the entrance gate.
+1	The	the	DET	_	_	_	_	_	_
+2	stadium	stadium	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	opened	open	VERB	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	mayor	mayor	NOUN	_	_	_	_	_	_
+8	cut	cut	VERB	_	_	_	_	_	_
+9	a	a	DET	_	_	_	_	_	_
+10	ribbon	ribbon	NOUN	_	_	_	_	_	_
+11	at	at	ADP	_	_	_	_	_	_
+12	the	the	DET	_	_	_	_	_	_
+13	entrance	entrance	NOUN	_	_	_	_	_	_
+14	gate	gate	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_057
+# text = If weather forecasts are wrong, outdoor events may be canceled at short notice.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	weather	weather	NOUN	_	_	_	_	_	_
+3	forecasts	forecast	NOUN	_	_	_	_	_	_
+4	are	be	AUX	_	_	_	_	_	_
+5	wrong	wrong	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	outdoor	outdoor	ADJ	_	_	_	_	_	_
+8	events	event	NOUN	_	_	_	_	_	_
+9	may	may	AUX	_	_	_	_	_	_
+10	be	be	AUX	_	_	_	_	_	_
+11	canceled	cancel	VERB	_	_	_	_	_	_
+12	at	at	ADP	_	_	_	_	_	_
+13	short	short	ADJ	_	_	_	_	_	_
+14	notice	notice	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_058
+# text = I believe community clubs should welcome members of all ages and abilities.
+1	I	I	PRON	_	_	_	_	_	_
+2	believe	believe	VERB	_	_	_	_	_	_
+3	community	community	NOUN	_	_	_	_	_	_
+4	clubs	club	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	welcome	welcome	VERB	_	_	_	_	_	_
+7	members	member	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	all	all	DET	_	_	_	_	_	_
+10	ages	age	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	abilities	ability	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_059
+# text = The tournament was streamed online after organizers installed new broadcast equipment.
+1	The	the	DET	_	_	_	_	_	_
+2	tournament	tournament	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	streamed	stream	VERB	_	_	_	_	_	_
+5	online	online	ADV	_	_	_	_	_	_
+6	after	after	SCONJ	_	_	_	_	_	_
+7	organizers	organizer	NOUN	_	_	_	_	_	_
+8	installed	install	VERB	_	_	_	_	_	_
+9	new	new	ADJ	_	_	_	_	_	_
+10	broadcast	broadcast	NOUN	_	_	_	_	_	_
+11	equipment	equipment	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_060
+# text = Although the course is challenging, most participants complete it within six weeks.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	course	course	NOUN	_	_	_	_	_	_
+4	is	be	AUX	_	_	_	_	_	_
+5	challenging	challenging	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	most	most	ADJ	_	_	_	_	_	_
+8	participants	participant	NOUN	_	_	_	_	_	_
+9	complete	complete	VERB	_	_	_	_	_	_
+10	it	it	PRON	_	_	_	_	_	_
+11	within	within	ADP	_	_	_	_	_	_
+12	six	six	NUM	_	_	_	_	_	_
+13	weeks	week	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_061
+# text = The flight was delayed because fog reduced visibility at the regional airport.
+1	The	the	DET	_	_	_	_	_	_
+2	flight	flight	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	delayed	delay	VERB	_	_	_	_	_	_
+5	because	because	SCONJ	_	_	_	_	_	_
+6	fog	fog	NOUN	_	_	_	_	_	_
+7	reduced	reduce	VERB	_	_	_	_	_	_
+8	visibility	visibility	NOUN	_	_	_	_	_	_
+9	at	at	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	regional	regional	ADJ	_	_	_	_	_	_
+12	airport	airport	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_062
+# text = If travelers book tickets early, they can often save money on long journeys.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	travelers	traveler	NOUN	_	_	_	_	_	_
+3	book	book	VERB	_	_	_	_	_	_
+4	tickets	ticket	NOUN	_	_	_	_	_	_
+5	early	early	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	they	they	PRON	_	_	_	_	_	_
+8	can	can	AUX	_	_	_	_	_	_
+9	often	often	ADV	_	_	_	_	_	_
+10	save	save	VERB	_	_	_	_	_	_
+11	money	money	NOUN	_	_	_	_	_	_
+12	on	on	ADP	_	_	_	_	_	_
+13	long	long	ADJ	_	_	_	_	_	_
+14	journeys	journey	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_063
+# text = Many passengers believe that luggage allowances should be explained more clearly.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	passengers	passenger	NOUN	_	_	_	_	_	_
+3	believe	believe	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	luggage	luggage	NOUN	_	_	_	_	_	_
+6	allowances	allowance	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	explained	explain	VERB	_	_	_	_	_	_
+10	more	more	ADV	_	_	_	_	_	_
+11	clearly	clearly	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_064
+# text = The hotel was recommended by a guidebook that deals with budget accommodation.
+1	The	the	DET	_	_	_	_	_	_
+2	hotel	hotel	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	recommended	recommend	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	guidebook	guidebook	NOUN	_	_	_	_	_	_
+8	that	that	SCONJ	_	_	_	_	_	_
+9	deals	deal	VERB	_	_	_	_	_	_
+10	with	with	ADP	_	_	_	_	_	_
+11	budget	budget	NOUN	_	_	_	_	_	_
+12	accommodation	accommodation	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_065
+# text = Although the journey was long, we arrived safely before midnight.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	journey	journey	NOUN	_	_	_	_	_	_
+4	was	be	AUX	_	_	_	_	_	_
+5	long	long	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	we	we	PRON	_	_	_	_	_	_
+8	arrived	arrive	VERB	_	_	_	_	_	_
+9	safely	safely	ADV	_	_	_	_	_	_
+10	before	before	ADP	_	_	_	_	_	_
+11	midnight	midnight	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_066
+# text = New bus routes were introduced to connect suburbs with the city center.
+1	New	new	ADJ	_	_	_	_	_	_
+2	bus	bus	NOUN	_	_	_	_	_	_
+3	routes	route	NOUN	_	_	_	_	_	_
+4	were	be	AUX	_	_	_	_	_	_
+5	introduced	introduce	VERB	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	connect	connect	VERB	_	_	_	_	_	_
+8	suburbs	suburb	NOUN	_	_	_	_	_	_
+9	with	with	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	city	city	NOUN	_	_	_	_	_	_
+12	center	center	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_067
+# text = I think railway stations should provide better information for disabled travelers.
+1	I	I	PRON	_	_	_	_	_	_
+2	think	think	VERB	_	_	_	_	_	_
+3	railway	railway	NOUN	_	_	_	_	_	_
+4	stations	station	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	provide	provide	VERB	_	_	_	_	_	_
+7	better	good	ADJ	_	_	_	_	_	_
+8	information	information	NOUN	_	_	_	_	_	_
+9	for	for	ADP	_	_	_	_	_	_
+10	disabled	disabled	ADJ	_	_	_	_	_	_
+11	travelers	traveler	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_068
+# text = The driver explained that the service would resume after the track repair.
+1	The	the	DET	_	_	_	_	_	_
+2	driver	driver	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	service	service	NOUN	_	_	_	_	_	_
+7	would	will	AUX	_	_	_	_	_	_
+8	resume	resume	VERB	_	_	_	_	_	_
+9	after	after	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	track	track	NOUN	_	_	_	_	_	_
+12	repair	repair	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_069
+# text = If passports expire soon, applicants may have to request urgent replacements.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	passports	passport	NOUN	_	_	_	_	_	_
+3	expire	expire	VERB	_	_	_	_	_	_
+4	soon	soon	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	applicants	applicant	NOUN	_	_	_	_	_	_
+7	may	may	AUX	_	_	_	_	_	_
+8	have	have	AUX	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	request	request	VERB	_	_	_	_	_	_
+11	urgent	urgent	ADJ	_	_	_	_	_	_
+12	replacements	replacement	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_070
+# text = The bridge was closed while engineers inspected damage caused by flooding.
+1	The	the	DET	_	_	_	_	_	_
+2	bridge	bridge	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	closed	close	VERB	_	_	_	_	_	_
+5	while	while	SCONJ	_	_	_	_	_	_
+6	engineers	engineer	NOUN	_	_	_	_	_	_
+7	inspected	inspect	VERB	_	_	_	_	_	_
+8	damage	damage	NOUN	_	_	_	_	_	_
+9	caused	cause	VERB	_	_	_	_	_	_
+10	by	by	ADP	_	_	_	_	_	_
+11	flooding	flooding	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_071
+# text = Many tourists feel that travel insurance should cover medical emergencies abroad.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	tourists	tourist	NOUN	_	_	_	_	_	_
+3	feel	feel	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	travel	travel	NOUN	_	_	_	_	_	_
+6	insurance	insurance	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	cover	cover	VERB	_	_	_	_	_	_
+9	medical	medical	ADJ	_	_	_	_	_	_
+10	emergencies	emergency	NOUN	_	_	_	_	_	_
+11	abroad	abroad	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_072
+# text = The booking was changed after the airline offered an alternative departure time.
+1	The	the	DET	_	_	_	_	_	_
+2	booking	booking	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	changed	change	VERB	_	_	_	_	_	_
+5	after	after	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	airline	airline	NOUN	_	_	_	_	_	_
+8	offered	offer	VERB	_	_	_	_	_	_
+9	an	a	DET	_	_	_	_	_	_
+10	alternative	alternative	ADJ	_	_	_	_	_	_
+11	departure	departure	NOUN	_	_	_	_	_	_
+12	time	time	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_073
+# text = She said she would visit the museum if her guided tour was confirmed.
+1	She	she	PRON	_	_	_	_	_	_
+2	said	say	VERB	_	_	_	_	_	_
+3	she	she	PRON	_	_	_	_	_	_
+4	would	will	AUX	_	_	_	_	_	_
+5	visit	visit	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	museum	museum	NOUN	_	_	_	_	_	_
+8	if	if	SCONJ	_	_	_	_	_	_
+9	her	her	PRON	_	_	_	_	_	_
+10	guided	guide	VERB	_	_	_	_	_	_
+11	tour	tour	NOUN	_	_	_	_	_	_
+12	was	be	AUX	_	_	_	_	_	_
+13	confirmed	confirm	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_074
+# text = Maps were distributed by volunteers who wanted to help visitors find landmarks.
+1	Maps	map	NOUN	_	_	_	_	_	_
+2	were	be	AUX	_	_	_	_	_	_
+3	distributed	distribute	VERB	_	_	_	_	_	_
+4	by	by	ADP	_	_	_	_	_	_
+5	volunteers	volunteer	NOUN	_	_	_	_	_	_
+6	who	who	PRON	_	_	_	_	_	_
+7	wanted	want	VERB	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	help	help	VERB	_	_	_	_	_	_
+10	visitors	visitor	NOUN	_	_	_	_	_	_
+11	find	find	VERB	_	_	_	_	_	_
+12	landmarks	landmark	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_075
+# text = We talked about whether car sharing can reduce traffic in crowded cities.
+1	We	we	PRON	_	_	_	_	_	_
+2	talked	talk	VERB	_	_	_	_	_	_
+3	about	about	ADP	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	car	car	NOUN	_	_	_	_	_	_
+6	sharing	sharing	NOUN	_	_	_	_	_	_
+7	can	can	AUX	_	_	_	_	_	_
+8	reduce	reduce	VERB	_	_	_	_	_	_
+9	traffic	traffic	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	crowded	crowded	ADJ	_	_	_	_	_	_
+12	cities	city	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_076
+# text = The ferry was cancelled when strong winds made the crossing too dangerous.
+1	The	the	DET	_	_	_	_	_	_
+2	ferry	ferry	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	cancelled	cancel	VERB	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	strong	strong	ADJ	_	_	_	_	_	_
+7	winds	wind	NOUN	_	_	_	_	_	_
+8	made	make	VERB	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	crossing	crossing	NOUN	_	_	_	_	_	_
+11	too	too	ADV	_	_	_	_	_	_
+12	dangerous	dangerous	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_077
+# text = If luggage is lost, travelers may wait days before their bags are returned.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	luggage	luggage	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	lost	lose	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	travelers	traveler	NOUN	_	_	_	_	_	_
+7	may	may	AUX	_	_	_	_	_	_
+8	wait	wait	VERB	_	_	_	_	_	_
+9	days	day	NOUN	_	_	_	_	_	_
+10	before	before	SCONJ	_	_	_	_	_	_
+11	their	their	PRON	_	_	_	_	_	_
+12	bags	bag	NOUN	_	_	_	_	_	_
+13	are	be	AUX	_	_	_	_	_	_
+14	returned	return	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_078
+# text = I believe public transport should be reliable during evening and weekend hours.
+1	I	I	PRON	_	_	_	_	_	_
+2	believe	believe	VERB	_	_	_	_	_	_
+3	public	public	ADJ	_	_	_	_	_	_
+4	transport	transport	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	be	be	AUX	_	_	_	_	_	_
+7	reliable	reliable	ADJ	_	_	_	_	_	_
+8	during	during	ADP	_	_	_	_	_	_
+9	evening	evening	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	weekend	weekend	NOUN	_	_	_	_	_	_
+12	hours	hour	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_079
+# text = The complaint was filed after several commuters failed to catch important connections.
+1	The	the	DET	_	_	_	_	_	_
+2	complaint	complaint	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	filed	file	VERB	_	_	_	_	_	_
+5	after	after	SCONJ	_	_	_	_	_	_
+6	several	several	ADJ	_	_	_	_	_	_
+7	commuters	commuter	NOUN	_	_	_	_	_	_
+8	failed	fail	VERB	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	catch	catch	VERB	_	_	_	_	_	_
+11	important	important	ADJ	_	_	_	_	_	_
+12	connections	connection	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_080
+# text = Although the hostel is basic, backpackers praised its friendly atmosphere.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	hostel	hostel	NOUN	_	_	_	_	_	_
+4	is	be	AUX	_	_	_	_	_	_
+5	basic	basic	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	backpackers	backpacker	NOUN	_	_	_	_	_	_
+8	praised	praise	VERB	_	_	_	_	_	_
+9	its	its	PRON	_	_	_	_	_	_
+10	friendly	friendly	ADJ	_	_	_	_	_	_
+11	atmosphere	atmosphere	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_081
+# text = The clinic was expanded because the waiting list had grown during the winter.
+1	The	the	DET	_	_	_	_	_	_
+2	clinic	clinic	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	expanded	expand	VERB	_	_	_	_	_	_
+5	because	because	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	waiting	waiting	NOUN	_	_	_	_	_	_
+8	list	list	NOUN	_	_	_	_	_	_
+9	had	have	AUX	_	_	_	_	_	_
+10	grown	grow	VERB	_	_	_	_	_	_
+11	during	during	ADP	_	_	_	_	_	_
+12	the	the	DET	_	_	_	_	_	_
+13	winter	winter	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_082
+# text = If patients rest properly, they often recover more quickly from minor illnesses.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	patients	patient	NOUN	_	_	_	_	_	_
+3	rest	rest	VERB	_	_	_	_	_	_
+4	properly	properly	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	they	they	PRON	_	_	_	_	_	_
+7	often	often	ADV	_	_	_	_	_	_
+8	recover	recover	VERB	_	_	_	_	_	_
+9	more	more	ADV	_	_	_	_	_	_
+10	quickly	quickly	ADV	_	_	_	_	_	_
+11	from	from	ADP	_	_	_	_	_	_
+12	minor	minor	ADJ	_	_	_	_	_	_
+13	illnesses	illness	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_083
+# text = Many residents believe that mental health services should be easier to obtain.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	residents	resident	NOUN	_	_	_	_	_	_
+3	believe	believe	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	mental	mental	ADJ	_	_	_	_	_	_
+6	health	health	NOUN	_	_	_	_	_	_
+7	services	service	NOUN	_	_	_	_	_	_
+8	should	should	AUX	_	_	_	_	_	_
+9	be	be	AUX	_	_	_	_	_	_
+10	easier	easy	ADJ	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	obtain	obtain	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_084
+# text = The prescription was issued by a doctor who specializes in chronic conditions.
+1	The	the	DET	_	_	_	_	_	_
+2	prescription	prescription	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	issued	issue	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	doctor	doctor	NOUN	_	_	_	_	_	_
+8	who	who	PRON	_	_	_	_	_	_
+9	specializes	specialize	VERB	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	chronic	chronic	ADJ	_	_	_	_	_	_
+12	conditions	condition	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_085
+# text = Although the treatment was uncomfortable, most patients reported positive results.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	treatment	treatment	NOUN	_	_	_	_	_	_
+4	was	be	AUX	_	_	_	_	_	_
+5	uncomfortable	uncomfortable	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	most	most	ADJ	_	_	_	_	_	_
+8	patients	patient	NOUN	_	_	_	_	_	_
+9	reported	report	VERB	_	_	_	_	_	_
+10	positive	positive	ADJ	_	_	_	_	_	_
+11	results	result	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_086
+# text = New wellness programs were launched to help employees manage workplace stress.
+1	New	new	ADJ	_	_	_	_	_	_
+2	wellness	wellness	NOUN	_	_	_	_	_	_
+3	programs	program	NOUN	_	_	_	_	_	_
+4	were	be	AUX	_	_	_	_	_	_
+5	launched	launch	VERB	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	help	help	VERB	_	_	_	_	_	_
+8	employees	employee	NOUN	_	_	_	_	_	_
+9	manage	manage	VERB	_	_	_	_	_	_
+10	workplace	workplace	NOUN	_	_	_	_	_	_
+11	stress	stress	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_087
+# text = I think pharmacies should offer clear advice about common over the counter medicines.
+1	I	I	PRON	_	_	_	_	_	_
+2	think	think	VERB	_	_	_	_	_	_
+3	pharmacies	pharmacy	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	offer	offer	VERB	_	_	_	_	_	_
+6	clear	clear	ADJ	_	_	_	_	_	_
+7	advice	advice	NOUN	_	_	_	_	_	_
+8	about	about	ADP	_	_	_	_	_	_
+9	common	common	ADJ	_	_	_	_	_	_
+10	over	over	ADP	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	counter	counter	NOUN	_	_	_	_	_	_
+13	medicines	medicine	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_088
+# text = The nurse explained that test results would be available within three working days.
+1	The	the	DET	_	_	_	_	_	_
+2	nurse	nurse	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	test	test	NOUN	_	_	_	_	_	_
+6	results	result	NOUN	_	_	_	_	_	_
+7	would	will	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	available	available	ADJ	_	_	_	_	_	_
+10	within	within	ADP	_	_	_	_	_	_
+11	three	three	NUM	_	_	_	_	_	_
+12	working	working	NOUN	_	_	_	_	_	_
+13	days	day	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_089
+# text = If symptoms persist, patients should contact their doctor without delay.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	symptoms	symptom	NOUN	_	_	_	_	_	_
+3	persist	persist	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	patients	patient	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	contact	contact	VERB	_	_	_	_	_	_
+8	their	their	PRON	_	_	_	_	_	_
+9	doctor	doctor	NOUN	_	_	_	_	_	_
+10	without	without	ADP	_	_	_	_	_	_
+11	delay	delay	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_090
+# text = The dental surgery was renovated while emergencies were handled in a nearby unit.
+1	The	the	DET	_	_	_	_	_	_
+2	dental	dental	ADJ	_	_	_	_	_	_
+3	surgery	surgery	NOUN	_	_	_	_	_	_
+4	was	be	AUX	_	_	_	_	_	_
+5	renovated	renovate	VERB	_	_	_	_	_	_
+6	while	while	SCONJ	_	_	_	_	_	_
+7	emergencies	emergency	NOUN	_	_	_	_	_	_
+8	were	be	AUX	_	_	_	_	_	_
+9	handled	handle	VERB	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	a	a	DET	_	_	_	_	_	_
+12	nearby	nearby	ADJ	_	_	_	_	_	_
+13	unit	unit	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_091
+# text = Many families feel that vaccination reminders should be sent before school starts.
+1	Many	many	ADJ	_	_	_	_	_	_
+2	families	family	NOUN	_	_	_	_	_	_
+3	feel	feel	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	vaccination	vaccination	NOUN	_	_	_	_	_	_
+6	reminders	reminder	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	sent	send	VERB	_	_	_	_	_	_
+10	before	before	SCONJ	_	_	_	_	_	_
+11	school	school	NOUN	_	_	_	_	_	_
+12	starts	start	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_092
+# text = The appointment was rescheduled after the specialist was called to an emergency.
+1	The	the	DET	_	_	_	_	_	_
+2	appointment	appointment	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	rescheduled	reschedule	VERB	_	_	_	_	_	_
+5	after	after	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	specialist	specialist	NOUN	_	_	_	_	_	_
+8	was	be	AUX	_	_	_	_	_	_
+9	called	call	VERB	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	an	a	DET	_	_	_	_	_	_
+12	emergency	emergency	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_093
+# text = She said she would try yoga classes if the schedule fit her working hours.
+1	She	she	PRON	_	_	_	_	_	_
+2	said	say	VERB	_	_	_	_	_	_
+3	she	she	PRON	_	_	_	_	_	_
+4	would	will	AUX	_	_	_	_	_	_
+5	try	try	VERB	_	_	_	_	_	_
+6	yoga	yoga	NOUN	_	_	_	_	_	_
+7	classes	class	NOUN	_	_	_	_	_	_
+8	if	if	SCONJ	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	schedule	schedule	NOUN	_	_	_	_	_	_
+11	fit	fit	VERB	_	_	_	_	_	_
+12	her	her	PRON	_	_	_	_	_	_
+13	working	working	NOUN	_	_	_	_	_	_
+14	hours	hour	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_094
+# text = Support groups were formed by patients who wanted to share practical coping strategies.
+1	Support	support	NOUN	_	_	_	_	_	_
+2	groups	group	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	formed	form	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	patients	patient	NOUN	_	_	_	_	_	_
+7	who	who	PRON	_	_	_	_	_	_
+8	wanted	want	VERB	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	share	share	VERB	_	_	_	_	_	_
+11	practical	practical	ADJ	_	_	_	_	_	_
+12	coping	coping	NOUN	_	_	_	_	_	_
+13	strategies	strategy	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_095
+# text = We talked about whether screen time affects sleep quality among young adults.
+1	We	we	PRON	_	_	_	_	_	_
+2	talked	talk	VERB	_	_	_	_	_	_
+3	about	about	ADP	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	screen	screen	NOUN	_	_	_	_	_	_
+6	time	time	NOUN	_	_	_	_	_	_
+7	affects	affect	VERB	_	_	_	_	_	_
+8	sleep	sleep	NOUN	_	_	_	_	_	_
+9	quality	quality	NOUN	_	_	_	_	_	_
+10	among	among	ADP	_	_	_	_	_	_
+11	young	young	ADJ	_	_	_	_	_	_
+12	adults	adult	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_096
+# text = The physiotherapy session was postponed when the therapist caught a seasonal illness.
+1	The	the	DET	_	_	_	_	_	_
+2	physiotherapy	physiotherapy	NOUN	_	_	_	_	_	_
+3	session	session	NOUN	_	_	_	_	_	_
+4	was	be	AUX	_	_	_	_	_	_
+5	postponed	postpone	VERB	_	_	_	_	_	_
+6	when	when	SCONJ	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	therapist	therapist	NOUN	_	_	_	_	_	_
+9	caught	catch	VERB	_	_	_	_	_	_
+10	a	a	DET	_	_	_	_	_	_
+11	seasonal	seasonal	ADJ	_	_	_	_	_	_
+12	illness	illness	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_097
+# text = If exercise is neglected, people may experience stiffness and low energy levels.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	exercise	exercise	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	neglected	neglect	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	people	person	NOUN	_	_	_	_	_	_
+7	may	may	AUX	_	_	_	_	_	_
+8	experience	experience	VERB	_	_	_	_	_	_
+9	stiffness	stiffness	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	low	low	ADJ	_	_	_	_	_	_
+12	energy	energy	NOUN	_	_	_	_	_	_
+13	levels	level	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_098
+# text = I believe hospitals should communicate clearly with relatives during long treatments.
+1	I	I	PRON	_	_	_	_	_	_
+2	believe	believe	VERB	_	_	_	_	_	_
+3	hospitals	hospital	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	communicate	communicate	VERB	_	_	_	_	_	_
+6	clearly	clearly	ADV	_	_	_	_	_	_
+7	with	with	ADP	_	_	_	_	_	_
+8	relatives	relative	NOUN	_	_	_	_	_	_
+9	during	during	ADP	_	_	_	_	_	_
+10	long	long	ADJ	_	_	_	_	_	_
+11	treatments	treatment	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_099
+# text = The health survey was published after researchers removed all personal identifiers.
+1	The	the	DET	_	_	_	_	_	_
+2	health	health	NOUN	_	_	_	_	_	_
+3	survey	survey	NOUN	_	_	_	_	_	_
+4	was	be	AUX	_	_	_	_	_	_
+5	published	publish	VERB	_	_	_	_	_	_
+6	after	after	SCONJ	_	_	_	_	_	_
+7	researchers	researcher	NOUN	_	_	_	_	_	_
+8	removed	remove	VERB	_	_	_	_	_	_
+9	all	all	DET	_	_	_	_	_	_
+10	personal	personal	ADJ	_	_	_	_	_	_
+11	identifiers	identifier	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b1_val_100
+# text = Although recovery takes time, most volunteers said the rehabilitation program was worthwhile.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	recovery	recovery	NOUN	_	_	_	_	_	_
+3	takes	take	VERB	_	_	_	_	_	_
+4	time	time	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	most	most	ADJ	_	_	_	_	_	_
+7	volunteers	volunteer	NOUN	_	_	_	_	_	_
+8	said	say	VERB	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	rehabilitation	rehabilitation	NOUN	_	_	_	_	_	_
+11	program	program	NOUN	_	_	_	_	_	_
+12	was	be	AUX	_	_	_	_	_	_
+13	worthwhile	worthwhile	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+

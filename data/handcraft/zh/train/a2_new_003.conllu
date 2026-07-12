@@ -1,0 +1,2181 @@
+# sent_id = zh_a2_train_401
+# text = 我 的 手 机 很 矮。
+1	我	我	PRON	_	_	_	_	_	_
+2	的	的	PART	_	_	_	_	_	_
+3	手	手	NOUN	_	_	_	_	_	_
+4	机	机	ADJ	_	_	_	_	_	_
+5	很	很	PUNCT	_	_	_	_	_	_
+6	矮	矮	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_402
+# text = 妹 妹 中 午 看 报 纸。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NOUN	_	_	_	_	_	_
+3	中	中	VERB	_	_	_	_	_	_
+4	午	午	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	报	报	X	_	_	_	_	_	_
+7	纸	纸	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_403
+# text = 他 同 学 正 在 喝 热 水。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	ADV	_	_	_	_	_	_
+4	正	正	ADV	_	_	_	_	_	_
+5	在	在	VERB	_	_	_	_	_	_
+6	喝	喝	PART	_	_	_	_	_	_
+7	热	热	NOUN	_	_	_	_	_	_
+8	水	水	PUNCT	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_404
+# text = 你 不 喜 欢 去 跑 步。
+1	你	你	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	SCONJ	_	_	_	_	_	_
+5	去	去	VERB	_	_	_	_	_	_
+6	跑	跑	PUNCT	_	_	_	_	_	_
+7	步	步	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_405
+# text = 哥 哥 常 常 去 北 京。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	PROPN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	北	北	X	_	_	_	_	_	_
+7	京	京	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_406
+# text = 王 先 生 今 天 买 手 机。
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	NOUN	_	_	_	_	_	_
+4	今	今	VERB	_	_	_	_	_	_
+5	天	天	NOUN	_	_	_	_	_	_
+6	买	买	PART	_	_	_	_	_	_
+7	手	手	PUNCT	_	_	_	_	_	_
+8	机	机	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_407
+# text = 李 小 姐 今 天 去 游 泳。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	NOUN	_	_	_	_	_	_
+4	今	今	SCONJ	_	_	_	_	_	_
+5	天	天	VERB	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	游	游	X	_	_	_	_	_	_
+8	泳	泳	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_408
+# text = 她 不 想 坐 飞 机。
+1	她	她	PRON	_	_	_	_	_	_
+2	不	不	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	坐	坐	PART	_	_	_	_	_	_
+5	飞	飞	PUNCT	_	_	_	_	_	_
+6	机	机	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_409
+# text = 我 的 手 机 很 好。
+1	我	我	PRON	_	_	_	_	_	_
+2	的	的	PART	_	_	_	_	_	_
+3	手	手	NOUN	_	_	_	_	_	_
+4	机	机	ADJ	_	_	_	_	_	_
+5	很	很	PUNCT	_	_	_	_	_	_
+6	好	好	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_410
+# text = 姐 姐 常 常 去 学 校。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	学	学	X	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_411
+# text = 你 已 经 回 学 校。
+1	你	你	PRON	_	_	_	_	_	_
+2	已	已	ADV	_	_	_	_	_	_
+3	经	经	VERB	_	_	_	_	_	_
+4	回	回	NOUN	_	_	_	_	_	_
+5	学	学	PUNCT	_	_	_	_	_	_
+6	校	校	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_412
+# text = 妹 妹 现 在 坐 地 铁。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	地	地	X	_	_	_	_	_	_
+7	铁	铁	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_413
+# text = 那 家 饭 馆 太 饱 了。
+1	那	那	DET	_	_	_	_	_	_
+2	家	家	NOUN	_	_	_	_	_	_
+3	饭	饭	NOUN	_	_	_	_	_	_
+4	馆	馆	PART	_	_	_	_	_	_
+5	太	太	VERB	_	_	_	_	_	_
+6	饱	饱	PART	_	_	_	_	_	_
+7	了	了	PUNCT	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_414
+# text = 老 师 不 想 去 学 校。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	AUX	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	想	想	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	学	学	X	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_415
+# text = 姐 姐 晚 上 踢 足 球。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	踢	踢	PUNCT	_	_	_	_	_	_
+6	足	足	X	_	_	_	_	_	_
+7	球	球	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_416
+# text = 爸 爸 已 经 读 课 文。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	ADV	_	_	_	_	_	_
+3	已	已	VERB	_	_	_	_	_	_
+4	经	经	NOUN	_	_	_	_	_	_
+5	读	读	PUNCT	_	_	_	_	_	_
+6	课	课	X	_	_	_	_	_	_
+7	文	文	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_417
+# text = 你 们 今 天 去 医 院。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	医	医	X	_	_	_	_	_	_
+7	院	院	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_418
+# text = 他 晚 上 去 游 泳。
+1	他	他	PRON	_	_	_	_	_	_
+2	晚	晚	ADV	_	_	_	_	_	_
+3	上	上	VERB	_	_	_	_	_	_
+4	去	去	VERB	_	_	_	_	_	_
+5	游	游	PUNCT	_	_	_	_	_	_
+6	泳	泳	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_419
+# text = 王 先 生 不 想 回 家。
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	AUX	_	_	_	_	_	_
+4	不	不	VERB	_	_	_	_	_	_
+5	想	想	PUNCT	_	_	_	_	_	_
+6	回	回	X	_	_	_	_	_	_
+7	家	家	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_420
+# text = 他 明 天 看 报 纸。
+1	他	他	PRON	_	_	_	_	_	_
+2	明	明	PROPN	_	_	_	_	_	_
+3	天	天	PART	_	_	_	_	_	_
+4	看	看	VERB	_	_	_	_	_	_
+5	报	报	NOUN	_	_	_	_	_	_
+6	纸	纸	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_421
+# text = 哥 哥 昨 天 吃 米 饭。
+1	哥	哥	PROPN	_	_	_	_	_	_
+2	哥	哥	PART	_	_	_	_	_	_
+3	昨	昨	PUNCT	_	_	_	_	_	_
+4	天	天	X	_	_	_	_	_	_
+5	吃	吃	X	_	_	_	_	_	_
+6	米	米	X	_	_	_	_	_	_
+7	饭	饭	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_422
+# text = 他 昨 天 写 汉 字。
+1	他	他	PRON	_	_	_	_	_	_
+2	昨	昨	NOUN	_	_	_	_	_	_
+3	天	天	VERB	_	_	_	_	_	_
+4	写	写	PROPN	_	_	_	_	_	_
+5	汉	汉	PART	_	_	_	_	_	_
+6	字	字	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_423
+# text = 姐 姐 中 午 听 音 乐。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	NOUN	_	_	_	_	_	_
+3	中	中	VERB	_	_	_	_	_	_
+4	午	午	NOUN	_	_	_	_	_	_
+5	听	听	PUNCT	_	_	_	_	_	_
+6	音	音	X	_	_	_	_	_	_
+7	乐	乐	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_424
+# text = 我 正 在 回 学 校。
+1	我	我	PROPN	_	_	_	_	_	_
+2	正	正	VERB	_	_	_	_	_	_
+3	在	在	PROPN	_	_	_	_	_	_
+4	回	回	NOUN	_	_	_	_	_	_
+5	学	学	PUNCT	_	_	_	_	_	_
+6	校	校	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_425
+# text = 他 常 常 学 英 语。
+1	他	他	PRON	_	_	_	_	_	_
+2	常	常	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	学	学	PROPN	_	_	_	_	_	_
+5	英	英	PART	_	_	_	_	_	_
+6	语	语	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_426
+# text = 哥 哥 常 常 买 手 机。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	NOUN	_	_	_	_	_	_
+5	买	买	PART	_	_	_	_	_	_
+6	手	手	PUNCT	_	_	_	_	_	_
+7	机	机	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_427
+# text = 弟 弟 正 在 看 电 视。
+1	弟	弟	NOUN	_	_	_	_	_	_
+2	弟	弟	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	看	看	NOUN	_	_	_	_	_	_
+6	电	电	PUNCT	_	_	_	_	_	_
+7	视	视	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_428
+# text = 他 同 学 不 想 吃 米 饭。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	AUX	_	_	_	_	_	_
+4	不	不	VERB	_	_	_	_	_	_
+5	想	想	NOUN	_	_	_	_	_	_
+6	吃	吃	PART	_	_	_	_	_	_
+7	米	米	PUNCT	_	_	_	_	_	_
+8	饭	饭	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_429
+# text = 你 们 明 天 学 汉 语。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	PROPN	_	_	_	_	_	_
+3	明	明	PART	_	_	_	_	_	_
+4	天	天	PROPN	_	_	_	_	_	_
+5	学	学	PART	_	_	_	_	_	_
+6	汉	汉	PUNCT	_	_	_	_	_	_
+7	语	语	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_430
+# text = 他 们 早 上 去 学 校。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	早	早	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	学	学	X	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_431
+# text = 哥 哥 晚 上 去 跑 步。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	NOUN	_	_	_	_	_	_
+3	晚	晚	SCONJ	_	_	_	_	_	_
+4	上	上	VERB	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	跑	跑	X	_	_	_	_	_	_
+7	步	步	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_432
+# text = 老 师 昨 天 去 北 京。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	NOUN	_	_	_	_	_	_
+3	昨	昨	VERB	_	_	_	_	_	_
+4	天	天	PROPN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	北	北	X	_	_	_	_	_	_
+7	京	京	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_433
+# text = 医 生 想 去 学 校。
+1	医	医	NOUN	_	_	_	_	_	_
+2	生	生	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	去	去	NOUN	_	_	_	_	_	_
+5	学	学	PUNCT	_	_	_	_	_	_
+6	校	校	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_434
+# text = 我 住 在 三 楼。
+1	我	我	PRON	_	_	_	_	_	_
+2	住	住	VERB	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	三	三	NUM	_	_	_	_	_	_
+5	楼	楼	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_435
+# text = 他 想 吃 西 瓜。
+1	他	他	PRON	_	_	_	_	_	_
+2	想	想	AUX	_	_	_	_	_	_
+3	吃	吃	VERB	_	_	_	_	_	_
+4	西	西	NOUN	_	_	_	_	_	_
+5	瓜	瓜	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_436
+# text = 老 师 常 常 看 电 视。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	电	电	X	_	_	_	_	_	_
+7	视	视	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_437
+# text = 他 现 在 去 北 京。
+1	他	他	PRON	_	_	_	_	_	_
+2	现	现	NOUN	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	去	去	PROPN	_	_	_	_	_	_
+5	北	北	PUNCT	_	_	_	_	_	_
+6	京	京	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_438
+# text = 妈 妈 天 天 买 手 机。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	NOUN	_	_	_	_	_	_
+3	天	天	PART	_	_	_	_	_	_
+4	天	天	PART	_	_	_	_	_	_
+5	买	买	PUNCT	_	_	_	_	_	_
+6	手	手	X	_	_	_	_	_	_
+7	机	机	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_439
+# text = 他 同 学 不 想 打 篮 球。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	AUX	_	_	_	_	_	_
+4	不	不	VERB	_	_	_	_	_	_
+5	想	想	NOUN	_	_	_	_	_	_
+6	打	打	PUNCT	_	_	_	_	_	_
+7	篮	篮	X	_	_	_	_	_	_
+8	球	球	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_440
+# text = 医 生 今 天 坐 飞 机。
+1	医	医	NOUN	_	_	_	_	_	_
+2	生	生	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	飞	飞	X	_	_	_	_	_	_
+7	机	机	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_441
+# text = 他 们 正 在 吃 苹 果。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	吃	吃	NOUN	_	_	_	_	_	_
+6	苹	苹	PUNCT	_	_	_	_	_	_
+7	果	果	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_442
+# text = 老 师 天 天 喝 咖 啡。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	NUM	_	_	_	_	_	_
+3	天	天	NOUN	_	_	_	_	_	_
+4	天	天	VERB	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	咖	咖	PUNCT	_	_	_	_	_	_
+7	啡	啡	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_443
+# text = 姐 姐 喜 欢 吃 面 条。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	面	面	X	_	_	_	_	_	_
+7	条	条	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_444
+# text = 哥 哥 晚 上 去 上 班。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	NOUN	_	_	_	_	_	_
+3	晚	晚	SCONJ	_	_	_	_	_	_
+4	上	上	VERB	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	上	上	X	_	_	_	_	_	_
+7	班	班	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_445
+# text = 面 包 非 常 新 鲜。
+1	面	面	NOUN	_	_	_	_	_	_
+2	包	包	ADV	_	_	_	_	_	_
+3	非	非	ADJ	_	_	_	_	_	_
+4	常	常	PUNCT	_	_	_	_	_	_
+5	新	新	X	_	_	_	_	_	_
+6	鲜	鲜	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_446
+# text = 他 们 天 天 喝 咖 啡。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	NUM	_	_	_	_	_	_
+3	天	天	NOUN	_	_	_	_	_	_
+4	天	天	VERB	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	咖	咖	PUNCT	_	_	_	_	_	_
+7	啡	啡	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_447
+# text = 他 同 学 喜 欢 去 上 班。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	VERB	_	_	_	_	_	_
+4	喜	喜	SCONJ	_	_	_	_	_	_
+5	欢	欢	VERB	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	上	上	X	_	_	_	_	_	_
+8	班	班	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_448
+# text = 妹 妹 喜 欢 去 饭 馆。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PART	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	饭	饭	X	_	_	_	_	_	_
+7	馆	馆	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_449
+# text = 李 小 姐 早 上 看 电 视。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	NOUN	_	_	_	_	_	_
+4	早	早	VERB	_	_	_	_	_	_
+5	上	上	NOUN	_	_	_	_	_	_
+6	看	看	PUNCT	_	_	_	_	_	_
+7	电	电	X	_	_	_	_	_	_
+8	视	视	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_450
+# text = 妹 妹 现 在 踢 足 球。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	NOUN	_	_	_	_	_	_
+5	踢	踢	PUNCT	_	_	_	_	_	_
+6	足	足	X	_	_	_	_	_	_
+7	球	球	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_451
+# text = 我 常 常 听 音 乐。
+1	我	我	PRON	_	_	_	_	_	_
+2	常	常	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	听	听	NOUN	_	_	_	_	_	_
+5	音	音	PUNCT	_	_	_	_	_	_
+6	乐	乐	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_452
+# text = 她 现 在 去 医 院。
+1	她	她	PRON	_	_	_	_	_	_
+2	现	现	NOUN	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	去	去	NOUN	_	_	_	_	_	_
+5	医	医	PUNCT	_	_	_	_	_	_
+6	院	院	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_453
+# text = 妹 妹 常 常 买 新 鞋。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	PART	_	_	_	_	_	_
+5	买	买	NOUN	_	_	_	_	_	_
+6	新	新	PUNCT	_	_	_	_	_	_
+7	鞋	鞋	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_454
+# text = 我 们 不 想 坐 地 铁。
+1	我	我	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	想	想	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	地	地	X	_	_	_	_	_	_
+7	铁	铁	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_455
+# text = 他 同 学 喜 欢 吃 面 条。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	NOUN	_	_	_	_	_	_
+6	吃	吃	PUNCT	_	_	_	_	_	_
+7	面	面	X	_	_	_	_	_	_
+8	条	条	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_456
+# text = 他 们 喝 咖 啡 吗？
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喝	喝	NOUN	_	_	_	_	_	_
+4	咖	咖	PART	_	_	_	_	_	_
+5	啡	啡	PUNCT	_	_	_	_	_	_
+6	吗	吗	X	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_457
+# text = 老 师 现 在 去 跑 步。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	NOUN	_	_	_	_	_	_
+3	现	现	SCONJ	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	跑	跑	X	_	_	_	_	_	_
+7	步	步	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_458
+# text = 他 同 学 不 想 看 电 视。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	ADV	_	_	_	_	_	_
+4	不	不	AUX	_	_	_	_	_	_
+5	想	想	VERB	_	_	_	_	_	_
+6	看	看	NOUN	_	_	_	_	_	_
+7	电	电	PUNCT	_	_	_	_	_	_
+8	视	视	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_459
+# text = 爸 爸 正 在 去 学 校。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	去	去	NOUN	_	_	_	_	_	_
+6	学	学	PUNCT	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_460
+# text = 老 师 不 喜 欢 去 学 校。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	ADV	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	NOUN	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	学	学	X	_	_	_	_	_	_
+8	校	校	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_461
+# text = 哥 哥 喜 欢 吃 苹 果。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PROPN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	苹	苹	X	_	_	_	_	_	_
+7	果	果	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_462
+# text = 你 姐 姐 太 旧 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	姐	姐	NOUN	_	_	_	_	_	_
+3	姐	姐	ADJ	_	_	_	_	_	_
+4	太	太	PART	_	_	_	_	_	_
+5	旧	旧	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_463
+# text = 他 们 昨 天 喝 咖 啡。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	昨	昨	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	喝	喝	PUNCT	_	_	_	_	_	_
+6	咖	咖	X	_	_	_	_	_	_
+7	啡	啡	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_464
+# text = 张 医 生 天 天 去 上 班。
+1	张	张	PROPN	_	_	_	_	_	_
+2	医	医	PROPN	_	_	_	_	_	_
+3	生	生	NOUN	_	_	_	_	_	_
+4	天	天	PART	_	_	_	_	_	_
+5	天	天	SCONJ	_	_	_	_	_	_
+6	去	去	VERB	_	_	_	_	_	_
+7	上	上	PUNCT	_	_	_	_	_	_
+8	班	班	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_465
+# text = 妈 妈 正 在 回 学 校。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	回	回	NOUN	_	_	_	_	_	_
+6	学	学	PUNCT	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_466
+# text = 你 们 明 天 坐 火 车。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	PROPN	_	_	_	_	_	_
+3	明	明	PROPN	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	火	火	X	_	_	_	_	_	_
+7	车	车	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_467
+# text = 他 明 天 吃 面 包。
+1	他	他	PRON	_	_	_	_	_	_
+2	明	明	PROPN	_	_	_	_	_	_
+3	天	天	PART	_	_	_	_	_	_
+4	吃	吃	VERB	_	_	_	_	_	_
+5	面	面	NOUN	_	_	_	_	_	_
+6	包	包	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_468
+# text = 我 不 喜 欢 看 电 视。
+1	我	我	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	VERB	_	_	_	_	_	_
+5	看	看	NOUN	_	_	_	_	_	_
+6	电	电	PUNCT	_	_	_	_	_	_
+7	视	视	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_469
+# text = 我 们 不 喜 欢 喝 绿 茶。
+1	我	我	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	NOUN	_	_	_	_	_	_
+6	喝	喝	NOUN	_	_	_	_	_	_
+7	绿	绿	PUNCT	_	_	_	_	_	_
+8	茶	茶	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_470
+# text = 你 姐 姐 太 矮 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	姐	姐	NOUN	_	_	_	_	_	_
+3	姐	姐	ADJ	_	_	_	_	_	_
+4	太	太	PART	_	_	_	_	_	_
+5	矮	矮	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_471
+# text = 爸 爸 现 在 去 学 校。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	学	学	X	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_472
+# text = 妹 妹 昨 天 学 汉 语。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NOUN	_	_	_	_	_	_
+3	昨	昨	PART	_	_	_	_	_	_
+4	天	天	PROPN	_	_	_	_	_	_
+5	学	学	PART	_	_	_	_	_	_
+6	汉	汉	PUNCT	_	_	_	_	_	_
+7	语	语	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_473
+# text = 你 们 今 天 读 课 文。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	读	读	PUNCT	_	_	_	_	_	_
+6	课	课	X	_	_	_	_	_	_
+7	文	文	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_474
+# text = 我 朋 友 不 喜 欢 去 跑 步。
+1	我	我	PRON	_	_	_	_	_	_
+2	朋	朋	NOUN	_	_	_	_	_	_
+3	友	友	ADV	_	_	_	_	_	_
+4	不	不	VERB	_	_	_	_	_	_
+5	喜	喜	SCONJ	_	_	_	_	_	_
+6	欢	欢	VERB	_	_	_	_	_	_
+7	去	去	PUNCT	_	_	_	_	_	_
+8	跑	跑	X	_	_	_	_	_	_
+9	步	步	X	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_475
+# text = 弟 弟 想 吃 午 饭。
+1	弟	弟	NOUN	_	_	_	_	_	_
+2	弟	弟	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	吃	吃	PROPN	_	_	_	_	_	_
+5	午	午	PART	_	_	_	_	_	_
+6	饭	饭	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_476
+# text = 爸 爸 回 家 吗？
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	VERB	_	_	_	_	_	_
+3	回	回	PART	_	_	_	_	_	_
+4	家	家	PUNCT	_	_	_	_	_	_
+5	吗	吗	X	_	_	_	_	_	_
+6	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_477
+# text = 妈 妈 今 天 去 医 院。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	医	医	X	_	_	_	_	_	_
+7	院	院	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_478
+# text = 哥 哥 想 打 篮 球。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	打	打	NOUN	_	_	_	_	_	_
+5	篮	篮	PUNCT	_	_	_	_	_	_
+6	球	球	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_479
+# text = 她 今 天 学 英 语。
+1	她	她	PRON	_	_	_	_	_	_
+2	今	今	NOUN	_	_	_	_	_	_
+3	天	天	PART	_	_	_	_	_	_
+4	学	学	PROPN	_	_	_	_	_	_
+5	英	英	PART	_	_	_	_	_	_
+6	语	语	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_480
+# text = 她 想 去 跑 步。
+1	她	她	PRON	_	_	_	_	_	_
+2	想	想	AUX	_	_	_	_	_	_
+3	去	去	SCONJ	_	_	_	_	_	_
+4	跑	跑	VERB	_	_	_	_	_	_
+5	步	步	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_481
+# text = 这 个 学 校 很 新。
+1	这	这	DET	_	_	_	_	_	_
+2	个	个	NOUN	_	_	_	_	_	_
+3	学	学	NOUN	_	_	_	_	_	_
+4	校	校	ADJ	_	_	_	_	_	_
+5	很	很	PUNCT	_	_	_	_	_	_
+6	新	新	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_482
+# text = 爸 爸 常 常 吃 苹 果。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	苹	苹	X	_	_	_	_	_	_
+7	果	果	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_483
+# text = 妹 妹 现 在 看 电 视。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	电	电	X	_	_	_	_	_	_
+7	视	视	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_484
+# text = 医 生 中 午 去 北 京。
+1	医	医	NOUN	_	_	_	_	_	_
+2	生	生	NOUN	_	_	_	_	_	_
+3	中	中	VERB	_	_	_	_	_	_
+4	午	午	PROPN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	北	北	X	_	_	_	_	_	_
+7	京	京	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_485
+# text = 张 医 生 中 午 去 商 店。
+1	张	张	PROPN	_	_	_	_	_	_
+2	医	医	NOUN	_	_	_	_	_	_
+3	生	生	NOUN	_	_	_	_	_	_
+4	中	中	VERB	_	_	_	_	_	_
+5	午	午	NOUN	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	商	商	X	_	_	_	_	_	_
+8	店	店	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_486
+# text = 我 朋 友 已 经 回 学 校。
+1	我	我	PRON	_	_	_	_	_	_
+2	朋	朋	NOUN	_	_	_	_	_	_
+3	友	友	ADV	_	_	_	_	_	_
+4	已	已	VERB	_	_	_	_	_	_
+5	经	经	NOUN	_	_	_	_	_	_
+6	回	回	PUNCT	_	_	_	_	_	_
+7	学	学	X	_	_	_	_	_	_
+8	校	校	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_487
+# text = 姐 姐 晚 上 看 电 影。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	电	电	X	_	_	_	_	_	_
+7	影	影	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_488
+# text = 她 正 在 看 电 影。
+1	她	她	PRON	_	_	_	_	_	_
+2	正	正	ADV	_	_	_	_	_	_
+3	在	在	ADV	_	_	_	_	_	_
+4	看	看	VERB	_	_	_	_	_	_
+5	电	电	NOUN	_	_	_	_	_	_
+6	影	影	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_489
+# text = 妈 妈 已 经 看 电 视。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	ADV	_	_	_	_	_	_
+3	已	已	VERB	_	_	_	_	_	_
+4	经	经	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	电	电	X	_	_	_	_	_	_
+7	视	视	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_490
+# text = 我 早 上 骑 自 行 车。
+1	我	我	PRON	_	_	_	_	_	_
+2	早	早	NOUN	_	_	_	_	_	_
+3	上	上	VERB	_	_	_	_	_	_
+4	骑	骑	VERB	_	_	_	_	_	_
+5	自	自	PART	_	_	_	_	_	_
+6	行	行	PUNCT	_	_	_	_	_	_
+7	车	车	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_491
+# text = 老 师 晚 上 看 书。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	书	书	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_492
+# text = 妹 妹 现 在 学 汉 语。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NOUN	_	_	_	_	_	_
+3	现	现	PART	_	_	_	_	_	_
+4	在	在	PROPN	_	_	_	_	_	_
+5	学	学	PART	_	_	_	_	_	_
+6	汉	汉	PUNCT	_	_	_	_	_	_
+7	语	语	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_493
+# text = 张 医 生 喜 欢 坐 火 车。
+1	张	张	PROPN	_	_	_	_	_	_
+2	医	医	NOUN	_	_	_	_	_	_
+3	生	生	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	NOUN	_	_	_	_	_	_
+6	坐	坐	PUNCT	_	_	_	_	_	_
+7	火	火	X	_	_	_	_	_	_
+8	车	车	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_494
+# text = 你 们 明 天 看 书。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	明	明	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	书	书	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_495
+# text = 她 不 喜 欢 去 学 校。
+1	她	她	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	VERB	_	_	_	_	_	_
+5	去	去	NOUN	_	_	_	_	_	_
+6	学	学	PUNCT	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_496
+# text = 我 爸 爸 太 瘦 了。
+1	我	我	PRON	_	_	_	_	_	_
+2	爸	爸	NOUN	_	_	_	_	_	_
+3	爸	爸	ADV	_	_	_	_	_	_
+4	太	太	ADJ	_	_	_	_	_	_
+5	瘦	瘦	PART	_	_	_	_	_	_
+6	了	了	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_497
+# text = 你 们 现 在 买 水 果。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	NOUN	_	_	_	_	_	_
+5	买	买	PUNCT	_	_	_	_	_	_
+6	水	水	X	_	_	_	_	_	_
+7	果	果	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_498
+# text = 妈 妈 天 天 去 跑 步。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	NOUN	_	_	_	_	_	_
+3	天	天	SCONJ	_	_	_	_	_	_
+4	天	天	VERB	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	跑	跑	X	_	_	_	_	_	_
+7	步	步	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_499
+# text = 我 朋 友 晚 上 看 电 视。
+1	我	我	PRON	_	_	_	_	_	_
+2	朋	朋	NOUN	_	_	_	_	_	_
+3	友	友	NOUN	_	_	_	_	_	_
+4	晚	晚	VERB	_	_	_	_	_	_
+5	上	上	NOUN	_	_	_	_	_	_
+6	看	看	PUNCT	_	_	_	_	_	_
+7	电	电	X	_	_	_	_	_	_
+8	视	视	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_500
+# text = 哥 哥 喜 欢 去 学 校。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	学	学	X	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_501
+# text = 这 件 衣 服 很 旧。
+1	这	这	DET	_	_	_	_	_	_
+2	件	件	NOUN	_	_	_	_	_	_
+3	衣	衣	NOUN	_	_	_	_	_	_
+4	服	服	ADJ	_	_	_	_	_	_
+5	很	很	PUNCT	_	_	_	_	_	_
+6	旧	旧	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_502
+# text = 她 不 想 坐 地 铁。
+1	她	她	PRON	_	_	_	_	_	_
+2	不	不	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	坐	坐	NOUN	_	_	_	_	_	_
+5	地	地	PUNCT	_	_	_	_	_	_
+6	铁	铁	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_503
+# text = 你 们 正 在 去 学 校。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	去	去	NOUN	_	_	_	_	_	_
+6	学	学	PUNCT	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_504
+# text = 你 们 今 天 喝 绿 茶。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	绿	绿	PUNCT	_	_	_	_	_	_
+7	茶	茶	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_505
+# text = 他 们 喜 欢 学 英 语。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PROPN	_	_	_	_	_	_
+5	学	学	PART	_	_	_	_	_	_
+6	英	英	PUNCT	_	_	_	_	_	_
+7	语	语	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_506
+# text = 李 小 姐 天 天 学 汉 语。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	NOUN	_	_	_	_	_	_
+4	天	天	PART	_	_	_	_	_	_
+5	天	天	PROPN	_	_	_	_	_	_
+6	学	学	PART	_	_	_	_	_	_
+7	汉	汉	PUNCT	_	_	_	_	_	_
+8	语	语	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_507
+# text = 李 小 姐 明 天 去 上 班。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	PROPN	_	_	_	_	_	_
+4	明	明	SCONJ	_	_	_	_	_	_
+5	天	天	VERB	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	上	上	X	_	_	_	_	_	_
+8	班	班	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_508
+# text = 他 们 常 常 喝 热 水。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	PART	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	热	热	PUNCT	_	_	_	_	_	_
+7	水	水	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_509
+# text = 他 同 学 常 常 学 汉 语。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	ADV	_	_	_	_	_	_
+4	常	常	VERB	_	_	_	_	_	_
+5	常	常	PROPN	_	_	_	_	_	_
+6	学	学	PART	_	_	_	_	_	_
+7	汉	汉	PUNCT	_	_	_	_	_	_
+8	语	语	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_510
+# text = 我 今 天 吃 晚 饭。
+1	我	我	PRON	_	_	_	_	_	_
+2	今	今	NOUN	_	_	_	_	_	_
+3	天	天	VERB	_	_	_	_	_	_
+4	吃	吃	NOUN	_	_	_	_	_	_
+5	晚	晚	PUNCT	_	_	_	_	_	_
+6	饭	饭	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_511
+# text = 你 们 常 常 吃 午 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	PROPN	_	_	_	_	_	_
+5	吃	吃	PART	_	_	_	_	_	_
+6	午	午	PUNCT	_	_	_	_	_	_
+7	饭	饭	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_512
+# text = 妈 妈 晚 上 去 学 校。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	学	学	X	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_513
+# text = 李 小 姐 想 学 汉 语。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	AUX	_	_	_	_	_	_
+4	想	想	VERB	_	_	_	_	_	_
+5	学	学	PROPN	_	_	_	_	_	_
+6	汉	汉	PART	_	_	_	_	_	_
+7	语	语	PUNCT	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_514
+# text = 老 师 现 在 坐 飞 机。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	PART	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	飞	飞	X	_	_	_	_	_	_
+7	机	机	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_515
+# text = 姐 姐 早 上 坐 飞 机。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	NOUN	_	_	_	_	_	_
+3	早	早	VERB	_	_	_	_	_	_
+4	上	上	VERB	_	_	_	_	_	_
+5	坐	坐	PART	_	_	_	_	_	_
+6	飞	飞	PUNCT	_	_	_	_	_	_
+7	机	机	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_516
+# text = 飞 机 要 起 飞 了。
+1	飞	飞	NOUN	_	_	_	_	_	_
+2	机	机	AUX	_	_	_	_	_	_
+3	要	要	VERB	_	_	_	_	_	_
+4	起	起	PART	_	_	_	_	_	_
+5	飞	飞	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_517
+# text = 这 家 商 店 很 少。
+1	这	这	DET	_	_	_	_	_	_
+2	家	家	NOUN	_	_	_	_	_	_
+3	商	商	NOUN	_	_	_	_	_	_
+4	店	店	ADJ	_	_	_	_	_	_
+5	很	很	PUNCT	_	_	_	_	_	_
+6	少	少	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_518
+# text = 爸 爸 晚 上 吃 面 包。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	面	面	X	_	_	_	_	_	_
+7	包	包	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_519
+# text = 爸 爸 中 午 喝 绿 茶。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	NOUN	_	_	_	_	_	_
+3	中	中	VERB	_	_	_	_	_	_
+4	午	午	NOUN	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	绿	绿	PUNCT	_	_	_	_	_	_
+7	茶	茶	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_520
+# text = 他 同 学 已 经 看 报 纸。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	ADV	_	_	_	_	_	_
+4	已	已	VERB	_	_	_	_	_	_
+5	经	经	NOUN	_	_	_	_	_	_
+6	看	看	PUNCT	_	_	_	_	_	_
+7	报	报	X	_	_	_	_	_	_
+8	纸	纸	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_521
+# text = 他 昨 天 吃 米 饭。
+1	他	他	PRON	_	_	_	_	_	_
+2	昨	昨	NOUN	_	_	_	_	_	_
+3	天	天	VERB	_	_	_	_	_	_
+4	吃	吃	NOUN	_	_	_	_	_	_
+5	米	米	PART	_	_	_	_	_	_
+6	饭	饭	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_522
+# text = 他 们 常 常 读 课 文。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	常	常	NOUN	_	_	_	_	_	_
+5	读	读	PUNCT	_	_	_	_	_	_
+6	课	课	X	_	_	_	_	_	_
+7	文	文	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_523
+# text = 她 正 在 喝 咖 啡。
+1	她	她	PRON	_	_	_	_	_	_
+2	正	正	ADV	_	_	_	_	_	_
+3	在	在	ADV	_	_	_	_	_	_
+4	喝	喝	VERB	_	_	_	_	_	_
+5	咖	咖	NOUN	_	_	_	_	_	_
+6	啡	啡	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_524
+# text = 你 们 中 午 坐 地 铁。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	中	中	VERB	_	_	_	_	_	_
+4	午	午	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	地	地	X	_	_	_	_	_	_
+7	铁	铁	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_525
+# text = 他 们 吃 米 饭 吗？
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NOUN	_	_	_	_	_	_
+4	米	米	NOUN	_	_	_	_	_	_
+5	饭	饭	PART	_	_	_	_	_	_
+6	吗	吗	PUNCT	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_526
+# text = 他 同 学 早 上 喝 绿 茶。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	NOUN	_	_	_	_	_	_
+4	早	早	VERB	_	_	_	_	_	_
+5	上	上	NOUN	_	_	_	_	_	_
+6	喝	喝	PART	_	_	_	_	_	_
+7	绿	绿	PUNCT	_	_	_	_	_	_
+8	茶	茶	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_527
+# text = 李 小 姐 晚 上 看 报 纸。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	NOUN	_	_	_	_	_	_
+4	晚	晚	VERB	_	_	_	_	_	_
+5	上	上	NOUN	_	_	_	_	_	_
+6	看	看	PUNCT	_	_	_	_	_	_
+7	报	报	X	_	_	_	_	_	_
+8	纸	纸	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_528
+# text = 你 们 不 喜 欢 打 篮 球。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	NOUN	_	_	_	_	_	_
+6	打	打	PUNCT	_	_	_	_	_	_
+7	篮	篮	X	_	_	_	_	_	_
+8	球	球	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_529
+# text = 妹 妹 正 在 回 学 校。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	回	回	NOUN	_	_	_	_	_	_
+6	学	学	PUNCT	_	_	_	_	_	_
+7	校	校	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_530
+# text = 爸 爸 看 报 纸 吗？
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	VERB	_	_	_	_	_	_
+3	看	看	NOUN	_	_	_	_	_	_
+4	报	报	PART	_	_	_	_	_	_
+5	纸	纸	PUNCT	_	_	_	_	_	_
+6	吗	吗	X	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_531
+# text = 老 师 不 喜 欢 去 北 京。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	ADV	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	PROPN	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	北	北	X	_	_	_	_	_	_
+8	京	京	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_532
+# text = 我 喜 欢 读 课 文。
+1	我	我	PRON	_	_	_	_	_	_
+2	喜	喜	VERB	_	_	_	_	_	_
+3	欢	欢	VERB	_	_	_	_	_	_
+4	读	读	NOUN	_	_	_	_	_	_
+5	课	课	PUNCT	_	_	_	_	_	_
+6	文	文	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_533
+# text = 你 们 已 经 踢 足 球。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	已	已	VERB	_	_	_	_	_	_
+4	经	经	NOUN	_	_	_	_	_	_
+5	踢	踢	PUNCT	_	_	_	_	_	_
+6	足	足	X	_	_	_	_	_	_
+7	球	球	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_534
+# text = 妹 妹 晚 上 看 书。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	书	书	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_535
+# text = 他 们 想 买 水 果。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	水	水	PUNCT	_	_	_	_	_	_
+6	果	果	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_536
+# text = 这 件 衣 服 很 冷。
+1	这	这	DET	_	_	_	_	_	_
+2	件	件	NOUN	_	_	_	_	_	_
+3	衣	衣	NOUN	_	_	_	_	_	_
+4	服	服	ADJ	_	_	_	_	_	_
+5	很	很	PUNCT	_	_	_	_	_	_
+6	冷	冷	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_537
+# text = 妈 妈 中 午 去 北 京。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	NOUN	_	_	_	_	_	_
+3	中	中	VERB	_	_	_	_	_	_
+4	午	午	PROPN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	北	北	X	_	_	_	_	_	_
+7	京	京	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_538
+# text = 李 小 姐 今 天 买 手 机。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	NOUN	_	_	_	_	_	_
+4	今	今	VERB	_	_	_	_	_	_
+5	天	天	NOUN	_	_	_	_	_	_
+6	买	买	PART	_	_	_	_	_	_
+7	手	手	PUNCT	_	_	_	_	_	_
+8	机	机	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_539
+# text = 爸 爸 晚 上 喝 热 水。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	PART	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	热	热	PUNCT	_	_	_	_	_	_
+7	水	水	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_540
+# text = 医 生 早 上 去 商 店。
+1	医	医	NOUN	_	_	_	_	_	_
+2	生	生	NOUN	_	_	_	_	_	_
+3	早	早	VERB	_	_	_	_	_	_
+4	上	上	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	商	商	X	_	_	_	_	_	_
+7	店	店	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_541
+# text = 他 同 学 想 写 汉 字。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	AUX	_	_	_	_	_	_
+4	想	想	VERB	_	_	_	_	_	_
+5	写	写	PROPN	_	_	_	_	_	_
+6	汉	汉	PART	_	_	_	_	_	_
+7	字	字	PUNCT	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_542
+# text = 我 们 喜 欢 喝 热 水。
+1	我	我	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PART	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	热	热	PUNCT	_	_	_	_	_	_
+7	水	水	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_543
+# text = 我 朋 友 喜 欢 看 报 纸。
+1	我	我	PRON	_	_	_	_	_	_
+2	朋	朋	NOUN	_	_	_	_	_	_
+3	友	友	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	NOUN	_	_	_	_	_	_
+6	看	看	PUNCT	_	_	_	_	_	_
+7	报	报	X	_	_	_	_	_	_
+8	纸	纸	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_544
+# text = 他 不 想 去 跑 步。
+1	他	他	PRON	_	_	_	_	_	_
+2	不	不	AUX	_	_	_	_	_	_
+3	想	想	SCONJ	_	_	_	_	_	_
+4	去	去	VERB	_	_	_	_	_	_
+5	跑	跑	PUNCT	_	_	_	_	_	_
+6	步	步	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_545
+# text = 妈 妈 已 经 吃 面 条。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	ADV	_	_	_	_	_	_
+3	已	已	VERB	_	_	_	_	_	_
+4	经	经	NUM	_	_	_	_	_	_
+5	吃	吃	NOUN	_	_	_	_	_	_
+6	面	面	PUNCT	_	_	_	_	_	_
+7	条	条	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_546
+# text = 我 们 晚 上 学 英 语。
+1	我	我	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	晚	晚	PART	_	_	_	_	_	_
+4	上	上	PROPN	_	_	_	_	_	_
+5	学	学	PART	_	_	_	_	_	_
+6	英	英	PUNCT	_	_	_	_	_	_
+7	语	语	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_547
+# text = 李 小 姐 已 经 去 商 店。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	ADV	_	_	_	_	_	_
+4	已	已	VERB	_	_	_	_	_	_
+5	经	经	NOUN	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	商	商	X	_	_	_	_	_	_
+8	店	店	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_548
+# text = 你 们 现 在 打 篮 球。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	NOUN	_	_	_	_	_	_
+5	打	打	PUNCT	_	_	_	_	_	_
+6	篮	篮	X	_	_	_	_	_	_
+7	球	球	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_549
+# text = 妈 妈 喜 欢 去 商 店。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	商	商	X	_	_	_	_	_	_
+7	店	店	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_550
+# text = 他 同 学 不 喜 欢 看 书。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	ADV	_	_	_	_	_	_
+4	不	不	VERB	_	_	_	_	_	_
+5	喜	喜	VERB	_	_	_	_	_	_
+6	欢	欢	PUNCT	_	_	_	_	_	_
+7	看	看	X	_	_	_	_	_	_
+8	书	书	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_551
+# text = 他 们 正 在 吃 晚 饭。
+1	他	他	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	吃	吃	NOUN	_	_	_	_	_	_
+6	晚	晚	PUNCT	_	_	_	_	_	_
+7	饭	饭	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_552
+# text = 妹 妹 天 天 坐 飞 机。
+1	妹	妹	NOUN	_	_	_	_	_	_
+2	妹	妹	NUM	_	_	_	_	_	_
+3	天	天	PROPN	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	飞	飞	X	_	_	_	_	_	_
+7	机	机	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_553
+# text = 我 朋 友 已 经 坐 飞 机。
+1	我	我	PRON	_	_	_	_	_	_
+2	朋	朋	NOUN	_	_	_	_	_	_
+3	友	友	ADV	_	_	_	_	_	_
+4	已	已	VERB	_	_	_	_	_	_
+5	经	经	PART	_	_	_	_	_	_
+6	坐	坐	PUNCT	_	_	_	_	_	_
+7	飞	飞	X	_	_	_	_	_	_
+8	机	机	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_554
+# text = 妈 妈 今 天 坐 飞 机。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	飞	飞	X	_	_	_	_	_	_
+7	机	机	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_555
+# text = 张 医 生 今 天 吃 面 条。
+1	张	张	PROPN	_	_	_	_	_	_
+2	医	医	NOUN	_	_	_	_	_	_
+3	生	生	NOUN	_	_	_	_	_	_
+4	今	今	VERB	_	_	_	_	_	_
+5	天	天	NOUN	_	_	_	_	_	_
+6	吃	吃	PUNCT	_	_	_	_	_	_
+7	面	面	X	_	_	_	_	_	_
+8	条	条	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_556
+# text = 妈 妈 今 天 打 篮 球。
+1	妈	妈	NOUN	_	_	_	_	_	_
+2	妈	妈	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	打	打	PUNCT	_	_	_	_	_	_
+6	篮	篮	X	_	_	_	_	_	_
+7	球	球	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_557
+# text = 他 同 学 早 上 听 音 乐。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	NOUN	_	_	_	_	_	_
+4	早	早	VERB	_	_	_	_	_	_
+5	上	上	NOUN	_	_	_	_	_	_
+6	听	听	PUNCT	_	_	_	_	_	_
+7	音	音	X	_	_	_	_	_	_
+8	乐	乐	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_558
+# text = 姐 姐 昨 天 吃 米 饭。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	NOUN	_	_	_	_	_	_
+3	昨	昨	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	吃	吃	NOUN	_	_	_	_	_	_
+6	米	米	PUNCT	_	_	_	_	_	_
+7	饭	饭	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_559
+# text = 他 同 学 天 天 看 电 视。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	NOUN	_	_	_	_	_	_
+4	天	天	VERB	_	_	_	_	_	_
+5	天	天	NOUN	_	_	_	_	_	_
+6	看	看	PUNCT	_	_	_	_	_	_
+7	电	电	X	_	_	_	_	_	_
+8	视	视	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_560
+# text = 弟 弟 写 汉 字 吗？
+1	弟	弟	NOUN	_	_	_	_	_	_
+2	弟	弟	VERB	_	_	_	_	_	_
+3	写	写	PROPN	_	_	_	_	_	_
+4	汉	汉	PART	_	_	_	_	_	_
+5	字	字	PART	_	_	_	_	_	_
+6	吗	吗	PUNCT	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_561
+# text = 哥 哥 现 在 去 北 京。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	NOUN	_	_	_	_	_	_
+3	现	现	VERB	_	_	_	_	_	_
+4	在	在	PROPN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	北	北	X	_	_	_	_	_	_
+7	京	京	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_562
+# text = 张 医 生 已 经 去 饭 馆。
+1	张	张	PROPN	_	_	_	_	_	_
+2	医	医	NOUN	_	_	_	_	_	_
+3	生	生	ADV	_	_	_	_	_	_
+4	已	已	NOUN	_	_	_	_	_	_
+5	经	经	PART	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	饭	饭	X	_	_	_	_	_	_
+8	馆	馆	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_563
+# text = 弟 弟 喜 欢 去 饭 馆。
+1	弟	弟	NOUN	_	_	_	_	_	_
+2	弟	弟	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PART	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	饭	饭	X	_	_	_	_	_	_
+7	馆	馆	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_564
+# text = 她 正 在 看 书。
+1	她	她	PRON	_	_	_	_	_	_
+2	正	正	ADV	_	_	_	_	_	_
+3	在	在	ADV	_	_	_	_	_	_
+4	看	看	VERB	_	_	_	_	_	_
+5	书	书	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_565
+# text = 她 不 喜 欢 去 饭 馆。
+1	她	她	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	去	去	PART	_	_	_	_	_	_
+6	饭	饭	PUNCT	_	_	_	_	_	_
+7	馆	馆	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_566
+# text = 爸 爸 不 喜 欢 踢 足 球。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	ADV	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	喜	喜	VERB	_	_	_	_	_	_
+5	欢	欢	NOUN	_	_	_	_	_	_
+6	踢	踢	PUNCT	_	_	_	_	_	_
+7	足	足	X	_	_	_	_	_	_
+8	球	球	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_567
+# text = 张 医 生 正 在 去 北 京。
+1	张	张	PROPN	_	_	_	_	_	_
+2	医	医	NOUN	_	_	_	_	_	_
+3	生	生	ADV	_	_	_	_	_	_
+4	正	正	ADV	_	_	_	_	_	_
+5	在	在	VERB	_	_	_	_	_	_
+6	去	去	PROPN	_	_	_	_	_	_
+7	北	北	PUNCT	_	_	_	_	_	_
+8	京	京	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_568
+# text = 这 间 教 室 很 胖。
+1	这	这	DET	_	_	_	_	_	_
+2	间	间	NOUN	_	_	_	_	_	_
+3	教	教	NOUN	_	_	_	_	_	_
+4	室	室	ADJ	_	_	_	_	_	_
+5	很	很	PUNCT	_	_	_	_	_	_
+6	胖	胖	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_569
+# text = 你 不 想 去 上 班。
+1	你	你	PRON	_	_	_	_	_	_
+2	不	不	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	去	去	VERB	_	_	_	_	_	_
+5	上	上	PUNCT	_	_	_	_	_	_
+6	班	班	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_570
+# text = 你 常 常 读 课 文。
+1	你	你	PRON	_	_	_	_	_	_
+2	常	常	ADV	_	_	_	_	_	_
+3	常	常	VERB	_	_	_	_	_	_
+4	读	读	NOUN	_	_	_	_	_	_
+5	课	课	PUNCT	_	_	_	_	_	_
+6	文	文	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_571
+# text = 王 先 生 晚 上 买 手 机。
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	NOUN	_	_	_	_	_	_
+4	晚	晚	VERB	_	_	_	_	_	_
+5	上	上	NOUN	_	_	_	_	_	_
+6	买	买	PART	_	_	_	_	_	_
+7	手	手	PUNCT	_	_	_	_	_	_
+8	机	机	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_572
+# text = 王 先 生 晚 上 坐 火 车。
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	NOUN	_	_	_	_	_	_
+4	晚	晚	VERB	_	_	_	_	_	_
+5	上	上	NOUN	_	_	_	_	_	_
+6	坐	坐	PUNCT	_	_	_	_	_	_
+7	火	火	X	_	_	_	_	_	_
+8	车	车	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_573
+# text = 姐 姐 想 去 医 院。
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	去	去	NOUN	_	_	_	_	_	_
+5	医	医	PUNCT	_	_	_	_	_	_
+6	院	院	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_574
+# text = 哥 哥 今 天 看 书。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	书	书	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_575
+# text = 天 气 太 小 了。
+1	天	天	NOUN	_	_	_	_	_	_
+2	气	气	ADJ	_	_	_	_	_	_
+3	太	太	PART	_	_	_	_	_	_
+4	小	小	PUNCT	_	_	_	_	_	_
+5	了	了	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_576
+# text = 他 不 想 读 课 文。
+1	他	他	PRON	_	_	_	_	_	_
+2	不	不	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	读	读	NOUN	_	_	_	_	_	_
+5	课	课	PUNCT	_	_	_	_	_	_
+6	文	文	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_577
+# text = 弟 弟 晚 上 买 新 鞋。
+1	弟	弟	NOUN	_	_	_	_	_	_
+2	弟	弟	NOUN	_	_	_	_	_	_
+3	晚	晚	VERB	_	_	_	_	_	_
+4	上	上	PART	_	_	_	_	_	_
+5	买	买	NOUN	_	_	_	_	_	_
+6	新	新	PUNCT	_	_	_	_	_	_
+7	鞋	鞋	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_578
+# text = 你 现 在 去 商 店。
+1	你	你	PRON	_	_	_	_	_	_
+2	现	现	NOUN	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	去	去	NOUN	_	_	_	_	_	_
+5	商	商	PUNCT	_	_	_	_	_	_
+6	店	店	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_579
+# text = 王 先 生 天 天 去 饭 馆。
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	NUM	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	天	天	VERB	_	_	_	_	_	_
+6	去	去	NOUN	_	_	_	_	_	_
+7	饭	饭	PART	_	_	_	_	_	_
+8	馆	馆	PUNCT	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_580
+# text = 哥 哥 明 天 喝 绿 茶。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	PROPN	_	_	_	_	_	_
+3	明	明	PART	_	_	_	_	_	_
+4	天	天	VERB	_	_	_	_	_	_
+5	喝	喝	NOUN	_	_	_	_	_	_
+6	绿	绿	NOUN	_	_	_	_	_	_
+7	茶	茶	PUNCT	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_581
+# text = 弟 弟 早 上 骑 自 行 车。
+1	弟	弟	NOUN	_	_	_	_	_	_
+2	弟	弟	NOUN	_	_	_	_	_	_
+3	早	早	VERB	_	_	_	_	_	_
+4	上	上	VERB	_	_	_	_	_	_
+5	骑	骑	PART	_	_	_	_	_	_
+6	自	自	PUNCT	_	_	_	_	_	_
+7	行	行	X	_	_	_	_	_	_
+8	车	车	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_582
+# text = 李 小 姐 常 常 去 商 店。
+1	李	李	PROPN	_	_	_	_	_	_
+2	小	小	NOUN	_	_	_	_	_	_
+3	姐	姐	ADV	_	_	_	_	_	_
+4	常	常	VERB	_	_	_	_	_	_
+5	常	常	NOUN	_	_	_	_	_	_
+6	去	去	PUNCT	_	_	_	_	_	_
+7	商	商	X	_	_	_	_	_	_
+8	店	店	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_583
+# text = 王 先 生 不 喜 欢 吃 面 条。
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	ADV	_	_	_	_	_	_
+4	不	不	VERB	_	_	_	_	_	_
+5	喜	喜	VERB	_	_	_	_	_	_
+6	欢	欢	NOUN	_	_	_	_	_	_
+7	吃	吃	PUNCT	_	_	_	_	_	_
+8	面	面	X	_	_	_	_	_	_
+9	条	条	X	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_584
+# text = 医 生 已 经 听 音 乐。
+1	医	医	NOUN	_	_	_	_	_	_
+2	生	生	ADV	_	_	_	_	_	_
+3	已	已	VERB	_	_	_	_	_	_
+4	经	经	NOUN	_	_	_	_	_	_
+5	听	听	PUNCT	_	_	_	_	_	_
+6	音	音	X	_	_	_	_	_	_
+7	乐	乐	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_585
+# text = 王 先 生 看 电 影 吗？
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	VERB	_	_	_	_	_	_
+4	看	看	NOUN	_	_	_	_	_	_
+5	电	电	PART	_	_	_	_	_	_
+6	影	影	PUNCT	_	_	_	_	_	_
+7	吗	吗	X	_	_	_	_	_	_
+8	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_586
+# text = 你 中 午 看 电 视。
+1	你	你	PRON	_	_	_	_	_	_
+2	中	中	NOUN	_	_	_	_	_	_
+3	午	午	VERB	_	_	_	_	_	_
+4	看	看	NOUN	_	_	_	_	_	_
+5	电	电	PUNCT	_	_	_	_	_	_
+6	视	视	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_587
+# text = 王 先 生 想 骑 自 行 车。
+1	王	王	PROPN	_	_	_	_	_	_
+2	先	先	NOUN	_	_	_	_	_	_
+3	生	生	AUX	_	_	_	_	_	_
+4	想	想	VERB	_	_	_	_	_	_
+5	骑	骑	VERB	_	_	_	_	_	_
+6	自	自	PART	_	_	_	_	_	_
+7	行	行	PUNCT	_	_	_	_	_	_
+8	车	车	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_588
+# text = 你 明 天 吃 晚 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	明	明	PROPN	_	_	_	_	_	_
+3	天	天	PART	_	_	_	_	_	_
+4	吃	吃	VERB	_	_	_	_	_	_
+5	晚	晚	NOUN	_	_	_	_	_	_
+6	饭	饭	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_589
+# text = 他 同 学 想 坐 地 铁。
+1	他	他	PRON	_	_	_	_	_	_
+2	同	同	NOUN	_	_	_	_	_	_
+3	学	学	PROPN	_	_	_	_	_	_
+4	想	想	NOUN	_	_	_	_	_	_
+5	坐	坐	PUNCT	_	_	_	_	_	_
+6	地	地	X	_	_	_	_	_	_
+7	铁	铁	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_590
+# text = 老 师 明 天 回 家。
+1	老	老	NOUN	_	_	_	_	_	_
+2	师	师	PROPN	_	_	_	_	_	_
+3	明	明	PROPN	_	_	_	_	_	_
+4	天	天	PART	_	_	_	_	_	_
+5	回	回	PUNCT	_	_	_	_	_	_
+6	家	家	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_591
+# text = 哥 哥 正 在 看 书。
+1	哥	哥	NOUN	_	_	_	_	_	_
+2	哥	哥	ADV	_	_	_	_	_	_
+3	正	正	ADV	_	_	_	_	_	_
+4	在	在	VERB	_	_	_	_	_	_
+5	看	看	PUNCT	_	_	_	_	_	_
+6	书	书	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_592
+# text = 姐 姐 骑 自 行 车 吗？
+1	姐	姐	NOUN	_	_	_	_	_	_
+2	姐	姐	VERB	_	_	_	_	_	_
+3	骑	骑	VERB	_	_	_	_	_	_
+4	自	自	PART	_	_	_	_	_	_
+5	行	行	PART	_	_	_	_	_	_
+6	车	车	PUNCT	_	_	_	_	_	_
+7	吗	吗	X	_	_	_	_	_	_
+8	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_593
+# text = 爸 爸 常 常 去 游 泳。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	ADV	_	_	_	_	_	_
+3	常	常	SCONJ	_	_	_	_	_	_
+4	常	常	VERB	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	游	游	X	_	_	_	_	_	_
+7	泳	泳	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_594
+# text = 你 不 想 吃 晚 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	不	不	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	吃	吃	NOUN	_	_	_	_	_	_
+5	晚	晚	PUNCT	_	_	_	_	_	_
+6	饭	饭	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_595
+# text = 我 天 天 吃 西 瓜。
+1	我	我	PRON	_	_	_	_	_	_
+2	天	天	NUM	_	_	_	_	_	_
+3	天	天	NOUN	_	_	_	_	_	_
+4	吃	吃	VERB	_	_	_	_	_	_
+5	西	西	NOUN	_	_	_	_	_	_
+6	瓜	瓜	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_596
+# text = 爸 爸 今 天 去 商 店。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	NOUN	_	_	_	_	_	_
+3	今	今	VERB	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	去	去	PUNCT	_	_	_	_	_	_
+6	商	商	X	_	_	_	_	_	_
+7	店	店	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_597
+# text = 我 的 手 机 太 快 乐 了。
+1	我	我	PRON	_	_	_	_	_	_
+2	的	的	PART	_	_	_	_	_	_
+3	手	手	NOUN	_	_	_	_	_	_
+4	机	机	ADV	_	_	_	_	_	_
+5	太	太	ADJ	_	_	_	_	_	_
+6	快	快	PART	_	_	_	_	_	_
+7	乐	乐	PUNCT	_	_	_	_	_	_
+8	了	了	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_598
+# text = 张 医 生 天 天 吃 面 包。
+1	张	张	PROPN	_	_	_	_	_	_
+2	医	医	PROPN	_	_	_	_	_	_
+3	生	生	NOUN	_	_	_	_	_	_
+4	天	天	NOUN	_	_	_	_	_	_
+5	天	天	VERB	_	_	_	_	_	_
+6	吃	吃	NOUN	_	_	_	_	_	_
+7	面	面	PUNCT	_	_	_	_	_	_
+8	包	包	X	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_599
+# text = 爸 爸 不 想 打 篮 球。
+1	爸	爸	NOUN	_	_	_	_	_	_
+2	爸	爸	AUX	_	_	_	_	_	_
+3	不	不	VERB	_	_	_	_	_	_
+4	想	想	NOUN	_	_	_	_	_	_
+5	打	打	PUNCT	_	_	_	_	_	_
+6	篮	篮	X	_	_	_	_	_	_
+7	球	球	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a2_train_600
+# text = 今 天 天 气 怎 么 样？
+1	今	今	NOUN	_	_	_	_	_	_
+2	天	天	NOUN	_	_	_	_	_	_
+3	天	天	ADV	_	_	_	_	_	_
+4	气	气	ADJ	_	_	_	_	_	_
+5	怎	怎	PUNCT	_	_	_	_	_	_
+6	么	么	X	_	_	_	_	_	_
+7	样	样	X	_	_	_	_	_	_
+8	？	？	PUNCT	_	_	_	_	_	_
+

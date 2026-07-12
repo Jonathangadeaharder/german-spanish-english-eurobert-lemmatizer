@@ -1,0 +1,898 @@
+# sent_id = handcraft-nl-1
+# text = De man loopt naar huis.
+1	De	de	DET	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	loopt	lopen	VERB	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	huis	huis	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-2
+# text = Ik heb een boek gelezen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	heb	hebben	AUX	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	gelezen	lezen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-3
+# text = Zij werkt in Amsterdam.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	werkt	werken	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-4
+# text = Wij gaan morgen naar de stad.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	stad	stad	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-5
+# text = Heb jij mijn sleutels gezien?
+1	Heb	hebben	AUX	_	_	_	_	_	_
+2	jij	jij	PRON	_	_	_	_	_	_
+3	mijn	mijn	PRON	_	_	_	_	_	_
+4	sleutels	sleutel	NOUN	_	_	_	_	_	_
+5	gezien	zien	VERB	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-6
+# text = De hond slaapt op de bank.
+1	De	de	DET	_	_	_	_	_	_
+2	hond	hond	NOUN	_	_	_	_	_	_
+3	slaapt	slapen	VERB	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	bank	bank	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-7
+# text = Doe de deur open!
+1	Doe	opendoen	VERB	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	deur	deur	NOUN	_	_	_	_	_	_
+4	open	open	ADV	_	_	_	_	_	_
+5	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-8
+# text = Zij kocht een nieuwe fiets.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	kocht	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+5	fiets	fiets	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-9
+# text = Het kind speelt met de bal.
+1	Het	het	DET	_	_	_	_	_	_
+2	kind	kind	NOUN	_	_	_	_	_	_
+3	speelt	spelen	VERB	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	bal	bal	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-10
+# text = Hij komt vandaag laat thuis.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	komt	thuiskomen	VERB	_	_	_	_	_	_
+3	vandaag	vandaag	ADV	_	_	_	_	_	_
+4	laat	laat	ADV	_	_	_	_	_	_
+5	thuis	thuis	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-11
+# text = Wij hebben gisteren een film gezien.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	hebben	hebben	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	film	film	NOUN	_	_	_	_	_	_
+6	gezien	zien	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-12
+# text = De leerling schrijft een brief.
+1	De	de	DET	_	_	_	_	_	_
+2	leerling	leerling	NOUN	_	_	_	_	_	_
+3	schrijft	schrijven	VERB	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	brief	brief	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-13
+# text = Mijn vader werkt hard.
+1	Mijn	mijn	PRON	_	_	_	_	_	_
+2	vader	vader	NOUN	_	_	_	_	_	_
+3	werkt	werken	VERB	_	_	_	_	_	_
+4	hard	hard	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-14
+# text = Het regent vandaag.
+1	Het	het	PRON	_	_	_	_	_	_
+2	regent	regenen	VERB	_	_	_	_	_	_
+3	vandaag	vandaag	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-15
+# text = Kan ik u helpen?
+1	Kan	kunnen	AUX	_	_	_	_	_	_
+2	ik	ik	PRON	_	_	_	_	_	_
+3	u	u	PRON	_	_	_	_	_	_
+4	helpen	helpen	VERB	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-16
+# text = De kat zit op de mat.
+1	De	de	DET	_	_	_	_	_	_
+2	kat	kat	NOUN	_	_	_	_	_	_
+3	zit	zitten	VERB	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	mat	mat	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-17
+# text = Ik zal het morgen doen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zal	zullen	AUX	_	_	_	_	_	_
+3	het	het	PRON	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	doen	doen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-18
+# text = Zij las het boek in twee dagen.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	las	lezen	VERB	_	_	_	_	_	_
+3	het	het	DET	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	twee	twee	NUM	_	_	_	_	_	_
+7	dagen	dag	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-19
+# text = Waar woon jij?
+1	Waar	waar	ADV	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	jij	jij	PRON	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-20
+# text = De kinderen spelen buiten.
+1	De	de	DET	_	_	_	_	_	_
+2	kinderen	kind	NOUN	_	_	_	_	_	_
+3	spelen	spelen	VERB	_	_	_	_	_	_
+4	buiten	buiten	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-21
+# text = Hij belt zijn moeder op.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	belt	opbellen	VERB	_	_	_	_	_	_
+3	zijn	zijn	PRON	_	_	_	_	_	_
+4	moeder	moeder	NOUN	_	_	_	_	_	_
+5	op	op	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-22
+# text = Wij gaan met jullie mee.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	gaan	meegaan	VERB	_	_	_	_	_	_
+3	met	met	ADP	_	_	_	_	_	_
+4	jullie	jullie	PRON	_	_	_	_	_	_
+5	mee	mee	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-23
+# text = De trein rijdt langzaam weg.
+1	De	de	DET	_	_	_	_	_	_
+2	trein	trein	NOUN	_	_	_	_	_	_
+3	rijdt	wegrijden	VERB	_	_	_	_	_	_
+4	langzaam	langzaam	ADV	_	_	_	_	_	_
+5	weg	weg	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-24
+# text = Zij zoekt het woord op.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	zoekt	opzoeken	VERB	_	_	_	_	_	_
+3	het	het	DET	_	_	_	_	_	_
+4	woord	woord	NOUN	_	_	_	_	_	_
+5	op	op	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-25
+# text = Hij staat altijd vroeg op.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	staat	opstaan	VERB	_	_	_	_	_	_
+3	altijd	altijd	ADV	_	_	_	_	_	_
+4	vroeg	vroeg	ADV	_	_	_	_	_	_
+5	op	op	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-26
+# text = De zon schijnt helder.
+1	De	de	DET	_	_	_	_	_	_
+2	zon	zon	NOUN	_	_	_	_	_	_
+3	schijnt	schijnen	VERB	_	_	_	_	_	_
+4	helder	helder	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-27
+# text = Ik ken die man niet.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ken	kennen	VERB	_	_	_	_	_	_
+3	die	die	DET	_	_	_	_	_	_
+4	man	man	NOUN	_	_	_	_	_	_
+5	niet	niet	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-28
+# text = Heb je tijd voor mij?
+1	Heb	hebben	VERB	_	_	_	_	_	_
+2	je	je	PRON	_	_	_	_	_	_
+3	tijd	tijd	NOUN	_	_	_	_	_	_
+4	voor	voor	ADP	_	_	_	_	_	_
+5	mij	mij	PRON	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-29
+# text = De boer plant de bomen.
+1	De	de	DET	_	_	_	_	_	_
+2	boer	boer	NOUN	_	_	_	_	_	_
+3	plant	planten	VERB	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	bomen	boom	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-30
+# text = Gisteren was ik ziek.
+1	Gisteren	gisteren	ADV	_	_	_	_	_	_
+2	was	zijn	AUX	_	_	_	_	_	_
+3	ik	ik	PRON	_	_	_	_	_	_
+4	ziek	ziek	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-31
+# text = Wat is jouw naam?
+1	Wat	wat	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	jouw	jouw	PRON	_	_	_	_	_	_
+4	naam	naam	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-32
+# text = De auto staat voor het huis.
+1	De	de	DET	_	_	_	_	_	_
+2	auto	auto	NOUN	_	_	_	_	_	_
+3	staat	staan	VERB	_	_	_	_	_	_
+4	voor	voor	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	huis	huis	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-33
+# text = Ik wil een appel eten.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	wil	willen	AUX	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	appel	appel	NOUN	_	_	_	_	_	_
+5	eten	eten	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-34
+# text = Zij heeft de prijs gewonnen.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	prijs	prijs	NOUN	_	_	_	_	_	_
+5	gewonnen	winnen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-35
+# text = Hoeveel boeken heb je gelezen?
+1	Hoeveel	hoeveel	NUM	_	_	_	_	_	_
+2	boeken	boek	NOUN	_	_	_	_	_	_
+3	heb	hebben	AUX	_	_	_	_	_	_
+4	je	je	PRON	_	_	_	_	_	_
+5	gelezen	lezen	VERB	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-36
+# text = De leraar spreekt snel en duidelijk.
+1	De	de	DET	_	_	_	_	_	_
+2	leraar	leraar	NOUN	_	_	_	_	_	_
+3	spreekt	spreken	VERB	_	_	_	_	_	_
+4	snel	snel	ADV	_	_	_	_	_	_
+5	en	en	CCONJ	_	_	_	_	_	_
+6	duidelijk	duidelijk	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-37
+# text = Mijn zus woont in Parijs.
+1	Mijn	mijn	PRON	_	_	_	_	_	_
+2	zus	zus	NOUN	_	_	_	_	_	_
+3	woont	wonen	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	Parijs	Parijs	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-38
+# text = Wij luisteren naar muziek.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	luisteren	luisteren	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	muziek	muziek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-39
+# text = De hond blaft luid.
+1	De	de	DET	_	_	_	_	_	_
+2	hond	hond	NOUN	_	_	_	_	_	_
+3	blaft	blaffen	VERB	_	_	_	_	_	_
+4	luid	luid	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-40
+# text = Pak je jas!
+1	Pak	pakken	VERB	_	_	_	_	_	_
+2	je	je	PRON	_	_	_	_	_	_
+3	jas	jas	NOUN	_	_	_	_	_	_
+4	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-41
+# text = De kinderen dragen dikke jassen.
+1	De	de	DET	_	_	_	_	_	_
+2	kinderen	kind	NOUN	_	_	_	_	_	_
+3	dragen	dragen	VERB	_	_	_	_	_	_
+4	dikke	dik	ADJ	_	_	_	_	_	_
+5	jassen	jas	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-42
+# text = Het water is koud.
+1	Het	het	DET	_	_	_	_	_	_
+2	water	water	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	koud	koud	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-43
+# text = Ik zie een grote boom.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zie	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	grote	groot	ADJ	_	_	_	_	_	_
+5	boom	boom	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-44
+# text = Zij werkt hier al jaren.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	werkt	werken	VERB	_	_	_	_	_	_
+3	hier	hier	ADV	_	_	_	_	_	_
+4	al	al	ADV	_	_	_	_	_	_
+5	jaren	jaar	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-45
+# text = De lucht is blauw en helder.
+1	De	de	DET	_	_	_	_	_	_
+2	lucht	lucht	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	blauw	blauw	ADJ	_	_	_	_	_	_
+5	en	en	CCONJ	_	_	_	_	_	_
+6	helder	helder	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-46
+# text = We eten vanavond vis.
+1	We	wij	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	vis	vis	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-47
+# text = Hij heeft een rood huis gekocht.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	rood	rood	ADJ	_	_	_	_	_	_
+5	huis	huis	NOUN	_	_	_	_	_	_
+6	gekocht	kopen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-48
+# text = De jongen fietst snel weg.
+1	De	de	DET	_	_	_	_	_	_
+2	jongen	jongen	NOUN	_	_	_	_	_	_
+3	fietst	wegfietsen	VERB	_	_	_	_	_	_
+4	snel	snel	ADV	_	_	_	_	_	_
+5	weg	weg	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-49
+# text = Ik geef het boek aan haar.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	geef	geven	VERB	_	_	_	_	_	_
+3	het	het	DET	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	aan	aan	ADP	_	_	_	_	_	_
+6	haar	haar	PRON	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-50
+# text = De vogels zingen in de ochtend.
+1	De	de	DET	_	_	_	_	_	_
+2	vogels	vogel	NOUN	_	_	_	_	_	_
+3	zingen	zingen	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	ochtend	ochtend	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-51
+# text = Ken jij deze stad?
+1	Ken	kennen	VERB	_	_	_	_	_	_
+2	jij	jij	PRON	_	_	_	_	_	_
+3	deze	deze	DET	_	_	_	_	_	_
+4	stad	stad	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-52
+# text = De wijn is lekker.
+1	De	de	DET	_	_	_	_	_	_
+2	wijn	wijn	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	lekker	lekker	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-53
+# text = Ik moet nu weg.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	moet	moeten	AUX	_	_	_	_	_	_
+3	nu	nu	ADV	_	_	_	_	_	_
+4	weg	weg	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-54
+# text = Zij speelt graag tennis.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	speelt	spelen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	tennis	tennis	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-55
+# text = De trein komt laat aan.
+1	De	de	DET	_	_	_	_	_	_
+2	trein	trein	NOUN	_	_	_	_	_	_
+3	komt	aankomen	VERB	_	_	_	_	_	_
+4	laat	laat	ADV	_	_	_	_	_	_
+5	aan	aan	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-56
+# text = Wij hebben vijf boeken gelezen.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	hebben	hebben	AUX	_	_	_	_	_	_
+3	vijf	vijf	NUM	_	_	_	_	_	_
+4	boeken	boek	NOUN	_	_	_	_	_	_
+5	gelezen	lezen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-57
+# text = Schrijf je naam hier!
+1	Schrijf	schrijven	VERB	_	_	_	_	_	_
+2	je	je	PRON	_	_	_	_	_	_
+3	naam	naam	NOUN	_	_	_	_	_	_
+4	hier	hier	ADV	_	_	_	_	_	_
+5	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-58
+# text = De man droeg een oude hoed.
+1	De	de	DET	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	droeg	dragen	VERB	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	oude	oud	ADJ	_	_	_	_	_	_
+6	hoed	hoed	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-59
+# text = Het meisje lacht om de grap.
+1	Het	het	DET	_	_	_	_	_	_
+2	meisje	meisje	NOUN	_	_	_	_	_	_
+3	lacht	lachen	VERB	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	grap	grap	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-60
+# text = Wie heeft de taart gebakken?
+1	Wie	wie	PRON	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	taart	taart	NOUN	_	_	_	_	_	_
+5	gebakken	bakken	VERB	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-61
+# text = De studenten luisteren aandachtig.
+1	De	de	DET	_	_	_	_	_	_
+2	studenten	student	NOUN	_	_	_	_	_	_
+3	luisteren	luisteren	VERB	_	_	_	_	_	_
+4	aandachtig	aandachtig	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-62
+# text = Ik woon sinds drie jaar in Utrecht.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	sinds	sinds	ADP	_	_	_	_	_	_
+4	drie	drie	NUM	_	_	_	_	_	_
+5	jaar	jaar	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Utrecht	Utrecht	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-63
+# text = De deur staat open.
+1	De	de	DET	_	_	_	_	_	_
+2	deur	deur	NOUN	_	_	_	_	_	_
+3	staat	staan	VERB	_	_	_	_	_	_
+4	open	open	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-64
+# text = Hij werkt als leraar.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	werkt	werken	VERB	_	_	_	_	_	_
+3	als	als	ADP	_	_	_	_	_	_
+4	leraar	leraar	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-65
+# text = De koeien grazen op het veld.
+1	De	de	DET	_	_	_	_	_	_
+2	koeien	koe	NOUN	_	_	_	_	_	_
+3	grazen	grazen	VERB	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	veld	veld	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-66
+# text = Mijn oma is negentig jaar oud.
+1	Mijn	mijn	PRON	_	_	_	_	_	_
+2	oma	oma	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	negentig	negentig	NUM	_	_	_	_	_	_
+5	jaar	jaar	NOUN	_	_	_	_	_	_
+6	oud	oud	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-67
+# text = De rivier stroomt door het dal.
+1	De	de	DET	_	_	_	_	_	_
+2	rivier	rivier	NOUN	_	_	_	_	_	_
+3	stroomt	stromen	VERB	_	_	_	_	_	_
+4	door	door	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	dal	dal	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-68
+# text = Ik denk dat zij komt.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	denk	denken	VERB	_	_	_	_	_	_
+3	dat	dat	SCONJ	_	_	_	_	_	_
+4	zij	zij	PRON	_	_	_	_	_	_
+5	komt	komen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-69
+# text = De auto is erg duur.
+1	De	de	DET	_	_	_	_	_	_
+2	auto	auto	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	erg	erg	ADV	_	_	_	_	_	_
+5	duur	duur	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-70
+# text = Wij maken een wandeling door het park.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	maken	maken	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	wandeling	wandeling	NOUN	_	_	_	_	_	_
+5	door	door	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	park	park	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-71
+# text = Zij roept de hond.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	roept	roepen	VERB	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	hond	hond	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-72
+# text = De jongens spelen voetbal.
+1	De	de	DET	_	_	_	_	_	_
+2	jongens	jongen	NOUN	_	_	_	_	_	_
+3	spelen	spelen	VERB	_	_	_	_	_	_
+4	voetbal	voetbal	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-73
+# text = Ik drink koffie met suiker.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	drink	drinken	VERB	_	_	_	_	_	_
+3	koffie	koffie	NOUN	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	suiker	suiker	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-74
+# text = De bloemen bloeien in de lente.
+1	De	de	DET	_	_	_	_	_	_
+2	bloemen	bloem	NOUN	_	_	_	_	_	_
+3	bloeien	bloeien	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	lente	lente	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-75
+# text = Hij woont in Rotterdam.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Rotterdam	Rotterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-76
+# text = De vrouw kookt soep.
+1	De	de	DET	_	_	_	_	_	_
+2	vrouw	vrouw	NOUN	_	_	_	_	_	_
+3	kookt	koken	VERB	_	_	_	_	_	_
+4	soep	soep	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-77
+# text = Wij wachten op de bus.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	wachten	wachten	VERB	_	_	_	_	_	_
+3	op	op	ADP	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	bus	bus	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-78
+# text = De zon schijnt warm.
+1	De	de	DET	_	_	_	_	_	_
+2	zon	zon	NOUN	_	_	_	_	_	_
+3	schijnt	schijnen	VERB	_	_	_	_	_	_
+4	warm	warm	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-79
+# text = Ik heb mijn sleutels verloren.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	heb	hebben	AUX	_	_	_	_	_	_
+3	mijn	mijn	PRON	_	_	_	_	_	_
+4	sleutels	sleutel	NOUN	_	_	_	_	_	_
+5	verloren	verliezen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-80
+# text = De schrijver schrijft een nieuw boek.
+1	De	de	DET	_	_	_	_	_	_
+2	schrijver	schrijver	NOUN	_	_	_	_	_	_
+3	schrijft	schrijven	VERB	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	nieuw	nieuw	ADJ	_	_	_	_	_	_
+6	boek	boek	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-81
+# text = Zij heeft lang geslapen.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	lang	lang	ADV	_	_	_	_	_	_
+4	geslapen	slapen	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-82
+# text = De kat vangt de muis.
+1	De	de	DET	_	_	_	_	_	_
+2	kat	kat	NOUN	_	_	_	_	_	_
+3	vangt	vangen	VERB	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	muis	muis	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-83
+# text = Ik betaal voor de maaltijd.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	betaal	betalen	VERB	_	_	_	_	_	_
+3	voor	voor	ADP	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	maaltijd	maaltijd	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-84
+# text = De boot vaart over de zee.
+1	De	de	DET	_	_	_	_	_	_
+2	boot	boot	NOUN	_	_	_	_	_	_
+3	vaart	varen	VERB	_	_	_	_	_	_
+4	over	over	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	zee	zee	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-85
+# text = Wij wonen hier sindsdien.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	hier	hier	ADV	_	_	_	_	_	_
+4	sindsdien	sindsdien	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-86
+# text = De leraar legt het probleem uit.
+1	De	de	DET	_	_	_	_	_	_
+2	leraar	leraar	NOUN	_	_	_	_	_	_
+3	legt	uitleggen	VERB	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	probleem	probleem	NOUN	_	_	_	_	_	_
+6	uit	uit	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-87
+# text = Ik heb de brief beantwoord.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	heb	hebben	AUX	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	brief	brief	NOUN	_	_	_	_	_	_
+5	beantwoord	beantwoorden	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-88
+# text = De hond rent door de tuin.
+1	De	de	DET	_	_	_	_	_	_
+2	hond	hond	NOUN	_	_	_	_	_	_
+3	rent	rennen	VERB	_	_	_	_	_	_
+4	door	door	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	tuin	tuin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-89
+# text = Zij neemt de bus naar het werk.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	neemt	nemen	VERB	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	bus	bus	NOUN	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	werk	werk	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-90
+# text = De muziek klinkt mooi.
+1	De	de	DET	_	_	_	_	_	_
+2	muziek	muziek	NOUN	_	_	_	_	_	_
+3	klinkt	klinken	VERB	_	_	_	_	_	_
+4	mooi	mooi	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-91
+# text = Ik ben moe na de reis.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ben	zijn	AUX	_	_	_	_	_	_
+3	moe	moe	ADJ	_	_	_	_	_	_
+4	na	na	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	reis	reis	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-92
+# text = De student leest het hoofdstuk door.
+1	De	de	DET	_	_	_	_	_	_
+2	student	student	NOUN	_	_	_	_	_	_
+3	leest	doorlezen	VERB	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	hoofdstuk	hoofdstuk	NOUN	_	_	_	_	_	_
+6	door	door	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-93
+# text = Wij praten over het weer.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	praten	praten	VERB	_	_	_	_	_	_
+3	over	over	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	weer	weer	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-94
+# text = De klok hangt aan de muur.
+1	De	de	DET	_	_	_	_	_	_
+2	klok	klok	NOUN	_	_	_	_	_	_
+3	hangt	hangen	VERB	_	_	_	_	_	_
+4	aan	aan	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	muur	muur	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-95
+# text = Ik herinner mij dat feest.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	herinner	herinneren	VERB	_	_	_	_	_	_
+3	mij	mij	PRON	_	_	_	_	_	_
+4	dat	dat	DET	_	_	_	_	_	_
+5	feest	feest	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-96
+# text = De regen valt op het dak.
+1	De	de	DET	_	_	_	_	_	_
+2	regen	regen	NOUN	_	_	_	_	_	_
+3	valt	vallen	VERB	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	dak	dak	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-97
+# text = Zij geeft het kind een cadeau.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	geeft	geven	VERB	_	_	_	_	_	_
+3	het	het	DET	_	_	_	_	_	_
+4	kind	kind	NOUN	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	cadeau	cadeau	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-98
+# text = De weg is lang.
+1	De	de	DET	_	_	_	_	_	_
+2	weg	weg	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	lang	lang	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-99
+# text = Ik zag haar gisteren.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zag	zien	VERB	_	_	_	_	_	_
+3	haar	haar	PRON	_	_	_	_	_	_
+4	gisteren	gisteren	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-100
+# text = De nacht is donker en stil.
+1	De	de	DET	_	_	_	_	_	_
+2	nacht	nacht	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	donker	donker	ADJ	_	_	_	_	_	_
+5	en	en	CCONJ	_	_	_	_	_	_
+6	stil	stil	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_

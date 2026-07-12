@@ -1,0 +1,1107 @@
+# sent_id = en_001
+# text = The quick brown fox jumps over the lazy dog.
+1	The	the	DET	_	_	_	_	_	_
+2	quick	quick	ADJ	_	_	_	_	_	_
+3	brown	brown	ADJ	_	_	_	_	_	_
+4	fox	fox	NOUN	_	_	_	_	_	_
+5	jumps	jump	VERB	_	_	_	_	_	_
+6	over	over	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	lazy	lazy	ADJ	_	_	_	_	_	_
+9	dog	dog	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_002
+# text = She is reading a fascinating book about ancient history.
+1	She	she	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	reading	read	VERB	_	_	_	_	_	_
+4	a	a	DET	_	_	_	_	_	_
+5	fascinating	fascinating	ADJ	_	_	_	_	_	_
+6	book	book	NOUN	_	_	_	_	_	_
+7	about	about	ADP	_	_	_	_	_	_
+8	ancient	ancient	ADJ	_	_	_	_	_	_
+9	history	history	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_003
+# text = Have you finished your homework yet?
+1	Have	have	AUX	_	_	_	_	_	_
+2	you	you	PRON	_	_	_	_	_	_
+3	finished	finish	VERB	_	_	_	_	_	_
+4	your	your	PRON	_	_	_	_	_	_
+5	homework	homework	NOUN	_	_	_	_	_	_
+6	yet	yet	ADV	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_004
+# text = The children were playing in the garden yesterday.
+1	The	the	DET	_	_	_	_	_	_
+2	children	child	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	playing	play	VERB	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	garden	garden	NOUN	_	_	_	_	_	_
+8	yesterday	yesterday	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_005
+# text = I will be traveling to Japan next month.
+1	I	I	PRON	_	_	_	_	_	_
+2	will	will	AUX	_	_	_	_	_	_
+3	be	be	AUX	_	_	_	_	_	_
+4	traveling	travel	VERB	_	_	_	_	_	_
+5	to	to	ADP	_	_	_	_	_	_
+6	Japan	Japan	PROPN	_	_	_	_	_	_
+7	next	next	ADJ	_	_	_	_	_	_
+8	month	month	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_006
+# text = What time does the train arrive?
+1	What	what	DET	_	_	_	_	_	_
+2	time	time	NOUN	_	_	_	_	_	_
+3	does	do	AUX	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	train	train	NOUN	_	_	_	_	_	_
+6	arrive	arrive	VERB	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_007
+# text = Please close the door quietly.
+1	Please	please	INTJ	_	_	_	_	_	_
+2	close	close	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	door	door	NOUN	_	_	_	_	_	_
+5	quietly	quietly	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_008
+# text = They have been working on this project for two years.
+1	They	they	PRON	_	_	_	_	_	_
+2	have	have	AUX	_	_	_	_	_	_
+3	been	be	AUX	_	_	_	_	_	_
+4	working	work	VERB	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	this	this	DET	_	_	_	_	_	_
+7	project	project	NOUN	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	two	two	NUM	_	_	_	_	_	_
+10	years	year	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_009
+# text = The cat sat on the warm windowsill.
+1	The	the	DET	_	_	_	_	_	_
+2	cat	cat	NOUN	_	_	_	_	_	_
+3	sat	sit	VERB	_	_	_	_	_	_
+4	on	on	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	warm	warm	ADJ	_	_	_	_	_	_
+7	windowsill	windowsill	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_010
+# text = We are going to the cinema tonight.
+1	We	we	PRON	_	_	_	_	_	_
+2	are	be	AUX	_	_	_	_	_	_
+3	going	go	VERB	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	cinema	cinema	NOUN	_	_	_	_	_	_
+7	tonight	tonight	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_011
+# text = Does he like spicy food?
+1	Does	do	AUX	_	_	_	_	_	_
+2	he	he	PRON	_	_	_	_	_	_
+3	like	like	VERB	_	_	_	_	_	_
+4	spicy	spicy	ADJ	_	_	_	_	_	_
+5	food	food	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_012
+# text = The students wrote their essays carefully.
+1	The	the	DET	_	_	_	_	_	_
+2	students	student	NOUN	_	_	_	_	_	_
+3	wrote	write	VERB	_	_	_	_	_	_
+4	their	their	PRON	_	_	_	_	_	_
+5	essays	essay	NOUN	_	_	_	_	_	_
+6	carefully	carefully	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_013
+# text = A beautiful sunset painted the sky orange.
+1	A	a	DET	_	_	_	_	_	_
+2	beautiful	beautiful	ADJ	_	_	_	_	_	_
+3	sunset	sunset	NOUN	_	_	_	_	_	_
+4	painted	paint	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	sky	sky	NOUN	_	_	_	_	_	_
+7	orange	orange	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_014
+# text = My grandmother baked delicious chocolate cookies.
+1	My	my	PRON	_	_	_	_	_	_
+2	grandmother	grandmother	NOUN	_	_	_	_	_	_
+3	baked	bake	VERB	_	_	_	_	_	_
+4	delicious	delicious	ADJ	_	_	_	_	_	_
+5	chocolate	chocolate	NOUN	_	_	_	_	_	_
+6	cookies	cookie	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_015
+# text = Where are my keys?
+1	Where	where	ADV	_	_	_	_	_	_
+2	are	be	AUX	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	keys	key	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_016
+# text = The river flows swiftly through the valley.
+1	The	the	DET	_	_	_	_	_	_
+2	river	river	NOUN	_	_	_	_	_	_
+3	flows	flow	VERB	_	_	_	_	_	_
+4	swiftly	swiftly	ADV	_	_	_	_	_	_
+5	through	through	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	valley	valley	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_017
+# text = She spoke softly to the frightened child.
+1	She	she	PRON	_	_	_	_	_	_
+2	spoke	speak	VERB	_	_	_	_	_	_
+3	softly	softly	ADV	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	frightened	frightened	ADJ	_	_	_	_	_	_
+7	child	child	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_018
+# text = Open your books to page forty.
+1	Open	open	VERB	_	_	_	_	_	_
+2	your	your	PRON	_	_	_	_	_	_
+3	books	book	NOUN	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	page	page	NOUN	_	_	_	_	_	_
+6	forty	forty	NUM	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_019
+# text = The sun rises in the east and sets in the west.
+1	The	the	DET	_	_	_	_	_	_
+2	sun	sun	NOUN	_	_	_	_	_	_
+3	rises	rise	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	east	east	NOUN	_	_	_	_	_	_
+7	and	and	CCONJ	_	_	_	_	_	_
+8	sets	set	VERB	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	west	west	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_020
+# text = I have never seen such a magnificent waterfall.
+1	I	I	PRON	_	_	_	_	_	_
+2	have	have	AUX	_	_	_	_	_	_
+3	never	never	ADV	_	_	_	_	_	_
+4	seen	see	VERB	_	_	_	_	_	_
+5	such	such	ADJ	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	magnificent	magnificent	ADJ	_	_	_	_	_	_
+8	waterfall	waterfall	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_021
+# text = The dogs barked loudly at the stranger.
+1	The	the	DET	_	_	_	_	_	_
+2	dogs	dog	NOUN	_	_	_	_	_	_
+3	barked	bark	VERB	_	_	_	_	_	_
+4	loudly	loudly	ADV	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	stranger	stranger	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_022
+# text = He was running fast when he tripped over the root.
+1	He	he	PRON	_	_	_	_	_	_
+2	was	be	AUX	_	_	_	_	_	_
+3	running	run	VERB	_	_	_	_	_	_
+4	fast	fast	ADV	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	he	he	PRON	_	_	_	_	_	_
+7	tripped	trip	VERB	_	_	_	_	_	_
+8	over	over	ADP	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	root	root	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_023
+# text = Can you pass me the salt, please?
+1	Can	can	AUX	_	_	_	_	_	_
+2	you	you	PRON	_	_	_	_	_	_
+3	pass	pass	VERB	_	_	_	_	_	_
+4	me	I	PRON	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	salt	salt	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	please	please	INTJ	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_024
+# text = The old bridge collapsed during the storm.
+1	The	the	DET	_	_	_	_	_	_
+2	old	old	ADJ	_	_	_	_	_	_
+3	bridge	bridge	NOUN	_	_	_	_	_	_
+4	collapsed	collapse	VERB	_	_	_	_	_	_
+5	during	during	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	storm	storm	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_025
+# text = Birds of a feather flock together.
+1	Birds	bird	NOUN	_	_	_	_	_	_
+2	of	of	ADP	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	feather	feather	NOUN	_	_	_	_	_	_
+5	flock	flock	VERB	_	_	_	_	_	_
+6	together	together	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_026
+# text = She has been studying French since September.
+1	She	she	PRON	_	_	_	_	_	_
+2	has	have	AUX	_	_	_	_	_	_
+3	been	be	AUX	_	_	_	_	_	_
+4	studying	study	VERB	_	_	_	_	_	_
+5	French	French	PROPN	_	_	_	_	_	_
+6	since	since	ADP	_	_	_	_	_	_
+7	September	September	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_027
+# text = The cake was eaten by the hungry children.
+1	The	the	DET	_	_	_	_	_	_
+2	cake	cake	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	eaten	eat	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	hungry	hungry	ADJ	_	_	_	_	_	_
+8	children	child	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_028
+# text = Whose car is parked outside?
+1	Whose	whose	DET	_	_	_	_	_	_
+2	car	car	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	parked	park	VERB	_	_	_	_	_	_
+5	outside	outside	ADV	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_029
+# text = The teacher explained the difficult problem clearly.
+1	The	the	DET	_	_	_	_	_	_
+2	teacher	teacher	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	difficult	difficult	ADJ	_	_	_	_	_	_
+6	problem	problem	NOUN	_	_	_	_	_	_
+7	clearly	clearly	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_030
+# text = We will have finished by tomorrow afternoon.
+1	We	we	PRON	_	_	_	_	_	_
+2	will	will	AUX	_	_	_	_	_	_
+3	have	have	AUX	_	_	_	_	_	_
+4	finished	finish	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	tomorrow	tomorrow	ADV	_	_	_	_	_	_
+7	afternoon	afternoon	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_031
+# text = The mice hid behind the refrigerator.
+1	The	the	DET	_	_	_	_	_	_
+2	mice	mouse	NOUN	_	_	_	_	_	_
+3	hid	hide	VERB	_	_	_	_	_	_
+4	behind	behind	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	refrigerator	refrigerator	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_032
+# text = I bought three apples and two oranges at the market.
+1	I	I	PRON	_	_	_	_	_	_
+2	bought	buy	VERB	_	_	_	_	_	_
+3	three	three	NUM	_	_	_	_	_	_
+4	apples	apple	NOUN	_	_	_	_	_	_
+5	and	and	CCONJ	_	_	_	_	_	_
+6	two	two	NUM	_	_	_	_	_	_
+7	oranges	orange	NOUN	_	_	_	_	_	_
+8	at	at	ADP	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	market	market	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_033
+# text = The toys were scattered across the floor by the children.
+1	The	the	DET	_	_	_	_	_	_
+2	toys	toy	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	scattered	scatter	VERB	_	_	_	_	_	_
+5	across	across	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	floor	floor	NOUN	_	_	_	_	_	_
+8	by	by	ADP	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	children	child	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_034
+# text = Is she coming to the party?
+1	Is	be	AUX	_	_	_	_	_	_
+2	she	she	PRON	_	_	_	_	_	_
+3	coming	come	VERB	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	party	party	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_035
+# text = The mountains were covered in snow.
+1	The	the	DET	_	_	_	_	_	_
+2	mountains	mountain	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	covered	cover	VERB	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	snow	snow	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_036
+# text = He drives carefully but quickly.
+1	He	he	PRON	_	_	_	_	_	_
+2	drives	drive	VERB	_	_	_	_	_	_
+3	carefully	carefully	ADV	_	_	_	_	_	_
+4	but	but	CCONJ	_	_	_	_	_	_
+5	quickly	quickly	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_037
+# text = The book on the table belongs to me.
+1	The	the	DET	_	_	_	_	_	_
+2	book	book	NOUN	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	table	table	NOUN	_	_	_	_	_	_
+6	belongs	belong	VERB	_	_	_	_	_	_
+7	to	to	ADP	_	_	_	_	_	_
+8	me	I	PRON	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_038
+# text = They had already left when we arrived.
+1	They	they	PRON	_	_	_	_	_	_
+2	had	have	AUX	_	_	_	_	_	_
+3	already	already	ADV	_	_	_	_	_	_
+4	left	leave	VERB	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	we	we	PRON	_	_	_	_	_	_
+7	arrived	arrive	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_039
+# text = Do not forget to bring your umbrella.
+1	Do	do	AUX	_	_	_	_	_	_
+2	not	not	PART	_	_	_	_	_	_
+3	forget	forget	VERB	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	bring	bring	VERB	_	_	_	_	_	_
+6	your	your	PRON	_	_	_	_	_	_
+7	umbrella	umbrella	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_040
+# text = The flowers bloom in spring.
+1	The	the	DET	_	_	_	_	_	_
+2	flowers	flower	NOUN	_	_	_	_	_	_
+3	bloom	bloom	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	spring	spring	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_041
+# text = She wrote a letter to her grandmother.
+1	She	she	PRON	_	_	_	_	_	_
+2	wrote	write	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	letter	letter	NOUN	_	_	_	_	_	_
+5	to	to	ADP	_	_	_	_	_	_
+6	her	her	PRON	_	_	_	_	_	_
+7	grandmother	grandmother	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_042
+# text = The fastest runner won the gold medal.
+1	The	the	DET	_	_	_	_	_	_
+2	fastest	fast	ADJ	_	_	_	_	_	_
+3	runner	runner	NOUN	_	_	_	_	_	_
+4	won	win	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	gold	gold	NOUN	_	_	_	_	_	_
+7	medal	medal	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_043
+# text = We have been friends since childhood.
+1	We	we	PRON	_	_	_	_	_	_
+2	have	have	AUX	_	_	_	_	_	_
+3	been	be	AUX	_	_	_	_	_	_
+4	friends	friend	NOUN	_	_	_	_	_	_
+5	since	since	ADP	_	_	_	_	_	_
+6	childhood	childhood	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_044
+# text = There were many students at the concert.
+1	There	there	PRON	_	_	_	_	_	_
+2	were	be	AUX	_	_	_	_	_	_
+3	many	many	ADJ	_	_	_	_	_	_
+4	students	student	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	concert	concert	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_045
+# text = Turn left at the traffic lights.
+1	Turn	turn	VERB	_	_	_	_	_	_
+2	left	left	ADV	_	_	_	_	_	_
+3	at	at	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	traffic	traffic	NOUN	_	_	_	_	_	_
+6	lights	light	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_046
+# text = The students are taking their final exams this week.
+1	The	the	DET	_	_	_	_	_	_
+2	students	student	NOUN	_	_	_	_	_	_
+3	are	be	AUX	_	_	_	_	_	_
+4	taking	take	VERB	_	_	_	_	_	_
+5	their	their	PRON	_	_	_	_	_	_
+6	final	final	ADJ	_	_	_	_	_	_
+7	exams	exam	NOUN	_	_	_	_	_	_
+8	this	this	DET	_	_	_	_	_	_
+9	week	week	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_047
+# text = My brother is taller than me.
+1	My	my	PRON	_	_	_	_	_	_
+2	brother	brother	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	taller	tall	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	me	I	PRON	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_048
+# text = The dog chased the cat around the yard.
+1	The	the	DET	_	_	_	_	_	_
+2	dog	dog	NOUN	_	_	_	_	_	_
+3	chased	chase	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	cat	cat	NOUN	_	_	_	_	_	_
+6	around	around	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	yard	yard	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_049
+# text = How many languages do you speak?
+1	How	how	ADV	_	_	_	_	_	_
+2	many	many	ADJ	_	_	_	_	_	_
+3	languages	language	NOUN	_	_	_	_	_	_
+4	do	do	AUX	_	_	_	_	_	_
+5	you	you	PRON	_	_	_	_	_	_
+6	speak	speak	VERB	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_050
+# text = The old man walked slowly down the street.
+1	The	the	DET	_	_	_	_	_	_
+2	old	old	ADJ	_	_	_	_	_	_
+3	man	man	NOUN	_	_	_	_	_	_
+4	walked	walk	VERB	_	_	_	_	_	_
+5	slowly	slowly	ADV	_	_	_	_	_	_
+6	down	down	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	street	street	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_051
+# text = The woman who called you is my aunt.
+1	The	the	DET	_	_	_	_	_	_
+2	woman	woman	NOUN	_	_	_	_	_	_
+3	who	who	PRON	_	_	_	_	_	_
+4	called	call	VERB	_	_	_	_	_	_
+5	you	you	PRON	_	_	_	_	_	_
+6	is	be	AUX	_	_	_	_	_	_
+7	my	my	PRON	_	_	_	_	_	_
+8	aunt	aunt	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_052
+# text = The meeting was canceled because the weather was bad.
+1	The	the	DET	_	_	_	_	_	_
+2	meeting	meeting	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	canceled	cancel	VERB	_	_	_	_	_	_
+5	because	because	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	weather	weather	NOUN	_	_	_	_	_	_
+8	was	be	AUX	_	_	_	_	_	_
+9	bad	bad	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_053
+# text = I found my lost wallet under the sofa.
+1	I	I	PRON	_	_	_	_	_	_
+2	found	find	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	lost	lost	ADJ	_	_	_	_	_	_
+5	wallet	wallet	NOUN	_	_	_	_	_	_
+6	under	under	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	sofa	sofa	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_054
+# text = The baby slept peacefully through the night.
+1	The	the	DET	_	_	_	_	_	_
+2	baby	baby	NOUN	_	_	_	_	_	_
+3	slept	sleep	VERB	_	_	_	_	_	_
+4	peacefully	peacefully	ADV	_	_	_	_	_	_
+5	through	through	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	night	night	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_055
+# text = Have you ever been to Paris?
+1	Have	have	AUX	_	_	_	_	_	_
+2	you	you	PRON	_	_	_	_	_	_
+3	ever	ever	ADV	_	_	_	_	_	_
+4	been	be	VERB	_	_	_	_	_	_
+5	to	to	ADP	_	_	_	_	_	_
+6	Paris	Paris	PROPN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_056
+# text = The red car is faster than the blue one.
+1	The	the	DET	_	_	_	_	_	_
+2	red	red	ADJ	_	_	_	_	_	_
+3	car	car	NOUN	_	_	_	_	_	_
+4	is	be	AUX	_	_	_	_	_	_
+5	faster	fast	ADJ	_	_	_	_	_	_
+6	than	than	SCONJ	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	blue	blue	ADJ	_	_	_	_	_	_
+9	one	one	PRON	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_057
+# text = They were laughing at the funny joke.
+1	They	they	PRON	_	_	_	_	_	_
+2	were	be	AUX	_	_	_	_	_	_
+3	laughing	laugh	VERB	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	funny	funny	ADJ	_	_	_	_	_	_
+7	joke	joke	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_058
+# text = The teacher gave us a challenging assignment.
+1	The	the	DET	_	_	_	_	_	_
+2	teacher	teacher	NOUN	_	_	_	_	_	_
+3	gave	give	VERB	_	_	_	_	_	_
+4	us	we	PRON	_	_	_	_	_	_
+5	a	a	DET	_	_	_	_	_	_
+6	challenging	challenging	ADJ	_	_	_	_	_	_
+7	assignment	assignment	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_059
+# text = Where did you go on vacation?
+1	Where	where	ADV	_	_	_	_	_	_
+2	did	do	AUX	_	_	_	_	_	_
+3	you	you	PRON	_	_	_	_	_	_
+4	go	go	VERB	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	vacation	vacation	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_060
+# text = The stars shone brightly in the clear sky.
+1	The	the	DET	_	_	_	_	_	_
+2	stars	star	NOUN	_	_	_	_	_	_
+3	shone	shine	VERB	_	_	_	_	_	_
+4	brightly	brightly	ADV	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	clear	clear	ADJ	_	_	_	_	_	_
+8	sky	sky	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_061
+# text = She cut the bread with a sharp knife.
+1	She	she	PRON	_	_	_	_	_	_
+2	cut	cut	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	bread	bread	NOUN	_	_	_	_	_	_
+5	with	with	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	sharp	sharp	ADJ	_	_	_	_	_	_
+8	knife	knife	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_062
+# text = The children are playing happily in the park.
+1	The	the	DET	_	_	_	_	_	_
+2	children	child	NOUN	_	_	_	_	_	_
+3	are	be	AUX	_	_	_	_	_	_
+4	playing	play	VERB	_	_	_	_	_	_
+5	happily	happily	ADV	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	park	park	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_063
+# text = I would like a cup of tea, please.
+1	I	I	PRON	_	_	_	_	_	_
+2	would	will	AUX	_	_	_	_	_	_
+3	like	like	VERB	_	_	_	_	_	_
+4	a	a	DET	_	_	_	_	_	_
+5	cup	cup	NOUN	_	_	_	_	_	_
+6	of	of	ADP	_	_	_	_	_	_
+7	tea	tea	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	please	please	INTJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_064
+# text = The bus arrives at noon.
+1	The	the	DET	_	_	_	_	_	_
+2	bus	bus	NOUN	_	_	_	_	_	_
+3	arrives	arrive	VERB	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	noon	noon	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_065
+# text = He has lived here for ten years.
+1	He	he	PRON	_	_	_	_	_	_
+2	has	have	AUX	_	_	_	_	_	_
+3	lived	live	VERB	_	_	_	_	_	_
+4	here	here	ADV	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	ten	ten	NUM	_	_	_	_	_	_
+7	years	year	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_066
+# text = The window was broken by a flying ball.
+1	The	the	DET	_	_	_	_	_	_
+2	window	window	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	broken	break	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	flying	flying	ADJ	_	_	_	_	_	_
+8	ball	ball	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_067
+# text = If it rains tomorrow, we will stay at home.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	it	it	PRON	_	_	_	_	_	_
+3	rains	rain	VERB	_	_	_	_	_	_
+4	tomorrow	tomorrow	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	we	we	PRON	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	stay	stay	VERB	_	_	_	_	_	_
+9	at	at	ADP	_	_	_	_	_	_
+10	home	home	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_068
+# text = She always wears colorful dresses.
+1	She	she	PRON	_	_	_	_	_	_
+2	always	always	ADV	_	_	_	_	_	_
+3	wears	wear	VERB	_	_	_	_	_	_
+4	colorful	colorful	ADJ	_	_	_	_	_	_
+5	dresses	dress	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_069
+# text = Do not touch the hot stove!
+1	Do	do	AUX	_	_	_	_	_	_
+2	not	not	PART	_	_	_	_	_	_
+3	touch	touch	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	hot	hot	ADJ	_	_	_	_	_	_
+6	stove	stove	NOUN	_	_	_	_	_	_
+7	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_070
+# text = The library opens at nine o'clock.
+1	The	the	DET	_	_	_	_	_	_
+2	library	library	NOUN	_	_	_	_	_	_
+3	opens	open	VERB	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	nine	nine	NUM	_	_	_	_	_	_
+6	o'clock	o'clock	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_071
+# text = She said bonjour and waved goodbye.
+1	She	she	PRON	_	_	_	_	_	_
+2	said	say	VERB	_	_	_	_	_	_
+3	bonjour	bonjour	X	_	_	_	_	_	_
+4	and	and	CCONJ	_	_	_	_	_	_
+5	waved	wave	VERB	_	_	_	_	_	_
+6	goodbye	goodbye	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_072
+# text = The cake tastes sweet and delicious.
+1	The	the	DET	_	_	_	_	_	_
+2	cake	cake	NOUN	_	_	_	_	_	_
+3	tastes	taste	VERB	_	_	_	_	_	_
+4	sweet	sweet	ADJ	_	_	_	_	_	_
+5	and	and	CCONJ	_	_	_	_	_	_
+6	delicious	delicious	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_073
+# text = The boys ran across the football field.
+1	The	the	DET	_	_	_	_	_	_
+2	boys	boy	NOUN	_	_	_	_	_	_
+3	ran	run	VERB	_	_	_	_	_	_
+4	across	across	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	football	football	NOUN	_	_	_	_	_	_
+7	field	field	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_074
+# text = I believe that she is telling the truth.
+1	I	I	PRON	_	_	_	_	_	_
+2	believe	believe	VERB	_	_	_	_	_	_
+3	that	that	SCONJ	_	_	_	_	_	_
+4	she	she	PRON	_	_	_	_	_	_
+5	is	be	AUX	_	_	_	_	_	_
+6	telling	tell	VERB	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	truth	truth	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_075
+# text = The plane took off on time.
+1	The	the	DET	_	_	_	_	_	_
+2	plane	plane	NOUN	_	_	_	_	_	_
+3	took	take	VERB	_	_	_	_	_	_
+4	off	off	ADP	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	time	time	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_076
+# text = She painted her room a lovely shade of blue.
+1	She	she	PRON	_	_	_	_	_	_
+2	painted	paint	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	room	room	NOUN	_	_	_	_	_	_
+5	a	a	DET	_	_	_	_	_	_
+6	lovely	lovely	ADJ	_	_	_	_	_	_
+7	shade	shade	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	blue	blue	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_077
+# text = The train was delayed by thirty minutes.
+1	The	the	DET	_	_	_	_	_	_
+2	train	train	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	delayed	delay	VERB	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	thirty	thirty	NUM	_	_	_	_	_	_
+7	minutes	minute	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_078
+# text = Could you help me with this box?
+1	Could	can	AUX	_	_	_	_	_	_
+2	you	you	PRON	_	_	_	_	_	_
+3	help	help	VERB	_	_	_	_	_	_
+4	me	I	PRON	_	_	_	_	_	_
+5	with	with	ADP	_	_	_	_	_	_
+6	this	this	DET	_	_	_	_	_	_
+7	box	box	NOUN	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_079
+# text = The kitten curled up on the soft blanket.
+1	The	the	DET	_	_	_	_	_	_
+2	kitten	kitten	NOUN	_	_	_	_	_	_
+3	curled	curl	VERB	_	_	_	_	_	_
+4	up	up	ADP	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	soft	soft	ADJ	_	_	_	_	_	_
+8	blanket	blanket	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_080
+# text = The storm damaged several houses in the village.
+1	The	the	DET	_	_	_	_	_	_
+2	storm	storm	NOUN	_	_	_	_	_	_
+3	damaged	damage	VERB	_	_	_	_	_	_
+4	several	several	DET	_	_	_	_	_	_
+5	houses	house	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	village	village	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_081
+# text = I need to buy some milk and eggs.
+1	I	I	PRON	_	_	_	_	_	_
+2	need	need	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	buy	buy	VERB	_	_	_	_	_	_
+5	some	some	DET	_	_	_	_	_	_
+6	milk	milk	NOUN	_	_	_	_	_	_
+7	and	and	CCONJ	_	_	_	_	_	_
+8	eggs	egg	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_082
+# text = The concert was absolutely wonderful.
+1	The	the	DET	_	_	_	_	_	_
+2	concert	concert	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	absolutely	absolutely	ADV	_	_	_	_	_	_
+5	wonderful	wonderful	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_083
+# text = The leaves turned yellow in autumn.
+1	The	the	DET	_	_	_	_	_	_
+2	leaves	leaf	NOUN	_	_	_	_	_	_
+3	turned	turn	VERB	_	_	_	_	_	_
+4	yellow	yellow	ADJ	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	autumn	autumn	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_084
+# text = She has written three novels.
+1	She	she	PRON	_	_	_	_	_	_
+2	has	have	AUX	_	_	_	_	_	_
+3	written	write	VERB	_	_	_	_	_	_
+4	three	three	NUM	_	_	_	_	_	_
+5	novels	novel	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_085
+# text = The dog buried its bone in the garden.
+1	The	the	DET	_	_	_	_	_	_
+2	dog	dog	NOUN	_	_	_	_	_	_
+3	buried	bury	VERB	_	_	_	_	_	_
+4	its	its	PRON	_	_	_	_	_	_
+5	bone	bone	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	garden	garden	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_086
+# text = Who left the door open?
+1	Who	who	PRON	_	_	_	_	_	_
+2	left	leave	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	door	door	NOUN	_	_	_	_	_	_
+5	open	open	ADJ	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_087
+# text = The children laughed at the silly clown.
+1	The	the	DET	_	_	_	_	_	_
+2	children	child	NOUN	_	_	_	_	_	_
+3	laughed	laugh	VERB	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	silly	silly	ADJ	_	_	_	_	_	_
+7	clown	clown	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_088
+# text = The bridge spans the wide river.
+1	The	the	DET	_	_	_	_	_	_
+2	bridge	bridge	NOUN	_	_	_	_	_	_
+3	spans	span	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	wide	wide	ADJ	_	_	_	_	_	_
+6	river	river	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_089
+# text = He carefully placed the vase on the shelf.
+1	He	he	PRON	_	_	_	_	_	_
+2	carefully	carefully	ADV	_	_	_	_	_	_
+3	placed	place	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	vase	vase	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	shelf	shelf	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_090
+# text = The store closes at eight o'clock.
+1	The	the	DET	_	_	_	_	_	_
+2	store	store	NOUN	_	_	_	_	_	_
+3	closes	close	VERB	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	eight	eight	NUM	_	_	_	_	_	_
+6	o'clock	o'clock	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_091
+# text = We decided to take a different route.
+1	We	we	PRON	_	_	_	_	_	_
+2	decided	decide	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	take	take	VERB	_	_	_	_	_	_
+5	a	a	DET	_	_	_	_	_	_
+6	different	different	ADJ	_	_	_	_	_	_
+7	route	route	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_092
+# text = The bird built a nest in the tree.
+1	The	the	DET	_	_	_	_	_	_
+2	bird	bird	NOUN	_	_	_	_	_	_
+3	built	build	VERB	_	_	_	_	_	_
+4	a	a	DET	_	_	_	_	_	_
+5	nest	nest	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	tree	tree	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_093
+# text = She is the most intelligent person I know.
+1	She	she	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	most	most	ADV	_	_	_	_	_	_
+5	intelligent	intelligent	ADJ	_	_	_	_	_	_
+6	person	person	NOUN	_	_	_	_	_	_
+7	I	I	PRON	_	_	_	_	_	_
+8	know	know	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_094
+# text = The river flooded after heavy rain.
+1	The	the	DET	_	_	_	_	_	_
+2	river	river	NOUN	_	_	_	_	_	_
+3	flooded	flood	VERB	_	_	_	_	_	_
+4	after	after	ADP	_	_	_	_	_	_
+5	heavy	heavy	ADJ	_	_	_	_	_	_
+6	rain	rain	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_095
+# text = Please sign your name at the bottom.
+1	Please	please	INTJ	_	_	_	_	_	_
+2	sign	sign	VERB	_	_	_	_	_	_
+3	your	your	PRON	_	_	_	_	_	_
+4	name	name	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bottom	bottom	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_096
+# text = The tired travelers finally reached their hotel.
+1	The	the	DET	_	_	_	_	_	_
+2	tired	tired	ADJ	_	_	_	_	_	_
+3	travelers	traveler	NOUN	_	_	_	_	_	_
+4	finally	finally	ADV	_	_	_	_	_	_
+5	reached	reach	VERB	_	_	_	_	_	_
+6	their	their	PRON	_	_	_	_	_	_
+7	hotel	hotel	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_097
+# text = The shirt costs $50 at the store.
+1	The	the	DET	_	_	_	_	_	_
+2	shirt	shirt	NOUN	_	_	_	_	_	_
+3	costs	cost	VERB	_	_	_	_	_	_
+4	$	$	SYM	_	_	_	_	_	_
+5	50	50	NUM	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	store	store	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_098
+# text = He broke his leg while skiing.
+1	He	he	PRON	_	_	_	_	_	_
+2	broke	break	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	leg	leg	NOUN	_	_	_	_	_	_
+5	while	while	SCONJ	_	_	_	_	_	_
+6	skiing	ski	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_099
+# text = The old castle stands on the hilltop.
+1	The	the	DET	_	_	_	_	_	_
+2	old	old	ADJ	_	_	_	_	_	_
+3	castle	castle	NOUN	_	_	_	_	_	_
+4	stands	stand	VERB	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	hilltop	hilltop	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_100
+# text = I will always remember this beautiful day.
+1	I	I	PRON	_	_	_	_	_	_
+2	will	will	AUX	_	_	_	_	_	_
+3	always	always	ADV	_	_	_	_	_	_
+4	remember	remember	VERB	_	_	_	_	_	_
+5	this	this	DET	_	_	_	_	_	_
+6	beautiful	beautiful	ADJ	_	_	_	_	_	_
+7	day	day	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_

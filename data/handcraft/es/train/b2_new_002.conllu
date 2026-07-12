@@ -1,0 +1,3951 @@
+# sent_id = es_b2_train_201
+# text = Aunque el acceso universitario ha mejorado, la calidad de la enseñanza sigue siendo desigual entre regiones.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	acceso	acceso	NOUN	_	_	_	_	_	_
+4	universitario	universitario	ADJ	_	_	_	_	_	_
+5	ha	haber	AUX	_	_	_	_	_	_
+6	mejorado	mejorar	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	calidad	calidad	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	enseñanza	enseñanza	NOUN	_	_	_	_	_	_
+13	sigue	seguir	VERB	_	_	_	_	_	_
+14	siendo	ser	AUX	_	_	_	_	_	_
+15	desigual	desigual	ADJ	_	_	_	_	_	_
+16	entre	entre	ADP	_	_	_	_	_	_
+17	regiones	región	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_202
+# text = Se espera que las nuevas becas reduzcan las barreras económicas para estudiantes de familias modestas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	nuevas	nuevo	ADJ	_	_	_	_	_	_
+6	becas	beca	NOUN	_	_	_	_	_	_
+7	reduzcan	reducir	VERB	_	_	_	_	_	_
+8	las	el	DET	_	_	_	_	_	_
+9	barreras	barrera	NOUN	_	_	_	_	_	_
+10	económicas	económico	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	familias	familia	NOUN	_	_	_	_	_	_
+15	modestas	modesto	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_203
+# text = El rector explicó que la formación digital debe integrarse coherentemente en los planes de estudio.
+1	El	el	DET	_	_	_	_	_	_
+2	rector	rector	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	formación	formación	NOUN	_	_	_	_	_	_
+7	digital	digital	ADJ	_	_	_	_	_	_
+8	debe	deber	VERB	_	_	_	_	_	_
+9	integrarse	integrar	VERB	_	_	_	_	_	_
+10	coherentemente	coherentemente	ADV	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	los	el	DET	_	_	_	_	_	_
+13	planes	plane	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	estudio	estudio	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_204
+# text = Pese a la inversión en infraestructura, muchos centros rurales carecen aún de conexión estable a internet.
+1	Pese	pese	NOUN	_	_	_	_	_	_
+2	a	a	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	inversión	inversión	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	infraestructura	infraestructura	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	muchos	mucho	DET	_	_	_	_	_	_
+9	centros	centro	NOUN	_	_	_	_	_	_
+10	rurales	rural	ADJ	_	_	_	_	_	_
+11	carecen	carecer	VERB	_	_	_	_	_	_
+12	aún	aún	ADV	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	conexión	conexión	NOUN	_	_	_	_	_	_
+15	estable	estable	ADJ	_	_	_	_	_	_
+16	a	a	ADP	_	_	_	_	_	_
+17	internet	internet	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_205
+# text = Si se ampliaran los programas duales, la transición al mercado laboral podría ser más fluida.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	ampliaran	ampliar	VERB	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	programas	programa	NOUN	_	_	_	_	_	_
+6	duales	dual	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	transición	transición	NOUN	_	_	_	_	_	_
+10	al	al	ADP	_	_	_	_	_	_
+11	mercado	mercado	NOUN	_	_	_	_	_	_
+12	laboral	laboral	ADJ	_	_	_	_	_	_
+13	podría	poder	VERB	_	_	_	_	_	_
+14	ser	ser	AUX	_	_	_	_	_	_
+15	más	más	ADV	_	_	_	_	_	_
+16	fluida	fluido	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_206
+# text = La evaluación continua, cuya fiabilidad se debate en foros académicos, influye en las admisiones.
+1	La	el	DET	_	_	_	_	_	_
+2	evaluación	evaluación	NOUN	_	_	_	_	_	_
+3	continua	continuo	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	cuya	cuyo	DET	_	_	_	_	_	_
+6	fiabilidad	fiabilidad	NOUN	_	_	_	_	_	_
+7	se	él	PRON	_	_	_	_	_	_
+8	debate	debatir	VERB	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	foros	foro	NOUN	_	_	_	_	_	_
+11	académicos	académico	ADJ	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	influye	influir	VERB	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	las	el	DET	_	_	_	_	_	_
+16	admisiones	admisión	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_207
+# text = Se informó de que la tasa de abandono escolar temprano disminuirá en los próximos cinco años.
+1	Se	él	PRON	_	_	_	_	_	_
+2	informó	informar	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	tasa	tasa	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	abandono	abandono	NOUN	_	_	_	_	_	_
+9	escolar	escolar	ADJ	_	_	_	_	_	_
+10	temprano	temprano	ADV	_	_	_	_	_	_
+11	disminuirá	disminuir	VERB	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	los	el	DET	_	_	_	_	_	_
+14	próximos	próximo	ADJ	_	_	_	_	_	_
+15	cinco	cinco	NUM	_	_	_	_	_	_
+16	años	año	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_208
+# text = Aunque se modernizaron los laboratorios, la escasez de docentes especializados limita el progreso real.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	modernizaron	modernizar	VERB	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	laboratorios	laboratorio	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	escasez	escasez	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	docentes	docente	NOUN	_	_	_	_	_	_
+11	especializados	especializado	ADJ	_	_	_	_	_	_
+12	limita	limir	VERB	_	_	_	_	_	_
+13	el	el	DET	_	_	_	_	_	_
+14	progreso	progreso	NOUN	_	_	_	_	_	_
+15	real	real	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_209
+# text = El ministro subrayó que la educación pública no debe depender exclusivamente de la financiación privada.
+1	El	el	DET	_	_	_	_	_	_
+2	ministro	ministro	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	educación	educación	NOUN	_	_	_	_	_	_
+7	pública	público	ADJ	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	debe	deber	VERB	_	_	_	_	_	_
+10	depender	depender	VERB	_	_	_	_	_	_
+11	exclusivamente	exclusivamente	ADV	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	financiación	financiación	NOUN	_	_	_	_	_	_
+15	privada	privado	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_210
+# text = Si se hubieran reforzado antes los servicios de orientación, menos jóvenes habrían elegido itinerarios inadecuados.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	hubieran	haber	AUX	_	_	_	_	_	_
+4	reforzado	reforzar	VERB	_	_	_	_	_	_
+5	antes	antes	ADV	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	servicios	servicio	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	orientación	orientación	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	menos	menos	ADV	_	_	_	_	_	_
+12	jóvenes	joven	NOUN	_	_	_	_	_	_
+13	habrían	haber	VERB	_	_	_	_	_	_
+14	elegido	eleger	VERB	_	_	_	_	_	_
+15	itinerarios	itinerario	NOUN	_	_	_	_	_	_
+16	inadecuados	inadecuado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_211
+# text = Promover la lectura crítica requiere materiales actualizados y formación específica para el profesorado.
+1	Promover	promover	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	lectura	lectura	NOUN	_	_	_	_	_	_
+4	crítica	crítico	ADJ	_	_	_	_	_	_
+5	requiere	requerir	VERB	_	_	_	_	_	_
+6	materiales	materiale	NOUN	_	_	_	_	_	_
+7	actualizados	actualizar	ADJ	_	_	_	_	_	_
+8	y	y	CCONJ	_	_	_	_	_	_
+9	formación	formación	NOUN	_	_	_	_	_	_
+10	específica	específico	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	profesorado	profesorado	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_212
+# text = Se teme que la automatización reduzca la demanda de competencias que hoy se enseñan en muchas escuelas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	automatización	automatización	NOUN	_	_	_	_	_	_
+6	reduzca	reducir	VERB	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	demanda	demanda	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	competencias	competencia	NOUN	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	hoy	hoy	ADV	_	_	_	_	_	_
+13	se	él	PRON	_	_	_	_	_	_
+14	enseñan	enseñar	VERB	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	muchas	mucho	DET	_	_	_	_	_	_
+17	escuelas	escuela	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_213
+# text = Fortalecer la educación en idiomas se considera esencial para la movilidad profesional en mercados europeos.
+1	Fortalecer	fortalecer	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	educación	educación	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	idiomas	idioma	NOUN	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	considera	considerar	VERB	_	_	_	_	_	_
+8	esencial	esencial	ADJ	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	movilidad	movilidad	NOUN	_	_	_	_	_	_
+12	profesional	profesional	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	mercados	mercado	NOUN	_	_	_	_	_	_
+15	europeos	europeo	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_214
+# text = Aunque las matrículas aumentaron, las plazas en carreras técnicas siguen siendo insuficientes en varias provincias.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	matrículas	matrícula	NOUN	_	_	_	_	_	_
+4	aumentaron	aumentar	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	las	el	DET	_	_	_	_	_	_
+7	plazas	plaza	NOUN	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	carreras	carrera	NOUN	_	_	_	_	_	_
+10	técnicas	técnico	ADJ	_	_	_	_	_	_
+11	siguen	seguir	VERB	_	_	_	_	_	_
+12	siendo	ser	AUX	_	_	_	_	_	_
+13	insuficientes	insuficiente	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	varias	vario	DET	_	_	_	_	_	_
+16	provincias	provincia	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_215
+# text = Los estudiantes deberían recibir apoyo personalizado cuando enfrenten dificultades de aprendizaje prolongadas.
+1	Los	el	DET	_	_	_	_	_	_
+2	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+3	deberían	deber	VERB	_	_	_	_	_	_
+4	recibir	recibir	VERB	_	_	_	_	_	_
+5	apoyo	apoyo	NOUN	_	_	_	_	_	_
+6	personalizado	personalizado	ADJ	_	_	_	_	_	_
+7	cuando	cuando	SCONJ	_	_	_	_	_	_
+8	enfrenten	enfrentar	VERB	_	_	_	_	_	_
+9	dificultades	dificultade	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	aprendizaje	aprendizaje	NOUN	_	_	_	_	_	_
+12	prolongadas	prolongado	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_216
+# text = El informe recomienda vincular la investigación universitaria con necesidades concretas de la economía regional.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	recomienda	recomendar	VERB	_	_	_	_	_	_
+4	vincular	vincular	VERB	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	investigación	investigación	NOUN	_	_	_	_	_	_
+7	universitaria	universitario	ADJ	_	_	_	_	_	_
+8	con	con	ADP	_	_	_	_	_	_
+9	necesidades	necesidade	NOUN	_	_	_	_	_	_
+10	concretas	concreto	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	economía	economía	NOUN	_	_	_	_	_	_
+14	regional	regional	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_217
+# text = Se supone que los currículos se revisarán para incluir competencias medioambientales y ciudadanas básicas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	supone	suponer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	currículos	currículo	NOUN	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	revisarán	revisar	VERB	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	incluir	incluir	VERB	_	_	_	_	_	_
+10	competencias	competencia	NOUN	_	_	_	_	_	_
+11	medioambientales	medioambiental	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	ciudadanas	ciudadano	ADJ	_	_	_	_	_	_
+14	básicas	básico	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_218
+# text = Mientras las empresas exigen perfiles híbridos, los sistemas formativos siguen fragmentados entre instituciones.
+1	Mientras	mientras	SCONJ	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	empresas	empresa	NOUN	_	_	_	_	_	_
+4	exigen	exigir	VERB	_	_	_	_	_	_
+5	perfiles	perfile	NOUN	_	_	_	_	_	_
+6	híbridos	híbrido	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	sistemas	sistema	NOUN	_	_	_	_	_	_
+10	formativos	formativo	ADJ	_	_	_	_	_	_
+11	siguen	seguir	VERB	_	_	_	_	_	_
+12	fragmentados	fragmentado	ADJ	_	_	_	_	_	_
+13	entre	entre	ADP	_	_	_	_	_	_
+14	instituciones	institución	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_219
+# text = La formación de adultos fue descrita como prioritaria para reducir la brecha digital entre generaciones.
+1	La	el	DET	_	_	_	_	_	_
+2	formación	formación	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	adultos	adulto	NOUN	_	_	_	_	_	_
+5	fue	ser	AUX	_	_	_	_	_	_
+6	descrita	describir	VERB	_	_	_	_	_	_
+7	como	como	SCONJ	_	_	_	_	_	_
+8	prioritaria	prioritario	ADJ	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	reducir	reducir	VERB	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	brecha	brecha	NOUN	_	_	_	_	_	_
+13	digital	digital	ADJ	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	generaciones	generación	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_220
+# text = Se promueven alianzas entre universidades y pymes para acercar la innovación a entornos productivos locales.
+1	Se	él	PRON	_	_	_	_	_	_
+2	promueven	promover	VERB	_	_	_	_	_	_
+3	alianzas	alianza	NOUN	_	_	_	_	_	_
+4	entre	entre	ADP	_	_	_	_	_	_
+5	universidades	universidade	NOUN	_	_	_	_	_	_
+6	y	y	CCONJ	_	_	_	_	_	_
+7	pymes	pyme	NOUN	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	acercar	acercar	VERB	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	innovación	innovación	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	entornos	entorno	NOUN	_	_	_	_	_	_
+14	productivos	productivo	ADJ	_	_	_	_	_	_
+15	locales	local	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_221
+# text = La equidad educativa depende de criterios transparentes de reparto, un reto central para los gobiernos.
+1	La	el	DET	_	_	_	_	_	_
+2	equidad	equidad	NOUN	_	_	_	_	_	_
+3	educativa	educativo	ADJ	_	_	_	_	_	_
+4	depende	depender	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	criterios	criterio	NOUN	_	_	_	_	_	_
+7	transparentes	transparente	ADJ	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	reparto	reparto	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	un	uno	DET	_	_	_	_	_	_
+12	reto	reto	NOUN	_	_	_	_	_	_
+13	central	central	ADJ	_	_	_	_	_	_
+14	para	para	ADP	_	_	_	_	_	_
+15	los	el	DET	_	_	_	_	_	_
+16	gobiernos	gobierno	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_222
+# text = El analista señaló que la movilidad académica internacional beneficia a quienes ya disponen de redes sólidas.
+1	El	el	DET	_	_	_	_	_	_
+2	analista	analista	NOUN	_	_	_	_	_	_
+3	señaló	señalar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	movilidad	movilidad	NOUN	_	_	_	_	_	_
+7	académica	académico	ADJ	_	_	_	_	_	_
+8	internacional	internacional	ADJ	_	_	_	_	_	_
+9	beneficia	beneficiar	VERB	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	quienes	quien	PRON	_	_	_	_	_	_
+12	ya	ya	ADV	_	_	_	_	_	_
+13	disponen	disponer	VERB	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	redes	rede	NOUN	_	_	_	_	_	_
+16	sólidas	sólido	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_223
+# text = Ampliar el acceso a bibliotecas digitales se considera indispensable para reducir desigualdades en el aprendizaje.
+1	Ampliar	ampliar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	acceso	acceso	NOUN	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	bibliotecas	biblioteca	NOUN	_	_	_	_	_	_
+6	digitales	digital	ADJ	_	_	_	_	_	_
+7	se	él	PRON	_	_	_	_	_	_
+8	considera	considerar	VERB	_	_	_	_	_	_
+9	indispensable	indispensable	ADJ	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	reducir	reducir	VERB	_	_	_	_	_	_
+12	desigualdades	desigualdade	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	el	el	DET	_	_	_	_	_	_
+15	aprendizaje	aprendizaje	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_224
+# text = No es la falta de normas curriculares sino la escasa inversión sostenida lo que frena la mejora.
+1	No	no	ADV	_	_	_	_	_	_
+2	es	ser	AUX	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	falta	falta	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	normas	norma	NOUN	_	_	_	_	_	_
+7	curriculares	curricular	ADJ	_	_	_	_	_	_
+8	sino	sino	SCONJ	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	escasa	escaso	ADJ	_	_	_	_	_	_
+11	inversión	inversión	NOUN	_	_	_	_	_	_
+12	sostenida	sostenido	ADJ	_	_	_	_	_	_
+13	lo	él	PRON	_	_	_	_	_	_
+14	que	que	SCONJ	_	_	_	_	_	_
+15	frena	frenar	VERB	_	_	_	_	_	_
+16	la	el	DET	_	_	_	_	_	_
+17	mejora	mejora	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_225
+# text = El impacto de la educación temprana en la equidad social se estudia intensamente desde diversas disciplinas.
+1	El	el	DET	_	_	_	_	_	_
+2	impacto	impacto	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	educación	educación	NOUN	_	_	_	_	_	_
+6	temprana	temprano	ADJ	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	equidad	equidad	NOUN	_	_	_	_	_	_
+10	social	social	ADJ	_	_	_	_	_	_
+11	se	él	PRON	_	_	_	_	_	_
+12	estudia	estudiar	VERB	_	_	_	_	_	_
+13	intensamente	intensamente	ADV	_	_	_	_	_	_
+14	desde	desde	ADP	_	_	_	_	_	_
+15	diversas	diverso	DET	_	_	_	_	_	_
+16	disciplinas	disciplina	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_226
+# text = La sostenibilidad del sistema sanitario exige reformas estructurales en financiación, personal y organización asistencial.
+1	La	el	DET	_	_	_	_	_	_
+2	sostenibilidad	sostenibilidad	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	sistema	sistema	NOUN	_	_	_	_	_	_
+5	sanitario	sanitario	ADJ	_	_	_	_	_	_
+6	exige	exigir	VERB	_	_	_	_	_	_
+7	reformas	reforma	NOUN	_	_	_	_	_	_
+8	estructurales	estructural	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	financiación	financiación	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	personal	personal	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	organización	organización	NOUN	_	_	_	_	_	_
+15	asistencial	asistencial	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_227
+# text = Aunque se ampliaron los servicios de atención primaria, las listas de espera siguen creciendo en especialidades.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	ampliaron	ampliar	VERB	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	servicios	servicio	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	atención	atención	NOUN	_	_	_	_	_	_
+8	primaria	primario	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	las	el	DET	_	_	_	_	_	_
+11	listas	lista	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	espera	espera	NOUN	_	_	_	_	_	_
+14	siguen	seguir	VERB	_	_	_	_	_	_
+15	creciendo	crecer	VERB	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	especialidades	especialidade	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_228
+# text = Se espera que la telemedicina complemente la atención presencial sin sustituir el contacto clínico necesario.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	telemedicina	telemedicina	NOUN	_	_	_	_	_	_
+6	complemente	complementar	VERB	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	atención	atención	NOUN	_	_	_	_	_	_
+9	presencial	presencial	ADJ	_	_	_	_	_	_
+10	sin	sin	ADP	_	_	_	_	_	_
+11	sustituir	sustituir	VERB	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	contacto	contacto	NOUN	_	_	_	_	_	_
+14	clínico	clínico	ADJ	_	_	_	_	_	_
+15	necesario	necesario	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_229
+# text = Garantizar el acceso universal a medicamentos esenciales es un pilar básico de la salud pública moderna.
+1	Garantizar	garantizar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	acceso	acceso	NOUN	_	_	_	_	_	_
+4	universal	universal	ADJ	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	medicamentos	medicamento	NOUN	_	_	_	_	_	_
+7	esenciales	esencial	ADJ	_	_	_	_	_	_
+8	es	ser	AUX	_	_	_	_	_	_
+9	un	uno	DET	_	_	_	_	_	_
+10	pilar	pilar	NOUN	_	_	_	_	_	_
+11	básico	básico	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	salud	salud	NOUN	_	_	_	_	_	_
+15	pública	público	ADJ	_	_	_	_	_	_
+16	moderna	moderno	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_230
+# text = A pesar de campañas preventivas, enfermedades crónicas relacionadas con el estilo de vida siguen aumentando.
+1	A	a	ADP	_	_	_	_	_	_
+2	pesar	pesar	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	campañas	campaña	NOUN	_	_	_	_	_	_
+5	preventivas	preventivo	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	enfermedades	enfermedade	NOUN	_	_	_	_	_	_
+8	crónicas	crónica	ADJ	_	_	_	_	_	_
+9	relacionadas	relacionar	ADJ	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	estilo	estilo	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	vida	vida	NOUN	_	_	_	_	_	_
+15	siguen	seguir	VERB	_	_	_	_	_	_
+16	aumentando	aumentar	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_231
+# text = El director médico explicó que la coordinación entre hospitales y centros de salud había mejorado recientemente.
+1	El	el	DET	_	_	_	_	_	_
+2	director	director	NOUN	_	_	_	_	_	_
+3	médico	médico	ADJ	_	_	_	_	_	_
+4	explicó	explicar	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	coordinación	coordinación	NOUN	_	_	_	_	_	_
+8	entre	entre	ADP	_	_	_	_	_	_
+9	hospitales	hospitale	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	centros	centro	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	salud	salud	NOUN	_	_	_	_	_	_
+14	había	haber	AUX	_	_	_	_	_	_
+15	mejorado	mejorar	VERB	_	_	_	_	_	_
+16	recientemente	recientemente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_232
+# text = Reducir las desigualdades en salud requiere intervenciones en vivienda, empleo y educación, según expertos.
+1	Reducir	reducir	VERB	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	desigualdades	desigualdade	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	salud	salud	NOUN	_	_	_	_	_	_
+6	requiere	requerir	VERB	_	_	_	_	_	_
+7	intervenciones	intervención	NOUN	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	vivienda	vivienda	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	empleo	empleo	NOUN	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	educación	educación	NOUN	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	según	según	ADP	_	_	_	_	_	_
+16	expertos	experto	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_233
+# text = Los pacientes deben participar en decisiones clínicas informadas, declaró la comisión durante la audiencia pública.
+1	Los	el	DET	_	_	_	_	_	_
+2	pacientes	paciente	NOUN	_	_	_	_	_	_
+3	deben	deber	VERB	_	_	_	_	_	_
+4	participar	participar	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	decisiones	decisión	NOUN	_	_	_	_	_	_
+7	clínicas	clínico	ADJ	_	_	_	_	_	_
+8	informadas	informado	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	declaró	declarar	VERB	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	comisión	comisión	NOUN	_	_	_	_	_	_
+13	durante	durante	ADP	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	audiencia	audiencia	NOUN	_	_	_	_	_	_
+16	pública	público	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_234
+# text = La vacunación infantil fue defendida con firmeza ante campañas de desinformación en redes sociales locales.
+1	La	el	DET	_	_	_	_	_	_
+2	vacunación	vacunación	NOUN	_	_	_	_	_	_
+3	infantil	infantil	ADJ	_	_	_	_	_	_
+4	fue	ser	AUX	_	_	_	_	_	_
+5	defendida	defender	VERB	_	_	_	_	_	_
+6	con	con	ADP	_	_	_	_	_	_
+7	firmeza	firmeza	NOUN	_	_	_	_	_	_
+8	ante	ante	ADP	_	_	_	_	_	_
+9	campañas	campaña	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	desinformación	desinformación	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	redes	rede	NOUN	_	_	_	_	_	_
+14	sociales	social	ADJ	_	_	_	_	_	_
+15	locales	local	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_235
+# text = Si se invirtiera más en prevención comunitaria, la presión sobre urgencias hospitalarias podría disminuir notablemente.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	invirtiera	invertir	VERB	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	prevención	prevención	NOUN	_	_	_	_	_	_
+7	comunitaria	comunitario	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	presión	presión	NOUN	_	_	_	_	_	_
+11	sobre	sobre	ADP	_	_	_	_	_	_
+12	urgencias	urgencia	NOUN	_	_	_	_	_	_
+13	hospitalarias	hospitalario	ADJ	_	_	_	_	_	_
+14	podría	poder	VERB	_	_	_	_	_	_
+15	disminuir	disminuir	VERB	_	_	_	_	_	_
+16	notablemente	notablemente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_236
+# text = Aunque se aprobó el plan nacional, su aplicación en regiones con menor densidad poblacional avanza lentamente.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	aprobó	aprobar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	plan	plan	NOUN	_	_	_	_	_	_
+6	nacional	nacional	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	su	suyo	DET	_	_	_	_	_	_
+9	aplicación	aplicación	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	regiones	región	NOUN	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	menor	menor	ADJ	_	_	_	_	_	_
+14	densidad	densidad	NOUN	_	_	_	_	_	_
+15	poblacional	poblacional	ADJ	_	_	_	_	_	_
+16	avanza	avanzar	VERB	_	_	_	_	_	_
+17	lentamente	lentamente	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_237
+# text = Se teme que la escasez de enfermeras comprometa la calidad asistencial en periodos de alta demanda estacional.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	escasez	escasez	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	enfermeras	enfermera	NOUN	_	_	_	_	_	_
+8	comprometa	comprometer	VERB	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	calidad	calidad	NOUN	_	_	_	_	_	_
+11	asistencial	asistencial	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	periodos	periodo	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	alta	alto	ADJ	_	_	_	_	_	_
+16	demanda	demanda	NOUN	_	_	_	_	_	_
+17	estacional	estacional	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_238
+# text = Fortalecer la atención domiciliaria se considera clave para personas mayores con patologías crónicas complejas.
+1	Fortalecer	fortalecer	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	atención	atención	NOUN	_	_	_	_	_	_
+4	domiciliaria	domiciliario	ADJ	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	considera	considerar	VERB	_	_	_	_	_	_
+7	clave	clave	NOUN	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	personas	persona	NOUN	_	_	_	_	_	_
+10	mayores	mayor	ADJ	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	patologías	patología	NOUN	_	_	_	_	_	_
+13	crónicas	crónica	ADJ	_	_	_	_	_	_
+14	complejas	complejo	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_239
+# text = Si la comunidad hubiera recibido información clara antes, la adherencia a medidas preventivas habría sido mayor.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	comunidad	comunidad	NOUN	_	_	_	_	_	_
+4	hubiera	haber	AUX	_	_	_	_	_	_
+5	recibido	reciber	VERB	_	_	_	_	_	_
+6	información	información	NOUN	_	_	_	_	_	_
+7	clara	claro	ADJ	_	_	_	_	_	_
+8	antes	antes	ADV	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	adherencia	adherencia	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	medidas	medida	NOUN	_	_	_	_	_	_
+14	preventivas	preventivo	ADJ	_	_	_	_	_	_
+15	habría	haber	VERB	_	_	_	_	_	_
+16	sido	ser	AUX	_	_	_	_	_	_
+17	mayor	mayor	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_240
+# text = El informe indica que el estrés laboral contribuye significativamente al aumento de consultas de salud mental.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	indica	indicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	estrés	estré	NOUN	_	_	_	_	_	_
+7	laboral	laboral	ADJ	_	_	_	_	_	_
+8	contribuye	contribuir	VERB	_	_	_	_	_	_
+9	significativamente	significativamente	ADV	_	_	_	_	_	_
+10	al	al	ADP	_	_	_	_	_	_
+11	aumento	aumento	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	consultas	consulta	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	salud	salud	NOUN	_	_	_	_	_	_
+16	mental	mental	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_241
+# text = La supervisión independiente de la calidad asistencial se considera indispensable por organizaciones profesionales médicas.
+1	La	el	DET	_	_	_	_	_	_
+2	supervisión	supervisión	NOUN	_	_	_	_	_	_
+3	independiente	independiente	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	calidad	calidad	NOUN	_	_	_	_	_	_
+7	asistencial	asistencial	ADJ	_	_	_	_	_	_
+8	se	él	PRON	_	_	_	_	_	_
+9	considera	considerar	VERB	_	_	_	_	_	_
+10	indispensable	indispensable	ADJ	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	organizaciones	organización	NOUN	_	_	_	_	_	_
+13	profesionales	profesional	ADJ	_	_	_	_	_	_
+14	médicas	médico	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_242
+# text = Aunque hubo avances, el acceso a tratamientos innovadores sigue siendo desigual entre distintos grupos sociales.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	hubo	haber	AUX	_	_	_	_	_	_
+3	avances	avance	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	acceso	acceso	NOUN	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	tratamientos	tratamiento	NOUN	_	_	_	_	_	_
+9	innovadores	innovador	ADJ	_	_	_	_	_	_
+10	sigue	seguir	VERB	_	_	_	_	_	_
+11	siendo	ser	AUX	_	_	_	_	_	_
+12	desigual	desigual	ADJ	_	_	_	_	_	_
+13	entre	entre	ADP	_	_	_	_	_	_
+14	distintos	distinto	DET	_	_	_	_	_	_
+15	grupos	grupo	NOUN	_	_	_	_	_	_
+16	sociales	social	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_243
+# text = El problema no es la escasez de protocolos sino la falta de personal para aplicarlos coherentemente.
+1	El	el	DET	_	_	_	_	_	_
+2	problema	problema	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	escasez	escasez	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	protocolos	protocolo	NOUN	_	_	_	_	_	_
+9	sino	sino	SCONJ	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	falta	falta	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	personal	personal	NOUN	_	_	_	_	_	_
+14	para	para	ADP	_	_	_	_	_	_
+15	aplicarlos	aplicar	VERB	_	_	_	_	_	_
+16	coherentemente	coherentemente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_244
+# text = Los equipos interdisciplinares fueron descritos como necesarios para abordar enfermedades con múltiples factores.
+1	Los	el	DET	_	_	_	_	_	_
+2	equipos	equipo	NOUN	_	_	_	_	_	_
+3	interdisciplinares	interdisciplinar	ADJ	_	_	_	_	_	_
+4	fueron	ser	AUX	_	_	_	_	_	_
+5	descritos	describir	VERB	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	necesarios	necesario	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	abordar	abordar	VERB	_	_	_	_	_	_
+10	enfermedades	enfermedade	NOUN	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	múltiples	múltiple	ADJ	_	_	_	_	_	_
+13	factores	factore	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_245
+# text = El ministro subrayó que la salud pública no debe sacrificarse por recortes presupuestarios de corto plazo.
+1	El	el	DET	_	_	_	_	_	_
+2	ministro	ministro	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	salud	salud	NOUN	_	_	_	_	_	_
+7	pública	público	ADJ	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	debe	deber	VERB	_	_	_	_	_	_
+10	sacrificarse	sacrificar	VERB	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	recortes	recorte	NOUN	_	_	_	_	_	_
+13	presupuestarios	presupuestario	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	corto	corto	ADJ	_	_	_	_	_	_
+16	plazo	plazo	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_246
+# text = Ampliar la cobertura de cribados se debate de forma intensa en varios parlamentos autonómicos este año.
+1	Ampliar	ampliar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	cobertura	cobertura	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	cribados	cribado	NOUN	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	debate	debatir	VERB	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	forma	forma	NOUN	_	_	_	_	_	_
+10	intensa	intenso	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	varios	vario	DET	_	_	_	_	_	_
+13	parlamentos	parlamento	NOUN	_	_	_	_	_	_
+14	autonómicos	autonómico	ADJ	_	_	_	_	_	_
+15	este	este	DET	_	_	_	_	_	_
+16	año	año	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_247
+# text = Se recomienda integrar datos clínicos de forma segura para mejorar la continuidad asistencial entre niveles.
+1	Se	él	PRON	_	_	_	_	_	_
+2	recomienda	recomendar	VERB	_	_	_	_	_	_
+3	integrar	integrar	VERB	_	_	_	_	_	_
+4	datos	dato	NOUN	_	_	_	_	_	_
+5	clínicos	clínico	ADJ	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	forma	forma	NOUN	_	_	_	_	_	_
+8	segura	seguro	ADJ	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	mejorar	mejorar	VERB	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	continuidad	continuidad	NOUN	_	_	_	_	_	_
+13	asistencial	asistencial	ADJ	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	niveles	nivele	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_248
+# text = Aunque la atención de urgencias funciona, la saturación nocturna obliga a reforzar turnos en varios hospitales.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	atención	atención	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	urgencias	urgencia	NOUN	_	_	_	_	_	_
+6	funciona	funcionar	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	saturación	saturación	NOUN	_	_	_	_	_	_
+10	nocturna	nocturno	ADJ	_	_	_	_	_	_
+11	obliga	obligar	VERB	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	reforzar	reforzar	VERB	_	_	_	_	_	_
+14	turnos	turno	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	varios	vario	DET	_	_	_	_	_	_
+17	hospitales	hospitale	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_249
+# text = Promover hábitos saludables debería complementar la atención médica sin trasladar toda la responsabilidad a pacientes.
+1	Promover	promover	VERB	_	_	_	_	_	_
+2	hábitos	hábito	NOUN	_	_	_	_	_	_
+3	saludables	saludable	ADJ	_	_	_	_	_	_
+4	debería	deber	VERB	_	_	_	_	_	_
+5	complementar	complementar	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	atención	atención	NOUN	_	_	_	_	_	_
+8	médica	médico	ADJ	_	_	_	_	_	_
+9	sin	sin	ADP	_	_	_	_	_	_
+10	trasladar	trasladar	VERB	_	_	_	_	_	_
+11	toda	todo	DET	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	responsabilidad	responsabilidad	NOUN	_	_	_	_	_	_
+14	a	a	ADP	_	_	_	_	_	_
+15	pacientes	paciente	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_250
+# text = Defender un sistema sanitario equitativo sigue siendo una obligación del estado incluso en contextos de crisis.
+1	Defender	defender	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	sistema	sistema	NOUN	_	_	_	_	_	_
+4	sanitario	sanitario	ADJ	_	_	_	_	_	_
+5	equitativo	equitativo	ADJ	_	_	_	_	_	_
+6	sigue	seguir	VERB	_	_	_	_	_	_
+7	siendo	ser	AUX	_	_	_	_	_	_
+8	una	uno	DET	_	_	_	_	_	_
+9	obligación	obligación	NOUN	_	_	_	_	_	_
+10	del	del	ADP	_	_	_	_	_	_
+11	estado	estar	AUX	_	_	_	_	_	_
+12	incluso	incluso	ADV	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	contextos	contexto	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	crisis	crisi	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_251
+# text = La proliferación de noticias falsas obliga a repensar cómo los ciudadanos evalúan la información en línea.
+1	La	el	DET	_	_	_	_	_	_
+2	proliferación	proliferación	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	noticias	noticia	NOUN	_	_	_	_	_	_
+5	falsas	falso	ADJ	_	_	_	_	_	_
+6	obliga	obligar	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	repensar	repensar	VERB	_	_	_	_	_	_
+9	cómo	cómo	ADV	_	_	_	_	_	_
+10	los	el	DET	_	_	_	_	_	_
+11	ciudadanos	ciudadano	NOUN	_	_	_	_	_	_
+12	evalúan	evaluar	VERB	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	información	información	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	línea	línea	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_252
+# text = Aunque las plataformas moderan contenidos, los algoritmos siguen priorizando mensajes que generan mayor interacción.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	plataformas	plataforma	NOUN	_	_	_	_	_	_
+4	moderan	moder	VERB	_	_	_	_	_	_
+5	contenidos	contenido	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	algoritmos	algoritmo	NOUN	_	_	_	_	_	_
+9	siguen	seguir	VERB	_	_	_	_	_	_
+10	priorizando	priorizar	VERB	_	_	_	_	_	_
+11	mensajes	mensaje	NOUN	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	generan	generar	VERB	_	_	_	_	_	_
+14	mayor	mayor	ADJ	_	_	_	_	_	_
+15	interacción	interacción	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_253
+# text = Se espera que nuevas normas exijan mayor transparencia sobre el origen de la publicidad política digital.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	nuevas	nuevo	ADJ	_	_	_	_	_	_
+5	normas	norma	NOUN	_	_	_	_	_	_
+6	exijan	exigir	VERB	_	_	_	_	_	_
+7	mayor	mayor	ADJ	_	_	_	_	_	_
+8	transparencia	transparencia	NOUN	_	_	_	_	_	_
+9	sobre	sobre	ADP	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	origen	origen	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	publicidad	publicidad	NOUN	_	_	_	_	_	_
+15	política	político	ADJ	_	_	_	_	_	_
+16	digital	digital	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_254
+# text = Desarrollar pensamiento crítico frente a los medios es una competencia esencial en sociedades altamente conectadas.
+1	Desarrollar	desarrollar	VERB	_	_	_	_	_	_
+2	pensamiento	pensamiento	NOUN	_	_	_	_	_	_
+3	crítico	crítico	ADJ	_	_	_	_	_	_
+4	frente	frente	NOUN	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	medios	medio	NOUN	_	_	_	_	_	_
+8	es	ser	AUX	_	_	_	_	_	_
+9	una	uno	DET	_	_	_	_	_	_
+10	competencia	competencia	NOUN	_	_	_	_	_	_
+11	esencial	esencial	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	sociedades	sociedade	NOUN	_	_	_	_	_	_
+14	altamente	altamente	ADV	_	_	_	_	_	_
+15	conectadas	conectar	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_255
+# text = A pesar de verificadores independientes, los bulos sanitarios se difunden con rapidez en grupos cerrados.
+1	A	a	ADP	_	_	_	_	_	_
+2	pesar	pesar	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	verificadores	verificadore	NOUN	_	_	_	_	_	_
+5	independientes	independiente	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	bulos	bulo	NOUN	_	_	_	_	_	_
+9	sanitarios	sanitario	ADJ	_	_	_	_	_	_
+10	se	él	PRON	_	_	_	_	_	_
+11	difunden	difundir	VERB	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	rapidez	rapidez	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	grupos	grupo	NOUN	_	_	_	_	_	_
+16	cerrados	cerrado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_256
+# text = El director editorial explicó que la presión por publicar primero había afectado los procesos de verificación interna.
+1	El	el	DET	_	_	_	_	_	_
+2	director	director	NOUN	_	_	_	_	_	_
+3	editorial	editorial	ADJ	_	_	_	_	_	_
+4	explicó	explicar	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	presión	presión	NOUN	_	_	_	_	_	_
+8	por	por	ADP	_	_	_	_	_	_
+9	publicar	publicar	VERB	_	_	_	_	_	_
+10	primero	primero	ADV	_	_	_	_	_	_
+11	había	haber	AUX	_	_	_	_	_	_
+12	afectado	afectar	VERB	_	_	_	_	_	_
+13	los	el	DET	_	_	_	_	_	_
+14	procesos	proceso	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	verificación	verificación	NOUN	_	_	_	_	_	_
+17	interna	interno	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_257
+# text = Combatir la desinformación requiere cooperación entre medios, reguladores y organizaciones educativas, según analistas.
+1	Combatir	combatir	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	desinformación	desinformación	NOUN	_	_	_	_	_	_
+4	requiere	requerir	VERB	_	_	_	_	_	_
+5	cooperación	cooperación	NOUN	_	_	_	_	_	_
+6	entre	entre	ADP	_	_	_	_	_	_
+7	medios	medio	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	reguladores	reguladore	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	organizaciones	organización	NOUN	_	_	_	_	_	_
+12	educativas	educativo	ADJ	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	según	según	ADP	_	_	_	_	_	_
+15	analistas	analista	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_258
+# text = Los usuarios deberían comprobar fuentes antes de compartir contenidos sensibles, recomendó el observatorio ayer.
+1	Los	el	DET	_	_	_	_	_	_
+2	usuarios	usuario	NOUN	_	_	_	_	_	_
+3	deberían	deber	VERB	_	_	_	_	_	_
+4	comprobar	comprobar	VERB	_	_	_	_	_	_
+5	fuentes	fuente	NOUN	_	_	_	_	_	_
+6	antes	antes	ADV	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	compartir	compartir	VERB	_	_	_	_	_	_
+9	contenidos	contenido	NOUN	_	_	_	_	_	_
+10	sensibles	sensible	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	recomendó	recomendar	VERB	_	_	_	_	_	_
+13	el	el	DET	_	_	_	_	_	_
+14	observatorio	observatorio	NOUN	_	_	_	_	_	_
+15	ayer	ayer	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_259
+# text = La manipulación de imágenes mediante inteligencia artificial plantea retos inéditos para el periodismo de investigación.
+1	La	el	DET	_	_	_	_	_	_
+2	manipulación	manipulación	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	imágenes	imagen	NOUN	_	_	_	_	_	_
+5	mediante	mediante	ADP	_	_	_	_	_	_
+6	inteligencia	inteligencia	NOUN	_	_	_	_	_	_
+7	artificial	artificial	ADJ	_	_	_	_	_	_
+8	plantea	plantear	VERB	_	_	_	_	_	_
+9	retos	reto	NOUN	_	_	_	_	_	_
+10	inéditos	inédito	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	periodismo	periodismo	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	investigación	investigación	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_260
+# text = Si se reforzaran los programas de alfabetización mediática, la susceptibilidad a engaños podría reducirse considerablemente.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	reforzaran	reforzar	VERB	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	programas	programa	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	alfabetización	alfabetización	NOUN	_	_	_	_	_	_
+8	mediática	mediático	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	susceptibilidad	susceptibilidad	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	engaños	engaño	NOUN	_	_	_	_	_	_
+14	podría	poder	VERB	_	_	_	_	_	_
+15	reducirse	reducir	VERB	_	_	_	_	_	_
+16	considerablemente	considerablemente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_261
+# text = Aunque se lanzaron campañas informativas, la confianza en instituciones tradicionales sigue erosionándose en algunos sectores.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	lanzaron	lanzar	VERB	_	_	_	_	_	_
+4	campañas	campaña	NOUN	_	_	_	_	_	_
+5	informativas	informativo	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	confianza	confianza	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	instituciones	institución	NOUN	_	_	_	_	_	_
+11	tradicionales	tradicional	ADJ	_	_	_	_	_	_
+12	sigue	seguir	VERB	_	_	_	_	_	_
+13	erosionándose	erosionar	VERB	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	algunos	alguno	DET	_	_	_	_	_	_
+16	sectores	sectore	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_262
+# text = Se teme que la polarización política convierta los medios en altavoces de narrativas irreconciliables a largo plazo.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	polarización	polarización	NOUN	_	_	_	_	_	_
+6	política	político	ADJ	_	_	_	_	_	_
+7	convierta	convertir	VERB	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	medios	medio	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	altavoces	altavoz	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	narrativas	narrativo	NOUN	_	_	_	_	_	_
+14	irreconciliables	irreconciliable	ADJ	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	largo	largo	ADJ	_	_	_	_	_	_
+17	plazo	plazo	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_263
+# text = Etiquetar contenido generado automáticamente debería ayudar a distinguir reportajes verificados de material sintético.
+1	Etiquetar	etiquetar	VERB	_	_	_	_	_	_
+2	contenido	contenido	NOUN	_	_	_	_	_	_
+3	generado	generado	ADJ	_	_	_	_	_	_
+4	automáticamente	automáticamente	ADV	_	_	_	_	_	_
+5	debería	deber	VERB	_	_	_	_	_	_
+6	ayudar	ayudar	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	distinguir	distinguir	VERB	_	_	_	_	_	_
+9	reportajes	reportaje	NOUN	_	_	_	_	_	_
+10	verificados	verificar	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	material	material	NOUN	_	_	_	_	_	_
+13	sintético	sintético	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_264
+# text = Si los editores hubieran priorizado el contexto, varias crisis informativas se habrían atenuado con mayor rapidez.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	editores	editore	NOUN	_	_	_	_	_	_
+4	hubieran	haber	AUX	_	_	_	_	_	_
+5	priorizado	priorizar	VERB	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	contexto	contexto	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	varias	vario	DET	_	_	_	_	_	_
+10	crisis	crisi	NOUN	_	_	_	_	_	_
+11	informativas	informativo	ADJ	_	_	_	_	_	_
+12	se	él	PRON	_	_	_	_	_	_
+13	habrían	haber	VERB	_	_	_	_	_	_
+14	atenuado	atenuar	VERB	_	_	_	_	_	_
+15	con	con	ADP	_	_	_	_	_	_
+16	mayor	mayor	ADJ	_	_	_	_	_	_
+17	rapidez	rapidez	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_265
+# text = El informe recomienda proteger a periodistas locales, cuya labor es crucial en comunidades con pocos medios.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	recomienda	recomendar	VERB	_	_	_	_	_	_
+4	proteger	proteger	VERB	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	periodistas	periodista	NOUN	_	_	_	_	_	_
+7	locales	local	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	cuya	cuyo	DET	_	_	_	_	_	_
+10	labor	labor	NOUN	_	_	_	_	_	_
+11	es	ser	AUX	_	_	_	_	_	_
+12	crucial	crucial	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	comunidades	comunidade	NOUN	_	_	_	_	_	_
+15	con	con	ADP	_	_	_	_	_	_
+16	pocos	poco	DET	_	_	_	_	_	_
+17	medios	medio	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_266
+# text = La responsabilidad de las redes sociales hacia la democracia se debate intensamente en foros legislativos europeos.
+1	La	el	DET	_	_	_	_	_	_
+2	responsabilidad	responsabilidad	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	redes	rede	NOUN	_	_	_	_	_	_
+6	sociales	social	ADJ	_	_	_	_	_	_
+7	hacia	hacia	ADP	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	democracia	democracia	NOUN	_	_	_	_	_	_
+10	se	él	PRON	_	_	_	_	_	_
+11	debate	debatir	VERB	_	_	_	_	_	_
+12	intensamente	intensamente	ADV	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	foros	foro	NOUN	_	_	_	_	_	_
+15	legislativos	legislativo	ADJ	_	_	_	_	_	_
+16	europeos	europeo	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_267
+# text = Aunque existe tecnología de detección, su aplicación masiva sigue siendo costosa para medios de tamaño reducido.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	existe	existir	VERB	_	_	_	_	_	_
+3	tecnología	tecnología	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	detección	detección	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	aplicación	aplicación	NOUN	_	_	_	_	_	_
+9	masiva	masivo	ADJ	_	_	_	_	_	_
+10	sigue	seguir	VERB	_	_	_	_	_	_
+11	siendo	ser	AUX	_	_	_	_	_	_
+12	costosa	costoso	ADJ	_	_	_	_	_	_
+13	para	para	ADP	_	_	_	_	_	_
+14	medios	medio	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	tamaño	tamaño	NOUN	_	_	_	_	_	_
+17	reducido	reducido	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_268
+# text = El problema no es la ausencia de datos sino la dificultad de interpretarlos sin sesgos ideológicos marcados.
+1	El	el	DET	_	_	_	_	_	_
+2	problema	problema	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	ausencia	ausencia	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	datos	dato	NOUN	_	_	_	_	_	_
+9	sino	sino	SCONJ	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	dificultad	dificultad	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	interpretarlos	interpretar	VERB	_	_	_	_	_	_
+14	sin	sin	ADP	_	_	_	_	_	_
+15	sesgos	sesgo	NOUN	_	_	_	_	_	_
+16	ideológicos	ideológico	ADJ	_	_	_	_	_	_
+17	marcados	marcado	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_269
+# text = La verificación colaborativa se considera un recurso valioso durante elecciones y emergencias de gran impacto social.
+1	La	el	DET	_	_	_	_	_	_
+2	verificación	verificación	NOUN	_	_	_	_	_	_
+3	colaborativa	colaborativo	ADJ	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	considera	considerar	VERB	_	_	_	_	_	_
+6	un	uno	DET	_	_	_	_	_	_
+7	recurso	recurso	NOUN	_	_	_	_	_	_
+8	valioso	valioso	ADJ	_	_	_	_	_	_
+9	durante	durante	ADP	_	_	_	_	_	_
+10	elecciones	elección	NOUN	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	emergencias	emergencia	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	gran	gran	ADJ	_	_	_	_	_	_
+15	impacto	impacto	NOUN	_	_	_	_	_	_
+16	social	social	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_270
+# text = El comisionado subrayó que la libertad de expresión no debe confundirse con la difusión deliberada de falsedades.
+1	El	el	DET	_	_	_	_	_	_
+2	comisionado	comisionado	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	libertad	libertad	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	expresión	expresión	NOUN	_	_	_	_	_	_
+9	no	no	ADV	_	_	_	_	_	_
+10	debe	deber	VERB	_	_	_	_	_	_
+11	confundirse	confundir	VERB	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	difusión	difusión	NOUN	_	_	_	_	_	_
+15	deliberada	deliberado	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	falsedades	falsedade	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_271
+# text = Restringir microsegmentación publicitaria se debate como forma de limitar manipulación electoral en plataformas globales.
+1	Restringir	restringir	VERB	_	_	_	_	_	_
+2	microsegmentación	microsegmentación	NOUN	_	_	_	_	_	_
+3	publicitaria	publicitario	ADJ	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	debate	debatir	VERB	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	forma	forma	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	limitar	limitar	VERB	_	_	_	_	_	_
+10	manipulación	manipulación	NOUN	_	_	_	_	_	_
+11	electoral	electoral	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	plataformas	plataforma	NOUN	_	_	_	_	_	_
+14	globales	global	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_272
+# text = Se supone que los usuarios exigirán herramientas más claras para controlar recomendaciones algorítmicas en aplicaciones.
+1	Se	él	PRON	_	_	_	_	_	_
+2	supone	suponer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	usuarios	usuario	NOUN	_	_	_	_	_	_
+6	exigirán	exigir	VERB	_	_	_	_	_	_
+7	herramientas	herramienta	NOUN	_	_	_	_	_	_
+8	más	más	ADV	_	_	_	_	_	_
+9	claras	claro	ADJ	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	controlar	controlar	VERB	_	_	_	_	_	_
+12	recomendaciones	recomendación	NOUN	_	_	_	_	_	_
+13	algorítmicas	algorítmico	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	aplicaciones	aplicación	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_273
+# text = Aunque los medios públicos recuperan audiencia, su financiación sigue siendo objeto de disputas políticas recurrentes.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	medios	medio	NOUN	_	_	_	_	_	_
+4	públicos	público	ADJ	_	_	_	_	_	_
+5	recuperan	recuperar	VERB	_	_	_	_	_	_
+6	audiencia	audiencia	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	su	suyo	DET	_	_	_	_	_	_
+9	financiación	financiación	NOUN	_	_	_	_	_	_
+10	sigue	seguir	VERB	_	_	_	_	_	_
+11	siendo	ser	AUX	_	_	_	_	_	_
+12	objeto	objeto	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	disputas	disputa	NOUN	_	_	_	_	_	_
+15	políticas	político	ADJ	_	_	_	_	_	_
+16	recurrentes	recurrente	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_274
+# text = Promover estándares éticos en redacción automatizada debería preservar la credibilidad de boletines informativos digitales.
+1	Promover	promover	VERB	_	_	_	_	_	_
+2	estándares	estándare	NOUN	_	_	_	_	_	_
+3	éticos	ético	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	redacción	redacción	NOUN	_	_	_	_	_	_
+6	automatizada	automatizado	ADJ	_	_	_	_	_	_
+7	debería	deber	VERB	_	_	_	_	_	_
+8	preservar	preservar	VERB	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	credibilidad	credibilidad	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	boletines	boletín	NOUN	_	_	_	_	_	_
+13	informativos	informativo	ADJ	_	_	_	_	_	_
+14	digitales	digital	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_275
+# text = Equilibrar velocidad informativa y rigor periodístico sigue siendo un reto persistente para redacciones contemporáneas.
+1	Equilibrar	equilibrar	VERB	_	_	_	_	_	_
+2	velocidad	velocidad	NOUN	_	_	_	_	_	_
+3	informativa	informativo	ADJ	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	rigor	rigor	NOUN	_	_	_	_	_	_
+6	periodístico	periodístico	ADJ	_	_	_	_	_	_
+7	sigue	seguir	VERB	_	_	_	_	_	_
+8	siendo	ser	AUX	_	_	_	_	_	_
+9	un	uno	DET	_	_	_	_	_	_
+10	reto	reto	NOUN	_	_	_	_	_	_
+11	persistente	persistente	ADJ	_	_	_	_	_	_
+12	para	para	ADP	_	_	_	_	_	_
+13	redacciones	redacción	NOUN	_	_	_	_	_	_
+14	contemporáneas	contemporáneo	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_276
+# text = La integración de personas migrantes requiere políticas coherentes en empleo, vivienda, educación y reconocimiento mutuo.
+1	La	el	DET	_	_	_	_	_	_
+2	integración	integración	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	personas	persona	NOUN	_	_	_	_	_	_
+5	migrantes	migrante	ADJ	_	_	_	_	_	_
+6	requiere	requerir	VERB	_	_	_	_	_	_
+7	políticas	política	NOUN	_	_	_	_	_	_
+8	coherentes	coherente	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	empleo	empleo	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	vivienda	vivienda	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	educación	educación	NOUN	_	_	_	_	_	_
+15	y	y	CCONJ	_	_	_	_	_	_
+16	reconocimiento	reconocimiento	NOUN	_	_	_	_	_	_
+17	mutuo	mutuo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_277
+# text = Aunque se ampliaron cursos de idioma, el acceso a empleos cualificados sigue limitado para recién llegados.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	ampliaron	ampliar	VERB	_	_	_	_	_	_
+4	cursos	curso	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	idioma	idioma	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	acceso	acceso	NOUN	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	empleos	empleo	NOUN	_	_	_	_	_	_
+12	cualificados	cualificado	ADJ	_	_	_	_	_	_
+13	sigue	seguir	VERB	_	_	_	_	_	_
+14	limitado	limitado	ADJ	_	_	_	_	_	_
+15	para	para	ADP	_	_	_	_	_	_
+16	recién	recién	ADV	_	_	_	_	_	_
+17	llegados	llegado	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_278
+# text = Se espera que los programas de acogida incorporen orientación laboral adaptada a trayectorias profesionales previas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	programas	programa	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	acogida	acogida	NOUN	_	_	_	_	_	_
+8	incorporen	incorporar	VERB	_	_	_	_	_	_
+9	orientación	orientación	NOUN	_	_	_	_	_	_
+10	laboral	laboral	ADJ	_	_	_	_	_	_
+11	adaptada	adaptado	ADJ	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	trayectorias	trayectoria	NOUN	_	_	_	_	_	_
+14	profesionales	profesional	ADJ	_	_	_	_	_	_
+15	previas	previo	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_279
+# text = Fomentar el diálogo intercultural es considerado indispensable para reducir tensiones en barrios con alta diversidad.
+1	Fomentar	fomentar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	diálogo	diálogo	NOUN	_	_	_	_	_	_
+4	intercultural	intercultural	ADJ	_	_	_	_	_	_
+5	es	ser	AUX	_	_	_	_	_	_
+6	considerado	considerar	VERB	_	_	_	_	_	_
+7	indispensable	indispensable	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	reducir	reducir	VERB	_	_	_	_	_	_
+10	tensiones	tensión	NOUN	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	barrios	barrio	NOUN	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	alta	alto	ADJ	_	_	_	_	_	_
+15	diversidad	diversidad	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_280
+# text = A pesar de iniciativas municipales, la segregación residencial dificulta el contacto cotidiano entre comunidades distintas.
+1	A	a	ADP	_	_	_	_	_	_
+2	pesar	pesar	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	iniciativas	iniciativa	NOUN	_	_	_	_	_	_
+5	municipales	municipal	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	segregación	segregación	NOUN	_	_	_	_	_	_
+9	residencial	residencial	ADJ	_	_	_	_	_	_
+10	dificulta	dificultar	VERB	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	contacto	contacto	NOUN	_	_	_	_	_	_
+13	cotidiano	cotidiano	ADJ	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	comunidades	comunidade	NOUN	_	_	_	_	_	_
+16	distintas	distinto	DET	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_281
+# text = La coordinadora explicó que los servicios sociales deben responder con rapidez a situaciones de vulnerabilidad extrema.
+1	La	el	DET	_	_	_	_	_	_
+2	coordinadora	coordinadora	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	servicios	servicio	NOUN	_	_	_	_	_	_
+7	sociales	social	ADJ	_	_	_	_	_	_
+8	deben	deber	VERB	_	_	_	_	_	_
+9	responder	responder	VERB	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	rapidez	rapidez	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	situaciones	situación	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	vulnerabilidad	vulnerabilidad	NOUN	_	_	_	_	_	_
+16	extrema	extremo	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_282
+# text = Reconocer títulos extranjeros plantea retos administrativos que prolongan la inserción laboral de profesionales migrantes.
+1	Reconocer	reconocer	VERB	_	_	_	_	_	_
+2	títulos	título	NOUN	_	_	_	_	_	_
+3	extranjeros	extranjero	ADJ	_	_	_	_	_	_
+4	plantea	plantear	VERB	_	_	_	_	_	_
+5	retos	reto	NOUN	_	_	_	_	_	_
+6	administrativos	administrativo	ADJ	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	prolongan	proloner	VERB	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	inserción	inserción	NOUN	_	_	_	_	_	_
+11	laboral	laboral	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	profesionales	profesionale	NOUN	_	_	_	_	_	_
+14	migrantes	migrante	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_283
+# text = Las autoridades deberían combatir la discriminación en el acceso a la vivienda, declaró el informe ayer.
+1	Las	el	DET	_	_	_	_	_	_
+2	autoridades	autoridade	NOUN	_	_	_	_	_	_
+3	deberían	deber	VERB	_	_	_	_	_	_
+4	combatir	combatir	VERB	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	discriminación	discriminación	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	acceso	acceso	NOUN	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	vivienda	vivienda	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	declaró	declarar	VERB	_	_	_	_	_	_
+15	el	el	DET	_	_	_	_	_	_
+16	informe	informe	NOUN	_	_	_	_	_	_
+17	ayer	ayer	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_284
+# text = La participación en asociaciones locales fue descrita como vía eficaz para fortalecer lazos de pertenencia comunitaria.
+1	La	el	DET	_	_	_	_	_	_
+2	participación	participación	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	asociaciones	asociación	NOUN	_	_	_	_	_	_
+5	locales	local	ADJ	_	_	_	_	_	_
+6	fue	ser	AUX	_	_	_	_	_	_
+7	descrita	describir	VERB	_	_	_	_	_	_
+8	como	como	SCONJ	_	_	_	_	_	_
+9	vía	vía	NOUN	_	_	_	_	_	_
+10	eficaz	eficaz	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	fortalecer	fortalecer	VERB	_	_	_	_	_	_
+13	lazos	lazo	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	pertenencia	pertenencia	NOUN	_	_	_	_	_	_
+16	comunitaria	comunitario	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_285
+# text = Si se ampliaran redes de mentoría, la adaptación escolar de menores recién llegados podría mejorar notablemente.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	ampliaran	ampliar	VERB	_	_	_	_	_	_
+4	redes	rede	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	mentoría	mentoría	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	adaptación	adaptación	NOUN	_	_	_	_	_	_
+10	escolar	escolar	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	menores	menor	ADJ	_	_	_	_	_	_
+13	recién	recién	ADV	_	_	_	_	_	_
+14	llegados	llegado	ADJ	_	_	_	_	_	_
+15	podría	poder	VERB	_	_	_	_	_	_
+16	mejorar	mejorar	VERB	_	_	_	_	_	_
+17	notablemente	notablemente	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_286
+# text = Aunque se celebraron festivales interculturales, la convivencia diaria sigue marcada por estereotipos persistentes.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	celebraron	celebrar	VERB	_	_	_	_	_	_
+4	festivales	festivale	NOUN	_	_	_	_	_	_
+5	interculturales	intercultural	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	convivencia	convivencia	NOUN	_	_	_	_	_	_
+9	diaria	diario	ADJ	_	_	_	_	_	_
+10	sigue	seguir	VERB	_	_	_	_	_	_
+11	marcada	marcado	ADJ	_	_	_	_	_	_
+12	por	por	ADP	_	_	_	_	_	_
+13	estereotipos	estereotipo	NOUN	_	_	_	_	_	_
+14	persistentes	persistente	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_287
+# text = Se teme que discursos xenófobos debiliten políticas de integración basadas en derechos y responsabilidades compartidas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	discursos	discurso	NOUN	_	_	_	_	_	_
+5	xenófobos	xenófobo	ADJ	_	_	_	_	_	_
+6	debiliten	debilitar	VERB	_	_	_	_	_	_
+7	políticas	política	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	integración	integración	NOUN	_	_	_	_	_	_
+10	basadas	basar	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	derechos	derecho	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	responsabilidades	responsabilidade	NOUN	_	_	_	_	_	_
+15	compartidas	compartido	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_288
+# text = Facilitar la regularización documental debería reducir la precariedad laboral entre trabajadores en sectores esenciales.
+1	Facilitar	facilitar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	regularización	regularización	NOUN	_	_	_	_	_	_
+4	documental	documental	ADJ	_	_	_	_	_	_
+5	debería	deber	VERB	_	_	_	_	_	_
+6	reducir	reducir	VERB	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	precariedad	precariedad	NOUN	_	_	_	_	_	_
+9	laboral	laboral	ADJ	_	_	_	_	_	_
+10	entre	entre	ADP	_	_	_	_	_	_
+11	trabajadores	trabajadore	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	sectores	sectore	NOUN	_	_	_	_	_	_
+14	esenciales	esencial	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_289
+# text = Si las administraciones hubieran coordinado mejor los datos, la planificación de servicios habría sido más eficaz.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	administraciones	administración	NOUN	_	_	_	_	_	_
+4	hubieran	haber	AUX	_	_	_	_	_	_
+5	coordinado	coordinar	VERB	_	_	_	_	_	_
+6	mejor	mejor	ADV	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	datos	dato	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	planificación	planificación	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	servicios	servicio	NOUN	_	_	_	_	_	_
+14	habría	haber	VERB	_	_	_	_	_	_
+15	sido	ser	AUX	_	_	_	_	_	_
+16	más	más	ADV	_	_	_	_	_	_
+17	eficaz	eficaz	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_290
+# text = El estudio documenta cómo la doble identidad cultural puede ser recurso creativo en entornos urbanos diversos.
+1	El	el	DET	_	_	_	_	_	_
+2	estudio	estudio	NOUN	_	_	_	_	_	_
+3	documenta	documentar	VERB	_	_	_	_	_	_
+4	cómo	cómo	ADV	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	doble	doble	ADJ	_	_	_	_	_	_
+7	identidad	identidad	NOUN	_	_	_	_	_	_
+8	cultural	cultural	ADJ	_	_	_	_	_	_
+9	puede	poder	VERB	_	_	_	_	_	_
+10	ser	ser	AUX	_	_	_	_	_	_
+11	recurso	recurso	NOUN	_	_	_	_	_	_
+12	creativo	creativo	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	entornos	entorno	NOUN	_	_	_	_	_	_
+15	urbanos	urbano	ADJ	_	_	_	_	_	_
+16	diversos	diverso	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_291
+# text = La mediación vecinal se considera herramienta práctica para resolver conflictos cotidianos en edificios multiculturales.
+1	La	el	DET	_	_	_	_	_	_
+2	mediación	mediación	NOUN	_	_	_	_	_	_
+3	vecinal	vecinal	ADJ	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	considera	considerar	VERB	_	_	_	_	_	_
+6	herramienta	herramienta	NOUN	_	_	_	_	_	_
+7	práctica	práctico	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	resolver	resolver	VERB	_	_	_	_	_	_
+10	conflictos	conflicto	NOUN	_	_	_	_	_	_
+11	cotidianos	cotidiano	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	edificios	edificio	NOUN	_	_	_	_	_	_
+14	multiculturales	multicultural	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_292
+# text = Aunque aumentó la naturalización, muchas personas siguen enfrentando barreras para acceder a la ciudadanía plena.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	aumentó	aumentar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	naturalización	naturalización	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	muchas	mucho	DET	_	_	_	_	_	_
+7	personas	persona	NOUN	_	_	_	_	_	_
+8	siguen	seguir	VERB	_	_	_	_	_	_
+9	enfrentando	enfrentar	VERB	_	_	_	_	_	_
+10	barreras	barrera	NOUN	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	acceder	acceder	VERB	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	ciudadanía	ciudadanía	NOUN	_	_	_	_	_	_
+16	plena	pleno	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_293
+# text = La dificultad no está en la diversidad demográfica sino en la falta de oportunidades equitativas para todos.
+1	La	el	DET	_	_	_	_	_	_
+2	dificultad	dificultad	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	está	estar	AUX	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	diversidad	diversidad	NOUN	_	_	_	_	_	_
+8	demográfica	demográfico	ADJ	_	_	_	_	_	_
+9	sino	sino	SCONJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	falta	falta	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	oportunidades	oportunidade	NOUN	_	_	_	_	_	_
+15	equitativas	equitativo	ADJ	_	_	_	_	_	_
+16	para	para	ADP	_	_	_	_	_	_
+17	todos	todo	DET	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_294
+# text = Promover empleo digno para migrantes debería contrarrestar narrativas que asocian inmigración exclusivamente con competencia.
+1	Promover	promover	VERB	_	_	_	_	_	_
+2	empleo	empleo	NOUN	_	_	_	_	_	_
+3	digno	digno	ADJ	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	migrantes	migrante	NOUN	_	_	_	_	_	_
+6	debería	deber	VERB	_	_	_	_	_	_
+7	contrarrestar	contrarrestar	VERB	_	_	_	_	_	_
+8	narrativas	narrativo	NOUN	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	asocian	asociar	VERB	_	_	_	_	_	_
+11	inmigración	inmigración	NOUN	_	_	_	_	_	_
+12	exclusivamente	exclusivamente	ADV	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	competencia	competencia	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_295
+# text = El alcalde subrayó que la integración no debe depender de voluntad individual sin apoyo institucional sostenido.
+1	El	el	DET	_	_	_	_	_	_
+2	alcalde	alcalde	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	integración	integración	NOUN	_	_	_	_	_	_
+7	no	no	ADV	_	_	_	_	_	_
+8	debe	deber	VERB	_	_	_	_	_	_
+9	depender	depender	VERB	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	voluntad	voluntad	NOUN	_	_	_	_	_	_
+12	individual	individual	ADJ	_	_	_	_	_	_
+13	sin	sin	ADP	_	_	_	_	_	_
+14	apoyo	apoyo	NOUN	_	_	_	_	_	_
+15	institucional	institucional	ADJ	_	_	_	_	_	_
+16	sostenido	sostenido	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_296
+# text = Ampliar plazas en formación profesional para adultos se debate como medida para mejorar la empleabilidad local.
+1	Ampliar	ampliar	VERB	_	_	_	_	_	_
+2	plazas	plaza	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	formación	formación	NOUN	_	_	_	_	_	_
+5	profesional	profesional	ADJ	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	adultos	adulto	NOUN	_	_	_	_	_	_
+8	se	él	PRON	_	_	_	_	_	_
+9	debate	debatir	VERB	_	_	_	_	_	_
+10	como	como	SCONJ	_	_	_	_	_	_
+11	medida	medida	NOUN	_	_	_	_	_	_
+12	para	para	ADP	_	_	_	_	_	_
+13	mejorar	mejorar	VERB	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	empleabilidad	empleabilidad	NOUN	_	_	_	_	_	_
+16	local	local	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_297
+# text = Se recomienda que los medios eviten representaciones estigmatizantes de barrios con población migrante reciente.
+1	Se	él	PRON	_	_	_	_	_	_
+2	recomienda	recomendar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	medios	medio	NOUN	_	_	_	_	_	_
+6	eviten	evitar	VERB	_	_	_	_	_	_
+7	representaciones	representación	NOUN	_	_	_	_	_	_
+8	estigmatizantes	estigmatizante	ADJ	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	barrios	barrio	NOUN	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	población	población	NOUN	_	_	_	_	_	_
+13	migrante	migrante	ADJ	_	_	_	_	_	_
+14	reciente	reciente	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_298
+# text = Aunque existen planes nacionales, su ejecución varía ampliamente entre municipios con recursos administrativos distintos.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	existen	existir	VERB	_	_	_	_	_	_
+3	planes	plane	NOUN	_	_	_	_	_	_
+4	nacionales	nacional	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	ejecución	ejecución	NOUN	_	_	_	_	_	_
+8	varía	variar	VERB	_	_	_	_	_	_
+9	ampliamente	ampliamente	ADV	_	_	_	_	_	_
+10	entre	entre	ADP	_	_	_	_	_	_
+11	municipios	municipio	NOUN	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	recursos	recurso	NOUN	_	_	_	_	_	_
+14	administrativos	administrativo	ADJ	_	_	_	_	_	_
+15	distintos	distinto	DET	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_299
+# text = Crear espacios de intercambio cultural debería fortalecer la cohesión social en ciudades con flujos migratorios intensos.
+1	Crear	crear	VERB	_	_	_	_	_	_
+2	espacios	espacio	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	intercambio	intercambio	NOUN	_	_	_	_	_	_
+5	cultural	cultural	ADJ	_	_	_	_	_	_
+6	debería	deber	VERB	_	_	_	_	_	_
+7	fortalecer	fortalecer	VERB	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	cohesión	cohesión	NOUN	_	_	_	_	_	_
+10	social	social	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	ciudades	ciudade	NOUN	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	flujos	flujo	NOUN	_	_	_	_	_	_
+15	migratorios	migratorio	ADJ	_	_	_	_	_	_
+16	intensos	intenso	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_300
+# text = Construir sociedades inclusivas sigue siendo tarea central para instituciones públicas y organizaciones de la sociedad civil.
+1	Construir	construir	VERB	_	_	_	_	_	_
+2	sociedades	sociedade	NOUN	_	_	_	_	_	_
+3	inclusivas	inclusivo	ADJ	_	_	_	_	_	_
+4	sigue	seguir	VERB	_	_	_	_	_	_
+5	siendo	ser	AUX	_	_	_	_	_	_
+6	tarea	tarea	NOUN	_	_	_	_	_	_
+7	central	central	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	instituciones	institución	NOUN	_	_	_	_	_	_
+10	públicas	público	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	organizaciones	organización	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	sociedad	sociedad	NOUN	_	_	_	_	_	_
+16	civil	civil	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_301
+# text = La desigualdad de ingresos obliga a revisar políticas fiscales, salariales y de protección social en profundidad.
+1	La	el	DET	_	_	_	_	_	_
+2	desigualdad	desigualdad	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	ingresos	ingreso	NOUN	_	_	_	_	_	_
+5	obliga	obligar	VERB	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	revisar	revisar	VERB	_	_	_	_	_	_
+8	políticas	política	NOUN	_	_	_	_	_	_
+9	fiscales	fiscal	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	salariales	salarial	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	protección	protección	NOUN	_	_	_	_	_	_
+15	social	social	ADJ	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	profundidad	profundidad	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_302
+# text = Aunque el empleo formal creció, los contratos temporales concentran la inseguridad entre trabajadores jóvenes.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	empleo	empleo	NOUN	_	_	_	_	_	_
+4	formal	formal	ADJ	_	_	_	_	_	_
+5	creció	crecer	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	contratos	contrato	NOUN	_	_	_	_	_	_
+9	temporales	temporal	ADJ	_	_	_	_	_	_
+10	concentran	concentrar	VERB	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	inseguridad	inseguridad	NOUN	_	_	_	_	_	_
+13	entre	entre	ADP	_	_	_	_	_	_
+14	trabajadores	trabajadore	NOUN	_	_	_	_	_	_
+15	jóvenes	joven	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_303
+# text = Se espera que el salario mínimo se actualice para reflejar el aumento sostenido del coste vital.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	salario	salario	NOUN	_	_	_	_	_	_
+6	mínimo	mínimo	ADJ	_	_	_	_	_	_
+7	se	él	PRON	_	_	_	_	_	_
+8	actualice	actualizar	VERB	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	reflejar	reflejar	VERB	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	aumento	aumento	NOUN	_	_	_	_	_	_
+13	sostenido	sostenido	ADJ	_	_	_	_	_	_
+14	del	del	ADP	_	_	_	_	_	_
+15	coste	coste	NOUN	_	_	_	_	_	_
+16	vital	vital	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_304
+# text = Garantizar vivienda asequible es considerado requisito básico para reducir la exclusión en áreas metropolitanas.
+1	Garantizar	garantizar	VERB	_	_	_	_	_	_
+2	vivienda	vivienda	NOUN	_	_	_	_	_	_
+3	asequible	asequible	ADJ	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	considerado	considerar	VERB	_	_	_	_	_	_
+6	requisito	requisito	NOUN	_	_	_	_	_	_
+7	básico	básico	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	reducir	reducir	VERB	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	exclusión	exclusión	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	áreas	área	NOUN	_	_	_	_	_	_
+14	metropolitanas	metropolitano	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_305
+# text = A pesar de la renta mínima, muchos hogares siguen sin cubrir necesidades esenciales de forma estable.
+1	A	a	ADP	_	_	_	_	_	_
+2	pesar	pesar	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	renta	renta	NOUN	_	_	_	_	_	_
+6	mínima	mínimo	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	muchos	mucho	DET	_	_	_	_	_	_
+9	hogares	hogare	NOUN	_	_	_	_	_	_
+10	siguen	seguir	VERB	_	_	_	_	_	_
+11	sin	sin	ADP	_	_	_	_	_	_
+12	cubrir	cubrir	VERB	_	_	_	_	_	_
+13	necesidades	necesidade	NOUN	_	_	_	_	_	_
+14	esenciales	esencial	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	forma	forma	NOUN	_	_	_	_	_	_
+17	estable	estable	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_306
+# text = El economista explicó que la concentración de riqueza en activos financieros había acelerado durante la última década.
+1	El	el	DET	_	_	_	_	_	_
+2	economista	economista	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	concentración	concentración	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	riqueza	riqueza	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	activos	activo	NOUN	_	_	_	_	_	_
+11	financieros	financiero	ADJ	_	_	_	_	_	_
+12	había	haber	AUX	_	_	_	_	_	_
+13	acelerado	acelerar	VERB	_	_	_	_	_	_
+14	durante	durante	ADP	_	_	_	_	_	_
+15	la	el	DET	_	_	_	_	_	_
+16	última	último	ADJ	_	_	_	_	_	_
+17	década	década	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_307
+# text = Reducir la pobreza infantil requiere apoyo familiar, acceso educativo y servicios de cuidado coordinados.
+1	Reducir	reducir	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	pobreza	pobreza	NOUN	_	_	_	_	_	_
+4	infantil	infantil	ADJ	_	_	_	_	_	_
+5	requiere	requerir	VERB	_	_	_	_	_	_
+6	apoyo	apoyo	NOUN	_	_	_	_	_	_
+7	familiar	familiar	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	acceso	acceso	NOUN	_	_	_	_	_	_
+10	educativo	educativo	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	servicios	servicio	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	cuidado	cuidado	NOUN	_	_	_	_	_	_
+15	coordinados	coordinado	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_308
+# text = Los sindicatos deberían participar en negociaciones salariales sectoriales, declaró la comisión en su recomendación final.
+1	Los	el	DET	_	_	_	_	_	_
+2	sindicatos	sindicato	NOUN	_	_	_	_	_	_
+3	deberían	deber	VERB	_	_	_	_	_	_
+4	participar	participar	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	negociaciones	negociación	NOUN	_	_	_	_	_	_
+7	salariales	salarial	ADJ	_	_	_	_	_	_
+8	sectoriales	sectorial	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	declaró	declarar	VERB	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	comisión	comisión	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	su	suyo	DET	_	_	_	_	_	_
+15	recomendación	recomendación	NOUN	_	_	_	_	_	_
+16	final	final	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_309
+# text = La tributación progresiva fue defendida como instrumento para financiar servicios públicos sin gravar excesivamente clases medias.
+1	La	el	DET	_	_	_	_	_	_
+2	tributación	tributación	NOUN	_	_	_	_	_	_
+3	progresiva	progresivo	ADJ	_	_	_	_	_	_
+4	fue	ser	AUX	_	_	_	_	_	_
+5	defendida	defender	VERB	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	instrumento	instrumento	NOUN	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	financiar	financiar	VERB	_	_	_	_	_	_
+10	servicios	servicio	NOUN	_	_	_	_	_	_
+11	públicos	público	ADJ	_	_	_	_	_	_
+12	sin	sin	ADP	_	_	_	_	_	_
+13	gravar	gravar	VERB	_	_	_	_	_	_
+14	excesivamente	excesivamente	ADV	_	_	_	_	_	_
+15	clases	clase	NOUN	_	_	_	_	_	_
+16	medias	medio	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_310
+# text = Si se reforzaran las inspecciones laborales, el fraude en contratación irregular podría disminuir de manera significativa.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	reforzaran	reforzar	VERB	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	inspecciones	inspección	NOUN	_	_	_	_	_	_
+6	laborales	laboral	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	fraude	fraude	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	contratación	contratación	NOUN	_	_	_	_	_	_
+12	irregular	irregular	ADJ	_	_	_	_	_	_
+13	podría	poder	VERB	_	_	_	_	_	_
+14	disminuir	disminuir	VERB	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	manera	manera	NOUN	_	_	_	_	_	_
+17	significativa	significativo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_311
+# text = Aunque se aprobaron ayudas energéticas, su alcance resultó insuficiente para hogares en situación de pobreza severa.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	aprobaron	aprobar	VERB	_	_	_	_	_	_
+4	ayudas	ayuda	NOUN	_	_	_	_	_	_
+5	energéticas	energético	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	alcance	alcance	NOUN	_	_	_	_	_	_
+9	resultó	resultar	VERB	_	_	_	_	_	_
+10	insuficiente	insuficiente	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	hogares	hogare	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	situación	situación	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	pobreza	pobreza	NOUN	_	_	_	_	_	_
+17	severa	severo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_312
+# text = Se teme que la inflación alimentaria agrave la inseguridad nutricional entre familias con ingresos muy bajos.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	inflación	inflación	NOUN	_	_	_	_	_	_
+6	alimentaria	alimentario	ADJ	_	_	_	_	_	_
+7	agrave	agravar	VERB	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	inseguridad	inseguridad	NOUN	_	_	_	_	_	_
+10	nutricional	nutricional	ADJ	_	_	_	_	_	_
+11	entre	entre	ADP	_	_	_	_	_	_
+12	familias	familia	NOUN	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	ingresos	ingreso	NOUN	_	_	_	_	_	_
+15	muy	muy	ADV	_	_	_	_	_	_
+16	bajos	bajo	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_313
+# text = Ampliar el acceso a guarderías públicas se considera clave para la igualdad de oportunidades entre mujeres trabajadoras.
+1	Ampliar	ampliar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	acceso	acceso	NOUN	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	guarderías	guardería	NOUN	_	_	_	_	_	_
+6	públicas	público	ADJ	_	_	_	_	_	_
+7	se	él	PRON	_	_	_	_	_	_
+8	considera	considerar	VERB	_	_	_	_	_	_
+9	clave	clave	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	igualdad	igualdad	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	oportunidades	oportunidade	NOUN	_	_	_	_	_	_
+15	entre	entre	ADP	_	_	_	_	_	_
+16	mujeres	mujere	NOUN	_	_	_	_	_	_
+17	trabajadoras	trabajador	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_314
+# text = Si se hubieran indexado las prestaciones antes, la brecha adquisitiva habría sido hoy menos pronunciada.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	hubieran	haber	AUX	_	_	_	_	_	_
+4	indexado	indexar	VERB	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	prestaciones	prestación	NOUN	_	_	_	_	_	_
+7	antes	antes	ADV	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	brecha	brecha	NOUN	_	_	_	_	_	_
+11	adquisitiva	adquisitivo	ADJ	_	_	_	_	_	_
+12	habría	haber	VERB	_	_	_	_	_	_
+13	sido	ser	AUX	_	_	_	_	_	_
+14	hoy	hoy	ADV	_	_	_	_	_	_
+15	menos	menos	ADV	_	_	_	_	_	_
+16	pronunciada	pronunciado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_315
+# text = El informe muestra cómo la herencia de desventajas influye en trayectorias educativas a lo largo de generaciones.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	muestra	mostrar	VERB	_	_	_	_	_	_
+4	cómo	cómo	ADV	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	herencia	herencia	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	desventajas	desventaja	NOUN	_	_	_	_	_	_
+9	influye	influir	VERB	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	trayectorias	trayectoria	NOUN	_	_	_	_	_	_
+12	educativas	educativo	ADJ	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	lo	él	PRON	_	_	_	_	_	_
+15	largo	largo	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	generaciones	generación	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_316
+# text = Fortalecer el diálogo social se ve como condición para acuerdos salariales sostenibles en sectores estratégicos nacionales.
+1	Fortalecer	fortalecer	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	diálogo	diálogo	NOUN	_	_	_	_	_	_
+4	social	social	ADJ	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	ve	ver	VERB	_	_	_	_	_	_
+7	como	como	SCONJ	_	_	_	_	_	_
+8	condición	condición	NOUN	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	acuerdos	acuerdo	NOUN	_	_	_	_	_	_
+11	salariales	salarial	ADJ	_	_	_	_	_	_
+12	sostenibles	sostenible	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	sectores	sectore	NOUN	_	_	_	_	_	_
+15	estratégicos	estratégico	ADJ	_	_	_	_	_	_
+16	nacionales	nacional	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_317
+# text = Aunque la productividad aumentó, la participación de los trabajadores en beneficios corporativos sigue siendo limitada.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	productividad	productividad	NOUN	_	_	_	_	_	_
+4	aumentó	aumentar	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	participación	participación	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	trabajadores	trabajadore	NOUN	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	beneficios	beneficio	NOUN	_	_	_	_	_	_
+13	corporativos	corporativo	ADJ	_	_	_	_	_	_
+14	sigue	seguir	VERB	_	_	_	_	_	_
+15	siendo	ser	AUX	_	_	_	_	_	_
+16	limitada	limitado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_318
+# text = El reto no es reconocer la desigualdad sino diseñar políticas que la reduzcan sin frenar la inversión.
+1	El	el	DET	_	_	_	_	_	_
+2	reto	reto	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	reconocer	reconocer	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	desigualdad	desigualdad	NOUN	_	_	_	_	_	_
+8	sino	sino	SCONJ	_	_	_	_	_	_
+9	diseñar	diseñar	VERB	_	_	_	_	_	_
+10	políticas	política	NOUN	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	reduzcan	reducir	VERB	_	_	_	_	_	_
+14	sin	sin	ADP	_	_	_	_	_	_
+15	frenar	frenar	VERB	_	_	_	_	_	_
+16	la	el	DET	_	_	_	_	_	_
+17	inversión	inversión	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_319
+# text = Mejorar la movilidad ascendente debería combinar formación, empleo estable y acceso equitativo a crédito responsable.
+1	Mejorar	mejorar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	movilidad	movilidad	NOUN	_	_	_	_	_	_
+4	ascendente	ascendente	ADJ	_	_	_	_	_	_
+5	debería	deber	VERB	_	_	_	_	_	_
+6	combinar	combinar	VERB	_	_	_	_	_	_
+7	formación	formación	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	empleo	empleo	NOUN	_	_	_	_	_	_
+10	estable	estable	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	acceso	acceso	NOUN	_	_	_	_	_	_
+13	equitativo	equitativo	ADJ	_	_	_	_	_	_
+14	a	a	ADP	_	_	_	_	_	_
+15	crédito	crédito	NOUN	_	_	_	_	_	_
+16	responsable	responsable	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_320
+# text = El ministro subrayó que la cohesión social no debe sacrificarse por recortes indiscriminados de gasto público esencial.
+1	El	el	DET	_	_	_	_	_	_
+2	ministro	ministro	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	cohesión	cohesión	NOUN	_	_	_	_	_	_
+7	social	social	ADJ	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	debe	deber	VERB	_	_	_	_	_	_
+10	sacrificarse	sacrificar	VERB	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	recortes	recorte	NOUN	_	_	_	_	_	_
+13	indiscriminados	indiscriminado	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	gasto	gasto	NOUN	_	_	_	_	_	_
+16	público	público	ADJ	_	_	_	_	_	_
+17	esencial	esencial	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_321
+# text = Desarrollar vivienda social en suelo urbano requiere cooperación entre administraciones, promotores y entidades financieras.
+1	Desarrollar	desarrollar	VERB	_	_	_	_	_	_
+2	vivienda	vivienda	NOUN	_	_	_	_	_	_
+3	social	social	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	suelo	suelo	NOUN	_	_	_	_	_	_
+6	urbano	urbano	ADJ	_	_	_	_	_	_
+7	requiere	requerir	VERB	_	_	_	_	_	_
+8	cooperación	cooperación	NOUN	_	_	_	_	_	_
+9	entre	entre	ADP	_	_	_	_	_	_
+10	administraciones	administración	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	promotores	promotore	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	entidades	entidade	NOUN	_	_	_	_	_	_
+15	financieras	financiero	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_322
+# text = Se supone que los indicadores de pobreza multidimensional guiarán futuras decisiones de asignación presupuestaria regional.
+1	Se	él	PRON	_	_	_	_	_	_
+2	supone	suponer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	indicadores	indicadore	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	pobreza	pobreza	NOUN	_	_	_	_	_	_
+8	multidimensional	multidimensional	ADJ	_	_	_	_	_	_
+9	guiarán	guiar	VERB	_	_	_	_	_	_
+10	futuras	futuro	ADJ	_	_	_	_	_	_
+11	decisiones	decisión	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	asignación	asignación	NOUN	_	_	_	_	_	_
+14	presupuestaria	presupuestario	ADJ	_	_	_	_	_	_
+15	regional	regional	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_323
+# text = Aunque disminuyó el desempleo general, la tasa sigue siendo elevada entre jóvenes sin titulación postobligatoria.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	disminuyó	disminuir	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	desempleo	desempleo	NOUN	_	_	_	_	_	_
+5	general	general	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	tasa	tasa	NOUN	_	_	_	_	_	_
+9	sigue	seguir	VERB	_	_	_	_	_	_
+10	siendo	ser	AUX	_	_	_	_	_	_
+11	elevada	elevado	ADJ	_	_	_	_	_	_
+12	entre	entre	ADP	_	_	_	_	_	_
+13	jóvenes	joven	NOUN	_	_	_	_	_	_
+14	sin	sin	ADP	_	_	_	_	_	_
+15	titulación	titulación	NOUN	_	_	_	_	_	_
+16	postobligatoria	postobligatorio	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_324
+# text = Apoyar cooperativas y economía social se cita como vía para redistribuir valor en cadenas productivas locales.
+1	Apoyar	apoyar	VERB	_	_	_	_	_	_
+2	cooperativas	cooperativo	NOUN	_	_	_	_	_	_
+3	y	y	CCONJ	_	_	_	_	_	_
+4	economía	economía	NOUN	_	_	_	_	_	_
+5	social	social	ADJ	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	cita	citar	VERB	_	_	_	_	_	_
+8	como	como	SCONJ	_	_	_	_	_	_
+9	vía	vía	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	redistribuir	redistribuir	VERB	_	_	_	_	_	_
+12	valor	valor	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	cadenas	cadena	NOUN	_	_	_	_	_	_
+15	productivas	productivo	ADJ	_	_	_	_	_	_
+16	locales	local	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_325
+# text = Construir un estado de bienestar resiliente sigue siendo prioridad para gobiernos que enfrentan presiones fiscales crecientes.
+1	Construir	construir	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	estado	estar	AUX	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	bienestar	bienestar	NOUN	_	_	_	_	_	_
+6	resiliente	resiliente	ADJ	_	_	_	_	_	_
+7	sigue	seguir	VERB	_	_	_	_	_	_
+8	siendo	ser	AUX	_	_	_	_	_	_
+9	prioridad	prioridad	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	gobiernos	gobierno	NOUN	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	enfrentan	enfrentar	VERB	_	_	_	_	_	_
+14	presiones	presión	NOUN	_	_	_	_	_	_
+15	fiscales	fiscal	ADJ	_	_	_	_	_	_
+16	crecientes	creciente	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_326
+# text = La conservación de ecosistemas exige coordinar políticas agrícolas, urbanas y energéticas con objetivos de biodiversidad.
+1	La	el	DET	_	_	_	_	_	_
+2	conservación	conservación	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	ecosistemas	ecosistema	NOUN	_	_	_	_	_	_
+5	exige	exigir	VERB	_	_	_	_	_	_
+6	coordinar	coordinar	VERB	_	_	_	_	_	_
+7	políticas	política	NOUN	_	_	_	_	_	_
+8	agrícolas	agrícola	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	urbanas	urbano	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	energéticas	energético	ADJ	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	objetivos	objetivo	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	biodiversidad	biodiversidad	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_327
+# text = Aunque se ampliaron áreas protegidas, la fragmentación del hábitat sigue amenazando especies emblemáticas en varias regiones.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	ampliaron	ampliar	VERB	_	_	_	_	_	_
+4	áreas	área	NOUN	_	_	_	_	_	_
+5	protegidas	protegido	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	fragmentación	fragmentación	NOUN	_	_	_	_	_	_
+9	del	del	ADP	_	_	_	_	_	_
+10	hábitat	hábitat	NOUN	_	_	_	_	_	_
+11	sigue	seguir	VERB	_	_	_	_	_	_
+12	amenazando	amenazar	VERB	_	_	_	_	_	_
+13	especies	especie	NOUN	_	_	_	_	_	_
+14	emblemáticas	emblemático	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	varias	vario	DET	_	_	_	_	_	_
+17	regiones	región	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_328
+# text = Se espera que los fondos europeos aceleren proyectos de restauración fluvial en cuencas altamente degradadas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	fondos	fondo	NOUN	_	_	_	_	_	_
+6	europeos	europeo	ADJ	_	_	_	_	_	_
+7	aceleren	acelerar	VERB	_	_	_	_	_	_
+8	proyectos	proyecto	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	restauración	restauración	NOUN	_	_	_	_	_	_
+11	fluvial	fluvial	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	cuencas	cuenca	NOUN	_	_	_	_	_	_
+14	altamente	altamente	ADV	_	_	_	_	_	_
+15	degradadas	degradar	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_329
+# text = Proteger humedales costeros es considerado esencial para mitigar inundaciones y preservar aves migratorias estacionales.
+1	Proteger	proteger	VERB	_	_	_	_	_	_
+2	humedales	humedale	NOUN	_	_	_	_	_	_
+3	costeros	costero	ADJ	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	considerado	considerar	VERB	_	_	_	_	_	_
+6	esencial	esencial	ADJ	_	_	_	_	_	_
+7	para	para	ADP	_	_	_	_	_	_
+8	mitigar	mitigar	VERB	_	_	_	_	_	_
+9	inundaciones	inundación	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	preservar	preservar	VERB	_	_	_	_	_	_
+12	aves	ave	NOUN	_	_	_	_	_	_
+13	migratorias	migratorio	ADJ	_	_	_	_	_	_
+14	estacionales	estacional	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_330
+# text = A pesar de campañas de reforestación, los incendios recurrentes dificultan la recuperación de masas forestales extensas.
+1	A	a	ADP	_	_	_	_	_	_
+2	pesar	pesar	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	campañas	campaña	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	reforestación	reforestación	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	incendios	incendio	NOUN	_	_	_	_	_	_
+10	recurrentes	recurrente	ADJ	_	_	_	_	_	_
+11	dificultan	dificultar	VERB	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	recuperación	recuperación	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	masas	masa	NOUN	_	_	_	_	_	_
+16	forestales	forestal	ADJ	_	_	_	_	_	_
+17	extensas	extenso	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_331
+# text = El biólogo explicó que la pérdida de polinizadores afecta rendimientos agrícolas más grave de lo previsto.
+1	El	el	DET	_	_	_	_	_	_
+2	biólogo	biólogo	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	pérdida	pérdida	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	polinizadores	polinizadore	NOUN	_	_	_	_	_	_
+9	afecta	afectar	VERB	_	_	_	_	_	_
+10	rendimientos	rendimiento	NOUN	_	_	_	_	_	_
+11	agrícolas	agrícola	ADJ	_	_	_	_	_	_
+12	más	más	ADV	_	_	_	_	_	_
+13	grave	grave	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	lo	él	PRON	_	_	_	_	_	_
+16	previsto	previsto	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_332
+# text = Reducir la contaminación difusa requiere cambios en fertilización, gestión de residuos y planificación territorial coordinada.
+1	Reducir	reducir	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	contaminación	contaminación	NOUN	_	_	_	_	_	_
+4	difusa	difuso	ADJ	_	_	_	_	_	_
+5	requiere	requerir	VERB	_	_	_	_	_	_
+6	cambios	cambio	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	fertilización	fertilización	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	gestión	gestión	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	residuos	residuo	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	planificación	planificación	NOUN	_	_	_	_	_	_
+15	territorial	territorial	ADJ	_	_	_	_	_	_
+16	coordinada	coordinado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_333
+# text = Las comunidades locales deberían participar en decisiones sobre uso del suelo, declaró la agencia anualmente.
+1	Las	el	DET	_	_	_	_	_	_
+2	comunidades	comunidade	NOUN	_	_	_	_	_	_
+3	locales	local	ADJ	_	_	_	_	_	_
+4	deberían	deber	VERB	_	_	_	_	_	_
+5	participar	participar	VERB	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	decisiones	decisión	NOUN	_	_	_	_	_	_
+8	sobre	sobre	ADP	_	_	_	_	_	_
+9	uso	uso	NOUN	_	_	_	_	_	_
+10	del	del	ADP	_	_	_	_	_	_
+11	suelo	suelo	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	declaró	declarar	VERB	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	agencia	agencia	NOUN	_	_	_	_	_	_
+16	anualmente	anualmente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_334
+# text = La caza ilegal fue denunciada como factor crítico en el declive de mamíferos en zonas fronterizas.
+1	La	el	DET	_	_	_	_	_	_
+2	caza	caza	NOUN	_	_	_	_	_	_
+3	ilegal	ilegal	ADJ	_	_	_	_	_	_
+4	fue	ser	AUX	_	_	_	_	_	_
+5	denunciada	denunciar	VERB	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	factor	factor	NOUN	_	_	_	_	_	_
+8	crítico	crítico	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	declive	declive	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	mamíferos	mamífero	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	zonas	zona	NOUN	_	_	_	_	_	_
+16	fronterizas	fronterizo	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_335
+# text = Si se restauraran corredores ecológicos, la conectividad entre parques naturales podría mejorar de manera significativa.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	restauraran	restaurar	VERB	_	_	_	_	_	_
+4	corredores	corredore	NOUN	_	_	_	_	_	_
+5	ecológicos	ecológico	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	conectividad	conectividad	NOUN	_	_	_	_	_	_
+9	entre	entre	ADP	_	_	_	_	_	_
+10	parques	parque	NOUN	_	_	_	_	_	_
+11	naturales	natural	ADJ	_	_	_	_	_	_
+12	podría	poder	VERB	_	_	_	_	_	_
+13	mejorar	mejorar	VERB	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	manera	manera	NOUN	_	_	_	_	_	_
+16	significativa	significativo	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_336
+# text = Aunque se aprobaron moratorias, la extracción intensiva de recursos hídricos continúa en cuencas con escasez estructural.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	aprobaron	aprobar	VERB	_	_	_	_	_	_
+4	moratorias	moratoria	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	extracción	extracción	NOUN	_	_	_	_	_	_
+8	intensiva	intensivo	ADJ	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	recursos	recurso	NOUN	_	_	_	_	_	_
+11	hídricos	hídrico	ADJ	_	_	_	_	_	_
+12	continúa	continuar	VERB	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	cuencas	cuenca	NOUN	_	_	_	_	_	_
+15	con	con	ADP	_	_	_	_	_	_
+16	escasez	escasez	NOUN	_	_	_	_	_	_
+17	estructural	estructural	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_337
+# text = Se teme que el cambio climático desplace especies endémicas hacia altitudes donde la competencia será aún mayor.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	cambio	cambio	NOUN	_	_	_	_	_	_
+6	climático	climático	ADJ	_	_	_	_	_	_
+7	desplace	desplacer	VERB	_	_	_	_	_	_
+8	especies	especie	NOUN	_	_	_	_	_	_
+9	endémicas	endémico	ADJ	_	_	_	_	_	_
+10	hacia	hacia	ADP	_	_	_	_	_	_
+11	altitudes	altitude	NOUN	_	_	_	_	_	_
+12	donde	donde	ADV	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	competencia	competencia	NOUN	_	_	_	_	_	_
+15	será	ser	AUX	_	_	_	_	_	_
+16	aún	aún	ADV	_	_	_	_	_	_
+17	mayor	mayor	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_338
+# text = Promover agricultura regenerativa debería mejorar la retención de carbono sin comprometer la seguridad alimentaria local.
+1	Promover	promover	VERB	_	_	_	_	_	_
+2	agricultura	agricultura	NOUN	_	_	_	_	_	_
+3	regenerativa	regenerativo	ADJ	_	_	_	_	_	_
+4	debería	deber	VERB	_	_	_	_	_	_
+5	mejorar	mejorar	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	retención	retención	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	carbono	carbono	NOUN	_	_	_	_	_	_
+10	sin	sin	ADP	_	_	_	_	_	_
+11	comprometer	comprometer	VERB	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	seguridad	seguridad	NOUN	_	_	_	_	_	_
+14	alimentaria	alimentario	ADJ	_	_	_	_	_	_
+15	local	local	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_339
+# text = Si se hubieran controlado antes vertidos industriales, varios ecosistemas acuáticos habrían recuperado mayor biodiversidad.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	hubieran	haber	AUX	_	_	_	_	_	_
+4	controlado	controlar	VERB	_	_	_	_	_	_
+5	antes	antes	ADV	_	_	_	_	_	_
+6	vertidos	vertido	NOUN	_	_	_	_	_	_
+7	industriales	industrial	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	varios	vario	DET	_	_	_	_	_	_
+10	ecosistemas	ecosistema	NOUN	_	_	_	_	_	_
+11	acuáticos	acuático	ADJ	_	_	_	_	_	_
+12	habrían	haber	VERB	_	_	_	_	_	_
+13	recuperado	recuperar	VERB	_	_	_	_	_	_
+14	mayor	mayor	ADJ	_	_	_	_	_	_
+15	biodiversidad	biodiversidad	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_340
+# text = El estudio documenta cómo la introducción de especies invasoras altera redes tróficas en lagos de montaña.
+1	El	el	DET	_	_	_	_	_	_
+2	estudio	estudio	NOUN	_	_	_	_	_	_
+3	documenta	documentar	VERB	_	_	_	_	_	_
+4	cómo	cómo	ADV	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	introducción	introducción	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	especies	especie	NOUN	_	_	_	_	_	_
+9	invasoras	invasor	ADJ	_	_	_	_	_	_
+10	altera	alterar	VERB	_	_	_	_	_	_
+11	redes	rede	NOUN	_	_	_	_	_	_
+12	tróficas	trófico	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	lagos	lago	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	montaña	montaña	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_341
+# text = La vigilancia satelital se considera herramienta indispensable para detectar deforestación en tiempo casi real.
+1	La	el	DET	_	_	_	_	_	_
+2	vigilancia	vigilancia	NOUN	_	_	_	_	_	_
+3	satelital	satelital	ADJ	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	considera	considerar	VERB	_	_	_	_	_	_
+6	herramienta	herramienta	NOUN	_	_	_	_	_	_
+7	indispensable	indispensable	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	detectar	detectar	VERB	_	_	_	_	_	_
+10	deforestación	deforestación	NOUN	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	tiempo	tiempo	NOUN	_	_	_	_	_	_
+13	casi	casi	ADV	_	_	_	_	_	_
+14	real	real	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_342
+# text = Aunque existen planes de conservación, su financiación depende a menudo de proyectos europeos de duración limitada.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	existen	existir	VERB	_	_	_	_	_	_
+3	planes	plane	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	conservación	conservación	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	financiación	financiación	NOUN	_	_	_	_	_	_
+9	depende	depender	VERB	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	menudo	menudo	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	proyectos	proyecto	NOUN	_	_	_	_	_	_
+14	europeos	europeo	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	duración	duración	NOUN	_	_	_	_	_	_
+17	limitada	limitado	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_343
+# text = El obstáculo no es la falta de conocimiento sino la presión de intereses económicos de corto plazo.
+1	El	el	DET	_	_	_	_	_	_
+2	obstáculo	obstáculo	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	falta	falta	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	conocimiento	conocimiento	NOUN	_	_	_	_	_	_
+9	sino	sino	SCONJ	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	presión	presión	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	intereses	interé	NOUN	_	_	_	_	_	_
+14	económicos	económico	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	corto	corto	ADJ	_	_	_	_	_	_
+17	plazo	plazo	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_344
+# text = Establecer pagos por servicios ecosistémicos debería incentivar a propietarios rurales a mantener bosques productivos.
+1	Establecer	establecer	VERB	_	_	_	_	_	_
+2	pagos	pago	NOUN	_	_	_	_	_	_
+3	por	por	ADP	_	_	_	_	_	_
+4	servicios	servicio	NOUN	_	_	_	_	_	_
+5	ecosistémicos	ecosistémico	ADJ	_	_	_	_	_	_
+6	debería	deber	VERB	_	_	_	_	_	_
+7	incentivar	incentivar	VERB	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	propietarios	propietario	NOUN	_	_	_	_	_	_
+10	rurales	rural	ADJ	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	mantener	mantener	VERB	_	_	_	_	_	_
+13	bosques	bosque	NOUN	_	_	_	_	_	_
+14	productivos	productivo	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_345
+# text = El director subrayó que la conservación no debe verse como lujo sino como inversión en resiliencia territorial.
+1	El	el	DET	_	_	_	_	_	_
+2	director	director	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	conservación	conservación	NOUN	_	_	_	_	_	_
+7	no	no	ADV	_	_	_	_	_	_
+8	debe	deber	VERB	_	_	_	_	_	_
+9	verse	ver	VERB	_	_	_	_	_	_
+10	como	como	SCONJ	_	_	_	_	_	_
+11	lujo	lujo	NOUN	_	_	_	_	_	_
+12	sino	sino	SCONJ	_	_	_	_	_	_
+13	como	como	SCONJ	_	_	_	_	_	_
+14	inversión	inversión	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	resiliencia	resiliencia	NOUN	_	_	_	_	_	_
+17	territorial	territorial	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_346
+# text = Ampliar educación ambiental en escuelas se debate como estrategia para fomentar comportamientos sostenibles duraderos.
+1	Ampliar	ampliar	VERB	_	_	_	_	_	_
+2	educación	educación	NOUN	_	_	_	_	_	_
+3	ambiental	ambiental	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	escuelas	escuela	NOUN	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	debate	debatir	VERB	_	_	_	_	_	_
+8	como	como	SCONJ	_	_	_	_	_	_
+9	estrategia	estrategia	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	fomentar	fomentar	VERB	_	_	_	_	_	_
+12	comportamientos	comportamiento	NOUN	_	_	_	_	_	_
+13	sostenibles	sostenible	ADJ	_	_	_	_	_	_
+14	duraderos	duradero	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_347
+# text = Se recomienda integrar criterios de biodiversidad en licencias de grandes proyectos de infraestructura lineal.
+1	Se	él	PRON	_	_	_	_	_	_
+2	recomienda	recomendar	VERB	_	_	_	_	_	_
+3	integrar	integrar	VERB	_	_	_	_	_	_
+4	criterios	criterio	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	biodiversidad	biodiversidad	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	licencias	licencia	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	grandes	grande	ADJ	_	_	_	_	_	_
+11	proyectos	proyecto	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	infraestructura	infraestructura	NOUN	_	_	_	_	_	_
+14	lineal	lineal	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_348
+# text = Aunque disminuyó la sobrepesca en algunas zonas, los fondos marinos profundos siguen siendo poco explorados científicamente.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	disminuyó	disminuir	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	sobrepesca	sobrepesca	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	algunas	alguno	DET	_	_	_	_	_	_
+7	zonas	zona	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	fondos	fondo	NOUN	_	_	_	_	_	_
+11	marinos	marino	ADJ	_	_	_	_	_	_
+12	profundos	profundo	ADJ	_	_	_	_	_	_
+13	siguen	seguir	VERB	_	_	_	_	_	_
+14	siendo	ser	AUX	_	_	_	_	_	_
+15	poco	poco	DET	_	_	_	_	_	_
+16	explorados	explorar	ADJ	_	_	_	_	_	_
+17	científicamente	científicamente	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_349
+# text = Restaurar arrecifes mediante siembra de corales debería complementar medidas estrictas contra contaminación costera crónica.
+1	Restaurar	restaurar	VERB	_	_	_	_	_	_
+2	arrecifes	arrecife	NOUN	_	_	_	_	_	_
+3	mediante	mediante	ADP	_	_	_	_	_	_
+4	siembra	siembra	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	corales	corale	NOUN	_	_	_	_	_	_
+7	debería	deber	VERB	_	_	_	_	_	_
+8	complementar	complementar	VERB	_	_	_	_	_	_
+9	medidas	medida	NOUN	_	_	_	_	_	_
+10	estrictas	estricto	ADJ	_	_	_	_	_	_
+11	contra	contra	ADP	_	_	_	_	_	_
+12	contaminación	contaminación	NOUN	_	_	_	_	_	_
+13	costera	costero	ADJ	_	_	_	_	_	_
+14	crónica	crónico	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_350
+# text = Proteger el patrimonio natural de forma efectiva sigue siendo prueba decisiva de compromiso ambiental a largo plazo.
+1	Proteger	proteger	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	patrimonio	patrimonio	NOUN	_	_	_	_	_	_
+4	natural	natural	ADJ	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	forma	forma	NOUN	_	_	_	_	_	_
+7	efectiva	efectivo	ADJ	_	_	_	_	_	_
+8	sigue	seguir	VERB	_	_	_	_	_	_
+9	siendo	ser	AUX	_	_	_	_	_	_
+10	prueba	prueba	NOUN	_	_	_	_	_	_
+11	decisiva	decisivo	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	compromiso	compromiso	NOUN	_	_	_	_	_	_
+14	ambiental	ambiental	ADJ	_	_	_	_	_	_
+15	a	a	ADP	_	_	_	_	_	_
+16	largo	largo	ADJ	_	_	_	_	_	_
+17	plazo	plazo	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_351
+# text = La economía digital transforma modelos empresariales y exige marcos regulatorios que equilibren innovación y competencia.
+1	La	el	DET	_	_	_	_	_	_
+2	economía	economía	NOUN	_	_	_	_	_	_
+3	digital	digital	ADJ	_	_	_	_	_	_
+4	transforma	transformar	VERB	_	_	_	_	_	_
+5	modelos	modelo	NOUN	_	_	_	_	_	_
+6	empresariales	empresarial	ADJ	_	_	_	_	_	_
+7	y	y	CCONJ	_	_	_	_	_	_
+8	exige	exigir	VERB	_	_	_	_	_	_
+9	marcos	marco	NOUN	_	_	_	_	_	_
+10	regulatorios	regulatorio	ADJ	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	equilibren	equilibrar	VERB	_	_	_	_	_	_
+13	innovación	innovación	NOUN	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	competencia	competencia	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_352
+# text = Aunque aumentó la inversión en startups, muchas empresas emergentes siguen dependiendo de financiación externa volátil.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	aumentó	aumentar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	inversión	inversión	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	startups	startup	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	muchas	mucho	DET	_	_	_	_	_	_
+9	empresas	empresa	NOUN	_	_	_	_	_	_
+10	emergentes	emergente	ADJ	_	_	_	_	_	_
+11	siguen	seguir	VERB	_	_	_	_	_	_
+12	dependiendo	depender	VERB	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	financiación	financiación	NOUN	_	_	_	_	_	_
+15	externa	externo	ADJ	_	_	_	_	_	_
+16	volátil	volátil	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_353
+# text = Se espera que la inteligencia artificial redefina procesos productivos en manufactura, logística y servicios financieros.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	inteligencia	inteligencia	NOUN	_	_	_	_	_	_
+6	artificial	artificial	ADJ	_	_	_	_	_	_
+7	redefina	redefinar	VERB	_	_	_	_	_	_
+8	procesos	proceso	NOUN	_	_	_	_	_	_
+9	productivos	productivo	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	manufactura	manufactura	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	logística	logística	NOUN	_	_	_	_	_	_
+14	y	y	CCONJ	_	_	_	_	_	_
+15	servicios	servicio	NOUN	_	_	_	_	_	_
+16	financieros	financiero	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_354
+# text = Fomentar la transferencia tecnológica es considerado clave para que la investigación pública genere valor económico local.
+1	Fomentar	fomentar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	transferencia	transferencia	NOUN	_	_	_	_	_	_
+4	tecnológica	tecnológico	ADJ	_	_	_	_	_	_
+5	es	ser	AUX	_	_	_	_	_	_
+6	considerado	considerar	VERB	_	_	_	_	_	_
+7	clave	clave	NOUN	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	investigación	investigación	NOUN	_	_	_	_	_	_
+12	pública	público	ADJ	_	_	_	_	_	_
+13	genere	generar	VERB	_	_	_	_	_	_
+14	valor	valor	NOUN	_	_	_	_	_	_
+15	económico	económico	ADJ	_	_	_	_	_	_
+16	local	local	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_355
+# text = A pesar de aceleradoras públicas, las pymes manufactureras adoptan herramientas digitales con notable lentitud regional.
+1	A	a	ADP	_	_	_	_	_	_
+2	pesar	pesar	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	aceleradoras	aceleradora	NOUN	_	_	_	_	_	_
+5	públicas	público	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	las	el	DET	_	_	_	_	_	_
+8	pymes	pyme	NOUN	_	_	_	_	_	_
+9	manufactureras	manufacturero	ADJ	_	_	_	_	_	_
+10	adoptan	adoptar	VERB	_	_	_	_	_	_
+11	herramientas	herramienta	NOUN	_	_	_	_	_	_
+12	digitales	digital	ADJ	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	notable	notable	ADJ	_	_	_	_	_	_
+15	lentitud	lentitud	NOUN	_	_	_	_	_	_
+16	regional	regional	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_356
+# text = El director de innovación explicó que la ciberseguridad debe integrarse desde el diseño de nuevos productos conectados.
+1	El	el	DET	_	_	_	_	_	_
+2	director	director	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	innovación	innovación	NOUN	_	_	_	_	_	_
+5	explicó	explicar	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	ciberseguridad	ciberseguridad	NOUN	_	_	_	_	_	_
+9	debe	deber	VERB	_	_	_	_	_	_
+10	integrarse	integrar	VERB	_	_	_	_	_	_
+11	desde	desde	ADP	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	diseño	diseño	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	nuevos	nuevo	ADJ	_	_	_	_	_	_
+16	productos	producto	NOUN	_	_	_	_	_	_
+17	conectados	conectar	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_357
+# text = Escalar soluciones limpias requiere estándares abiertos, capital paciente y mercados que valoren externalidades positivas.
+1	Escalar	escalar	VERB	_	_	_	_	_	_
+2	soluciones	solución	NOUN	_	_	_	_	_	_
+3	limpias	limpio	ADJ	_	_	_	_	_	_
+4	requiere	requerir	VERB	_	_	_	_	_	_
+5	estándares	estándare	NOUN	_	_	_	_	_	_
+6	abiertos	abierto	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	capital	capital	NOUN	_	_	_	_	_	_
+9	paciente	paciente	ADJ	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	mercados	mercado	NOUN	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	valoren	valorar	VERB	_	_	_	_	_	_
+14	externalidades	externalidade	NOUN	_	_	_	_	_	_
+15	positivas	positivo	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_358
+# text = Los emprendedores deberían acceder a mentoría especializada, declaró la cámara de comercio en su programa anual.
+1	Los	el	DET	_	_	_	_	_	_
+2	emprendedores	emprendedore	NOUN	_	_	_	_	_	_
+3	deberían	deber	VERB	_	_	_	_	_	_
+4	acceder	acceder	VERB	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	mentoría	mentoría	NOUN	_	_	_	_	_	_
+7	especializada	especializado	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	declaró	declarar	VERB	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	cámara	cámara	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	comercio	comercio	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	su	suyo	DET	_	_	_	_	_	_
+16	programa	programa	NOUN	_	_	_	_	_	_
+17	anual	anual	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_359
+# text = La propiedad intelectual fue descrita como activo estratégico en negociaciones con socios internacionales de alto riesgo.
+1	La	el	DET	_	_	_	_	_	_
+2	propiedad	propiedad	NOUN	_	_	_	_	_	_
+3	intelectual	intelectual	ADJ	_	_	_	_	_	_
+4	fue	ser	AUX	_	_	_	_	_	_
+5	descrita	describir	VERB	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	activo	activo	NOUN	_	_	_	_	_	_
+8	estratégico	estratégico	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	negociaciones	negociación	NOUN	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	socios	socio	NOUN	_	_	_	_	_	_
+13	internacionales	internacional	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	alto	alto	ADJ	_	_	_	_	_	_
+16	riesgo	riesgo	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_360
+# text = Si se simplificaran trámites de constitución, el tiempo para lanzar empresas tecnológicas podría reducirse considerablemente.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	simplificaran	simplificar	VERB	_	_	_	_	_	_
+4	trámites	trámite	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	constitución	constitución	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	tiempo	tiempo	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	lanzar	lanzar	VERB	_	_	_	_	_	_
+12	empresas	empresa	NOUN	_	_	_	_	_	_
+13	tecnológicas	tecnológico	ADJ	_	_	_	_	_	_
+14	podría	poder	VERB	_	_	_	_	_	_
+15	reducirse	reducir	VERB	_	_	_	_	_	_
+16	considerablemente	considerablemente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_361
+# text = Aunque existen incubadoras universitarias, la rotación de talento hacia grandes plataformas extranjeras sigue siendo elevada.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	existen	existir	VERB	_	_	_	_	_	_
+3	incubadoras	incubadora	NOUN	_	_	_	_	_	_
+4	universitarias	universitario	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	rotación	rotación	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	talento	talento	NOUN	_	_	_	_	_	_
+10	hacia	hacia	ADP	_	_	_	_	_	_
+11	grandes	grande	ADJ	_	_	_	_	_	_
+12	plataformas	plataforma	NOUN	_	_	_	_	_	_
+13	extranjeras	extranjero	ADJ	_	_	_	_	_	_
+14	sigue	seguir	VERB	_	_	_	_	_	_
+15	siendo	ser	AUX	_	_	_	_	_	_
+16	elevada	elevado	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_362
+# text = Se teme que la concentración de datos en pocos actores limite la entrada de competidores al mercado.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	concentración	concentración	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	datos	dato	NOUN	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	pocos	poco	DET	_	_	_	_	_	_
+10	actores	actore	NOUN	_	_	_	_	_	_
+11	limite	limitar	VERB	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	entrada	entrada	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	competidores	competidore	NOUN	_	_	_	_	_	_
+16	al	al	ADP	_	_	_	_	_	_
+17	mercado	mercado	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_363
+# text = Desarrollar infraestructura de computación de borde debería mejorar latencia para aplicaciones industriales críticas en fábricas.
+1	Desarrollar	desarrollar	VERB	_	_	_	_	_	_
+2	infraestructura	infraestructura	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	computación	computación	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	borde	borde	NOUN	_	_	_	_	_	_
+7	debería	deber	VERB	_	_	_	_	_	_
+8	mejorar	mejorar	VERB	_	_	_	_	_	_
+9	latencia	latencia	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	aplicaciones	aplicación	NOUN	_	_	_	_	_	_
+12	industriales	industrial	ADJ	_	_	_	_	_	_
+13	críticas	crítico	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	fábricas	fábrica	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_364
+# text = Si se hubieran anticipado riesgos regulatorios, varias expansiones internacionales se habrían planificado con mayor prudencia.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	hubieran	haber	AUX	_	_	_	_	_	_
+4	anticipado	anticipar	VERB	_	_	_	_	_	_
+5	riesgos	riesgo	NOUN	_	_	_	_	_	_
+6	regulatorios	regulatorio	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	varias	vario	DET	_	_	_	_	_	_
+9	expansiones	expansión	NOUN	_	_	_	_	_	_
+10	internacionales	internacional	ADJ	_	_	_	_	_	_
+11	se	él	PRON	_	_	_	_	_	_
+12	habrían	haber	VERB	_	_	_	_	_	_
+13	planificado	planificar	VERB	_	_	_	_	_	_
+14	con	con	ADP	_	_	_	_	_	_
+15	mayor	mayor	ADJ	_	_	_	_	_	_
+16	prudencia	prudencia	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_365
+# text = El informe recomienda fomentar ecosistemas regionales que conecten universidades, capital riesgo y empresas consolidadas.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	recomienda	recomendar	VERB	_	_	_	_	_	_
+4	fomentar	fomentar	VERB	_	_	_	_	_	_
+5	ecosistemas	ecosistema	NOUN	_	_	_	_	_	_
+6	regionales	regional	ADJ	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	conecten	conectar	VERB	_	_	_	_	_	_
+9	universidades	universidade	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	capital	capital	NOUN	_	_	_	_	_	_
+12	riesgo	riesgo	NOUN	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	empresas	empresa	NOUN	_	_	_	_	_	_
+15	consolidadas	consolidar	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_366
+# text = La responsabilidad de plataformas digitales hacia usuarios y competidores se debate intensamente en foros antimonopolio.
+1	La	el	DET	_	_	_	_	_	_
+2	responsabilidad	responsabilidad	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	plataformas	plataforma	NOUN	_	_	_	_	_	_
+5	digitales	digital	ADJ	_	_	_	_	_	_
+6	hacia	hacia	ADP	_	_	_	_	_	_
+7	usuarios	usuario	NOUN	_	_	_	_	_	_
+8	y	y	CCONJ	_	_	_	_	_	_
+9	competidores	competidore	NOUN	_	_	_	_	_	_
+10	se	él	PRON	_	_	_	_	_	_
+11	debate	debatir	VERB	_	_	_	_	_	_
+12	intensamente	intensamente	ADV	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	foros	foro	NOUN	_	_	_	_	_	_
+15	antimonopolio	antimonopolio	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_367
+# text = Aunque la nube reduce costes iniciales, la dependencia de proveedores globales plantea riesgos de continuidad operativa.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	nube	nube	NOUN	_	_	_	_	_	_
+4	reduce	reducir	VERB	_	_	_	_	_	_
+5	costes	coste	NOUN	_	_	_	_	_	_
+6	iniciales	inicial	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	dependencia	dependencia	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	proveedores	proveedore	NOUN	_	_	_	_	_	_
+12	globales	global	ADJ	_	_	_	_	_	_
+13	plantea	plantear	VERB	_	_	_	_	_	_
+14	riesgos	riesgo	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	continuidad	continuidad	NOUN	_	_	_	_	_	_
+17	operativa	operativo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_368
+# text = El problema no es la escasez de ideas sino la dificultad de convertir prototipos en productos viables.
+1	El	el	DET	_	_	_	_	_	_
+2	problema	problema	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	escasez	escasez	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	ideas	idea	NOUN	_	_	_	_	_	_
+9	sino	sino	SCONJ	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	dificultad	dificultad	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	convertir	convertir	VERB	_	_	_	_	_	_
+14	prototipos	prototipo	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	productos	producto	NOUN	_	_	_	_	_	_
+17	viables	viable	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_369
+# text = Promover estándares de interoperabilidad debería facilitar la integración de soluciones de distintos proveedores tecnológicos.
+1	Promover	promover	VERB	_	_	_	_	_	_
+2	estándares	estándare	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	interoperabilidad	interoperabilidad	NOUN	_	_	_	_	_	_
+5	debería	deber	VERB	_	_	_	_	_	_
+6	facilitar	facilitar	VERB	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	integración	integración	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	soluciones	solución	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	distintos	distinto	DET	_	_	_	_	_	_
+13	proveedores	proveedore	NOUN	_	_	_	_	_	_
+14	tecnológicos	tecnológico	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_370
+# text = El ministro subrayó que la innovación no debe concentrarse exclusivamente en grandes ciudades tecnológicas del país.
+1	El	el	DET	_	_	_	_	_	_
+2	ministro	ministro	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	innovación	innovación	NOUN	_	_	_	_	_	_
+7	no	no	ADV	_	_	_	_	_	_
+8	debe	deber	VERB	_	_	_	_	_	_
+9	concentrarse	concentrar	VERB	_	_	_	_	_	_
+10	exclusivamente	exclusivamente	ADV	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	grandes	grande	ADJ	_	_	_	_	_	_
+13	ciudades	ciudade	NOUN	_	_	_	_	_	_
+14	tecnológicas	tecnológico	ADJ	_	_	_	_	_	_
+15	del	del	ADP	_	_	_	_	_	_
+16	país	paí	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_371
+# text = Ampliar financiación para empresas en fase semilla se debate como medida para diversificar la economía del conocimiento.
+1	Ampliar	ampliar	VERB	_	_	_	_	_	_
+2	financiación	financiación	NOUN	_	_	_	_	_	_
+3	para	para	ADP	_	_	_	_	_	_
+4	empresas	empresa	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	fase	fase	NOUN	_	_	_	_	_	_
+7	semilla	semilla	NOUN	_	_	_	_	_	_
+8	se	él	PRON	_	_	_	_	_	_
+9	debate	debatir	VERB	_	_	_	_	_	_
+10	como	como	SCONJ	_	_	_	_	_	_
+11	medida	medida	NOUN	_	_	_	_	_	_
+12	para	para	ADP	_	_	_	_	_	_
+13	diversificar	diversificar	VERB	_	_	_	_	_	_
+14	la	el	DET	_	_	_	_	_	_
+15	economía	economía	NOUN	_	_	_	_	_	_
+16	del	del	ADP	_	_	_	_	_	_
+17	conocimiento	conocimiento	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_372
+# text = Se supone que los contratos públicos priorizarán soluciones digitales que cumplan criterios de accesibilidad y seguridad.
+1	Se	él	PRON	_	_	_	_	_	_
+2	supone	suponer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	contratos	contrato	NOUN	_	_	_	_	_	_
+6	públicos	público	ADJ	_	_	_	_	_	_
+7	priorizarán	priorizar	VERB	_	_	_	_	_	_
+8	soluciones	solución	NOUN	_	_	_	_	_	_
+9	digitales	digital	ADJ	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	cumplan	cumplir	VERB	_	_	_	_	_	_
+12	criterios	criterio	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	accesibilidad	accesibilidad	NOUN	_	_	_	_	_	_
+15	y	y	CCONJ	_	_	_	_	_	_
+16	seguridad	seguridad	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_373
+# text = Aunque creció el comercio electrónico, la logística de última milla sigue generando externalidades ambientales significativas.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	creció	crecer	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	comercio	comercio	NOUN	_	_	_	_	_	_
+5	electrónico	electrónico	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	logística	logística	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	última	último	ADJ	_	_	_	_	_	_
+11	milla	milla	NOUN	_	_	_	_	_	_
+12	sigue	seguir	VERB	_	_	_	_	_	_
+13	generando	generar	VERB	_	_	_	_	_	_
+14	externalidades	externalidade	NOUN	_	_	_	_	_	_
+15	ambientales	ambiental	ADJ	_	_	_	_	_	_
+16	significativas	significativo	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_374
+# text = Impulsar open source empresarial debería reducir barreras de entrada para pymes que deseen modernizar procesos internos.
+1	Impulsar	impulsar	VERB	_	_	_	_	_	_
+2	open	Open	PROPN	_	_	_	_	_	_
+3	source	Source	PROPN	_	_	_	_	_	_
+4	empresarial	empresarial	ADJ	_	_	_	_	_	_
+5	debería	deber	VERB	_	_	_	_	_	_
+6	reducir	reducir	VERB	_	_	_	_	_	_
+7	barreras	barrera	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	entrada	entrada	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	pymes	pyme	NOUN	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	deseen	desear	VERB	_	_	_	_	_	_
+14	modernizar	modernizar	VERB	_	_	_	_	_	_
+15	procesos	proceso	NOUN	_	_	_	_	_	_
+16	internos	interno	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_375
+# text = Gobernar la transformación digital de forma inclusiva sigue siendo reto central para políticas industriales contemporáneas.
+1	Gobernar	gobernar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	transformación	transformación	NOUN	_	_	_	_	_	_
+4	digital	digital	ADJ	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	forma	forma	NOUN	_	_	_	_	_	_
+7	inclusiva	inclusivo	ADJ	_	_	_	_	_	_
+8	sigue	seguir	VERB	_	_	_	_	_	_
+9	siendo	ser	AUX	_	_	_	_	_	_
+10	reto	reto	NOUN	_	_	_	_	_	_
+11	central	central	ADJ	_	_	_	_	_	_
+12	para	para	ADP	_	_	_	_	_	_
+13	políticas	política	NOUN	_	_	_	_	_	_
+14	industriales	industrial	ADJ	_	_	_	_	_	_
+15	contemporáneas	contemporáneo	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_376
+# text = La salud mental pública requiere integrar atención especializada, prevención comunitaria y apoyo en entornos laborales.
+1	La	el	DET	_	_	_	_	_	_
+2	salud	salud	NOUN	_	_	_	_	_	_
+3	mental	mental	ADJ	_	_	_	_	_	_
+4	pública	público	ADJ	_	_	_	_	_	_
+5	requiere	requerir	VERB	_	_	_	_	_	_
+6	integrar	integrar	VERB	_	_	_	_	_	_
+7	atención	atención	NOUN	_	_	_	_	_	_
+8	especializada	especializado	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	prevención	prevención	NOUN	_	_	_	_	_	_
+11	comunitaria	comunitario	ADJ	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	apoyo	apoyo	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	entornos	entorno	NOUN	_	_	_	_	_	_
+16	laborales	laboral	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_377
+# text = Aunque se ampliaron líneas de ayuda, el acceso a terapia especializada sigue limitado en zonas rurales.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	ampliaron	ampliar	VERB	_	_	_	_	_	_
+4	líneas	línea	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	ayuda	ayuda	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	acceso	acceso	NOUN	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	terapia	terapia	NOUN	_	_	_	_	_	_
+12	especializada	especializado	ADJ	_	_	_	_	_	_
+13	sigue	seguir	VERB	_	_	_	_	_	_
+14	limitado	limitado	ADJ	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	zonas	zona	NOUN	_	_	_	_	_	_
+17	rurales	rural	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_378
+# text = Se espera que los centros educativos incorporen programas de bienestar emocional con formación docente adecuada.
+1	Se	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	centros	centro	NOUN	_	_	_	_	_	_
+6	educativos	educativo	ADJ	_	_	_	_	_	_
+7	incorporen	incorporar	VERB	_	_	_	_	_	_
+8	programas	programa	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	bienestar	bienestar	NOUN	_	_	_	_	_	_
+11	emocional	emocional	ADJ	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	formación	formación	NOUN	_	_	_	_	_	_
+14	docente	docente	ADJ	_	_	_	_	_	_
+15	adecuada	adecuado	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_379
+# text = Reducir el estigma asociado a trastornos mentales es considerado indispensable para mejorar la búsqueda temprana de ayuda.
+1	Reducir	reducir	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	estigma	estigma	NOUN	_	_	_	_	_	_
+4	asociado	asociado	ADJ	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	trastornos	trastorno	NOUN	_	_	_	_	_	_
+7	mentales	mental	ADJ	_	_	_	_	_	_
+8	es	ser	AUX	_	_	_	_	_	_
+9	considerado	considerar	VERB	_	_	_	_	_	_
+10	indispensable	indispensable	ADJ	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	mejorar	mejorar	VERB	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	búsqueda	búsqueda	NOUN	_	_	_	_	_	_
+15	temprana	temprano	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	ayuda	ayuda	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_380
+# text = A pesar de campañas de sensibilización, muchas personas evitan hablar de ansiedad en el trabajo.
+1	A	a	ADP	_	_	_	_	_	_
+2	pesar	pesar	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	campañas	campaña	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	sensibilización	sensibilización	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	muchas	mucho	DET	_	_	_	_	_	_
+9	personas	persona	NOUN	_	_	_	_	_	_
+10	evitan	evitar	VERB	_	_	_	_	_	_
+11	hablar	hablar	VERB	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	ansiedad	ansiedad	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	el	el	DET	_	_	_	_	_	_
+16	trabajo	trabajo	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_381
+# text = La psicóloga clínica explicó que la sobrecarga asistencial había aumentado tras la última ola de demanda juvenil.
+1	La	el	DET	_	_	_	_	_	_
+2	psicóloga	psicóloga	NOUN	_	_	_	_	_	_
+3	clínica	clínico	ADJ	_	_	_	_	_	_
+4	explicó	explicar	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	sobrecarga	sobrecarga	NOUN	_	_	_	_	_	_
+8	asistencial	asistencial	ADJ	_	_	_	_	_	_
+9	había	haber	AUX	_	_	_	_	_	_
+10	aumentado	aumentar	VERB	_	_	_	_	_	_
+11	tras	tras	ADP	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	última	último	ADJ	_	_	_	_	_	_
+14	ola	ola	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	demanda	demanda	NOUN	_	_	_	_	_	_
+17	juvenil	juvenil	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_382
+# text = Prevenir el agotamiento profesional requiere límites claros de jornada y cultura organizacional que priorice el descanso.
+1	Prevenir	prevenir	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	agotamiento	agotamiento	NOUN	_	_	_	_	_	_
+4	profesional	profesional	ADJ	_	_	_	_	_	_
+5	requiere	requerir	VERB	_	_	_	_	_	_
+6	límites	límite	NOUN	_	_	_	_	_	_
+7	claros	claro	ADJ	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	jornada	jornada	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	cultura	cultura	NOUN	_	_	_	_	_	_
+12	organizacional	organizacional	ADJ	_	_	_	_	_	_
+13	que	que	SCONJ	_	_	_	_	_	_
+14	priorice	prioricar	VERB	_	_	_	_	_	_
+15	el	el	DET	_	_	_	_	_	_
+16	descanso	descanso	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_383
+# text = Los empleadores deberían ofrecer recursos confidenciales de apoyo, declaró la asociación en su guía.
+1	Los	el	DET	_	_	_	_	_	_
+2	empleadores	empleadore	NOUN	_	_	_	_	_	_
+3	deberían	deber	VERB	_	_	_	_	_	_
+4	ofrecer	ofrecer	VERB	_	_	_	_	_	_
+5	recursos	recurso	NOUN	_	_	_	_	_	_
+6	confidenciales	confidencial	ADJ	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	apoyo	apoyo	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	declaró	declarar	VERB	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	asociación	asociación	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	su	suyo	DET	_	_	_	_	_	_
+15	guía	guía	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_384
+# text = La soledad no deseada fue descrita como factor de riesgo creciente entre adultos mayores que viven solos.
+1	La	el	DET	_	_	_	_	_	_
+2	soledad	soledad	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	deseada	deseado	ADJ	_	_	_	_	_	_
+5	fue	ser	AUX	_	_	_	_	_	_
+6	descrita	describir	VERB	_	_	_	_	_	_
+7	como	como	SCONJ	_	_	_	_	_	_
+8	factor	factor	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	riesgo	riesgo	NOUN	_	_	_	_	_	_
+11	creciente	creciente	ADJ	_	_	_	_	_	_
+12	entre	entre	ADP	_	_	_	_	_	_
+13	adultos	adulto	NOUN	_	_	_	_	_	_
+14	mayores	mayor	ADJ	_	_	_	_	_	_
+15	que	que	SCONJ	_	_	_	_	_	_
+16	viven	vivir	VERB	_	_	_	_	_	_
+17	solos	solo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_385
+# text = Si se reforzaran equipos de salud mental escolar, las derivaciones tardías a urgencias podrían disminuir notablemente.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	reforzaran	reforzar	VERB	_	_	_	_	_	_
+4	equipos	equipo	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	salud	salud	NOUN	_	_	_	_	_	_
+7	mental	mental	ADJ	_	_	_	_	_	_
+8	escolar	escolar	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	las	el	DET	_	_	_	_	_	_
+11	derivaciones	derivación	NOUN	_	_	_	_	_	_
+12	tardías	tardío	ADJ	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	urgencias	urgencia	NOUN	_	_	_	_	_	_
+15	podrían	poder	VERB	_	_	_	_	_	_
+16	disminuir	disminuir	VERB	_	_	_	_	_	_
+17	notablemente	notablemente	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_386
+# text = Aunque existen protocolos, la coordinación entre atención primaria y servicios especializados sigue siendo insuficiente.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	existen	existir	VERB	_	_	_	_	_	_
+3	protocolos	protocolo	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	coordinación	coordinación	NOUN	_	_	_	_	_	_
+7	entre	entre	ADP	_	_	_	_	_	_
+8	atención	atención	NOUN	_	_	_	_	_	_
+9	primaria	primario	ADJ	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	servicios	servicio	NOUN	_	_	_	_	_	_
+12	especializados	especializado	ADJ	_	_	_	_	_	_
+13	sigue	seguir	VERB	_	_	_	_	_	_
+14	siendo	ser	AUX	_	_	_	_	_	_
+15	insuficiente	insuficiente	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_387
+# text = Se teme que la comparación constante en redes sociales agrave problemas de autoestima entre adolescentes urbanos.
+1	Se	él	PRON	_	_	_	_	_	_
+2	teme	temer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	comparación	comparación	NOUN	_	_	_	_	_	_
+6	constante	constante	ADJ	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	redes	rede	NOUN	_	_	_	_	_	_
+9	sociales	social	ADJ	_	_	_	_	_	_
+10	agrave	agravar	VERB	_	_	_	_	_	_
+11	problemas	problema	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	autoestima	autoestima	NOUN	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	adolescentes	adolescente	NOUN	_	_	_	_	_	_
+16	urbanos	urbano	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_388
+# text = Ampliar terapia grupal comunitaria debería complementar tratamientos individuales en contextos de recursos limitados.
+1	Ampliar	ampliar	VERB	_	_	_	_	_	_
+2	terapia	terapia	NOUN	_	_	_	_	_	_
+3	grupal	grupal	ADJ	_	_	_	_	_	_
+4	comunitaria	comunitario	ADJ	_	_	_	_	_	_
+5	debería	deber	VERB	_	_	_	_	_	_
+6	complementar	complementar	VERB	_	_	_	_	_	_
+7	tratamientos	tratamiento	NOUN	_	_	_	_	_	_
+8	individuales	individual	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	contextos	contexto	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	recursos	recurso	NOUN	_	_	_	_	_	_
+13	limitados	limitado	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_389
+# text = Si se hubieran detectado antes señales de alerta, varias crisis graves se habrían atendido antes.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	hubieran	haber	AUX	_	_	_	_	_	_
+4	detectado	detectar	VERB	_	_	_	_	_	_
+5	antes	antes	ADV	_	_	_	_	_	_
+6	señales	señale	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	alerta	alerta	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	varias	vario	DET	_	_	_	_	_	_
+11	crisis	crisi	NOUN	_	_	_	_	_	_
+12	graves	grave	ADJ	_	_	_	_	_	_
+13	se	él	PRON	_	_	_	_	_	_
+14	habrían	haber	VERB	_	_	_	_	_	_
+15	atendido	atender	VERB	_	_	_	_	_	_
+16	antes	antes	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_390
+# text = El informe muestra cómo la precariedad económica se correlaciona con mayor incidencia de trastornos de ansiedad.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	muestra	mostrar	VERB	_	_	_	_	_	_
+4	cómo	cómo	ADV	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	precariedad	precariedad	NOUN	_	_	_	_	_	_
+7	económica	económico	ADJ	_	_	_	_	_	_
+8	se	él	PRON	_	_	_	_	_	_
+9	correlaciona	correlacionar	VERB	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	mayor	mayor	ADJ	_	_	_	_	_	_
+12	incidencia	incidencia	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	trastornos	trastorno	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	ansiedad	ansiedad	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_391
+# text = La formación en salud mental para médicos de familia se considera prioritaria por sociedades profesionales nacionales.
+1	La	el	DET	_	_	_	_	_	_
+2	formación	formación	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	salud	salud	NOUN	_	_	_	_	_	_
+5	mental	mental	ADJ	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	médicos	médico	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	familia	familia	NOUN	_	_	_	_	_	_
+10	se	él	PRON	_	_	_	_	_	_
+11	considera	considerar	VERB	_	_	_	_	_	_
+12	prioritaria	prioritario	ADJ	_	_	_	_	_	_
+13	por	por	ADP	_	_	_	_	_	_
+14	sociedades	sociedade	NOUN	_	_	_	_	_	_
+15	profesionales	profesional	ADJ	_	_	_	_	_	_
+16	nacionales	nacional	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_392
+# text = Aunque aumentó la demanda, la ratio de profesionales por habitante sigue baja en varias comunidades autónomas.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	aumentó	aumentar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	demanda	demanda	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	ratio	ratio	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	profesionales	profesionale	NOUN	_	_	_	_	_	_
+10	por	por	ADP	_	_	_	_	_	_
+11	habitante	habitante	NOUN	_	_	_	_	_	_
+12	sigue	seguir	VERB	_	_	_	_	_	_
+13	baja	bajo	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	varias	vario	DET	_	_	_	_	_	_
+16	comunidades	comunidade	NOUN	_	_	_	_	_	_
+17	autónomas	autónomo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_393
+# text = El reto no es reconocer la importancia del bienestar sino financiar servicios sostenibles a largo plazo.
+1	El	el	DET	_	_	_	_	_	_
+2	reto	reto	NOUN	_	_	_	_	_	_
+3	no	no	ADV	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	reconocer	reconocer	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	importancia	importancia	NOUN	_	_	_	_	_	_
+8	del	del	ADP	_	_	_	_	_	_
+9	bienestar	bienestar	NOUN	_	_	_	_	_	_
+10	sino	sino	SCONJ	_	_	_	_	_	_
+11	financiar	financiar	VERB	_	_	_	_	_	_
+12	servicios	servicio	NOUN	_	_	_	_	_	_
+13	sostenibles	sostenible	ADJ	_	_	_	_	_	_
+14	a	a	ADP	_	_	_	_	_	_
+15	largo	largo	ADJ	_	_	_	_	_	_
+16	plazo	plazo	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_394
+# text = Promover actividad física regular debería integrarse en estrategias públicas de prevención de enfermedades mentales comunes.
+1	Promover	promover	VERB	_	_	_	_	_	_
+2	actividad	actividad	NOUN	_	_	_	_	_	_
+3	física	físico	ADJ	_	_	_	_	_	_
+4	regular	regular	ADJ	_	_	_	_	_	_
+5	debería	deber	VERB	_	_	_	_	_	_
+6	integrarse	integrar	VERB	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	estrategias	estrategia	NOUN	_	_	_	_	_	_
+9	públicas	público	ADJ	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	prevención	prevención	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	enfermedades	enfermedade	NOUN	_	_	_	_	_	_
+14	mentales	mental	ADJ	_	_	_	_	_	_
+15	comunes	común	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_395
+# text = El ministro subrayó que la salud mental no debe tratarse como tema secundario del sistema sanitario general.
+1	El	el	DET	_	_	_	_	_	_
+2	ministro	ministro	NOUN	_	_	_	_	_	_
+3	subrayó	subrayar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	salud	salud	NOUN	_	_	_	_	_	_
+7	mental	mental	ADJ	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	debe	deber	VERB	_	_	_	_	_	_
+10	tratarse	tratar	VERB	_	_	_	_	_	_
+11	como	como	SCONJ	_	_	_	_	_	_
+12	tema	tema	NOUN	_	_	_	_	_	_
+13	secundario	secundario	ADJ	_	_	_	_	_	_
+14	del	del	ADP	_	_	_	_	_	_
+15	sistema	sistema	NOUN	_	_	_	_	_	_
+16	sanitario	sanitario	ADJ	_	_	_	_	_	_
+17	general	general	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_396
+# text = Desarrollar viviendas con espacios comunitarios se debate como medida para reducir aislamiento en barrios envejecidos.
+1	Desarrollar	desarrollar	VERB	_	_	_	_	_	_
+2	viviendas	vivienda	NOUN	_	_	_	_	_	_
+3	con	con	ADP	_	_	_	_	_	_
+4	espacios	espacio	NOUN	_	_	_	_	_	_
+5	comunitarios	comunitario	ADJ	_	_	_	_	_	_
+6	se	él	PRON	_	_	_	_	_	_
+7	debate	debatir	VERB	_	_	_	_	_	_
+8	como	como	SCONJ	_	_	_	_	_	_
+9	medida	medida	NOUN	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	reducir	reducir	VERB	_	_	_	_	_	_
+12	aislamiento	aislamiento	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	barrios	barrio	NOUN	_	_	_	_	_	_
+15	envejecidos	envejecido	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_397
+# text = Se recomienda que las empresas evalúen riesgos psicosociales con la misma rigurosidad que riesgos físicos laborales.
+1	Se	él	PRON	_	_	_	_	_	_
+2	recomienda	recomendar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	empresas	empresa	NOUN	_	_	_	_	_	_
+6	evalúen	evaluar	VERB	_	_	_	_	_	_
+7	riesgos	riesgo	NOUN	_	_	_	_	_	_
+8	psicosociales	psicosocial	ADJ	_	_	_	_	_	_
+9	con	con	ADP	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	misma	mismo	DET	_	_	_	_	_	_
+12	rigurosidad	rigurosidad	NOUN	_	_	_	_	_	_
+13	que	que	SCONJ	_	_	_	_	_	_
+14	riesgos	riesgo	NOUN	_	_	_	_	_	_
+15	físicos	físico	ADJ	_	_	_	_	_	_
+16	laborales	laboral	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_398
+# text = Aunque se digitalizaron consultas, muchos pacientes prefieren seguir tratamientos presenciales por la calidad relacional.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	digitalizaron	digitalizar	VERB	_	_	_	_	_	_
+4	consultas	consulta	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	muchos	mucho	DET	_	_	_	_	_	_
+7	pacientes	paciente	NOUN	_	_	_	_	_	_
+8	prefieren	preferir	VERB	_	_	_	_	_	_
+9	seguir	seguir	VERB	_	_	_	_	_	_
+10	tratamientos	tratamiento	NOUN	_	_	_	_	_	_
+11	presenciales	presencial	ADJ	_	_	_	_	_	_
+12	por	por	ADP	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	calidad	calidad	NOUN	_	_	_	_	_	_
+15	relacional	relacional	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_399
+# text = Fortalecer redes de apoyo vecinal debería complementar intervenciones clínicas en situaciones de duelo o violencia doméstica.
+1	Fortalecer	fortalecer	VERB	_	_	_	_	_	_
+2	redes	rede	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	apoyo	apoyo	NOUN	_	_	_	_	_	_
+5	vecinal	vecinal	ADJ	_	_	_	_	_	_
+6	debería	deber	VERB	_	_	_	_	_	_
+7	complementar	complementar	VERB	_	_	_	_	_	_
+8	intervenciones	intervención	NOUN	_	_	_	_	_	_
+9	clínicas	clínico	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	situaciones	situación	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	duelo	duelo	NOUN	_	_	_	_	_	_
+14	o	o	CCONJ	_	_	_	_	_	_
+15	violencia	violencia	NOUN	_	_	_	_	_	_
+16	doméstica	doméstico	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b2_train_400
+# text = Garantizar bienestar emocional accesible sigue siendo objetivo central para sociedades que envejecen y se urbanizan rápidamente.
+1	Garantizar	garantizar	VERB	_	_	_	_	_	_
+2	bienestar	bienestar	NOUN	_	_	_	_	_	_
+3	emocional	emocional	ADJ	_	_	_	_	_	_
+4	accesible	accesible	ADJ	_	_	_	_	_	_
+5	sigue	seguir	VERB	_	_	_	_	_	_
+6	siendo	ser	AUX	_	_	_	_	_	_
+7	objetivo	objetivo	NOUN	_	_	_	_	_	_
+8	central	central	ADJ	_	_	_	_	_	_
+9	para	para	ADP	_	_	_	_	_	_
+10	sociedades	sociedade	NOUN	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	envejecen	envejecer	VERB	_	_	_	_	_	_
+13	y	y	CCONJ	_	_	_	_	_	_
+14	se	él	PRON	_	_	_	_	_	_
+15	urbanizan	urbanizar	VERB	_	_	_	_	_	_
+16	rápidamente	rápidamente	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+

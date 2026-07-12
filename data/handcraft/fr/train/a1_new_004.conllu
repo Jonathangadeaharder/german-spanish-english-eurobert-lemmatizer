@@ -1,0 +1,1683 @@
+# sent_id = fr_a1_train_601
+# text = J'écoute de la musique.
+1	J'écoute	J'écoute	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	musique	musique	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_602
+# text = Elle chante une chanson douce.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	chante	chanter	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	chanson	chanson	NOUN	_	_	_	_	_	_
+5	douce	doux	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_603
+# text = Il joue du piano.
+1	Il	il	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	piano	piano	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_604
+# text = Nous aimons le jazz.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aimons	aimer	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	jazz	jazz	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_605
+# text = Tu entends la guitare?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	entends	entendre	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	guitare	guitare	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_606
+# text = Je danse sur la musique.
+1	Je	je	PRON	_	_	_	_	_	_
+2	danse	danser	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	musique	musique	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_607
+# text = Elle apprend une mélodie.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	apprend	apprendre	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	mélodie	mélodie	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_608
+# text = Il joue du violon.
+1	Il	il	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	violon	violon	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_609
+# text = Nous écoutons la radio.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	écoutons	écouter	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	radio	radio	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_610
+# text = Je frappe sur le tambour.
+1	Je	je	PRON	_	_	_	_	_	_
+2	frappe	frapper	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	tambour	tambour	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_611
+# text = Elle aime la chanson française.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	aime	aimer	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	chanson	chanson	NOUN	_	_	_	_	_	_
+5	française	français	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_612
+# text = Il chante très bien.
+1	Il	il	PRON	_	_	_	_	_	_
+2	chante	chanter	VERB	_	_	_	_	_	_
+3	très	très	ADV	_	_	_	_	_	_
+4	bien	bien	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_613
+# text = Il joue de la clarinette.
+1	Il	il	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	clarinette	clarinette	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_614
+# text = Je préfère la musique calme.
+1	Je	je	PRON	_	_	_	_	_	_
+2	préfère	préférer	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	musique	musique	NOUN	_	_	_	_	_	_
+5	calme	calme	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_615
+# text = Elle écoute un concert.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	écoute	écouter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	concert	concert	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_616
+# text = Il met un disque.
+1	Il	il	PRON	_	_	_	_	_	_
+2	met	mettre	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	disque	disque	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_617
+# text = Nous chantons ensemble.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	chantons	chanter	VERB	_	_	_	_	_	_
+3	ensemble	ensemble	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_618
+# text = Je joue de la batterie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	batterie	batterie	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_619
+# text = Elle suit le rythme.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	suit	suivre	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	rythme	rythme	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_620
+# text = Il écoute du rock.
+1	Il	il	PRON	_	_	_	_	_	_
+2	écoute	écouter	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	rock	rock	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_621
+# text = Nous aimons cette chanson.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aimons	aimer	VERB	_	_	_	_	_	_
+3	cette	ce	DET	_	_	_	_	_	_
+4	chanson	chanson	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_622
+# text = Je siffle une mélodie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	siffle	siffler	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	mélodie	mélodie	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_623
+# text = Elle joue de la harpe.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	harpe	harpe	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_624
+# text = Il écoute avec des écouteurs.
+1	Il	il	PRON	_	_	_	_	_	_
+2	écoute	écouter	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	écouteurs	écouteur	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_625
+# text = Nous applaudissons les musiciens.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	applaudissons	applaudir	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	musiciens	musicien	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_626
+# text = Je vais au cinéma.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	cinéma	cinéma	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_627
+# text = Elle achète un billet.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	achète	acheter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	billet	billet	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_628
+# text = Il regarde un film drôle.
+1	Il	il	PRON	_	_	_	_	_	_
+2	regarde	regarder	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	drôle	drôle	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_629
+# text = Nous aimons les films d'action.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aimons	aimer	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	films	film	NOUN	_	_	_	_	_	_
+5	d'action	d'action	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_630
+# text = Le film commence à vingt heures.
+1	Le	le	DET	_	_	_	_	_	_
+2	film	film	NOUN	_	_	_	_	_	_
+3	commence	commencer	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	vingt	vingt	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_631
+# text = Je prends du pop-corn.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prends	prendre	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	pop-corn	pop-corn	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_632
+# text = Elle rit pendant le film.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	rit	rire	VERB	_	_	_	_	_	_
+3	pendant	pendant	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	film	film	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_633
+# text = Il trouve le film long.
+1	Il	il	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	long	long	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_634
+# text = Nous sortons du cinéma.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	sortons	sortir	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	cinéma	cinéma	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_635
+# text = Je choisis un siège.
+1	Je	je	PRON	_	_	_	_	_	_
+2	choisis	choisir	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	siège	siège	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_636
+# text = Elle aime les comédies.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	aime	aimer	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	comédies	comédie	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_637
+# text = Il regarde les bandes-annonces.
+1	Il	il	PRON	_	_	_	_	_	_
+2	regarde	regarder	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	bandes-annonces	bandes-annonce	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_638
+# text = Le cinéma est plein.
+1	Le	le	DET	_	_	_	_	_	_
+2	cinéma	cinéma	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	plein	plein	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_639
+# text = Je trouve le héros courageux.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	héros	héro	NOUN	_	_	_	_	_	_
+5	courageux	courageux	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_640
+# text = Elle pleure à la fin.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	pleure	pleurer	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	fin	fin	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_641
+# text = Il achète deux billets.
+1	Il	il	PRON	_	_	_	_	_	_
+2	achète	acheter	VERB	_	_	_	_	_	_
+3	deux	deux	NUM	_	_	_	_	_	_
+4	billets	billet	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_642
+# text = Nous attendons dans la file.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	attendons	attendre	VERB	_	_	_	_	_	_
+3	dans	dans	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	file	file	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_643
+# text = Je regarde un dessin animé.
+1	Je	je	PRON	_	_	_	_	_	_
+2	regarde	regarder	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	dessin	dessin	NOUN	_	_	_	_	_	_
+5	animé	animer	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_644
+# text = Elle aime les films français.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	aime	aimer	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	films	film	NOUN	_	_	_	_	_	_
+5	français	français	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_645
+# text = Il éteint son téléphone.
+1	Il	il	PRON	_	_	_	_	_	_
+2	éteint	éteindre	VERB	_	_	_	_	_	_
+3	son	son	DET	_	_	_	_	_	_
+4	téléphone	téléphone	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_646
+# text = Le film est en couleur.
+1	Le	le	DET	_	_	_	_	_	_
+2	film	film	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	couleur	couleur	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_647
+# text = Je trouve l'histoire belle.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	l'histoire	l'histoire	X	_	_	_	_	_	_
+4	belle	belle	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_648
+# text = Elle parle du film après.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	parle	parler	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	film	film	X	_	_	_	_	_	_
+5	après	après	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_649
+# text = Il regarde un film d'aventure.
+1	Il	il	PRON	_	_	_	_	_	_
+2	regarde	regarder	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	d'aventure	d'aventure	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_650
+# text = Nous rentrons tard ce soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	rentrons	rentrer	VERB	_	_	_	_	_	_
+3	tard	tard	ADV	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	soir	soir	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_651
+# text = Nous allons à la plage.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	plage	plage	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_652
+# text = Le sable est chaud.
+1	Le	le	DET	_	_	_	_	_	_
+2	sable	sable	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	chaud	chaud	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_653
+# text = Je mets mon maillot.
+1	Je	je	PRON	_	_	_	_	_	_
+2	mets	mettre	VERB	_	_	_	_	_	_
+3	mon	mon	DET	_	_	_	_	_	_
+4	maillot	maillot	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_654
+# text = Elle nage dans la mer.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	nage	nager	VERB	_	_	_	_	_	_
+3	dans	dans	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	mer	mer	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_655
+# text = Il joue avec un seau.
+1	Il	il	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	seau	seau	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_656
+# text = Le soleil brille fort.
+1	Le	le	DET	_	_	_	_	_	_
+2	soleil	soleil	NOUN	_	_	_	_	_	_
+3	brille	briller	VERB	_	_	_	_	_	_
+4	fort	fort	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_657
+# text = Je construis un château.
+1	Je	je	PRON	_	_	_	_	_	_
+2	construis	construire	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	château	château	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_658
+# text = Elle marche sur le sable.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	marche	marcher	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	sable	sable	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_659
+# text = Il ramasse des coquillages.
+1	Il	il	PRON	_	_	_	_	_	_
+2	ramasse	ramasser	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	coquillages	coquillage	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_660
+# text = Nous prenons le soleil.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	prenons	prendre	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	soleil	soleil	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_661
+# text = La mer est bleue.
+1	La	le	DET	_	_	_	_	_	_
+2	mer	mer	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	bleue	bleu	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_662
+# text = Je porte un chapeau.
+1	Je	je	PRON	_	_	_	_	_	_
+2	porte	porter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	chapeau	chapeau	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_663
+# text = Elle boit de l'eau fraîche.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	boit	boire	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'eau	l'eau	X	_	_	_	_	_	_
+5	fraîche	fraîche	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_664
+# text = Il court sur la plage.
+1	Il	il	PRON	_	_	_	_	_	_
+2	court	courir	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	plage	plage	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_665
+# text = Nous mangeons une glace.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	mangeons	manger	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	glace	glace	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_666
+# text = Les vagues sont grandes.
+1	Les	le	DET	_	_	_	_	_	_
+2	vagues	vague	NOUN	_	_	_	_	_	_
+3	sont	être	AUX	_	_	_	_	_	_
+4	grandes	grand	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_667
+# text = Je trouve un joli coquillage.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	joli	joli	ADJ	_	_	_	_	_	_
+5	coquillage	coquillage	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_668
+# text = Elle se repose sur la serviette.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	se	se	PRON	_	_	_	_	_	_
+3	repose	reposer	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	serviette	serviette	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_669
+# text = Il plonge dans l'eau.
+1	Il	il	PRON	_	_	_	_	_	_
+2	plonge	plonger	VERB	_	_	_	_	_	_
+3	dans	dans	ADP	_	_	_	_	_	_
+4	l'eau	l'eau	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_670
+# text = Nous regardons le coucher de soleil.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	regardons	regarder	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	coucher	coucher	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	soleil	soleil	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_671
+# text = Le vent souffle sur la plage.
+1	Le	le	DET	_	_	_	_	_	_
+2	vent	vent	NOUN	_	_	_	_	_	_
+3	souffle	souffler	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	plage	plage	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_672
+# text = Je mets de la crème solaire.
+1	Je	je	PRON	_	_	_	_	_	_
+2	mets	mettre	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	crème	crème	NOUN	_	_	_	_	_	_
+6	solaire	solaire	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_673
+# text = Elle joue au ballon.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	ballon	ballon	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_674
+# text = Il pêche près des rochers.
+1	Il	il	PRON	_	_	_	_	_	_
+2	pêche	pêcher	VERB	_	_	_	_	_	_
+3	près	près	ADV	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	rochers	rochers	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_675
+# text = Nous rentrons avant le soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	rentrons	rentrer	VERB	_	_	_	_	_	_
+3	avant	avant	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	soir	soir	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_676
+# text = C'est mon anniversaire.
+1	C'est	C'est	X	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	anniversaire	anniversaire	X	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_677
+# text = Elle souffle les bougies.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	souffle	souffler	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	bougies	bougie	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_678
+# text = Il reçoit un cadeau.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reçoit	recevoir	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	cadeau	cadeau	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_679
+# text = Nous mangeons un gâteau.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	mangeons	manger	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	gâteau	gâteau	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_680
+# text = Je fête mes dix ans.
+1	Je	je	PRON	_	_	_	_	_	_
+2	fête	fêter	VERB	_	_	_	_	_	_
+3	mes	mon	DET	_	_	_	_	_	_
+4	dix	dix	NUM	_	_	_	_	_	_
+5	ans	an	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_681
+# text = Elle invite ses amis.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	invite	inviter	VERB	_	_	_	_	_	_
+3	ses	son	DET	_	_	_	_	_	_
+4	amis	ami	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_682
+# text = Il ouvre le paquet cadeau.
+1	Il	il	PRON	_	_	_	_	_	_
+2	ouvre	ouvrir	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	paquet	paquet	NOUN	_	_	_	_	_	_
+5	cadeau	cadeau	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_683
+# text = Nous chantons joyeusement.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	chantons	chanter	VERB	_	_	_	_	_	_
+3	joyeusement	joyeusement	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_684
+# text = Le gâteau a cinq bougies.
+1	Le	le	DET	_	_	_	_	_	_
+2	gâteau	gâteau	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	cinq	cinq	NUM	_	_	_	_	_	_
+5	bougies	bougie	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_685
+# text = Je remercie mes parents.
+1	Je	je	PRON	_	_	_	_	_	_
+2	remercie	remercier	VERB	_	_	_	_	_	_
+3	mes	mon	DET	_	_	_	_	_	_
+4	parents	parent	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_686
+# text = Elle porte une couronne.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	porte	porter	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	couronne	couronne	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_687
+# text = Il joue avec ses jouets.
+1	Il	il	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	ses	son	DET	_	_	_	_	_	_
+5	jouets	jouet	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_688
+# text = Nous décorons la table.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	décorons	décorer	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	table	table	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_689
+# text = Je reçois un livre.
+1	Je	je	PRON	_	_	_	_	_	_
+2	reçois	recevoir	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	livre	livre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_690
+# text = Elle est très contente.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	très	très	ADV	_	_	_	_	_	_
+4	contente	content	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_691
+# text = Il fait un vœu secret.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	vœu	vœu	NOUN	_	_	_	_	_	_
+5	secret	secret	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_692
+# text = Nous prenons des photos.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	prenons	prendre	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	photos	photos	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_693
+# text = Je partage le gâteau.
+1	Je	je	PRON	_	_	_	_	_	_
+2	partage	partager	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	gâteau	gâteau	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_694
+# text = Elle reçoit des fleurs.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	reçoit	recevoir	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	fleurs	fleur	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_695
+# text = Il danse avec ses amis.
+1	Il	il	PRON	_	_	_	_	_	_
+2	danse	danser	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	ses	son	DET	_	_	_	_	_	_
+5	amis	ami	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_696
+# text = Nous applaudissons la fêtée.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	applaudissons	applaudir	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	fêtée	fêter	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_697
+# text = Je mange une part de gâteau.
+1	Je	je	PRON	_	_	_	_	_	_
+2	mange	manger	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	part	part	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	gâteau	gâteau	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_698
+# text = Elle écrit des cartes.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	écrit	écrire	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	cartes	carte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_699
+# text = Il reçoit un ballon rouge.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reçoit	recevoir	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	ballon	ballon	NOUN	_	_	_	_	_	_
+5	rouge	rouge	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_700
+# text = Nous finissons la fête tard.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	finissons	finir	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	fête	fête	NOUN	_	_	_	_	_	_
+5	tard	tard	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_701
+# text = Je vais à la poste.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	poste	poste	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_702
+# text = Elle envoie une lettre.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	envoie	envoyer	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	lettre	lettre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_703
+# text = Il achète un timbre.
+1	Il	il	PRON	_	_	_	_	_	_
+2	achète	acheter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	timbre	timbre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_704
+# text = Nous attendons au guichet.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	attendons	attendre	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	guichet	guichet	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_705
+# text = Je poste une carte.
+1	Je	je	PRON	_	_	_	_	_	_
+2	poste	poste	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	carte	carte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_706
+# text = Elle paie l'affranchissement.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	paie	payer	VERB	_	_	_	_	_	_
+3	l'affranchissement	l'affranchissement	X	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_707
+# text = Il prend un colis.
+1	Il	il	PRON	_	_	_	_	_	_
+2	prend	prendre	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	colis	coli	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_708
+# text = La poste ouvre à neuf heures.
+1	La	le	DET	_	_	_	_	_	_
+2	poste	poste	NOUN	_	_	_	_	_	_
+3	ouvre	ouvrir	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	neuf	neuf	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_709
+# text = Je donne l'adresse.
+1	Je	je	PRON	_	_	_	_	_	_
+2	donne	donner	VERB	_	_	_	_	_	_
+3	l'adresse	l'adresse	X	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_710
+# text = Elle écrit sur l'enveloppe.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	écrit	écrire	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	l'enveloppe	l'enveloppe	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_711
+# text = Il envoie un paquet.
+1	Il	il	PRON	_	_	_	_	_	_
+2	envoie	envoyer	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	paquet	paquet	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_712
+# text = Nous recevons un courrier.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	recevons	recevoir	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	courrier	courrier	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_713
+# text = Je mets la lettre dans la boîte.
+1	Je	je	PRON	_	_	_	_	_	_
+2	mets	mettre	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	lettre	lettre	NOUN	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	boîte	boîte	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_714
+# text = Elle demande un recommandé.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	demande	demander	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	recommandé	recommander	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_715
+# text = Il suit son colis.
+1	Il	il	PRON	_	_	_	_	_	_
+2	suit	suivre	VERB	_	_	_	_	_	_
+3	son	son	DET	_	_	_	_	_	_
+4	colis	coli	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_716
+# text = La file est longue.
+1	La	le	DET	_	_	_	_	_	_
+2	file	file	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	longue	long	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_717
+# text = Je prends un formulaire.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prends	prendre	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	formulaire	formulaire	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_718
+# text = Elle envoie un cadeau.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	envoie	envoyer	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	cadeau	cadeau	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_719
+# text = Il reçoit une facture.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reçoit	recevoir	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	facture	facture	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_720
+# text = Nous payons à la caisse.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	payons	payer	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	caisse	caisse	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_721
+# text = Je trouve la boîte aux lettres.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	boîte	boîte	NOUN	_	_	_	_	_	_
+5	aux	aux	ADP	_	_	_	_	_	_
+6	lettres	lettres	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_722
+# text = Elle colle le timbre.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	colle	coller	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	timbre	timbre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_723
+# text = Il parle à l'employé.
+1	Il	il	PRON	_	_	_	_	_	_
+2	parle	parler	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	l'employé	l'employé	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_724
+# text = Nous repartons avec le reçu.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	repartons	repartir	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	reçu	recevoir	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_725
+# text = Je reçois une lettre de Marie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	reçois	recevoir	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	lettre	lettre	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	Marie	Marie	PROPN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_726
+# text = Je vais à la bibliothèque.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	bibliothèque	bibliothèque	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_727
+# text = Elle emprunte un livre.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	emprunte	emprunter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	livre	livre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_728
+# text = Il lit en silence.
+1	Il	il	PRON	_	_	_	_	_	_
+2	lit	lire	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	silence	silence	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_729
+# text = Nous cherchons un roman.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	cherchons	chercher	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	roman	roman	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_730
+# text = La bibliothèque est calme.
+1	La	le	DET	_	_	_	_	_	_
+2	bibliothèque	bibliothèque	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	calme	calme	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_731
+# text = Je prends une carte.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prends	prendre	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	carte	carte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_732
+# text = Elle trouve un dictionnaire.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	dictionnaire	dictionnaire	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_733
+# text = Il rend ses livres.
+1	Il	il	PRON	_	_	_	_	_	_
+2	rend	rendre	VERB	_	_	_	_	_	_
+3	ses	son	DET	_	_	_	_	_	_
+4	livres	livre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_734
+# text = Nous lisons à une table.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	lisons	lire	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	table	table	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_735
+# text = Je demande un livre.
+1	Je	je	PRON	_	_	_	_	_	_
+2	demande	demander	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	livre	livre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_736
+# text = Elle choisit une histoire.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	choisit	choisir	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	histoire	histoire	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_737
+# text = Il étudie à la bibliothèque.
+1	Il	il	PRON	_	_	_	_	_	_
+2	étudie	étudier	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	bibliothèque	bibliothèque	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_738
+# text = Nous aimons cet endroit.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aimons	aimer	VERB	_	_	_	_	_	_
+3	cet	ce	DET	_	_	_	_	_	_
+4	endroit	endroit	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_739
+# text = Je trouve un atlas.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	atlas	atla	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_740
+# text = Elle lit un conte.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	lit	lire	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	conte	conte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_741
+# text = Il cherche un auteur.
+1	Il	il	PRON	_	_	_	_	_	_
+2	cherche	chercher	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	auteur	auteur	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_742
+# text = La bibliothécaire aide les élèves.
+1	La	le	DET	_	_	_	_	_	_
+2	bibliothécaire	bibliothécaire	NOUN	_	_	_	_	_	_
+3	aide	aider	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	élèves	élève	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_743
+# text = Je prends trois livres.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prends	prendre	VERB	_	_	_	_	_	_
+3	trois	trois	NUM	_	_	_	_	_	_
+4	livres	livre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_744
+# text = Elle lit près de la fenêtre.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	lit	lire	VERB	_	_	_	_	_	_
+3	près	près	ADV	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	fenêtre	fenêtre	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_745
+# text = Il écrit ses notes.
+1	Il	il	PRON	_	_	_	_	_	_
+2	écrit	écrire	VERB	_	_	_	_	_	_
+3	ses	son	DET	_	_	_	_	_	_
+4	notes	note	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_746
+# text = Nous restons une heure.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	restons	rester	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	heure	heure	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_747
+# text = Je trouve un livre intéressant.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	livre	livre	NOUN	_	_	_	_	_	_
+5	intéressant	intéressant	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_748
+# text = Elle range les livres.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	range	ranger	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	livres	livre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_749
+# text = Il lit un magazine.
+1	Il	il	PRON	_	_	_	_	_	_
+2	lit	lire	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	magazine	magazine	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_750
+# text = Nous sortons à midi.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	sortons	sortir	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	midi	midi	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_751
+# text = Les enfants jouent au parc.
+1	Les	le	DET	_	_	_	_	_	_
+2	enfants	enfant	NOUN	_	_	_	_	_	_
+3	jouent	jouer	VERB	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	parc	parc	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_752
+# text = Je monte sur le toboggan.
+1	Je	je	PRON	_	_	_	_	_	_
+2	monte	monter	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	toboggan	toboggan	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_753
+# text = Elle utilise la balançoire.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	utilise	utiliser	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	balançoire	balançoire	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_754
+# text = Il grimpe sur le module.
+1	Il	il	PRON	_	_	_	_	_	_
+2	grimpe	grimper	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	module	module	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_755
+# text = Nous courons sur le sable.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	courons	courir	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	sable	sable	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_756
+# text = Je joue à la marelle.
+1	Je	je	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	marelle	marelle	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_757
+# text = Elle saute à la corde.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	saute	sauter	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	corde	corde	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_758
+# text = Il pousse le manège.
+1	Il	il	PRON	_	_	_	_	_	_
+2	pousse	pousser	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	manège	manège	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_759
+# text = Nous jouons à cache-cache.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	jouons	jouer	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	cache-cache	cache-cache	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_760
+# text = Je fais du vélo ici.
+1	Je	je	PRON	_	_	_	_	_	_
+2	fais	faire	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	vélo	vélo	X	_	_	_	_	_	_
+5	ici	ici	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_761
+# text = Elle rit avec ses amis.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	rit	rire	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	ses	son	DET	_	_	_	_	_	_
+5	amis	ami	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_762
+# text = Il joue au ballon.
+1	Il	il	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	ballon	ballon	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_763
+# text = Nous nous arrêtons pour boire.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	arrêtons	arrêter	VERB	_	_	_	_	_	_
+4	pour	pour	ADP	_	_	_	_	_	_
+5	boire	boire	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_764
+# text = Je monte sur le portique.
+1	Je	je	PRON	_	_	_	_	_	_
+2	monte	monter	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	portique	portique	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_765
+# text = Elle glisse sur le toboggan.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	glisse	glisser	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	toboggan	toboggan	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_766
+# text = Il attend son tour.
+1	Il	il	PRON	_	_	_	_	_	_
+2	attend	attendre	VERB	_	_	_	_	_	_
+3	son	son	DET	_	_	_	_	_	_
+4	tour	tour	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_767
+# text = Nous jouons jusqu'au soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	jouons	jouer	VERB	_	_	_	_	_	_
+3	jusqu'au	jusqu'au	X	_	_	_	_	_	_
+4	soir	soir	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_768
+# text = Je trouve un banc libre.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	banc	banc	NOUN	_	_	_	_	_	_
+5	libre	libre	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_769
+# text = Elle partage son goûter.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	partage	partager	VERB	_	_	_	_	_	_
+3	son	son	DET	_	_	_	_	_	_
+4	goûter	goûter	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_770
+# text = Il joue avec sa sœur.
+1	Il	il	PRON	_	_	_	_	_	_
+2	joue	jouer	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	sa	son	DET	_	_	_	_	_	_
+5	sœur	sœur	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_771
+# text = Nous faisons la course.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	faisons	faire	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	course	course	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_772
+# text = Je saute sur le trampoline.
+1	Je	je	PRON	_	_	_	_	_	_
+2	saute	sauter	VERB	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	trampoline	trampoline	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_773
+# text = Elle lance le ballon.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	lance	lancer	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	ballon	ballon	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_774
+# text = Il grimpe avec prudence.
+1	Il	il	PRON	_	_	_	_	_	_
+2	grimpe	grimper	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	prudence	prudence	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_775
+# text = Nous rentrons à la maison.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	rentrons	rentrer	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	maison	maison	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_776
+# text = Je plante une fleur.
+1	Je	je	PRON	_	_	_	_	_	_
+2	plante	planter	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	fleur	fleur	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_777
+# text = Elle arrose les plantes.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	arrose	arroser	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	plantes	plante	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_778
+# text = Il taille le buisson.
+1	Il	il	PRON	_	_	_	_	_	_
+2	taille	tailler	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	buisson	buisson	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_779
+# text = Nous nettoyons le jardin.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	nettoyons	nettoyer	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	jardin	jardin	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_780
+# text = Je sème des graines.
+1	Je	je	PRON	_	_	_	_	_	_
+2	sème	sémer	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	graines	graine	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_781
+# text = Elle cueille des tomates.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	cueille	cueillir	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	tomates	tomate	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_782
+# text = Il utilise une pelle.
+1	Il	il	PRON	_	_	_	_	_	_
+2	utilise	utiliser	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	pelle	pelle	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_783
+# text = Le jardin est vert.
+1	Le	le	DET	_	_	_	_	_	_
+2	jardin	jardin	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	vert	vert	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_784
+# text = Je trouve un escargot.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	escargot	escargot	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_785
+# text = Elle plante des salades.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	plante	planter	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	salades	salade	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_786
+# text = Il enlève les mauvaises herbes.
+1	Il	il	PRON	_	_	_	_	_	_
+2	enlève	enlever	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	mauvaises	mauvais	ADJ	_	_	_	_	_	_
+5	herbes	herbe	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_787
+# text = Nous mettons du terreau.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	mettons	mettre	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	terreau	terreau	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_788
+# text = Je porte des gants.
+1	Je	je	PRON	_	_	_	_	_	_
+2	porte	porter	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	gants	gants	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_789
+# text = Elle regarde les bourgeons.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	regarde	regarder	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	bourgeons	bourgeon	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_790
+# text = Il plante un rosier.
+1	Il	il	PRON	_	_	_	_	_	_
+2	plante	planter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	rosier	rosier	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_791
+# text = Nous travaillons le samedi.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	travaillons	travailler	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	samedi	samedi	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_792
+# text = Je trouve un vers de terre.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	vers	ver	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	terre	terre	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_793
+# text = Elle arrose le potager.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	arrose	arroser	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	potager	potager	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_794
+# text = Il coupe les branches.
+1	Il	il	PRON	_	_	_	_	_	_
+2	coupe	couper	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	branches	branche	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_795
+# text = Nous récoltons des carottes.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	récoltons	récolter	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	carottes	carotte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_796
+# text = Je mets des graines.
+1	Je	je	PRON	_	_	_	_	_	_
+2	mets	mettre	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	graines	graines	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_797
+# text = Elle aime le jardin.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	aime	aimer	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	jardin	jardin	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_798
+# text = Il plante un arbre.
+1	Il	il	PRON	_	_	_	_	_	_
+2	plante	planter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	arbre	arbre	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_799
+# text = Nous finissons avant midi.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	finissons	finir	VERB	_	_	_	_	_	_
+3	avant	avant	ADP	_	_	_	_	_	_
+4	midi	midi	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_800
+# text = Je range les outils.
+1	Je	je	PRON	_	_	_	_	_	_
+2	range	ranger	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	outils	outil	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+

@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
   "datasets>=2.20.0",
+  "httpx>=0.27.0",
   "mlx>=0.31.2",
   "numpy>=1.26.0,<2.0",
   "onnx>=1.18",
@@ -46,6 +47,10 @@ environments = [
 [tool.ruff]
 target-version = "py313"
 line-length = 100
+# Data-generation scripts under data/handcraft/ embed CoNLL-U as long string
+# literals. They are throwaway generators, not production code; excluding them
+# from lint keeps the gate focused on src/ + tests/ + scripts/.
+extend-exclude = ["data/handcraft"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B"]
@@ -61,6 +66,7 @@ select = ["E", "F", "I", "B"]
 "src/lemmatizer/export/byt5_onnx.py" = ["E501"]
 "src/lemmatizer/data/dataset.py" = ["E501"]
 "scripts/publish_hf.py" = ["E501"]
+"scripts/gen_a1_val_new_001.py" = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

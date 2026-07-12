@@ -1,0 +1,207 @@
+# sent_id = de_b1_val_001
+# text = Ich würde dir leihen, wenn ich genug Geld hätte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	würde	werden	AUX	_	_	_	_	_	_
+3	dir	du	PRON	_	_	_	_	_	_
+4	leihen	leihen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wenn	wenn	SCONJ	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	genug	genug	ADV	_	_	_	_	_	_
+9	Geld	Geld	NOUN	_	_	_	_	_	_
+10	hätte	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_002
+# text = Ohne deine Hilfe wäre das Projekt gescheitert.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	deine	dein	DET	_	_	_	_	_	_
+3	Hilfe	Hilfe	NOUN	_	_	_	_	_	_
+4	wäre	sein	AUX	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Projekt	Projekt	NOUN	_	_	_	_	_	_
+7	gescheitert	scheitern	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_003
+# text = Wenn ich fliegen könnte, würde ich nach Japan reisen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	fliegen	fliegen	VERB	_	_	_	_	_	_
+4	könnte	können	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	würde	werden	AUX	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	nach	nach	ADP	_	_	_	_	_	_
+9	Japan	Japan	PROPN	_	_	_	_	_	_
+10	reisen	reisen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_004
+# text = Der Plan wurde von der Regierung schnell umgesetzt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Plan	Plan	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Regierung	Regierung	NOUN	_	_	_	_	_	_
+7	schnell	schnell	ADJ	_	_	_	_	_	_
+8	umgesetzt	umsetzen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_005
+# text = Die E-Mail wurde versehentlich an den falschen Kollegen geschickt.
+1	Die	der	DET	_	_	_	_	_	_
+2	E-Mail	E-Mail	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	versehentlich	versehentlich	ADV	_	_	_	_	_	_
+5	an	an	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	falschen	falsch	ADJ	_	_	_	_	_	_
+8	Kollegen	Kollege	NOUN	_	_	_	_	_	_
+9	geschickt	schicken	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_006
+# text = Der Roman, den du mir empfohlen hast, war sehr spannend.
+1	Der	der	DET	_	_	_	_	_	_
+2	Roman	Roman	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	du	du	PRON	_	_	_	_	_	_
+6	mir	ich	PRON	_	_	_	_	_	_
+7	empfohlen	empfehlen	VERB	_	_	_	_	_	_
+8	hast	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	spannend	spannend	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_007
+# text = Der Mann, mit dem ich gestern gesprochen habe, ist Anwalt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Mann	Mann	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	mit	mit	ADP	_	_	_	_	_	_
+5	dem	der	PRON	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	gestern	gestern	ADV	_	_	_	_	_	_
+8	gesprochen	sprechen	VERB	_	_	_	_	_	_
+9	habe	haben	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	Anwalt	Anwalt	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_008
+# text = Wegen des Sturms fiel in der ganzen Stadt der Strom aus.
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Sturms	Sturm	NOUN	_	_	_	_	_	_
+4	fiel	ausfallen	VERB	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	ganzen	ganz	ADJ	_	_	_	_	_	_
+8	Stadt	Stadt	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Strom	Strom	NOUN	_	_	_	_	_	_
+11	aus	ausfallen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_009
+# text = Trotz der Hektik hat sie die Arbeit rechtzeitig beendet.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Hektik	Hektik	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	sie	sie	PRON	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+8	rechtzeitig	rechtzeitig	ADJ	_	_	_	_	_	_
+9	beendet	beenden	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_010
+# text = Ich interessiere mich sehr für neue Technologien.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	interessiere	interessieren	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	neue	neu	ADJ	_	_	_	_	_	_
+7	Technologien	Technologie	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_011
+# text = Ich weiß nicht, ob ich morgen Zeit für ein Treffen habe.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	morgen	morgen	ADV	_	_	_	_	_	_
+8	Zeit	Zeit	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	ein	ein	DET	_	_	_	_	_	_
+11	Treffen	Treffen	NOUN	_	_	_	_	_	_
+12	habe	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_012
+# text = Obwohl es spät war, fuhr er noch nach Hause.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	spät	spät	ADJ	_	_	_	_	_	_
+4	war	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	fuhr	fahren	VERB	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	noch	noch	ADV	_	_	_	_	_	_
+9	nach	nach	ADP	_	_	_	_	_	_
+10	Hause	Haus	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_013
+# text = Sobald der Kurs beendet ist, fahren wir ans Meer.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Kurs	Kurs	NOUN	_	_	_	_	_	_
+4	beendet	beenden	VERB	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	fahren	fahren	VERB	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	ans	ans	ADP	_	_	_	_	_	_
+10	Meer	Meer	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_014
+# text = Während des Urlaubs hat sie viele schöne Fotos gemacht.
+1	Während	während	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Urlaubs	Urlaub	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	sie	sie	PRON	_	_	_	_	_	_
+6	viele	viel	DET	_	_	_	_	_	_
+7	schöne	schön	ADJ	_	_	_	_	_	_
+8	Fotos	Foto	NOUN	_	_	_	_	_	_
+9	gemacht	machen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_val_015
+# text = Wenn wir recyceln, schützen wir die Umwelt für die Zukunft.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	wir	wir	PRON	_	_	_	_	_	_
+3	recyceln	recyceln	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	schützen	schützen	VERB	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Umwelt	Umwelt	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+

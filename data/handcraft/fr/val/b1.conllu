@@ -1,0 +1,1572 @@
+# sent_id = fr_b1_val_001
+# text = À mon avis, le sport est essentiel pour rester en bonne santé physique.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	sport	sport	NOUN	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	essentiel	essentiel	ADJ	_	_	_	_	_	_
+9	pour	pour	ADP	_	_	_	_	_	_
+10	rester	rester	VERB	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	bonne	bon	ADJ	_	_	_	_	_	_
+13	santé	santé	NOUN	_	_	_	_	_	_
+14	physique	physique	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_002
+# text = Je pense que les réseaux sociaux peuvent parfois isoler les jeunes gens.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pense	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	réseaux	réseau	NOUN	_	_	_	_	_	_
+6	sociaux	social	ADJ	_	_	_	_	_	_
+7	peuvent	pouvoir	VERB	_	_	_	_	_	_
+8	parfois	parfois	ADV	_	_	_	_	_	_
+9	isoler	isoler	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	jeunes	jeune	ADJ	_	_	_	_	_	_
+12	gens	gen	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_003
+# text = Selon moi, la lecture quotidienne permet de développer l'imagination des enfants.
+1	Selon	selon	ADP	_	_	_	_	_	_
+2	moi	moi	PRON	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	lecture	lecture	NOUN	_	_	_	_	_	_
+6	quotidienne	quotidien	ADJ	_	_	_	_	_	_
+7	permet	permettre	VERB	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	développer	développer	VERB	_	_	_	_	_	_
+10	l'imagination	l'imagination	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	enfants	enfants	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_004
+# text = Je trouve qu'il est important de protéger l'environnement pour l'avenir.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	qu'il	qu'il	X	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	important	important	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	protéger	protéger	X	_	_	_	_	_	_
+8	l'environnement	l'environnement	X	_	_	_	_	_	_
+9	pour	pour	X	_	_	_	_	_	_
+10	l'avenir	l'avenir	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_005
+# text = Personnellement, je préfère passer mes vacances au calme à la campagne.
+1	Personnellement	personnellement	ADV	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	je	je	PRON	_	_	_	_	_	_
+4	préfère	préférer	VERB	_	_	_	_	_	_
+5	passer	passer	VERB	_	_	_	_	_	_
+6	mes	mon	DET	_	_	_	_	_	_
+7	vacances	vacances	NOUN	_	_	_	_	_	_
+8	au	au	ADP	_	_	_	_	_	_
+9	calme	calme	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	campagne	campagne	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_006
+# text = Je crois que la colocation est une excellente solution pour les étudiants.
+1	Je	je	PRON	_	_	_	_	_	_
+2	crois	croire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	colocation	colocation	NOUN	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	excellente	excellent	ADJ	_	_	_	_	_	_
+9	solution	solution	NOUN	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	étudiants	étudiant	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_007
+# text = À mon sens, voyager permet d'ouvrir son esprit à d'autres cultures.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	sens	sen	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	voyager	voyager	VERB	_	_	_	_	_	_
+6	permet	permettre	VERB	_	_	_	_	_	_
+7	d'ouvrir	d'ouvrir	X	_	_	_	_	_	_
+8	son	son	DET	_	_	_	_	_	_
+9	esprit	esprit	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	d'autres	d'autres	X	_	_	_	_	_	_
+12	cultures	cultures	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_008
+# text = Je trouve injuste que certaines personnes n'aient pas accès à l'éducation.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	injuste	injuste	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	certaines	certain	DET	_	_	_	_	_	_
+6	personnes	personne	NOUN	_	_	_	_	_	_
+7	n'aient	n'aient	X	_	_	_	_	_	_
+8	pas	pas	ADV	_	_	_	_	_	_
+9	accès	accès	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	l'éducation	l'éducation	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_009
+# text = Pour ma part, je trouve que le télétravail améliore la productivité.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	ma	mon	DET	_	_	_	_	_	_
+3	part	part	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	trouve	trouver	VERB	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	télétravail	télétravail	NOUN	_	_	_	_	_	_
+10	améliore	améliorer	VERB	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	productivité	productivité	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_010
+# text = Il me semble que la communication est la base de toute relation.
+1	Il	il	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	semble	sembler	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	communication	communication	NOUN	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	base	base	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	toute	tout	DET	_	_	_	_	_	_
+12	relation	relation	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_011
+# text = Je ne suis pas sûr que cette nouvelle loi puisse résoudre la crise.
+1	Je	je	PRON	_	_	_	_	_	_
+2	ne	ne	PART	_	_	_	_	_	_
+3	suis	être	AUX	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	sûr	sûr	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	cette	ce	DET	_	_	_	_	_	_
+8	nouvelle	nouveau	ADJ	_	_	_	_	_	_
+9	loi	loi	NOUN	_	_	_	_	_	_
+10	puisse	pouvoir	VERB	_	_	_	_	_	_
+11	résoudre	résoudre	VERB	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	crise	crise	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_012
+# text = D'après moi, apprendre une langue étrangère ouvre de nombreuses portes professionnelles.
+1	D'après	D'après	X	_	_	_	_	_	_
+2	moi	moi	PRON	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	apprendre	apprendre	X	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	langue	langue	X	_	_	_	_	_	_
+7	étrangère	étrangère	X	_	_	_	_	_	_
+8	ouvre	ouvre	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	nombreuses	nombreuses	X	_	_	_	_	_	_
+11	portes	portes	X	_	_	_	_	_	_
+12	professionnelles	professionnelles	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_013
+# text = Je trouve fantastique que nous puissions communiquer instantanément à travers le monde.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	fantastique	fantastique	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	nous	nous	PRON	_	_	_	_	_	_
+6	puissions	puisser	VERB	_	_	_	_	_	_
+7	communiquer	communiquer	VERB	_	_	_	_	_	_
+8	instantanément	instantanément	ADV	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	travers	traver	NOUN	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	monde	monde	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_014
+# text = Je pense sincèrement que le respect mutuel est indispensable en société.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pense	penser	VERB	_	_	_	_	_	_
+3	sincèrement	sincèrement	ADV	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	respect	respect	NOUN	_	_	_	_	_	_
+7	mutuel	mutuel	ADJ	_	_	_	_	_	_
+8	est	être	AUX	_	_	_	_	_	_
+9	indispensable	indispensable	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	société	société	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_015
+# text = Selon ma propre expérience, les échecs nous aident à grandir et apprendre.
+1	Selon	selon	ADP	_	_	_	_	_	_
+2	ma	mon	DET	_	_	_	_	_	_
+3	propre	propre	ADJ	_	_	_	_	_	_
+4	expérience	expérience	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	échecs	échec	NOUN	_	_	_	_	_	_
+8	nous	nous	PRON	_	_	_	_	_	_
+9	aident	aider	VERB	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	grandir	grandir	VERB	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	apprendre	apprendre	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_016
+# text = Je doute que cette solution soit vraiment efficace à long terme.
+1	Je	je	PRON	_	_	_	_	_	_
+2	doute	douter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	cette	ce	DET	_	_	_	_	_	_
+5	solution	solution	NOUN	_	_	_	_	_	_
+6	soit	être	AUX	_	_	_	_	_	_
+7	vraiment	vraiment	ADV	_	_	_	_	_	_
+8	efficace	efficace	ADJ	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	long	long	ADJ	_	_	_	_	_	_
+11	terme	terme	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_017
+# text = Je trouve dommage que les traditions locales se perdent si rapidement.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	dommage	dommage	NOUN	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	traditions	tradition	NOUN	_	_	_	_	_	_
+7	locales	local	ADJ	_	_	_	_	_	_
+8	se	se	PRON	_	_	_	_	_	_
+9	perdent	perdre	VERB	_	_	_	_	_	_
+10	si	si	SCONJ	_	_	_	_	_	_
+11	rapidement	rapidement	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_018
+# text = À mon avis, manger moins de viande est bénéfique pour notre planète.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	manger	manger	VERB	_	_	_	_	_	_
+6	moins	moins	ADV	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	viande	viande	NOUN	_	_	_	_	_	_
+9	est	être	AUX	_	_	_	_	_	_
+10	bénéfique	bénéfique	ADJ	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	notre	notre	DET	_	_	_	_	_	_
+13	planète	planète	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_019
+# text = Je soutiens l'idée que chaque citoyen devrait participer à la vie locale.
+1	Je	je	PRON	_	_	_	_	_	_
+2	soutiens	soutenir	VERB	_	_	_	_	_	_
+3	l'idée	l'idée	X	_	_	_	_	_	_
+4	que	que	PRON	_	_	_	_	_	_
+5	chaque	chaque	X	_	_	_	_	_	_
+6	citoyen	citoyen	X	_	_	_	_	_	_
+7	devrait	devrait	X	_	_	_	_	_	_
+8	participer	participer	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	vie	vie	X	_	_	_	_	_	_
+12	locale	locale	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_020
+# text = Il est évident que le changement climatique demande des actions urgentes.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	évident	évident	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	changement	changement	NOUN	_	_	_	_	_	_
+7	climatique	climatique	ADJ	_	_	_	_	_	_
+8	demande	demander	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	actions	action	NOUN	_	_	_	_	_	_
+11	urgentes	urgent	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_021
+# text = Je trouve formidable que les musées soient gratuits le premier dimanche.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	formidable	formidable	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	musées	musée	NOUN	_	_	_	_	_	_
+7	soient	être	AUX	_	_	_	_	_	_
+8	gratuits	gratuit	VERB	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	premier	premier	ADJ	_	_	_	_	_	_
+11	dimanche	dimanche	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_022
+# text = Je ne crois pas que l'argent fasse le bonheur des gens.
+1	Je	je	PRON	_	_	_	_	_	_
+2	ne	ne	PART	_	_	_	_	_	_
+3	crois	croire	VERB	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	l'argent	l'argent	X	_	_	_	_	_	_
+7	fasse	fasse	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	bonheur	bonheur	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	gens	gens	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_023
+# text = À mon avis, la liberté d'expression est un droit fondamental à protéger.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	liberté	liberté	NOUN	_	_	_	_	_	_
+7	d'expression	d'expression	X	_	_	_	_	_	_
+8	est	être	AUX	_	_	_	_	_	_
+9	un	un	DET	_	_	_	_	_	_
+10	droit	droit	X	_	_	_	_	_	_
+11	fondamental	fondamental	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	protéger	protéger	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_024
+# text = Selon moi, la musique classique a un effet relaxant après le travail.
+1	Selon	selon	ADP	_	_	_	_	_	_
+2	moi	moi	PRON	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	musique	musique	NOUN	_	_	_	_	_	_
+6	classique	classique	ADJ	_	_	_	_	_	_
+7	a	avoir	VERB	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	effet	effet	NOUN	_	_	_	_	_	_
+10	relaxant	relaxant	ADJ	_	_	_	_	_	_
+11	après	après	ADP	_	_	_	_	_	_
+12	le	le	DET	_	_	_	_	_	_
+13	travail	travail	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_025
+# text = Je trouve très important que chacun exprime son opinion librement aujourd'hui.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	très	très	ADV	_	_	_	_	_	_
+4	important	important	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	chacun	chacun	PRON	_	_	_	_	_	_
+7	exprime	exprimer	VERB	_	_	_	_	_	_
+8	son	son	DET	_	_	_	_	_	_
+9	opinion	opinion	NOUN	_	_	_	_	_	_
+10	librement	librement	ADV	_	_	_	_	_	_
+11	aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_026
+# text = Personnellement, je pense que la cuisine maison est meilleure pour la santé.
+1	Personnellement	personnellement	ADV	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	je	je	PRON	_	_	_	_	_	_
+4	pense	penser	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	cuisine	cuisine	NOUN	_	_	_	_	_	_
+8	maison	maison	NOUN	_	_	_	_	_	_
+9	est	être	AUX	_	_	_	_	_	_
+10	meilleure	meilleur	ADJ	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	santé	santé	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_027
+# text = Je crois que nous devrions encourager le développement des énergies renouvelables.
+1	Je	je	PRON	_	_	_	_	_	_
+2	crois	croire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	nous	nous	PRON	_	_	_	_	_	_
+5	devrions	devoir	VERB	_	_	_	_	_	_
+6	encourager	encourager	VERB	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	développement	développement	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	énergies	énergies	X	_	_	_	_	_	_
+11	renouvelables	renouvelables	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_028
+# text = Je trouve regrettable que beaucoup de gens gaspillent de la nourriture.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	regrettable	regrettable	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	gens	gen	NOUN	_	_	_	_	_	_
+8	gaspillent	gaspiller	VERB	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	nourriture	nourriture	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_029
+# text = À mon sens, le bénévolat apporte beaucoup de satisfaction personnelle aux participants.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	sens	sen	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	bénévolat	bénévolat	NOUN	_	_	_	_	_	_
+7	apporte	apporter	VERB	_	_	_	_	_	_
+8	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	satisfaction	satisfaction	NOUN	_	_	_	_	_	_
+11	personnelle	personnel	ADJ	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	participants	participants	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_030
+# text = Je ne suis pas convaincu que ce projet soit réalisable cette année.
+1	Je	je	PRON	_	_	_	_	_	_
+2	ne	ne	PART	_	_	_	_	_	_
+3	suis	être	AUX	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	convaincu	convaincre	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	ce	ce	DET	_	_	_	_	_	_
+8	projet	projet	NOUN	_	_	_	_	_	_
+9	soit	être	AUX	_	_	_	_	_	_
+10	réalisable	réalisable	ADJ	_	_	_	_	_	_
+11	cette	ce	DET	_	_	_	_	_	_
+12	année	année	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_031
+# text = Selon mon avis personnel, le dialogue résout la majorité des conflits.
+1	Selon	selon	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	personnel	personnel	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	dialogue	dialogue	NOUN	_	_	_	_	_	_
+8	résout	résoudre	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	majorité	majorité	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	conflits	conflits	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_032
+# text = Je trouve génial que l'on puisse apprendre en ligne gratuitement.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	génial	génial	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	l'on	on	PRON	_	_	_	_	_	_
+6	puisse	pouvoir	VERB	_	_	_	_	_	_
+7	apprendre	apprendre	VERB	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	ligne	ligne	NOUN	_	_	_	_	_	_
+10	gratuitement	gratuitement	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_033
+# text = Je pense que les arts devraient occuper une place centrale à l'école.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pense	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	arts	art	NOUN	_	_	_	_	_	_
+6	devraient	devoir	VERB	_	_	_	_	_	_
+7	occuper	occuper	VERB	_	_	_	_	_	_
+8	une	un	DET	_	_	_	_	_	_
+9	place	place	NOUN	_	_	_	_	_	_
+10	centrale	central	ADJ	_	_	_	_	_	_
+11	à	à	ADP	_	_	_	_	_	_
+12	l'école	l'école	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_034
+# text = Pour moi, la confiance est le pilier le plus solide en amitié.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	moi	moi	PRON	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	confiance	confiance	NOUN	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	pilier	pilier	NOUN	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	plus	plus	ADV	_	_	_	_	_	_
+11	solide	solide	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	amitié	amitié	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_035
+# text = L'année prochaine, j'espère obtenir mon diplôme et commencer à travailler.
+1	L'année	L'année	X	_	_	_	_	_	_
+2	prochaine	prochaine	X	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	j'espère	j'espère	X	_	_	_	_	_	_
+5	obtenir	obtenir	X	_	_	_	_	_	_
+6	mon	mon	DET	_	_	_	_	_	_
+7	diplôme	diplôme	X	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	commencer	commencer	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	travailler	travailler	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_036
+# text = Pendant les vacances d'été, nous irons visiter le sud de la France.
+1	Pendant	pendant	ADP	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	vacances	vacances	NOUN	_	_	_	_	_	_
+4	d'été	d'été	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	nous	nous	PRON	_	_	_	_	_	_
+7	irons	irons	X	_	_	_	_	_	_
+8	visiter	visiter	X	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	sud	sud	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	France	France	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_037
+# text = Dans deux ans, mon frère veut créer sa propre entreprise d'informatique.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	deux	deux	NUM	_	_	_	_	_	_
+3	ans	an	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	mon	mon	DET	_	_	_	_	_	_
+6	frère	frère	NOUN	_	_	_	_	_	_
+7	veut	vouloir	VERB	_	_	_	_	_	_
+8	créer	créer	VERB	_	_	_	_	_	_
+9	sa	son	DET	_	_	_	_	_	_
+10	propre	propre	ADJ	_	_	_	_	_	_
+11	entreprise	entreprise	NOUN	_	_	_	_	_	_
+12	d'informatique	d'informatique	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_038
+# text = Quand j'aurai plus de temps libre, je m'inscrirai à des cours d'italien.
+1	Quand	quand	SCONJ	_	_	_	_	_	_
+2	j'aurai	j'aurai	X	_	_	_	_	_	_
+3	plus	plus	ADV	_	_	_	_	_	_
+4	de	un	DET	_	_	_	_	_	_
+5	temps	temps	X	_	_	_	_	_	_
+6	libre	libre	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	je	je	PRON	_	_	_	_	_	_
+9	m'inscrirai	m'inscrirai	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	cours	cours	X	_	_	_	_	_	_
+13	d'italien	d'italien	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_039
+# text = Mon objectif principal pour l'avenir est de voyager autour du monde.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	objectif	objectif	NOUN	_	_	_	_	_	_
+3	principal	principal	ADJ	_	_	_	_	_	_
+4	pour	pour	ADP	_	_	_	_	_	_
+5	l'avenir	l'avenir	X	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	voyager	voyager	X	_	_	_	_	_	_
+9	autour	autour	X	_	_	_	_	_	_
+10	du	du	ADP	_	_	_	_	_	_
+11	monde	monde	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_040
+# text = Nous prévoyons de déménager dans une plus grande maison bientôt.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	prévoyons	prévoir	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	déménager	déménager	VERB	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	plus	plus	ADV	_	_	_	_	_	_
+8	grande	grand	ADJ	_	_	_	_	_	_
+9	maison	maison	NOUN	_	_	_	_	_	_
+10	bientôt	bientôt	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_041
+# text = Dès que possible, je compte acheter un vélo électrique pour aller travailler.
+1	Dès	dès	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	possible	possible	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	compte	compter	VERB	_	_	_	_	_	_
+7	acheter	acheter	VERB	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	vélo	vélo	NOUN	_	_	_	_	_	_
+10	électrique	électrique	ADJ	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	aller	aller	VERB	_	_	_	_	_	_
+13	travailler	travailler	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_042
+# text = J'aimerais apprendre à cuisiner des plats traditionnels pour ma famille.
+1	J'aimerais	J'aimerais	X	_	_	_	_	_	_
+2	apprendre	apprendre	X	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	cuisiner	cuisiner	X	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	plats	plats	X	_	_	_	_	_	_
+7	traditionnels	traditionnels	X	_	_	_	_	_	_
+8	pour	pour	X	_	_	_	_	_	_
+9	ma	mon	DET	_	_	_	_	_	_
+10	famille	famille	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_043
+# text = Si tout va bien, nous achèterons notre premier appartement l'automne prochain.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	tout	tout	PRON	_	_	_	_	_	_
+3	va	aller	VERB	_	_	_	_	_	_
+4	bien	bien	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	nous	nous	PRON	_	_	_	_	_	_
+7	achèterons	acheter	VERB	_	_	_	_	_	_
+8	notre	notre	DET	_	_	_	_	_	_
+9	premier	premier	ADJ	_	_	_	_	_	_
+10	appartement	appartement	NOUN	_	_	_	_	_	_
+11	l'automne	l'automne	X	_	_	_	_	_	_
+12	prochain	prochain	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_044
+# text = Elle a l'intention de faire un stage à l'étranger pour son master.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	VERB	_	_	_	_	_	_
+3	l'intention	l'intention	X	_	_	_	_	_	_
+4	de	un	DET	_	_	_	_	_	_
+5	faire	faire	X	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	stage	stage	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	l'étranger	l'étranger	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	son	son	DET	_	_	_	_	_	_
+12	master	master	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_045
+# text = Le mois prochain, je commencerai à chercher un nouvel emploi passionnant.
+1	Le	le	DET	_	_	_	_	_	_
+2	mois	moi	NOUN	_	_	_	_	_	_
+3	prochain	prochain	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	commencerai	commencer	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	chercher	chercher	VERB	_	_	_	_	_	_
+9	un	un	DET	_	_	_	_	_	_
+10	nouvel	nouveau	ADJ	_	_	_	_	_	_
+11	emploi	emploi	NOUN	_	_	_	_	_	_
+12	passionnant	passionnant	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_046
+# text = Mon rêve le plus cher est de faire le tour de l'Europe.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	rêve	rêve	NOUN	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	cher	cher	ADJ	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	faire	faire	VERB	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	tour	tour	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	l'Europe	l'Europe	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_047
+# text = Nous espérons pouvoir organiser une grande fête de famille cet été.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	espérons	espérer	VERB	_	_	_	_	_	_
+3	pouvoir	pouvoir	VERB	_	_	_	_	_	_
+4	organiser	organiser	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	grande	grand	ADJ	_	_	_	_	_	_
+7	fête	fête	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	famille	famille	NOUN	_	_	_	_	_	_
+10	cet	ce	DET	_	_	_	_	_	_
+11	été	être	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_048
+# text = Après mes études, je veux m'installer dans une grande ville dynamique.
+1	Après	après	ADP	_	_	_	_	_	_
+2	mes	mon	DET	_	_	_	_	_	_
+3	études	étude	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	veux	vouloir	VERB	_	_	_	_	_	_
+7	m'installer	m'installer	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	grande	grande	X	_	_	_	_	_	_
+11	ville	ville	X	_	_	_	_	_	_
+12	dynamique	dynamique	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_049
+# text = Je prévois d'économiser de l'argent pour pouvoir acheter une voiture neuve.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prévois	prévoir	VERB	_	_	_	_	_	_
+3	d'économiser	d'économiser	X	_	_	_	_	_	_
+4	de	un	DET	_	_	_	_	_	_
+5	l'argent	l'argent	X	_	_	_	_	_	_
+6	pour	pour	X	_	_	_	_	_	_
+7	pouvoir	pouvoir	X	_	_	_	_	_	_
+8	acheter	acheter	X	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	voiture	voiture	X	_	_	_	_	_	_
+11	neuve	neuve	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_050
+# text = Bientôt, nous allons commencer les travaux de rénovation de notre cuisine.
+1	Bientôt	bientôt	ADV	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	nous	nous	PRON	_	_	_	_	_	_
+4	allons	aller	VERB	_	_	_	_	_	_
+5	commencer	commencer	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	travaux	travail	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	rénovation	rénovation	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	notre	notre	DET	_	_	_	_	_	_
+12	cuisine	cuisine	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_051
+# text = J'ai l'intention de lire au moins deux livres par mois cette année.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	l'intention	l'intention	X	_	_	_	_	_	_
+3	de	un	DET	_	_	_	_	_	_
+4	lire	lire	X	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	moins	moins	X	_	_	_	_	_	_
+7	deux	deux	X	_	_	_	_	_	_
+8	livres	livres	X	_	_	_	_	_	_
+9	par	par	X	_	_	_	_	_	_
+10	mois	mois	X	_	_	_	_	_	_
+11	cette	ce	DET	_	_	_	_	_	_
+12	année	année	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_052
+# text = Mon grand projet est d'apprendre à jouer d'un instrument de musique.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	grand	grand	ADJ	_	_	_	_	_	_
+3	projet	projet	NOUN	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	d'apprendre	d'apprendre	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	jouer	jouer	X	_	_	_	_	_	_
+8	d'un	d'un	X	_	_	_	_	_	_
+9	instrument	instrument	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	musique	musique	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_053
+# text = Si j'obtiens cette promotion, je pourrai faire de longs voyages passionnants.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	j'obtiens	j'obtiens	X	_	_	_	_	_	_
+3	cette	ce	DET	_	_	_	_	_	_
+4	promotion	promotion	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	je	je	PRON	_	_	_	_	_	_
+7	pourrai	pourrai	X	_	_	_	_	_	_
+8	faire	faire	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	longs	longs	X	_	_	_	_	_	_
+11	voyages	voyages	X	_	_	_	_	_	_
+12	passionnants	passionnants	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_054
+# text = Nous comptons passer notre prochain week-end à explorer la capitale.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	comptons	compter	VERB	_	_	_	_	_	_
+3	passer	passer	VERB	_	_	_	_	_	_
+4	notre	notre	DET	_	_	_	_	_	_
+5	prochain	prochain	ADJ	_	_	_	_	_	_
+6	week-end	week-end	NOUN	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	explorer	explorer	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	capitale	capitale	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_055
+# text = Dans le futur, j'aimerais consacrer plus de temps à des projets écologiques.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	futur	futur	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	j'aimerais	j'aimerais	X	_	_	_	_	_	_
+6	consacrer	consacrer	X	_	_	_	_	_	_
+7	plus	plus	ADV	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	temps	temps	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	projets	projets	X	_	_	_	_	_	_
+13	écologiques	écologiques	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_056
+# text = Mon ami envisage de reprendre ses études pour devenir enseignant.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	ami	ami	NOUN	_	_	_	_	_	_
+3	envisage	envisager	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	reprendre	reprendre	VERB	_	_	_	_	_	_
+6	ses	son	DET	_	_	_	_	_	_
+7	études	étude	NOUN	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	devenir	devenir	VERB	_	_	_	_	_	_
+10	enseignant	enseignant	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_057
+# text = Dès la fin de la semaine, je commencerai à faire du yoga.
+1	Dès	dès	ADP	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	fin	fin	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	semaine	semaine	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	je	je	PRON	_	_	_	_	_	_
+9	commencerai	commencer	VERB	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	faire	faire	VERB	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	yoga	yoga	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_058
+# text = Nous espérons que nos enfants pourront étudier dans de bonnes conditions.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	espérons	espérer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	nos	notre	DET	_	_	_	_	_	_
+5	enfants	enfant	NOUN	_	_	_	_	_	_
+6	pourront	pouvoir	VERB	_	_	_	_	_	_
+7	étudier	étudier	VERB	_	_	_	_	_	_
+8	dans	dans	ADP	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	bonnes	bon	ADJ	_	_	_	_	_	_
+11	conditions	condition	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_059
+# text = L'été prochain, je participerai à un projet humanitaire en Afrique.
+1	L'été	L'été	X	_	_	_	_	_	_
+2	prochain	prochain	X	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	je	je	PRON	_	_	_	_	_	_
+5	participerai	participerai	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	projet	projet	X	_	_	_	_	_	_
+9	humanitaire	humanitaire	X	_	_	_	_	_	_
+10	en	en	PRON	_	_	_	_	_	_
+11	Afrique	Afrique	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_060
+# text = Dans quelques mois, je passerai mon permis de conduire avec succès.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	quelques	quelque	DET	_	_	_	_	_	_
+3	mois	moi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	passerai	passer	VERB	_	_	_	_	_	_
+7	mon	mon	DET	_	_	_	_	_	_
+8	permis	permi	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	conduire	conduire	VERB	_	_	_	_	_	_
+11	avec	avec	ADP	_	_	_	_	_	_
+12	succès	succè	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_061
+# text = Je voudrais apprendre à parler espagnol couramment d'ici trois ans.
+1	Je	je	PRON	_	_	_	_	_	_
+2	voudrais	vouloir	VERB	_	_	_	_	_	_
+3	apprendre	apprendre	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	parler	parler	VERB	_	_	_	_	_	_
+6	espagnol	espagnol	ADJ	_	_	_	_	_	_
+7	couramment	couramment	ADV	_	_	_	_	_	_
+8	d'ici	d'ici	X	_	_	_	_	_	_
+9	trois	trois	X	_	_	_	_	_	_
+10	ans	ans	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_062
+# text = Nous pensons sérieusement à adopter un chien dans les prochains mois.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	pensons	penser	VERB	_	_	_	_	_	_
+3	sérieusement	sérieusement	ADV	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	adopter	adopter	VERB	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	chien	chien	NOUN	_	_	_	_	_	_
+8	dans	dans	ADP	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	prochains	prochain	ADJ	_	_	_	_	_	_
+11	mois	moi	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_063
+# text = Mon cousin va faire le tour de la Bretagne à vélo cet été.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	cousin	cousin	NOUN	_	_	_	_	_	_
+3	va	aller	VERB	_	_	_	_	_	_
+4	faire	faire	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	tour	tour	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	Bretagne	Bretagne	PROPN	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	vélo	vélo	NOUN	_	_	_	_	_	_
+12	cet	ce	DET	_	_	_	_	_	_
+13	été	être	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_064
+# text = Je planifie de visiter plusieurs musées lors de mon voyage à Paris.
+1	Je	je	PRON	_	_	_	_	_	_
+2	planifie	planifier	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	visiter	visiter	VERB	_	_	_	_	_	_
+5	plusieurs	plusieurs	DET	_	_	_	_	_	_
+6	musées	musée	NOUN	_	_	_	_	_	_
+7	lors	lors	ADV	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	mon	mon	DET	_	_	_	_	_	_
+10	voyage	voyage	NOUN	_	_	_	_	_	_
+11	à	à	ADP	_	_	_	_	_	_
+12	Paris	Paris	PROPN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_065
+# text = Mon but est d'améliorer mes compétences en photographie avant la fin d'année.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	but	but	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	d'améliorer	d'améliorer	X	_	_	_	_	_	_
+5	mes	mon	DET	_	_	_	_	_	_
+6	compétences	compétences	X	_	_	_	_	_	_
+7	en	en	PRON	_	_	_	_	_	_
+8	photographie	photographie	X	_	_	_	_	_	_
+9	avant	avant	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	fin	fin	X	_	_	_	_	_	_
+12	d'année	d'année	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_066
+# text = Elle espère trouver un emploi stable dès la fin de ses études.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	espère	espérer	VERB	_	_	_	_	_	_
+3	trouver	trouver	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	emploi	emploi	NOUN	_	_	_	_	_	_
+6	stable	stable	ADJ	_	_	_	_	_	_
+7	dès	dès	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	fin	fin	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	ses	son	DET	_	_	_	_	_	_
+12	études	étude	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_067
+# text = Nous aimerions organiser un voyage de groupe pour les prochaines vacances.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aimerions	aimer	VERB	_	_	_	_	_	_
+3	organiser	organiser	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	voyage	voyage	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	groupe	groupe	NOUN	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	prochaines	prochain	ADJ	_	_	_	_	_	_
+11	vacances	vacances	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_068
+# text = La fête de la musique est un événement culturel très populaire en France.
+1	La	le	DET	_	_	_	_	_	_
+2	fête	fête	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	musique	musique	NOUN	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	événement	événement	NOUN	_	_	_	_	_	_
+9	culturel	culturel	ADJ	_	_	_	_	_	_
+10	très	très	ADV	_	_	_	_	_	_
+11	populaire	populaire	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	France	France	PROPN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_069
+# text = Chaque année, le festival de Cannes attire des cinéastes du monde entier.
+1	Chaque	chaque	DET	_	_	_	_	_	_
+2	année	année	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	festival	festival	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	Cannes	Cannes	PROPN	_	_	_	_	_	_
+8	attire	attirer	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	cinéastes	cinéaste	NOUN	_	_	_	_	_	_
+11	du	du	ADP	_	_	_	_	_	_
+12	monde	monde	X	_	_	_	_	_	_
+13	entier	entier	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_070
+# text = Le Louvre est sans doute l'un des musées les plus célèbres de Paris.
+1	Le	le	DET	_	_	_	_	_	_
+2	Louvre	Louvre	PROPN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	sans	sans	ADP	_	_	_	_	_	_
+5	doute	doute	NOUN	_	_	_	_	_	_
+6	l'un	l'un	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	musées	musées	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	plus	plus	ADV	_	_	_	_	_	_
+11	célèbres	célèbres	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	Paris	Paris	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_071
+# text = La gastronomie française est inscrite au patrimoine culturel immatériel de l'humanité.
+1	La	le	DET	_	_	_	_	_	_
+2	gastronomie	gastronomie	NOUN	_	_	_	_	_	_
+3	française	français	ADJ	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	inscrite	inscrire	VERB	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	patrimoine	patrimoine	X	_	_	_	_	_	_
+8	culturel	culturel	X	_	_	_	_	_	_
+9	immatériel	immatériel	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	l'humanité	l'humanité	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_072
+# text = En France, manger du pain frais tous les jours est une tradition importante.
+1	En	en	PRON	_	_	_	_	_	_
+2	France	France	PROPN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	manger	manger	VERB	_	_	_	_	_	_
+5	du	du	ADP	_	_	_	_	_	_
+6	pain	pain	X	_	_	_	_	_	_
+7	frais	frais	X	_	_	_	_	_	_
+8	tous	tous	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	jours	jours	X	_	_	_	_	_	_
+11	est	être	AUX	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	tradition	tradition	X	_	_	_	_	_	_
+14	importante	importante	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_073
+# text = J'adore découvrir les monuments historiques quand je visite une nouvelle ville.
+1	J'adore	J'adore	X	_	_	_	_	_	_
+2	découvrir	découvrir	X	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	monuments	monuments	X	_	_	_	_	_	_
+5	historiques	historiques	X	_	_	_	_	_	_
+6	quand	quand	SCONJ	_	_	_	_	_	_
+7	je	je	PRON	_	_	_	_	_	_
+8	visite	visite	X	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	nouvelle	nouvelle	X	_	_	_	_	_	_
+11	ville	ville	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_074
+# text = Le théâtre classique français a été marqué par de grands auteurs célèbres.
+1	Le	le	DET	_	_	_	_	_	_
+2	théâtre	théâtre	NOUN	_	_	_	_	_	_
+3	classique	classique	ADJ	_	_	_	_	_	_
+4	français	français	ADJ	_	_	_	_	_	_
+5	a	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	marqué	marquer	VERB	_	_	_	_	_	_
+8	par	par	ADP	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	grands	grand	ADJ	_	_	_	_	_	_
+11	auteurs	auteur	NOUN	_	_	_	_	_	_
+12	célèbres	célèbre	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_075
+# text = La fête nationale du quatorze juillet est célébrée avec des feux d'artifice.
+1	La	le	DET	_	_	_	_	_	_
+2	fête	fête	NOUN	_	_	_	_	_	_
+3	nationale	national	ADJ	_	_	_	_	_	_
+4	du	du	ADP	_	_	_	_	_	_
+5	quatorze	quatorze	X	_	_	_	_	_	_
+6	juillet	juillet	X	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	célébrée	célébrée	X	_	_	_	_	_	_
+9	avec	avec	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	feux	feux	X	_	_	_	_	_	_
+12	d'artifice	d'artifice	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_076
+# text = De nombreux écrivains français ont inspiré la littérature moderne internationale.
+1	De	un	DET	_	_	_	_	_	_
+2	nombreux	nombreux	ADJ	_	_	_	_	_	_
+3	écrivains	écrivain	NOUN	_	_	_	_	_	_
+4	français	français	ADJ	_	_	_	_	_	_
+5	ont	avoir	AUX	_	_	_	_	_	_
+6	inspiré	inspirer	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	littérature	littérature	NOUN	_	_	_	_	_	_
+9	moderne	moderne	ADJ	_	_	_	_	_	_
+10	internationale	international	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_077
+# text = Le cinéma d'auteur français est reconnu pour son originalité et sa liberté.
+1	Le	le	DET	_	_	_	_	_	_
+2	cinéma	cinéma	NOUN	_	_	_	_	_	_
+3	d'auteur	d'auteur	X	_	_	_	_	_	_
+4	français	français	X	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	reconnu	reconnu	X	_	_	_	_	_	_
+7	pour	pour	X	_	_	_	_	_	_
+8	son	son	DET	_	_	_	_	_	_
+9	originalité	originalité	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	sa	son	DET	_	_	_	_	_	_
+12	liberté	liberté	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_078
+# text = Dans chaque région française, on trouve des spécialités culinaires uniques.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	chaque	chaque	DET	_	_	_	_	_	_
+3	région	région	NOUN	_	_	_	_	_	_
+4	française	français	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	on	on	PRON	_	_	_	_	_	_
+7	trouve	trouver	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	spécialités	spécialité	NOUN	_	_	_	_	_	_
+10	culinaires	culinaire	ADJ	_	_	_	_	_	_
+11	uniques	unique	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_079
+# text = La mode parisienne influence les tendances de la couture dans le monde.
+1	La	le	DET	_	_	_	_	_	_
+2	mode	mode	NOUN	_	_	_	_	_	_
+3	parisienne	parisien	ADJ	_	_	_	_	_	_
+4	influence	influence	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	tendances	tendance	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	couture	couture	NOUN	_	_	_	_	_	_
+10	dans	dans	ADP	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	monde	monde	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_080
+# text = Les bandes dessinées belges et françaises sont très appréciées par les adultes.
+1	Les	le	DET	_	_	_	_	_	_
+2	bandes	bande	NOUN	_	_	_	_	_	_
+3	dessinées	dessiner	VERB	_	_	_	_	_	_
+4	belges	belge	ADJ	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	françaises	français	ADJ	_	_	_	_	_	_
+7	sont	être	AUX	_	_	_	_	_	_
+8	très	très	ADV	_	_	_	_	_	_
+9	appréciées	apprécier	VERB	_	_	_	_	_	_
+10	par	par	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	adultes	adulte	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_081
+# text = La musique francophone contemporaine s'exporte de plus en plus à l'étranger.
+1	La	le	DET	_	_	_	_	_	_
+2	musique	musique	NOUN	_	_	_	_	_	_
+3	francophone	francophone	ADJ	_	_	_	_	_	_
+4	contemporaine	contemporain	ADJ	_	_	_	_	_	_
+5	s'exporte	s'exporte	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	plus	plus	ADV	_	_	_	_	_	_
+8	en	en	PRON	_	_	_	_	_	_
+9	plus	plus	ADV	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	l'étranger	l'étranger	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_082
+# text = Pendant le carnaval de Dunkerque, les habitants portent des costumes colorés.
+1	Pendant	pendant	ADP	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	carnaval	carnaval	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	Dunkerque	Dunkerque	PROPN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	habitants	habitant	NOUN	_	_	_	_	_	_
+9	portent	porter	VERB	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	costumes	costume	NOUN	_	_	_	_	_	_
+12	colorés	coloré	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_083
+# text = Les châteaux de la Loire témoignent de l'histoire riche de la France.
+1	Les	le	DET	_	_	_	_	_	_
+2	châteaux	château	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	Loire	Loire	PROPN	_	_	_	_	_	_
+6	témoignent	témoigner	VERB	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	l'histoire	l'histoire	X	_	_	_	_	_	_
+9	riche	riche	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	France	France	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_084
+# text = Les marchés locaux du dimanche matin sont un lieu de rencontre chaleureux.
+1	Les	le	DET	_	_	_	_	_	_
+2	marchés	marché	NOUN	_	_	_	_	_	_
+3	locaux	local	ADJ	_	_	_	_	_	_
+4	du	du	ADP	_	_	_	_	_	_
+5	dimanche	dimanche	X	_	_	_	_	_	_
+6	matin	matin	X	_	_	_	_	_	_
+7	sont	être	AUX	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	lieu	lieu	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	rencontre	rencontre	X	_	_	_	_	_	_
+12	chaleureux	chaleureux	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_085
+# text = Le festival d'Avignon propose de nombreuses pièces de théâtre chaque été.
+1	Le	le	DET	_	_	_	_	_	_
+2	festival	festival	NOUN	_	_	_	_	_	_
+3	d'Avignon	d'Avignon	X	_	_	_	_	_	_
+4	propose	propose	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	nombreuses	nombreuses	X	_	_	_	_	_	_
+7	pièces	pièces	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	théâtre	théâtre	X	_	_	_	_	_	_
+10	chaque	chaque	X	_	_	_	_	_	_
+11	été	être	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_086
+# text = La culture francophone est diverse et présente sur tous les continents.
+1	La	le	DET	_	_	_	_	_	_
+2	culture	culture	NOUN	_	_	_	_	_	_
+3	francophone	francophone	ADJ	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	diverse	divers	ADJ	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	présente	présent	ADJ	_	_	_	_	_	_
+8	sur	sur	ADP	_	_	_	_	_	_
+9	tous	tout	ADJ	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	continents	continent	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_087
+# text = Les contes populaires transmettent des valeurs morales de génération en génération.
+1	Les	le	DET	_	_	_	_	_	_
+2	contes	conte	NOUN	_	_	_	_	_	_
+3	populaires	populaire	ADJ	_	_	_	_	_	_
+4	transmettent	transmettre	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	valeurs	valeur	NOUN	_	_	_	_	_	_
+7	morales	moral	ADJ	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	génération	génération	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	génération	génération	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_088
+# text = Le patrimoine architectural de cette vieille ville attire beaucoup de touristes.
+1	Le	le	DET	_	_	_	_	_	_
+2	patrimoine	patrimoine	NOUN	_	_	_	_	_	_
+3	architectural	architectural	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	cette	ce	DET	_	_	_	_	_	_
+6	vieille	vieux	ADJ	_	_	_	_	_	_
+7	ville	ville	NOUN	_	_	_	_	_	_
+8	attire	attirer	VERB	_	_	_	_	_	_
+9	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	touristes	touriste	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_089
+# text = La poésie française moderne explore des thèmes comme l'amour et le temps.
+1	La	le	DET	_	_	_	_	_	_
+2	poésie	poésie	NOUN	_	_	_	_	_	_
+3	française	français	ADJ	_	_	_	_	_	_
+4	moderne	moderne	ADJ	_	_	_	_	_	_
+5	explore	explorer	VERB	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	thèmes	thème	NOUN	_	_	_	_	_	_
+8	comme	comme	SCONJ	_	_	_	_	_	_
+9	l'amour	l'amour	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	temps	temps	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_090
+# text = Les arts de la rue animent souvent les centres-villes pendant l'été.
+1	Les	le	DET	_	_	_	_	_	_
+2	arts	art	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	rue	rue	NOUN	_	_	_	_	_	_
+6	animent	animer	VERB	_	_	_	_	_	_
+7	souvent	souvent	ADV	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	centres-villes	centre-vilille	NOUN	_	_	_	_	_	_
+10	pendant	pendant	ADP	_	_	_	_	_	_
+11	l'été	l'été	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_091
+# text = La célébration de la nouvelle année est l'occasion de grands repas familiaux.
+1	La	le	DET	_	_	_	_	_	_
+2	célébration	célébration	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	nouvelle	nouveau	ADJ	_	_	_	_	_	_
+6	année	année	NOUN	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	l'occasion	l'occasion	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	grands	grands	X	_	_	_	_	_	_
+11	repas	repas	X	_	_	_	_	_	_
+12	familiaux	familiaux	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_092
+# text = Le jazz a eu une influence majeure sur la musique française contemporaine.
+1	Le	le	DET	_	_	_	_	_	_
+2	jazz	jazz	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	eu	avoir	AUX	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	influence	influence	NOUN	_	_	_	_	_	_
+7	majeure	majeur	ADJ	_	_	_	_	_	_
+8	sur	sur	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	musique	musique	NOUN	_	_	_	_	_	_
+11	française	français	ADJ	_	_	_	_	_	_
+12	contemporaine	contemporain	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_093
+# text = Les contes traditionnels font partie intégrante du folklore de nos régions.
+1	Les	le	DET	_	_	_	_	_	_
+2	contes	conte	NOUN	_	_	_	_	_	_
+3	traditionnels	traditionnel	ADJ	_	_	_	_	_	_
+4	font	faire	VERB	_	_	_	_	_	_
+5	partie	partie	NOUN	_	_	_	_	_	_
+6	intégrante	intégrant	ADJ	_	_	_	_	_	_
+7	du	du	ADP	_	_	_	_	_	_
+8	folklore	folklore	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	nos	notre	DET	_	_	_	_	_	_
+11	régions	régions	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_094
+# text = La peinture impressionniste a révolutionné notre façon de voir la lumière.
+1	La	le	DET	_	_	_	_	_	_
+2	peinture	peinture	NOUN	_	_	_	_	_	_
+3	impressionniste	impressionniste	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	révolutionné	révolutionner	VERB	_	_	_	_	_	_
+6	notre	notre	DET	_	_	_	_	_	_
+7	façon	façon	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	voir	voir	VERB	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	lumière	lumière	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_095
+# text = Le salon du livre réunit chaque année des milliers de lecteurs passionnés.
+1	Le	le	DET	_	_	_	_	_	_
+2	salon	salon	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	livre	livre	X	_	_	_	_	_	_
+5	réunit	réunit	X	_	_	_	_	_	_
+6	chaque	chaque	X	_	_	_	_	_	_
+7	année	année	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	milliers	milliers	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	lecteurs	lecteurs	X	_	_	_	_	_	_
+12	passionnés	passionnés	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_096
+# text = L'architecture gothique des cathédrales françaises impressionne toujours les visiteurs.
+1	L'architecture	L'architecture	X	_	_	_	_	_	_
+2	gothique	gothique	X	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	cathédrales	cathédrales	X	_	_	_	_	_	_
+5	françaises	françaises	X	_	_	_	_	_	_
+6	impressionne	impressionne	X	_	_	_	_	_	_
+7	toujours	toujours	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	visiteurs	visiteurs	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_097
+# text = Les festivals de danse contemporaine gagnent en popularité auprès des jeunes.
+1	Les	le	DET	_	_	_	_	_	_
+2	festivals	festival	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	danse	danse	NOUN	_	_	_	_	_	_
+5	contemporaine	contemporain	ADJ	_	_	_	_	_	_
+6	gagnent	gagner	VERB	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	popularité	popularité	NOUN	_	_	_	_	_	_
+9	auprès	auprès	ADV	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	jeunes	jeunes	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_098
+# text = La culture du café en terrasse est typique du mode de vie français.
+1	La	le	DET	_	_	_	_	_	_
+2	culture	culture	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	café	café	X	_	_	_	_	_	_
+5	en	en	PRON	_	_	_	_	_	_
+6	terrasse	terrasse	X	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	typique	typique	X	_	_	_	_	_	_
+9	du	du	ADP	_	_	_	_	_	_
+10	mode	mode	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	vie	vie	X	_	_	_	_	_	_
+13	français	français	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_099
+# text = Les chansons traditionnelles racontent souvent des histoires d'amour et de voyage.
+1	Les	le	DET	_	_	_	_	_	_
+2	chansons	chanson	NOUN	_	_	_	_	_	_
+3	traditionnelles	traditionnel	ADJ	_	_	_	_	_	_
+4	racontent	raconter	VERB	_	_	_	_	_	_
+5	souvent	souvent	ADV	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	histoires	histoire	NOUN	_	_	_	_	_	_
+8	d'amour	d'amour	X	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	voyage	voyage	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_val_100
+# text = Le street art se développe de plus en plus dans les quartiers urbains.
+1	Le	le	DET	_	_	_	_	_	_
+2	street	street	NOUN	_	_	_	_	_	_
+3	art	art	NOUN	_	_	_	_	_	_
+4	se	se	PRON	_	_	_	_	_	_
+5	développe	développer	VERB	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	plus	plus	ADV	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	plus	plus	ADV	_	_	_	_	_	_
+10	dans	dans	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	quartiers	quartier	NOUN	_	_	_	_	_	_
+13	urbains	urbain	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+

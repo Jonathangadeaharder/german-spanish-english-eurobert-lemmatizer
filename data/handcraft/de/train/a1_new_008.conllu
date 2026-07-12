@@ -1,0 +1,413 @@
+# sent_id = de_a1_train_851
+# text = Ich stehe früh auf.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	stehe	stehen	VERB	_	_	_	_	_	_
+3	früh	früh	ADV	_	_	_	_	_	_
+4	auf	auf	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_852
+# text = Wir frühstücken um acht.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	frühstücken	frühstücken	VERB	_	_	_	_	_	_
+3	um	um	ADP	_	_	_	_	_	_
+4	acht	acht	NUM	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_853
+# text = Er packt die Brotdose ein.
+1	Er	er	PRON	_	_	_	_	_	_
+2	packt	packen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Brotdose	Brotdose	NOUN	_	_	_	_	_	_
+5	ein	ein	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_854
+# text = Sie kauft frisches Obst.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	kauft	kaufen	VERB	_	_	_	_	_	_
+3	frisches	frisch	ADJ	_	_	_	_	_	_
+4	Obst	Obst	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_855
+# text = Ich brauche zwei Liter Milch.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	brauche	brauchen	VERB	_	_	_	_	_	_
+3	zwei	zwei	NUM	_	_	_	_	_	_
+4	Liter	Liter	NOUN	_	_	_	_	_	_
+5	Milch	Milch	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_856
+# text = Das Brot kostet zwei Euro.
+1	Das	der	DET	_	_	_	_	_	_
+2	Brot	Brot	NOUN	_	_	_	_	_	_
+3	kostet	kosten	VERB	_	_	_	_	_	_
+4	zwei	zwei	NUM	_	_	_	_	_	_
+5	Euro	Euro	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_857
+# text = Wir gehen zum Supermarkt.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	gehen	gehen	VERB	_	_	_	_	_	_
+3	zum	zu	ADP	_	_	_	_	_	_
+4	Supermarkt	Supermarkt	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_858
+# text = Er sucht die Tomaten.
+1	Er	er	PRON	_	_	_	_	_	_
+2	sucht	suchen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Tomaten	Tomate	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_859
+# text = Sie nimmt einen Korb.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	nimmt	nehmen	VERB	_	_	_	_	_	_
+3	einen	ein	DET	_	_	_	_	_	_
+4	Korb	Korb	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_860
+# text = Ich finde den Gang.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Gang	Gang	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_861
+# text = Wir stehen an der Kasse.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	stehen	stehen	VERB	_	_	_	_	_	_
+3	an	an	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Kasse	Kasse	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_862
+# text = Er bezahlt mit Bargeld.
+1	Er	er	PRON	_	_	_	_	_	_
+2	bezahlt	bezahlen	VERB	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	Bargeld	Bargeld	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_863
+# text = Sie packt alles ein.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	packt	packen	VERB	_	_	_	_	_	_
+3	alles	alle	DET	_	_	_	_	_	_
+4	ein	ein	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_864
+# text = Das Obst ist süß.
+1	Das	der	DET	_	_	_	_	_	_
+2	Obst	Obst	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	süß	süß	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_865
+# text = Ich kaufe drei Bananen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	kaufe	kaufen	VERB	_	_	_	_	_	_
+3	drei	drei	NUM	_	_	_	_	_	_
+4	Bananen	Banane	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_866
+# text = Er trägt die Tüte.
+1	Er	er	PRON	_	_	_	_	_	_
+2	trägt	tragen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Tüte	Tüte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_867
+# text = Sie hat den Beleg.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Beleg	Beleg	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_868
+# text = Wir bringen den Einkauf heim.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	bringen	bringen	VERB	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Einkauf	Einkauf	NOUN	_	_	_	_	_	_
+5	heim	heim	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_869
+# text = Das Gemüse ist billig.
+1	Das	der	DET	_	_	_	_	_	_
+2	Gemüse	Gemüse	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	billig	billig	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_870
+# text = Ich nehme eine Flasche Wasser.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	nehme	nehmen	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Flasche	Flasche	NOUN	_	_	_	_	_	_
+5	Wasser	Wasser	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_871
+# text = Er kauft Schokolade ein.
+1	Er	er	PRON	_	_	_	_	_	_
+2	kauft	kaufen	VERB	_	_	_	_	_	_
+3	Schokolade	Schokolade	NOUN	_	_	_	_	_	_
+4	ein	ein	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_872
+# text = Sie wiegt die Äpfel ab.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	wiegt	wiegen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Äpfel	Apfel	NOUN	_	_	_	_	_	_
+5	ab	ab	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_873
+# text = Wir haben viel eingekauft.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	viel	viel	ADV	_	_	_	_	_	_
+4	eingekauft	einkaufen	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_874
+# text = Der Markt öffnet früh.
+1	Der	der	DET	_	_	_	_	_	_
+2	Markt	Markt	NOUN	_	_	_	_	_	_
+3	öffnet	öffnen	VERB	_	_	_	_	_	_
+4	früh	früh	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_875
+# text = Ich hole Brot vom Bäcker.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hole	holen	VERB	_	_	_	_	_	_
+3	Brot	Brot	NOUN	_	_	_	_	_	_
+4	vom	von	ADP	_	_	_	_	_	_
+5	Bäcker	Bäcker	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_876
+# text = Der Bus fährt langsam.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bus	Bus	NOUN	_	_	_	_	_	_
+3	fährt	fahren	VERB	_	_	_	_	_	_
+4	langsam	langsam	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_877
+# text = Wir steigen am Bahnhof ein.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	steigen	steigen	VERB	_	_	_	_	_	_
+3	am	an	ADP	_	_	_	_	_	_
+4	Bahnhof	Bahnhof	NOUN	_	_	_	_	_	_
+5	ein	ein	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_878
+# text = Ich fahre mit dem Zug.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	fahre	fahren	VERB	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Zug	Zug	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_879
+# text = Das Taxi wartet dort.
+1	Das	der	DET	_	_	_	_	_	_
+2	Taxi	Taxi	NOUN	_	_	_	_	_	_
+3	wartet	warten	VERB	_	_	_	_	_	_
+4	dort	dort	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_880
+# text = Er kauft eine Fahrkarte.
+1	Er	er	PRON	_	_	_	_	_	_
+2	kauft	kaufen	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Fahrkarte	Fahrkarte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_881
+# text = Die Straßenbahn kommt gleich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Straßenbahn	Straßenbahn	NOUN	_	_	_	_	_	_
+3	kommt	kommen	VERB	_	_	_	_	_	_
+4	gleich	gleich	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_882
+# text = Wir fahren nach Köln.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	fahren	fahren	VERB	_	_	_	_	_	_
+3	nach	nach	ADP	_	_	_	_	_	_
+4	Köln	Köln	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_883
+# text = Es regnet sehr stark.
+1	Es	es	PRON	_	_	_	_	_	_
+2	regnet	regnen	VERB	_	_	_	_	_	_
+3	sehr	sehr	ADV	_	_	_	_	_	_
+4	stark	stark	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_884
+# text = Der Himmel ist grau.
+1	Der	der	DET	_	_	_	_	_	_
+2	Himmel	Himmel	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	grau	grau	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_885
+# text = Es ist windig draußen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	windig	windig	ADJ	_	_	_	_	_	_
+4	draußen	draußen	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_886
+# text = Ich spiele gern Schach.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	spiele	spielen	VERB	_	_	_	_	_	_
+3	gern	gern	ADV	_	_	_	_	_	_
+4	Schach	Schach	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_887
+# text = Sie fotografiert den Hund.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	fotografiert	fotografieren	VERB	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Hund	Hund	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_888
+# text = Wir kochen heute Nudeln.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	kochen	kochen	VERB	_	_	_	_	_	_
+3	heute	heute	ADV	_	_	_	_	_	_
+4	Nudeln	Nudel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_889
+# text = Er schaut einen Film an.
+1	Er	er	PRON	_	_	_	_	_	_
+2	schaut	schauen	VERB	_	_	_	_	_	_
+3	einen	ein	DET	_	_	_	_	_	_
+4	Film	Film	NOUN	_	_	_	_	_	_
+5	an	an	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_890
+# text = Sie tanzt mit Freunden.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	tanzt	tanzen	VERB	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	Freunden	Freund	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_891
+# text = Ich schreibe eine Postkarte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	schreibe	schreiben	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Postkarte	Postkarte	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_892
+# text = Wir besuchen die Großeltern.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	besuchen	besuchen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Großeltern	Großeltern	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_893
+# text = Das Schwimmbad ist offen.
+1	Das	der	DET	_	_	_	_	_	_
+2	Schwimmbad	Schwimmbad	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	offen	offen	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_894
+# text = Er spielt am Samstag Fußball.
+1	Er	er	PRON	_	_	_	_	_	_
+2	spielt	spielen	VERB	_	_	_	_	_	_
+3	am	an	ADP	_	_	_	_	_	_
+4	Samstag	Samstag	PROPN	_	_	_	_	_	_
+5	Fußball	Fußball	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_895
+# text = Sie liest am Abend gern.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	liest	lesen	VERB	_	_	_	_	_	_
+3	am	an	ADP	_	_	_	_	_	_
+4	Abend	Abend	NOUN	_	_	_	_	_	_
+5	gern	gern	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_896
+# text = Wir grillen im Garten.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	grillen	grillen	VERB	_	_	_	_	_	_
+3	im	in	ADP	_	_	_	_	_	_
+4	Garten	Garten	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_897
+# text = Das Picknick macht Spaß.
+1	Das	der	DET	_	_	_	_	_	_
+2	Picknick	Picknick	NOUN	_	_	_	_	_	_
+3	macht	machen	VERB	_	_	_	_	_	_
+4	Spaß	Spaß	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_898
+# text = Ich lade dich ein.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	lade	laden	VERB	_	_	_	_	_	_
+3	dich	du	PRON	_	_	_	_	_	_
+4	ein	ein	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_899
+# text = Er fährt ans Meer.
+1	Er	er	PRON	_	_	_	_	_	_
+2	fährt	fahren	VERB	_	_	_	_	_	_
+3	ans	an	ADP	_	_	_	_	_	_
+4	Meer	Meer	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_train_900
+# text = Wir machen viele Fotos.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	machen	machen	VERB	_	_	_	_	_	_
+3	viele	viel	DET	_	_	_	_	_	_
+4	Fotos	Foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+

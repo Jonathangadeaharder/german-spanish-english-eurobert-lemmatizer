@@ -1,0 +1,2109 @@
+# sent_id = de_b1_train_001
+# text = Ich würde gerne an der Universität weiterstudieren, wenn ich mehr Zeit hätte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	würde	werden	AUX	_	_	_	_	_	_
+3	gerne	gerne	ADV	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Universität	Universität	NOUN	_	_	_	_	_	_
+7	weiterstudieren	weiterstudieren	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	wenn	wenn	SCONJ	_	_	_	_	_	_
+10	ich	ich	PRON	_	_	_	_	_	_
+11	mehr	mehr	ADV	_	_	_	_	_	_
+12	Zeit	Zeit	NOUN	_	_	_	_	_	_
+13	hätte	haben	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_002
+# text = Wenn ich reich wäre, würde ich um die Welt reisen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	reich	reich	ADJ	_	_	_	_	_	_
+4	wäre	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	würde	werden	AUX	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	um	um	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Welt	Welt	NOUN	_	_	_	_	_	_
+11	reisen	reisen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_003
+# text = Ich hätte dir geholfen, aber du hast mich nicht gefragt.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hätte	haben	AUX	_	_	_	_	_	_
+3	dir	du	PRON	_	_	_	_	_	_
+4	geholfen	helfen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	aber	aber	CCONJ	_	_	_	_	_	_
+7	du	du	PRON	_	_	_	_	_	_
+8	hast	haben	AUX	_	_	_	_	_	_
+9	mich	ich	PRON	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	gefragt	fragen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_004
+# text = Wir könnten ins Kino gehen, wenn du Zeit hättest.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	könnten	können	AUX	_	_	_	_	_	_
+3	ins	ins	ADP	_	_	_	_	_	_
+4	Kino	Kino	NOUN	_	_	_	_	_	_
+5	gehen	gehen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wenn	wenn	SCONJ	_	_	_	_	_	_
+8	du	du	PRON	_	_	_	_	_	_
+9	Zeit	Zeit	NOUN	_	_	_	_	_	_
+10	hättest	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_005
+# text = Man sollte mehr auf die Umwelt achten, damit die Natur geschützt wird.
+1	Man	man	PRON	_	_	_	_	_	_
+2	sollte	sollen	AUX	_	_	_	_	_	_
+3	mehr	mehr	ADV	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Umwelt	Umwelt	NOUN	_	_	_	_	_	_
+7	achten	achten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	damit	damit	SCONJ	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Natur	Natur	NOUN	_	_	_	_	_	_
+12	geschützt	schützen	VERB	_	_	_	_	_	_
+13	wird	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_006
+# text = An deiner Stelle würde ich den Job sofort annehmen.
+1	An	an	ADP	_	_	_	_	_	_
+2	deiner	dein	DET	_	_	_	_	_	_
+3	Stelle	Stelle	NOUN	_	_	_	_	_	_
+4	würde	werden	AUX	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Job	Job	NOUN	_	_	_	_	_	_
+8	sofort	sofort	ADV	_	_	_	_	_	_
+9	annehmen	annehmen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_007
+# text = Wenn das Wetter besser wäre, würden wir wandern gehen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	besser	gut	ADJ	_	_	_	_	_	_
+5	wäre	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würden	werden	AUX	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	wandern	wandern	VERB	_	_	_	_	_	_
+10	gehen	gehen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_008
+# text = Ohne Internet könnte ich nicht mehr richtig arbeiten.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	Internet	Internet	NOUN	_	_	_	_	_	_
+3	könnte	können	AUX	_	_	_	_	_	_
+4	ich	ich	PRON	_	_	_	_	_	_
+5	nicht	nicht	PART	_	_	_	_	_	_
+6	mehr	mehr	ADV	_	_	_	_	_	_
+7	richtig	richtig	ADJ	_	_	_	_	_	_
+8	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_009
+# text = Ich wäre fast zu spät gekommen, weil der Zug Verspätung hatte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	wäre	sein	AUX	_	_	_	_	_	_
+3	fast	fast	ADV	_	_	_	_	_	_
+4	zu	zu	ADV	_	_	_	_	_	_
+5	spät	spät	ADJ	_	_	_	_	_	_
+6	gekommen	kommen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	weil	weil	SCONJ	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Zug	Zug	NOUN	_	_	_	_	_	_
+11	Verspätung	Verspätung	NOUN	_	_	_	_	_	_
+12	hatte	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_010
+# text = Das hätte schiefgehen können, wenn wir nicht aufgepasst hätten.
+1	Das	der	PRON	_	_	_	_	_	_
+2	hätte	haben	AUX	_	_	_	_	_	_
+3	schiefgehen	schiefgehen	VERB	_	_	_	_	_	_
+4	können	können	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wenn	wenn	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	nicht	nicht	PART	_	_	_	_	_	_
+9	aufgepasst	aufpassen	VERB	_	_	_	_	_	_
+10	hätten	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_011
+# text = Es wäre besser, wenn wir früher losfahren würden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wäre	sein	AUX	_	_	_	_	_	_
+3	besser	gut	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wenn	wenn	SCONJ	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	früher	früh	ADV	_	_	_	_	_	_
+8	losfahren	losfahren	VERB	_	_	_	_	_	_
+9	würden	werden	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_012
+# text = Ich würde mich freuen, wenn du kommen würdest.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	würde	werden	AUX	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	freuen	freuen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wenn	wenn	SCONJ	_	_	_	_	_	_
+7	du	du	PRON	_	_	_	_	_	_
+8	kommen	kommen	VERB	_	_	_	_	_	_
+9	würdest	werden	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_013
+# text = Was würdest du tun, wenn du Chef wärst?
+1	Was	was	PRON	_	_	_	_	_	_
+2	würdest	werden	AUX	_	_	_	_	_	_
+3	du	du	PRON	_	_	_	_	_	_
+4	tun	tun	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wenn	wenn	SCONJ	_	_	_	_	_	_
+7	du	du	PRON	_	_	_	_	_	_
+8	Chef	Chef	NOUN	_	_	_	_	_	_
+9	wärst	sein	AUX	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_014
+# text = Wir hätten den Zug verpasst, wenn wir später gekommen wären.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	hätten	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Zug	Zug	NOUN	_	_	_	_	_	_
+5	verpasst	verpassen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wenn	wenn	SCONJ	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	später	spät	ADV	_	_	_	_	_	_
+10	gekommen	kommen	VERB	_	_	_	_	_	_
+11	wären	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_015
+# text = Du solltest mehr Gemüse essen, weil es sehr gesund ist.
+1	Du	du	PRON	_	_	_	_	_	_
+2	solltest	sollen	AUX	_	_	_	_	_	_
+3	mehr	mehr	ADV	_	_	_	_	_	_
+4	Gemüse	Gemüse	NOUN	_	_	_	_	_	_
+5	essen	essen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	sehr	sehr	ADV	_	_	_	_	_	_
+10	gesund	gesund	ADJ	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_016
+# text = Wenn ich du wäre, würde ich lieber Deutsch lernen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	du	du	PRON	_	_	_	_	_	_
+4	wäre	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	würde	werden	AUX	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	lieber	gerne	ADV	_	_	_	_	_	_
+9	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+10	lernen	lernen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_017
+# text = Ich hätte die Prüfung bestanden, wenn ich mehr gelernt hätte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hätte	haben	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+5	bestanden	bestehen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wenn	wenn	SCONJ	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	mehr	mehr	ADV	_	_	_	_	_	_
+10	gelernt	lernen	VERB	_	_	_	_	_	_
+11	hätte	haben	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_018
+# text = Ohne dein Handy könntest du dich besser konzentrieren.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	dein	dein	DET	_	_	_	_	_	_
+3	Handy	Handy	NOUN	_	_	_	_	_	_
+4	könntest	können	AUX	_	_	_	_	_	_
+5	du	du	PRON	_	_	_	_	_	_
+6	dich	du	PRON	_	_	_	_	_	_
+7	besser	gut	ADJ	_	_	_	_	_	_
+8	konzentrieren	konzentrieren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_019
+# text = Sie würde lieber in einem anderen Land arbeiten.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	würde	werden	AUX	_	_	_	_	_	_
+3	lieber	gerne	ADV	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	anderen	ander	ADJ	_	_	_	_	_	_
+7	Land	Land	NOUN	_	_	_	_	_	_
+8	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_020
+# text = Wir könnten die Energiekosten senken, wenn wir sparsamer wären.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	könnten	können	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Energiekosten	Energiekosten	NOUN	_	_	_	_	_	_
+5	senken	senken	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wenn	wenn	SCONJ	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	sparsamer	sparsam	ADJ	_	_	_	_	_	_
+10	wären	sein	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_021
+# text = An deiner Stelle würde ich das Angebot sofort annehmen.
+1	An	an	ADP	_	_	_	_	_	_
+2	deiner	dein	DET	_	_	_	_	_	_
+3	Stelle	Stelle	NOUN	_	_	_	_	_	_
+4	würde	werden	AUX	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Angebot	Angebot	NOUN	_	_	_	_	_	_
+8	sofort	sofort	ADV	_	_	_	_	_	_
+9	annehmen	annehmen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_022
+# text = Wenn ich jünger wäre, würde ich ein neues Studium beginnen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	jünger	jung	ADJ	_	_	_	_	_	_
+4	wäre	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	würde	werden	AUX	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	ein	ein	DET	_	_	_	_	_	_
+9	neues	neu	ADJ	_	_	_	_	_	_
+10	Studium	Studium	NOUN	_	_	_	_	_	_
+11	beginnen	beginnen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_023
+# text = Es wäre schön, wenn wir uns öfter sehen würden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wäre	sein	AUX	_	_	_	_	_	_
+3	schön	schön	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wenn	wenn	SCONJ	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	uns	wir	PRON	_	_	_	_	_	_
+8	öfter	oft	ADV	_	_	_	_	_	_
+9	sehen	sehen	VERB	_	_	_	_	_	_
+10	würden	werden	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_024
+# text = Ich hätte gern einen anderen Beruf gewählt, der besser bezahlt wäre.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hätte	haben	AUX	_	_	_	_	_	_
+3	gern	gerne	ADV	_	_	_	_	_	_
+4	einen	ein	DET	_	_	_	_	_	_
+5	anderen	ander	ADJ	_	_	_	_	_	_
+6	Beruf	Beruf	NOUN	_	_	_	_	_	_
+7	gewählt	wählen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	der	der	PRON	_	_	_	_	_	_
+10	besser	gut	ADJ	_	_	_	_	_	_
+11	bezahlt	bezahlen	VERB	_	_	_	_	_	_
+12	wäre	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_025
+# text = Ohne Computer würde ich meine Arbeit nicht mehr schaffen.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	Computer	Computer	NOUN	_	_	_	_	_	_
+3	würde	werden	AUX	_	_	_	_	_	_
+4	ich	ich	PRON	_	_	_	_	_	_
+5	meine	mein	DET	_	_	_	_	_	_
+6	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+7	nicht	nicht	PART	_	_	_	_	_	_
+8	mehr	mehr	ADV	_	_	_	_	_	_
+9	schaffen	schaffen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_026
+# text = Das Haus wurde im letzten Jahr von einer Firma gebaut.
+1	Das	der	DET	_	_	_	_	_	_
+2	Haus	Haus	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	im	im	ADP	_	_	_	_	_	_
+5	letzten	letzt	ADJ	_	_	_	_	_	_
+6	Jahr	Jahr	NOUN	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	einer	ein	DET	_	_	_	_	_	_
+9	Firma	Firma	NOUN	_	_	_	_	_	_
+10	gebaut	bauen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_027
+# text = Der Brief wird morgen von der Sekretärin verschickt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Brief	Brief	NOUN	_	_	_	_	_	_
+3	wird	werden	AUX	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	von	von	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Sekretärin	Sekretärin	NOUN	_	_	_	_	_	_
+8	verschickt	verschicken	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_028
+# text = Die Aufgabe ist schon von den Schülern erledigt worden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	schon	schon	ADV	_	_	_	_	_	_
+5	von	von	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Schülern	Schüler	NOUN	_	_	_	_	_	_
+8	erledigt	erledigen	VERB	_	_	_	_	_	_
+9	worden	werden	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_029
+# text = Das Problem wurde von den Experten schnell gelöst.
+1	Das	der	DET	_	_	_	_	_	_
+2	Problem	Problem	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Experten	Experte	NOUN	_	_	_	_	_	_
+7	schnell	schnell	ADJ	_	_	_	_	_	_
+8	gelöst	lösen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_030
+# text = Die Universität wurde vor vielen hundert Jahren gegründet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Universität	Universität	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	vor	vor	ADP	_	_	_	_	_	_
+5	vielen	viel	DET	_	_	_	_	_	_
+6	hundert	hundert	NUM	_	_	_	_	_	_
+7	Jahren	Jahr	NOUN	_	_	_	_	_	_
+8	gegründet	gründen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_031
+# text = Die Brücke wird gerade von der Stadt repariert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Brücke	Brücke	NOUN	_	_	_	_	_	_
+3	wird	werden	AUX	_	_	_	_	_	_
+4	gerade	gerade	ADV	_	_	_	_	_	_
+5	von	von	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Stadt	Stadt	NOUN	_	_	_	_	_	_
+8	repariert	reparieren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_032
+# text = Viele Bäume werden jedes Jahr von Studenten gepflanzt.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Bäume	Baum	NOUN	_	_	_	_	_	_
+3	werden	werden	AUX	_	_	_	_	_	_
+4	jedes	jeder	DET	_	_	_	_	_	_
+5	Jahr	Jahr	NOUN	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	Studenten	Student	NOUN	_	_	_	_	_	_
+8	gepflanzt	pflanzen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_033
+# text = Der Vertrag wurde gestern vom Chef unterschrieben.
+1	Der	der	DET	_	_	_	_	_	_
+2	Vertrag	Vertrag	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	gestern	gestern	ADV	_	_	_	_	_	_
+5	vom	vom	ADP	_	_	_	_	_	_
+6	Chef	Chef	NOUN	_	_	_	_	_	_
+7	unterschrieben	unterschreiben	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_034
+# text = Die Kinder werden von der Lehrerin für ihre Mühe gelobt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	werden	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	ihre	ihr	DET	_	_	_	_	_	_
+9	Mühe	Mühe	NOUN	_	_	_	_	_	_
+10	gelobt	loben	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_035
+# text = Das Buch wurde von einem bekannten Autor geschrieben.
+1	Das	der	DET	_	_	_	_	_	_
+2	Buch	Buch	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	bekannten	bekannt	ADJ	_	_	_	_	_	_
+7	Autor	Autor	NOUN	_	_	_	_	_	_
+8	geschrieben	schreiben	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_036
+# text = Das alte Museum in der Stadtmitte wurde renoviert und wiedereröffnet.
+1	Das	der	DET	_	_	_	_	_	_
+2	alte	alt	ADJ	_	_	_	_	_	_
+3	Museum	Museum	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Stadtmitte	Stadtmitte	NOUN	_	_	_	_	_	_
+7	wurde	werden	AUX	_	_	_	_	_	_
+8	renoviert	renovieren	VERB	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	wiedereröffnet	wiedereröffnen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_037
+# text = Der Dieb wurde gestern Nacht von der Polizei verhaftet.
+1	Der	der	DET	_	_	_	_	_	_
+2	Dieb	Dieb	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	gestern	gestern	ADV	_	_	_	_	_	_
+5	Nacht	Nacht	NOUN	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Polizei	Polizei	NOUN	_	_	_	_	_	_
+9	verhaftet	verhaften	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_038
+# text = Die Rechnung wird jeden Monat per E-Mail verschickt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+3	wird	werden	AUX	_	_	_	_	_	_
+4	jeden	jeder	DET	_	_	_	_	_	_
+5	Monat	Monat	NOUN	_	_	_	_	_	_
+6	per	per	ADP	_	_	_	_	_	_
+7	E-Mail	E-Mail	NOUN	_	_	_	_	_	_
+8	verschickt	verschicken	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_039
+# text = Das Auto wird in einer Fabrik in Deutschland produziert.
+1	Das	der	DET	_	_	_	_	_	_
+2	Auto	Auto	NOUN	_	_	_	_	_	_
+3	wird	werden	AUX	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	einer	ein	DET	_	_	_	_	_	_
+6	Fabrik	Fabrik	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+9	produziert	produzieren	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_040
+# text = Die Ergebnisse werden nächste Woche auf der Website veröffentlicht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+3	werden	werden	AUX	_	_	_	_	_	_
+4	nächste	nächst	ADJ	_	_	_	_	_	_
+5	Woche	Woche	NOUN	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Website	Website	NOUN	_	_	_	_	_	_
+9	veröffentlicht	veröffentlichen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_041
+# text = Die Rechnung wurde von der Buchhaltung überprüft und bezahlt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Buchhaltung	Buchhaltung	NOUN	_	_	_	_	_	_
+7	überprüft	überprüfen	VERB	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	bezahlt	bezahlen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_042
+# text = Der Film wurde von den Kritikern sehr positiv bewertet.
+1	Der	der	DET	_	_	_	_	_	_
+2	Film	Film	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Kritikern	Kritiker	NOUN	_	_	_	_	_	_
+7	sehr	sehr	ADV	_	_	_	_	_	_
+8	positiv	positiv	ADJ	_	_	_	_	_	_
+9	bewertet	bewerten	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_043
+# text = Die Straßen wurden wegen des Schnees vorübergehend gesperrt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Straßen	Straße	NOUN	_	_	_	_	_	_
+3	wurden	werden	AUX	_	_	_	_	_	_
+4	wegen	wegen	ADP	_	_	_	_	_	_
+5	des	der	DET	_	_	_	_	_	_
+6	Schnees	Schnee	NOUN	_	_	_	_	_	_
+7	vorübergehend	vorübergehend	ADV	_	_	_	_	_	_
+8	gesperrt	sperren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_044
+# text = Das neue Gesetz wird von vielen Bürgern kritisiert.
+1	Das	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Gesetz	Gesetz	NOUN	_	_	_	_	_	_
+4	wird	werden	AUX	_	_	_	_	_	_
+5	von	von	ADP	_	_	_	_	_	_
+6	vielen	viel	DET	_	_	_	_	_	_
+7	Bürgern	Bürger	NOUN	_	_	_	_	_	_
+8	kritisiert	kritisieren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_045
+# text = Die alten Dokumente wurden im Archiv aufbewahrt.
+1	Die	der	DET	_	_	_	_	_	_
+2	alten	alt	ADJ	_	_	_	_	_	_
+3	Dokumente	Dokument	NOUN	_	_	_	_	_	_
+4	wurden	werden	AUX	_	_	_	_	_	_
+5	im	im	ADP	_	_	_	_	_	_
+6	Archiv	Archiv	NOUN	_	_	_	_	_	_
+7	aufbewahrt	aufbewahren	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_046
+# text = Das ist der Mann, der das Unternehmen gegründet hat.
+1	Das	der	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Mann	Mann	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	der	der	PRON	_	_	_	_	_	_
+7	das	der	DET	_	_	_	_	_	_
+8	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+9	gegründet	gründen	VERB	_	_	_	_	_	_
+10	hat	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_047
+# text = Die Frau, die neben dir wohnt, ist Lehrerin.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frau	Frau	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	neben	neben	ADP	_	_	_	_	_	_
+6	dir	du	PRON	_	_	_	_	_	_
+7	wohnt	wohnen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_048
+# text = Das Buch, das ich gelesen habe, war sehr interessant.
+1	Das	der	DET	_	_	_	_	_	_
+2	Buch	Buch	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	gelesen	lesen	VERB	_	_	_	_	_	_
+7	habe	haben	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	war	sein	AUX	_	_	_	_	_	_
+10	sehr	sehr	ADV	_	_	_	_	_	_
+11	interessant	interessant	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_049
+# text = Die Studenten, die die Prüfung bestanden haben, freuen sich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studenten	Student	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+7	bestanden	bestehen	VERB	_	_	_	_	_	_
+8	haben	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	freuen	freuen	VERB	_	_	_	_	_	_
+11	sich	sich	PRON	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_050
+# text = Das Haus, dessen Dach rot ist, steht seit hundert Jahren.
+1	Das	der	DET	_	_	_	_	_	_
+2	Haus	Haus	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dessen	der	PRON	_	_	_	_	_	_
+5	Dach	Dach	NOUN	_	_	_	_	_	_
+6	rot	rot	ADJ	_	_	_	_	_	_
+7	ist	sein	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	steht	stehen	VERB	_	_	_	_	_	_
+10	seit	seit	ADP	_	_	_	_	_	_
+11	hundert	hundert	NUM	_	_	_	_	_	_
+12	Jahren	Jahr	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_051
+# text = Die Kollegin, mit der ich arbeite, kommt aus Spanien.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegin	Kollegin	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	mit	mit	ADP	_	_	_	_	_	_
+5	der	der	PRON	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	arbeite	arbeiten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	kommt	kommen	VERB	_	_	_	_	_	_
+10	aus	aus	ADP	_	_	_	_	_	_
+11	Spanien	Spanien	PROPN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_052
+# text = Das ist die Stadt, in der ich geboren wurde.
+1	Das	der	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Stadt	Stadt	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	der	der	PRON	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	geboren	gebären	VERB	_	_	_	_	_	_
+10	wurde	werden	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_053
+# text = Die Kinder, deren Eltern verreist sind, bleiben bei der Oma.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	der	PRON	_	_	_	_	_	_
+5	Eltern	Eltern	NOUN	_	_	_	_	_	_
+6	verreist	verreisen	VERB	_	_	_	_	_	_
+7	sind	sein	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	bleiben	bleiben	VERB	_	_	_	_	_	_
+10	bei	bei	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Oma	Oma	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_054
+# text = Der Lehrer, der den Kurs leitet, ist sehr streng.
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Kurs	Kurs	NOUN	_	_	_	_	_	_
+7	leitet	leiten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	sehr	sehr	ADV	_	_	_	_	_	_
+11	streng	streng	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_055
+# text = Das Smartphone, das ich habe, ist schon veraltet.
+1	Das	der	DET	_	_	_	_	_	_
+2	Smartphone	Smartphone	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	habe	haben	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	ist	sein	AUX	_	_	_	_	_	_
+9	schon	schon	ADV	_	_	_	_	_	_
+10	veraltet	veraltet	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_056
+# text = Die Reise, die wir letztes Jahr gemacht haben, war wunderbar.
+1	Die	der	DET	_	_	_	_	_	_
+2	Reise	Reise	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	letztes	letzt	ADJ	_	_	_	_	_	_
+7	Jahr	Jahr	NOUN	_	_	_	_	_	_
+8	gemacht	machen	VERB	_	_	_	_	_	_
+9	haben	haben	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	war	sein	AUX	_	_	_	_	_	_
+12	wunderbar	wunderbar	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_057
+# text = Die Menschen, die in der Großstadt leben, sind oft gestresst.
+1	Die	der	DET	_	_	_	_	_	_
+2	Menschen	Mensch	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Großstadt	Großstadt	NOUN	_	_	_	_	_	_
+8	leben	leben	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	sind	sein	AUX	_	_	_	_	_	_
+11	oft	oft	ADV	_	_	_	_	_	_
+12	gestresst	gestresst	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_058
+# text = Das Projekt, an dem wir arbeiten, ist sehr komplex.
+1	Das	der	DET	_	_	_	_	_	_
+2	Projekt	Projekt	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	dem	der	PRON	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	sehr	sehr	ADV	_	_	_	_	_	_
+11	komplex	komplex	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_059
+# text = Die Freunde, die ich in der Uni kennengelernt habe, besuchen mich oft.
+1	Die	der	DET	_	_	_	_	_	_
+2	Freunde	Freund	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Uni	Uni	NOUN	_	_	_	_	_	_
+9	kennengelernt	kennenlernen	VERB	_	_	_	_	_	_
+10	habe	haben	AUX	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	besuchen	besuchen	VERB	_	_	_	_	_	_
+13	mich	ich	PRON	_	_	_	_	_	_
+14	oft	oft	ADV	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_060
+# text = Die Schüler, deren Noten gut waren, bekamen ein Lob.
+1	Die	der	DET	_	_	_	_	_	_
+2	Schüler	Schüler	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	der	PRON	_	_	_	_	_	_
+5	Noten	Note	NOUN	_	_	_	_	_	_
+6	gut	gut	ADJ	_	_	_	_	_	_
+7	waren	sein	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	bekamen	bekommen	VERB	_	_	_	_	_	_
+10	ein	ein	DET	_	_	_	_	_	_
+11	Lob	Lob	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_061
+# text = Die Firma, die er gegründet hat, ist sehr erfolgreich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Firma	Firma	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	gegründet	gründen	VERB	_	_	_	_	_	_
+7	hat	haben	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	sehr	sehr	ADV	_	_	_	_	_	_
+11	erfolgreich	erfolgreich	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_062
+# text = Das Land, aus dem sie kommt, ist sehr schön.
+1	Das	der	DET	_	_	_	_	_	_
+2	Land	Land	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	aus	aus	ADP	_	_	_	_	_	_
+5	dem	der	PRON	_	_	_	_	_	_
+6	sie	sie	PRON	_	_	_	_	_	_
+7	kommt	kommen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	sehr	sehr	ADV	_	_	_	_	_	_
+11	schön	schön	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_063
+# text = Die Probleme, die wir besprochen haben, sind jetzt gelöst.
+1	Die	der	DET	_	_	_	_	_	_
+2	Probleme	Problem	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	besprochen	besprechen	VERB	_	_	_	_	_	_
+7	haben	haben	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	sind	sein	AUX	_	_	_	_	_	_
+10	jetzt	jetzt	ADV	_	_	_	_	_	_
+11	gelöst	lösen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_064
+# text = Die Kollegen, deren Hilfe ich brauche, sind diese Woche abwesend.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kollegen	Kollege	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	der	PRON	_	_	_	_	_	_
+5	Hilfe	Hilfe	NOUN	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	brauche	brauchen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	sind	sein	AUX	_	_	_	_	_	_
+10	diese	dieser	DET	_	_	_	_	_	_
+11	Woche	Woche	NOUN	_	_	_	_	_	_
+12	abwesend	abwesend	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_065
+# text = Das neue Gesetz, das letztes Jahr erlassen wurde, ist sehr umstritten.
+1	Das	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Gesetz	Gesetz	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	das	der	PRON	_	_	_	_	_	_
+6	letztes	letzt	ADJ	_	_	_	_	_	_
+7	Jahr	Jahr	NOUN	_	_	_	_	_	_
+8	erlassen	erlassen	VERB	_	_	_	_	_	_
+9	wurde	werden	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	sehr	sehr	ADV	_	_	_	_	_	_
+13	umstritten	umstritten	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_066
+# text = Wegen des schlechten Wetters bleiben wir heute zu Hause.
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	schlechten	schlecht	ADJ	_	_	_	_	_	_
+4	Wetters	Wetter	NOUN	_	_	_	_	_	_
+5	bleiben	bleiben	VERB	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	heute	heute	ADV	_	_	_	_	_	_
+8	zu	zu	ADP	_	_	_	_	_	_
+9	Hause	Haus	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_067
+# text = Trotz der Schwierigkeiten hat sie die Prüfung bestanden.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Schwierigkeiten	Schwierigkeit	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	sie	sie	PRON	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+8	bestanden	bestehen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_068
+# text = Während des Unterrichts dürfen die Schüler nicht sprechen.
+1	Während	während	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Unterrichts	Unterricht	NOUN	_	_	_	_	_	_
+4	dürfen	dürfen	AUX	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Schüler	Schüler	NOUN	_	_	_	_	_	_
+7	nicht	nicht	PART	_	_	_	_	_	_
+8	sprechen	sprechen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_069
+# text = Das neue Auto meines Vaters ist sehr schnell.
+1	Das	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Auto	Auto	NOUN	_	_	_	_	_	_
+4	meines	mein	DET	_	_	_	_	_	_
+5	Vaters	Vater	NOUN	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	sehr	sehr	ADV	_	_	_	_	_	_
+8	schnell	schnell	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_070
+# text = Die Qualität des neuen Produkts ist wirklich ausgezeichnet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Qualität	Qualität	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	neuen	neu	ADJ	_	_	_	_	_	_
+5	Produkts	Produkt	NOUN	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	wirklich	wirklich	ADV	_	_	_	_	_	_
+8	ausgezeichnet	ausgezeichnet	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_071
+# text = Wegen der hohen Kosten wurde das Projekt leider abgesagt.
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	hohen	hoch	ADJ	_	_	_	_	_	_
+4	Kosten	Kosten	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Projekt	Projekt	NOUN	_	_	_	_	_	_
+8	leider	leider	ADV	_	_	_	_	_	_
+9	abgesagt	absagen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_072
+# text = Wegen des Staus kam er eine Stunde zu spät.
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Staus	Stau	NOUN	_	_	_	_	_	_
+4	kam	kommen	VERB	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	Stunde	Stunde	NOUN	_	_	_	_	_	_
+8	zu	zu	ADV	_	_	_	_	_	_
+9	spät	spät	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_073
+# text = Trotz des Regens gingen wir im Park spazieren.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Regens	Regen	NOUN	_	_	_	_	_	_
+4	gingen	gehen	VERB	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	im	im	ADP	_	_	_	_	_	_
+7	Park	Park	NOUN	_	_	_	_	_	_
+8	spazieren	spazieren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_074
+# text = Die Entwicklung der Technologie ist in letzter Zeit rasant.
+1	Die	der	DET	_	_	_	_	_	_
+2	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Technologie	Technologie	NOUN	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	letzter	letzt	ADJ	_	_	_	_	_	_
+8	Zeit	Zeit	NOUN	_	_	_	_	_	_
+9	rasant	rasant	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_075
+# text = Der Schutz der Umwelt ist eine wichtige Aufgabe.
+1	Der	der	DET	_	_	_	_	_	_
+2	Schutz	Schutz	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Umwelt	Umwelt	NOUN	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	wichtige	wichtig	ADJ	_	_	_	_	_	_
+8	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_076
+# text = Während der Reise haben wir viele neue Orte gesehen.
+1	Während	während	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Reise	Reise	NOUN	_	_	_	_	_	_
+4	haben	haben	AUX	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	viele	viel	DET	_	_	_	_	_	_
+7	neue	neu	ADJ	_	_	_	_	_	_
+8	Orte	Ort	NOUN	_	_	_	_	_	_
+9	gesehen	sehen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_077
+# text = Die Freunde meiner Schwester sind sehr nett und hilfsbereit.
+1	Die	der	DET	_	_	_	_	_	_
+2	Freunde	Freund	NOUN	_	_	_	_	_	_
+3	meiner	mein	DET	_	_	_	_	_	_
+4	Schwester	Schwester	NOUN	_	_	_	_	_	_
+5	sind	sein	AUX	_	_	_	_	_	_
+6	sehr	sehr	ADV	_	_	_	_	_	_
+7	nett	nett	ADJ	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	hilfsbereit	hilfsbereit	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_078
+# text = Wegen des Lärms konnte ich gestern Nacht nicht schlafen.
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Lärms	Lärm	NOUN	_	_	_	_	_	_
+4	konnte	können	AUX	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	gestern	gestern	ADV	_	_	_	_	_	_
+7	Nacht	Nacht	NOUN	_	_	_	_	_	_
+8	nicht	nicht	PART	_	_	_	_	_	_
+9	schlafen	schlafen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_079
+# text = Trotz der Kälte machten die Kinder draußen Sport.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Kälte	Kälte	NOUN	_	_	_	_	_	_
+4	machten	machen	VERB	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Kinder	Kind	NOUN	_	_	_	_	_	_
+7	draußen	draußen	ADV	_	_	_	_	_	_
+8	Sport	Sport	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_080
+# text = Das Ende des Films war wirklich sehr überraschend.
+1	Das	der	DET	_	_	_	_	_	_
+2	Ende	Ende	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Films	Film	NOUN	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	wirklich	wirklich	ADV	_	_	_	_	_	_
+7	sehr	sehr	ADV	_	_	_	_	_	_
+8	überraschend	überraschend	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_081
+# text = Ich freue mich schon auf den kommenden Urlaub.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	freue	freuen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	schon	schon	ADV	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	kommenden	kommend	ADJ	_	_	_	_	_	_
+8	Urlaub	Urlaub	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_082
+# text = Sie interessiert sich sehr für moderne Kunst und Kultur.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	interessiert	interessieren	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	moderne	modern	ADJ	_	_	_	_	_	_
+7	Kunst	Kunst	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	Kultur	Kultur	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_083
+# text = Wir erinnern uns oft an den letzten schönen Sommer.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	erinnern	erinnern	VERB	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	oft	oft	ADV	_	_	_	_	_	_
+5	an	an	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	letzten	letzt	ADJ	_	_	_	_	_	_
+8	schönen	schön	ADJ	_	_	_	_	_	_
+9	Sommer	Sommer	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_084
+# text = Er wundert sich über die schnelle Veränderung der Technik.
+1	Er	er	PRON	_	_	_	_	_	_
+2	wundert	wundern	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	schnelle	schnell	ADJ	_	_	_	_	_	_
+7	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Technik	Technik	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_085
+# text = Ich bedanke mich herzlich für die schöne Einladung.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	bedanke	bedanken	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	herzlich	herzlich	ADJ	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	schöne	schön	ADJ	_	_	_	_	_	_
+8	Einladung	Einladung	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_086
+# text = Sie kümmert sich liebevoll um ihren kranken alten Vater.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	kümmert	kümmern	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	liebevoll	liebevoll	ADJ	_	_	_	_	_	_
+5	um	um	ADP	_	_	_	_	_	_
+6	ihren	ihr	DET	_	_	_	_	_	_
+7	kranken	krank	ADJ	_	_	_	_	_	_
+8	alten	alt	ADJ	_	_	_	_	_	_
+9	Vater	Vater	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_087
+# text = Wir freuen uns sehr, dass du endlich kommen kannst.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	freuen	freuen	VERB	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	du	du	PRON	_	_	_	_	_	_
+8	endlich	endlich	ADV	_	_	_	_	_	_
+9	kommen	kommen	VERB	_	_	_	_	_	_
+10	kannst	können	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_088
+# text = Er beeilt sich, weil der Bus in fünf Minuten kommt.
+1	Er	er	PRON	_	_	_	_	_	_
+2	beeilt	beeilen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	weil	weil	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Bus	Bus	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	fünf	fünf	NUM	_	_	_	_	_	_
+10	Minuten	Minute	NOUN	_	_	_	_	_	_
+11	kommt	kommen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_089
+# text = Ich gewöhne mich langsam an das neue raue Klima.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	gewöhne	gewöhnen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	langsam	langsam	ADJ	_	_	_	_	_	_
+5	an	an	ADP	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	neue	neu	ADJ	_	_	_	_	_	_
+8	raue	rau	ADJ	_	_	_	_	_	_
+9	Klima	Klima	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_090
+# text = Sie erkältet sich jeden Winter, weil sie keine warme Kleidung trägt.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	erkältet	erkälten	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	jeden	jeder	DET	_	_	_	_	_	_
+5	Winter	Winter	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	sie	sie	PRON	_	_	_	_	_	_
+9	keine	kein	DET	_	_	_	_	_	_
+10	warme	warm	ADJ	_	_	_	_	_	_
+11	Kleidung	Kleidung	NOUN	_	_	_	_	_	_
+12	trägt	tragen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_091
+# text = Wir treffen uns morgen nach der Arbeit in einem Café.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	treffen	treffen	VERB	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	nach	nach	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	einem	ein	DET	_	_	_	_	_	_
+10	Café	Café	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_092
+# text = Er ärgert sich sehr über den Fehler seines Kollegen.
+1	Er	er	PRON	_	_	_	_	_	_
+2	ärgert	ärgern	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	über	über	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Fehler	Fehler	NOUN	_	_	_	_	_	_
+8	seines	sein	DET	_	_	_	_	_	_
+9	Kollegen	Kollege	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_093
+# text = Ich schäme mich für mein unangemessenes Verhalten von gestern.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	schäme	schämen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	mein	mein	DET	_	_	_	_	_	_
+6	unangemessenes	unangemessen	ADJ	_	_	_	_	_	_
+7	Verhalten	Verhalten	NOUN	_	_	_	_	_	_
+8	von	von	ADP	_	_	_	_	_	_
+9	gestern	gestern	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_094
+# text = Sie entspannt sich nach der Arbeit bei einer Tasse Tee.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	entspannt	entspannen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+7	bei	bei	ADP	_	_	_	_	_	_
+8	einer	ein	DET	_	_	_	_	_	_
+9	Tasse	Tasse	NOUN	_	_	_	_	_	_
+10	Tee	Tee	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_095
+# text = Wir bemühen uns um eine schnelle Lösung des Problems.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	bemühen	bemühen	VERB	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	um	um	ADP	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	schnelle	schnell	ADJ	_	_	_	_	_	_
+7	Lösung	Lösung	NOUN	_	_	_	_	_	_
+8	des	der	DET	_	_	_	_	_	_
+9	Problems	Problem	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_096
+# text = Ich weiß nicht, ob ich die schwere Prüfung bestehen werde.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	schwere	schwer	ADJ	_	_	_	_	_	_
+9	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+10	bestehen	bestehen	VERB	_	_	_	_	_	_
+11	werde	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_097
+# text = Obwohl der Kurs sehr schwer war, hat er viel gelernt.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Kurs	Kurs	NOUN	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	schwer	schwer	ADJ	_	_	_	_	_	_
+6	war	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	hat	haben	AUX	_	_	_	_	_	_
+9	er	er	PRON	_	_	_	_	_	_
+10	viel	viel	ADV	_	_	_	_	_	_
+11	gelernt	lernen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_098
+# text = Wenn ich am Wochenende Zeit habe, gehe ich in die Bibliothek.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	am	am	ADP	_	_	_	_	_	_
+4	Wochenende	Wochenende	NOUN	_	_	_	_	_	_
+5	Zeit	Zeit	NOUN	_	_	_	_	_	_
+6	habe	haben	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	gehe	gehen	VERB	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Bibliothek	Bibliothek	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_099
+# text = Bevor ich an die Universität ging, arbeitete ich in einer Firma.
+1	Bevor	bevor	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	an	an	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Universität	Universität	NOUN	_	_	_	_	_	_
+6	ging	gehen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	arbeitete	arbeiten	VERB	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	einer	ein	DET	_	_	_	_	_	_
+12	Firma	Firma	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_100
+# text = Nachdem er das Studium beendet hatte, fand er schnell einen Job.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Studium	Studium	NOUN	_	_	_	_	_	_
+5	beendet	beenden	VERB	_	_	_	_	_	_
+6	hatte	haben	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	fand	finden	VERB	_	_	_	_	_	_
+9	er	er	PRON	_	_	_	_	_	_
+10	schnell	schnell	ADJ	_	_	_	_	_	_
+11	einen	ein	DET	_	_	_	_	_	_
+12	Job	Job	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_101
+# text = Damit die Schüler besser lernen können, braucht man gute Lehrer.
+1	Damit	damit	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Schüler	Schüler	NOUN	_	_	_	_	_	_
+4	besser	gut	ADJ	_	_	_	_	_	_
+5	lernen	lernen	VERB	_	_	_	_	_	_
+6	können	können	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	braucht	brauchen	VERB	_	_	_	_	_	_
+9	man	man	PRON	_	_	_	_	_	_
+10	gute	gut	ADJ	_	_	_	_	_	_
+11	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_102
+# text = Seitdem ich an der Uni studiere, habe ich weniger Freizeit.
+1	Seitdem	seitdem	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	an	an	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Uni	Uni	NOUN	_	_	_	_	_	_
+6	studiere	studieren	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	habe	haben	AUX	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	weniger	wenig	ADV	_	_	_	_	_	_
+11	Freizeit	Freizeit	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_103
+# text = Während er für die Prüfung lernt, hört er leise Musik.
+1	Während	während	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+6	lernt	lernen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	hört	hören	VERB	_	_	_	_	_	_
+9	er	er	PRON	_	_	_	_	_	_
+10	leise	leise	ADJ	_	_	_	_	_	_
+11	Musik	Musik	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_104
+# text = Sobald die Prüfung vorbei ist, werden wir ausgiebig feiern.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+4	vorbei	vorbei	ADV	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	ausgiebig	ausgiebig	ADJ	_	_	_	_	_	_
+10	feiern	feiern	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_105
+# text = Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	lerne	lernen	VERB	_	_	_	_	_	_
+3	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	weil	weil	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+9	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+10	möchte	mögen	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_106
+# text = Obwohl die Schule groß ist, kennen sich die Schüler gut.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Schule	Schule	NOUN	_	_	_	_	_	_
+4	groß	groß	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	kennen	kennen	VERB	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Schüler	Schüler	NOUN	_	_	_	_	_	_
+11	gut	gut	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_107
+# text = Wenn ich gute Noten bekomme, freut sich meine Mutter.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	gute	gut	ADJ	_	_	_	_	_	_
+4	Noten	Note	NOUN	_	_	_	_	_	_
+5	bekomme	bekommen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	freut	freuen	VERB	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	meine	mein	DET	_	_	_	_	_	_
+10	Mutter	Mutter	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_108
+# text = Bevor die Vorlesung beginnt, müssen die Studenten ihre Handys ausschalten.
+1	Bevor	bevor	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Vorlesung	Vorlesung	NOUN	_	_	_	_	_	_
+4	beginnt	beginnen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	müssen	müssen	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Studenten	Student	NOUN	_	_	_	_	_	_
+9	ihre	ihr	DET	_	_	_	_	_	_
+10	Handys	Handy	NOUN	_	_	_	_	_	_
+11	ausschalten	ausschalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_109
+# text = Nachdem der Lehrer die Tests korrigiert hatte, besprach er die Ergebnisse.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Tests	Test	NOUN	_	_	_	_	_	_
+6	korrigiert	korrigieren	VERB	_	_	_	_	_	_
+7	hatte	haben	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	besprach	besprechen	VERB	_	_	_	_	_	_
+10	er	er	PRON	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_110
+# text = Wenn man eine Sprache lernen will, muss man viel üben.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Sprache	Sprache	NOUN	_	_	_	_	_	_
+5	lernen	lernen	VERB	_	_	_	_	_	_
+6	will	wollen	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	muss	müssen	AUX	_	_	_	_	_	_
+9	man	man	PRON	_	_	_	_	_	_
+10	viel	viel	ADV	_	_	_	_	_	_
+11	üben	üben	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_111
+# text = Wenn er die Stelle bekäme, würde er in eine andere Stadt umziehen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Stelle	Stelle	NOUN	_	_	_	_	_	_
+5	bekäme	bekommen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würde	werden	AUX	_	_	_	_	_	_
+8	er	er	PRON	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	eine	ein	DET	_	_	_	_	_	_
+11	andere	ander	ADJ	_	_	_	_	_	_
+12	Stadt	Stadt	NOUN	_	_	_	_	_	_
+13	umziehen	umziehen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_112
+# text = Obwohl der Job schlecht bezahlt war, blieb er noch dort.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Job	Job	NOUN	_	_	_	_	_	_
+4	schlecht	schlecht	ADJ	_	_	_	_	_	_
+5	bezahlt	bezahlen	VERB	_	_	_	_	_	_
+6	war	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	blieb	bleiben	VERB	_	_	_	_	_	_
+9	er	er	PRON	_	_	_	_	_	_
+10	noch	noch	ADV	_	_	_	_	_	_
+11	dort	dort	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_113
+# text = Bevor sie kündigte, sprach sie mit dem Chef über ihre Probleme.
+1	Bevor	bevor	SCONJ	_	_	_	_	_	_
+2	sie	sie	PRON	_	_	_	_	_	_
+3	kündigte	kündigen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	sprach	sprechen	VERB	_	_	_	_	_	_
+6	sie	sie	PRON	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Chef	Chef	NOUN	_	_	_	_	_	_
+10	über	über	ADP	_	_	_	_	_	_
+11	ihre	ihr	DET	_	_	_	_	_	_
+12	Probleme	Problem	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_114
+# text = Nachdem die Besprechung beendet war, gingen alle nach Hause.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Besprechung	Besprechung	NOUN	_	_	_	_	_	_
+4	beendet	beenden	VERB	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	gingen	gehen	VERB	_	_	_	_	_	_
+8	alle	alle	PRON	_	_	_	_	_	_
+9	nach	nach	ADP	_	_	_	_	_	_
+10	Hause	Haus	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_115
+# text = Er arbeitet hart, damit seine Familie ein besseres Leben haben kann.
+1	Er	er	PRON	_	_	_	_	_	_
+2	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+3	hart	hart	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	damit	damit	SCONJ	_	_	_	_	_	_
+6	seine	sein	DET	_	_	_	_	_	_
+7	Familie	Familie	NOUN	_	_	_	_	_	_
+8	ein	ein	DET	_	_	_	_	_	_
+9	besseres	gut	ADJ	_	_	_	_	_	_
+10	Leben	Leben	NOUN	_	_	_	_	_	_
+11	haben	haben	AUX	_	_	_	_	_	_
+12	kann	können	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_116
+# text = Seitdem er befördert wurde, verdient er mehr Geld als vorher.
+1	Seitdem	seitdem	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	befördert	befördern	VERB	_	_	_	_	_	_
+4	wurde	werden	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	verdient	verdienen	VERB	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	mehr	mehr	ADV	_	_	_	_	_	_
+9	Geld	Geld	NOUN	_	_	_	_	_	_
+10	als	als	SCONJ	_	_	_	_	_	_
+11	vorher	vorher	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_117
+# text = Während er im Büro arbeitet, lernt er viele neue Fähigkeiten.
+1	Während	während	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	im	im	ADP	_	_	_	_	_	_
+4	Büro	Büro	NOUN	_	_	_	_	_	_
+5	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	lernt	lernen	VERB	_	_	_	_	_	_
+8	er	er	PRON	_	_	_	_	_	_
+9	viele	viel	DET	_	_	_	_	_	_
+10	neue	neu	ADJ	_	_	_	_	_	_
+11	Fähigkeiten	Fähigkeit	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_118
+# text = Ich weiß nicht, ob ich den neuen Job annehmen soll.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	neuen	neu	ADJ	_	_	_	_	_	_
+9	Job	Job	NOUN	_	_	_	_	_	_
+10	annehmen	annehmen	VERB	_	_	_	_	_	_
+11	soll	sollen	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_119
+# text = Sobald er die E-Mail bekommt, wird er sofort antworten.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	E-Mail	E-Mail	NOUN	_	_	_	_	_	_
+5	bekommt	bekommen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wird	werden	AUX	_	_	_	_	_	_
+8	er	er	PRON	_	_	_	_	_	_
+9	sofort	sofort	ADV	_	_	_	_	_	_
+10	antworten	antworten	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_120
+# text = Wenn ich mehr Berufserfahrung hätte, würde ich mich bewerben.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	mehr	mehr	ADV	_	_	_	_	_	_
+4	Berufserfahrung	Berufserfahrung	NOUN	_	_	_	_	_	_
+5	hätte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würde	werden	AUX	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	mich	ich	PRON	_	_	_	_	_	_
+10	bewerben	bewerben	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_121
+# text = Wenn wir nach Spanien reisen, besuchen wir Madrid und Barcelona.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	wir	wir	PRON	_	_	_	_	_	_
+3	nach	nach	ADP	_	_	_	_	_	_
+4	Spanien	Spanien	PROPN	_	_	_	_	_	_
+5	reisen	reisen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	besuchen	besuchen	VERB	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	Madrid	Madrid	PROPN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Barcelona	Barcelona	PROPN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_122
+# text = Obwohl das Hotel ziemlich teuer war, war der Urlaub wunderschön.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Hotel	Hotel	NOUN	_	_	_	_	_	_
+4	ziemlich	ziemlich	ADV	_	_	_	_	_	_
+5	teuer	teuer	ADJ	_	_	_	_	_	_
+6	war	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	war	sein	AUX	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Urlaub	Urlaub	NOUN	_	_	_	_	_	_
+11	wunderschön	wunderschön	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_123
+# text = Bevor wir abfliegen, müssen wir unsere Koffer noch packen.
+1	Bevor	bevor	SCONJ	_	_	_	_	_	_
+2	wir	wir	PRON	_	_	_	_	_	_
+3	abfliegen	abfliegen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	müssen	müssen	AUX	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	unsere	unser	DET	_	_	_	_	_	_
+8	Koffer	Koffer	NOUN	_	_	_	_	_	_
+9	noch	noch	ADV	_	_	_	_	_	_
+10	packen	packen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_124
+# text = Nachdem wir am Flughafen angekommen waren, suchten wir sofort unser Hotel.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	wir	wir	PRON	_	_	_	_	_	_
+3	am	am	ADP	_	_	_	_	_	_
+4	Flughafen	Flughafen	NOUN	_	_	_	_	_	_
+5	angekommen	ankommen	VERB	_	_	_	_	_	_
+6	waren	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	suchten	suchen	VERB	_	_	_	_	_	_
+9	wir	wir	PRON	_	_	_	_	_	_
+10	sofort	sofort	ADV	_	_	_	_	_	_
+11	unser	unser	DET	_	_	_	_	_	_
+12	Hotel	Hotel	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_125
+# text = Wir kaufen eine Karte, damit wir uns nicht verlaufen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	kaufen	kaufen	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Karte	Karte	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	damit	damit	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	uns	wir	PRON	_	_	_	_	_	_
+9	nicht	nicht	PART	_	_	_	_	_	_
+10	verlaufen	verlaufen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_126
+# text = Seitdem sie aus Italien zurück ist, kocht sie oft Pasta.
+1	Seitdem	seitdem	SCONJ	_	_	_	_	_	_
+2	sie	sie	PRON	_	_	_	_	_	_
+3	aus	aus	ADP	_	_	_	_	_	_
+4	Italien	Italien	PROPN	_	_	_	_	_	_
+5	zurück	zurück	ADV	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	kocht	kochen	VERB	_	_	_	_	_	_
+9	sie	sie	PRON	_	_	_	_	_	_
+10	oft	oft	ADV	_	_	_	_	_	_
+11	Pasta	Pasta	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_127
+# text = Während der langen Reise entdecken wir viele faszinierende Kulturen.
+1	Während	während	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	langen	lang	ADJ	_	_	_	_	_	_
+4	Reise	Reise	NOUN	_	_	_	_	_	_
+5	entdecken	entdecken	VERB	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	viele	viel	DET	_	_	_	_	_	_
+8	faszinierende	faszinierend	ADJ	_	_	_	_	_	_
+9	Kulturen	Kultur	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_128
+# text = Ich weiß nicht, ob ich dieses Jahr genug Geld für Urlaub habe.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	dieses	dieser	DET	_	_	_	_	_	_
+8	Jahr	Jahr	NOUN	_	_	_	_	_	_
+9	genug	genug	ADV	_	_	_	_	_	_
+10	Geld	Geld	NOUN	_	_	_	_	_	_
+11	für	für	ADP	_	_	_	_	_	_
+12	Urlaub	Urlaub	NOUN	_	_	_	_	_	_
+13	habe	haben	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_129
+# text = Sobald der Zug ankommt, gehen wir direkt zum Hotel.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Zug	Zug	NOUN	_	_	_	_	_	_
+4	ankommt	ankommen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	gehen	gehen	VERB	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	direkt	direkt	ADJ	_	_	_	_	_	_
+9	zum	zum	ADP	_	_	_	_	_	_
+10	Hotel	Hotel	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_130
+# text = Wenn das Wetter schön wäre, würden wir ans Meer fahren.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	schön	schön	ADJ	_	_	_	_	_	_
+5	wäre	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würden	werden	AUX	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	ans	ans	ADP	_	_	_	_	_	_
+10	Meer	Meer	NOUN	_	_	_	_	_	_
+11	fahren	fahren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_131
+# text = Wir müssen die Umwelt schützen, damit die Zukunft sicher ist.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	müssen	müssen	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Umwelt	Umwelt	NOUN	_	_	_	_	_	_
+5	schützen	schützen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	damit	damit	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+10	sicher	sicher	ADJ	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_132
+# text = Obwohl viele Menschen die Gefahren kennen, wird die Umwelt verschmutzt.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	viele	viel	DET	_	_	_	_	_	_
+3	Menschen	Mensch	NOUN	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Gefahren	Gefahr	NOUN	_	_	_	_	_	_
+6	kennen	kennen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wird	werden	AUX	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Umwelt	Umwelt	NOUN	_	_	_	_	_	_
+11	verschmutzt	verschmutzen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_133
+# text = Bevor man Energie sparen kann, muss man sein Verhalten ändern.
+1	Bevor	bevor	SCONJ	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	Energie	Energie	NOUN	_	_	_	_	_	_
+4	sparen	sparen	VERB	_	_	_	_	_	_
+5	kann	können	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muss	müssen	AUX	_	_	_	_	_	_
+8	man	man	PRON	_	_	_	_	_	_
+9	sein	sein	DET	_	_	_	_	_	_
+10	Verhalten	Verhalten	NOUN	_	_	_	_	_	_
+11	ändern	ändern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_134
+# text = Nachdem die Fabrik geschlossen wurde, war die Luft sauberer.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Fabrik	Fabrik	NOUN	_	_	_	_	_	_
+4	geschlossen	schließen	VERB	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	war	sein	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Luft	Luft	NOUN	_	_	_	_	_	_
+10	sauberer	sauber	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_135
+# text = Wenn wir konsequent recyceln, helfen wir der Natur und den Tieren.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	wir	wir	PRON	_	_	_	_	_	_
+3	konsequent	konsequent	ADJ	_	_	_	_	_	_
+4	recyceln	recyceln	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	helfen	helfen	VERB	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Natur	Natur	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	den	der	DET	_	_	_	_	_	_
+12	Tieren	Tier	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_136
+# text = Seitdem wir Solaranlagen haben, ist die Stromrechnung niedriger.
+1	Seitdem	seitdem	SCONJ	_	_	_	_	_	_
+2	wir	wir	PRON	_	_	_	_	_	_
+3	Solaranlagen	Solaranlage	NOUN	_	_	_	_	_	_
+4	haben	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Stromrechnung	Stromrechnung	NOUN	_	_	_	_	_	_
+9	niedriger	niedrig	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_137
+# text = Während des Winters verbrauchen wir viel mehr Energie als sonst.
+1	Während	während	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Winters	Winter	NOUN	_	_	_	_	_	_
+4	verbrauchen	verbrauchen	VERB	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	viel	viel	ADV	_	_	_	_	_	_
+7	mehr	mehr	ADV	_	_	_	_	_	_
+8	Energie	Energie	NOUN	_	_	_	_	_	_
+9	als	als	SCONJ	_	_	_	_	_	_
+10	sonst	sonst	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_138
+# text = Ich frage mich, ob der Klimawandel überhaupt aufzuhalten ist.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	frage	fragen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Klimawandel	Klimawandel	NOUN	_	_	_	_	_	_
+8	überhaupt	überhaupt	ADV	_	_	_	_	_	_
+9	aufzuhalten	aufhalten	VERB	_	_	_	_	_	_
+10	ist	sein	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_139
+# text = Sobald der Frühling kommt, blühen die Bäume und Blumen wieder.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Frühling	Frühling	NOUN	_	_	_	_	_	_
+4	kommt	kommen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	blühen	blühen	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Bäume	Baum	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Blumen	Blume	NOUN	_	_	_	_	_	_
+11	wieder	wieder	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_140
+# text = Wenn jeder Mensch mithilft, können wir das Klima vielleicht retten.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	jeder	jeder	DET	_	_	_	_	_	_
+3	Mensch	Mensch	NOUN	_	_	_	_	_	_
+4	mithilft	mithelfen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	können	können	AUX	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Klima	Klima	NOUN	_	_	_	_	_	_
+10	vielleicht	vielleicht	ADV	_	_	_	_	_	_
+11	retten	retten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_141
+# text = Ich benutze das Internet jeden Tag für die Arbeit.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	benutze	benutzen	VERB	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Internet	Internet	NOUN	_	_	_	_	_	_
+5	jeden	jeder	DET	_	_	_	_	_	_
+6	Tag	Tag	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_142
+# text = Obwohl das Smartphone nützlich ist, kann es süchtig machen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Smartphone	Smartphone	NOUN	_	_	_	_	_	_
+4	nützlich	nützlich	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	kann	können	AUX	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	süchtig	süchtig	ADJ	_	_	_	_	_	_
+10	machen	machen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_143
+# text = Bevor ich einen Computer kaufe, lese ich viele Testberichte.
+1	Bevor	bevor	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	einen	ein	DET	_	_	_	_	_	_
+4	Computer	Computer	NOUN	_	_	_	_	_	_
+5	kaufe	kaufen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	lese	lesen	VERB	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	viele	viel	DET	_	_	_	_	_	_
+10	Testberichte	Testbericht	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_144
+# text = Nachdem das Update installiert wurde, lief alles schneller.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Update	Update	NOUN	_	_	_	_	_	_
+4	installiert	installieren	VERB	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	lief	laufen	VERB	_	_	_	_	_	_
+8	alles	alle	PRON	_	_	_	_	_	_
+9	schneller	schnell	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_145
+# text = Er lernt programmieren, damit er eine eigene App entwickeln kann.
+1	Er	er	PRON	_	_	_	_	_	_
+2	lernt	lernen	VERB	_	_	_	_	_	_
+3	programmieren	programmieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	damit	damit	SCONJ	_	_	_	_	_	_
+6	er	er	PRON	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	eigene	eigen	ADJ	_	_	_	_	_	_
+9	App	App	NOUN	_	_	_	_	_	_
+10	entwickeln	entwickeln	VERB	_	_	_	_	_	_
+11	kann	können	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_146
+# text = Seitdem ich ein Smartphone habe, schreibe ich weniger E-Mails.
+1	Seitdem	seitdem	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	Smartphone	Smartphone	NOUN	_	_	_	_	_	_
+5	habe	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	schreibe	schreiben	VERB	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	weniger	wenig	ADV	_	_	_	_	_	_
+10	E-Mails	E-Mail	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_147
+# text = Während er am Computer arbeitet, klingelt ständig sein Telefon.
+1	Während	während	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	am	am	ADP	_	_	_	_	_	_
+4	Computer	Computer	NOUN	_	_	_	_	_	_
+5	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	klingelt	klingeln	VERB	_	_	_	_	_	_
+8	ständig	ständig	ADV	_	_	_	_	_	_
+9	sein	sein	DET	_	_	_	_	_	_
+10	Telefon	Telefon	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_148
+# text = Ich weiß nicht, ob diese neue App wirklich sicher ist.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	diese	dieser	DET	_	_	_	_	_	_
+7	neue	neu	ADJ	_	_	_	_	_	_
+8	App	App	NOUN	_	_	_	_	_	_
+9	wirklich	wirklich	ADV	_	_	_	_	_	_
+10	sicher	sicher	ADJ	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_149
+# text = Sobald das Internet wieder funktioniert, schicke ich die Nachricht.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Internet	Internet	NOUN	_	_	_	_	_	_
+4	wieder	wieder	ADV	_	_	_	_	_	_
+5	funktioniert	funktionieren	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	schicke	schicken	VERB	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Nachricht	Nachricht	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_150
+# text = Ohne Computer und Internet könnten wir heute kaum noch leben.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	Computer	Computer	NOUN	_	_	_	_	_	_
+3	und	und	CCONJ	_	_	_	_	_	_
+4	Internet	Internet	NOUN	_	_	_	_	_	_
+5	könnten	können	AUX	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	heute	heute	ADV	_	_	_	_	_	_
+8	kaum	kaum	ADV	_	_	_	_	_	_
+9	noch	noch	ADV	_	_	_	_	_	_
+10	leben	leben	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+

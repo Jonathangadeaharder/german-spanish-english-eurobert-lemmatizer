@@ -1,0 +1,3379 @@
+# sent_id = de_c1_train_381
+# text = Die anhaltende Geldpolitik der Zentralbank beeinflusst die Kreditvergabe an mittelständische Unternehmen erheblich.
+1	Die	der	DET	_	_	_	_	_	_
+2	anhaltende	anhaltend	ADJ	_	_	_	_	_	_
+3	Geldpolitik	Geldpolitik	NOUN	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Zentralbank	Zentralbank	NOUN	_	_	_	_	_	_
+6	beeinflusst	beeinflussen	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Kreditvergabe	Kreditvergabe	NOUN	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	mittelständische	mittelständisch	ADJ	_	_	_	_	_	_
+11	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+12	erheblich	erheblich	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_382
+# text = Angesichts der steigenden Inflation fordern Ökonomen eine striktere Regulierung der Finanzmärkte.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	steigenden	steigend	ADJ	_	_	_	_	_	_
+4	Inflation	Inflation	NOUN	_	_	_	_	_	_
+5	fordern	fordern	VERB	_	_	_	_	_	_
+6	Ökonomen	Ökonom	NOUN	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	striktere	strikt	ADJ	_	_	_	_	_	_
+9	Regulierung	Regulierung	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Finanzmärkte	Finanzmarkt	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_383
+# text = Die Volatilität der Rohstoffpreise stellt Exporteure vor erhebliche Planungsunsicherheiten im globalen Handel.
+1	Die	der	DET	_	_	_	_	_	_
+2	Volatilität	Volatilität	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Rohstoffpreise	Rohstoffpreis	NOUN	_	_	_	_	_	_
+5	stellt	stellen	VERB	_	_	_	_	_	_
+6	Exporteure	Exporteur	NOUN	_	_	_	_	_	_
+7	vor	vor	ADP	_	_	_	_	_	_
+8	erhebliche	erheblich	ADJ	_	_	_	_	_	_
+9	Planungsunsicherheiten	Planungsunsicherheit	NOUN	_	_	_	_	_	_
+10	im	in	ADP	_	_	_	_	_	_
+11	globalen	global	ADJ	_	_	_	_	_	_
+12	Handel	Handel	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_384
+# text = Es ist absehbar, dass die Zinswende die Immobilienmärkte in Ballungsräumen nachhaltig dämpfen wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	absehbar	absehbar	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Zinswende	Zinswende	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Immobilienmärkte	Immobilienmarkt	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	Ballungsräumen	Ballungsraum	NOUN	_	_	_	_	_	_
+12	nachhaltig	nachhaltig	ADV	_	_	_	_	_	_
+13	dämpfen	dämpfen	VERB	_	_	_	_	_	_
+14	wird	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_385
+# text = Der Bericht verdeutlicht, dass strukturelle Reformen für nachhaltiges Wachstum unerlässlich geworden sind.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	verdeutlicht	verdeutlichen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	strukturelle	strukturell	ADJ	_	_	_	_	_	_
+7	Reformen	Reform	NOUN	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	nachhaltiges	nachhaltig	ADJ	_	_	_	_	_	_
+10	Wachstum	Wachstum	NOUN	_	_	_	_	_	_
+11	unerlässlich	unerlässlich	ADJ	_	_	_	_	_	_
+12	geworden	werden	AUX	_	_	_	_	_	_
+13	sind	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_386
+# text = Trotz konjunktureller Einbrüche bleibt die Arbeitslosenquote in der exportorientierten Industrie bemerkenswert niedrig.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	konjunktureller	konjunkturell	ADJ	_	_	_	_	_	_
+3	Einbrüche	Einbruch	NOUN	_	_	_	_	_	_
+4	bleibt	bleiben	VERB	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Arbeitslosenquote	Arbeitslosenquote	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	exportorientierten	exportorientiert	ADJ	_	_	_	_	_	_
+10	Industrie	Industrie	NOUN	_	_	_	_	_	_
+11	bemerkenswert	bemerkenswert	ADJ	_	_	_	_	_	_
+12	niedrig	niedrig	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_387
+# text = Die Verschuldung öffentlicher Haushalte überschreitet in mehreren Mitgliedstaaten die vereinbarten Stabilitätskriterien deutlich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verschuldung	Verschuldung	NOUN	_	_	_	_	_	_
+3	öffentlicher	öffentlich	ADJ	_	_	_	_	_	_
+4	Haushalte	Haushalt	NOUN	_	_	_	_	_	_
+5	überschreitet	überschreiten	VERB	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	mehreren	mehr	DET	_	_	_	_	_	_
+8	Mitgliedstaaten	Mitgliedstaat	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	vereinbarten	vereinbart	ADJ	_	_	_	_	_	_
+11	Stabilitätskriterien	Stabilitätskriterium	NOUN	_	_	_	_	_	_
+12	deutlich	deutlich	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_388
+# text = Es lässt sich nicht bestreiten, dass der Fachkräftemangel die Wettbewerbsfähigkeit des Standorts gefährdet.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	bestreiten	bestreiten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Fachkräftemangel	Fachkräftemangel	NOUN	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Wettbewerbsfähigkeit	Wettbewerbsfähigkeit	NOUN	_	_	_	_	_	_
+12	des	der	DET	_	_	_	_	_	_
+13	Standorts	Standort	NOUN	_	_	_	_	_	_
+14	gefährdet	gefährden	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_389
+# text = Die Analyse der Konsumdaten deutet auf eine schleichende Veränderung der Ausgabengewohnheiten hin.
+1	Die	der	DET	_	_	_	_	_	_
+2	Analyse	Analyse	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Konsumdaten	Konsumdaten	NOUN	_	_	_	_	_	_
+5	deutet	deuten	VERB	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	schleichende	schleichend	ADJ	_	_	_	_	_	_
+9	Veränderung	Veränderung	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Ausgabengewohnheiten	Ausgabengewohnheit	NOUN	_	_	_	_	_	_
+12	hin	hin	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_390
+# text = Um dem Preisdruck entgegenzuwirken, müssen Unternehmen ihre Lieferketten strategisch diversifizieren.
+1	Um	um	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Preisdruck	Preisdruck	NOUN	_	_	_	_	_	_
+4	entgegenzuwirken	entgegenwirken	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	müssen	müssen	AUX	_	_	_	_	_	_
+7	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+8	ihre	ihr	DET	_	_	_	_	_	_
+9	Lieferketten	Lieferkette	NOUN	_	_	_	_	_	_
+10	strategisch	strategisch	ADJ	_	_	_	_	_	_
+11	diversifizieren	diversifizieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_391
+# text = Die Privatisierung staatlicher Betriebe führte in der Vergangenheit häufig zu sozialen Spannungen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Privatisierung	Privatisierung	NOUN	_	_	_	_	_	_
+3	staatlicher	staatlich	ADJ	_	_	_	_	_	_
+4	Betriebe	Betrieb	NOUN	_	_	_	_	_	_
+5	führte	führen	VERB	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Vergangenheit	Vergangenheit	NOUN	_	_	_	_	_	_
+9	häufig	häufig	ADV	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	sozialen	sozial	ADJ	_	_	_	_	_	_
+12	Spannungen	Spannung	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_392
+# text = Es ist von zentraler Bedeutung, dass die Geldpolitik inflationäre Tendenzen frühzeitig erkennt und bekämpft.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	zentraler	zentral	ADJ	_	_	_	_	_	_
+5	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Geldpolitik	Geldpolitik	NOUN	_	_	_	_	_	_
+10	inflationäre	inflationär	ADJ	_	_	_	_	_	_
+11	Tendenzen	Tendenz	NOUN	_	_	_	_	_	_
+12	frühzeitig	frühzeitig	ADJ	_	_	_	_	_	_
+13	erkennt	erkennen	VERB	_	_	_	_	_	_
+14	und	und	CCONJ	_	_	_	_	_	_
+15	bekämpft	bekämpfen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_393
+# text = Die wachsende Ungleichheit bei der Vermögensverteilung erfordert eine grundlegende politische Diskussion.
+1	Die	der	DET	_	_	_	_	_	_
+2	wachsende	wachsend	ADJ	_	_	_	_	_	_
+3	Ungleichheit	Ungleichheit	NOUN	_	_	_	_	_	_
+4	bei	bei	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Vermögensverteilung	Vermögensverteilung	NOUN	_	_	_	_	_	_
+7	erfordert	erfordern	VERB	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	grundlegende	grundlegend	ADJ	_	_	_	_	_	_
+10	politische	politisch	ADJ	_	_	_	_	_	_
+11	Diskussion	Diskussion	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_394
+# text = Viele erfahrene Analysten prognostizieren für das kommende Geschäftsjahr eine moderate Konjunkturerholung.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	erfahrene	erfahren	ADJ	_	_	_	_	_	_
+3	Analysten	Analyst	NOUN	_	_	_	_	_	_
+4	prognostizieren	prognostizieren	VERB	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	kommende	kommend	ADJ	_	_	_	_	_	_
+8	Geschäftsjahr	Geschäftsjahr	NOUN	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	moderate	moderat	ADJ	_	_	_	_	_	_
+11	Konjunkturerholung	Konjunkturerholung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_395
+# text = Die schrittweise Einführung einer digitalen Zentralbankwährung könnte das Zahlungsverkehrssystem grundlegend transformieren.
+1	Die	der	DET	_	_	_	_	_	_
+2	schrittweise	schrittweise	ADJ	_	_	_	_	_	_
+3	Einführung	Einführung	NOUN	_	_	_	_	_	_
+4	einer	ein	DET	_	_	_	_	_	_
+5	digitalen	digital	ADJ	_	_	_	_	_	_
+6	Zentralbankwährung	Zentralbankwährung	NOUN	_	_	_	_	_	_
+7	könnte	können	AUX	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Zahlungsverkehrssystem	Zahlungsverkehrssystem	NOUN	_	_	_	_	_	_
+10	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+11	transformieren	transformieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_396
+# text = Infolge der Handelsbeschränkungen kam es zu erheblichen Verwerfungen in den internationalen Lieferketten.
+1	Infolge	infolge	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Handelsbeschränkungen	Handelsbeschränkung	NOUN	_	_	_	_	_	_
+4	kam	kommen	VERB	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	zu	zu	PART	_	_	_	_	_	_
+7	erheblichen	erheblich	ADJ	_	_	_	_	_	_
+8	Verwerfungen	Verwerfung	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	den	der	DET	_	_	_	_	_	_
+11	internationalen	international	ADJ	_	_	_	_	_	_
+12	Lieferketten	Lieferkette	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_397
+# text = Der Wirtschaftsminister betonte, dass Investitionen in grüne Technologien prioritär gefördert werden müssten.
+1	Der	der	DET	_	_	_	_	_	_
+2	Wirtschaftsminister	Wirtschaftsminister	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	Investitionen	Investition	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	grüne	grün	ADJ	_	_	_	_	_	_
+9	Technologien	Technologie	NOUN	_	_	_	_	_	_
+10	prioritär	prioritär	ADJ	_	_	_	_	_	_
+11	gefördert	fördern	VERB	_	_	_	_	_	_
+12	werden	werden	AUX	_	_	_	_	_	_
+13	müssten	müssen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_398
+# text = Die Rendite staatlicher Anleihen spiegelt die Erwartungen der Märkte an die künftige Fiskalpolitik wider.
+1	Die	der	DET	_	_	_	_	_	_
+2	Rendite	Rendite	NOUN	_	_	_	_	_	_
+3	staatlicher	staatlich	ADJ	_	_	_	_	_	_
+4	Anleihen	Anleihe	NOUN	_	_	_	_	_	_
+5	spiegelt	spiegeln	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Erwartungen	Erwartung	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Märkte	Markt	NOUN	_	_	_	_	_	_
+10	an	an	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	künftige	künftig	ADJ	_	_	_	_	_	_
+13	Fiskalpolitik	Fiskalpolitik	NOUN	_	_	_	_	_	_
+14	wider	wider	ADV	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_399
+# text = Es bleibt abzuwarten, ob die getroffenen Maßnahmen die Inflation dauerhaft unter Kontrolle bringen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bleibt	bleiben	VERB	_	_	_	_	_	_
+3	abzuwarten	abwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	getroffenen	getroffen	ADJ	_	_	_	_	_	_
+8	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Inflation	Inflation	NOUN	_	_	_	_	_	_
+11	dauerhaft	dauerhaft	ADJ	_	_	_	_	_	_
+12	unter	unter	ADP	_	_	_	_	_	_
+13	Kontrolle	Kontrolle	NOUN	_	_	_	_	_	_
+14	bringen	bringen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_400
+# text = Die Liberalisierung des Energiemarktes hat in einigen Regionen zu deutlich sinkenden Strompreisen geführt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Liberalisierung	Liberalisierung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Energiemarktes	Energiemarkt	NOUN	_	_	_	_	_	_
+5	hat	haben	AUX	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	einigen	einige	DET	_	_	_	_	_	_
+8	Regionen	Region	NOUN	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	deutlich	deutlich	ADV	_	_	_	_	_	_
+11	sinkenden	sinkend	ADJ	_	_	_	_	_	_
+12	Strompreisen	Strompreis	NOUN	_	_	_	_	_	_
+13	geführt	führen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_401
+# text = Ungeachtet der anhaltenden wirtschaftlichen Risiken setzen Investoren verstärkt auf nachhaltige Anlagestrategien.
+1	Ungeachtet	ungeachtet	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	anhaltenden	anhaltend	ADJ	_	_	_	_	_	_
+4	wirtschaftlichen	wirtschaftlich	ADJ	_	_	_	_	_	_
+5	Risiken	Risiko	NOUN	_	_	_	_	_	_
+6	setzen	setzen	VERB	_	_	_	_	_	_
+7	Investoren	Investor	NOUN	_	_	_	_	_	_
+8	verstärkt	verstärkt	ADJ	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	nachhaltige	nachhaltig	ADJ	_	_	_	_	_	_
+11	Anlagestrategien	Anlagestrategie	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_402
+# text = Die anhaltende Deflation bestimmter Sektoren könnte die gesamtwirtschaftliche Erholung erheblich verzögern.
+1	Die	der	DET	_	_	_	_	_	_
+2	anhaltende	anhaltend	ADJ	_	_	_	_	_	_
+3	Deflation	Deflation	NOUN	_	_	_	_	_	_
+4	bestimmter	bestimmt	ADJ	_	_	_	_	_	_
+5	Sektoren	Sektor	NOUN	_	_	_	_	_	_
+6	könnte	können	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	gesamtwirtschaftliche	gesamtwirtschaftlich	ADJ	_	_	_	_	_	_
+9	Erholung	Erholung	NOUN	_	_	_	_	_	_
+10	erheblich	erheblich	ADV	_	_	_	_	_	_
+11	verzögern	verzögern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_403
+# text = Es ist ratsam, vor größeren Investitionsentscheidungen die makroökonomischen Rahmenbedingungen sorgfältig zu prüfen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	größeren	groß	ADJ	_	_	_	_	_	_
+7	Investitionsentscheidungen	Investitionsentscheidung	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	makroökonomischen	makroökonomischen	ADJ	_	_	_	_	_	_
+10	Rahmenbedingungen	Rahmenbedingung	NOUN	_	_	_	_	_	_
+11	sorgfältig	sorgfältig	ADJ	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	prüfen	prüfen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_404
+# text = Die Konzentration des Marktes auf wenige Akteure untergräbt die Effizienz des Wettbewerbsmechanismus.
+1	Die	der	DET	_	_	_	_	_	_
+2	Konzentration	Konzentration	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Marktes	Markt	NOUN	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	wenige	wenig	DET	_	_	_	_	_	_
+7	Akteure	Akteur	NOUN	_	_	_	_	_	_
+8	untergräbt	untergraben	VERB	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Effizienz	Effizienz	NOUN	_	_	_	_	_	_
+11	des	der	DET	_	_	_	_	_	_
+12	Wettbewerbsmechanismus	Wettbewerbsmechanismus	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_405
+# text = Die Neuordnung der globalen Handelsbeziehungen stellt etablierte Wirtschaftsmodelle vor fundamentale Herausforderungen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Neuordnung	Neuordnung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	globalen	global	ADJ	_	_	_	_	_	_
+5	Handelsbeziehungen	Handelsbeziehung	NOUN	_	_	_	_	_	_
+6	stellt	stellen	VERB	_	_	_	_	_	_
+7	etablierte	etabliert	ADJ	_	_	_	_	_	_
+8	Wirtschaftsmodelle	Wirtschaftsmodell	NOUN	_	_	_	_	_	_
+9	vor	vor	ADP	_	_	_	_	_	_
+10	fundamentale	fundamental	ADJ	_	_	_	_	_	_
+11	Herausforderungen	Herausforderung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_406
+# text = Die im aktuellen Gesetzentwurf vorgesehenen Regelungen widersprechen eindeutig grundlegenden verfassungsrechtlichen Prinzipien.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	aktuellen	aktuell	ADJ	_	_	_	_	_	_
+4	Gesetzentwurf	Gesetzentwurf	NOUN	_	_	_	_	_	_
+5	vorgesehenen	vorgesehen	ADJ	_	_	_	_	_	_
+6	Regelungen	Regelung	NOUN	_	_	_	_	_	_
+7	widersprechen	widersprechen	VERB	_	_	_	_	_	_
+8	eindeutig	eindeutig	ADJ	_	_	_	_	_	_
+9	grundlegenden	grundlegend	ADJ	_	_	_	_	_	_
+10	verfassungsrechtlichen	verfassungsrechtlich	ADJ	_	_	_	_	_	_
+11	Prinzipien	Prinzip	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_407
+# text = Der Angeklagte berief sich auf seine Verfassungsrechte und beantragte die Aussetzung des Verfahrens.
+1	Der	der	DET	_	_	_	_	_	_
+2	Angeklagte	Angeklagter	NOUN	_	_	_	_	_	_
+3	berief	berufen	VERB	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	seine	sein	DET	_	_	_	_	_	_
+7	Verfassungsrechte	Verfassungsrecht	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	beantragte	beantragen	VERB	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Aussetzung	Außetzung	NOUN	_	_	_	_	_	_
+12	des	der	DET	_	_	_	_	_	_
+13	Verfahrens	Verfahren	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_408
+# text = Es ist unbestritten, dass der Schutz persönlicher Daten ein fundamentales Grundrecht darstellt.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	unbestritten	unbestritten	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Schutz	Schutz	NOUN	_	_	_	_	_	_
+8	persönlicher	persönlich	ADJ	_	_	_	_	_	_
+9	Daten	Datum	NOUN	_	_	_	_	_	_
+10	ein	ein	DET	_	_	_	_	_	_
+11	fundamentales	fundamental	ADJ	_	_	_	_	_	_
+12	Grundrecht	Grundrecht	NOUN	_	_	_	_	_	_
+13	darstellt	darstellen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_409
+# text = Die jüngste Gerichtsentscheidung setzt einen Präzedenzfall für künftige Streitigkeiten im Arbeitsrecht.
+1	Die	der	DET	_	_	_	_	_	_
+2	jüngste	jung	ADJ	_	_	_	_	_	_
+3	Gerichtsentscheidung	Gerichtsentscheidung	NOUN	_	_	_	_	_	_
+4	setzt	setzen	VERB	_	_	_	_	_	_
+5	einen	ein	DET	_	_	_	_	_	_
+6	Präzedenzfall	Präzedenzfall	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	künftige	künftig	ADJ	_	_	_	_	_	_
+9	Streitigkeiten	Streitigkeit	NOUN	_	_	_	_	_	_
+10	im	in	ADP	_	_	_	_	_	_
+11	Arbeitsrecht	Arbeitsrecht	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_410
+# text = Obwohl die Beweislage äußerst komplex ist, plädiert die Staatsanwaltschaft auf eine Verurteilung.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beweislage	Beweislage	NOUN	_	_	_	_	_	_
+4	äußerst	äußerst	ADV	_	_	_	_	_	_
+5	komplex	komplex	ADJ	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	plädiert	plädieren	VERB	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Staatsanwaltschaft	Staatsanwaltschaft	NOUN	_	_	_	_	_	_
+11	auf	auf	ADP	_	_	_	_	_	_
+12	eine	ein	DET	_	_	_	_	_	_
+13	Verurteilung	Verurteilung	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_411
+# text = Die Revision des Strafgesetzbuches zielt darauf ab, Cyberkriminalität effektiver zu bekämpfen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Revision	Revision	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Strafgesetzbuches	Strafgesetzbuch	NOUN	_	_	_	_	_	_
+5	zielt	zielen	VERB	_	_	_	_	_	_
+6	darauf	darauf	ADV	_	_	_	_	_	_
+7	ab	ab	ADP	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	Cyberkriminalität	Cyberkriminalität	NOUN	_	_	_	_	_	_
+10	effektiver	effektiv	ADJ	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	bekämpfen	bekämpfen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_412
+# text = Es bedarf einer umfassenden Reform des Verwaltungsverfahrens, um bürokratische Hemmnisse abzubauen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bedarf	bedürfen	VERB	_	_	_	_	_	_
+3	einer	ein	DET	_	_	_	_	_	_
+4	umfassenden	umfassend	ADJ	_	_	_	_	_	_
+5	Reform	Reform	NOUN	_	_	_	_	_	_
+6	des	der	DET	_	_	_	_	_	_
+7	Verwaltungsverfahrens	Verwaltungsverfahren	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	um	um	ADP	_	_	_	_	_	_
+10	bürokratische	bürokratisch	ADJ	_	_	_	_	_	_
+11	Hemmnisse	Hemmnis	NOUN	_	_	_	_	_	_
+12	abzubauen	abbauen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_413
+# text = Der Kläger macht geltend, dass der Vertrag aufgrund wesentlicher Irrtümer anfechtbar sei.
+1	Der	der	DET	_	_	_	_	_	_
+2	Kläger	Kläger	NOUN	_	_	_	_	_	_
+3	macht	machen	VERB	_	_	_	_	_	_
+4	geltend	geltend	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Vertrag	Vertrag	NOUN	_	_	_	_	_	_
+9	aufgrund	aufgrund	ADP	_	_	_	_	_	_
+10	wesentlicher	wesentlich	ADJ	_	_	_	_	_	_
+11	Irrtümer	Irrtum	NOUN	_	_	_	_	_	_
+12	anfechtbar	anfechtbar	ADJ	_	_	_	_	_	_
+13	sei	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_414
+# text = Die im Urteil angeführten Argumente überzeugen durch ihre stringente juristische Begründung.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Urteil	Urteil	NOUN	_	_	_	_	_	_
+4	angeführten	angeführt	ADJ	_	_	_	_	_	_
+5	Argumente	Argument	NOUN	_	_	_	_	_	_
+6	überzeugen	überzeugen	VERB	_	_	_	_	_	_
+7	durch	durch	ADP	_	_	_	_	_	_
+8	ihre	ihr	DET	_	_	_	_	_	_
+9	stringente	stringent	ADJ	_	_	_	_	_	_
+10	juristische	juristisch	ADJ	_	_	_	_	_	_
+11	Begründung	Begründung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_415
+# text = Trotz eingehender Verhandlungen konnte zwischen den Parteien kein außergerichtlicher Vergleich erzielt werden.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	eingehender	eingehend	ADJ	_	_	_	_	_	_
+3	Verhandlungen	Verhandlung	NOUN	_	_	_	_	_	_
+4	konnte	können	AUX	_	_	_	_	_	_
+5	zwischen	zwischen	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Parteien	Partei	NOUN	_	_	_	_	_	_
+8	kein	kein	DET	_	_	_	_	_	_
+9	außergerichtlicher	außergerichtlich	ADJ	_	_	_	_	_	_
+10	Vergleich	Vergleich	NOUN	_	_	_	_	_	_
+11	erzielt	erzielen	VERB	_	_	_	_	_	_
+12	werden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_416
+# text = Es ist von entscheidender Bedeutung, dass richterliche Entscheidungen unabhängig und unparteiisch erfolgen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	entscheidender	entscheidend	ADJ	_	_	_	_	_	_
+5	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	richterliche	richterlich	ADJ	_	_	_	_	_	_
+9	Entscheidungen	Entscheidung	NOUN	_	_	_	_	_	_
+10	unabhängig	unabhängig	ADJ	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	unparteiisch	unparteiisch	ADJ	_	_	_	_	_	_
+13	erfolgen	erfolgen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_417
+# text = Die Haftung des Auftragnehmers erstreckt sich auch auf Schäden, die durch Subunternehmer verursacht wurden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Haftung	Haftung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Auftragnehmers	Auftragnehmer	NOUN	_	_	_	_	_	_
+5	erstreckt	erstrecken	VERB	_	_	_	_	_	_
+6	sich	sich	PRON	_	_	_	_	_	_
+7	auch	auch	ADV	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	Schäden	Schaden	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	durch	durch	ADP	_	_	_	_	_	_
+13	Subunternehmer	Subunternehmer	NOUN	_	_	_	_	_	_
+14	verursacht	verursachen	VERB	_	_	_	_	_	_
+15	wurden	werden	AUX	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_418
+# text = Viele Juristen kritisieren, dass die geltende Gesetzgebung digitale Geschäftsmodelle unzureichend regelt.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Juristen	Jurist	NOUN	_	_	_	_	_	_
+3	kritisieren	kritisieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	geltende	geltend	ADJ	_	_	_	_	_	_
+8	Gesetzgebung	Gesetzgebung	NOUN	_	_	_	_	_	_
+9	digitale	digital	ADJ	_	_	_	_	_	_
+10	Geschäftsmodelle	Geschäftsmodell	NOUN	_	_	_	_	_	_
+11	unzureichend	unzureichend	ADJ	_	_	_	_	_	_
+12	regelt	regeln	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_419
+# text = Die Verjährungsfrist für zivilrechtliche Ansprüche beginnt mit Kenntnis des schädigenden Ereignisses.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verjährungsfrist	Verjährungsfrist	NOUN	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	zivilrechtliche	zivilrechtlich	ADJ	_	_	_	_	_	_
+5	Ansprüche	Anspruch	NOUN	_	_	_	_	_	_
+6	beginnt	beginnen	VERB	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	Kenntnis	Kenntnis	NOUN	_	_	_	_	_	_
+9	des	der	DET	_	_	_	_	_	_
+10	schädigenden	schädigend	ADJ	_	_	_	_	_	_
+11	Ereignisses	Ereignis	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_420
+# text = Es lässt sich nicht leugnen, dass die Durchsetzung von Verbraucherrechten erhebliche Ressourcen erfordert.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	leugnen	leugnen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Durchsetzung	Durchsetzung	NOUN	_	_	_	_	_	_
+10	von	von	ADP	_	_	_	_	_	_
+11	Verbraucherrechten	Verbraucherrecht	NOUN	_	_	_	_	_	_
+12	erhebliche	erheblich	ADJ	_	_	_	_	_	_
+13	Ressourcen	Ressource	NOUN	_	_	_	_	_	_
+14	erfordert	erfordern	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_421
+# text = Der österreichische Verfassungsgerichtshof erklärte mehrere Bestimmungen des neuen Sicherheitsgesetzes für verfassungswidrig.
+1	Der	der	DET	_	_	_	_	_	_
+2	österreichische	österreichisch	ADJ	_	_	_	_	_	_
+3	Verfassungsgerichtshof	Verfassungsgerichtshof	NOUN	_	_	_	_	_	_
+4	erklärte	erklären	VERB	_	_	_	_	_	_
+5	mehrere	mehrere	DET	_	_	_	_	_	_
+6	Bestimmungen	Bestimmung	NOUN	_	_	_	_	_	_
+7	des	der	DET	_	_	_	_	_	_
+8	neuen	neu	ADJ	_	_	_	_	_	_
+9	Sicherheitsgesetzes	Sicherheitsgesetz	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	verfassungswidrig	verfassungswidrig	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_422
+# text = Angesichts der rechtlichen Unsicherheit empfiehlt es sich, vor Vertragsabschluss fachkundigen Rat einzuholen.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	rechtlichen	rechtlich	ADJ	_	_	_	_	_	_
+4	Unsicherheit	Unsicherheit	NOUN	_	_	_	_	_	_
+5	empfiehlt	empfehlen	VERB	_	_	_	_	_	_
+6	es	es	PRON	_	_	_	_	_	_
+7	sich	sich	PRON	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	vor	vor	ADP	_	_	_	_	_	_
+10	Vertragsabschluss	Vertragsabschluß	NOUN	_	_	_	_	_	_
+11	fachkundigen	fachkundig	ADJ	_	_	_	_	_	_
+12	Rat	Rat	NOUN	_	_	_	_	_	_
+13	einzuholen	einholen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_423
+# text = Die Beweisaufnahme ergab, dass der Beklagte seine vertraglichen Pflichten vorsätzlich verletzt hatte.
+1	Die	der	DET	_	_	_	_	_	_
+2	Beweisaufnahme	Beweisaufnahme	NOUN	_	_	_	_	_	_
+3	ergab	ergeben	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Beklagte	Beklagte	NOUN	_	_	_	_	_	_
+8	seine	sein	DET	_	_	_	_	_	_
+9	vertraglichen	vertraglich	ADJ	_	_	_	_	_	_
+10	Pflichten	Pflicht	NOUN	_	_	_	_	_	_
+11	vorsätzlich	vorsätzlich	ADJ	_	_	_	_	_	_
+12	verletzt	verletzen	VERB	_	_	_	_	_	_
+13	hatte	haben	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_424
+# text = Es ist absehbar, dass die Digitalisierung der Justiz die Verfahrensdauer erheblich verkürzen wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	absehbar	absehbar	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Digitalisierung	Digitalisierung	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Justiz	Justiz	NOUN	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Verfahrensdauer	Verfahrensdauer	NOUN	_	_	_	_	_	_
+12	erheblich	erheblich	ADV	_	_	_	_	_	_
+13	verkürzen	verkürzen	VERB	_	_	_	_	_	_
+14	wird	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_425
+# text = Die Kanzlei vertritt die Auffassung, dass der Schadensersatzanspruch verjährt ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kanzlei	Kanzlei	NOUN	_	_	_	_	_	_
+3	vertritt	vertreten	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Auffassung	Auffassung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Schadensersatzanspruch	Schadensersatzanspruch	NOUN	_	_	_	_	_	_
+10	verjährt	verjähren	VERB	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_426
+# text = Unter Berücksichtigung aller Umstände erscheint eine Verurteilung wegen fahrlässiger Körperverletzung angemessen.
+1	Unter	unter	ADP	_	_	_	_	_	_
+2	Berücksichtigung	Berücksichtigung	NOUN	_	_	_	_	_	_
+3	aller	alle	DET	_	_	_	_	_	_
+4	Umstände	Umstand	NOUN	_	_	_	_	_	_
+5	erscheint	erscheinen	VERB	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	Verurteilung	Verurteilung	NOUN	_	_	_	_	_	_
+8	wegen	wegen	ADP	_	_	_	_	_	_
+9	fahrlässiger	fahrlässig	ADJ	_	_	_	_	_	_
+10	Körperverletzung	Körperverletzung	NOUN	_	_	_	_	_	_
+11	angemessen	angemessen	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_427
+# text = Die Neuregelung des Mietrechts soll Mieter vor ungerechtfertigten Kündigungen besser schützen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Neuregelung	Neuregelung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Mietrechts	Mietrecht	NOUN	_	_	_	_	_	_
+5	soll	sollen	AUX	_	_	_	_	_	_
+6	Mieter	Mieter	NOUN	_	_	_	_	_	_
+7	vor	vor	ADP	_	_	_	_	_	_
+8	ungerechtfertigten	ungerechtfertigt	ADJ	_	_	_	_	_	_
+9	Kündigungen	Kündigung	NOUN	_	_	_	_	_	_
+10	besser	gut	ADJ	_	_	_	_	_	_
+11	schützen	schützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_428
+# text = Es ist zu befürchten, dass die Komplexität des Steuerrechts zu häufigen Fehlinterpretationen führt.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	zu	zu	PART	_	_	_	_	_	_
+4	befürchten	befürchten	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Komplexität	Komplexität	NOUN	_	_	_	_	_	_
+9	des	der	DET	_	_	_	_	_	_
+10	Steuerrechts	Steuerrecht	NOUN	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	häufigen	häufig	ADJ	_	_	_	_	_	_
+13	Fehlinterpretationen	Fehlinterpretation	NOUN	_	_	_	_	_	_
+14	führt	führen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_429
+# text = Der Richter wies die Berufung zurück und bestätigte das Urteil des Landgerichts in vollem Umfang.
+1	Der	der	DET	_	_	_	_	_	_
+2	Richter	Richter	NOUN	_	_	_	_	_	_
+3	wies	weisen	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Berufung	Berufung	NOUN	_	_	_	_	_	_
+6	zurück	zurück	ADV	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	bestätigte	bestätigen	VERB	_	_	_	_	_	_
+9	das	der	DET	_	_	_	_	_	_
+10	Urteil	Urteil	NOUN	_	_	_	_	_	_
+11	des	der	DET	_	_	_	_	_	_
+12	Landgerichts	Landgericht	NOUN	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	vollem	voll	ADJ	_	_	_	_	_	_
+15	Umfang	Umfang	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_430
+# text = Die im Vertrag festgelegten Haftungsbeschränkungen sind nach geltender Rechtsprechung grundsätzlich wirksam.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Vertrag	Vertrag	NOUN	_	_	_	_	_	_
+4	festgelegten	festgelegt	ADJ	_	_	_	_	_	_
+5	Haftungsbeschränkungen	Haftungsbeschränkung	NOUN	_	_	_	_	_	_
+6	sind	sein	AUX	_	_	_	_	_	_
+7	nach	nach	ADP	_	_	_	_	_	_
+8	geltender	geltend	ADJ	_	_	_	_	_	_
+9	Rechtsprechung	Rechtsprechung	NOUN	_	_	_	_	_	_
+10	grundsätzlich	grundsätzlich	ADJ	_	_	_	_	_	_
+11	wirksam	wirksam	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_431
+# text = Die im Labor gewonnenen Ergebnisse stellen einen bedeutenden Durchbruch in der Krebsforschung dar.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Labor	Labor	NOUN	_	_	_	_	_	_
+4	gewonnenen	gewonnen	ADJ	_	_	_	_	_	_
+5	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+6	stellen	stellen	VERB	_	_	_	_	_	_
+7	einen	ein	DET	_	_	_	_	_	_
+8	bedeutenden	bedeutend	ADJ	_	_	_	_	_	_
+9	Durchbruch	Durchbruch	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Krebsforschung	Krebsforschung	NOUN	_	_	_	_	_	_
+13	dar	dar	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_432
+# text = Es ist erwiesen, dass regelmäßige körperliche Aktivität die kognitive Leistungsfähigkeit im Alter erhält.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	erwiesen	erweisen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	regelmäßige	regelmäßig	ADJ	_	_	_	_	_	_
+7	körperliche	körperlich	ADJ	_	_	_	_	_	_
+8	Aktivität	Aktivität	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	kognitive	kognitiv	ADJ	_	_	_	_	_	_
+11	Leistungsfähigkeit	Leistungsfähigkeit	NOUN	_	_	_	_	_	_
+12	im	in	ADP	_	_	_	_	_	_
+13	Alter	Alter	NOUN	_	_	_	_	_	_
+14	erhält	erhalten	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_433
+# text = Die Studie legt nahe, dass genetische Faktoren die Anfälligkeit für bestimmte Erkrankungen beeinflussen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studie	Studie	NOUN	_	_	_	_	_	_
+3	legt	legen	VERB	_	_	_	_	_	_
+4	nahe	nahe	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	genetische	genetisch	ADJ	_	_	_	_	_	_
+8	Faktoren	Faktor	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Anfälligkeit	Anfälligkeit	NOUN	_	_	_	_	_	_
+11	für	für	ADP	_	_	_	_	_	_
+12	bestimmte	bestimmt	ADJ	_	_	_	_	_	_
+13	Erkrankungen	Erkrankung	NOUN	_	_	_	_	_	_
+14	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_434
+# text = Obwohl die Stichprobengröße begrenzt war, liefern die Daten wertvolle Erkenntnisse für die Epidemiologie.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Stichprobengröße	Stichprobengröße	NOUN	_	_	_	_	_	_
+4	begrenzt	begrenzen	VERB	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	liefern	liefern	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Daten	Datum	NOUN	_	_	_	_	_	_
+10	wertvolle	wertvoll	ADJ	_	_	_	_	_	_
+11	Erkenntnisse	Erkenntnis	NOUN	_	_	_	_	_	_
+12	für	für	ADP	_	_	_	_	_	_
+13	die	der	DET	_	_	_	_	_	_
+14	Epidemiologie	Epidemiologie	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_435
+# text = Die Forscher wiesen nach, dass die untersuchten Substanzen eine entzündungshemmende Wirkung aufweisen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Forscher	Forscher	NOUN	_	_	_	_	_	_
+3	wiesen	weisen	VERB	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	untersuchten	untersucht	ADJ	_	_	_	_	_	_
+9	Substanzen	Substanz	NOUN	_	_	_	_	_	_
+10	eine	ein	DET	_	_	_	_	_	_
+11	entzündungshemmende	entzündungshemmend	ADJ	_	_	_	_	_	_
+12	Wirkung	Wirkung	NOUN	_	_	_	_	_	_
+13	aufweisen	aufweisen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_436
+# text = Es bedarf weiterer Langzeitstudien, um die Langzeiteffekte der neuen Therapie zuverlässig zu bewerten.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bedarf	bedürfen	VERB	_	_	_	_	_	_
+3	weiterer	weit	ADJ	_	_	_	_	_	_
+4	Langzeitstudien	Langzeitstudie	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	um	um	ADP	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Langzeiteffekte	Langzeiteffekt	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	neuen	neu	ADJ	_	_	_	_	_	_
+11	Therapie	Therapie	NOUN	_	_	_	_	_	_
+12	zuverlässig	zuverlässig	ADJ	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	bewerten	bewerten	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_437
+# text = Die Publikation der Ergebnisse in einer renommierten Fachzeitschrift erhöht ihre wissenschaftliche Anerkennung.
+1	Die	der	DET	_	_	_	_	_	_
+2	Publikation	Publikation	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	einer	ein	DET	_	_	_	_	_	_
+7	renommierten	renommiert	ADJ	_	_	_	_	_	_
+8	Fachzeitschrift	Fachzeitschrift	NOUN	_	_	_	_	_	_
+9	erhöht	erhöhen	VERB	_	_	_	_	_	_
+10	ihre	ihr	DET	_	_	_	_	_	_
+11	wissenschaftliche	wissenschaftlich	ADJ	_	_	_	_	_	_
+12	Anerkennung	Anerkennung	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_438
+# text = Trotz intensiver Bemühungen gelang es dem Team nicht, die ursprüngliche Hypothese experimentell zu bestätigen.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	intensiver	intensiv	ADJ	_	_	_	_	_	_
+3	Bemühungen	Bemühung	NOUN	_	_	_	_	_	_
+4	gelang	gelingen	VERB	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Team	Team	NOUN	_	_	_	_	_	_
+8	nicht	nicht	PART	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	ursprüngliche	ursprünglich	ADJ	_	_	_	_	_	_
+12	Hypothese	Hypothese	NOUN	_	_	_	_	_	_
+13	experimentell	experimentell	ADJ	_	_	_	_	_	_
+14	zu	zu	PART	_	_	_	_	_	_
+15	bestätigen	bestätigen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_439
+# text = Die Anwendung maschinellen Lernens revolutioniert die Auswertung großer medizinischer Datensätze erheblich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Anwendung	Anwendung	NOUN	_	_	_	_	_	_
+3	maschinellen	maschinellen	ADJ	_	_	_	_	_	_
+4	Lernens	Lernen	NOUN	_	_	_	_	_	_
+5	revolutioniert	revolutionieren	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Auswertung	Auswertung	NOUN	_	_	_	_	_	_
+8	großer	groß	ADJ	_	_	_	_	_	_
+9	medizinischer	medizinisch	ADJ	_	_	_	_	_	_
+10	Datensätze	Datensatz	NOUN	_	_	_	_	_	_
+11	erheblich	erheblich	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_440
+# text = Es ist von essenzieller Wichtigkeit, dass Forschungsprojekte ethischen Grundsätzen strikt entsprechen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	essenzieller	essenziell	ADJ	_	_	_	_	_	_
+5	Wichtigkeit	Wichtigkeit	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	Forschungsprojekte	Forschungsprojekt	NOUN	_	_	_	_	_	_
+9	ethischen	ethisch	ADJ	_	_	_	_	_	_
+10	Grundsätzen	Grundsatz	NOUN	_	_	_	_	_	_
+11	strikt	strikt	ADJ	_	_	_	_	_	_
+12	entsprechen	entsprechen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_441
+# text = Die im Bericht dokumentierten Messwerte weichen in mehreren Punkten von den erwarteten Werten ab.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Bericht	Bericht	NOUN	_	_	_	_	_	_
+4	dokumentierten	dokumentiert	ADJ	_	_	_	_	_	_
+5	Messwerte	Meßwert	NOUN	_	_	_	_	_	_
+6	weichen	weichen	VERB	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	mehreren	mehr	DET	_	_	_	_	_	_
+9	Punkten	Punkt	NOUN	_	_	_	_	_	_
+10	von	von	ADP	_	_	_	_	_	_
+11	den	der	DET	_	_	_	_	_	_
+12	erwarteten	erwarten	ADJ	_	_	_	_	_	_
+13	Werten	Wert|Werten	NOUN	_	_	_	_	_	_
+14	ab	ab	ADP	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_442
+# text = Viele Wissenschaftler plädieren für eine stärkere Offenlegung von Forschungsdaten und Methoden.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Wissenschaftler	Wissenschaftler	NOUN	_	_	_	_	_	_
+3	plädieren	plädieren	VERB	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	stärkere	stark	ADJ	_	_	_	_	_	_
+7	Offenlegung	Offenlegung	NOUN	_	_	_	_	_	_
+8	von	von	ADP	_	_	_	_	_	_
+9	Forschungsdaten	Forschungsdatum	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Methoden	Methode	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_443
+# text = Die Entwicklung neuer Impfstoffe erfordert eine enge Zusammenarbeit zwischen Universitäten und Industrie.
+1	Die	der	DET	_	_	_	_	_	_
+2	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+3	neuer	neu	ADJ	_	_	_	_	_	_
+4	Impfstoffe	Impfstoff	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	enge	eng	ADJ	_	_	_	_	_	_
+8	Zusammenarbeit	Zusammenarbeit	NOUN	_	_	_	_	_	_
+9	zwischen	zwischen	ADP	_	_	_	_	_	_
+10	Universitäten	Universität	NOUN	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	Industrie	Industrie	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_444
+# text = Es lässt sich nicht bestreiten, dass die Replikationskrise das Vertrauen in die Wissenschaft erschüttert hat.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	bestreiten	bestreiten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Replikationskrise	Replikationskrise	NOUN	_	_	_	_	_	_
+10	das	der	DET	_	_	_	_	_	_
+11	Vertrauen	Vertrauen	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	die	der	DET	_	_	_	_	_	_
+14	Wissenschaft	Wissenschaft	NOUN	_	_	_	_	_	_
+15	erschüttert	erschüttern	VERB	_	_	_	_	_	_
+16	hat	haben	AUX	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_445
+# text = Die Analyse der Probandendaten ergab statistisch signifikante Unterschiede zwischen den Versuchsgruppen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Analyse	Analyse	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Probandendaten	Probandendaten	NOUN	_	_	_	_	_	_
+5	ergab	ergeben	VERB	_	_	_	_	_	_
+6	statistisch	statistisch	ADJ	_	_	_	_	_	_
+7	signifikante	signifikant	ADJ	_	_	_	_	_	_
+8	Unterschiede	Unterschied	NOUN	_	_	_	_	_	_
+9	zwischen	zwischen	ADP	_	_	_	_	_	_
+10	den	der	DET	_	_	_	_	_	_
+11	Versuchsgruppen	Versuchsgruppe	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_446
+# text = Angesichts der begrenzten Finanzierung müssen Forschungseinrichtungen ihre Prioritäten strategisch neu setzen.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	begrenzten	begrenzt	ADJ	_	_	_	_	_	_
+4	Finanzierung	Finanzierung	NOUN	_	_	_	_	_	_
+5	müssen	müssen	AUX	_	_	_	_	_	_
+6	Forschungseinrichtungen	Forschungseinrichtung	NOUN	_	_	_	_	_	_
+7	ihre	ihr	DET	_	_	_	_	_	_
+8	Prioritäten	Priorität	NOUN	_	_	_	_	_	_
+9	strategisch	strategisch	ADJ	_	_	_	_	_	_
+10	neu	neu	ADJ	_	_	_	_	_	_
+11	setzen	setzen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_447
+# text = Die im Experiment beobachteten Phänomene lassen sich mit den bisherigen theoretischen Modellen nicht erklären.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Experiment	Experiment	NOUN	_	_	_	_	_	_
+4	beobachteten	beobachtet	ADJ	_	_	_	_	_	_
+5	Phänomene	Phänomen	NOUN	_	_	_	_	_	_
+6	lassen	lassen	VERB	_	_	_	_	_	_
+7	sich	sich	PRON	_	_	_	_	_	_
+8	mit	mit	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	bisherigen	bisherig	ADJ	_	_	_	_	_	_
+11	theoretischen	theoretisch	ADJ	_	_	_	_	_	_
+12	Modellen	Modell	NOUN	_	_	_	_	_	_
+13	nicht	nicht	PART	_	_	_	_	_	_
+14	erklären	erklären	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_448
+# text = Es ist ratsam, vor der Veröffentlichung die statistische Auswertung von unabhängigen Experten prüfen zu lassen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Veröffentlichung	Veröffentlichung	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	statistische	statistisch	ADJ	_	_	_	_	_	_
+10	Auswertung	Auswertung	NOUN	_	_	_	_	_	_
+11	von	von	ADP	_	_	_	_	_	_
+12	unabhängigen	unabhängig	ADJ	_	_	_	_	_	_
+13	Experten	Experte	NOUN	_	_	_	_	_	_
+14	prüfen	prüfen	VERB	_	_	_	_	_	_
+15	zu	zu	PART	_	_	_	_	_	_
+16	lassen	lassen	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_449
+# text = Die Erforschung der Quantenmechanik eröffnet völlig neue Perspektiven für die Materialwissenschaft.
+1	Die	der	DET	_	_	_	_	_	_
+2	Erforschung	Erforschung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Quantenmechanik	Quantenmechanik	NOUN	_	_	_	_	_	_
+5	eröffnet	eröffnen	VERB	_	_	_	_	_	_
+6	völlig	völlig	ADJ	_	_	_	_	_	_
+7	neue	neu	ADJ	_	_	_	_	_	_
+8	Perspektiven	Perspektive	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Materialwissenschaft	Materialwissenschaft	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_450
+# text = Ungeachtet der methodischen Einschränkungen bietet die Studie wichtige Ansatzpunkte für Folgeuntersuchungen.
+1	Ungeachtet	ungeachtet	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	methodischen	methodisch	ADJ	_	_	_	_	_	_
+4	Einschränkungen	Einschränkung	NOUN	_	_	_	_	_	_
+5	bietet	bieten	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Studie	Studie	NOUN	_	_	_	_	_	_
+8	wichtige	wichtig	ADJ	_	_	_	_	_	_
+9	Ansatzpunkte	Ansatzpunkt	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	Folgeuntersuchungen	Folgeuntersuchung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_451
+# text = Die im Feld gesammelten Daten belegen einen deutlichen Rückgang der Artenvielfalt in urbanen Gebieten.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Feld	Feld	NOUN	_	_	_	_	_	_
+4	gesammelten	gesammelt	ADJ	_	_	_	_	_	_
+5	Daten	Datum	NOUN	_	_	_	_	_	_
+6	belegen	belegen	VERB	_	_	_	_	_	_
+7	einen	ein	DET	_	_	_	_	_	_
+8	deutlichen	deutlich	ADJ	_	_	_	_	_	_
+9	Rückgang	Rückgang	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Artenvielfalt	Artenvielfalt	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	urbanen	urban	ADJ	_	_	_	_	_	_
+14	Gebieten	Gebiet	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_452
+# text = Es ist absehbar, dass die Genomforschung personalisierte Medizin in naher Zukunft ermöglichen wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	absehbar	absehbar	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Genomforschung	Genomforschung	NOUN	_	_	_	_	_	_
+8	personalisierte	personalisieren	ADJ	_	_	_	_	_	_
+9	Medizin	Medizin	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	naher	nah	ADJ	_	_	_	_	_	_
+12	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+13	ermöglichen	ermöglichen	VERB	_	_	_	_	_	_
+14	wird	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_453
+# text = Die Peer-Review-Verfahren müssen reformiert werden, um die Qualität wissenschaftlicher Publikationen zu sichern.
+1	Die	der	DET	_	_	_	_	_	_
+2	Peer-Review-Verfahren	Peer-Review-Verfahren	NOUN	_	_	_	_	_	_
+3	müssen	müssen	AUX	_	_	_	_	_	_
+4	reformiert	reformieren	VERB	_	_	_	_	_	_
+5	werden	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	um	um	ADP	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Qualität	Qualität	NOUN	_	_	_	_	_	_
+10	wissenschaftlicher	wissenschaftlich	ADJ	_	_	_	_	_	_
+11	Publikationen	Publikation	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	sichern	sichern	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_454
+# text = Der Forschungsbericht verweist darauf, dass interdisziplinäre Ansätze besonders fruchtbare Ergebnisse liefern.
+1	Der	der	DET	_	_	_	_	_	_
+2	Forschungsbericht	Forschungsbericht	NOUN	_	_	_	_	_	_
+3	verweist	verweisen	VERB	_	_	_	_	_	_
+4	darauf	darauf	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	interdisziplinäre	interdisziplinär	ADJ	_	_	_	_	_	_
+8	Ansätze	Ansatz	NOUN	_	_	_	_	_	_
+9	besonders	besonders	ADV	_	_	_	_	_	_
+10	fruchtbare	fruchtbar	ADJ	_	_	_	_	_	_
+11	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+12	liefern	liefern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_455
+# text = Die Validierung der Messinstrumente ist Voraussetzung für die Aussagekraft jeder empirischen Untersuchung.
+1	Die	der	DET	_	_	_	_	_	_
+2	Validierung	Validierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Messinstrumente	Messinstrument	NOUN	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	Voraussetzung	Voraussetzung	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Aussagekraft	Aussagekraft	NOUN	_	_	_	_	_	_
+10	jeder	jeder	DET	_	_	_	_	_	_
+11	empirischen	empirisch	ADJ	_	_	_	_	_	_
+12	Untersuchung	Untersuchung	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_456
+# text = Die Regierung kündigte an, dass die Klimaschutzmaßnahmen bis 2030 deutlich verschärft werden sollen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Regierung	Regierung	NOUN	_	_	_	_	_	_
+3	kündigte	kündigen	VERB	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Klimaschutzmaßnahmen	Klimaschutzmaßnahme	NOUN	_	_	_	_	_	_
+9	bis	bis	ADP	_	_	_	_	_	_
+10	2030	2030	NUM	_	_	_	_	_	_
+11	deutlich	deutlich	ADV	_	_	_	_	_	_
+12	verschärft	verschärfen	VERB	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	sollen	sollen	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_457
+# text = Es steht außer Frage, dass die Energiewende ohne massive Investitionen in erneuerbare Energien scheitern wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	steht	stehen	VERB	_	_	_	_	_	_
+3	außer	außer	ADP	_	_	_	_	_	_
+4	Frage	Frage	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Energiewende	Energiewende	NOUN	_	_	_	_	_	_
+9	ohne	ohne	ADP	_	_	_	_	_	_
+10	massive	massiv	ADJ	_	_	_	_	_	_
+11	Investitionen	Investition	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	erneuerbare	erneuerbar	ADJ	_	_	_	_	_	_
+14	Energien	Energie	NOUN	_	_	_	_	_	_
+15	scheitern	scheitern	VERB	_	_	_	_	_	_
+16	wird	werden	AUX	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_458
+# text = Der Gesetzentwurf sieht vor, dass Unternehmen ihre CO2-Emissionen transparent offenlegen müssen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Gesetzentwurf	Gesetzentwurf	NOUN	_	_	_	_	_	_
+3	sieht	sehen	VERB	_	_	_	_	_	_
+4	vor	vor	ADP	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+8	ihre	ihr	DET	_	_	_	_	_	_
+9	CO2-Emissionen	CO2-Emissionen	NOUN	_	_	_	_	_	_
+10	transparent	transparent	ADJ	_	_	_	_	_	_
+11	offenlegen	offenlegen	VERB	_	_	_	_	_	_
+12	müssen	müssen	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_459
+# text = Obwohl erhebliche Bedenken geäußert wurden, stimmte das Parlament dem Reformpaket letztlich zu.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	erhebliche	erheblich	ADJ	_	_	_	_	_	_
+3	Bedenken	Bedenken	NOUN	_	_	_	_	_	_
+4	geäußert	äußern	VERB	_	_	_	_	_	_
+5	wurden	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	stimmte	stimmen	VERB	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Parlament	Parlament	NOUN	_	_	_	_	_	_
+10	dem	der	DET	_	_	_	_	_	_
+11	Reformpaket	Reformpaket	NOUN	_	_	_	_	_	_
+12	letztlich	letztlich	ADV	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_460
+# text = Die im Koalitionsvertrag vereinbarten Ziele erfordern eine konsequente Umsetzung auf allen politischen Ebenen.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Koalitionsvertrag	Koalitionsvertrag	NOUN	_	_	_	_	_	_
+4	vereinbarten	vereinbart	ADJ	_	_	_	_	_	_
+5	Ziele	Ziel	NOUN	_	_	_	_	_	_
+6	erfordern	erfordern	VERB	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	konsequente	konsequent	ADJ	_	_	_	_	_	_
+9	Umsetzung	Umsetzung	NOUN	_	_	_	_	_	_
+10	auf	auf	ADP	_	_	_	_	_	_
+11	allen	alle	DET	_	_	_	_	_	_
+12	politischen	politisch	ADJ	_	_	_	_	_	_
+13	Ebenen	Ebene	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_461
+# text = Es ist von großer Bedeutung, dass Bildungspolitik Chancengleichheit für alle gesellschaftlichen Schichten gewährleistet.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	großer	groß	ADJ	_	_	_	_	_	_
+5	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	Bildungspolitik	Bildungspolitik	NOUN	_	_	_	_	_	_
+9	Chancengleichheit	Chancengleichheit	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	alle	alle	DET	_	_	_	_	_	_
+12	gesellschaftlichen	gesellschaftlich	ADJ	_	_	_	_	_	_
+13	Schichten	Schicht	NOUN	_	_	_	_	_	_
+14	gewährleistet	gewährleisten	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_462
+# text = Die Verschärfung der Asylpolitik stieß bei Menschenrechtsorganisationen auf scharfe internationale Kritik.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verschärfung	Verschärfung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Asylpolitik	Asylpolitik	NOUN	_	_	_	_	_	_
+5	stieß	stoßen	VERB	_	_	_	_	_	_
+6	bei	bei	ADP	_	_	_	_	_	_
+7	Menschenrechtsorganisationen	Menschenrechtsorganisation	NOUN	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	scharfe	scharf	ADJ	_	_	_	_	_	_
+10	internationale	international	ADJ	_	_	_	_	_	_
+11	Kritik	Kritik	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_463
+# text = Trotz des Widerstands der Opposition wurde das Gesundheitsreformgesetz mit knapper Mehrheit verabschiedet.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Widerstands	Widerstand	NOUN	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Opposition	Opposition	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	das	der	DET	_	_	_	_	_	_
+8	Gesundheitsreformgesetz	Gesundheitsreformgesetz	NOUN	_	_	_	_	_	_
+9	mit	mit	ADP	_	_	_	_	_	_
+10	knapper	knapp	ADJ	_	_	_	_	_	_
+11	Mehrheit	Mehrheit	NOUN	_	_	_	_	_	_
+12	verabschiedet	verabschieden	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_464
+# text = Es bedarf einer kohärenten Migrationspolitik, die wirtschaftliche Interessen und humanitäre Verpflichtungen vereint.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bedarf	bedürfen	VERB	_	_	_	_	_	_
+3	einer	ein	DET	_	_	_	_	_	_
+4	kohärenten	kohärent	ADJ	_	_	_	_	_	_
+5	Migrationspolitik	Migrationspolitik	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	wirtschaftliche	wirtschaftlich	ADJ	_	_	_	_	_	_
+9	Interessen	Interesse	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	humanitäre	humanitär	ADJ	_	_	_	_	_	_
+12	Verpflichtungen	Verpflichtung	NOUN	_	_	_	_	_	_
+13	vereint	vereinen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_465
+# text = Der Ministerpräsident betonte, dass die Digitalisierung der Verwaltung oberste politische Priorität genieße.
+1	Der	der	DET	_	_	_	_	_	_
+2	Ministerpräsident	Ministerpräsident	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Digitalisierung	Digitalisierung	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Verwaltung	Verwaltung	NOUN	_	_	_	_	_	_
+10	oberste	ober	ADJ	_	_	_	_	_	_
+11	politische	politisch	ADJ	_	_	_	_	_	_
+12	Priorität	Priorität	NOUN	_	_	_	_	_	_
+13	genieße	genießen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_466
+# text = Die im Haushaltsplan vorgesehenen Kürzungen betreffen vor allem den Bereich der sozialen Sicherungssysteme.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Haushaltsplan	Haushaltsplan	NOUN	_	_	_	_	_	_
+4	vorgesehenen	vorgesehen	ADJ	_	_	_	_	_	_
+5	Kürzungen	Kürzung	NOUN	_	_	_	_	_	_
+6	betreffen	betreffen	VERB	_	_	_	_	_	_
+7	vor	vor	ADP	_	_	_	_	_	_
+8	allem	alle	DET	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Bereich	Bereich	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	sozialen	sozial	ADJ	_	_	_	_	_	_
+13	Sicherungssysteme	Sicherungssystem	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_467
+# text = Viele Kommunalpolitiker fordern eine stärkere finanzielle Unterstützung durch den Bund und die Länder.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Kommunalpolitiker	Kommunalpolitiker	NOUN	_	_	_	_	_	_
+3	fordern	fordern	VERB	_	_	_	_	_	_
+4	eine	ein	DET	_	_	_	_	_	_
+5	stärkere	stark	ADJ	_	_	_	_	_	_
+6	finanzielle	finanziell	ADJ	_	_	_	_	_	_
+7	Unterstützung	Unterstützung	NOUN	_	_	_	_	_	_
+8	durch	durch	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Bund	Bund	NOUN	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	die	der	DET	_	_	_	_	_	_
+13	Länder	Land	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_468
+# text = Die Einführung des Mindestlohns hat die Einkommenssituation zahlreicher Beschäftigter spürbar verbessert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einführung	Einführung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Mindestlohns	Mindestlohn	NOUN	_	_	_	_	_	_
+5	hat	haben	AUX	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Einkommenssituation	Einkommenssituation	NOUN	_	_	_	_	_	_
+8	zahlreicher	zahlreicher	ADJ	_	_	_	_	_	_
+9	Beschäftigter	Beschäftigte	NOUN	_	_	_	_	_	_
+10	spürbar	spürbar	ADV	_	_	_	_	_	_
+11	verbessert	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_469
+# text = Es lässt sich nicht leugnen, dass die politische Polarisierung die Gesetzgebungsfähigkeit des Parlaments beeinträchtigt.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	leugnen	leugnen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	politische	politisch	ADJ	_	_	_	_	_	_
+10	Polarisierung	Polarisierung	NOUN	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Gesetzgebungsfähigkeit	Gesetzgebungsfähigkeit	NOUN	_	_	_	_	_	_
+13	des	der	DET	_	_	_	_	_	_
+14	Parlaments	Parlament	NOUN	_	_	_	_	_	_
+15	beeinträchtigt	beeinträchtigen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_470
+# text = Die Neuausrichtung der Außenpolitik zielt darauf ab, internationale Partnerschaften strategisch zu stärken.
+1	Die	der	DET	_	_	_	_	_	_
+2	Neuausrichtung	Neuausrichtung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Außenpolitik	Außenpolitik	NOUN	_	_	_	_	_	_
+5	zielt	zielen	VERB	_	_	_	_	_	_
+6	darauf	darauf	ADV	_	_	_	_	_	_
+7	ab	ab	ADP	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	internationale	international	ADJ	_	_	_	_	_	_
+10	Partnerschaften	Partnerschaft	NOUN	_	_	_	_	_	_
+11	strategisch	strategisch	ADJ	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	stärken	stärken	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_471
+# text = Angesichts der beschleunigten demografischen Entwicklung müssen die Rentensysteme grundlegend reformiert werden.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	beschleunigten	beschleunigt	ADJ	_	_	_	_	_	_
+4	demografischen	demografischen	ADJ	_	_	_	_	_	_
+5	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+6	müssen	müssen	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Rentensysteme	Rentensystem	NOUN	_	_	_	_	_	_
+9	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+10	reformiert	reformieren	VERB	_	_	_	_	_	_
+11	werden	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_472
+# text = Die im Bericht empfohlenen Maßnahmen sollen die Integration von Zuwanderern nachhaltig verbessern.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Bericht	Bericht	NOUN	_	_	_	_	_	_
+4	empfohlenen	empfohlen	ADJ	_	_	_	_	_	_
+5	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+6	sollen	sollen	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Integration	Integration	NOUN	_	_	_	_	_	_
+9	von	von	ADP	_	_	_	_	_	_
+10	Zuwanderern	Zuwanderer	NOUN	_	_	_	_	_	_
+11	nachhaltig	nachhaltig	ADV	_	_	_	_	_	_
+12	verbessern	verbessern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_473
+# text = Es ist zu hoffen, dass die internationalen Klimaverhandlungen zu verbindlichen Reduktionszielen führen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	zu	zu	PART	_	_	_	_	_	_
+4	hoffen	hoffen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	internationalen	international	ADJ	_	_	_	_	_	_
+9	Klimaverhandlungen	Klimaverhandlung	NOUN	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	verbindlichen	verbindlich	ADJ	_	_	_	_	_	_
+12	Reduktionszielen	Reduktionsziel	NOUN	_	_	_	_	_	_
+13	führen	führen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_474
+# text = Die Förderung von Start-ups ist ein zentraler Bestandteil der nationalen Innovationsstrategie.
+1	Die	der	DET	_	_	_	_	_	_
+2	Förderung	Förderung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Start-ups	Start-ups	NOUN	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	ein	ein	DET	_	_	_	_	_	_
+7	zentraler	zentral	ADJ	_	_	_	_	_	_
+8	Bestandteil	Bestandteil	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	nationalen	national	ADJ	_	_	_	_	_	_
+11	Innovationsstrategie	Innovationsstrategie	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_475
+# text = Ungeachtet der parteipolitischen Differenzen einigten sich die Fraktionen auf einen Kompromissentwurf.
+1	Ungeachtet	ungeachtet	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	parteipolitischen	parteipolitisch	ADJ	_	_	_	_	_	_
+4	Differenzen	Differenz	NOUN	_	_	_	_	_	_
+5	einigten	einigen	VERB	_	_	_	_	_	_
+6	sich	sich	PRON	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Fraktionen	Fraktion	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	einen	ein	DET	_	_	_	_	_	_
+11	Kompromissentwurf	Kompromissentwurf	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_476
+# text = Die Verschärfung der Datenschutzbestimmungen stärkt die Rechte der Bürger gegenüber digitalen Konzernen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verschärfung	Verschärfung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Datenschutzbestimmungen	Datenschutzbestimmung	NOUN	_	_	_	_	_	_
+5	stärkt	stärken	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Rechte	Recht	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Bürger	Bürger	NOUN	_	_	_	_	_	_
+10	gegenüber	gegenüber	ADP	_	_	_	_	_	_
+11	digitalen	digital	ADJ	_	_	_	_	_	_
+12	Konzernen	Konzern	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_477
+# text = Es ist abzuwarten, inwieweit die angekündigten Reformen tatsächlich in die Praxis umgesetzt werden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	abzuwarten	abwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	inwieweit	inwieweit	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	angekündigten	angekündigt	ADJ	_	_	_	_	_	_
+8	Reformen	Reform	NOUN	_	_	_	_	_	_
+9	tatsächlich	tatsächlich	ADJ	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Praxis	Praxis	NOUN	_	_	_	_	_	_
+13	umgesetzt	umsetzen	VERB	_	_	_	_	_	_
+14	werden	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_478
+# text = Die kommunale Regionalpolitik soll strukturschwache Gebiete durch gezielte Investitionsprogramme stärker fördern.
+1	Die	der	DET	_	_	_	_	_	_
+2	kommunale	kommunal	ADJ	_	_	_	_	_	_
+3	Regionalpolitik	Regionalpolitik	NOUN	_	_	_	_	_	_
+4	soll	sollen	AUX	_	_	_	_	_	_
+5	strukturschwache	strukturschwach	ADJ	_	_	_	_	_	_
+6	Gebiete	Gebiet	NOUN	_	_	_	_	_	_
+7	durch	durch	ADP	_	_	_	_	_	_
+8	gezielte	gezielt	ADJ	_	_	_	_	_	_
+9	Investitionsprogramme	Investitionsprogramm	NOUN	_	_	_	_	_	_
+10	stärker	stark	ADJ	_	_	_	_	_	_
+11	fördern	fördern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_479
+# text = Der Bericht verdeutlicht, dass präventive Gesundheitspolitik langfristig erhebliche Kosten einsparen kann.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	verdeutlicht	verdeutlichen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	präventive	präventiv	ADJ	_	_	_	_	_	_
+7	Gesundheitspolitik	Gesundheitspolitik	NOUN	_	_	_	_	_	_
+8	langfristig	langfristig	ADJ	_	_	_	_	_	_
+9	erhebliche	erheblich	ADJ	_	_	_	_	_	_
+10	Kosten	Kosten	NOUN	_	_	_	_	_	_
+11	einsparen	einsparen	VERB	_	_	_	_	_	_
+12	kann	können	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_480
+# text = Die im Koalitionsvertrag festgeschriebenen Klimaziele erfordern einen radikalen Umbau der Energieinfrastruktur.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Koalitionsvertrag	Koalitionsvertrag	NOUN	_	_	_	_	_	_
+4	festgeschriebenen	festgeschrieben	ADJ	_	_	_	_	_	_
+5	Klimaziele	Klimaziel	NOUN	_	_	_	_	_	_
+6	erfordern	erfordern	VERB	_	_	_	_	_	_
+7	einen	ein	DET	_	_	_	_	_	_
+8	radikalen	radikal	ADJ	_	_	_	_	_	_
+9	Umbau	Umbau	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Energieinfrastruktur	Energieinfrastruktur	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_481
+# text = Die Frage nach dem Wesen des Bewusstseins beschäftigt Philosophen seit der Antike auf vielfältige Weise.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frage	Frage	NOUN	_	_	_	_	_	_
+3	nach	nach	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Wesen	Wesen	NOUN	_	_	_	_	_	_
+6	des	der	DET	_	_	_	_	_	_
+7	Bewusstseins	Bewusstsein	NOUN	_	_	_	_	_	_
+8	beschäftigt	beschäftigen	VERB	_	_	_	_	_	_
+9	Philosophen	Philosoph	NOUN	_	_	_	_	_	_
+10	seit	seit	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Antike	Antike	NOUN	_	_	_	_	_	_
+13	auf	auf	ADP	_	_	_	_	_	_
+14	vielfältige	vielfältig	ADJ	_	_	_	_	_	_
+15	Weise	Weise	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_482
+# text = Es ist umstritten, ob moralische Urteile auf universellen Prinzipien oder kulturellen Konventionen beruhen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	umstritten	umstritten	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	moralische	moralisch	ADJ	_	_	_	_	_	_
+7	Urteile	Urteil	NOUN	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	universellen	universell	ADJ	_	_	_	_	_	_
+10	Prinzipien	Prinzip	NOUN	_	_	_	_	_	_
+11	oder	oder	CCONJ	_	_	_	_	_	_
+12	kulturellen	kulturell	ADJ	_	_	_	_	_	_
+13	Konventionen	Konvention	NOUN	_	_	_	_	_	_
+14	beruhen	beruhen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_483
+# text = Der Essay argumentiert, dass die Freiheit des Willens mit deterministischen Naturgesetzen vereinbar sei.
+1	Der	der	DET	_	_	_	_	_	_
+2	Essay	Essay	NOUN	_	_	_	_	_	_
+3	argumentiert	argumentieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Freiheit	Freiheit	NOUN	_	_	_	_	_	_
+8	des	der	DET	_	_	_	_	_	_
+9	Willens	Willen	NOUN	_	_	_	_	_	_
+10	mit	mit	ADP	_	_	_	_	_	_
+11	deterministischen	deterministisch	ADJ	_	_	_	_	_	_
+12	Naturgesetzen	Naturgesetz	NOUN	_	_	_	_	_	_
+13	vereinbar	vereinbar	ADJ	_	_	_	_	_	_
+14	sei	sein	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_484
+# text = Obwohl die Argumentation stringent ist, bleiben einige zentrale Prämissen der Theorie unbelegt.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Argumentation	Argumentation	NOUN	_	_	_	_	_	_
+4	stringent	stringent	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bleiben	bleiben	VERB	_	_	_	_	_	_
+8	einige	einig	DET	_	_	_	_	_	_
+9	zentrale	zentral	ADJ	_	_	_	_	_	_
+10	Prämissen	Prämisse	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Theorie	Theorie	NOUN	_	_	_	_	_	_
+13	unbelegt	unbelegt	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_485
+# text = Die Unterscheidung zwischen Sein und Schein bildet einen Grundpfeiler der phänomenologischen Philosophie.
+1	Die	der	DET	_	_	_	_	_	_
+2	Unterscheidung	Unterscheidung	NOUN	_	_	_	_	_	_
+3	zwischen	zwischen	ADP	_	_	_	_	_	_
+4	Sein	Sein	NOUN	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	Schein	Schein	NOUN	_	_	_	_	_	_
+7	bildet	bilden	VERB	_	_	_	_	_	_
+8	einen	ein	DET	_	_	_	_	_	_
+9	Grundpfeiler	Grundpfeiler	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	phänomenologischen	phänomenologisch	ADJ	_	_	_	_	_	_
+12	Philosophie	Philosophie	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_486
+# text = Es bedarf einer grundlegenden Klärung des Begriffs der Gerechtigkeit im Kontext globaler Ungleichheit.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bedarf	bedürfen	VERB	_	_	_	_	_	_
+3	einer	ein	DET	_	_	_	_	_	_
+4	grundlegenden	grundlegend	ADJ	_	_	_	_	_	_
+5	Klärung	Klärung	NOUN	_	_	_	_	_	_
+6	des	der	DET	_	_	_	_	_	_
+7	Begriffs	Begriff	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Gerechtigkeit	Gerechtigkeit	NOUN	_	_	_	_	_	_
+10	im	in	ADP	_	_	_	_	_	_
+11	Kontext	Kontext	NOUN	_	_	_	_	_	_
+12	globaler	global	ADJ	_	_	_	_	_	_
+13	Ungleichheit	Ungleichheit	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_487
+# text = Der Philosoph wies nach, dass ethische Verantwortung nicht ohne Autonomie des handelnden Subjekts denkbar ist.
+1	Der	der	DET	_	_	_	_	_	_
+2	Philosoph	Philosoph	NOUN	_	_	_	_	_	_
+3	wies	weisen	VERB	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	ethische	ethisch	ADJ	_	_	_	_	_	_
+8	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+9	nicht	nicht	PART	_	_	_	_	_	_
+10	ohne	ohne	ADP	_	_	_	_	_	_
+11	Autonomie	Autonomie	NOUN	_	_	_	_	_	_
+12	des	der	DET	_	_	_	_	_	_
+13	handelnden	handelnd	ADJ	_	_	_	_	_	_
+14	Subjekts	Subjekt	NOUN	_	_	_	_	_	_
+15	denkbar	denken	VERB	_	_	_	_	_	_
+16	ist	sein	AUX	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_488
+# text = Trotz divergierender Positionen einigten sich die Teilnehmer auf die Notwendigkeit eines interkulturellen Dialogs.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	divergierender	divergierend	ADJ	_	_	_	_	_	_
+3	Positionen	Position	NOUN	_	_	_	_	_	_
+4	einigten	einigen	VERB	_	_	_	_	_	_
+5	sich	sich	PRON	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Teilnehmer	Teilnehmer	NOUN	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Notwendigkeit	Notwendigkeit	NOUN	_	_	_	_	_	_
+11	eines	ein	DET	_	_	_	_	_	_
+12	interkulturellen	interkulturell	ADJ	_	_	_	_	_	_
+13	Dialogs	Dialog	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_489
+# text = Es lässt sich nicht leugnen, dass technologischer Fortschritt neue ethische Dilemmata hervorruft.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	leugnen	leugnen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	technologischer	technologisch	ADJ	_	_	_	_	_	_
+9	Fortschritt	Fortschritt	NOUN	_	_	_	_	_	_
+10	neue	neu	ADJ	_	_	_	_	_	_
+11	ethische	ethisch	ADJ	_	_	_	_	_	_
+12	Dilemmata	Dilemma	NOUN	_	_	_	_	_	_
+13	hervorruft	hervorrufen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_490
+# text = Die Kritik am Utilitarismus betont, dass individuelle Rechte nicht utilitaristisch aufgewogen werden dürfen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kritik	Kritik	NOUN	_	_	_	_	_	_
+3	am	an	ADP	_	_	_	_	_	_
+4	Utilitarismus	Utilitarismus	NOUN	_	_	_	_	_	_
+5	betont	betonen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	individuelle	individuell	ADJ	_	_	_	_	_	_
+9	Rechte	Recht	NOUN	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	utilitaristisch	utilitaristisch	ADJ	_	_	_	_	_	_
+12	aufgewogen	aufwiegen	VERB	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	dürfen	dürfen	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_491
+# text = Angesichts der Komplexität des Problems empfiehlt sich eine differenzierte Betrachtung der verschiedenen Positionen.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Komplexität	Komplexität	NOUN	_	_	_	_	_	_
+4	des	der	DET	_	_	_	_	_	_
+5	Problems	Problem	NOUN	_	_	_	_	_	_
+6	empfiehlt	empfehlen	VERB	_	_	_	_	_	_
+7	sich	sich	PRON	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	differenzierte	differenziert	ADJ	_	_	_	_	_	_
+10	Betrachtung	Betrachtung	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	verschiedenen	verschieden	ADJ	_	_	_	_	_	_
+13	Positionen	Position	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_492
+# text = Die im Werk entwickelte Theorie des Guten beeinflusste die gesamte nachkantische Moralphilosophie nachhaltig.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Werk	Werk	NOUN	_	_	_	_	_	_
+4	entwickelte	entwickelt	ADJ	_	_	_	_	_	_
+5	Theorie	Theorie	NOUN	_	_	_	_	_	_
+6	des	der	DET	_	_	_	_	_	_
+7	Guten	Gutum	NOUN	_	_	_	_	_	_
+8	beeinflusste	beeinflussen	VERB	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	gesamte	gesamt	ADJ	_	_	_	_	_	_
+11	nachkantische	nachkantisch	ADJ	_	_	_	_	_	_
+12	Moralphilosophie	Moralphilosophie	NOUN	_	_	_	_	_	_
+13	nachhaltig	nachhaltig	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_493
+# text = Es ist von zentraler Bedeutung, dass philosophische Argumente logisch kohärent und widerspruchsfrei sind.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	zentraler	zentral	ADJ	_	_	_	_	_	_
+5	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	philosophische	philosophisch	ADJ	_	_	_	_	_	_
+9	Argumente	Argument	NOUN	_	_	_	_	_	_
+10	logisch	logisch	ADJ	_	_	_	_	_	_
+11	kohärent	kohärent	ADJ	_	_	_	_	_	_
+12	und	und	CCONJ	_	_	_	_	_	_
+13	widerspruchsfrei	widerspruchsfrei	ADJ	_	_	_	_	_	_
+14	sind	sein	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_494
+# text = Viele Denker kritisieren, dass der postmoderne Relativismus jede normative Grundlage untergräbt.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Denker	Denker	NOUN	_	_	_	_	_	_
+3	kritisieren	kritisieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	postmoderne	postmodern	ADJ	_	_	_	_	_	_
+8	Relativismus	Relativismus	NOUN	_	_	_	_	_	_
+9	jede	jeder	DET	_	_	_	_	_	_
+10	normative	normativ	ADJ	_	_	_	_	_	_
+11	Grundlage	Grundlage	NOUN	_	_	_	_	_	_
+12	untergräbt	untergraben	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_495
+# text = Die Frage nach der Erkennbarkeit der Wahrheit trennt Realisten und Konstruktivisten seit Jahrhunderten.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frage	Frage	NOUN	_	_	_	_	_	_
+3	nach	nach	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Erkennbarkeit	Erkennbarkeit	NOUN	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Wahrheit	Wahrheit	NOUN	_	_	_	_	_	_
+8	trennt	trennen	VERB	_	_	_	_	_	_
+9	Realisten	Realist	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Konstruktivisten	Konstruktivist	NOUN	_	_	_	_	_	_
+12	seit	seit	ADP	_	_	_	_	_	_
+13	Jahrhunderten	Jahrhundert	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_496
+# text = Es ist ratsam, vor der Bildung einer festen Meinung die zugrunde liegenden Annahmen kritisch zu hinterfragen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Bildung	Bildung	NOUN	_	_	_	_	_	_
+8	einer	ein	DET	_	_	_	_	_	_
+9	festen	fest	ADJ	_	_	_	_	_	_
+10	Meinung	Meinung	NOUN	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	zugrunde	zugrunde	ADV	_	_	_	_	_	_
+13	liegenden	liegend	ADJ	_	_	_	_	_	_
+14	Annahmen	Annahme	NOUN	_	_	_	_	_	_
+15	kritisch	kritisch	ADJ	_	_	_	_	_	_
+16	zu	zu	PART	_	_	_	_	_	_
+17	hinterfragen	hinterfragen	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_497
+# text = Die Debatte über künstliche Intelligenz wirft grundlegende Fragen nach der Natur des menschlichen Geistes auf.
+1	Die	der	DET	_	_	_	_	_	_
+2	Debatte	Debatte	NOUN	_	_	_	_	_	_
+3	über	über	ADP	_	_	_	_	_	_
+4	künstliche	künstlich	ADJ	_	_	_	_	_	_
+5	Intelligenz	Intelligenz	NOUN	_	_	_	_	_	_
+6	wirft	werfen	VERB	_	_	_	_	_	_
+7	grundlegende	grundlegend	ADJ	_	_	_	_	_	_
+8	Fragen	Frage	NOUN	_	_	_	_	_	_
+9	nach	nach	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Natur	Natur	NOUN	_	_	_	_	_	_
+12	des	der	DET	_	_	_	_	_	_
+13	menschlichen	menschlich	ADJ	_	_	_	_	_	_
+14	Geistes	Geist	NOUN	_	_	_	_	_	_
+15	auf	auf	ADP	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_498
+# text = Ungeachtet der historischen Distanz bleiben die Werke Platons für die aktuelle Ethikdebatte hoch relevant.
+1	Ungeachtet	ungeachtet	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	historischen	historisch	ADJ	_	_	_	_	_	_
+4	Distanz	Distanz	NOUN	_	_	_	_	_	_
+5	bleiben	bleiben	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Werke	Werk	NOUN	_	_	_	_	_	_
+8	Platons	Plato	PROPN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	aktuelle	aktuell	ADJ	_	_	_	_	_	_
+12	Ethikdebatte	Ethikdebatte	NOUN	_	_	_	_	_	_
+13	hoch	hoch	ADJ	_	_	_	_	_	_
+14	relevant	relevant	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_499
+# text = Der Vortrag verdeutlichte, dass Verantwortungsethik eine Alternative zur klassischen Pflichtenethik darstellt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Vortrag	Vortrag	NOUN	_	_	_	_	_	_
+3	verdeutlichte	verdeutlichen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	Verantwortungsethik	Verantwortungsethik	NOUN	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	Alternative	Alternative	NOUN	_	_	_	_	_	_
+9	zur	zu	ADP	_	_	_	_	_	_
+10	klassischen	klassisch	ADJ	_	_	_	_	_	_
+11	Pflichtenethik	Pflichtenethik	NOUN	_	_	_	_	_	_
+12	darstellt	darstellen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_500
+# text = Es ist absehbar, dass die Neurowissenschaften traditionelle philosophische Konzepte des Selbst herausfordern werden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	absehbar	absehbar	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Neurowissenschaften	Neurowissenschaft	NOUN	_	_	_	_	_	_
+8	traditionelle	traditionell	ADJ	_	_	_	_	_	_
+9	philosophische	philosophisch	ADJ	_	_	_	_	_	_
+10	Konzepte	Konzept	NOUN	_	_	_	_	_	_
+11	des	der	DET	_	_	_	_	_	_
+12	Selbst	selbst	ADV	_	_	_	_	_	_
+13	herausfordern	herausfordern	VERB	_	_	_	_	_	_
+14	werden	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_501
+# text = Die im Text angeführten Einwände gegen den Determinismus überzeugen durch ihre systematische Schärfe.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Text	Text	NOUN	_	_	_	_	_	_
+4	angeführten	angeführt	ADJ	_	_	_	_	_	_
+5	Einwände	Einwand	NOUN	_	_	_	_	_	_
+6	gegen	gegen	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Determinismus	Determinismus	NOUN	_	_	_	_	_	_
+9	überzeugen	überzeugen	VERB	_	_	_	_	_	_
+10	durch	durch	ADP	_	_	_	_	_	_
+11	ihre	ihr	DET	_	_	_	_	_	_
+12	systematische	systematisch	ADJ	_	_	_	_	_	_
+13	Schärfe	Schärfe	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_502
+# text = Die Unterscheidung zwischen analytischer und kontinentaler Philosophie prägt das Fach bis heute erheblich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Unterscheidung	Unterscheidung	NOUN	_	_	_	_	_	_
+3	zwischen	zwischen	ADP	_	_	_	_	_	_
+4	analytischer	analytisch	ADJ	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	kontinentaler	kontinental	ADJ	_	_	_	_	_	_
+7	Philosophie	Philosophie	NOUN	_	_	_	_	_	_
+8	prägt	prägen	VERB	_	_	_	_	_	_
+9	das	der	DET	_	_	_	_	_	_
+10	Fach	Fach	NOUN	_	_	_	_	_	_
+11	bis	bis	ADP	_	_	_	_	_	_
+12	heute	heute	ADV	_	_	_	_	_	_
+13	erheblich	erheblich	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_503
+# text = Es bleibt offen, ob eine letztgültige Begründung moralischer Normen überhaupt möglich ist.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bleibt	bleiben	VERB	_	_	_	_	_	_
+3	offen	offen	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	letztgültige	letztgültig	ADJ	_	_	_	_	_	_
+8	Begründung	Begründung	NOUN	_	_	_	_	_	_
+9	moralischer	moralisch	ADJ	_	_	_	_	_	_
+10	Normen	Norm	NOUN	_	_	_	_	_	_
+11	überhaupt	überhaupt	ADV	_	_	_	_	_	_
+12	möglich	möglich	ADJ	_	_	_	_	_	_
+13	ist	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_504
+# text = Die Auseinandersetzung mit dem Nihilismus führte im neunzehnten Jahrhundert zu tiefgreifenden philosophischen Krisen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Auseinandersetzung	Auseinandersetzung	NOUN	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Nihilismus	Nihilismus	NOUN	_	_	_	_	_	_
+6	führte	führen	VERB	_	_	_	_	_	_
+7	im	in	ADP	_	_	_	_	_	_
+8	neunzehnten	neunzehnt	ADJ	_	_	_	_	_	_
+9	Jahrhundert	Jahrhundert	NOUN	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	tiefgreifenden	tiefgreifend	ADJ	_	_	_	_	_	_
+12	philosophischen	philosophisch	ADJ	_	_	_	_	_	_
+13	Krisen	Krise	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_505
+# text = Der Autor plädiert für eine Synthese von Vernunft und Erfahrung als Grundlage epistemologischer Erkenntnis.
+1	Der	der	DET	_	_	_	_	_	_
+2	Autor	Autor	NOUN	_	_	_	_	_	_
+3	plädiert	plädieren	VERB	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	Synthese	Synthese	NOUN	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	Vernunft	Vernunft	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+11	als	als	SCONJ	_	_	_	_	_	_
+12	Grundlage	Grundlage	NOUN	_	_	_	_	_	_
+13	epistemologischer	epistemologisch	ADJ	_	_	_	_	_	_
+14	Erkenntnis	Erkenntnis	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_506
+# text = Die kartellrechtliche Prüfung des Zusammenschlusses könnte den geplanten Börsengang erheblich verzögern.
+1	Die	der	DET	_	_	_	_	_	_
+2	kartellrechtliche	kartellrechtlich	ADJ	_	_	_	_	_	_
+3	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+4	des	der	DET	_	_	_	_	_	_
+5	Zusammenschlusses	Zusammenschluss	NOUN	_	_	_	_	_	_
+6	könnte	können	AUX	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	geplanten	geplant	ADJ	_	_	_	_	_	_
+9	Börsengang	Börsengang	NOUN	_	_	_	_	_	_
+10	erheblich	erheblich	ADV	_	_	_	_	_	_
+11	verzögern	verzögern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_507
+# text = Es ist unbestritten, dass Insiderhandel den Grundsätzen eines fairen Kapitalmarktes widerspricht.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	unbestritten	unbestritten	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	Insiderhandel	Insiderhandel	NOUN	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Grundsätzen	Grundsatz	NOUN	_	_	_	_	_	_
+9	eines	ein	DET	_	_	_	_	_	_
+10	fairen	fair	ADJ	_	_	_	_	_	_
+11	Kapitalmarktes	Kapitalmarkt	NOUN	_	_	_	_	_	_
+12	widerspricht	widersprechen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_508
+# text = Der Wirtschaftsprüfer stellte fest, dass die Bilanzierung bestimmter Derivategeschäfte fehlerhaft erfolgt war.
+1	Der	der	DET	_	_	_	_	_	_
+2	Wirtschaftsprüfer	Wirtschaftsprüfer	NOUN	_	_	_	_	_	_
+3	stellte	stellen	VERB	_	_	_	_	_	_
+4	fest	fest	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Bilanzierung	Bilanzierung	NOUN	_	_	_	_	_	_
+9	bestimmter	bestimmt	ADJ	_	_	_	_	_	_
+10	Derivategeschäfte	Derivategeschäft	NOUN	_	_	_	_	_	_
+11	fehlerhaft	fehlerhaft	ADJ	_	_	_	_	_	_
+12	erfolgt	erfolgen	VERB	_	_	_	_	_	_
+13	war	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_509
+# text = Obwohl die Insolvenzanfechtung eingelegt wurde, konnten die Gläubiger nur einen Bruchteil ihrer Forderungen durchsetzen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Insolvenzanfechtung	Insolvenzanfechtung	NOUN	_	_	_	_	_	_
+4	eingelegt	einlegen	VERB	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	konnten	können	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Gläubiger	Gläubiger	NOUN	_	_	_	_	_	_
+10	nur	nur	ADV	_	_	_	_	_	_
+11	einen	ein	DET	_	_	_	_	_	_
+12	Bruchteil	Bruchteil	NOUN	_	_	_	_	_	_
+13	ihrer	ihr	DET	_	_	_	_	_	_
+14	Forderungen	Forderung	NOUN	_	_	_	_	_	_
+15	durchsetzen	durchsetzen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_510
+# text = Die im Schiedsverfahren getroffene Entscheidung ist für beide Vertragsparteien bindend und nicht anfechtbar.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Schiedsverfahren	Schiedsverfahren	NOUN	_	_	_	_	_	_
+4	getroffene	getroffen	ADJ	_	_	_	_	_	_
+5	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	beide	beide	DET	_	_	_	_	_	_
+9	Vertragsparteien	Vertragspartei	NOUN	_	_	_	_	_	_
+10	bindend	bindend	ADJ	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	nicht	nicht	PART	_	_	_	_	_	_
+13	anfechtbar	anfechtbar	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_511
+# text = Es bedarf strengerer Regulierung, um systemische Risiken im internationalen Finanzsektor wirksam zu begrenzen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bedarf	bedürfen	VERB	_	_	_	_	_	_
+3	strengerer	strenger	ADJ	_	_	_	_	_	_
+4	Regulierung	Regulierung	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	um	um	ADP	_	_	_	_	_	_
+7	systemische	systemisch	ADJ	_	_	_	_	_	_
+8	Risiken	Risiko	NOUN	_	_	_	_	_	_
+9	im	in	ADP	_	_	_	_	_	_
+10	internationalen	international	ADJ	_	_	_	_	_	_
+11	Finanzsektor	Finanzsektor	NOUN	_	_	_	_	_	_
+12	wirksam	wirksam	ADJ	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	begrenzen	begrenzen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_512
+# text = Die Compliance-Abteilung prüft, ob die Geschäftspraktiken den geltenden Wettbewerbsrechtlichen Vorgaben entsprechen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Compliance-Abteilung	Compliance-Abteilung	NOUN	_	_	_	_	_	_
+3	prüft	prüfen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Geschäftspraktiken	Geschäftspraktik	NOUN	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	geltenden	geltend	ADJ	_	_	_	_	_	_
+10	Wettbewerbsrechtlichen	wettbewerbsrechtlichen	ADJ	_	_	_	_	_	_
+11	Vorgaben	Vorgabe	NOUN	_	_	_	_	_	_
+12	entsprechen	entsprechen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_513
+# text = Trotz der wirtschaftlichen Einbußen hielt das Gericht die Vertragsstrafe für angemessen und rechtmäßig.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	wirtschaftlichen	wirtschaftlich	ADJ	_	_	_	_	_	_
+4	Einbußen	Einbuße	NOUN	_	_	_	_	_	_
+5	hielt	halten	VERB	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Gericht	Gericht	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Vertragsstrafe	Vertragsstrafe	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	angemessen	angemessen	ADJ	_	_	_	_	_	_
+12	und	und	CCONJ	_	_	_	_	_	_
+13	rechtmäßig	rechtmäßig	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_514
+# text = Es ist von entscheidender Bedeutung, dass Bilanzskandale konsequent aufgeklärt und geahndet werden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	entscheidender	entscheidend	ADJ	_	_	_	_	_	_
+5	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	Bilanzskandale	Bilanzskandal	NOUN	_	_	_	_	_	_
+9	konsequent	konsequent	ADJ	_	_	_	_	_	_
+10	aufgeklärt	aufklären	VERB	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	geahndet	ahnden	VERB	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_515
+# text = Die Verstaatlichung der Bank während der Finanzkrise stellte einen beispiellosen Eingriff in den Markt dar.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verstaatlichung	Verstaatlichung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Bank	Bank	NOUN	_	_	_	_	_	_
+5	während	während	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Finanzkrise	Finanzkrise	NOUN	_	_	_	_	_	_
+8	stellte	stellen	VERB	_	_	_	_	_	_
+9	einen	ein	DET	_	_	_	_	_	_
+10	beispiellosen	beispiellos	ADJ	_	_	_	_	_	_
+11	Eingriff	Eingriff	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	den	der	DET	_	_	_	_	_	_
+14	Markt	Markt	NOUN	_	_	_	_	_	_
+15	dar	dar	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_516
+# text = Viele Ökonomen warnen, dass protektionistische Maßnahmen den Welthandel langfristig schädigen.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Ökonomen	Ökonom	NOUN	_	_	_	_	_	_
+3	warnen	warnen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	protektionistische	protektionistisch	ADJ	_	_	_	_	_	_
+7	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Welthandel	Welthandel	NOUN	_	_	_	_	_	_
+10	langfristig	langfristig	ADJ	_	_	_	_	_	_
+11	schädigen	schädigen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_517
+# text = Die im Gesetz verankerte Publizitätspflicht zwingt börsennotierte Unternehmen zur Offenlegung ihrer Geschäftszahlen.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Gesetz	Gesetz	NOUN	_	_	_	_	_	_
+4	verankerte	verankern	ADJ	_	_	_	_	_	_
+5	Publizitätspflicht	Publizitätspflicht	NOUN	_	_	_	_	_	_
+6	zwingt	zwingen	VERB	_	_	_	_	_	_
+7	börsennotierte	börsennotiert	ADJ	_	_	_	_	_	_
+8	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+9	zur	zu	ADP	_	_	_	_	_	_
+10	Offenlegung	Offenlegung	NOUN	_	_	_	_	_	_
+11	ihrer	ihr	DET	_	_	_	_	_	_
+12	Geschäftszahlen	Geschäftszahl	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_518
+# text = Es lässt sich nicht bestreiten, dass Steueroasen die nationale Steuerbasis erheblich untergraben.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	bestreiten	bestreiten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	Steueroasen	Steueroase	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	nationale	national	ADJ	_	_	_	_	_	_
+11	Steuerbasis	Steuerbasis	NOUN	_	_	_	_	_	_
+12	erheblich	erheblich	ADV	_	_	_	_	_	_
+13	untergraben	untergraben	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_519
+# text = Der Schiedsrichter wies die Klage ab und verurteilte den Beklagten zur Zahlung der Prozesskosten.
+1	Der	der	DET	_	_	_	_	_	_
+2	Schiedsrichter	Schiedsrichter	NOUN	_	_	_	_	_	_
+3	wies	weisen	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Klage	Klage	NOUN	_	_	_	_	_	_
+6	ab	ab	ADP	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	verurteilte	verurteilen	VERB	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Beklagten	Beklagte	NOUN	_	_	_	_	_	_
+11	zur	zu	ADP	_	_	_	_	_	_
+12	Zahlung	Zahlung	NOUN	_	_	_	_	_	_
+13	der	der	DET	_	_	_	_	_	_
+14	Prozesskosten	Prozesskosten	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_520
+# text = Angesichts der umfassenden regulatorischen Änderungen müssen Finanzinstitute ihre Risikomodelle umfassend überarbeiten.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	umfassenden	umfassend	ADJ	_	_	_	_	_	_
+4	regulatorischen	regulatorisch	ADJ	_	_	_	_	_	_
+5	Änderungen	Änderung	NOUN	_	_	_	_	_	_
+6	müssen	müssen	AUX	_	_	_	_	_	_
+7	Finanzinstitute	Finanzinstitut	NOUN	_	_	_	_	_	_
+8	ihre	ihr	DET	_	_	_	_	_	_
+9	Risikomodelle	Risikomodell	NOUN	_	_	_	_	_	_
+10	umfassend	umfassend	ADJ	_	_	_	_	_	_
+11	überarbeiten	überarbeiten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_521
+# text = Die Fusion der beiden Konzerne bedarf der vorherigen Genehmigung durch die europäische Wettbewerbsbehörde.
+1	Die	der	DET	_	_	_	_	_	_
+2	Fusion	Fusion	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	beiden	beide	DET	_	_	_	_	_	_
+5	Konzerne	Konzern	NOUN	_	_	_	_	_	_
+6	bedarf	bedürfen	VERB	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	vorherigen	vorherig	ADJ	_	_	_	_	_	_
+9	Genehmigung	Genehmigung	NOUN	_	_	_	_	_	_
+10	durch	durch	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	europäische	europäisch	ADJ	_	_	_	_	_	_
+13	Wettbewerbsbehörde	Wettbewerbsbehörde	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_522
+# text = Es ist ratsam, vor grenzüberschreitenden Transaktionen die jeweiligen steuerrechtlichen Implikationen zu prüfen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	grenzüberschreitenden	grenzüberschreitend	ADJ	_	_	_	_	_	_
+7	Transaktionen	Transaktion	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	jeweiligen	jeweilig	ADJ	_	_	_	_	_	_
+10	steuerrechtlichen	steuerrechtlich	ADJ	_	_	_	_	_	_
+11	Implikationen	Implikation	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	prüfen	prüfen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_523
+# text = Die komplexe Bewertung immaterieller Vermögenswerte stellt Wirtschaftsprüfer vor erhebliche methodische Herausforderungen.
+1	Die	der	DET	_	_	_	_	_	_
+2	komplexe	komplex	ADJ	_	_	_	_	_	_
+3	Bewertung	Bewertung	NOUN	_	_	_	_	_	_
+4	immaterieller	immateriell	ADJ	_	_	_	_	_	_
+5	Vermögenswerte	Vermögenswert	NOUN	_	_	_	_	_	_
+6	stellt	stellen	VERB	_	_	_	_	_	_
+7	Wirtschaftsprüfer	Wirtschaftsprüfer	NOUN	_	_	_	_	_	_
+8	vor	vor	ADP	_	_	_	_	_	_
+9	erhebliche	erheblich	ADJ	_	_	_	_	_	_
+10	methodische	methodisch	ADJ	_	_	_	_	_	_
+11	Herausforderungen	Herausforderung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_524
+# text = Ungeachtet der juristischen Komplexität einigten sich die Parteien auf einen gütlichen Vergleich.
+1	Ungeachtet	ungeachtet	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	juristischen	juristisch	ADJ	_	_	_	_	_	_
+4	Komplexität	Komplexität	NOUN	_	_	_	_	_	_
+5	einigten	einigen	VERB	_	_	_	_	_	_
+6	sich	sich	PRON	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Parteien	Partei	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	einen	ein	DET	_	_	_	_	_	_
+11	gütlichen	gütlich	ADJ	_	_	_	_	_	_
+12	Vergleich	Vergleich	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_525
+# text = Die Durchsetzung von Patentrechten in Entwicklungsländern erfordert eine Anpassung internationaler Abkommen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Durchsetzung	Durchsetzung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Patentrechten	Patentrecht	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	Entwicklungsländern	Entwicklungsland	NOUN	_	_	_	_	_	_
+7	erfordert	erfordern	VERB	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	Anpassung	Anpassung	NOUN	_	_	_	_	_	_
+10	internationaler	international	ADJ	_	_	_	_	_	_
+11	Abkommen	Abkommen	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_526
+# text = Es ist zu befürchten, dass die Verschärfung der Bankenregulierung die Kreditvergabe unnötig einschränkt.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	zu	zu	PART	_	_	_	_	_	_
+4	befürchten	befürchten	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Verschärfung	Verschärfung	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Bankenregulierung	Bankenregulierung	NOUN	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Kreditvergabe	Kreditvergabe	NOUN	_	_	_	_	_	_
+13	unnötig	unnötig	ADJ	_	_	_	_	_	_
+14	einschränkt	einschränken	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_527
+# text = Der Wirtschaftsethiker argumentiert, dass Unternehmensverantwortung über die rechtliche Mindestanforderung hinausgehen muss.
+1	Der	der	DET	_	_	_	_	_	_
+2	Wirtschaftsethiker	Wirtschaftsethiker	NOUN	_	_	_	_	_	_
+3	argumentiert	argumentieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	Unternehmensverantwortung	Unternehmensverantwortung	NOUN	_	_	_	_	_	_
+7	über	über	ADP	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	rechtliche	rechtlich	ADJ	_	_	_	_	_	_
+10	Mindestanforderung	Mindestanforderung	NOUN	_	_	_	_	_	_
+11	hinausgehen	hinausgehen	VERB	_	_	_	_	_	_
+12	muss	müssen	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_528
+# text = Die im Urteil festgestellte Kartellbildung führte zu empfindlichen Geldbußen für die beteiligten Unternehmen.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Urteil	Urteil	NOUN	_	_	_	_	_	_
+4	festgestellte	festgestellt	ADJ	_	_	_	_	_	_
+5	Kartellbildung	Kartellbildung	NOUN	_	_	_	_	_	_
+6	führte	führen	VERB	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	empfindlichen	empfindlich	ADJ	_	_	_	_	_	_
+9	Geldbußen	Geldbuße	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	beteiligten	beteiligt	ADJ	_	_	_	_	_	_
+13	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_529
+# text = Es bleibt abzuwarten, ob die neue EU-Verordnung den digitalen Binnenmarkt tatsächlich vereinheitlichen wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bleibt	bleiben	VERB	_	_	_	_	_	_
+3	abzuwarten	abwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	neue	neu	ADJ	_	_	_	_	_	_
+8	EU-Verordnung	EU-Verordnung	NOUN	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	digitalen	digital	ADJ	_	_	_	_	_	_
+11	Binnenmarkt	Binnenmarkt	NOUN	_	_	_	_	_	_
+12	tatsächlich	tatsächlich	ADJ	_	_	_	_	_	_
+13	vereinheitlichen	vereinheitlichen	VERB	_	_	_	_	_	_
+14	wird	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_530
+# text = Die Anerkennung ausländischer Schiedssprüche erfordert die Einhaltung internationaler Abkommen und Konventionen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Anerkennung	Anerkennung	NOUN	_	_	_	_	_	_
+3	ausländischer	ausländisch	ADJ	_	_	_	_	_	_
+4	Schiedssprüche	Schiedsspruch	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Einhaltung	Einhaltung	NOUN	_	_	_	_	_	_
+8	internationaler	international	ADJ	_	_	_	_	_	_
+9	Abkommen	Abkommen	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Konventionen	Konvention	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_531
+# text = Die moderne evidenzbasierte Politikgestaltung erfordert eine systematische Auswertung aktueller wissenschaftlicher Studienergebnisse.
+1	Die	der	DET	_	_	_	_	_	_
+2	moderne	modern	ADJ	_	_	_	_	_	_
+3	evidenzbasierte	evidenzbasiert	ADJ	_	_	_	_	_	_
+4	Politikgestaltung	Politikgestaltung	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	systematische	systematisch	ADJ	_	_	_	_	_	_
+8	Auswertung	Auswertung	NOUN	_	_	_	_	_	_
+9	aktueller	aktuell	ADJ	_	_	_	_	_	_
+10	wissenschaftlicher	wissenschaftlich	ADJ	_	_	_	_	_	_
+11	Studienergebnisse	Studienergebnis	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_532
+# text = Es ist erwiesen, dass frühkindliche Bildung die späteren Bildungschancen nachhaltig und messbar verbessert.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	erwiesen	erweisen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	frühkindliche	frühkindlich	ADJ	_	_	_	_	_	_
+7	Bildung	Bildung	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	späteren	spät	ADJ	_	_	_	_	_	_
+10	Bildungschancen	Bildungschance	NOUN	_	_	_	_	_	_
+11	nachhaltig	nachhaltig	ADV	_	_	_	_	_	_
+12	und	und	CCONJ	_	_	_	_	_	_
+13	messbar	meßbar	ADJ	_	_	_	_	_	_
+14	verbessert	verbessern	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_533
+# text = Die im Forschungsprojekt entwickelten Algorithmen sollen die Früherkennung von Krankheiten ermöglichen.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Forschungsprojekt	Forschungsprojekt	NOUN	_	_	_	_	_	_
+4	entwickelten	entwickelt	ADJ	_	_	_	_	_	_
+5	Algorithmen	Algorithmus	NOUN	_	_	_	_	_	_
+6	sollen	sollen	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Früherkennung	Früherkennung	NOUN	_	_	_	_	_	_
+9	von	von	ADP	_	_	_	_	_	_
+10	Krankheiten	Krankheit	NOUN	_	_	_	_	_	_
+11	ermöglichen	ermöglichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_534
+# text = Obwohl die Datenlage unvollständig ist, stützen die Befunde die Wirksamkeit der präventiven Maßnahmen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Datenlage	Datenlage	NOUN	_	_	_	_	_	_
+4	unvollständig	unvollständig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	stützen	stützen	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Befunde	Befund	NOUN	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Wirksamkeit	Wirksamkeit	NOUN	_	_	_	_	_	_
+12	der	der	DET	_	_	_	_	_	_
+13	präventiven	präventiv	ADJ	_	_	_	_	_	_
+14	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_535
+# text = Die Regierung beauftragte ein unabhängiges Institut mit der Evaluation der Bildungsreform.
+1	Die	der	DET	_	_	_	_	_	_
+2	Regierung	Regierung	NOUN	_	_	_	_	_	_
+3	beauftragte	beauftragen	VERB	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	unabhängiges	unabhängig	ADJ	_	_	_	_	_	_
+6	Institut	Institut	NOUN	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Evaluation	Evaluation	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Bildungsreform	Bildungsreform	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_536
+# text = Es bedarf einer stärkeren Verzahnung von Wissenschaft und Politik, um gesellschaftliche Herausforderungen zu bewältigen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bedarf	bedürfen	VERB	_	_	_	_	_	_
+3	einer	ein	DET	_	_	_	_	_	_
+4	stärkeren	stark	ADJ	_	_	_	_	_	_
+5	Verzahnung	Verzahnung	NOUN	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	Wissenschaft	Wissenschaft	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	Politik	Politik	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	um	um	ADP	_	_	_	_	_	_
+12	gesellschaftliche	gesellschaftlich	ADJ	_	_	_	_	_	_
+13	Herausforderungen	Herausforderung	NOUN	_	_	_	_	_	_
+14	zu	zu	PART	_	_	_	_	_	_
+15	bewältigen	bewältigen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_537
+# text = Die im Weißbuch empfohlenen Forschungsschwerpunkte orientieren sich an den Nachhaltigkeitszielen der Vereinten Nationen.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Weißbuch	Weißbuch	NOUN	_	_	_	_	_	_
+4	empfohlenen	empfohlen	ADJ	_	_	_	_	_	_
+5	Forschungsschwerpunkte	Forschungsschwerpunkt	NOUN	_	_	_	_	_	_
+6	orientieren	orientieren	VERB	_	_	_	_	_	_
+7	sich	sich	PRON	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Nachhaltigkeitszielen	Nachhaltigkeitsziel	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Vereinten	Vereint	PROPN	_	_	_	_	_	_
+13	Nationen	Nation	PROPN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_538
+# text = Trotz knapper Haushaltsmittel erhöhte der Bund die Förderung grundlagenorientierter Forschung deutlich.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	knapper	knapp	ADJ	_	_	_	_	_	_
+3	Haushaltsmittel	Haushaltsmittel	NOUN	_	_	_	_	_	_
+4	erhöhte	erhöhen	VERB	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Bund	Bund	NOUN	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Förderung	Förderung	NOUN	_	_	_	_	_	_
+9	grundlagenorientierter	grundlagenorientiert	ADJ	_	_	_	_	_	_
+10	Forschung	Forschung	NOUN	_	_	_	_	_	_
+11	deutlich	deutlich	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_539
+# text = Es ist von essenzieller Wichtigkeit, dass politische Entscheidungen auf verlässlichen wissenschaftlichen Erkenntnissen basieren.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	essenzieller	essenziell	ADJ	_	_	_	_	_	_
+5	Wichtigkeit	Wichtigkeit	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	politische	politisch	ADJ	_	_	_	_	_	_
+9	Entscheidungen	Entscheidung	NOUN	_	_	_	_	_	_
+10	auf	auf	ADP	_	_	_	_	_	_
+11	verlässlichen	verlässlich	ADJ	_	_	_	_	_	_
+12	wissenschaftlichen	wissenschaftlich	ADJ	_	_	_	_	_	_
+13	Erkenntnissen	Erkenntnis	NOUN	_	_	_	_	_	_
+14	basieren	basieren	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_540
+# text = Die detaillierte Analyse epidemiologischer Daten lieferte entscheidende Erkenntnisse für die Pandemiebekämpfung.
+1	Die	der	DET	_	_	_	_	_	_
+2	detaillierte	detaillieren	ADJ	_	_	_	_	_	_
+3	Analyse	Analyse	NOUN	_	_	_	_	_	_
+4	epidemiologischer	epidemiologisch	ADJ	_	_	_	_	_	_
+5	Daten	Datum	NOUN	_	_	_	_	_	_
+6	lieferte	liefern	VERB	_	_	_	_	_	_
+7	entscheidende	entscheidend	ADJ	_	_	_	_	_	_
+8	Erkenntnisse	Erkenntnis	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Pandemiebekämpfung	Pandemiebekämpfung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_541
+# text = Viele Experten kritisieren, dass die Klimapolitik die neuesten Forschungsergebnisse unzureichend berücksichtigt.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Experten	Experte	NOUN	_	_	_	_	_	_
+3	kritisieren	kritisieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Klimapolitik	Klimapolitik	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	neuesten	neu	ADJ	_	_	_	_	_	_
+10	Forschungsergebnisse	Forschungsergebnis	NOUN	_	_	_	_	_	_
+11	unzureichend	unzureichend	ADJ	_	_	_	_	_	_
+12	berücksichtigt	berücksichtigen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_542
+# text = Die Entwicklung wirksamer Impfstoffe innerhalb eines Jahres stellte einen beispiellosen wissenschaftlichen Erfolg dar.
+1	Die	der	DET	_	_	_	_	_	_
+2	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+3	wirksamer	wirksam	ADJ	_	_	_	_	_	_
+4	Impfstoffe	Impfstoff	NOUN	_	_	_	_	_	_
+5	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+6	eines	ein	DET	_	_	_	_	_	_
+7	Jahres	Jahr	NOUN	_	_	_	_	_	_
+8	stellte	stellen	VERB	_	_	_	_	_	_
+9	einen	ein	DET	_	_	_	_	_	_
+10	beispiellosen	beispiellos	ADJ	_	_	_	_	_	_
+11	wissenschaftlichen	wissenschaftlich	ADJ	_	_	_	_	_	_
+12	Erfolg	Erfolg	NOUN	_	_	_	_	_	_
+13	dar	dar	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_543
+# text = Es lässt sich nicht leugnen, dass die Finanzierung der Grundlagenforschung in den letzten Jahren stagnierte.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	leugnen	leugnen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Finanzierung	Finanzierung	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Grundlagenforschung	Grundlagenforschung	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	den	der	DET	_	_	_	_	_	_
+14	letzten	letzt	ADJ	_	_	_	_	_	_
+15	Jahren	Jahr	NOUN	_	_	_	_	_	_
+16	stagnierte	stagnieren	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_544
+# text = Die im Policy Brief dargelegten Empfehlungen zielen auf eine Reduktion der Treibhausgasemissionen ab.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Policy	Policy	PROPN	_	_	_	_	_	_
+4	Brief	Brief	PROPN	_	_	_	_	_	_
+5	dargelegten	dargelegt	ADJ	_	_	_	_	_	_
+6	Empfehlungen	Empfehlung	NOUN	_	_	_	_	_	_
+7	zielen	zielen	VERB	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	Reduktion	Reduktion	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Treibhausgasemissionen	Treibhausgasemission	NOUN	_	_	_	_	_	_
+13	ab	ab	ADP	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_545
+# text = Angesichts der Beschleunigung des Klimawandels müssen politische Maßnahmen deutlich verschärft werden.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Beschleunigung	Beschleunigung	NOUN	_	_	_	_	_	_
+4	des	der	DET	_	_	_	_	_	_
+5	Klimawandels	Klimawandel	NOUN	_	_	_	_	_	_
+6	müssen	müssen	AUX	_	_	_	_	_	_
+7	politische	politisch	ADJ	_	_	_	_	_	_
+8	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+9	deutlich	deutlich	ADV	_	_	_	_	_	_
+10	verschärft	verschärfen	VERB	_	_	_	_	_	_
+11	werden	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_546
+# text = Die im Labor entwickelte Technologie könnte die Energieeffizienz industrieller Produktionsprozesse erheblich steigern.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Labor	Labor	NOUN	_	_	_	_	_	_
+4	entwickelte	entwickelt	ADJ	_	_	_	_	_	_
+5	Technologie	Technologie	NOUN	_	_	_	_	_	_
+6	könnte	können	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Energieeffizienz	Energieeffizienz	NOUN	_	_	_	_	_	_
+9	industrieller	industriell	ADJ	_	_	_	_	_	_
+10	Produktionsprozesse	Produktionsprozess	NOUN	_	_	_	_	_	_
+11	erheblich	erheblich	ADV	_	_	_	_	_	_
+12	steigern	steigern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_547
+# text = Es ist ratsam, politische Programme regelmäßig durch unabhängige wissenschaftliche Evaluationen überprüfen zu lassen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	politische	politisch	ADJ	_	_	_	_	_	_
+6	Programme	Programm	NOUN	_	_	_	_	_	_
+7	regelmäßig	regelmäßig	ADJ	_	_	_	_	_	_
+8	durch	durch	ADP	_	_	_	_	_	_
+9	unabhängige	unabhängig	ADJ	_	_	_	_	_	_
+10	wissenschaftliche	wissenschaftlich	ADJ	_	_	_	_	_	_
+11	Evaluationen	Evaluation	NOUN	_	_	_	_	_	_
+12	überprüfen	überprüfen	VERB	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	lassen	lassen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_548
+# text = Die enge interdisziplinäre Zusammenarbeit zwischen Medizinern und Informatikern revolutioniert die medizinische Diagnostik.
+1	Die	der	DET	_	_	_	_	_	_
+2	enge	eng	ADJ	_	_	_	_	_	_
+3	interdisziplinäre	interdisziplinär	ADJ	_	_	_	_	_	_
+4	Zusammenarbeit	Zusammenarbeit	NOUN	_	_	_	_	_	_
+5	zwischen	zwischen	ADP	_	_	_	_	_	_
+6	Medizinern	Mediziner	NOUN	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	Informatikern	Informatiker	NOUN	_	_	_	_	_	_
+9	revolutioniert	revolutionieren	VERB	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	medizinische	medizinisch	ADJ	_	_	_	_	_	_
+12	Diagnostik	Diagnostik	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_549
+# text = Ungeachtet der politischen Widerstände setzte die Regierung das ambitionierte Forschungsförderprogramm fort.
+1	Ungeachtet	ungeachtet	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	politischen	politisch	ADJ	_	_	_	_	_	_
+4	Widerstände	Widerstand	NOUN	_	_	_	_	_	_
+5	setzte	setzen	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Regierung	Regierung	NOUN	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	ambitionierte	ambitioniert	ADJ	_	_	_	_	_	_
+10	Forschungsförderprogramm	Forschungsförderprogramm	NOUN	_	_	_	_	_	_
+11	fort	fort	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_550
+# text = Die im Gutachten dokumentierten Befunde stützen die Einführung eines flächendeckenden Mindestlohns.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Gutachten	Gutachten	NOUN	_	_	_	_	_	_
+4	dokumentierten	dokumentiert	ADJ	_	_	_	_	_	_
+5	Befunde	Befund	NOUN	_	_	_	_	_	_
+6	stützen	stützen	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Einführung	Einführung	NOUN	_	_	_	_	_	_
+9	eines	ein	DET	_	_	_	_	_	_
+10	flächendeckenden	flächendeckend	ADJ	_	_	_	_	_	_
+11	Mindestlohns	Mindestlohn	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_551
+# text = Es ist absehbar, dass die Gentechnik die landwirtschaftliche Ertragssteigerung in Zukunft maßgeblich beeinflussen wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	absehbar	absehbar	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gentechnik	Gentechnik	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	landwirtschaftliche	landwirtschaftlich	ADJ	_	_	_	_	_	_
+10	Ertragssteigerung	Ertragssteigerung	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+13	maßgeblich	maßgeblich	ADJ	_	_	_	_	_	_
+14	beeinflussen	beeinflussen	VERB	_	_	_	_	_	_
+15	wird	werden	AUX	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_552
+# text = Der Forschungsrat empfahl, die Mittel für die Erforschung erneuerbarer Energien prioritär aufzustocken.
+1	Der	der	DET	_	_	_	_	_	_
+2	Forschungsrat	Forschungsrat	NOUN	_	_	_	_	_	_
+3	empfahl	empfehlen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Mittel	Mittel	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Erforschung	Erforschung	NOUN	_	_	_	_	_	_
+10	erneuerbarer	erneuerbar	ADJ	_	_	_	_	_	_
+11	Energien	Energie	NOUN	_	_	_	_	_	_
+12	prioritär	prioritär	ADJ	_	_	_	_	_	_
+13	aufzustocken	aufstocken	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_553
+# text = Die im Koalitionsvertrag verankerte Forschungsquote soll bis 2030 auf drei Prozent des BIP steigen.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Koalitionsvertrag	Koalitionsvertrag	NOUN	_	_	_	_	_	_
+4	verankerte	verankern	ADJ	_	_	_	_	_	_
+5	Forschungsquote	Forschungsquote	NOUN	_	_	_	_	_	_
+6	soll	sollen	AUX	_	_	_	_	_	_
+7	bis	bis	ADP	_	_	_	_	_	_
+8	2030	2030	NUM	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	drei	drei	NUM	_	_	_	_	_	_
+11	Prozent	Prozent	NOUN	_	_	_	_	_	_
+12	des	der	DET	_	_	_	_	_	_
+13	BIP	BIP	NOUN	_	_	_	_	_	_
+14	steigen	steigen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_554
+# text = Es bleibt abzuwarten, ob die im Gesetz verankerten Klimaziele tatsächlich erreicht werden können.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bleibt	bleiben	VERB	_	_	_	_	_	_
+3	abzuwarten	abwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	im	in	ADP	_	_	_	_	_	_
+8	Gesetz	Gesetz	NOUN	_	_	_	_	_	_
+9	verankerten	verankern	ADJ	_	_	_	_	_	_
+10	Klimaziele	Klimaziel	NOUN	_	_	_	_	_	_
+11	tatsächlich	tatsächlich	ADJ	_	_	_	_	_	_
+12	erreicht	erreichen	VERB	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	können	können	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_555
+# text = Die Translation von Forschungsergebnissen in die klinische Praxis erfordert strukturelle Veränderungen im Gesundheitssystem.
+1	Die	der	DET	_	_	_	_	_	_
+2	Translation	Translation	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Forschungsergebnissen	Forschungsergebnis	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	klinische	klinisch	ADJ	_	_	_	_	_	_
+8	Praxis	Praxis	NOUN	_	_	_	_	_	_
+9	erfordert	erfordern	VERB	_	_	_	_	_	_
+10	strukturelle	strukturell	ADJ	_	_	_	_	_	_
+11	Veränderungen	Veränderung	NOUN	_	_	_	_	_	_
+12	im	in	ADP	_	_	_	_	_	_
+13	Gesundheitssystem	Gesundheitssystem	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_556
+# text = Die Frage nach der Verantwortung für autonome Systeme stellt Rechtsphilosophie und Technikethik vor neue Herausforderungen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frage	Frage	NOUN	_	_	_	_	_	_
+3	nach	nach	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	autonome	autonom	ADJ	_	_	_	_	_	_
+8	Systeme	System	NOUN	_	_	_	_	_	_
+9	stellt	stellen	VERB	_	_	_	_	_	_
+10	Rechtsphilosophie	Rechtsphilosophie	NOUN	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	Technikethik	Technikethik	NOUN	_	_	_	_	_	_
+13	vor	vor	ADP	_	_	_	_	_	_
+14	neue	neu	ADJ	_	_	_	_	_	_
+15	Herausforderungen	Herausforderung	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_557
+# text = Es ist umstritten, ob algorithmische Entscheidungen mit demokratischen Grundprinzipien vereinbar sind.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	umstritten	umstritten	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	algorithmische	algorithmisch	ADJ	_	_	_	_	_	_
+7	Entscheidungen	Entscheidung	NOUN	_	_	_	_	_	_
+8	mit	mit	ADP	_	_	_	_	_	_
+9	demokratischen	demokratisch	ADJ	_	_	_	_	_	_
+10	Grundprinzipien	Grundprinzip	NOUN	_	_	_	_	_	_
+11	vereinbar	vereinbar	ADJ	_	_	_	_	_	_
+12	sind	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_558
+# text = Der Diskurs über Gerechtigkeit im Gesundheitswesen verbindet ethische Überlegungen mit ökonomischen Analysen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Diskurs	Diskurs	NOUN	_	_	_	_	_	_
+3	über	über	ADP	_	_	_	_	_	_
+4	Gerechtigkeit	Gerechtigkeit	NOUN	_	_	_	_	_	_
+5	im	in	ADP	_	_	_	_	_	_
+6	Gesundheitswesen	Gesundheitswesen	NOUN	_	_	_	_	_	_
+7	verbindet	verbinden	VERB	_	_	_	_	_	_
+8	ethische	ethisch	ADJ	_	_	_	_	_	_
+9	Überlegungen	Überlegung	NOUN	_	_	_	_	_	_
+10	mit	mit	ADP	_	_	_	_	_	_
+11	ökonomischen	ökonomisch	ADJ	_	_	_	_	_	_
+12	Analysen	Analyse	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_559
+# text = Obwohl die Theorie elegant ist, lassen sich ihre zentralen Annahmen empirisch nur schwer überprüfen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Theorie	Theorie	NOUN	_	_	_	_	_	_
+4	elegant	elegant	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	lassen	lassen	VERB	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	ihre	ihr	DET	_	_	_	_	_	_
+10	zentralen	zentral	ADJ	_	_	_	_	_	_
+11	Annahmen	Annahme	NOUN	_	_	_	_	_	_
+12	empirisch	empirisch	ADJ	_	_	_	_	_	_
+13	nur	nur	ADV	_	_	_	_	_	_
+14	schwer	schwer	ADJ	_	_	_	_	_	_
+15	überprüfen	überprüfen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_560
+# text = Die im Seminar erörterten Texte illustrieren die Vielfalt philosophischer Zugänge zum Freiheitsbegriff.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Seminar	Seminar	NOUN	_	_	_	_	_	_
+4	erörterten	erörtern	ADJ	_	_	_	_	_	_
+5	Texte	Text	NOUN	_	_	_	_	_	_
+6	illustrieren	illustrieren	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Vielfalt	Vielfalt	NOUN	_	_	_	_	_	_
+9	philosophischer	philosophisch	ADJ	_	_	_	_	_	_
+10	Zugänge	Zugang	NOUN	_	_	_	_	_	_
+11	zum	zu	ADP	_	_	_	_	_	_
+12	Freiheitsbegriff	Freiheitsbegriff	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_561
+# text = Es bedarf einer Neubewertung des Verhältnisses von individueller Freiheit und kollektiver Verantwortung.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bedarf	bedürfen	VERB	_	_	_	_	_	_
+3	einer	ein	DET	_	_	_	_	_	_
+4	Neubewertung	Neubewertung	NOUN	_	_	_	_	_	_
+5	des	der	DET	_	_	_	_	_	_
+6	Verhältnisses	Verhältnis	NOUN	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	individueller	individuell	ADJ	_	_	_	_	_	_
+9	Freiheit	Freiheit	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	kollektiver	kollektiv	ADJ	_	_	_	_	_	_
+12	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_562
+# text = Die Debatte über Gerechtigkeit als Fairness prägt die politische Philosophie seit Rawls' einflussreichem Hauptwerk.
+1	Die	der	DET	_	_	_	_	_	_
+2	Debatte	Debatte	NOUN	_	_	_	_	_	_
+3	über	über	ADP	_	_	_	_	_	_
+4	Gerechtigkeit	Gerechtigkeit	NOUN	_	_	_	_	_	_
+5	als	als	SCONJ	_	_	_	_	_	_
+6	Fairness	Fairness	NOUN	_	_	_	_	_	_
+7	prägt	prägen	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	politische	politisch	ADJ	_	_	_	_	_	_
+10	Philosophie	Philosophie	NOUN	_	_	_	_	_	_
+11	seit	seit	ADP	_	_	_	_	_	_
+12	Rawls'	Rawls	PROPN	_	_	_	_	_	_
+13	einflussreichem	einflussreichem	ADJ	_	_	_	_	_	_
+14	Hauptwerk	Hauptwerk	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_563
+# text = Trotz philosophischer Differenzen erkennen die meisten Denker die Bedeutung der Menschenwürde an.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	philosophischer	philosophisch	ADJ	_	_	_	_	_	_
+3	Differenzen	Differenz	NOUN	_	_	_	_	_	_
+4	erkennen	erkennen	VERB	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	meisten	meist	DET	_	_	_	_	_	_
+7	Denker	Denker	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Menschenwürde	Menschenwürde	NOUN	_	_	_	_	_	_
+12	an	an	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_564
+# text = Es lässt sich nicht bestreiten, dass ökonomische Ungleichheit ethische Fragen der Verteilungsgerechtigkeit aufwirft.
+1	Es	es	PRON	_	_	_	_	_	_
+2	lässt	lassen	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	bestreiten	bestreiten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	ökonomische	ökonomisch	ADJ	_	_	_	_	_	_
+9	Ungleichheit	Ungleichheit	NOUN	_	_	_	_	_	_
+10	ethische	ethisch	ADJ	_	_	_	_	_	_
+11	Fragen	Frage	NOUN	_	_	_	_	_	_
+12	der	der	DET	_	_	_	_	_	_
+13	Verteilungsgerechtigkeit	Verteilungsgerechtigkeit	NOUN	_	_	_	_	_	_
+14	aufwirft	aufwirfen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_565
+# text = Die Kritik am anthropozentrischen Weltbild fordert eine grundlegende Neubewertung des Mensch-Natur-Verhältnisses.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kritik	Kritik	NOUN	_	_	_	_	_	_
+3	am	an	ADP	_	_	_	_	_	_
+4	anthropozentrischen	anthropozentrischen	ADJ	_	_	_	_	_	_
+5	Weltbild	Weltbild	NOUN	_	_	_	_	_	_
+6	fordert	fordern	VERB	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	grundlegende	grundlegend	ADJ	_	_	_	_	_	_
+9	Neubewertung	Neubewertung	NOUN	_	_	_	_	_	_
+10	des	der	DET	_	_	_	_	_	_
+11	Mensch-Natur-Verhältnisses	Mensch-Natur-Verhältnisses	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_566
+# text = Angesichts der technologischen Entwicklung müssen ethische Rahmenbedingungen für die KI-Forschung geschaffen werden.
+1	Angesichts	angesichts	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	technologischen	technologisch	ADJ	_	_	_	_	_	_
+4	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+5	müssen	müssen	AUX	_	_	_	_	_	_
+6	ethische	ethisch	ADJ	_	_	_	_	_	_
+7	Rahmenbedingungen	Rahmenbedingung	NOUN	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	KI-Forschung	KI-Forschung	NOUN	_	_	_	_	_	_
+11	geschaffen	schaffen	VERB	_	_	_	_	_	_
+12	werden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_567
+# text = Die im Traktat entwickelte Tugendethik bietet eine Alternative zu regelbasierter Moralphilosophie.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Traktat	Traktat	NOUN	_	_	_	_	_	_
+4	entwickelte	entwickelt	ADJ	_	_	_	_	_	_
+5	Tugendethik	Tugendethik	NOUN	_	_	_	_	_	_
+6	bietet	bieten	VERB	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	Alternative	Alternative	NOUN	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	regelbasierter	regelbasiert	ADJ	_	_	_	_	_	_
+11	Moralphilosophie	Moralphilosophie	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_568
+# text = Es ist von zentraler Bedeutung, dass wissenschaftliche Erkenntnis und ethische Reflexion Hand in Hand gehen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	zentraler	zentral	ADJ	_	_	_	_	_	_
+5	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	wissenschaftliche	wissenschaftlich	ADJ	_	_	_	_	_	_
+9	Erkenntnis	Erkenntnis	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	ethische	ethisch	ADJ	_	_	_	_	_	_
+12	Reflexion	Reflexion	NOUN	_	_	_	_	_	_
+13	Hand	Hand	NOUN	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	Hand	Hand	NOUN	_	_	_	_	_	_
+16	gehen	gehen	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_569
+# text = Viele Philosophen argumentieren, dass der Klimawandel eine neue Kategorie globaler moralischer Verpflichtungen begründet.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Philosophen	Philosoph	NOUN	_	_	_	_	_	_
+3	argumentieren	armentieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Klimawandel	Klimawandel	NOUN	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	neue	neu	ADJ	_	_	_	_	_	_
+10	Kategorie	Kategorie	NOUN	_	_	_	_	_	_
+11	globaler	global	ADJ	_	_	_	_	_	_
+12	moralischer	moralisch	ADJ	_	_	_	_	_	_
+13	Verpflichtungen	Verpflichtung	NOUN	_	_	_	_	_	_
+14	begründet	begründen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_570
+# text = Die Frage nach der Legitimität staatlicher Eingriffe in die Wirtschaft berührt Grundfragen der politischen Philosophie.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frage	Frage	NOUN	_	_	_	_	_	_
+3	nach	nach	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Legitimität	Legitimität	NOUN	_	_	_	_	_	_
+6	staatlicher	staatlich	ADJ	_	_	_	_	_	_
+7	Eingriffe	Eingriff	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+11	berührt	berühren	VERB	_	_	_	_	_	_
+12	Grundfragen	Grundfrage	NOUN	_	_	_	_	_	_
+13	der	der	DET	_	_	_	_	_	_
+14	politischen	politisch	ADJ	_	_	_	_	_	_
+15	Philosophie	Philosophie	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_571
+# text = Es ist ratsam, bei der Entwicklung von Technologien potenzielle gesellschaftliche Folgen von Anfang an mitzudenken.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	bei	bei	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+8	von	von	ADP	_	_	_	_	_	_
+9	Technologien	Technologie	NOUN	_	_	_	_	_	_
+10	potenzielle	potenziell	ADJ	_	_	_	_	_	_
+11	gesellschaftliche	gesellschaftlich	ADJ	_	_	_	_	_	_
+12	Folgen	Folge	NOUN	_	_	_	_	_	_
+13	von	von	ADP	_	_	_	_	_	_
+14	Anfang	Anfang	NOUN	_	_	_	_	_	_
+15	an	an	ADP	_	_	_	_	_	_
+16	mitzudenken	mitdenken	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_572
+# text = Die Auseinandersetzung mit dem Utilitarismus wirft die Frage nach der Abwägung individueller und kollektiver Interessen auf.
+1	Die	der	DET	_	_	_	_	_	_
+2	Auseinandersetzung	Auseinandersetzung	NOUN	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Utilitarismus	Utilitarismus	NOUN	_	_	_	_	_	_
+6	wirft	werfen	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Frage	Frage	NOUN	_	_	_	_	_	_
+9	nach	nach	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Abwägung	Abwägung	NOUN	_	_	_	_	_	_
+12	individueller	individuell	ADJ	_	_	_	_	_	_
+13	und	und	CCONJ	_	_	_	_	_	_
+14	kollektiver	kollektiv	ADJ	_	_	_	_	_	_
+15	Interessen	Interesse	NOUN	_	_	_	_	_	_
+16	auf	auf	ADP	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_573
+# text = Ungeachtet kultureller Unterschiede gibt es universelle moralische Intuitionen, die jede Ethik berücksichtigen muss.
+1	Ungeachtet	ungeachtet	ADP	_	_	_	_	_	_
+2	kultureller	kulturell	ADJ	_	_	_	_	_	_
+3	Unterschiede	Unterschied	NOUN	_	_	_	_	_	_
+4	gibt	geben	VERB	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	universelle	universell	ADJ	_	_	_	_	_	_
+7	moralische	moralisch	ADJ	_	_	_	_	_	_
+8	Intuitionen	Intuition	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	jede	jeder	DET	_	_	_	_	_	_
+12	Ethik	Ethik	NOUN	_	_	_	_	_	_
+13	berücksichtigen	berücksichtigen	VERB	_	_	_	_	_	_
+14	muss	müssen	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_574
+# text = Der Vortrag verdeutlichte, dass ökonomische Rationalität und moralische Verantwortung nicht zwangsläufig im Widerspruch stehen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Vortrag	Vortrag	NOUN	_	_	_	_	_	_
+3	verdeutlichte	verdeutlichen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	ökonomische	ökonomisch	ADJ	_	_	_	_	_	_
+7	Rationalität	Rationalität	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	moralische	moralisch	ADJ	_	_	_	_	_	_
+10	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	zwangsläufig	zwangsläufig	ADJ	_	_	_	_	_	_
+13	im	in	ADP	_	_	_	_	_	_
+14	Widerspruch	Widerspruch	NOUN	_	_	_	_	_	_
+15	stehen	stehen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_575
+# text = Es ist absehbar, dass die Neurowissenschaften das traditionelle Verständnis von Bewusstsein grundlegend verändern werden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	absehbar	absehbar	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Neurowissenschaften	Neurowissenschaft	NOUN	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	traditionelle	traditionell	ADJ	_	_	_	_	_	_
+10	Verständnis	Verständnis	NOUN	_	_	_	_	_	_
+11	von	von	ADP	_	_	_	_	_	_
+12	Bewusstsein	Bewußtsein	NOUN	_	_	_	_	_	_
+13	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+14	verändern	verändern	VERB	_	_	_	_	_	_
+15	werden	werden	AUX	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_576
+# text = Die im Essay angeführten Argumente für einen kosmopolitischen Ansatz gewinnen angesichts globaler Krisen an Überzeugungskraft.
+1	Die	der	DET	_	_	_	_	_	_
+2	im	in	ADP	_	_	_	_	_	_
+3	Essay	Essay	NOUN	_	_	_	_	_	_
+4	angeführten	angeführt	ADJ	_	_	_	_	_	_
+5	Argumente	Argument	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	einen	ein	DET	_	_	_	_	_	_
+8	kosmopolitischen	kosmopolitisch	ADJ	_	_	_	_	_	_
+9	Ansatz	Ansatz	NOUN	_	_	_	_	_	_
+10	gewinnen	gewinnen	VERB	_	_	_	_	_	_
+11	angesichts	angesichts	ADP	_	_	_	_	_	_
+12	globaler	global	ADJ	_	_	_	_	_	_
+13	Krisen	Krise	NOUN	_	_	_	_	_	_
+14	an	an	ADP	_	_	_	_	_	_
+15	Überzeugungskraft	Überzeugungskraft	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_577
+# text = Die Verknüpfung von Recht und Moral bildet seit der Aufklärung einen zentralen Gegenstand juristischer Theoriebildung.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verknüpfung	Verknüpfung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Recht	Recht	NOUN	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	Moral	Moral	NOUN	_	_	_	_	_	_
+7	bildet	bilden	VERB	_	_	_	_	_	_
+8	seit	seit	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Aufklärung	Aufklärung	NOUN	_	_	_	_	_	_
+11	einen	ein	DET	_	_	_	_	_	_
+12	zentralen	zentral	ADJ	_	_	_	_	_	_
+13	Gegenstand	Gegenstand	NOUN	_	_	_	_	_	_
+14	juristischer	juristisch	ADJ	_	_	_	_	_	_
+15	Theoriebildung	Theoriebildung	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_578
+# text = Es bleibt offen, ob eine rein säkulare Ethik ausreichend normative Orientierung für komplexe Gesellschaften bieten kann.
+1	Es	es	PRON	_	_	_	_	_	_
+2	bleibt	bleiben	VERB	_	_	_	_	_	_
+3	offen	offen	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	rein	rein	ADJ	_	_	_	_	_	_
+8	säkulare	säkular	ADJ	_	_	_	_	_	_
+9	Ethik	Ethik	NOUN	_	_	_	_	_	_
+10	ausreichend	ausreichend	ADJ	_	_	_	_	_	_
+11	normative	normativ	ADJ	_	_	_	_	_	_
+12	Orientierung	Orientierung	NOUN	_	_	_	_	_	_
+13	für	für	ADP	_	_	_	_	_	_
+14	komplexe	komplex	ADJ	_	_	_	_	_	_
+15	Gesellschaften	Gesellschaft	NOUN	_	_	_	_	_	_
+16	bieten	bieten	VERB	_	_	_	_	_	_
+17	kann	können	AUX	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_579
+# text = Die philosophische Reflexion über den technologischen Fortschritt ist Voraussetzung für eine verantwortungsvolle Innovationspolitik.
+1	Die	der	DET	_	_	_	_	_	_
+2	philosophische	philosophisch	ADJ	_	_	_	_	_	_
+3	Reflexion	Reflexion	NOUN	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	technologischen	technologisch	ADJ	_	_	_	_	_	_
+7	Fortschritt	Fortschritt	NOUN	_	_	_	_	_	_
+8	ist	sein	AUX	_	_	_	_	_	_
+9	Voraussetzung	Voraussetzung	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	eine	ein	DET	_	_	_	_	_	_
+12	verantwortungsvolle	verantwortungsvoll	ADJ	_	_	_	_	_	_
+13	Innovationspolitik	Innovationspolitik	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_train_580
+# text = Der Autor plädiert für eine integrative Perspektive, die ökonomische Effizienz und soziale Gerechtigkeit miteinander verbindet.
+1	Der	der	DET	_	_	_	_	_	_
+2	Autor	Autor	NOUN	_	_	_	_	_	_
+3	plädiert	plädieren	VERB	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	integrative	integrativ	ADJ	_	_	_	_	_	_
+7	Perspektive	Perspektive	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	ökonomische	ökonomisch	ADJ	_	_	_	_	_	_
+11	Effizienz	Effizienz	NOUN	_	_	_	_	_	_
+12	und	und	CCONJ	_	_	_	_	_	_
+13	soziale	sozial	ADJ	_	_	_	_	_	_
+14	Gerechtigkeit	Gerechtigkeit	NOUN	_	_	_	_	_	_
+15	miteinander	miteinander	ADV	_	_	_	_	_	_
+16	verbindet	verbinden	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+

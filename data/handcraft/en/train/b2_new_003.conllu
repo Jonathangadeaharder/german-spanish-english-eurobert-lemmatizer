@@ -1,0 +1,4028 @@
+# sent_id = en_b2_train_401
+# text = Although funding increased, schools in deprived districts still struggle to recruit qualified teachers.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	funding	funding	NOUN	_	_	_	_	_	_
+3	increased	increase	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	schools	school	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	deprived	deprived	ADJ	_	_	_	_	_	_
+8	districts	district	NOUN	_	_	_	_	_	_
+9	still	still	ADV	_	_	_	_	_	_
+10	struggle	struggle	VERB	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	recruit	recruit	VERB	_	_	_	_	_	_
+13	qualified	qualified	ADJ	_	_	_	_	_	_
+14	teachers	teacher	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_402
+# text = It is expected that digital literacy programs will become mandatory in national secondary curricula.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	digital	digital	ADJ	_	_	_	_	_	_
+6	literacy	literacy	NOUN	_	_	_	_	_	_
+7	programs	program	NOUN	_	_	_	_	_	_
+8	will	will	AUX	_	_	_	_	_	_
+9	become	become	VERB	_	_	_	_	_	_
+10	mandatory	mandatory	ADJ	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	national	national	ADJ	_	_	_	_	_	_
+13	secondary	secondary	ADJ	_	_	_	_	_	_
+14	curricula	curriculum	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_403
+# text = Inclusive classrooms benefit all learners, yet many teachers lack training in differentiated instruction.
+1	Inclusive	inclusive	ADJ	_	_	_	_	_	_
+2	classrooms	classroom	NOUN	_	_	_	_	_	_
+3	benefit	benefit	VERB	_	_	_	_	_	_
+4	all	all	DET	_	_	_	_	_	_
+5	learners	learner	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	yet	yet	CCONJ	_	_	_	_	_	_
+8	many	many	ADJ	_	_	_	_	_	_
+9	teachers	teacher	NOUN	_	_	_	_	_	_
+10	lack	lack	VERB	_	_	_	_	_	_
+11	training	training	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	differentiated	differentiate	VERB	_	_	_	_	_	_
+14	instruction	instruction	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_404
+# text = The ministry explained that vocational pathways should be valued equally alongside university entrance routes.
+1	The	the	DET	_	_	_	_	_	_
+2	ministry	ministry	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	vocational	vocational	ADJ	_	_	_	_	_	_
+6	pathways	pathway	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	valued	value	VERB	_	_	_	_	_	_
+10	equally	equally	ADV	_	_	_	_	_	_
+11	alongside	alongside	ADP	_	_	_	_	_	_
+12	university	university	NOUN	_	_	_	_	_	_
+13	entrance	entrance	NOUN	_	_	_	_	_	_
+14	routes	route	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_405
+# text = Despite smaller class sizes, achievement gaps between advantaged and disadvantaged students remain wide.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	smaller	small	ADJ	_	_	_	_	_	_
+3	class	class	NOUN	_	_	_	_	_	_
+4	sizes	size	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	achievement	achievement	NOUN	_	_	_	_	_	_
+7	gaps	gap	NOUN	_	_	_	_	_	_
+8	between	between	ADP	_	_	_	_	_	_
+9	advantaged	advantaged	ADJ	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	disadvantaged	disadvantaged	ADJ	_	_	_	_	_	_
+12	students	student	NOUN	_	_	_	_	_	_
+13	remain	remain	VERB	_	_	_	_	_	_
+14	wide	wide	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_406
+# text = Promoting critical thinking requires moving beyond rote memorization and narrow standardized test preparation.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	critical	critical	ADJ	_	_	_	_	_	_
+3	thinking	thinking	NOUN	_	_	_	_	_	_
+4	requires	require	VERB	_	_	_	_	_	_
+5	moving	move	VERB	_	_	_	_	_	_
+6	beyond	beyond	ADP	_	_	_	_	_	_
+7	rote	rote	ADJ	_	_	_	_	_	_
+8	memorization	memorization	NOUN	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	narrow	narrow	ADJ	_	_	_	_	_	_
+11	standardized	standardize	VERB	_	_	_	_	_	_
+12	test	test	NOUN	_	_	_	_	_	_
+13	preparation	preparation	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_407
+# text = If counseling services were expanded, dropout rates in technical colleges might decline more rapidly.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	counseling	counseling	NOUN	_	_	_	_	_	_
+3	services	service	NOUN	_	_	_	_	_	_
+4	were	be	AUX	_	_	_	_	_	_
+5	expanded	expand	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dropout	dropout	NOUN	_	_	_	_	_	_
+8	rates	rate	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	technical	technical	ADJ	_	_	_	_	_	_
+11	colleges	college	NOUN	_	_	_	_	_	_
+12	might	may	AUX	_	_	_	_	_	_
+13	decline	decline	VERB	_	_	_	_	_	_
+14	more	more	ADV	_	_	_	_	_	_
+15	rapidly	rapidly	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_408
+# text = Although tuition was frozen, living costs still push low income students toward precarious part time work.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	tuition	tuition	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	frozen	freeze	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	living	living	NOUN	_	_	_	_	_	_
+7	costs	cost	NOUN	_	_	_	_	_	_
+8	still	still	ADV	_	_	_	_	_	_
+9	push	push	VERB	_	_	_	_	_	_
+10	low	low	ADJ	_	_	_	_	_	_
+11	income	income	NOUN	_	_	_	_	_	_
+12	students	student	NOUN	_	_	_	_	_	_
+13	toward	toward	ADP	_	_	_	_	_	_
+14	precarious	precarious	ADJ	_	_	_	_	_	_
+15	part	part	NOUN	_	_	_	_	_	_
+16	time	time	NOUN	_	_	_	_	_	_
+17	work	work	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_409
+# text = It is feared that chronic underfunding could undermine faith in education as a pathway for mobility.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	chronic	chronic	ADJ	_	_	_	_	_	_
+6	underfunding	underfunding	NOUN	_	_	_	_	_	_
+7	could	can	AUX	_	_	_	_	_	_
+8	undermine	undermine	VERB	_	_	_	_	_	_
+9	faith	faith	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	education	education	NOUN	_	_	_	_	_	_
+12	as	as	SCONJ	_	_	_	_	_	_
+13	a	a	DET	_	_	_	_	_	_
+14	pathway	pathway	NOUN	_	_	_	_	_	_
+15	for	for	ADP	_	_	_	_	_	_
+16	mobility	mobility	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_410
+# text = Universities whose research attracts funding often neglect teaching quality in overcrowded undergraduate programs.
+1	Universities	university	NOUN	_	_	_	_	_	_
+2	whose	whose	DET	_	_	_	_	_	_
+3	research	research	NOUN	_	_	_	_	_	_
+4	attracts	attract	VERB	_	_	_	_	_	_
+5	funding	funding	NOUN	_	_	_	_	_	_
+6	often	often	ADV	_	_	_	_	_	_
+7	neglect	neglect	VERB	_	_	_	_	_	_
+8	teaching	teaching	NOUN	_	_	_	_	_	_
+9	quality	quality	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	overcrowded	overcrowd	VERB	_	_	_	_	_	_
+12	undergraduate	undergraduate	ADJ	_	_	_	_	_	_
+13	programs	program	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_411
+# text = Had literacy coaching begun earlier, struggling readers in primary schools would have improved faster.
+1	Had	have	AUX	_	_	_	_	_	_
+2	literacy	literacy	NOUN	_	_	_	_	_	_
+3	coaching	coaching	NOUN	_	_	_	_	_	_
+4	begun	begin	VERB	_	_	_	_	_	_
+5	earlier	early	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	struggling	struggle	VERB	_	_	_	_	_	_
+8	readers	reader	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	primary	primary	ADJ	_	_	_	_	_	_
+11	schools	school	NOUN	_	_	_	_	_	_
+12	would	will	AUX	_	_	_	_	_	_
+13	have	have	AUX	_	_	_	_	_	_
+14	improved	improve	VERB	_	_	_	_	_	_
+15	faster	fast	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_412
+# text = Lifelong learning policies should enable mid career workers to adapt to changing labor market demands.
+1	Lifelong	lifelong	ADJ	_	_	_	_	_	_
+2	learning	learning	NOUN	_	_	_	_	_	_
+3	policies	policy	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	enable	enable	VERB	_	_	_	_	_	_
+6	mid	mid	NOUN	_	_	_	_	_	_
+7	career	career	NOUN	_	_	_	_	_	_
+8	workers	worker	NOUN	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	adapt	adapt	VERB	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	changing	change	VERB	_	_	_	_	_	_
+13	labor	labor	NOUN	_	_	_	_	_	_
+14	market	market	NOUN	_	_	_	_	_	_
+15	demands	demand	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_413
+# text = Although rankings dominate headlines, graduate employment outcomes vary widely across comparable institutions.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	rankings	ranking	NOUN	_	_	_	_	_	_
+3	dominate	dominate	VERB	_	_	_	_	_	_
+4	headlines	headline	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	graduate	graduate	NOUN	_	_	_	_	_	_
+7	employment	employment	NOUN	_	_	_	_	_	_
+8	outcomes	outcome	NOUN	_	_	_	_	_	_
+9	vary	vary	VERB	_	_	_	_	_	_
+10	widely	widely	ADV	_	_	_	_	_	_
+11	across	across	ADP	_	_	_	_	_	_
+12	comparable	comparable	ADJ	_	_	_	_	_	_
+13	institutions	institution	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_414
+# text = The challenge is not curriculum ambition but reliable support for teachers implementing ambitious reforms.
+1	The	the	DET	_	_	_	_	_	_
+2	challenge	challenge	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	curriculum	curriculum	NOUN	_	_	_	_	_	_
+6	ambition	ambition	NOUN	_	_	_	_	_	_
+7	but	but	CCONJ	_	_	_	_	_	_
+8	reliable	reliable	ADJ	_	_	_	_	_	_
+9	support	support	NOUN	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	teachers	teacher	NOUN	_	_	_	_	_	_
+12	implementing	implement	VERB	_	_	_	_	_	_
+13	ambitious	ambitious	ADJ	_	_	_	_	_	_
+14	reforms	reform	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_415
+# text = Expanding early childhood education should reduce later remediation costs and narrow initial learning gaps.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	early	early	ADJ	_	_	_	_	_	_
+3	childhood	childhood	NOUN	_	_	_	_	_	_
+4	education	education	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	reduce	reduce	VERB	_	_	_	_	_	_
+7	later	late	ADJ	_	_	_	_	_	_
+8	remediation	remediation	NOUN	_	_	_	_	_	_
+9	costs	cost	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	narrow	narrow	ADJ	_	_	_	_	_	_
+12	initial	initial	ADJ	_	_	_	_	_	_
+13	learning	learning	NOUN	_	_	_	_	_	_
+14	gaps	gap	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_416
+# text = The rector emphasized that academic freedom must not be sacrificed for short term reputational concerns.
+1	The	the	DET	_	_	_	_	_	_
+2	rector	rector	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	academic	academic	ADJ	_	_	_	_	_	_
+6	freedom	freedom	NOUN	_	_	_	_	_	_
+7	must	must	AUX	_	_	_	_	_	_
+8	not	not	PART	_	_	_	_	_	_
+9	be	be	AUX	_	_	_	_	_	_
+10	sacrificed	sacrifice	VERB	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	short	short	ADJ	_	_	_	_	_	_
+13	term	term	NOUN	_	_	_	_	_	_
+14	reputational	reputational	ADJ	_	_	_	_	_	_
+15	concerns	concern	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_417
+# text = It is recommended that assessment methods reward analytical writing rather than repetitive factual recall.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	assessment	assessment	NOUN	_	_	_	_	_	_
+6	methods	method	NOUN	_	_	_	_	_	_
+7	reward	reward	VERB	_	_	_	_	_	_
+8	analytical	analytical	ADJ	_	_	_	_	_	_
+9	writing	writing	NOUN	_	_	_	_	_	_
+10	rather	rather	ADV	_	_	_	_	_	_
+11	than	than	SCONJ	_	_	_	_	_	_
+12	repetitive	repetitive	ADJ	_	_	_	_	_	_
+13	factual	factual	ADJ	_	_	_	_	_	_
+14	recall	recall	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_418
+# text = Although online platforms expanded access, digital divides limit participation for rural and poorer households.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	online	online	ADJ	_	_	_	_	_	_
+3	platforms	platform	NOUN	_	_	_	_	_	_
+4	expanded	expand	VERB	_	_	_	_	_	_
+5	access	access	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	digital	digital	ADJ	_	_	_	_	_	_
+8	divides	divide	NOUN	_	_	_	_	_	_
+9	limit	limit	VERB	_	_	_	_	_	_
+10	participation	participation	NOUN	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	rural	rural	ADJ	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	poorer	poor	ADJ	_	_	_	_	_	_
+15	households	household	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_419
+# text = Strengthening school leadership is regarded as essential for sustaining improvement across disadvantaged communities.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	school	school	NOUN	_	_	_	_	_	_
+3	leadership	leadership	NOUN	_	_	_	_	_	_
+4	is	be	AUX	_	_	_	_	_	_
+5	regarded	regard	VERB	_	_	_	_	_	_
+6	as	as	SCONJ	_	_	_	_	_	_
+7	essential	essential	ADJ	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	sustaining	sustain	VERB	_	_	_	_	_	_
+10	improvement	improvement	NOUN	_	_	_	_	_	_
+11	across	across	ADP	_	_	_	_	_	_
+12	disadvantaged	disadvantage	VERB	_	_	_	_	_	_
+13	communities	community	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_420
+# text = Banning mobile devices during lessons may improve focus, yet engaging instructional design still matters most.
+1	Banning	bann	VERB	_	_	_	_	_	_
+2	mobile	mobile	ADJ	_	_	_	_	_	_
+3	devices	device	NOUN	_	_	_	_	_	_
+4	during	during	ADP	_	_	_	_	_	_
+5	lessons	lesson	NOUN	_	_	_	_	_	_
+6	may	may	AUX	_	_	_	_	_	_
+7	improve	improve	VERB	_	_	_	_	_	_
+8	focus	focu	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	yet	yet	CCONJ	_	_	_	_	_	_
+11	engaging	engage	VERB	_	_	_	_	_	_
+12	instructional	instructional	ADJ	_	_	_	_	_	_
+13	design	design	NOUN	_	_	_	_	_	_
+14	still	still	ADV	_	_	_	_	_	_
+15	matters	matter	VERB	_	_	_	_	_	_
+16	most	most	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_421
+# text = It is assumed that bilingual programs will expand as cities integrate growing numbers of migrant children.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	assumed	assume	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	bilingual	bilingual	ADJ	_	_	_	_	_	_
+6	programs	program	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	expand	expand	VERB	_	_	_	_	_	_
+9	as	as	SCONJ	_	_	_	_	_	_
+10	cities	city	NOUN	_	_	_	_	_	_
+11	integrate	integrate	VERB	_	_	_	_	_	_
+12	growing	grow	VERB	_	_	_	_	_	_
+13	numbers	number	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	migrant	migrant	NOUN	_	_	_	_	_	_
+16	children	child	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_422
+# text = Although grants were announced, libraries in public schools still lack current textbooks and learning materials.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	grants	grant	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	announced	announce	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	libraries	library	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	public	public	ADJ	_	_	_	_	_	_
+9	schools	school	NOUN	_	_	_	_	_	_
+10	still	still	ADV	_	_	_	_	_	_
+11	lack	lack	VERB	_	_	_	_	_	_
+12	current	current	ADJ	_	_	_	_	_	_
+13	textbooks	textbook	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	learning	learning	NOUN	_	_	_	_	_	_
+16	materials	material	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_423
+# text = Encouraging student participation in governance should foster responsibility and democratic habits from early ages.
+1	Encouraging	encourage	VERB	_	_	_	_	_	_
+2	student	student	NOUN	_	_	_	_	_	_
+3	participation	participation	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	governance	governance	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	foster	foster	VERB	_	_	_	_	_	_
+8	responsibility	responsibility	NOUN	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	democratic	democratic	ADJ	_	_	_	_	_	_
+11	habits	habit	NOUN	_	_	_	_	_	_
+12	from	from	ADP	_	_	_	_	_	_
+13	early	early	ADJ	_	_	_	_	_	_
+14	ages	age	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_424
+# text = Managing classroom diversity effectively remains a defining professional skill for teachers in urban schools.
+1	Managing	manage	VERB	_	_	_	_	_	_
+2	classroom	classroom	NOUN	_	_	_	_	_	_
+3	diversity	diversity	NOUN	_	_	_	_	_	_
+4	effectively	effectively	ADV	_	_	_	_	_	_
+5	remains	remain	VERB	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	defining	define	VERB	_	_	_	_	_	_
+8	professional	professional	ADJ	_	_	_	_	_	_
+9	skill	skill	NOUN	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	teachers	teacher	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	urban	urban	ADJ	_	_	_	_	_	_
+14	schools	school	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_425
+# text = Building equitable education systems requires sustained investment beyond symbolic reforms announced during election cycles.
+1	Building	build	VERB	_	_	_	_	_	_
+2	equitable	equitable	ADJ	_	_	_	_	_	_
+3	education	education	NOUN	_	_	_	_	_	_
+4	systems	system	NOUN	_	_	_	_	_	_
+5	requires	require	VERB	_	_	_	_	_	_
+6	sustained	sustained	ADJ	_	_	_	_	_	_
+7	investment	investment	NOUN	_	_	_	_	_	_
+8	beyond	beyond	ADP	_	_	_	_	_	_
+9	symbolic	symbolic	ADJ	_	_	_	_	_	_
+10	reforms	reform	NOUN	_	_	_	_	_	_
+11	announced	announce	VERB	_	_	_	_	_	_
+12	during	during	ADP	_	_	_	_	_	_
+13	election	election	NOUN	_	_	_	_	_	_
+14	cycles	cycle	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_426
+# text = Public health agencies argued that prevention programs deserve stable funding, not only emergency crisis allocations.
+1	Public	public	ADJ	_	_	_	_	_	_
+2	health	health	NOUN	_	_	_	_	_	_
+3	agencies	agency	NOUN	_	_	_	_	_	_
+4	argued	argue	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	prevention	prevention	NOUN	_	_	_	_	_	_
+7	programs	program	NOUN	_	_	_	_	_	_
+8	deserve	deserve	VERB	_	_	_	_	_	_
+9	stable	stable	ADJ	_	_	_	_	_	_
+10	funding	funding	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	not	not	PART	_	_	_	_	_	_
+13	only	only	ADV	_	_	_	_	_	_
+14	emergency	emergency	NOUN	_	_	_	_	_	_
+15	crisis	crisi	NOUN	_	_	_	_	_	_
+16	allocations	allocation	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_427
+# text = Although vaccination rates rose, vaccine hesitancy persists in communities with limited access to trusted information.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	vaccination	vaccination	NOUN	_	_	_	_	_	_
+3	rates	rate	NOUN	_	_	_	_	_	_
+4	rose	rise	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	vaccine	vaccine	NOUN	_	_	_	_	_	_
+7	hesitancy	hesitancy	NOUN	_	_	_	_	_	_
+8	persists	persist	VERB	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	communities	community	NOUN	_	_	_	_	_	_
+11	with	with	ADP	_	_	_	_	_	_
+12	limited	limited	ADJ	_	_	_	_	_	_
+13	access	access	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	trusted	trust	VERB	_	_	_	_	_	_
+16	information	information	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_428
+# text = It is expected that mental health services will be integrated more fully into primary care networks nationwide.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	mental	mental	ADJ	_	_	_	_	_	_
+6	health	health	NOUN	_	_	_	_	_	_
+7	services	service	NOUN	_	_	_	_	_	_
+8	will	will	AUX	_	_	_	_	_	_
+9	be	be	AUX	_	_	_	_	_	_
+10	integrated	integrate	VERB	_	_	_	_	_	_
+11	more	more	ADV	_	_	_	_	_	_
+12	fully	fully	ADV	_	_	_	_	_	_
+13	into	into	ADP	_	_	_	_	_	_
+14	primary	primary	ADJ	_	_	_	_	_	_
+15	care	care	NOUN	_	_	_	_	_	_
+16	networks	network	NOUN	_	_	_	_	_	_
+17	nationwide	nationwide	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_429
+# text = Reducing air pollution near schools should lower asthma rates among children in densely populated urban districts.
+1	Reducing	reduce	VERB	_	_	_	_	_	_
+2	air	air	NOUN	_	_	_	_	_	_
+3	pollution	pollution	NOUN	_	_	_	_	_	_
+4	near	near	ADP	_	_	_	_	_	_
+5	schools	school	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	lower	lower	VERB	_	_	_	_	_	_
+8	asthma	asthma	NOUN	_	_	_	_	_	_
+9	rates	rate	NOUN	_	_	_	_	_	_
+10	among	among	ADP	_	_	_	_	_	_
+11	children	child	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	densely	densely	ADV	_	_	_	_	_	_
+14	populated	populate	VERB	_	_	_	_	_	_
+15	urban	urban	ADJ	_	_	_	_	_	_
+16	districts	district	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_430
+# text = Despite expanded screening, late diagnosis of chronic diseases continues imposing heavy costs on health systems.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	expanded	expand	VERB	_	_	_	_	_	_
+3	screening	screen	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	late	late	ADJ	_	_	_	_	_	_
+6	diagnosis	diagnosi	NOUN	_	_	_	_	_	_
+7	of	of	ADP	_	_	_	_	_	_
+8	chronic	chronic	ADJ	_	_	_	_	_	_
+9	diseases	disease	NOUN	_	_	_	_	_	_
+10	continues	continue	VERB	_	_	_	_	_	_
+11	imposing	impose	VERB	_	_	_	_	_	_
+12	heavy	heavy	ADJ	_	_	_	_	_	_
+13	costs	cost	NOUN	_	_	_	_	_	_
+14	on	on	ADP	_	_	_	_	_	_
+15	health	health	NOUN	_	_	_	_	_	_
+16	systems	system	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_431
+# text = The epidemiologist explained that contact tracing systems must protect privacy while enabling rapid outbreak response.
+1	The	the	DET	_	_	_	_	_	_
+2	epidemiologist	epidemiologist	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	contact	contact	NOUN	_	_	_	_	_	_
+6	tracing	tracing	NOUN	_	_	_	_	_	_
+7	systems	system	NOUN	_	_	_	_	_	_
+8	must	must	AUX	_	_	_	_	_	_
+9	protect	protect	VERB	_	_	_	_	_	_
+10	privacy	privacy	NOUN	_	_	_	_	_	_
+11	while	while	SCONJ	_	_	_	_	_	_
+12	enabling	enable	VERB	_	_	_	_	_	_
+13	rapid	rapid	ADJ	_	_	_	_	_	_
+14	outbreak	outbreak	NOUN	_	_	_	_	_	_
+15	response	response	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_432
+# text = Promoting healthy diets requires tackling food deserts and aggressive marketing of heavily refined products.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	healthy	healthy	ADJ	_	_	_	_	_	_
+3	diets	diet	NOUN	_	_	_	_	_	_
+4	requires	require	VERB	_	_	_	_	_	_
+5	tackling	tackle	VERB	_	_	_	_	_	_
+6	food	food	NOUN	_	_	_	_	_	_
+7	deserts	desert	NOUN	_	_	_	_	_	_
+8	and	and	CCONJ	_	_	_	_	_	_
+9	aggressive	aggressive	ADJ	_	_	_	_	_	_
+10	marketing	marketing	NOUN	_	_	_	_	_	_
+11	of	of	ADP	_	_	_	_	_	_
+12	heavily	heavily	ADV	_	_	_	_	_	_
+13	refined	refine	VERB	_	_	_	_	_	_
+14	products	product	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_433
+# text = If harm reduction programs were scaled up, overdose deaths in affected neighborhoods might fall noticeably.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	harm	harm	NOUN	_	_	_	_	_	_
+3	reduction	reduction	NOUN	_	_	_	_	_	_
+4	programs	program	NOUN	_	_	_	_	_	_
+5	were	be	AUX	_	_	_	_	_	_
+6	scaled	scal	VERB	_	_	_	_	_	_
+7	up	up	ADP	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	overdose	overdose	NOUN	_	_	_	_	_	_
+10	deaths	death	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	affected	affect	VERB	_	_	_	_	_	_
+13	neighborhoods	neighborhood	NOUN	_	_	_	_	_	_
+14	might	may	AUX	_	_	_	_	_	_
+15	fall	fall	VERB	_	_	_	_	_	_
+16	noticeably	noticeably	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_434
+# text = Although hospitals upgraded equipment, staffing shortages limit capacity during seasonal surges of respiratory illness.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	hospitals	hospital	NOUN	_	_	_	_	_	_
+3	upgraded	upgrade	VERB	_	_	_	_	_	_
+4	equipment	equipment	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	staffing	staffing	NOUN	_	_	_	_	_	_
+7	shortages	shortage	NOUN	_	_	_	_	_	_
+8	limit	limit	VERB	_	_	_	_	_	_
+9	capacity	capacity	NOUN	_	_	_	_	_	_
+10	during	during	ADP	_	_	_	_	_	_
+11	seasonal	seasonal	ADJ	_	_	_	_	_	_
+12	surges	surge	NOUN	_	_	_	_	_	_
+13	of	of	ADP	_	_	_	_	_	_
+14	respiratory	respiratory	ADJ	_	_	_	_	_	_
+15	illness	illness	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_435
+# text = It is feared that antimicrobial resistance could undermine routine treatments unless prescribing practices change quickly.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	antimicrobial	antimicrobial	ADJ	_	_	_	_	_	_
+6	resistance	resistance	NOUN	_	_	_	_	_	_
+7	could	can	AUX	_	_	_	_	_	_
+8	undermine	undermine	VERB	_	_	_	_	_	_
+9	routine	routine	ADJ	_	_	_	_	_	_
+10	treatments	treatment	NOUN	_	_	_	_	_	_
+11	unless	unless	SCONJ	_	_	_	_	_	_
+12	prescribing	prescribing	NOUN	_	_	_	_	_	_
+13	practices	practice	NOUN	_	_	_	_	_	_
+14	change	change	VERB	_	_	_	_	_	_
+15	quickly	quickly	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_436
+# text = Community health workers are viewed as vital links between marginalized populations and formal medical services.
+1	Community	community	NOUN	_	_	_	_	_	_
+2	health	health	NOUN	_	_	_	_	_	_
+3	workers	worker	NOUN	_	_	_	_	_	_
+4	are	be	AUX	_	_	_	_	_	_
+5	viewed	view	VERB	_	_	_	_	_	_
+6	as	as	SCONJ	_	_	_	_	_	_
+7	vital	vital	ADJ	_	_	_	_	_	_
+8	links	link	NOUN	_	_	_	_	_	_
+9	between	between	ADP	_	_	_	_	_	_
+10	marginalized	marginalize	VERB	_	_	_	_	_	_
+11	populations	population	NOUN	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	formal	formal	ADJ	_	_	_	_	_	_
+14	medical	medical	ADJ	_	_	_	_	_	_
+15	services	service	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_437
+# text = Had tobacco taxes been raised earlier, smoking prevalence among adolescents would have declined more sharply.
+1	Had	have	AUX	_	_	_	_	_	_
+2	tobacco	tobacco	NOUN	_	_	_	_	_	_
+3	taxes	tax	NOUN	_	_	_	_	_	_
+4	been	be	AUX	_	_	_	_	_	_
+5	raised	raise	VERB	_	_	_	_	_	_
+6	earlier	early	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	smoking	smoking	NOUN	_	_	_	_	_	_
+9	prevalence	prevalence	NOUN	_	_	_	_	_	_
+10	among	among	ADP	_	_	_	_	_	_
+11	adolescents	adolescent	NOUN	_	_	_	_	_	_
+12	would	will	AUX	_	_	_	_	_	_
+13	have	have	AUX	_	_	_	_	_	_
+14	declined	decline	VERB	_	_	_	_	_	_
+15	more	more	ADV	_	_	_	_	_	_
+16	sharply	sharply	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_438
+# text = The report shows how social determinants shape health outcomes more than clinical interventions alone can explain.
+1	The	the	DET	_	_	_	_	_	_
+2	report	report	NOUN	_	_	_	_	_	_
+3	shows	show	VERB	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	social	social	ADJ	_	_	_	_	_	_
+6	determinants	determinant	NOUN	_	_	_	_	_	_
+7	shape	shape	VERB	_	_	_	_	_	_
+8	health	health	NOUN	_	_	_	_	_	_
+9	outcomes	outcome	NOUN	_	_	_	_	_	_
+10	more	more	ADV	_	_	_	_	_	_
+11	than	than	SCONJ	_	_	_	_	_	_
+12	clinical	clinical	ADJ	_	_	_	_	_	_
+13	interventions	intervention	NOUN	_	_	_	_	_	_
+14	alone	alone	ADV	_	_	_	_	_	_
+15	can	can	AUX	_	_	_	_	_	_
+16	explain	explain	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_439
+# text = Ensuring equitable vaccine distribution during pandemics requires planning that reaches informal workers and remote villages.
+1	Ensuring	ensure	VERB	_	_	_	_	_	_
+2	equitable	equitable	ADJ	_	_	_	_	_	_
+3	vaccine	vaccine	NOUN	_	_	_	_	_	_
+4	distribution	distribution	NOUN	_	_	_	_	_	_
+5	during	during	ADP	_	_	_	_	_	_
+6	pandemics	pandemic	NOUN	_	_	_	_	_	_
+7	requires	require	VERB	_	_	_	_	_	_
+8	planning	planning	NOUN	_	_	_	_	_	_
+9	that	that	SCONJ	_	_	_	_	_	_
+10	reaches	reach	VERB	_	_	_	_	_	_
+11	informal	informal	ADJ	_	_	_	_	_	_
+12	workers	worker	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	remote	remote	ADJ	_	_	_	_	_	_
+15	villages	village	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_440
+# text = Although telemedicine expanded, elderly patients without digital skills were excluded from convenient remote consultations.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	telemedicine	telemedicine	NOUN	_	_	_	_	_	_
+3	expanded	expand	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	elderly	elderly	ADJ	_	_	_	_	_	_
+6	patients	patient	NOUN	_	_	_	_	_	_
+7	without	without	ADP	_	_	_	_	_	_
+8	digital	digital	ADJ	_	_	_	_	_	_
+9	skills	skill	NOUN	_	_	_	_	_	_
+10	were	be	AUX	_	_	_	_	_	_
+11	excluded	exclude	VERB	_	_	_	_	_	_
+12	from	from	ADP	_	_	_	_	_	_
+13	convenient	convenient	ADJ	_	_	_	_	_	_
+14	remote	remote	ADJ	_	_	_	_	_	_
+15	consultations	consultation	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_441
+# text = The obstacle is not medical knowledge but fragmented governance that slows coordinated responses to outbreaks.
+1	The	the	DET	_	_	_	_	_	_
+2	obstacle	obstacle	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	medical	medical	ADJ	_	_	_	_	_	_
+6	knowledge	knowledge	NOUN	_	_	_	_	_	_
+7	but	but	CCONJ	_	_	_	_	_	_
+8	fragmented	fragment	VERB	_	_	_	_	_	_
+9	governance	governance	NOUN	_	_	_	_	_	_
+10	that	that	SCONJ	_	_	_	_	_	_
+11	slows	slow	VERB	_	_	_	_	_	_
+12	coordinated	coordinate	VERB	_	_	_	_	_	_
+13	responses	response	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	outbreaks	outbreak	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_442
+# text = Expanding mental health first aid training should help workplaces identify colleagues at risk of serious crisis.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	mental	mental	ADJ	_	_	_	_	_	_
+3	health	health	NOUN	_	_	_	_	_	_
+4	first	first	ADJ	_	_	_	_	_	_
+5	aid	aid	NOUN	_	_	_	_	_	_
+6	training	training	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	help	help	VERB	_	_	_	_	_	_
+9	workplaces	workplace	NOUN	_	_	_	_	_	_
+10	identify	identify	VERB	_	_	_	_	_	_
+11	colleagues	colleague	NOUN	_	_	_	_	_	_
+12	at	at	ADP	_	_	_	_	_	_
+13	risk	risk	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	serious	serious	ADJ	_	_	_	_	_	_
+16	crisis	crisi	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_443
+# text = The minister emphasized that health data sharing must respect consent and avoid punitive surveillance of patients.
+1	The	the	DET	_	_	_	_	_	_
+2	minister	minister	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	health	health	NOUN	_	_	_	_	_	_
+6	data	datum	NOUN	_	_	_	_	_	_
+7	sharing	sharing	NOUN	_	_	_	_	_	_
+8	must	must	AUX	_	_	_	_	_	_
+9	respect	respect	VERB	_	_	_	_	_	_
+10	consent	consent	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	avoid	avoid	VERB	_	_	_	_	_	_
+13	punitive	punitive	ADJ	_	_	_	_	_	_
+14	surveillance	surveillance	NOUN	_	_	_	_	_	_
+15	of	of	ADP	_	_	_	_	_	_
+16	patients	patient	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_444
+# text = Developing resilient supply chains for essential medicines requires diversifying production beyond a few global suppliers.
+1	Developing	develop	VERB	_	_	_	_	_	_
+2	resilient	resilient	ADJ	_	_	_	_	_	_
+3	supply	supply	NOUN	_	_	_	_	_	_
+4	chains	chain	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	essential	essential	ADJ	_	_	_	_	_	_
+7	medicines	medicine	NOUN	_	_	_	_	_	_
+8	requires	require	VERB	_	_	_	_	_	_
+9	diversifying	diversify	VERB	_	_	_	_	_	_
+10	production	production	NOUN	_	_	_	_	_	_
+11	beyond	beyond	ADP	_	_	_	_	_	_
+12	a	a	DET	_	_	_	_	_	_
+13	few	few	ADJ	_	_	_	_	_	_
+14	global	global	ADJ	_	_	_	_	_	_
+15	suppliers	supplier	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_445
+# text = It is recommended that sugary beverage taxes fund programs promoting physical activity in underserved communities.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	sugary	sugary	ADJ	_	_	_	_	_	_
+6	beverage	beverage	NOUN	_	_	_	_	_	_
+7	taxes	tax	NOUN	_	_	_	_	_	_
+8	fund	fund	VERB	_	_	_	_	_	_
+9	programs	program	NOUN	_	_	_	_	_	_
+10	promoting	promote	VERB	_	_	_	_	_	_
+11	physical	physical	ADJ	_	_	_	_	_	_
+12	activity	activity	NOUN	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	underserved	underserved	ADJ	_	_	_	_	_	_
+15	communities	community	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_446
+# text = Although life expectancy improved, health inequalities between regions widened after recent cuts to preventive services.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	life	life	NOUN	_	_	_	_	_	_
+3	expectancy	expectancy	NOUN	_	_	_	_	_	_
+4	improved	improve	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	health	health	NOUN	_	_	_	_	_	_
+7	inequalities	inequality	NOUN	_	_	_	_	_	_
+8	between	between	ADP	_	_	_	_	_	_
+9	regions	region	NOUN	_	_	_	_	_	_
+10	widened	widen	VERB	_	_	_	_	_	_
+11	after	after	ADP	_	_	_	_	_	_
+12	recent	recent	ADJ	_	_	_	_	_	_
+13	cuts	cut	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	preventive	preventive	ADJ	_	_	_	_	_	_
+16	services	service	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_447
+# text = Strengthening wastewater surveillance could provide early warnings of viral outbreaks in rapidly growing metropolitan areas.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	wastewater	wastewater	NOUN	_	_	_	_	_	_
+3	surveillance	surveillance	NOUN	_	_	_	_	_	_
+4	could	can	AUX	_	_	_	_	_	_
+5	provide	provide	VERB	_	_	_	_	_	_
+6	early	early	ADJ	_	_	_	_	_	_
+7	warnings	warning	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	viral	viral	ADJ	_	_	_	_	_	_
+10	outbreaks	outbreak	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	rapidly	rapidly	ADV	_	_	_	_	_	_
+13	growing	grow	VERB	_	_	_	_	_	_
+14	metropolitan	metropolitan	ADJ	_	_	_	_	_	_
+15	areas	area	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_448
+# text = Promoting rest and recovery among healthcare staff should reduce burnout linked to chronic understaffing pressures.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	rest	rest	NOUN	_	_	_	_	_	_
+3	and	and	CCONJ	_	_	_	_	_	_
+4	recovery	recovery	NOUN	_	_	_	_	_	_
+5	among	among	ADP	_	_	_	_	_	_
+6	healthcare	healthcare	NOUN	_	_	_	_	_	_
+7	staff	staff	NOUN	_	_	_	_	_	_
+8	should	should	AUX	_	_	_	_	_	_
+9	reduce	reduce	VERB	_	_	_	_	_	_
+10	burnout	burnout	NOUN	_	_	_	_	_	_
+11	linked	link	VERB	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	chronic	chronic	ADJ	_	_	_	_	_	_
+14	understaffing	understaffing	NOUN	_	_	_	_	_	_
+15	pressures	pressure	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_449
+# text = Balancing economic reopening with infection control remains contentious when case data are incomplete or delayed.
+1	Balancing	balance	VERB	_	_	_	_	_	_
+2	economic	economic	ADJ	_	_	_	_	_	_
+3	reopening	reopening	NOUN	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	infection	infection	NOUN	_	_	_	_	_	_
+6	control	control	NOUN	_	_	_	_	_	_
+7	remains	remain	VERB	_	_	_	_	_	_
+8	contentious	contentious	ADJ	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	case	case	NOUN	_	_	_	_	_	_
+11	data	datum	NOUN	_	_	_	_	_	_
+12	are	be	AUX	_	_	_	_	_	_
+13	incomplete	incomplete	ADJ	_	_	_	_	_	_
+14	or	or	CCONJ	_	_	_	_	_	_
+15	delayed	delay	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_450
+# text = Protecting population health in aging societies will require rethinking how care, housing, and transport interconnect.
+1	Protecting	protect	VERB	_	_	_	_	_	_
+2	population	population	NOUN	_	_	_	_	_	_
+3	health	health	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	aging	aging	NOUN	_	_	_	_	_	_
+6	societies	society	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	require	require	VERB	_	_	_	_	_	_
+9	rethinking	rethink	VERB	_	_	_	_	_	_
+10	how	how	ADV	_	_	_	_	_	_
+11	care	care	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	housing	housing	NOUN	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	transport	transport	NOUN	_	_	_	_	_	_
+17	interconnect	interconnect	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_451
+# text = Migration policy debates often overlook the economic contributions migrants make to aging labor markets.
+1	Migration	migration	NOUN	_	_	_	_	_	_
+2	policy	policy	NOUN	_	_	_	_	_	_
+3	debates	debate	NOUN	_	_	_	_	_	_
+4	often	often	ADV	_	_	_	_	_	_
+5	overlook	overlook	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	economic	economic	ADJ	_	_	_	_	_	_
+8	contributions	contribution	NOUN	_	_	_	_	_	_
+9	migrants	migrant	NOUN	_	_	_	_	_	_
+10	make	make	VERB	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	aging	aging	NOUN	_	_	_	_	_	_
+13	labor	labor	NOUN	_	_	_	_	_	_
+14	markets	market	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_452
+# text = Although asylum applications fell, processing backlogs still leave applicants in prolonged uncertainty without work rights.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	asylum	asylum	NOUN	_	_	_	_	_	_
+3	applications	application	NOUN	_	_	_	_	_	_
+4	fell	fall	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	processing	processing	NOUN	_	_	_	_	_	_
+7	backlogs	backlog	NOUN	_	_	_	_	_	_
+8	still	still	ADV	_	_	_	_	_	_
+9	leave	leave	VERB	_	_	_	_	_	_
+10	applicants	applicant	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	prolonged	prolonged	ADJ	_	_	_	_	_	_
+13	uncertainty	uncertainty	NOUN	_	_	_	_	_	_
+14	without	without	ADP	_	_	_	_	_	_
+15	work	work	NOUN	_	_	_	_	_	_
+16	rights	right	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_453
+# text = It is expected that integration courses will emphasize language skills alongside practical knowledge of civic institutions.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	integration	integration	NOUN	_	_	_	_	_	_
+6	courses	course	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	emphasize	emphasize	VERB	_	_	_	_	_	_
+9	language	language	NOUN	_	_	_	_	_	_
+10	skills	skill	NOUN	_	_	_	_	_	_
+11	alongside	alongside	ADP	_	_	_	_	_	_
+12	practical	practical	ADJ	_	_	_	_	_	_
+13	knowledge	knowledge	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	civic	civic	ADJ	_	_	_	_	_	_
+16	institutions	institution	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_454
+# text = Host communities benefit when migrants fill vacancies in sectors facing persistent shortages of qualified workers.
+1	Host	host	NOUN	_	_	_	_	_	_
+2	communities	community	NOUN	_	_	_	_	_	_
+3	benefit	benefit	VERB	_	_	_	_	_	_
+4	when	when	SCONJ	_	_	_	_	_	_
+5	migrants	migrant	NOUN	_	_	_	_	_	_
+6	fill	fill	VERB	_	_	_	_	_	_
+7	vacancies	vacancy	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	sectors	sector	NOUN	_	_	_	_	_	_
+10	facing	face	VERB	_	_	_	_	_	_
+11	persistent	persistent	ADJ	_	_	_	_	_	_
+12	shortages	shortage	NOUN	_	_	_	_	_	_
+13	of	of	ADP	_	_	_	_	_	_
+14	qualified	qualified	ADJ	_	_	_	_	_	_
+15	workers	worker	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_455
+# text = Despite integration programs, discrimination in housing and hiring continues limiting opportunities for newly arrived families.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	integration	integration	NOUN	_	_	_	_	_	_
+3	programs	program	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	discrimination	discrimination	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	housing	housing	NOUN	_	_	_	_	_	_
+8	and	and	CCONJ	_	_	_	_	_	_
+9	hiring	hiring	NOUN	_	_	_	_	_	_
+10	continues	continue	VERB	_	_	_	_	_	_
+11	limiting	limit	VERB	_	_	_	_	_	_
+12	opportunities	opportunity	NOUN	_	_	_	_	_	_
+13	for	for	ADP	_	_	_	_	_	_
+14	newly	newly	ADV	_	_	_	_	_	_
+15	arrived	arrive	VERB	_	_	_	_	_	_
+16	families	family	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_456
+# text = The advisor explained that family reunification rules should balance security concerns with humanitarian obligations consistently.
+1	The	the	DET	_	_	_	_	_	_
+2	advisor	advisor	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	family	family	NOUN	_	_	_	_	_	_
+6	reunification	reunification	NOUN	_	_	_	_	_	_
+7	rules	rule	NOUN	_	_	_	_	_	_
+8	should	should	AUX	_	_	_	_	_	_
+9	balance	balance	VERB	_	_	_	_	_	_
+10	security	security	NOUN	_	_	_	_	_	_
+11	concerns	concern	NOUN	_	_	_	_	_	_
+12	with	with	ADP	_	_	_	_	_	_
+13	humanitarian	humanitarian	ADJ	_	_	_	_	_	_
+14	obligations	obligation	NOUN	_	_	_	_	_	_
+15	consistently	consistently	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_457
+# text = Promoting intercultural dialogue in schools should reduce tensions arising from rapid demographic change in towns.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	intercultural	intercultural	ADJ	_	_	_	_	_	_
+3	dialogue	dialogue	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	schools	school	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	reduce	reduce	VERB	_	_	_	_	_	_
+8	tensions	tension	NOUN	_	_	_	_	_	_
+9	arising	arise	VERB	_	_	_	_	_	_
+10	from	from	ADP	_	_	_	_	_	_
+11	rapid	rapid	ADJ	_	_	_	_	_	_
+12	demographic	demographic	ADJ	_	_	_	_	_	_
+13	change	change	NOUN	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	towns	town	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_458
+# text = If recognition of foreign credentials improved, skilled migrants could contribute sooner to national innovation ecosystems.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	recognition	recognition	NOUN	_	_	_	_	_	_
+3	of	of	ADP	_	_	_	_	_	_
+4	foreign	foreign	ADJ	_	_	_	_	_	_
+5	credentials	credential	NOUN	_	_	_	_	_	_
+6	improved	improve	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	skilled	skilled	ADJ	_	_	_	_	_	_
+9	migrants	migrant	NOUN	_	_	_	_	_	_
+10	could	can	AUX	_	_	_	_	_	_
+11	contribute	contribute	VERB	_	_	_	_	_	_
+12	sooner	soon	ADV	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	national	national	ADJ	_	_	_	_	_	_
+15	innovation	innovation	NOUN	_	_	_	_	_	_
+16	ecosystems	ecosystem	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_459
+# text = Although border controls tightened, irregular routes still expose vulnerable people to exploitation by criminal networks.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	border	border	NOUN	_	_	_	_	_	_
+3	controls	control	NOUN	_	_	_	_	_	_
+4	tightened	tighten	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	irregular	irregular	ADJ	_	_	_	_	_	_
+7	routes	route	NOUN	_	_	_	_	_	_
+8	still	still	ADV	_	_	_	_	_	_
+9	expose	expose	VERB	_	_	_	_	_	_
+10	vulnerable	vulnerable	ADJ	_	_	_	_	_	_
+11	people	person	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	exploitation	exploitation	NOUN	_	_	_	_	_	_
+14	by	by	ADP	_	_	_	_	_	_
+15	criminal	criminal	ADJ	_	_	_	_	_	_
+16	networks	network	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_460
+# text = It is feared that inflammatory rhetoric could erode public support for sensible, evidence based migration policies.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	inflammatory	inflammatory	ADJ	_	_	_	_	_	_
+6	rhetoric	rhetoric	NOUN	_	_	_	_	_	_
+7	could	can	AUX	_	_	_	_	_	_
+8	erode	erode	VERB	_	_	_	_	_	_
+9	public	public	ADJ	_	_	_	_	_	_
+10	support	support	NOUN	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	sensible	sensible	ADJ	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	evidence	evidence	NOUN	_	_	_	_	_	_
+15	based	base	VERB	_	_	_	_	_	_
+16	migration	migration	NOUN	_	_	_	_	_	_
+17	policies	policy	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_461
+# text = Local authorities are key actors for delivering housing, language training, and employment support services.
+1	Local	local	ADJ	_	_	_	_	_	_
+2	authorities	authority	NOUN	_	_	_	_	_	_
+3	are	be	AUX	_	_	_	_	_	_
+4	key	key	ADJ	_	_	_	_	_	_
+5	actors	actor	NOUN	_	_	_	_	_	_
+6	for	for	ADP	_	_	_	_	_	_
+7	delivering	deliver	VERB	_	_	_	_	_	_
+8	housing	housing	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	language	language	NOUN	_	_	_	_	_	_
+11	training	training	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	employment	employment	NOUN	_	_	_	_	_	_
+15	support	support	NOUN	_	_	_	_	_	_
+16	services	service	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_462
+# text = Had reception centers been funded adequately, overcrowding and poor conditions would have been avoided entirely.
+1	Had	have	AUX	_	_	_	_	_	_
+2	reception	reception	NOUN	_	_	_	_	_	_
+3	centers	center	NOUN	_	_	_	_	_	_
+4	been	be	AUX	_	_	_	_	_	_
+5	funded	fund	VERB	_	_	_	_	_	_
+6	adequately	adequately	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	overcrowding	overcrowding	NOUN	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	poor	poor	ADJ	_	_	_	_	_	_
+11	conditions	condition	NOUN	_	_	_	_	_	_
+12	would	will	AUX	_	_	_	_	_	_
+13	have	have	AUX	_	_	_	_	_	_
+14	been	be	AUX	_	_	_	_	_	_
+15	avoided	avoid	VERB	_	_	_	_	_	_
+16	entirely	entirely	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_463
+# text = The study documents how remittances support households abroad while migrants rebuild lives in unfamiliar host societies.
+1	The	the	DET	_	_	_	_	_	_
+2	study	study	NOUN	_	_	_	_	_	_
+3	documents	document	VERB	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	remittances	remittance	NOUN	_	_	_	_	_	_
+6	support	support	VERB	_	_	_	_	_	_
+7	households	household	NOUN	_	_	_	_	_	_
+8	abroad	abroad	ADV	_	_	_	_	_	_
+9	while	while	SCONJ	_	_	_	_	_	_
+10	migrants	migrant	NOUN	_	_	_	_	_	_
+11	rebuild	rebuild	VERB	_	_	_	_	_	_
+12	lives	life	NOUN	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	unfamiliar	unfamiliar	ADJ	_	_	_	_	_	_
+15	host	host	NOUN	_	_	_	_	_	_
+16	societies	society	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_464
+# text = Ensuring safe legal pathways for labor migration should reduce reliance on dangerous undocumented cross border journeys.
+1	Ensuring	ensure	VERB	_	_	_	_	_	_
+2	safe	safe	ADJ	_	_	_	_	_	_
+3	legal	legal	ADJ	_	_	_	_	_	_
+4	pathways	pathway	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	labor	labor	NOUN	_	_	_	_	_	_
+7	migration	migration	NOUN	_	_	_	_	_	_
+8	should	should	AUX	_	_	_	_	_	_
+9	reduce	reduce	VERB	_	_	_	_	_	_
+10	reliance	reliance	NOUN	_	_	_	_	_	_
+11	on	on	ADP	_	_	_	_	_	_
+12	dangerous	dangerous	ADJ	_	_	_	_	_	_
+13	undocumented	undocumented	ADJ	_	_	_	_	_	_
+14	cross	cross	NOUN	_	_	_	_	_	_
+15	border	border	NOUN	_	_	_	_	_	_
+16	journeys	journey	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_465
+# text = Although diversity is celebrated nationally, migrants in rural areas often experience isolation and limited service access.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	diversity	diversity	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	celebrated	celebrate	VERB	_	_	_	_	_	_
+5	nationally	nationally	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	migrants	migrant	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	rural	rural	ADJ	_	_	_	_	_	_
+10	areas	area	NOUN	_	_	_	_	_	_
+11	often	often	ADV	_	_	_	_	_	_
+12	experience	experience	VERB	_	_	_	_	_	_
+13	isolation	isolation	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	limited	limited	ADJ	_	_	_	_	_	_
+16	service	service	NOUN	_	_	_	_	_	_
+17	access	access	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_466
+# text = The challenge is not cultural difference itself but institutions that fail to translate diversity into equal opportunity.
+1	The	the	DET	_	_	_	_	_	_
+2	challenge	challenge	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	cultural	cultural	ADJ	_	_	_	_	_	_
+6	difference	difference	NOUN	_	_	_	_	_	_
+7	itself	itself	PRON	_	_	_	_	_	_
+8	but	but	CCONJ	_	_	_	_	_	_
+9	institutions	institution	NOUN	_	_	_	_	_	_
+10	that	that	SCONJ	_	_	_	_	_	_
+11	fail	fail	VERB	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	translate	translate	VERB	_	_	_	_	_	_
+14	diversity	diversity	NOUN	_	_	_	_	_	_
+15	into	into	ADP	_	_	_	_	_	_
+16	equal	equal	ADJ	_	_	_	_	_	_
+17	opportunity	opportunity	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_467
+# text = Expanding mentorship schemes should help young migrants navigate education systems and early career decisions successfully.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	mentorship	mentorship	NOUN	_	_	_	_	_	_
+3	schemes	scheme	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	help	help	VERB	_	_	_	_	_	_
+6	young	young	ADJ	_	_	_	_	_	_
+7	migrants	migrant	NOUN	_	_	_	_	_	_
+8	navigate	navigate	VERB	_	_	_	_	_	_
+9	education	education	NOUN	_	_	_	_	_	_
+10	systems	system	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	early	early	ADJ	_	_	_	_	_	_
+13	career	career	NOUN	_	_	_	_	_	_
+14	decisions	decision	NOUN	_	_	_	_	_	_
+15	successfully	successfully	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_468
+# text = The commissioner emphasized that deportation procedures must respect due process and protect unaccompanied minors consistently.
+1	The	the	DET	_	_	_	_	_	_
+2	commissioner	commissioner	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	deportation	deportation	NOUN	_	_	_	_	_	_
+6	procedures	procedure	NOUN	_	_	_	_	_	_
+7	must	must	AUX	_	_	_	_	_	_
+8	respect	respect	VERB	_	_	_	_	_	_
+9	due	due	ADJ	_	_	_	_	_	_
+10	process	process	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	protect	protect	VERB	_	_	_	_	_	_
+13	unaccompanied	unaccompanied	ADJ	_	_	_	_	_	_
+14	minors	minor	NOUN	_	_	_	_	_	_
+15	consistently	consistently	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_469
+# text = Developing mobile language classes is being piloted to reach workers employed far from urban integration centers.
+1	Developing	develop	VERB	_	_	_	_	_	_
+2	mobile	mobile	ADJ	_	_	_	_	_	_
+3	language	language	NOUN	_	_	_	_	_	_
+4	classes	class	NOUN	_	_	_	_	_	_
+5	is	be	AUX	_	_	_	_	_	_
+6	being	be	AUX	_	_	_	_	_	_
+7	piloted	pilote	VERB	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	reach	reach	VERB	_	_	_	_	_	_
+10	workers	worker	NOUN	_	_	_	_	_	_
+11	employed	employ	VERB	_	_	_	_	_	_
+12	far	far	ADV	_	_	_	_	_	_
+13	from	from	ADP	_	_	_	_	_	_
+14	urban	urban	ADJ	_	_	_	_	_	_
+15	integration	integration	NOUN	_	_	_	_	_	_
+16	centers	center	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_470
+# text = It is recommended that employers receive incentives to offer apprenticeships tailored to migrants with relevant experience.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	employers	employer	NOUN	_	_	_	_	_	_
+6	receive	receive	VERB	_	_	_	_	_	_
+7	incentives	incentive	NOUN	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	offer	offer	VERB	_	_	_	_	_	_
+10	apprenticeships	apprenticeship	NOUN	_	_	_	_	_	_
+11	tailored	tailor	VERB	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	migrants	migrant	NOUN	_	_	_	_	_	_
+14	with	with	ADP	_	_	_	_	_	_
+15	relevant	relevant	ADJ	_	_	_	_	_	_
+16	experience	experience	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_471
+# text = Although refugees were welcomed initially, housing shortages gradually strained relations in several receiving municipalities.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	refugees	refugee	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	welcomed	welcome	VERB	_	_	_	_	_	_
+5	initially	initially	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	housing	housing	NOUN	_	_	_	_	_	_
+8	shortages	shortage	NOUN	_	_	_	_	_	_
+9	gradually	gradually	ADV	_	_	_	_	_	_
+10	strained	strain	VERB	_	_	_	_	_	_
+11	relations	relation	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	several	several	ADJ	_	_	_	_	_	_
+14	receiving	receive	VERB	_	_	_	_	_	_
+15	municipalities	municipality	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_472
+# text = Strengthening anti discrimination enforcement should improve outcomes for second generation citizens facing subtle labor market barriers.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	anti	anti	ADJ	_	_	_	_	_	_
+3	discrimination	discrimination	NOUN	_	_	_	_	_	_
+4	enforcement	enforcement	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	improve	improve	VERB	_	_	_	_	_	_
+7	outcomes	outcome	NOUN	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	second	second	ADJ	_	_	_	_	_	_
+10	generation	generation	NOUN	_	_	_	_	_	_
+11	citizens	citizen	NOUN	_	_	_	_	_	_
+12	facing	face	VERB	_	_	_	_	_	_
+13	subtle	subtle	ADJ	_	_	_	_	_	_
+14	labor	labor	NOUN	_	_	_	_	_	_
+15	market	market	NOUN	_	_	_	_	_	_
+16	barriers	barrier	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_473
+# text = Promoting accurate media coverage of migration should counter stereotypes that fuel resentment during economic downturns.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	accurate	accurate	ADJ	_	_	_	_	_	_
+3	media	medium	NOUN	_	_	_	_	_	_
+4	coverage	coverage	NOUN	_	_	_	_	_	_
+5	of	of	ADP	_	_	_	_	_	_
+6	migration	migration	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	counter	counter	VERB	_	_	_	_	_	_
+9	stereotypes	stereotype	NOUN	_	_	_	_	_	_
+10	that	that	SCONJ	_	_	_	_	_	_
+11	fuel	fuel	VERB	_	_	_	_	_	_
+12	resentment	resentment	NOUN	_	_	_	_	_	_
+13	during	during	ADP	_	_	_	_	_	_
+14	economic	economic	ADJ	_	_	_	_	_	_
+15	downturns	downturn	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_474
+# text = Balancing humanitarian protection with capacity limits remains politically difficult in societies anxious about rapid population change.
+1	Balancing	balance	VERB	_	_	_	_	_	_
+2	humanitarian	humanitarian	ADJ	_	_	_	_	_	_
+3	protection	protection	NOUN	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	capacity	capacity	NOUN	_	_	_	_	_	_
+6	limits	limit	NOUN	_	_	_	_	_	_
+7	remains	remain	VERB	_	_	_	_	_	_
+8	politically	politically	ADV	_	_	_	_	_	_
+9	difficult	difficult	ADJ	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	societies	society	NOUN	_	_	_	_	_	_
+12	anxious	anxious	ADJ	_	_	_	_	_	_
+13	about	about	ADP	_	_	_	_	_	_
+14	rapid	rapid	ADJ	_	_	_	_	_	_
+15	population	population	NOUN	_	_	_	_	_	_
+16	change	change	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_475
+# text = Building cohesive multicultural communities requires sustained investment in inclusion, not only border management measures alone.
+1	Building	build	VERB	_	_	_	_	_	_
+2	cohesive	cohesive	ADJ	_	_	_	_	_	_
+3	multicultural	multicultural	ADJ	_	_	_	_	_	_
+4	communities	community	NOUN	_	_	_	_	_	_
+5	requires	require	VERB	_	_	_	_	_	_
+6	sustained	sustained	ADJ	_	_	_	_	_	_
+7	investment	investment	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	inclusion	inclusion	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	not	not	PART	_	_	_	_	_	_
+12	only	only	ADV	_	_	_	_	_	_
+13	border	border	NOUN	_	_	_	_	_	_
+14	management	management	NOUN	_	_	_	_	_	_
+15	measures	measure	NOUN	_	_	_	_	_	_
+16	alone	alone	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_476
+# text = Independent journalism faces growing pressure from political attacks, corporate consolidation, and declining advertising revenues.
+1	Independent	independent	ADJ	_	_	_	_	_	_
+2	journalism	journalism	NOUN	_	_	_	_	_	_
+3	faces	face	VERB	_	_	_	_	_	_
+4	growing	grow	VERB	_	_	_	_	_	_
+5	pressure	pressure	NOUN	_	_	_	_	_	_
+6	from	from	ADP	_	_	_	_	_	_
+7	political	political	ADJ	_	_	_	_	_	_
+8	attacks	attack	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	corporate	corporate	ADJ	_	_	_	_	_	_
+11	consolidation	consolidation	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	declining	decline	VERB	_	_	_	_	_	_
+15	advertising	advertising	NOUN	_	_	_	_	_	_
+16	revenues	revenue	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_477
+# text = Although fact checking expanded, misleading content still spreads faster than corrections on major social platforms.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	fact	fact	NOUN	_	_	_	_	_	_
+3	checking	check	NOUN	_	_	_	_	_	_
+4	expanded	expand	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	misleading	misleading	ADJ	_	_	_	_	_	_
+7	content	content	NOUN	_	_	_	_	_	_
+8	still	still	ADV	_	_	_	_	_	_
+9	spreads	spread	VERB	_	_	_	_	_	_
+10	faster	fast	ADJ	_	_	_	_	_	_
+11	than	than	SCONJ	_	_	_	_	_	_
+12	corrections	correction	NOUN	_	_	_	_	_	_
+13	on	on	ADP	_	_	_	_	_	_
+14	major	major	ADJ	_	_	_	_	_	_
+15	social	social	ADJ	_	_	_	_	_	_
+16	platforms	platform	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_478
+# text = It is expected that public broadcasters will face renewed scrutiny over editorial independence and government funding models.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	public	public	ADJ	_	_	_	_	_	_
+6	broadcasters	broadcaster	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	face	face	VERB	_	_	_	_	_	_
+9	renewed	renew	VERB	_	_	_	_	_	_
+10	scrutiny	scrutiny	NOUN	_	_	_	_	_	_
+11	over	over	ADP	_	_	_	_	_	_
+12	editorial	editorial	ADJ	_	_	_	_	_	_
+13	independence	independence	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	government	government	NOUN	_	_	_	_	_	_
+16	funding	funding	NOUN	_	_	_	_	_	_
+17	models	model	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_479
+# text = Protecting sources enables reporters to investigate corruption, yet legal threats against whistleblowers have intensified recently.
+1	Protecting	protect	VERB	_	_	_	_	_	_
+2	sources	source	NOUN	_	_	_	_	_	_
+3	enables	enable	VERB	_	_	_	_	_	_
+4	reporters	reporter	NOUN	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	investigate	investigate	VERB	_	_	_	_	_	_
+7	corruption	corruption	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	yet	yet	CCONJ	_	_	_	_	_	_
+10	legal	legal	ADJ	_	_	_	_	_	_
+11	threats	threat	NOUN	_	_	_	_	_	_
+12	against	against	ADP	_	_	_	_	_	_
+13	whistleblowers	whistleblowwer	NOUN	_	_	_	_	_	_
+14	have	have	AUX	_	_	_	_	_	_
+15	intensified	intensify	VERB	_	_	_	_	_	_
+16	recently	recently	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_480
+# text = Despite subscriptions, local news outlets in smaller towns keep closing, leaving coverage gaps for communities.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	subscriptions	subscription	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	local	local	ADJ	_	_	_	_	_	_
+5	news	new	NOUN	_	_	_	_	_	_
+6	outlets	outlet	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	smaller	small	ADJ	_	_	_	_	_	_
+9	towns	town	NOUN	_	_	_	_	_	_
+10	keep	keep	VERB	_	_	_	_	_	_
+11	closing	closing	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	leaving	leave	VERB	_	_	_	_	_	_
+14	coverage	coverage	NOUN	_	_	_	_	_	_
+15	gaps	gap	NOUN	_	_	_	_	_	_
+16	for	for	ADP	_	_	_	_	_	_
+17	communities	community	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_481
+# text = The editor explained that investigative teams require sustained funding beyond short term grants tied to trending topics.
+1	The	the	DET	_	_	_	_	_	_
+2	editor	editor	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	investigative	investigative	ADJ	_	_	_	_	_	_
+6	teams	team	NOUN	_	_	_	_	_	_
+7	require	require	VERB	_	_	_	_	_	_
+8	sustained	sustain	VERB	_	_	_	_	_	_
+9	funding	funding	NOUN	_	_	_	_	_	_
+10	beyond	beyond	ADP	_	_	_	_	_	_
+11	short	short	ADJ	_	_	_	_	_	_
+12	term	term	NOUN	_	_	_	_	_	_
+13	grants	grant	NOUN	_	_	_	_	_	_
+14	tied	tie	VERB	_	_	_	_	_	_
+15	to	to	PART	_	_	_	_	_	_
+16	trending	trend	NOUN	_	_	_	_	_	_
+17	topics	topic	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_482
+# text = Promoting media literacy in schools should help adolescents evaluate sensational headlines and manipulated images critically.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	media	medium	NOUN	_	_	_	_	_	_
+3	literacy	literacy	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	schools	school	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	help	help	VERB	_	_	_	_	_	_
+8	adolescents	adolescent	NOUN	_	_	_	_	_	_
+9	evaluate	evaluate	VERB	_	_	_	_	_	_
+10	sensational	sensational	ADJ	_	_	_	_	_	_
+11	headlines	headline	NOUN	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	manipulated	manipulate	VERB	_	_	_	_	_	_
+14	images	image	NOUN	_	_	_	_	_	_
+15	critically	critically	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_483
+# text = If platform algorithms favored verified reporting, misinformation might circulate less widely during election campaign seasons.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	platform	platform	NOUN	_	_	_	_	_	_
+3	algorithms	algorithm	NOUN	_	_	_	_	_	_
+4	favored	favore	VERB	_	_	_	_	_	_
+5	verified	verify	VERB	_	_	_	_	_	_
+6	reporting	reporting	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	misinformation	misinformation	NOUN	_	_	_	_	_	_
+9	might	may	AUX	_	_	_	_	_	_
+10	circulate	circulate	VERB	_	_	_	_	_	_
+11	less	less	ADV	_	_	_	_	_	_
+12	widely	widely	ADV	_	_	_	_	_	_
+13	during	during	ADP	_	_	_	_	_	_
+14	election	election	NOUN	_	_	_	_	_	_
+15	campaign	campaign	NOUN	_	_	_	_	_	_
+16	seasons	season	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_484
+# text = Although press freedom is constitutionally guaranteed, journalists covering protests have faced harassment and arbitrary detention abroad.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	press	press	NOUN	_	_	_	_	_	_
+3	freedom	freedom	NOUN	_	_	_	_	_	_
+4	is	be	AUX	_	_	_	_	_	_
+5	constitutionally	constitutionally	ADV	_	_	_	_	_	_
+6	guaranteed	guarantee	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	journalists	journalist	NOUN	_	_	_	_	_	_
+9	covering	cover	VERB	_	_	_	_	_	_
+10	protests	protest	NOUN	_	_	_	_	_	_
+11	have	have	AUX	_	_	_	_	_	_
+12	faced	face	VERB	_	_	_	_	_	_
+13	harassment	harassment	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	arbitrary	arbitrary	ADJ	_	_	_	_	_	_
+16	detention	detention	NOUN	_	_	_	_	_	_
+17	abroad	abroad	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_485
+# text = It is feared that self censorship could grow when outlets depend on powerful advertisers or state contracts.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	self	self	NOUN	_	_	_	_	_	_
+6	censorship	censorship	NOUN	_	_	_	_	_	_
+7	could	can	AUX	_	_	_	_	_	_
+8	grow	grow	VERB	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	outlets	outlet	NOUN	_	_	_	_	_	_
+11	depend	depend	VERB	_	_	_	_	_	_
+12	on	on	ADP	_	_	_	_	_	_
+13	powerful	powerful	ADJ	_	_	_	_	_	_
+14	advertisers	advertiser	NOUN	_	_	_	_	_	_
+15	or	or	CCONJ	_	_	_	_	_	_
+16	state	state	NOUN	_	_	_	_	_	_
+17	contracts	contract	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_486
+# text = Collaborative cross border reporting is viewed as essential for exposing tax evasion and environmental crimes spanning jurisdictions.
+1	Collaborative	collaborative	ADJ	_	_	_	_	_	_
+2	cross	cross	NOUN	_	_	_	_	_	_
+3	border	border	NOUN	_	_	_	_	_	_
+4	reporting	reporting	NOUN	_	_	_	_	_	_
+5	is	be	AUX	_	_	_	_	_	_
+6	viewed	view	VERB	_	_	_	_	_	_
+7	as	as	SCONJ	_	_	_	_	_	_
+8	essential	essential	ADJ	_	_	_	_	_	_
+9	for	for	ADP	_	_	_	_	_	_
+10	exposing	expose	VERB	_	_	_	_	_	_
+11	tax	tax	NOUN	_	_	_	_	_	_
+12	evasion	evasion	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	environmental	environmental	ADJ	_	_	_	_	_	_
+15	crimes	crime	NOUN	_	_	_	_	_	_
+16	spanning	span	VERB	_	_	_	_	_	_
+17	jurisdictions	jurisdiction	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_487
+# text = Had transparency laws been stronger, ownership structures behind influential media conglomerates would be clearer to citizens.
+1	Had	have	AUX	_	_	_	_	_	_
+2	transparency	transparency	NOUN	_	_	_	_	_	_
+3	laws	law	NOUN	_	_	_	_	_	_
+4	been	be	AUX	_	_	_	_	_	_
+5	stronger	strong	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	ownership	ownership	NOUN	_	_	_	_	_	_
+8	structures	structure	NOUN	_	_	_	_	_	_
+9	behind	behind	ADP	_	_	_	_	_	_
+10	influential	influential	ADJ	_	_	_	_	_	_
+11	media	medium	NOUN	_	_	_	_	_	_
+12	conglomerates	conglomerate	NOUN	_	_	_	_	_	_
+13	would	will	AUX	_	_	_	_	_	_
+14	be	be	AUX	_	_	_	_	_	_
+15	clearer	clear	ADJ	_	_	_	_	_	_
+16	to	to	PART	_	_	_	_	_	_
+17	citizens	citizen	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_488
+# text = The inquiry shows how sensational coverage can amplify public anxiety beyond levels justified by available evidence.
+1	The	the	DET	_	_	_	_	_	_
+2	inquiry	inquiry	NOUN	_	_	_	_	_	_
+3	shows	show	VERB	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	sensational	sensational	ADJ	_	_	_	_	_	_
+6	coverage	coverage	NOUN	_	_	_	_	_	_
+7	can	can	AUX	_	_	_	_	_	_
+8	amplify	amplify	VERB	_	_	_	_	_	_
+9	public	public	ADJ	_	_	_	_	_	_
+10	anxiety	anxiety	NOUN	_	_	_	_	_	_
+11	beyond	beyond	ADP	_	_	_	_	_	_
+12	levels	level	NOUN	_	_	_	_	_	_
+13	justified	justify	VERB	_	_	_	_	_	_
+14	by	by	ADP	_	_	_	_	_	_
+15	available	available	ADJ	_	_	_	_	_	_
+16	evidence	evidence	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_489
+# text = Ensuring reporter safety in conflict zones requires training, insurance, and diplomatic support from governments.
+1	Ensuring	ensure	VERB	_	_	_	_	_	_
+2	reporter	reporter	NOUN	_	_	_	_	_	_
+3	safety	safety	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	conflict	conflict	NOUN	_	_	_	_	_	_
+6	zones	zone	NOUN	_	_	_	_	_	_
+7	requires	require	VERB	_	_	_	_	_	_
+8	training	training	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	insurance	insurance	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	diplomatic	diplomatic	ADJ	_	_	_	_	_	_
+14	support	support	NOUN	_	_	_	_	_	_
+15	from	from	ADP	_	_	_	_	_	_
+16	governments	government	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_490
+# text = Although podcasts diversified commentary, they also enabled unchecked conspiracy narratives to reach large audiences uncritically.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	podcasts	podcast	NOUN	_	_	_	_	_	_
+3	diversified	diversify	VERB	_	_	_	_	_	_
+4	commentary	commentary	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	they	they	PRON	_	_	_	_	_	_
+7	also	also	ADV	_	_	_	_	_	_
+8	enabled	enable	VERB	_	_	_	_	_	_
+9	unchecked	unchecked	ADJ	_	_	_	_	_	_
+10	conspiracy	conspiracy	NOUN	_	_	_	_	_	_
+11	narratives	narrative	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	reach	reach	VERB	_	_	_	_	_	_
+14	large	large	ADJ	_	_	_	_	_	_
+15	audiences	audience	NOUN	_	_	_	_	_	_
+16	uncritically	uncritically	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_491
+# text = The problem is not audience demand for news but business models that reward speed over careful verification.
+1	The	the	DET	_	_	_	_	_	_
+2	problem	problem	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	audience	audience	NOUN	_	_	_	_	_	_
+6	demand	demand	NOUN	_	_	_	_	_	_
+7	for	for	ADP	_	_	_	_	_	_
+8	news	new	NOUN	_	_	_	_	_	_
+9	but	but	CCONJ	_	_	_	_	_	_
+10	business	business	NOUN	_	_	_	_	_	_
+11	models	model	NOUN	_	_	_	_	_	_
+12	that	that	SCONJ	_	_	_	_	_	_
+13	reward	reward	VERB	_	_	_	_	_	_
+14	speed	speed	NOUN	_	_	_	_	_	_
+15	over	over	ADP	_	_	_	_	_	_
+16	careful	careful	ADJ	_	_	_	_	_	_
+17	verification	verification	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_492
+# text = Expanding community radio stations should give marginalized groups space to debate local issues on their own terms.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	community	community	NOUN	_	_	_	_	_	_
+3	radio	radio	NOUN	_	_	_	_	_	_
+4	stations	station	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	give	give	VERB	_	_	_	_	_	_
+7	marginalized	marginalize	VERB	_	_	_	_	_	_
+8	groups	group	NOUN	_	_	_	_	_	_
+9	space	space	NOUN	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	debate	debate	VERB	_	_	_	_	_	_
+12	local	local	ADJ	_	_	_	_	_	_
+13	issues	issue	NOUN	_	_	_	_	_	_
+14	on	on	ADP	_	_	_	_	_	_
+15	their	their	PRON	_	_	_	_	_	_
+16	own	own	ADJ	_	_	_	_	_	_
+17	terms	term	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_493
+# text = The publisher emphasized that editorial standards must not be weakened to maximize clicks and engagement metrics online.
+1	The	the	DET	_	_	_	_	_	_
+2	publisher	publisher	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	editorial	editorial	ADJ	_	_	_	_	_	_
+6	standards	standard	NOUN	_	_	_	_	_	_
+7	must	must	AUX	_	_	_	_	_	_
+8	not	not	PART	_	_	_	_	_	_
+9	be	be	AUX	_	_	_	_	_	_
+10	weakened	weaken	VERB	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	maximize	maximize	VERB	_	_	_	_	_	_
+13	clicks	click	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	engagement	engagement	NOUN	_	_	_	_	_	_
+16	metrics	metric	NOUN	_	_	_	_	_	_
+17	online	online	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_494
+# text = Developing ethical guidelines for artificial intelligence generated content should prevent fabricated stories from flooding newsfeeds.
+1	Developing	develop	VERB	_	_	_	_	_	_
+2	ethical	ethical	ADJ	_	_	_	_	_	_
+3	guidelines	guideline	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	artificial	artificial	ADJ	_	_	_	_	_	_
+6	intelligence	intelligence	NOUN	_	_	_	_	_	_
+7	generated	generate	VERB	_	_	_	_	_	_
+8	content	content	NOUN	_	_	_	_	_	_
+9	should	should	AUX	_	_	_	_	_	_
+10	prevent	prevent	VERB	_	_	_	_	_	_
+11	fabricated	fabricate	VERB	_	_	_	_	_	_
+12	stories	story	NOUN	_	_	_	_	_	_
+13	from	from	ADP	_	_	_	_	_	_
+14	flooding	flood	VERB	_	_	_	_	_	_
+15	newsfeeds	newsfeed	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_495
+# text = It is recommended that archives of public interest reporting remain accessible after outlets merge or cease operations.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	archives	archive	NOUN	_	_	_	_	_	_
+6	of	of	ADP	_	_	_	_	_	_
+7	public	public	ADJ	_	_	_	_	_	_
+8	interest	interest	NOUN	_	_	_	_	_	_
+9	reporting	reporting	NOUN	_	_	_	_	_	_
+10	remain	remain	VERB	_	_	_	_	_	_
+11	accessible	accessible	ADJ	_	_	_	_	_	_
+12	after	after	SCONJ	_	_	_	_	_	_
+13	outlets	outlet	NOUN	_	_	_	_	_	_
+14	merge	merge	VERB	_	_	_	_	_	_
+15	or	or	CCONJ	_	_	_	_	_	_
+16	cease	cease	VERB	_	_	_	_	_	_
+17	operations	operation	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_496
+# text = Although regulations were proposed, enforcement against coordinated disinformation campaigns remains uneven across different national jurisdictions.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	regulations	regulation	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	proposed	propose	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	enforcement	enforcement	NOUN	_	_	_	_	_	_
+7	against	against	ADP	_	_	_	_	_	_
+8	coordinated	coordinate	VERB	_	_	_	_	_	_
+9	disinformation	disinformation	NOUN	_	_	_	_	_	_
+10	campaigns	campaign	NOUN	_	_	_	_	_	_
+11	remains	remain	VERB	_	_	_	_	_	_
+12	uneven	uneven	ADJ	_	_	_	_	_	_
+13	across	across	ADP	_	_	_	_	_	_
+14	different	different	ADJ	_	_	_	_	_	_
+15	national	national	ADJ	_	_	_	_	_	_
+16	jurisdictions	jurisdiction	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_497
+# text = Strengthening protections for freelance journalists should close gaps in legal support and safety resources they currently face.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	protections	protection	NOUN	_	_	_	_	_	_
+3	for	for	ADP	_	_	_	_	_	_
+4	freelance	freelance	ADJ	_	_	_	_	_	_
+5	journalists	journalist	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	close	close	VERB	_	_	_	_	_	_
+8	gaps	gap	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	legal	legal	ADJ	_	_	_	_	_	_
+11	support	support	NOUN	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	safety	safety	NOUN	_	_	_	_	_	_
+14	resources	resource	NOUN	_	_	_	_	_	_
+15	they	they	PRON	_	_	_	_	_	_
+16	currently	currently	ADV	_	_	_	_	_	_
+17	face	face	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_498
+# text = Promoting diverse newsrooms should improve coverage of stories affecting communities historically ignored by mainstream outlets nationwide.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	diverse	diverse	ADJ	_	_	_	_	_	_
+3	newsrooms	newsroom	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	improve	improve	VERB	_	_	_	_	_	_
+6	coverage	coverage	NOUN	_	_	_	_	_	_
+7	of	of	ADP	_	_	_	_	_	_
+8	stories	story	NOUN	_	_	_	_	_	_
+9	affecting	affect	VERB	_	_	_	_	_	_
+10	communities	community	NOUN	_	_	_	_	_	_
+11	historically	historically	ADV	_	_	_	_	_	_
+12	ignored	ignore	VERB	_	_	_	_	_	_
+13	by	by	ADP	_	_	_	_	_	_
+14	mainstream	mainstream	ADJ	_	_	_	_	_	_
+15	outlets	outlet	NOUN	_	_	_	_	_	_
+16	nationwide	nationwide	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_499
+# text = Balancing national security claims with press freedom remains contentious when governments seek to restrict reporting on intelligence.
+1	Balancing	balance	VERB	_	_	_	_	_	_
+2	national	national	ADJ	_	_	_	_	_	_
+3	security	security	NOUN	_	_	_	_	_	_
+4	claims	claim	NOUN	_	_	_	_	_	_
+5	with	with	ADP	_	_	_	_	_	_
+6	press	press	NOUN	_	_	_	_	_	_
+7	freedom	freedom	NOUN	_	_	_	_	_	_
+8	remains	remain	VERB	_	_	_	_	_	_
+9	contentious	contentious	ADJ	_	_	_	_	_	_
+10	when	when	SCONJ	_	_	_	_	_	_
+11	governments	government	NOUN	_	_	_	_	_	_
+12	seek	seek	VERB	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	restrict	restrict	VERB	_	_	_	_	_	_
+15	reporting	reporting	NOUN	_	_	_	_	_	_
+16	on	on	ADP	_	_	_	_	_	_
+17	intelligence	intelligence	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_500
+# text = Sustaining quality journalism in digital markets will require new funding models that reward accuracy rather than outrage.
+1	Sustaining	sustain	VERB	_	_	_	_	_	_
+2	quality	quality	NOUN	_	_	_	_	_	_
+3	journalism	journalism	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	digital	digital	ADJ	_	_	_	_	_	_
+6	markets	market	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	require	require	VERB	_	_	_	_	_	_
+9	new	new	ADJ	_	_	_	_	_	_
+10	funding	funding	NOUN	_	_	_	_	_	_
+11	models	model	NOUN	_	_	_	_	_	_
+12	that	that	SCONJ	_	_	_	_	_	_
+13	reward	reward	VERB	_	_	_	_	_	_
+14	accuracy	accuracy	NOUN	_	_	_	_	_	_
+15	rather	rather	ADV	_	_	_	_	_	_
+16	than	than	SCONJ	_	_	_	_	_	_
+17	outrage	outrage	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_501
+# text = Criminal justice reform advocates argued that sentencing guidelines should prioritize rehabilitation over purely punitive measures.
+1	Criminal	criminal	ADJ	_	_	_	_	_	_
+2	justice	justice	NOUN	_	_	_	_	_	_
+3	reform	reform	NOUN	_	_	_	_	_	_
+4	advocates	advocate	NOUN	_	_	_	_	_	_
+5	argued	argue	VERB	_	_	_	_	_	_
+6	that	that	SCONJ	_	_	_	_	_	_
+7	sentencing	sentencing	NOUN	_	_	_	_	_	_
+8	guidelines	guideline	NOUN	_	_	_	_	_	_
+9	should	should	AUX	_	_	_	_	_	_
+10	prioritize	prioritize	VERB	_	_	_	_	_	_
+11	rehabilitation	rehabilitation	NOUN	_	_	_	_	_	_
+12	over	over	ADP	_	_	_	_	_	_
+13	purely	purely	ADV	_	_	_	_	_	_
+14	punitive	punitive	ADJ	_	_	_	_	_	_
+15	measures	measure	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_502
+# text = Although crime rates fell, prison overcrowding persists because pretrial detention is used excessively in many cases.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	crime	crime	NOUN	_	_	_	_	_	_
+3	rates	rate	NOUN	_	_	_	_	_	_
+4	fell	fall	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	prison	prison	NOUN	_	_	_	_	_	_
+7	overcrowding	overcrowding	NOUN	_	_	_	_	_	_
+8	persists	persist	VERB	_	_	_	_	_	_
+9	because	because	SCONJ	_	_	_	_	_	_
+10	pretrial	pretrial	ADJ	_	_	_	_	_	_
+11	detention	detention	NOUN	_	_	_	_	_	_
+12	is	be	AUX	_	_	_	_	_	_
+13	used	use	VERB	_	_	_	_	_	_
+14	excessively	excessively	ADV	_	_	_	_	_	_
+15	in	in	ADP	_	_	_	_	_	_
+16	many	many	ADJ	_	_	_	_	_	_
+17	cases	case	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_503
+# text = It is expected that restorative justice programs will expand for nonviolent offenses involving juvenile defendants nationwide.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	restorative	restorative	ADJ	_	_	_	_	_	_
+6	justice	justice	NOUN	_	_	_	_	_	_
+7	programs	program	NOUN	_	_	_	_	_	_
+8	will	will	AUX	_	_	_	_	_	_
+9	expand	expand	VERB	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	nonviolent	nonviolent	ADJ	_	_	_	_	_	_
+12	offenses	offense	NOUN	_	_	_	_	_	_
+13	involving	involve	VERB	_	_	_	_	_	_
+14	juvenile	juvenile	ADJ	_	_	_	_	_	_
+15	defendants	defendant	NOUN	_	_	_	_	_	_
+16	nationwide	nationwide	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_504
+# text = Reducing racial disparities in policing requires collecting transparent data and holding departments accountable for biased practices.
+1	Reducing	reduce	VERB	_	_	_	_	_	_
+2	racial	racial	ADJ	_	_	_	_	_	_
+3	disparities	disparity	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	policing	policing	NOUN	_	_	_	_	_	_
+6	requires	require	VERB	_	_	_	_	_	_
+7	collecting	collect	VERB	_	_	_	_	_	_
+8	transparent	transparent	ADJ	_	_	_	_	_	_
+9	data	datum	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	holding	hold	VERB	_	_	_	_	_	_
+12	departments	department	NOUN	_	_	_	_	_	_
+13	accountable	accountable	ADJ	_	_	_	_	_	_
+14	for	for	ADP	_	_	_	_	_	_
+15	biased	biased	ADJ	_	_	_	_	_	_
+16	practices	practice	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_505
+# text = Despite body camera mandates, footage is rarely released promptly when misconduct allegations arise during street encounters.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	body	body	NOUN	_	_	_	_	_	_
+3	camera	camera	NOUN	_	_	_	_	_	_
+4	mandates	mandate	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	footage	footage	NOUN	_	_	_	_	_	_
+7	is	be	AUX	_	_	_	_	_	_
+8	rarely	rarely	ADV	_	_	_	_	_	_
+9	released	release	VERB	_	_	_	_	_	_
+10	promptly	promptly	ADV	_	_	_	_	_	_
+11	when	when	SCONJ	_	_	_	_	_	_
+12	misconduct	misconduct	NOUN	_	_	_	_	_	_
+13	allegations	allegation	NOUN	_	_	_	_	_	_
+14	arise	arise	VERB	_	_	_	_	_	_
+15	during	during	ADP	_	_	_	_	_	_
+16	street	street	NOUN	_	_	_	_	_	_
+17	encounters	encounter	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_506
+# text = The judge explained that cash bail systems unfairly detain poor defendants who pose no serious flight risk.
+1	The	the	DET	_	_	_	_	_	_
+2	judge	judge	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	cash	cash	NOUN	_	_	_	_	_	_
+6	bail	bail	NOUN	_	_	_	_	_	_
+7	systems	system	NOUN	_	_	_	_	_	_
+8	unfairly	unfairly	ADV	_	_	_	_	_	_
+9	detain	detain	VERB	_	_	_	_	_	_
+10	poor	poor	ADJ	_	_	_	_	_	_
+11	defendants	defendant	NOUN	_	_	_	_	_	_
+12	who	who	PRON	_	_	_	_	_	_
+13	pose	pose	VERB	_	_	_	_	_	_
+14	no	no	DET	_	_	_	_	_	_
+15	serious	serious	ADJ	_	_	_	_	_	_
+16	flight	flight	NOUN	_	_	_	_	_	_
+17	risk	risk	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_507
+# text = Promoting diversion programs for mental illness should keep vulnerable individuals out of overcrowded correctional facilities unnecessarily.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	diversion	diversion	NOUN	_	_	_	_	_	_
+3	programs	program	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	mental	mental	ADJ	_	_	_	_	_	_
+6	illness	illness	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	keep	keep	VERB	_	_	_	_	_	_
+9	vulnerable	vulnerable	ADJ	_	_	_	_	_	_
+10	individuals	individual	NOUN	_	_	_	_	_	_
+11	out	out	ADP	_	_	_	_	_	_
+12	of	of	ADP	_	_	_	_	_	_
+13	overcrowded	overcrowd	VERB	_	_	_	_	_	_
+14	correctional	correctional	ADJ	_	_	_	_	_	_
+15	facilities	facility	NOUN	_	_	_	_	_	_
+16	unnecessarily	unnecessarily	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_508
+# text = If parole boards received better training, reintegration outcomes for former prisoners might improve across disadvantaged neighborhoods.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	parole	parole	NOUN	_	_	_	_	_	_
+3	boards	board	NOUN	_	_	_	_	_	_
+4	received	receive	VERB	_	_	_	_	_	_
+5	better	good	ADJ	_	_	_	_	_	_
+6	training	training	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	reintegration	reintegration	NOUN	_	_	_	_	_	_
+9	outcomes	outcome	NOUN	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	former	form	ADJ	_	_	_	_	_	_
+12	prisoners	prisoner	NOUN	_	_	_	_	_	_
+13	might	may	AUX	_	_	_	_	_	_
+14	improve	improve	VERB	_	_	_	_	_	_
+15	across	across	ADP	_	_	_	_	_	_
+16	disadvantaged	disadvantaged	ADJ	_	_	_	_	_	_
+17	neighborhoods	neighborhood	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_509
+# text = Although drug courts expanded, treatment waiting lists still delay help for defendants struggling with severe addiction.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	drug	drug	NOUN	_	_	_	_	_	_
+3	courts	court	NOUN	_	_	_	_	_	_
+4	expanded	expand	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	treatment	treatment	NOUN	_	_	_	_	_	_
+7	waiting	waiting	NOUN	_	_	_	_	_	_
+8	lists	list	NOUN	_	_	_	_	_	_
+9	still	still	ADV	_	_	_	_	_	_
+10	delay	delay	VERB	_	_	_	_	_	_
+11	help	help	NOUN	_	_	_	_	_	_
+12	for	for	ADP	_	_	_	_	_	_
+13	defendants	defendant	NOUN	_	_	_	_	_	_
+14	struggling	struggle	VERB	_	_	_	_	_	_
+15	with	with	ADP	_	_	_	_	_	_
+16	severe	severe	ADJ	_	_	_	_	_	_
+17	addiction	addiction	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_510
+# text = It is feared that mandatory minimum sentences could return if politicians respond to isolated violent incidents emotionally.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	mandatory	mandatory	ADJ	_	_	_	_	_	_
+6	minimum	minimum	ADJ	_	_	_	_	_	_
+7	sentences	sentence	NOUN	_	_	_	_	_	_
+8	could	can	AUX	_	_	_	_	_	_
+9	return	return	VERB	_	_	_	_	_	_
+10	if	if	SCONJ	_	_	_	_	_	_
+11	politicians	politician	NOUN	_	_	_	_	_	_
+12	respond	respond	VERB	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	isolated	isolate	VERB	_	_	_	_	_	_
+15	violent	violent	ADJ	_	_	_	_	_	_
+16	incidents	incident	NOUN	_	_	_	_	_	_
+17	emotionally	emotionally	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_511
+# text = Community policing is regarded as promising, yet it requires sustained funding beyond short pilot project cycles.
+1	Community	community	NOUN	_	_	_	_	_	_
+2	policing	policing	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	regarded	regard	VERB	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	promising	promising	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	yet	yet	CCONJ	_	_	_	_	_	_
+9	it	it	PRON	_	_	_	_	_	_
+10	requires	require	VERB	_	_	_	_	_	_
+11	sustained	sustained	ADJ	_	_	_	_	_	_
+12	funding	funding	NOUN	_	_	_	_	_	_
+13	beyond	beyond	ADP	_	_	_	_	_	_
+14	short	short	ADJ	_	_	_	_	_	_
+15	pilot	pilot	NOUN	_	_	_	_	_	_
+16	project	project	NOUN	_	_	_	_	_	_
+17	cycles	cycle	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_512
+# text = Had eyewitness procedures been reformed earlier, wrongful convictions stemming from unreliable testimony would have decreased significantly.
+1	Had	have	AUX	_	_	_	_	_	_
+2	eyewitness	eyewitness	ADJ	_	_	_	_	_	_
+3	procedures	procedure	NOUN	_	_	_	_	_	_
+4	been	be	AUX	_	_	_	_	_	_
+5	reformed	reform	VERB	_	_	_	_	_	_
+6	earlier	early	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wrongful	wrongful	ADJ	_	_	_	_	_	_
+9	convictions	conviction	NOUN	_	_	_	_	_	_
+10	stemming	stem	VERB	_	_	_	_	_	_
+11	from	from	ADP	_	_	_	_	_	_
+12	unreliable	unreliable	ADJ	_	_	_	_	_	_
+13	testimony	testimony	NOUN	_	_	_	_	_	_
+14	would	will	AUX	_	_	_	_	_	_
+15	have	have	AUX	_	_	_	_	_	_
+16	decreased	decrease	VERB	_	_	_	_	_	_
+17	significantly	significantly	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_513
+# text = The review documents how solitary confinement harms mental health without demonstrably improving safety inside prison institutions.
+1	The	the	DET	_	_	_	_	_	_
+2	review	review	NOUN	_	_	_	_	_	_
+3	documents	document	NOUN	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	solitary	solitary	ADJ	_	_	_	_	_	_
+6	confinement	confinement	NOUN	_	_	_	_	_	_
+7	harms	harm	VERB	_	_	_	_	_	_
+8	mental	mental	ADJ	_	_	_	_	_	_
+9	health	health	NOUN	_	_	_	_	_	_
+10	without	without	ADP	_	_	_	_	_	_
+11	demonstrably	demonstrably	ADV	_	_	_	_	_	_
+12	improving	improve	VERB	_	_	_	_	_	_
+13	safety	safety	NOUN	_	_	_	_	_	_
+14	inside	inside	ADP	_	_	_	_	_	_
+15	prison	prison	NOUN	_	_	_	_	_	_
+16	institutions	institution	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_514
+# text = Ensuring competent legal representation for indigent defendants remains a constitutional obligation that many jurisdictions underfund systematically.
+1	Ensuring	ensure	VERB	_	_	_	_	_	_
+2	competent	competent	ADJ	_	_	_	_	_	_
+3	legal	legal	ADJ	_	_	_	_	_	_
+4	representation	representation	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	indigent	indigent	ADJ	_	_	_	_	_	_
+7	defendants	defendant	NOUN	_	_	_	_	_	_
+8	remains	remain	VERB	_	_	_	_	_	_
+9	a	a	DET	_	_	_	_	_	_
+10	constitutional	constitutional	ADJ	_	_	_	_	_	_
+11	obligation	obligation	NOUN	_	_	_	_	_	_
+12	that	that	SCONJ	_	_	_	_	_	_
+13	many	many	ADJ	_	_	_	_	_	_
+14	jurisdictions	jurisdiction	NOUN	_	_	_	_	_	_
+15	underfund	underfund	VERB	_	_	_	_	_	_
+16	systematically	systematically	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_515
+# text = Although expungement laws were approved, complicated application processes deter many eligible citizens from clearing old records.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	expungement	expungement	NOUN	_	_	_	_	_	_
+3	laws	law	NOUN	_	_	_	_	_	_
+4	were	be	AUX	_	_	_	_	_	_
+5	approved	approve	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	complicated	complicated	ADJ	_	_	_	_	_	_
+8	application	application	NOUN	_	_	_	_	_	_
+9	processes	process	NOUN	_	_	_	_	_	_
+10	deter	deter	VERB	_	_	_	_	_	_
+11	many	many	ADJ	_	_	_	_	_	_
+12	eligible	eligible	ADJ	_	_	_	_	_	_
+13	citizens	citizen	NOUN	_	_	_	_	_	_
+14	from	from	ADP	_	_	_	_	_	_
+15	clearing	clear	VERB	_	_	_	_	_	_
+16	old	old	ADJ	_	_	_	_	_	_
+17	records	record	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_516
+# text = The obstacle is not reform proposals but political resistance from groups benefiting from current punitive institutional arrangements.
+1	The	the	DET	_	_	_	_	_	_
+2	obstacle	obstacle	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	reform	reform	NOUN	_	_	_	_	_	_
+6	proposals	proposal	NOUN	_	_	_	_	_	_
+7	but	but	CCONJ	_	_	_	_	_	_
+8	political	political	ADJ	_	_	_	_	_	_
+9	resistance	resistance	NOUN	_	_	_	_	_	_
+10	from	from	ADP	_	_	_	_	_	_
+11	groups	group	NOUN	_	_	_	_	_	_
+12	benefiting	benefit	VERB	_	_	_	_	_	_
+13	from	from	ADP	_	_	_	_	_	_
+14	current	current	ADJ	_	_	_	_	_	_
+15	punitive	punitive	ADJ	_	_	_	_	_	_
+16	institutional	institutional	ADJ	_	_	_	_	_	_
+17	arrangements	arrangement	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_517
+# text = Expanding vocational training in prisons should improve employment prospects and reduce repeat offending after release substantially.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	vocational	vocational	ADJ	_	_	_	_	_	_
+3	training	training	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	prisons	prison	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	improve	improve	VERB	_	_	_	_	_	_
+8	employment	employment	NOUN	_	_	_	_	_	_
+9	prospects	prospect	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	reduce	reduce	VERB	_	_	_	_	_	_
+12	repeat	repeat	NOUN	_	_	_	_	_	_
+13	offending	offending	NOUN	_	_	_	_	_	_
+14	after	after	ADP	_	_	_	_	_	_
+15	release	release	NOUN	_	_	_	_	_	_
+16	substantially	substantially	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_518
+# text = The attorney emphasized that juvenile records must be sealed to prevent lifelong stigma from adolescent mistakes.
+1	The	the	DET	_	_	_	_	_	_
+2	attorney	attorney	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	juvenile	juvenile	ADJ	_	_	_	_	_	_
+6	records	record	NOUN	_	_	_	_	_	_
+7	must	must	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	sealed	seal	VERB	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	prevent	prevent	VERB	_	_	_	_	_	_
+12	lifelong	lifelong	ADJ	_	_	_	_	_	_
+13	stigma	stigma	NOUN	_	_	_	_	_	_
+14	from	from	ADP	_	_	_	_	_	_
+15	adolescent	adolescent	ADJ	_	_	_	_	_	_
+16	mistakes	mistake	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_519
+# text = Developing independent oversight of internal affairs investigations is being debated after repeated failures to discipline abusive officers.
+1	Developing	develop	VERB	_	_	_	_	_	_
+2	independent	independent	ADJ	_	_	_	_	_	_
+3	oversight	oversight	NOUN	_	_	_	_	_	_
+4	of	of	ADP	_	_	_	_	_	_
+5	internal	internal	ADJ	_	_	_	_	_	_
+6	affairs	affair	NOUN	_	_	_	_	_	_
+7	investigations	investigation	NOUN	_	_	_	_	_	_
+8	is	be	AUX	_	_	_	_	_	_
+9	being	be	AUX	_	_	_	_	_	_
+10	debated	debate	VERB	_	_	_	_	_	_
+11	after	after	ADP	_	_	_	_	_	_
+12	repeated	repeat	VERB	_	_	_	_	_	_
+13	failures	failure	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	discipline	discipline	VERB	_	_	_	_	_	_
+16	abusive	abusive	ADJ	_	_	_	_	_	_
+17	officers	officer	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_520
+# text = It is recommended that victim support services receive funding proportional to resources devoted to prosecution and incarceration.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	victim	victim	NOUN	_	_	_	_	_	_
+6	support	support	NOUN	_	_	_	_	_	_
+7	services	service	NOUN	_	_	_	_	_	_
+8	receive	receive	VERB	_	_	_	_	_	_
+9	funding	funding	NOUN	_	_	_	_	_	_
+10	proportional	proportional	ADJ	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	resources	resource	NOUN	_	_	_	_	_	_
+13	devoted	devote	VERB	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	prosecution	prosecution	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	incarceration	incarceration	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_521
+# text = Although decriminalization reduced arrests, public health responses to substance use disorders still lack adequate treatment capacity.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	decriminalization	decriminalization	NOUN	_	_	_	_	_	_
+3	reduced	reduce	VERB	_	_	_	_	_	_
+4	arrests	arrest	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	public	public	ADJ	_	_	_	_	_	_
+7	health	health	NOUN	_	_	_	_	_	_
+8	responses	response	NOUN	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	substance	substance	NOUN	_	_	_	_	_	_
+11	use	use	NOUN	_	_	_	_	_	_
+12	disorders	disorder	NOUN	_	_	_	_	_	_
+13	still	still	ADV	_	_	_	_	_	_
+14	lack	lack	VERB	_	_	_	_	_	_
+15	adequate	adequate	ADJ	_	_	_	_	_	_
+16	treatment	treatment	NOUN	_	_	_	_	_	_
+17	capacity	capacity	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_522
+# text = Strengthening reentry housing programs should prevent homelessness among former prisoners immediately after they leave institutional settings.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	reentry	reentry	NOUN	_	_	_	_	_	_
+3	housing	housing	NOUN	_	_	_	_	_	_
+4	programs	program	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	prevent	prevent	VERB	_	_	_	_	_	_
+7	homelessness	homelessness	NOUN	_	_	_	_	_	_
+8	among	among	ADP	_	_	_	_	_	_
+9	former	form	ADJ	_	_	_	_	_	_
+10	prisoners	prisoner	NOUN	_	_	_	_	_	_
+11	immediately	immediately	ADV	_	_	_	_	_	_
+12	after	after	SCONJ	_	_	_	_	_	_
+13	they	they	PRON	_	_	_	_	_	_
+14	leave	leave	VERB	_	_	_	_	_	_
+15	institutional	institutional	ADJ	_	_	_	_	_	_
+16	settings	setting	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_523
+# text = Promoting transparent prosecution guidelines should reduce perception that justice depends on geography or prosecutorial discretion alone.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	transparent	transparent	ADJ	_	_	_	_	_	_
+3	prosecution	prosecution	NOUN	_	_	_	_	_	_
+4	guidelines	guideline	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	reduce	reduce	VERB	_	_	_	_	_	_
+7	perception	perception	NOUN	_	_	_	_	_	_
+8	that	that	SCONJ	_	_	_	_	_	_
+9	justice	justice	NOUN	_	_	_	_	_	_
+10	depends	depend	VERB	_	_	_	_	_	_
+11	on	on	ADP	_	_	_	_	_	_
+12	geography	geography	NOUN	_	_	_	_	_	_
+13	or	or	CCONJ	_	_	_	_	_	_
+14	prosecutorial	prosecutorial	ADJ	_	_	_	_	_	_
+15	discretion	discretion	NOUN	_	_	_	_	_	_
+16	alone	alone	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_524
+# text = Balancing public safety with civil liberties remains difficult when surveillance technologies expand faster than legal safeguards develop.
+1	Balancing	balance	VERB	_	_	_	_	_	_
+2	public	public	ADJ	_	_	_	_	_	_
+3	safety	safety	NOUN	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	civil	civil	ADJ	_	_	_	_	_	_
+6	liberties	liberty	NOUN	_	_	_	_	_	_
+7	remains	remain	VERB	_	_	_	_	_	_
+8	difficult	difficult	ADJ	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	surveillance	surveillance	NOUN	_	_	_	_	_	_
+11	technologies	technology	NOUN	_	_	_	_	_	_
+12	expand	expand	VERB	_	_	_	_	_	_
+13	faster	fast	ADJ	_	_	_	_	_	_
+14	than	than	SCONJ	_	_	_	_	_	_
+15	legal	legal	ADJ	_	_	_	_	_	_
+16	safeguards	safeguard	NOUN	_	_	_	_	_	_
+17	develop	develop	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_525
+# text = Building fairer justice systems requires confronting structural inequities, not only introducing isolated procedural reforms in courts.
+1	Building	build	VERB	_	_	_	_	_	_
+2	fairer	fair	ADJ	_	_	_	_	_	_
+3	justice	justice	NOUN	_	_	_	_	_	_
+4	systems	system	NOUN	_	_	_	_	_	_
+5	requires	require	VERB	_	_	_	_	_	_
+6	confronting	confront	VERB	_	_	_	_	_	_
+7	structural	structural	ADJ	_	_	_	_	_	_
+8	inequities	inequity	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	not	not	PART	_	_	_	_	_	_
+11	only	only	ADV	_	_	_	_	_	_
+12	introducing	introduce	VERB	_	_	_	_	_	_
+13	isolated	isolate	VERB	_	_	_	_	_	_
+14	procedural	procedural	ADJ	_	_	_	_	_	_
+15	reforms	reform	NOUN	_	_	_	_	_	_
+16	in	in	ADP	_	_	_	_	_	_
+17	courts	court	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_526
+# text = Cultural heritage preservation faces competing pressures from tourism development, urban renewal, and insufficient maintenance budgets.
+1	Cultural	cultural	ADJ	_	_	_	_	_	_
+2	heritage	heritage	NOUN	_	_	_	_	_	_
+3	preservation	preservation	NOUN	_	_	_	_	_	_
+4	faces	face	VERB	_	_	_	_	_	_
+5	competing	compete	VERB	_	_	_	_	_	_
+6	pressures	pressure	NOUN	_	_	_	_	_	_
+7	from	from	ADP	_	_	_	_	_	_
+8	tourism	tourism	NOUN	_	_	_	_	_	_
+9	development	development	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	urban	urban	ADJ	_	_	_	_	_	_
+12	renewal	renewal	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	insufficient	insufficient	ADJ	_	_	_	_	_	_
+16	maintenance	maintenance	NOUN	_	_	_	_	_	_
+17	budgets	budget	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_527
+# text = Although museums digitized collections, many rural communities still lack access to traveling exhibitions and cultural programs.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	museums	museum	NOUN	_	_	_	_	_	_
+3	digitized	digitize	VERB	_	_	_	_	_	_
+4	collections	collection	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	many	many	ADJ	_	_	_	_	_	_
+7	rural	rural	ADJ	_	_	_	_	_	_
+8	communities	community	NOUN	_	_	_	_	_	_
+9	still	still	ADV	_	_	_	_	_	_
+10	lack	lack	VERB	_	_	_	_	_	_
+11	access	access	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	traveling	traveling	NOUN	_	_	_	_	_	_
+14	exhibitions	exhibition	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	cultural	cultural	ADJ	_	_	_	_	_	_
+17	programs	program	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_528
+# text = It is expected that repatriation debates will intensify as source countries demand return of artifacts acquired colonially.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	repatriation	repatriation	NOUN	_	_	_	_	_	_
+6	debates	debate	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	intensify	intensify	VERB	_	_	_	_	_	_
+9	as	as	SCONJ	_	_	_	_	_	_
+10	source	source	NOUN	_	_	_	_	_	_
+11	countries	country	NOUN	_	_	_	_	_	_
+12	demand	demand	VERB	_	_	_	_	_	_
+13	return	return	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	artifacts	artifact	NOUN	_	_	_	_	_	_
+16	acquired	acquire	VERB	_	_	_	_	_	_
+17	colonially	colonially	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_529
+# text = Safeguarding intangible traditions requires supporting living practitioners, not only cataloging performances for archival documentation purposes.
+1	Safeguarding	safeguard	VERB	_	_	_	_	_	_
+2	intangible	intangible	ADJ	_	_	_	_	_	_
+3	traditions	tradition	NOUN	_	_	_	_	_	_
+4	requires	require	VERB	_	_	_	_	_	_
+5	supporting	support	VERB	_	_	_	_	_	_
+6	living	living	NOUN	_	_	_	_	_	_
+7	practitioners	practitioner	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	not	not	PART	_	_	_	_	_	_
+10	only	only	ADV	_	_	_	_	_	_
+11	cataloging	catalog	VERB	_	_	_	_	_	_
+12	performances	performance	NOUN	_	_	_	_	_	_
+13	for	for	ADP	_	_	_	_	_	_
+14	archival	archival	ADJ	_	_	_	_	_	_
+15	documentation	documentation	NOUN	_	_	_	_	_	_
+16	purposes	purpose	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_530
+# text = Despite UNESCO listings, historic districts continue losing authentic character as souvenir shops replace local artisan workshops.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	UNESCO	UNESCO	PROPN	_	_	_	_	_	_
+3	listings	listing	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	historic	historic	ADJ	_	_	_	_	_	_
+6	districts	district	NOUN	_	_	_	_	_	_
+7	continue	continue	VERB	_	_	_	_	_	_
+8	losing	lose	VERB	_	_	_	_	_	_
+9	authentic	authentic	ADJ	_	_	_	_	_	_
+10	character	character	NOUN	_	_	_	_	_	_
+11	as	as	SCONJ	_	_	_	_	_	_
+12	souvenir	souvenir	NOUN	_	_	_	_	_	_
+13	shops	shop	NOUN	_	_	_	_	_	_
+14	replace	replace	VERB	_	_	_	_	_	_
+15	local	local	ADJ	_	_	_	_	_	_
+16	artisan	artisan	NOUN	_	_	_	_	_	_
+17	workshops	workshop	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_531
+# text = The curator explained that community led curation should give residents voice in how neighborhood histories are presented.
+1	The	the	DET	_	_	_	_	_	_
+2	curator	curator	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	community	community	NOUN	_	_	_	_	_	_
+6	led	lead	VERB	_	_	_	_	_	_
+7	curation	curation	NOUN	_	_	_	_	_	_
+8	should	should	AUX	_	_	_	_	_	_
+9	give	give	VERB	_	_	_	_	_	_
+10	residents	resident	NOUN	_	_	_	_	_	_
+11	voice	voice	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	how	how	ADV	_	_	_	_	_	_
+14	neighborhood	neighborhood	NOUN	_	_	_	_	_	_
+15	histories	history	NOUN	_	_	_	_	_	_
+16	are	be	AUX	_	_	_	_	_	_
+17	presented	present	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_532
+# text = Promoting multilingual cultural programming should reflect diverse identities in cities transformed by decades of migration.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	multilingual	multilingual	ADJ	_	_	_	_	_	_
+3	cultural	cultural	ADJ	_	_	_	_	_	_
+4	programming	programming	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	reflect	reflect	VERB	_	_	_	_	_	_
+7	diverse	diverse	ADJ	_	_	_	_	_	_
+8	identities	identity	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	cities	city	NOUN	_	_	_	_	_	_
+11	transformed	transform	VERB	_	_	_	_	_	_
+12	by	by	ADP	_	_	_	_	_	_
+13	decades	decade	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	migration	migration	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_533
+# text = If restoration grants targeted neglected monuments, regional heritage sites might attract visitors beyond famous capital landmarks.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	restoration	restoration	NOUN	_	_	_	_	_	_
+3	grants	grant	NOUN	_	_	_	_	_	_
+4	targeted	target	VERB	_	_	_	_	_	_
+5	neglected	neglect	VERB	_	_	_	_	_	_
+6	monuments	monument	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	regional	regional	ADJ	_	_	_	_	_	_
+9	heritage	heritage	NOUN	_	_	_	_	_	_
+10	sites	site	NOUN	_	_	_	_	_	_
+11	might	may	AUX	_	_	_	_	_	_
+12	attract	attract	VERB	_	_	_	_	_	_
+13	visitors	visitor	NOUN	_	_	_	_	_	_
+14	beyond	beyond	ADP	_	_	_	_	_	_
+15	famous	famous	ADJ	_	_	_	_	_	_
+16	capital	capital	NOUN	_	_	_	_	_	_
+17	landmarks	landmark	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_534
+# text = Although festivals revived locally, climate change threatens outdoor celebrations dependent on seasonal weather patterns and water.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	festivals	festival	NOUN	_	_	_	_	_	_
+3	revived	revive	VERB	_	_	_	_	_	_
+4	locally	locally	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	climate	climate	NOUN	_	_	_	_	_	_
+7	change	change	NOUN	_	_	_	_	_	_
+8	threatens	threaten	VERB	_	_	_	_	_	_
+9	outdoor	outdoor	ADJ	_	_	_	_	_	_
+10	celebrations	celebration	NOUN	_	_	_	_	_	_
+11	dependent	dependent	ADJ	_	_	_	_	_	_
+12	on	on	ADP	_	_	_	_	_	_
+13	seasonal	seasonal	ADJ	_	_	_	_	_	_
+14	weather	weather	NOUN	_	_	_	_	_	_
+15	patterns	pattern	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	water	water	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_535
+# text = It is feared that commercial streaming platforms could displace independent filmmakers chronicling marginalized cultural experiences authentically.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	commercial	commercial	ADJ	_	_	_	_	_	_
+6	streaming	stream	NOUN	_	_	_	_	_	_
+7	platforms	platform	NOUN	_	_	_	_	_	_
+8	could	can	AUX	_	_	_	_	_	_
+9	displace	displace	VERB	_	_	_	_	_	_
+10	independent	independent	ADJ	_	_	_	_	_	_
+11	filmmakers	filmmaker	NOUN	_	_	_	_	_	_
+12	chronicling	chronicle	VERB	_	_	_	_	_	_
+13	marginalized	marginalize	VERB	_	_	_	_	_	_
+14	cultural	cultural	ADJ	_	_	_	_	_	_
+15	experiences	experience	NOUN	_	_	_	_	_	_
+16	authentically	authentically	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_536
+# text = Indigenous land rights are viewed as inseparable from protecting sacred sites threatened by mining and infrastructure projects.
+1	Indigenous	indigenous	ADJ	_	_	_	_	_	_
+2	land	land	NOUN	_	_	_	_	_	_
+3	rights	right	NOUN	_	_	_	_	_	_
+4	are	be	AUX	_	_	_	_	_	_
+5	viewed	view	VERB	_	_	_	_	_	_
+6	as	as	SCONJ	_	_	_	_	_	_
+7	inseparable	inseparable	ADJ	_	_	_	_	_	_
+8	from	from	ADP	_	_	_	_	_	_
+9	protecting	protect	VERB	_	_	_	_	_	_
+10	sacred	sacred	ADJ	_	_	_	_	_	_
+11	sites	site	NOUN	_	_	_	_	_	_
+12	threatened	threaten	VERB	_	_	_	_	_	_
+13	by	by	ADP	_	_	_	_	_	_
+14	mining	mining	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	infrastructure	infrastructure	NOUN	_	_	_	_	_	_
+17	projects	project	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_537
+# text = Had fire prevention been upgraded earlier, irreplaceable manuscripts in historic libraries would have survived recent blazes.
+1	Had	have	AUX	_	_	_	_	_	_
+2	fire	fire	NOUN	_	_	_	_	_	_
+3	prevention	prevention	NOUN	_	_	_	_	_	_
+4	been	be	AUX	_	_	_	_	_	_
+5	upgraded	upgrade	VERB	_	_	_	_	_	_
+6	earlier	early	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	irreplaceable	irreplaceable	ADJ	_	_	_	_	_	_
+9	manuscripts	manuscript	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	historic	historic	ADJ	_	_	_	_	_	_
+12	libraries	library	NOUN	_	_	_	_	_	_
+13	would	will	AUX	_	_	_	_	_	_
+14	have	have	AUX	_	_	_	_	_	_
+15	survived	survive	VERB	_	_	_	_	_	_
+16	recent	recent	ADJ	_	_	_	_	_	_
+17	blazes	blaze	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_538
+# text = The exhibition shows how diaspora artists reinterpret homeland memories through hybrid forms blending global and local influences.
+1	The	the	DET	_	_	_	_	_	_
+2	exhibition	exhibition	NOUN	_	_	_	_	_	_
+3	shows	show	VERB	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	diaspora	diaspora	NOUN	_	_	_	_	_	_
+6	artists	artist	NOUN	_	_	_	_	_	_
+7	reinterpret	reinterpret	VERB	_	_	_	_	_	_
+8	homeland	homeland	NOUN	_	_	_	_	_	_
+9	memories	memory	NOUN	_	_	_	_	_	_
+10	through	through	ADP	_	_	_	_	_	_
+11	hybrid	hybrid	NOUN	_	_	_	_	_	_
+12	forms	form	NOUN	_	_	_	_	_	_
+13	blending	blend	VERB	_	_	_	_	_	_
+14	global	global	ADJ	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	local	local	ADJ	_	_	_	_	_	_
+17	influences	influence	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_539
+# text = Ensuring equitable access to culture requires subsidized tickets and transport for schools in underfunded peripheral municipalities.
+1	Ensuring	ensure	VERB	_	_	_	_	_	_
+2	equitable	equitable	ADJ	_	_	_	_	_	_
+3	access	access	NOUN	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	culture	culture	NOUN	_	_	_	_	_	_
+6	requires	require	VERB	_	_	_	_	_	_
+7	subsidized	subsidize	VERB	_	_	_	_	_	_
+8	tickets	ticket	NOUN	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	transport	transport	NOUN	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	schools	school	NOUN	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	underfunded	underfunded	ADJ	_	_	_	_	_	_
+15	peripheral	peripheral	ADJ	_	_	_	_	_	_
+16	municipalities	municipality	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_540
+# text = Although monuments were removed, public discussions about commemoration often remain polarized and superficial in media coverage.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	monuments	monument	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	removed	remove	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	public	public	ADJ	_	_	_	_	_	_
+7	discussions	discussion	NOUN	_	_	_	_	_	_
+8	about	about	ADP	_	_	_	_	_	_
+9	commemoration	commemoration	NOUN	_	_	_	_	_	_
+10	often	often	ADV	_	_	_	_	_	_
+11	remain	remain	VERB	_	_	_	_	_	_
+12	polarized	polarize	ADJ	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	superficial	superficial	ADJ	_	_	_	_	_	_
+15	in	in	ADP	_	_	_	_	_	_
+16	media	medium	NOUN	_	_	_	_	_	_
+17	coverage	coverage	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_541
+# text = The challenge is not celebrating diversity rhetorically but funding institutions that sustain minority languages and artistic traditions.
+1	The	the	DET	_	_	_	_	_	_
+2	challenge	challenge	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	celebrating	celebrate	VERB	_	_	_	_	_	_
+6	diversity	diversity	NOUN	_	_	_	_	_	_
+7	rhetorically	rhetorically	ADV	_	_	_	_	_	_
+8	but	but	CCONJ	_	_	_	_	_	_
+9	funding	funding	NOUN	_	_	_	_	_	_
+10	institutions	institution	NOUN	_	_	_	_	_	_
+11	that	that	SCONJ	_	_	_	_	_	_
+12	sustain	sustain	VERB	_	_	_	_	_	_
+13	minority	minority	NOUN	_	_	_	_	_	_
+14	languages	language	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	artistic	artistic	ADJ	_	_	_	_	_	_
+17	traditions	tradition	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_542
+# text = Expanding oral history projects should document working class experiences often omitted from official national narrative accounts.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	oral	oral	ADJ	_	_	_	_	_	_
+3	history	history	NOUN	_	_	_	_	_	_
+4	projects	project	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	document	document	VERB	_	_	_	_	_	_
+7	working	working	NOUN	_	_	_	_	_	_
+8	class	class	NOUN	_	_	_	_	_	_
+9	experiences	experience	NOUN	_	_	_	_	_	_
+10	often	often	ADV	_	_	_	_	_	_
+11	omitted	omit	VERB	_	_	_	_	_	_
+12	from	from	ADP	_	_	_	_	_	_
+13	official	official	ADJ	_	_	_	_	_	_
+14	national	national	ADJ	_	_	_	_	_	_
+15	narrative	narrative	ADJ	_	_	_	_	_	_
+16	accounts	account	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_543
+# text = The director emphasized that renovation must respect original materials rather than replacing historic fabric with generic facades.
+1	The	the	DET	_	_	_	_	_	_
+2	director	director	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	renovation	renovation	NOUN	_	_	_	_	_	_
+6	must	must	AUX	_	_	_	_	_	_
+7	respect	respect	VERB	_	_	_	_	_	_
+8	original	original	ADJ	_	_	_	_	_	_
+9	materials	material	NOUN	_	_	_	_	_	_
+10	rather	rather	ADV	_	_	_	_	_	_
+11	than	than	SCONJ	_	_	_	_	_	_
+12	replacing	replace	VERB	_	_	_	_	_	_
+13	historic	historic	ADJ	_	_	_	_	_	_
+14	fabric	fabric	NOUN	_	_	_	_	_	_
+15	with	with	ADP	_	_	_	_	_	_
+16	generic	generic	ADJ	_	_	_	_	_	_
+17	facades	facade	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_544
+# text = Developing heritage trails linking villages is being promoted to distribute tourism income beyond overcrowded urban center attractions.
+1	Developing	develop	VERB	_	_	_	_	_	_
+2	heritage	heritage	NOUN	_	_	_	_	_	_
+3	trails	trail	NOUN	_	_	_	_	_	_
+4	linking	link	VERB	_	_	_	_	_	_
+5	villages	village	NOUN	_	_	_	_	_	_
+6	is	be	AUX	_	_	_	_	_	_
+7	being	be	AUX	_	_	_	_	_	_
+8	promoted	promote	VERB	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	distribute	distribute	VERB	_	_	_	_	_	_
+11	tourism	tourism	NOUN	_	_	_	_	_	_
+12	income	income	NOUN	_	_	_	_	_	_
+13	beyond	beyond	ADP	_	_	_	_	_	_
+14	overcrowded	overcrowd	VERB	_	_	_	_	_	_
+15	urban	urban	ADJ	_	_	_	_	_	_
+16	center	center	NOUN	_	_	_	_	_	_
+17	attractions	attraction	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_545
+# text = It is recommended that looted objects be returned when provenance research establishes evidence of unlawful acquisition abroad.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	looted	loot	VERB	_	_	_	_	_	_
+6	objects	object	NOUN	_	_	_	_	_	_
+7	be	be	AUX	_	_	_	_	_	_
+8	returned	return	VERB	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	provenance	provenance	NOUN	_	_	_	_	_	_
+11	research	research	NOUN	_	_	_	_	_	_
+12	establishes	establish	VERB	_	_	_	_	_	_
+13	evidence	evidence	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	unlawful	unlawful	ADJ	_	_	_	_	_	_
+16	acquisition	acquisition	NOUN	_	_	_	_	_	_
+17	abroad	abroad	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_546
+# text = Although creative industries grew, precarious contracts leave many cultural workers without pensions or stable income security.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	creative	creative	ADJ	_	_	_	_	_	_
+3	industries	industry	NOUN	_	_	_	_	_	_
+4	grew	grow	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	precarious	precarious	ADJ	_	_	_	_	_	_
+7	contracts	contract	NOUN	_	_	_	_	_	_
+8	leave	leave	VERB	_	_	_	_	_	_
+9	many	many	ADJ	_	_	_	_	_	_
+10	cultural	cultural	ADJ	_	_	_	_	_	_
+11	workers	worker	NOUN	_	_	_	_	_	_
+12	without	without	ADP	_	_	_	_	_	_
+13	pensions	pension	NOUN	_	_	_	_	_	_
+14	or	or	CCONJ	_	_	_	_	_	_
+15	stable	stable	ADJ	_	_	_	_	_	_
+16	income	income	NOUN	_	_	_	_	_	_
+17	security	security	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_547
+# text = Strengthening craft apprenticeships should transmit specialized skills threatened by mass production and imported imitation goods flooding markets.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	craft	craft	NOUN	_	_	_	_	_	_
+3	apprenticeships	apprenticeship	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	transmit	transmit	VERB	_	_	_	_	_	_
+6	specialized	specialize	VERB	_	_	_	_	_	_
+7	skills	skill	NOUN	_	_	_	_	_	_
+8	threatened	threaten	VERB	_	_	_	_	_	_
+9	by	by	ADP	_	_	_	_	_	_
+10	mass	mass	ADJ	_	_	_	_	_	_
+11	production	production	NOUN	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	imported	import	VERB	_	_	_	_	_	_
+14	imitation	imitation	NOUN	_	_	_	_	_	_
+15	goods	good	NOUN	_	_	_	_	_	_
+16	flooding	flooding	NOUN	_	_	_	_	_	_
+17	markets	market	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_548
+# text = Promoting respectful cultural exchange should avoid reducing living communities to exotic attractions for visiting international tourists alone.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	respectful	respectful	ADJ	_	_	_	_	_	_
+3	cultural	cultural	ADJ	_	_	_	_	_	_
+4	exchange	exchange	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	avoid	avoid	VERB	_	_	_	_	_	_
+7	reducing	reduce	VERB	_	_	_	_	_	_
+8	living	living	NOUN	_	_	_	_	_	_
+9	communities	community	NOUN	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	exotic	exotic	ADJ	_	_	_	_	_	_
+12	attractions	attraction	NOUN	_	_	_	_	_	_
+13	for	for	ADP	_	_	_	_	_	_
+14	visiting	visit	VERB	_	_	_	_	_	_
+15	international	international	ADJ	_	_	_	_	_	_
+16	tourists	tourist	NOUN	_	_	_	_	_	_
+17	alone	alone	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_549
+# text = Balancing heritage conservation with housing needs remains contentious when protected buildings limit construction in crowded historic neighborhoods.
+1	Balancing	balance	VERB	_	_	_	_	_	_
+2	heritage	heritage	NOUN	_	_	_	_	_	_
+3	conservation	conservation	NOUN	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	housing	housing	NOUN	_	_	_	_	_	_
+6	needs	need	NOUN	_	_	_	_	_	_
+7	remains	remain	VERB	_	_	_	_	_	_
+8	contentious	contentious	ADJ	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	protected	protect	VERB	_	_	_	_	_	_
+11	buildings	building	NOUN	_	_	_	_	_	_
+12	limit	limit	VERB	_	_	_	_	_	_
+13	construction	construction	NOUN	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	crowded	crowded	ADJ	_	_	_	_	_	_
+16	historic	historic	ADJ	_	_	_	_	_	_
+17	neighborhoods	neighborhood	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_550
+# text = Preserving cultural memory in changing societies will require institutions willing to confront uncomfortable chapters of national history.
+1	Preserving	preserve	VERB	_	_	_	_	_	_
+2	cultural	cultural	ADJ	_	_	_	_	_	_
+3	memory	memory	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	changing	change	VERB	_	_	_	_	_	_
+6	societies	society	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	require	require	VERB	_	_	_	_	_	_
+9	institutions	institution	NOUN	_	_	_	_	_	_
+10	willing	willing	ADJ	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	confront	confront	VERB	_	_	_	_	_	_
+13	uncomfortable	uncomfortable	ADJ	_	_	_	_	_	_
+14	chapters	chapter	NOUN	_	_	_	_	_	_
+15	of	of	ADP	_	_	_	_	_	_
+16	national	national	ADJ	_	_	_	_	_	_
+17	history	history	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_551
+# text = Economic inequality has widened as asset prices rose faster than wages for ordinary workers in many countries.
+1	Economic	economic	ADJ	_	_	_	_	_	_
+2	inequality	inequality	NOUN	_	_	_	_	_	_
+3	has	have	AUX	_	_	_	_	_	_
+4	widened	widen	VERB	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	asset	asset	NOUN	_	_	_	_	_	_
+7	prices	price	NOUN	_	_	_	_	_	_
+8	rose	rise	VERB	_	_	_	_	_	_
+9	faster	fast	ADJ	_	_	_	_	_	_
+10	than	than	SCONJ	_	_	_	_	_	_
+11	wages	wage	NOUN	_	_	_	_	_	_
+12	for	for	ADP	_	_	_	_	_	_
+13	ordinary	ordinary	ADJ	_	_	_	_	_	_
+14	workers	worker	NOUN	_	_	_	_	_	_
+15	in	in	ADP	_	_	_	_	_	_
+16	many	many	ADJ	_	_	_	_	_	_
+17	countries	country	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_552
+# text = Although minimum wages increased, inflation eroded purchasing power for households dependent on low paid service jobs.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	minimum	minimum	ADJ	_	_	_	_	_	_
+3	wages	wage	NOUN	_	_	_	_	_	_
+4	increased	increase	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	inflation	inflation	NOUN	_	_	_	_	_	_
+7	eroded	erode	VERB	_	_	_	_	_	_
+8	purchasing	purchase	NOUN	_	_	_	_	_	_
+9	power	power	NOUN	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	households	household	NOUN	_	_	_	_	_	_
+12	dependent	dependent	ADJ	_	_	_	_	_	_
+13	on	on	ADP	_	_	_	_	_	_
+14	low	low	ADJ	_	_	_	_	_	_
+15	paid	pay	VERB	_	_	_	_	_	_
+16	service	service	NOUN	_	_	_	_	_	_
+17	jobs	job	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_553
+# text = It is expected that wealth taxes will be debated again as governments seek revenue for social programs.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	wealth	wealth	NOUN	_	_	_	_	_	_
+6	taxes	tax	NOUN	_	_	_	_	_	_
+7	will	will	AUX	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	debated	debate	VERB	_	_	_	_	_	_
+10	again	again	ADV	_	_	_	_	_	_
+11	as	as	SCONJ	_	_	_	_	_	_
+12	governments	government	NOUN	_	_	_	_	_	_
+13	seek	seek	VERB	_	_	_	_	_	_
+14	revenue	revenue	NOUN	_	_	_	_	_	_
+15	for	for	ADP	_	_	_	_	_	_
+16	social	social	ADJ	_	_	_	_	_	_
+17	programs	program	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_554
+# text = Progressive taxation is regarded as necessary, yet political resistance from wealthy interests over funding remains fierce.
+1	Progressive	progressive	ADJ	_	_	_	_	_	_
+2	taxation	taxation	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	regarded	regard	VERB	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	necessary	necessary	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	yet	yet	CCONJ	_	_	_	_	_	_
+9	political	political	ADJ	_	_	_	_	_	_
+10	resistance	resistance	NOUN	_	_	_	_	_	_
+11	from	from	ADP	_	_	_	_	_	_
+12	wealthy	wealthy	ADJ	_	_	_	_	_	_
+13	interests	interest	NOUN	_	_	_	_	_	_
+14	over	over	ADP	_	_	_	_	_	_
+15	funding	funding	NOUN	_	_	_	_	_	_
+16	remains	remain	VERB	_	_	_	_	_	_
+17	fierce	fierce	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_555
+# text = Despite economic growth, child poverty persists in neighborhoods lacking affordable childcare and reliable public transportation links.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	economic	economic	ADJ	_	_	_	_	_	_
+3	growth	growth	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	child	child	NOUN	_	_	_	_	_	_
+6	poverty	poverty	NOUN	_	_	_	_	_	_
+7	persists	persist	VERB	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	neighborhoods	neighborhood	NOUN	_	_	_	_	_	_
+10	lacking	lack	VERB	_	_	_	_	_	_
+11	affordable	affordable	ADJ	_	_	_	_	_	_
+12	childcare	childcare	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	reliable	reliable	ADJ	_	_	_	_	_	_
+15	public	public	ADJ	_	_	_	_	_	_
+16	transportation	transportation	NOUN	_	_	_	_	_	_
+17	links	link	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_556
+# text = The economist explained that intergenerational mobility declines when elite education and housing markets become increasingly segregated financially.
+1	The	the	DET	_	_	_	_	_	_
+2	economist	economist	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	intergenerational	intergenerational	ADJ	_	_	_	_	_	_
+6	mobility	mobility	NOUN	_	_	_	_	_	_
+7	declines	decline	NOUN	_	_	_	_	_	_
+8	when	when	SCONJ	_	_	_	_	_	_
+9	elite	elite	ADJ	_	_	_	_	_	_
+10	education	education	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	housing	housing	NOUN	_	_	_	_	_	_
+13	markets	market	NOUN	_	_	_	_	_	_
+14	become	become	VERB	_	_	_	_	_	_
+15	increasingly	increasingly	ADV	_	_	_	_	_	_
+16	segregated	segregate	VERB	_	_	_	_	_	_
+17	financially	financially	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_557
+# text = Promoting worker ownership models should distribute corporate profits more fairly among employees who generate value daily.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	worker	worker	NOUN	_	_	_	_	_	_
+3	ownership	ownership	NOUN	_	_	_	_	_	_
+4	models	model	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	distribute	distribute	VERB	_	_	_	_	_	_
+7	corporate	corporate	ADJ	_	_	_	_	_	_
+8	profits	profit	NOUN	_	_	_	_	_	_
+9	more	more	ADV	_	_	_	_	_	_
+10	fairly	fairly	ADV	_	_	_	_	_	_
+11	among	among	ADP	_	_	_	_	_	_
+12	employees	employee	NOUN	_	_	_	_	_	_
+13	who	who	PRON	_	_	_	_	_	_
+14	generate	generate	VERB	_	_	_	_	_	_
+15	value	value	NOUN	_	_	_	_	_	_
+16	daily	daily	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_558
+# text = If antitrust enforcement strengthened, dominant platforms might face competition that lowers prices for consumers and businesses.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	antitrust	antitrust	NOUN	_	_	_	_	_	_
+3	enforcement	enforcement	NOUN	_	_	_	_	_	_
+4	strengthened	strengthen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dominant	dominant	ADJ	_	_	_	_	_	_
+7	platforms	platform	NOUN	_	_	_	_	_	_
+8	might	may	AUX	_	_	_	_	_	_
+9	face	face	VERB	_	_	_	_	_	_
+10	competition	competition	NOUN	_	_	_	_	_	_
+11	that	that	SCONJ	_	_	_	_	_	_
+12	lowers	lower	VERB	_	_	_	_	_	_
+13	prices	price	NOUN	_	_	_	_	_	_
+14	for	for	ADP	_	_	_	_	_	_
+15	consumers	consumer	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	businesses	business	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_559
+# text = Although stimulus measures helped, temporary relief did not tackle structural weaknesses in labor markets facing automation.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	stimulus	stimulu	NOUN	_	_	_	_	_	_
+3	measures	measure	NOUN	_	_	_	_	_	_
+4	helped	help	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	temporary	temporary	ADJ	_	_	_	_	_	_
+7	relief	relief	NOUN	_	_	_	_	_	_
+8	did	do	AUX	_	_	_	_	_	_
+9	not	not	PART	_	_	_	_	_	_
+10	tackle	tackle	VERB	_	_	_	_	_	_
+11	structural	structural	ADJ	_	_	_	_	_	_
+12	weaknesses	weakness	NOUN	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	labor	labor	NOUN	_	_	_	_	_	_
+15	markets	market	NOUN	_	_	_	_	_	_
+16	facing	face	VERB	_	_	_	_	_	_
+17	automation	automation	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_560
+# text = It is feared that austerity could deepen hardship among households already struggling with debt and rising rents.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	austerity	austerity	NOUN	_	_	_	_	_	_
+6	could	can	AUX	_	_	_	_	_	_
+7	deepen	deepen	VERB	_	_	_	_	_	_
+8	hardship	hardship	NOUN	_	_	_	_	_	_
+9	among	among	ADP	_	_	_	_	_	_
+10	households	household	NOUN	_	_	_	_	_	_
+11	already	already	ADV	_	_	_	_	_	_
+12	struggling	struggle	VERB	_	_	_	_	_	_
+13	with	with	ADP	_	_	_	_	_	_
+14	debt	debt	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	rising	rise	VERB	_	_	_	_	_	_
+17	rents	rent	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_561
+# text = Universal basic services are viewed as alternatives to fragmented welfare programs that leave citizens without adequate support.
+1	Universal	universal	ADJ	_	_	_	_	_	_
+2	basic	basic	ADJ	_	_	_	_	_	_
+3	services	service	NOUN	_	_	_	_	_	_
+4	are	be	AUX	_	_	_	_	_	_
+5	viewed	view	VERB	_	_	_	_	_	_
+6	as	as	SCONJ	_	_	_	_	_	_
+7	alternatives	alternative	NOUN	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	fragmented	fragment	VERB	_	_	_	_	_	_
+10	welfare	welfare	NOUN	_	_	_	_	_	_
+11	programs	program	NOUN	_	_	_	_	_	_
+12	that	that	SCONJ	_	_	_	_	_	_
+13	leave	leave	VERB	_	_	_	_	_	_
+14	citizens	citizen	NOUN	_	_	_	_	_	_
+15	without	without	ADP	_	_	_	_	_	_
+16	adequate	adequate	ADJ	_	_	_	_	_	_
+17	support	support	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_562
+# text = Had financial regulation tightened earlier, speculative bubbles inflating housing costs would have been less destructive nationwide.
+1	Had	have	AUX	_	_	_	_	_	_
+2	financial	financial	ADJ	_	_	_	_	_	_
+3	regulation	regulation	NOUN	_	_	_	_	_	_
+4	tightened	tighten	VERB	_	_	_	_	_	_
+5	earlier	early	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	speculative	speculative	ADJ	_	_	_	_	_	_
+8	bubbles	bubble	NOUN	_	_	_	_	_	_
+9	inflating	inflate	VERB	_	_	_	_	_	_
+10	housing	housing	NOUN	_	_	_	_	_	_
+11	costs	cost	NOUN	_	_	_	_	_	_
+12	would	will	AUX	_	_	_	_	_	_
+13	have	have	AUX	_	_	_	_	_	_
+14	been	be	AUX	_	_	_	_	_	_
+15	less	less	ADV	_	_	_	_	_	_
+16	destructive	destructive	ADJ	_	_	_	_	_	_
+17	nationwide	nationwide	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_563
+# text = The analysis shows how gender pay gaps persist among graduates with comparable qualifications and similar work experience.
+1	The	the	DET	_	_	_	_	_	_
+2	analysis	analysi	NOUN	_	_	_	_	_	_
+3	shows	show	VERB	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	gender	gender	NOUN	_	_	_	_	_	_
+6	pay	pay	NOUN	_	_	_	_	_	_
+7	gaps	gap	NOUN	_	_	_	_	_	_
+8	persist	persist	VERB	_	_	_	_	_	_
+9	among	among	ADP	_	_	_	_	_	_
+10	graduates	graduate	NOUN	_	_	_	_	_	_
+11	with	with	ADP	_	_	_	_	_	_
+12	comparable	comparable	ADJ	_	_	_	_	_	_
+13	qualifications	qualification	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	similar	similar	ADJ	_	_	_	_	_	_
+16	work	work	NOUN	_	_	_	_	_	_
+17	experience	experience	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_564
+# text = Ensuring living wages for care workers should recognize essential labor traditionally undervalued because it employs mostly women.
+1	Ensuring	ensure	VERB	_	_	_	_	_	_
+2	living	living	NOUN	_	_	_	_	_	_
+3	wages	wage	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	care	care	NOUN	_	_	_	_	_	_
+6	workers	worker	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	recognize	recognize	VERB	_	_	_	_	_	_
+9	essential	essential	ADJ	_	_	_	_	_	_
+10	labor	labor	NOUN	_	_	_	_	_	_
+11	traditionally	traditionally	ADV	_	_	_	_	_	_
+12	undervalued	undervalue	VERB	_	_	_	_	_	_
+13	because	because	SCONJ	_	_	_	_	_	_
+14	it	it	PRON	_	_	_	_	_	_
+15	employs	employ	VERB	_	_	_	_	_	_
+16	mostly	mostly	ADV	_	_	_	_	_	_
+17	women	woman	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_565
+# text = Although philanthropy increased, charitable giving does not substitute for tax financed safety nets covering basic needs.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	philanthropy	philanthropy	NOUN	_	_	_	_	_	_
+3	increased	increase	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	charitable	charitable	ADJ	_	_	_	_	_	_
+6	giving	give	NOUN	_	_	_	_	_	_
+7	does	do	AUX	_	_	_	_	_	_
+8	not	not	PART	_	_	_	_	_	_
+9	substitute	substitute	VERB	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	tax	tax	NOUN	_	_	_	_	_	_
+12	financed	finance	VERB	_	_	_	_	_	_
+13	safety	safety	NOUN	_	_	_	_	_	_
+14	nets	net	NOUN	_	_	_	_	_	_
+15	covering	cover	VERB	_	_	_	_	_	_
+16	basic	basic	ADJ	_	_	_	_	_	_
+17	needs	need	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_566
+# text = The barrier is not public awareness but concentrated political influence protecting preferential treatment for capital income.
+1	The	the	DET	_	_	_	_	_	_
+2	barrier	barrier	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	public	public	ADJ	_	_	_	_	_	_
+6	awareness	awareness	NOUN	_	_	_	_	_	_
+7	but	but	CCONJ	_	_	_	_	_	_
+8	concentrated	concentrate	VERB	_	_	_	_	_	_
+9	political	political	ADJ	_	_	_	_	_	_
+10	influence	influence	NOUN	_	_	_	_	_	_
+11	protecting	protect	VERB	_	_	_	_	_	_
+12	preferential	preferential	ADJ	_	_	_	_	_	_
+13	treatment	treatment	NOUN	_	_	_	_	_	_
+14	for	for	ADP	_	_	_	_	_	_
+15	capital	capital	NOUN	_	_	_	_	_	_
+16	income	income	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_567
+# text = Expanding cooperative housing should reduce speculation that displaces renters from neighborhoods undergoing rapid gentrification and redevelopment.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	cooperative	cooperative	ADJ	_	_	_	_	_	_
+3	housing	housing	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	reduce	reduce	VERB	_	_	_	_	_	_
+6	speculation	speculation	NOUN	_	_	_	_	_	_
+7	that	that	SCONJ	_	_	_	_	_	_
+8	displaces	displace	VERB	_	_	_	_	_	_
+9	renters	renter	NOUN	_	_	_	_	_	_
+10	from	from	ADP	_	_	_	_	_	_
+11	neighborhoods	neighborhood	NOUN	_	_	_	_	_	_
+12	undergoing	undergo	VERB	_	_	_	_	_	_
+13	rapid	rapid	ADJ	_	_	_	_	_	_
+14	gentrification	gentrification	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	redevelopment	redevelopment	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_568
+# text = The minister emphasized that fiscal policy must not favor asset holders at the expense of young households.
+1	The	the	DET	_	_	_	_	_	_
+2	minister	minister	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	fiscal	fiscal	ADJ	_	_	_	_	_	_
+6	policy	policy	NOUN	_	_	_	_	_	_
+7	must	must	AUX	_	_	_	_	_	_
+8	not	not	PART	_	_	_	_	_	_
+9	favor	favor	VERB	_	_	_	_	_	_
+10	asset	asset	NOUN	_	_	_	_	_	_
+11	holders	holder	NOUN	_	_	_	_	_	_
+12	at	at	ADP	_	_	_	_	_	_
+13	the	the	DET	_	_	_	_	_	_
+14	expense	expense	NOUN	_	_	_	_	_	_
+15	of	of	ADP	_	_	_	_	_	_
+16	young	young	ADJ	_	_	_	_	_	_
+17	households	household	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_569
+# text = Developing regional investment funds is proposed to channel capital toward areas left behind by national growth patterns.
+1	Developing	develop	VERB	_	_	_	_	_	_
+2	regional	regional	ADJ	_	_	_	_	_	_
+3	investment	investment	NOUN	_	_	_	_	_	_
+4	funds	fund	NOUN	_	_	_	_	_	_
+5	is	be	AUX	_	_	_	_	_	_
+6	proposed	propose	VERB	_	_	_	_	_	_
+7	to	to	PART	_	_	_	_	_	_
+8	channel	channel	VERB	_	_	_	_	_	_
+9	capital	capital	NOUN	_	_	_	_	_	_
+10	toward	toward	ADP	_	_	_	_	_	_
+11	areas	area	NOUN	_	_	_	_	_	_
+12	left	leave	VERB	_	_	_	_	_	_
+13	behind	behind	ADP	_	_	_	_	_	_
+14	by	by	ADP	_	_	_	_	_	_
+15	national	national	ADJ	_	_	_	_	_	_
+16	growth	growth	NOUN	_	_	_	_	_	_
+17	patterns	pattern	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_570
+# text = It is recommended that executive pay reflect long term performance rather than short term stock market returns.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	executive	executive	ADJ	_	_	_	_	_	_
+6	pay	pay	NOUN	_	_	_	_	_	_
+7	reflect	reflect	VERB	_	_	_	_	_	_
+8	long	long	ADJ	_	_	_	_	_	_
+9	term	term	NOUN	_	_	_	_	_	_
+10	performance	performance	NOUN	_	_	_	_	_	_
+11	rather	rather	ADV	_	_	_	_	_	_
+12	than	than	SCONJ	_	_	_	_	_	_
+13	short	short	ADJ	_	_	_	_	_	_
+14	term	term	NOUN	_	_	_	_	_	_
+15	stock	stock	NOUN	_	_	_	_	_	_
+16	market	market	NOUN	_	_	_	_	_	_
+17	returns	return	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_571
+# text = Although unemployment fell, underemployment and insecure contracts leave many workers without savings or predictable monthly incomes.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	unemployment	unemployment	NOUN	_	_	_	_	_	_
+3	fell	fall	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	underemployment	underemployment	NOUN	_	_	_	_	_	_
+6	and	and	CCONJ	_	_	_	_	_	_
+7	insecure	insecure	ADJ	_	_	_	_	_	_
+8	contracts	contract	NOUN	_	_	_	_	_	_
+9	leave	leave	VERB	_	_	_	_	_	_
+10	many	many	ADJ	_	_	_	_	_	_
+11	workers	worker	NOUN	_	_	_	_	_	_
+12	without	without	ADP	_	_	_	_	_	_
+13	savings	saving	NOUN	_	_	_	_	_	_
+14	or	or	CCONJ	_	_	_	_	_	_
+15	predictable	predictable	ADJ	_	_	_	_	_	_
+16	monthly	monthly	ADJ	_	_	_	_	_	_
+17	incomes	income	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_572
+# text = Strengthening collective bargaining should improve wages in sectors where individualized negotiation leaves employees with limited bargaining power.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	collective	collective	ADJ	_	_	_	_	_	_
+3	bargaining	bargain	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	improve	improve	VERB	_	_	_	_	_	_
+6	wages	wage	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	sectors	sector	NOUN	_	_	_	_	_	_
+9	where	where	ADV	_	_	_	_	_	_
+10	individualized	individualized	ADJ	_	_	_	_	_	_
+11	negotiation	negotiation	NOUN	_	_	_	_	_	_
+12	leaves	leave	VERB	_	_	_	_	_	_
+13	employees	employee	NOUN	_	_	_	_	_	_
+14	with	with	ADP	_	_	_	_	_	_
+15	limited	limited	ADJ	_	_	_	_	_	_
+16	bargaining	bargain	NOUN	_	_	_	_	_	_
+17	power	power	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_573
+# text = Promoting financial education should help families avoid predatory lending products marketed aggressively in economically struggling communities nationwide.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	financial	financial	ADJ	_	_	_	_	_	_
+3	education	education	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	help	help	VERB	_	_	_	_	_	_
+6	families	family	NOUN	_	_	_	_	_	_
+7	avoid	avoid	VERB	_	_	_	_	_	_
+8	predatory	predatory	ADJ	_	_	_	_	_	_
+9	lending	lending	NOUN	_	_	_	_	_	_
+10	products	product	NOUN	_	_	_	_	_	_
+11	marketed	market	VERB	_	_	_	_	_	_
+12	aggressively	aggressively	ADV	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	economically	economically	ADV	_	_	_	_	_	_
+15	struggling	struggle	VERB	_	_	_	_	_	_
+16	communities	community	NOUN	_	_	_	_	_	_
+17	nationwide	nationwide	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_574
+# text = Balancing growth and redistribution remains contentious when policymakers fear higher taxes might discourage domestic investment flows.
+1	Balancing	balance	VERB	_	_	_	_	_	_
+2	growth	growth	NOUN	_	_	_	_	_	_
+3	and	and	CCONJ	_	_	_	_	_	_
+4	redistribution	redistribution	NOUN	_	_	_	_	_	_
+5	remains	remain	VERB	_	_	_	_	_	_
+6	contentious	contentious	ADJ	_	_	_	_	_	_
+7	when	when	SCONJ	_	_	_	_	_	_
+8	policymakers	policymaker	NOUN	_	_	_	_	_	_
+9	fear	fear	VERB	_	_	_	_	_	_
+10	higher	high	ADJ	_	_	_	_	_	_
+11	taxes	tax	NOUN	_	_	_	_	_	_
+12	might	may	AUX	_	_	_	_	_	_
+13	discourage	discourage	VERB	_	_	_	_	_	_
+14	domestic	domestic	ADJ	_	_	_	_	_	_
+15	investment	investment	NOUN	_	_	_	_	_	_
+16	flows	flow	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_575
+# text = Reducing entrenched inequality will require sustained commitment beyond symbolic gestures announced before elections and quickly abandoned.
+1	Reducing	reduce	VERB	_	_	_	_	_	_
+2	entrenched	entrench	VERB	_	_	_	_	_	_
+3	inequality	inequality	NOUN	_	_	_	_	_	_
+4	will	will	AUX	_	_	_	_	_	_
+5	require	require	VERB	_	_	_	_	_	_
+6	sustained	sustain	VERB	_	_	_	_	_	_
+7	commitment	commitment	NOUN	_	_	_	_	_	_
+8	beyond	beyond	ADP	_	_	_	_	_	_
+9	symbolic	symbolic	ADJ	_	_	_	_	_	_
+10	gestures	gesture	NOUN	_	_	_	_	_	_
+11	announced	announce	VERB	_	_	_	_	_	_
+12	before	before	ADP	_	_	_	_	_	_
+13	elections	election	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	quickly	quickly	ADV	_	_	_	_	_	_
+16	abandoned	abandon	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_576
+# text = Workplace automation is reshaping job requirements, forcing unions and employers to negotiate retraining programs collaboratively.
+1	Workplace	workplace	NOUN	_	_	_	_	_	_
+2	automation	automation	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	reshaping	reshape	VERB	_	_	_	_	_	_
+5	job	job	NOUN	_	_	_	_	_	_
+6	requirements	requirement	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	forcing	force	VERB	_	_	_	_	_	_
+9	unions	union	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	employers	employer	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	negotiate	negotiate	VERB	_	_	_	_	_	_
+14	retraining	retraining	NOUN	_	_	_	_	_	_
+15	programs	program	NOUN	_	_	_	_	_	_
+16	collaboratively	collaboratively	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_577
+# text = Although remote work expanded flexibility, blurred boundaries increased stress for employees managing childcare and domestic duties.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	remote	remote	ADJ	_	_	_	_	_	_
+3	work	work	NOUN	_	_	_	_	_	_
+4	expanded	expand	VERB	_	_	_	_	_	_
+5	flexibility	flexibility	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	blurred	blur	VERB	_	_	_	_	_	_
+8	boundaries	boundary	NOUN	_	_	_	_	_	_
+9	increased	increase	VERB	_	_	_	_	_	_
+10	stress	stress	NOUN	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	employees	employee	NOUN	_	_	_	_	_	_
+13	managing	manage	VERB	_	_	_	_	_	_
+14	childcare	childcare	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	domestic	domestic	ADJ	_	_	_	_	_	_
+17	duties	duty	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_578
+# text = It is expected that gig economy regulations will clarify employment status for platform workers seeking labor protections.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	expected	expect	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	gig	gig	NOUN	_	_	_	_	_	_
+6	economy	economy	NOUN	_	_	_	_	_	_
+7	regulations	regulation	NOUN	_	_	_	_	_	_
+8	will	will	AUX	_	_	_	_	_	_
+9	clarify	clarify	VERB	_	_	_	_	_	_
+10	employment	employment	NOUN	_	_	_	_	_	_
+11	status	statu	NOUN	_	_	_	_	_	_
+12	for	for	ADP	_	_	_	_	_	_
+13	platform	platform	NOUN	_	_	_	_	_	_
+14	workers	worker	NOUN	_	_	_	_	_	_
+15	seeking	seek	VERB	_	_	_	_	_	_
+16	labor	labor	NOUN	_	_	_	_	_	_
+17	protections	protection	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_579
+# text = Ensuring safe warehouse conditions requires enforcing standards, not relying on corporate self reporting alone without inspections.
+1	Ensuring	ensure	VERB	_	_	_	_	_	_
+2	safe	safe	ADJ	_	_	_	_	_	_
+3	warehouse	warehouse	NOUN	_	_	_	_	_	_
+4	conditions	condition	NOUN	_	_	_	_	_	_
+5	requires	require	VERB	_	_	_	_	_	_
+6	enforcing	enforce	VERB	_	_	_	_	_	_
+7	standards	standard	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	not	not	PART	_	_	_	_	_	_
+10	relying	rely	VERB	_	_	_	_	_	_
+11	on	on	ADP	_	_	_	_	_	_
+12	corporate	corporate	ADJ	_	_	_	_	_	_
+13	self	self	NOUN	_	_	_	_	_	_
+14	reporting	reporting	NOUN	_	_	_	_	_	_
+15	alone	alone	ADV	_	_	_	_	_	_
+16	without	without	ADP	_	_	_	_	_	_
+17	inspections	inspection	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_580
+# text = Despite diversity pledges, leadership teams in major corporations still underrepresent women and minorities at senior levels.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	diversity	diversity	NOUN	_	_	_	_	_	_
+3	pledges	pledge	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	leadership	leadership	NOUN	_	_	_	_	_	_
+6	teams	team	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	major	major	ADJ	_	_	_	_	_	_
+9	corporations	corporation	NOUN	_	_	_	_	_	_
+10	still	still	ADV	_	_	_	_	_	_
+11	underrepresent	underrepresent	VERB	_	_	_	_	_	_
+12	women	woman	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	minorities	minority	NOUN	_	_	_	_	_	_
+15	at	at	ADP	_	_	_	_	_	_
+16	senior	senior	ADJ	_	_	_	_	_	_
+17	levels	level	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_581
+# text = The negotiator explained that wage indexation should protect purchasing power when inflation spikes unexpectedly during economic disruptions.
+1	The	the	DET	_	_	_	_	_	_
+2	negotiator	negotiator	NOUN	_	_	_	_	_	_
+3	explained	explain	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	wage	wage	NOUN	_	_	_	_	_	_
+6	indexation	indexation	NOUN	_	_	_	_	_	_
+7	should	should	AUX	_	_	_	_	_	_
+8	protect	protect	VERB	_	_	_	_	_	_
+9	purchasing	purchase	NOUN	_	_	_	_	_	_
+10	power	power	NOUN	_	_	_	_	_	_
+11	when	when	SCONJ	_	_	_	_	_	_
+12	inflation	inflation	NOUN	_	_	_	_	_	_
+13	spikes	spike	VERB	_	_	_	_	_	_
+14	unexpectedly	unexpectedly	ADV	_	_	_	_	_	_
+15	during	during	ADP	_	_	_	_	_	_
+16	economic	economic	ADJ	_	_	_	_	_	_
+17	disruptions	disruption	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_582
+# text = Promoting four day workweek pilots should test whether shorter hours maintain productivity while improving employee wellbeing measurably.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	four	four	NUM	_	_	_	_	_	_
+3	day	day	NOUN	_	_	_	_	_	_
+4	workweek	workweek	NOUN	_	_	_	_	_	_
+5	pilots	pilot	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	test	test	VERB	_	_	_	_	_	_
+8	whether	whether	SCONJ	_	_	_	_	_	_
+9	shorter	short	ADJ	_	_	_	_	_	_
+10	hours	hour	NOUN	_	_	_	_	_	_
+11	maintain	maintain	VERB	_	_	_	_	_	_
+12	productivity	productivity	NOUN	_	_	_	_	_	_
+13	while	while	SCONJ	_	_	_	_	_	_
+14	improving	improve	VERB	_	_	_	_	_	_
+15	employee	employee	NOUN	_	_	_	_	_	_
+16	wellbeing	wellbeing	NOUN	_	_	_	_	_	_
+17	measurably	measurably	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_583
+# text = If whistleblower protections were strengthened, workers might report safety violations without fear of retaliation from management.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	whistleblower	whistleblower	NOUN	_	_	_	_	_	_
+3	protections	protection	NOUN	_	_	_	_	_	_
+4	were	be	AUX	_	_	_	_	_	_
+5	strengthened	strengthen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	workers	worker	NOUN	_	_	_	_	_	_
+8	might	may	AUX	_	_	_	_	_	_
+9	report	report	VERB	_	_	_	_	_	_
+10	safety	safety	NOUN	_	_	_	_	_	_
+11	violations	violation	NOUN	_	_	_	_	_	_
+12	without	without	ADP	_	_	_	_	_	_
+13	fear	fear	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	retaliation	retaliation	NOUN	_	_	_	_	_	_
+16	from	from	ADP	_	_	_	_	_	_
+17	management	management	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_584
+# text = Although strikes were averted, unresolved disputes over automation threaten trust between labor unions and employers.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	strikes	strike	NOUN	_	_	_	_	_	_
+3	were	be	AUX	_	_	_	_	_	_
+4	averted	avert	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	unresolved	unresolved	ADJ	_	_	_	_	_	_
+7	disputes	dispute	NOUN	_	_	_	_	_	_
+8	over	over	ADP	_	_	_	_	_	_
+9	automation	automation	NOUN	_	_	_	_	_	_
+10	threaten	threaten	VERB	_	_	_	_	_	_
+11	trust	trust	NOUN	_	_	_	_	_	_
+12	between	between	ADP	_	_	_	_	_	_
+13	labor	labor	NOUN	_	_	_	_	_	_
+14	unions	union	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	employers	employer	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_585
+# text = It is feared that algorithmic scheduling could intensify precarity for retail workers whose hours fluctuate without notice.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	feared	fear	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	algorithmic	algorithmic	ADJ	_	_	_	_	_	_
+6	scheduling	scheduling	NOUN	_	_	_	_	_	_
+7	could	can	AUX	_	_	_	_	_	_
+8	intensify	intensify	VERB	_	_	_	_	_	_
+9	precarity	precarity	NOUN	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	retail	retail	NOUN	_	_	_	_	_	_
+12	workers	worker	NOUN	_	_	_	_	_	_
+13	whose	whose	DET	_	_	_	_	_	_
+14	hours	hour	NOUN	_	_	_	_	_	_
+15	fluctuate	fluctuate	VERB	_	_	_	_	_	_
+16	without	without	ADP	_	_	_	_	_	_
+17	notice	notice	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_586
+# text = Sectoral bargaining agreements are regarded as effective tools for setting fair wages across industries with many firms.
+1	Sectoral	sectoral	ADJ	_	_	_	_	_	_
+2	bargaining	bargain	NOUN	_	_	_	_	_	_
+3	agreements	agreement	NOUN	_	_	_	_	_	_
+4	are	be	AUX	_	_	_	_	_	_
+5	regarded	regard	VERB	_	_	_	_	_	_
+6	as	as	SCONJ	_	_	_	_	_	_
+7	effective	effective	ADJ	_	_	_	_	_	_
+8	tools	tool	NOUN	_	_	_	_	_	_
+9	for	for	ADP	_	_	_	_	_	_
+10	setting	set	VERB	_	_	_	_	_	_
+11	fair	fair	ADJ	_	_	_	_	_	_
+12	wages	wage	NOUN	_	_	_	_	_	_
+13	across	across	ADP	_	_	_	_	_	_
+14	industries	industry	NOUN	_	_	_	_	_	_
+15	with	with	ADP	_	_	_	_	_	_
+16	many	many	ADJ	_	_	_	_	_	_
+17	firms	firm	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_587
+# text = Had parental leave been equalized earlier, career penalties for mothers in professional roles would have diminished.
+1	Had	have	AUX	_	_	_	_	_	_
+2	parental	parental	ADJ	_	_	_	_	_	_
+3	leave	leave	NOUN	_	_	_	_	_	_
+4	been	be	AUX	_	_	_	_	_	_
+5	equalized	equalize	VERB	_	_	_	_	_	_
+6	earlier	early	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	career	career	NOUN	_	_	_	_	_	_
+9	penalties	penalty	NOUN	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	mothers	mother	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	professional	professional	ADJ	_	_	_	_	_	_
+14	roles	role	NOUN	_	_	_	_	_	_
+15	would	will	AUX	_	_	_	_	_	_
+16	have	have	AUX	_	_	_	_	_	_
+17	diminished	diminish	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_588
+# text = The survey documents how burnout spreads when organizations reward overwork while understaffing teams during high demand.
+1	The	the	DET	_	_	_	_	_	_
+2	survey	survey	NOUN	_	_	_	_	_	_
+3	documents	document	NOUN	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	burnout	burnout	NOUN	_	_	_	_	_	_
+6	spreads	spread	VERB	_	_	_	_	_	_
+7	when	when	SCONJ	_	_	_	_	_	_
+8	organizations	organization	NOUN	_	_	_	_	_	_
+9	reward	reward	VERB	_	_	_	_	_	_
+10	overwork	overwork	NOUN	_	_	_	_	_	_
+11	while	while	SCONJ	_	_	_	_	_	_
+12	understaffing	understaff	VERB	_	_	_	_	_	_
+13	teams	team	NOUN	_	_	_	_	_	_
+14	during	during	ADP	_	_	_	_	_	_
+15	high	high	ADJ	_	_	_	_	_	_
+16	demand	demand	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_589
+# text = Guaranteeing the right to organize should remain fundamental when companies threaten relocation to weaker labor jurisdictions.
+1	Guaranteeing	guaranteee	VERB	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	right	right	NOUN	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	organize	organize	VERB	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	remain	remain	VERB	_	_	_	_	_	_
+8	fundamental	fundamental	ADJ	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	companies	company	NOUN	_	_	_	_	_	_
+11	threaten	threaten	VERB	_	_	_	_	_	_
+12	relocation	relocation	NOUN	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	weaker	weak	ADJ	_	_	_	_	_	_
+15	labor	labor	NOUN	_	_	_	_	_	_
+16	jurisdictions	jurisdiction	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_590
+# text = Although training budgets grew, older workers in declining industries receive too little support for new jobs.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	training	training	NOUN	_	_	_	_	_	_
+3	budgets	budget	NOUN	_	_	_	_	_	_
+4	grew	grow	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	older	old	ADJ	_	_	_	_	_	_
+7	workers	worker	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	declining	decline	VERB	_	_	_	_	_	_
+10	industries	industry	NOUN	_	_	_	_	_	_
+11	receive	receive	VERB	_	_	_	_	_	_
+12	too	too	ADV	_	_	_	_	_	_
+13	little	little	ADJ	_	_	_	_	_	_
+14	support	support	NOUN	_	_	_	_	_	_
+15	for	for	ADP	_	_	_	_	_	_
+16	new	new	ADJ	_	_	_	_	_	_
+17	jobs	job	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_591
+# text = The difficulty lies not in recognizing shortages but coordinating education providers with regional employers seeking apprentices.
+1	The	the	DET	_	_	_	_	_	_
+2	difficulty	difficulty	NOUN	_	_	_	_	_	_
+3	lies	lie	VERB	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	recognizing	recognize	VERB	_	_	_	_	_	_
+7	shortages	shortage	NOUN	_	_	_	_	_	_
+8	but	but	CCONJ	_	_	_	_	_	_
+9	coordinating	coordinate	VERB	_	_	_	_	_	_
+10	education	education	NOUN	_	_	_	_	_	_
+11	providers	provider	NOUN	_	_	_	_	_	_
+12	with	with	ADP	_	_	_	_	_	_
+13	regional	regional	ADJ	_	_	_	_	_	_
+14	employers	employer	NOUN	_	_	_	_	_	_
+15	seeking	seek	VERB	_	_	_	_	_	_
+16	apprentices	apprentice	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_592
+# text = Expanding paid sick leave should reduce contagion and protect low wage employees unable to afford unpaid absence.
+1	Expanding	expand	VERB	_	_	_	_	_	_
+2	paid	pay	VERB	_	_	_	_	_	_
+3	sick	sick	ADJ	_	_	_	_	_	_
+4	leave	leave	NOUN	_	_	_	_	_	_
+5	should	should	AUX	_	_	_	_	_	_
+6	reduce	reduce	VERB	_	_	_	_	_	_
+7	contagion	contagion	NOUN	_	_	_	_	_	_
+8	and	and	CCONJ	_	_	_	_	_	_
+9	protect	protect	VERB	_	_	_	_	_	_
+10	low	low	ADJ	_	_	_	_	_	_
+11	wage	wage	NOUN	_	_	_	_	_	_
+12	employees	employee	NOUN	_	_	_	_	_	_
+13	unable	unable	ADJ	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	afford	afford	VERB	_	_	_	_	_	_
+16	unpaid	unpaid	ADJ	_	_	_	_	_	_
+17	absence	absence	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_593
+# text = The chair emphasized that layoffs should be last resort after exploring reduced hours and internal redeployment first.
+1	The	the	DET	_	_	_	_	_	_
+2	chair	chair	NOUN	_	_	_	_	_	_
+3	emphasized	emphasize	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	layoffs	layoff	NOUN	_	_	_	_	_	_
+6	should	should	AUX	_	_	_	_	_	_
+7	be	be	AUX	_	_	_	_	_	_
+8	last	last	ADJ	_	_	_	_	_	_
+9	resort	resort	NOUN	_	_	_	_	_	_
+10	after	after	SCONJ	_	_	_	_	_	_
+11	exploring	explore	VERB	_	_	_	_	_	_
+12	reduced	reduce	VERB	_	_	_	_	_	_
+13	hours	hour	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	internal	internal	ADJ	_	_	_	_	_	_
+16	redeployment	redeployment	NOUN	_	_	_	_	_	_
+17	first	first	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_594
+# text = Developing portable pension schemes is debated as workers change employers more frequently across fragmented labor markets today.
+1	Developing	develop	VERB	_	_	_	_	_	_
+2	portable	portable	ADJ	_	_	_	_	_	_
+3	pension	pension	NOUN	_	_	_	_	_	_
+4	schemes	scheme	NOUN	_	_	_	_	_	_
+5	is	be	AUX	_	_	_	_	_	_
+6	debated	debate	VERB	_	_	_	_	_	_
+7	as	as	SCONJ	_	_	_	_	_	_
+8	workers	worker	NOUN	_	_	_	_	_	_
+9	change	change	VERB	_	_	_	_	_	_
+10	employers	employer	NOUN	_	_	_	_	_	_
+11	more	more	ADV	_	_	_	_	_	_
+12	frequently	frequently	ADV	_	_	_	_	_	_
+13	across	across	ADP	_	_	_	_	_	_
+14	fragmented	fragment	VERB	_	_	_	_	_	_
+15	labor	labor	NOUN	_	_	_	_	_	_
+16	markets	market	NOUN	_	_	_	_	_	_
+17	today	today	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_595
+# text = It is recommended that harassment reporting channels be independent from hierarchies that might discourage victims from reporting.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	recommended	recommend	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	harassment	harassment	NOUN	_	_	_	_	_	_
+6	reporting	reporting	NOUN	_	_	_	_	_	_
+7	channels	channel	NOUN	_	_	_	_	_	_
+8	be	be	AUX	_	_	_	_	_	_
+9	independent	independent	ADJ	_	_	_	_	_	_
+10	from	from	ADP	_	_	_	_	_	_
+11	hierarchies	hierarchy	NOUN	_	_	_	_	_	_
+12	that	that	SCONJ	_	_	_	_	_	_
+13	might	may	AUX	_	_	_	_	_	_
+14	discourage	discourage	VERB	_	_	_	_	_	_
+15	victims	victim	NOUN	_	_	_	_	_	_
+16	from	from	ADP	_	_	_	_	_	_
+17	reporting	report	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_596
+# text = Although productivity rose, wage shares declined as firms channeled profits toward shareholders rather than workforce compensation.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	productivity	productivity	NOUN	_	_	_	_	_	_
+3	rose	rise	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wage	wage	NOUN	_	_	_	_	_	_
+6	shares	share	NOUN	_	_	_	_	_	_
+7	declined	decline	VERB	_	_	_	_	_	_
+8	as	as	SCONJ	_	_	_	_	_	_
+9	firms	firm	NOUN	_	_	_	_	_	_
+10	channeled	channel	VERB	_	_	_	_	_	_
+11	profits	profit	NOUN	_	_	_	_	_	_
+12	toward	toward	ADP	_	_	_	_	_	_
+13	shareholders	shareholder	NOUN	_	_	_	_	_	_
+14	rather	rather	ADV	_	_	_	_	_	_
+15	than	than	SCONJ	_	_	_	_	_	_
+16	workforce	workforce	NOUN	_	_	_	_	_	_
+17	compensation	compensation	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_597
+# text = Strengthening inspection capacity should expose subcontracting chains that hide labor abuses in global manufacturing and logistics networks.
+1	Strengthening	strengthen	VERB	_	_	_	_	_	_
+2	inspection	inspection	NOUN	_	_	_	_	_	_
+3	capacity	capacity	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	expose	expose	VERB	_	_	_	_	_	_
+6	subcontracting	subcontracting	NOUN	_	_	_	_	_	_
+7	chains	chain	NOUN	_	_	_	_	_	_
+8	that	that	SCONJ	_	_	_	_	_	_
+9	hide	hide	VERB	_	_	_	_	_	_
+10	labor	labor	NOUN	_	_	_	_	_	_
+11	abuses	abuse	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	global	global	ADJ	_	_	_	_	_	_
+14	manufacturing	manufacturing	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	logistics	logistic	NOUN	_	_	_	_	_	_
+17	networks	network	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_598
+# text = Promoting ergonomic design should prevent chronic injuries among employees performing repetitive tasks in factories and service settings.
+1	Promoting	promot	VERB	_	_	_	_	_	_
+2	ergonomic	ergonomic	ADJ	_	_	_	_	_	_
+3	design	design	NOUN	_	_	_	_	_	_
+4	should	should	AUX	_	_	_	_	_	_
+5	prevent	prevent	VERB	_	_	_	_	_	_
+6	chronic	chronic	ADJ	_	_	_	_	_	_
+7	injuries	injury	NOUN	_	_	_	_	_	_
+8	among	among	ADP	_	_	_	_	_	_
+9	employees	employee	NOUN	_	_	_	_	_	_
+10	performing	perform	VERB	_	_	_	_	_	_
+11	repetitive	repetitive	ADJ	_	_	_	_	_	_
+12	tasks	task	NOUN	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	factories	factory	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	service	service	NOUN	_	_	_	_	_	_
+17	settings	setting	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_599
+# text = Balancing flexibility and security remains contentious as freelancers demand benefits traditionally tied to permanent employment contracts nationwide.
+1	Balancing	balance	VERB	_	_	_	_	_	_
+2	flexibility	flexibility	NOUN	_	_	_	_	_	_
+3	and	and	CCONJ	_	_	_	_	_	_
+4	security	security	NOUN	_	_	_	_	_	_
+5	remains	remain	VERB	_	_	_	_	_	_
+6	contentious	contentious	ADJ	_	_	_	_	_	_
+7	as	as	SCONJ	_	_	_	_	_	_
+8	freelancers	freelancer	NOUN	_	_	_	_	_	_
+9	demand	demand	VERB	_	_	_	_	_	_
+10	benefits	benefit	NOUN	_	_	_	_	_	_
+11	traditionally	traditionally	ADV	_	_	_	_	_	_
+12	tied	tie	VERB	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	permanent	permanent	ADJ	_	_	_	_	_	_
+15	employment	employment	NOUN	_	_	_	_	_	_
+16	contracts	contract	NOUN	_	_	_	_	_	_
+17	nationwide	nationwide	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_b2_train_600
+# text = Building fair labor markets will require updating institutions designed for industrial workplaces of the previous century.
+1	Building	build	VERB	_	_	_	_	_	_
+2	fair	fair	ADJ	_	_	_	_	_	_
+3	labor	labor	NOUN	_	_	_	_	_	_
+4	markets	market	NOUN	_	_	_	_	_	_
+5	will	will	AUX	_	_	_	_	_	_
+6	require	require	VERB	_	_	_	_	_	_
+7	updating	update	VERB	_	_	_	_	_	_
+8	institutions	institution	NOUN	_	_	_	_	_	_
+9	designed	design	VERB	_	_	_	_	_	_
+10	for	for	ADP	_	_	_	_	_	_
+11	industrial	industrial	ADJ	_	_	_	_	_	_
+12	workplaces	workplace	NOUN	_	_	_	_	_	_
+13	of	of	ADP	_	_	_	_	_	_
+14	the	the	DET	_	_	_	_	_	_
+15	previous	previous	ADJ	_	_	_	_	_	_
+16	century	century	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+

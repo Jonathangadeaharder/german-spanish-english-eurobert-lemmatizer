@@ -1,0 +1,2076 @@
+# sent_id = nl_c1_val_001
+# text = Het is raadzaam om je wachtwoorden regelmatig te veranderen, wanneer je van plan bent een huis te kopen.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	raadzaam	raadzaam	ADJ	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	wachtwoorden	wacht_woord	NOUN	_	_	_	_	_	_
+7	regelmatig	regelmatig	ADJ	_	_	_	_	_	_
+8	te	te	ADP	_	_	_	_	_	_
+9	veranderen	veranderen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	wanneer	wanneer	SCONJ	_	_	_	_	_	_
+12	je	je	PRON	_	_	_	_	_	_
+13	van	van	ADP	_	_	_	_	_	_
+14	plan	plan	NOUN	_	_	_	_	_	_
+15	bent	zijn	AUX	_	_	_	_	_	_
+16	een	een	DET	_	_	_	_	_	_
+17	huis	huis	NOUN	_	_	_	_	_	_
+18	te	te	ADP	_	_	_	_	_	_
+19	kopen	kopen	VERB	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_002
+# text = Hoewel deze technologische innovatie veel voordelen met zich meebrengt, kiezen velen ervoor om thuis te blijven wonen.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	deze	deze	DET	_	_	_	_	_	_
+3	technologische	technologisch	ADJ	_	_	_	_	_	_
+4	innovatie	innovatie	NOUN	_	_	_	_	_	_
+5	veel	veel	DET	_	_	_	_	_	_
+6	voordelen	voordeel	NOUN	_	_	_	_	_	_
+7	met	met	ADP	_	_	_	_	_	_
+8	zich	zich	PRON	_	_	_	_	_	_
+9	meebrengt	mee_brengen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	kiezen	kiezen	VERB	_	_	_	_	_	_
+12	velen	veel	PRON	_	_	_	_	_	_
+13	ervoor	ervoor	ADV	_	_	_	_	_	_
+14	om	om	ADP	_	_	_	_	_	_
+15	thuis	thuis	ADV	_	_	_	_	_	_
+16	te	te	ADP	_	_	_	_	_	_
+17	blijven	blijven	VERB	_	_	_	_	_	_
+18	wonen	wonen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_003
+# text = Aangezien de kloof tussen arm en rijk steeds groter wordt, is de aanleg van extra fietspaden noodzakelijk.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	kloof	kloof	NOUN	_	_	_	_	_	_
+4	tussen	tussen	ADP	_	_	_	_	_	_
+5	arm	arm	NOUN	_	_	_	_	_	_
+6	en	en	CCONJ	_	_	_	_	_	_
+7	rijk	rijk	NOUN	_	_	_	_	_	_
+8	steeds	steeds	ADV	_	_	_	_	_	_
+9	groter	groot	ADJ	_	_	_	_	_	_
+10	wordt	worden	VERB	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	is	zijn	AUX	_	_	_	_	_	_
+13	de	de	DET	_	_	_	_	_	_
+14	aanleg	aanleg	NOUN	_	_	_	_	_	_
+15	van	van	ADP	_	_	_	_	_	_
+16	extra	extra	ADJ	_	_	_	_	_	_
+17	fietspaden	fietspaad	NOUN	_	_	_	_	_	_
+18	noodzakelijk	noodzakelijk	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_004
+# text = Ondanks de snelle veranderingen binnen de mediasector, gaat de bouw van het cultuurcentrum gewoon door.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	snelle	snel	ADJ	_	_	_	_	_	_
+4	veranderingen	verandering	NOUN	_	_	_	_	_	_
+5	binnen	binnen	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	mediasector	mediasector	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	gaat	gaan	VERB	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	bouw	bouw	NOUN	_	_	_	_	_	_
+12	van	van	ADP	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	cultuurcentrum	cultuur_centrum	NOUN	_	_	_	_	_	_
+15	gewoon	gewoon	ADJ	_	_	_	_	_	_
+16	door	door	ADP	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_005
+# text = Aangezien de technologie zich in een snel tempo ontwikkelt, heeft het kabinet extra budget hiervoor vrijgemaakt.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	technologie	technologie	NOUN	_	_	_	_	_	_
+4	zich	zich	PRON	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	een	een	DET	_	_	_	_	_	_
+7	snel	snel	ADJ	_	_	_	_	_	_
+8	tempo	tempo	NOUN	_	_	_	_	_	_
+9	ontwikkelt	ontwikkelen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	heeft	hebben	AUX	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	kabinet	kabinet	NOUN	_	_	_	_	_	_
+14	extra	extra	ADJ	_	_	_	_	_	_
+15	budget	budget	NOUN	_	_	_	_	_	_
+16	hiervoor	hiervoor	ADV	_	_	_	_	_	_
+17	vrijgemaakt	vrij_maken	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_006
+# text = Het is raadzaam om de kleine lettertjes goed te lezen, wanneer je computer kuren begint te vertonen.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	raadzaam	raadzaam	ADJ	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	kleine	klein	ADJ	_	_	_	_	_	_
+7	lettertjes	letter	NOUN	_	_	_	_	_	_
+8	goed	goed	ADJ	_	_	_	_	_	_
+9	te	te	ADP	_	_	_	_	_	_
+10	lezen	lezen	VERB	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	wanneer	wanneer	SCONJ	_	_	_	_	_	_
+13	je	je	PRON	_	_	_	_	_	_
+14	computer	computer	NOUN	_	_	_	_	_	_
+15	kuren	kuur	NOUN	_	_	_	_	_	_
+16	begint	beginnen	VERB	_	_	_	_	_	_
+17	te	te	ADP	_	_	_	_	_	_
+18	vertonen	vertonen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_007
+# text = Ondanks de hoge kosten van biologische producten, weten bedrijven toch geschikt personeel te vinden.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	hoge	hoog	ADJ	_	_	_	_	_	_
+4	kosten	kost	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	biologische	biologisch	ADJ	_	_	_	_	_	_
+7	producten	product	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	weten	weten	VERB	_	_	_	_	_	_
+10	bedrijven	bedrijf	NOUN	_	_	_	_	_	_
+11	toch	toch	ADV	_	_	_	_	_	_
+12	geschikt	geschikt	ADJ	_	_	_	_	_	_
+13	personeel	personeel	NOUN	_	_	_	_	_	_
+14	te	te	ADP	_	_	_	_	_	_
+15	vinden	vinden	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_008
+# text = Ondanks de aanhoudende kritiek van de oppositiepartijen, hebben zich dit jaar veel studenten aangemeld.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	aanhoudende	aan_houden	VERB	_	_	_	_	_	_
+4	kritiek	kritiek	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	oppositiepartijen	oppositie_partij	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	hebben	hebben	AUX	_	_	_	_	_	_
+10	zich	zich	PRON	_	_	_	_	_	_
+11	dit	dit	DET	_	_	_	_	_	_
+12	jaar	jaar	NOUN	_	_	_	_	_	_
+13	veel	veel	DET	_	_	_	_	_	_
+14	studenten	student	NOUN	_	_	_	_	_	_
+15	aangemeld	aan_melden	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_009
+# text = Hoewel veel consumenten kiezen voor goedkopere alternatieven in de winkel, is het aanbod in supermarkten nog vrij beperkt.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	veel	veel	DET	_	_	_	_	_	_
+3	consumenten	consument	NOUN	_	_	_	_	_	_
+4	kiezen	kiezen	VERB	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	goedkopere	goedkoop	ADJ	_	_	_	_	_	_
+7	alternatieven	alternatief	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	winkel	winkel	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	is	zijn	AUX	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	aanbod	aanbod	NOUN	_	_	_	_	_	_
+15	in	in	ADP	_	_	_	_	_	_
+16	supermarkten	supermarkt	NOUN	_	_	_	_	_	_
+17	nog	nog	ADV	_	_	_	_	_	_
+18	vrij	vrij	ADJ	_	_	_	_	_	_
+19	beperkt	beperken	VERB	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_010
+# text = Aangezien de vergrijzing de komende jaren sterk zal toenemen, pleiten deskundigen voor een grondige hervorming ervan.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	vergrijzing	vergrijzing	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	komende	komen	VERB	_	_	_	_	_	_
+6	jaren	jaar	NOUN	_	_	_	_	_	_
+7	sterk	sterk	ADJ	_	_	_	_	_	_
+8	zal	zullen	AUX	_	_	_	_	_	_
+9	toenemen	toe_nemen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	pleiten	pleiten	VERB	_	_	_	_	_	_
+12	deskundigen	deskundig	ADJ	_	_	_	_	_	_
+13	voor	voor	ADP	_	_	_	_	_	_
+14	een	een	DET	_	_	_	_	_	_
+15	grondige	grondig	ADJ	_	_	_	_	_	_
+16	hervorming	hervorming	NOUN	_	_	_	_	_	_
+17	ervan	ervan	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_011
+# text = Hoewel de bibliotheek minder subsidie van de gemeente krijgt, waarschuwen economen voor te veel optimisme.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	bibliotheek	bibliotheek	NOUN	_	_	_	_	_	_
+4	minder	weinig	DET	_	_	_	_	_	_
+5	subsidie	subsidie	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	gemeente	gemeente	NOUN	_	_	_	_	_	_
+9	krijgt	krijgen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	waarschuwen	waarschuwen	VERB	_	_	_	_	_	_
+12	economen	econoom	NOUN	_	_	_	_	_	_
+13	voor	voor	ADP	_	_	_	_	_	_
+14	te	te	DET	_	_	_	_	_	_
+15	veel	veel	DET	_	_	_	_	_	_
+16	optimisme	optimisme	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_012
+# text = Hoewel de overheid de subsidies voor zonnepanelen heeft verlaagd, is het aanbod in supermarkten nog vrij beperkt.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	overheid	overheid	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	subsidies	subsidie	NOUN	_	_	_	_	_	_
+6	voor	voor	ADP	_	_	_	_	_	_
+7	zonnepanelen	zonnepaneel	NOUN	_	_	_	_	_	_
+8	heeft	hebben	AUX	_	_	_	_	_	_
+9	verlaagd	verlagen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	aanbod	aanbod	NOUN	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	supermarkten	supermarkt	NOUN	_	_	_	_	_	_
+16	nog	nog	ADV	_	_	_	_	_	_
+17	vrij	vrij	ADJ	_	_	_	_	_	_
+18	beperkt	beperken	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_013
+# text = Hoewel de overheid de subsidies voor zonnepanelen heeft verlaagd, blijft de biologische sector zich positief ontwikkelen.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	overheid	overheid	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	subsidies	subsidie	NOUN	_	_	_	_	_	_
+6	voor	voor	ADP	_	_	_	_	_	_
+7	zonnepanelen	zonnepaneel	NOUN	_	_	_	_	_	_
+8	heeft	hebben	AUX	_	_	_	_	_	_
+9	verlaagd	verlagen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijft	blijven	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	biologische	biologisch	ADJ	_	_	_	_	_	_
+14	sector	sector	NOUN	_	_	_	_	_	_
+15	zich	zich	PRON	_	_	_	_	_	_
+16	positief	positief	ADJ	_	_	_	_	_	_
+17	ontwikkelen	ontwikkelen	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_014
+# text = Om de werkgelegenheid in deze regio te stimuleren, is het belangrijk dat we blijven investeren in wetenschappelijk onderzoek.
+1	Om	om	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	werkgelegenheid	werkgelegenheid	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	deze	deze	DET	_	_	_	_	_	_
+6	regio	regio	NOUN	_	_	_	_	_	_
+7	te	te	ADP	_	_	_	_	_	_
+8	stimuleren	stimuleren	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	is	zijn	AUX	_	_	_	_	_	_
+11	het	het	PRON	_	_	_	_	_	_
+12	belangrijk	belangrijk	ADJ	_	_	_	_	_	_
+13	dat	dat	SCONJ	_	_	_	_	_	_
+14	we	we	PRON	_	_	_	_	_	_
+15	blijven	blijven	VERB	_	_	_	_	_	_
+16	investeren	investeren	VERB	_	_	_	_	_	_
+17	in	in	ADP	_	_	_	_	_	_
+18	wetenschappelijk	wetenschappelijk	ADJ	_	_	_	_	_	_
+19	onderzoek	onderzoek	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_015
+# text = Ondanks de waarschuwingen van gerenommeerde wetenschappers, wil de regering de grenzen openhouden voor handel.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	waarschuwingen	waarschuwing	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	gerenommeerde	gerenommeren	VERB	_	_	_	_	_	_
+6	wetenschappers	wetenschapper	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wil	willen	VERB	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	regering	regering	NOUN	_	_	_	_	_	_
+11	de	de	DET	_	_	_	_	_	_
+12	grenzen	grens	NOUN	_	_	_	_	_	_
+13	openhouden	open_houden	VERB	_	_	_	_	_	_
+14	voor	voor	ADP	_	_	_	_	_	_
+15	handel	handel	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_016
+# text = Ondanks de strenge selectieprocedure voor deze masteropleiding, is de verkoop van tickets succesvol verlopen.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	strenge	streng	ADJ	_	_	_	_	_	_
+4	selectieprocedure	selectie_procedure	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	deze	deze	DET	_	_	_	_	_	_
+7	masteropleiding	master_opleiding	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	verkoop	verkoop	NOUN	_	_	_	_	_	_
+12	van	van	ADP	_	_	_	_	_	_
+13	tickets	ticket	NOUN	_	_	_	_	_	_
+14	succesvol	succesvol	ADJ	_	_	_	_	_	_
+15	verlopen	verlopen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_017
+# text = Ondanks de felle tegenstand van de lokale bewoners, was de sfeer onder de bezoekers uitstekend.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	felle	fel	ADJ	_	_	_	_	_	_
+4	tegenstand	tegenstand	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	lokale	lokaal	ADJ	_	_	_	_	_	_
+8	bewoners	bewoner	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	was	zijn	AUX	_	_	_	_	_	_
+11	de	de	DET	_	_	_	_	_	_
+12	sfeer	sfeer	NOUN	_	_	_	_	_	_
+13	onder	onder	ADP	_	_	_	_	_	_
+14	de	de	DET	_	_	_	_	_	_
+15	bezoekers	bezoeker	NOUN	_	_	_	_	_	_
+16	uitstekend	uitstekend	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_018
+# text = Aangezien de transitie naar duurzame energie erg kostbaar is, moeten alle landen nu samen de uitstoot verminderen.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	transitie	transitie	NOUN	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	duurzame	duurzaam	ADJ	_	_	_	_	_	_
+6	energie	energie	NOUN	_	_	_	_	_	_
+7	erg	erg	ADJ	_	_	_	_	_	_
+8	kostbaar	kostbaar	ADJ	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	alle	al	DET	_	_	_	_	_	_
+13	landen	land	NOUN	_	_	_	_	_	_
+14	nu	nu	ADV	_	_	_	_	_	_
+15	samen	samen	ADV	_	_	_	_	_	_
+16	de	de	DET	_	_	_	_	_	_
+17	uitstoot	uitstoot	NOUN	_	_	_	_	_	_
+18	verminderen	verminderen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_019
+# text = Ondanks de hoge kosten van biologische producten, blijven kranten een belangrijke bron van nieuws.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	hoge	hoog	ADJ	_	_	_	_	_	_
+4	kosten	kost	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	biologische	biologisch	ADJ	_	_	_	_	_	_
+7	producten	product	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	blijven	blijven	VERB	_	_	_	_	_	_
+10	kranten	krant	NOUN	_	_	_	_	_	_
+11	een	een	DET	_	_	_	_	_	_
+12	belangrijke	belangrijk	ADJ	_	_	_	_	_	_
+13	bron	bron	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	nieuws	nieuws	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_020
+# text = Hoewel er veel kritiek is op de nieuwe verkeersregels, blijft de vraag naar zonne-energie onverminderd groot.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	er	er	ADV	_	_	_	_	_	_
+3	veel	veel	DET	_	_	_	_	_	_
+4	kritiek	kritiek	NOUN	_	_	_	_	_	_
+5	is	zijn	AUX	_	_	_	_	_	_
+6	op	op	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+9	verkeersregels	verkeer_regel	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijft	blijven	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	vraag	vraag	NOUN	_	_	_	_	_	_
+14	naar	naar	ADP	_	_	_	_	_	_
+15	zonne-energie	zonne_energie	NOUN	_	_	_	_	_	_
+16	onverminderd	on_verminderen	VERB	_	_	_	_	_	_
+17	groot	groot	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_021
+# text = Ondanks de strenge selectieprocedure voor deze masteropleiding, blijven kranten een belangrijke bron van nieuws.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	strenge	streng	ADJ	_	_	_	_	_	_
+4	selectieprocedure	selectie_procedure	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	deze	deze	DET	_	_	_	_	_	_
+7	masteropleiding	master_opleiding	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	blijven	blijven	VERB	_	_	_	_	_	_
+10	kranten	krant	NOUN	_	_	_	_	_	_
+11	een	een	DET	_	_	_	_	_	_
+12	belangrijke	belangrijk	ADJ	_	_	_	_	_	_
+13	bron	bron	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	nieuws	nieuws	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_022
+# text = Aangezien de vergrijzing de komende jaren sterk zal toenemen, moeten we het gebruik van pesticiden verbieden.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	vergrijzing	vergrijzing	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	komende	komen	VERB	_	_	_	_	_	_
+6	jaren	jaar	NOUN	_	_	_	_	_	_
+7	sterk	sterk	ADJ	_	_	_	_	_	_
+8	zal	zullen	AUX	_	_	_	_	_	_
+9	toenemen	toe_nemen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	gebruik	gebruik	NOUN	_	_	_	_	_	_
+15	van	van	ADP	_	_	_	_	_	_
+16	pesticiden	pesticide	NOUN	_	_	_	_	_	_
+17	verbieden	verbieden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_023
+# text = Hoewel de economische prognoses voor komend jaar gunstig lijken, blijven consumenten kritisch kijken naar hun dagelijkse uitgaven.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	economische	economisch	ADJ	_	_	_	_	_	_
+4	prognoses	prognose	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	komend	komen	VERB	_	_	_	_	_	_
+7	jaar	jaar	NOUN	_	_	_	_	_	_
+8	gunstig	gunstig	ADJ	_	_	_	_	_	_
+9	lijken	lijken	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijven	blijven	VERB	_	_	_	_	_	_
+12	consumenten	consument	NOUN	_	_	_	_	_	_
+13	kritisch	kritisch	ADJ	_	_	_	_	_	_
+14	kijken	kijken	VERB	_	_	_	_	_	_
+15	naar	naar	ADP	_	_	_	_	_	_
+16	hun	hun	PRON	_	_	_	_	_	_
+17	dagelijkse	dagelijks	ADJ	_	_	_	_	_	_
+18	uitgaven	uitgave	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_024
+# text = Ondanks de complexiteit van het nieuwe belastingsysteem, wil de regering de grenzen openhouden voor handel.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	complexiteit	complexiteit	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+7	belastingsysteem	belasting_systeem	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	wil	willen	VERB	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	regering	regering	NOUN	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	grenzen	grens	NOUN	_	_	_	_	_	_
+14	openhouden	open_houden	VERB	_	_	_	_	_	_
+15	voor	voor	ADP	_	_	_	_	_	_
+16	handel	handel	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_025
+# text = Aangezien het onderwijssysteem niet meer aan de eisen voldoet, pleiten deskundigen voor een grondige hervorming ervan.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	onderwijssysteem	onderwijs_systeem	NOUN	_	_	_	_	_	_
+4	niet	niet	ADV	_	_	_	_	_	_
+5	meer	veel	ADV	_	_	_	_	_	_
+6	aan	aan	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	eisen	eis	NOUN	_	_	_	_	_	_
+9	voldoet	voldoeten	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	pleiten	pleiten	VERB	_	_	_	_	_	_
+12	deskundigen	deskundig	ADJ	_	_	_	_	_	_
+13	voor	voor	ADP	_	_	_	_	_	_
+14	een	een	DET	_	_	_	_	_	_
+15	grondige	grondig	ADJ	_	_	_	_	_	_
+16	hervorming	hervorming	NOUN	_	_	_	_	_	_
+17	ervan	ervan	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_026
+# text = Om de leesvaardigheid van kinderen structureel te verbeteren, is het belangrijk dat we blijven investeren in wetenschappelijk onderzoek.
+1	Om	om	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	leesvaardigheid	leesvaardigheid	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	kinderen	kind	NOUN	_	_	_	_	_	_
+6	structureel	structureel	ADJ	_	_	_	_	_	_
+7	te	te	ADP	_	_	_	_	_	_
+8	verbeteren	verbeteren	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	is	zijn	AUX	_	_	_	_	_	_
+11	het	het	PRON	_	_	_	_	_	_
+12	belangrijk	belangrijk	ADJ	_	_	_	_	_	_
+13	dat	dat	SCONJ	_	_	_	_	_	_
+14	we	we	PRON	_	_	_	_	_	_
+15	blijven	blijven	VERB	_	_	_	_	_	_
+16	investeren	investeren	VERB	_	_	_	_	_	_
+17	in	in	ADP	_	_	_	_	_	_
+18	wetenschappelijk	wetenschappelijk	ADJ	_	_	_	_	_	_
+19	onderzoek	onderzoek	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_027
+# text = Aangezien de biodiversiteit in onze bossen ernstig achteruitgaat, moeten we strengere wetgeving omtrent databescherming invoeren.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	biodiversiteit	biodiversiteit	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	onze	ons	PRON	_	_	_	_	_	_
+6	bossen	bos	NOUN	_	_	_	_	_	_
+7	ernstig	ernstig	ADJ	_	_	_	_	_	_
+8	achteruitgaat	achteruit_gaan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	moeten	moeten	VERB	_	_	_	_	_	_
+11	we	we	PRON	_	_	_	_	_	_
+12	strengere	streng	ADJ	_	_	_	_	_	_
+13	wetgeving	wetgeving	NOUN	_	_	_	_	_	_
+14	omtrent	omtrent	ADP	_	_	_	_	_	_
+15	databescherming	databescherming	NOUN	_	_	_	_	_	_
+16	invoeren	invoeren	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_028
+# text = Ondanks de complexiteit van het nieuwe belastingsysteem, heeft het bestuur besloten het plan uit te voeren.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	complexiteit	complexiteit	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+7	belastingsysteem	belasting_systeem	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	heeft	hebben	AUX	_	_	_	_	_	_
+10	het	het	DET	_	_	_	_	_	_
+11	bestuur	bestuur	NOUN	_	_	_	_	_	_
+12	besloten	besluiten	VERB	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	plan	plan	NOUN	_	_	_	_	_	_
+15	uit	uit	ADP	_	_	_	_	_	_
+16	te	te	ADP	_	_	_	_	_	_
+17	voeren	voeren	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_029
+# text = Aangezien de internationale handel onder grote spanning staat, moeten we cultureel erfgoed actiever gaan beschermen.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	internationale	internationaal	ADJ	_	_	_	_	_	_
+4	handel	handel	NOUN	_	_	_	_	_	_
+5	onder	onder	ADP	_	_	_	_	_	_
+6	grote	groot	ADJ	_	_	_	_	_	_
+7	spanning	spanning	NOUN	_	_	_	_	_	_
+8	staat	staan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	moeten	moeten	VERB	_	_	_	_	_	_
+11	we	we	PRON	_	_	_	_	_	_
+12	cultureel	cultureel	ADJ	_	_	_	_	_	_
+13	erfgoed	erfgoed	NOUN	_	_	_	_	_	_
+14	actiever	actief	ADJ	_	_	_	_	_	_
+15	gaan	gaan	VERB	_	_	_	_	_	_
+16	beschermen	beschermen	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_030
+# text = Ondanks de slechte weersomstandigheden tijdens het festival, is de nieuwe spoorlijn gisteravond geopend.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	slechte	slecht	ADJ	_	_	_	_	_	_
+4	weersomstandigheden	weer_omstandigheid	NOUN	_	_	_	_	_	_
+5	tijdens	tijdens	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+12	spoorlijn	spoor_lijn	NOUN	_	_	_	_	_	_
+13	gisteravond	gisteravond	ADV	_	_	_	_	_	_
+14	geopend	openen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_031
+# text = Aangezien de internationale handel onder grote spanning staat, is de aanleg van extra fietspaden noodzakelijk.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	internationale	internationaal	ADJ	_	_	_	_	_	_
+4	handel	handel	NOUN	_	_	_	_	_	_
+5	onder	onder	ADP	_	_	_	_	_	_
+6	grote	groot	ADJ	_	_	_	_	_	_
+7	spanning	spanning	NOUN	_	_	_	_	_	_
+8	staat	staan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	is	zijn	AUX	_	_	_	_	_	_
+11	de	de	DET	_	_	_	_	_	_
+12	aanleg	aanleg	NOUN	_	_	_	_	_	_
+13	van	van	ADP	_	_	_	_	_	_
+14	extra	extra	ADJ	_	_	_	_	_	_
+15	fietspaden	fietspaad	NOUN	_	_	_	_	_	_
+16	noodzakelijk	noodzakelijk	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_032
+# text = Ondanks de strenge selectieprocedure voor deze masteropleiding, weten veel jonge ondernemers te overleven.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	strenge	streng	ADJ	_	_	_	_	_	_
+4	selectieprocedure	selectie_procedure	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	deze	deze	DET	_	_	_	_	_	_
+7	masteropleiding	master_opleiding	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	weten	weten	VERB	_	_	_	_	_	_
+10	veel	veel	DET	_	_	_	_	_	_
+11	jonge	jong	ADJ	_	_	_	_	_	_
+12	ondernemers	ondernemer	NOUN	_	_	_	_	_	_
+13	te	te	ADP	_	_	_	_	_	_
+14	overleven	overleven	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_033
+# text = Hoewel het maatschappelijk debat over de zorgkosten verhit raakt, blijft de biologische sector zich positief ontwikkelen.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	maatschappelijk	maatschappelijk	ADJ	_	_	_	_	_	_
+4	debat	debat	NOUN	_	_	_	_	_	_
+5	over	over	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	zorgkosten	zorg_kost	NOUN	_	_	_	_	_	_
+8	verhit	verhit	ADJ	_	_	_	_	_	_
+9	raakt	raken	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijft	blijven	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	biologische	biologisch	ADJ	_	_	_	_	_	_
+14	sector	sector	NOUN	_	_	_	_	_	_
+15	zich	zich	PRON	_	_	_	_	_	_
+16	positief	positief	ADJ	_	_	_	_	_	_
+17	ontwikkelen	ontwikkelen	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_034
+# text = Aangezien de internationale handel onder grote spanning staat, moeten we strengere wetgeving omtrent databescherming invoeren.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	internationale	internationaal	ADJ	_	_	_	_	_	_
+4	handel	handel	NOUN	_	_	_	_	_	_
+5	onder	onder	ADP	_	_	_	_	_	_
+6	grote	groot	ADJ	_	_	_	_	_	_
+7	spanning	spanning	NOUN	_	_	_	_	_	_
+8	staat	staan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	moeten	moeten	VERB	_	_	_	_	_	_
+11	we	we	PRON	_	_	_	_	_	_
+12	strengere	streng	ADJ	_	_	_	_	_	_
+13	wetgeving	wetgeving	NOUN	_	_	_	_	_	_
+14	omtrent	omtrent	ADP	_	_	_	_	_	_
+15	databescherming	databescherming	NOUN	_	_	_	_	_	_
+16	invoeren	invoeren	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_035
+# text = Aangezien de behoefte aan flexibele arbeidskrachten steeds groter wordt, moeten er snel nieuwe woningen gebouwd worden.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	behoefte	behoefte	NOUN	_	_	_	_	_	_
+4	aan	aan	ADP	_	_	_	_	_	_
+5	flexibele	flexibel	ADJ	_	_	_	_	_	_
+6	arbeidskrachten	arbeid_kracht	NOUN	_	_	_	_	_	_
+7	steeds	steeds	ADV	_	_	_	_	_	_
+8	groter	groot	ADJ	_	_	_	_	_	_
+9	wordt	worden	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	er	er	ADV	_	_	_	_	_	_
+13	snel	snel	ADJ	_	_	_	_	_	_
+14	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+15	woningen	woning	NOUN	_	_	_	_	_	_
+16	gebouwd	bouwen	VERB	_	_	_	_	_	_
+17	worden	worden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_036
+# text = Aangezien de transitie naar duurzame energie erg kostbaar is, moeten we meer inzetten op preventieve zorg.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	transitie	transitie	NOUN	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	duurzame	duurzaam	ADJ	_	_	_	_	_	_
+6	energie	energie	NOUN	_	_	_	_	_	_
+7	erg	erg	ADJ	_	_	_	_	_	_
+8	kostbaar	kostbaar	ADJ	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	meer	veel	ADV	_	_	_	_	_	_
+14	inzetten	in_zetten	VERB	_	_	_	_	_	_
+15	op	op	ADP	_	_	_	_	_	_
+16	preventieve	preventief	ADJ	_	_	_	_	_	_
+17	zorg	zorg	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_037
+# text = Ondanks de strenge selectieprocedure voor deze masteropleiding, ervaren docenten nog altijd veel werkplezier.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	strenge	streng	ADJ	_	_	_	_	_	_
+4	selectieprocedure	selectie_procedure	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	deze	deze	DET	_	_	_	_	_	_
+7	masteropleiding	master_opleiding	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	ervaren	ervaren	VERB	_	_	_	_	_	_
+10	docenten	docent	NOUN	_	_	_	_	_	_
+11	nog	nog	ADV	_	_	_	_	_	_
+12	altijd	altijd	ADV	_	_	_	_	_	_
+13	veel	veel	DET	_	_	_	_	_	_
+14	werkplezier	werk_plezier	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_038
+# text = Aangezien de vergrijzing de komende jaren sterk zal toenemen, is extra investering in de cyberpolitie dringend gewenst.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	vergrijzing	vergrijzing	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	komende	komen	VERB	_	_	_	_	_	_
+6	jaren	jaar	NOUN	_	_	_	_	_	_
+7	sterk	sterk	ADJ	_	_	_	_	_	_
+8	zal	zullen	AUX	_	_	_	_	_	_
+9	toenemen	toe_nemen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	extra	extra	ADJ	_	_	_	_	_	_
+13	investering	investering	NOUN	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	de	de	DET	_	_	_	_	_	_
+16	cyberpolitie	cyberpolitie	NOUN	_	_	_	_	_	_
+17	dringend	dringend	VERB	_	_	_	_	_	_
+18	gewenst	wensen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_039
+# text = Hoewel de inflatie de koopkracht van veel gezinnen aantast, blijven sommige politici twijfelen aan de resultaten.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	inflatie	inflatie	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	koopkracht	koop_kracht	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	veel	veel	DET	_	_	_	_	_	_
+8	gezinnen	gezin	NOUN	_	_	_	_	_	_
+9	aantast	aan_tasten	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijven	blijven	VERB	_	_	_	_	_	_
+12	sommige	sommig	DET	_	_	_	_	_	_
+13	politici	politicus	NOUN	_	_	_	_	_	_
+14	twijfelen	twijfelen	VERB	_	_	_	_	_	_
+15	aan	aan	ADP	_	_	_	_	_	_
+16	de	de	DET	_	_	_	_	_	_
+17	resultaten	resultaat	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_040
+# text = Hoewel de overheid de subsidies voor zonnepanelen heeft verlaagd, weigeren de meeste bedrijven om maatregelen te nemen.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	overheid	overheid	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	subsidies	subsidie	NOUN	_	_	_	_	_	_
+6	voor	voor	ADP	_	_	_	_	_	_
+7	zonnepanelen	zonnepaneel	NOUN	_	_	_	_	_	_
+8	heeft	hebben	AUX	_	_	_	_	_	_
+9	verlaagd	verlagen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	weigeren	weigeren	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	meeste	veel	ADV	_	_	_	_	_	_
+14	bedrijven	bedrijf	NOUN	_	_	_	_	_	_
+15	om	om	ADP	_	_	_	_	_	_
+16	maatregelen	maatregel	NOUN	_	_	_	_	_	_
+17	te	te	ADP	_	_	_	_	_	_
+18	nemen	nemen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_041
+# text = Aangezien de biodiversiteit in onze bossen ernstig achteruitgaat, is een eerlijkere verdeling van welvaart noodzakelijk.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	biodiversiteit	biodiversiteit	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	onze	ons	PRON	_	_	_	_	_	_
+6	bossen	bos	NOUN	_	_	_	_	_	_
+7	ernstig	ernstig	ADJ	_	_	_	_	_	_
+8	achteruitgaat	achteruit_gaan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	is	zijn	AUX	_	_	_	_	_	_
+11	een	een	DET	_	_	_	_	_	_
+12	eerlijkere	eerlijk	ADJ	_	_	_	_	_	_
+13	verdeling	verdeling	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	welvaart	welvaart	NOUN	_	_	_	_	_	_
+16	noodzakelijk	noodzakelijk	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_042
+# text = Aangezien veel banen verdwijnen door de opkomst van automatisering, moet de overheid burgers financieel tegemoetkomen.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	veel	veel	DET	_	_	_	_	_	_
+3	banen	baan	NOUN	_	_	_	_	_	_
+4	verdwijnen	verdwijnen	VERB	_	_	_	_	_	_
+5	door	door	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	opkomst	opkomst	NOUN	_	_	_	_	_	_
+8	van	van	ADP	_	_	_	_	_	_
+9	automatisering	automatisering	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moet	moeten	AUX	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	overheid	overheid	NOUN	_	_	_	_	_	_
+14	burgers	burger	NOUN	_	_	_	_	_	_
+15	financieel	financieel	ADJ	_	_	_	_	_	_
+16	tegemoetkomen	tegemoet_komen	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_043
+# text = Ondanks de strenge selectieprocedure voor deze masteropleiding, wil de regering de grenzen openhouden voor handel.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	strenge	streng	ADJ	_	_	_	_	_	_
+4	selectieprocedure	selectie_procedure	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	deze	deze	DET	_	_	_	_	_	_
+7	masteropleiding	master_opleiding	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	wil	willen	VERB	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	regering	regering	NOUN	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	grenzen	grens	NOUN	_	_	_	_	_	_
+14	openhouden	open_houden	VERB	_	_	_	_	_	_
+15	voor	voor	ADP	_	_	_	_	_	_
+16	handel	handel	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_044
+# text = Aangezien de transitie naar duurzame energie erg kostbaar is, zoeken bedrijven naar alternatieve markten in Azië.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	transitie	transitie	NOUN	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	duurzame	duurzaam	ADJ	_	_	_	_	_	_
+6	energie	energie	NOUN	_	_	_	_	_	_
+7	erg	erg	ADJ	_	_	_	_	_	_
+8	kostbaar	kostbaar	ADJ	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	zoeken	zoeken	VERB	_	_	_	_	_	_
+12	bedrijven	bedrijf	NOUN	_	_	_	_	_	_
+13	naar	naar	ADP	_	_	_	_	_	_
+14	alternatieve	alternatief	ADJ	_	_	_	_	_	_
+15	markten	markt	NOUN	_	_	_	_	_	_
+16	in	in	ADP	_	_	_	_	_	_
+17	Azië	Azië	PROPN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_045
+# text = Aangezien de woningnood in de grote steden aanhoudt, is een eerlijkere verdeling van welvaart noodzakelijk.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	woningnood	woning_nood	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	grote	groot	ADJ	_	_	_	_	_	_
+7	steden	stad	NOUN	_	_	_	_	_	_
+8	aanhoudt	aan_houden	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	is	zijn	AUX	_	_	_	_	_	_
+11	een	een	DET	_	_	_	_	_	_
+12	eerlijkere	eerlijk	ADJ	_	_	_	_	_	_
+13	verdeling	verdeling	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	welvaart	welvaart	NOUN	_	_	_	_	_	_
+16	noodzakelijk	noodzakelijk	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_046
+# text = Aangezien de kosten voor de gezondheidszorg de pan uitrijzen, moeten er snel nieuwe woningen gebouwd worden.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	kosten	kost	NOUN	_	_	_	_	_	_
+4	voor	voor	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	gezondheidszorg	gezondheidszorg	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	pan	pan	NOUN	_	_	_	_	_	_
+9	uitrijzen	uit_rijzen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	er	er	ADV	_	_	_	_	_	_
+13	snel	snel	ADJ	_	_	_	_	_	_
+14	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+15	woningen	woning	NOUN	_	_	_	_	_	_
+16	gebouwd	bouwen	VERB	_	_	_	_	_	_
+17	worden	worden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_047
+# text = Het is uiterst belangrijk om kritisch te blijven kijken naar het nieuws.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	uiterst	uiterst	ADJ	_	_	_	_	_	_
+4	belangrijk	belangrijk	ADJ	_	_	_	_	_	_
+5	om	om	ADP	_	_	_	_	_	_
+6	kritisch	kritisch	ADJ	_	_	_	_	_	_
+7	te	te	ADP	_	_	_	_	_	_
+8	blijven	blijven	VERB	_	_	_	_	_	_
+9	kijken	kijken	VERB	_	_	_	_	_	_
+10	naar	naar	ADP	_	_	_	_	_	_
+11	het	het	DET	_	_	_	_	_	_
+12	nieuws	nieuws	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_048
+# text = Hoewel de economische prognoses voor komend jaar gunstig lijken, is er nog geen concrete oplossing voorhanden.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	economische	economisch	ADJ	_	_	_	_	_	_
+4	prognoses	prognose	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	komend	komen	VERB	_	_	_	_	_	_
+7	jaar	jaar	NOUN	_	_	_	_	_	_
+8	gunstig	gunstig	ADJ	_	_	_	_	_	_
+9	lijken	lijken	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	er	er	ADV	_	_	_	_	_	_
+13	nog	nog	ADV	_	_	_	_	_	_
+14	geen	geen	DET	_	_	_	_	_	_
+15	concrete	concreet	ADJ	_	_	_	_	_	_
+16	oplossing	oplossing	NOUN	_	_	_	_	_	_
+17	voorhanden	voorhanden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_049
+# text = Ondanks de complexiteit van het nieuwe belastingsysteem, blijven veel mensen vlees consumeren.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	complexiteit	complexiteit	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+7	belastingsysteem	belasting_systeem	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	blijven	blijven	VERB	_	_	_	_	_	_
+10	veel	veel	DET	_	_	_	_	_	_
+11	mensen	mens	NOUN	_	_	_	_	_	_
+12	vlees	vlees	NOUN	_	_	_	_	_	_
+13	consumeren	consumeren	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_050
+# text = Het is raadzaam om verschillende offertes met elkaar te vergelijken, wanneer je een grote verbouwing laat uitvoeren.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	raadzaam	raadzaam	ADJ	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	verschillende	verschillend	ADJ	_	_	_	_	_	_
+6	offertes	offerte	NOUN	_	_	_	_	_	_
+7	met	met	ADP	_	_	_	_	_	_
+8	elkaar	elkaar	PRON	_	_	_	_	_	_
+9	te	te	ADP	_	_	_	_	_	_
+10	vergelijken	vergelijken	VERB	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	wanneer	wanneer	SCONJ	_	_	_	_	_	_
+13	je	je	PRON	_	_	_	_	_	_
+14	een	een	DET	_	_	_	_	_	_
+15	grote	groot	ADJ	_	_	_	_	_	_
+16	verbouwing	verbouwing	NOUN	_	_	_	_	_	_
+17	laat	laten	VERB	_	_	_	_	_	_
+18	uitvoeren	uit_voeren	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_051
+# text = Ondanks de snelle veranderingen binnen de mediasector, heeft de minister het besluit toch doorgevoerd.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	snelle	snel	ADJ	_	_	_	_	_	_
+4	veranderingen	verandering	NOUN	_	_	_	_	_	_
+5	binnen	binnen	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	mediasector	mediasector	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	heeft	hebben	AUX	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	minister	minister	NOUN	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	besluit	besluit	NOUN	_	_	_	_	_	_
+14	toch	toch	ADV	_	_	_	_	_	_
+15	doorgevoerd	door_voeren	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_052
+# text = Hoewel deze technologische innovatie veel voordelen met zich meebrengt, blijft de vraag naar zonne-energie onverminderd groot.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	deze	deze	DET	_	_	_	_	_	_
+3	technologische	technologisch	ADJ	_	_	_	_	_	_
+4	innovatie	innovatie	NOUN	_	_	_	_	_	_
+5	veel	veel	DET	_	_	_	_	_	_
+6	voordelen	voordeel	NOUN	_	_	_	_	_	_
+7	met	met	ADP	_	_	_	_	_	_
+8	zich	zich	PRON	_	_	_	_	_	_
+9	meebrengt	mee_brengen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijft	blijven	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	vraag	vraag	NOUN	_	_	_	_	_	_
+14	naar	naar	ADP	_	_	_	_	_	_
+15	zonne-energie	zonne_energie	NOUN	_	_	_	_	_	_
+16	onverminderd	on_verminderen	VERB	_	_	_	_	_	_
+17	groot	groot	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_053
+# text = Hoewel er veel kritiek is op de nieuwe verkeersregels, blijven sommige politici twijfelen aan de resultaten.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	er	er	ADV	_	_	_	_	_	_
+3	veel	veel	DET	_	_	_	_	_	_
+4	kritiek	kritiek	NOUN	_	_	_	_	_	_
+5	is	zijn	AUX	_	_	_	_	_	_
+6	op	op	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+9	verkeersregels	verkeer_regel	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijven	blijven	VERB	_	_	_	_	_	_
+12	sommige	sommig	DET	_	_	_	_	_	_
+13	politici	politicus	NOUN	_	_	_	_	_	_
+14	twijfelen	twijfelen	VERB	_	_	_	_	_	_
+15	aan	aan	ADP	_	_	_	_	_	_
+16	de	de	DET	_	_	_	_	_	_
+17	resultaten	resultaat	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_054
+# text = Het is raadzaam om de instructies vooraf nauwkeurig te bestuderen, wanneer je dit ingewikkelde apparaat gaat gebruiken.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	raadzaam	raadzaam	ADJ	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	instructies	instructie	NOUN	_	_	_	_	_	_
+7	vooraf	vooraf	ADV	_	_	_	_	_	_
+8	nauwkeurig	nauwkeurig	ADJ	_	_	_	_	_	_
+9	te	te	ADP	_	_	_	_	_	_
+10	bestuderen	bestuderen	VERB	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	wanneer	wanneer	SCONJ	_	_	_	_	_	_
+13	je	je	PRON	_	_	_	_	_	_
+14	dit	dit	DET	_	_	_	_	_	_
+15	ingewikkelde	in_wikkelen	VERB	_	_	_	_	_	_
+16	apparaat	apparaat	NOUN	_	_	_	_	_	_
+17	gaat	gaan	VERB	_	_	_	_	_	_
+18	gebruiken	gebruiken	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_055
+# text = Aangezien het klimaat op aarde sneller verandert dan verwacht, pleiten deskundigen voor een grondige hervorming ervan.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	klimaat	klimaat	NOUN	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	aarde	aarde	NOUN	_	_	_	_	_	_
+6	sneller	snel	ADJ	_	_	_	_	_	_
+7	verandert	veranderen	VERB	_	_	_	_	_	_
+8	dan	dan	SCONJ	_	_	_	_	_	_
+9	verwacht	verwachten	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	pleiten	pleiten	VERB	_	_	_	_	_	_
+12	deskundigen	deskundig	ADJ	_	_	_	_	_	_
+13	voor	voor	ADP	_	_	_	_	_	_
+14	een	een	DET	_	_	_	_	_	_
+15	grondige	grondig	ADJ	_	_	_	_	_	_
+16	hervorming	hervorming	NOUN	_	_	_	_	_	_
+17	ervan	ervan	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_056
+# text = Hoewel het maatschappelijk debat over de zorgkosten verhit raakt, is het aanbod in supermarkten nog vrij beperkt.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	maatschappelijk	maatschappelijk	ADJ	_	_	_	_	_	_
+4	debat	debat	NOUN	_	_	_	_	_	_
+5	over	over	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	zorgkosten	zorg_kost	NOUN	_	_	_	_	_	_
+8	verhit	verhit	ADJ	_	_	_	_	_	_
+9	raakt	raken	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	aanbod	aanbod	NOUN	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	supermarkten	supermarkt	NOUN	_	_	_	_	_	_
+16	nog	nog	ADV	_	_	_	_	_	_
+17	vrij	vrij	ADJ	_	_	_	_	_	_
+18	beperkt	beperken	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_057
+# text = Aangezien de technologie zich in een snel tempo ontwikkelt, moeten we het gebruik van pesticiden verbieden.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	technologie	technologie	NOUN	_	_	_	_	_	_
+4	zich	zich	PRON	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	een	een	DET	_	_	_	_	_	_
+7	snel	snel	ADJ	_	_	_	_	_	_
+8	tempo	tempo	NOUN	_	_	_	_	_	_
+9	ontwikkelt	ontwikkelen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	gebruik	gebruik	NOUN	_	_	_	_	_	_
+15	van	van	ADP	_	_	_	_	_	_
+16	pesticiden	pesticide	NOUN	_	_	_	_	_	_
+17	verbieden	verbieden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_058
+# text = Hoewel het lerarentekort de kwaliteit van ons onderwijs bedreigt, blijven consumenten kritisch kijken naar hun dagelijkse uitgaven.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	lerarentekort	leraarte_kort	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	kwaliteit	kwaliteit	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	ons	ons	PRON	_	_	_	_	_	_
+8	onderwijs	onderwijs	NOUN	_	_	_	_	_	_
+9	bedreigt	bedreigen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijven	blijven	VERB	_	_	_	_	_	_
+12	consumenten	consument	NOUN	_	_	_	_	_	_
+13	kritisch	kritisch	ADJ	_	_	_	_	_	_
+14	kijken	kijken	VERB	_	_	_	_	_	_
+15	naar	naar	ADP	_	_	_	_	_	_
+16	hun	hun	PRON	_	_	_	_	_	_
+17	dagelijkse	dagelijks	ADJ	_	_	_	_	_	_
+18	uitgaven	uitgave	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_059
+# text = Ondanks de waarschuwingen van gerenommeerde wetenschappers, blijven veel mensen vlees consumeren.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	waarschuwingen	waarschuwing	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	gerenommeerde	gerenommeren	VERB	_	_	_	_	_	_
+6	wetenschappers	wetenschapper	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	blijven	blijven	VERB	_	_	_	_	_	_
+9	veel	veel	DET	_	_	_	_	_	_
+10	mensen	mens	NOUN	_	_	_	_	_	_
+11	vlees	vlees	NOUN	_	_	_	_	_	_
+12	consumeren	consumeren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_060
+# text = Hoewel het openbaar vervoer de laatste tijd minder betrouwbaar is, kiezen velen ervoor om thuis te blijven wonen.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	openbaar	openbaar	ADJ	_	_	_	_	_	_
+4	vervoer	vervoer	NOUN	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	laatste	laat	ADJ	_	_	_	_	_	_
+7	tijd	tijd	NOUN	_	_	_	_	_	_
+8	minder	weinig	ADV	_	_	_	_	_	_
+9	betrouwbaar	betrouwbaar	ADJ	_	_	_	_	_	_
+10	is	zijn	AUX	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	kiezen	kiezen	VERB	_	_	_	_	_	_
+13	velen	veel	PRON	_	_	_	_	_	_
+14	ervoor	ervoor	ADV	_	_	_	_	_	_
+15	om	om	ADP	_	_	_	_	_	_
+16	thuis	thuis	ADV	_	_	_	_	_	_
+17	te	te	ADP	_	_	_	_	_	_
+18	blijven	blijven	VERB	_	_	_	_	_	_
+19	wonen	wonen	VERB	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_061
+# text = Ondanks de invoering van extra administratieve taken, weten veel jonge ondernemers te overleven.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	invoering	invoering	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	extra	extra	ADJ	_	_	_	_	_	_
+6	administratieve	administratief	ADJ	_	_	_	_	_	_
+7	taken	taak	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	weten	weten	VERB	_	_	_	_	_	_
+10	veel	veel	DET	_	_	_	_	_	_
+11	jonge	jong	ADJ	_	_	_	_	_	_
+12	ondernemers	ondernemer	NOUN	_	_	_	_	_	_
+13	te	te	ADP	_	_	_	_	_	_
+14	overleven	overleven	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_062
+# text = Ondanks de invoering van extra administratieve taken, blijven kranten een belangrijke bron van nieuws.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	invoering	invoering	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	extra	extra	ADJ	_	_	_	_	_	_
+6	administratieve	administratief	ADJ	_	_	_	_	_	_
+7	taken	taak	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	blijven	blijven	VERB	_	_	_	_	_	_
+10	kranten	krant	NOUN	_	_	_	_	_	_
+11	een	een	DET	_	_	_	_	_	_
+12	belangrijke	belangrijk	ADJ	_	_	_	_	_	_
+13	bron	bron	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	nieuws	nieuws	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_063
+# text = Aangezien de transitie naar duurzame energie erg kostbaar is, is extra investering in de cyberpolitie dringend gewenst.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	transitie	transitie	NOUN	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	duurzame	duurzaam	ADJ	_	_	_	_	_	_
+6	energie	energie	NOUN	_	_	_	_	_	_
+7	erg	erg	ADJ	_	_	_	_	_	_
+8	kostbaar	kostbaar	ADJ	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	extra	extra	ADJ	_	_	_	_	_	_
+13	investering	investering	NOUN	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	de	de	DET	_	_	_	_	_	_
+16	cyberpolitie	cyberpolitie	NOUN	_	_	_	_	_	_
+17	dringend	dringend	VERB	_	_	_	_	_	_
+18	gewenst	wensen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_064
+# text = Het is raadzaam om je wachtwoorden regelmatig te veranderen, wanneer er onduidelijkheid is over de levering.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	raadzaam	raadzaam	ADJ	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	wachtwoorden	wacht_woord	NOUN	_	_	_	_	_	_
+7	regelmatig	regelmatig	ADJ	_	_	_	_	_	_
+8	te	te	ADP	_	_	_	_	_	_
+9	veranderen	veranderen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	wanneer	wanneer	SCONJ	_	_	_	_	_	_
+12	er	er	ADV	_	_	_	_	_	_
+13	onduidelijkheid	onduidelijkheid	NOUN	_	_	_	_	_	_
+14	is	zijn	AUX	_	_	_	_	_	_
+15	over	over	ADP	_	_	_	_	_	_
+16	de	de	DET	_	_	_	_	_	_
+17	levering	levering	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_065
+# text = Hoewel de transitie naar groene stroom veel tijd kost, waarschuwen economen voor te veel optimisme.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	transitie	transitie	NOUN	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	groene	groen	ADJ	_	_	_	_	_	_
+6	stroom	stroom	NOUN	_	_	_	_	_	_
+7	veel	veel	DET	_	_	_	_	_	_
+8	tijd	tijd	NOUN	_	_	_	_	_	_
+9	kost	kosten	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	waarschuwen	waarschuwen	VERB	_	_	_	_	_	_
+12	economen	econoom	NOUN	_	_	_	_	_	_
+13	voor	voor	ADP	_	_	_	_	_	_
+14	te	te	DET	_	_	_	_	_	_
+15	veel	veel	DET	_	_	_	_	_	_
+16	optimisme	optimisme	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_066
+# text = Om de verkeersveiligheid rondom scholen te vergroten, is het belangrijk dat lokale ondernemers subsidie krijgen voor nieuwe projecten.
+1	Om	om	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	verkeersveiligheid	verkeersveiligheid	NOUN	_	_	_	_	_	_
+4	rondom	rondom	ADP	_	_	_	_	_	_
+5	scholen	school	NOUN	_	_	_	_	_	_
+6	te	te	ADP	_	_	_	_	_	_
+7	vergroten	vergroten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	het	het	PRON	_	_	_	_	_	_
+11	belangrijk	belangrijk	ADJ	_	_	_	_	_	_
+12	dat	dat	SCONJ	_	_	_	_	_	_
+13	lokale	lokaal	ADJ	_	_	_	_	_	_
+14	ondernemers	ondernemer	NOUN	_	_	_	_	_	_
+15	subsidie	subsidie	NOUN	_	_	_	_	_	_
+16	krijgen	krijgen	VERB	_	_	_	_	_	_
+17	voor	voor	ADP	_	_	_	_	_	_
+18	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+19	projecten	project	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_067
+# text = Hoewel de economische prognoses voor komend jaar gunstig lijken, passen de meeste automobilisten hun rijgedrag keurig aan.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	economische	economisch	ADJ	_	_	_	_	_	_
+4	prognoses	prognose	NOUN	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	komend	komen	VERB	_	_	_	_	_	_
+7	jaar	jaar	NOUN	_	_	_	_	_	_
+8	gunstig	gunstig	ADJ	_	_	_	_	_	_
+9	lijken	lijken	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	passen	passen	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	meeste	veel	ADV	_	_	_	_	_	_
+14	automobilisten	automobilist	NOUN	_	_	_	_	_	_
+15	hun	hun	PRON	_	_	_	_	_	_
+16	rijgedrag	rij_drag	NOUN	_	_	_	_	_	_
+17	keurig	keurig	ADJ	_	_	_	_	_	_
+18	aan	aan	ADP	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_068
+# text = Aangezien het aantal auto's op de weg blijft groeien, heeft het kabinet extra budget hiervoor vrijgemaakt.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	aantal	aantal	NOUN	_	_	_	_	_	_
+4	auto's	auto	NOUN	_	_	_	_	_	_
+5	op	op	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	weg	weg	NOUN	_	_	_	_	_	_
+8	blijft	blijven	VERB	_	_	_	_	_	_
+9	groeien	groeien	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	heeft	hebben	AUX	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	kabinet	kabinet	NOUN	_	_	_	_	_	_
+14	extra	extra	ADJ	_	_	_	_	_	_
+15	budget	budget	NOUN	_	_	_	_	_	_
+16	hiervoor	hiervoor	ADV	_	_	_	_	_	_
+17	vrijgemaakt	vrij_maken	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_069
+# text = Aangezien de meeste consumenten nu online hun aankopen doen, moeten we werknemers omscholen naar andere sectoren.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	meeste	veel	ADV	_	_	_	_	_	_
+4	consumenten	consument	NOUN	_	_	_	_	_	_
+5	nu	nu	ADV	_	_	_	_	_	_
+6	online	onlin	ADJ	_	_	_	_	_	_
+7	hun	hun	PRON	_	_	_	_	_	_
+8	aankopen	aankoop	NOUN	_	_	_	_	_	_
+9	doen	doen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	werknemers	werknemer	NOUN	_	_	_	_	_	_
+14	omscholen	omscholen	VERB	_	_	_	_	_	_
+15	naar	naar	ADP	_	_	_	_	_	_
+16	andere	ander	ADJ	_	_	_	_	_	_
+17	sectoren	sector	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_070
+# text = Hoewel de huizenprijzen in de steden nog altijd stijgen, weigeren de meeste bedrijven om maatregelen te nemen.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	huizenprijzen	huizen_prijs	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	steden	stad	NOUN	_	_	_	_	_	_
+7	nog	nog	ADV	_	_	_	_	_	_
+8	altijd	altijd	ADV	_	_	_	_	_	_
+9	stijgen	stijgen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	weigeren	weigeren	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	meeste	veel	ADV	_	_	_	_	_	_
+14	bedrijven	bedrijf	NOUN	_	_	_	_	_	_
+15	om	om	ADP	_	_	_	_	_	_
+16	maatregelen	maatregel	NOUN	_	_	_	_	_	_
+17	te	te	ADP	_	_	_	_	_	_
+18	nemen	nemen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_071
+# text = Ondanks de hoge kosten van biologische producten, gaat de bouw van het cultuurcentrum gewoon door.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	hoge	hoog	ADJ	_	_	_	_	_	_
+4	kosten	kost	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	biologische	biologisch	ADJ	_	_	_	_	_	_
+7	producten	product	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	gaat	gaan	VERB	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	bouw	bouw	NOUN	_	_	_	_	_	_
+12	van	van	ADP	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	cultuurcentrum	cultuur_centrum	NOUN	_	_	_	_	_	_
+15	gewoon	gewoon	ADJ	_	_	_	_	_	_
+16	door	door	ADP	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_072
+# text = Hoewel de bibliotheek minder subsidie van de gemeente krijgt, zoekt het ministerie naar creatieve manieren van werving.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	bibliotheek	bibliotheek	NOUN	_	_	_	_	_	_
+4	minder	weinig	DET	_	_	_	_	_	_
+5	subsidie	subsidie	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	gemeente	gemeente	NOUN	_	_	_	_	_	_
+9	krijgt	krijgen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	zoekt	opzoeken	VERB	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	ministerie	ministerie	NOUN	_	_	_	_	_	_
+14	naar	naar	ADP	_	_	_	_	_	_
+15	creatieve	creatief	ADJ	_	_	_	_	_	_
+16	manieren	manier	NOUN	_	_	_	_	_	_
+17	van	van	ADP	_	_	_	_	_	_
+18	werving	werving	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_073
+# text = Hoewel deze technologische innovatie veel voordelen met zich meebrengt, kwamen de vakbonden toch met een nieuw voorstel.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	deze	deze	DET	_	_	_	_	_	_
+3	technologische	technologisch	ADJ	_	_	_	_	_	_
+4	innovatie	innovatie	NOUN	_	_	_	_	_	_
+5	veel	veel	DET	_	_	_	_	_	_
+6	voordelen	voordeel	NOUN	_	_	_	_	_	_
+7	met	met	ADP	_	_	_	_	_	_
+8	zich	zich	PRON	_	_	_	_	_	_
+9	meebrengt	mee_brengen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	kwamen	komen	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	vakbonden	vakbond	NOUN	_	_	_	_	_	_
+14	toch	toch	ADV	_	_	_	_	_	_
+15	met	met	ADP	_	_	_	_	_	_
+16	een	een	DET	_	_	_	_	_	_
+17	nieuw	nieuw	ADJ	_	_	_	_	_	_
+18	voorstel	voorstel	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_074
+# text = Aangezien de kosten voor de gezondheidszorg de pan uitrijzen, moeten werkgevers betere contracten aanbieden aan zzp'ers.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	kosten	kost	NOUN	_	_	_	_	_	_
+4	voor	voor	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	gezondheidszorg	gezondheidszorg	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	pan	pan	NOUN	_	_	_	_	_	_
+9	uitrijzen	uit_rijzen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	werkgevers	werkgever	NOUN	_	_	_	_	_	_
+13	betere	goed	ADJ	_	_	_	_	_	_
+14	contracten	contract	NOUN	_	_	_	_	_	_
+15	aanbieden	aan_bieden	VERB	_	_	_	_	_	_
+16	aan	aan	ADP	_	_	_	_	_	_
+17	zzp'ers	zzp'er	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_075
+# text = Aangezien de kosten voor de gezondheidszorg de pan uitrijzen, moeten we meer inzetten op preventieve zorg.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	kosten	kost	NOUN	_	_	_	_	_	_
+4	voor	voor	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	gezondheidszorg	gezondheidszorg	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	pan	pan	NOUN	_	_	_	_	_	_
+9	uitrijzen	uit_rijzen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	meer	veel	ADV	_	_	_	_	_	_
+14	inzetten	in_zetten	VERB	_	_	_	_	_	_
+15	op	op	ADP	_	_	_	_	_	_
+16	preventieve	preventief	ADJ	_	_	_	_	_	_
+17	zorg	zorg	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_076
+# text = Hoewel sommige partijen pleiten voor strengere controle op sociale media, is de directie tevreden over de behaalde resultaten.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	sommige	sommig	DET	_	_	_	_	_	_
+3	partijen	partij	NOUN	_	_	_	_	_	_
+4	pleiten	pleiten	VERB	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	strengere	streng	ADJ	_	_	_	_	_	_
+7	controle	controle	NOUN	_	_	_	_	_	_
+8	op	op	ADP	_	_	_	_	_	_
+9	sociale	sociaal	ADJ	_	_	_	_	_	_
+10	media	medium	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	is	zijn	AUX	_	_	_	_	_	_
+13	de	de	DET	_	_	_	_	_	_
+14	directie	directie	NOUN	_	_	_	_	_	_
+15	tevreden	tevreden	ADJ	_	_	_	_	_	_
+16	over	over	ADP	_	_	_	_	_	_
+17	de	de	DET	_	_	_	_	_	_
+18	behaalde	behalen	VERB	_	_	_	_	_	_
+19	resultaten	resultaat	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_077
+# text = Hoewel de huizenprijzen in de steden nog altijd stijgen, blijft de vraag naar zonne-energie onverminderd groot.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	huizenprijzen	huizen_prijs	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	steden	stad	NOUN	_	_	_	_	_	_
+7	nog	nog	ADV	_	_	_	_	_	_
+8	altijd	altijd	ADV	_	_	_	_	_	_
+9	stijgen	stijgen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijft	blijven	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	vraag	vraag	NOUN	_	_	_	_	_	_
+14	naar	naar	ADP	_	_	_	_	_	_
+15	zonne-energie	zonne_energie	NOUN	_	_	_	_	_	_
+16	onverminderd	on_verminderen	VERB	_	_	_	_	_	_
+17	groot	groot	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_078
+# text = Ondanks de waarschuwingen van gerenommeerde wetenschappers, gaat de bouw van het cultuurcentrum gewoon door.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	waarschuwingen	waarschuwing	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	gerenommeerde	gerenommeren	VERB	_	_	_	_	_	_
+6	wetenschappers	wetenschapper	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	gaat	gaan	VERB	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	bouw	bouw	NOUN	_	_	_	_	_	_
+11	van	van	ADP	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	cultuurcentrum	cultuur_centrum	NOUN	_	_	_	_	_	_
+14	gewoon	gewoon	ADJ	_	_	_	_	_	_
+15	door	door	ADP	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_079
+# text = Aangezien de internationale handel onder grote spanning staat, moeten we het gebruik van pesticiden verbieden.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	internationale	internationaal	ADJ	_	_	_	_	_	_
+4	handel	handel	NOUN	_	_	_	_	_	_
+5	onder	onder	ADP	_	_	_	_	_	_
+6	grote	groot	ADJ	_	_	_	_	_	_
+7	spanning	spanning	NOUN	_	_	_	_	_	_
+8	staat	staan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	moeten	moeten	VERB	_	_	_	_	_	_
+11	we	we	PRON	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	gebruik	gebruik	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	pesticiden	pesticide	NOUN	_	_	_	_	_	_
+16	verbieden	verbieden	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_080
+# text = Hoewel veel werknemers kampen met een te hoge werkdruk, blijven sommige politici twijfelen aan de resultaten.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	veel	veel	DET	_	_	_	_	_	_
+3	werknemers	werknemer	NOUN	_	_	_	_	_	_
+4	kampen	kampen	VERB	_	_	_	_	_	_
+5	met	met	ADP	_	_	_	_	_	_
+6	een	een	DET	_	_	_	_	_	_
+7	te	te	ADV	_	_	_	_	_	_
+8	hoge	hoog	ADJ	_	_	_	_	_	_
+9	werkdruk	werkdruk	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	blijven	blijven	VERB	_	_	_	_	_	_
+12	sommige	sommig	DET	_	_	_	_	_	_
+13	politici	politicus	NOUN	_	_	_	_	_	_
+14	twijfelen	twijfelen	VERB	_	_	_	_	_	_
+15	aan	aan	ADP	_	_	_	_	_	_
+16	de	de	DET	_	_	_	_	_	_
+17	resultaten	resultaat	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_081
+# text = Hoewel de digitalisering van de zorg veel voordelen biedt, kiezen velen ervoor om thuis te blijven wonen.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	digitalisering	digitalisering	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	zorg	zorg	NOUN	_	_	_	_	_	_
+7	veel	veel	DET	_	_	_	_	_	_
+8	voordelen	voordeel	NOUN	_	_	_	_	_	_
+9	biedt	bieden	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	kiezen	kiezen	VERB	_	_	_	_	_	_
+12	velen	veel	PRON	_	_	_	_	_	_
+13	ervoor	ervoor	ADV	_	_	_	_	_	_
+14	om	om	ADP	_	_	_	_	_	_
+15	thuis	thuis	ADV	_	_	_	_	_	_
+16	te	te	ADP	_	_	_	_	_	_
+17	blijven	blijven	VERB	_	_	_	_	_	_
+18	wonen	wonen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_082
+# text = Hoewel het museum dit jaar minder bezoekers heeft getrokken, is er nog geen concrete oplossing voorhanden.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	museum	museum	NOUN	_	_	_	_	_	_
+4	dit	dit	DET	_	_	_	_	_	_
+5	jaar	jaar	NOUN	_	_	_	_	_	_
+6	minder	weinig	DET	_	_	_	_	_	_
+7	bezoekers	bezoeker	NOUN	_	_	_	_	_	_
+8	heeft	hebben	AUX	_	_	_	_	_	_
+9	getrokken	trekken	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	er	er	ADV	_	_	_	_	_	_
+13	nog	nog	ADV	_	_	_	_	_	_
+14	geen	geen	DET	_	_	_	_	_	_
+15	concrete	concreet	ADJ	_	_	_	_	_	_
+16	oplossing	oplossing	NOUN	_	_	_	_	_	_
+17	voorhanden	voorhanden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_083
+# text = Aangezien de jeugdzorg kampt met enorme wachtlijsten en tekorten, moeten fysieke winkels zich op service richten.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	jeugdzorg	jeugdzorg	NOUN	_	_	_	_	_	_
+4	kampt	kampen	VERB	_	_	_	_	_	_
+5	met	met	ADP	_	_	_	_	_	_
+6	enorme	enorm	ADJ	_	_	_	_	_	_
+7	wachtlijsten	wacht_lijst	NOUN	_	_	_	_	_	_
+8	en	en	CCONJ	_	_	_	_	_	_
+9	tekorten	tekort	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	fysieke	fysiek	ADJ	_	_	_	_	_	_
+13	winkels	winkel	NOUN	_	_	_	_	_	_
+14	zich	zich	PRON	_	_	_	_	_	_
+15	op	op	ADP	_	_	_	_	_	_
+16	service	service	NOUN	_	_	_	_	_	_
+17	richten	richten	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_084
+# text = Aangezien de jeugdzorg kampt met enorme wachtlijsten en tekorten, is de aanleg van extra fietspaden noodzakelijk.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	jeugdzorg	jeugdzorg	NOUN	_	_	_	_	_	_
+4	kampt	kampen	VERB	_	_	_	_	_	_
+5	met	met	ADP	_	_	_	_	_	_
+6	enorme	enorm	ADJ	_	_	_	_	_	_
+7	wachtlijsten	wacht_lijst	NOUN	_	_	_	_	_	_
+8	en	en	CCONJ	_	_	_	_	_	_
+9	tekorten	tekort	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	aanleg	aanleg	NOUN	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	extra	extra	ADJ	_	_	_	_	_	_
+16	fietspaden	fietspaad	NOUN	_	_	_	_	_	_
+17	noodzakelijk	noodzakelijk	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_085
+# text = Ondanks de grote tekorten op de arbeidsmarkt momenteel, gaat de bouw van het cultuurcentrum gewoon door.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	grote	groot	ADJ	_	_	_	_	_	_
+4	tekorten	tekort	NOUN	_	_	_	_	_	_
+5	op	op	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	arbeidsmarkt	arbeid_markt	NOUN	_	_	_	_	_	_
+8	momenteel	momenteel	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	gaat	gaan	VERB	_	_	_	_	_	_
+11	de	de	DET	_	_	_	_	_	_
+12	bouw	bouw	NOUN	_	_	_	_	_	_
+13	van	van	ADP	_	_	_	_	_	_
+14	het	het	DET	_	_	_	_	_	_
+15	cultuurcentrum	cultuur_centrum	NOUN	_	_	_	_	_	_
+16	gewoon	gewoon	ADJ	_	_	_	_	_	_
+17	door	door	ADP	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_086
+# text = Hoewel de inflatie de koopkracht van veel gezinnen aantast, passen de meeste automobilisten hun rijgedrag keurig aan.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	inflatie	inflatie	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	koopkracht	koop_kracht	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	veel	veel	DET	_	_	_	_	_	_
+8	gezinnen	gezin	NOUN	_	_	_	_	_	_
+9	aantast	aan_tasten	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	passen	passen	VERB	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	meeste	veel	ADV	_	_	_	_	_	_
+14	automobilisten	automobilist	NOUN	_	_	_	_	_	_
+15	hun	hun	PRON	_	_	_	_	_	_
+16	rijgedrag	rij_drag	NOUN	_	_	_	_	_	_
+17	keurig	keurig	ADJ	_	_	_	_	_	_
+18	aan	aan	ADP	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_087
+# text = Ondanks de hoge kosten van biologische producten, wil de regering de grenzen openhouden voor handel.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	hoge	hoog	ADJ	_	_	_	_	_	_
+4	kosten	kost	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	biologische	biologisch	ADJ	_	_	_	_	_	_
+7	producten	product	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	wil	willen	VERB	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	regering	regering	NOUN	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	grenzen	grens	NOUN	_	_	_	_	_	_
+14	openhouden	open_houden	VERB	_	_	_	_	_	_
+15	voor	voor	ADP	_	_	_	_	_	_
+16	handel	handel	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_088
+# text = Aangezien de vergrijzing de komende jaren sterk zal toenemen, moeten we werknemers omscholen naar andere sectoren.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	vergrijzing	vergrijzing	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	komende	komen	VERB	_	_	_	_	_	_
+6	jaren	jaar	NOUN	_	_	_	_	_	_
+7	sterk	sterk	ADJ	_	_	_	_	_	_
+8	zal	zullen	AUX	_	_	_	_	_	_
+9	toenemen	toe_nemen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	werknemers	werknemer	NOUN	_	_	_	_	_	_
+14	omscholen	omscholen	VERB	_	_	_	_	_	_
+15	naar	naar	ADP	_	_	_	_	_	_
+16	andere	ander	ADJ	_	_	_	_	_	_
+17	sectoren	sector	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_089
+# text = Aangezien de internationale handel onder grote spanning staat, heeft het kabinet extra budget hiervoor vrijgemaakt.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	internationale	internationaal	ADJ	_	_	_	_	_	_
+4	handel	handel	NOUN	_	_	_	_	_	_
+5	onder	onder	ADP	_	_	_	_	_	_
+6	grote	groot	ADJ	_	_	_	_	_	_
+7	spanning	spanning	NOUN	_	_	_	_	_	_
+8	staat	staan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	heeft	hebben	AUX	_	_	_	_	_	_
+11	het	het	DET	_	_	_	_	_	_
+12	kabinet	kabinet	NOUN	_	_	_	_	_	_
+13	extra	extra	ADJ	_	_	_	_	_	_
+14	budget	budget	NOUN	_	_	_	_	_	_
+15	hiervoor	hiervoor	ADV	_	_	_	_	_	_
+16	vrijgemaakt	vrij_maken	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_090
+# text = Aangezien de vergrijzing de komende jaren sterk zal toenemen, moeten we strengere wetgeving omtrent databescherming invoeren.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	vergrijzing	vergrijzing	NOUN	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	komende	komen	VERB	_	_	_	_	_	_
+6	jaren	jaar	NOUN	_	_	_	_	_	_
+7	sterk	sterk	ADJ	_	_	_	_	_	_
+8	zal	zullen	AUX	_	_	_	_	_	_
+9	toenemen	toe_nemen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	strengere	streng	ADJ	_	_	_	_	_	_
+14	wetgeving	wetgeving	NOUN	_	_	_	_	_	_
+15	omtrent	omtrent	ADP	_	_	_	_	_	_
+16	databescherming	databescherming	NOUN	_	_	_	_	_	_
+17	invoeren	invoeren	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_091
+# text = Aangezien het klimaat op aarde sneller verandert dan verwacht, moeten we het gebruik van pesticiden verbieden.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	klimaat	klimaat	NOUN	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	aarde	aarde	NOUN	_	_	_	_	_	_
+6	sneller	snel	ADJ	_	_	_	_	_	_
+7	verandert	veranderen	VERB	_	_	_	_	_	_
+8	dan	dan	SCONJ	_	_	_	_	_	_
+9	verwacht	verwachten	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	gebruik	gebruik	NOUN	_	_	_	_	_	_
+15	van	van	ADP	_	_	_	_	_	_
+16	pesticiden	pesticide	NOUN	_	_	_	_	_	_
+17	verbieden	verbieden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_092
+# text = Hoewel veel studenten moeite hebben met het vinden van woonruimte, maken reizigers steeds vaker gebruik van de auto.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	veel	veel	DET	_	_	_	_	_	_
+3	studenten	student	NOUN	_	_	_	_	_	_
+4	moeite	moeite	NOUN	_	_	_	_	_	_
+5	hebben	hebben	AUX	_	_	_	_	_	_
+6	met	met	ADP	_	_	_	_	_	_
+7	het	het	DET	_	_	_	_	_	_
+8	vinden	vinden	VERB	_	_	_	_	_	_
+9	van	van	ADP	_	_	_	_	_	_
+10	woonruimte	woon_ruimte	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	maken	maken	VERB	_	_	_	_	_	_
+13	reizigers	reiziger	NOUN	_	_	_	_	_	_
+14	steeds	steeds	ADV	_	_	_	_	_	_
+15	vaker	vaak	ADJ	_	_	_	_	_	_
+16	gebruik	gebruik	NOUN	_	_	_	_	_	_
+17	van	van	ADP	_	_	_	_	_	_
+18	de	de	DET	_	_	_	_	_	_
+19	auto	auto	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_093
+# text = Hoewel veel werknemers kampen met een te hoge werkdruk, zoekt het ministerie naar creatieve manieren van werving.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	veel	veel	DET	_	_	_	_	_	_
+3	werknemers	werknemer	NOUN	_	_	_	_	_	_
+4	kampen	kampen	VERB	_	_	_	_	_	_
+5	met	met	ADP	_	_	_	_	_	_
+6	een	een	DET	_	_	_	_	_	_
+7	te	te	ADV	_	_	_	_	_	_
+8	hoge	hoog	ADJ	_	_	_	_	_	_
+9	werkdruk	werkdruk	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	zoekt	opzoeken	VERB	_	_	_	_	_	_
+12	het	het	DET	_	_	_	_	_	_
+13	ministerie	ministerie	NOUN	_	_	_	_	_	_
+14	naar	naar	ADP	_	_	_	_	_	_
+15	creatieve	creatief	ADJ	_	_	_	_	_	_
+16	manieren	manier	NOUN	_	_	_	_	_	_
+17	van	van	ADP	_	_	_	_	_	_
+18	werving	werving	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_094
+# text = Om de verkeersveiligheid rondom scholen te vergroten, is het belangrijk dat werknemers regelmatig trainingen krijgen over online veiligheid.
+1	Om	om	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	verkeersveiligheid	verkeersveiligheid	NOUN	_	_	_	_	_	_
+4	rondom	rondom	ADP	_	_	_	_	_	_
+5	scholen	school	NOUN	_	_	_	_	_	_
+6	te	te	ADP	_	_	_	_	_	_
+7	vergroten	vergroten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	het	het	PRON	_	_	_	_	_	_
+11	belangrijk	belangrijk	ADJ	_	_	_	_	_	_
+12	dat	dat	SCONJ	_	_	_	_	_	_
+13	werknemers	werknemer	NOUN	_	_	_	_	_	_
+14	regelmatig	regelmatig	ADJ	_	_	_	_	_	_
+15	trainingen	training	NOUN	_	_	_	_	_	_
+16	krijgen	krijgen	VERB	_	_	_	_	_	_
+17	over	over	ADP	_	_	_	_	_	_
+18	online	onlin	ADJ	_	_	_	_	_	_
+19	veiligheid	veiligheid	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_095
+# text = Aangezien veel talen met uitsterven worden bedreigd door globalisering, moeten we het gebruik van pesticiden verbieden.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	veel	veel	DET	_	_	_	_	_	_
+3	talen	taal	NOUN	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	uitsterven	uitsterf	NOUN	_	_	_	_	_	_
+6	worden	worden	VERB	_	_	_	_	_	_
+7	bedreigd	bedreigen	VERB	_	_	_	_	_	_
+8	door	door	ADP	_	_	_	_	_	_
+9	globalisering	globalisering	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	we	we	PRON	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	gebruik	gebruik	NOUN	_	_	_	_	_	_
+15	van	van	ADP	_	_	_	_	_	_
+16	pesticiden	pesticide	NOUN	_	_	_	_	_	_
+17	verbieden	verbieden	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_096
+# text = Ondanks de felle tegenstand van de lokale bewoners, blijven veel mensen vlees consumeren.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	felle	fel	ADJ	_	_	_	_	_	_
+4	tegenstand	tegenstand	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	lokale	lokaal	ADJ	_	_	_	_	_	_
+8	bewoners	bewoner	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	blijven	blijven	VERB	_	_	_	_	_	_
+11	veel	veel	DET	_	_	_	_	_	_
+12	mensen	mens	NOUN	_	_	_	_	_	_
+13	vlees	vlees	NOUN	_	_	_	_	_	_
+14	consumeren	consumeren	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_097
+# text = Ondanks de technische problemen bij de lancering van de website, blijven kranten een belangrijke bron van nieuws.
+1	Ondanks	ondanks	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	technische	technisch	ADJ	_	_	_	_	_	_
+4	problemen	probleem	NOUN	_	_	_	_	_	_
+5	bij	bij	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	lancering	lancering	NOUN	_	_	_	_	_	_
+8	van	van	ADP	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	website	website	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	blijven	blijven	VERB	_	_	_	_	_	_
+13	kranten	krant	NOUN	_	_	_	_	_	_
+14	een	een	DET	_	_	_	_	_	_
+15	belangrijke	belangrijk	ADJ	_	_	_	_	_	_
+16	bron	bron	NOUN	_	_	_	_	_	_
+17	van	van	ADP	_	_	_	_	_	_
+18	nieuws	nieuws	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_098
+# text = Aangezien de biodiversiteit in onze bossen ernstig achteruitgaat, heeft het kabinet extra budget hiervoor vrijgemaakt.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	biodiversiteit	biodiversiteit	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	onze	ons	PRON	_	_	_	_	_	_
+6	bossen	bos	NOUN	_	_	_	_	_	_
+7	ernstig	ernstig	ADJ	_	_	_	_	_	_
+8	achteruitgaat	achteruit_gaan	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	heeft	hebben	AUX	_	_	_	_	_	_
+11	het	het	DET	_	_	_	_	_	_
+12	kabinet	kabinet	NOUN	_	_	_	_	_	_
+13	extra	extra	ADJ	_	_	_	_	_	_
+14	budget	budget	NOUN	_	_	_	_	_	_
+15	hiervoor	hiervoor	ADV	_	_	_	_	_	_
+16	vrijgemaakt	vrij_maken	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_099
+# text = Hoewel de digitalisering van de zorg veel voordelen biedt, maken reizigers steeds vaker gebruik van de auto.
+1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	digitalisering	digitalisering	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	zorg	zorg	NOUN	_	_	_	_	_	_
+7	veel	veel	DET	_	_	_	_	_	_
+8	voordelen	voordeel	NOUN	_	_	_	_	_	_
+9	biedt	bieden	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	maken	maken	VERB	_	_	_	_	_	_
+12	reizigers	reiziger	NOUN	_	_	_	_	_	_
+13	steeds	steeds	ADV	_	_	_	_	_	_
+14	vaker	vaak	ADJ	_	_	_	_	_	_
+15	gebruik	gebruik	NOUN	_	_	_	_	_	_
+16	van	van	ADP	_	_	_	_	_	_
+17	de	de	DET	_	_	_	_	_	_
+18	auto	auto	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_c1_val_100
+# text = Aangezien het onderwijssysteem niet meer aan de eisen voldoet, moeten scholen meer aandacht besteden aan mentale gezondheid.
+1	Aangezien	aangezien	SCONJ	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	onderwijssysteem	onderwijs_systeem	NOUN	_	_	_	_	_	_
+4	niet	niet	ADV	_	_	_	_	_	_
+5	meer	veel	ADV	_	_	_	_	_	_
+6	aan	aan	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	eisen	eis	NOUN	_	_	_	_	_	_
+9	voldoet	voldoeten	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	moeten	moeten	VERB	_	_	_	_	_	_
+12	scholen	school	NOUN	_	_	_	_	_	_
+13	meer	veel	DET	_	_	_	_	_	_
+14	aandacht	aandacht	NOUN	_	_	_	_	_	_
+15	besteden	besteden	VERB	_	_	_	_	_	_
+16	aan	aan	ADP	_	_	_	_	_	_
+17	mentale	mentaal	ADJ	_	_	_	_	_	_
+18	gezondheid	gezondheid	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
