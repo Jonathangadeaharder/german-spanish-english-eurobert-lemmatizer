@@ -33,3 +33,6 @@ scratch_*.py
 kilo.json
 .stanza_resources/
 data/handcraft/_lib/
+
+# LLM validation output
+artifacts/llm_validation/
