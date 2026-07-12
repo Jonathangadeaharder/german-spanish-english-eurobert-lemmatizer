@@ -1,0 +1,887 @@
+# sent_id = handcraft-sv-1
+# text = Kvinnan läser en bok i parken.
+1	Kvinnan	kvinna	NOUN	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	bok	bok	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	parken	park	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-2
+# text = Pojken gick till skolan igår.
+1	Pojken	pojke	NOUN	_	_	_	_	_	_
+2	gick	gå	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	skolan	skola	NOUN	_	_	_	_	_	_
+5	igår	igår	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-3
+# text = Vi kommer att resa till Spanien nästa vecka.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	kommer	komma	AUX	_	_	_	_	_	_
+3	att	att	PART	_	_	_	_	_	_
+4	resa	resa	VERB	_	_	_	_	_	_
+5	till	till	ADP	_	_	_	_	_	_
+6	Spanien	Spanien	PROPN	_	_	_	_	_	_
+7	nästa	nästa	DET	_	_	_	_	_	_
+8	vecka	vecka	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-4
+# text = Var bor din syster?
+1	Var	var	ADV	_	_	_	_	_	_
+2	bor	bo	VERB	_	_	_	_	_	_
+3	din	din	DET	_	_	_	_	_	_
+4	syster	syster	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-5
+# text = Har du sett den nya filmen?
+1	Har	ha	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	sett	se	VERB	_	_	_	_	_	_
+4	den	den	DET	_	_	_	_	_	_
+5	nya	ny	ADJ	_	_	_	_	_	_
+6	filmen	film	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-6
+# text = Öppna fönstret, snälla!
+1	Öppna	öppna	VERB	_	_	_	_	_	_
+2	fönstret	fönster	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	snälla	snäll	INTJ	_	_	_	_	_	_
+5	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-7
+# text = De har ätit middag redan.
+1	De	de	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	ätit	äta	VERB	_	_	_	_	_	_
+4	middag	middag	NOUN	_	_	_	_	_	_
+5	redan	redan	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-8
+# text = Hon hade slutat sitt arbete innan vi kom.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	hade	ha	AUX	_	_	_	_	_	_
+3	slutat	sluta	VERB	_	_	_	_	_	_
+4	sitt	sin	DET	_	_	_	_	_	_
+5	arbete	arbete	NOUN	_	_	_	_	_	_
+6	innan	innan	SCONJ	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	kom	komma	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-9
+# text = Vädret är vackert idag.
+1	Vädret	väder	NOUN	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	vackert	vacker	ADJ	_	_	_	_	_	_
+4	idag	idag	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-10
+# text = Huset byggdes förra året.
+1	Huset	hus	NOUN	_	_	_	_	_	_
+2	byggdes	bygga	VERB	_	_	_	_	_	_
+3	förra	förra	DET	_	_	_	_	_	_
+4	året	år	NOUN	_	_	_	_	_	_
+5	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-11
+# text = Barnen kan simma bra.
+1	Barnen	barn	NOUN	_	_	_	_	_	_
+2	kan	kunna	AUX	_	_	_	_	_	_
+3	simma	simma	VERB	_	_	_	_	_	_
+4	bra	bra	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-12
+# text = Jag vet inte var hon bor.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	vet	veta	VERB	_	_	_	_	_	_
+3	inte	inte	ADV	_	_	_	_	_	_
+4	var	var	ADV	_	_	_	_	_	_
+5	hon	hon	PRON	_	_	_	_	_	_
+6	bor	bo	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-13
+# text = Han sa att han skulle komma sent.
+1	Han	han	PRON	_	_	_	_	_	_
+2	sa	säga	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	han	han	PRON	_	_	_	_	_	_
+5	skulle	skola	AUX	_	_	_	_	_	_
+6	komma	komma	VERB	_	_	_	_	_	_
+7	sent	sent	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-14
+# text = Katten och hunden sover på mattan.
+1	Katten	katt	NOUN	_	_	_	_	_	_
+2	och	och	CCONJ	_	_	_	_	_	_
+3	hunden	hund	NOUN	_	_	_	_	_	_
+4	sover	sova	VERB	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	mattan	matta	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-15
+# text = Min vän kommer från Norge.
+1	Min	min	DET	_	_	_	_	_	_
+2	vän	vän	NOUN	_	_	_	_	_	_
+3	kommer	komma	VERB	_	_	_	_	_	_
+4	från	från	ADP	_	_	_	_	_	_
+5	Norge	Norge	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-16
+# text = Det finns tre äpplen i skålen.
+1	Det	det	PRON	_	_	_	_	_	_
+2	finns	finnas	VERB	_	_	_	_	_	_
+3	tre	tre	NUM	_	_	_	_	_	_
+4	äpplen	äpple	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	skålen	skål	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-17
+# text = Denna bil är snabbare än min bil.
+1	Denna	denna	DET	_	_	_	_	_	_
+2	bil	bil	NOUN	_	_	_	_	_	_
+3	är	vara	AUX	_	_	_	_	_	_
+4	snabbare	snabb	ADJ	_	_	_	_	_	_
+5	än	än	SCONJ	_	_	_	_	_	_
+6	min	min	DET	_	_	_	_	_	_
+7	bil	bil	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-18
+# text = Mannen som står där läser tidningen.
+1	Mannen	man	NOUN	_	_	_	_	_	_
+2	som	som	PRON	_	_	_	_	_	_
+3	står	stå	VERB	_	_	_	_	_	_
+4	där	där	ADV	_	_	_	_	_	_
+5	läser	läsa	VERB	_	_	_	_	_	_
+6	tidningen	tidning	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-19
+# text = Oj, vad det blåser idag!
+1	Oj	oj	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	vad	vad	ADV	_	_	_	_	_	_
+4	det	det	PRON	_	_	_	_	_	_
+5	blåser	blåsa	VERB	_	_	_	_	_	_
+6	idag	idag	ADV	_	_	_	_	_	_
+7	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-20
+# text = Gå inte över gatan när det är rött.
+1	Gå	gå	VERB	_	_	_	_	_	_
+2	inte	inte	ADV	_	_	_	_	_	_
+3	över	över	ADP	_	_	_	_	_	_
+4	gatan	gata	NOUN	_	_	_	_	_	_
+5	när	när	SCONJ	_	_	_	_	_	_
+6	det	det	PRON	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	rött	röd	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-21
+# text = Varför grät barnet?
+1	Varför	varför	ADV	_	_	_	_	_	_
+2	grät	gråta	VERB	_	_	_	_	_	_
+3	barnet	barn	NOUN	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-22
+# text = Vad ska du göra imorgon?
+1	Vad	vad	PRON	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	du	du	PRON	_	_	_	_	_	_
+4	göra	göra	VERB	_	_	_	_	_	_
+5	imorgon	imorgon	ADV	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-23
+# text = Om det regnar stannar vi hemma.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	det	det	PRON	_	_	_	_	_	_
+3	regnar	regna	VERB	_	_	_	_	_	_
+4	stannar	stanna	VERB	_	_	_	_	_	_
+5	vi	vi	PRON	_	_	_	_	_	_
+6	hemma	hemma	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-24
+# text = Stockholm är en vacker stad.
+1	Stockholm	Stockholm	PROPN	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	vacker	vacker	ADJ	_	_	_	_	_	_
+5	stad	stad	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-25
+# text = Mina vänner spelar fotboll varje lördag.
+1	Mina	min	DET	_	_	_	_	_	_
+2	vänner	vän	NOUN	_	_	_	_	_	_
+3	spelar	spela	VERB	_	_	_	_	_	_
+4	fotboll	fotboll	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	lördag	lördag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-26
+# text = Hon tvättar sina kläder.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	tvättar	tvätta	VERB	_	_	_	_	_	_
+3	sina	sin	DET	_	_	_	_	_	_
+4	kläder	kläder	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-27
+# text = Han kör bilen mycket försiktigt.
+1	Han	han	PRON	_	_	_	_	_	_
+2	kör	köra	VERB	_	_	_	_	_	_
+3	bilen	bil	NOUN	_	_	_	_	_	_
+4	mycket	mycket	ADV	_	_	_	_	_	_
+5	försiktigt	försiktig	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-28
+# text = Brevet blir skickat imorgon.
+1	Brevet	brev	NOUN	_	_	_	_	_	_
+2	blir	bli	AUX	_	_	_	_	_	_
+3	skickat	skicka	VERB	_	_	_	_	_	_
+4	imorgon	imorgon	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-29
+# text = Kaffet står på bordet.
+1	Kaffet	kaffe	NOUN	_	_	_	_	_	_
+2	står	stå	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	bordet	bord	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-30
+# text = Vilken bok läser du?
+1	Vilken	vilken	DET	_	_	_	_	_	_
+2	bok	bok	NOUN	_	_	_	_	_	_
+3	läser	läsa	VERB	_	_	_	_	_	_
+4	du	du	PRON	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-31
+# text = Det ligger en katt på mattan.
+1	Det	det	PRON	_	_	_	_	_	_
+2	ligger	ligga	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	katt	katt	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	mattan	matta	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-32
+# text = Vi träffades i förra veckan.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	träffades	träffa	VERB	_	_	_	_	_	_
+3	i	i	ADP	_	_	_	_	_	_
+4	förra	förra	DET	_	_	_	_	_	_
+5	veckan	vecka	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-33
+# text = Detta hus är störst av alla.
+1	Detta	detta	DET	_	_	_	_	_	_
+2	hus	hus	NOUN	_	_	_	_	_	_
+3	är	vara	AUX	_	_	_	_	_	_
+4	störst	stor	ADJ	_	_	_	_	_	_
+5	av	av	ADP	_	_	_	_	_	_
+6	alla	all	DET	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-34
+# text = Jag vill lära mig svenska.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	lära	lära	VERB	_	_	_	_	_	_
+4	mig	mig	PRON	_	_	_	_	_	_
+5	svenska	svenska	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-35
+# text = Anna flyttade till Tyskland 2019.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	flyttade	flytta	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	Tyskland	Tyskland	PROPN	_	_	_	_	_	_
+5	2019	2019	NUM	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-36
+# text = Han har aldrig varit i Paris.
+1	Han	han	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	aldrig	aldrig	ADV	_	_	_	_	_	_
+4	varit	vara	AUX	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	Paris	Paris	PROPN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-37
+# text = Stäng dörren!
+1	Stäng	stänga	VERB	_	_	_	_	_	_
+2	dörren	dörr	NOUN	_	_	_	_	_	_
+3	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-38
+# text = Du gillar kaffe, inte sant?
+1	Du	du	PRON	_	_	_	_	_	_
+2	gillar	gilla	VERB	_	_	_	_	_	_
+3	kaffe	kaffe	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	inte	inte	ADV	_	_	_	_	_	_
+6	sant	sann	ADJ	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-39
+# text = Det snöade mycket förra vintern.
+1	Det	det	PRON	_	_	_	_	_	_
+2	snöade	snöa	VERB	_	_	_	_	_	_
+3	mycket	mycket	ADV	_	_	_	_	_	_
+4	förra	förra	DET	_	_	_	_	_	_
+5	vintern	vinter	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-40
+# text = Flera studenter kom för sent.
+1	Flera	flera	DET	_	_	_	_	_	_
+2	studenter	student	NOUN	_	_	_	_	_	_
+3	kom	komma	VERB	_	_	_	_	_	_
+4	för	för	ADV	_	_	_	_	_	_
+5	sent	sent	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-41
+# text = Hon är smart men lite lat.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	smart	smart	ADJ	_	_	_	_	_	_
+4	men	men	CCONJ	_	_	_	_	_	_
+5	lite	lite	ADV	_	_	_	_	_	_
+6	lat	lat	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-42
+# text = Alla vill ha en bra lön.
+1	Alla	all	DET	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	ha	ha	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	lön	lön	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-43
+# text = Klockan är tre.
+1	Klockan	klocka	NOUN	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	tre	tre	NUM	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-44
+# text = Det är roligt att dansa.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	roligt	rolig	ADJ	_	_	_	_	_	_
+4	att	att	PART	_	_	_	_	_	_
+5	dansa	dansa	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-45
+# text = Att läsa böcker är nyttigt.
+1	Att	att	PART	_	_	_	_	_	_
+2	läsa	läsa	VERB	_	_	_	_	_	_
+3	böcker	bok	NOUN	_	_	_	_	_	_
+4	är	vara	AUX	_	_	_	_	_	_
+5	nyttigt	nyttig	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-46
+# text = Huset där nere är gammalt.
+1	Huset	hus	NOUN	_	_	_	_	_	_
+2	där	där	ADV	_	_	_	_	_	_
+3	nere	nere	ADV	_	_	_	_	_	_
+4	är	vara	AUX	_	_	_	_	_	_
+5	gammalt	gammal	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-47
+# text = Han springer snabbare än mig.
+1	Han	han	PRON	_	_	_	_	_	_
+2	springer	springa	VERB	_	_	_	_	_	_
+3	snabbare	snabb	ADV	_	_	_	_	_	_
+4	än	än	SCONJ	_	_	_	_	_	_
+5	mig	mig	PRON	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-48
+# text = Kom hit nu!
+1	Kom	komma	VERB	_	_	_	_	_	_
+2	hit	hit	ADV	_	_	_	_	_	_
+3	nu	nu	ADV	_	_	_	_	_	_
+4	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-49
+# text = Fågeln flyger över trädtopparna.
+1	Fågeln	fågel	NOUN	_	_	_	_	_	_
+2	flyger	flyga	VERB	_	_	_	_	_	_
+3	över	över	ADP	_	_	_	_	_	_
+4	trädtopparna	trädtopp	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-50
+# text = Vi har olika åsikter.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	olika	olika	ADJ	_	_	_	_	_	_
+4	åsikter	åsikt	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-51
+# text = Vi ses nästa måndag.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	ses	se	VERB	_	_	_	_	_	_
+3	nästa	nästa	DET	_	_	_	_	_	_
+4	måndag	måndag	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-52
+# text = Kalle heter egentligen Karl.
+1	Kalle	Kalle	PROPN	_	_	_	_	_	_
+2	heter	heta	VERB	_	_	_	_	_	_
+3	egentligen	egentligen	ADV	_	_	_	_	_	_
+4	Karl	Karl	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-53
+# text = Bussen går från Göteborg till Malmö.
+1	Bussen	buss	NOUN	_	_	_	_	_	_
+2	går	gå	VERB	_	_	_	_	_	_
+3	från	från	ADP	_	_	_	_	_	_
+4	Göteborg	Göteborg	PROPN	_	_	_	_	_	_
+5	till	till	ADP	_	_	_	_	_	_
+6	Malmö	Malmö	PROPN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-54
+# text = Hon dricker te på morgonen.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	te	te	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	morgonen	morgon	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-55
+# text = Vad gör du ikväll?
+1	Vad	vad	PRON	_	_	_	_	_	_
+2	gör	göra	VERB	_	_	_	_	_	_
+3	du	du	PRON	_	_	_	_	_	_
+4	ikväll	ikväll	ADV	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-56
+# text = Jag ser månen genom fönstret.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	ser	se	VERB	_	_	_	_	_	_
+3	månen	måne	NOUN	_	_	_	_	_	_
+4	genom	genom	ADP	_	_	_	_	_	_
+5	fönstret	fönster	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-57
+# text = Min far arbetar på sjukhuset.
+1	Min	min	DET	_	_	_	_	_	_
+2	far	far	NOUN	_	_	_	_	_	_
+3	arbetar	arbeta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	sjukhuset	sjukhus	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-58
+# text = De lyssnar på musik varje dag.
+1	De	de	PRON	_	_	_	_	_	_
+2	lyssnar	lyssna	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	musik	musik	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	dag	dag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-59
+# text = Författaren skriver en ny roman.
+1	Författaren	författare	NOUN	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	ny	ny	ADJ	_	_	_	_	_	_
+5	roman	roman	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-60
+# text = Affären säljer färska grönsaker.
+1	Affären	affär	NOUN	_	_	_	_	_	_
+2	säljer	sälja	VERB	_	_	_	_	_	_
+3	färska	färsk	ADJ	_	_	_	_	_	_
+4	grönsaker	grönsak	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-61
+# text = Jag vill köpa en ny dator.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	köpa	köpa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	dator	dator	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-62
+# text = Vi äter lunch tillsammans.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	lunch	lunch	NOUN	_	_	_	_	_	_
+4	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-63
+# text = Mamma lagar maten i köket.
+1	Mamma	mamma	NOUN	_	_	_	_	_	_
+2	lagar	laga	VERB	_	_	_	_	_	_
+3	maten	mat	NOUN	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	köket	kök	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-64
+# text = Katten sitter under bordet.
+1	Katten	katt	NOUN	_	_	_	_	_	_
+2	sitter	sitta	VERB	_	_	_	_	_	_
+3	under	under	ADP	_	_	_	_	_	_
+4	bordet	bord	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-65
+# text = Boken ligger på stolen.
+1	Boken	bok	NOUN	_	_	_	_	_	_
+2	ligger	ligga	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	stolen	stol	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-66
+# text = Han hjälper sin mormor ofta.
+1	Han	han	PRON	_	_	_	_	_	_
+2	hjälper	hjälpa	VERB	_	_	_	_	_	_
+3	sin	sin	DET	_	_	_	_	_	_
+4	mormor	mormor	NOUN	_	_	_	_	_	_
+5	ofta	ofta	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-67
+# text = Vi väntar på bussen.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	väntar	vänta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	bussen	buss	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-68
+# text = De hittar svaret snabbt.
+1	De	de	PRON	_	_	_	_	_	_
+2	hittar	hitta	VERB	_	_	_	_	_	_
+3	svaret	svar	NOUN	_	_	_	_	_	_
+4	snabbt	snabb	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-69
+# text = Läraren öppnar dörren.
+1	Läraren	lärare	NOUN	_	_	_	_	_	_
+2	öppnar	öppna	VERB	_	_	_	_	_	_
+3	dörren	dörr	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-70
+# text = Hon stänger fönstret.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	stänger	stänga	VERB	_	_	_	_	_	_
+3	fönstret	fönster	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-71
+# text = Filmen börjar klockan åtta.
+1	Filmen	film	NOUN	_	_	_	_	_	_
+2	börjar	börja	VERB	_	_	_	_	_	_
+3	klockan	klocka	NOUN	_	_	_	_	_	_
+4	åtta	åtta	NUM	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-72
+# text = Lektionen slutar sent idag.
+1	Lektionen	lektion	NOUN	_	_	_	_	_	_
+2	slutar	sluta	VERB	_	_	_	_	_	_
+3	sent	sent	ADV	_	_	_	_	_	_
+4	idag	idag	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-73
+# text = Familjen flyttar till en ny lägenhet.
+1	Familjen	familj	NOUN	_	_	_	_	_	_
+2	flyttar	flytta	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	lägenhet	lägenhet	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-74
+# text = Vi åker till landet på sommaren.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	åker	åka	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	landet	land	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	sommaren	sommar	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-75
+# text = Pojken cyklar till skolan.
+1	Pojken	pojke	NOUN	_	_	_	_	_	_
+2	cyklar	cykla	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	skolan	skola	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-76
+# text = Pappa kör bil till jobbet.
+1	Pappa	pappa	NOUN	_	_	_	_	_	_
+2	kör	köra	VERB	_	_	_	_	_	_
+3	bil	bil	NOUN	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	jobbet	jobb	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-77
+# text = Jag hoppas på en solig helg.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	hoppas	hoppas	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	solig	solig	ADJ	_	_	_	_	_	_
+6	helg	helg	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-78
+# text = Hon älskar att sjunga.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	älskar	älska	VERB	_	_	_	_	_	_
+3	att	att	PART	_	_	_	_	_	_
+4	sjunga	sjunga	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-79
+# text = Förstår du vad jag menar?
+1	Förstår	förstå	VERB	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	vad	vad	PRON	_	_	_	_	_	_
+4	jag	jag	PRON	_	_	_	_	_	_
+5	menar	mena	VERB	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-80
+# text = Jag tycker att det är bra.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	tycker	tycka	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	det	det	PRON	_	_	_	_	_	_
+5	är	vara	AUX	_	_	_	_	_	_
+6	bra	bra	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-81
+# text = Hon minns sin barndom väl.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	minns	minnas	VERB	_	_	_	_	_	_
+3	sin	sin	DET	_	_	_	_	_	_
+4	barndom	barndom	NOUN	_	_	_	_	_	_
+5	väl	väl	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-82
+# text = Jag glömmer nycklarna hemma.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	glömmer	glömma	VERB	_	_	_	_	_	_
+3	nycklarna	nyckel	NOUN	_	_	_	_	_	_
+4	hemma	hemma	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-83
+# text = Läraren visar bilden för eleverna.
+1	Läraren	lärare	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	bilden	bild	NOUN	_	_	_	_	_	_
+4	för	för	ADP	_	_	_	_	_	_
+5	eleverna	elev	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-84
+# text = Farfar berättar en saga.
+1	Farfar	farfar	NOUN	_	_	_	_	_	_
+2	berättar	berätta	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	saga	saga	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-85
+# text = Studenten frågar läraren om hjälp.
+1	Studenten	student	NOUN	_	_	_	_	_	_
+2	frågar	fråga	VERB	_	_	_	_	_	_
+3	läraren	lärare	NOUN	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	hjälp	hjälp	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-86
+# text = Barnet svarar på frågan.
+1	Barnet	barn	NOUN	_	_	_	_	_	_
+2	svarar	svara	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	frågan	fråga	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-87
+# text = Tåget stannar vid stationen.
+1	Tåget	tåg	NOUN	_	_	_	_	_	_
+2	stannar	stanna	VERB	_	_	_	_	_	_
+3	vid	vid	ADP	_	_	_	_	_	_
+4	stationen	station	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-88
+# text = Vi fortsätter arbetet imorgon.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	fortsätter	fortsätta	VERB	_	_	_	_	_	_
+3	arbetet	arbete	NOUN	_	_	_	_	_	_
+4	imorgon	imorgon	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-89
+# text = Tåget anländer försent.
+1	Tåget	tåg	NOUN	_	_	_	_	_	_
+2	anländer	anlända	VERB	_	_	_	_	_	_
+3	försent	försent	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-90
+# text = Det blir kallt i kväll.
+1	Det	det	PRON	_	_	_	_	_	_
+2	blir	bli	AUX	_	_	_	_	_	_
+3	kallt	kall	ADJ	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	kväll	kväll	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-91
+# text = Hon verkar trött idag.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	verkar	verka	VERB	_	_	_	_	_	_
+3	trött	trött	ADJ	_	_	_	_	_	_
+4	idag	idag	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-92
+# text = Blomman dör utan vatten.
+1	Blomman	blomma	NOUN	_	_	_	_	_	_
+2	dör	dö	VERB	_	_	_	_	_	_
+3	utan	utan	ADP	_	_	_	_	_	_
+4	vatten	vatten	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-93
+# text = Fisken lever i vattnet.
+1	Fisken	fisk	NOUN	_	_	_	_	_	_
+2	lever	leva	VERB	_	_	_	_	_	_
+3	i	i	ADP	_	_	_	_	_	_
+4	vattnet	vatten	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-94
+# text = Hon köpte en dyr klänning.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	dyr	dyr	ADJ	_	_	_	_	_	_
+5	klänning	klänning	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-95
+# text = Vi drack kaffe efter middagen.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	drack	dricka	VERB	_	_	_	_	_	_
+3	kaffe	kaffe	NOUN	_	_	_	_	_	_
+4	efter	efter	ADP	_	_	_	_	_	_
+5	middagen	middag	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-96
+# text = Hon sjöng en vacker sång.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	sjöng	sjunga	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	vacker	vacker	ADJ	_	_	_	_	_	_
+5	sång	sång	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-97
+# text = Pojken sprang fort hem.
+1	Pojken	pojke	NOUN	_	_	_	_	_	_
+2	sprang	springa	VERB	_	_	_	_	_	_
+3	fort	fort	ADV	_	_	_	_	_	_
+4	hem	hem	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-98
+# text = Hon skrev ett brev till mig.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	skrev	skriva	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	brev	brev	NOUN	_	_	_	_	_	_
+5	till	till	ADP	_	_	_	_	_	_
+6	mig	mig	PRON	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-99
+# text = Han tog hissen upp till kontoret.
+1	Han	han	PRON	_	_	_	_	_	_
+2	tog	ta	VERB	_	_	_	_	_	_
+3	hissen	hiss	NOUN	_	_	_	_	_	_
+4	upp	upp	ADV	_	_	_	_	_	_
+5	till	till	ADP	_	_	_	_	_	_
+6	kontoret	kontor	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-100
+# text = Läraren gav eleverna läxor.
+1	Läraren	lärare	NOUN	_	_	_	_	_	_
+2	gav	ge	VERB	_	_	_	_	_	_
+3	eleverna	elev	NOUN	_	_	_	_	_	_
+4	läxor	läxa	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_

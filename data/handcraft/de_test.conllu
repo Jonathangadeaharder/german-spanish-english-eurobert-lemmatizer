@@ -1,0 +1,1116 @@
+# sent_id = handcraft-de-1
+# text = Der Hund läuft schnell durch den Park.
+1	Der	der	DET	_	_	_	_	_	_
+2	Hund	Hund	NOUN	_	_	_	_	_	_
+3	läuft	laufen	VERB	_	_	_	_	_	_
+4	schnell	schnell	ADV	_	_	_	_	_	_
+5	durch	durch	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Park	Park	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-2
+# text = Ich habe gestern ein interessantes Buch gelesen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	gestern	gestern	ADV	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	interessantes	interessant	ADJ	_	_	_	_	_	_
+6	Buch	Buch	NOUN	_	_	_	_	_	_
+7	gelesen	lesen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-3
+# text = Die Sonne scheint heute sehr hell.
+1	Die	der	DET	_	_	_	_	_	_
+2	Sonne	Sonne	NOUN	_	_	_	_	_	_
+3	scheint	scheinen	VERB	_	_	_	_	_	_
+4	heute	heute	ADV	_	_	_	_	_	_
+5	sehr	sehr	ADV	_	_	_	_	_	_
+6	hell	hell	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-4
+# text = Wir gehen morgen ins Kino, weil ein neuer Film läuft.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	gehen	gehen	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	ins	in	ADP	_	_	_	_	_	_
+5	Kino	Kino	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	ein	ein	DET	_	_	_	_	_	_
+9	neuer	neu	ADJ	_	_	_	_	_	_
+10	Film	Film	NOUN	_	_	_	_	_	_
+11	läuft	laufen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-5
+# text = Mein Bruder arbeitet in einer großen Firma in Berlin.
+1	Mein	mein	PRON	_	_	_	_	_	_
+2	Bruder	Bruder	NOUN	_	_	_	_	_	_
+3	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	einer	ein	DET	_	_	_	_	_	_
+6	großen	groß	ADJ	_	_	_	_	_	_
+7	Firma	Firma	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	Berlin	Berlin	PROPN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-6
+# text = Kannst du mir bitte das Buch geben?
+1	Kannst	können	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	bitte	bitte	ADV	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Buch	Buch	NOUN	_	_	_	_	_	_
+7	geben	geben	VERB	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-7
+# text = Das Kind spielt mit dem roten Ball im Garten.
+1	Das	der	DET	_	_	_	_	_	_
+2	Kind	Kind	NOUN	_	_	_	_	_	_
+3	spielt	spielen	VERB	_	_	_	_	_	_
+4	mit	mit	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	roten	rot	ADJ	_	_	_	_	_	_
+7	Ball	Ball	NOUN	_	_	_	_	_	_
+8	im	in	ADP	_	_	_	_	_	_
+9	Garten	Garten	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-8
+# text = Sie hat lange Haare und blaue Augen.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	lange	lang	ADJ	_	_	_	_	_	_
+4	Haare	Haar	NOUN	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	blaue	blau	ADJ	_	_	_	_	_	_
+7	Augen	Auge	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-9
+# text = Am Wochenende fahren wir mit dem Zug nach München.
+1	Am	an	ADP	_	_	_	_	_	_
+2	Wochenende	Wochenende	NOUN	_	_	_	_	_	_
+3	fahren	fahren	VERB	_	_	_	_	_	_
+4	wir	wir	PRON	_	_	_	_	_	_
+5	mit	mit	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Zug	Zug	NOUN	_	_	_	_	_	_
+8	nach	nach	ADP	_	_	_	_	_	_
+9	München	München	PROPN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-10
+# text = Das Wasser ist zu kalt zum Schwimmen.
+1	Das	der	DET	_	_	_	_	_	_
+2	Wasser	Wasser	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	zu	zu	ADV	_	_	_	_	_	_
+5	kalt	kalt	ADJ	_	_	_	_	_	_
+6	zum	zu	ADP	_	_	_	_	_	_
+7	Schwimmen	Schwimmen	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-11
+# text = Er spricht gut Deutsch und ein wenig Französisch.
+1	Er	er	PRON	_	_	_	_	_	_
+2	spricht	sprechen	VERB	_	_	_	_	_	_
+3	gut	gut	ADV	_	_	_	_	_	_
+4	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	ein	ein	DET	_	_	_	_	_	_
+7	wenig	wenig	ADV	_	_	_	_	_	_
+8	Französisch	Französisch	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-12
+# text = Die Kinder haben ihre Hausaufgaben gemacht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	haben	haben	AUX	_	_	_	_	_	_
+4	ihre	ihr	PRON	_	_	_	_	_	_
+5	Hausaufgaben	Hausaufgabe	NOUN	_	_	_	_	_	_
+6	gemacht	machen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-13
+# text = Im Winter schneit es oft in den Alpen.
+1	Im	in	ADP	_	_	_	_	_	_
+2	Winter	Winter	NOUN	_	_	_	_	_	_
+3	schneit	schneien	VERB	_	_	_	_	_	_
+4	es	es	PRON	_	_	_	_	_	_
+5	oft	oft	ADV	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Alpen	Alpen	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-14
+# text = Wo wohnst du jetzt?
+1	Wo	wo	ADV	_	_	_	_	_	_
+2	wohnst	wohnen	VERB	_	_	_	_	_	_
+3	du	du	PRON	_	_	_	_	_	_
+4	jetzt	jetzt	ADV	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-15
+# text = Sie hat eine Tasche aus Leder gekauft.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Tasche	Tasche	NOUN	_	_	_	_	_	_
+5	aus	aus	ADP	_	_	_	_	_	_
+6	Leder	Leder	NOUN	_	_	_	_	_	_
+7	gekauft	kaufen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-16
+# text = Der Lehrer erklärt den Schülern die Grammatik.
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	erklärt	erklären	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Schülern	Schüler	NOUN	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Grammatik	Grammatik	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-17
+# text = Wir haben heute keinen Kaffee mehr.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	heute	heute	ADV	_	_	_	_	_	_
+4	kein	kein	DET	_	_	_	_	_	_
+5	Kaffee	Kaffee	NOUN	_	_	_	_	_	_
+6	mehr	mehr	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-18
+# text = Das Auto fährt sehr schnell auf der Autobahn.
+1	Das	der	DET	_	_	_	_	_	_
+2	Auto	Auto	NOUN	_	_	_	_	_	_
+3	fährt	fahren	VERB	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	schnell	schnell	ADV	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Autobahn	Autobahn	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-19
+# text = Ich möchte gern eine Tasse Tee trinken.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	möchte	mögen	AUX	_	_	_	_	_	_
+3	gern	gern	ADV	_	_	_	_	_	_
+4	eine	ein	DET	_	_	_	_	_	_
+5	Tasse	Tasse	NOUN	_	_	_	_	_	_
+6	Tee	Tee	NOUN	_	_	_	_	_	_
+7	trinken	trinken	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-20
+# text = Die Blumen im Garten blühen schon.
+1	Die	der	DET	_	_	_	_	_	_
+2	Blumen	Blume	NOUN	_	_	_	_	_	_
+3	im	in	ADP	_	_	_	_	_	_
+4	Garten	Garten	NOUN	_	_	_	_	_	_
+5	blühen	blühen	VERB	_	_	_	_	_	_
+6	schon	schon	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-21
+# text = Sein Vater ist vor drei Jahren gestorben.
+1	Sein	sein	PRON	_	_	_	_	_	_
+2	Vater	Vater	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	vor	vor	ADP	_	_	_	_	_	_
+5	drei	drei	NUM	_	_	_	_	_	_
+6	Jahren	Jahr	NOUN	_	_	_	_	_	_
+7	gestorben	sterben	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-22
+# text = Die Tür steht offen, weil es warm ist.
+1	Die	der	DET	_	_	_	_	_	_
+2	Tür	Tür	NOUN	_	_	_	_	_	_
+3	steht	stehen	VERB	_	_	_	_	_	_
+4	offen	offen	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	weil	weil	SCONJ	_	_	_	_	_	_
+7	es	es	PRON	_	_	_	_	_	_
+8	warm	warm	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-23
+# text = Hast du schon das neue Restaurant probiert?
+1	Hast	haben	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	schon	schon	ADV	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	neue	neu	ADJ	_	_	_	_	_	_
+6	Restaurant	Restaurant	NOUN	_	_	_	_	_	_
+7	probiert	probieren	VERB	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-24
+# text = Wir werden nächste Woche nach Spanien fliegen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	werden	werden	AUX	_	_	_	_	_	_
+3	nächste	nächst	ADJ	_	_	_	_	_	_
+4	Woche	Woche	NOUN	_	_	_	_	_	_
+5	nach	nach	ADP	_	_	_	_	_	_
+6	Spanien	Spanien	PROPN	_	_	_	_	_	_
+7	fliegen	fliegen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-25
+# text = Die Straße ist wegen des Schnees gesperrt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Straße	Straße	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	wegen	wegen	ADP	_	_	_	_	_	_
+5	des	der	DET	_	_	_	_	_	_
+6	Schnees	Schnee	NOUN	_	_	_	_	_	_
+7	gesperrt	sperren	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-26
+# text = Kann ich bitte die Rechnung haben?
+1	Kann	können	AUX	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	bitte	bitte	ADV	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+6	haben	haben	VERB	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-27
+# text = Die Katze schläft auf dem Sofa im Wohnzimmer.
+1	Die	der	DET	_	_	_	_	_	_
+2	Katze	Katze	NOUN	_	_	_	_	_	_
+3	schläft	schlafen	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Sofa	Sofa	NOUN	_	_	_	_	_	_
+7	im	in	ADP	_	_	_	_	_	_
+8	Wohnzimmer	Wohnzimmer	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-28
+# text = Trotz des Regens sind wir spazieren gegangen.
+1	Trotz	trotz	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Regens	Regen	NOUN	_	_	_	_	_	_
+4	sind	sein	AUX	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	spazieren	spazieren	VERB	_	_	_	_	_	_
+7	gegangen	gehen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-29
+# text = Er hat vergessen, die Tür abzuschließen.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	vergessen	vergessen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Tür	Tür	NOUN	_	_	_	_	_	_
+7	abzuschließen	abschließen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-30
+# text = Das Museum hat eine große Sammlung alter Gemälde.
+1	Das	der	DET	_	_	_	_	_	_
+2	Museum	Museum	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	eine	ein	DET	_	_	_	_	_	_
+5	große	groß	ADJ	_	_	_	_	_	_
+6	Sammlung	Sammlung	NOUN	_	_	_	_	_	_
+7	alter	alt	ADJ	_	_	_	_	_	_
+8	Gemälde	Gemälde	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-31
+# text = Ich brauche Hilfe bei dieser schwierigen Aufgabe.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	brauche	brauchen	VERB	_	_	_	_	_	_
+3	Hilfe	Hilfe	NOUN	_	_	_	_	_	_
+4	bei	bei	ADP	_	_	_	_	_	_
+5	dieser	dieser	DET	_	_	_	_	_	_
+6	schwierigen	schwierig	ADJ	_	_	_	_	_	_
+7	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-32
+# text = Während des Essens hat er telefoniert.
+1	Während	während	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Essens	Essen	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	telefoniert	telefonieren	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-33
+# text = Die Studentin liest ein Buch über deutsche Geschichte.
+1	Die	der	DET	_	_	_	_	_	_
+2	Studentin	Studentin	NOUN	_	_	_	_	_	_
+3	liest	lesen	VERB	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	Buch	Buch	NOUN	_	_	_	_	_	_
+6	über	über	ADP	_	_	_	_	_	_
+7	deutsche	deutsch	ADJ	_	_	_	_	_	_
+8	Geschichte	Geschichte	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-34
+# text = Neben dem Bahnhof gibt es eine Apotheke.
+1	Neben	neben	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Bahnhof	Bahnhof	NOUN	_	_	_	_	_	_
+4	gibt	geben	VERB	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	Apotheke	Apotheke	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-35
+# text = Die Kirche wurde im zwölften Jahrhundert gebaut.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kirche	Kirche	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	im	in	ADP	_	_	_	_	_	_
+5	zwölften	zwölft	ADJ	_	_	_	_	_	_
+6	Jahrhundert	Jahrhundert	NOUN	_	_	_	_	_	_
+7	gebaut	bauen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-36
+# text = Wir haben den ganzen Tag gearbeitet.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	ganzen	ganz	ADJ	_	_	_	_	_	_
+5	Tag	Tag	NOUN	_	_	_	_	_	_
+6	gearbeitet	arbeiten	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-37
+# text = Sie hat zum Geburtstag eine Uhr geschenkt bekommen.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	zum	zu	ADP	_	_	_	_	_	_
+4	Geburtstag	Geburtstag	NOUN	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	Uhr	Uhr	NOUN	_	_	_	_	_	_
+7	geschenkt	schenken	VERB	_	_	_	_	_	_
+8	bekommen	bekommen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-38
+# text = Der Kaffee ist leider schon kalt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Kaffee	Kaffee	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	leider	leider	ADV	_	_	_	_	_	_
+5	schon	schon	ADV	_	_	_	_	_	_
+6	kalt	kalt	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-39
+# text = Ohne dich kann ich das nicht machen.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	dich	du	PRON	_	_	_	_	_	_
+3	kann	können	AUX	_	_	_	_	_	_
+4	ich	ich	PRON	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	nicht	nicht	PART	_	_	_	_	_	_
+7	machen	machen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-40
+# text = Die Kinder spielen fröhlich auf dem Spielplatz.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	spielen	spielen	VERB	_	_	_	_	_	_
+4	fröhlich	fröhlich	ADV	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Spielplatz	Spielplatz	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-41
+# text = Er arbeitet seit fünf Jahren bei derselben Firma.
+1	Er	er	PRON	_	_	_	_	_	_
+2	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+3	seit	seit	ADP	_	_	_	_	_	_
+4	fünf	fünf	NUM	_	_	_	_	_	_
+5	Jahren	Jahr	NOUN	_	_	_	_	_	_
+6	bei	bei	ADP	_	_	_	_	_	_
+7	derselben	derselbe	DET	_	_	_	_	_	_
+8	Firma	Firma	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-42
+# text = Zwischen den Städten gibt es eine schnelle Zugverbindung.
+1	Zwischen	zwischen	ADP	_	_	_	_	_	_
+2	den	der	DET	_	_	_	_	_	_
+3	Städten	Stadt	NOUN	_	_	_	_	_	_
+4	gibt	geben	VERB	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	schnelle	schnell	ADJ	_	_	_	_	_	_
+8	Zugverbindung	Zugverbindung	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-43
+# text = Die Polizei hat den Dieb festgenommen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Polizei	Polizei	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Dieb	Dieb	NOUN	_	_	_	_	_	_
+6	festgenommen	festnehmen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-44
+# text = Wann beginnt der Film im Kino?
+1	Wann	wann	ADV	_	_	_	_	_	_
+2	beginnt	beginnen	VERB	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Film	Film	NOUN	_	_	_	_	_	_
+5	im	in	ADP	_	_	_	_	_	_
+6	Kino	Kino	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-45
+# text = Sie haben eine schöne Wohnung in der Innenstadt gefunden.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	schöne	schön	ADJ	_	_	_	_	_	_
+5	Wohnung	Wohnung	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Innenstadt	Innenstadt	NOUN	_	_	_	_	_	_
+9	gefunden	finden	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-46
+# text = Statt Tee trinkt er lieber Kaffee.
+1	Statt	statt	ADP	_	_	_	_	_	_
+2	Tee	Tee	NOUN	_	_	_	_	_	_
+3	trinkt	trinken	VERB	_	_	_	_	_	_
+4	er	er	PRON	_	_	_	_	_	_
+5	lieber	lieber	ADV	_	_	_	_	_	_
+6	Kaffee	Kaffee	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-47
+# text = Der Arzt hat gesagt, ich soll mehr Wasser trinken.
+1	Der	der	DET	_	_	_	_	_	_
+2	Arzt	Arzt	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	gesagt	sagen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	soll	sollen	AUX	_	_	_	_	_	_
+8	mehr	mehr	ADV	_	_	_	_	_	_
+9	Wasser	Wasser	NOUN	_	_	_	_	_	_
+10	trinken	trinken	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-48
+# text = Der Himmel ist heute grau und bewölkt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Himmel	Himmel	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	heute	heute	ADV	_	_	_	_	_	_
+5	grau	grau	ADJ	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	bewölkt	bewölkt	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-49
+# text = Innerhalb einer Woche hat er das Buch gelesen.
+1	Innerhalb	innerhalb	ADP	_	_	_	_	_	_
+2	einer	ein	DET	_	_	_	_	_	_
+3	Woche	Woche	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Buch	Buch	NOUN	_	_	_	_	_	_
+8	gelesen	lesen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-50
+# text = Der Hund läuft über die grüne Wiese.
+1	Der	der	DET	_	_	_	_	_	_
+2	Hund	Hund	NOUN	_	_	_	_	_	_
+3	läuft	laufen	VERB	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	grüne	grün	ADJ	_	_	_	_	_	_
+7	Wiese	Wiese	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-51
+# text = Gegen Abend wurde es kühler.
+1	Gegen	gegen	ADP	_	_	_	_	_	_
+2	Abend	Abend	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	es	es	PRON	_	_	_	_	_	_
+5	kühler	kühl	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-52
+# text = Wir haben uns gestern sehr gut unterhalten.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	uns	uns	PRON	_	_	_	_	_	_
+4	gestern	gestern	ADV	_	_	_	_	_	_
+5	sehr	sehr	ADV	_	_	_	_	_	_
+6	gut	gut	ADV	_	_	_	_	_	_
+7	unterhalten	unterhalten	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-53
+# text = Das Restaurant ist wegen des guten Essens beliebt.
+1	Das	der	DET	_	_	_	_	_	_
+2	Restaurant	Restaurant	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	wegen	wegen	ADP	_	_	_	_	_	_
+5	des	der	DET	_	_	_	_	_	_
+6	guten	gut	ADJ	_	_	_	_	_	_
+7	Essens	Essen	NOUN	_	_	_	_	_	_
+8	beliebt	beliebt	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-54
+# text = Um acht Uhr beginnt der Unterricht.
+1	Um	um	ADP	_	_	_	_	_	_
+2	acht	acht	NUM	_	_	_	_	_	_
+3	Uhr	Uhr	NOUN	_	_	_	_	_	_
+4	beginnt	beginnen	VERB	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Unterricht	Unterricht	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-55
+# text = Die Patienten warten im Wartezimmer auf den Arzt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Patienten	Patient	NOUN	_	_	_	_	_	_
+3	warten	warten	VERB	_	_	_	_	_	_
+4	im	in	ADP	_	_	_	_	_	_
+5	Wartezimmer	Wartezimmer	NOUN	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Arzt	Arzt	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-56
+# text = Ich habe meine Brille zu Hause vergessen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	meine	mein	PRON	_	_	_	_	_	_
+4	Brille	Brille	NOUN	_	_	_	_	_	_
+5	zu	zu	ADP	_	_	_	_	_	_
+6	Hause	Haus	NOUN	_	_	_	_	_	_
+7	vergessen	vergessen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-57
+# text = Außer mir waren alle pünktlich da.
+1	Außer	außer	ADP	_	_	_	_	_	_
+2	mir	ich	PRON	_	_	_	_	_	_
+3	waren	sein	AUX	_	_	_	_	_	_
+4	alle	alle	PRON	_	_	_	_	_	_
+5	pünktlich	pünktlich	ADV	_	_	_	_	_	_
+6	da	da	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-58
+# text = Der Chef hat eine wichtige Besprechung heute Nachmittag.
+1	Der	der	DET	_	_	_	_	_	_
+2	Chef	Chef	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	eine	ein	DET	_	_	_	_	_	_
+5	wichtige	wichtig	ADJ	_	_	_	_	_	_
+6	Besprechung	Besprechung	NOUN	_	_	_	_	_	_
+7	heute	heute	ADV	_	_	_	_	_	_
+8	Nachmittag	Nachmittag	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-59
+# text = Laut dem Wetterbericht wird es morgen regnen.
+1	Laut	laut	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Wetterbericht	Wetterbericht	NOUN	_	_	_	_	_	_
+4	wird	werden	AUX	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	morgen	morgen	ADV	_	_	_	_	_	_
+7	regnen	regnen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-60
+# text = Das Kind hat sich am Kopf verletzt.
+1	Das	der	DET	_	_	_	_	_	_
+2	Kind	Kind	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	am	an	ADP	_	_	_	_	_	_
+6	Kopf	Kopf	NOUN	_	_	_	_	_	_
+7	verletzt	verletzen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-61
+# text = Die Blätter fallen im Herbst von den Bäumen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Blätter	Blatt	NOUN	_	_	_	_	_	_
+3	fallen	fallen	VERB	_	_	_	_	_	_
+4	im	in	ADP	_	_	_	_	_	_
+5	Herbst	Herbst	NOUN	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Bäumen	Baum	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-62
+# text = Wir sprechen über die Zukunft des Projekts.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	sprechen	sprechen	VERB	_	_	_	_	_	_
+3	über	über	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+6	des	der	DET	_	_	_	_	_	_
+7	Projekts	Projekt	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-63
+# text = Jeder Mensch hat das Recht auf Bildung.
+1	Jeder	jeder	DET	_	_	_	_	_	_
+2	Mensch	Mensch	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Recht	Recht	NOUN	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	Bildung	Bildung	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-64
+# text = Die alte Dame geht langsam die Treppe hinauf.
+1	Die	der	DET	_	_	_	_	_	_
+2	alte	alt	ADJ	_	_	_	_	_	_
+3	Dame	Dame	NOUN	_	_	_	_	_	_
+4	geht	gehen	VERB	_	_	_	_	_	_
+5	langsam	langsam	ADV	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Treppe	Treppe	NOUN	_	_	_	_	_	_
+8	hinauf	hinauf	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-65
+# text = Wegen des Sturms fielen viele Züge aus.
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Sturms	Sturm	NOUN	_	_	_	_	_	_
+4	fielen	fallen	VERB	_	_	_	_	_	_
+5	viele	viel	DET	_	_	_	_	_	_
+6	Züge	Zug	NOUN	_	_	_	_	_	_
+7	aus	ausfallen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-66
+# text = Der Bäcker backt frisches Brot jeden Morgen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bäcker	Bäcker	NOUN	_	_	_	_	_	_
+3	backt	backen	VERB	_	_	_	_	_	_
+4	frisches	frisch	ADJ	_	_	_	_	_	_
+5	Brot	Brot	NOUN	_	_	_	_	_	_
+6	jeden	jeder	DET	_	_	_	_	_	_
+7	Morgen	Morgen	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-67
+# text = Ich fahre mit dem Bus zur Arbeit.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	fahre	fahren	VERB	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Bus	Bus	NOUN	_	_	_	_	_	_
+6	zur	zu	ADP	_	_	_	_	_	_
+7	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-68
+# text = Die Blumen kosten nur fünf Euro.
+1	Die	der	DET	_	_	_	_	_	_
+2	Blumen	Blume	NOUN	_	_	_	_	_	_
+3	kosten	kosten	VERB	_	_	_	_	_	_
+4	nur	nur	ADV	_	_	_	_	_	_
+5	fünf	fünf	NUM	_	_	_	_	_	_
+6	Euro	Euro	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-69
+# text = Sie hat den Schlüssel in der Tasche gefunden.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Schlüssel	Schlüssel	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Tasche	Tasche	NOUN	_	_	_	_	_	_
+8	gefunden	finden	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-70
+# text = Obwohl es spät war, blieb er noch.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	spät	spät	ADJ	_	_	_	_	_	_
+4	war	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	blieb	bleiben	VERB	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	noch	noch	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-71
+# text = Der Vogel singt laut auf dem Dach.
+1	Der	der	DET	_	_	_	_	_	_
+2	Vogel	Vogel	NOUN	_	_	_	_	_	_
+3	singt	singen	VERB	_	_	_	_	_	_
+4	laut	laut	ADV	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Dach	Dach	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-72
+# text = Die Touristen besuchen das Schloss am See.
+1	Die	der	DET	_	_	_	_	_	_
+2	Touristen	Tourist	NOUN	_	_	_	_	_	_
+3	besuchen	besuchen	VERB	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Schloss	Schloss	NOUN	_	_	_	_	_	_
+6	am	an	ADP	_	_	_	_	_	_
+7	See	See	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-73
+# text = Ich habe keine Lust mehr auf Diskussionen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	keine	kein	DET	_	_	_	_	_	_
+4	Lust	Lust	NOUN	_	_	_	_	_	_
+5	mehr	mehr	ADV	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	Diskussionen	Diskussion	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-74
+# text = Der Supermarkt schließt um achtzehn Uhr.
+1	Der	der	DET	_	_	_	_	_	_
+2	Supermarkt	Supermarkt	NOUN	_	_	_	_	_	_
+3	schließt	schließen	VERB	_	_	_	_	_	_
+4	um	um	ADP	_	_	_	_	_	_
+5	achtzehn	achtzehn	NUM	_	_	_	_	_	_
+6	Uhr	Uhr	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-75
+# text = Bevor du gehst, schließe bitte die Fenster.
+1	Bevor	bevor	SCONJ	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	gehst	gehen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	schließe	schließen	VERB	_	_	_	_	_	_
+6	bitte	bitte	ADV	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Fenster	Fenster	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-76
+# text = Die Frau trägt ein rotes Kleid und schwarze Schuhe.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frau	Frau	NOUN	_	_	_	_	_	_
+3	trägt	tragen	VERB	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	rotes	rot	ADJ	_	_	_	_	_	_
+6	Kleid	Kleid	NOUN	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	schwarze	schwarz	ADJ	_	_	_	_	_	_
+9	Schuhe	Schuh	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-77
+# text = Er hat sein Handy auf den Tisch gelegt.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sein	sein	PRON	_	_	_	_	_	_
+4	Handy	Handy	NOUN	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Tisch	Tisch	NOUN	_	_	_	_	_	_
+8	gelegt	legen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-78
+# text = Die Kinder haben einen Sandburg gebaut.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	haben	haben	AUX	_	_	_	_	_	_
+4	einen	ein	DET	_	_	_	_	_	_
+5	Sandburg	Sandburg	NOUN	_	_	_	_	_	_
+6	gebaut	bauen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-79
+# text = Die Bibliothek hat über zehntausend Bücher.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bibliothek	Bibliothek	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	zehntausend	zehntausend	NUM	_	_	_	_	_	_
+6	Bücher	Buch	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-80
+# text = Niemand weiß, wo der Schlüssel ist.
+1	Niemand	niemand	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	wo	wo	ADV	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Schlüssel	Schlüssel	NOUN	_	_	_	_	_	_
+7	ist	sein	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-81
+# text = Das Konzert findet in der Stadthalle statt.
+1	Das	der	DET	_	_	_	_	_	_
+2	Konzert	Konzert	NOUN	_	_	_	_	_	_
+3	findet	finden	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Stadthalle	Stadthalle	NOUN	_	_	_	_	_	_
+7	statt	stattfinden	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-82
+# text = Wenn es regnet, bleiben wir zu Hause.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	regnet	regnen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	bleiben	bleiben	VERB	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	zu	zu	ADP	_	_	_	_	_	_
+8	Hause	Haus	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-83
+# text = Die Mannschaft hat das Spiel mit zwei zu eins gewonnen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mannschaft	Mannschaft	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Spiel	Spiel	NOUN	_	_	_	_	_	_
+6	mit	mit	ADP	_	_	_	_	_	_
+7	zwei	zwei	NUM	_	_	_	_	_	_
+8	zu	zu	ADP	_	_	_	_	_	_
+9	eins	eins	NUM	_	_	_	_	_	_
+10	gewonnen	gewinnen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-84
+# text = Er hat den Fehler selbst bemerkt.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Fehler	Fehler	NOUN	_	_	_	_	_	_
+5	selbst	selbst	ADV	_	_	_	_	_	_
+6	bemerkt	bemerken	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-85
+# text = Die Gäste kamen erst um zehn Uhr an.
+1	Die	der	DET	_	_	_	_	_	_
+2	Gäste	Gast	NOUN	_	_	_	_	_	_
+3	kamen	kommen	VERB	_	_	_	_	_	_
+4	erst	erst	ADV	_	_	_	_	_	_
+5	um	um	ADP	_	_	_	_	_	_
+6	zehn	zehn	NUM	_	_	_	_	_	_
+7	Uhr	Uhr	NOUN	_	_	_	_	_	_
+8	an	ankommen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-86
+# text = In der Küche riecht es nach Kaffee.
+1	In	in	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Küche	Küche	NOUN	_	_	_	_	_	_
+4	riecht	riechen	VERB	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	nach	nach	ADP	_	_	_	_	_	_
+7	Kaffee	Kaffee	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-87
+# text = Wir sind den ganzen Weg gelaufen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	sind	sein	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	ganzen	ganz	ADJ	_	_	_	_	_	_
+5	Weg	Weg	NOUN	_	_	_	_	_	_
+6	gelaufen	laufen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-88
+# text = Wer hat das Fenster geöffnet?
+1	Wer	wer	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Fenster	Fenster	NOUN	_	_	_	_	_	_
+5	geöffnet	öffnen	VERB	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-89
+# text = Das Kind möchte einen Apfel essen.
+1	Das	der	DET	_	_	_	_	_	_
+2	Kind	Kind	NOUN	_	_	_	_	_	_
+3	möchte	mögen	AUX	_	_	_	_	_	_
+4	einen	ein	DET	_	_	_	_	_	_
+5	Apfel	Apfel	NOUN	_	_	_	_	_	_
+6	essen	essen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-90
+# text = Sie hat den Brief mit der Hand geschrieben.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Brief	Brief	NOUN	_	_	_	_	_	_
+5	mit	mit	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Hand	Hand	NOUN	_	_	_	_	_	_
+8	geschrieben	schreiben	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-91
+# text = Der Stuhl neben dem Fenster ist aus Holz.
+1	Der	der	DET	_	_	_	_	_	_
+2	Stuhl	Stuhl	NOUN	_	_	_	_	_	_
+3	neben	neben	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Fenster	Fenster	NOUN	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	aus	aus	ADP	_	_	_	_	_	_
+8	Holz	Holz	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-92
+# text = Mein Großvater hat mir diese alte Uhr gegeben.
+1	Mein	mein	PRON	_	_	_	_	_	_
+2	Großvater	Großvater	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	mir	ich	PRON	_	_	_	_	_	_
+5	diese	dieser	DET	_	_	_	_	_	_
+6	alte	alt	ADJ	_	_	_	_	_	_
+7	Uhr	Uhr	NOUN	_	_	_	_	_	_
+8	gegeben	geben	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-93
+# text = Die Fahrt dauert etwa dreißig Minuten.
+1	Die	der	DET	_	_	_	_	_	_
+2	Fahrt	Fahrt	NOUN	_	_	_	_	_	_
+3	dauert	dauern	VERB	_	_	_	_	_	_
+4	etwa	etwa	ADV	_	_	_	_	_	_
+5	dreißig	dreißig	NUM	_	_	_	_	_	_
+6	Minuten	Minute	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-94
+# text = Neben dem Haus steht ein alter Baum.
+1	Neben	neben	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Haus	Haus	NOUN	_	_	_	_	_	_
+4	steht	stehen	VERB	_	_	_	_	_	_
+5	ein	ein	DET	_	_	_	_	_	_
+6	alter	alt	ADJ	_	_	_	_	_	_
+7	Baum	Baum	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-95
+# text = Der Junge wirft den Ball über den Zaun.
+1	Der	der	DET	_	_	_	_	_	_
+2	Junge	Junge	NOUN	_	_	_	_	_	_
+3	wirft	werfen	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Ball	Ball	NOUN	_	_	_	_	_	_
+6	über	über	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Zaun	Zaun	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-96
+# text = Im Sommer gehen wir oft schwimmen.
+1	Im	in	ADP	_	_	_	_	_	_
+2	Sommer	Sommer	NOUN	_	_	_	_	_	_
+3	gehen	gehen	VERB	_	_	_	_	_	_
+4	wir	wir	PRON	_	_	_	_	_	_
+5	oft	oft	ADV	_	_	_	_	_	_
+6	schwimmen	schwimmen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-97
+# text = Die Gäste haben das Essen sehr gelobt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Gäste	Gast	NOUN	_	_	_	_	_	_
+3	haben	haben	AUX	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Essen	Essen	NOUN	_	_	_	_	_	_
+6	sehr	sehr	ADV	_	_	_	_	_	_
+7	gelobt	loben	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-98
+# text = Sie fährt mit dem Fahrrad zur Schule.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	fährt	fahren	VERB	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Fahrrad	Fahrrad	NOUN	_	_	_	_	_	_
+6	zur	zu	ADP	_	_	_	_	_	_
+7	Schule	Schule	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-99
+# text = Wir haben den ganzen Abend Karten gespielt.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	ganzen	ganz	ADJ	_	_	_	_	_	_
+5	Abend	Abend	NOUN	_	_	_	_	_	_
+6	Karten	Karte	NOUN	_	_	_	_	_	_
+7	gespielt	spielen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-de-100
+# text = Die Stadt liegt zwischen zwei Flüssen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stadt	Stadt	NOUN	_	_	_	_	_	_
+3	liegt	liegen	VERB	_	_	_	_	_	_
+4	zwischen	zwischen	ADP	_	_	_	_	_	_
+5	zwei	zwei	NUM	_	_	_	_	_	_
+6	Flüssen	Fluss	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_

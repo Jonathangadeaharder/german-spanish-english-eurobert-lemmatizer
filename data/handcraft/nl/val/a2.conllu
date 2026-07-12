@@ -1,0 +1,1058 @@
+# sent_id = nl_a2_val_001
+# text = Ze willen graag een nieuwe auto kopen.
+1	Ze	ze	PRON	_	_	_	_	_	_
+2	willen	willen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+6	auto	auto	NOUN	_	_	_	_	_	_
+7	kopen	kopen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_002
+# text = Jan wil graag meer sporten.
+1	Jan	Jan	PROPN	_	_	_	_	_	_
+2	wil	willen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	meer	veel	DET	_	_	_	_	_	_
+5	sporten	sporten	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_003
+# text = Ze eten meestal pasta als lunch.
+1	Ze	ze	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	meestal	meestal	ADV	_	_	_	_	_	_
+4	pasta	pasta	NOUN	_	_	_	_	_	_
+5	als	als	SCONJ	_	_	_	_	_	_
+6	lunch	lunch	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_004
+# text = Jan drinkt graag rode wijn.
+1	Jan	Jan	PROPN	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	rode	rood	ADJ	_	_	_	_	_	_
+5	wijn	wijn	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_005
+# text = Peter koopt mooie bloemen in de stad.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	koopt	kopen	VERB	_	_	_	_	_	_
+3	mooie	mooi	ADJ	_	_	_	_	_	_
+4	bloemen	bloem	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_006
+# text = Zij wil graag een spannend boek lezen.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	wil	willen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	spannend	spannend	ADJ	_	_	_	_	_	_
+6	boek	boek	NOUN	_	_	_	_	_	_
+7	lezen	lezen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_007
+# text = Jan koopt een nieuwe telefoon in de stad.
+1	Jan	Jan	PROPN	_	_	_	_	_	_
+2	koopt	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+5	telefoon	telefoon	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	stad	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_008
+# text = Ze wonen vlakbij het centrum van Leiden.
+1	Ze	ze	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	vlakbij	vlakbij	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	centrum	centrum	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	Leiden	Leiden	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_009
+# text = Ze zijn gisteren op vakantie geweest naar Spanje.
+1	Ze	ze	PRON	_	_	_	_	_	_
+2	zijn	zijn	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	vakantie	vakantie	NOUN	_	_	_	_	_	_
+6	geweest	zijn	AUX	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	Spanje	Spanje	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_010
+# text = Mark eet graag pasta.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	pasta	pasta	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_011
+# text = We eten graag warm brood.
+1	We	wij	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	warm	warm	ADJ	_	_	_	_	_	_
+5	brood	brood	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_012
+# text = Ik woon vlakbij het centrum van Amsterdam.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	vlakbij	vlakbij	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	centrum	centrum	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_013
+# text = Ze wonen in een appartement in Groningen.
+1	Ze	ze	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appartement	appartement	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Groningen	Groningen	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_014
+# text = Tom woont in een appartement in Den Haag.
+1	Tom	Tom	PROPN	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appartement	appartement	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Den	Den	PROPN	_	_	_	_	_	_
+8	Haag	Haag	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_015
+# text = Mijn dochter gaat nog naar de basisschool.
+1	Mijn	mijn	PRON	_	_	_	_	_	_
+2	dochter	dochter	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	nog	nog	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	basisschool	basis_school	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_016
+# text = Jan drinkt nooit een flesje water in de avond.
+1	Jan	Jan	PROPN	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	nooit	nooit	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	flesje	fles	NOUN	_	_	_	_	_	_
+6	water	water	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	avond	avond	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_017
+# text = Tom gaat morgen met de fiets naar kantoor.
+1	Tom	Tom	PROPN	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	fiets	fiets	NOUN	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	kantoor	kantoor	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_018
+# text = Hij gaat vandaag naar school.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	vandaag	vandaag	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	school	school	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_019
+# text = Jullie hebben vanochtend de oude stad bezocht.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	hebben	hebben	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	oude	oud	ADJ	_	_	_	_	_	_
+6	stad	stad	NOUN	_	_	_	_	_	_
+7	bezocht	bezoeken	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_020
+# text = Peter gaat morgen met de fiets naar kantoor.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	fiets	fiets	NOUN	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	kantoor	kantoor	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_021
+# text = Anna eet vanavond een appel.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appel	appel	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_022
+# text = Lisa woont vlakbij het centrum van Amsterdam.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	vlakbij	vlakbij	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	centrum	centrum	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_023
+# text = Zij gaat morgen met de fiets naar school.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	fiets	fiets	NOUN	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	school	school	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_024
+# text = Emma is vanochtend te laat gekomen.
+1	Emma	Emma	PROPN	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	te	te	ADV	_	_	_	_	_	_
+5	laat	laat	ADJ	_	_	_	_	_	_
+6	gekomen	komen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_025
+# text = Emma is vanochtend naar huis gefietst.
+1	Emma	Emma	PROPN	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	huis	huis	NOUN	_	_	_	_	_	_
+6	gefietst	fietsen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_026
+# text = Mark kan goed het huis schoonmaken.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	kan	kunnen	VERB	_	_	_	_	_	_
+3	goed	goed	ADJ	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	huis	huis	NOUN	_	_	_	_	_	_
+6	schoonmaken	schoon_maken	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_027
+# text = Je koopt een nieuwe fiets in de stad.
+1	Je	je	PRON	_	_	_	_	_	_
+2	koopt	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+5	fiets	fiets	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	stad	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_028
+# text = We zijn vanochtend naar het station gerend.
+1	We	wij	PRON	_	_	_	_	_	_
+2	zijn	zijn	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	station	station	NOUN	_	_	_	_	_	_
+7	gerend	aan_rennen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_029
+# text = Sophie gaat vandaag naar de bioscoop.
+1	Sophie	Sophie	PROPN	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	vandaag	vandaag	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	bioscoop	bioscoop	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_030
+# text = Sophie moet vanavond een spannend boek lezen.
+1	Sophie	Sophie	PROPN	_	_	_	_	_	_
+2	moet	moeten	AUX	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	spannend	spannend	ADJ	_	_	_	_	_	_
+6	boek	boek	NOUN	_	_	_	_	_	_
+7	lezen	lezen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_031
+# text = Mark woont vlakbij het centrum van Amsterdam.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	vlakbij	vlakbij	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	centrum	centrum	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_032
+# text = Ze eten meestal een banaan als lunch.
+1	Ze	ze	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	meestal	meestal	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	banaan	banaan	NOUN	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	lunch	lunch	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_033
+# text = Ik kan goed naar de bioscoop gaan.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	kan	kunnen	VERB	_	_	_	_	_	_
+3	goed	goed	ADJ	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	bioscoop	bioscoop	NOUN	_	_	_	_	_	_
+7	gaan	gaan	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_034
+# text = Mark is gisteren naar huis gefietst.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	huis	huis	NOUN	_	_	_	_	_	_
+6	gefietst	fietsen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_035
+# text = Peter heeft vanochtend gisteren voetbal gespeeld.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	gisteren	gisteren	ADV	_	_	_	_	_	_
+5	voetbal	voetbal	NOUN	_	_	_	_	_	_
+6	gespeeld	spelen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_036
+# text = Jullie wonen in een appartement in Groningen.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appartement	appartement	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Groningen	Groningen	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_037
+# text = Zij koopt een leuk boek in de stad.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	koopt	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	leuk	leuk	ADJ	_	_	_	_	_	_
+5	boek	boek	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	stad	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_038
+# text = Zij kan goed een e-mail schrijven naar de leraar.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	kan	kunnen	VERB	_	_	_	_	_	_
+3	goed	goed	ADJ	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	e-mail	e-mail	NOUN	_	_	_	_	_	_
+6	schrijven	schrijven	VERB	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	leraar	leraar	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_039
+# text = Peter eet meestal een appel als lunch.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	meestal	meestal	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appel	appel	NOUN	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	lunch	lunch	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_040
+# text = Je gaat vandaag naar kantoor.
+1	Je	je	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	vandaag	vandaag	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	kantoor	kantoor	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_041
+# text = Hoe laat gaat de winkel dicht?
+1	Hoe	hoe	ADV	_	_	_	_	_	_
+2	laat	laat	ADJ	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	winkel	winkel	NOUN	_	_	_	_	_	_
+6	dicht	dicht	ADJ	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_042
+# text = We zijn vanochtend naar Amsterdam gegaan.
+1	We	wij	PRON	_	_	_	_	_	_
+2	zijn	zijn	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+6	gegaan	gaan	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_043
+# text = Peter koopt een nieuwe fiets in de stad.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	koopt	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+5	fiets	fiets	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	stad	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_044
+# text = Sophie eet meestal een banaan als lunch.
+1	Sophie	Sophie	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	meestal	meestal	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	banaan	banaan	NOUN	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	lunch	lunch	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_045
+# text = Zij woont in een appartement in Maastricht.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appartement	appartement	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Maastricht	Maastricht	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_046
+# text = Peter eet vanavond een banaan.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	banaan	banaan	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_047
+# text = Sophie gaat morgen met de fiets naar school.
+1	Sophie	Sophie	PROPN	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	fiets	fiets	NOUN	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	school	school	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_048
+# text = We hebben gisteren mijn huiswerk gemaakt.
+1	We	wij	PRON	_	_	_	_	_	_
+2	hebben	hebben	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	mijn	mijn	PRON	_	_	_	_	_	_
+5	huiswerk	huis_werk	NOUN	_	_	_	_	_	_
+6	gemaakt	maken	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_049
+# text = Zij heeft gisteren een lange wandeling gemaakt.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	lange	lang	ADJ	_	_	_	_	_	_
+6	wandeling	wandeling	NOUN	_	_	_	_	_	_
+7	gemaakt	maken	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_050
+# text = Je hebt gisteren een e-mail geschreven.
+1	Je	je	PRON	_	_	_	_	_	_
+2	hebt	hebben	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	e-mail	e-mail	NOUN	_	_	_	_	_	_
+6	geschreven	schrijven	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_051
+# text = Anna woont vlakbij het centrum van Groningen.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	vlakbij	vlakbij	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	centrum	centrum	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	Groningen	Groningen	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_052
+# text = Zij eet vanavond een banaan.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	banaan	banaan	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_053
+# text = Ik luister graag naar de radio.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	luister	luister	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	radio	radio	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_054
+# text = Mark gaat lopend naar de bioscoop.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	lopend	lopen	VERB	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	bioscoop	bioscoop	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_055
+# text = Emma heeft gisteren een goede film gekeken.
+1	Emma	Emma	PROPN	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	goede	goed	ADJ	_	_	_	_	_	_
+6	film	film	NOUN	_	_	_	_	_	_
+7	gekeken	kijken	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_056
+# text = Tom heeft vanochtend gisteren tennis gespeeld.
+1	Tom	Tom	PROPN	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	gisteren	gisteren	ADV	_	_	_	_	_	_
+5	tennis	tennis	NOUN	_	_	_	_	_	_
+6	gespeeld	spelen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_057
+# text = Sophie wil graag gezond eten.
+1	Sophie	Sophie	PROPN	_	_	_	_	_	_
+2	wil	willen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	gezond	gezond	ADJ	_	_	_	_	_	_
+5	eten	eten	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_058
+# text = Lisa is gisteren naar de supermarkt gelopen.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+7	gelopen	lopen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_059
+# text = Zij eet meestal een appel als lunch.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	meestal	meestal	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appel	appel	NOUN	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	lunch	lunch	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_060
+# text = Emma heeft vanochtend de oude stad bezocht.
+1	Emma	Emma	PROPN	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	oude	oud	ADJ	_	_	_	_	_	_
+6	stad	stad	NOUN	_	_	_	_	_	_
+7	bezocht	bezoeken	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_061
+# text = Hij eet meestal zoete chocolade als lunch.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	meestal	meestal	ADV	_	_	_	_	_	_
+4	zoete	zoet	ADJ	_	_	_	_	_	_
+5	chocolade	chocolade	NOUN	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	lunch	lunch	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_062
+# text = Hij drinkt elke ochtend een kopje thee.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	elke	elk	DET	_	_	_	_	_	_
+4	ochtend	ochtend	NOUN	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	kopje	kop	NOUN	_	_	_	_	_	_
+7	thee	thee	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_063
+# text = Hij is gisteren naar huis gefietst.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	huis	huis	NOUN	_	_	_	_	_	_
+6	gefietst	fietsen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_064
+# text = Mark drinkt elke ochtend koud bier.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	elke	elk	DET	_	_	_	_	_	_
+4	ochtend	ochtend	NOUN	_	_	_	_	_	_
+5	koud	koud	ADJ	_	_	_	_	_	_
+6	bier	bier	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_065
+# text = Jullie gaan morgen met de fiets naar het station.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	fiets	fiets	NOUN	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	station	station	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_066
+# text = Je gaat lopend naar het station.
+1	Je	je	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	lopend	lopen	VERB	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	station	station	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_067
+# text = Ik drink elke ochtend een glas water.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	drink	drinken	VERB	_	_	_	_	_	_
+3	elke	elk	DET	_	_	_	_	_	_
+4	ochtend	ochtend	NOUN	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	glas	glas	NOUN	_	_	_	_	_	_
+7	water	water	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_068
+# text = Ik eet meestal een appel als lunch.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	meestal	meestal	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appel	appel	NOUN	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	lunch	lunch	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_069
+# text = Tom koopt een warme jas in de stad.
+1	Tom	Tom	PROPN	_	_	_	_	_	_
+2	koopt	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	warme	warm	ADJ	_	_	_	_	_	_
+5	jas	jas	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	stad	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_070
+# text = Mark heeft vanochtend lekker gekookt.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	lekker	lekker	ADJ	_	_	_	_	_	_
+5	gekookt	koken	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_071
+# text = Peter moet vanavond beter Nederlands leren.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	moet	moeten	AUX	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	beter	goed	ADJ	_	_	_	_	_	_
+5	Nederlands	Nederlands	PROPN	_	_	_	_	_	_
+6	leren	leren	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_072
+# text = Hij kan goed boodschappen doen.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	kan	kunnen	VERB	_	_	_	_	_	_
+3	goed	goed	ADJ	_	_	_	_	_	_
+4	boodschappen	boodschap	NOUN	_	_	_	_	_	_
+5	doen	doen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_073
+# text = Mark woont al heel lang in Leiden.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	al	al	ADV	_	_	_	_	_	_
+4	heel	heel	ADJ	_	_	_	_	_	_
+5	lang	lang	ADJ	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Leiden	Leiden	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_074
+# text = Jullie eten graag verse vis.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	verse	vers	ADJ	_	_	_	_	_	_
+5	vis	vis	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_075
+# text = Tom eet graag pizza.
+1	Tom	Tom	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	pizza	pizza	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_076
+# text = Jullie hebben vanochtend een lange wandeling gemaakt.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	hebben	hebben	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	lange	lang	ADJ	_	_	_	_	_	_
+6	wandeling	wandeling	NOUN	_	_	_	_	_	_
+7	gemaakt	maken	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_077
+# text = Ik heb gisteren gisteren voetbal gespeeld.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	heb	hebben	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	gisteren	gisteren	ADV	_	_	_	_	_	_
+5	voetbal	voetbal	NOUN	_	_	_	_	_	_
+6	gespeeld	spelen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_078
+# text = Vandaag is het erg koud in Nederland.
+1	Vandaag	vandaag	ADV	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	het	het	PRON	_	_	_	_	_	_
+4	erg	erg	ADJ	_	_	_	_	_	_
+5	koud	koud	ADJ	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Nederland	Nederland	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_079
+# text = Anna eet graag zoete chocolade.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	zoete	zoet	ADJ	_	_	_	_	_	_
+5	chocolade	chocolade	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_080
+# text = Hij gaat lopend naar kantoor.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	lopend	lopen	VERB	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	kantoor	kantoor	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_081
+# text = Hij woont vlakbij het centrum van Den Haag.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	vlakbij	vlakbij	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	centrum	centrum	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	Den	Den	PROPN	_	_	_	_	_	_
+8	Haag	Haag	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_082
+# text = Vorig weekend was het erg zonnig in Utrecht.
+1	Vorig	vorig	ADJ	_	_	_	_	_	_
+2	weekend	weekend	NOUN	_	_	_	_	_	_
+3	was	zijn	AUX	_	_	_	_	_	_
+4	het	het	PRON	_	_	_	_	_	_
+5	erg	erg	ADJ	_	_	_	_	_	_
+6	zonnig	zonnig	ADJ	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	Utrecht	Utrecht	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_083
+# text = Mark drinkt nooit rode wijn in de avond.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	nooit	nooit	ADV	_	_	_	_	_	_
+4	rode	rood	ADJ	_	_	_	_	_	_
+5	wijn	wijn	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	avond	avond	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_084
+# text = Ze kopen een nieuwe telefoon in de stad.
+1	Ze	ze	PRON	_	_	_	_	_	_
+2	kopen	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+5	telefoon	telefoon	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	stad	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_085
+# text = Mark eet vanavond warm brood.
+1	Mark	Mark	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	warm	warm	ADJ	_	_	_	_	_	_
+5	brood	brood	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_086
+# text = Lisa eet vanavond zoete chocolade.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	zoete	zoet	ADJ	_	_	_	_	_	_
+5	chocolade	chocolade	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_087
+# text = Zij is vanochtend naar huis gefietst.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	vanochtend	vanochtend	ADV	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	huis	huis	NOUN	_	_	_	_	_	_
+6	gefietst	fietsen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_088
+# text = Sophie woont vlakbij het centrum van Amsterdam.
+1	Sophie	Sophie	PROPN	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	vlakbij	vlakbij	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	centrum	centrum	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_089
+# text = Je drinkt nooit warme koffie in de avond.
+1	Je	je	PRON	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	nooit	nooit	ADV	_	_	_	_	_	_
+4	warme	warm	ADJ	_	_	_	_	_	_
+5	koffie	koffie	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	avond	avond	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_090
+# text = Peter kan goed een nieuwe auto kopen.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	kan	kunnen	VERB	_	_	_	_	_	_
+3	goed	goed	ADJ	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+6	auto	auto	NOUN	_	_	_	_	_	_
+7	kopen	kopen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_091
+# text = Ik eet vanavond warm brood.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	warm	warm	ADJ	_	_	_	_	_	_
+5	brood	brood	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_092
+# text = Jan wil graag een spannend boek lezen.
+1	Jan	Jan	PROPN	_	_	_	_	_	_
+2	wil	willen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	spannend	spannend	ADJ	_	_	_	_	_	_
+6	boek	boek	NOUN	_	_	_	_	_	_
+7	lezen	lezen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_093
+# text = Peter wil graag mijn vrienden ontmoeten.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	wil	willen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	mijn	mijn	PRON	_	_	_	_	_	_
+5	vrienden	vriend	NOUN	_	_	_	_	_	_
+6	ontmoeten	ontmoeten	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_094
+# text = Sophie woont al heel lang in Groningen.
+1	Sophie	Sophie	PROPN	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	al	al	ADV	_	_	_	_	_	_
+4	heel	heel	ADJ	_	_	_	_	_	_
+5	lang	lang	ADJ	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Groningen	Groningen	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_095
+# text = Peter drinkt elke ochtend rode wijn.
+1	Peter	Peter	PROPN	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	elke	elk	DET	_	_	_	_	_	_
+4	ochtend	ochtend	NOUN	_	_	_	_	_	_
+5	rode	rood	ADJ	_	_	_	_	_	_
+6	wijn	wijn	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_096
+# text = Je woont in een appartement in Den Haag.
+1	Je	je	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appartement	appartement	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Den	Den	PROPN	_	_	_	_	_	_
+8	Haag	Haag	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_097
+# text = We eten vanavond rijst met kip.
+1	We	wij	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	vanavond	vanavond	ADV	_	_	_	_	_	_
+4	rijst	rijst	NOUN	_	_	_	_	_	_
+5	met	met	ADP	_	_	_	_	_	_
+6	kip	kip	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_098
+# text = Anna kan goed boodschappen doen.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	kan	kunnen	VERB	_	_	_	_	_	_
+3	goed	goed	ADJ	_	_	_	_	_	_
+4	boodschappen	boodschap	NOUN	_	_	_	_	_	_
+5	doen	doen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_099
+# text = Zij woont in een appartement in Utrecht.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	appartement	appartement	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Utrecht	Utrecht	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a2_val_100
+# text = Lisa heeft gisteren een goede film gekeken.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	heeft	hebben	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	goede	goed	ADJ	_	_	_	_	_	_
+6	film	film	NOUN	_	_	_	_	_	_
+7	gekeken	kijken	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+

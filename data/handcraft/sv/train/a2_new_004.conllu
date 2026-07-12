@@ -1,0 +1,2129 @@
+# sent_id = sv_a2_train_601
+# text = Erik dricker en kopp kaffe ofta.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	kopp	kopp	NOUN	_	_	_	_	_	_
+5	kaffe	kaffe	NOUN	_	_	_	_	_	_
+6	ofta	ofta	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_602
+# text = Hon köpte en ny cykel igår.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	ny	ny	ADJ	_	_	_	_	_	_
+5	cykel	cykel	NOUN	_	_	_	_	_	_
+6	igår	igår	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_603
+# text = Min dotter skrev ett kort brev igår.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	skrev	skriva	VERB	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	kort	kor	ADJ	_	_	_	_	_	_
+6	brev	brev	NOUN	_	_	_	_	_	_
+7	igår	igår	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_604
+# text = Han bor i en liten lägenhet med sin familj.
+1	Han	han	PRON	_	_	_	_	_	_
+2	bor	bo	VERB	_	_	_	_	_	_
+3	i	i	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	liten	liten	ADJ	_	_	_	_	_	_
+6	lägenhet	lägenhet	NOUN	_	_	_	_	_	_
+7	med	med	ADP	_	_	_	_	_	_
+8	sin	sig	PRON	_	_	_	_	_	_
+9	familj	familj	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_605
+# text = Erik läser ett långt brev i sängen.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	långt	lång	ADJ	_	_	_	_	_	_
+5	brev	brev	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	sängen	säng	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_606
+# text = Ni läser tidningen varje kväll.
+1	Ni	ni	PRON	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	tidningen	tidning	NOUN	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	kväll	kväll	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_607
+# text = Jag läser en intressant tidning i sängen.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	intressant	intressan	ADJ	_	_	_	_	_	_
+5	tidning	tidning	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	sängen	säng	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_608
+# text = Min man läste hela tidningen i morse.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	läste	läsa	VERB	_	_	_	_	_	_
+4	hela	hel	ADJ	_	_	_	_	_	_
+5	tidningen	tidning	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	morse	morse	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_609
+# text = Min dotter dricker te varje dag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	dricker	dricka	VERB	_	_	_	_	_	_
+4	te	te	ADV	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	dag	dag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_610
+# text = Vi drack ett glas vin på kaféet.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	drack	dricka	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	glas	glas	NOUN	_	_	_	_	_	_
+5	vin	vin	NOUN	_	_	_	_	_	_
+6	på	på	ADP	_	_	_	_	_	_
+7	kaféet	kafé	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_611
+# text = Erik äter middag alltid.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	middag	middag	NOUN	_	_	_	_	_	_
+4	alltid	alltid	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_612
+# text = Min man åker till kusten varje morgon.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	åker	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	kusten	kust	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	morgon	morgon	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_613
+# text = Johan dricker vatten alltid.
+1	Johan	Johan	PROPN	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	vatten	vatten	NOUN	_	_	_	_	_	_
+4	alltid	alltid	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_614
+# text = Du köper en ny tidning i affären.
+1	Du	du	PRON	_	_	_	_	_	_
+2	köper	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	ny	ny	ADJ	_	_	_	_	_	_
+5	tidning	tidning	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	affären	affär	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_615
+# text = Min son kör bil på motorvägen.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	son	son	NOUN	_	_	_	_	_	_
+3	kör	köra	VERB	_	_	_	_	_	_
+4	bil	bil	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	motorvägen	motorväg	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_616
+# text = Min kompis äter lunch på kvällen.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	kompis	kompis	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	lunch	lunch	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	kvällen	kväll	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_617
+# text = Min son ska titta på nyheterna med min bror.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	son	son	NOUN	_	_	_	_	_	_
+3	ska	skola	AUX	_	_	_	_	_	_
+4	titta	titta	VERB	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	nyheterna	nyhet	NOUN	_	_	_	_	_	_
+7	med	med	ADP	_	_	_	_	_	_
+8	min	jag	PRON	_	_	_	_	_	_
+9	bror	bro	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_618
+# text = Marie dricker vatten ofta.
+1	Marie	Marie	PROPN	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	vatten	vatten	NOUN	_	_	_	_	_	_
+4	ofta	ofta	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_619
+# text = Min syster vill äta middag med dig senare.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	vill	vilja	AUX	_	_	_	_	_	_
+4	äta	äta	VERB	_	_	_	_	_	_
+5	middag	middag	NOUN	_	_	_	_	_	_
+6	med	med	ADP	_	_	_	_	_	_
+7	dig	du	PRON	_	_	_	_	_	_
+8	senare	sen	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_620
+# text = Min syster talar lite franska med min mamma.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	talar	tala	VERB	_	_	_	_	_	_
+4	lite	lite	ADV	_	_	_	_	_	_
+5	franska	fransk	NOUN	_	_	_	_	_	_
+6	med	med	ADP	_	_	_	_	_	_
+7	min	jag	PRON	_	_	_	_	_	_
+8	mamma	mamma	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_621
+# text = Min mamma tittar på nyheterna just nu.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	tittar	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	nyheterna	nyhet	NOUN	_	_	_	_	_	_
+6	just	just	ADV	_	_	_	_	_	_
+7	nu	nu	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_622
+# text = Vi äter god mat på kvällen.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	god	god	ADJ	_	_	_	_	_	_
+4	mat	mat	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	kvällen	kväll	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_623
+# text = Min kompis måste jobba på lördag den här veckan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	kompis	kompis	NOUN	_	_	_	_	_	_
+3	måste	måste	VERB	_	_	_	_	_	_
+4	jobba	jobba	VERB	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	lördag	lördag	NOUN	_	_	_	_	_	_
+7	den	den	DET	_	_	_	_	_	_
+8	här	här	ADV	_	_	_	_	_	_
+9	veckan	vecka	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_624
+# text = Lisa jobbar på ett sjukhus ofta.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	jobbar	jobba	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	sjukhus	sjukhus	NOUN	_	_	_	_	_	_
+6	ofta	ofta	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_625
+# text = Ni skriver ett brev på datorn.
+1	Ni	ni	PRON	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	brev	brev	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	datorn	dator	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_626
+# text = Min man spelade gitarr i lördags.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	spelade	spela	VERB	_	_	_	_	_	_
+4	gitarr	git	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	lördags	lördag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_627
+# text = Min dotter äter god mat varje dag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	god	god	ADJ	_	_	_	_	_	_
+5	mat	mat	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	dag	dag	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_628
+# text = Johan läser en bok på tåget.
+1	Johan	Johan	PROPN	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	bok	bok	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	tåget	tåg	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_629
+# text = Min mamma åker hem varje morgon.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	åker	åka	VERB	_	_	_	_	_	_
+4	hem	hem	ADV	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	morgon	morgon	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_630
+# text = Min man dricker en kopp kaffe alltid.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	dricker	dricka	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	kopp	kopp	NOUN	_	_	_	_	_	_
+6	kaffe	kaffe	NOUN	_	_	_	_	_	_
+7	alltid	alltid	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_631
+# text = Min pappa reser utomlands i sommar.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	pappa	pappa	NOUN	_	_	_	_	_	_
+3	reser	resa	VERB	_	_	_	_	_	_
+4	utomlands	utomlands	ADV	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	sommar	sommar	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_632
+# text = De läser tidningen gärna.
+1	De	de	PRON	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	tidningen	tidning	NOUN	_	_	_	_	_	_
+4	gärna	gärna	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_633
+# text = Vår lärare ringde en läkare nyss.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	ringde	ringa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	läkare	läkare	NOUN	_	_	_	_	_	_
+6	nyss	nyss	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_634
+# text = Vår lärare spelar gitarr med mina vänner.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	spelar	spela	VERB	_	_	_	_	_	_
+4	gitarr	git	NOUN	_	_	_	_	_	_
+5	med	med	ADP	_	_	_	_	_	_
+6	mina	jag	PRON	_	_	_	_	_	_
+7	vänner	vän	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_635
+# text = Lisa måste städa köket idag.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	måste	måste	VERB	_	_	_	_	_	_
+3	städa	städa	VERB	_	_	_	_	_	_
+4	köket	kök	NOUN	_	_	_	_	_	_
+5	idag	idag	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_636
+# text = Jag lyssnar på musik på bussen.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	lyssnar	lyssna	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	musik	musik	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	bussen	buss	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_637
+# text = Johan tittar på tv på datorn.
+1	Johan	Johan	PROPN	_	_	_	_	_	_
+2	tittar	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	tv	tv	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	datorn	dator	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_638
+# text = Karin studerar historia på universitetet.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	studerar	studera	VERB	_	_	_	_	_	_
+3	historia	historia	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	universitetet	universitet	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_639
+# text = Min fru kör en stor lastbil varje dag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	kör	köra	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	stor	stor	ADJ	_	_	_	_	_	_
+6	lastbil	lastbil	NOUN	_	_	_	_	_	_
+7	varje	varje	DET	_	_	_	_	_	_
+8	dag	dag	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_640
+# text = Vår lärare äter god mat ofta.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	god	god	ADJ	_	_	_	_	_	_
+5	mat	mat	NOUN	_	_	_	_	_	_
+6	ofta	ofta	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_641
+# text = Du tittade på fotbollsmatchen förra veckan.
+1	Du	du	PRON	_	_	_	_	_	_
+2	tittade	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	fotbollsmatchen	fotbollsmatchen	NOUN	_	_	_	_	_	_
+5	förra	förra	ADJ	_	_	_	_	_	_
+6	veckan	vecka	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_642
+# text = Min syster skrev ett mejl igår.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	skrev	skriva	VERB	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	mejl	mejl	NOUN	_	_	_	_	_	_
+6	igår	igår	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_643
+# text = Min bror åt en god middag igår.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	bror	bro	NOUN	_	_	_	_	_	_
+3	åt	åt	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	god	god	ADJ	_	_	_	_	_	_
+6	middag	middag	NOUN	_	_	_	_	_	_
+7	igår	igår	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_644
+# text = Hon vill köpa en intressant bok på stan.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	köpa	köpa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	intressant	intressan	ADJ	_	_	_	_	_	_
+6	bok	bok	NOUN	_	_	_	_	_	_
+7	på	på	ADP	_	_	_	_	_	_
+8	stan	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_645
+# text = Du köpte en ny cykel i lördags.
+1	Du	du	PRON	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	ny	ny	ADJ	_	_	_	_	_	_
+5	cykel	cykel	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	lördags	lördag	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_646
+# text = Min dotter tittar på tv på datorn.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	tittar	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	tv	tv	NOUN	_	_	_	_	_	_
+6	på	på	ADP	_	_	_	_	_	_
+7	datorn	dator	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_647
+# text = Min bror spelar fotboll med mina vänner.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	bror	bro	NOUN	_	_	_	_	_	_
+3	spelar	spela	VERB	_	_	_	_	_	_
+4	fotboll	fotboll	NOUN	_	_	_	_	_	_
+5	med	med	ADP	_	_	_	_	_	_
+6	mina	jag	PRON	_	_	_	_	_	_
+7	vänner	vän	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_648
+# text = Han skriver ett mejl till min lärare.
+1	Han	han	PRON	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	mejl	mejl	NOUN	_	_	_	_	_	_
+5	till	till	ADP	_	_	_	_	_	_
+6	min	jag	PRON	_	_	_	_	_	_
+7	lärare	lärare	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_649
+# text = Marie ska åka till flygplatsen nästa vecka.
+1	Marie	Marie	PROPN	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	åka	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	flygplatsen	flygplats	NOUN	_	_	_	_	_	_
+6	nästa	nästa	ADJ	_	_	_	_	_	_
+7	vecka	vecka	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_650
+# text = Erik ska åka till Göteborg nästa vecka.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	åka	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	Göteborg	Göteborg	PROPN	_	_	_	_	_	_
+6	nästa	nästa	ADJ	_	_	_	_	_	_
+7	vecka	vecka	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_651
+# text = Vi äter frukost ofta.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	frukost	frukost	NOUN	_	_	_	_	_	_
+4	ofta	ofta	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_652
+# text = Hon gjorde läxan igår.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	gjorde	göra	VERB	_	_	_	_	_	_
+3	läxan	läxa	NOUN	_	_	_	_	_	_
+4	igår	igår	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_653
+# text = Min pappa spelar gitarr i parken.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	pappa	pappa	NOUN	_	_	_	_	_	_
+3	spelar	spela	VERB	_	_	_	_	_	_
+4	gitarr	git	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	parken	park	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_654
+# text = Marie gjorde en kopp te i morse.
+1	Marie	Marie	PROPN	_	_	_	_	_	_
+2	gjorde	göra	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	kopp	kopp	NOUN	_	_	_	_	_	_
+5	te	Te	PROPN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	morse	morse	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_655
+# text = Hon spelar gitarr med mina vänner.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	spelar	spela	VERB	_	_	_	_	_	_
+3	gitarr	git	NOUN	_	_	_	_	_	_
+4	med	med	ADP	_	_	_	_	_	_
+5	mina	jag	PRON	_	_	_	_	_	_
+6	vänner	vän	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_656
+# text = Karin flyttar till en ny lägenhet i höst.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	flyttar	flytta	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	lägenhet	lägenhet	NOUN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	höst	höst	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_657
+# text = De vill resa till fjällen nästa år.
+1	De	de	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	resa	resa	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	fjällen	fjäll	NOUN	_	_	_	_	_	_
+6	nästa	nästa	ADJ	_	_	_	_	_	_
+7	år	år	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_658
+# text = Min syster jobbar i en butik ofta.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	jobbar	jobba	VERB	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	butik	butik	NOUN	_	_	_	_	_	_
+7	ofta	ofta	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_659
+# text = Min bror såg en vacker fågel nyss.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	bror	bro	NOUN	_	_	_	_	_	_
+3	såg	se	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	vacker	vacker	ADJ	_	_	_	_	_	_
+6	fågel	fågel	NOUN	_	_	_	_	_	_
+7	nyss	nyss	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_660
+# text = Min dotter studerar svenska i skolan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	studerar	studera	VERB	_	_	_	_	_	_
+4	svenska	svenska	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	skolan	skola	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_661
+# text = Lisa åt lunch på restaurang i morse.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	åt	åt	ADP	_	_	_	_	_	_
+3	lunch	lunch	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	restaurang	restaurang	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	morse	morse	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_662
+# text = De dricker kaffe på morgonen.
+1	De	de	PRON	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	kaffe	kaffe	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	morgonen	morgon	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_663
+# text = Anna köper frukt ofta.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	köper	köpa	VERB	_	_	_	_	_	_
+3	frukt	frukt	NOUN	_	_	_	_	_	_
+4	ofta	ofta	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_664
+# text = Jag går till skolan snart.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	går	gå	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	skolan	skola	NOUN	_	_	_	_	_	_
+5	snart	snart	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_665
+# text = Karin måste städa köket idag.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	måste	måste	VERB	_	_	_	_	_	_
+3	städa	städa	VERB	_	_	_	_	_	_
+4	köket	kök	NOUN	_	_	_	_	_	_
+5	idag	idag	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_666
+# text = Du ska åka till Göteborg imorgon bitti.
+1	Du	du	PRON	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	åka	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	Göteborg	Göteborg	PROPN	_	_	_	_	_	_
+6	imorgon	Imorgon	PROPN	_	_	_	_	_	_
+7	bitti	bitti	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_667
+# text = Lisa brukar promenera längs vattnet varje söndag.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	brukar	bruka	VERB	_	_	_	_	_	_
+3	promenera	promenera	VERB	_	_	_	_	_	_
+4	längs	längs	ADP	_	_	_	_	_	_
+5	vattnet	vatten	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	söndag	söndag	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_668
+# text = Min mamma ringde en vän för en timme sedan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	ringde	ringa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	vän	vän	NOUN	_	_	_	_	_	_
+6	för	för	ADP	_	_	_	_	_	_
+7	en	en	DET	_	_	_	_	_	_
+8	timme	timme	NOUN	_	_	_	_	_	_
+9	sedan	sedan	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_669
+# text = Min mamma tittar på en spännande serie varje kväll.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	tittar	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	spännande	spännande	ADJ	_	_	_	_	_	_
+7	serie	serie	NOUN	_	_	_	_	_	_
+8	varje	varje	DET	_	_	_	_	_	_
+9	kväll	kväll	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_670
+# text = Min bror äter middag alltid.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	bror	bro	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	middag	middag	NOUN	_	_	_	_	_	_
+5	alltid	alltid	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_671
+# text = Du ska träffa en kompis ikväll.
+1	Du	du	PRON	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	träffa	träffa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	kompis	kompis	NOUN	_	_	_	_	_	_
+6	ikväll	ikväll	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_672
+# text = Min mamma måste köpa en present till mamma idag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	måste	måste	VERB	_	_	_	_	_	_
+4	köpa	köpa	VERB	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	present	present	NOUN	_	_	_	_	_	_
+7	till	till	ADP	_	_	_	_	_	_
+8	mamma	mamma	NOUN	_	_	_	_	_	_
+9	idag	idag	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_673
+# text = Vår lärare bor i ett stort hus med sin familj.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	bor	bo	VERB	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	ett	ett	DET	_	_	_	_	_	_
+6	stort	stor	ADJ	_	_	_	_	_	_
+7	hus	hus	NOUN	_	_	_	_	_	_
+8	med	med	ADP	_	_	_	_	_	_
+9	sin	sig	PRON	_	_	_	_	_	_
+10	familj	familj	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_674
+# text = Min fru skriver ett brev på datorn.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	skriver	skriva	VERB	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	brev	brev	NOUN	_	_	_	_	_	_
+6	på	på	ADP	_	_	_	_	_	_
+7	datorn	dator	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_675
+# text = Min bror åt en stor pizza i tisdags.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	bror	bro	NOUN	_	_	_	_	_	_
+3	åt	åt	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	stor	stor	ADJ	_	_	_	_	_	_
+6	pizza	pizza	NOUN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	tisdags	tisdag	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_676
+# text = Johan köpte en ny cykel igår.
+1	Johan	Johan	PROPN	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	ny	ny	ADJ	_	_	_	_	_	_
+5	cykel	cykel	NOUN	_	_	_	_	_	_
+6	igår	igår	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_677
+# text = Karin läser en intressant tidning varje kväll.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	intressant	intressan	ADJ	_	_	_	_	_	_
+5	tidning	tidning	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	kväll	kväll	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_678
+# text = Vi talar spanska flytande nu.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	talar	tala	VERB	_	_	_	_	_	_
+3	spanska	spansk	NOUN	_	_	_	_	_	_
+4	flytande	flytande	ADJ	_	_	_	_	_	_
+5	nu	nu	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_679
+# text = De dricker te varje morgon.
+1	De	de	PRON	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	te	te	ADP	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	morgon	morgon	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_680
+# text = Min bror träffade en gammal kompis förra veckan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	bror	bro	NOUN	_	_	_	_	_	_
+3	träffade	träffa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	gammal	gammal	ADJ	_	_	_	_	_	_
+6	kompis	kompis	NOUN	_	_	_	_	_	_
+7	förra	förra	ADJ	_	_	_	_	_	_
+8	veckan	vecka	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_681
+# text = Du studerar engelska varje kväll.
+1	Du	du	PRON	_	_	_	_	_	_
+2	studerar	studera	VERB	_	_	_	_	_	_
+3	engelska	engelsk	NOUN	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	kväll	kväll	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_682
+# text = Erik skriver läxan varje vecka.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	läxan	läxa	NOUN	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	vecka	vecka	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_683
+# text = Min fru dricker vatten varje dag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	dricker	dricka	VERB	_	_	_	_	_	_
+4	vatten	vatten	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	dag	dag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_684
+# text = Jag talar engelska flytande nu.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	talar	tala	VERB	_	_	_	_	_	_
+3	engelska	engelsk	NOUN	_	_	_	_	_	_
+4	flytande	flytande	ADJ	_	_	_	_	_	_
+5	nu	nu	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_685
+# text = Min man bor i Stockholm nu.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	bor	bo	VERB	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	Stockholm	Stockholm	PROPN	_	_	_	_	_	_
+6	nu	nu	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_686
+# text = Marie äter middag varje dag.
+1	Marie	Marie	PROPN	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	middag	middag	NOUN	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	dag	dag	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_687
+# text = Ni skriver en text på svenska till min lärare.
+1	Ni	ni	PRON	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	text	text	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	svenska	svenska	NOUN	_	_	_	_	_	_
+7	till	till	ADP	_	_	_	_	_	_
+8	min	jag	PRON	_	_	_	_	_	_
+9	lärare	lärare	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_688
+# text = Min fru reser till London varje år.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	reser	resa	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	London	London	PROPN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	år	år	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_689
+# text = Lisa köper frukt på väg hem.
+1	Lisa	Lisa	PROPN	_	_	_	_	_	_
+2	köper	köpa	VERB	_	_	_	_	_	_
+3	frukt	frukt	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	väg	väg	NOUN	_	_	_	_	_	_
+6	hem	hem	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_690
+# text = Vi tittade på en bra film igår kväll.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	tittade	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	film	film	NOUN	_	_	_	_	_	_
+7	igår	igår	ADP	_	_	_	_	_	_
+8	kväll	kväll	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_691
+# text = Vi tittar på en spännande serie just nu.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	tittar	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	spännande	spännande	ADJ	_	_	_	_	_	_
+6	serie	serie	NOUN	_	_	_	_	_	_
+7	just	just	ADV	_	_	_	_	_	_
+8	nu	nu	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_692
+# text = Min pappa tittar på tv just nu.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	pappa	pappa	NOUN	_	_	_	_	_	_
+3	tittar	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	tv	tv	NOUN	_	_	_	_	_	_
+6	just	just	ADV	_	_	_	_	_	_
+7	nu	nu	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_693
+# text = Min son tittade på tv förra veckan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	son	son	NOUN	_	_	_	_	_	_
+3	tittade	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	tv	tv	NOUN	_	_	_	_	_	_
+6	förra	förra	ADJ	_	_	_	_	_	_
+7	veckan	vecka	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_694
+# text = Min fru vill köpa en ny mobiltelefon snart.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	vill	vilja	AUX	_	_	_	_	_	_
+4	köpa	köpa	VERB	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	ny	ny	ADJ	_	_	_	_	_	_
+7	mobiltelefon	mobiltelefon	NOUN	_	_	_	_	_	_
+8	snart	snart	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_695
+# text = Vår lärare läste ditt mejl i morse.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	läste	läsa	VERB	_	_	_	_	_	_
+4	ditt	du	PRON	_	_	_	_	_	_
+5	mejl	mejl	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	morse	morse	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_696
+# text = Anna åker hem varje morgon.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	åker	åka	VERB	_	_	_	_	_	_
+3	hem	hem	ADV	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	morgon	morgon	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_697
+# text = Min dotter kan tala tyska lite grann.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	kan	kunna	AUX	_	_	_	_	_	_
+4	tala	tala	VERB	_	_	_	_	_	_
+5	tyska	tysk	VERB	_	_	_	_	_	_
+6	lite	lite	ADV	_	_	_	_	_	_
+7	grann	grann	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_698
+# text = Karin tittade på fotbollsmatchen i söndags.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	tittade	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	fotbollsmatchen	fotbollsmatchen	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	söndags	söndag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_699
+# text = Karin åker hem med bussen.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	åker	åka	VERB	_	_	_	_	_	_
+3	hem	hem	ADV	_	_	_	_	_	_
+4	med	med	ADP	_	_	_	_	_	_
+5	bussen	buss	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_700
+# text = Min pappa åker till jobbet med tåget.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	pappa	pappa	NOUN	_	_	_	_	_	_
+3	åker	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	jobbet	jobb	NOUN	_	_	_	_	_	_
+6	med	med	ADP	_	_	_	_	_	_
+7	tåget	tåg	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_701
+# text = Min fru köper frukt på väg hem.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	köper	köpa	VERB	_	_	_	_	_	_
+4	frukt	frukt	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	väg	väg	NOUN	_	_	_	_	_	_
+7	hem	hem	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_702
+# text = Hon måste städa hela lägenheten nu.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	måste	måste	VERB	_	_	_	_	_	_
+3	städa	städa	VERB	_	_	_	_	_	_
+4	hela	hel	ADJ	_	_	_	_	_	_
+5	lägenheten	lägenhet	NOUN	_	_	_	_	_	_
+6	nu	nu	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_703
+# text = Min pappa flyttar till ett större hus nästa månad.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	pappa	pappa	NOUN	_	_	_	_	_	_
+3	flyttar	flytta	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	ett	ett	DET	_	_	_	_	_	_
+6	större	stor	ADJ	_	_	_	_	_	_
+7	hus	hus	NOUN	_	_	_	_	_	_
+8	nästa	nästa	ADJ	_	_	_	_	_	_
+9	månad	månad	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_704
+# text = Min dotter talar svenska med min mamma.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	talar	tala	VERB	_	_	_	_	_	_
+4	svenska	svenska	NOUN	_	_	_	_	_	_
+5	med	med	ADP	_	_	_	_	_	_
+6	min	jag	PRON	_	_	_	_	_	_
+7	mamma	mamma	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_705
+# text = Hon jobbar på ett sjukhus varje vardag.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	jobbar	jobba	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	sjukhus	sjukhus	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	vardag	vardag	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_706
+# text = Karin läser en intressant tidning gärna.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	intressant	intressan	ADJ	_	_	_	_	_	_
+5	tidning	tidning	NOUN	_	_	_	_	_	_
+6	gärna	gärna	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_707
+# text = Min mamma brukar promenera i parken med hunden på kvällen.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	brukar	bruka	VERB	_	_	_	_	_	_
+4	promenera	promenera	VERB	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	parken	park	NOUN	_	_	_	_	_	_
+7	med	med	ADP	_	_	_	_	_	_
+8	hunden	hund	NOUN	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	kvällen	kväll	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_708
+# text = Min dotter köper mat ofta.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	köper	köpa	VERB	_	_	_	_	_	_
+4	mat	mat	NOUN	_	_	_	_	_	_
+5	ofta	ofta	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_709
+# text = Vi måste köpa mjölk och bröd nu.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	måste	måste	VERB	_	_	_	_	_	_
+3	köpa	köpa	VERB	_	_	_	_	_	_
+4	mjölk	mjölk	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	bröd	bröd	NOUN	_	_	_	_	_	_
+7	nu	nu	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_710
+# text = Erik träffade min lärare förra veckan.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	träffade	träffa	VERB	_	_	_	_	_	_
+3	min	jag	PRON	_	_	_	_	_	_
+4	lärare	lärare	NOUN	_	_	_	_	_	_
+5	förra	förra	ADJ	_	_	_	_	_	_
+6	veckan	vecka	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_711
+# text = Vår lärare tittar på nyheterna varje kväll.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	tittar	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	nyheterna	nyhet	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	kväll	kväll	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_712
+# text = Min syster äter en banan på kvällen.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	banan	bana	NOUN	_	_	_	_	_	_
+6	på	på	ADP	_	_	_	_	_	_
+7	kvällen	kväll	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_713
+# text = De vill köpa en ny mobiltelefon på stan.
+1	De	de	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	köpa	köpa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	mobiltelefon	mobiltelefon	NOUN	_	_	_	_	_	_
+7	på	på	ADP	_	_	_	_	_	_
+8	stan	stad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_714
+# text = Jag ringde en läkare igår kväll.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	ringde	ringa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	läkare	läkare	NOUN	_	_	_	_	_	_
+5	igår	igår	ADP	_	_	_	_	_	_
+6	kväll	kväll	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_715
+# text = Min dotter kan tala engelska och spanska nu.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	kan	kunna	AUX	_	_	_	_	_	_
+4	tala	tala	VERB	_	_	_	_	_	_
+5	engelska	engelsk	NOUN	_	_	_	_	_	_
+6	och	och	CCONJ	_	_	_	_	_	_
+7	spanska	spansk	NOUN	_	_	_	_	_	_
+8	nu	nu	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_716
+# text = Min son såg en vacker fågel förra veckan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	son	son	NOUN	_	_	_	_	_	_
+3	såg	se	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	vacker	vacker	ADJ	_	_	_	_	_	_
+6	fågel	fågel	NOUN	_	_	_	_	_	_
+7	förra	förra	ADJ	_	_	_	_	_	_
+8	veckan	vecka	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_717
+# text = Jag tittade på en bra film igår kväll.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	tittade	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	film	film	NOUN	_	_	_	_	_	_
+7	igår	igår	ADP	_	_	_	_	_	_
+8	kväll	kväll	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_718
+# text = Jag måste köpa en present till mamma idag.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	måste	måste	VERB	_	_	_	_	_	_
+3	köpa	köpa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	present	present	NOUN	_	_	_	_	_	_
+6	till	till	ADP	_	_	_	_	_	_
+7	mamma	mamma	NOUN	_	_	_	_	_	_
+8	idag	idag	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_719
+# text = Vår lärare ringde min mamma i morse.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	ringde	ringa	VERB	_	_	_	_	_	_
+4	min	jag	PRON	_	_	_	_	_	_
+5	mamma	mamma	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	morse	morse	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_720
+# text = Vi dricker ett glas vatten varje morgon.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	glas	glas	NOUN	_	_	_	_	_	_
+5	vatten	vatten	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	morgon	morgon	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_721
+# text = Erik tittar på tv varje kväll.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	tittar	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	tv	tv	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	kväll	kväll	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_722
+# text = Min kompis åker till kusten med tåget.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	kompis	kompis	NOUN	_	_	_	_	_	_
+3	åker	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	kusten	kust	NOUN	_	_	_	_	_	_
+6	med	med	ADP	_	_	_	_	_	_
+7	tåget	tåg	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_723
+# text = Ni måste jobba på lördag idag.
+1	Ni	ni	PRON	_	_	_	_	_	_
+2	måste	måste	VERB	_	_	_	_	_	_
+3	jobba	jobba	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	lördag	lördag	NOUN	_	_	_	_	_	_
+6	idag	idag	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_724
+# text = Min son går hem till fots.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	son	son	NOUN	_	_	_	_	_	_
+3	går	gå	VERB	_	_	_	_	_	_
+4	hem	hem	ADV	_	_	_	_	_	_
+5	till	till	ADP	_	_	_	_	_	_
+6	fots	fots	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_725
+# text = Min mamma måste studera läxorna ikväll.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	måste	måste	VERB	_	_	_	_	_	_
+4	studera	studera	VERB	_	_	_	_	_	_
+5	läxorna	läxa	NOUN	_	_	_	_	_	_
+6	ikväll	ikväll	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_726
+# text = Min mamma går till stationen nu.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	går	gå	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	stationen	station	NOUN	_	_	_	_	_	_
+6	nu	nu	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_727
+# text = Min fru tittar på en spännande serie med familjen.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	tittar	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	spännande	spännande	ADJ	_	_	_	_	_	_
+7	serie	serie	NOUN	_	_	_	_	_	_
+8	med	med	ADP	_	_	_	_	_	_
+9	familjen	familj	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_728
+# text = Min kompis läser tidningen just nu.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	kompis	kompis	NOUN	_	_	_	_	_	_
+3	läser	läsa	VERB	_	_	_	_	_	_
+4	tidningen	tidning	NOUN	_	_	_	_	_	_
+5	just	just	ADV	_	_	_	_	_	_
+6	nu	nu	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_729
+# text = Jag dricker en kopp kaffe på morgonen.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	kopp	kopp	NOUN	_	_	_	_	_	_
+5	kaffe	kaffe	NOUN	_	_	_	_	_	_
+6	på	på	ADP	_	_	_	_	_	_
+7	morgonen	morgon	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_730
+# text = Min man träffade sin syster i helgen.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	träffade	träffa	VERB	_	_	_	_	_	_
+4	sin	sig	PRON	_	_	_	_	_	_
+5	syster	syster	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	helgen	helg	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_731
+# text = Vi äter middag alltid.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	middag	middag	NOUN	_	_	_	_	_	_
+4	alltid	alltid	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_732
+# text = Min dotter jobbar på kontor ofta.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	jobbar	jobba	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	kontor	kontor	NOUN	_	_	_	_	_	_
+6	ofta	ofta	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_733
+# text = Vår lärare åt en stor pizza igår.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	åt	åt	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	stor	stor	ADJ	_	_	_	_	_	_
+6	pizza	pizza	NOUN	_	_	_	_	_	_
+7	igår	igå	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_734
+# text = Min syster läste en bra bok i morse.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	läste	läsa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	bok	bok	NOUN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	morse	morse	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_735
+# text = Min man spelar kort ofta.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	spelar	spela	VERB	_	_	_	_	_	_
+4	kort	kort	ADV	_	_	_	_	_	_
+5	ofta	ofta	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_736
+# text = Han drack ett glas vin till frukost.
+1	Han	han	PRON	_	_	_	_	_	_
+2	drack	dricka	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	glas	glas	NOUN	_	_	_	_	_	_
+5	vin	vin	NOUN	_	_	_	_	_	_
+6	till	till	ADP	_	_	_	_	_	_
+7	frukost	frukost	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_737
+# text = Erik brukar promenera i parken med hunden på kvällen.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	brukar	bruka	VERB	_	_	_	_	_	_
+3	promenera	promenera	VERB	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	parken	park	NOUN	_	_	_	_	_	_
+6	med	med	ADP	_	_	_	_	_	_
+7	hunden	hund	NOUN	_	_	_	_	_	_
+8	på	på	ADP	_	_	_	_	_	_
+9	kvällen	kväll	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_738
+# text = Johan såg en vacker fågel förra veckan.
+1	Johan	Johan	PROPN	_	_	_	_	_	_
+2	såg	se	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	vacker	vacker	ADJ	_	_	_	_	_	_
+5	fågel	fågel	NOUN	_	_	_	_	_	_
+6	förra	förra	ADJ	_	_	_	_	_	_
+7	veckan	vecka	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_739
+# text = Min syster studerar engelska med en kompis.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	studerar	studera	VERB	_	_	_	_	_	_
+4	engelska	engelsk	NOUN	_	_	_	_	_	_
+5	med	med	ADP	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	kompis	kompis	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_740
+# text = Erik spelar gitarr i parken.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	spelar	spela	VERB	_	_	_	_	_	_
+3	gitarr	git	NOUN	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	parken	park	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_741
+# text = Vi såg en intressant film i morse.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	såg	se	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	intressant	intressan	ADJ	_	_	_	_	_	_
+5	film	film	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	morse	morse	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_742
+# text = Min dotter ska titta på nyheterna senare.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	ska	skola	AUX	_	_	_	_	_	_
+4	titta	titta	VERB	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	nyheterna	nyhet	NOUN	_	_	_	_	_	_
+7	senare	sen	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_743
+# text = Jag såg en kändis på stan i morse.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	såg	se	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	kändis	kändis	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	stan	stad	NOUN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	morse	morse	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_744
+# text = Karin köpte en begagnad bil för tre dagar sedan.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	begagnad	begagnad	NOUN	_	_	_	_	_	_
+5	bil	bil	NOUN	_	_	_	_	_	_
+6	för	för	ADP	_	_	_	_	_	_
+7	tre	tre	NUM	_	_	_	_	_	_
+8	dagar	dag	NOUN	_	_	_	_	_	_
+9	sedan	sedan	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_745
+# text = Min mamma dricker te ofta.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	dricker	dricka	VERB	_	_	_	_	_	_
+4	te	te	NOUN	_	_	_	_	_	_
+5	ofta	ofta	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_746
+# text = Karin flyttar till en ny lägenhet nästa månad.
+1	Karin	Karin	PROPN	_	_	_	_	_	_
+2	flyttar	flytta	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	lägenhet	lägenhet	NOUN	_	_	_	_	_	_
+7	nästa	nästa	ADJ	_	_	_	_	_	_
+8	månad	månad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_747
+# text = Han vill äta middag med dig nu.
+1	Han	han	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	äta	äta	VERB	_	_	_	_	_	_
+4	middag	middag	NOUN	_	_	_	_	_	_
+5	med	med	ADP	_	_	_	_	_	_
+6	dig	du	PRON	_	_	_	_	_	_
+7	nu	nu	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_748
+# text = Ni arbetar hemifrån varje vardag.
+1	Ni	ni	PRON	_	_	_	_	_	_
+2	arbetar	arbeta	VERB	_	_	_	_	_	_
+3	hemifrån	hemifrån	ADV	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	vardag	vardag	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_749
+# text = Han skriver ett mejl varje vecka.
+1	Han	han	PRON	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	mejl	mejl	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	vecka	vecka	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_750
+# text = Min mamma gjorde en kopp te nyss.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	gjorde	göra	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	kopp	kopp	NOUN	_	_	_	_	_	_
+6	te	Te	PROPN	_	_	_	_	_	_
+7	nyss	nyss	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_751
+# text = Ni drack gott te på kaféet.
+1	Ni	ni	PRON	_	_	_	_	_	_
+2	drack	dricka	VERB	_	_	_	_	_	_
+3	gott	god	ADV	_	_	_	_	_	_
+4	te	te	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	kaféet	kafé	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_752
+# text = Marie studerar matematik i skolan.
+1	Marie	Marie	PROPN	_	_	_	_	_	_
+2	studerar	studera	VERB	_	_	_	_	_	_
+3	matematik	matematik	NOUN	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	skolan	skola	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_753
+# text = Anna dricker te varje dag.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	te	te	ADV	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	dag	dag	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_754
+# text = Anna äter ett äpple på kvällen.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	äpple	äpple	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	kvällen	kväll	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_755
+# text = Vi äter god mat varje dag.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	god	god	ADJ	_	_	_	_	_	_
+4	mat	mat	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	dag	dag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_756
+# text = Jag dricker vatten varje dag.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	vatten	vatten	NOUN	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	dag	dag	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_757
+# text = Jag såg en kändis på stan igår.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	såg	se	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	kändis	kändis	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	stan	stad	NOUN	_	_	_	_	_	_
+7	igår	igår	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_758
+# text = Min mamma såg en intressant film igår.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	såg	se	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	intressant	intressan	ADJ	_	_	_	_	_	_
+6	film	film	NOUN	_	_	_	_	_	_
+7	igår	igår	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_759
+# text = Han kan tala engelska och spanska lite grann.
+1	Han	han	PRON	_	_	_	_	_	_
+2	kan	kunna	AUX	_	_	_	_	_	_
+3	tala	tala	VERB	_	_	_	_	_	_
+4	engelska	engelsk	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	spanska	spansk	NOUN	_	_	_	_	_	_
+7	lite	lite	ADV	_	_	_	_	_	_
+8	grann	grann	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_760
+# text = Du äter god mat på kvällen.
+1	Du	du	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	god	god	ADJ	_	_	_	_	_	_
+4	mat	mat	NOUN	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	kvällen	kväll	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_761
+# text = Johan kör bil på motorvägen.
+1	Johan	Johan	PROPN	_	_	_	_	_	_
+2	kör	köra	VERB	_	_	_	_	_	_
+3	bil	bil	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	motorvägen	motorväg	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_762
+# text = Vi tittar på en spännande serie ofta.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	tittar	titta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	spännande	spännande	ADJ	_	_	_	_	_	_
+6	serie	serie	NOUN	_	_	_	_	_	_
+7	ofta	ofta	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_763
+# text = Marie ska titta på nyheterna senare.
+1	Marie	Marie	PROPN	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	titta	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	nyheterna	nyhet	NOUN	_	_	_	_	_	_
+6	senare	sen	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_764
+# text = Min pappa köpte en begagnad bil för tre dagar sedan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	pappa	pappa	NOUN	_	_	_	_	_	_
+3	köpte	köpa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	begagnad	begagnad	NOUN	_	_	_	_	_	_
+6	bil	bil	NOUN	_	_	_	_	_	_
+7	för	för	ADP	_	_	_	_	_	_
+8	tre	tre	NUM	_	_	_	_	_	_
+9	dagar	dag	NOUN	_	_	_	_	_	_
+10	sedan	sedan	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_765
+# text = Min syster kan hjälpa mig med väskan efter skolan.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	kan	kunna	AUX	_	_	_	_	_	_
+4	hjälpa	hjälpa	VERB	_	_	_	_	_	_
+5	mig	mig	PRON	_	_	_	_	_	_
+6	med	med	ADP	_	_	_	_	_	_
+7	väskan	väska	NOUN	_	_	_	_	_	_
+8	efter	efter	ADP	_	_	_	_	_	_
+9	skolan	skola	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_766
+# text = Vår lärare tittade på en bra film igår kväll.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	tittade	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	bra	bra	ADJ	_	_	_	_	_	_
+7	film	film	NOUN	_	_	_	_	_	_
+8	igår	igår	ADP	_	_	_	_	_	_
+9	kväll	kväll	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_767
+# text = Min man dricker ett glas vatten alltid.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	dricker	dricka	VERB	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	glas	glas	NOUN	_	_	_	_	_	_
+6	vatten	vatten	NOUN	_	_	_	_	_	_
+7	alltid	alltid	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_768
+# text = Anna gjorde läxan i morse.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	gjorde	göra	VERB	_	_	_	_	_	_
+3	läxan	läxa	NOUN	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	morse	morse	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_769
+# text = Min dotter äter middag varje dag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	middag	middag	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	dag	dag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_770
+# text = Erik reser utomlands nästa vecka.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	reser	resa	VERB	_	_	_	_	_	_
+3	utomlands	utomlands	ADV	_	_	_	_	_	_
+4	nästa	nästa	ADJ	_	_	_	_	_	_
+5	vecka	vecka	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_771
+# text = Min dotter drack kallt vatten på kaféet.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	drack	dricka	VERB	_	_	_	_	_	_
+4	kallt	kall	ADJ	_	_	_	_	_	_
+5	vatten	vatten	NOUN	_	_	_	_	_	_
+6	på	på	ADP	_	_	_	_	_	_
+7	kaféet	kafé	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_772
+# text = Anna köpte ett fint hus för tre dagar sedan.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	fint	find	ADJ	_	_	_	_	_	_
+5	hus	hus	NOUN	_	_	_	_	_	_
+6	för	för	ADP	_	_	_	_	_	_
+7	tre	tre	NUM	_	_	_	_	_	_
+8	dagar	dag	NOUN	_	_	_	_	_	_
+9	sedan	sedan	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_773
+# text = Hon vill resa med tåg nästa år.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	resa	resa	VERB	_	_	_	_	_	_
+4	med	med	ADP	_	_	_	_	_	_
+5	tåg	tåg	NOUN	_	_	_	_	_	_
+6	nästa	nästa	ADJ	_	_	_	_	_	_
+7	år	år	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_774
+# text = Vart ska vi resa på semester?
+1	Vart	vart	ADV	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	vi	vi	PRON	_	_	_	_	_	_
+4	resa	resa	VERB	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	semester	semest	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_775
+# text = Min mamma dricker te varje morgon.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	dricker	dricka	VERB	_	_	_	_	_	_
+4	te	te	ADP	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	morgon	morgon	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_776
+# text = Min son vill resa till Italien i vinter.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	son	son	NOUN	_	_	_	_	_	_
+3	vill	vilja	AUX	_	_	_	_	_	_
+4	resa	resa	VERB	_	_	_	_	_	_
+5	till	till	ADP	_	_	_	_	_	_
+6	Italien	Italien	PROPN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	vinter	vinter	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_777
+# text = Min fru reser utomlands varje år.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	reser	resa	VERB	_	_	_	_	_	_
+4	utomlands	utomlands	ADV	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	år	år	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_778
+# text = Han spelar tennis varje lördag.
+1	Han	han	PRON	_	_	_	_	_	_
+2	spelar	spela	VERB	_	_	_	_	_	_
+3	tennis	tennis	NOUN	_	_	_	_	_	_
+4	varje	varje	DET	_	_	_	_	_	_
+5	lördag	lördag	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_779
+# text = Min man brukar dricka kaffe utan socker varje morgon.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	man	man	NOUN	_	_	_	_	_	_
+3	brukar	bruka	VERB	_	_	_	_	_	_
+4	dricka	dricka	VERB	_	_	_	_	_	_
+5	kaffe	kaffe	NOUN	_	_	_	_	_	_
+6	utan	utan	ADP	_	_	_	_	_	_
+7	socker	socker	NOUN	_	_	_	_	_	_
+8	varje	varje	DET	_	_	_	_	_	_
+9	morgon	morgon	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_780
+# text = Du går till stationen varje dag.
+1	Du	du	PRON	_	_	_	_	_	_
+2	går	gå	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	stationen	station	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	dag	dag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_781
+# text = Han åt en banan i tisdags.
+1	Han	han	PRON	_	_	_	_	_	_
+2	åt	åt	ADP	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	banan	bana	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	tisdags	tisdag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_782
+# text = Jag läste en bra bok igår kväll.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	läste	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	bra	bra	ADJ	_	_	_	_	_	_
+5	bok	bok	NOUN	_	_	_	_	_	_
+6	igår	igår	ADP	_	_	_	_	_	_
+7	kväll	kväll	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_783
+# text = Min syster flyttar till Stockholm i höst.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	flyttar	flytta	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	Stockholm	Stockholm	PROPN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	höst	höst	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_784
+# text = Min mamma cyklar i parken ofta.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	mamma	mamma	NOUN	_	_	_	_	_	_
+3	cyklar	cykel	NOUN	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	parken	park	NOUN	_	_	_	_	_	_
+6	ofta	ofta	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_785
+# text = Min fru tittade på en bra film i söndags.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	tittade	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	bra	bra	ADJ	_	_	_	_	_	_
+7	film	film	NOUN	_	_	_	_	_	_
+8	i	i	ADP	_	_	_	_	_	_
+9	söndags	söndag	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_786
+# text = Min pappa måste städa hela lägenheten nu.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	pappa	pappa	NOUN	_	_	_	_	_	_
+3	måste	måste	VERB	_	_	_	_	_	_
+4	städa	städa	VERB	_	_	_	_	_	_
+5	hela	hel	ADJ	_	_	_	_	_	_
+6	lägenheten	lägenhet	NOUN	_	_	_	_	_	_
+7	nu	nu	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_787
+# text = Du ska titta på en spännande film senare.
+1	Du	du	PRON	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	titta	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	spännande	spännande	ADJ	_	_	_	_	_	_
+7	film	film	NOUN	_	_	_	_	_	_
+8	senare	sen	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_788
+# text = Erik åker till kusten idag.
+1	Erik	Erik	PROPN	_	_	_	_	_	_
+2	åker	åka	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	kusten	kust	NOUN	_	_	_	_	_	_
+5	idag	idag	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_789
+# text = Min fru spelar fotboll i parken.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	spelar	spela	VERB	_	_	_	_	_	_
+4	fotboll	fotboll	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	parken	park	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_790
+# text = Min dotter köper en ny tidning i affären.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	dotter	dott	NOUN	_	_	_	_	_	_
+3	köper	köpa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	tidning	tidning	NOUN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	affären	affär	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_791
+# text = Jag vill köpa en ny mobiltelefon idag.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	vill	vilja	AUX	_	_	_	_	_	_
+3	köpa	köpa	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	mobiltelefon	mobiltelefon	NOUN	_	_	_	_	_	_
+7	idag	idag	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_792
+# text = Anna köpte en ny cykel igår.
+1	Anna	Anna	PROPN	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	ny	ny	ADJ	_	_	_	_	_	_
+5	cykel	cykel	NOUN	_	_	_	_	_	_
+6	igår	igår	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_793
+# text = Johan reser till fjällen varje år.
+1	Johan	Johan	PROPN	_	_	_	_	_	_
+2	reser	resa	VERB	_	_	_	_	_	_
+3	till	till	ADP	_	_	_	_	_	_
+4	fjällen	fjäll	NOUN	_	_	_	_	_	_
+5	varje	varje	DET	_	_	_	_	_	_
+6	år	år	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_794
+# text = Vår lärare äter middag ofta.
+1	Vår	vi	PRON	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	middag	middag	NOUN	_	_	_	_	_	_
+5	ofta	ofta	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_795
+# text = Min son arbetar hemifrån måndag till fredag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	son	son	NOUN	_	_	_	_	_	_
+3	arbetar	arbeta	VERB	_	_	_	_	_	_
+4	hemifrån	hemifrån	ADP	_	_	_	_	_	_
+5	måndag	måndag	NOUN	_	_	_	_	_	_
+6	till	till	ADP	_	_	_	_	_	_
+7	fredag	fredag	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_796
+# text = Min syster åker till jobbet varje morgon.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	syster	syster	NOUN	_	_	_	_	_	_
+3	åker	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	jobbet	jobb	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	morgon	morgon	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_797
+# text = Min fru äter en banan varje dag.
+1	Min	jag	PRON	_	_	_	_	_	_
+2	fru	fru	NOUN	_	_	_	_	_	_
+3	äter	äta	VERB	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	banan	bana	NOUN	_	_	_	_	_	_
+6	varje	varje	DET	_	_	_	_	_	_
+7	dag	dag	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_798
+# text = Ni ska titta på en spännande film med min bror.
+1	Ni	ni	PRON	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	titta	titta	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	spännande	spännande	ADJ	_	_	_	_	_	_
+7	film	film	NOUN	_	_	_	_	_	_
+8	med	med	ADP	_	_	_	_	_	_
+9	min	jag	PRON	_	_	_	_	_	_
+10	bror	bro	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_799
+# text = Hon spelar kort med mina vänner.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	spelar	spela	VERB	_	_	_	_	_	_
+3	kort	kort	ADV	_	_	_	_	_	_
+4	med	med	ADP	_	_	_	_	_	_
+5	mina	jag	PRON	_	_	_	_	_	_
+6	vänner	vän	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_a2_train_800
+# text = Jag ska åka till flygplatsen i helgen.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	ska	skola	AUX	_	_	_	_	_	_
+3	åka	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	flygplatsen	flygplats	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	helgen	helg	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+

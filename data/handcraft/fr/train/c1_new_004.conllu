@@ -1,0 +1,3682 @@
+# sent_id = fr_c1_train_601
+# text = Le tribunal arbitral a jugé que la clause de force majeure couvrait les retards causés par le blocage du canal.
+1	Le	le	DET	_	_	_	_	_	_
+2	tribunal	tribunal	NOUN	_	_	_	_	_	_
+3	arbitral	arbitral	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	jugé	juger	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	clause	clause	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	force	force	NOUN	_	_	_	_	_	_
+11	majeure	majeur	ADJ	_	_	_	_	_	_
+12	couvrait	couvrir	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	retards	retard	NOUN	_	_	_	_	_	_
+15	causés	causer	VERB	_	_	_	_	_	_
+16	par	par	ADP	_	_	_	_	_	_
+17	le	le	DET	_	_	_	_	_	_
+18	blocage	blocage	NOUN	_	_	_	_	_	_
+19	du	du	ADP	_	_	_	_	_	_
+20	canal	canal	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_602
+# text = Bien que le connaissement ait été émis, le transporteur a contesté la responsabilité pour avarie non apparente.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	connaissement	connaissement	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	émis	émettre	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	transporteur	transporteur	NOUN	_	_	_	_	_	_
+11	a	avoir	AUX	_	_	_	_	_	_
+12	contesté	contester	VERB	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+15	pour	pour	ADP	_	_	_	_	_	_
+16	avarie	avarie	NOUN	_	_	_	_	_	_
+17	non	non	ADV	_	_	_	_	_	_
+18	apparente	apparenter	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_603
+# text = La convention internationale impose au capitaine de porter assistance à tout navire en danger lorsque cela est possible.
+1	La	le	DET	_	_	_	_	_	_
+2	convention	convention	NOUN	_	_	_	_	_	_
+3	internationale	international	ADJ	_	_	_	_	_	_
+4	impose	imposer	VERB	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	capitaine	capitaine	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	porter	porter	X	_	_	_	_	_	_
+9	assistance	assistance	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	tout	tout	X	_	_	_	_	_	_
+12	navire	navire	X	_	_	_	_	_	_
+13	en	en	PRON	_	_	_	_	_	_
+14	danger	danger	X	_	_	_	_	_	_
+15	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+16	cela	cela	X	_	_	_	_	_	_
+17	est	être	AUX	_	_	_	_	_	_
+18	possible	possible	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_604
+# text = Il demeure controversé de savoir si la pollution par hydrocarbures engage la responsabilité objective du propriétaire.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	controversé	controversé	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	pollution	pollution	NOUN	_	_	_	_	_	_
+9	par	par	ADP	_	_	_	_	_	_
+10	hydrocarbures	hydrocarbure	NOUN	_	_	_	_	_	_
+11	engage	engager	VERB	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+14	objective	objectif	ADJ	_	_	_	_	_	_
+15	du	du	ADP	_	_	_	_	_	_
+16	propriétaire	propriétaire	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_605
+# text = Les juristes maritimes analysent comment les limites de fond forment influencent les recours des créanciers.
+1	Les	le	DET	_	_	_	_	_	_
+2	juristes	juriste	NOUN	_	_	_	_	_	_
+3	maritimes	maritime	ADJ	_	_	_	_	_	_
+4	analysent	analyser	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	limites	limite	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	fond	fond	NOUN	_	_	_	_	_	_
+10	forment	former	VERB	_	_	_	_	_	_
+11	influencent	influencer	VERB	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	recours	recour	NOUN	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	créanciers	créanciers	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_606
+# text = Nonobstant les garanties bancaires, l'affréteur a saisi le navire pour créances impayées de fret.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	garanties	garantie	NOUN	_	_	_	_	_	_
+4	bancaires	bancaire	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	l'affréteur	l'affréteur	X	_	_	_	_	_	_
+7	a	avoir	AUX	_	_	_	_	_	_
+8	saisi	saisi	X	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	navire	navire	X	_	_	_	_	_	_
+11	pour	pour	X	_	_	_	_	_	_
+12	créances	créances	X	_	_	_	_	_	_
+13	impayées	impayées	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	fret	fret	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_607
+# text = La juridiction compétente a précisé les règles applicables au contrat de transport multimodal transfrontalier.
+1	La	le	DET	_	_	_	_	_	_
+2	juridiction	juridiction	NOUN	_	_	_	_	_	_
+3	compétente	compétent	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	précisé	préciser	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	règles	règle	NOUN	_	_	_	_	_	_
+8	applicables	applicable	ADJ	_	_	_	_	_	_
+9	au	au	ADP	_	_	_	_	_	_
+10	contrat	contrat	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	transport	transport	X	_	_	_	_	_	_
+13	multimodal	multimodal	X	_	_	_	_	_	_
+14	transfrontalier	transfrontalier	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_608
+# text = Le débat doctrinal porte sur l'étendue de l'obligation de navigabilité imposée au armateur au départ.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	doctrinal	doctrinal	ADJ	_	_	_	_	_	_
+4	porte	porter	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	l'étendue	l'étendue	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	l'obligation	l'obligation	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	navigabilité	navigabilité	X	_	_	_	_	_	_
+11	imposée	imposée	X	_	_	_	_	_	_
+12	au	au	ADP	_	_	_	_	_	_
+13	armateur	armateur	X	_	_	_	_	_	_
+14	au	au	ADP	_	_	_	_	_	_
+15	départ	départ	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_609
+# text = Les experts en assurance maritime étudient comment les primes reflètent les zones de piraterie actuelles.
+1	Les	le	DET	_	_	_	_	_	_
+2	experts	expert	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	assurance	assurance	NOUN	_	_	_	_	_	_
+5	maritime	maritime	ADJ	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	primes	prime	NOUN	_	_	_	_	_	_
+10	reflètent	refléter	VERB	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	zones	zone	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	piraterie	piraterie	NOUN	_	_	_	_	_	_
+15	actuelles	actuel	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_610
+# text = La nullité de la clause d'exonération a été prononcée pour violation d'une norme impérative internationale.
+1	La	le	DET	_	_	_	_	_	_
+2	nullité	nullité	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	clause	clause	NOUN	_	_	_	_	_	_
+6	d'exonération	d'exonération	X	_	_	_	_	_	_
+7	a	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	prononcée	prononcée	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	violation	violation	X	_	_	_	_	_	_
+12	d'une	d'une	X	_	_	_	_	_	_
+13	norme	norme	X	_	_	_	_	_	_
+14	impérative	impérative	X	_	_	_	_	_	_
+15	internationale	internationale	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_611
+# text = Après avoir inspecté la cargaison, l'expert a constaté une détérioration imputable au mauvais arrimage.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	inspecté	inspecter	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	cargaison	cargaison	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'expert	l'expert	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	constaté	constaté	X	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	détérioration	détérioration	X	_	_	_	_	_	_
+12	imputable	imputable	X	_	_	_	_	_	_
+13	au	au	ADP	_	_	_	_	_	_
+14	mauvais	mauvais	X	_	_	_	_	_	_
+15	arrimage	arrimage	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_612
+# text = La critique institutionnelle met en garde contre la fragmentation des régimes de responsabilité selon les eaux.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	met	mettre	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	garde	garde	NOUN	_	_	_	_	_	_
+7	contre	contre	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	fragmentation	fragmentation	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	régimes	régimes	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	responsabilité	responsabilité	X	_	_	_	_	_	_
+14	selon	selon	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	eaux	eaux	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_613
+# text = Il reste disputé si l'abandon de navire autorise le sauveteur à conserver une récompense proportionnée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	l'abandon	l'abandon	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	navire	navire	X	_	_	_	_	_	_
+8	autorise	autorise	X	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	sauveteur	sauveteur	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	conserver	conserver	X	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	récompense	récompense	X	_	_	_	_	_	_
+15	proportionnée	proportionnée	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_614
+# text = Le cadre de la sûreté maritime régit la création et la publicité des hypothèques sur navires.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	sûreté	sûreté	NOUN	_	_	_	_	_	_
+6	maritime	maritime	ADJ	_	_	_	_	_	_
+7	régit	régir	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	création	création	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	publicité	publicité	NOUN	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	hypothèques	hypothèques	X	_	_	_	_	_	_
+15	sur	sur	X	_	_	_	_	_	_
+16	navires	navires	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_615
+# text = Les approches comparatistes montrent des divergences sur la prescription des actions en responsabilité.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	comparatistes	comparatiste	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	divergences	divergence	NOUN	_	_	_	_	_	_
+7	sur	sur	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	prescription	prescription	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	actions	actions	X	_	_	_	_	_	_
+12	en	en	PRON	_	_	_	_	_	_
+13	responsabilité	responsabilité	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_616
+# text = La commission a recommandé de renforcer les contrôles portuaires sur les déchets des navires de croisière.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	renforcer	renforcer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	contrôles	contrôle	NOUN	_	_	_	_	_	_
+9	portuaires	portuaire	ADJ	_	_	_	_	_	_
+10	sur	sur	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	déchets	déchet	NOUN	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	navires	navires	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	croisière	croisière	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_617
+# text = Les arbitres commerciaux examinent si la déclaration de marchandises dangereuses était incomplète.
+1	Les	le	DET	_	_	_	_	_	_
+2	arbitres	arbitre	NOUN	_	_	_	_	_	_
+3	commerciaux	commercial	ADJ	_	_	_	_	_	_
+4	examinent	examiner	VERB	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	déclaration	déclaration	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	marchandises	marchandise	NOUN	_	_	_	_	_	_
+10	dangereuses	dangereux	ADJ	_	_	_	_	_	_
+11	était	être	AUX	_	_	_	_	_	_
+12	incomplète	incomplet	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_618
+# text = Le débat sur la juridictionnelle exclusive oppose tribunaux nationaux et tribunaux arbitraux spécialisés.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	juridictionnelle	juridictionnel	NOUN	_	_	_	_	_	_
+6	exclusive	exclusif	ADJ	_	_	_	_	_	_
+7	oppose	opposer	VERB	_	_	_	_	_	_
+8	tribunaux	tribunal	NOUN	_	_	_	_	_	_
+9	nationaux	national	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	tribunaux	tribunal	NOUN	_	_	_	_	_	_
+12	arbitraux	arbitral	ADJ	_	_	_	_	_	_
+13	spécialisés	spécialiser	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_619
+# text = La théorie de l'avarie commune répartit les sacrifices volontaires entre les intérêts sauvés.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'avarie	l'avarie	X	_	_	_	_	_	_
+5	commune	commune	X	_	_	_	_	_	_
+6	répartit	répartit	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	sacrifices	sacrifices	X	_	_	_	_	_	_
+9	volontaires	volontaires	X	_	_	_	_	_	_
+10	entre	entre	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	intérêts	intérêts	X	_	_	_	_	_	_
+13	sauvés	sauvés	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_620
+# text = Les analystes logistiques étudient comment les perturbations maritimes affectent les chaînes d'approvisionnement.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	logistiques	logistique	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	perturbations	perturbation	NOUN	_	_	_	_	_	_
+8	maritimes	maritime	ADJ	_	_	_	_	_	_
+9	affectent	affecter	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	chaînes	chaîne	NOUN	_	_	_	_	_	_
+12	d'approvisionnement	d'approvisionnement	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_621
+# text = La déconstruction des contrats types révèle des clauses déséquilibrées entre chargeurs et transporteurs.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	contrats	contrats	X	_	_	_	_	_	_
+5	types	types	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	clauses	clauses	X	_	_	_	_	_	_
+9	déséquilibrées	déséquilibrées	X	_	_	_	_	_	_
+10	entre	entre	X	_	_	_	_	_	_
+11	chargeurs	chargeurs	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	transporteurs	transporteurs	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_622
+# text = Le principe de liberté contractuelle cède devant les normes de sécurité et de protection de l'environnement.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	liberté	liberté	NOUN	_	_	_	_	_	_
+5	contractuelle	contractuel	ADJ	_	_	_	_	_	_
+6	cède	céder	VERB	_	_	_	_	_	_
+7	devant	devant	ADP	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	normes	norme	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	sécurité	sécurité	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	protection	protection	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	l'environnement	l'environnement	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_623
+# text = Les données de trafic confirment une concentration croissante des lignes sur quelques hubs mondiaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	trafic	trafic	NOUN	_	_	_	_	_	_
+5	confirment	confirmer	VERB	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	concentration	concentration	NOUN	_	_	_	_	_	_
+8	croissante	croissant	ADJ	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	lignes	lignes	X	_	_	_	_	_	_
+11	sur	sur	X	_	_	_	_	_	_
+12	quelques	quelques	X	_	_	_	_	_	_
+13	hubs	hubs	X	_	_	_	_	_	_
+14	mondiaux	mondiaux	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_624
+# text = La critique environnementale dénonce l'usage de combustibles lourds par une partie de la flotte commerciale.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	environnementale	environnemental	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	l'usage	l'usage	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	combustibles	combustibles	X	_	_	_	_	_	_
+8	lourds	lourds	X	_	_	_	_	_	_
+9	par	par	X	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	partie	partie	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	flotte	flotte	X	_	_	_	_	_	_
+15	commerciale	commerciale	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_625
+# text = Il faudrait que les États harmonisent leurs registres pour lutter contre les pavillons de complaisance.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	États	état	NOUN	_	_	_	_	_	_
+6	harmonisent	harmoniser	VERB	_	_	_	_	_	_
+7	leurs	leur	DET	_	_	_	_	_	_
+8	registres	registre	NOUN	_	_	_	_	_	_
+9	pour	pour	ADP	_	_	_	_	_	_
+10	lutter	lutter	VERB	_	_	_	_	_	_
+11	contre	contre	ADP	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	pavillons	pavillon	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	complaisance	complaisance	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_626
+# text = L'enquête ethnographique a documenté comment les rituels de guérison coexistent avec la médecine biomédicale officielle.
+1	L'enquête	L'enquête	X	_	_	_	_	_	_
+2	ethnographique	ethnographique	X	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	documenté	documenté	X	_	_	_	_	_	_
+5	comment	comment	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	rituels	rituels	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	guérison	guérison	X	_	_	_	_	_	_
+10	coexistent	coexistent	X	_	_	_	_	_	_
+11	avec	avec	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	médecine	médecine	X	_	_	_	_	_	_
+14	biomédicale	biomédicale	X	_	_	_	_	_	_
+15	officielle	officielle	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_627
+# text = Bien que les protocoles cliniques soient standardisés, les patients négocient le sens de la maladie dans leurs communautés.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	protocoles	protocole	NOUN	_	_	_	_	_	_
+5	cliniques	clinique	ADJ	_	_	_	_	_	_
+6	soient	être	AUX	_	_	_	_	_	_
+7	standardisés	standardiser	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	patients	patient	NOUN	_	_	_	_	_	_
+11	négocient	négocier	VERB	_	_	_	_	_	_
+12	le	le	DET	_	_	_	_	_	_
+13	sens	sen	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	maladie	maladie	NOUN	_	_	_	_	_	_
+17	dans	dans	ADP	_	_	_	_	_	_
+18	leurs	leur	DET	_	_	_	_	_	_
+19	communautés	communauté	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_628
+# text = La notion d'explanatory model relie symptômes physiques, causes perçues et stratégies thérapeutiques culturellement situées.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	d'explanatory	d'explanatory	X	_	_	_	_	_	_
+4	model	model	X	_	_	_	_	_	_
+5	relie	relie	X	_	_	_	_	_	_
+6	symptômes	symptômes	X	_	_	_	_	_	_
+7	physiques	physiques	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	causes	causes	X	_	_	_	_	_	_
+10	perçues	perçues	X	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	stratégies	stratégies	X	_	_	_	_	_	_
+13	thérapeutiques	thérapeutiques	X	_	_	_	_	_	_
+14	culturellement	culturellement	X	_	_	_	_	_	_
+15	situées	situées	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_629
+# text = Il demeure disputé de savoir si l'ethnomédecine doit être intégrée ou simplement tolérée dans les systèmes publics.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	l'ethnomédecine	l'ethnomédecine	X	_	_	_	_	_	_
+8	doit	devoir	AUX	_	_	_	_	_	_
+9	être	être	X	_	_	_	_	_	_
+10	intégrée	intégrée	X	_	_	_	_	_	_
+11	ou	ou	CCONJ	_	_	_	_	_	_
+12	simplement	simplement	X	_	_	_	_	_	_
+13	tolérée	tolérée	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	systèmes	systèmes	X	_	_	_	_	_	_
+17	publics	publics	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_630
+# text = Les anthropologues utilisent des entretiens biographiques pour saisir l'expérience vécue de la chronicité.
+1	Les	le	DET	_	_	_	_	_	_
+2	anthropologues	anthropologue	NOUN	_	_	_	_	_	_
+3	utilisent	utiliser	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	entretiens	entretien	NOUN	_	_	_	_	_	_
+6	biographiques	biographique	ADJ	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	saisir	saisir	VERB	_	_	_	_	_	_
+9	l'expérience	l'expérience	X	_	_	_	_	_	_
+10	vécue	vécue	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	chronicité	chronicité	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_631
+# text = Nonobstant les campagnes de prévention, les représentations locales influencent fortement l'adhésion vaccinale.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	campagnes	campagne	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	prévention	prévention	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	représentations	représentation	NOUN	_	_	_	_	_	_
+9	locales	local	ADJ	_	_	_	_	_	_
+10	influencent	influencer	VERB	_	_	_	_	_	_
+11	fortement	fortement	ADV	_	_	_	_	_	_
+12	l'adhésion	l'adhésion	X	_	_	_	_	_	_
+13	vaccinale	vaccinale	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_632
+# text = La critique postcoloniale souligne que les classifications internationales ignorent parfois les savoirs autochtones.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	postcoloniale	postcolonial	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	classifications	classification	NOUN	_	_	_	_	_	_
+8	internationales	international	ADJ	_	_	_	_	_	_
+9	ignorent	ignorer	VERB	_	_	_	_	_	_
+10	parfois	parfois	ADV	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	savoirs	savoir	NOUN	_	_	_	_	_	_
+13	autochtones	autochtone	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_633
+# text = Les données de terrain montrent une médicalisation progressive des états de détresse psychosociale.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	terrain	terrain	NOUN	_	_	_	_	_	_
+5	montrent	montrer	VERB	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	médicalisation	médicalisation	NOUN	_	_	_	_	_	_
+8	progressive	progressif	ADJ	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	états	états	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	détresse	détresse	X	_	_	_	_	_	_
+13	psychosociale	psychosociale	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_634
+# text = Le débat porte sur la traduction culturelle des échelles de mesure importées dans des contextes non occidentaux.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	traduction	traduction	NOUN	_	_	_	_	_	_
+7	culturelle	culturel	ADJ	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	échelles	échelles	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	mesure	mesure	X	_	_	_	_	_	_
+12	importées	importées	X	_	_	_	_	_	_
+13	dans	dans	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	contextes	contextes	X	_	_	_	_	_	_
+16	non	non	X	_	_	_	_	_	_
+17	occidentaux	occidentaux	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_635
+# text = La théorie de la structural violence explique comment les inégalités sociales se traduisent en morbidité différenciée.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	structural	structural	NOUN	_	_	_	_	_	_
+6	violence	violence	NOUN	_	_	_	_	_	_
+7	explique	expliquer	VERB	_	_	_	_	_	_
+8	comment	comment	ADV	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	inégalités	inégalité	NOUN	_	_	_	_	_	_
+11	sociales	social	ADJ	_	_	_	_	_	_
+12	se	se	PRON	_	_	_	_	_	_
+13	traduisent	traduire	VERB	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	morbidité	morbidité	NOUN	_	_	_	_	_	_
+16	différenciée	différencier	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_636
+# text = Après avoir observé les consultations, l'équipe a identifié des malentendus liés aux asymétries linguistiques.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	observé	observer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	consultations	consultation	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	identifié	identifié	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	malentendus	malentendus	X	_	_	_	_	_	_
+12	liés	liés	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	asymétries	asymétries	X	_	_	_	_	_	_
+15	linguistiques	linguistiques	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_637
+# text = La critique méthodologique invite à réfléchir à la positionnalité du chercheur dans les milieux cliniques.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	méthodologique	méthodologique	ADJ	_	_	_	_	_	_
+4	invite	inviter	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	réfléchir	réfléchir	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	positionnalité	positionnalité	NOUN	_	_	_	_	_	_
+10	du	du	ADP	_	_	_	_	_	_
+11	chercheur	chercheur	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	milieux	milieux	X	_	_	_	_	_	_
+15	cliniques	cliniques	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_638
+# text = Il reste débattu si l'anthropologie médicale doit privilégier l'action participative ou l'analyse distanciée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	l'anthropologie	l'anthropologie	X	_	_	_	_	_	_
+6	médicale	médicale	X	_	_	_	_	_	_
+7	doit	devoir	AUX	_	_	_	_	_	_
+8	privilégier	privilégier	X	_	_	_	_	_	_
+9	l'action	l'action	X	_	_	_	_	_	_
+10	participative	participative	X	_	_	_	_	_	_
+11	ou	ou	CCONJ	_	_	_	_	_	_
+12	l'analyse	l'analyse	X	_	_	_	_	_	_
+13	distanciée	distanciée	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_639
+# text = Le cadre de la biosocialité décrit comment les identités se forment autour de diagnostics et de traitements.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	biosocialité	biosocialité	NOUN	_	_	_	_	_	_
+6	décrit	décrire	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	identités	identité	NOUN	_	_	_	_	_	_
+10	se	se	PRON	_	_	_	_	_	_
+11	forment	former	VERB	_	_	_	_	_	_
+12	autour	autour	ADV	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	diagnostics	diagnostic	NOUN	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	traitements	traitement	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_640
+# text = Les approches intersectionnelles montrent comment genre et classe modulent l'accès aux soins reproductifs.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	intersectionnelles	intersectionnel	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	genre	genre	NOUN	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	classe	classe	NOUN	_	_	_	_	_	_
+9	modulent	moduler	VERB	_	_	_	_	_	_
+10	l'accès	l'accès	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	soins	soins	X	_	_	_	_	_	_
+13	reproductifs	reproductifs	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_641
+# text = La commission a recommandé de former les professionnels à la communication interculturelle en milieu hospitalier.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	former	former	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	professionnels	professionnel	NOUN	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	communication	communication	NOUN	_	_	_	_	_	_
+12	interculturelle	interculturel	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	milieu	milieu	NOUN	_	_	_	_	_	_
+15	hospitalier	hospitalier	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_642
+# text = Les historiens de la médecine relient les politiques sanitaires actuelles à des héritages coloniaux persistants.
+1	Les	le	DET	_	_	_	_	_	_
+2	historiens	historien	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	médecine	médecine	NOUN	_	_	_	_	_	_
+6	relient	relier	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	politiques	politique	NOUN	_	_	_	_	_	_
+9	sanitaires	sanitaire	ADJ	_	_	_	_	_	_
+10	actuelles	actuel	ADJ	_	_	_	_	_	_
+11	à	à	ADP	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	héritages	héritage	NOUN	_	_	_	_	_	_
+14	coloniaux	colonial	ADJ	_	_	_	_	_	_
+15	persistants	persistant	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_643
+# text = Le débat sur la global health interroge les rapports de pouvoir dans les partenariats Nord-Sud.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	global	global	X	_	_	_	_	_	_
+6	health	health	X	_	_	_	_	_	_
+7	interroge	interroger	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	rapports	rapport	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	pouvoir	pouvoir	VERB	_	_	_	_	_	_
+12	dans	dans	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	partenariats	partenariat	NOUN	_	_	_	_	_	_
+15	Nord-Sud	Nord-sud	PROPN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_644
+# text = La théorie de la somatisation culturelle invite à dépasser l'opposition corps-esprit dans l'analyse des symptômes.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	somatisation	somatisation	NOUN	_	_	_	_	_	_
+6	culturelle	culturel	ADJ	_	_	_	_	_	_
+7	invite	inviter	VERB	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	dépasser	dépasser	VERB	_	_	_	_	_	_
+10	l'opposition	l'opposition	X	_	_	_	_	_	_
+11	corps-esprit	corps-esprit	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	l'analyse	l'analyse	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	symptômes	symptômes	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_645
+# text = Les chercheurs en santé publique étudient comment les réseaux communautaires compensent les failles institutionnelles.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	santé	santé	NOUN	_	_	_	_	_	_
+5	publique	public	ADJ	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	réseaux	réseau	NOUN	_	_	_	_	_	_
+10	communautaires	communautaire	ADJ	_	_	_	_	_	_
+11	compensent	compenser	VERB	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	failles	faille	NOUN	_	_	_	_	_	_
+14	institutionnelles	institutionnel	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_646
+# text = La déconstruction des statistiques épidémiologiques révèle des biais de collecte dans les populations marginalisées.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	statistiques	statistiques	X	_	_	_	_	_	_
+5	épidémiologiques	épidémiologiques	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	biais	biais	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	collecte	collecte	X	_	_	_	_	_	_
+11	dans	dans	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	populations	populations	X	_	_	_	_	_	_
+14	marginalisées	marginalisées	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_647
+# text = Le principe de justice sanitaire exige que les programmes tiennent compte des déterminants sociaux de la santé.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	justice	justice	NOUN	_	_	_	_	_	_
+5	sanitaire	sanitaire	ADJ	_	_	_	_	_	_
+6	exige	exiger	VERB	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	programmes	programme	NOUN	_	_	_	_	_	_
+10	tiennent	tenir	VERB	_	_	_	_	_	_
+11	compte	compter	VERB	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	déterminants	déterminant	NOUN	_	_	_	_	_	_
+14	sociaux	social	ADJ	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	santé	santé	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_648
+# text = Les données qualitatives confirment l'importance de la confiance dans la relation soignant-soigné.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	qualitatives	qualitatif	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	l'importance	l'importance	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	confiance	confiance	X	_	_	_	_	_	_
+9	dans	dans	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	relation	relation	X	_	_	_	_	_	_
+12	soignant-soigné	soignant-soigné	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_649
+# text = La critique institutionnelle dénonce la standardisation des parcours au détriment des contextes locaux.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	standardisation	standardisation	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	parcours	parcours	X	_	_	_	_	_	_
+9	au	au	ADP	_	_	_	_	_	_
+10	détriment	détriment	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	contextes	contextes	X	_	_	_	_	_	_
+13	locaux	locaux	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_650
+# text = Il faudrait que les politiques sanitaires associent experts biomédicaux et interprètes culturels qualifiés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	politiques	politique	NOUN	_	_	_	_	_	_
+6	sanitaires	sanitaire	ADJ	_	_	_	_	_	_
+7	associent	associer	VERB	_	_	_	_	_	_
+8	experts	expert	NOUN	_	_	_	_	_	_
+9	biomédicaux	biomédical	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	interprètes	interprète	NOUN	_	_	_	_	_	_
+12	culturels	culturel	ADJ	_	_	_	_	_	_
+13	qualifiés	qualifier	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_651
+# text = Le modèle de régression pénalisée a sélectionné les variables prédictives tout en limitant le surajustement observé.
+1	Le	le	DET	_	_	_	_	_	_
+2	modèle	modèle	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	régression	régression	NOUN	_	_	_	_	_	_
+5	pénalisée	pénaliser	VERB	_	_	_	_	_	_
+6	a	avoir	AUX	_	_	_	_	_	_
+7	sélectionné	sélectionner	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	variables	variable	NOUN	_	_	_	_	_	_
+10	prédictives	prédictif	ADJ	_	_	_	_	_	_
+11	tout	tout	ADV	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	limitant	limiter	VERB	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	surajustement	surajustement	ADV	_	_	_	_	_	_
+16	observé	observer	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_652
+# text = Bien que les hypothèses de linéarité soient approximatives, l'analyse en composantes principales révèle une structure claire.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	hypothèses	hypothèse	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	linéarité	linéarité	NOUN	_	_	_	_	_	_
+7	soient	être	AUX	_	_	_	_	_	_
+8	approximatives	approximatif	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	l'analyse	l'analyse	X	_	_	_	_	_	_
+11	en	en	PRON	_	_	_	_	_	_
+12	composantes	composantes	X	_	_	_	_	_	_
+13	principales	principales	X	_	_	_	_	_	_
+14	révèle	révèle	X	_	_	_	_	_	_
+15	une	un	DET	_	_	_	_	_	_
+16	structure	structure	X	_	_	_	_	_	_
+17	claire	claire	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_653
+# text = La matrice de corrélation suggère une multicolinéarité modérée entre les indicateurs socioéconomiques retenus.
+1	La	le	DET	_	_	_	_	_	_
+2	matrice	matrice	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	corrélation	corrélation	NOUN	_	_	_	_	_	_
+5	suggère	suggérer	VERB	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	multicolinéarité	multicolinéarité	NOUN	_	_	_	_	_	_
+8	modérée	modéré	ADJ	_	_	_	_	_	_
+9	entre	entre	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	indicateurs	indicateur	NOUN	_	_	_	_	_	_
+12	socioéconomiques	socioéconomique	ADJ	_	_	_	_	_	_
+13	retenus	retenir	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_654
+# text = Il demeure disputé de savoir si l'imputation multiple corrige suffisamment les biais induits par les données manquantes.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	l'imputation	l'imputation	X	_	_	_	_	_	_
+8	multiple	multiple	X	_	_	_	_	_	_
+9	corrige	corrige	X	_	_	_	_	_	_
+10	suffisamment	suffisamment	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	biais	biais	X	_	_	_	_	_	_
+13	induits	induits	X	_	_	_	_	_	_
+14	par	par	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	données	données	X	_	_	_	_	_	_
+17	manquantes	manquantes	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_655
+# text = Les statisticiens utilisent des critères d'information pour comparer des modèles emboîtés de complexité croissante.
+1	Les	le	DET	_	_	_	_	_	_
+2	statisticiens	statisticien	NOUN	_	_	_	_	_	_
+3	utilisent	utiliser	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	critères	critère	NOUN	_	_	_	_	_	_
+6	d'information	d'information	X	_	_	_	_	_	_
+7	pour	pour	X	_	_	_	_	_	_
+8	comparer	comparer	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	modèles	modèles	X	_	_	_	_	_	_
+11	emboîtés	emboîtés	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	complexité	complexité	X	_	_	_	_	_	_
+14	croissante	croissante	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_656
+# text = Nonobstant la significativité globale, certains coefficients présentent des intervalles de confiance très larges.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	significativité	significativité	NOUN	_	_	_	_	_	_
+4	globale	global	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	certains	certain	DET	_	_	_	_	_	_
+7	coefficients	coefficient	NOUN	_	_	_	_	_	_
+8	présentent	présenter	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	intervalles	intervalle	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	confiance	confiance	NOUN	_	_	_	_	_	_
+13	très	très	ADV	_	_	_	_	_	_
+14	larges	large	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_657
+# text = La validation croisée confirme que les performances prédictives se maintiennent sur l'échantillon de test.
+1	La	le	DET	_	_	_	_	_	_
+2	validation	validation	NOUN	_	_	_	_	_	_
+3	croisée	croisé	VERB	_	_	_	_	_	_
+4	confirme	confirmer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	performances	performance	NOUN	_	_	_	_	_	_
+8	prédictives	prédictif	ADJ	_	_	_	_	_	_
+9	se	se	PRON	_	_	_	_	_	_
+10	maintiennent	maintenir	VERB	_	_	_	_	_	_
+11	sur	sur	ADP	_	_	_	_	_	_
+12	l'échantillon	l'échantillon	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	test	test	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_658
+# text = Le débat porte sur le choix entre analyse factorielle exploratoire et confirmatoire dans les sciences sociales.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	choix	choix	NOUN	_	_	_	_	_	_
+7	entre	entre	ADP	_	_	_	_	_	_
+8	analyse	analyse	NOUN	_	_	_	_	_	_
+9	factorielle	factoriel	ADJ	_	_	_	_	_	_
+10	exploratoire	exploratoire	ADJ	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	confirmatoire	confirmatoire	ADJ	_	_	_	_	_	_
+13	dans	dans	ADP	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	sciences	science	NOUN	_	_	_	_	_	_
+16	sociales	social	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_659
+# text = La théorie des graphes appliquée identifie des communautés au sein du réseau de cooccurrence lexical.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	graphes	graphes	X	_	_	_	_	_	_
+5	appliquée	appliquée	X	_	_	_	_	_	_
+6	identifie	identifie	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	communautés	communautés	X	_	_	_	_	_	_
+9	au	au	ADP	_	_	_	_	_	_
+10	sein	sein	X	_	_	_	_	_	_
+11	du	du	ADP	_	_	_	_	_	_
+12	réseau	réseau	X	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	cooccurrence	cooccurrence	X	_	_	_	_	_	_
+15	lexical	lexical	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_660
+# text = Les approches bayésiennes intègrent des priors informatifs pour stabiliser l'estimation en petit échantillon.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	bayésiennes	bayésien	ADJ	_	_	_	_	_	_
+4	intègrent	intégrer	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	priors	prior	NOUN	_	_	_	_	_	_
+7	informatifs	informatif	ADJ	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	stabiliser	stabiliser	VERB	_	_	_	_	_	_
+10	l'estimation	l'estimation	X	_	_	_	_	_	_
+11	en	en	PRON	_	_	_	_	_	_
+12	petit	petit	X	_	_	_	_	_	_
+13	échantillon	échantillon	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_661
+# text = Après avoir standardisé les variables, l'équipe a observé un changement notable dans les contributions relatives.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	standardisé	standardiser	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	variables	variable	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	observé	observé	X	_	_	_	_	_	_
+10	un	un	DET	_	_	_	_	_	_
+11	changement	changement	X	_	_	_	_	_	_
+12	notable	notable	X	_	_	_	_	_	_
+13	dans	dans	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	contributions	contributions	X	_	_	_	_	_	_
+16	relatives	relatives	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_662
+# text = La critique méthodologique souligne que la taille d'effet doit compléter le test de significativité classique.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	méthodologique	méthodologique	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	taille	taille	NOUN	_	_	_	_	_	_
+8	d'effet	d'effet	X	_	_	_	_	_	_
+9	doit	devoir	AUX	_	_	_	_	_	_
+10	compléter	compléter	X	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	test	test	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	significativité	significativité	X	_	_	_	_	_	_
+15	classique	classique	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_663
+# text = Il reste débattu si les modèles non linéaires généralisés améliorent réellement l'interprétabilité substantive.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	modèles	modèle	NOUN	_	_	_	_	_	_
+7	non	non	ADV	_	_	_	_	_	_
+8	linéaires	linéaire	ADJ	_	_	_	_	_	_
+9	généralisés	généraliser	VERB	_	_	_	_	_	_
+10	améliorent	améliorer	VERB	_	_	_	_	_	_
+11	réellement	réellement	ADV	_	_	_	_	_	_
+12	l'interprétabilité	l'interprétabilité	X	_	_	_	_	_	_
+13	substantive	substantive	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_664
+# text = Le cadre de l'analyse de survie modélise le risque instantané en tenant compte de la censure à droite.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'analyse	l'analyse	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	survie	survie	X	_	_	_	_	_	_
+7	modélise	modélise	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	risque	risque	X	_	_	_	_	_	_
+10	instantané	instantané	X	_	_	_	_	_	_
+11	en	en	PRON	_	_	_	_	_	_
+12	tenant	tenant	X	_	_	_	_	_	_
+13	compte	compte	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	censure	censure	X	_	_	_	_	_	_
+17	à	à	X	_	_	_	_	_	_
+18	droite	droite	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_665
+# text = Les techniques de clustering hiérarchique distinguent des profils d'usagers aux trajectoires différenciées.
+1	Les	le	DET	_	_	_	_	_	_
+2	techniques	technique	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	clustering	clustering	NOUN	_	_	_	_	_	_
+5	hiérarchique	hiérarchique	ADJ	_	_	_	_	_	_
+6	distinguent	distinguer	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	profils	profil	NOUN	_	_	_	_	_	_
+9	d'usagers	d'usagers	X	_	_	_	_	_	_
+10	aux	aux	ADP	_	_	_	_	_	_
+11	trajectoires	trajectoires	X	_	_	_	_	_	_
+12	différenciées	différenciées	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_666
+# text = La commission a recommandé de publier les scripts de traitement pour garantir la reproductibilité des résultats.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	publier	publier	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	scripts	script	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	traitement	traitement	NOUN	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	garantir	garantir	VERB	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	reproductibilité	reproductibilité	NOUN	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	résultats	résultats	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_667
+# text = Les économétres étudient comment les chocs exogènes identifient des effets causaux dans les panels longitudinaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	économétres	économétre	NOUN	_	_	_	_	_	_
+3	étudient	étudier	VERB	_	_	_	_	_	_
+4	comment	comment	ADV	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	chocs	choc	NOUN	_	_	_	_	_	_
+7	exogènes	exogène	ADJ	_	_	_	_	_	_
+8	identifient	identifier	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	effets	effet	NOUN	_	_	_	_	_	_
+11	causaux	causal	ADJ	_	_	_	_	_	_
+12	dans	dans	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	panels	panel	NOUN	_	_	_	_	_	_
+15	longitudinaux	longitudinal	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_668
+# text = Le débat sur la p-value interroge son usage mécanique dans la décision de publication scientifique.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	p-value	p-value	NOUN	_	_	_	_	_	_
+6	interroge	interroger	VERB	_	_	_	_	_	_
+7	son	son	DET	_	_	_	_	_	_
+8	usage	usage	NOUN	_	_	_	_	_	_
+9	mécanique	mécanique	ADJ	_	_	_	_	_	_
+10	dans	dans	ADP	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	décision	décision	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	publication	publication	NOUN	_	_	_	_	_	_
+15	scientifique	scientifique	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_669
+# text = La théorie des équations structurelles articule relations latentes et indicateurs observés dans un même modèle.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	équations	équations	X	_	_	_	_	_	_
+5	structurelles	structurelles	X	_	_	_	_	_	_
+6	articule	articule	X	_	_	_	_	_	_
+7	relations	relations	X	_	_	_	_	_	_
+8	latentes	latentes	X	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	indicateurs	indicateurs	X	_	_	_	_	_	_
+11	observés	observés	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	un	un	DET	_	_	_	_	_	_
+14	même	même	X	_	_	_	_	_	_
+15	modèle	modèle	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_670
+# text = Les chercheurs en apprentissage automatique comparent la performance de classifieurs sur des données déséquilibrées.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	apprentissage	apprentissage	NOUN	_	_	_	_	_	_
+5	automatique	automatique	ADJ	_	_	_	_	_	_
+6	comparent	comparer	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	performance	performance	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	classifieurs	classifieur	NOUN	_	_	_	_	_	_
+11	sur	sur	ADP	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	données	donnée	NOUN	_	_	_	_	_	_
+14	déséquilibrées	déséquilibrer	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_671
+# text = La déconstruction des rapports de corrélation révèle des associations spurieuses sans mécanisme causal établi.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	rapports	rapports	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	corrélation	corrélation	X	_	_	_	_	_	_
+7	révèle	révèle	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	associations	associations	X	_	_	_	_	_	_
+10	spurieuses	spurieuses	X	_	_	_	_	_	_
+11	sans	sans	X	_	_	_	_	_	_
+12	mécanisme	mécanisme	X	_	_	_	_	_	_
+13	causal	causal	X	_	_	_	_	_	_
+14	établi	établi	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_672
+# text = Le principe de parcimonie invite à privilégier les modèles explicatifs les plus simples compatibles avec les données.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	parcimonie	parcimonie	NOUN	_	_	_	_	_	_
+5	invite	inviter	VERB	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	privilégier	privilégier	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	modèles	modèle	NOUN	_	_	_	_	_	_
+10	explicatifs	explicatif	ADJ	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	plus	plus	ADV	_	_	_	_	_	_
+13	simples	simple	ADJ	_	_	_	_	_	_
+14	compatibles	compatible	ADJ	_	_	_	_	_	_
+15	avec	avec	ADP	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	données	donnée	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_673
+# text = Les données simulées confirment la robustesse de l'estimateur face à des outliers modérés.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	simulées	simuler	VERB	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	robustesse	robustesse	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	l'estimateur	l'estimateur	X	_	_	_	_	_	_
+9	face	face	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	outliers	outliers	X	_	_	_	_	_	_
+13	modérés	modérés	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_674
+# text = La critique institutionnelle dénonce l'absence de preregistration dans certaines analyses exploratoires publiées.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	l'absence	l'absence	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	preregistration	preregistration	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	certaines	certaines	X	_	_	_	_	_	_
+10	analyses	analyses	X	_	_	_	_	_	_
+11	exploratoires	exploratoires	X	_	_	_	_	_	_
+12	publiées	publiées	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_675
+# text = Il faudrait que les revues exigent la transparence sur les choix de spécification multivariée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	revues	revue	NOUN	_	_	_	_	_	_
+6	exigent	exiger	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	transparence	transparence	NOUN	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	choix	choix	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	spécification	spécification	NOUN	_	_	_	_	_	_
+14	multivariée	multivarié	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_676
+# text = La réforme administrative a introduit des indicateurs de performance pour évaluer l'efficience des services déconcentrés.
+1	La	le	DET	_	_	_	_	_	_
+2	réforme	réforme	NOUN	_	_	_	_	_	_
+3	administrative	administratif	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	introduit	introduire	VERB	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	indicateurs	indicateur	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	performance	performance	NOUN	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	évaluer	évaluer	VERB	_	_	_	_	_	_
+12	l'efficience	l'efficience	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	services	services	X	_	_	_	_	_	_
+15	déconcentrés	déconcentrés	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_677
+# text = Bien que la contractualisation vise la responsabilisation, les agents craignent une judicialisation accrue des objectifs.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	contractualisation	contractualisation	NOUN	_	_	_	_	_	_
+5	vise	viser	VERB	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	responsabilisation	responsabilisation	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	agents	agent	NOUN	_	_	_	_	_	_
+11	craignent	craindre	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	judicialisation	judicialisation	NOUN	_	_	_	_	_	_
+14	accrue	accroître	VERB	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	objectifs	objectifs	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_678
+# text = La notion de new public management articule logiques marchandes et missions de service public universel.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	new	new	NOUN	_	_	_	_	_	_
+5	public	public	ADJ	_	_	_	_	_	_
+6	management	management	NOUN	_	_	_	_	_	_
+7	articule	articuler	VERB	_	_	_	_	_	_
+8	logiques	logique	ADJ	_	_	_	_	_	_
+9	marchandes	marchand	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	missions	mission	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	service	service	NOUN	_	_	_	_	_	_
+14	public	public	ADJ	_	_	_	_	_	_
+15	universel	universel	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_679
+# text = Il demeure controversé de savoir si l'agilité managériale s'applique aux administrations soumises à la légalité.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	controversé	controversé	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	l'agilité	l'agilité	X	_	_	_	_	_	_
+8	managériale	managériale	X	_	_	_	_	_	_
+9	s'applique	s'applique	X	_	_	_	_	_	_
+10	aux	aux	ADP	_	_	_	_	_	_
+11	administrations	administrations	X	_	_	_	_	_	_
+12	soumises	soumises	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	légalité	légalité	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_680
+# text = Les chercheurs en politiques publiques comparent les trajectoires de modernisation entre ministères homologues.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	politiques	politique	NOUN	_	_	_	_	_	_
+5	publiques	public	ADJ	_	_	_	_	_	_
+6	comparent	comparer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	trajectoires	trajectoire	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	modernisation	modernisation	NOUN	_	_	_	_	_	_
+11	entre	entre	ADP	_	_	_	_	_	_
+12	ministères	ministère	NOUN	_	_	_	_	_	_
+13	homologues	homologue	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_681
+# text = Nonobstant les promesses de simplification, la complexité normative continue d'alourdir les procédures internes.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	promesses	promesse	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	simplification	simplification	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	complexité	complexité	NOUN	_	_	_	_	_	_
+9	normative	normatif	ADJ	_	_	_	_	_	_
+10	continue	continuer	VERB	_	_	_	_	_	_
+11	d'alourdir	d'alourdir	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	procédures	procédures	X	_	_	_	_	_	_
+14	internes	internes	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_682
+# text = Le pilotage par la qualité repose sur des boucles d'amélioration continue impliquant usagers et personnels.
+1	Le	le	DET	_	_	_	_	_	_
+2	pilotage	pilotage	NOUN	_	_	_	_	_	_
+3	par	par	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	qualité	qualité	NOUN	_	_	_	_	_	_
+6	repose	reposer	VERB	_	_	_	_	_	_
+7	sur	sur	ADP	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	boucles	boucle	NOUN	_	_	_	_	_	_
+10	d'amélioration	d'amélioration	X	_	_	_	_	_	_
+11	continue	continue	X	_	_	_	_	_	_
+12	impliquant	impliquant	X	_	_	_	_	_	_
+13	usagers	usagers	X	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	personnels	personnels	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_683
+# text = Le débat oppose les partisans du contrôle centralisé aux défenseurs d'une autonomie managériale locale.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	oppose	opposer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	partisans	partisan	NOUN	_	_	_	_	_	_
+6	du	du	ADP	_	_	_	_	_	_
+7	contrôle	contrôle	X	_	_	_	_	_	_
+8	centralisé	centralisé	X	_	_	_	_	_	_
+9	aux	aux	ADP	_	_	_	_	_	_
+10	défenseurs	défenseurs	X	_	_	_	_	_	_
+11	d'une	d'une	X	_	_	_	_	_	_
+12	autonomie	autonomie	X	_	_	_	_	_	_
+13	managériale	managériale	X	_	_	_	_	_	_
+14	locale	locale	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_684
+# text = La théorie de la bureaucratie webérienne reste une référence pour analyser la rationalisation des administrations.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	bureaucratie	bureaucratie	NOUN	_	_	_	_	_	_
+6	webérienne	webérien	ADJ	_	_	_	_	_	_
+7	reste	rester	VERB	_	_	_	_	_	_
+8	une	un	DET	_	_	_	_	_	_
+9	référence	référence	NOUN	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	analyser	analyser	VERB	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	rationalisation	rationalisation	NOUN	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	administrations	administrations	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_685
+# text = Les données d'activité montrent une hétérogénéité persistante des délais de traitement entre guichets.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	d'activité	d'activité	X	_	_	_	_	_	_
+4	montrent	montrent	X	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	hétérogénéité	hétérogénéité	X	_	_	_	_	_	_
+7	persistante	persistante	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	délais	délais	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	traitement	traitement	X	_	_	_	_	_	_
+12	entre	entre	X	_	_	_	_	_	_
+13	guichets	guichets	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_686
+# text = Après avoir mené un audit organisationnel, l'inspection a identifié des redondances dans les circuits décisionnels.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	mené	mener	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	audit	audit	NOUN	_	_	_	_	_	_
+6	organisationnel	organisationnel	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	l'inspection	l'inspection	X	_	_	_	_	_	_
+9	a	avoir	AUX	_	_	_	_	_	_
+10	identifié	identifié	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	redondances	redondances	X	_	_	_	_	_	_
+13	dans	dans	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	circuits	circuits	X	_	_	_	_	_	_
+16	décisionnels	décisionnels	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_687
+# text = La critique institutionnelle met en garde contre la financiarisation des indicateurs au détriment de la mission.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	met	mettre	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	garde	garde	NOUN	_	_	_	_	_	_
+7	contre	contre	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	financiarisation	financiarisation	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	indicateurs	indicateurs	X	_	_	_	_	_	_
+12	au	au	ADP	_	_	_	_	_	_
+13	détriment	détriment	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	mission	mission	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_688
+# text = Il reste disputé si le coproduction des services améliore réellement la satisfaction sans sélectionner les usagers.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	coproduction	coproduction	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	services	services	X	_	_	_	_	_	_
+9	améliore	améliore	X	_	_	_	_	_	_
+10	réellement	réellement	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	satisfaction	satisfaction	X	_	_	_	_	_	_
+13	sans	sans	X	_	_	_	_	_	_
+14	sélectionner	sélectionner	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	usagers	usagers	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_689
+# text = Le cadre de la gouvernance multiniveau décrit la coordination entre État, régions et collectivités locales.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	gouvernance	gouvernance	NOUN	_	_	_	_	_	_
+6	multiniveau	multiniveau	ADJ	_	_	_	_	_	_
+7	décrit	décrire	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	coordination	coordination	NOUN	_	_	_	_	_	_
+10	entre	entre	ADP	_	_	_	_	_	_
+11	État	état	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	régions	région	NOUN	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	collectivités	collectivité	NOUN	_	_	_	_	_	_
+16	locales	local	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_690
+# text = Les approches capacitaires évaluent les administrations selon leur aptitude à apprendre et à s'adapter.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	capacitaires	capacitaire	ADJ	_	_	_	_	_	_
+4	évaluent	évaluer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	administrations	administration	NOUN	_	_	_	_	_	_
+7	selon	selon	ADP	_	_	_	_	_	_
+8	leur	leur	DET	_	_	_	_	_	_
+9	aptitude	aptitude	NOUN	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	apprendre	apprendre	VERB	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	à	à	ADP	_	_	_	_	_	_
+14	s'adapter	s'adapter	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_691
+# text = La commission a recommandé de renforcer la formation des managers publics aux outils de gestion de projet.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	renforcer	renforcer	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	formation	formation	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	managers	managers	X	_	_	_	_	_	_
+11	publics	publics	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	outils	outils	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	gestion	gestion	X	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	projet	projet	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_692
+# text = Les sociologues des organisations étudient comment les réformes successives produisent des effets de lassitude.
+1	Les	le	DET	_	_	_	_	_	_
+2	sociologues	sociologue	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	organisations	organisations	X	_	_	_	_	_	_
+5	étudient	étudient	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	réformes	réformes	X	_	_	_	_	_	_
+9	successives	successives	X	_	_	_	_	_	_
+10	produisent	produisent	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	effets	effets	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	lassitude	lassitude	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_693
+# text = Le débat sur la transparence interroge la publication des données sensibles relatives aux politiques publiques.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	transparence	transparence	NOUN	_	_	_	_	_	_
+6	interroge	interroger	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	publication	publication	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	données	données	X	_	_	_	_	_	_
+11	sensibles	sensibles	X	_	_	_	_	_	_
+12	relatives	relatives	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	politiques	politiques	X	_	_	_	_	_	_
+15	publiques	publiques	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_694
+# text = La théorie du street-level bureaucracy explique comment les agents façonnent la mise en œuvre des règles.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	street-level	street-level	X	_	_	_	_	_	_
+5	bureaucracy	bureaucracy	X	_	_	_	_	_	_
+6	explique	explique	X	_	_	_	_	_	_
+7	comment	comment	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	agents	agents	X	_	_	_	_	_	_
+10	façonnent	façonnent	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	mise	mise	X	_	_	_	_	_	_
+13	en	en	PRON	_	_	_	_	_	_
+14	œuvre	œuvre	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	règles	règles	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_695
+# text = Les analystes budgétaires étudient comment les lois de finances programment les crédits sur plusieurs années.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	budgétaires	budgétaire	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	lois	loi	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	finances	finance	NOUN	_	_	_	_	_	_
+10	programment	programmer	VERB	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	crédits	crédit	NOUN	_	_	_	_	_	_
+13	sur	sur	ADP	_	_	_	_	_	_
+14	plusieurs	plusieurs	DET	_	_	_	_	_	_
+15	années	année	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_696
+# text = La déconstruction des discours de modernisation révèle des promesses de productivité difficilement vérifiables.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	modernisation	modernisation	X	_	_	_	_	_	_
+7	révèle	révèle	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	promesses	promesses	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	productivité	productivité	X	_	_	_	_	_	_
+12	difficilement	difficilement	X	_	_	_	_	_	_
+13	vérifiables	vérifiables	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_697
+# text = Le principe d'égalité devant le service public impose une continuité territoriale des prestations essentielles.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	d'égalité	d'égalité	X	_	_	_	_	_	_
+4	devant	devant	X	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	service	service	X	_	_	_	_	_	_
+7	public	public	X	_	_	_	_	_	_
+8	impose	impose	X	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	continuité	continuité	X	_	_	_	_	_	_
+11	territoriale	territoriale	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	prestations	prestations	X	_	_	_	_	_	_
+14	essentielles	essentielles	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_698
+# text = Les données d'enquête confirment un lien entre reconnaissance professionnelle et engagement des agents publics.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	d'enquête	d'enquête	X	_	_	_	_	_	_
+4	confirment	confirment	X	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	lien	lien	X	_	_	_	_	_	_
+7	entre	entre	X	_	_	_	_	_	_
+8	reconnaissance	reconnaissance	X	_	_	_	_	_	_
+9	professionnelle	professionnelle	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	engagement	engagement	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	agents	agents	X	_	_	_	_	_	_
+14	publics	publics	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_699
+# text = La critique managériale dénonce l'empilement des réformes sans évaluation indépendante des effets obtenus.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	managériale	managérial	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	l'empilement	l'empilement	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	réformes	réformes	X	_	_	_	_	_	_
+8	sans	sans	X	_	_	_	_	_	_
+9	évaluation	évaluation	X	_	_	_	_	_	_
+10	indépendante	indépendante	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	effets	effets	X	_	_	_	_	_	_
+13	obtenus	obtenus	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_700
+# text = Il faudrait que les administrations publient des bilans d'impact accessibles aux citoyens et aux parlementaires.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	administrations	administration	NOUN	_	_	_	_	_	_
+6	publient	publier	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	bilans	bilan	NOUN	_	_	_	_	_	_
+9	d'impact	d'impact	X	_	_	_	_	_	_
+10	accessibles	accessibles	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	citoyens	citoyens	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	aux	aux	ADP	_	_	_	_	_	_
+15	parlementaires	parlementaires	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_701
+# text = La mise en scène contemporaine a réinterprété le texte classique en déplaçant l'action dans un contexte urbain.
+1	La	le	DET	_	_	_	_	_	_
+2	mise	mise	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	scène	scène	NOUN	_	_	_	_	_	_
+5	contemporaine	contemporain	ADJ	_	_	_	_	_	_
+6	a	avoir	AUX	_	_	_	_	_	_
+7	réinterprété	réinterpréter	VERB	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	texte	texte	NOUN	_	_	_	_	_	_
+10	classique	classique	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	déplaçant	déplacer	VERB	_	_	_	_	_	_
+13	l'action	l'action	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	un	un	DET	_	_	_	_	_	_
+16	contexte	contexte	X	_	_	_	_	_	_
+17	urbain	urbain	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_702
+# text = Bien que la dramaturgie originale soit respectée, les choix scénographiques interrogent les rapports de pouvoir.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	dramaturgie	dramaturgie	NOUN	_	_	_	_	_	_
+5	originale	original	ADJ	_	_	_	_	_	_
+6	soit	être	AUX	_	_	_	_	_	_
+7	respectée	respecter	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	choix	choix	NOUN	_	_	_	_	_	_
+11	scénographiques	scénographique	ADJ	_	_	_	_	_	_
+12	interrogent	interroger	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	rapports	rapport	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	pouvoir	pouvoir	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_703
+# text = La notion de présence scénique renvoie à la capacité de l'acteur à capter l'attention du public en direct.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	présence	présence	NOUN	_	_	_	_	_	_
+5	scénique	scénique	ADJ	_	_	_	_	_	_
+6	renvoie	renvoyer	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	capacité	capacité	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	l'acteur	l'acteur	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	capter	capter	X	_	_	_	_	_	_
+14	l'attention	l'attention	X	_	_	_	_	_	_
+15	du	du	ADP	_	_	_	_	_	_
+16	public	public	X	_	_	_	_	_	_
+17	en	en	PRON	_	_	_	_	_	_
+18	direct	direct	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_704
+# text = Il demeure disputé de savoir si le théâtre immersif abolit la distance critique traditionnelle du spectateur.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	théâtre	théâtre	NOUN	_	_	_	_	_	_
+9	immersif	immersif	ADJ	_	_	_	_	_	_
+10	abolit	abolir	VERB	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	distance	distance	NOUN	_	_	_	_	_	_
+13	critique	critique	ADJ	_	_	_	_	_	_
+14	traditionnelle	traditionnel	ADJ	_	_	_	_	_	_
+15	du	du	ADP	_	_	_	_	_	_
+16	spectateur	spectateur	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_705
+# text = Les historiens du théâtre analysent comment les conventions de représentation évoluent selon les régimes politiques.
+1	Les	le	DET	_	_	_	_	_	_
+2	historiens	historien	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	théâtre	théâtre	X	_	_	_	_	_	_
+5	analysent	analysent	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	conventions	conventions	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	représentation	représentation	X	_	_	_	_	_	_
+11	évoluent	évoluent	X	_	_	_	_	_	_
+12	selon	selon	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	régimes	régimes	X	_	_	_	_	_	_
+15	politiques	politiques	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_706
+# text = Nonobstant les contraintes budgétaires, la compagnie a maintenu une création exigeante sur la scène nationale.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	contraintes	contrainte	NOUN	_	_	_	_	_	_
+4	budgétaires	budgétaire	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	compagnie	compagnie	NOUN	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	maintenu	maintenir	VERB	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	création	création	NOUN	_	_	_	_	_	_
+12	exigeante	exigeant	ADJ	_	_	_	_	_	_
+13	sur	sur	ADP	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	scène	scène	NOUN	_	_	_	_	_	_
+16	nationale	national	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_707
+# text = La sémiotique théâtrale décrit les signes scéniques comme un système de signification cohérent et lisible.
+1	La	le	DET	_	_	_	_	_	_
+2	sémiotique	sémiotique	NOUN	_	_	_	_	_	_
+3	théâtrale	théâtral	ADJ	_	_	_	_	_	_
+4	décrit	décrire	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	signes	signe	NOUN	_	_	_	_	_	_
+7	scéniques	scénique	ADJ	_	_	_	_	_	_
+8	comme	comme	SCONJ	_	_	_	_	_	_
+9	un	un	DET	_	_	_	_	_	_
+10	système	système	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	signification	signification	NOUN	_	_	_	_	_	_
+13	cohérent	cohérent	ADJ	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	lisible	lisible	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_708
+# text = Le débat porte sur la légitimité des adaptations cinématographiques de pièces conçues pour la scène.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	légitimité	légitimité	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	adaptations	adaptations	X	_	_	_	_	_	_
+9	cinématographiques	cinématographiques	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	pièces	pièces	X	_	_	_	_	_	_
+12	conçues	conçues	X	_	_	_	_	_	_
+13	pour	pour	X	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	scène	scène	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_709
+# text = La théorie de la réception étudie comment les publics divers activent des interprétations divergentes.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	réception	réception	NOUN	_	_	_	_	_	_
+6	étudie	étudier	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	publics	public	NOUN	_	_	_	_	_	_
+10	divers	divers	ADJ	_	_	_	_	_	_
+11	activent	activer	VERB	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	interprétations	interprétation	NOUN	_	_	_	_	_	_
+14	divergentes	divergent	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_710
+# text = Les approches performatives affirment que le théâtre produit des effets sociaux au-delà de la représentation.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	performatives	performatif	ADJ	_	_	_	_	_	_
+4	affirment	affirmer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	théâtre	théâtre	NOUN	_	_	_	_	_	_
+8	produit	produire	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	effets	effet	NOUN	_	_	_	_	_	_
+11	sociaux	social	ADJ	_	_	_	_	_	_
+12	au-delà	au-delà	ADV	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	représentation	représentation	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_711
+# text = Après avoir observé les répétitions, le chercheur a identifié des ajustements improvisés entre les acteurs.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	observé	observer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	répétitions	répétition	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	chercheur	chercheur	NOUN	_	_	_	_	_	_
+9	a	avoir	AUX	_	_	_	_	_	_
+10	identifié	identifier	VERB	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	ajustements	ajustement	NOUN	_	_	_	_	_	_
+13	improvisés	improviser	VERB	_	_	_	_	_	_
+14	entre	entre	ADP	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	acteurs	acteur	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_712
+# text = La critique esthétique souligne que la lumière structure le rythme narratif autant que le jeu des comédiens.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	esthétique	esthétique	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	lumière	lumière	NOUN	_	_	_	_	_	_
+8	structure	structurer	VERB	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	rythme	rythme	NOUN	_	_	_	_	_	_
+11	narratif	narratif	ADJ	_	_	_	_	_	_
+12	autant	autant	ADV	_	_	_	_	_	_
+13	que	que	SCONJ	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	jeu	jeu	NOUN	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	comédiens	comédiens	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_713
+# text = Il reste débattu si le théâtre documentaire garantit une fidélité factuelle ou construit une vérité scénique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	théâtre	théâtre	NOUN	_	_	_	_	_	_
+7	documentaire	documentaire	ADJ	_	_	_	_	_	_
+8	garantit	garantir	VERB	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	fidélité	fidélité	NOUN	_	_	_	_	_	_
+11	factuelle	factuel	ADJ	_	_	_	_	_	_
+12	ou	ou	CCONJ	_	_	_	_	_	_
+13	construit	construire	VERB	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	vérité	vérité	NOUN	_	_	_	_	_	_
+16	scénique	scénique	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_714
+# text = Le cadre de l'analyse dramaturgique articule conflit, progression et résolution dans l'architecture du spectacle.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'analyse	l'analyse	X	_	_	_	_	_	_
+5	dramaturgique	dramaturgique	X	_	_	_	_	_	_
+6	articule	articule	X	_	_	_	_	_	_
+7	conflit	conflit	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	progression	progression	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	résolution	résolution	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	l'architecture	l'architecture	X	_	_	_	_	_	_
+14	du	du	ADP	_	_	_	_	_	_
+15	spectacle	spectacle	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_715
+# text = Les metteurs en scène contemporains expérimentent des dispositifs hybrides mêlant vidéo et présence live.
+1	Les	le	DET	_	_	_	_	_	_
+2	metteurs	metteur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	scène	scène	NOUN	_	_	_	_	_	_
+5	contemporains	contemporain	ADJ	_	_	_	_	_	_
+6	expérimentent	expérimenter	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	dispositifs	dispositif	NOUN	_	_	_	_	_	_
+9	hybrides	hybride	ADJ	_	_	_	_	_	_
+10	mêlant	mêler	VERB	_	_	_	_	_	_
+11	vidéo	vidéo	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	présence	présence	NOUN	_	_	_	_	_	_
+14	live	live	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_716
+# text = La commission artistique a recommandé de soutenir les compagnies émergentes dans les territoires ruraux.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	artistique	artistique	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	recommandé	recommander	VERB	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	soutenir	soutenir	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	compagnies	compagnie	NOUN	_	_	_	_	_	_
+10	émergentes	émergent	ADJ	_	_	_	_	_	_
+11	dans	dans	ADP	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	territoires	territoire	NOUN	_	_	_	_	_	_
+14	ruraux	rural	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_717
+# text = Les sociologues de la culture étudient comment les politiques de diffusion influencent la diversité programmatique.
+1	Les	le	DET	_	_	_	_	_	_
+2	sociologues	sociologue	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	culture	culture	NOUN	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	politiques	politique	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	diffusion	diffusion	NOUN	_	_	_	_	_	_
+12	influencent	influencer	VERB	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	diversité	diversité	NOUN	_	_	_	_	_	_
+15	programmatique	programmatique	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_718
+# text = Le débat sur le répertoire interroge l'équilibre entre héritage canonique et création contemporaine.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	répertoire	répertoire	NOUN	_	_	_	_	_	_
+6	interroge	interroger	VERB	_	_	_	_	_	_
+7	l'équilibre	l'équilibre	X	_	_	_	_	_	_
+8	entre	entre	X	_	_	_	_	_	_
+9	héritage	héritage	X	_	_	_	_	_	_
+10	canonique	canonique	X	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	création	création	X	_	_	_	_	_	_
+13	contemporaine	contemporaine	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_719
+# text = La théorie de l'acteur réseau propose de suivre les alliances entre humains et objets scéniques.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'acteur	l'acteur	X	_	_	_	_	_	_
+5	réseau	réseau	X	_	_	_	_	_	_
+6	propose	propose	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	suivre	suivre	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	alliances	alliances	X	_	_	_	_	_	_
+11	entre	entre	X	_	_	_	_	_	_
+12	humains	humains	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	objets	objets	X	_	_	_	_	_	_
+15	scéniques	scéniques	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_720
+# text = Les critiques professionnels comparent les choix interprétatifs lors des festivals internationaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	critiques	critique	NOUN	_	_	_	_	_	_
+3	professionnels	professionnel	ADJ	_	_	_	_	_	_
+4	comparent	comparer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	choix	choix	NOUN	_	_	_	_	_	_
+7	interprétatifs	interprétatif	ADJ	_	_	_	_	_	_
+8	lors	lors	ADV	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	festivals	festivals	X	_	_	_	_	_	_
+11	internationaux	internationaux	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_721
+# text = La déconstruction des programmes officiels révèle une sous-représentation des autrices dramatiques.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	programmes	programmes	X	_	_	_	_	_	_
+5	officiels	officiels	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	sous-représentation	sous-représentation	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	autrices	autrices	X	_	_	_	_	_	_
+11	dramatiques	dramatiques	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_722
+# text = Le principe de liberté de création invite à défendre les pièces contestées par des groupes de pression.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	liberté	liberté	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	création	création	NOUN	_	_	_	_	_	_
+7	invite	inviter	VERB	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	défendre	défendre	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	pièces	pièce	NOUN	_	_	_	_	_	_
+12	contestées	contester	VERB	_	_	_	_	_	_
+13	par	par	ADP	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	groupes	groupe	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	pression	pression	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_723
+# text = Les données de fréquentation confirment un regain d'intérêt pour les formats intimistes en salle modulable.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	fréquentation	fréquentation	NOUN	_	_	_	_	_	_
+5	confirment	confirmer	VERB	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	regain	regain	NOUN	_	_	_	_	_	_
+8	d'intérêt	d'intérêt	X	_	_	_	_	_	_
+9	pour	pour	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	formats	formats	X	_	_	_	_	_	_
+12	intimistes	intimistes	X	_	_	_	_	_	_
+13	en	en	PRON	_	_	_	_	_	_
+14	salle	salle	X	_	_	_	_	_	_
+15	modulable	modulable	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_724
+# text = La critique institutionnelle dénonce la précarité structurelle des intermittents du spectacle.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	précarité	précarité	NOUN	_	_	_	_	_	_
+7	structurelle	structurel	ADJ	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	intermittents	intermittents	X	_	_	_	_	_	_
+10	du	du	ADP	_	_	_	_	_	_
+11	spectacle	spectacle	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_725
+# text = Il faudrait que les institutions articulent soutien financier et liberté artistique sans censure administrative.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	institutions	institution	NOUN	_	_	_	_	_	_
+6	articulent	articuler	VERB	_	_	_	_	_	_
+7	soutien	soutien	NOUN	_	_	_	_	_	_
+8	financier	financier	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	liberté	liberté	NOUN	_	_	_	_	_	_
+11	artistique	artistique	ADJ	_	_	_	_	_	_
+12	sans	sans	ADP	_	_	_	_	_	_
+13	censure	censure	NOUN	_	_	_	_	_	_
+14	administrative	administratif	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_726
+# text = L'analyse harmonique a révélé des modulations inattendues dans le mouvement central de la symphonie.
+1	L'analyse	L'analyse	X	_	_	_	_	_	_
+2	harmonique	harmonique	X	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	révélé	révélé	X	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	modulations	modulations	X	_	_	_	_	_	_
+7	inattendues	inattendues	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	mouvement	mouvement	X	_	_	_	_	_	_
+11	central	central	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	symphonie	symphonie	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_727
+# text = Bien que la partition soit conservée, les indications dynamiques laissent une marge d'interprétation aux chefs.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	partition	partition	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	conservée	conserver	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	indications	indication	NOUN	_	_	_	_	_	_
+10	dynamiques	dynamique	ADJ	_	_	_	_	_	_
+11	laissent	laisser	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	marge	marge	NOUN	_	_	_	_	_	_
+14	d'interprétation	d'interprétation	X	_	_	_	_	_	_
+15	aux	aux	ADP	_	_	_	_	_	_
+16	chefs	chefs	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_728
+# text = La musicologie historique situe l'œuvre dans les réseaux de patronage et les institutions de son époque.
+1	La	le	DET	_	_	_	_	_	_
+2	musicologie	musicologie	NOUN	_	_	_	_	_	_
+3	historique	historique	ADJ	_	_	_	_	_	_
+4	situe	situer	VERB	_	_	_	_	_	_
+5	l'œuvre	l'œuvre	X	_	_	_	_	_	_
+6	dans	dans	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	réseaux	réseaux	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	patronage	patronage	X	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	institutions	institutions	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	son	son	DET	_	_	_	_	_	_
+16	époque	époque	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_729
+# text = Il demeure disputé de savoir si l'authenticité exige l'usage exclusif d'instruments anciens.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	l'authenticité	l'authenticité	X	_	_	_	_	_	_
+8	exige	exige	X	_	_	_	_	_	_
+9	l'usage	l'usage	X	_	_	_	_	_	_
+10	exclusif	exclusif	X	_	_	_	_	_	_
+11	d'instruments	d'instruments	X	_	_	_	_	_	_
+12	anciens	anciens	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_730
+# text = Les ethnomusicologues documentent comment les pratiques rituelles structurent les rythmes communautaires.
+1	Les	le	DET	_	_	_	_	_	_
+2	ethnomusicologues	ethnomusicologue	NOUN	_	_	_	_	_	_
+3	documentent	documenter	VERB	_	_	_	_	_	_
+4	comment	comment	ADV	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	pratiques	pratique	NOUN	_	_	_	_	_	_
+7	rituelles	rituel	ADJ	_	_	_	_	_	_
+8	structurent	structurer	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	rythmes	rythme	NOUN	_	_	_	_	_	_
+11	communautaires	communautaire	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_731
+# text = Nonobstant les archives limitées, la reconstruction stylistique s'appuie sur des traités et des comptes rendus.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	archives	archive	NOUN	_	_	_	_	_	_
+4	limitées	limiter	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	reconstruction	reconstruction	NOUN	_	_	_	_	_	_
+8	stylistique	stylistique	ADJ	_	_	_	_	_	_
+9	s'appuie	s'appuie	X	_	_	_	_	_	_
+10	sur	sur	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	traités	traités	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	comptes	comptes	X	_	_	_	_	_	_
+16	rendus	rendus	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_732
+# text = La notion d'écriture vocale décrit la relation texte-musique dans le madrigal de la Renaissance.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	d'écriture	d'écriture	X	_	_	_	_	_	_
+4	vocale	vocale	X	_	_	_	_	_	_
+5	décrit	décrit	X	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	relation	relation	X	_	_	_	_	_	_
+8	texte-musique	texte-musique	X	_	_	_	_	_	_
+9	dans	dans	X	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	madrigal	madrigal	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	Renaissance	Renaissance	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_733
+# text = Le débat oppose les approches formalistes aux lectures contextualisées des œuvres du romantisme.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	oppose	opposer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	approches	approche	NOUN	_	_	_	_	_	_
+6	formalistes	formaliste	ADJ	_	_	_	_	_	_
+7	aux	aux	ADP	_	_	_	_	_	_
+8	lectures	lectures	X	_	_	_	_	_	_
+9	contextualisées	contextualisées	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	œuvres	œuvres	X	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	romantisme	romantisme	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_734
+# text = La théorie de la réception musicale étudie comment les goûts évoluent selon les médias de diffusion.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	réception	réception	NOUN	_	_	_	_	_	_
+6	musicale	musical	ADJ	_	_	_	_	_	_
+7	étudie	étudier	VERB	_	_	_	_	_	_
+8	comment	comment	ADV	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	goûts	goût	NOUN	_	_	_	_	_	_
+11	évoluent	évoluer	VERB	_	_	_	_	_	_
+12	selon	selon	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	médias	média	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	diffusion	diffusion	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_735
+# text = Les approches analytiques comparent les procédés de développement thématique chez différents compositeurs.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	analytiques	analytique	ADJ	_	_	_	_	_	_
+4	comparent	comparer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	procédés	procédé	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	développement	développement	NOUN	_	_	_	_	_	_
+9	thématique	thématique	ADJ	_	_	_	_	_	_
+10	chez	chez	ADP	_	_	_	_	_	_
+11	différents	différent	DET	_	_	_	_	_	_
+12	compositeurs	compositeur	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_736
+# text = Après avoir transcrit les enregistrements, l'équipe a identifié des variantes régionales du même répertoire.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	transcrit	transcrire	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	enregistrements	enregistrement	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	identifié	identifié	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	variantes	variantes	X	_	_	_	_	_	_
+12	régionales	régionales	X	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	même	même	X	_	_	_	_	_	_
+15	répertoire	répertoire	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_737
+# text = La critique éditoriale souligne que les choix d'ornementation influencent la compréhension historique.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	éditoriale	éditorial	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	choix	choix	NOUN	_	_	_	_	_	_
+8	d'ornementation	d'ornementation	X	_	_	_	_	_	_
+9	influencent	influencent	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	compréhension	compréhension	X	_	_	_	_	_	_
+12	historique	historique	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_738
+# text = Il reste débattu si la musicologie numérique remplace ou complète l'analyse des sources matérielles.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	musicologie	musicologie	NOUN	_	_	_	_	_	_
+7	numérique	numérique	ADJ	_	_	_	_	_	_
+8	remplace	remplacer	VERB	_	_	_	_	_	_
+9	ou	ou	CCONJ	_	_	_	_	_	_
+10	complète	compléter	VERB	_	_	_	_	_	_
+11	l'analyse	l'analyse	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	sources	sources	X	_	_	_	_	_	_
+14	matérielles	matérielles	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_739
+# text = Le cadre de la sociologie musicale relie industries culturelles, genres et identités collectives.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	sociologie	sociologie	NOUN	_	_	_	_	_	_
+6	musicale	musical	ADJ	_	_	_	_	_	_
+7	relie	relier	VERB	_	_	_	_	_	_
+8	industries	industrie	NOUN	_	_	_	_	_	_
+9	culturelles	culturel	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	genres	genre	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	identités	identité	NOUN	_	_	_	_	_	_
+14	collectives	collectif	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_740
+# text = Les chercheurs en cognition musicale étudient comment l'entraînement modifie la perception des intervalles.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	cognition	cognition	NOUN	_	_	_	_	_	_
+5	musicale	musical	ADJ	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	l'entraînement	l'entraînement	X	_	_	_	_	_	_
+9	modifie	modifie	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	perception	perception	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	intervalles	intervalles	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_741
+# text = La commission a recommandé de numériser les fonds patrimoniaux pour élargir l'accès aux chercheurs.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	numériser	numériser	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	fonds	fond	NOUN	_	_	_	_	_	_
+9	patrimoniaux	patrimonial	ADJ	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	élargir	élargir	VERB	_	_	_	_	_	_
+12	l'accès	l'accès	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	chercheurs	chercheurs	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_742
+# text = Les historiens relient les politiques culturelles aux trajectoires des conservatoires nationaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	historiens	historien	NOUN	_	_	_	_	_	_
+3	relient	relier	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	politiques	politique	NOUN	_	_	_	_	_	_
+6	culturelles	culturel	ADJ	_	_	_	_	_	_
+7	aux	aux	ADP	_	_	_	_	_	_
+8	trajectoires	trajectoires	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	conservatoires	conservatoires	X	_	_	_	_	_	_
+11	nationaux	nationaux	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_743
+# text = Le débat sur le patrimoine immatériel interroge la préservation des pratiques musicales orales.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	patrimoine	patrimoine	NOUN	_	_	_	_	_	_
+6	immatériel	immatériel	ADJ	_	_	_	_	_	_
+7	interroge	interroger	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	préservation	préservation	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	pratiques	pratiques	X	_	_	_	_	_	_
+12	musicales	musicales	X	_	_	_	_	_	_
+13	orales	orales	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_744
+# text = La théorie des formes analyse la cohérence interne des cycles de lieder du XIXe siècle.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	formes	formes	X	_	_	_	_	_	_
+5	analyse	analyse	X	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	cohérence	cohérence	X	_	_	_	_	_	_
+8	interne	interne	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	cycles	cycles	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	lieder	lieder	X	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	XIXe	XIXe	X	_	_	_	_	_	_
+15	siècle	siècle	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_745
+# text = Les critiques contemporains comparent les stratégies de programmation des orchestres symphoniques.
+1	Les	le	DET	_	_	_	_	_	_
+2	critiques	critique	NOUN	_	_	_	_	_	_
+3	contemporains	contemporain	ADJ	_	_	_	_	_	_
+4	comparent	comparer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	stratégies	stratégie	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	programmation	programmation	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	orchestres	orchestres	X	_	_	_	_	_	_
+11	symphoniques	symphoniques	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_746
+# text = La déconstruction des canons révèle l'exclusion historique de compositeurs issus de minorités.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	canons	canons	X	_	_	_	_	_	_
+5	révèle	révèle	X	_	_	_	_	_	_
+6	l'exclusion	l'exclusion	X	_	_	_	_	_	_
+7	historique	historique	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	compositeurs	compositeurs	X	_	_	_	_	_	_
+10	issus	issus	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	minorités	minorités	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_747
+# text = Le principe de fidélité interprétative invite à documenter les choix lors des enregistrements historiques.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	fidélité	fidélité	NOUN	_	_	_	_	_	_
+5	interprétative	interprétatif	ADJ	_	_	_	_	_	_
+6	invite	inviter	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	documenter	documenter	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	choix	choix	NOUN	_	_	_	_	_	_
+11	lors	lors	ADV	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	enregistrements	enregistrements	X	_	_	_	_	_	_
+14	historiques	historiques	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_748
+# text = Les données de streaming confirment une redécouverte de répertoires de musique de chambre.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	streaming	streaming	NOUN	_	_	_	_	_	_
+5	confirment	confirmer	VERB	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	redécouverte	redécouverte	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	répertoires	répertoire	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	musique	musique	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	chambre	chambre	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_749
+# text = La critique institutionnelle dénonce le sous-financement des ensembles spécialisés en musique ancienne.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	sous-financement	sous-financement	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	ensembles	ensembles	X	_	_	_	_	_	_
+9	spécialisés	spécialisés	X	_	_	_	_	_	_
+10	en	en	PRON	_	_	_	_	_	_
+11	musique	musique	X	_	_	_	_	_	_
+12	ancienne	ancienne	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_750
+# text = Il faudrait que les politiques culturelles soutiennent la recherche musicologique et la diffusion concertée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	politiques	politique	NOUN	_	_	_	_	_	_
+6	culturelles	culturel	ADJ	_	_	_	_	_	_
+7	soutiennent	soutenir	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	recherche	recherche	NOUN	_	_	_	_	_	_
+10	musicologique	musicologique	ADJ	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	diffusion	diffusion	NOUN	_	_	_	_	_	_
+14	concertée	concerter	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_751
+# text = L'essai de phase deux a montré une réponse tumorale partielle chez des patients porteurs de la mutation ciblée.
+1	L'essai	L'essai	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	phase	phase	X	_	_	_	_	_	_
+4	deux	deux	X	_	_	_	_	_	_
+5	a	avoir	AUX	_	_	_	_	_	_
+6	montré	montré	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	réponse	réponse	X	_	_	_	_	_	_
+9	tumorale	tumorale	X	_	_	_	_	_	_
+10	partielle	partielle	X	_	_	_	_	_	_
+11	chez	chez	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	patients	patients	X	_	_	_	_	_	_
+14	porteurs	porteurs	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	mutation	mutation	X	_	_	_	_	_	_
+18	ciblée	ciblée	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_752
+# text = Bien que le biomarqueur soit prédictif, la résistance acquise apparaît chez une fraction significative des cas.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	biomarqueur	biomarqueur	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	prédictif	prédictif	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	résistance	résistance	NOUN	_	_	_	_	_	_
+10	acquise	acquérir	VERB	_	_	_	_	_	_
+11	apparaît	apparaître	VERB	_	_	_	_	_	_
+12	chez	chez	ADP	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	fraction	fraction	NOUN	_	_	_	_	_	_
+15	significative	significatif	ADJ	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	cas	cas	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_753
+# text = La médecine de précision vise à aligner le traitement sur le profil moléculaire individualisé de la tumeur.
+1	La	le	DET	_	_	_	_	_	_
+2	médecine	médecine	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	précision	précision	NOUN	_	_	_	_	_	_
+5	vise	viser	VERB	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	aligner	aligner	VERB	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	traitement	traitement	NOUN	_	_	_	_	_	_
+10	sur	sur	ADP	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	profil	profil	NOUN	_	_	_	_	_	_
+13	moléculaire	moléculaire	ADJ	_	_	_	_	_	_
+14	individualisé	individualiser	VERB	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	tumeur	tumeur	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_754
+# text = Il demeure controversé de savoir si le séquençage systématique justifie son coût à l'échelle populationnelle.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	controversé	controversé	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	séquençage	séquençage	NOUN	_	_	_	_	_	_
+9	systématique	systématique	ADJ	_	_	_	_	_	_
+10	justifie	justifier	VERB	_	_	_	_	_	_
+11	son	son	DET	_	_	_	_	_	_
+12	coût	coût	NOUN	_	_	_	_	_	_
+13	à	à	ADP	_	_	_	_	_	_
+14	l'échelle	l'échelle	X	_	_	_	_	_	_
+15	populationnelle	populationnelle	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_755
+# text = Les oncologues translationnels coordonnent laboratoires et cliniques pour accélérer le passage du banc au lit.
+1	Les	le	DET	_	_	_	_	_	_
+2	oncologues	oncologue	NOUN	_	_	_	_	_	_
+3	translationnels	translationnel	ADJ	_	_	_	_	_	_
+4	coordonnent	coordonner	VERB	_	_	_	_	_	_
+5	laboratoires	laboratoire	NOUN	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	cliniques	clinique	ADJ	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	accélérer	accélérer	VERB	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	passage	passage	NOUN	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	banc	banc	X	_	_	_	_	_	_
+14	au	au	ADP	_	_	_	_	_	_
+15	lit	lit	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_756
+# text = Nonobstant les avancées, l'accès inégal aux thérapies ciblées reproduit des disparités de survie.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	avancées	avancée	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	l'accès	l'accès	X	_	_	_	_	_	_
+6	inégal	inégal	X	_	_	_	_	_	_
+7	aux	aux	ADP	_	_	_	_	_	_
+8	thérapies	thérapies	X	_	_	_	_	_	_
+9	ciblées	ciblées	X	_	_	_	_	_	_
+10	reproduit	reproduit	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	disparités	disparités	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	survie	survie	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_757
+# text = La biobanque tumorale permet de corréler données génomiques et réponses thérapeutiques observées.
+1	La	le	DET	_	_	_	_	_	_
+2	biobanque	biobanque	NOUN	_	_	_	_	_	_
+3	tumorale	tumoral	ADJ	_	_	_	_	_	_
+4	permet	permettre	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	corréler	corréler	VERB	_	_	_	_	_	_
+7	données	donnée	NOUN	_	_	_	_	_	_
+8	génomiques	génomique	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	réponses	réponse	NOUN	_	_	_	_	_	_
+11	thérapeutiques	thérapeutique	ADJ	_	_	_	_	_	_
+12	observées	observer	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_758
+# text = Le débat porte sur l'utilisation des données réelles pour compléter les essais randomisés classiques.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	l'utilisation	l'utilisation	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	données	données	X	_	_	_	_	_	_
+8	réelles	réelles	X	_	_	_	_	_	_
+9	pour	pour	X	_	_	_	_	_	_
+10	compléter	compléter	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	essais	essais	X	_	_	_	_	_	_
+13	randomisés	randomisés	X	_	_	_	_	_	_
+14	classiques	classiques	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_759
+# text = La théorie de l'évolution tumorale explique l'hétérogénéité cellulaire et les échecs thérapeutiques.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'évolution	l'évolution	X	_	_	_	_	_	_
+5	tumorale	tumorale	X	_	_	_	_	_	_
+6	explique	explique	X	_	_	_	_	_	_
+7	l'hétérogénéité	l'hétérogénéité	X	_	_	_	_	_	_
+8	cellulaire	cellulaire	X	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	échecs	échecs	X	_	_	_	_	_	_
+12	thérapeutiques	thérapeutiques	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_760
+# text = Les approches immunologiques combinent inhibiteurs de points de contrôle et vaccins personnalisés.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	immunologiques	immunologique	ADJ	_	_	_	_	_	_
+4	combinent	combiner	VERB	_	_	_	_	_	_
+5	inhibiteurs	inhibiteur	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	points	point	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	contrôle	contrôle	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	vaccins	vaccin	NOUN	_	_	_	_	_	_
+12	personnalisés	personnaliser	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_761
+# text = Après avoir analysé les cohortes, l'équipe a identifié un sous-groupe bénéficiant d'une survie prolongée.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	analysé	analyser	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	cohortes	cohorte	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	identifié	identifié	X	_	_	_	_	_	_
+10	un	un	DET	_	_	_	_	_	_
+11	sous-groupe	sous-groupe	X	_	_	_	_	_	_
+12	bénéficiant	bénéficiant	X	_	_	_	_	_	_
+13	d'une	d'une	X	_	_	_	_	_	_
+14	survie	survie	X	_	_	_	_	_	_
+15	prolongée	prolongée	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_762
+# text = La critique éthique souligne la nécessité d'un consentement éclairé pour les tests génomiques larges.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	éthique	éthique	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	nécessité	nécessité	NOUN	_	_	_	_	_	_
+7	d'un	d'un	X	_	_	_	_	_	_
+8	consentement	consentement	X	_	_	_	_	_	_
+9	éclairé	éclairé	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	tests	tests	X	_	_	_	_	_	_
+13	génomiques	génomiques	X	_	_	_	_	_	_
+14	larges	larges	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_763
+# text = Il reste débattu si les essais adaptatifs accélèrent l'innovation ou fragilisent la rigueur statistique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	essais	essai	NOUN	_	_	_	_	_	_
+7	adaptatifs	adaptatif	ADJ	_	_	_	_	_	_
+8	accélèrent	accéler	VERB	_	_	_	_	_	_
+9	l'innovation	l'innovation	X	_	_	_	_	_	_
+10	ou	ou	CCONJ	_	_	_	_	_	_
+11	fragilisent	fragilisent	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	rigueur	rigueur	X	_	_	_	_	_	_
+14	statistique	statistique	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_764
+# text = Le cadre de la recherche clinique impose des critères d'inclusion stricts pour garantir la comparabilité.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	recherche	recherche	NOUN	_	_	_	_	_	_
+6	clinique	clinique	ADJ	_	_	_	_	_	_
+7	impose	imposer	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	critères	critère	NOUN	_	_	_	_	_	_
+10	d'inclusion	d'inclusion	X	_	_	_	_	_	_
+11	stricts	stricts	X	_	_	_	_	_	_
+12	pour	pour	X	_	_	_	_	_	_
+13	garantir	garantir	X	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	comparabilité	comparabilité	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_765
+# text = Les pathologistes valident la qualité des échantillons avant toute analyse moléculaire.
+1	Les	le	DET	_	_	_	_	_	_
+2	pathologistes	pathologiste	NOUN	_	_	_	_	_	_
+3	valident	valider	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	qualité	qualité	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	échantillons	échantillons	X	_	_	_	_	_	_
+8	avant	avant	X	_	_	_	_	_	_
+9	toute	toute	X	_	_	_	_	_	_
+10	analyse	analyse	X	_	_	_	_	_	_
+11	moléculaire	moléculaire	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_766
+# text = La commission a recommandé de renforcer les plateformes de diagnostic pour réduire les délais.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	renforcer	renforcer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	plateformes	plateforme	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	diagnostic	diagnostic	NOUN	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	réduire	réduire	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	délais	délai	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_767
+# text = Les épidémiologistes étudient comment les comorbidités modulent la tolérance des protocoles intensifs.
+1	Les	le	DET	_	_	_	_	_	_
+2	épidémiologistes	épidémiologiste	NOUN	_	_	_	_	_	_
+3	étudient	étudier	VERB	_	_	_	_	_	_
+4	comment	comment	ADV	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	comorbidités	comorbidité	NOUN	_	_	_	_	_	_
+7	modulent	moduler	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	tolérance	tolérance	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	protocoles	protocoles	X	_	_	_	_	_	_
+12	intensifs	intensifs	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_768
+# text = Le débat sur les prix interroge la soutenabilité des budgets hospitaliers face aux nouvelles molécules.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	prix	prix	NOUN	_	_	_	_	_	_
+6	interroge	interroger	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	soutenabilité	soutenabilité	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	budgets	budgets	X	_	_	_	_	_	_
+11	hospitaliers	hospitaliers	X	_	_	_	_	_	_
+12	face	face	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	nouvelles	nouvelles	X	_	_	_	_	_	_
+15	molécules	molécules	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_769
+# text = La théorie des microenvironnements tumoraux explique les mécanismes de résistance locale.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	microenvironnements	microenvironnements	X	_	_	_	_	_	_
+5	tumoraux	tumoraux	X	_	_	_	_	_	_
+6	explique	explique	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	mécanismes	mécanismes	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	résistance	résistance	X	_	_	_	_	_	_
+11	locale	locale	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_770
+# text = Les chercheurs en bioinformatique développent des modèles prédictifs à partir de données multi-omiques.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	bioinformatique	bioinformatique	NOUN	_	_	_	_	_	_
+5	développent	développer	VERB	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	modèles	modèle	NOUN	_	_	_	_	_	_
+8	prédictifs	prédictif	ADJ	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	partir	partir	VERB	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	données	donnée	NOUN	_	_	_	_	_	_
+13	multi-omiques	multi-omique	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_771
+# text = La déconstruction des essais publiés révèle parfois un biais de publication favorable aux résultats positifs.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	essais	essais	X	_	_	_	_	_	_
+5	publiés	publiés	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	parfois	parfois	X	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	biais	biais	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	publication	publication	X	_	_	_	_	_	_
+12	favorable	favorable	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	résultats	résultats	X	_	_	_	_	_	_
+15	positifs	positifs	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_772
+# text = Le principe de équité d'accès exige que les innovations bénéficient aux patients hors essais cliniques.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	équité	équité	NOUN	_	_	_	_	_	_
+5	d'accès	d'accès	X	_	_	_	_	_	_
+6	exige	exige	X	_	_	_	_	_	_
+7	que	que	PRON	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	innovations	innovations	X	_	_	_	_	_	_
+10	bénéficient	bénéficient	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	patients	patients	X	_	_	_	_	_	_
+13	hors	hors	X	_	_	_	_	_	_
+14	essais	essais	X	_	_	_	_	_	_
+15	cliniques	cliniques	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_773
+# text = Les données de registre confirment une amélioration modeste mais réelle de la survie globale.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	registre	registre	NOUN	_	_	_	_	_	_
+5	confirment	confirmer	VERB	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	amélioration	amélioration	NOUN	_	_	_	_	_	_
+8	modeste	modeste	ADJ	_	_	_	_	_	_
+9	mais	mais	CCONJ	_	_	_	_	_	_
+10	réelle	réel	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	survie	survie	NOUN	_	_	_	_	_	_
+14	globale	global	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_774
+# text = La critique institutionnelle dénonce les délais d'autorisation pour les combinaisons thérapeutiques prometteuses.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	délais	délai	NOUN	_	_	_	_	_	_
+7	d'autorisation	d'autorisation	X	_	_	_	_	_	_
+8	pour	pour	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	combinaisons	combinaisons	X	_	_	_	_	_	_
+11	thérapeutiques	thérapeutiques	X	_	_	_	_	_	_
+12	prometteuses	prometteuses	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_775
+# text = Il faudrait que les politiques de santé articulent innovation, évaluation et accessibilité financière.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	politiques	politique	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	santé	santé	NOUN	_	_	_	_	_	_
+8	articulent	articuler	VERB	_	_	_	_	_	_
+9	innovation	innovation	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	évaluation	évaluation	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	accessibilité	accessibilité	NOUN	_	_	_	_	_	_
+14	financière	financier	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_776
+# text = La théorie de la pertinence explique comment l'auditeur sélectionne les interprétations selon l'effort cognitif.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	pertinence	pertinence	NOUN	_	_	_	_	_	_
+6	explique	expliquer	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	l'auditeur	l'auditeur	X	_	_	_	_	_	_
+9	sélectionne	sélectionne	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	interprétations	interprétations	X	_	_	_	_	_	_
+12	selon	selon	X	_	_	_	_	_	_
+13	l'effort	l'effort	X	_	_	_	_	_	_
+14	cognitif	cognitif	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_777
+# text = Bien que la forme soit interrogative, l'énoncé fonctionne comme une demande indirecte de fermer la fenêtre.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	forme	forme	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	interrogative	interrogatif	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	l'énoncé	l'énoncé	X	_	_	_	_	_	_
+9	fonctionne	fonctionne	X	_	_	_	_	_	_
+10	comme	comme	SCONJ	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	demande	demande	X	_	_	_	_	_	_
+13	indirecte	indirecte	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	fermer	fermer	X	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	fenêtre	fenêtre	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_778
+# text = La notion d'implicature conversationnelle distingue ce qui est dit de ce qui est communiqué implicitement.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	d'implicature	d'implicature	X	_	_	_	_	_	_
+4	conversationnelle	conversationnelle	X	_	_	_	_	_	_
+5	distingue	distingue	X	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	qui	qui	PRON	_	_	_	_	_	_
+8	est	être	AUX	_	_	_	_	_	_
+9	dit	dit	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	ce	ce	DET	_	_	_	_	_	_
+12	qui	qui	PRON	_	_	_	_	_	_
+13	est	être	AUX	_	_	_	_	_	_
+14	communiqué	communiqué	X	_	_	_	_	_	_
+15	implicitement	implicitement	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_779
+# text = Il demeure disputé de savoir si les maximes de Grice s'appliquent uniformément à toutes les cultures.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	maximes	maxime	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	Grice	Grice	PROPN	_	_	_	_	_	_
+11	s'appliquent	s'appliquent	X	_	_	_	_	_	_
+12	uniformément	uniformément	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	toutes	toutes	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	cultures	cultures	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_780
+# text = Les pragmaticiens analysent comment les marqueurs discursifs orientent la structuration argumentative.
+1	Les	le	DET	_	_	_	_	_	_
+2	pragmaticiens	pragmaticien	NOUN	_	_	_	_	_	_
+3	analysent	analyser	VERB	_	_	_	_	_	_
+4	comment	comment	ADV	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	marqueurs	marqueur	NOUN	_	_	_	_	_	_
+7	discursifs	discursif	ADJ	_	_	_	_	_	_
+8	orientent	orienter	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	structuration	structuration	NOUN	_	_	_	_	_	_
+11	argumentative	argumentatif	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_781
+# text = Nonobstant les règles syntaxiques, le contexte détermine souvent la force illocutionnaire réelle.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	règles	règle	NOUN	_	_	_	_	_	_
+4	syntaxiques	syntaxique	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	contexte	contexte	NOUN	_	_	_	_	_	_
+8	détermine	déterminer	VERB	_	_	_	_	_	_
+9	souvent	souvent	ADV	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	force	force	NOUN	_	_	_	_	_	_
+12	illocutionnaire	illocutionnaire	ADJ	_	_	_	_	_	_
+13	réelle	réel	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_782
+# text = La politesse linguistique mobilise des stratégies d'atténuation pour préserver la face sociale des interlocuteurs.
+1	La	le	DET	_	_	_	_	_	_
+2	politesse	politesse	NOUN	_	_	_	_	_	_
+3	linguistique	linguistique	ADJ	_	_	_	_	_	_
+4	mobilise	mobiliser	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	stratégies	stratégies	X	_	_	_	_	_	_
+7	d'atténuation	d'atténuation	X	_	_	_	_	_	_
+8	pour	pour	X	_	_	_	_	_	_
+9	préserver	préserver	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	face	face	X	_	_	_	_	_	_
+12	sociale	sociale	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	interlocuteurs	interlocuteurs	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_783
+# text = Le débat porte sur la frontière entre sémantique lexical et inférences pragmatiques contextuelles.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	frontière	frontière	NOUN	_	_	_	_	_	_
+7	entre	entre	ADP	_	_	_	_	_	_
+8	sémantique	sémantique	NOUN	_	_	_	_	_	_
+9	lexical	lexical	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	inférences	inférence	NOUN	_	_	_	_	_	_
+12	pragmatiques	pragmatique	ADJ	_	_	_	_	_	_
+13	contextuelles	contextuel	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_784
+# text = La théorie des actes de langage classe promesses, ordres et assertions selon leurs conditions de réussite.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	actes	actes	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	langage	langage	X	_	_	_	_	_	_
+7	classe	classe	X	_	_	_	_	_	_
+8	promesses	promesses	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	ordres	ordres	X	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	assertions	assertions	X	_	_	_	_	_	_
+13	selon	selon	X	_	_	_	_	_	_
+14	leurs	leur	DET	_	_	_	_	_	_
+15	conditions	conditions	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	réussite	réussite	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_785
+# text = Les approches corpus-based identifient des patterns d'usage dans les dialogues médiatisés contemporains.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	corpus-based	corpus-based	ADJ	_	_	_	_	_	_
+4	identifient	identifier	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	patterns	pattern	NOUN	_	_	_	_	_	_
+7	d'usage	d'usage	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	dialogues	dialogues	X	_	_	_	_	_	_
+11	médiatisés	médiatisés	X	_	_	_	_	_	_
+12	contemporains	contemporains	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_786
+# text = Après avoir codé les tours de parole, l'équipe a observé des chevauchements fréquents en conversation informelle.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	codé	coder	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	tours	tour	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	parole	parole	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	l'équipe	l'équipe	X	_	_	_	_	_	_
+10	a	avoir	AUX	_	_	_	_	_	_
+11	observé	observé	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	chevauchements	chevauchements	X	_	_	_	_	_	_
+14	fréquents	fréquents	X	_	_	_	_	_	_
+15	en	en	PRON	_	_	_	_	_	_
+16	conversation	conversation	X	_	_	_	_	_	_
+17	informelle	informelle	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_787
+# text = La critique méthodologique invite à distinguer compétence pragmatique et performance située.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	méthodologique	méthodologique	ADJ	_	_	_	_	_	_
+4	invite	inviter	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	distinguer	distinguer	VERB	_	_	_	_	_	_
+7	compétence	compétence	NOUN	_	_	_	_	_	_
+8	pragmatique	pragmatique	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	performance	performance	NOUN	_	_	_	_	_	_
+11	située	situer	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_788
+# text = Il reste débattu si les enfants acquièrent les implicatures avant la maîtrise complète de la syntaxe.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	enfants	enfant	NOUN	_	_	_	_	_	_
+7	acquièrent	acquérir	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	implicatures	implicature	NOUN	_	_	_	_	_	_
+10	avant	avant	ADP	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	maîtrise	maîtrise	NOUN	_	_	_	_	_	_
+13	complète	complet	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	syntaxe	syntaxe	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_789
+# text = Le cadre de l'analyse du discours articule cohésion formelle et cohérence interprétative.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'analyse	l'analyse	X	_	_	_	_	_	_
+5	du	du	ADP	_	_	_	_	_	_
+6	discours	discours	X	_	_	_	_	_	_
+7	articule	articule	X	_	_	_	_	_	_
+8	cohésion	cohésion	X	_	_	_	_	_	_
+9	formelle	formelle	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	cohérence	cohérence	X	_	_	_	_	_	_
+12	interprétative	interprétative	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_790
+# text = Les chercheurs en pragmatique clinique étudient les troubles de la communication chez les patients aphasiques.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	pragmatique	pragmatique	NOUN	_	_	_	_	_	_
+5	clinique	clinique	ADJ	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	troubles	trouble	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	communication	communication	NOUN	_	_	_	_	_	_
+12	chez	chez	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	patients	patient	NOUN	_	_	_	_	_	_
+15	aphasiques	aphasique	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_791
+# text = La commission a recommandé d'intégrer la pragmatique dans les programmes de langue pour adultes.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	d'intégrer	d'intégrer	X	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	pragmatique	pragmatique	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	programmes	programmes	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	langue	langue	X	_	_	_	_	_	_
+13	pour	pour	X	_	_	_	_	_	_
+14	adultes	adultes	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_792
+# text = Les sociolinguistes relient variation diastratique et choix des registres selon les situations d'énonciation.
+1	Les	le	DET	_	_	_	_	_	_
+2	sociolinguistes	sociolinguiste	NOUN	_	_	_	_	_	_
+3	relient	relier	VERB	_	_	_	_	_	_
+4	variation	variation	NOUN	_	_	_	_	_	_
+5	diastratique	diastratique	ADJ	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	choix	choix	NOUN	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	registres	registres	X	_	_	_	_	_	_
+10	selon	selon	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	situations	situations	X	_	_	_	_	_	_
+13	d'énonciation	d'énonciation	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_793
+# text = Le débat sur l'ironie interroge les indices prosodiques et non verbaux nécessaires à l'interprétation.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	l'ironie	l'ironie	X	_	_	_	_	_	_
+5	interroge	interroge	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	indices	indices	X	_	_	_	_	_	_
+8	prosodiques	prosodiques	X	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	non	non	X	_	_	_	_	_	_
+11	verbaux	verbaux	X	_	_	_	_	_	_
+12	nécessaires	nécessaires	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	l'interprétation	l'interprétation	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_794
+# text = La théorie de la politesse positive et négative explique les stratégies de mitigation interculturelles.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	politesse	politesse	NOUN	_	_	_	_	_	_
+6	positive	positif	ADJ	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	négative	négatif	ADJ	_	_	_	_	_	_
+9	explique	expliquer	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	stratégies	stratégie	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	mitigation	mitigation	NOUN	_	_	_	_	_	_
+14	interculturelles	interculturel	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_795
+# text = Les analystes du discours politique étudient comment les présupposés orientent l'opinion publique.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	politique	politique	X	_	_	_	_	_	_
+6	étudient	étudient	X	_	_	_	_	_	_
+7	comment	comment	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	présupposés	présupposés	X	_	_	_	_	_	_
+10	orientent	orientent	X	_	_	_	_	_	_
+11	l'opinion	l'opinion	X	_	_	_	_	_	_
+12	publique	publique	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_796
+# text = La déconstruction des transcriptions révèle des biais dans la notation des silences et des hésitations.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	transcriptions	transcriptions	X	_	_	_	_	_	_
+5	révèle	révèle	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	biais	biais	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	notation	notation	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	silences	silences	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	hésitations	hésitations	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_797
+# text = Le principe de coopération conversationnelle suppose une intention communicative partagée entre locuteurs.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	coopération	coopération	NOUN	_	_	_	_	_	_
+5	conversationnelle	conversationnel	ADJ	_	_	_	_	_	_
+6	suppose	supposer	VERB	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	intention	intention	NOUN	_	_	_	_	_	_
+9	communicative	communicatif	ADJ	_	_	_	_	_	_
+10	partagée	partager	VERB	_	_	_	_	_	_
+11	entre	entre	ADP	_	_	_	_	_	_
+12	locuteurs	locuteur	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_798
+# text = Les données expérimentales confirment que le contexte culturel module l'interprétation des sous-entendus.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	expérimentales	expérimental	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	contexte	contexte	NOUN	_	_	_	_	_	_
+8	culturel	culturel	ADJ	_	_	_	_	_	_
+9	module	module	VERB	_	_	_	_	_	_
+10	l'interprétation	l'interprétation	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	sous-entendus	sous-entendus	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_799
+# text = La critique institutionnelle dénonce la simplification des manuels qui ignore la dimension pragmatique.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	simplification	simplification	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	manuels	manuels	X	_	_	_	_	_	_
+9	qui	qui	PRON	_	_	_	_	_	_
+10	ignore	ignore	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	dimension	dimension	X	_	_	_	_	_	_
+13	pragmatique	pragmatique	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_800
+# text = Il faudrait que l'enseignement des langues intègre des activités centrées sur l'usage authentique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'enseignement	l'enseignement	X	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	langues	langues	X	_	_	_	_	_	_
+7	intègre	intègre	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	activités	activités	X	_	_	_	_	_	_
+10	centrées	centrées	X	_	_	_	_	_	_
+11	sur	sur	X	_	_	_	_	_	_
+12	l'usage	l'usage	X	_	_	_	_	_	_
+13	authentique	authentique	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+

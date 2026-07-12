@@ -1,0 +1,4254 @@
+# sent_id = fr_b2_train_201
+# text = Bien que la Commission ait proposé de nouvelles règles, plusieurs États membres restent divisés sur leur application.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	Commission	commission	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	proposé	proposer	VERB	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	nouvelles	nouveau	ADJ	_	_	_	_	_	_
+9	règles	règle	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	plusieurs	plusieurs	DET	_	_	_	_	_	_
+12	États	état	NOUN	_	_	_	_	_	_
+13	membres	membre	NOUN	_	_	_	_	_	_
+14	restent	rester	VERB	_	_	_	_	_	_
+15	divisés	diviser	VERB	_	_	_	_	_	_
+16	sur	sur	ADP	_	_	_	_	_	_
+17	leur	leur	DET	_	_	_	_	_	_
+18	application	application	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_202
+# text = Le règlement, qui avait été négocié pendant des mois, entrera en vigueur au début de l'année prochaine.
+1	Le	le	DET	_	_	_	_	_	_
+2	règlement	règlement	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	avait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	négocié	négocier	VERB	_	_	_	_	_	_
+8	pendant	pendant	ADP	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	mois	moi	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	entrera	entrer	VERB	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	vigueur	vigueur	NOUN	_	_	_	_	_	_
+15	au	au	ADP	_	_	_	_	_	_
+16	début	début	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	l'année	l'année	X	_	_	_	_	_	_
+19	prochaine	prochaine	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_203
+# text = Il est indispensable que les institutions européennes garantissent une concurrence loyale entre les entreprises.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	indispensable	indispensable	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	institutions	institution	NOUN	_	_	_	_	_	_
+7	européennes	européen	ADJ	_	_	_	_	_	_
+8	garantissent	garantir	VERB	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	concurrence	concurrence	NOUN	_	_	_	_	_	_
+11	loyale	loyal	ADJ	_	_	_	_	_	_
+12	entre	entre	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	entreprises	entreprise	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_204
+# text = Les ministres avaient convenu que le budget communautaire serait révisé avant la fin du mandat actuel.
+1	Les	le	DET	_	_	_	_	_	_
+2	ministres	ministre	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	convenu	convenir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	budget	budget	NOUN	_	_	_	_	_	_
+8	communautaire	communautaire	ADJ	_	_	_	_	_	_
+9	serait	être	AUX	_	_	_	_	_	_
+10	révisé	réviser	VERB	_	_	_	_	_	_
+11	avant	avant	ADP	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	fin	fin	NOUN	_	_	_	_	_	_
+14	du	du	ADP	_	_	_	_	_	_
+15	mandat	mandat	X	_	_	_	_	_	_
+16	actuel	actuel	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_205
+# text = La directive, dont les dispositions avaient été contestées, sera transposée dans le droit national d'ici juin.
+1	La	le	DET	_	_	_	_	_	_
+2	directive	directive	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	dispositions	disposition	NOUN	_	_	_	_	_	_
+7	avaient	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	contestées	contester	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	sera	être	AUX	_	_	_	_	_	_
+12	transposée	transposer	VERB	_	_	_	_	_	_
+13	dans	dans	ADP	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	droit	droit	NOUN	_	_	_	_	_	_
+16	national	national	ADJ	_	_	_	_	_	_
+17	d'ici	d'ici	X	_	_	_	_	_	_
+18	juin	juin	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_206
+# text = Avant que le Conseil ne vote le texte, les parlementaires devront avoir examiné chaque amendement proposé.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	Conseil	conseil	NOUN	_	_	_	_	_	_
+5	ne	ne	PART	_	_	_	_	_	_
+6	vote	voter	VERB	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	texte	texte	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	parlementaires	parlementaire	NOUN	_	_	_	_	_	_
+12	devront	devoir	VERB	_	_	_	_	_	_
+13	avoir	avoir	VERB	_	_	_	_	_	_
+14	examiné	examiner	VERB	_	_	_	_	_	_
+15	chaque	chaque	DET	_	_	_	_	_	_
+16	amendement	amendement	NOUN	_	_	_	_	_	_
+17	proposé	proposer	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_207
+# text = Les députés européens, qui représentent des citoyens divers, exigent une plus grande transparence budgétaire.
+1	Les	le	DET	_	_	_	_	_	_
+2	députés	député	NOUN	_	_	_	_	_	_
+3	européens	européen	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	qui	qui	PRON	_	_	_	_	_	_
+6	représentent	représenter	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	citoyens	citoyen	NOUN	_	_	_	_	_	_
+9	divers	divers	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	exigent	exiger	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	plus	plus	ADV	_	_	_	_	_	_
+14	grande	grand	ADJ	_	_	_	_	_	_
+15	transparence	transparence	NOUN	_	_	_	_	_	_
+16	budgétaire	budgétaire	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_208
+# text = On craint que les tensions commerciales ne compromettent les accords commerciaux conclus récemment avec des partenaires.
+1	On	on	PRON	_	_	_	_	_	_
+2	craint	craindre	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	tensions	tension	NOUN	_	_	_	_	_	_
+6	commerciales	commercial	ADJ	_	_	_	_	_	_
+7	ne	ne	PART	_	_	_	_	_	_
+8	compromettent	compromettre	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	accords	accord	NOUN	_	_	_	_	_	_
+11	commerciaux	commercial	ADJ	_	_	_	_	_	_
+12	conclus	conclure	VERB	_	_	_	_	_	_
+13	récemment	récemment	ADV	_	_	_	_	_	_
+14	avec	avec	ADP	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	partenaires	partenaire	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_209
+# text = Le commissaire avait souligné que la solidarité entre les régions devait guider la politique de cohésion.
+1	Le	le	DET	_	_	_	_	_	_
+2	commissaire	commissaire	NOUN	_	_	_	_	_	_
+3	avait	avoir	AUX	_	_	_	_	_	_
+4	souligné	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	solidarité	solidarité	NOUN	_	_	_	_	_	_
+8	entre	entre	ADP	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	régions	région	NOUN	_	_	_	_	_	_
+11	devait	devoir	AUX	_	_	_	_	_	_
+12	guider	guider	VERB	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	politique	politique	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	cohésion	cohésion	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_210
+# text = Pour que le marché unique fonctionne efficacement, il faudra que les barrières réglementaires soient progressivement levées.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	marché	marché	NOUN	_	_	_	_	_	_
+5	unique	unique	ADJ	_	_	_	_	_	_
+6	fonctionne	fonctionner	VERB	_	_	_	_	_	_
+7	efficacement	efficacement	ADV	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	faudra	falloir	VERB	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	barrières	barrière	NOUN	_	_	_	_	_	_
+14	réglementaires	réglementaire	ADJ	_	_	_	_	_	_
+15	soient	être	AUX	_	_	_	_	_	_
+16	progressivement	progressivement	ADV	_	_	_	_	_	_
+17	levées	lever	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_211
+# text = Le traité, signé après de longues négociations, avait renforcé les compétences partagées entre les institutions.
+1	Le	le	DET	_	_	_	_	_	_
+2	traité	traité	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	signé	signer	VERB	_	_	_	_	_	_
+5	après	après	ADP	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	longues	long	ADJ	_	_	_	_	_	_
+8	négociations	négociation	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avait	avoir	AUX	_	_	_	_	_	_
+11	renforcé	renforcer	VERB	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	compétences	compétence	NOUN	_	_	_	_	_	_
+14	partagées	partager	VERB	_	_	_	_	_	_
+15	entre	entre	ADP	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	institutions	institution	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_212
+# text = Bien que l'élargissement ait été approuvé, certains pays candidats devront encore satisfaire des critères stricts.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'élargissement	l'élargissement	X	_	_	_	_	_	_
+4	ait	avoir	AUX	_	_	_	_	_	_
+5	été	être	AUX	_	_	_	_	_	_
+6	approuvé	approuvé	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	certains	certains	X	_	_	_	_	_	_
+9	pays	pays	X	_	_	_	_	_	_
+10	candidats	candidats	X	_	_	_	_	_	_
+11	devront	devront	X	_	_	_	_	_	_
+12	encore	encore	X	_	_	_	_	_	_
+13	satisfaire	satisfaire	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	critères	critères	X	_	_	_	_	_	_
+16	stricts	stricts	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_213
+# text = Les fonds structurels, alloués aux régions les plus fragiles, seront conditionnés à des réformes économiques concrètes.
+1	Les	le	DET	_	_	_	_	_	_
+2	fonds	fond	NOUN	_	_	_	_	_	_
+3	structurels	structurel	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	alloués	allouer	VERB	_	_	_	_	_	_
+6	aux	aux	ADP	_	_	_	_	_	_
+7	régions	régions	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	plus	plus	ADV	_	_	_	_	_	_
+10	fragiles	fragiles	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	seront	être	AUX	_	_	_	_	_	_
+13	conditionnés	conditionnés	X	_	_	_	_	_	_
+14	à	à	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	réformes	réformes	X	_	_	_	_	_	_
+17	économiques	économiques	X	_	_	_	_	_	_
+18	concrètes	concrètes	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_214
+# text = Il convient que les décisions prises à Bruxelles soient mieux expliquées aux citoyens des États membres.
+1	Il	il	PRON	_	_	_	_	_	_
+2	convient	convenir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	décisions	décision	NOUN	_	_	_	_	_	_
+6	prises	prendre	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	Bruxelles	Bruxelles	PROPN	_	_	_	_	_	_
+9	soient	être	AUX	_	_	_	_	_	_
+10	mieux	mieux	ADV	_	_	_	_	_	_
+11	expliquées	expliquer	VERB	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	citoyens	citoyens	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	États	États	X	_	_	_	_	_	_
+16	membres	membres	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_215
+# text = La politique migratoire, réformée l'an dernier, n'avait pas encore réduit les disparités entre les frontières nationales.
+1	La	le	DET	_	_	_	_	_	_
+2	politique	politique	NOUN	_	_	_	_	_	_
+3	migratoire	migratoire	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	réformée	réformé	VERB	_	_	_	_	_	_
+6	l'an	l'an	X	_	_	_	_	_	_
+7	dernier	dernier	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	n'avait	n'avait	X	_	_	_	_	_	_
+10	pas	pas	ADV	_	_	_	_	_	_
+11	encore	encore	X	_	_	_	_	_	_
+12	réduit	réduit	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	disparités	disparités	X	_	_	_	_	_	_
+15	entre	entre	X	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	frontières	frontières	X	_	_	_	_	_	_
+18	nationales	nationales	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_216
+# text = Les négociateurs avaient prévu que les quotas carbone seraient ajustés si les objectifs climatiques n'étaient pas atteints.
+1	Les	le	DET	_	_	_	_	_	_
+2	négociateurs	négociateur	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	prévu	prévoir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	quotas	quota	NOUN	_	_	_	_	_	_
+8	carbone	carbone	NOUN	_	_	_	_	_	_
+9	seraient	être	AUX	_	_	_	_	_	_
+10	ajustés	ajuster	VERB	_	_	_	_	_	_
+11	si	si	SCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	objectifs	objectif	NOUN	_	_	_	_	_	_
+14	climatiques	climatique	ADJ	_	_	_	_	_	_
+15	n'étaient	n'étaient	X	_	_	_	_	_	_
+16	pas	pas	ADV	_	_	_	_	_	_
+17	atteints	atteints	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_217
+# text = Afin que l'Union reste crédible, les gouvernements devront respecter les engagements pris lors du dernier sommet.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'Union	l'Union	X	_	_	_	_	_	_
+4	reste	reste	X	_	_	_	_	_	_
+5	crédible	crédible	X	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	gouvernements	gouvernements	X	_	_	_	_	_	_
+9	devront	devront	X	_	_	_	_	_	_
+10	respecter	respecter	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	engagements	engagements	X	_	_	_	_	_	_
+13	pris	pris	X	_	_	_	_	_	_
+14	lors	lors	X	_	_	_	_	_	_
+15	du	du	ADP	_	_	_	_	_	_
+16	dernier	dernier	X	_	_	_	_	_	_
+17	sommet	sommet	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_218
+# text = Le sommet, auquel ont participé vingt-sept chefs d'État, s'est achevé par un compromis sur l'énergie.
+1	Le	le	DET	_	_	_	_	_	_
+2	sommet	sommet	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	auquel	auquel	X	_	_	_	_	_	_
+5	ont	avoir	AUX	_	_	_	_	_	_
+6	participé	participé	X	_	_	_	_	_	_
+7	vingt-sept	vingt-sept	X	_	_	_	_	_	_
+8	chefs	chefs	X	_	_	_	_	_	_
+9	d'État	d'État	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	s'est	s'est	X	_	_	_	_	_	_
+12	achevé	achevé	X	_	_	_	_	_	_
+13	par	par	X	_	_	_	_	_	_
+14	un	un	DET	_	_	_	_	_	_
+15	compromis	compromis	X	_	_	_	_	_	_
+16	sur	sur	X	_	_	_	_	_	_
+17	l'énergie	l'énergie	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_219
+# text = Sans que les régions soient consultées, il serait difficile de légitimer une réforme aussi profonde des fonds.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	régions	région	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	consultées	consulter	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	serait	être	AUX	_	_	_	_	_	_
+10	difficile	difficile	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	légitimer	légitimer	VERB	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	réforme	réforme	NOUN	_	_	_	_	_	_
+15	aussi	aussi	ADV	_	_	_	_	_	_
+16	profonde	profond	ADJ	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	fonds	fonds	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_220
+# text = Les mesures protectionnistes, dénoncées par plusieurs capitales, avaient suscité une vive réaction des exportateurs.
+1	Les	le	DET	_	_	_	_	_	_
+2	mesures	mesure	NOUN	_	_	_	_	_	_
+3	protectionnistes	protectionniste	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dénoncées	dénoncer	VERB	_	_	_	_	_	_
+6	par	par	ADP	_	_	_	_	_	_
+7	plusieurs	plusieurs	DET	_	_	_	_	_	_
+8	capitales	capitale	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avaient	avoir	AUX	_	_	_	_	_	_
+11	suscité	susciter	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	vive	vif	ADJ	_	_	_	_	_	_
+14	réaction	réaction	NOUN	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	exportateurs	exportateurs	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_221
+# text = Le président du Parlement avait insisté sur le fait que la démocratie européenne devait être renforcée.
+1	Le	le	DET	_	_	_	_	_	_
+2	président	président	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	Parlement	Parlement	X	_	_	_	_	_	_
+5	avait	avoir	AUX	_	_	_	_	_	_
+6	insisté	insisté	X	_	_	_	_	_	_
+7	sur	sur	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	fait	fait	X	_	_	_	_	_	_
+10	que	que	PRON	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	démocratie	démocratie	X	_	_	_	_	_	_
+13	européenne	européenne	X	_	_	_	_	_	_
+14	devait	devoir	AUX	_	_	_	_	_	_
+15	être	être	X	_	_	_	_	_	_
+16	renforcée	renforcée	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_222
+# text = Il faudra que les accords de libre-échange soient ratifiés avant l'expiration des délais fixés par le traité.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	accords	accord	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	libre-échange	libre-échange	NOUN	_	_	_	_	_	_
+8	soient	être	AUX	_	_	_	_	_	_
+9	ratifiés	ratifier	VERB	_	_	_	_	_	_
+10	avant	avant	ADP	_	_	_	_	_	_
+11	l'expiration	l'expiration	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	délais	délais	X	_	_	_	_	_	_
+14	fixés	fixés	X	_	_	_	_	_	_
+15	par	par	X	_	_	_	_	_	_
+16	le	le	DET	_	_	_	_	_	_
+17	traité	traité	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_223
+# text = Les experts, mandatés pour évaluer la politique agricole commune, avaient recommandé une redistribution plus équitable.
+1	Les	le	DET	_	_	_	_	_	_
+2	experts	expert	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	mandatés	mandater	VERB	_	_	_	_	_	_
+5	pour	pour	ADP	_	_	_	_	_	_
+6	évaluer	évaluer	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	politique	politique	NOUN	_	_	_	_	_	_
+9	agricole	agricole	ADJ	_	_	_	_	_	_
+10	commune	commun	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	avaient	avoir	AUX	_	_	_	_	_	_
+13	recommandé	recommander	VERB	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	redistribution	redistribution	NOUN	_	_	_	_	_	_
+16	plus	plus	ADV	_	_	_	_	_	_
+17	équitable	équitable	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_224
+# text = On s'attend à ce que la nouvelle stratégie industrielle stimule l'investissement dans les technologies vertes.
+1	On	on	PRON	_	_	_	_	_	_
+2	s'attend	s'attend	X	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	nouvelle	nouvelle	X	_	_	_	_	_	_
+8	stratégie	stratégie	X	_	_	_	_	_	_
+9	industrielle	industrielle	X	_	_	_	_	_	_
+10	stimule	stimule	X	_	_	_	_	_	_
+11	l'investissement	l'investissement	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	technologies	technologies	X	_	_	_	_	_	_
+15	vertes	vertes	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_225
+# text = Les citoyens, auxquels s'adresse ce livre blanc, sont invités à participer à la consultation publique en ligne.
+1	Les	le	DET	_	_	_	_	_	_
+2	citoyens	citoyen	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	auxquels	auxquels	X	_	_	_	_	_	_
+5	s'adresse	s'adresse	X	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	livre	livre	X	_	_	_	_	_	_
+8	blanc	blanc	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	sont	être	AUX	_	_	_	_	_	_
+11	invités	invités	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	participer	participer	X	_	_	_	_	_	_
+14	à	à	X	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	consultation	consultation	X	_	_	_	_	_	_
+17	publique	publique	X	_	_	_	_	_	_
+18	en	en	PRON	_	_	_	_	_	_
+19	ligne	ligne	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_226
+# text = Bien que l'entreprise ait renforcé ses protocoles, plusieurs fuites de données personnelles ont été signalées.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'entreprise	l'entreprise	X	_	_	_	_	_	_
+4	ait	avoir	AUX	_	_	_	_	_	_
+5	renforcé	renforcé	X	_	_	_	_	_	_
+6	ses	son	DET	_	_	_	_	_	_
+7	protocoles	protocoles	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	plusieurs	plusieurs	X	_	_	_	_	_	_
+10	fuites	fuites	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	données	données	X	_	_	_	_	_	_
+13	personnelles	personnelles	X	_	_	_	_	_	_
+14	ont	avoir	AUX	_	_	_	_	_	_
+15	été	être	AUX	_	_	_	_	_	_
+16	signalées	signalées	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_227
+# text = Le règlement, qui protège les utilisateurs européens, impose des sanctions sévères en cas de non-conformité.
+1	Le	le	DET	_	_	_	_	_	_
+2	règlement	règlement	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	protège	protéger	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	utilisateurs	utilisateur	NOUN	_	_	_	_	_	_
+8	européens	européen	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	impose	imposer	VERB	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	sanctions	sanction	NOUN	_	_	_	_	_	_
+13	sévères	sévère	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	cas	ca	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	non-conformité	non-conformité	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_228
+# text = Il est essentiel que les plateformes numériques obtiennent un consentement explicite avant de traiter les données.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	essentiel	essentiel	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	plateformes	plateforme	NOUN	_	_	_	_	_	_
+7	numériques	numérique	ADJ	_	_	_	_	_	_
+8	obtiennent	obtenir	VERB	_	_	_	_	_	_
+9	un	un	DET	_	_	_	_	_	_
+10	consentement	consentement	NOUN	_	_	_	_	_	_
+11	explicite	explicite	ADJ	_	_	_	_	_	_
+12	avant	avant	ADV	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	traiter	traiter	VERB	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	données	donnée	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_229
+# text = Les autorités avaient alerté que la collecte massive d'informations comportementales posait des risques juridiques sérieux.
+1	Les	le	DET	_	_	_	_	_	_
+2	autorités	autorité	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	alerté	alerter	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	collecte	collecte	NOUN	_	_	_	_	_	_
+8	massive	massif	ADJ	_	_	_	_	_	_
+9	d'informations	d'informations	X	_	_	_	_	_	_
+10	comportementales	comportementales	X	_	_	_	_	_	_
+11	posait	posait	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	risques	risques	X	_	_	_	_	_	_
+14	juridiques	juridiques	X	_	_	_	_	_	_
+15	sérieux	sérieux	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_230
+# text = La politique de confidentialité, dont les clauses avaient été simplifiées, sera mise à jour dès le mois prochain.
+1	La	le	DET	_	_	_	_	_	_
+2	politique	politique	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	confidentialité	confidentialité	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dont	dont	PRON	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	clauses	clause	NOUN	_	_	_	_	_	_
+9	avaient	avoir	AUX	_	_	_	_	_	_
+10	été	être	AUX	_	_	_	_	_	_
+11	simplifiées	simplifier	VERB	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	sera	être	AUX	_	_	_	_	_	_
+14	mise	mettre	VERB	_	_	_	_	_	_
+15	à	à	ADP	_	_	_	_	_	_
+16	jour	jour	NOUN	_	_	_	_	_	_
+17	dès	dès	ADP	_	_	_	_	_	_
+18	le	le	DET	_	_	_	_	_	_
+19	mois	moi	NOUN	_	_	_	_	_	_
+20	prochain	prochain	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_231
+# text = Avant que l'audit ne soit publié, les responsables devront avoir documenté l'ensemble des traitements effectués.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'audit	l'audit	X	_	_	_	_	_	_
+4	ne	ne	PART	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	publié	publié	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	responsables	responsables	X	_	_	_	_	_	_
+10	devront	devront	X	_	_	_	_	_	_
+11	avoir	avoir	X	_	_	_	_	_	_
+12	documenté	documenté	X	_	_	_	_	_	_
+13	l'ensemble	l'ensemble	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	traitements	traitements	X	_	_	_	_	_	_
+16	effectués	effectués	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_232
+# text = Les utilisateurs, qui peuvent demander l'effacement de leurs données, bénéficient désormais de droits renforcés.
+1	Les	le	DET	_	_	_	_	_	_
+2	utilisateurs	utilisateur	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	peuvent	pouvoir	VERB	_	_	_	_	_	_
+6	demander	demander	VERB	_	_	_	_	_	_
+7	l'effacement	l'effacement	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	leurs	leur	DET	_	_	_	_	_	_
+10	données	données	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	bénéficient	bénéficient	X	_	_	_	_	_	_
+13	désormais	désormais	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	droits	droits	X	_	_	_	_	_	_
+16	renforcés	renforcés	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_233
+# text = On redoute que les algorithmes de profilage ne reproduisent des discriminations dans l'accès aux services en ligne.
+1	On	on	PRON	_	_	_	_	_	_
+2	redoute	redouter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	algorithmes	algorithme	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	profilage	profilage	NOUN	_	_	_	_	_	_
+8	ne	ne	PART	_	_	_	_	_	_
+9	reproduisent	reproduire	VERB	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	discriminations	discrimination	NOUN	_	_	_	_	_	_
+12	dans	dans	ADP	_	_	_	_	_	_
+13	l'accès	l'accès	X	_	_	_	_	_	_
+14	aux	aux	ADP	_	_	_	_	_	_
+15	services	services	X	_	_	_	_	_	_
+16	en	en	PRON	_	_	_	_	_	_
+17	ligne	ligne	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_234
+# text = Le délégué à la protection des données avait insisté sur le fait que la transparence devait primer.
+1	Le	le	DET	_	_	_	_	_	_
+2	délégué	délégué	NOUN	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	protection	protection	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	données	données	X	_	_	_	_	_	_
+8	avait	avoir	AUX	_	_	_	_	_	_
+9	insisté	insisté	X	_	_	_	_	_	_
+10	sur	sur	X	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	fait	fait	X	_	_	_	_	_	_
+13	que	que	PRON	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	transparence	transparence	X	_	_	_	_	_	_
+16	devait	devoir	AUX	_	_	_	_	_	_
+17	primer	primer	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_235
+# text = Pour que la confiance numérique soit restaurée, il faudra que les entreprises limitent la rétention des informations.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	confiance	confiance	NOUN	_	_	_	_	_	_
+5	numérique	numérique	ADJ	_	_	_	_	_	_
+6	soit	être	AUX	_	_	_	_	_	_
+7	restaurée	restaurer	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	faudra	falloir	VERB	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	entreprises	entreprise	NOUN	_	_	_	_	_	_
+14	limitent	limiter	VERB	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	rétention	rétention	NOUN	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	informations	informations	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_236
+# text = Le chiffrement, déployé sur l'ensemble des serveurs, avait empêché l'interception des communications privées.
+1	Le	le	DET	_	_	_	_	_	_
+2	chiffrement	chiffrement	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	déployé	déployer	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	l'ensemble	l'ensemble	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	serveurs	serveurs	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avait	avoir	AUX	_	_	_	_	_	_
+11	empêché	empêché	X	_	_	_	_	_	_
+12	l'interception	l'interception	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	communications	communications	X	_	_	_	_	_	_
+15	privées	privées	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_237
+# text = Bien que le consentement ait été recueilli, certains traitements automatisés restent soumis à un contrôle humain.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	consentement	consentement	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	recueilli	recueillir	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	certains	certain	DET	_	_	_	_	_	_
+10	traitements	traitement	NOUN	_	_	_	_	_	_
+11	automatisés	automatiser	VERB	_	_	_	_	_	_
+12	restent	rester	VERB	_	_	_	_	_	_
+13	soumis	soumettre	VERB	_	_	_	_	_	_
+14	à	à	ADP	_	_	_	_	_	_
+15	un	un	DET	_	_	_	_	_	_
+16	contrôle	contrôle	NOUN	_	_	_	_	_	_
+17	humain	humain	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_238
+# text = Les cookies, installés sans information claire, seront bloqués par défaut sur les navigateurs mis à jour.
+1	Les	le	DET	_	_	_	_	_	_
+2	cookies	cookie	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	installés	installer	VERB	_	_	_	_	_	_
+5	sans	sans	ADP	_	_	_	_	_	_
+6	information	information	NOUN	_	_	_	_	_	_
+7	claire	clair	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	seront	être	AUX	_	_	_	_	_	_
+10	bloqués	bloquer	VERB	_	_	_	_	_	_
+11	par	par	ADP	_	_	_	_	_	_
+12	défaut	défaut	NOUN	_	_	_	_	_	_
+13	sur	sur	ADP	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	navigateurs	navigateur	NOUN	_	_	_	_	_	_
+16	mis	mettre	VERB	_	_	_	_	_	_
+17	à	à	ADP	_	_	_	_	_	_
+18	jour	jour	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_239
+# text = Il convient que les mineurs soient protégés contre une exploitation commerciale de leurs données personnelles.
+1	Il	il	PRON	_	_	_	_	_	_
+2	convient	convenir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	mineurs	mineur	NOUN	_	_	_	_	_	_
+6	soient	être	AUX	_	_	_	_	_	_
+7	protégés	protéger	VERB	_	_	_	_	_	_
+8	contre	contre	ADP	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	exploitation	exploitation	NOUN	_	_	_	_	_	_
+11	commerciale	commercial	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	leurs	leur	DET	_	_	_	_	_	_
+14	données	donnée	NOUN	_	_	_	_	_	_
+15	personnelles	personnel	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_240
+# text = Le scandale, révélé par des journalistes d'investigation, n'avait pas encore entraîné de sanctions administratives.
+1	Le	le	DET	_	_	_	_	_	_
+2	scandale	scandale	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	révélé	révéler	VERB	_	_	_	_	_	_
+5	par	par	ADP	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	journalistes	journaliste	NOUN	_	_	_	_	_	_
+8	d'investigation	d'investigation	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	n'avait	n'avait	X	_	_	_	_	_	_
+11	pas	pas	ADV	_	_	_	_	_	_
+12	encore	encore	X	_	_	_	_	_	_
+13	entraîné	entraîné	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	sanctions	sanctions	X	_	_	_	_	_	_
+16	administratives	administratives	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_241
+# text = Les ingénieurs avaient démontré que l'anonymisation partielle ne suffisait pas à garantir la confidentialité.
+1	Les	le	DET	_	_	_	_	_	_
+2	ingénieurs	ingénieur	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	démontré	démontrer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	l'anonymisation	l'anonymisation	X	_	_	_	_	_	_
+7	partielle	partielle	X	_	_	_	_	_	_
+8	ne	ne	PART	_	_	_	_	_	_
+9	suffisait	suffisait	X	_	_	_	_	_	_
+10	pas	pas	ADV	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	garantir	garantir	X	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	confidentialité	confidentialité	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_242
+# text = Afin que les droits fondamentaux soient respectés, les autorités devront contrôler les pratiques des géants technologiques.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	droits	droit	NOUN	_	_	_	_	_	_
+5	fondamentaux	fondamental	ADJ	_	_	_	_	_	_
+6	soient	être	AUX	_	_	_	_	_	_
+7	respectés	respecter	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	autorités	autorité	NOUN	_	_	_	_	_	_
+11	devront	devoir	VERB	_	_	_	_	_	_
+12	contrôler	contrôler	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	pratiques	pratique	NOUN	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	géants	géants	X	_	_	_	_	_	_
+17	technologiques	technologiques	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_243
+# text = La commission d'enquête, pendant laquelle des dirigeants ont témoigné, a recommandé une réforme législative urgente.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	d'enquête	d'enquête	X	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	pendant	pendant	X	_	_	_	_	_	_
+6	laquelle	laquelle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	dirigeants	dirigeants	X	_	_	_	_	_	_
+9	ont	avoir	AUX	_	_	_	_	_	_
+10	témoigné	témoigné	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	a	avoir	AUX	_	_	_	_	_	_
+13	recommandé	recommandé	X	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	réforme	réforme	X	_	_	_	_	_	_
+16	législative	législative	X	_	_	_	_	_	_
+17	urgente	urgente	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_244
+# text = Sans que les citoyens soient informés, il serait illégal de transférer des données vers des pays tiers.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	citoyens	citoyen	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	informés	informer	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	serait	être	AUX	_	_	_	_	_	_
+10	illégal	illégal	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	transférer	transférer	VERB	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	données	donnée	NOUN	_	_	_	_	_	_
+15	vers	vers	ADP	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	pays	pay	NOUN	_	_	_	_	_	_
+18	tiers	tiers	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_245
+# text = Les mesures de sécurité, renforcées après l'attaque, avaient réduit sensiblement le risque de nouvelles intrusions.
+1	Les	le	DET	_	_	_	_	_	_
+2	mesures	mesure	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	sécurité	sécurité	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	renforcées	renforcer	VERB	_	_	_	_	_	_
+7	après	après	ADP	_	_	_	_	_	_
+8	l'attaque	l'attaque	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avaient	avoir	AUX	_	_	_	_	_	_
+11	réduit	réduit	X	_	_	_	_	_	_
+12	sensiblement	sensiblement	X	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	risque	risque	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	nouvelles	nouvelles	X	_	_	_	_	_	_
+17	intrusions	intrusions	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_246
+# text = La directrice avait souligné que la minimisation des données devait guider chaque nouveau projet numérique.
+1	La	le	DET	_	_	_	_	_	_
+2	directrice	directrice	NOUN	_	_	_	_	_	_
+3	avait	avoir	AUX	_	_	_	_	_	_
+4	souligné	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	minimisation	minimisation	NOUN	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	données	données	X	_	_	_	_	_	_
+10	devait	devoir	AUX	_	_	_	_	_	_
+11	guider	guider	X	_	_	_	_	_	_
+12	chaque	chaque	X	_	_	_	_	_	_
+13	nouveau	nouveau	X	_	_	_	_	_	_
+14	projet	projet	X	_	_	_	_	_	_
+15	numérique	numérique	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_247
+# text = Il faudra que les notifications de violation soient envoyées dans les soixante-douze heures suivant la découverte.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	notifications	notification	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	violation	violation	NOUN	_	_	_	_	_	_
+8	soient	être	AUX	_	_	_	_	_	_
+9	envoyées	envoyer	VERB	_	_	_	_	_	_
+10	dans	dans	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	soixante-douze	soixante-douze	NUM	_	_	_	_	_	_
+13	heures	heure	NOUN	_	_	_	_	_	_
+14	suivant	suivant	ADP	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	découverte	découverte	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_248
+# text = Les chercheurs, qui analysent les traces numériques, avaient mis en évidence des failles dans le système d'authentification.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	analysent	analyser	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	traces	trace	NOUN	_	_	_	_	_	_
+8	numériques	numérique	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avaient	avoir	AUX	_	_	_	_	_	_
+11	mis	mettre	VERB	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	évidence	évidence	NOUN	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	failles	failles	X	_	_	_	_	_	_
+16	dans	dans	X	_	_	_	_	_	_
+17	le	le	DET	_	_	_	_	_	_
+18	système	système	X	_	_	_	_	_	_
+19	d'authentification	d'authentification	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_249
+# text = On espère que la nouvelle interface permettra aux utilisateurs de gérer leurs préférences de confidentialité facilement.
+1	On	on	PRON	_	_	_	_	_	_
+2	espère	espérer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	nouvelle	nouveau	ADJ	_	_	_	_	_	_
+6	interface	interface	NOUN	_	_	_	_	_	_
+7	permettra	permettre	VERB	_	_	_	_	_	_
+8	aux	aux	ADP	_	_	_	_	_	_
+9	utilisateurs	utilisateurs	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	gérer	gérer	X	_	_	_	_	_	_
+12	leurs	leur	DET	_	_	_	_	_	_
+13	préférences	préférences	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	confidentialité	confidentialité	X	_	_	_	_	_	_
+16	facilement	facilement	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_250
+# text = Les abonnés, dont les coordonnées avaient été exposées, recevront une indemnisation conformément à la réglementation.
+1	Les	le	DET	_	_	_	_	_	_
+2	abonnés	abonné	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	coordonnées	coordonnée	NOUN	_	_	_	_	_	_
+7	avaient	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	exposées	exposer	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	recevront	recevoir	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	indemnisation	indemnisation	NOUN	_	_	_	_	_	_
+14	conformément	conformément	ADV	_	_	_	_	_	_
+15	à	à	ADP	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	réglementation	réglementation	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_251
+# text = Bien que la mairie ait lancé un plan de rénovation, plusieurs quartiers historiques restent menacés par la spéculation.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	mairie	mairie	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	lancé	lancer	VERB	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	plan	plan	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	rénovation	rénovation	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	plusieurs	plusieurs	DET	_	_	_	_	_	_
+13	quartiers	quartier	NOUN	_	_	_	_	_	_
+14	historiques	historique	ADJ	_	_	_	_	_	_
+15	restent	rester	VERB	_	_	_	_	_	_
+16	menacés	menacer	VERB	_	_	_	_	_	_
+17	par	par	ADP	_	_	_	_	_	_
+18	la	le	DET	_	_	_	_	_	_
+19	spéculation	spéculation	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_252
+# text = Le projet, qui avait été présenté aux habitants, prévoit la création de nouvelles liaisons cyclables sécurisées.
+1	Le	le	DET	_	_	_	_	_	_
+2	projet	projet	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	avait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	présenté	présenter	VERB	_	_	_	_	_	_
+8	aux	aux	ADP	_	_	_	_	_	_
+9	habitants	habitants	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	prévoit	prévoit	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	création	création	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	nouvelles	nouvelles	X	_	_	_	_	_	_
+16	liaisons	liaisons	X	_	_	_	_	_	_
+17	cyclables	cyclables	X	_	_	_	_	_	_
+18	sécurisées	sécurisées	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_253
+# text = Il est nécessaire que les nouvelles constructions respectent des normes énergétiques strictes dès leur conception initiale.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	nécessaire	nécessaire	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	nouvelles	nouveau	ADJ	_	_	_	_	_	_
+7	constructions	construction	NOUN	_	_	_	_	_	_
+8	respectent	respecter	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	normes	norme	NOUN	_	_	_	_	_	_
+11	énergétiques	énergétique	ADJ	_	_	_	_	_	_
+12	strictes	strict	ADJ	_	_	_	_	_	_
+13	dès	dès	ADP	_	_	_	_	_	_
+14	leur	leur	DET	_	_	_	_	_	_
+15	conception	conception	NOUN	_	_	_	_	_	_
+16	initiale	initial	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_254
+# text = Les urbanistes avaient recommandé que les espaces verts soient préservés malgré la pression foncière croissante.
+1	Les	le	DET	_	_	_	_	_	_
+2	urbanistes	urbaniste	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	espaces	espace	NOUN	_	_	_	_	_	_
+8	verts	vert	ADJ	_	_	_	_	_	_
+9	soient	être	AUX	_	_	_	_	_	_
+10	préservés	préserver	VERB	_	_	_	_	_	_
+11	malgré	malgré	ADP	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	pression	pression	NOUN	_	_	_	_	_	_
+14	foncière	foncier	ADJ	_	_	_	_	_	_
+15	croissante	croissant	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_255
+# text = La zone, dont le permis de construire avait été contesté, fera l'objet d'une nouvelle consultation publique.
+1	La	le	DET	_	_	_	_	_	_
+2	zone	zone	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	permis	permi	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	construire	construire	VERB	_	_	_	_	_	_
+9	avait	avoir	AUX	_	_	_	_	_	_
+10	été	être	AUX	_	_	_	_	_	_
+11	contesté	contester	VERB	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	fera	faire	VERB	_	_	_	_	_	_
+14	l'objet	l'objet	X	_	_	_	_	_	_
+15	d'une	d'une	X	_	_	_	_	_	_
+16	nouvelle	nouvelle	X	_	_	_	_	_	_
+17	consultation	consultation	X	_	_	_	_	_	_
+18	publique	publique	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_256
+# text = Avant que le tramway ne soit mis en service, les infrastructures devront avoir été testées par les techniciens.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	tramway	tramway	NOUN	_	_	_	_	_	_
+5	ne	ne	PART	_	_	_	_	_	_
+6	soit	être	AUX	_	_	_	_	_	_
+7	mis	mettre	VERB	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	service	service	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	infrastructures	infrastructure	NOUN	_	_	_	_	_	_
+13	devront	devoir	VERB	_	_	_	_	_	_
+14	avoir	avoir	VERB	_	_	_	_	_	_
+15	été	être	AUX	_	_	_	_	_	_
+16	testées	tester	VERB	_	_	_	_	_	_
+17	par	par	ADP	_	_	_	_	_	_
+18	les	le	DET	_	_	_	_	_	_
+19	techniciens	technicien	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_257
+# text = Les immeubles, qui seront réhabilités avec des matériaux durables, contribueront à réduire la consommation énergétique.
+1	Les	le	DET	_	_	_	_	_	_
+2	immeubles	immeuble	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	seront	être	AUX	_	_	_	_	_	_
+6	réhabilités	réhabiliter	VERB	_	_	_	_	_	_
+7	avec	avec	ADP	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	matériaux	matériau	NOUN	_	_	_	_	_	_
+10	durables	durable	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	contribueront	contribuer	VERB	_	_	_	_	_	_
+13	à	à	ADP	_	_	_	_	_	_
+14	réduire	réduire	VERB	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	consommation	consommation	NOUN	_	_	_	_	_	_
+17	énergétique	énergétique	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_258
+# text = On craint que l'artificialisation des sols ne détruise des terres agricoles précieuses autour de la métropole.
+1	On	on	PRON	_	_	_	_	_	_
+2	craint	craindre	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'artificialisation	l'artificialisation	X	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	sols	sols	X	_	_	_	_	_	_
+7	ne	ne	PART	_	_	_	_	_	_
+8	détruise	détruise	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	terres	terres	X	_	_	_	_	_	_
+11	agricoles	agricoles	X	_	_	_	_	_	_
+12	précieuses	précieuses	X	_	_	_	_	_	_
+13	autour	autour	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	métropole	métropole	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_259
+# text = L'architecte en chef avait affirmé que la mixité sociale devait guider chaque opération de renouvellement urbain.
+1	L'architecte	L'architecte	X	_	_	_	_	_	_
+2	en	en	PRON	_	_	_	_	_	_
+3	chef	chef	X	_	_	_	_	_	_
+4	avait	avoir	AUX	_	_	_	_	_	_
+5	affirmé	affirmé	X	_	_	_	_	_	_
+6	que	que	PRON	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	mixité	mixité	X	_	_	_	_	_	_
+9	sociale	sociale	X	_	_	_	_	_	_
+10	devait	devoir	AUX	_	_	_	_	_	_
+11	guider	guider	X	_	_	_	_	_	_
+12	chaque	chaque	X	_	_	_	_	_	_
+13	opération	opération	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	renouvellement	renouvellement	X	_	_	_	_	_	_
+16	urbain	urbain	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_260
+# text = Pour que la ville reste respirable, il faudra que la circulation automobile soit limitée dans le centre historique.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	ville	ville	NOUN	_	_	_	_	_	_
+5	reste	rester	VERB	_	_	_	_	_	_
+6	respirable	respirable	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	faudra	falloir	VERB	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	circulation	circulation	NOUN	_	_	_	_	_	_
+13	automobile	automobile	ADJ	_	_	_	_	_	_
+14	soit	être	AUX	_	_	_	_	_	_
+15	limitée	limiter	VERB	_	_	_	_	_	_
+16	dans	dans	ADP	_	_	_	_	_	_
+17	le	le	DET	_	_	_	_	_	_
+18	centre	centre	NOUN	_	_	_	_	_	_
+19	historique	historique	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_261
+# text = Le plan local d'urbanisme, adopté après de longs débats, avait intégré des objectifs ambitieux de désimperméabilisation.
+1	Le	le	DET	_	_	_	_	_	_
+2	plan	plan	NOUN	_	_	_	_	_	_
+3	local	local	ADJ	_	_	_	_	_	_
+4	d'urbanisme	d'urbanisme	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	adopté	adopté	X	_	_	_	_	_	_
+7	après	après	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	longs	longs	X	_	_	_	_	_	_
+10	débats	débats	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	avait	avoir	AUX	_	_	_	_	_	_
+13	intégré	intégré	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	objectifs	objectifs	X	_	_	_	_	_	_
+16	ambitieux	ambitieux	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	désimperméabilisation	désimperméabilisation	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_262
+# text = Bien que le projet ait reçu un prix d'architecture, certains riverains contestent encore son impact sur le paysage.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	projet	projet	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	reçu	recevoir	VERB	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	prix	prix	NOUN	_	_	_	_	_	_
+9	d'architecture	d'architecture	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	certains	certains	X	_	_	_	_	_	_
+12	riverains	riverains	X	_	_	_	_	_	_
+13	contestent	contestent	X	_	_	_	_	_	_
+14	encore	encore	X	_	_	_	_	_	_
+15	son	son	DET	_	_	_	_	_	_
+16	impact	impact	X	_	_	_	_	_	_
+17	sur	sur	X	_	_	_	_	_	_
+18	le	le	DET	_	_	_	_	_	_
+19	paysage	paysage	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_263
+# text = Les logements sociaux, promis dans le nouveau quartier, seront répartis entre plusieurs opérateurs publics et privés.
+1	Les	le	DET	_	_	_	_	_	_
+2	logements	logement	NOUN	_	_	_	_	_	_
+3	sociaux	social	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	promis	promettre	VERB	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	nouveau	nouveau	ADJ	_	_	_	_	_	_
+9	quartier	quartier	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	seront	être	AUX	_	_	_	_	_	_
+12	répartis	répartir	VERB	_	_	_	_	_	_
+13	entre	entre	ADP	_	_	_	_	_	_
+14	plusieurs	plusieurs	DET	_	_	_	_	_	_
+15	opérateurs	opérateur	NOUN	_	_	_	_	_	_
+16	publics	public	ADJ	_	_	_	_	_	_
+17	et	et	CCONJ	_	_	_	_	_	_
+18	privés	privé	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_264
+# text = Il convient que les habitants participent aux décisions qui modifient durablement leur cadre de vie quotidien.
+1	Il	il	PRON	_	_	_	_	_	_
+2	convient	convenir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	habitants	habitant	NOUN	_	_	_	_	_	_
+6	participent	participer	VERB	_	_	_	_	_	_
+7	aux	aux	ADP	_	_	_	_	_	_
+8	décisions	décisions	X	_	_	_	_	_	_
+9	qui	qui	PRON	_	_	_	_	_	_
+10	modifient	modifient	X	_	_	_	_	_	_
+11	durablement	durablement	X	_	_	_	_	_	_
+12	leur	leur	DET	_	_	_	_	_	_
+13	cadre	cadre	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	vie	vie	X	_	_	_	_	_	_
+16	quotidien	quotidien	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_265
+# text = La rénovation énergétique, lancée dans les années soixante, n'avait pas encore concerné l'ensemble du parc immobilier.
+1	La	le	DET	_	_	_	_	_	_
+2	rénovation	rénovation	NOUN	_	_	_	_	_	_
+3	énergétique	énergétique	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	lancée	lancer	VERB	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	années	année	NOUN	_	_	_	_	_	_
+9	soixante	soixante	NUM	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	n'avait	n'avait	X	_	_	_	_	_	_
+12	pas	pas	ADV	_	_	_	_	_	_
+13	encore	encore	X	_	_	_	_	_	_
+14	concerné	concerné	X	_	_	_	_	_	_
+15	l'ensemble	l'ensemble	X	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	parc	parc	X	_	_	_	_	_	_
+18	immobilier	immobilier	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_266
+# text = Les élus avaient prévu que les parkings souterrains seraient financés par une taxe spécifique sur les constructions.
+1	Les	le	DET	_	_	_	_	_	_
+2	élus	élu	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	prévu	prévoir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	parkings	parking	NOUN	_	_	_	_	_	_
+8	souterrains	souterrain	ADJ	_	_	_	_	_	_
+9	seraient	être	AUX	_	_	_	_	_	_
+10	financés	financer	VERB	_	_	_	_	_	_
+11	par	par	ADP	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	taxe	taxe	NOUN	_	_	_	_	_	_
+14	spécifique	spécifique	ADJ	_	_	_	_	_	_
+15	sur	sur	ADP	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	constructions	construction	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_267
+# text = Afin que les déplacements soient plus fluides, les pouvoirs publics devront coordonner les réseaux de transport existants.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	déplacements	déplacement	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	plus	plus	ADV	_	_	_	_	_	_
+7	fluides	fluide	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	pouvoirs	pouvoir	NOUN	_	_	_	_	_	_
+11	publics	public	ADJ	_	_	_	_	_	_
+12	devront	devoir	VERB	_	_	_	_	_	_
+13	coordonner	coordonner	VERB	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	réseaux	réseau	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	transport	transport	NOUN	_	_	_	_	_	_
+18	existants	existant	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_268
+# text = Le conseil municipal, auquel ont été soumis les plans, a exigé une réduction de hauteur des tours.
+1	Le	le	DET	_	_	_	_	_	_
+2	conseil	conseil	NOUN	_	_	_	_	_	_
+3	municipal	municipal	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	auquel	auquel	X	_	_	_	_	_	_
+6	ont	avoir	AUX	_	_	_	_	_	_
+7	été	être	AUX	_	_	_	_	_	_
+8	soumis	soumis	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	plans	plans	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	a	avoir	AUX	_	_	_	_	_	_
+13	exigé	exigé	X	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	réduction	réduction	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	hauteur	hauteur	X	_	_	_	_	_	_
+18	des	des	DET	_	_	_	_	_	_
+19	tours	tours	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_269
+# text = Sans que les commerces de proximité soient soutenus, il serait risqué de densifier excessivement certains secteurs.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	commerces	commerce	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	proximité	proximité	NOUN	_	_	_	_	_	_
+7	soient	être	AUX	_	_	_	_	_	_
+8	soutenus	soutenir	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	il	il	PRON	_	_	_	_	_	_
+11	serait	être	AUX	_	_	_	_	_	_
+12	risqué	risquer	VERB	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	densifier	densifier	VERB	_	_	_	_	_	_
+15	excessivement	excessivement	ADV	_	_	_	_	_	_
+16	certains	certain	DET	_	_	_	_	_	_
+17	secteurs	secteur	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_270
+# text = Les mesures anti-bruit, imposées le long des axes routiers, avaient amélioré la qualité de vie des résidents.
+1	Les	le	DET	_	_	_	_	_	_
+2	mesures	mesure	NOUN	_	_	_	_	_	_
+3	anti-bruit	anti-bruit	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	imposées	imposer	VERB	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	long	long	NOUN	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	axes	axes	X	_	_	_	_	_	_
+10	routiers	routiers	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	avaient	avoir	AUX	_	_	_	_	_	_
+13	amélioré	amélioré	X	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	qualité	qualité	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	vie	vie	X	_	_	_	_	_	_
+18	des	des	DET	_	_	_	_	_	_
+19	résidents	résidents	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_271
+# text = Le préfet avait insisté sur le fait que le développement durable devait primer sur la rentabilité immédiate.
+1	Le	le	DET	_	_	_	_	_	_
+2	préfet	préfet	NOUN	_	_	_	_	_	_
+3	avait	avoir	AUX	_	_	_	_	_	_
+4	insisté	insister	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	fait	fait	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	développement	développement	NOUN	_	_	_	_	_	_
+11	durable	durable	ADJ	_	_	_	_	_	_
+12	devait	devoir	AUX	_	_	_	_	_	_
+13	primer	primer	VERB	_	_	_	_	_	_
+14	sur	sur	ADP	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	rentabilité	rentabilité	NOUN	_	_	_	_	_	_
+17	immédiate	immédiat	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_272
+# text = Il faudra que les permis soient délivrés conformément aux objectifs fixés par le schéma directeur régional.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	permis	permi	NOUN	_	_	_	_	_	_
+6	soient	être	AUX	_	_	_	_	_	_
+7	délivrés	délivrer	VERB	_	_	_	_	_	_
+8	conformément	conformément	ADV	_	_	_	_	_	_
+9	aux	aux	ADP	_	_	_	_	_	_
+10	objectifs	objectifs	X	_	_	_	_	_	_
+11	fixés	fixés	X	_	_	_	_	_	_
+12	par	par	X	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	schéma	schéma	X	_	_	_	_	_	_
+15	directeur	directeur	X	_	_	_	_	_	_
+16	régional	régional	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_273
+# text = Les promoteurs, confrontés à de nouvelles contraintes environnementales, avaient révisé leurs plans de construction.
+1	Les	le	DET	_	_	_	_	_	_
+2	promoteurs	promoteur	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	confrontés	confronter	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	nouvelles	nouveau	ADJ	_	_	_	_	_	_
+8	contraintes	contrainte	NOUN	_	_	_	_	_	_
+9	environnementales	environnemental	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	avaient	avoir	AUX	_	_	_	_	_	_
+12	révisé	réviser	VERB	_	_	_	_	_	_
+13	leurs	leur	DET	_	_	_	_	_	_
+14	plans	plan	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	construction	construction	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_274
+# text = On s'attend à ce que le nouveau quartier fluvial attire des entreprises créatives et des familles jeunes.
+1	On	on	PRON	_	_	_	_	_	_
+2	s'attend	s'attend	X	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	nouveau	nouveau	X	_	_	_	_	_	_
+8	quartier	quartier	X	_	_	_	_	_	_
+9	fluvial	fluvial	X	_	_	_	_	_	_
+10	attire	attire	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	entreprises	entreprises	X	_	_	_	_	_	_
+13	créatives	créatives	X	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	familles	familles	X	_	_	_	_	_	_
+17	jeunes	jeunes	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_275
+# text = Les associations, auxquelles la mairie a confié l'animation, organiseront des ateliers sur la participation citoyenne.
+1	Les	le	DET	_	_	_	_	_	_
+2	associations	association	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	auxquelles	auxquelles	X	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	mairie	mairie	X	_	_	_	_	_	_
+7	a	avoir	AUX	_	_	_	_	_	_
+8	confié	confié	X	_	_	_	_	_	_
+9	l'animation	l'animation	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	organiseront	organiseront	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	ateliers	ateliers	X	_	_	_	_	_	_
+14	sur	sur	X	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	participation	participation	X	_	_	_	_	_	_
+17	citoyenne	citoyenne	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_276
+# text = Bien que les essais aient montré des résultats encourageants, les chercheurs demandent des validations indépendantes supplémentaires.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	essais	essai	NOUN	_	_	_	_	_	_
+5	aient	avoir	AUX	_	_	_	_	_	_
+6	montré	montrer	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	résultats	résultat	NOUN	_	_	_	_	_	_
+9	encourageants	encourageant	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+13	demandent	demander	VERB	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	validations	validation	NOUN	_	_	_	_	_	_
+16	indépendantes	indépendant	ADJ	_	_	_	_	_	_
+17	supplémentaires	supplémentaire	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_277
+# text = La thérapie génique, qui avait été testée sur des patients volontaires, pourrait traiter des maladies rares autrefois incurables.
+1	La	le	DET	_	_	_	_	_	_
+2	thérapie	thérapie	NOUN	_	_	_	_	_	_
+3	génique	génique	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	qui	qui	PRON	_	_	_	_	_	_
+6	avait	avoir	AUX	_	_	_	_	_	_
+7	été	être	AUX	_	_	_	_	_	_
+8	testée	tester	VERB	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	patients	patient	NOUN	_	_	_	_	_	_
+12	volontaires	volontaire	ADJ	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	pourrait	pouvoir	VERB	_	_	_	_	_	_
+15	traiter	traiter	VERB	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	maladies	maladie	NOUN	_	_	_	_	_	_
+18	rares	rare	ADJ	_	_	_	_	_	_
+19	autrefois	autrefois	ADV	_	_	_	_	_	_
+20	incurables	incurable	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_278
+# text = Il est crucial que les innovations biotechnologiques soient encadrées par des comités d'éthique indépendants et rigoureux.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	crucial	crucial	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	innovations	innovation	NOUN	_	_	_	_	_	_
+7	biotechnologiques	biotechnologique	ADJ	_	_	_	_	_	_
+8	soient	être	AUX	_	_	_	_	_	_
+9	encadrées	encadrer	VERB	_	_	_	_	_	_
+10	par	par	ADP	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	comités	comité	NOUN	_	_	_	_	_	_
+13	d'éthique	d'éthique	X	_	_	_	_	_	_
+14	indépendants	indépendants	X	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	rigoureux	rigoureux	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_279
+# text = Les biologistes avaient identifié un mécanisme cellulaire dont le dysfonctionnement provoque des inflammations chroniques sévères.
+1	Les	le	DET	_	_	_	_	_	_
+2	biologistes	biologiste	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	identifié	identifier	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	mécanisme	mécanisme	NOUN	_	_	_	_	_	_
+7	cellulaire	cellulaire	ADJ	_	_	_	_	_	_
+8	dont	dont	PRON	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	dysfonctionnement	dysfonctionnement	NOUN	_	_	_	_	_	_
+11	provoque	provoquer	VERB	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	inflammations	inflammations	X	_	_	_	_	_	_
+14	chroniques	chroniques	X	_	_	_	_	_	_
+15	sévères	sévères	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_280
+# text = Le brevet, dont la validité avait été contestée, sera examiné par la juridiction compétente en propriété intellectuelle.
+1	Le	le	DET	_	_	_	_	_	_
+2	brevet	brevet	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	validité	validité	NOUN	_	_	_	_	_	_
+7	avait	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	contestée	contester	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	sera	être	AUX	_	_	_	_	_	_
+12	examiné	examiner	VERB	_	_	_	_	_	_
+13	par	par	ADP	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	juridiction	juridiction	NOUN	_	_	_	_	_	_
+16	compétente	compétent	ADJ	_	_	_	_	_	_
+17	en	en	ADP	_	_	_	_	_	_
+18	propriété	propriété	NOUN	_	_	_	_	_	_
+19	intellectuelle	intellectuel	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_281
+# text = Avant que le médicament ne soit commercialisé, il devra avoir obtenu l'autorisation des agences sanitaires nationales.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	médicament	médicament	NOUN	_	_	_	_	_	_
+5	ne	ne	PART	_	_	_	_	_	_
+6	soit	être	AUX	_	_	_	_	_	_
+7	commercialisé	commercialiser	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	devra	devoir	VERB	_	_	_	_	_	_
+11	avoir	avoir	VERB	_	_	_	_	_	_
+12	obtenu	obtenir	VERB	_	_	_	_	_	_
+13	l'autorisation	l'autorisation	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	agences	agences	X	_	_	_	_	_	_
+16	sanitaires	sanitaires	X	_	_	_	_	_	_
+17	nationales	nationales	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_282
+# text = Les cultures modifiées, qui résistent mieux aux sécheresses, suscitent des débats passionnés dans plusieurs pays européens.
+1	Les	le	DET	_	_	_	_	_	_
+2	cultures	culture	NOUN	_	_	_	_	_	_
+3	modifiées	modifier	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	qui	qui	PRON	_	_	_	_	_	_
+6	résistent	résister	VERB	_	_	_	_	_	_
+7	mieux	mieux	ADV	_	_	_	_	_	_
+8	aux	aux	ADP	_	_	_	_	_	_
+9	sécheresses	sécheresses	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	suscitent	suscitent	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	débats	débats	X	_	_	_	_	_	_
+14	passionnés	passionnés	X	_	_	_	_	_	_
+15	dans	dans	X	_	_	_	_	_	_
+16	plusieurs	plusieurs	X	_	_	_	_	_	_
+17	pays	pays	X	_	_	_	_	_	_
+18	européens	européens	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_283
+# text = On craint que l'édition génomique ne soit utilisée à des fins non thérapeutiques sans contrôle démocratique suffisant.
+1	On	on	PRON	_	_	_	_	_	_
+2	craint	craindre	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'édition	l'édition	X	_	_	_	_	_	_
+5	génomique	génomique	X	_	_	_	_	_	_
+6	ne	ne	PART	_	_	_	_	_	_
+7	soit	être	AUX	_	_	_	_	_	_
+8	utilisée	utilisée	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	fins	fins	X	_	_	_	_	_	_
+12	non	non	X	_	_	_	_	_	_
+13	thérapeutiques	thérapeutiques	X	_	_	_	_	_	_
+14	sans	sans	X	_	_	_	_	_	_
+15	contrôle	contrôle	X	_	_	_	_	_	_
+16	démocratique	démocratique	X	_	_	_	_	_	_
+17	suffisant	suffisant	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_284
+# text = Le directeur du laboratoire avait souligné que la reproductibilité des expériences devait être systématiquement vérifiée.
+1	Le	le	DET	_	_	_	_	_	_
+2	directeur	directeur	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	laboratoire	laboratoire	X	_	_	_	_	_	_
+5	avait	avoir	AUX	_	_	_	_	_	_
+6	souligné	souligné	X	_	_	_	_	_	_
+7	que	que	PRON	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	reproductibilité	reproductibilité	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	expériences	expériences	X	_	_	_	_	_	_
+12	devait	devoir	AUX	_	_	_	_	_	_
+13	être	être	X	_	_	_	_	_	_
+14	systématiquement	systématiquement	X	_	_	_	_	_	_
+15	vérifiée	vérifiée	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_285
+# text = Pour que la recherche progresse, il faudra que les financements publics soutiennent les projets à fort impact médical.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	recherche	recherche	NOUN	_	_	_	_	_	_
+5	progresse	progresser	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	il	il	PRON	_	_	_	_	_	_
+8	faudra	falloir	VERB	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	financements	financement	NOUN	_	_	_	_	_	_
+12	publics	public	ADJ	_	_	_	_	_	_
+13	soutiennent	soutenir	VERB	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	projets	projet	NOUN	_	_	_	_	_	_
+16	à	à	ADP	_	_	_	_	_	_
+17	fort	fort	ADJ	_	_	_	_	_	_
+18	impact	impact	NOUN	_	_	_	_	_	_
+19	médical	médical	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_286
+# text = Le vaccin recombinant, développé en collaboration internationale, avait démontré une immunogénicité remarquable chez les volontaires.
+1	Le	le	DET	_	_	_	_	_	_
+2	vaccin	vaccin	NOUN	_	_	_	_	_	_
+3	recombinant	recombinant	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	développé	développer	VERB	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	collaboration	collaboration	NOUN	_	_	_	_	_	_
+8	internationale	international	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avait	avoir	AUX	_	_	_	_	_	_
+11	démontré	démontrer	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	immunogénicité	immunogénicité	NOUN	_	_	_	_	_	_
+14	remarquable	remarquable	ADJ	_	_	_	_	_	_
+15	chez	chez	ADP	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	volontaires	volontaire	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_287
+# text = Bien que le comité d'éthique ait validé le protocole, les chercheurs devront publier leurs données de manière transparente.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	comité	comité	NOUN	_	_	_	_	_	_
+5	d'éthique	d'éthique	X	_	_	_	_	_	_
+6	ait	avoir	AUX	_	_	_	_	_	_
+7	validé	validé	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	protocole	protocole	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	chercheurs	chercheurs	X	_	_	_	_	_	_
+13	devront	devront	X	_	_	_	_	_	_
+14	publier	publier	X	_	_	_	_	_	_
+15	leurs	leur	DET	_	_	_	_	_	_
+16	données	données	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	manière	manière	X	_	_	_	_	_	_
+19	transparente	transparente	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_288
+# text = Les échantillons biologiques, conservés dans des biobanques sécurisées, seront analysés selon des protocoles strictement normalisés.
+1	Les	le	DET	_	_	_	_	_	_
+2	échantillons	échantillon	NOUN	_	_	_	_	_	_
+3	biologiques	biologique	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	conservés	conserver	VERB	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	biobanques	biobanque	NOUN	_	_	_	_	_	_
+9	sécurisées	sécuriser	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	seront	être	AUX	_	_	_	_	_	_
+12	analysés	analyser	VERB	_	_	_	_	_	_
+13	selon	selon	ADP	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	protocoles	protocole	NOUN	_	_	_	_	_	_
+16	strictement	strictement	ADV	_	_	_	_	_	_
+17	normalisés	normaliser	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_289
+# text = Il est indispensable que les patients soient informés des risques potentiels liés aux traitements expérimentaux proposés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	indispensable	indispensable	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	patients	patient	NOUN	_	_	_	_	_	_
+7	soient	être	AUX	_	_	_	_	_	_
+8	informés	informer	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	risques	risques	X	_	_	_	_	_	_
+11	potentiels	potentiels	X	_	_	_	_	_	_
+12	liés	liés	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	traitements	traitements	X	_	_	_	_	_	_
+15	expérimentaux	expérimentaux	X	_	_	_	_	_	_
+16	proposés	proposés	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_290
+# text = L'installation, inaugurée il y a cinq ans, n'avait pas encore été certifiée pour manipuler des agents génétiquement modifiés.
+1	L'installation	L'installation	X	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	inaugurée	inaugurée	X	_	_	_	_	_	_
+4	il	il	PRON	_	_	_	_	_	_
+5	y	y	PRON	_	_	_	_	_	_
+6	a	avoir	AUX	_	_	_	_	_	_
+7	cinq	cinq	X	_	_	_	_	_	_
+8	ans	ans	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	n'avait	n'avait	X	_	_	_	_	_	_
+11	pas	pas	ADV	_	_	_	_	_	_
+12	encore	encore	X	_	_	_	_	_	_
+13	été	être	AUX	_	_	_	_	_	_
+14	certifiée	certifiée	X	_	_	_	_	_	_
+15	pour	pour	X	_	_	_	_	_	_
+16	manipuler	manipuler	X	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	agents	agents	X	_	_	_	_	_	_
+19	génétiquement	génétiquement	X	_	_	_	_	_	_
+20	modifiés	modifiés	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_291
+# text = Les chercheurs avaient démontré que la fermentation microbienne pouvait produire des biocarburants à moindre coût environnemental.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	démontré	démontrer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	fermentation	fermentation	NOUN	_	_	_	_	_	_
+8	microbienne	microbien	ADJ	_	_	_	_	_	_
+9	pouvait	pouvoir	VERB	_	_	_	_	_	_
+10	produire	produire	VERB	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	biocarburants	biocarburant	NOUN	_	_	_	_	_	_
+13	à	à	ADP	_	_	_	_	_	_
+14	moindre	moindre	ADJ	_	_	_	_	_	_
+15	coût	coût	NOUN	_	_	_	_	_	_
+16	environnemental	environnemental	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_292
+# text = Afin que les découvertes soient utiles, les résultats devront être traduits en applications cliniques accessibles aux patients.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	découvertes	découverte	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	utiles	utile	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	résultats	résultat	NOUN	_	_	_	_	_	_
+10	devront	devoir	VERB	_	_	_	_	_	_
+11	être	être	VERB	_	_	_	_	_	_
+12	traduits	traduire	VERB	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	applications	application	NOUN	_	_	_	_	_	_
+15	cliniques	clinique	ADJ	_	_	_	_	_	_
+16	accessibles	accessible	ADJ	_	_	_	_	_	_
+17	aux	aux	ADP	_	_	_	_	_	_
+18	patients	patients	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_293
+# text = Le symposium, pendant lequel des avancées ont été présentées, a réuni des spécialistes de la biologie moléculaire.
+1	Le	le	DET	_	_	_	_	_	_
+2	symposium	symposium	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	pendant	pendant	ADP	_	_	_	_	_	_
+5	lequel	lequel	PRON	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	avancées	avancée	NOUN	_	_	_	_	_	_
+8	ont	avoir	AUX	_	_	_	_	_	_
+9	été	être	AUX	_	_	_	_	_	_
+10	présentées	présenter	VERB	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	a	avoir	AUX	_	_	_	_	_	_
+13	réuni	réunir	VERB	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	spécialistes	spécialiste	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	biologie	biologie	NOUN	_	_	_	_	_	_
+19	moléculaire	moléculaire	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_294
+# text = Sans que les effets à long terme soient étudiés, il serait imprudent de généraliser cette culture cellulaire.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	effets	effet	NOUN	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	long	long	ADJ	_	_	_	_	_	_
+7	terme	terme	NOUN	_	_	_	_	_	_
+8	soient	être	AUX	_	_	_	_	_	_
+9	étudiés	étudier	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	il	il	PRON	_	_	_	_	_	_
+12	serait	être	AUX	_	_	_	_	_	_
+13	imprudent	imprudent	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	généraliser	généraliser	VERB	_	_	_	_	_	_
+16	cette	ce	DET	_	_	_	_	_	_
+17	culture	culture	NOUN	_	_	_	_	_	_
+18	cellulaire	cellulaire	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_295
+# text = Les analyses séquençage, réalisées sur des milliers d'échantillons, avaient révélé des mutations jusqu'alors non documentées.
+1	Les	le	DET	_	_	_	_	_	_
+2	analyses	analyse	NOUN	_	_	_	_	_	_
+3	séquençage	séquençage	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	réalisées	réaliser	VERB	_	_	_	_	_	_
+6	sur	sur	ADP	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	milliers	millier	NOUN	_	_	_	_	_	_
+9	d'échantillons	d'échantillons	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	avaient	avoir	AUX	_	_	_	_	_	_
+12	révélé	révélé	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	mutations	mutations	X	_	_	_	_	_	_
+15	jusqu'alors	jusqu'alors	X	_	_	_	_	_	_
+16	non	non	X	_	_	_	_	_	_
+17	documentées	documentées	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_296
+# text = La directrice avait insisté sur le fait que la propriété des données génétiques devait revenir aux personnes concernées.
+1	La	le	DET	_	_	_	_	_	_
+2	directrice	directrice	NOUN	_	_	_	_	_	_
+3	avait	avoir	AUX	_	_	_	_	_	_
+4	insisté	insister	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	fait	fait	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	propriété	propriété	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	données	données	X	_	_	_	_	_	_
+13	génétiques	génétiques	X	_	_	_	_	_	_
+14	devait	devoir	AUX	_	_	_	_	_	_
+15	revenir	revenir	X	_	_	_	_	_	_
+16	aux	aux	ADP	_	_	_	_	_	_
+17	personnes	personnes	X	_	_	_	_	_	_
+18	concernées	concernées	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_297
+# text = Il faudra que les laboratoires respectent des normes de confinement renforcées lors de manipulations d'agents pathogènes.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	laboratoires	laboratoire	NOUN	_	_	_	_	_	_
+6	respectent	respecter	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	normes	norme	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	confinement	confinement	NOUN	_	_	_	_	_	_
+11	renforcées	renforcer	VERB	_	_	_	_	_	_
+12	lors	lors	ADV	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	manipulations	manipulation	NOUN	_	_	_	_	_	_
+15	d'agents	d'agents	X	_	_	_	_	_	_
+16	pathogènes	pathogènes	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_298
+# text = Les start-up biotech, soutenues par des fonds publics, avaient attiré des investisseurs internationaux vers le pôle scientifique.
+1	Les	le	DET	_	_	_	_	_	_
+2	start-up	start-up	NOUN	_	_	_	_	_	_
+3	biotech	biotech	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	soutenues	soutenir	VERB	_	_	_	_	_	_
+6	par	par	ADP	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	fonds	fond	NOUN	_	_	_	_	_	_
+9	publics	public	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	avaient	avoir	AUX	_	_	_	_	_	_
+12	attiré	attirer	VERB	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	investisseurs	investisseur	NOUN	_	_	_	_	_	_
+15	internationaux	international	ADJ	_	_	_	_	_	_
+16	vers	vers	ADP	_	_	_	_	_	_
+17	le	le	DET	_	_	_	_	_	_
+18	pôle	pôle	NOUN	_	_	_	_	_	_
+19	scientifique	scientifique	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_299
+# text = On suppose que les prochaines thérapies personnalisées réduiront considérablement les effets indésirables des traitements actuels.
+1	On	on	PRON	_	_	_	_	_	_
+2	suppose	supposer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	prochaines	prochain	ADJ	_	_	_	_	_	_
+6	thérapies	thérapie	NOUN	_	_	_	_	_	_
+7	personnalisées	personnaliser	VERB	_	_	_	_	_	_
+8	réduiront	réduire	VERB	_	_	_	_	_	_
+9	considérablement	considérablement	ADV	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	effets	effet	NOUN	_	_	_	_	_	_
+12	indésirables	indésirable	ADJ	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	traitements	traitements	X	_	_	_	_	_	_
+15	actuels	actuels	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_300
+# text = Les résultats, publiés dans une revue à comité de lecture, seront discutés lors de la conférence de biotechnologie.
+1	Les	le	DET	_	_	_	_	_	_
+2	résultats	résultat	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	publiés	publier	VERB	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	revue	revue	NOUN	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	comité	comité	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	lecture	lecture	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	seront	être	AUX	_	_	_	_	_	_
+14	discutés	discuter	VERB	_	_	_	_	_	_
+15	lors	lors	ADV	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	conférence	conférence	NOUN	_	_	_	_	_	_
+19	de	de	ADP	_	_	_	_	_	_
+20	biotechnologie	biotechnologie	NOUN	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_301
+# text = Bien que les syndicats aient négocié intensément, aucun accord salarial n'a encore été signé par les employeurs.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	syndicats	syndicat	NOUN	_	_	_	_	_	_
+5	aient	avoir	AUX	_	_	_	_	_	_
+6	négocié	négocier	VERB	_	_	_	_	_	_
+7	intensément	intensément	ADV	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	aucun	aucun	DET	_	_	_	_	_	_
+10	accord	accord	NOUN	_	_	_	_	_	_
+11	salarial	salarial	ADJ	_	_	_	_	_	_
+12	n'a	n'a	X	_	_	_	_	_	_
+13	encore	encore	X	_	_	_	_	_	_
+14	été	être	AUX	_	_	_	_	_	_
+15	signé	signé	X	_	_	_	_	_	_
+16	par	par	X	_	_	_	_	_	_
+17	les	le	DET	_	_	_	_	_	_
+18	employeurs	employeurs	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_302
+# text = La convention collective, qui avait expiré en décembre, sera renouvelée après de nouvelles discussions sectorielles.
+1	La	le	DET	_	_	_	_	_	_
+2	convention	convention	NOUN	_	_	_	_	_	_
+3	collective	collectif	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	qui	qui	PRON	_	_	_	_	_	_
+6	avait	avoir	AUX	_	_	_	_	_	_
+7	expiré	expirer	VERB	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	décembre	décembre	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	sera	être	AUX	_	_	_	_	_	_
+12	renouvelée	renouveler	VERB	_	_	_	_	_	_
+13	après	après	ADP	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	nouvelles	nouveau	ADJ	_	_	_	_	_	_
+16	discussions	discussion	NOUN	_	_	_	_	_	_
+17	sectorielles	sectoriel	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_303
+# text = Il est urgent que les salaires suivent l'évolution du coût de la vie dans les secteurs exposés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	urgent	urgent	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	salaires	salaire	NOUN	_	_	_	_	_	_
+7	suivent	suivre	VERB	_	_	_	_	_	_
+8	l'évolution	l'évolution	X	_	_	_	_	_	_
+9	du	du	ADP	_	_	_	_	_	_
+10	coût	coût	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	vie	vie	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	secteurs	secteurs	X	_	_	_	_	_	_
+17	exposés	exposés	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_304
+# text = Les délégués avaient prévenu que des mouvements sociaux seraient organisés si les revendications n'étaient pas entendues.
+1	Les	le	DET	_	_	_	_	_	_
+2	délégués	délégué	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	prévenu	prévenir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	mouvements	mouvement	NOUN	_	_	_	_	_	_
+8	sociaux	social	ADJ	_	_	_	_	_	_
+9	seraient	être	AUX	_	_	_	_	_	_
+10	organisés	organiser	VERB	_	_	_	_	_	_
+11	si	si	SCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	revendications	revendication	NOUN	_	_	_	_	_	_
+14	n'étaient	n'étaient	X	_	_	_	_	_	_
+15	pas	pas	ADV	_	_	_	_	_	_
+16	entendues	entendues	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_305
+# text = Le préavis de grève, déposé par plusieurs fédérations, sera examiné lors de l'assemblée générale de vendredi.
+1	Le	le	DET	_	_	_	_	_	_
+2	préavis	préavi	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	grève	grève	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	déposé	déposer	VERB	_	_	_	_	_	_
+7	par	par	ADP	_	_	_	_	_	_
+8	plusieurs	plusieurs	DET	_	_	_	_	_	_
+9	fédérations	fédération	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	sera	être	AUX	_	_	_	_	_	_
+12	examiné	examiner	VERB	_	_	_	_	_	_
+13	lors	lors	ADV	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	l'assemblée	l'assemblée	X	_	_	_	_	_	_
+16	générale	générale	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	vendredi	vendredi	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_306
+# text = Avant que la médiation ne reprenne, les parties devront avoir transmis leurs propositions écrites au conciliateur.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	médiation	médiation	NOUN	_	_	_	_	_	_
+5	ne	ne	PART	_	_	_	_	_	_
+6	reprenne	reprendre	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	parties	partie	NOUN	_	_	_	_	_	_
+10	devront	devoir	VERB	_	_	_	_	_	_
+11	avoir	avoir	VERB	_	_	_	_	_	_
+12	transmis	transmettre	VERB	_	_	_	_	_	_
+13	leurs	leur	DET	_	_	_	_	_	_
+14	propositions	proposition	NOUN	_	_	_	_	_	_
+15	écrites	écrire	VERB	_	_	_	_	_	_
+16	au	au	ADP	_	_	_	_	_	_
+17	conciliateur	conciliateur	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_307
+# text = Les travailleurs, dont les conditions avaient été dégradées, exigent une revalorisation immédiate des minima conventionnels.
+1	Les	le	DET	_	_	_	_	_	_
+2	travailleurs	travailleur	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	conditions	condition	NOUN	_	_	_	_	_	_
+7	avaient	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	dégradées	dégrader	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	exigent	exiger	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	revalorisation	revalorisation	NOUN	_	_	_	_	_	_
+14	immédiate	immédiat	ADJ	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	minima	minima	X	_	_	_	_	_	_
+17	conventionnels	conventionnels	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_308
+# text = On craint que la sous-traitance massive ne fragilise les droits acquis par des décennies de luttes syndicales.
+1	On	on	PRON	_	_	_	_	_	_
+2	craint	craindre	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	sous-traitance	sous-traitance	NOUN	_	_	_	_	_	_
+6	massive	massif	ADJ	_	_	_	_	_	_
+7	ne	ne	PART	_	_	_	_	_	_
+8	fragilise	fragiliser	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	droits	droit	NOUN	_	_	_	_	_	_
+11	acquis	acquérir	VERB	_	_	_	_	_	_
+12	par	par	ADP	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	décennies	décennie	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	luttes	lutte	NOUN	_	_	_	_	_	_
+17	syndicales	syndical	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_309
+# text = Le secrétaire général avait affirmé que la solidarité entre les branches devait guider la stratégie de négociation.
+1	Le	le	DET	_	_	_	_	_	_
+2	secrétaire	secrétaire	NOUN	_	_	_	_	_	_
+3	général	général	ADJ	_	_	_	_	_	_
+4	avait	avoir	AUX	_	_	_	_	_	_
+5	affirmé	affirmer	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	solidarité	solidarité	NOUN	_	_	_	_	_	_
+9	entre	entre	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	branches	branche	NOUN	_	_	_	_	_	_
+12	devait	devoir	AUX	_	_	_	_	_	_
+13	guider	guider	VERB	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	stratégie	stratégie	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	négociation	négociation	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_310
+# text = Pour que le dialogue social soit crédible, il faudra que les employeurs respectent leurs engagements signés.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	dialogue	dialogue	NOUN	_	_	_	_	_	_
+5	social	social	ADJ	_	_	_	_	_	_
+6	soit	être	AUX	_	_	_	_	_	_
+7	crédible	crédible	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	faudra	falloir	VERB	_	_	_	_	_	_
+11	que	que	SCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	employeurs	employeur	NOUN	_	_	_	_	_	_
+14	respectent	respecter	VERB	_	_	_	_	_	_
+15	leurs	leur	DET	_	_	_	_	_	_
+16	engagements	engagement	NOUN	_	_	_	_	_	_
+17	signés	signer	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_311
+# text = Le plan social, annoncé par la direction, avait provoqué une mobilisation historique dans l'ensemble du site industriel.
+1	Le	le	DET	_	_	_	_	_	_
+2	plan	plan	NOUN	_	_	_	_	_	_
+3	social	social	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	annoncé	annoncer	VERB	_	_	_	_	_	_
+6	par	par	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	direction	direction	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avait	avoir	AUX	_	_	_	_	_	_
+11	provoqué	provoquer	VERB	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	mobilisation	mobilisation	NOUN	_	_	_	_	_	_
+14	historique	historique	ADJ	_	_	_	_	_	_
+15	dans	dans	ADP	_	_	_	_	_	_
+16	l'ensemble	l'ensemble	X	_	_	_	_	_	_
+17	du	du	ADP	_	_	_	_	_	_
+18	site	site	X	_	_	_	_	_	_
+19	industriel	industriel	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_312
+# text = Bien que la grève ait été suspendue, les négociations sur les retraites chapeau restent dans une impasse préoccupante.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	grève	grève	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	suspendue	suspendre	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	négociations	négociation	NOUN	_	_	_	_	_	_
+11	sur	sur	ADP	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	retraites	retraite	NOUN	_	_	_	_	_	_
+14	chapeau	chapeau	NOUN	_	_	_	_	_	_
+15	restent	rester	VERB	_	_	_	_	_	_
+16	dans	dans	ADP	_	_	_	_	_	_
+17	une	un	DET	_	_	_	_	_	_
+18	impasse	impasse	NOUN	_	_	_	_	_	_
+19	préoccupante	préoccupant	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_313
+# text = Les heures supplémentaires, non compensées depuis plusieurs mois, seront régularisées conformément au code du travail.
+1	Les	le	DET	_	_	_	_	_	_
+2	heures	heure	NOUN	_	_	_	_	_	_
+3	supplémentaires	supplémentaire	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	non	non	ADV	_	_	_	_	_	_
+6	compensées	compenser	VERB	_	_	_	_	_	_
+7	depuis	depuis	ADP	_	_	_	_	_	_
+8	plusieurs	plusieurs	DET	_	_	_	_	_	_
+9	mois	moi	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	seront	être	AUX	_	_	_	_	_	_
+12	régularisées	régulariser	VERB	_	_	_	_	_	_
+13	conformément	conformément	ADV	_	_	_	_	_	_
+14	au	au	ADP	_	_	_	_	_	_
+15	code	code	X	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	travail	travail	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_314
+# text = Il convient que les représentants du personnel soient consultés avant toute réorganisation affectant des centaines d'emplois.
+1	Il	il	PRON	_	_	_	_	_	_
+2	convient	convenir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	représentants	représentant	NOUN	_	_	_	_	_	_
+6	du	du	ADP	_	_	_	_	_	_
+7	personnel	personnel	X	_	_	_	_	_	_
+8	soient	être	AUX	_	_	_	_	_	_
+9	consultés	consultés	X	_	_	_	_	_	_
+10	avant	avant	X	_	_	_	_	_	_
+11	toute	toute	X	_	_	_	_	_	_
+12	réorganisation	réorganisation	X	_	_	_	_	_	_
+13	affectant	affectant	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	centaines	centaines	X	_	_	_	_	_	_
+16	d'emplois	d'emplois	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_315
+# text = La réduction d'effectifs, décidée sans concertation préalable, n'avait pas encore été validée par les instances représentatives.
+1	La	le	DET	_	_	_	_	_	_
+2	réduction	réduction	NOUN	_	_	_	_	_	_
+3	d'effectifs	d'effectifs	X	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	décidée	décidée	X	_	_	_	_	_	_
+6	sans	sans	X	_	_	_	_	_	_
+7	concertation	concertation	X	_	_	_	_	_	_
+8	préalable	préalable	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	n'avait	n'avait	X	_	_	_	_	_	_
+11	pas	pas	ADV	_	_	_	_	_	_
+12	encore	encore	X	_	_	_	_	_	_
+13	été	être	AUX	_	_	_	_	_	_
+14	validée	validée	X	_	_	_	_	_	_
+15	par	par	X	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	instances	instances	X	_	_	_	_	_	_
+18	représentatives	représentatives	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_316
+# text = Les syndicalistes avaient souligné que la précarité croissante touchait particulièrement les jeunes embauchés en intérim.
+1	Les	le	DET	_	_	_	_	_	_
+2	syndicalistes	syndicaliste	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	souligné	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	précarité	précarité	NOUN	_	_	_	_	_	_
+8	croissante	croissant	ADJ	_	_	_	_	_	_
+9	touchait	toucher	VERB	_	_	_	_	_	_
+10	particulièrement	particulièrement	ADV	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	jeunes	jeune	NOUN	_	_	_	_	_	_
+13	embauchés	embaucher	VERB	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	intérim	intérim	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_317
+# text = Afin que les droits soient défendus, les organisations professionnelles devront renforcer leur présence sur le terrain.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	droits	droit	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	défendus	défendu	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	organisations	organisation	NOUN	_	_	_	_	_	_
+10	professionnelles	professionnel	ADJ	_	_	_	_	_	_
+11	devront	devoir	VERB	_	_	_	_	_	_
+12	renforcer	renforcer	VERB	_	_	_	_	_	_
+13	leur	leur	DET	_	_	_	_	_	_
+14	présence	présence	NOUN	_	_	_	_	_	_
+15	sur	sur	ADP	_	_	_	_	_	_
+16	le	le	DET	_	_	_	_	_	_
+17	terrain	terrain	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_318
+# text = L'assemblée, à laquelle ont participé des milliers de salariés, a voté une motion exigeant l'abandon du projet.
+1	L'assemblée	L'assemblée	X	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	laquelle	laquelle	X	_	_	_	_	_	_
+5	ont	avoir	AUX	_	_	_	_	_	_
+6	participé	participé	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	milliers	milliers	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	salariés	salariés	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	a	avoir	AUX	_	_	_	_	_	_
+13	voté	voté	X	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	motion	motion	X	_	_	_	_	_	_
+16	exigeant	exigeant	X	_	_	_	_	_	_
+17	l'abandon	l'abandon	X	_	_	_	_	_	_
+18	du	du	ADP	_	_	_	_	_	_
+19	projet	projet	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_319
+# text = Sans que les conditions de travail soient améliorées, il serait vain d'espérer une baisse durable de l'absentéisme.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	conditions	condition	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	travail	travail	NOUN	_	_	_	_	_	_
+7	soient	être	AUX	_	_	_	_	_	_
+8	améliorées	améliorer	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	il	il	PRON	_	_	_	_	_	_
+11	serait	être	AUX	_	_	_	_	_	_
+12	vain	vain	ADJ	_	_	_	_	_	_
+13	d'espérer	d'espérer	X	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	baisse	baisse	X	_	_	_	_	_	_
+16	durable	durable	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	l'absentéisme	l'absentéisme	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_320
+# text = Les primes, promises lors des négociations précédentes, avaient été versées avec un retard que les syndicats dénoncent.
+1	Les	le	DET	_	_	_	_	_	_
+2	primes	prime	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	promises	promettre	VERB	_	_	_	_	_	_
+5	lors	lors	ADV	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	négociations	négociations	X	_	_	_	_	_	_
+8	précédentes	précédentes	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avaient	avoir	AUX	_	_	_	_	_	_
+11	été	être	AUX	_	_	_	_	_	_
+12	versées	versées	X	_	_	_	_	_	_
+13	avec	avec	X	_	_	_	_	_	_
+14	un	un	DET	_	_	_	_	_	_
+15	retard	retard	X	_	_	_	_	_	_
+16	que	que	PRON	_	_	_	_	_	_
+17	les	le	DET	_	_	_	_	_	_
+18	syndicats	syndicats	X	_	_	_	_	_	_
+19	dénoncent	dénoncent	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_321
+# text = Le président de la fédération avait insisté que le droit de grève devait rester garanti.
+1	Le	le	DET	_	_	_	_	_	_
+2	président	président	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	fédération	fédération	NOUN	_	_	_	_	_	_
+6	avait	avoir	AUX	_	_	_	_	_	_
+7	insisté	insister	VERB	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	droit	droit	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	grève	grève	NOUN	_	_	_	_	_	_
+13	devait	devoir	AUX	_	_	_	_	_	_
+14	rester	rester	VERB	_	_	_	_	_	_
+15	garanti	garanti	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_322
+# text = Il faudra que les accords sur le télétravail soient renégociés avant la généralisation des nouveaux modes d'organisation.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	accords	accord	NOUN	_	_	_	_	_	_
+6	sur	sur	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	télétravail	télétravail	NOUN	_	_	_	_	_	_
+9	soient	être	AUX	_	_	_	_	_	_
+10	renégociés	renégocier	VERB	_	_	_	_	_	_
+11	avant	avant	ADP	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	généralisation	généralisation	NOUN	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	nouveaux	nouveaux	X	_	_	_	_	_	_
+16	modes	modes	X	_	_	_	_	_	_
+17	d'organisation	d'organisation	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_323
+# text = Les ouvriers, mobilisés depuis le début de la semaine, avaient obtenu une audience avec le ministre du Travail.
+1	Les	le	DET	_	_	_	_	_	_
+2	ouvriers	ouvrier	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	mobilisés	mobiliser	VERB	_	_	_	_	_	_
+5	depuis	depuis	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	début	début	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	semaine	semaine	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	avaient	avoir	AUX	_	_	_	_	_	_
+13	obtenu	obtenir	VERB	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	audience	audience	NOUN	_	_	_	_	_	_
+16	avec	avec	ADP	_	_	_	_	_	_
+17	le	le	DET	_	_	_	_	_	_
+18	ministre	ministre	NOUN	_	_	_	_	_	_
+19	du	du	ADP	_	_	_	_	_	_
+20	Travail	Travail	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_324
+# text = On espère que la reprise des discussions aboutira à un compromis acceptable pour les salariés et les entreprises.
+1	On	on	PRON	_	_	_	_	_	_
+2	espère	espérer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	reprise	reprise	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	discussions	discussions	X	_	_	_	_	_	_
+8	aboutira	aboutira	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	un	un	DET	_	_	_	_	_	_
+11	compromis	compromis	X	_	_	_	_	_	_
+12	acceptable	acceptable	X	_	_	_	_	_	_
+13	pour	pour	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	salariés	salariés	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	les	le	DET	_	_	_	_	_	_
+18	entreprises	entreprises	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_325
+# text = Les militants, auxquels s'adresse ce tract, sont appelés à rejoindre le cortège prévu samedi matin devant la préfecture.
+1	Les	le	DET	_	_	_	_	_	_
+2	militants	militant	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	auxquels	auxquels	X	_	_	_	_	_	_
+5	s'adresse	s'adresse	X	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	tract	tract	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	sont	être	AUX	_	_	_	_	_	_
+10	appelés	appelés	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	rejoindre	rejoindre	X	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	cortège	cortège	X	_	_	_	_	_	_
+15	prévu	prévu	X	_	_	_	_	_	_
+16	samedi	samedi	X	_	_	_	_	_	_
+17	matin	matin	X	_	_	_	_	_	_
+18	devant	devant	X	_	_	_	_	_	_
+19	la	le	DET	_	_	_	_	_	_
+20	préfecture	préfecture	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_326
+# text = Bien que le monument ait été classé, son état de dégradation inquiète les associations de protection du patrimoine.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	monument	monument	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	classé	classer	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	son	son	DET	_	_	_	_	_	_
+10	état	état	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	dégradation	dégradation	NOUN	_	_	_	_	_	_
+13	inquiète	inquiéter	VERB	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	associations	association	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	protection	protection	NOUN	_	_	_	_	_	_
+18	du	du	ADP	_	_	_	_	_	_
+19	patrimoine	patrimoine	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_327
+# text = Le château, qui avait appartenu à une famille noble, abrite désormais un musée consacré aux arts décoratifs régionaux.
+1	Le	le	DET	_	_	_	_	_	_
+2	château	château	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	avait	avoir	AUX	_	_	_	_	_	_
+6	appartenu	appartenir	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	une	un	DET	_	_	_	_	_	_
+9	famille	famille	NOUN	_	_	_	_	_	_
+10	noble	noble	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	abrite	abriter	VERB	_	_	_	_	_	_
+13	désormais	désormais	ADV	_	_	_	_	_	_
+14	un	un	DET	_	_	_	_	_	_
+15	musée	musée	NOUN	_	_	_	_	_	_
+16	consacré	consacrer	VERB	_	_	_	_	_	_
+17	aux	aux	ADP	_	_	_	_	_	_
+18	arts	arts	X	_	_	_	_	_	_
+19	décoratifs	décoratifs	X	_	_	_	_	_	_
+20	régionaux	régionaux	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_328
+# text = Il est essentiel que les sites historiques bénéficient de financements suffisants pour assurer leur entretien régulier.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	essentiel	essentiel	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	sites	site	NOUN	_	_	_	_	_	_
+7	historiques	historique	ADJ	_	_	_	_	_	_
+8	bénéficient	bénéficier	VERB	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	financements	financement	NOUN	_	_	_	_	_	_
+11	suffisants	suffisant	ADJ	_	_	_	_	_	_
+12	pour	pour	ADP	_	_	_	_	_	_
+13	assurer	assurer	VERB	_	_	_	_	_	_
+14	leur	leur	DET	_	_	_	_	_	_
+15	entretien	entretien	NOUN	_	_	_	_	_	_
+16	régulier	régulier	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_329
+# text = Les archéologues avaient découvert des vestiges gallo-romains dont l'importance avait été confirmée par des analyses.
+1	Les	le	DET	_	_	_	_	_	_
+2	archéologues	archéologue	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	découvert	découvrir	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	vestiges	vestige	NOUN	_	_	_	_	_	_
+7	gallo-romains	gallo-romain	ADJ	_	_	_	_	_	_
+8	dont	dont	PRON	_	_	_	_	_	_
+9	l'importance	l'importance	X	_	_	_	_	_	_
+10	avait	avoir	AUX	_	_	_	_	_	_
+11	été	être	AUX	_	_	_	_	_	_
+12	confirmée	confirmée	X	_	_	_	_	_	_
+13	par	par	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	analyses	analyses	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_330
+# text = La cathédrale, dont la flèche avait été restaurée, sera rouverte au public après des travaux de sécurisation.
+1	La	le	DET	_	_	_	_	_	_
+2	cathédrale	cathédrale	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	flèche	flèche	NOUN	_	_	_	_	_	_
+7	avait	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	restaurée	restaurer	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	sera	être	AUX	_	_	_	_	_	_
+12	rouverte	rouvrir	VERB	_	_	_	_	_	_
+13	au	au	ADP	_	_	_	_	_	_
+14	public	public	X	_	_	_	_	_	_
+15	après	après	X	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	travaux	travaux	X	_	_	_	_	_	_
+18	de	un	DET	_	_	_	_	_	_
+19	sécurisation	sécurisation	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_331
+# text = Avant que l'exposition ne soit inaugurée, les œuvres devront avoir été installées dans des conditions climatiques contrôlées.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'exposition	l'exposition	X	_	_	_	_	_	_
+4	ne	ne	PART	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	inaugurée	inaugurée	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	œuvres	œuvres	X	_	_	_	_	_	_
+10	devront	devront	X	_	_	_	_	_	_
+11	avoir	avoir	X	_	_	_	_	_	_
+12	été	être	AUX	_	_	_	_	_	_
+13	installées	installées	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	conditions	conditions	X	_	_	_	_	_	_
+17	climatiques	climatiques	X	_	_	_	_	_	_
+18	contrôlées	contrôlées	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_332
+# text = Les fresques, qui datent du quinzième siècle, nécessitent une intervention délicate de spécialistes en restauration murale.
+1	Les	le	DET	_	_	_	_	_	_
+2	fresques	fresque	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	datent	dater	VERB	_	_	_	_	_	_
+6	du	du	ADP	_	_	_	_	_	_
+7	quinzième	quinzième	X	_	_	_	_	_	_
+8	siècle	siècle	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	nécessitent	nécessitent	X	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	intervention	intervention	X	_	_	_	_	_	_
+13	délicate	délicate	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	spécialistes	spécialistes	X	_	_	_	_	_	_
+16	en	en	PRON	_	_	_	_	_	_
+17	restauration	restauration	X	_	_	_	_	_	_
+18	murale	murale	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_333
+# text = On redoute que l'urbanisation rapide ne menace des paysages culturels protégés depuis plusieurs générations.
+1	On	on	PRON	_	_	_	_	_	_
+2	redoute	redouter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'urbanisation	l'urbanisation	X	_	_	_	_	_	_
+5	rapide	rapide	X	_	_	_	_	_	_
+6	ne	ne	PART	_	_	_	_	_	_
+7	menace	menace	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	paysages	paysages	X	_	_	_	_	_	_
+10	culturels	culturels	X	_	_	_	_	_	_
+11	protégés	protégés	X	_	_	_	_	_	_
+12	depuis	depuis	X	_	_	_	_	_	_
+13	plusieurs	plusieurs	X	_	_	_	_	_	_
+14	générations	générations	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_334
+# text = Le conservateur avait souligné que la mémoire collective devait être transmise aux jeunes générations par l'éducation.
+1	Le	le	DET	_	_	_	_	_	_
+2	conservateur	conservateur	NOUN	_	_	_	_	_	_
+3	avait	avoir	AUX	_	_	_	_	_	_
+4	souligné	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	mémoire	mémoire	NOUN	_	_	_	_	_	_
+8	collective	collectif	ADJ	_	_	_	_	_	_
+9	devait	devoir	AUX	_	_	_	_	_	_
+10	être	être	VERB	_	_	_	_	_	_
+11	transmise	transmettre	VERB	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	jeunes	jeunes	X	_	_	_	_	_	_
+14	générations	générations	X	_	_	_	_	_	_
+15	par	par	X	_	_	_	_	_	_
+16	l'éducation	l'éducation	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_335
+# text = Pour que le patrimoine survive, il faudra que les collectivités locales investissent dans la maintenance des bâtiments anciens.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	patrimoine	patrimoine	NOUN	_	_	_	_	_	_
+5	survive	survivre	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	il	il	PRON	_	_	_	_	_	_
+8	faudra	falloir	VERB	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	collectivités	collectivité	NOUN	_	_	_	_	_	_
+12	locales	local	ADJ	_	_	_	_	_	_
+13	investissent	investir	VERB	_	_	_	_	_	_
+14	dans	dans	ADP	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	maintenance	maintenance	NOUN	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	bâtiments	bâtiments	X	_	_	_	_	_	_
+19	anciens	anciens	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_336
+# text = Le label UNESCO, obtenu après un long dossier, avait attiré un afflux de visiteurs vers la cité médiévale.
+1	Le	le	DET	_	_	_	_	_	_
+2	label	label	NOUN	_	_	_	_	_	_
+3	UNESCO	UNESCO	PROPN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	obtenu	obtenir	VERB	_	_	_	_	_	_
+6	après	après	ADP	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	long	long	ADJ	_	_	_	_	_	_
+9	dossier	dossier	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	avait	avoir	AUX	_	_	_	_	_	_
+12	attiré	attirer	VERB	_	_	_	_	_	_
+13	un	un	DET	_	_	_	_	_	_
+14	afflux	afflux	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	visiteurs	visiteur	NOUN	_	_	_	_	_	_
+17	vers	vers	ADP	_	_	_	_	_	_
+18	la	le	DET	_	_	_	_	_	_
+19	cité	cité	NOUN	_	_	_	_	_	_
+20	médiévale	médiéval	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_337
+# text = Bien que les fouilles aient été autorisées, les riverains exigent des garanties sur la préservation du site environnant.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	fouilles	fouille	NOUN	_	_	_	_	_	_
+5	aient	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	autorisées	autoriser	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	riverains	riverain	NOUN	_	_	_	_	_	_
+11	exigent	exiger	VERB	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	garanties	garantie	NOUN	_	_	_	_	_	_
+14	sur	sur	ADP	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	préservation	préservation	NOUN	_	_	_	_	_	_
+17	du	du	ADP	_	_	_	_	_	_
+18	site	site	X	_	_	_	_	_	_
+19	environnant	environnant	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_338
+# text = Les manuscrits, numérisés par la bibliothèque nationale, seront accessibles en ligne pour les chercheurs du monde entier.
+1	Les	le	DET	_	_	_	_	_	_
+2	manuscrits	manuscrit	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	numérisés	numériser	VERB	_	_	_	_	_	_
+5	par	par	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	bibliothèque	bibliothèque	NOUN	_	_	_	_	_	_
+8	nationale	national	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	seront	être	AUX	_	_	_	_	_	_
+11	accessibles	accessible	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	ligne	ligne	NOUN	_	_	_	_	_	_
+14	pour	pour	ADP	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+17	du	du	ADP	_	_	_	_	_	_
+18	monde	monde	X	_	_	_	_	_	_
+19	entier	entier	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_339
+# text = Il convient que les artisans traditionnels puissent transmettre leurs savoir-faire dans des ateliers ouverts au public.
+1	Il	il	PRON	_	_	_	_	_	_
+2	convient	convenir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	artisans	artisan	NOUN	_	_	_	_	_	_
+6	traditionnels	traditionnel	ADJ	_	_	_	_	_	_
+7	puissent	pouvoir	VERB	_	_	_	_	_	_
+8	transmettre	transmettre	VERB	_	_	_	_	_	_
+9	leurs	leur	DET	_	_	_	_	_	_
+10	savoir-faire	savoir-faire	NOUN	_	_	_	_	_	_
+11	dans	dans	ADP	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	ateliers	atelier	NOUN	_	_	_	_	_	_
+14	ouverts	ouvrir	VERB	_	_	_	_	_	_
+15	au	au	ADP	_	_	_	_	_	_
+16	public	public	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_340
+# text = La restauration du théâtre, lancée il y a trois ans, n'avait pas encore rouvert la salle principale.
+1	La	le	DET	_	_	_	_	_	_
+2	restauration	restauration	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	théâtre	théâtre	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	lancée	lancée	X	_	_	_	_	_	_
+7	il	il	PRON	_	_	_	_	_	_
+8	y	y	PRON	_	_	_	_	_	_
+9	a	avoir	AUX	_	_	_	_	_	_
+10	trois	trois	X	_	_	_	_	_	_
+11	ans	ans	X	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	n'avait	n'avait	X	_	_	_	_	_	_
+14	pas	pas	ADV	_	_	_	_	_	_
+15	encore	encore	X	_	_	_	_	_	_
+16	rouvert	rouvert	X	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	salle	salle	X	_	_	_	_	_	_
+19	principale	principale	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_341
+# text = Les historiens avaient démontré que ce quartier jouait un rôle central dans le commerce maritime du dix-huitième siècle.
+1	Les	le	DET	_	_	_	_	_	_
+2	historiens	historien	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	démontré	démontrer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	quartier	quartier	NOUN	_	_	_	_	_	_
+8	jouait	jouer	VERB	_	_	_	_	_	_
+9	un	un	DET	_	_	_	_	_	_
+10	rôle	rôle	NOUN	_	_	_	_	_	_
+11	central	central	ADJ	_	_	_	_	_	_
+12	dans	dans	ADP	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	commerce	commerce	NOUN	_	_	_	_	_	_
+15	maritime	maritime	ADJ	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	dix-huitième	dix-huitième	X	_	_	_	_	_	_
+18	siècle	siècle	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_342
+# text = Afin que la culture soit préservée, les pouvoirs publics devront lutter contre la démolition de bâtiments remarquables.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	culture	culture	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	préservée	préserver	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	pouvoirs	pouvoir	NOUN	_	_	_	_	_	_
+10	publics	public	ADJ	_	_	_	_	_	_
+11	devront	devoir	VERB	_	_	_	_	_	_
+12	lutter	lutter	VERB	_	_	_	_	_	_
+13	contre	contre	ADP	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	démolition	démolition	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	bâtiments	bâtiment	NOUN	_	_	_	_	_	_
+18	remarquables	remarquable	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_343
+# text = Le festival, pendant lequel des spectacles ont été donnés, a valorisé le patrimoine immatériel régional.
+1	Le	le	DET	_	_	_	_	_	_
+2	festival	festival	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	pendant	pendant	ADP	_	_	_	_	_	_
+5	lequel	lequel	PRON	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	spectacles	spectacle	NOUN	_	_	_	_	_	_
+8	ont	avoir	AUX	_	_	_	_	_	_
+9	été	être	AUX	_	_	_	_	_	_
+10	donnés	donner	VERB	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	a	avoir	AUX	_	_	_	_	_	_
+13	valorisé	valoriser	VERB	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	patrimoine	patrimoine	NOUN	_	_	_	_	_	_
+16	immatériel	immatériel	ADJ	_	_	_	_	_	_
+17	régional	régional	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_344
+# text = Sans que les traditions orales soient enregistrées, il serait difficile de sauvegarder une part essentielle de l'identité locale.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	traditions	tradition	NOUN	_	_	_	_	_	_
+5	orales	oral	ADJ	_	_	_	_	_	_
+6	soient	être	AUX	_	_	_	_	_	_
+7	enregistrées	enregistrer	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	serait	être	AUX	_	_	_	_	_	_
+11	difficile	difficile	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	sauvegarder	sauvegarder	VERB	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	part	part	NOUN	_	_	_	_	_	_
+16	essentielle	essentiel	ADJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	l'identité	l'identité	X	_	_	_	_	_	_
+19	locale	locale	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_345
+# text = Les subventions, accordées par le ministère de la Culture, avaient permis de sauver plusieurs édifices menacés de ruine.
+1	Les	le	DET	_	_	_	_	_	_
+2	subventions	subvention	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	accordées	accorder	VERB	_	_	_	_	_	_
+5	par	par	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	ministère	ministère	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	Culture	culture	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	avaient	avoir	AUX	_	_	_	_	_	_
+13	permis	permettre	VERB	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	sauver	sauver	VERB	_	_	_	_	_	_
+16	plusieurs	plusieurs	DET	_	_	_	_	_	_
+17	édifices	édifice	NOUN	_	_	_	_	_	_
+18	menacés	menacer	VERB	_	_	_	_	_	_
+19	de	de	ADP	_	_	_	_	_	_
+20	ruine	ruine	NOUN	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_346
+# text = Le maire avait insisté sur le fait que le tourisme culturel devait respecter la vie quotidienne des habitants.
+1	Le	le	DET	_	_	_	_	_	_
+2	maire	maire	NOUN	_	_	_	_	_	_
+3	avait	avoir	AUX	_	_	_	_	_	_
+4	insisté	insister	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	fait	fait	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	tourisme	tourisme	NOUN	_	_	_	_	_	_
+11	culturel	culturel	ADJ	_	_	_	_	_	_
+12	devait	devoir	AUX	_	_	_	_	_	_
+13	respecter	respecter	VERB	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	vie	vie	NOUN	_	_	_	_	_	_
+16	quotidienne	quotidien	ADJ	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	habitants	habitants	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_347
+# text = Il faudra que les projets de rénovation soient validés par les architectes des bâtiments de France compétents.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	projets	projet	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	rénovation	rénovation	NOUN	_	_	_	_	_	_
+8	soient	être	AUX	_	_	_	_	_	_
+9	validés	valider	VERB	_	_	_	_	_	_
+10	par	par	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	architectes	architecte	NOUN	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	bâtiments	bâtiments	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	France	France	X	_	_	_	_	_	_
+17	compétents	compétents	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_348
+# text = Les collectionneurs, qui ont légué leurs fonds à la ville, avaient exigé que les pièces restent exposées localement.
+1	Les	le	DET	_	_	_	_	_	_
+2	collectionneurs	collectionneur	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	ont	avoir	AUX	_	_	_	_	_	_
+6	légué	léguer	VERB	_	_	_	_	_	_
+7	leurs	leur	DET	_	_	_	_	_	_
+8	fonds	fond	NOUN	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	ville	ville	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	avaient	avoir	AUX	_	_	_	_	_	_
+14	exigé	exiger	VERB	_	_	_	_	_	_
+15	que	que	SCONJ	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	pièces	pièce	NOUN	_	_	_	_	_	_
+18	restent	rester	VERB	_	_	_	_	_	_
+19	exposées	exposer	VERB	_	_	_	_	_	_
+20	localement	localement	ADV	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_349
+# text = On s'attend à ce que la nouvelle politique patrimoniale encourage la réhabilitation des friches industrielles historiques.
+1	On	on	PRON	_	_	_	_	_	_
+2	s'attend	s'attend	X	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	nouvelle	nouvelle	X	_	_	_	_	_	_
+8	politique	politique	X	_	_	_	_	_	_
+9	patrimoniale	patrimoniale	X	_	_	_	_	_	_
+10	encourage	encourage	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	réhabilitation	réhabilitation	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	friches	friches	X	_	_	_	_	_	_
+15	industrielles	industrielles	X	_	_	_	_	_	_
+16	historiques	historiques	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_350
+# text = Les visiteurs, auxquels s'adresse ce guide, découvriront l'histoire méconnue des ruelles du vieux centre.
+1	Les	le	DET	_	_	_	_	_	_
+2	visiteurs	visiteur	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	auxquels	auxquels	X	_	_	_	_	_	_
+5	s'adresse	s'adresse	X	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	guide	guide	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	découvriront	découvriront	X	_	_	_	_	_	_
+10	l'histoire	l'histoire	X	_	_	_	_	_	_
+11	méconnue	méconnue	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	ruelles	ruelles	X	_	_	_	_	_	_
+14	du	du	ADP	_	_	_	_	_	_
+15	vieux	vieux	X	_	_	_	_	_	_
+16	centre	centre	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_351
+# text = Bien que la réforme ait été annoncée, plusieurs magistrats expriment des réserves sur son calendrier d'application.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	réforme	réforme	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	annoncée	annoncer	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	plusieurs	plusieurs	DET	_	_	_	_	_	_
+10	magistrats	magistrat	NOUN	_	_	_	_	_	_
+11	expriment	exprimer	VERB	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	réserves	réserve	NOUN	_	_	_	_	_	_
+14	sur	sur	ADP	_	_	_	_	_	_
+15	son	son	DET	_	_	_	_	_	_
+16	calendrier	calendrier	NOUN	_	_	_	_	_	_
+17	d'application	d'application	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_352
+# text = Le projet de loi, qui avait été examiné en commission, sera débattu en séance plénière la semaine prochaine.
+1	Le	le	DET	_	_	_	_	_	_
+2	projet	projet	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	loi	loi	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	qui	qui	PRON	_	_	_	_	_	_
+7	avait	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	examiné	examiner	VERB	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	commission	commission	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	sera	être	AUX	_	_	_	_	_	_
+14	débattu	débattre	VERB	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	séance	séance	NOUN	_	_	_	_	_	_
+17	plénière	plénier	ADJ	_	_	_	_	_	_
+18	la	le	DET	_	_	_	_	_	_
+19	semaine	semaine	NOUN	_	_	_	_	_	_
+20	prochaine	prochain	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_353
+# text = Il est indispensable que l'accès à la justice reste garanti pour les citoyens les plus démunis financièrement.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	indispensable	indispensable	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	l'accès	l'accès	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	justice	justice	X	_	_	_	_	_	_
+9	reste	reste	X	_	_	_	_	_	_
+10	garanti	garanti	X	_	_	_	_	_	_
+11	pour	pour	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	citoyens	citoyens	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	plus	plus	ADV	_	_	_	_	_	_
+16	démunis	démunis	X	_	_	_	_	_	_
+17	financièrement	financièrement	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_354
+# text = Les avocats avaient alerté que la suppression de juridictions risquait d'allonger les délais de traitement des affaires.
+1	Les	le	DET	_	_	_	_	_	_
+2	avocats	avocat	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	alerté	alerter	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	suppression	suppression	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	juridictions	juridiction	NOUN	_	_	_	_	_	_
+10	risquait	risquer	VERB	_	_	_	_	_	_
+11	d'allonger	d'allonger	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	délais	délais	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	traitement	traitement	X	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	affaires	affaires	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_355
+# text = La cour d'appel, dont la compétence avait été élargie, traitera désormais un volume accru de contentieux civils.
+1	La	le	DET	_	_	_	_	_	_
+2	cour	cour	NOUN	_	_	_	_	_	_
+3	d'appel	d'appel	X	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dont	dont	PRON	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	compétence	compétence	X	_	_	_	_	_	_
+8	avait	avoir	AUX	_	_	_	_	_	_
+9	été	être	AUX	_	_	_	_	_	_
+10	élargie	élargie	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	traitera	traitera	X	_	_	_	_	_	_
+13	désormais	désormais	X	_	_	_	_	_	_
+14	un	un	DET	_	_	_	_	_	_
+15	volume	volume	X	_	_	_	_	_	_
+16	accru	accru	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	contentieux	contentieux	X	_	_	_	_	_	_
+19	civils	civils	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_356
+# text = Avant que le texte ne soit promulgué, les parlementaires devront avoir entendu les représentants de la magistrature.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	texte	texte	NOUN	_	_	_	_	_	_
+5	ne	ne	PART	_	_	_	_	_	_
+6	soit	être	AUX	_	_	_	_	_	_
+7	promulgué	promulguer	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	parlementaires	parlementaire	NOUN	_	_	_	_	_	_
+11	devront	devoir	VERB	_	_	_	_	_	_
+12	avoir	avoir	VERB	_	_	_	_	_	_
+13	entendu	entendre	VERB	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	représentants	représentant	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	magistrature	magistrature	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_357
+# text = Les juges, qui seront affectés dans de nouvelles juridictions, suivront une formation adaptée aux procédures réformées.
+1	Les	le	DET	_	_	_	_	_	_
+2	juges	juge	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	seront	être	AUX	_	_	_	_	_	_
+6	affectés	affecter	VERB	_	_	_	_	_	_
+7	dans	dans	ADP	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	nouvelles	nouveau	ADJ	_	_	_	_	_	_
+10	juridictions	juridiction	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	suivront	suivre	VERB	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	formation	formation	NOUN	_	_	_	_	_	_
+15	adaptée	adapter	VERB	_	_	_	_	_	_
+16	aux	aux	ADP	_	_	_	_	_	_
+17	procédures	procédures	X	_	_	_	_	_	_
+18	réformées	réformées	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_358
+# text = On craint que la numérisation des dossiers ne creuse la fracture entre tribunaux urbains et ruraux.
+1	On	on	PRON	_	_	_	_	_	_
+2	craint	craindre	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	numérisation	numérisation	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	dossiers	dossiers	X	_	_	_	_	_	_
+8	ne	ne	PART	_	_	_	_	_	_
+9	creuse	creuse	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	fracture	fracture	X	_	_	_	_	_	_
+12	entre	entre	X	_	_	_	_	_	_
+13	tribunaux	tribunaux	X	_	_	_	_	_	_
+14	urbains	urbains	X	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	ruraux	ruraux	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_359
+# text = Le garde des Sceaux avait affirmé que l'indépendance de la justice devait rester un principe intangible.
+1	Le	le	DET	_	_	_	_	_	_
+2	garde	garde	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	Sceaux	Sceaux	X	_	_	_	_	_	_
+5	avait	avoir	AUX	_	_	_	_	_	_
+6	affirmé	affirmé	X	_	_	_	_	_	_
+7	que	que	PRON	_	_	_	_	_	_
+8	l'indépendance	l'indépendance	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	justice	justice	X	_	_	_	_	_	_
+12	devait	devoir	AUX	_	_	_	_	_	_
+13	rester	rester	X	_	_	_	_	_	_
+14	un	un	DET	_	_	_	_	_	_
+15	principe	principe	X	_	_	_	_	_	_
+16	intangible	intangible	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_360
+# text = Pour que la réforme soit efficace, il faudra que les moyens humains suivent la réorganisation des tribunaux.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	réforme	réforme	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	efficace	efficace	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	faudra	falloir	VERB	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	moyens	moyen	NOUN	_	_	_	_	_	_
+13	humains	humain	ADJ	_	_	_	_	_	_
+14	suivent	suivre	VERB	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	réorganisation	réorganisation	NOUN	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	tribunaux	tribunaux	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_361
+# text = Le code de procédure pénale, modifié par plusieurs amendements, avait suscité une controverse parmi les praticiens du droit.
+1	Le	le	DET	_	_	_	_	_	_
+2	code	code	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	procédure	procédure	NOUN	_	_	_	_	_	_
+5	pénale	pénal	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	modifié	modifier	VERB	_	_	_	_	_	_
+8	par	par	ADP	_	_	_	_	_	_
+9	plusieurs	plusieurs	DET	_	_	_	_	_	_
+10	amendements	amendement	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	avait	avoir	AUX	_	_	_	_	_	_
+13	suscité	susciter	VERB	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	controverse	controverse	NOUN	_	_	_	_	_	_
+16	parmi	parmi	ADP	_	_	_	_	_	_
+17	les	le	DET	_	_	_	_	_	_
+18	praticiens	praticien	NOUN	_	_	_	_	_	_
+19	du	du	ADP	_	_	_	_	_	_
+20	droit	droit	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_362
+# text = Bien que le budget ait été augmenté, certains tribunaux restent confrontés à une surcharge de travail préoccupante.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	budget	budget	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	augmenté	augmenter	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	certains	certain	DET	_	_	_	_	_	_
+10	tribunaux	tribunal	NOUN	_	_	_	_	_	_
+11	restent	rester	VERB	_	_	_	_	_	_
+12	confrontés	confronter	VERB	_	_	_	_	_	_
+13	à	à	ADP	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	surcharge	surcharge	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	travail	travail	NOUN	_	_	_	_	_	_
+18	préoccupante	préoccupant	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_363
+# text = Les peines alternatives, encouragées par la nouvelle législation, seront appliquées sous le contrôle des services pénitentiaires.
+1	Les	le	DET	_	_	_	_	_	_
+2	peines	peine	NOUN	_	_	_	_	_	_
+3	alternatives	alternatif	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	encouragées	encourager	VERB	_	_	_	_	_	_
+6	par	par	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	nouvelle	nouveau	ADJ	_	_	_	_	_	_
+9	législation	législation	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	seront	être	AUX	_	_	_	_	_	_
+12	appliquées	appliquer	VERB	_	_	_	_	_	_
+13	sous	sous	ADP	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	contrôle	contrôle	NOUN	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	services	services	X	_	_	_	_	_	_
+18	pénitentiaires	pénitentiaires	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_364
+# text = Il convient que les victimes soient mieux accompagnées tout au long des procédures judiciaires engagées.
+1	Il	il	PRON	_	_	_	_	_	_
+2	convient	convenir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	victimes	victime	NOUN	_	_	_	_	_	_
+6	soient	être	AUX	_	_	_	_	_	_
+7	mieux	mieux	ADV	_	_	_	_	_	_
+8	accompagnées	accompagner	VERB	_	_	_	_	_	_
+9	tout	tout	ADV	_	_	_	_	_	_
+10	au	au	ADP	_	_	_	_	_	_
+11	long	long	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	procédures	procédures	X	_	_	_	_	_	_
+14	judiciaires	judiciaires	X	_	_	_	_	_	_
+15	engagées	engagées	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_365
+# text = La médiation pénale, généralisée dans plusieurs départements, n'avait pas encore été évaluée par une étude indépendante.
+1	La	le	DET	_	_	_	_	_	_
+2	médiation	médiation	NOUN	_	_	_	_	_	_
+3	pénale	pénal	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	généralisée	généraliser	VERB	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	plusieurs	plusieurs	DET	_	_	_	_	_	_
+8	départements	département	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	n'avait	n'avait	X	_	_	_	_	_	_
+11	pas	pas	ADV	_	_	_	_	_	_
+12	encore	encore	X	_	_	_	_	_	_
+13	été	être	AUX	_	_	_	_	_	_
+14	évaluée	évaluée	X	_	_	_	_	_	_
+15	par	par	X	_	_	_	_	_	_
+16	une	un	DET	_	_	_	_	_	_
+17	étude	étude	X	_	_	_	_	_	_
+18	indépendante	indépendante	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_366
+# text = Les juristes avaient souligné que la présomption d'innocence devait être préservée dans chaque étape de l'instruction.
+1	Les	le	DET	_	_	_	_	_	_
+2	juristes	juriste	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	souligné	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	présomption	présomption	NOUN	_	_	_	_	_	_
+8	d'innocence	d'innocence	X	_	_	_	_	_	_
+9	devait	devoir	AUX	_	_	_	_	_	_
+10	être	être	X	_	_	_	_	_	_
+11	préservée	préservée	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	chaque	chaque	X	_	_	_	_	_	_
+14	étape	étape	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	l'instruction	l'instruction	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_367
+# text = Afin que la confiance soit restaurée, les institutions judiciaires devront communiquer plus transparentement sur leurs activités.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	confiance	confiance	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	restaurée	restaurer	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	institutions	institution	NOUN	_	_	_	_	_	_
+10	judiciaires	judiciaire	ADJ	_	_	_	_	_	_
+11	devront	devoir	VERB	_	_	_	_	_	_
+12	communiquer	communiquer	VERB	_	_	_	_	_	_
+13	plus	plus	ADV	_	_	_	_	_	_
+14	transparentement	transparentement	ADV	_	_	_	_	_	_
+15	sur	sur	ADP	_	_	_	_	_	_
+16	leurs	leur	DET	_	_	_	_	_	_
+17	activités	activité	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_368
+# text = L'audience, pendant laquelle des témoins ont été entendus, s'est prolongée au-delà de l'horaire initialement prévu.
+1	L'audience	L'audience	X	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	pendant	pendant	X	_	_	_	_	_	_
+4	laquelle	laquelle	X	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	témoins	témoins	X	_	_	_	_	_	_
+7	ont	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	entendus	entendus	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	s'est	s'est	X	_	_	_	_	_	_
+12	prolongée	prolongée	X	_	_	_	_	_	_
+13	au-delà	au-delà	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	l'horaire	l'horaire	X	_	_	_	_	_	_
+16	initialement	initialement	X	_	_	_	_	_	_
+17	prévu	prévu	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_369
+# text = Sans que les droits de la défense soient respectés, il serait impossible de garantir un procès équitable.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	droits	droit	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	défense	défense	NOUN	_	_	_	_	_	_
+8	soient	être	AUX	_	_	_	_	_	_
+9	respectés	respecter	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	il	il	PRON	_	_	_	_	_	_
+12	serait	être	AUX	_	_	_	_	_	_
+13	impossible	impossible	ADJ	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	garantir	garantir	VERB	_	_	_	_	_	_
+16	un	un	DET	_	_	_	_	_	_
+17	procès	procè	NOUN	_	_	_	_	_	_
+18	équitable	équitable	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_370
+# text = Les mesures de simplification, adoptées l'an dernier, avaient réduit le nombre de recours introduits devant les tribunaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	mesures	mesure	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	simplification	simplification	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	adoptées	adopter	VERB	_	_	_	_	_	_
+7	l'an	l'an	X	_	_	_	_	_	_
+8	dernier	dernier	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avaient	avoir	AUX	_	_	_	_	_	_
+11	réduit	réduit	X	_	_	_	_	_	_
+12	le	le	DET	_	_	_	_	_	_
+13	nombre	nombre	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	recours	recours	X	_	_	_	_	_	_
+16	introduits	introduits	X	_	_	_	_	_	_
+17	devant	devant	X	_	_	_	_	_	_
+18	les	le	DET	_	_	_	_	_	_
+19	tribunaux	tribunaux	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_371
+# text = Le président du tribunal avait insisté que la célérité ne devait compromettre la qualité des décisions.
+1	Le	le	DET	_	_	_	_	_	_
+2	président	président	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	tribunal	tribunal	X	_	_	_	_	_	_
+5	avait	avoir	AUX	_	_	_	_	_	_
+6	insisté	insisté	X	_	_	_	_	_	_
+7	que	que	PRON	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	célérité	célérité	X	_	_	_	_	_	_
+10	ne	ne	PART	_	_	_	_	_	_
+11	devait	devoir	AUX	_	_	_	_	_	_
+12	compromettre	compromettre	X	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	qualité	qualité	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	décisions	décisions	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_372
+# text = Il faudra que les greffes soient dotés d'outils numériques performants avant la généralisation du dossier électronique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	greffes	greffe	NOUN	_	_	_	_	_	_
+6	soient	être	AUX	_	_	_	_	_	_
+7	dotés	doter	VERB	_	_	_	_	_	_
+8	d'outils	d'outils	X	_	_	_	_	_	_
+9	numériques	numériques	X	_	_	_	_	_	_
+10	performants	performants	X	_	_	_	_	_	_
+11	avant	avant	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	généralisation	généralisation	X	_	_	_	_	_	_
+14	du	du	ADP	_	_	_	_	_	_
+15	dossier	dossier	X	_	_	_	_	_	_
+16	électronique	électronique	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_373
+# text = Les associations, qui défendent les justiciables vulnérables, avaient demandé le maintien des permanences juridiques gratuites.
+1	Les	le	DET	_	_	_	_	_	_
+2	associations	association	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	qui	qui	PRON	_	_	_	_	_	_
+5	défendent	défendre	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	justiciables	justiciable	NOUN	_	_	_	_	_	_
+8	vulnérables	vulnérable	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avaient	avoir	AUX	_	_	_	_	_	_
+11	demandé	demander	VERB	_	_	_	_	_	_
+12	le	le	DET	_	_	_	_	_	_
+13	maintien	maintien	NOUN	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	permanences	permanences	X	_	_	_	_	_	_
+16	juridiques	juridiques	X	_	_	_	_	_	_
+17	gratuites	gratuites	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_374
+# text = On espère que la réforme réduira les délais d'attente sans sacrifier les garanties procédurales fondamentales.
+1	On	on	PRON	_	_	_	_	_	_
+2	espère	espérer	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	réforme	réforme	NOUN	_	_	_	_	_	_
+6	réduira	réduire	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	délais	délai	NOUN	_	_	_	_	_	_
+9	d'attente	d'attente	X	_	_	_	_	_	_
+10	sans	sans	X	_	_	_	_	_	_
+11	sacrifier	sacrifier	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	garanties	garanties	X	_	_	_	_	_	_
+14	procédurales	procédurales	X	_	_	_	_	_	_
+15	fondamentales	fondamentales	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_375
+# text = Les plaignants, dont les dossiers avaient été classés sans suite, ont saisi le médiateur de la République.
+1	Les	le	DET	_	_	_	_	_	_
+2	plaignants	plaignant	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	dossiers	dossier	NOUN	_	_	_	_	_	_
+7	avaient	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	classés	classer	VERB	_	_	_	_	_	_
+10	sans	sans	ADP	_	_	_	_	_	_
+11	suite	suite	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	ont	avoir	AUX	_	_	_	_	_	_
+14	saisi	saisir	VERB	_	_	_	_	_	_
+15	le	le	DET	_	_	_	_	_	_
+16	médiateur	médiateur	NOUN	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	la	le	DET	_	_	_	_	_	_
+19	République	république	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_376
+# text = Bien que les investissements verts aient augmenté, plusieurs fonds continuent de financer des activités fortement émettrices.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	investissements	investissement	NOUN	_	_	_	_	_	_
+5	verts	vert	ADJ	_	_	_	_	_	_
+6	aient	avoir	AUX	_	_	_	_	_	_
+7	augmenté	augmenter	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	plusieurs	plusieurs	DET	_	_	_	_	_	_
+10	fonds	fond	NOUN	_	_	_	_	_	_
+11	continuent	continuer	VERB	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	financer	financer	VERB	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	activités	activité	NOUN	_	_	_	_	_	_
+16	fortement	fortement	ADV	_	_	_	_	_	_
+17	émettrices	émetteur	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_377
+# text = La taxonomie européenne, qui définit les activités durables, sera appliquée progressivement par les gestionnaires d'actifs.
+1	La	le	DET	_	_	_	_	_	_
+2	taxonomie	taxonomie	NOUN	_	_	_	_	_	_
+3	européenne	européen	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	qui	qui	PRON	_	_	_	_	_	_
+6	définit	définir	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	activités	activité	NOUN	_	_	_	_	_	_
+9	durables	durable	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	sera	être	AUX	_	_	_	_	_	_
+12	appliquée	appliquer	VERB	_	_	_	_	_	_
+13	progressivement	progressivement	ADV	_	_	_	_	_	_
+14	par	par	ADP	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	gestionnaires	gestionnaire	NOUN	_	_	_	_	_	_
+17	d'actifs	d'actifs	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_378
+# text = Il est crucial que les institutions financières publient des informations fiables sur leurs risques climatiques.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	crucial	crucial	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	institutions	institution	NOUN	_	_	_	_	_	_
+7	financières	financier	ADJ	_	_	_	_	_	_
+8	publient	publier	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	informations	information	NOUN	_	_	_	_	_	_
+11	fiables	fiable	ADJ	_	_	_	_	_	_
+12	sur	sur	ADP	_	_	_	_	_	_
+13	leurs	leur	DET	_	_	_	_	_	_
+14	risques	risque	NOUN	_	_	_	_	_	_
+15	climatiques	climatique	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_379
+# text = Les régulateurs avaient prévenu que les allégations environnementales trompeuses seraient sanctionnées avec plus de sévérité.
+1	Les	le	DET	_	_	_	_	_	_
+2	régulateurs	régulateur	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	prévenu	prévenir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	allégations	allégation	NOUN	_	_	_	_	_	_
+8	environnementales	environnemental	ADJ	_	_	_	_	_	_
+9	trompeuses	trompeux	ADJ	_	_	_	_	_	_
+10	seraient	être	AUX	_	_	_	_	_	_
+11	sanctionnées	sanctionner	VERB	_	_	_	_	_	_
+12	avec	avec	ADP	_	_	_	_	_	_
+13	plus	plus	ADV	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	sévérité	sévérité	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_380
+# text = Le fonds, dont la stratégie avait été réorientée, exclut désormais les entreprises liées aux énergies fossiles.
+1	Le	le	DET	_	_	_	_	_	_
+2	fonds	fond	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	stratégie	stratégie	NOUN	_	_	_	_	_	_
+7	avait	avoir	AUX	_	_	_	_	_	_
+8	été	être	AUX	_	_	_	_	_	_
+9	réorientée	réorienter	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	exclut	exclure	VERB	_	_	_	_	_	_
+12	désormais	désormais	ADV	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	entreprises	entreprise	NOUN	_	_	_	_	_	_
+15	liées	lier	VERB	_	_	_	_	_	_
+16	aux	aux	ADP	_	_	_	_	_	_
+17	énergies	énergies	X	_	_	_	_	_	_
+18	fossiles	fossiles	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_381
+# text = Avant que le rapport ESG ne soit diffusé, les analystes devront avoir vérifié la cohérence des indicateurs présentés.
+1	Avant	avant	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	rapport	rapport	NOUN	_	_	_	_	_	_
+5	ESG	ESG	PROPN	_	_	_	_	_	_
+6	ne	ne	PART	_	_	_	_	_	_
+7	soit	être	AUX	_	_	_	_	_	_
+8	diffusé	diffuser	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	analystes	analyste	NOUN	_	_	_	_	_	_
+12	devront	devoir	VERB	_	_	_	_	_	_
+13	avoir	avoir	VERB	_	_	_	_	_	_
+14	vérifié	vérifier	VERB	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	cohérence	cohérence	NOUN	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	indicateurs	indicateurs	X	_	_	_	_	_	_
+19	présentés	présentés	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_382
+# text = Les obligations vertes, qui financent des projets d'énergie renouvelable, attirent de plus en plus d'investisseurs institutionnels.
+1	Les	le	DET	_	_	_	_	_	_
+2	obligations	obligation	NOUN	_	_	_	_	_	_
+3	vertes	vert	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	qui	qui	PRON	_	_	_	_	_	_
+6	financent	financer	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	projets	projet	NOUN	_	_	_	_	_	_
+9	d'énergie	d'énergie	X	_	_	_	_	_	_
+10	renouvelable	renouvelable	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	attirent	attirent	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	plus	plus	ADV	_	_	_	_	_	_
+15	en	en	PRON	_	_	_	_	_	_
+16	plus	plus	ADV	_	_	_	_	_	_
+17	d'investisseurs	d'investisseurs	X	_	_	_	_	_	_
+18	institutionnels	institutionnels	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_383
+# text = On redoute que le greenwashing ne détourne les capitaux des initiatives réellement compatibles avec les objectifs climatiques.
+1	On	on	PRON	_	_	_	_	_	_
+2	redoute	redouter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	greenwashing	greenwashing	NOUN	_	_	_	_	_	_
+6	ne	ne	PART	_	_	_	_	_	_
+7	détourne	détourner	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	capitaux	capital	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	initiatives	initiatives	X	_	_	_	_	_	_
+12	réellement	réellement	X	_	_	_	_	_	_
+13	compatibles	compatibles	X	_	_	_	_	_	_
+14	avec	avec	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	objectifs	objectifs	X	_	_	_	_	_	_
+17	climatiques	climatiques	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_384
+# text = La directrice financière avait souligné que la performance à long terme devait intégrer les risques environnementaux.
+1	La	le	DET	_	_	_	_	_	_
+2	directrice	directrice	NOUN	_	_	_	_	_	_
+3	financière	financier	ADJ	_	_	_	_	_	_
+4	avait	avoir	AUX	_	_	_	_	_	_
+5	souligné	souligner	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	performance	performance	NOUN	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	long	long	ADJ	_	_	_	_	_	_
+11	terme	terme	NOUN	_	_	_	_	_	_
+12	devait	devoir	AUX	_	_	_	_	_	_
+13	intégrer	intégrer	VERB	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	risques	risque	NOUN	_	_	_	_	_	_
+16	environnementaux	environnemental	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_385
+# text = Pour que la transition soit financée, il faudra que les banques accordent des prêts favorables aux projets durables.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	transition	transition	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	financée	financer	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	faudra	falloir	VERB	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	banques	banque	NOUN	_	_	_	_	_	_
+13	accordent	accorder	VERB	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	prêts	prêt	NOUN	_	_	_	_	_	_
+16	favorables	favorable	ADJ	_	_	_	_	_	_
+17	aux	aux	ADP	_	_	_	_	_	_
+18	projets	projets	X	_	_	_	_	_	_
+19	durables	durables	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_386
+# text = Le label finance durable, obtenu après un audit rigoureux, avait renforcé la confiance des épargnants particuliers.
+1	Le	le	DET	_	_	_	_	_	_
+2	label	label	NOUN	_	_	_	_	_	_
+3	finance	finance	NOUN	_	_	_	_	_	_
+4	durable	durable	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	obtenu	obtenir	VERB	_	_	_	_	_	_
+7	après	après	ADP	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	audit	audit	NOUN	_	_	_	_	_	_
+10	rigoureux	rigoureux	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	avait	avoir	AUX	_	_	_	_	_	_
+13	renforcé	renforcer	VERB	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	confiance	confiance	NOUN	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	épargnants	épargnants	X	_	_	_	_	_	_
+18	particuliers	particuliers	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_387
+# text = Bien que les critères aient été durcis, certains produits financiers continuent d'afficher une transparence insuffisante.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	critères	critère	NOUN	_	_	_	_	_	_
+5	aient	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	durcis	durcir	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	certains	certain	DET	_	_	_	_	_	_
+10	produits	produit	NOUN	_	_	_	_	_	_
+11	financiers	financier	ADJ	_	_	_	_	_	_
+12	continuent	continuer	VERB	_	_	_	_	_	_
+13	d'afficher	d'afficher	X	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	transparence	transparence	X	_	_	_	_	_	_
+16	insuffisante	insuffisante	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_388
+# text = Les dividendes, versés par les entreprises polluantes, seront réexaminés par les comités d'investissement responsable.
+1	Les	le	DET	_	_	_	_	_	_
+2	dividendes	dividende	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	versés	verser	VERB	_	_	_	_	_	_
+5	par	par	ADP	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	entreprises	entreprise	NOUN	_	_	_	_	_	_
+8	polluantes	polluant	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	seront	être	AUX	_	_	_	_	_	_
+11	réexaminés	réexaminer	VERB	_	_	_	_	_	_
+12	par	par	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	comités	comité	NOUN	_	_	_	_	_	_
+15	d'investissement	d'investissement	X	_	_	_	_	_	_
+16	responsable	responsable	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_389
+# text = Il convient que les assureurs tiennent compte des catastrophes climatiques dans leurs modèles de tarification.
+1	Il	il	PRON	_	_	_	_	_	_
+2	convient	convenir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	assureurs	assureur	NOUN	_	_	_	_	_	_
+6	tiennent	tenir	VERB	_	_	_	_	_	_
+7	compte	compter	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	catastrophes	catastrophe	NOUN	_	_	_	_	_	_
+10	climatiques	climatique	ADJ	_	_	_	_	_	_
+11	dans	dans	ADP	_	_	_	_	_	_
+12	leurs	leur	DET	_	_	_	_	_	_
+13	modèles	modèle	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	tarification	tarification	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_390
+# text = La politique d'investissement, révisée l'an dernier, n'avait pas encore exclu toutes les entreprises du secteur charbonnier.
+1	La	le	DET	_	_	_	_	_	_
+2	politique	politique	NOUN	_	_	_	_	_	_
+3	d'investissement	d'investissement	X	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	révisée	révisée	X	_	_	_	_	_	_
+6	l'an	l'an	X	_	_	_	_	_	_
+7	dernier	dernier	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	n'avait	n'avait	X	_	_	_	_	_	_
+10	pas	pas	ADV	_	_	_	_	_	_
+11	encore	encore	X	_	_	_	_	_	_
+12	exclu	exclu	X	_	_	_	_	_	_
+13	toutes	toutes	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	entreprises	entreprises	X	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	secteur	secteur	X	_	_	_	_	_	_
+18	charbonnier	charbonnier	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_391
+# text = Les économistes avaient démontré que les actifs fossiles pourraient perdre de leur valeur dans les prochaines décennies.
+1	Les	le	DET	_	_	_	_	_	_
+2	économistes	économiste	NOUN	_	_	_	_	_	_
+3	avaient	avoir	AUX	_	_	_	_	_	_
+4	démontré	démontrer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	actifs	actif	NOUN	_	_	_	_	_	_
+8	fossiles	fossile	ADJ	_	_	_	_	_	_
+9	pourraient	pouvoir	VERB	_	_	_	_	_	_
+10	perdre	perdre	VERB	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	leur	leur	DET	_	_	_	_	_	_
+13	valeur	valeur	NOUN	_	_	_	_	_	_
+14	dans	dans	ADP	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	prochaines	prochain	ADJ	_	_	_	_	_	_
+17	décennies	décennie	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_392
+# text = Afin que les marchés soient alignés, les superviseurs devront harmoniser les normes de reporting extra-financier.
+1	Afin	afin	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	marchés	marché	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	alignés	aligner	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	superviseurs	superviseur	NOUN	_	_	_	_	_	_
+10	devront	devoir	VERB	_	_	_	_	_	_
+11	harmoniser	harmoniser	VERB	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	normes	norme	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	reporting	reporting	NOUN	_	_	_	_	_	_
+16	extra-financier	extra-financier	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_393
+# text = La conférence, pendant laquelle des banques centrales ont présenté leurs initiatives, a souligné l'urgence climatique.
+1	La	le	DET	_	_	_	_	_	_
+2	conférence	conférence	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	pendant	pendant	ADP	_	_	_	_	_	_
+5	laquelle	lequel	PRON	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	banques	banque	NOUN	_	_	_	_	_	_
+8	centrales	central	ADJ	_	_	_	_	_	_
+9	ont	avoir	AUX	_	_	_	_	_	_
+10	présenté	présenter	VERB	_	_	_	_	_	_
+11	leurs	leur	DET	_	_	_	_	_	_
+12	initiatives	initiative	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	a	avoir	AUX	_	_	_	_	_	_
+15	souligné	souligner	VERB	_	_	_	_	_	_
+16	l'urgence	l'urgence	X	_	_	_	_	_	_
+17	climatique	climatique	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_394
+# text = Sans que les risques soient correctement évalués, il serait hasardeux de canaliser des capitaux vers des projets fragiles.
+1	Sans	sans	ADP	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	risques	risque	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	correctement	correctement	ADV	_	_	_	_	_	_
+7	évalués	évaluer	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	serait	être	AUX	_	_	_	_	_	_
+11	hasardeux	hasardeux	ADJ	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	canaliser	canaliser	VERB	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	capitaux	capital	NOUN	_	_	_	_	_	_
+16	vers	vers	ADP	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	projets	projet	NOUN	_	_	_	_	_	_
+19	fragiles	fragile	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_395
+# text = Les mesures incitatives, adoptées par le gouvernement, avaient stimulé l'émission d'obligations liées à des objectifs durables.
+1	Les	le	DET	_	_	_	_	_	_
+2	mesures	mesure	NOUN	_	_	_	_	_	_
+3	incitatives	incitatif	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	adoptées	adopter	VERB	_	_	_	_	_	_
+6	par	par	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	gouvernement	gouvernement	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	avaient	avoir	AUX	_	_	_	_	_	_
+11	stimulé	stimuler	VERB	_	_	_	_	_	_
+12	l'émission	l'émission	X	_	_	_	_	_	_
+13	d'obligations	d'obligations	X	_	_	_	_	_	_
+14	liées	liées	X	_	_	_	_	_	_
+15	à	à	X	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	objectifs	objectifs	X	_	_	_	_	_	_
+18	durables	durables	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_396
+# text = Le gouverneur avait insisté sur le fait que la stabilité financière dépendait désormais de la résilience climatique.
+1	Le	le	DET	_	_	_	_	_	_
+2	gouverneur	gouverneur	NOUN	_	_	_	_	_	_
+3	avait	avoir	AUX	_	_	_	_	_	_
+4	insisté	insister	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	fait	fait	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	stabilité	stabilité	NOUN	_	_	_	_	_	_
+11	financière	financier	ADJ	_	_	_	_	_	_
+12	dépendait	dépendre	VERB	_	_	_	_	_	_
+13	désormais	désormais	ADV	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	résilience	résilience	NOUN	_	_	_	_	_	_
+17	climatique	climatique	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_397
+# text = Il faudra que les critères d'exclusion soient appliqués avant le prochain renouvellement des mandats de gestion.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudra	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	critères	critère	NOUN	_	_	_	_	_	_
+6	d'exclusion	d'exclusion	X	_	_	_	_	_	_
+7	soient	être	AUX	_	_	_	_	_	_
+8	appliqués	appliqués	X	_	_	_	_	_	_
+9	avant	avant	X	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	prochain	prochain	X	_	_	_	_	_	_
+12	renouvellement	renouvellement	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	mandats	mandats	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	gestion	gestion	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_398
+# text = Les fonds souverains, qui gèrent des réserves considérables, avaient annoncé une réduction progressive de leurs investissements pétroliers.
+1	Les	le	DET	_	_	_	_	_	_
+2	fonds	fond	NOUN	_	_	_	_	_	_
+3	souverains	souverain	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	qui	qui	PRON	_	_	_	_	_	_
+6	gèrent	gérer	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	réserves	réserve	NOUN	_	_	_	_	_	_
+9	considérables	considérable	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	avaient	avoir	AUX	_	_	_	_	_	_
+12	annoncé	annoncer	VERB	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	réduction	réduction	NOUN	_	_	_	_	_	_
+15	progressive	progressif	ADJ	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	leurs	leur	DET	_	_	_	_	_	_
+18	investissements	investissement	NOUN	_	_	_	_	_	_
+19	pétroliers	pétrolier	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_399
+# text = On s'attend à ce que la nouvelle réglementation accélère le financement des infrastructures de mobilité décarbonée.
+1	On	on	PRON	_	_	_	_	_	_
+2	s'attend	s'attend	X	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	nouvelle	nouvelle	X	_	_	_	_	_	_
+8	réglementation	réglementation	X	_	_	_	_	_	_
+9	accélère	accélère	X	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	financement	financement	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	infrastructures	infrastructures	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	mobilité	mobilité	X	_	_	_	_	_	_
+16	décarbonée	décarbonée	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b2_train_400
+# text = Les actionnaires, auxquels s'adresse ce rapport annuel, sont invités à voter les résolutions climatiques proposées.
+1	Les	le	DET	_	_	_	_	_	_
+2	actionnaires	actionnaire	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	auxquels	auxquels	X	_	_	_	_	_	_
+5	s'adresse	s'adresse	X	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	rapport	rapport	X	_	_	_	_	_	_
+8	annuel	annuel	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	sont	être	AUX	_	_	_	_	_	_
+11	invités	invités	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	voter	voter	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	résolutions	résolutions	X	_	_	_	_	_	_
+16	climatiques	climatiques	X	_	_	_	_	_	_
+17	proposées	proposées	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+

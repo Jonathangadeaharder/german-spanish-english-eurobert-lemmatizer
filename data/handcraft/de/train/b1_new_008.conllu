@@ -1,0 +1,3057 @@
+# sent_id = de_b1_train_705
+# text = Viele Menschen wandern heute aus wirtschaftlichen Gründen aus ihrer Heimat aus.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Menschen	Mensch	NOUN	_	_	_	_	_	_
+3	wandern	wandern	VERB	_	_	_	_	_	_
+4	heute	heute	ADV	_	_	_	_	_	_
+5	aus	aus	ADP	_	_	_	_	_	_
+6	wirtschaftlichen	wirtschaftlich	ADJ	_	_	_	_	_	_
+7	Gründen	Grund|Gründen	NOUN	_	_	_	_	_	_
+8	aus	aus	ADP	_	_	_	_	_	_
+9	ihrer	ihr	DET	_	_	_	_	_	_
+10	Heimat	Heimat	NOUN	_	_	_	_	_	_
+11	aus	aus	ADP	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_706
+# text = Der Aufenthaltstitel muss vor dem Ablauf in der Ausländerbehörde verlängert werden.
+1	Der	der	DET	_	_	_	_	_	_
+2	Aufenthaltstitel	Aufenthaltstitel	NOUN	_	_	_	_	_	_
+3	muss	müssen	VERB	_	_	_	_	_	_
+4	vor	vor	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Ablauf	Ablauf	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Ausländerbehörde	Ausländerbehörde	NOUN	_	_	_	_	_	_
+10	verlängert	verlängern	VERB	_	_	_	_	_	_
+11	werden	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_707
+# text = Ich habe letzte Woche meinen Antrag auf eine Aufenthaltserlaubnis eingereicht.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	letzte	letzt	ADJ	_	_	_	_	_	_
+4	Woche	Woche	NOUN	_	_	_	_	_	_
+5	meinen	mein	DET	_	_	_	_	_	_
+6	Antrag	Antrag	NOUN	_	_	_	_	_	_
+7	auf	auf	ADP	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	_	_	_	_	_	_
+10	eingereicht	einreichen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_708
+# text = Die Integration in die deutsche Gesellschaft dauert oft mehrere Jahre.
+1	Die	der	DET	_	_	_	_	_	_
+2	Integration	Integration	NOUN	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	deutsche	deutsch	ADJ	_	_	_	_	_	_
+6	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+7	dauert	dauern	VERB	_	_	_	_	_	_
+8	oft	oft	ADV	_	_	_	_	_	_
+9	mehrere	mehr	DET	_	_	_	_	_	_
+10	Jahre	Jahr	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_709
+# text = Ohne gültige Papiere kann man in Deutschland keine reguläre Arbeit aufnehmen.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	gültige	gültig	ADJ	_	_	_	_	_	_
+3	Papiere	Papier	NOUN	_	_	_	_	_	_
+4	kann	können	VERB	_	_	_	_	_	_
+5	man	man	PRON	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+8	keine	kein	DET	_	_	_	_	_	_
+9	reguläre	regulär	ADJ	_	_	_	_	_	_
+10	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+11	aufnehmen	aufnehmen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_710
+# text = Mein Nachbar ist vor drei Jahren aus Syrien nach Deutschland gekommen.
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Nachbar	Nachbar	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	vor	vor	ADP	_	_	_	_	_	_
+5	drei	drei	NUM	_	_	_	_	_	_
+6	Jahren	Jahr	NOUN	_	_	_	_	_	_
+7	aus	aus	ADP	_	_	_	_	_	_
+8	Syrien	Syrien	PROPN	_	_	_	_	_	_
+9	nach	nach	ADP	_	_	_	_	_	_
+10	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+11	gekommen	kommen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_711
+# text = In dem Integrationskurs lerne ich sowohl Sprache als auch Kultur kennen.
+1	In	in	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Integrationskurs	Integrationskurs	NOUN	_	_	_	_	_	_
+4	lerne	lernen	VERB	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	sowohl	sowohl	CCONJ	_	_	_	_	_	_
+7	Sprache	Sprache	NOUN	_	_	_	_	_	_
+8	als	als	SCONJ	_	_	_	_	_	_
+9	auch	auch	ADV	_	_	_	_	_	_
+10	Kultur	Kultur	NOUN	_	_	_	_	_	_
+11	kennen	kennen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_712
+# text = Die Behörde verlangt einen offiziellen Nachweis über meine Wohnadresse.
+1	Die	der	DET	_	_	_	_	_	_
+2	Behörde	Behörde	NOUN	_	_	_	_	_	_
+3	verlangt	verlangen	VERB	_	_	_	_	_	_
+4	einen	ein	DET	_	_	_	_	_	_
+5	offiziellen	offiziell	ADJ	_	_	_	_	_	_
+6	Nachweis	Nachweis	NOUN	_	_	_	_	_	_
+7	über	über	ADP	_	_	_	_	_	_
+8	meine	mein	DET	_	_	_	_	_	_
+9	Wohnadresse	Wohnadresse	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_713
+# text = Viele Geflüchtete suchen nach einem sicheren Ort für ihre Familien.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Geflüchtete	Geflüchteter	NOUN	_	_	_	_	_	_
+3	suchen	suchen	VERB	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	sicheren	sicher	ADJ	_	_	_	_	_	_
+7	Ort	Ort	NOUN	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	ihre	ihr	DET	_	_	_	_	_	_
+10	Familien	Familie	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_714
+# text = Ich muss mein Visum unbedingt vor der Reise beantragen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	muss	müssen	VERB	_	_	_	_	_	_
+3	mein	mein	DET	_	_	_	_	_	_
+4	Visum	Visum	NOUN	_	_	_	_	_	_
+5	unbedingt	unbedingt	ADV	_	_	_	_	_	_
+6	vor	vor	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Reise	Reise	NOUN	_	_	_	_	_	_
+9	beantragen	beantragen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_715
+# text = Die Familienzusammenführung kann leider oft viele Monate in Anspruch nehmen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Familienzusammenführung	Familienzusammenführung	NOUN	_	_	_	_	_	_
+3	kann	können	VERB	_	_	_	_	_	_
+4	leider	leider	ADV	_	_	_	_	_	_
+5	oft	oft	ADV	_	_	_	_	_	_
+6	viele	viel	DET	_	_	_	_	_	_
+7	Monate	Monat	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	Anspruch	Anspruch	NOUN	_	_	_	_	_	_
+10	nehmen	nehmen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_716
+# text = Er hat seine Heimat verlassen, weil er dort keine Perspektive sah.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	seine	sein	DET	_	_	_	_	_	_
+4	Heimat	Heimat	NOUN	_	_	_	_	_	_
+5	verlassen	verlassen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	er	er	PRON	_	_	_	_	_	_
+9	dort	dort	ADV	_	_	_	_	_	_
+10	keine	kein	DET	_	_	_	_	_	_
+11	Perspektive	Perspektive	NOUN	_	_	_	_	_	_
+12	sah	sehen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_717
+# text = Der Dolmetscher hilft den Neuankömmlingen bei wichtigen Gesprächen mit Behörden.
+1	Der	der	DET	_	_	_	_	_	_
+2	Dolmetscher	Dolmetscher	NOUN	_	_	_	_	_	_
+3	hilft	helfen	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Neuankömmlingen	Neuankömmling	NOUN	_	_	_	_	_	_
+6	bei	bei	ADP	_	_	_	_	_	_
+7	wichtigen	wichtig	ADJ	_	_	_	_	_	_
+8	Gesprächen	Gespräch	NOUN	_	_	_	_	_	_
+9	mit	mit	ADP	_	_	_	_	_	_
+10	Behörden	Behörde	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_718
+# text = In Deutschland haben Ausländer grundsätzlich die gleichen Rechte wie Einheimische.
+1	In	in	ADP	_	_	_	_	_	_
+2	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+3	haben	haben	AUX	_	_	_	_	_	_
+4	Ausländer	Ausländer	NOUN	_	_	_	_	_	_
+5	grundsätzlich	grundsätzlich	ADJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	gleichen	gleich	ADJ	_	_	_	_	_	_
+8	Rechte	Recht	NOUN	_	_	_	_	_	_
+9	wie	wie	SCONJ	_	_	_	_	_	_
+10	Einheimische	Einheimisch	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_719
+# text = Sie musste viele Dokumente übersetzen lassen, um den Antrag abzuschließen.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	musste	müssen	VERB	_	_	_	_	_	_
+3	viele	viel	DET	_	_	_	_	_	_
+4	Dokumente	Dokument	NOUN	_	_	_	_	_	_
+5	übersetzen	übersetzen	VERB	_	_	_	_	_	_
+6	lassen	lassen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	um	um	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Antrag	Antrag	NOUN	_	_	_	_	_	_
+11	abzuschließen	abschließen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_720
+# text = Nach dem Sprachkurs hat er die Prüfung mit sehr gutem Ergebnis bestanden.
+1	Nach	nach	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Sprachkurs	Sprachkurs	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+8	mit	mit	ADP	_	_	_	_	_	_
+9	sehr	sehr	ADV	_	_	_	_	_	_
+10	gutem	gut	ADJ	_	_	_	_	_	_
+11	Ergebnis	Ergebnis	NOUN	_	_	_	_	_	_
+12	bestanden	bestehen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_721
+# text = Die Einbürgerung erfordert normalerweise mindestens acht Jahre legalen Aufenthalt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einbürgerung	Einbürgerung	NOUN	_	_	_	_	_	_
+3	erfordert	erfordern	VERB	_	_	_	_	_	_
+4	normalerweise	normalerweise	ADV	_	_	_	_	_	_
+5	mindestens	mindestens	ADV	_	_	_	_	_	_
+6	acht	acht	NUM	_	_	_	_	_	_
+7	Jahre	Jahr	NOUN	_	_	_	_	_	_
+8	legalen	legal	ADJ	_	_	_	_	_	_
+9	Aufenthalt	Aufenthalt	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_722
+# text = Wir haben in dem Rathaus nach Informationen über Wohnsitzanmeldung gefragt.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Rathaus	Rathaus	NOUN	_	_	_	_	_	_
+6	nach	nach	ADP	_	_	_	_	_	_
+7	Informationen	Information	NOUN	_	_	_	_	_	_
+8	über	über	ADP	_	_	_	_	_	_
+9	Wohnsitzanmeldung	Wohnsitzanmeldung	NOUN	_	_	_	_	_	_
+10	gefragt	fragen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_723
+# text = Der Arbeitsmarkt bietet qualifizierten Migranten mittlerweile viele neue Chancen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Arbeitsmarkt	Arbeitsmarkt	NOUN	_	_	_	_	_	_
+3	bietet	bieten	VERB	_	_	_	_	_	_
+4	qualifizierten	qualifizieren	ADJ	_	_	_	_	_	_
+5	Migranten	Migranten	NOUN	_	_	_	_	_	_
+6	mittlerweile	mittlerweile	ADV	_	_	_	_	_	_
+7	viele	viel	DET	_	_	_	_	_	_
+8	neue	neu	ADJ	_	_	_	_	_	_
+9	Chancen	Chance	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_724
+# text = Ich fühle mich hier wohl, obwohl mir die Sprache noch schwerfällt.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	fühle	fühlen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	hier	hier	ADV	_	_	_	_	_	_
+5	wohl	wohl	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	obwohl	obwohl	SCONJ	_	_	_	_	_	_
+8	mir	ich	PRON	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Sprache	Sprache	NOUN	_	_	_	_	_	_
+11	noch	noch	ADV	_	_	_	_	_	_
+12	schwerfällt	schwerfallen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_725
+# text = Die Residenzpflicht wurde in einigen Bundesländern vor Kurzem abgeschafft.
+1	Die	der	DET	_	_	_	_	_	_
+2	Residenzpflicht	Residenzpflicht	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	einigen	einige	DET	_	_	_	_	_	_
+6	Bundesländern	Bundesland	NOUN	_	_	_	_	_	_
+7	vor	vor	ADP	_	_	_	_	_	_
+8	Kurzem	Kurze	NOUN	_	_	_	_	_	_
+9	abgeschafft	abschaffen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_726
+# text = Er arbeitet ehrenamtlich als Berater für neu zugezogene Familien in dem Viertel.
+1	Er	er	PRON	_	_	_	_	_	_
+2	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+3	ehrenamtlich	ehrenamtlich	ADJ	_	_	_	_	_	_
+4	als	als	SCONJ	_	_	_	_	_	_
+5	Berater	Berater	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	neu	neu	ADJ	_	_	_	_	_	_
+8	zugezogene	zugezogen	ADJ	_	_	_	_	_	_
+9	Familien	Familie	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	dem	der	DET	_	_	_	_	_	_
+12	Viertel	Viertel	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_727
+# text = Das Asylverfahren dauert je nach Fall unterschiedlich lange in Deutschland.
+1	Das	der	DET	_	_	_	_	_	_
+2	Asylverfahren	Asylverfahren	NOUN	_	_	_	_	_	_
+3	dauert	dauern	VERB	_	_	_	_	_	_
+4	je	je	ADV	_	_	_	_	_	_
+5	nach	nach	ADP	_	_	_	_	_	_
+6	Fall	Fall	NOUN	_	_	_	_	_	_
+7	unterschiedlich	unterschiedlich	ADJ	_	_	_	_	_	_
+8	lange	lange	ADV	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_728
+# text = Man braucht für die Anmeldung einen gültigen Reisepass und aktuelle Fotos.
+1	Man	man	PRON	_	_	_	_	_	_
+2	braucht	brauchen	VERB	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Anmeldung	Anmeldung	NOUN	_	_	_	_	_	_
+6	einen	ein	DET	_	_	_	_	_	_
+7	gültigen	gültig	ADJ	_	_	_	_	_	_
+8	Reisepass	Reisepass	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	aktuelle	aktuell	ADJ	_	_	_	_	_	_
+11	Fotos	Foto	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_729
+# text = Viele junge Menschen lernen Deutsch, um hier studieren oder arbeiten zu können.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	junge	jung	ADJ	_	_	_	_	_	_
+3	Menschen	Mensch	NOUN	_	_	_	_	_	_
+4	lernen	lernen	VERB	_	_	_	_	_	_
+5	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	um	um	ADP	_	_	_	_	_	_
+8	hier	hier	ADV	_	_	_	_	_	_
+9	studieren	studieren	VERB	_	_	_	_	_	_
+10	oder	oder	CCONJ	_	_	_	_	_	_
+11	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	können	können	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_730
+# text = In Deutschland ist die Schulpflicht für alle Kinder zwischen sechs und achtzehn.
+1	In	in	ADP	_	_	_	_	_	_
+2	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Schulpflicht	Schulpflicht	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	alle	alle	DET	_	_	_	_	_	_
+8	Kinder	Kind	NOUN	_	_	_	_	_	_
+9	zwischen	zwischen	ADP	_	_	_	_	_	_
+10	sechs	sechs	NUM	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	achtzehn	achtzehn	NUM	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_731
+# text = Mein Sohn besucht die Grundschule und ist sehr gut in Mathematik.
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Sohn	Sohn	NOUN	_	_	_	_	_	_
+3	besucht	besuchen	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Grundschule	Grundschule	NOUN	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	ist	sein	AUX	_	_	_	_	_	_
+8	sehr	sehr	ADV	_	_	_	_	_	_
+9	gut	gut	ADJ	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	Mathematik	Mathematik	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_732
+# text = Das duale Ausbildungssystem verbindet praktische Arbeit mit theoretischem Unterricht.
+1	Das	der	DET	_	_	_	_	_	_
+2	duale	dual	ADJ	_	_	_	_	_	_
+3	Ausbildungssystem	Ausbildungssystem	NOUN	_	_	_	_	_	_
+4	verbindet	verbinden	VERB	_	_	_	_	_	_
+5	praktische	praktisch	ADJ	_	_	_	_	_	_
+6	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	theoretischem	theoretisch	ADJ	_	_	_	_	_	_
+9	Unterricht	Unterricht	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_733
+# text = Nach der Grundschule wählen die Eltern oft die passende weiterführende Schule.
+1	Nach	nach	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Grundschule	Grundschule	NOUN	_	_	_	_	_	_
+4	wählen	wählen	VERB	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Eltern	Eltern	NOUN	_	_	_	_	_	_
+7	oft	oft	ADV	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	passende	passend	ADJ	_	_	_	_	_	_
+10	weiterführende	weiterführend	ADJ	_	_	_	_	_	_
+11	Schule	Schule	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_734
+# text = Die Universität bietet viele Studiengänge auf Deutsch und Englisch an.
+1	Die	der	DET	_	_	_	_	_	_
+2	Universität	Universität	NOUN	_	_	_	_	_	_
+3	bietet	bieten	VERB	_	_	_	_	_	_
+4	viele	viel	DET	_	_	_	_	_	_
+5	Studiengänge	Studiengang	NOUN	_	_	_	_	_	_
+6	auf	auf	ADP	_	_	_	_	_	_
+7	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	Englisch	Englisch	NOUN	_	_	_	_	_	_
+10	an	an	ADP	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_735
+# text = Ich muss für die Klausur nächste Woche viel Material durchlesen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	muss	müssen	VERB	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Klausur	Klausur	NOUN	_	_	_	_	_	_
+6	nächste	nah	ADJ	_	_	_	_	_	_
+7	Woche	Woche	NOUN	_	_	_	_	_	_
+8	viel	viel	DET	_	_	_	_	_	_
+9	Material	Material	NOUN	_	_	_	_	_	_
+10	durchlesen	durchlesen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_736
+# text = Die Lehrerin erklärt den Schülern den neuen Stoff sehr geduldig.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+3	erklärt	erklären	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Schülern	Schüler	NOUN	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	neuen	neu	ADJ	_	_	_	_	_	_
+8	Stoff	Stoff	NOUN	_	_	_	_	_	_
+9	sehr	sehr	ADV	_	_	_	_	_	_
+10	geduldig	geduldig	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_737
+# text = Er hat sein Abitur mit guter Note an einem Gymnasium gemacht.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sein	sein	DET	_	_	_	_	_	_
+4	Abitur	Abitur	NOUN	_	_	_	_	_	_
+5	mit	mit	ADP	_	_	_	_	_	_
+6	guter	gut	ADJ	_	_	_	_	_	_
+7	Note	Note	NOUN	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	einem	ein	DET	_	_	_	_	_	_
+10	Gymnasium	Gymnasium	NOUN	_	_	_	_	_	_
+11	gemacht	machen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_738
+# text = Das BAföG hilft vielen Studierenden, die Ausbildung finanziell zu schaffen.
+1	Das	der	DET	_	_	_	_	_	_
+2	BAföG	BAföG	PROPN	_	_	_	_	_	_
+3	hilft	helfen	VERB	_	_	_	_	_	_
+4	vielen	viel	DET	_	_	_	_	_	_
+5	Studierenden	Studierende	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+9	finanziell	finanziell	ADJ	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	schaffen	schaffen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_739
+# text = In der Berufsschule lernen die Azubis zwei Tage pro Woche Theorie.
+1	In	in	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Berufsschule	Berufsschule	NOUN	_	_	_	_	_	_
+4	lernen	lernen	VERB	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Azubis	Azubi	NOUN	_	_	_	_	_	_
+7	zwei	zwei	NUM	_	_	_	_	_	_
+8	Tage	Tag	NOUN	_	_	_	_	_	_
+9	pro	pro	ADP	_	_	_	_	_	_
+10	Woche	Woche	NOUN	_	_	_	_	_	_
+11	Theorie	Theorie	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_740
+# text = Die Prüfung war schwieriger, als wir alle erwartet hatten.
+1	Die	der	DET	_	_	_	_	_	_
+2	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+3	war	sein	AUX	_	_	_	_	_	_
+4	schwieriger	schwierig	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	alle	alle	DET	_	_	_	_	_	_
+9	erwartet	erwarten	VERB	_	_	_	_	_	_
+10	hatten	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_741
+# text = Kinder mit Migrationshintergrund besuchen oft zusätzliche Nachhilfekurse nach der Schule.
+1	Kinder	Kind	NOUN	_	_	_	_	_	_
+2	mit	mit	ADP	_	_	_	_	_	_
+3	Migrationshintergrund	Migrationshintergrund	NOUN	_	_	_	_	_	_
+4	besuchen	besuchen	VERB	_	_	_	_	_	_
+5	oft	oft	ADV	_	_	_	_	_	_
+6	zusätzliche	zusätzlich	ADJ	_	_	_	_	_	_
+7	Nachhilfekurse	Nachhilfekurs	NOUN	_	_	_	_	_	_
+8	nach	nach	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Schule	Schule	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_742
+# text = Die Schüler sollen bis Freitag ihre Hausaufgaben fertig abgeben.
+1	Die	der	DET	_	_	_	_	_	_
+2	Schüler	Schüler	NOUN	_	_	_	_	_	_
+3	sollen	sollen	VERB	_	_	_	_	_	_
+4	bis	bis	ADP	_	_	_	_	_	_
+5	Freitag	Freitag	PROPN	_	_	_	_	_	_
+6	ihre	ihr	DET	_	_	_	_	_	_
+7	Hausaufgaben	Hausaufgabe	NOUN	_	_	_	_	_	_
+8	fertig	fertig	ADJ	_	_	_	_	_	_
+9	abgeben	abgeben	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_743
+# text = An der Hochschule gibt es viele internationale Austauschprogramme für Studenten.
+1	An	an	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Hochschule	Hochschule	NOUN	_	_	_	_	_	_
+4	gibt	geben	VERB	_	_	_	_	_	_
+5	es	es	PRON	_	_	_	_	_	_
+6	viele	viel	DET	_	_	_	_	_	_
+7	internationale	international	ADJ	_	_	_	_	_	_
+8	Austauschprogramme	Austauschprogramm	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	Studenten	Student	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_744
+# text = Meine Tochter möchte später Medizin studieren und Ärztin werden.
+1	Meine	mein	DET	_	_	_	_	_	_
+2	Tochter	Tochter	NOUN	_	_	_	_	_	_
+3	möchte	mögen	VERB	_	_	_	_	_	_
+4	später	spät	ADJ	_	_	_	_	_	_
+5	Medizin	Medizin	NOUN	_	_	_	_	_	_
+6	studieren	studieren	VERB	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+9	werden	werden	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_745
+# text = Der Schulweg sollte für junge Kinder möglichst sicher und kurz sein.
+1	Der	der	DET	_	_	_	_	_	_
+2	Schulweg	Schulweg	NOUN	_	_	_	_	_	_
+3	sollte	sollen	VERB	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	junge	jung	ADJ	_	_	_	_	_	_
+6	Kinder	Kind	NOUN	_	_	_	_	_	_
+7	möglichst	möglichst	ADV	_	_	_	_	_	_
+8	sicher	sicher	ADJ	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	kurz	kurz	ADJ	_	_	_	_	_	_
+11	sein	sein	DET	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_746
+# text = Wir haben gestern über die Reform des Bildungssystems in der Klasse diskutiert.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	gestern	gestern	ADV	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Reform	Reform	NOUN	_	_	_	_	_	_
+7	des	der	DET	_	_	_	_	_	_
+8	Bildungssystems	Bildungssystem	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Klasse	Klasse	NOUN	_	_	_	_	_	_
+12	diskutiert	diskutieren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_747
+# text = Die Bibliothek öffnet wochentags früh und bleibt bis zwanzig Uhr geöffnet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bibliothek	Bibliothek	NOUN	_	_	_	_	_	_
+3	öffnet	öffnen	VERB	_	_	_	_	_	_
+4	wochentags	wochentags	ADV	_	_	_	_	_	_
+5	früh	früh	ADJ	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	bleibt	bleiben	VERB	_	_	_	_	_	_
+8	bis	bis	ADP	_	_	_	_	_	_
+9	zwanzig	zwanzig	NUM	_	_	_	_	_	_
+10	Uhr	Uhr	NOUN	_	_	_	_	_	_
+11	geöffnet	öffnen	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_748
+# text = Ohne ausreichende Deutschkenntnisse fällt das Lernen in der Schule schwer.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	ausreichende	ausreichend	ADJ	_	_	_	_	_	_
+3	Deutschkenntnisse	Deutschkenntnis	NOUN	_	_	_	_	_	_
+4	fällt	fallen|fällen	VERB	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Lernen	Lernen	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Schule	Schule	NOUN	_	_	_	_	_	_
+10	schwer	schwer	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_749
+# text = Der Professor hat uns eine längere Liste mit Literatur empfohlen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Professor	Professor	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	uns	wir	PRON	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	längere	lang	ADJ	_	_	_	_	_	_
+7	Liste	Liste	NOUN	_	_	_	_	_	_
+8	mit	mit	ADP	_	_	_	_	_	_
+9	Literatur	Literatur	NOUN	_	_	_	_	_	_
+10	empfohlen	empfehlen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_750
+# text = Viele Schulen setzen heute digitale Tablets in dem täglichen Unterricht ein.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Schulen	Schule	NOUN	_	_	_	_	_	_
+3	setzen	setzen	VERB	_	_	_	_	_	_
+4	heute	heute	ADV	_	_	_	_	_	_
+5	digitale	digital	ADJ	_	_	_	_	_	_
+6	Tablets	Tablet	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	täglichen	täglich	ADJ	_	_	_	_	_	_
+10	Unterricht	Unterricht	NOUN	_	_	_	_	_	_
+11	ein	ein	DET	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_751
+# text = Die Abschlussprüfung entscheidet oft über den weiteren beruflichen Werdegang.
+1	Die	der	DET	_	_	_	_	_	_
+2	Abschlussprüfung	Abschlussprüfung	NOUN	_	_	_	_	_	_
+3	entscheidet	entscheiden	VERB	_	_	_	_	_	_
+4	oft	oft	ADV	_	_	_	_	_	_
+5	über	über	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	weiteren	weit	ADJ	_	_	_	_	_	_
+8	beruflichen	beruflich	ADJ	_	_	_	_	_	_
+9	Werdegang	Werdegang	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_752
+# text = Ich finde, dass Inklusion an Schulen für alle Beteiligten wichtig ist.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dass	dass	SCONJ	_	_	_	_	_	_
+5	Inklusion	Inklusion	NOUN	_	_	_	_	_	_
+6	an	an	ADP	_	_	_	_	_	_
+7	Schulen	Schule	NOUN	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	alle	alle	DET	_	_	_	_	_	_
+10	Beteiligten	Beteiligte	NOUN	_	_	_	_	_	_
+11	wichtig	wichtig	ADJ	_	_	_	_	_	_
+12	ist	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_753
+# text = Die Ferien beginnen in Bayern meist etwas später als in Norddeutschland.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ferien	Ferien	NOUN	_	_	_	_	_	_
+3	beginnen	beginnen	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	Bayern	Bayern	PROPN	_	_	_	_	_	_
+6	meist	meist	ADV	_	_	_	_	_	_
+7	etwas	etwas	ADV	_	_	_	_	_	_
+8	später	spät	ADJ	_	_	_	_	_	_
+9	als	als	SCONJ	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	Norddeutschland	Norddeutschland	PROPN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_754
+# text = Er hat seine Ausbildung zu dem Mechatroniker in nur drei Jahren abgeschlossen.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	seine	sein	DET	_	_	_	_	_	_
+4	Ausbildung	Ausbildung	NOUN	_	_	_	_	_	_
+5	zu	zu	PART	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Mechatroniker	Mechatroniker	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	nur	nur	ADV	_	_	_	_	_	_
+10	drei	drei	NUM	_	_	_	_	_	_
+11	Jahren	Jahr	NOUN	_	_	_	_	_	_
+12	abgeschlossen	abschließen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_755
+# text = Ich habe das defekte Produkt innerhalb von zwei Wochen zurückgegeben.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	defekte	defekt	ADJ	_	_	_	_	_	_
+5	Produkt	Produkt	NOUN	_	_	_	_	_	_
+6	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	zwei	zwei	NUM	_	_	_	_	_	_
+9	Wochen	Woche	NOUN	_	_	_	_	_	_
+10	zurückgegeben	zurückgeben	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_756
+# text = Der Kunde hat das Recht, fehlerhafte Ware innerhalb von vierzehn Tagen zu reklamieren.
+1	Der	der	DET	_	_	_	_	_	_
+2	Kunde	Kunde	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Recht	Recht	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	fehlerhafte	fehlerhaft	ADJ	_	_	_	_	_	_
+8	Ware	Ware	NOUN	_	_	_	_	_	_
+9	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+10	von	von	ADP	_	_	_	_	_	_
+11	vierzehn	vierzehn	NUM	_	_	_	_	_	_
+12	Tagen	Tag	NOUN	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	reklamieren	reklamieren	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_757
+# text = Die Gewährleistung gilt für neue Geräte in der Regel zwei Jahre lang.
+1	Die	der	DET	_	_	_	_	_	_
+2	Gewährleistung	Gewährleistung	NOUN	_	_	_	_	_	_
+3	gilt	gelten	VERB	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	neue	neu	ADJ	_	_	_	_	_	_
+6	Geräte	Gerät	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Regel	Regel	NOUN	_	_	_	_	_	_
+10	zwei	zwei	NUM	_	_	_	_	_	_
+11	Jahre	Jahr	NOUN	_	_	_	_	_	_
+12	lang	lang	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_758
+# text = Sie sollten immer die Quittung aufbewahren, falls später Probleme auftreten.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	sollten	sollen	VERB	_	_	_	_	_	_
+3	immer	immer	ADV	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Quittung	Quittung	NOUN	_	_	_	_	_	_
+6	aufbewahren	aufbewahren	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	falls	falls	SCONJ	_	_	_	_	_	_
+9	später	spät	ADJ	_	_	_	_	_	_
+10	Probleme	Problem	NOUN	_	_	_	_	_	_
+11	auftreten	auftreten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_759
+# text = Bei dem Onlinekauf hat man oft ein gesetzliches Widerrufsrecht von vierzehn Tagen.
+1	Bei	bei	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Onlinekauf	Onlinekauf	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	man	man	PRON	_	_	_	_	_	_
+6	oft	oft	ADV	_	_	_	_	_	_
+7	ein	ein	DET	_	_	_	_	_	_
+8	gesetzliches	gesetzlich	ADJ	_	_	_	_	_	_
+9	Widerrufsrecht	Widerrufsrecht	NOUN	_	_	_	_	_	_
+10	von	von	ADP	_	_	_	_	_	_
+11	vierzehn	vierzehn	NUM	_	_	_	_	_	_
+12	Tagen	Tag	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_760
+# text = Die Verbraucherzentrale hat mir bei der Beschwerde gegen den Anbieter geholfen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verbraucherzentrale	Verbraucherzentrale	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	mir	ich	PRON	_	_	_	_	_	_
+5	bei	bei	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Beschwerde	Beschwerde	NOUN	_	_	_	_	_	_
+8	gegen	gegen	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Anbieter	Anbieter	NOUN	_	_	_	_	_	_
+11	geholfen	helfen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_761
+# text = Das Gerät war bei dem Auspacken beschädigt, deshalb habe ich sofort reklamiert.
+1	Das	der	DET	_	_	_	_	_	_
+2	Gerät	Gerät	NOUN	_	_	_	_	_	_
+3	war	sein	AUX	_	_	_	_	_	_
+4	bei	bei	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Auspacken	Auspacke	NOUN	_	_	_	_	_	_
+7	beschädigt	beschädigen	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	deshalb	deshalb	SCONJ	_	_	_	_	_	_
+10	habe	haben	AUX	_	_	_	_	_	_
+11	ich	ich	PRON	_	_	_	_	_	_
+12	sofort	sofort	ADV	_	_	_	_	_	_
+13	reklamiert	reklamieren	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_762
+# text = Versteckte Kosten in dem Vertrag sind nach deutschem Recht nicht zulässig.
+1	Versteckte	versteckt	ADJ	_	_	_	_	_	_
+2	Kosten	Kosten	NOUN	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Vertrag	Vertrag	NOUN	_	_	_	_	_	_
+6	sind	sein	AUX	_	_	_	_	_	_
+7	nach	nach	ADP	_	_	_	_	_	_
+8	deutschem	deutsch	ADJ	_	_	_	_	_	_
+9	Recht	Recht	NOUN	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	zulässig	zulässig	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_763
+# text = Ich habe den Kaufvertrag sorgfältig gelesen, bevor ich unterschrieben habe.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Kaufvertrag	Kaufvertrag	NOUN	_	_	_	_	_	_
+5	sorgfältig	sorgfältig	ADJ	_	_	_	_	_	_
+6	gelesen	lesen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bevor	bevor	SCONJ	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	unterschrieben	unterschreiben	VERB	_	_	_	_	_	_
+11	habe	haben	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_764
+# text = Der Händler weigert sich leider, das kaputte Handy zu reparieren oder zu ersetzen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Händler	Händler	NOUN	_	_	_	_	_	_
+3	weigert	weigern	VERB	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	leider	leider	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	das	der	DET	_	_	_	_	_	_
+8	kaputte	kaputt	ADJ	_	_	_	_	_	_
+9	Handy	Handy	NOUN	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	reparieren	reparieren	VERB	_	_	_	_	_	_
+12	oder	oder	CCONJ	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	ersetzen	ersetzen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_765
+# text = Bei irreführender Werbung kann man den Kaufvertrag unter Umständen anfechten.
+1	Bei	bei	ADP	_	_	_	_	_	_
+2	irreführender	irreführend	ADJ	_	_	_	_	_	_
+3	Werbung	Werbung	NOUN	_	_	_	_	_	_
+4	kann	können	VERB	_	_	_	_	_	_
+5	man	man	PRON	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Kaufvertrag	Kaufvertrag	NOUN	_	_	_	_	_	_
+8	unter	unter	ADP	_	_	_	_	_	_
+9	Umständen	Umstand	NOUN	_	_	_	_	_	_
+10	anfechten	anfechten	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_766
+# text = Wir haben uns über die Preiserhöhung direkt bei der Verbraucherschutzstelle beschwert.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Preiserhöhung	Preiserhöhung	NOUN	_	_	_	_	_	_
+7	direkt	direkt	ADJ	_	_	_	_	_	_
+8	bei	bei	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Verbraucherschutzstelle	Verbraucherschutzstelle	NOUN	_	_	_	_	_	_
+11	beschwert	beschweren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_767
+# text = Der Preis auf dem Etikett muss mit dem Betrag an der Kasse übereinstimmen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Preis	Preis	NOUN	_	_	_	_	_	_
+3	auf	auf	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Etikett	Etikett	NOUN	_	_	_	_	_	_
+6	muss	müssen	VERB	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Betrag	Betrag	NOUN	_	_	_	_	_	_
+10	an	an	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Kasse	Kasse	NOUN	_	_	_	_	_	_
+13	übereinstimmen	übereinstimmen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_768
+# text = Ich fordere eine schriftliche Bestätigung über die Rücksendung des Pakets.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	fordere	fordern	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	schriftliche	schriftlich	ADJ	_	_	_	_	_	_
+5	Bestätigung	Bestätigung	NOUN	_	_	_	_	_	_
+6	über	über	ADP	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Rücksendung	Rücksendung	NOUN	_	_	_	_	_	_
+9	des	der	DET	_	_	_	_	_	_
+10	Pakets	Paket	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_769
+# text = Der Lieferant hat die bestellte Ware trotz mehrfacher Erinnerung nicht geliefert.
+1	Der	der	DET	_	_	_	_	_	_
+2	Lieferant	Lieferant	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	bestellte	bestellen	ADJ	_	_	_	_	_	_
+6	Ware	Ware	NOUN	_	_	_	_	_	_
+7	trotz	trotz	ADP	_	_	_	_	_	_
+8	mehrfacher	mehrfach	ADJ	_	_	_	_	_	_
+9	Erinnerung	Erinnerung	NOUN	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	geliefert	liefern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_770
+# text = Abgemahnte Verträge können unter bestimmten Bedingungen ohne Kosten gekündigt werden.
+1	Abgemahnte	abgemahnt	ADJ	_	_	_	_	_	_
+2	Verträge	Vertrag	NOUN	_	_	_	_	_	_
+3	können	können	VERB	_	_	_	_	_	_
+4	unter	unter	ADP	_	_	_	_	_	_
+5	bestimmten	bestimmt	ADJ	_	_	_	_	_	_
+6	Bedingungen	Bedingung	NOUN	_	_	_	_	_	_
+7	ohne	ohne	ADP	_	_	_	_	_	_
+8	Kosten	Kosten	NOUN	_	_	_	_	_	_
+9	gekündigt	kündigen	VERB	_	_	_	_	_	_
+10	werden	werden	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_771
+# text = Sie dürfen keine persönlichen Daten ohne Ihre Zustimmung an Dritte weitergeben.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	dürfen	dürfen	VERB	_	_	_	_	_	_
+3	keine	kein	DET	_	_	_	_	_	_
+4	persönlichen	persönlich	ADJ	_	_	_	_	_	_
+5	Daten	Datum	NOUN	_	_	_	_	_	_
+6	ohne	ohne	ADP	_	_	_	_	_	_
+7	Ihre	ihr	DET	_	_	_	_	_	_
+8	Zustimmung	Zustimmung	NOUN	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	Dritte	Dritt	NOUN	_	_	_	_	_	_
+11	weitergeben	weitergeben	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_772
+# text = Ich habe den Vertrag gekündigt, weil die Leistung nicht vertraglich erbracht wurde.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Vertrag	Vertrag	NOUN	_	_	_	_	_	_
+5	gekündigt	kündigen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Leistung	Leistung	NOUN	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	vertraglich	vertraglich	ADJ	_	_	_	_	_	_
+12	erbracht	erbringen	VERB	_	_	_	_	_	_
+13	wurde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_773
+# text = Das Gesetz schützt Verbraucher vor unfairen Klauseln in langfristigen Verträgen.
+1	Das	der	DET	_	_	_	_	_	_
+2	Gesetz	Gesetz	NOUN	_	_	_	_	_	_
+3	schützt	schützen	VERB	_	_	_	_	_	_
+4	Verbraucher	Verbraucher	NOUN	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	unfairen	unfairen	ADJ	_	_	_	_	_	_
+7	Klauseln	Klausel	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	langfristigen	langfristig	ADJ	_	_	_	_	_	_
+10	Verträgen	Vertrag	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_774
+# text = Man sollte den Zustand der Ware direkt nach der Lieferung sorgfältig prüfen.
+1	Man	man	PRON	_	_	_	_	_	_
+2	sollte	sollen	VERB	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Zustand	Zustand	NOUN	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Ware	Ware	NOUN	_	_	_	_	_	_
+7	direkt	direkt	ADJ	_	_	_	_	_	_
+8	nach	nach	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Lieferung	Lieferung	NOUN	_	_	_	_	_	_
+11	sorgfältig	sorgfältig	ADJ	_	_	_	_	_	_
+12	prüfen	prüfen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_775
+# text = Die Heizkostenabrechnung enthielt mehrere Fehler, die ich schriftlich beanstandet habe.
+1	Die	der	DET	_	_	_	_	_	_
+2	Heizkostenabrechnung	Heizkostenabrechnung	NOUN	_	_	_	_	_	_
+3	enthielt	enthalten	VERB	_	_	_	_	_	_
+4	mehrere	mehr	DET	_	_	_	_	_	_
+5	Fehler	Fehler	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	schriftlich	schriftlich	ADJ	_	_	_	_	_	_
+10	beanstandet	beanstanden	VERB	_	_	_	_	_	_
+11	habe	haben	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_776
+# text = In dem Laden gilt: erst informieren, dann ohne Druck entscheiden.
+1	In	in	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Laden	Laden	NOUN	_	_	_	_	_	_
+4	gilt	gelten	VERB	_	_	_	_	_	_
+5	:	:	PUNCT	_	_	_	_	_	_
+6	erst	erst	ADV	_	_	_	_	_	_
+7	informieren	informieren	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	dann	dann	ADV	_	_	_	_	_	_
+10	ohne	ohne	ADP	_	_	_	_	_	_
+11	Druck	Druck	NOUN	_	_	_	_	_	_
+12	entscheiden	entscheiden	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_777
+# text = Der Kundendienst hat mein Anliegen innerhalb von drei Werktagen bearbeitet.
+1	Der	der	DET	_	_	_	_	_	_
+2	Kundendienst	Kundendienst	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	mein	mein	DET	_	_	_	_	_	_
+5	Anliegen	Anliegen	NOUN	_	_	_	_	_	_
+6	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	drei	drei	NUM	_	_	_	_	_	_
+9	Werktagen	Werktag	NOUN	_	_	_	_	_	_
+10	bearbeitet	bearbeiten	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_778
+# text = Ich rate davon ab, Verträge zu unterschreiben, die man nicht versteht.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	rate	raten	VERB	_	_	_	_	_	_
+3	davon	davon	ADV	_	_	_	_	_	_
+4	ab	ab	ADP	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	Verträge	Vertrag	NOUN	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	unterschreiben	unterschreiben	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	man	man	PRON	_	_	_	_	_	_
+12	nicht	nicht	PART	_	_	_	_	_	_
+13	versteht	verstehen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_779
+# text = Für digitale Inhalte gelten besondere Regeln bei dem Widerruf nach dem Kauf.
+1	Für	für	ADP	_	_	_	_	_	_
+2	digitale	digital	ADJ	_	_	_	_	_	_
+3	Inhalte	Inhalt	NOUN	_	_	_	_	_	_
+4	gelten	gelten	VERB	_	_	_	_	_	_
+5	besondere	besonder	ADJ	_	_	_	_	_	_
+6	Regeln	Regel|Regeln	NOUN	_	_	_	_	_	_
+7	bei	bei	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Widerruf	Widerruf	NOUN	_	_	_	_	_	_
+10	nach	nach	ADP	_	_	_	_	_	_
+11	dem	der	DET	_	_	_	_	_	_
+12	Kauf	Kauf	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_780
+# text = In Deutschland ist eine Krankenversicherung für alle Einwohner vorgeschrieben.
+1	In	in	ADP	_	_	_	_	_	_
+2	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	eine	ein	DET	_	_	_	_	_	_
+5	Krankenversicherung	Krankenversicherung	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	alle	alle	DET	_	_	_	_	_	_
+8	Einwohner	Einwohner	NOUN	_	_	_	_	_	_
+9	vorgeschrieben	vorschreiben	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_781
+# text = Ich bin bei einer gesetzlichen Krankenkasse und zahle den Mitgliedsbeitrag monatlich.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	bin	sein	AUX	_	_	_	_	_	_
+3	bei	bei	ADP	_	_	_	_	_	_
+4	einer	ein	DET	_	_	_	_	_	_
+5	gesetzlichen	gesetzlich	ADJ	_	_	_	_	_	_
+6	Krankenkasse	Krankenkasse	NOUN	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	zahle	zahlen	VERB	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Mitgliedsbeitrag	Mitgliedsbeitrag	NOUN	_	_	_	_	_	_
+11	monatlich	monatlich	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_782
+# text = Die Zuzahlung für Medikamente beträgt maximal zehn Euro pro Rezept.
+1	Die	der	DET	_	_	_	_	_	_
+2	Zuzahlung	Zuzahlung	NOUN	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	Medikamente	Medikament	NOUN	_	_	_	_	_	_
+5	beträgt	betragen	VERB	_	_	_	_	_	_
+6	maximal	maximal	ADV	_	_	_	_	_	_
+7	zehn	zehn	NUM	_	_	_	_	_	_
+8	Euro	Euro	PROPN	_	_	_	_	_	_
+9	pro	pro	ADP	_	_	_	_	_	_
+10	Rezept	Rezept	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_783
+# text = Mein Arzt hat mir eine Überweisung zu dem Facharzt für Orthopädie ausgestellt.
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Arzt	Arzt	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	mir	ich	PRON	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	Überweisung	Überweisung	NOUN	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Facharzt	Facharzt	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	Orthopädie	Orthopädie	NOUN	_	_	_	_	_	_
+12	ausgestellt	ausstellen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_784
+# text = Die Krankenkasse übernimmt die Kosten für Vorsorgeuntersuchungen meist vollständig.
+1	Die	der	DET	_	_	_	_	_	_
+2	Krankenkasse	Krankenkasse	NOUN	_	_	_	_	_	_
+3	übernimmt	übernehmen	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Kosten	Kosten	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	Vorsorgeuntersuchungen	Vorsorgeuntersuchung	NOUN	_	_	_	_	_	_
+8	meist	meist	ADV	_	_	_	_	_	_
+9	vollständig	vollständig	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_785
+# text = Ich habe gestern eine elektronische Gesundheitskarte von meiner Kasse erhalten.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	gestern	gestern	ADV	_	_	_	_	_	_
+4	eine	ein	DET	_	_	_	_	_	_
+5	elektronische	elektronisch	ADJ	_	_	_	_	_	_
+6	Gesundheitskarte	Gesundheitskarte	NOUN	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	meiner	mein	DET	_	_	_	_	_	_
+9	Kasse	Kasse	NOUN	_	_	_	_	_	_
+10	erhalten	erhalten	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_786
+# text = Ohne Versicherungsnachweis darf man keine medizinische Behandlung in Anspruch nehmen.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	Versicherungsnachweis	Versicherungsnachweis	NOUN	_	_	_	_	_	_
+3	darf	dürfen	VERB	_	_	_	_	_	_
+4	man	man	PRON	_	_	_	_	_	_
+5	keine	kein	DET	_	_	_	_	_	_
+6	medizinische	medizinisch	ADJ	_	_	_	_	_	_
+7	Behandlung	Behandlung	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	Anspruch	Anspruch	NOUN	_	_	_	_	_	_
+10	nehmen	nehmen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_787
+# text = Die private Krankenversicherung ist oft teurer, bietet aber mehr Leistungen.
+1	Die	der	DET	_	_	_	_	_	_
+2	private	privat	ADJ	_	_	_	_	_	_
+3	Krankenversicherung	Krankenversicherung	NOUN	_	_	_	_	_	_
+4	ist	sein	AUX	_	_	_	_	_	_
+5	oft	oft	ADV	_	_	_	_	_	_
+6	teurer	teuer	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bietet	bieten	VERB	_	_	_	_	_	_
+9	aber	aber	CCONJ	_	_	_	_	_	_
+10	mehr	mehr	DET	_	_	_	_	_	_
+11	Leistungen	Leistung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_788
+# text = Termine bei dem Hausarzt sind in vielen Städten schwer kurzfristig zu bekommen.
+1	Termine	Termin	NOUN	_	_	_	_	_	_
+2	bei	bei	ADP	_	_	_	_	_	_
+3	dem	der	DET	_	_	_	_	_	_
+4	Hausarzt	Hausarzt	NOUN	_	_	_	_	_	_
+5	sind	sein	AUX	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	vielen	viel	DET	_	_	_	_	_	_
+8	Städten	Stadt	NOUN	_	_	_	_	_	_
+9	schwer	schwer	ADJ	_	_	_	_	_	_
+10	kurzfristig	kurzfristig	ADJ	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	bekommen	bekommen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_789
+# text = Er musste wegen der Operation mehrere Wochen in dem Krankenhaus bleiben.
+1	Er	er	PRON	_	_	_	_	_	_
+2	musste	müssen	VERB	_	_	_	_	_	_
+3	wegen	wegen	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Operation	Operation	NOUN	_	_	_	_	_	_
+6	mehrere	mehr	DET	_	_	_	_	_	_
+7	Wochen	Woche	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	dem	der	DET	_	_	_	_	_	_
+10	Krankenhaus	Krankenhaus	NOUN	_	_	_	_	_	_
+11	bleiben	bleiben	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_790
+# text = Die Familienversicherung gilt für Ehepartner und Kinder ohne zusätzlichen Beitrag.
+1	Die	der	DET	_	_	_	_	_	_
+2	Familienversicherung	Familienversicherung	NOUN	_	_	_	_	_	_
+3	gilt	gelten	VERB	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	Ehepartner	Ehepartner	NOUN	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	Kinder	Kind	NOUN	_	_	_	_	_	_
+8	ohne	ohne	ADP	_	_	_	_	_	_
+9	zusätzlichen	zusätzlich	ADJ	_	_	_	_	_	_
+10	Beitrag	Beitrag	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_791
+# text = Ich habe mich bei der Krankenkasse über Zusatzleistungen für Physiotherapie informiert.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	bei	bei	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Krankenkasse	Krankenkasse	NOUN	_	_	_	_	_	_
+7	über	über	ADP	_	_	_	_	_	_
+8	Zusatzleistungen	Zusatzleistung	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	Physiotherapie	Physiotherapie	NOUN	_	_	_	_	_	_
+11	informiert	informieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_792
+# text = Bei einem Notfall sollte man die Nummer einhunderteinzwölf sofort anrufen.
+1	Bei	bei	ADP	_	_	_	_	_	_
+2	einem	ein	DET	_	_	_	_	_	_
+3	Notfall	Notfall	NOUN	_	_	_	_	_	_
+4	sollte	sollen	VERB	_	_	_	_	_	_
+5	man	man	PRON	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Nummer	Nummer	NOUN	_	_	_	_	_	_
+8	einhunderteinzwölf	einhunderteinzwölf	NUM	_	_	_	_	_	_
+9	sofort	sofort	ADV	_	_	_	_	_	_
+10	anrufen	anrufen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_793
+# text = Die Kasse hat die Rechnung für die ambulante Behandlung innerhalb von zwei Wochen bezahlt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kasse	Kasse	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	ambulante	ambulant	ADJ	_	_	_	_	_	_
+9	Behandlung	Behandlung	NOUN	_	_	_	_	_	_
+10	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+11	von	von	ADP	_	_	_	_	_	_
+12	zwei	zwei	NUM	_	_	_	_	_	_
+13	Wochen	Woche	NOUN	_	_	_	_	_	_
+14	bezahlt	bezahlen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_794
+# text = Man muss Krankmeldungen von dem Arzt spätestens an dem dritten Tag vorlegen.
+1	Man	man	PRON	_	_	_	_	_	_
+2	muss	müssen	VERB	_	_	_	_	_	_
+3	Krankmeldungen	Krankmeldung	NOUN	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Arzt	Arzt	NOUN	_	_	_	_	_	_
+7	spätestens	spätestens	ADV	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	dem	der	DET	_	_	_	_	_	_
+10	dritten	dritt	ADJ	_	_	_	_	_	_
+11	Tag	Tag	NOUN	_	_	_	_	_	_
+12	vorlegen	vorlegen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_795
+# text = Viele Versicherte nutzen mittlerweile Online - Termine über Apps ihrer Krankenkassen.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Versicherte	Versichert	NOUN	_	_	_	_	_	_
+3	nutzen	nutzen	VERB	_	_	_	_	_	_
+4	mittlerweile	mittlerweile	ADV	_	_	_	_	_	_
+5	Online	Online	NOUN	_	_	_	_	_	_
+6	-	-	PUNCT	_	_	_	_	_	_
+7	Termine	Termin	NOUN	_	_	_	_	_	_
+8	über	über	ADP	_	_	_	_	_	_
+9	Apps	App	NOUN	_	_	_	_	_	_
+10	ihrer	ihr	DET	_	_	_	_	_	_
+11	Krankenkassen	Krankenkasse	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_796
+# text = Die Gesundheitskarte muss bei jedem Arztbesuch zu der Legitimation mitgebracht werden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Gesundheitskarte	Gesundheitskarte	NOUN	_	_	_	_	_	_
+3	muss	müssen	VERB	_	_	_	_	_	_
+4	bei	bei	ADP	_	_	_	_	_	_
+5	jedem	jed	DET	_	_	_	_	_	_
+6	Arztbesuch	Arztbesuch	NOUN	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Legitimation	Legitimation	NOUN	_	_	_	_	_	_
+10	mitgebracht	mitbringen	VERB	_	_	_	_	_	_
+11	werden	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_797
+# text = Ich finde die Wartezeiten in Praxen oft zu lang und sehr ärgerlich.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Wartezeiten	Wartezeit	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	Praxen	Praxis	NOUN	_	_	_	_	_	_
+7	oft	oft	ADV	_	_	_	_	_	_
+8	zu	zu	PART	_	_	_	_	_	_
+9	lang	lang	ADJ	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	ärgerlich	ärgerlich	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_798
+# text = Der Arbeitgeber zahlt während der Krankheit sechs Wochen lang das Gehalt weiter.
+1	Der	der	DET	_	_	_	_	_	_
+2	Arbeitgeber	Arbeitgeber	NOUN	_	_	_	_	_	_
+3	zahlt	zahlen	VERB	_	_	_	_	_	_
+4	während	während	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Krankheit	Krankheit	NOUN	_	_	_	_	_	_
+7	sechs	sechs	NUM	_	_	_	_	_	_
+8	Wochen	Woche	NOUN	_	_	_	_	_	_
+9	lang	lang	ADJ	_	_	_	_	_	_
+10	das	der	DET	_	_	_	_	_	_
+11	Gehalt	Gehalt	NOUN	_	_	_	_	_	_
+12	weiter	weiter	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_799
+# text = Die Versicherung übernimmt nur Kosten, die medizinisch wirklich notwendig sind.
+1	Die	der	DET	_	_	_	_	_	_
+2	Versicherung	Versicherung	NOUN	_	_	_	_	_	_
+3	übernimmt	übernehmen	VERB	_	_	_	_	_	_
+4	nur	nur	ADV	_	_	_	_	_	_
+5	Kosten	Kosten	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	medizinisch	medizinisch	ADJ	_	_	_	_	_	_
+9	wirklich	wirklich	ADJ	_	_	_	_	_	_
+10	notwendig	notwendig	ADJ	_	_	_	_	_	_
+11	sind	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_800
+# text = Wir haben in dem Krankenhaus eine mehrsprachige Beratung zu Pflegeleistungen erhalten.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Krankenhaus	Krankenhaus	NOUN	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	mehrsprachige	mehrsprachig	ADJ	_	_	_	_	_	_
+8	Beratung	Beratung	NOUN	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	Pflegeleistungen	Pflegeleistung	NOUN	_	_	_	_	_	_
+11	erhalten	erhalten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_801
+# text = Für Zahnbehandlungen gibt es besondere Regeln zu der Kostenübernahme durch die Kasse.
+1	Für	für	ADP	_	_	_	_	_	_
+2	Zahnbehandlungen	Zahnbehandlung	NOUN	_	_	_	_	_	_
+3	gibt	geben	VERB	_	_	_	_	_	_
+4	es	es	PRON	_	_	_	_	_	_
+5	besondere	besonder	ADJ	_	_	_	_	_	_
+6	Regeln	Regel|Regeln	NOUN	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Kostenübernahme	Kostenübernahme	NOUN	_	_	_	_	_	_
+10	durch	durch	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Kasse	Kasse	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_802
+# text = Ich habe mich nach einem Unfall sofort in der nächsten Notaufnahme gemeldet.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	Unfall	Unfall	NOUN	_	_	_	_	_	_
+7	sofort	sofort	ADV	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	nächsten	nah	ADJ	_	_	_	_	_	_
+11	Notaufnahme	Notaufnahme	NOUN	_	_	_	_	_	_
+12	gemeldet	melden	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_803
+# text = Die Beiträge zu der Krankenversicherung steigen in den letzten Jahren stetig an.
+1	Die	der	DET	_	_	_	_	_	_
+2	Beiträge	Beitrag	NOUN	_	_	_	_	_	_
+3	zu	zu	PART	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Krankenversicherung	Krankenversicherung	NOUN	_	_	_	_	_	_
+6	steigen	steigen	VERB	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	letzten	letzt	ADJ	_	_	_	_	_	_
+10	Jahren	Jahr	NOUN	_	_	_	_	_	_
+11	stetig	stetig	ADJ	_	_	_	_	_	_
+12	an	an	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_804
+# text = Jeder Versicherte hat das Recht, seine Krankenkasse einmal in dem Jahr zu wechseln.
+1	Jeder	jeder	DET	_	_	_	_	_	_
+2	Versicherte	Versichert	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Recht	Recht	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	seine	sein	DET	_	_	_	_	_	_
+8	Krankenkasse	Krankenkasse	NOUN	_	_	_	_	_	_
+9	einmal	einmal	ADV	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	dem	der	DET	_	_	_	_	_	_
+12	Jahr	Jahr	NOUN	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	wechseln	wechseln	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_805
+# text = Die Stadt plant, in dem Zentrum mehr Fahrradwege und Grünflächen anzulegen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stadt	Stadt	NOUN	_	_	_	_	_	_
+3	plant	planen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Zentrum	Zentrum	NOUN	_	_	_	_	_	_
+8	mehr	mehr	DET	_	_	_	_	_	_
+9	Fahrradwege	Fahrradweg	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Grünflächen	Grünfläche	NOUN	_	_	_	_	_	_
+12	anzulegen	anlegen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_806
+# text = In unserem Viertel wird gerade ein neues Wohnprojekt mit günstigen Mietwohnungen gebaut.
+1	In	in	ADP	_	_	_	_	_	_
+2	unserem	unser	DET	_	_	_	_	_	_
+3	Viertel	Viertel	NOUN	_	_	_	_	_	_
+4	wird	werden	AUX	_	_	_	_	_	_
+5	gerade	gerade	ADV	_	_	_	_	_	_
+6	ein	ein	DET	_	_	_	_	_	_
+7	neues	neu	ADJ	_	_	_	_	_	_
+8	Wohnprojekt	Wohnprojekt	NOUN	_	_	_	_	_	_
+9	mit	mit	ADP	_	_	_	_	_	_
+10	günstigen	günstig	ADJ	_	_	_	_	_	_
+11	Mietwohnungen	Mietwohnung	NOUN	_	_	_	_	_	_
+12	gebaut	bauen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_807
+# text = Der Bau einer Straßenbahnlinie soll den Verkehr in der Innenstadt spürbar entlasten.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bau	Bau	NOUN	_	_	_	_	_	_
+3	einer	ein	DET	_	_	_	_	_	_
+4	Straßenbahnlinie	Straßenbahnlinie	NOUN	_	_	_	_	_	_
+5	soll	sollen	VERB	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Verkehr	Verkehr	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Innenstadt	Innenstadt	NOUN	_	_	_	_	_	_
+11	spürbar	spürbar	ADJ	_	_	_	_	_	_
+12	entlasten	entlasten	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_808
+# text = Viele Bürger haben auf der öffentlichen Sitzung über die Verkehrsplanung diskutiert.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Bürger	Bürger	NOUN	_	_	_	_	_	_
+3	haben	haben	AUX	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	öffentlichen	öffentlich	ADJ	_	_	_	_	_	_
+7	Sitzung	Sitzung	NOUN	_	_	_	_	_	_
+8	über	über	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Verkehrsplanung	Verkehrsplanung	NOUN	_	_	_	_	_	_
+11	diskutiert	diskutieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_809
+# text = Die Fußgängerzone wurde letztes Jahr erweitert, um mehr Platz für Cafés zu schaffen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Fußgängerzone	Fußgängerzone	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	letztes	letzt	ADJ	_	_	_	_	_	_
+5	Jahr	Jahr	NOUN	_	_	_	_	_	_
+6	erweitert	erweitern	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	um	um	ADP	_	_	_	_	_	_
+9	mehr	mehr	DET	_	_	_	_	_	_
+10	Platz	Platz	NOUN	_	_	_	_	_	_
+11	für	für	ADP	_	_	_	_	_	_
+12	Cafés	Café	NOUN	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	schaffen	schaffen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_810
+# text = Hohe Mieten sind in Großstädten ein drängendes Problem der Stadtentwicklung.
+1	Hohe	hoch	ADJ	_	_	_	_	_	_
+2	Mieten	Miete	NOUN	_	_	_	_	_	_
+3	sind	sein	AUX	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	Großstädten	Großstadt	NOUN	_	_	_	_	_	_
+6	ein	ein	DET	_	_	_	_	_	_
+7	drängendes	drängend	ADJ	_	_	_	_	_	_
+8	Problem	Problem	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Stadtentwicklung	Stadtentwicklung	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_811
+# text = Wir brauchen mehr bezahlbaren Wohnraum für Familien und junge Paare.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	brauchen	brauchen	VERB	_	_	_	_	_	_
+3	mehr	mehr	DET	_	_	_	_	_	_
+4	bezahlbaren	bezahlbar	ADJ	_	_	_	_	_	_
+5	Wohnraum	Wohnraum	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	Familien	Familie	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	junge	jung	ADJ	_	_	_	_	_	_
+10	Paare	Paar	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_812
+# text = Der Stadtrat hat beschlossen, einen weiteren Park in dem Stadtteil zu eröffnen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Stadtrat	Stadtrat	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	beschlossen	beschließen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	einen	ein	DET	_	_	_	_	_	_
+7	weiteren	weit	ADJ	_	_	_	_	_	_
+8	Park	Park	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	dem	der	DET	_	_	_	_	_	_
+11	Stadtteil	Stadtteil	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	eröffnen	eröffnen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_813
+# text = Die Lärmbelastung an der Hauptstraße belastet viele Anwohner seit Jahren stark.
+1	Die	der	DET	_	_	_	_	_	_
+2	Lärmbelastung	Lärmbelastung	NOUN	_	_	_	_	_	_
+3	an	an	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Hauptstraße	Hauptstraße	NOUN	_	_	_	_	_	_
+6	belastet	belasten	VERB	_	_	_	_	_	_
+7	viele	viel	DET	_	_	_	_	_	_
+8	Anwohner	Anwohner	NOUN	_	_	_	_	_	_
+9	seit	seit	ADP	_	_	_	_	_	_
+10	Jahren	Jahr	NOUN	_	_	_	_	_	_
+11	stark	stark	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_814
+# text = Das neue Stadtviertel hat Schulen, Läden und eine gute Anbindung an den ÖPNV.
+1	Das	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Stadtviertel	Stadtviertel	NOUN	_	_	_	_	_	_
+4	hat	haben	AUX	_	_	_	_	_	_
+5	Schulen	Schule	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	Läden	Laden	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	gute	gut	ADJ	_	_	_	_	_	_
+11	Anbindung	Anbindung	NOUN	_	_	_	_	_	_
+12	an	an	ADP	_	_	_	_	_	_
+13	den	der	DET	_	_	_	_	_	_
+14	ÖPNV	ÖPNV	PROPN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_815
+# text = Die Sanierung der alten Fabrikhalle dauert voraussichtlich noch zwei Jahre.
+1	Die	der	DET	_	_	_	_	_	_
+2	Sanierung	Sanierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	alten	alt	ADJ	_	_	_	_	_	_
+5	Fabrikhalle	Fabrikhalle	NOUN	_	_	_	_	_	_
+6	dauert	dauern	VERB	_	_	_	_	_	_
+7	voraussichtlich	voraussichtlich	ADJ	_	_	_	_	_	_
+8	noch	noch	ADV	_	_	_	_	_	_
+9	zwei	zwei	NUM	_	_	_	_	_	_
+10	Jahre	Jahr	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_816
+# text = Ich finde, dass mehr Bäume in den Straßen das Stadtklima deutlich verbessern.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dass	dass	SCONJ	_	_	_	_	_	_
+5	mehr	mehr	DET	_	_	_	_	_	_
+6	Bäume	Baum	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Straßen	Straße	NOUN	_	_	_	_	_	_
+10	das	der	DET	_	_	_	_	_	_
+11	Stadtklima	Stadtklima	NOUN	_	_	_	_	_	_
+12	deutlich	deutlich	ADJ	_	_	_	_	_	_
+13	verbessern	verbessern	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_817
+# text = Der Abriss des leerstehenden Gebäudes wurde wegen Denkmalschutz zunächst gestoppt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Abriss	Abriß	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	leerstehenden	leerstehend	ADJ	_	_	_	_	_	_
+5	Gebäudes	Gebäude	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	wegen	wegen	ADP	_	_	_	_	_	_
+8	Denkmalschutz	Denkmalschutz	NOUN	_	_	_	_	_	_
+9	zunächst	zunächst	ADV	_	_	_	_	_	_
+10	gestoppt	stoppen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_818
+# text = Die Stadtverwaltung fördert energetische Sanierungen bei alten Wohngebäuden aktiv.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stadtverwaltung	Stadtverwaltung	NOUN	_	_	_	_	_	_
+3	fördert	fördern	VERB	_	_	_	_	_	_
+4	energetische	energetisch	ADJ	_	_	_	_	_	_
+5	Sanierungen	Sanierung	NOUN	_	_	_	_	_	_
+6	bei	bei	ADP	_	_	_	_	_	_
+7	alten	alt	ADJ	_	_	_	_	_	_
+8	Wohngebäuden	Wohngebäude	NOUN	_	_	_	_	_	_
+9	aktiv	aktiv	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_819
+# text = Auf dem ehemaligen Industriegelände entstehen neue Wohnungen und kleine Läden.
+1	Auf	auf	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	ehemaligen	ehemalig	ADJ	_	_	_	_	_	_
+4	Industriegelände	Industriegelände	NOUN	_	_	_	_	_	_
+5	entstehen	entstehen	VERB	_	_	_	_	_	_
+6	neue	neu	ADJ	_	_	_	_	_	_
+7	Wohnungen	Wohnung	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	kleine	klein	ADJ	_	_	_	_	_	_
+10	Läden	Laden	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_820
+# text = Wir setzen uns für eine Tempo - dreißig - Zone vor der Schule ein.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	setzen	setzen	VERB	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	Tempo	Tempo	NOUN	_	_	_	_	_	_
+7	-	-	PUNCT	_	_	_	_	_	_
+8	dreißig	Dreißig	NOUN	_	_	_	_	_	_
+9	-	-	PUNCT	_	_	_	_	_	_
+10	Zone	Zone	NOUN	_	_	_	_	_	_
+11	vor	vor	ADP	_	_	_	_	_	_
+12	der	der	DET	_	_	_	_	_	_
+13	Schule	Schule	NOUN	_	_	_	_	_	_
+14	ein	ein	DET	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_821
+# text = Die Bebauungspläne für das Gewerbegebiet liegen ab Montag in dem Rathaus aus.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bebauungspläne	Bebauungsplan	NOUN	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Gewerbegebiet	Gewerbegebiet	NOUN	_	_	_	_	_	_
+6	liegen	liegen	VERB	_	_	_	_	_	_
+7	ab	ab	ADP	_	_	_	_	_	_
+8	Montag	Montag	PROPN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	dem	der	DET	_	_	_	_	_	_
+11	Rathaus	Rathaus	NOUN	_	_	_	_	_	_
+12	aus	aus	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_822
+# text = Der Mangel an Parkplätzen führt in der Innenstadt regelmäßig zu langen Staus.
+1	Der	der	DET	_	_	_	_	_	_
+2	Mangel	Mangel	NOUN	_	_	_	_	_	_
+3	an	an	ADP	_	_	_	_	_	_
+4	Parkplätzen	Parkplatz	NOUN	_	_	_	_	_	_
+5	führt	führen	VERB	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Innenstadt	Innenstadt	NOUN	_	_	_	_	_	_
+9	regelmäßig	regelmäßig	ADJ	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	langen	lang	ADJ	_	_	_	_	_	_
+12	Staus	Stau	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_823
+# text = In vielen Vierteln werden leerstehende Wohnungen in Wohnungen für Studierende umgewandelt.
+1	In	in	ADP	_	_	_	_	_	_
+2	vielen	viel	DET	_	_	_	_	_	_
+3	Vierteln	Viertel	NOUN	_	_	_	_	_	_
+4	werden	werden	AUX	_	_	_	_	_	_
+5	leerstehende	leerstehend	ADJ	_	_	_	_	_	_
+6	Wohnungen	Wohnung	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	Wohnungen	Wohnung	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	Studierende	Studierende	NOUN	_	_	_	_	_	_
+11	umgewandelt	umwandeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_824
+# text = Die Stadt investiert jährlich Millionen in den Ausbau des öffentlichen Nahverkehrs.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stadt	Stadt	NOUN	_	_	_	_	_	_
+3	investiert	investieren	VERB	_	_	_	_	_	_
+4	jährlich	jährlich	ADJ	_	_	_	_	_	_
+5	Millionen	Million	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Ausbau	Ausbau	NOUN	_	_	_	_	_	_
+9	des	der	DET	_	_	_	_	_	_
+10	öffentlichen	öffentlich	ADJ	_	_	_	_	_	_
+11	Nahverkehrs	Nahverkehr	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_825
+# text = Ich wohne gern in einem lebendigen Viertel mit kurzen Wegen zu allen Geschäften.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	wohne	wohnen	VERB	_	_	_	_	_	_
+3	gern	gern	ADV	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	lebendigen	lebendig	ADJ	_	_	_	_	_	_
+7	Viertel	Viertel	NOUN	_	_	_	_	_	_
+8	mit	mit	ADP	_	_	_	_	_	_
+9	kurzen	kurz	ADJ	_	_	_	_	_	_
+10	Wegen	wegen	ADP	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	allen	alle	DET	_	_	_	_	_	_
+13	Geschäften	Geschäft	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_826
+# text = Der neue Stadtplan sieht vor, mehr öffentlichen Raum für Märkte zu schaffen.
+1	Der	der	DET	_	_	_	_	_	_
+2	neue	neu	ADJ	_	_	_	_	_	_
+3	Stadtplan	Stadtplan	NOUN	_	_	_	_	_	_
+4	sieht	sehen	VERB	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mehr	mehr	DET	_	_	_	_	_	_
+8	öffentlichen	öffentlich	ADJ	_	_	_	_	_	_
+9	Raum	Raum	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	Märkte	Markt	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	schaffen	schaffen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_827
+# text = Viele Menschen wünschen sich weniger Autoverkehr und mehr sichere Radwege.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Menschen	Mensch	NOUN	_	_	_	_	_	_
+3	wünschen	wünschen	VERB	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	weniger	wenig	DET	_	_	_	_	_	_
+6	Autoverkehr	Autoverkehr	NOUN	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	mehr	mehr	DET	_	_	_	_	_	_
+9	sichere	sicher	ADJ	_	_	_	_	_	_
+10	Radwege	Radweg	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_828
+# text = Die Wohnungsbauprämie soll Familien bei dem Kauf einer eigenen Wohnung unterstützen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Wohnungsbauprämie	Wohnungsbauprämie	NOUN	_	_	_	_	_	_
+3	soll	sollen	VERB	_	_	_	_	_	_
+4	Familien	Familie	NOUN	_	_	_	_	_	_
+5	bei	bei	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Kauf	Kauf	NOUN	_	_	_	_	_	_
+8	einer	ein	DET	_	_	_	_	_	_
+9	eigenen	eigen	ADJ	_	_	_	_	_	_
+10	Wohnung	Wohnung	NOUN	_	_	_	_	_	_
+11	unterstützen	unterstützen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_829
+# text = Ohne eine gute Infrastruktur verliert ein Stadtteil langfristig an Lebensqualität.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	eine	ein	DET	_	_	_	_	_	_
+3	gute	gut	ADJ	_	_	_	_	_	_
+4	Infrastruktur	Infrastruktur	NOUN	_	_	_	_	_	_
+5	verliert	verlieren	VERB	_	_	_	_	_	_
+6	ein	ein	DET	_	_	_	_	_	_
+7	Stadtteil	Stadtteil	NOUN	_	_	_	_	_	_
+8	langfristig	langfristig	ADJ	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	Lebensqualität	Lebensqualität	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_830
+# text = Ich poste abends oft Fotos von meinen Reisen auf Instagram.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	poste	posen	VERB	_	_	_	_	_	_
+3	abends	abends	ADV	_	_	_	_	_	_
+4	oft	oft	ADV	_	_	_	_	_	_
+5	Fotos	Foto	NOUN	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	meinen	mein	DET	_	_	_	_	_	_
+8	Reisen	Reise	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	Instagram	Instagram	PROPN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_831
+# text = Viele Jugendliche verbringen täglich mehrere Stunden in sozialen Netzwerken.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Jugendliche	Jugendliche	NOUN	_	_	_	_	_	_
+3	verbringen	verbringen	VERB	_	_	_	_	_	_
+4	täglich	täglich	ADJ	_	_	_	_	_	_
+5	mehrere	mehr	DET	_	_	_	_	_	_
+6	Stunden	Stunde	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	sozialen	sozial	ADJ	_	_	_	_	_	_
+9	Netzwerken	Netzwerk	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_832
+# text = Man sollte vorsichtig sein, welche persönlichen Daten man online teilt.
+1	Man	man	PRON	_	_	_	_	_	_
+2	sollte	sollen	VERB	_	_	_	_	_	_
+3	vorsichtig	vorsichtig	ADJ	_	_	_	_	_	_
+4	sein	sein	DET	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	welche	welcher	DET	_	_	_	_	_	_
+7	persönlichen	persönlich	ADJ	_	_	_	_	_	_
+8	Daten	Datum	NOUN	_	_	_	_	_	_
+9	man	man	PRON	_	_	_	_	_	_
+10	online	online	ADJ	_	_	_	_	_	_
+11	teilt	teilen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_833
+# text = Er hat mir gestern eine interessante Nachricht über WhatsApp geschickt.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	gestern	gestern	ADV	_	_	_	_	_	_
+5	eine	ein	DET	_	_	_	_	_	_
+6	interessante	interessant	ADJ	_	_	_	_	_	_
+7	Nachricht	Nachricht	NOUN	_	_	_	_	_	_
+8	über	über	ADP	_	_	_	_	_	_
+9	WhatsApp	WhatsApp	PROPN	_	_	_	_	_	_
+10	geschickt	schicken	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_834
+# text = Die Influencerin bewirbt auf ihrem Kanal regelmäßig neue Beauty - Produkte.
+1	Die	der	DET	_	_	_	_	_	_
+2	Influencerin	Influencerin	NOUN	_	_	_	_	_	_
+3	bewirbt	bewerben	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	ihrem	ihr	DET	_	_	_	_	_	_
+6	Kanal	Kanal	NOUN	_	_	_	_	_	_
+7	regelmäßig	regelmäßig	ADJ	_	_	_	_	_	_
+8	neue	neu	ADJ	_	_	_	_	_	_
+9	Beauty	Beauty	NOUN	_	_	_	_	_	_
+10	-	-	PUNCT	_	_	_	_	_	_
+11	Produkte	Produkt	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_835
+# text = Ich folge mehreren deutschen Nachrichtenseiten auch auf Facebook und Twitter.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	folge	folgen	VERB	_	_	_	_	_	_
+3	mehreren	mehr	DET	_	_	_	_	_	_
+4	deutschen	deutsch	ADJ	_	_	_	_	_	_
+5	Nachrichtenseiten	Nachrichtenseite	NOUN	_	_	_	_	_	_
+6	auch	auch	ADV	_	_	_	_	_	_
+7	auf	auf	ADP	_	_	_	_	_	_
+8	Facebook	Facebook	PROPN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Twitter	Twitter	PROPN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_836
+# text = Cybermobbing ist leider ein ernstes Problem an vielen Schulen geworden.
+1	Cybermobbing	Cybermobbing	PROPN	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	leider	leider	ADV	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	ernstes	ernst	ADJ	_	_	_	_	_	_
+6	Problem	Problem	NOUN	_	_	_	_	_	_
+7	an	an	ADP	_	_	_	_	_	_
+8	vielen	viel	DET	_	_	_	_	_	_
+9	Schulen	Schule	NOUN	_	_	_	_	_	_
+10	geworden	werden	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_837
+# text = Wir haben ein privates Album mit Familienfotos nur für Verwandte erstellt.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	privates	privat	ADJ	_	_	_	_	_	_
+5	Album	Album	NOUN	_	_	_	_	_	_
+6	mit	mit	ADP	_	_	_	_	_	_
+7	Familienfotos	Familienfoto	NOUN	_	_	_	_	_	_
+8	nur	nur	ADV	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	Verwandte	Verwandte|Verwandter	NOUN	_	_	_	_	_	_
+11	erstellt	erstellen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_838
+# text = Der Beitrag wurde innerhalb einer Stunde tausende Male geteilt und kommentiert.
+1	Der	der	DET	_	_	_	_	_	_
+2	Beitrag	Beitrag	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+5	einer	ein	DET	_	_	_	_	_	_
+6	Stunde	Stunde	NOUN	_	_	_	_	_	_
+7	tausende	tausende	NUM	_	_	_	_	_	_
+8	Male	Mal	NOUN	_	_	_	_	_	_
+9	geteilt	teilen	VERB	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	kommentiert	kommentieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_839
+# text = Ich lösche regelmäßig alte Posts, die ich nicht mehr online haben möchte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	lösche	löschen	VERB	_	_	_	_	_	_
+3	regelmäßig	regelmäßig	ADJ	_	_	_	_	_	_
+4	alte	alt	ADJ	_	_	_	_	_	_
+5	Posts	Post	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	nicht	nicht	PART	_	_	_	_	_	_
+10	mehr	mehr	DET	_	_	_	_	_	_
+11	online	online	ADJ	_	_	_	_	_	_
+12	haben	haben	AUX	_	_	_	_	_	_
+13	möchte	mögen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_840
+# text = Viele Nutzer lesen nur Schlagzeilen, ohne den ganzen Artikel zu öffnen.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Nutzer	Nutzer	NOUN	_	_	_	_	_	_
+3	lesen	lesen	VERB	_	_	_	_	_	_
+4	nur	nur	ADV	_	_	_	_	_	_
+5	Schlagzeilen	Schlagzeile	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	ohne	ohne	ADP	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	ganzen	ganz	ADJ	_	_	_	_	_	_
+10	Artikel	Artikel	NOUN	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	öffnen	öffnen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_841
+# text = Sie hat ihr Passwort geändert, weil ihr Account gehackt worden war.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	ihr	ihr	DET	_	_	_	_	_	_
+4	Passwort	Paßwort	NOUN	_	_	_	_	_	_
+5	geändert	ändern	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	ihr	ihr	DET	_	_	_	_	_	_
+9	Account	Account	NOUN	_	_	_	_	_	_
+10	gehackt	hacken	VERB	_	_	_	_	_	_
+11	worden	werden	AUX	_	_	_	_	_	_
+12	war	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_842
+# text = Auf TikTok lernen manche Jugendliche Sprachen mit kurzen unterhaltsamen Videos.
+1	Auf	auf	ADP	_	_	_	_	_	_
+2	TikTok	TikTok	PROPN	_	_	_	_	_	_
+3	lernen	lernen	VERB	_	_	_	_	_	_
+4	manche	mancher	DET	_	_	_	_	_	_
+5	Jugendliche	Jugendliche	NOUN	_	_	_	_	_	_
+6	Sprachen	Sprache	NOUN	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	kurzen	kurz	ADJ	_	_	_	_	_	_
+9	unterhaltsamen	unterhaltsam	ADJ	_	_	_	_	_	_
+10	Videos	Video	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_843
+# text = Die Plattform hat neue Regeln gegen Hasskommentare und falsche Informationen eingeführt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Plattform	Plattform	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	neue	neu	ADJ	_	_	_	_	_	_
+5	Regeln	Regel|Regeln	NOUN	_	_	_	_	_	_
+6	gegen	gegen	ADP	_	_	_	_	_	_
+7	Hasskommentare	Hasskommentar	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	falsche	falsch	ADJ	_	_	_	_	_	_
+10	Informationen	Information	NOUN	_	_	_	_	_	_
+11	eingeführt	einführen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_844
+# text = Ich finde, dass zu viel Bildschirmzeit die Konzentration in der Schule stört.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dass	dass	SCONJ	_	_	_	_	_	_
+5	zu	zu	PART	_	_	_	_	_	_
+6	viel	viel	DET	_	_	_	_	_	_
+7	Bildschirmzeit	Bildschirmzeit	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Konzentration	Konzentration	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Schule	Schule	NOUN	_	_	_	_	_	_
+13	stört	stören	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_845
+# text = Er streamt jeden Freitag live und spricht dabei mit seinen Followern.
+1	Er	er	PRON	_	_	_	_	_	_
+2	streamt	streamen	VERB	_	_	_	_	_	_
+3	jeden	jed	DET	_	_	_	_	_	_
+4	Freitag	Freitag	PROPN	_	_	_	_	_	_
+5	live	live	ADJ	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	spricht	sprechen	VERB	_	_	_	_	_	_
+8	dabei	dabei	ADV	_	_	_	_	_	_
+9	mit	mit	ADP	_	_	_	_	_	_
+10	seinen	sein	DET	_	_	_	_	_	_
+11	Followern	Follower	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_846
+# text = Man kann in Foren oft hilfreiche Tipps von anderen Nutzern bekommen.
+1	Man	man	PRON	_	_	_	_	_	_
+2	kann	können	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Foren	Forum	NOUN	_	_	_	_	_	_
+5	oft	oft	ADV	_	_	_	_	_	_
+6	hilfreiche	hilfreich	ADJ	_	_	_	_	_	_
+7	Tipps	Tip	NOUN	_	_	_	_	_	_
+8	von	von	ADP	_	_	_	_	_	_
+9	anderen	anderer	DET	_	_	_	_	_	_
+10	Nutzern	Nutzern	NOUN	_	_	_	_	_	_
+11	bekommen	bekommen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_847
+# text = Wir haben eine Gruppe für Nachbarn gegründet, um lokale Infos auszutauschen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Gruppe	Gruppe	NOUN	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	Nachbarn	Nachbar	NOUN	_	_	_	_	_	_
+7	gegründet	gründen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	um	um	ADP	_	_	_	_	_	_
+10	lokale	lokal	ADJ	_	_	_	_	_	_
+11	Infos	Info	NOUN	_	_	_	_	_	_
+12	auszutauschen	austauschen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_848
+# text = Der Algorithmus zeigt mir häufig Inhalte, die meinen bisherigen Interessen ähneln.
+1	Der	der	DET	_	_	_	_	_	_
+2	Algorithmus	Algorithmus	NOUN	_	_	_	_	_	_
+3	zeigt	zeigen	VERB	_	_	_	_	_	_
+4	mir	ich	PRON	_	_	_	_	_	_
+5	häufig	häufig	ADJ	_	_	_	_	_	_
+6	Inhalte	Inhalt	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	meinen	mein	DET	_	_	_	_	_	_
+10	bisherigen	bisherig	ADJ	_	_	_	_	_	_
+11	Interessen	Interesse	NOUN	_	_	_	_	_	_
+12	ähneln	ähneln	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_849
+# text = Ich schalte Benachrichtigungen ab, damit mich keine ständigen Nachrichten ablenken.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	schalte	schalten	VERB	_	_	_	_	_	_
+3	Benachrichtigungen	Benachrichtigung	NOUN	_	_	_	_	_	_
+4	ab	ab	ADP	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	damit	damit	SCONJ	_	_	_	_	_	_
+7	mich	ich	PRON	_	_	_	_	_	_
+8	keine	kein	DET	_	_	_	_	_	_
+9	ständigen	ständig	ADJ	_	_	_	_	_	_
+10	Nachrichten	Nachricht	NOUN	_	_	_	_	_	_
+11	ablenken	ablenken	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_850
+# text = Viele Unternehmen nutzen soziale Medien heute gezielt für Marketing und Werbung.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+3	nutzen	nutzen	VERB	_	_	_	_	_	_
+4	soziale	sozial	ADJ	_	_	_	_	_	_
+5	Medien	Medium	NOUN	_	_	_	_	_	_
+6	heute	heute	ADV	_	_	_	_	_	_
+7	gezielt	gezielt	ADJ	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	Marketing	Marketing	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Werbung	Werbung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_851
+# text = Sie hat ein Video hochgeladen, das in wenigen Tagen viral gegangen ist.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	Video	Video	NOUN	_	_	_	_	_	_
+5	hochgeladen	hochladen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	das	der	DET	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	wenigen	wenig	DET	_	_	_	_	_	_
+10	Tagen	Tag	NOUN	_	_	_	_	_	_
+11	viral	viral	ADJ	_	_	_	_	_	_
+12	gegangen	gehen	VERB	_	_	_	_	_	_
+13	ist	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_852
+# text = Datenschutz ist wichtig, wenn man sich auf neuen Plattformen registriert.
+1	Datenschutz	Datenschutz	NOUN	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wenn	wenn	SCONJ	_	_	_	_	_	_
+6	man	man	PRON	_	_	_	_	_	_
+7	sich	sich	PRON	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	neuen	neu	ADJ	_	_	_	_	_	_
+10	Plattformen	Plattform	NOUN	_	_	_	_	_	_
+11	registriert	registrieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_853
+# text = Ich versuche, in dem Internet nur Informationen aus vertrauenswürdigen Quellen zu teilen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	versuche	versuchen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Internet	Internet	NOUN	_	_	_	_	_	_
+7	nur	nur	ADV	_	_	_	_	_	_
+8	Informationen	Information	NOUN	_	_	_	_	_	_
+9	aus	aus	ADP	_	_	_	_	_	_
+10	vertrauenswürdigen	vertrauenswürdig	ADJ	_	_	_	_	_	_
+11	Quellen	Quelle	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	teilen	teilen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_854
+# text = Der Influencer rät seinen Followern, kritisch mit Online - Werbung umzugehen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Influencer	Influencer	NOUN	_	_	_	_	_	_
+3	rät	raten	VERB	_	_	_	_	_	_
+4	seinen	sein	DET	_	_	_	_	_	_
+5	Followern	Follower	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	kritisch	kritisch	ADJ	_	_	_	_	_	_
+8	mit	mit	ADP	_	_	_	_	_	_
+9	Online	Online	NOUN	_	_	_	_	_	_
+10	-	-	PUNCT	_	_	_	_	_	_
+11	Werbung	Werbung	NOUN	_	_	_	_	_	_
+12	umzugehen	umgehen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_855
+# text = Ich engagiere mich ehrenamtlich in einer Tafel und verteile Lebensmittel an Bedürftige.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	engagiere	engagieren	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	ehrenamtlich	ehrenamtlich	ADJ	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	einer	ein	DET	_	_	_	_	_	_
+7	Tafel	Tafel	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	verteile	verteilen	VERB	_	_	_	_	_	_
+10	Lebensmittel	Lebensmittel	NOUN	_	_	_	_	_	_
+11	an	an	ADP	_	_	_	_	_	_
+12	Bedürftige	Bedürftiger	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_856
+# text = Viele Freiwillige helfen in Asylheimen bei dem Sprachunterricht und bei Freizeitangeboten.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Freiwillige	Freiwillig	NOUN	_	_	_	_	_	_
+3	helfen	helfen	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	Asylheimen	Asylheim	NOUN	_	_	_	_	_	_
+6	bei	bei	ADP	_	_	_	_	_	_
+7	dem	der	DET	_	_	_	_	_	_
+8	Sprachunterricht	Sprachunterricht	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	bei	bei	ADP	_	_	_	_	_	_
+11	Freizeitangeboten	Freizeitangebot	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_857
+# text = Ohne ehrenamtliche Helfer könnten viele soziale Projekte gar nicht funktionieren.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	ehrenamtliche	ehrenamtlich	ADJ	_	_	_	_	_	_
+3	Helfer	Helfer	NOUN	_	_	_	_	_	_
+4	könnten	können	VERB	_	_	_	_	_	_
+5	viele	viel	DET	_	_	_	_	_	_
+6	soziale	sozial	ADJ	_	_	_	_	_	_
+7	Projekte	Projekt	NOUN	_	_	_	_	_	_
+8	gar	gar	ADV	_	_	_	_	_	_
+9	nicht	nicht	PART	_	_	_	_	_	_
+10	funktionieren	funktionieren	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_858
+# text = Sie spendet jeden Samstag zwei Stunden ihrer Zeit für die Stadtbibliothek.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	spendet	spenden	VERB	_	_	_	_	_	_
+3	jeden	jed	DET	_	_	_	_	_	_
+4	Samstag	Samstag	PROPN	_	_	_	_	_	_
+5	zwei	zwei	NUM	_	_	_	_	_	_
+6	Stunden	Stunde	NOUN	_	_	_	_	_	_
+7	ihrer	ihr	DET	_	_	_	_	_	_
+8	Zeit	Zeit	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Stadtbibliothek	Stadtbibliothek	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_859
+# text = In dem Tierheim suchen sie dringend Freiwillige für die Pflege der Hunde.
+1	In	in	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Tierheim	Tierheim	NOUN	_	_	_	_	_	_
+4	suchen	suchen	VERB	_	_	_	_	_	_
+5	sie	sie	PRON	_	_	_	_	_	_
+6	dringend	dringend	ADJ	_	_	_	_	_	_
+7	Freiwillige	Freiwillig	NOUN	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Pflege	Pflege	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Hunde	Hund	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_860
+# text = Bei dem Stadtfest haben wir Kuchen verkauft und Geld für Vereine gesammelt.
+1	Bei	bei	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Stadtfest	Stadtfest	NOUN	_	_	_	_	_	_
+4	haben	haben	AUX	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	Kuchen	Kuchen	NOUN	_	_	_	_	_	_
+7	verkauft	verkaufen	VERB	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	Geld	Geld	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	Vereine	Verein	NOUN	_	_	_	_	_	_
+12	gesammelt	sammeln	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_861
+# text = Ehrenamtliche Arbeit bringt nicht nur anderen, sondern auch einem selbst viel Freude.
+1	Ehrenamtliche	ehrenamtlich	ADJ	_	_	_	_	_	_
+2	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+3	bringt	bringen	VERB	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	nur	nur	ADV	_	_	_	_	_	_
+6	anderen	anderer	DET	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	sondern	sondern	CCONJ	_	_	_	_	_	_
+9	auch	auch	ADV	_	_	_	_	_	_
+10	einem	ein	DET	_	_	_	_	_	_
+11	selbst	selbst	ADV	_	_	_	_	_	_
+12	viel	viel	DET	_	_	_	_	_	_
+13	Freude	Freude	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_862
+# text = Er betreut regelmäßig ältere Menschen und besucht sie einmal pro Woche.
+1	Er	er	PRON	_	_	_	_	_	_
+2	betreut	betreuen	VERB	_	_	_	_	_	_
+3	regelmäßig	regelmäßig	ADJ	_	_	_	_	_	_
+4	ältere	alt	ADJ	_	_	_	_	_	_
+5	Menschen	Mensch	NOUN	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	besucht	besuchen	VERB	_	_	_	_	_	_
+8	sie	sie	PRON	_	_	_	_	_	_
+9	einmal	einmal	ADV	_	_	_	_	_	_
+10	pro	pro	ADP	_	_	_	_	_	_
+11	Woche	Woche	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_863
+# text = Die Organisation bietet Schulungen für alle neuen Freiwilligen in dem Frühjahr an.
+1	Die	der	DET	_	_	_	_	_	_
+2	Organisation	Organisation	NOUN	_	_	_	_	_	_
+3	bietet	bieten	VERB	_	_	_	_	_	_
+4	Schulungen	Schulung	NOUN	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	alle	alle	DET	_	_	_	_	_	_
+7	neuen	neu	ADJ	_	_	_	_	_	_
+8	Freiwilligen	Freiwillige	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	dem	der	DET	_	_	_	_	_	_
+11	Frühjahr	Frühjahr	NOUN	_	_	_	_	_	_
+12	an	an	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_864
+# text = Ich finde es wichtig, etwas zurückzugeben und mich in der Gemeinde zu engagieren.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	es	es	PRON	_	_	_	_	_	_
+4	wichtig	wichtig	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	etwas	etwas	PRON	_	_	_	_	_	_
+7	zurückzugeben	zurückgeben	VERB	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	mich	ich	PRON	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Gemeinde	Gemeinde	NOUN	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	engagieren	engagieren	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_865
+# text = Viele Jugendliche machen ein freiwilliges soziales Jahr nach dem Schulabschluss.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Jugendliche	Jugendliche	NOUN	_	_	_	_	_	_
+3	machen	machen	VERB	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	freiwilliges	freiwillig	ADJ	_	_	_	_	_	_
+6	soziales	sozial	ADJ	_	_	_	_	_	_
+7	Jahr	Jahr	NOUN	_	_	_	_	_	_
+8	nach	nach	ADP	_	_	_	_	_	_
+9	dem	der	DET	_	_	_	_	_	_
+10	Schulabschluss	Schulabschluß	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_866
+# text = Sie hat an einer Müllsammelaktion an dem Fluss mit anderen Freiwilligen teilgenommen.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	an	an	ADP	_	_	_	_	_	_
+4	einer	ein	DET	_	_	_	_	_	_
+5	Müllsammelaktion	Müllsammelaktion	NOUN	_	_	_	_	_	_
+6	an	an	ADP	_	_	_	_	_	_
+7	dem	der	DET	_	_	_	_	_	_
+8	Fluss	Fluß	NOUN	_	_	_	_	_	_
+9	mit	mit	ADP	_	_	_	_	_	_
+10	anderen	anderer	DET	_	_	_	_	_	_
+11	Freiwilligen	Freiwillige	NOUN	_	_	_	_	_	_
+12	teilgenommen	teilnehmen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_867
+# text = Der Verein sucht Helfer, die bei Veranstaltungen Tickets und Getränke verkaufen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Verein	Verein	NOUN	_	_	_	_	_	_
+3	sucht	suchen	VERB	_	_	_	_	_	_
+4	Helfer	Helfer	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	bei	bei	ADP	_	_	_	_	_	_
+8	Veranstaltungen	Veranstaltung	NOUN	_	_	_	_	_	_
+9	Tickets	Ticket	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Getränke	Getränk	NOUN	_	_	_	_	_	_
+12	verkaufen	verkaufen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_868
+# text = Wir unterrichten Geflüchtete in Deutsch, obwohl wir selbst keine Lehrer sind.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	unterrichten	unterrichten	VERB	_	_	_	_	_	_
+3	Geflüchtete	Geflüchteter	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	obwohl	obwohl	SCONJ	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	selbst	selbst	ADV	_	_	_	_	_	_
+10	keine	kein	DET	_	_	_	_	_	_
+11	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+12	sind	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_869
+# text = Ehrenamt bedeutet, ohne Bezahlung Zeit und Fähigkeiten für andere einzusetzen.
+1	Ehrenamt	Ehrenamt	NOUN	_	_	_	_	_	_
+2	bedeutet	bedeuten	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	ohne	ohne	ADP	_	_	_	_	_	_
+5	Bezahlung	Bezahlung	NOUN	_	_	_	_	_	_
+6	Zeit	Zeit	NOUN	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	Fähigkeiten	Fähigkeit	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	andere	anderer	DET	_	_	_	_	_	_
+11	einzusetzen	einsetzen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_870
+# text = In dem Nachbarschaftszentrum koordinieren Freiwillige Kurse für Kinder und Eltern.
+1	In	in	ADP	_	_	_	_	_	_
+2	dem	der	DET	_	_	_	_	_	_
+3	Nachbarschaftszentrum	Nachbarschaftszentrum	NOUN	_	_	_	_	_	_
+4	koordinieren	koordinieren	VERB	_	_	_	_	_	_
+5	Freiwillige	freiwillig	ADJ	_	_	_	_	_	_
+6	Kurse	Kurs	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	Kinder	Kind	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Eltern	Eltern	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_871
+# text = Er hat bei dem Aufbau des neuen Spielplatzes in dem Viertel kräftig mitgeholfen.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	bei	bei	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Aufbau	Aufbau	NOUN	_	_	_	_	_	_
+6	des	der	DET	_	_	_	_	_	_
+7	neuen	neu	ADJ	_	_	_	_	_	_
+8	Spielplatzes	Spielplatz	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	dem	der	DET	_	_	_	_	_	_
+11	Viertel	Viertel	NOUN	_	_	_	_	_	_
+12	kräftig	kräftig	ADJ	_	_	_	_	_	_
+13	mitgeholfen	mithelfen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_872
+# text = Ich möchte meine Erfahrung als Jurist in dem Beratungszentrum freiwillig einbringen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	möchte	mögen	VERB	_	_	_	_	_	_
+3	meine	mein	DET	_	_	_	_	_	_
+4	Erfahrung	Erfahrung	NOUN	_	_	_	_	_	_
+5	als	als	SCONJ	_	_	_	_	_	_
+6	Jurist	Jurist	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Beratungszentrum	Beratungszentrum	NOUN	_	_	_	_	_	_
+10	freiwillig	freiwillig	ADJ	_	_	_	_	_	_
+11	einbringen	einbringen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_873
+# text = Die Stadt vergibt Urkunden an besonders engagierte Freiwillige jedes Jahr in dem Dezember.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stadt	Stadt	NOUN	_	_	_	_	_	_
+3	vergibt	vergeben	VERB	_	_	_	_	_	_
+4	Urkunden	Urkunde	NOUN	_	_	_	_	_	_
+5	an	an	ADP	_	_	_	_	_	_
+6	besonders	besonders	ADV	_	_	_	_	_	_
+7	engagierte	engagieren	ADJ	_	_	_	_	_	_
+8	Freiwillige	Freiwillig	NOUN	_	_	_	_	_	_
+9	jedes	jed	DET	_	_	_	_	_	_
+10	Jahr	Jahr	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	dem	der	DET	_	_	_	_	_	_
+13	Dezember	Dezember	PROPN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_874
+# text = Viele Rettungsdienste sind auf das Engagement von ehrenamtlichen Helfern angewiesen.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Rettungsdienste	Rettungsdienst	NOUN	_	_	_	_	_	_
+3	sind	sein	AUX	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Engagement	Engagement	NOUN	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	ehrenamtlichen	ehrenamtlich	ADJ	_	_	_	_	_	_
+9	Helfern	Helfer	NOUN	_	_	_	_	_	_
+10	angewiesen	angewiesen	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_875
+# text = Wir haben für Obdachlose warme Kleidung gesammelt und an eine Beratungsstelle geliefert.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	für	für	ADP	_	_	_	_	_	_
+4	Obdachlose	Obdachlose	NOUN	_	_	_	_	_	_
+5	warme	warm	ADJ	_	_	_	_	_	_
+6	Kleidung	Kleidung	NOUN	_	_	_	_	_	_
+7	gesammelt	sammeln	VERB	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	eine	ein	DET	_	_	_	_	_	_
+11	Beratungsstelle	Beratungsstelle	NOUN	_	_	_	_	_	_
+12	geliefert	liefern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_876
+# text = Sie engagiert sich in einem Projekt, das Lesen in Grundschulen fördert.
+1	Sie	Sie	PRON	_	_	_	_	_	_
+2	engagiert	engagieren	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	Projekt	Projekt	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Lesen	Lesen	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	Grundschulen	Grundschule	NOUN	_	_	_	_	_	_
+12	fördert	fördern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_877
+# text = Durch Freiwilligenarbeit lernt man neue Menschen kennen und gewinnt wertvolle Erfahrungen.
+1	Durch	durch	ADP	_	_	_	_	_	_
+2	Freiwilligenarbeit	Freiwilligenarbeit	NOUN	_	_	_	_	_	_
+3	lernt	lernen	VERB	_	_	_	_	_	_
+4	man	man	PRON	_	_	_	_	_	_
+5	neue	neu	ADJ	_	_	_	_	_	_
+6	Menschen	Mensch	NOUN	_	_	_	_	_	_
+7	kennen	kennen	VERB	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	gewinnt	gewinnen	VERB	_	_	_	_	_	_
+10	wertvolle	wertvoll	ADJ	_	_	_	_	_	_
+11	Erfahrungen	Erfahrung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_878
+# text = Der Sportverein lebt vor allem von den vielen unbezahlten Trainern und Organisatoren.
+1	Der	der	DET	_	_	_	_	_	_
+2	Sportverein	Sportverein	NOUN	_	_	_	_	_	_
+3	lebt	leben	VERB	_	_	_	_	_	_
+4	vor	vor	ADP	_	_	_	_	_	_
+5	allem	alle	DET	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	vielen	viel	DET	_	_	_	_	_	_
+9	unbezahlten	unbezahlt	ADJ	_	_	_	_	_	_
+10	Trainern	Trainer	NOUN	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	Organisatoren	Organisator	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_879
+# text = Ich plane, nach der Rente noch mehr Zeit für soziales Engagement zu haben.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	plane	planen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Rente	Rente	NOUN	_	_	_	_	_	_
+7	noch	noch	ADV	_	_	_	_	_	_
+8	mehr	mehr	DET	_	_	_	_	_	_
+9	Zeit	Zeit	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	soziales	sozial	ADJ	_	_	_	_	_	_
+12	Engagement	Engagement	NOUN	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	haben	haben	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_880
+# text = Als EU - Bürger darf man in jedem Mitgliedstaat leben und arbeiten.
+1	Als	als	SCONJ	_	_	_	_	_	_
+2	EU	EU	PROPN	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	Bürger	Bürger	NOUN	_	_	_	_	_	_
+5	darf	dürfen	VERB	_	_	_	_	_	_
+6	man	man	PRON	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	jedem	jed	DET	_	_	_	_	_	_
+9	Mitgliedstaat	Mitgliedstaat	NOUN	_	_	_	_	_	_
+10	leben	leben	VERB	_	_	_	_	_	_
+11	und	und	CCONJ	_	_	_	_	_	_
+12	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_881
+# text = Die Europäische Union fördert den kulturellen Austausch zwischen den Mitgliedsländern.
+1	Die	der	DET	_	_	_	_	_	_
+2	Europäische	Europäisch	PROPN	_	_	_	_	_	_
+3	Union	Union	PROPN	_	_	_	_	_	_
+4	fördert	fördern	VERB	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	kulturellen	kulturell	ADJ	_	_	_	_	_	_
+7	Austausch	Austausch	NOUN	_	_	_	_	_	_
+8	zwischen	zwischen	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Mitgliedsländern	Mitgliedsland	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_882
+# text = Ich habe mit Erasmus ein Semester in Spanien studiert und viel gelernt.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	Erasmus	Erasmus	PROPN	_	_	_	_	_	_
+5	ein	ein	DET	_	_	_	_	_	_
+6	Semester	Semester	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	Spanien	Spanien	PROPN	_	_	_	_	_	_
+9	studiert	studieren	VERB	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	viel	viel	DET	_	_	_	_	_	_
+12	gelernt	lernen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_883
+# text = Der Grenzübertritt innerhalb des Schengen - Raums ist für Reisende meist unkompliziert.
+1	Der	der	DET	_	_	_	_	_	_
+2	Grenzübertritt	Grenzübertritt	NOUN	_	_	_	_	_	_
+3	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+4	des	der	DET	_	_	_	_	_	_
+5	Schengen	Schengen	PROPN	_	_	_	_	_	_
+6	-	-	PUNCT	_	_	_	_	_	_
+7	Raums	Raum	NOUN	_	_	_	_	_	_
+8	ist	sein	AUX	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	Reisende	Reisende	NOUN	_	_	_	_	_	_
+11	meist	meist	ADV	_	_	_	_	_	_
+12	unkompliziert	unkompliziert	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_884
+# text = Viele junge Menschen nutzen Erasmus, um in dem Ausland Erfahrungen zu sammeln.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	junge	jung	ADJ	_	_	_	_	_	_
+3	Menschen	Mensch	NOUN	_	_	_	_	_	_
+4	nutzen	nutzen	VERB	_	_	_	_	_	_
+5	Erasmus	Erasmus	PROPN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	um	um	ADP	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	dem	der	DET	_	_	_	_	_	_
+10	Ausland	Ausland	NOUN	_	_	_	_	_	_
+11	Erfahrungen	Erfahrung	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	sammeln	sammeln	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_885
+# text = Die EU verabschiedet gemeinsame Regeln für Umweltschutz und Klimaschutz in Europa.
+1	Die	der	DET	_	_	_	_	_	_
+2	EU	EU	PROPN	_	_	_	_	_	_
+3	verabschiedet	verabschieden	VERB	_	_	_	_	_	_
+4	gemeinsame	gemeinsam	ADJ	_	_	_	_	_	_
+5	Regeln	Regel|Regeln	NOUN	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	Umweltschutz	Umweltschutz	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	Klimaschutz	Klimaschutz	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	Europa	Europa	PROPN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_886
+# text = Wir haben auf dem Europatag in dem Rathaus über die Geschichte der Union gesprochen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	auf	auf	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Europatag	Europatag	PROPN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	dem	der	DET	_	_	_	_	_	_
+8	Rathaus	Rathaus	NOUN	_	_	_	_	_	_
+9	über	über	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Geschichte	Geschichte	NOUN	_	_	_	_	_	_
+12	der	der	DET	_	_	_	_	_	_
+13	Union	Union	PROPN	_	_	_	_	_	_
+14	gesprochen	sprechen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_887
+# text = Der Euro erleichtert Reisen und Einkäufe in vielen europäischen Ländern deutlich.
+1	Der	der	DET	_	_	_	_	_	_
+2	Euro	Euro	PROPN	_	_	_	_	_	_
+3	erleichtert	erleichtern	VERB	_	_	_	_	_	_
+4	Reisen	Reise	NOUN	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	Einkäufe	Einkauf	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	vielen	viel	DET	_	_	_	_	_	_
+9	europäischen	europäisch	ADJ	_	_	_	_	_	_
+10	Ländern	Land	NOUN	_	_	_	_	_	_
+11	deutlich	deutlich	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_888
+# text = Die Europäische Kommission schlägt neue Gesetze vor, die das Parlament berät.
+1	Die	der	DET	_	_	_	_	_	_
+2	Europäische	Europäisch	PROPN	_	_	_	_	_	_
+3	Kommission	Kommission	PROPN	_	_	_	_	_	_
+4	schlägt	schlagen	VERB	_	_	_	_	_	_
+5	neue	neu	ADJ	_	_	_	_	_	_
+6	Gesetze	Gesetz	NOUN	_	_	_	_	_	_
+7	vor	vor	ADP	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	das	der	DET	_	_	_	_	_	_
+11	Parlament	Parlament	NOUN	_	_	_	_	_	_
+12	berät	beraten	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_889
+# text = Ich finde, dass die EU für Frieden und Zusammenarbeit in Europa wichtig ist.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dass	dass	SCONJ	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	EU	EU	PROPN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	Frieden	Frieden	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Zusammenarbeit	Zusammenarbeit	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	Europa	Europa	PROPN	_	_	_	_	_	_
+13	wichtig	wichtig	ADJ	_	_	_	_	_	_
+14	ist	sein	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_890
+# text = Freizügigkeit ist eines der wichtigsten Rechte für Bürger innerhalb der Europäischen Union.
+1	Freizügigkeit	Freizügigkeit	NOUN	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	eines	ein	DET	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	wichtigsten	wichtig	ADJ	_	_	_	_	_	_
+6	Rechte	Recht	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	Bürger	Bürger	NOUN	_	_	_	_	_	_
+9	innerhalb	innerhalb	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Europäischen	Europäisch	PROPN	_	_	_	_	_	_
+12	Union	Union	PROPN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_891
+# text = Viele Regionen erhalten EU - Fördermittel für Infrastruktur und wirtschaftliche Entwicklung.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Regionen	Region	NOUN	_	_	_	_	_	_
+3	erhalten	erhalten	VERB	_	_	_	_	_	_
+4	EU	EU	PROPN	_	_	_	_	_	_
+5	-	-	PUNCT	_	_	_	_	_	_
+6	Fördermittel	Fördermittel	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	Infrastruktur	Infrastruktur	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	wirtschaftliche	wirtschaftlich	ADJ	_	_	_	_	_	_
+11	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_892
+# text = Der Europäische Gerichtshof entscheidet Streitigkeiten über die Auslegung von EU - Recht.
+1	Der	der	DET	_	_	_	_	_	_
+2	Europäische	Europäisch	PROPN	_	_	_	_	_	_
+3	Gerichtshof	Gerichtshof	PROPN	_	_	_	_	_	_
+4	entscheidet	entscheiden	VERB	_	_	_	_	_	_
+5	Streitigkeiten	Streitigkeit	NOUN	_	_	_	_	_	_
+6	über	über	ADP	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Auslegung	Auslegung	NOUN	_	_	_	_	_	_
+9	von	von	ADP	_	_	_	_	_	_
+10	EU	EU	PROPN	_	_	_	_	_	_
+11	-	-	PUNCT	_	_	_	_	_	_
+12	Recht	Recht	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_893
+# text = Wir diskutieren in der Schule über Vor - und Nachteile der europäischen Integration.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	diskutieren	diskutieren	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Schule	Schule	NOUN	_	_	_	_	_	_
+6	über	über	ADP	_	_	_	_	_	_
+7	Vor	vor	ADP	_	_	_	_	_	_
+8	-	-	PUNCT	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Nachteile	Nachteil	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	europäischen	europäisch	ADJ	_	_	_	_	_	_
+13	Integration	Integration	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_894
+# text = Die Grenzkontrollen wurden nach dem Beitritt vieler Länder in dem Schengen - Raum abgeschafft.
+1	Die	der	DET	_	_	_	_	_	_
+2	Grenzkontrollen	Grenzkontrolle	NOUN	_	_	_	_	_	_
+3	wurden	werden	AUX	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Beitritt	Beitritt	NOUN	_	_	_	_	_	_
+7	vieler	viel	DET	_	_	_	_	_	_
+8	Länder	Land	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	dem	der	DET	_	_	_	_	_	_
+11	Schengen	Schengen	PROPN	_	_	_	_	_	_
+12	-	-	PUNCT	_	_	_	_	_	_
+13	Raum	Raum	NOUN	_	_	_	_	_	_
+14	abgeschafft	abschaffen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_895
+# text = Ich reise gern durch Europa, weil viele Länder eine gemeinsame Währung nutzen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	reise	reisen	VERB	_	_	_	_	_	_
+3	gern	gern	ADV	_	_	_	_	_	_
+4	durch	durch	ADP	_	_	_	_	_	_
+5	Europa	Europa	PROPN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	viele	viel	DET	_	_	_	_	_	_
+9	Länder	Land	NOUN	_	_	_	_	_	_
+10	eine	ein	DET	_	_	_	_	_	_
+11	gemeinsame	gemeinsam	ADJ	_	_	_	_	_	_
+12	Währung	Währung	NOUN	_	_	_	_	_	_
+13	nutzen	nutzen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_896
+# text = Das Europäische Parlament wird alle fünf Jahre direkt von den Bürgern gewählt.
+1	Das	der	DET	_	_	_	_	_	_
+2	Europäische	Europäisch	PROPN	_	_	_	_	_	_
+3	Parlament	Parlament	PROPN	_	_	_	_	_	_
+4	wird	werden	AUX	_	_	_	_	_	_
+5	alle	alle	DET	_	_	_	_	_	_
+6	fünf	fünf	NUM	_	_	_	_	_	_
+7	Jahre	Jahr	NOUN	_	_	_	_	_	_
+8	direkt	direkt	ADJ	_	_	_	_	_	_
+9	von	von	ADP	_	_	_	_	_	_
+10	den	der	DET	_	_	_	_	_	_
+11	Bürgern	Bürger	NOUN	_	_	_	_	_	_
+12	gewählt	wählen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_897
+# text = Die EU unterstützt Forschungsprojekte an Universitäten in verschiedenen Mitgliedstaaten.
+1	Die	der	DET	_	_	_	_	_	_
+2	EU	EU	PROPN	_	_	_	_	_	_
+3	unterstützt	unterstützen	VERB	_	_	_	_	_	_
+4	Forschungsprojekte	Forschungsprojekt	NOUN	_	_	_	_	_	_
+5	an	an	ADP	_	_	_	_	_	_
+6	Universitäten	Universität	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	verschiedenen	verschieden	ADJ	_	_	_	_	_	_
+9	Mitgliedstaaten	Mitgliedstaat	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_898
+# text = Viele Verbraucher profitieren von gemeinsamen Standards für Produkte auf dem Binnenmarkt.
+1	Viele	viel	DET	_	_	_	_	_	_
+2	Verbraucher	Verbraucher	NOUN	_	_	_	_	_	_
+3	profitieren	profitieren	VERB	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	gemeinsamen	gemeinsam	ADJ	_	_	_	_	_	_
+6	Standards	Standard	NOUN	_	_	_	_	_	_
+7	für	für	ADP	_	_	_	_	_	_
+8	Produkte	Produkt	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	dem	der	DET	_	_	_	_	_	_
+11	Binnenmarkt	Binnenmarkt	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_899
+# text = Er arbeitet in Brüssel und berichtet über Entscheidungen der europäischen Institutionen.
+1	Er	er	PRON	_	_	_	_	_	_
+2	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Brüssel	Brüssel	PROPN	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	berichtet	berichten	VERB	_	_	_	_	_	_
+7	über	über	ADP	_	_	_	_	_	_
+8	Entscheidungen	Entscheidung	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	europäischen	europäisch	ADJ	_	_	_	_	_	_
+11	Institutionen	Institution	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_900
+# text = Die Mitgliedstaaten verhandeln gemeinsam über Handelsabkommen mit Drittstaaten.
+1	Die	der	DET	_	_	_	_	_	_
+2	Mitgliedstaaten	Mitgliedstaat	NOUN	_	_	_	_	_	_
+3	verhandeln	verhandeln	VERB	_	_	_	_	_	_
+4	gemeinsam	gemeinsam	ADJ	_	_	_	_	_	_
+5	über	über	ADP	_	_	_	_	_	_
+6	Handelsabkommen	Handelsabkommen	NOUN	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	Drittstaaten	Drittstaat	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_901
+# text = Ich habe an einem EU - Programm teilgenommen, das Jugendaustausch in Europa fördert.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	an	an	ADP	_	_	_	_	_	_
+4	einem	ein	DET	_	_	_	_	_	_
+5	EU	EU	PROPN	_	_	_	_	_	_
+6	-	-	PUNCT	_	_	_	_	_	_
+7	Programm	Programm	NOUN	_	_	_	_	_	_
+8	teilgenommen	teilnehmen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	das	der	DET	_	_	_	_	_	_
+11	Jugendaustausch	Jugendaustausch	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	Europa	Europa	PROPN	_	_	_	_	_	_
+14	fördert	fördern	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_902
+# text = Die Europäische Union setzt sich für Menschenrechte und Demokratie in Europa ein.
+1	Die	der	DET	_	_	_	_	_	_
+2	Europäische	Europäisch	PROPN	_	_	_	_	_	_
+3	Union	Union	PROPN	_	_	_	_	_	_
+4	setzt	setzen	VERB	_	_	_	_	_	_
+5	sich	sich	PRON	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	Menschenrechte	Menschenrecht	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	Demokratie	Demokratie	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	Europa	Europa	PROPN	_	_	_	_	_	_
+12	ein	ein	DET	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_903
+# text = Als EU - Bürger kann man in vielen Ländern ohne Visum reisen und wohnen.
+1	Als	als	SCONJ	_	_	_	_	_	_
+2	EU	EU	PROPN	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	Bürger	Bürger	NOUN	_	_	_	_	_	_
+5	kann	können	VERB	_	_	_	_	_	_
+6	man	man	PRON	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	vielen	viel	DET	_	_	_	_	_	_
+9	Ländern	Land	NOUN	_	_	_	_	_	_
+10	ohne	ohne	ADP	_	_	_	_	_	_
+11	Visum	Visum	NOUN	_	_	_	_	_	_
+12	reisen	reisen	VERB	_	_	_	_	_	_
+13	und	und	CCONJ	_	_	_	_	_	_
+14	wohnen	wohnen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_904
+# text = Wir haben in dem Unterricht über die Erweiterung der Union um neue Mitgliedsländer gesprochen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Unterricht	Unterricht	NOUN	_	_	_	_	_	_
+6	über	über	ADP	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Erweiterung	Erweiterung	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Union	Union	NOUN	_	_	_	_	_	_
+11	um	um	ADP	_	_	_	_	_	_
+12	neue	neu	ADJ	_	_	_	_	_	_
+13	Mitgliedsländer	Mitgliedsland	NOUN	_	_	_	_	_	_
+14	gesprochen	sprechen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+

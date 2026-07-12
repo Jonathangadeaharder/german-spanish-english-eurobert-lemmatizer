@@ -1,0 +1,930 @@
+# sent_id = handcraft-fr-1
+# text = Le chat dort sur le canapé.
+1	Le	le	DET	_	_	_	_	_	_
+2	chat	chat	NOUN	_	_	_	_	_	_
+3	dort	dormir	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	canapé	canapé	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-2
+# text = Marie a lu un livre intéressant.
+1	Marie	Marie	PROPN	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	lu	lire	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	livre	livre	NOUN	_	_	_	_	_	_
+6	intéressant	intéressant	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-3
+# text = Nous mangeons des pommes rouges.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	mangeons	manger	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	pommes	pomme	NOUN	_	_	_	_	_	_
+5	rouges	rouge	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-4
+# text = Les enfants jouent dans le jardin.
+1	Les	le	DET	_	_	_	_	_	_
+2	enfants	enfant	NOUN	_	_	_	_	_	_
+3	jouent	jouer	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	jardin	jardin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-5
+# text = Elle parle français avec ses amis.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	parle	parler	VERB	_	_	_	_	_	_
+3	français	français	NOUN	_	_	_	_	_	_
+4	avec	avec	ADP	_	_	_	_	_	_
+5	ses	son	DET	_	_	_	_	_	_
+6	amis	ami	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-6
+# text = As-tu vu ce film hier ?
+1	As	avoir	AUX	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	tu	tu	PRON	_	_	_	_	_	_
+4	vu	voir	VERB	_	_	_	_	_	_
+5	ce	ce	DET	_	_	_	_	_	_
+6	film	film	NOUN	_	_	_	_	_	_
+7	hier	hier	ADV	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-7
+# text = Je vais à la pharmacie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	pharmacie	pharmacie	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-8
+# text = Il fait beau aujourd'hui.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	beau	beau	ADJ	_	_	_	_	_	_
+4	aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-9
+# text = Pourquoi pleures-tu ?
+1	Pourquoi	pourquoi	ADV	_	_	_	_	_	_
+2	pleures	pleurer	VERB	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	tu	tu	PRON	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-10
+# text = N'oublie pas tes clés !
+1	N'	ne	PART	_	_	_	_	_	_
+2	oublie	oublier	VERB	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	tes	ton	DET	_	_	_	_	_	_
+5	clés	clé	NOUN	_	_	_	_	_	_
+6	!	!	PUNCT	!	_	_	_	_	_
+
+# sent_id = handcraft-fr-11
+# text = Ils sont arrivés hier soir.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	sont	être	AUX	_	_	_	_	_	_
+3	arrivés	arriver	VERB	_	_	_	_	_	_
+4	hier	hier	ADV	_	_	_	_	_	_
+5	soir	soir	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-12
+# text = La maison est grande et belle.
+1	La	le	DET	_	_	_	_	_	_
+2	maison	maison	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	grande	grand	ADJ	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	belle	beau	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-13
+# text = Tu dois faire tes devoirs.
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	dois	devoir	AUX	_	_	_	_	_	_
+3	faire	faire	VERB	_	_	_	_	_	_
+4	tes	ton	DET	_	_	_	_	_	_
+5	devoirs	devoir	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-14
+# text = Nous avons beaucoup travaillé.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+4	travaillé	travailler	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-15
+# text = Elle s'est coupée avec un couteau.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	s'	se	PRON	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	coupée	couper	VERB	_	_	_	_	_	_
+5	avec	avec	ADP	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	couteau	couteau	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-16
+# text = Où vas-tu en vacances ?
+1	Où	où	ADV	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	tu	tu	PRON	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	vacances	vacances	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-17
+# text = Le chien court vite.
+1	Le	le	DET	_	_	_	_	_	_
+2	chien	chien	NOUN	_	_	_	_	_	_
+3	court	courir	VERB	_	_	_	_	_	_
+4	vite	vite	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-18
+# text = J'aime le chocolat.
+1	J'	je	PRON	_	_	_	_	_	_
+2	aime	aimer	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	chocolat	chocolat	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-19
+# text = Que fais-tu demain ?
+1	Que	que	PRON	_	_	_	_	_	_
+2	fais	faire	VERB	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	tu	tu	PRON	_	_	_	_	_	_
+5	demain	demain	ADV	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-20
+# text = Il y a un oiseau sur la branche.
+1	Il	il	PRON	_	_	_	_	_	_
+2	y	y	PRON	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	oiseau	oiseau	NOUN	_	_	_	_	_	_
+6	sur	sur	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	branche	branche	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-21
+# text = Elle avait fini ses devoirs.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	avait	avoir	AUX	_	_	_	_	_	_
+3	fini	finir	VERB	_	_	_	_	_	_
+4	ses	son	DET	_	_	_	_	_	_
+5	devoirs	devoir	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-22
+# text = Prends le métro à huit heures.
+1	Prends	prendre	VERB	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	métro	métro	NOUN	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	huit	huit	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-23
+# text = Est-ce que tu parles anglais ?
+1	Est	être	VERB	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	ce	ce	PRON	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	tu	tu	PRON	_	_	_	_	_	_
+6	parles	parler	VERB	_	_	_	_	_	_
+7	anglais	anglais	NOUN	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-24
+# text = Ma sœur habite à Paris.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	sœur	sœur	NOUN	_	_	_	_	_	_
+3	habite	habiter	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	Paris	Paris	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-25
+# text = Il travaille depuis lundi.
+1	Il	il	PRON	_	_	_	_	_	_
+2	travaille	travailler	VERB	_	_	_	_	_	_
+3	depuis	depuis	ADP	_	_	_	_	_	_
+4	lundi	lundi	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-26
+# text = Elle a acheté des fruits frais.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	acheté	acheter	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	fruits	fruit	NOUN	_	_	_	_	_	_
+6	frais	frais	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-27
+# text = Ferme la porte s'il te plaît.
+1	Ferme	fermer	VERB	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	porte	porte	NOUN	_	_	_	_	_	_
+4	s'	si	SCONJ	_	_	_	_	_	_
+5	il	il	PRON	_	_	_	_	_	_
+6	te	te	PRON	_	_	_	_	_	_
+7	plaît	plaire	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-28
+# text = Nous étions fatigués hier.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	étions	être	AUX	_	_	_	_	_	_
+3	fatigués	fatigué	ADJ	_	_	_	_	_	_
+4	hier	hier	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-29
+# text = Le soleil brille dans le ciel.
+1	Le	le	DET	_	_	_	_	_	_
+2	soleil	soleil	NOUN	_	_	_	_	_	_
+3	brille	briller	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	ciel	ciel	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-30
+# text = Asseyez-vous ici.
+1	Asseyez	asseoir	VERB	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	vous	vous	PRON	_	_	_	_	_	_
+4	ici	ici	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-31
+# text = Je n'ai pas faim.
+1	Je	je	PRON	_	_	_	_	_	_
+2	n'	ne	PART	_	_	_	_	_	_
+3	ai	avoir	AUX	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	faim	faim	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-32
+# text = Cet homme est très intelligent.
+1	Cet	ce	DET	_	_	_	_	_	_
+2	homme	homme	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	très	très	ADV	_	_	_	_	_	_
+5	intelligent	intelligent	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-33
+# text = Elle chante une belle chanson.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	chante	chanter	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	belle	beau	ADJ	_	_	_	_	_	_
+5	chanson	chanson	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-34
+# text = Les étudiants ont réussi l'examen.
+1	Les	le	DET	_	_	_	_	_	_
+2	étudiants	étudiant	NOUN	_	_	_	_	_	_
+3	ont	avoir	AUX	_	_	_	_	_	_
+4	réussi	réussir	VERB	_	_	_	_	_	_
+5	l'	le	DET	_	_	_	_	_	_
+6	examen	examen	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-35
+# text = Viens me voir demain.
+1	Viens	venir	VERB	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	voir	voir	VERB	_	_	_	_	_	_
+4	demain	demain	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-36
+# text = Le train arrive à cinq heures.
+1	Le	le	DET	_	_	_	_	_	_
+2	train	train	NOUN	_	_	_	_	_	_
+3	arrive	arriver	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	cinq	cinq	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-37
+# text = Ils jouent au football.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	jouent	jouer	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	football	football	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-38
+# text = Je voudrais un café, s'il vous plaît.
+1	Je	je	PRON	_	_	_	_	_	_
+2	voudrais	vouloir	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	café	café	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	s'	si	SCONJ	_	_	_	_	_	_
+7	il	il	PRON	_	_	_	_	_	_
+8	vous	vous	PRON	_	_	_	_	_	_
+9	plaît	plaire	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-39
+# text = Les oiseaux chantent le matin.
+1	Les	le	DET	_	_	_	_	_	_
+2	oiseaux	oiseau	NOUN	_	_	_	_	_	_
+3	chantent	chanter	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	matin	matin	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-40
+# text = C'est une bonne idée.
+1	C'	ce	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	bonne	bon	ADJ	_	_	_	_	_	_
+5	idée	idée	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-41
+# text = J'aurai fini avant midi.
+1	J'	je	PRON	_	_	_	_	_	_
+2	aurai	avoir	AUX	_	_	_	_	_	_
+3	fini	finir	VERB	_	_	_	_	_	_
+4	avant	avant	ADP	_	_	_	_	_	_
+5	midi	midi	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-42
+# text = Il a neigé pendant la nuit.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	neigé	neiger	VERB	_	_	_	_	_	_
+4	pendant	pendant	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	nuit	nuit	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-43
+# text = Dis-moi la vérité.
+1	Dis	dire	VERB	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	moi	moi	PRON	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	vérité	vérité	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-44
+# text = Elle écrit une lettre à sa mère.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	écrit	écrire	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	lettre	lettre	NOUN	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	sa	son	DET	_	_	_	_	_	_
+7	mère	mère	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-45
+# text = Les livres sont sur la table.
+1	Les	le	DET	_	_	_	_	_	_
+2	livres	livre	NOUN	_	_	_	_	_	_
+3	sont	être	AUX	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	table	table	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-46
+# text = Je me suis levé tôt.
+1	Je	je	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	suis	être	AUX	_	_	_	_	_	_
+4	levé	lever	VERB	_	_	_	_	_	_
+5	tôt	tôt	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-47
+# text = Je n'en veux pas.
+1	Je	je	PRON	_	_	_	_	_	_
+2	n'	ne	PART	_	_	_	_	_	_
+3	en	en	PRON	_	_	_	_	_	_
+4	veux	vouloir	VERB	_	_	_	_	_	_
+5	pas	pas	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-48
+# text = Le café est trop chaud.
+1	Le	le	DET	_	_	_	_	_	_
+2	café	café	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	trop	trop	ADV	_	_	_	_	_	_
+5	chaud	chaud	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-49
+# text = Nous irons au cinéma ce soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	irons	aller	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	cinéma	cinéma	NOUN	_	_	_	_	_	_
+5	ce	ce	DET	_	_	_	_	_	_
+6	soir	soir	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-50
+# text = Mange tes légumes !
+1	Mange	manger	VERB	_	_	_	_	_	_
+2	tes	ton	DET	_	_	_	_	_	_
+3	légumes	légume	NOUN	_	_	_	_	_	_
+4	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-51
+# text = Elle est plus grande que lui.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	plus	plus	ADV	_	_	_	_	_	_
+4	grande	grand	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	lui	lui	PRON	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-52
+# text = Il faut du courage.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faut	falloir	VERB	_	_	_	_	_	_
+3	du	du	DET	_	_	_	_	_	_
+4	courage	courage	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-53
+# text = J'ai deux frères et une sœur.
+1	J'	je	PRON	_	_	_	_	_	_
+2	ai	avoir	AUX	_	_	_	_	_	_
+3	deux	deux	NUM	_	_	_	_	_	_
+4	frères	frère	NOUN	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	sœur	sœur	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-54
+# text = L'eau coule de la montagne.
+1	L'	le	DET	_	_	_	_	_	_
+2	eau	eau	NOUN	_	_	_	_	_	_
+3	coule	couler	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	montagne	montagne	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-55
+# text = Regarde la lune !
+1	Regarde	regarder	VERB	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	lune	lune	NOUN	_	_	_	_	_	_
+4	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-56
+# text = Il pleut fort aujourd'hui.
+1	Il	il	PRON	_	_	_	_	_	_
+2	pleut	pleuvoir	VERB	_	_	_	_	_	_
+3	fort	fort	ADV	_	_	_	_	_	_
+4	aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-57
+# text = Il écrivit une lettre à son ami.
+1	Il	il	PRON	_	_	_	_	_	_
+2	écrivit	écrire	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	lettre	lettre	NOUN	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	son	son	DET	_	_	_	_	_	_
+7	ami	ami	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-58
+# text = Quand reviens-tu ?
+1	Quand	quand	ADV	_	_	_	_	_	_
+2	reviens	revenir	VERB	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	tu	tu	PRON	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-59
+# text = Ils se sont rencontrés à Paris.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	se	se	PRON	_	_	_	_	_	_
+3	sont	être	AUX	_	_	_	_	_	_
+4	rencontrés	rencontrer	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	Paris	Paris	PROPN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-60
+# text = Je connais cette chanson.
+1	Je	je	PRON	_	_	_	_	_	_
+2	connais	connaître	VERB	_	_	_	_	_	_
+3	cette	ce	DET	_	_	_	_	_	_
+4	chanson	chanson	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-61
+# text = La pomme est tombée par terre.
+1	La	le	DET	_	_	_	_	_	_
+2	pomme	pomme	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	tombée	tomber	VERB	_	_	_	_	_	_
+5	par	par	ADP	_	_	_	_	_	_
+6	terre	terre	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-62
+# text = Mets ton manteau, il fait froid.
+1	Mets	mettre	VERB	_	_	_	_	_	_
+2	ton	ton	DET	_	_	_	_	_	_
+3	manteau	manteau	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	il	il	PRON	_	_	_	_	_	_
+6	fait	faire	VERB	_	_	_	_	_	_
+7	froid	froid	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-63
+# text = Nous avons vu un film d'horreur.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	vu	voir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	film	film	NOUN	_	_	_	_	_	_
+6	d'	de	ADP	_	_	_	_	_	_
+7	horreur	horreur	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-64
+# text = Sais-tu nager ?
+1	Sais	savoir	AUX	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	tu	tu	PRON	_	_	_	_	_	_
+4	nager	nager	VERB	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-65
+# text = Elle veut partir maintenant.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	veut	vouloir	AUX	_	_	_	_	_	_
+3	partir	partir	VERB	_	_	_	_	_	_
+4	maintenant	maintenant	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-66
+# text = Le soleil est caché par les nuages.
+1	Le	le	DET	_	_	_	_	_	_
+2	soleil	soleil	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	caché	cacher	VERB	_	_	_	_	_	_
+5	par	par	ADP	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	nuages	nuage	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-67
+# text = Je suis fatigué ce soir.
+1	Je	je	PRON	_	_	_	_	_	_
+2	suis	être	AUX	_	_	_	_	_	_
+3	fatigué	fatigué	ADJ	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	soir	soir	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-68
+# text = Où est ma clé ?
+1	Où	où	ADV	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	ma	mon	DET	_	_	_	_	_	_
+4	clé	clé	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-69
+# text = Le bébé dort paisiblement.
+1	Le	le	DET	_	_	_	_	_	_
+2	bébé	bébé	NOUN	_	_	_	_	_	_
+3	dort	dormir	VERB	_	_	_	_	_	_
+4	paisiblement	paisiblement	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-70
+# text = Prenez la première rue à droite.
+1	Prenez	prendre	VERB	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	première	premier	ADJ	_	_	_	_	_	_
+4	rue	rue	NOUN	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	droite	droite	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-71
+# text = Je veux que tu viennes.
+1	Je	je	PRON	_	_	_	_	_	_
+2	veux	vouloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	tu	tu	PRON	_	_	_	_	_	_
+5	viennes	venir	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-72
+# text = Il a les cheveux bruns.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	VERB	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	cheveux	cheveu	NOUN	_	_	_	_	_	_
+5	bruns	brun	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-73
+# text = Les amis se sont retrouvés au café.
+1	Les	le	DET	_	_	_	_	_	_
+2	amis	ami	NOUN	_	_	_	_	_	_
+3	se	se	PRON	_	_	_	_	_	_
+4	sont	être	AUX	_	_	_	_	_	_
+5	retrouvés	retrouver	VERB	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	café	café	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-74
+# text = Ne pars pas trop tard.
+1	Ne	ne	PART	_	_	_	_	_	_
+2	pars	partir	VERB	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	trop	trop	ADV	_	_	_	_	_	_
+5	tard	tard	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-75
+# text = Je donnerai ce livre à Paul.
+1	Je	je	PRON	_	_	_	_	_	_
+2	donnerai	donner	VERB	_	_	_	_	_	_
+3	ce	ce	DET	_	_	_	_	_	_
+4	livre	livre	NOUN	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	Paul	Paul	PROPN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-76
+# text = Elle se lève tôt le matin.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	se	se	PRON	_	_	_	_	_	_
+3	lève	lever	VERB	_	_	_	_	_	_
+4	tôt	tôt	ADV	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	matin	matin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-77
+# text = Qu'attends-tu ?
+1	Qu'	que	PRON	_	_	_	_	_	_
+2	attends	attendre	VERB	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	tu	tu	PRON	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-78
+# text = L'homme que je vois s'appelle Paul.
+1	L'	le	DET	_	_	_	_	_	_
+2	homme	homme	NOUN	_	_	_	_	_	_
+3	que	que	PRON	_	_	_	_	_	_
+4	je	je	PRON	_	_	_	_	_	_
+5	vois	voir	VERB	_	_	_	_	_	_
+6	s'	se	PRON	_	_	_	_	_	_
+7	appelle	appeler	VERB	_	_	_	_	_	_
+8	Paul	Paul	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-79
+# text = Le restaurant est ouvert le dimanche.
+1	Le	le	DET	_	_	_	_	_	_
+2	restaurant	restaurant	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	ouvert	ouvert	ADJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	dimanche	dimanche	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-80
+# text = As-tu bien dormi ?
+1	As	avoir	AUX	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	tu	tu	PRON	_	_	_	_	_	_
+4	bien	bien	ADV	_	_	_	_	_	_
+5	dormi	dormir	VERB	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-81
+# text = Je ne les ai pas vus.
+1	Je	je	PRON	_	_	_	_	_	_
+2	ne	ne	PART	_	_	_	_	_	_
+3	les	le	PRON	_	_	_	_	_	_
+4	ai	avoir	AUX	_	_	_	_	_	_
+5	pas	pas	ADV	_	_	_	_	_	_
+6	vus	voir	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-82
+# text = La terre tourne autour du soleil.
+1	La	le	DET	_	_	_	_	_	_
+2	terre	terre	NOUN	_	_	_	_	_	_
+3	tourne	tourner	VERB	_	_	_	_	_	_
+4	autour	autour	ADV	_	_	_	_	_	_
+5	du	du	ADP	_	_	_	_	_	_
+6	soleil	soleil	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-83
+# text = Attends-moi cinq minutes !
+1	Attends	attendre	VERB	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	moi	moi	PRON	_	_	_	_	_	_
+4	cinq	cinq	NUM	_	_	_	_	_	_
+5	minutes	minute	NOUN	_	_	_	_	_	_
+6	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-84
+# text = Nous habiterons ici l'année prochaine.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	habiterons	habiter	VERB	_	_	_	_	_	_
+3	ici	ici	ADV	_	_	_	_	_	_
+4	l'	le	DET	_	_	_	_	_	_
+5	année	année	NOUN	_	_	_	_	_	_
+6	prochaine	prochain	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-85
+# text = C'est la vie.
+1	C'	ce	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	vie	vie	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-86
+# text = Il est trois heures.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	trois	trois	NUM	_	_	_	_	_	_
+4	heures	heure	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-87
+# text = Je t'aime.
+1	Je	je	PRON	_	_	_	_	_	_
+2	t'	te	PRON	_	_	_	_	_	_
+3	aime	aimer	VERB	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-88
+# text = Les voisins ont vendu leur maison.
+1	Les	le	DET	_	_	_	_	_	_
+2	voisins	voisin	NOUN	_	_	_	_	_	_
+3	ont	avoir	AUX	_	_	_	_	_	_
+4	vendu	vendre	VERB	_	_	_	_	_	_
+5	leur	leur	DET	_	_	_	_	_	_
+6	maison	maison	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-89
+# text = L'homme qui parle est mon frère.
+1	L'	le	DET	_	_	_	_	_	_
+2	homme	homme	NOUN	_	_	_	_	_	_
+3	qui	qui	PRON	_	_	_	_	_	_
+4	parle	parler	VERB	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	mon	mon	DET	_	_	_	_	_	_
+7	frère	frère	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-90
+# text = Passe-moi le sel.
+1	Passe	passer	VERB	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	moi	moi	PRON	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	sel	sel	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-91
+# text = Le chat boit du lait.
+1	Le	le	DET	_	_	_	_	_	_
+2	chat	chat	NOUN	_	_	_	_	_	_
+3	boit	boire	VERB	_	_	_	_	_	_
+4	du	du	DET	_	_	_	_	_	_
+5	lait	lait	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-92
+# text = Voici le livre dont je t'ai parlé.
+1	Voici	voici	ADV	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	livre	livre	NOUN	_	_	_	_	_	_
+4	dont	dont	PRON	_	_	_	_	_	_
+5	je	je	PRON	_	_	_	_	_	_
+6	t'	te	PRON	_	_	_	_	_	_
+7	ai	avoir	AUX	_	_	_	_	_	_
+8	parlé	parler	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-93
+# text = Il fait froid en hiver.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	froid	froid	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	hiver	hiver	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-94
+# text = Ma voiture est rouge.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	voiture	voiture	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	rouge	rouge	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-95
+# text = Écoute bien !
+1	Écoute	écouter	VERB	_	_	_	_	_	_
+2	bien	bien	ADV	_	_	_	_	_	_
+3	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-96
+# text = Je vais bien, merci.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	bien	bien	ADV	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	merci	merci	INTJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-97
+# text = Elle court vite vers la maison.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	court	courir	VERB	_	_	_	_	_	_
+3	vite	vite	ADV	_	_	_	_	_	_
+4	vers	vers	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	maison	maison	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-98
+# text = Les enfants rient aux éclats.
+1	Les	le	DET	_	_	_	_	_	_
+2	enfants	enfant	NOUN	_	_	_	_	_	_
+3	rient	rire	VERB	_	_	_	_	_	_
+4	aux	aux	ADP	_	_	_	_	_	_
+5	éclats	éclat	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-99
+# text = Tournez à gauche.
+1	Tournez	tourner	VERB	_	_	_	_	_	_
+2	à	à	ADP	_	_	_	_	_	_
+3	gauche	gauche	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-100
+# text = Je pars en vacances lundi.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pars	partir	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	vacances	vacances	NOUN	_	_	_	_	_	_
+5	lundi	lundi	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_

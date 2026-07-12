@@ -1,0 +1,3133 @@
+# sent_id = sv_b2_train_001
+# text = Efter en lång tids diskussion ska unga människor få lättare.
+1	Efter	efter	ADP	_	_	_	_	_	_
+2	en	en	DET	_	_	_	_	_	_
+3	lång	lång	ADJ	_	_	_	_	_	_
+4	tids	tid	NOUN	_	_	_	_	_	_
+5	diskussion	diskussion	NOUN	_	_	_	_	_	_
+6	ska	skola	AUX	_	_	_	_	_	_
+7	unga	ung	ADJ	_	_	_	_	_	_
+8	människor	människa	NOUN	_	_	_	_	_	_
+9	få	få	VERB	_	_	_	_	_	_
+10	lättare	lätt	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_002
+# text = Trots stora ekonomiska utmaningar kan forskare hitta nya lösningar.
+1	Trots	trots	ADP	_	_	_	_	_	_
+2	stora	stor	ADJ	_	_	_	_	_	_
+3	ekonomiska	ekonomisk	ADJ	_	_	_	_	_	_
+4	utmaningar	utmaning	NOUN	_	_	_	_	_	_
+5	kan	kunna	AUX	_	_	_	_	_	_
+6	forskare	forskare	NOUN	_	_	_	_	_	_
+7	hitta	hitta	VERB	_	_	_	_	_	_
+8	nya	ny	ADJ	_	_	_	_	_	_
+9	lösningar	lösning	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_003
+# text = Frågan är om vi verkligen inser att ekologisk odling gynnar insekter och vilda blommor.
+1	Frågan	fråga	NOUN	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	om	om	SCONJ	_	_	_	_	_	_
+4	vi	vi	PRON	_	_	_	_	_	_
+5	verkligen	verkligen	ADV	_	_	_	_	_	_
+6	inser	inse	VERB	_	_	_	_	_	_
+7	att	att	SCONJ	_	_	_	_	_	_
+8	ekologisk	ekologisk	ADJ	_	_	_	_	_	_
+9	odling	odling	NOUN	_	_	_	_	_	_
+10	gynnar	gynna	VERB	_	_	_	_	_	_
+11	insekter	insekt	NOUN	_	_	_	_	_	_
+12	och	och	CCONJ	_	_	_	_	_	_
+13	vilda	vild	ADJ	_	_	_	_	_	_
+14	blommor	blommor	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_004
+# text = De flesta experter hävdar att sociala medier påverkar ungdomars självbild negativt.
+1	De	de	DET	_	_	_	_	_	_
+2	flesta	mången	ADJ	_	_	_	_	_	_
+3	experter	expert	NOUN	_	_	_	_	_	_
+4	hävdar	hävda	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	sociala	social	ADJ	_	_	_	_	_	_
+7	medier	medie	NOUN	_	_	_	_	_	_
+8	påverkar	påverka	VERB	_	_	_	_	_	_
+9	ungdomars	ungdom	NOUN	_	_	_	_	_	_
+10	självbild	självbild	NOUN	_	_	_	_	_	_
+11	negativt	negativ	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_005
+# text = Erfarenheten visar att meditation och yoga hjälper människor att hantera stress.
+1	Erfarenheten	erfarenhet	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	meditation	meditation	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	yoga	yoga	NOUN	_	_	_	_	_	_
+7	hjälper	hjälpa	VERB	_	_	_	_	_	_
+8	människor	människa	NOUN	_	_	_	_	_	_
+9	att	att	PART	_	_	_	_	_	_
+10	hantera	hantera	VERB	_	_	_	_	_	_
+11	stress	stress	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_006
+# text = Det har nyligen bekräftats att ekologiskt jordbruk skonar miljön och främjar biologisk mångfald.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	nyligen	nyligen	ADV	_	_	_	_	_	_
+4	bekräftats	bekräfta	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	ekologiskt	ekologisk	ADJ	_	_	_	_	_	_
+7	jordbruk	jordbruk	NOUN	_	_	_	_	_	_
+8	skonar	skona	VERB	_	_	_	_	_	_
+9	miljön	miljö	NOUN	_	_	_	_	_	_
+10	och	och	CCONJ	_	_	_	_	_	_
+11	främjar	främja	VERB	_	_	_	_	_	_
+12	biologisk	biologisk	ADJ	_	_	_	_	_	_
+13	mångfald	mångfald	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_007
+# text = Det är allmänt känt att en god natts sömn stärker immunförsvaret avsevärt.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	allmänt	allmän	ADV	_	_	_	_	_	_
+4	känt	känd	ADJ	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	god	god	ADJ	_	_	_	_	_	_
+8	natts	natt	NOUN	_	_	_	_	_	_
+9	sömn	sömn	NOUN	_	_	_	_	_	_
+10	stärker	stärka	VERB	_	_	_	_	_	_
+11	immunförsvaret	immunförsvar	NOUN	_	_	_	_	_	_
+12	avsevärt	avsevärd	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_008
+# text = Med rätt stöd och vägledning kommer vi minska stressen på kontoret genom bättre planering.
+1	Med	med	ADP	_	_	_	_	_	_
+2	rätt	rät	ADJ	_	_	_	_	_	_
+3	stöd	stöd	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	vägledning	vägledning	NOUN	_	_	_	_	_	_
+6	kommer	komma	AUX	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	minska	minska	VERB	_	_	_	_	_	_
+9	stressen	stress	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	kontoret	kontor	NOUN	_	_	_	_	_	_
+12	genom	genom	ADP	_	_	_	_	_	_
+13	bättre	bra	ADJ	_	_	_	_	_	_
+14	planering	planering	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_009
+# text = Det har bevisats att en god natts sömn stärker immunförsvaret avsevärt.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	bevisats	bevisa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	god	god	ADJ	_	_	_	_	_	_
+7	natts	natt	NOUN	_	_	_	_	_	_
+8	sömn	sömn	NOUN	_	_	_	_	_	_
+9	stärker	stärka	VERB	_	_	_	_	_	_
+10	immunförsvaret	immunförsvar	NOUN	_	_	_	_	_	_
+11	avsevärt	avsevärd	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_010
+# text = Många lärare betonar att livslång utbildning ökar individens flexibilitet på arbetsmarknaden.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	betonar	betona	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	livslång	livslång	ADJ	_	_	_	_	_	_
+6	utbildning	utbildning	NOUN	_	_	_	_	_	_
+7	ökar	öka	VERB	_	_	_	_	_	_
+8	individens	individ	NOUN	_	_	_	_	_	_
+9	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	arbetsmarknaden	arbetsmarknad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_011
+# text = Utan tillräckliga resurser blir det svårt att företag satsa mer på hållbarhet och minska avfallet.
+1	Utan	utan	ADP	_	_	_	_	_	_
+2	tillräckliga	tillräcklig	ADJ	_	_	_	_	_	_
+3	resurser	resurs	NOUN	_	_	_	_	_	_
+4	blir	bli	VERB	_	_	_	_	_	_
+5	det	det	PRON	_	_	_	_	_	_
+6	svårt	svår	ADJ	_	_	_	_	_	_
+7	att	att	PART	_	_	_	_	_	_
+8	företag	företag	NOUN	_	_	_	_	_	_
+9	satsa	satsa	VERB	_	_	_	_	_	_
+10	mer	mycket	ADV	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	hållbarhet	hållbarhet	NOUN	_	_	_	_	_	_
+13	och	och	CCONJ	_	_	_	_	_	_
+14	minska	minska	VERB	_	_	_	_	_	_
+15	avfallet	avfall	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_012
+# text = Utan tillräckliga resurser blir det svårt att svenskar resa mer med tåg under semestern.
+1	Utan	utan	ADP	_	_	_	_	_	_
+2	tillräckliga	tillräcklig	ADJ	_	_	_	_	_	_
+3	resurser	resurs	NOUN	_	_	_	_	_	_
+4	blir	bli	VERB	_	_	_	_	_	_
+5	det	det	PRON	_	_	_	_	_	_
+6	svårt	svår	ADJ	_	_	_	_	_	_
+7	att	att	PART	_	_	_	_	_	_
+8	svenskar	svensk	NOUN	_	_	_	_	_	_
+9	resa	resa	VERB	_	_	_	_	_	_
+10	mer	mycket	ADV	_	_	_	_	_	_
+11	med	med	ADP	_	_	_	_	_	_
+12	tåg	tåg	NOUN	_	_	_	_	_	_
+13	under	under	ADP	_	_	_	_	_	_
+14	semestern	semester	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_013
+# text = Det är svårt att skydda sin privata information i den digitala världen.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	svårt	svår	ADJ	_	_	_	_	_	_
+4	att	att	PART	_	_	_	_	_	_
+5	skydda	skydda	VERB	_	_	_	_	_	_
+6	sin	sig	PRON	_	_	_	_	_	_
+7	privata	privat	ADJ	_	_	_	_	_	_
+8	information	information	NOUN	_	_	_	_	_	_
+9	i	i	ADP	_	_	_	_	_	_
+10	den	den	DET	_	_	_	_	_	_
+11	digitala	digital	ADJ	_	_	_	_	_	_
+12	världen	värld	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_014
+# text = Det kan konstateras att vegetarisk mat har blivit mer populär bland unga.
+1	Det	det	PRON	_	_	_	_	_	_
+2	kan	kunna	AUX	_	_	_	_	_	_
+3	konstateras	konstatera	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	vegetarisk	vegetarisk	ADJ	_	_	_	_	_	_
+6	mat	mat	NOUN	_	_	_	_	_	_
+7	har	ha	AUX	_	_	_	_	_	_
+8	blivit	bli	VERB	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	populär	populär	ADJ	_	_	_	_	_	_
+11	bland	bland	ADP	_	_	_	_	_	_
+12	unga	ung	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_015
+# text = I dagens moderna samhälle vill konsumenter välja grönare alternativ.
+1	I	i	ADP	_	_	_	_	_	_
+2	dagens	dag	NOUN	_	_	_	_	_	_
+3	moderna	modern	ADJ	_	_	_	_	_	_
+4	samhälle	samhälle	NOUN	_	_	_	_	_	_
+5	vill	vilja	AUX	_	_	_	_	_	_
+6	konsumenter	konsument	NOUN	_	_	_	_	_	_
+7	välja	välja	VERB	_	_	_	_	_	_
+8	grönare	grön	ADJ	_	_	_	_	_	_
+9	alternativ	alternativ	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_016
+# text = Flera studier visar att meditation och yoga hjälper människor att hantera stress.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	visar	visa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	meditation	meditation	NOUN	_	_	_	_	_	_
+6	och	och	CCONJ	_	_	_	_	_	_
+7	yoga	yoga	NOUN	_	_	_	_	_	_
+8	hjälper	hjälpa	VERB	_	_	_	_	_	_
+9	människor	människa	NOUN	_	_	_	_	_	_
+10	att	att	PART	_	_	_	_	_	_
+11	hantera	hantera	VERB	_	_	_	_	_	_
+12	stress	stress	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_017
+# text = Många unga upplever att livslång utbildning ökar individens flexibilitet på arbetsmarknaden.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	unga	ung	ADJ	_	_	_	_	_	_
+3	upplever	uppleva	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	livslång	livslång	ADJ	_	_	_	_	_	_
+6	utbildning	utbildning	NOUN	_	_	_	_	_	_
+7	ökar	öka	VERB	_	_	_	_	_	_
+8	individens	individ	NOUN	_	_	_	_	_	_
+9	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	arbetsmarknaden	arbetsmarknad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_018
+# text = Företag som satsar på jämställdhet tenderar att vara mer framgångsrika.
+1	Företag	företag	NOUN	_	_	_	_	_	_
+2	som	som	PRON	_	_	_	_	_	_
+3	satsar	satsa	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	jämställdhet	jämställdhet	NOUN	_	_	_	_	_	_
+6	tenderar	tendera	VERB	_	_	_	_	_	_
+7	att	att	PART	_	_	_	_	_	_
+8	vara	vara	VERB	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	framgångsrika	framgångsrik	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_019
+# text = Ekonomer påpekar ofta att kulturell mångfald berikar vårt gemensamma samhälle.
+1	Ekonomer	ekonom	NOUN	_	_	_	_	_	_
+2	påpekar	påpeka	VERB	_	_	_	_	_	_
+3	ofta	ofta	ADV	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	kulturell	kulturell	ADJ	_	_	_	_	_	_
+6	mångfald	mångfald	NOUN	_	_	_	_	_	_
+7	berikar	berika	VERB	_	_	_	_	_	_
+8	vårt	vi	PRON	_	_	_	_	_	_
+9	gemensamma	gemensam	ADJ	_	_	_	_	_	_
+10	samhälle	samhälle	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_020
+# text = Utan tillräckliga resurser blir det svårt att skolan lägga större fokus på elevernas välbefinnande.
+1	Utan	utan	ADP	_	_	_	_	_	_
+2	tillräckliga	tillräcklig	ADJ	_	_	_	_	_	_
+3	resurser	resurs	NOUN	_	_	_	_	_	_
+4	blir	bli	VERB	_	_	_	_	_	_
+5	det	det	PRON	_	_	_	_	_	_
+6	svårt	svår	ADJ	_	_	_	_	_	_
+7	att	att	SCONJ	_	_	_	_	_	_
+8	skolan	skola	NOUN	_	_	_	_	_	_
+9	lägga	lägga	VERB	_	_	_	_	_	_
+10	större	stor	ADJ	_	_	_	_	_	_
+11	fokus	fokus	NOUN	_	_	_	_	_	_
+12	på	på	ADP	_	_	_	_	_	_
+13	elevernas	elev	NOUN	_	_	_	_	_	_
+14	välbefinnande	välbefinnande	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_021
+# text = Erfarenheten visar att språkkunskaper ökar chanserna att få ett internationellt jobb.
+1	Erfarenheten	erfarenhet	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	språkkunskaper	språkkunskap	NOUN	_	_	_	_	_	_
+5	ökar	öka	VERB	_	_	_	_	_	_
+6	chanserna	chans	NOUN	_	_	_	_	_	_
+7	att	att	PART	_	_	_	_	_	_
+8	få	få	VERB	_	_	_	_	_	_
+9	ett	ett	DET	_	_	_	_	_	_
+10	internationellt	internationell	ADJ	_	_	_	_	_	_
+11	jobb	jobb	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_022
+# text = För att förbättra hälsan bör vi uppmuntra till ökad läsning bland barn och unga.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	uppmuntra	uppmuntra	VERB	_	_	_	_	_	_
+8	till	till	ADP	_	_	_	_	_	_
+9	ökad	ökad	ADJ	_	_	_	_	_	_
+10	läsning	läsning	NOUN	_	_	_	_	_	_
+11	bland	bland	ADP	_	_	_	_	_	_
+12	barn	barn	NOUN	_	_	_	_	_	_
+13	och	och	CCONJ	_	_	_	_	_	_
+14	unga	ung	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_023
+# text = Läkare rekommenderar att tidiga insatser i skolan minskar risken för framtida utanförskap.
+1	Läkare	läkare	NOUN	_	_	_	_	_	_
+2	rekommenderar	rekommenderar	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	tidiga	tidig	ADJ	_	_	_	_	_	_
+5	insatser	insats	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	skolan	skola	NOUN	_	_	_	_	_	_
+8	minskar	minska	VERB	_	_	_	_	_	_
+9	risken	risk	NOUN	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	framtida	framtida	ADJ	_	_	_	_	_	_
+12	utanförskap	utanförskap	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_024
+# text = Utan tillräckliga resurser blir det svårt att politiker ta ett större ansvar.
+1	Utan	utan	ADP	_	_	_	_	_	_
+2	tillräckliga	tillräcklig	ADJ	_	_	_	_	_	_
+3	resurser	resurs	NOUN	_	_	_	_	_	_
+4	blir	bli	VERB	_	_	_	_	_	_
+5	det	det	PRON	_	_	_	_	_	_
+6	svårt	svår	ADJ	_	_	_	_	_	_
+7	att	att	SCONJ	_	_	_	_	_	_
+8	politiker	politiker	NOUN	_	_	_	_	_	_
+9	ta	ta	VERB	_	_	_	_	_	_
+10	ett	ett	DET	_	_	_	_	_	_
+11	större	stor	ADJ	_	_	_	_	_	_
+12	ansvar	ansvar	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_025
+# text = I de flesta europeiska länder väljer vi spara mer energi.
+1	I	i	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	flesta	mången	ADJ	_	_	_	_	_	_
+4	europeiska	europeisk	ADJ	_	_	_	_	_	_
+5	länder	land	NOUN	_	_	_	_	_	_
+6	väljer	välja	VERB	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	spara	spara	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	energi	energi	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_026
+# text = Det är tydligt att livslångt lärande är nödvändigt på dagens arbetsmarknad.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	livslångt	livslång	ADJ	_	_	_	_	_	_
+6	lärande	lärande	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	nödvändigt	nödvändig	ADJ	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	dagens	dag	NOUN	_	_	_	_	_	_
+11	arbetsmarknad	arbetsmarknad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_027
+# text = Det är allmänt känt att livslångt lärande är nödvändigt på dagens arbetsmarknad.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	allmänt	allmän	ADV	_	_	_	_	_	_
+4	känt	känd	ADJ	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	livslångt	livslång	ADJ	_	_	_	_	_	_
+7	lärande	lärande	NOUN	_	_	_	_	_	_
+8	är	vara	AUX	_	_	_	_	_	_
+9	nödvändigt	nödvändig	ADJ	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	dagens	dag	NOUN	_	_	_	_	_	_
+12	arbetsmarknad	arbetsmarknad	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_028
+# text = Många studier tyder dessutom på att digitala verktyg kan förbättra undervisningen i skolan.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	tyder	tyda	VERB	_	_	_	_	_	_
+4	dessutom	dessutom	ADV	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	digitala	digital	ADJ	_	_	_	_	_	_
+8	verktyg	verktyg	NOUN	_	_	_	_	_	_
+9	kan	kunna	AUX	_	_	_	_	_	_
+10	förbättra	förbättra	VERB	_	_	_	_	_	_
+11	undervisningen	undervisning	NOUN	_	_	_	_	_	_
+12	i	i	ADP	_	_	_	_	_	_
+13	skolan	skola	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_029
+# text = Det anses allmänt att en hälsosam kost ger mer energi under dagen.
+1	Det	det	PRON	_	_	_	_	_	_
+2	anses	anse	VERB	_	_	_	_	_	_
+3	allmänt	allmän	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	hälsosam	hälsosam	ADJ	_	_	_	_	_	_
+7	kost	kost	NOUN	_	_	_	_	_	_
+8	ger	ge	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	energi	energi	NOUN	_	_	_	_	_	_
+11	under	under	ADP	_	_	_	_	_	_
+12	dagen	dag	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_030
+# text = Många lärare betonar att en god natts sömn stärker immunförsvaret avsevärt.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	betonar	betona	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	god	god	ADJ	_	_	_	_	_	_
+7	natts	natt	NOUN	_	_	_	_	_	_
+8	sömn	sömn	NOUN	_	_	_	_	_	_
+9	stärker	stärka	VERB	_	_	_	_	_	_
+10	immunförsvaret	immunförsvar	NOUN	_	_	_	_	_	_
+11	avsevärt	avsevärd	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_031
+# text = Undersökningar visar tydligt att en hälsosam kost ger mer energi under dagen.
+1	Undersökningar	undersökning	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	hälsosam	hälsosam	ADJ	_	_	_	_	_	_
+7	kost	kost	NOUN	_	_	_	_	_	_
+8	ger	ge	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	energi	energi	NOUN	_	_	_	_	_	_
+11	under	under	ADP	_	_	_	_	_	_
+12	dagen	dag	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_032
+# text = Många äldre uppskattar att få möjlighet att lära sig hur surfplattor fungerar.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	äldre	gammal	ADJ	_	_	_	_	_	_
+3	uppskattar	uppskatta	VERB	_	_	_	_	_	_
+4	att	att	PART	_	_	_	_	_	_
+5	få	få	VERB	_	_	_	_	_	_
+6	möjlighet	möjlighet	NOUN	_	_	_	_	_	_
+7	att	att	PART	_	_	_	_	_	_
+8	lära	lära	VERB	_	_	_	_	_	_
+9	sig	sig	PRON	_	_	_	_	_	_
+10	hur	hur	ADV	_	_	_	_	_	_
+11	surfplattor	surfplattor	NOUN	_	_	_	_	_	_
+12	fungerar	fungera	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_033
+# text = Många unga upplever att språkkunskaper ökar chanserna att få ett internationellt jobb.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	unga	ung	ADJ	_	_	_	_	_	_
+3	upplever	uppleva	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	språkkunskaper	språkkunskap	NOUN	_	_	_	_	_	_
+6	ökar	öka	VERB	_	_	_	_	_	_
+7	chanserna	chans	NOUN	_	_	_	_	_	_
+8	att	att	PART	_	_	_	_	_	_
+9	få	få	VERB	_	_	_	_	_	_
+10	ett	ett	DET	_	_	_	_	_	_
+11	internationellt	internationell	ADJ	_	_	_	_	_	_
+12	jobb	jobb	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_034
+# text = Enligt den senaste undersökningen bör politiker ta ett större ansvar.
+1	Enligt	enligt	ADP	_	_	_	_	_	_
+2	den	den	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	undersökningen	undersökning	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	politiker	politiker	NOUN	_	_	_	_	_	_
+7	ta	ta	VERB	_	_	_	_	_	_
+8	ett	ett	DET	_	_	_	_	_	_
+9	större	stor	ADJ	_	_	_	_	_	_
+10	ansvar	ansvar	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_035
+# text = Det är framför allt viktigt att kollektivtrafik är bäst lämpad för stora städer.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	framför	framför	ADP	_	_	_	_	_	_
+4	allt	all	PRON	_	_	_	_	_	_
+5	viktigt	viktig	ADJ	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	kollektivtrafik	kollektivtrafik	NOUN	_	_	_	_	_	_
+8	är	vara	AUX	_	_	_	_	_	_
+9	bäst	bra	ADV	_	_	_	_	_	_
+10	lämpad	lämpad	ADJ	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	stora	stor	ADJ	_	_	_	_	_	_
+13	städer	stad	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_036
+# text = Om chefen lyssnar på medarbetarna ökar trivseln på arbetsplastsen.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	chefen	chef	NOUN	_	_	_	_	_	_
+3	lyssnar	lyssna	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	medarbetarna	medarbetare	NOUN	_	_	_	_	_	_
+6	ökar	öka	VERB	_	_	_	_	_	_
+7	trivseln	trivsel	NOUN	_	_	_	_	_	_
+8	på	på	ADP	_	_	_	_	_	_
+9	arbetsplastsen	arbetsplasts	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_037
+# text = Det finns flera fördelar med att lära sig ett nytt språk i vuxen ålder.
+1	Det	det	PRON	_	_	_	_	_	_
+2	finns	finnas	VERB	_	_	_	_	_	_
+3	flera	flera	ADJ	_	_	_	_	_	_
+4	fördelar	fördel	NOUN	_	_	_	_	_	_
+5	med	med	ADP	_	_	_	_	_	_
+6	att	att	PART	_	_	_	_	_	_
+7	lära	lära	VERB	_	_	_	_	_	_
+8	sig	sig	PRON	_	_	_	_	_	_
+9	ett	ett	DET	_	_	_	_	_	_
+10	nytt	ny	ADJ	_	_	_	_	_	_
+11	språk	språk	NOUN	_	_	_	_	_	_
+12	i	i	ADP	_	_	_	_	_	_
+13	vuxen	vuxen	ADJ	_	_	_	_	_	_
+14	ålder	ålder	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_038
+# text = För att förbättra hälsan bör vi minska stressen på kontoret genom bättre planering.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	minska	minska	VERB	_	_	_	_	_	_
+8	stressen	stress	NOUN	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	kontoret	kontor	NOUN	_	_	_	_	_	_
+11	genom	genom	ADP	_	_	_	_	_	_
+12	bättre	bra	ADJ	_	_	_	_	_	_
+13	planering	planering	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_039
+# text = Flera studier visar att offentlig konst gör våra gemensamma miljöer trevligare.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	visar	visa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	offentlig	offentlig	ADJ	_	_	_	_	_	_
+6	konst	konst	NOUN	_	_	_	_	_	_
+7	gör	göra	VERB	_	_	_	_	_	_
+8	våra	vi	PRON	_	_	_	_	_	_
+9	gemensamma	gemensam	ADJ	_	_	_	_	_	_
+10	miljöer	miljö	NOUN	_	_	_	_	_	_
+11	trevligare	trevlig	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_040
+# text = Många medborgare tycker att klimatkrisen utgör ett hot mot vår framtid.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	medborgare	medborgare	NOUN	_	_	_	_	_	_
+3	tycker	tycka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	klimatkrisen	klimatkris	NOUN	_	_	_	_	_	_
+6	utgör	utgöra	VERB	_	_	_	_	_	_
+7	ett	ett	DET	_	_	_	_	_	_
+8	hot	hot	NOUN	_	_	_	_	_	_
+9	mot	mot	ADP	_	_	_	_	_	_
+10	vår	vi	PRON	_	_	_	_	_	_
+11	framtid	framtid	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_041
+# text = Det verkar som om sociala medier påverkar ungdomars självbild negativt.
+1	Det	det	PRON	_	_	_	_	_	_
+2	verkar	verka	VERB	_	_	_	_	_	_
+3	som	som	SCONJ	_	_	_	_	_	_
+4	om	om	SCONJ	_	_	_	_	_	_
+5	sociala	social	ADJ	_	_	_	_	_	_
+6	medier	medie	NOUN	_	_	_	_	_	_
+7	påverkar	påverka	VERB	_	_	_	_	_	_
+8	ungdomars	ungdom	NOUN	_	_	_	_	_	_
+9	självbild	självbild	NOUN	_	_	_	_	_	_
+10	negativt	negativ	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_042
+# text = Många forskare anser att källsortering bidrar till en mer hållbar miljö.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	forskare	forskare	NOUN	_	_	_	_	_	_
+3	anser	anse	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	källsortering	källsortering	NOUN	_	_	_	_	_	_
+6	bidrar	bidra	VERB	_	_	_	_	_	_
+7	till	till	ADP	_	_	_	_	_	_
+8	en	en	DET	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	hållbar	hållbar	ADJ	_	_	_	_	_	_
+11	miljö	miljö	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_043
+# text = Med rätt stöd och vägledning kommer vi värna om vår integritet när vi använder internet.
+1	Med	med	ADP	_	_	_	_	_	_
+2	rätt	rät	ADJ	_	_	_	_	_	_
+3	stöd	stöd	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	vägledning	vägledning	NOUN	_	_	_	_	_	_
+6	kommer	komma	AUX	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	värna	värna	VERB	_	_	_	_	_	_
+9	om	om	ADP	_	_	_	_	_	_
+10	vår	vi	PRON	_	_	_	_	_	_
+11	integritet	integritet	NOUN	_	_	_	_	_	_
+12	när	när	SCONJ	_	_	_	_	_	_
+13	vi	vi	PRON	_	_	_	_	_	_
+14	använder	använda	VERB	_	_	_	_	_	_
+15	internet	intern	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_044
+# text = För att förbättra hälsan bör studenter utveckla sin förmåga att tänka kritiskt.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	studenter	student	NOUN	_	_	_	_	_	_
+7	utveckla	utveckla	VERB	_	_	_	_	_	_
+8	sin	sig	PRON	_	_	_	_	_	_
+9	förmåga	förmåga	NOUN	_	_	_	_	_	_
+10	att	att	PART	_	_	_	_	_	_
+11	tänka	tänka	VERB	_	_	_	_	_	_
+12	kritiskt	kritisk	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_045
+# text = I de flesta europeiska länder väljer unga människor få lättare.
+1	I	i	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	flesta	mången	ADJ	_	_	_	_	_	_
+4	europeiska	europeisk	ADJ	_	_	_	_	_	_
+5	länder	land	NOUN	_	_	_	_	_	_
+6	väljer	välja	VERB	_	_	_	_	_	_
+7	unga	ung	ADJ	_	_	_	_	_	_
+8	människor	människa	NOUN	_	_	_	_	_	_
+9	få	få	VERB	_	_	_	_	_	_
+10	lättare	lätt	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_046
+# text = Det finns tecken på att god sömn är avgörande för kroppens återhämtning.
+1	Det	det	PRON	_	_	_	_	_	_
+2	finns	finnas	VERB	_	_	_	_	_	_
+3	tecken	tecken	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	god	god	ADJ	_	_	_	_	_	_
+7	sömn	sömn	NOUN	_	_	_	_	_	_
+8	är	vara	AUX	_	_	_	_	_	_
+9	avgörande	avgörande	ADJ	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	kroppens	kropp	NOUN	_	_	_	_	_	_
+12	återhämtning	återhämtning	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_047
+# text = På grund av den snabba utvecklingen har skolan erbjuda fler läxhjälpstillfällen för de elever som behöver.
+1	På	på	ADP	_	_	_	_	_	_
+2	grund	grund	NOUN	_	_	_	_	_	_
+3	av	av	ADP	_	_	_	_	_	_
+4	den	den	DET	_	_	_	_	_	_
+5	snabba	snabb	ADJ	_	_	_	_	_	_
+6	utvecklingen	utveckling	NOUN	_	_	_	_	_	_
+7	har	ha	AUX	_	_	_	_	_	_
+8	skolan	skola	NOUN	_	_	_	_	_	_
+9	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+10	fler	fler	ADJ	_	_	_	_	_	_
+11	läxhjälpstillfällen	läxhjälpstillfälle	NOUN	_	_	_	_	_	_
+12	för	för	ADP	_	_	_	_	_	_
+13	de	de	DET	_	_	_	_	_	_
+14	elever	elev	NOUN	_	_	_	_	_	_
+15	som	som	PRON	_	_	_	_	_	_
+16	behöver	behöva	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_048
+# text = Genom att arbeta tillsammans kan unga människor få lättare att etablera sig på bostadsmarknaden.
+1	Genom	genom	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	arbeta	arbeta	VERB	_	_	_	_	_	_
+4	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+5	kan	kunna	AUX	_	_	_	_	_	_
+6	unga	ung	ADJ	_	_	_	_	_	_
+7	människor	människa	NOUN	_	_	_	_	_	_
+8	få	få	VERB	_	_	_	_	_	_
+9	lättare	lätt	ADJ	_	_	_	_	_	_
+10	att	att	PART	_	_	_	_	_	_
+11	etablera	etablera	VERB	_	_	_	_	_	_
+12	sig	sig	PRON	_	_	_	_	_	_
+13	på	på	ADP	_	_	_	_	_	_
+14	bostadsmarknaden	bostadsmarknad	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_049
+# text = Ekonomer påpekar ofta att livslång utbildning ökar individens flexibilitet på arbetsmarknaden.
+1	Ekonomer	ekonom	NOUN	_	_	_	_	_	_
+2	påpekar	påpeka	VERB	_	_	_	_	_	_
+3	ofta	ofta	ADV	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	livslång	livslång	ADJ	_	_	_	_	_	_
+6	utbildning	utbildning	NOUN	_	_	_	_	_	_
+7	ökar	öka	VERB	_	_	_	_	_	_
+8	individens	individ	NOUN	_	_	_	_	_	_
+9	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	arbetsmarknaden	arbetsmarknad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_050
+# text = Det finns de som påstår att samhället måste ge mer stöd till unga entreprenörer.
+1	Det	det	PRON	_	_	_	_	_	_
+2	finns	finnas	VERB	_	_	_	_	_	_
+3	de	de	PRON	_	_	_	_	_	_
+4	som	som	PRON	_	_	_	_	_	_
+5	påstår	påstå	VERB	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	samhället	samhälle	NOUN	_	_	_	_	_	_
+8	måste	måste	VERB	_	_	_	_	_	_
+9	ge	ge	VERB	_	_	_	_	_	_
+10	mer	mycket	ADJ	_	_	_	_	_	_
+11	stöd	stöd	NOUN	_	_	_	_	_	_
+12	till	till	ADP	_	_	_	_	_	_
+13	unga	ung	ADJ	_	_	_	_	_	_
+14	entreprenörer	entreprenör	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_051
+# text = Utan tillräckliga resurser blir det svårt att konsumenter välja grönare alternativ i mataffären.
+1	Utan	utan	ADP	_	_	_	_	_	_
+2	tillräckliga	tillräcklig	ADJ	_	_	_	_	_	_
+3	resurser	resurs	NOUN	_	_	_	_	_	_
+4	blir	bli	VERB	_	_	_	_	_	_
+5	det	det	PRON	_	_	_	_	_	_
+6	svårt	svår	ADJ	_	_	_	_	_	_
+7	att	att	PART	_	_	_	_	_	_
+8	konsumenter	konsument	NOUN	_	_	_	_	_	_
+9	välja	välja	VERB	_	_	_	_	_	_
+10	grönare	grön	ADJ	_	_	_	_	_	_
+11	alternativ	alternativ	NOUN	_	_	_	_	_	_
+12	i	i	ADP	_	_	_	_	_	_
+13	mataffären	mataffär	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_052
+# text = Efter en lång tids diskussion ska svenskar resa mer med tåg under semestern.
+1	Efter	efter	ADP	_	_	_	_	_	_
+2	en	en	DET	_	_	_	_	_	_
+3	lång	lång	ADJ	_	_	_	_	_	_
+4	tids	tid	NOUN	_	_	_	_	_	_
+5	diskussion	diskussion	NOUN	_	_	_	_	_	_
+6	ska	skola	AUX	_	_	_	_	_	_
+7	svenskar	svensk	NOUN	_	_	_	_	_	_
+8	resa	resa	VERB	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	med	med	ADP	_	_	_	_	_	_
+11	tåg	tåg	NOUN	_	_	_	_	_	_
+12	under	under	ADP	_	_	_	_	_	_
+13	semestern	semester	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_053
+# text = Många medborgare tycker att vegetarisk mat har blivit mer populär bland unga.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	medborgare	medborgare	NOUN	_	_	_	_	_	_
+3	tycker	tycka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	vegetarisk	vegetarisk	ADJ	_	_	_	_	_	_
+6	mat	mat	NOUN	_	_	_	_	_	_
+7	har	ha	AUX	_	_	_	_	_	_
+8	blivit	bli	VERB	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	populär	populär	ADJ	_	_	_	_	_	_
+11	bland	bland	ADP	_	_	_	_	_	_
+12	unga	ung	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_054
+# text = Statistik visar att ökad källsortering leder till mindre avfall på soptippen.
+1	Statistik	statistik	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	ökad	ökad	ADJ	_	_	_	_	_	_
+5	källsortering	källsortering	NOUN	_	_	_	_	_	_
+6	leder	leda	VERB	_	_	_	_	_	_
+7	till	till	ADP	_	_	_	_	_	_
+8	mindre	liten	ADJ	_	_	_	_	_	_
+9	avfall	avfall	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	soptippen	soptipp	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_055
+# text = Trots de ekonomiska svårigheterna lyckades företaget expandera sin verksamhet.
+1	Trots	trots	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	ekonomiska	ekonomisk	ADJ	_	_	_	_	_	_
+4	svårigheterna	svårighet	NOUN	_	_	_	_	_	_
+5	lyckades	lycka	VERB	_	_	_	_	_	_
+6	företaget	företag	NOUN	_	_	_	_	_	_
+7	expandera	expandera	VERB	_	_	_	_	_	_
+8	sin	sig	PRON	_	_	_	_	_	_
+9	verksamhet	verksamhet	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_056
+# text = För att förbättra hälsan bör vi uppmuntra till ökad läsning.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	uppmuntra	uppmuntra	VERB	_	_	_	_	_	_
+8	till	till	ADP	_	_	_	_	_	_
+9	ökad	ökad	ADJ	_	_	_	_	_	_
+10	läsning	läsning	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_057
+# text = Med rätt stöd och vägledning kommer skolan erbjuda fler läxhjälpstillfällen.
+1	Med	med	ADP	_	_	_	_	_	_
+2	rätt	rät	ADJ	_	_	_	_	_	_
+3	stöd	stöd	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	vägledning	vägledning	NOUN	_	_	_	_	_	_
+6	kommer	komma	AUX	_	_	_	_	_	_
+7	skolan	skola	NOUN	_	_	_	_	_	_
+8	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+9	fler	fler	ADJ	_	_	_	_	_	_
+10	läxhjälpstillfällen	läxhjälpstillfälle	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_058
+# text = På grund av den snabba utvecklingen har vi spara mer energi i våra egna hem.
+1	På	på	ADP	_	_	_	_	_	_
+2	grund	grund	NOUN	_	_	_	_	_	_
+3	av	av	ADP	_	_	_	_	_	_
+4	den	den	DET	_	_	_	_	_	_
+5	snabba	snabb	ADJ	_	_	_	_	_	_
+6	utvecklingen	utveckling	NOUN	_	_	_	_	_	_
+7	har	ha	AUX	_	_	_	_	_	_
+8	vi	vi	PRON	_	_	_	_	_	_
+9	spara	spara	VERB	_	_	_	_	_	_
+10	mer	mycket	ADJ	_	_	_	_	_	_
+11	energi	energi	NOUN	_	_	_	_	_	_
+12	i	i	ADP	_	_	_	_	_	_
+13	våra	vi	PRON	_	_	_	_	_	_
+14	egna	egen	ADJ	_	_	_	_	_	_
+15	hem	hem	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_059
+# text = Många unga väljer att studera utomlands för att få internationell erfarenhet.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	unga	ung	ADJ	_	_	_	_	_	_
+3	väljer	välja	VERB	_	_	_	_	_	_
+4	att	att	PART	_	_	_	_	_	_
+5	studera	studera	VERB	_	_	_	_	_	_
+6	utomlands	utomlands	ADV	_	_	_	_	_	_
+7	för	för	ADP	_	_	_	_	_	_
+8	att	att	PART	_	_	_	_	_	_
+9	få	få	VERB	_	_	_	_	_	_
+10	internationell	internationell	ADJ	_	_	_	_	_	_
+11	erfarenhet	erfarenhet	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_060
+# text = Flera studier visar att regelbunden sömn förbättrar minnet och inlärningsförmågan.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	visar	visa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	regelbunden	regelbunden	ADJ	_	_	_	_	_	_
+6	sömn	sömn	NOUN	_	_	_	_	_	_
+7	förbättrar	förbättra	VERB	_	_	_	_	_	_
+8	minnet	min	NOUN	_	_	_	_	_	_
+9	och	och	CCONJ	_	_	_	_	_	_
+10	inlärningsförmågan	inlärningsförmåga	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_061
+# text = Många politiker menar att tidiga insatser i skolan minskar risken för framtida utanförskap.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	politiker	politiker	NOUN	_	_	_	_	_	_
+3	menar	mena	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	tidiga	tidig	ADJ	_	_	_	_	_	_
+6	insatser	insats	NOUN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	skolan	skola	NOUN	_	_	_	_	_	_
+9	minskar	minska	VERB	_	_	_	_	_	_
+10	risken	risk	NOUN	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	framtida	framtida	ADJ	_	_	_	_	_	_
+13	utanförskap	utanförskap	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_062
+# text = Vi bör komma ihåg att källsortering bidrar till en mer hållbar miljö.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	bör	böra	VERB	_	_	_	_	_	_
+3	komma	komma	VERB	_	_	_	_	_	_
+4	ihåg	ihåg	ADV	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	källsortering	källsortering	NOUN	_	_	_	_	_	_
+7	bidrar	bidra	VERB	_	_	_	_	_	_
+8	till	till	ADP	_	_	_	_	_	_
+9	en	en	DET	_	_	_	_	_	_
+10	mer	mycket	ADV	_	_	_	_	_	_
+11	hållbar	hållbar	ADJ	_	_	_	_	_	_
+12	miljö	miljö	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_063
+# text = Under de kommande åren måste skolan lägga större fokus på elevernas välbefinnande.
+1	Under	under	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	kommande	kommande	ADJ	_	_	_	_	_	_
+4	åren	år	NOUN	_	_	_	_	_	_
+5	måste	måste	VERB	_	_	_	_	_	_
+6	skolan	skola	NOUN	_	_	_	_	_	_
+7	lägga	lägga	VERB	_	_	_	_	_	_
+8	större	stor	ADJ	_	_	_	_	_	_
+9	fokus	fokus	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	elevernas	elev	NOUN	_	_	_	_	_	_
+12	välbefinnande	välbefinnande	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_064
+# text = Det är uppenbart att bra samarbete löser de flesta problem på arbetsplatsen.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	uppenbart	uppenbar	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	samarbete	samarbete	NOUN	_	_	_	_	_	_
+7	löser	lösa	VERB	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	flesta	mången	ADJ	_	_	_	_	_	_
+10	problem	problem	NOUN	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	arbetsplatsen	arbetsplats	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_065
+# text = Undersökningar visar tydligt att högre utbildning borde vara kostnadsfri för alla.
+1	Undersökningar	undersökning	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	högre	hög	ADJ	_	_	_	_	_	_
+6	utbildning	utbildning	NOUN	_	_	_	_	_	_
+7	borde	böra	VERB	_	_	_	_	_	_
+8	vara	vara	VERB	_	_	_	_	_	_
+9	kostnadsfri	kostnadsfri	ADJ	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	alla	all	PRON	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_066
+# text = Det har nyligen bekräftats att högre utbildning borde vara kostnadsfri för alla.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	nyligen	nyligen	ADV	_	_	_	_	_	_
+4	bekräftats	bekräfta	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	högre	hög	ADJ	_	_	_	_	_	_
+7	utbildning	utbildning	NOUN	_	_	_	_	_	_
+8	borde	böra	VERB	_	_	_	_	_	_
+9	vara	vara	VERB	_	_	_	_	_	_
+10	kostnadsfri	kostnadsfri	ADJ	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	alla	all	PRON	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_067
+# text = För att förbättra hälsan bör arbetsgivare erbjuda mer flexibilitet.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	arbetsgivare	arbetsgivare	NOUN	_	_	_	_	_	_
+7	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+8	mer	mycket	ADJ	_	_	_	_	_	_
+9	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_068
+# text = För att minska miljöpåverkan måste politiker ta ett större ansvar.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	minska	minska	VERB	_	_	_	_	_	_
+4	miljöpåverkan	miljöpåverkan	NOUN	_	_	_	_	_	_
+5	måste	måste	VERB	_	_	_	_	_	_
+6	politiker	politiker	NOUN	_	_	_	_	_	_
+7	ta	ta	VERB	_	_	_	_	_	_
+8	ett	ett	DET	_	_	_	_	_	_
+9	större	stor	ADJ	_	_	_	_	_	_
+10	ansvar	ansvar	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_069
+# text = Det är tydligt att god kommunikation är grunden för framgångsrika relationer.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	god	god	ADJ	_	_	_	_	_	_
+6	kommunikation	kommunikation	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	grunden	grund	NOUN	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	framgångsrika	framgångsrik	ADJ	_	_	_	_	_	_
+11	relationer	relation	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_070
+# text = Det är framför allt viktigt att distansarbete ökar motivationen hos de flesta anställda.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	framför	framför	ADP	_	_	_	_	_	_
+4	allt	all	DET	_	_	_	_	_	_
+5	viktigt	viktig	ADJ	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	distansarbete	distansarbete	NOUN	_	_	_	_	_	_
+8	ökar	öka	VERB	_	_	_	_	_	_
+9	motivationen	motivation	NOUN	_	_	_	_	_	_
+10	hos	hos	ADP	_	_	_	_	_	_
+11	de	de	DET	_	_	_	_	_	_
+12	flesta	mången	ADJ	_	_	_	_	_	_
+13	anställda	anställd	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_071
+# text = Det är uppenbart att kulturell mångfald berikar vårt gemensamma samhälle.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	uppenbart	uppenbar	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	kulturell	kulturell	ADJ	_	_	_	_	_	_
+6	mångfald	mångfald	NOUN	_	_	_	_	_	_
+7	berikar	berika	VERB	_	_	_	_	_	_
+8	vårt	vi	PRON	_	_	_	_	_	_
+9	gemensamma	gemensam	ADJ	_	_	_	_	_	_
+10	samhälle	samhälle	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_072
+# text = Statistik visar att vegetarisk mat har blivit mer populär bland unga.
+1	Statistik	statistik	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	vegetarisk	vegetarisk	ADJ	_	_	_	_	_	_
+5	mat	mat	NOUN	_	_	_	_	_	_
+6	har	ha	AUX	_	_	_	_	_	_
+7	blivit	bli	VERB	_	_	_	_	_	_
+8	mer	mycket	ADV	_	_	_	_	_	_
+9	populär	populär	ADJ	_	_	_	_	_	_
+10	bland	bland	ADP	_	_	_	_	_	_
+11	unga	ung	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_073
+# text = Många medborgare tycker att artificiell intelligens förändrar hur vi lever och arbetar.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	medborgare	medborgare	NOUN	_	_	_	_	_	_
+3	tycker	tycka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	artificiell	artificiell	ADJ	_	_	_	_	_	_
+6	intelligens	intelligens	NOUN	_	_	_	_	_	_
+7	förändrar	förändra	VERB	_	_	_	_	_	_
+8	hur	hur	ADV	_	_	_	_	_	_
+9	vi	vi	PRON	_	_	_	_	_	_
+10	lever	leva	VERB	_	_	_	_	_	_
+11	och	och	CCONJ	_	_	_	_	_	_
+12	arbetar	arbeta	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_074
+# text = Det har bevisats att en balanserad ekonomi minskar oron i vardagen.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	bevisats	bevisa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	balanserad	balanserad	ADJ	_	_	_	_	_	_
+7	ekonomi	ekonomi	NOUN	_	_	_	_	_	_
+8	minskar	minska	VERB	_	_	_	_	_	_
+9	oron	oron	NOUN	_	_	_	_	_	_
+10	i	i	ADP	_	_	_	_	_	_
+11	vardagen	vardag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_075
+# text = Att skriva dagbok kan vara ett effektivt sätt att bearbeta sina tankar och känslor.
+1	Att	att	PART	_	_	_	_	_	_
+2	skriva	skriva	VERB	_	_	_	_	_	_
+3	dagbok	dagbok	NOUN	_	_	_	_	_	_
+4	kan	kunna	AUX	_	_	_	_	_	_
+5	vara	vara	VERB	_	_	_	_	_	_
+6	ett	ett	DET	_	_	_	_	_	_
+7	effektivt	effektiv	ADJ	_	_	_	_	_	_
+8	sätt	sätt	NOUN	_	_	_	_	_	_
+9	att	att	PART	_	_	_	_	_	_
+10	bearbeta	bearbeta	VERB	_	_	_	_	_	_
+11	sina	sig	PRON	_	_	_	_	_	_
+12	tankar	tanka	NOUN	_	_	_	_	_	_
+13	och	och	CCONJ	_	_	_	_	_	_
+14	känslor	känsla	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_076
+# text = Många forskare anser att aktiv fritid minskar risken för stressrelaterade sjukdomar.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	forskare	forskare	NOUN	_	_	_	_	_	_
+3	anser	anse	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	aktiv	aktiv	ADJ	_	_	_	_	_	_
+6	fritid	fritid	NOUN	_	_	_	_	_	_
+7	minskar	minska	VERB	_	_	_	_	_	_
+8	risken	risk	NOUN	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	stressrelaterade	stressrelaterad	ADJ	_	_	_	_	_	_
+11	sjukdomar	sjukdom	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_077
+# text = Det har bevisats att bra samarbete löser de flesta problem på arbetsplatsen.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	bevisats	bevisa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	samarbete	samarbete	NOUN	_	_	_	_	_	_
+7	löser	lösa	VERB	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	flesta	mången	ADJ	_	_	_	_	_	_
+10	problem	problem	NOUN	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	arbetsplatsen	arbetsplats	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_078
+# text = De flesta experter hävdar att digitaliseringen underlättar kommunikation över gränserna.
+1	De	de	DET	_	_	_	_	_	_
+2	flesta	mången	ADJ	_	_	_	_	_	_
+3	experter	expert	NOUN	_	_	_	_	_	_
+4	hävdar	hävda	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	digitaliseringen	digitalisering	NOUN	_	_	_	_	_	_
+7	underlättar	underlätta	VERB	_	_	_	_	_	_
+8	kommunikation	kommunikation	NOUN	_	_	_	_	_	_
+9	över	över	ADP	_	_	_	_	_	_
+10	gränserna	gräns	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_079
+# text = Det kan också konstateras att naturen har en stor helande kraft för stressade hjärnor.
+1	Det	det	PRON	_	_	_	_	_	_
+2	kan	kunna	AUX	_	_	_	_	_	_
+3	också	också	ADV	_	_	_	_	_	_
+4	konstateras	konstatera	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	naturen	natur	NOUN	_	_	_	_	_	_
+7	har	ha	AUX	_	_	_	_	_	_
+8	en	en	DET	_	_	_	_	_	_
+9	stor	stor	ADJ	_	_	_	_	_	_
+10	helande	helande	ADJ	_	_	_	_	_	_
+11	kraft	kraft	NOUN	_	_	_	_	_	_
+12	för	för	ADP	_	_	_	_	_	_
+13	stressade	stressad	ADJ	_	_	_	_	_	_
+14	hjärnor	hjärna	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_080
+# text = Det har länge diskuterats om livslångt lärande är nödvändigt på dagens arbetsmarknad.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	länge	länge	ADV	_	_	_	_	_	_
+4	diskuterats	diskutera	VERB	_	_	_	_	_	_
+5	om	om	SCONJ	_	_	_	_	_	_
+6	livslångt	livslång	ADJ	_	_	_	_	_	_
+7	lärande	lärande	NOUN	_	_	_	_	_	_
+8	är	vara	AUX	_	_	_	_	_	_
+9	nödvändigt	nödvändig	ADJ	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	dagens	dag	NOUN	_	_	_	_	_	_
+12	arbetsmarknad	arbetsmarknad	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_081
+# text = Elbilar blir allt billigare och mer tillgängliga för vanliga konsumenter.
+1	Elbilar	elbil	NOUN	_	_	_	_	_	_
+2	blir	bli	VERB	_	_	_	_	_	_
+3	allt	allt	ADV	_	_	_	_	_	_
+4	billigare	billig	ADJ	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	mer	mycket	ADV	_	_	_	_	_	_
+7	tillgängliga	tillgänglig	ADJ	_	_	_	_	_	_
+8	för	för	ADP	_	_	_	_	_	_
+9	vanliga	vanlig	ADJ	_	_	_	_	_	_
+10	konsumenter	konsument	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_082
+# text = Det är viktigt att vi tar hand om våra gemensamma resurser på ett ansvarsfullt sätt.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	viktigt	viktig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	vi	vi	PRON	_	_	_	_	_	_
+6	tar	ta	VERB	_	_	_	_	_	_
+7	hand	hand	NOUN	_	_	_	_	_	_
+8	om	om	ADP	_	_	_	_	_	_
+9	våra	vi	PRON	_	_	_	_	_	_
+10	gemensamma	gemensam	ADJ	_	_	_	_	_	_
+11	resurser	resurs	NOUN	_	_	_	_	_	_
+12	på	på	ADP	_	_	_	_	_	_
+13	ett	ett	DET	_	_	_	_	_	_
+14	ansvarsfullt	ansvarsfull	ADJ	_	_	_	_	_	_
+15	sätt	sätt	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_083
+# text = För att minska miljöpåverkan måste lärare få bättre förutsättningar.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	minska	minska	VERB	_	_	_	_	_	_
+4	miljöpåverkan	miljöpåverkan	NOUN	_	_	_	_	_	_
+5	måste	måste	VERB	_	_	_	_	_	_
+6	lärare	lärare	NOUN	_	_	_	_	_	_
+7	få	få	VERB	_	_	_	_	_	_
+8	bättre	bra	ADJ	_	_	_	_	_	_
+9	förutsättningar	förutsättning	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_084
+# text = Många lärare betonar att källsortering bidrar till en mer hållbar miljö.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	betonar	betona	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	källsortering	källsortering	NOUN	_	_	_	_	_	_
+6	bidrar	bidra	VERB	_	_	_	_	_	_
+7	till	till	ADP	_	_	_	_	_	_
+8	en	en	DET	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	hållbar	hållbar	ADJ	_	_	_	_	_	_
+11	miljö	miljö	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_085
+# text = De flesta experter hävdar att ny teknik skapar fantastiska möjligheter för vården.
+1	De	de	DET	_	_	_	_	_	_
+2	flesta	mången	ADJ	_	_	_	_	_	_
+3	experter	expert	NOUN	_	_	_	_	_	_
+4	hävdar	hävda	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	ny	ny	ADJ	_	_	_	_	_	_
+7	teknik	teknik	NOUN	_	_	_	_	_	_
+8	skapar	skapa	VERB	_	_	_	_	_	_
+9	fantastiska	fantastisk	ADJ	_	_	_	_	_	_
+10	möjligheter	möjlighet	NOUN	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	vården	vård	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_086
+# text = Undersökningar visar tydligt att livslångt lärande är nödvändigt på dagens arbetsmarknad.
+1	Undersökningar	undersökning	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	livslångt	livslång	ADJ	_	_	_	_	_	_
+6	lärande	lärande	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	nödvändigt	nödvändig	ADJ	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	dagens	dag	NOUN	_	_	_	_	_	_
+11	arbetsmarknad	arbetsmarknad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_087
+# text = Det kan också konstateras att samhället måste ge mer stöd till unga entreprenörer.
+1	Det	det	PRON	_	_	_	_	_	_
+2	kan	kunna	AUX	_	_	_	_	_	_
+3	också	också	ADV	_	_	_	_	_	_
+4	konstateras	konstatera	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	samhället	samhälle	NOUN	_	_	_	_	_	_
+7	måste	måste	VERB	_	_	_	_	_	_
+8	ge	ge	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	stöd	stöd	NOUN	_	_	_	_	_	_
+11	till	till	ADP	_	_	_	_	_	_
+12	unga	ung	ADJ	_	_	_	_	_	_
+13	entreprenörer	entreprenör	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_088
+# text = Ekonomer påpekar ofta att ny teknik skapar fantastiska möjligheter för vården.
+1	Ekonomer	ekonom	NOUN	_	_	_	_	_	_
+2	påpekar	påpeka	VERB	_	_	_	_	_	_
+3	ofta	ofta	ADV	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	ny	ny	ADJ	_	_	_	_	_	_
+6	teknik	teknik	NOUN	_	_	_	_	_	_
+7	skapar	skapa	VERB	_	_	_	_	_	_
+8	fantastiska	fantastisk	ADJ	_	_	_	_	_	_
+9	möjligheter	möjlighet	NOUN	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	vården	vård	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_089
+# text = Det finns tecken på att språkkunskaper ökar chanserna att få ett internationellt jobb.
+1	Det	det	PRON	_	_	_	_	_	_
+2	finns	finnas	VERB	_	_	_	_	_	_
+3	tecken	tecken	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	språkkunskaper	språkkunskap	NOUN	_	_	_	_	_	_
+7	ökar	öka	VERB	_	_	_	_	_	_
+8	chanserna	chans	NOUN	_	_	_	_	_	_
+9	att	att	PART	_	_	_	_	_	_
+10	få	få	VERB	_	_	_	_	_	_
+11	ett	ett	DET	_	_	_	_	_	_
+12	internationellt	internationell	ADJ	_	_	_	_	_	_
+13	jobb	jobb	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_090
+# text = Många politiker menar att bra ergonomi förhindrar arbetsskador under långa arbetsdagar.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	politiker	politiker	NOUN	_	_	_	_	_	_
+3	menar	mena	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	ergonomi	ergonomi	NOUN	_	_	_	_	_	_
+7	förhindrar	förhindra	VERB	_	_	_	_	_	_
+8	arbetsskador	arbetsskada	NOUN	_	_	_	_	_	_
+9	under	under	ADP	_	_	_	_	_	_
+10	långa	lång	ADJ	_	_	_	_	_	_
+11	arbetsdagar	arbetsdag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_091
+# text = Flera företag märker att bra samarbete löser de flesta problem på arbetsplatsen.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	företag	företag	NOUN	_	_	_	_	_	_
+3	märker	märka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	samarbete	samarbete	NOUN	_	_	_	_	_	_
+7	löser	lösa	VERB	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	flesta	mången	ADJ	_	_	_	_	_	_
+10	problem	problem	NOUN	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	arbetsplatsen	arbetsplats	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_092
+# text = Det är därför uppenbart att solpaneler är en bra investering för framtiden.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	därför	därför	ADV	_	_	_	_	_	_
+4	uppenbart	uppenbar	ADJ	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	solpaneler	solpanel	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	en	en	DET	_	_	_	_	_	_
+9	bra	bra	ADJ	_	_	_	_	_	_
+10	investering	investering	NOUN	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	framtiden	framtid	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_093
+# text = Ekonomer påpekar ofta att högre utbildning borde vara kostnadsfri för alla.
+1	Ekonomer	ekonom	NOUN	_	_	_	_	_	_
+2	påpekar	påpeka	VERB	_	_	_	_	_	_
+3	ofta	ofta	ADV	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	högre	hög	ADJ	_	_	_	_	_	_
+6	utbildning	utbildning	NOUN	_	_	_	_	_	_
+7	borde	böra	VERB	_	_	_	_	_	_
+8	vara	vara	VERB	_	_	_	_	_	_
+9	kostnadsfri	kostnadsfri	ADJ	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	alla	all	PRON	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_094
+# text = Många forskare menar faktiskt att samhället måste ge mer stöd till unga entreprenörer.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	forskare	forskare	NOUN	_	_	_	_	_	_
+3	menar	mena	VERB	_	_	_	_	_	_
+4	faktiskt	faktisk	ADV	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	samhället	samhälle	NOUN	_	_	_	_	_	_
+7	måste	måste	VERB	_	_	_	_	_	_
+8	ge	ge	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	stöd	stöd	NOUN	_	_	_	_	_	_
+11	till	till	ADP	_	_	_	_	_	_
+12	unga	ung	ADJ	_	_	_	_	_	_
+13	entreprenörer	entreprenör	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_095
+# text = Många studier tyder dessutom på att sociala medier tar för mycket tid från ungas läxor.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	tyder	tyda	VERB	_	_	_	_	_	_
+4	dessutom	dessutom	ADV	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	sociala	social	ADJ	_	_	_	_	_	_
+8	medier	medie	NOUN	_	_	_	_	_	_
+9	tar	ta	VERB	_	_	_	_	_	_
+10	för	för	ADV	_	_	_	_	_	_
+11	mycket	mycke	ADJ	_	_	_	_	_	_
+12	tid	tid	NOUN	_	_	_	_	_	_
+13	från	från	ADP	_	_	_	_	_	_
+14	ungas	ung	ADJ	_	_	_	_	_	_
+15	läxor	läxa	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_096
+# text = Flera företag märker att tidiga insatser i skolan minskar risken för framtida utanförskap.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	företag	företag	NOUN	_	_	_	_	_	_
+3	märker	märka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	tidiga	tidig	ADJ	_	_	_	_	_	_
+6	insatser	insats	NOUN	_	_	_	_	_	_
+7	i	i	ADP	_	_	_	_	_	_
+8	skolan	skola	NOUN	_	_	_	_	_	_
+9	minskar	minska	VERB	_	_	_	_	_	_
+10	risken	risk	NOUN	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	framtida	framtida	ADJ	_	_	_	_	_	_
+13	utanförskap	utanförskap	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_097
+# text = För att förbättra hälsan bör företag satsa mer på hållbarhet och minska avfallet.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	företag	företag	NOUN	_	_	_	_	_	_
+7	satsa	satsa	VERB	_	_	_	_	_	_
+8	mer	mycket	ADV	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	hållbarhet	hållbarhet	NOUN	_	_	_	_	_	_
+11	och	och	CCONJ	_	_	_	_	_	_
+12	minska	minska	VERB	_	_	_	_	_	_
+13	avfallet	avfall	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_098
+# text = Flera företag märker att lokalproducerade råvaror stödjer det lokala näringslivet.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	företag	företag	NOUN	_	_	_	_	_	_
+3	märker	märka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	lokalproducerade	lokalproducerad	ADJ	_	_	_	_	_	_
+6	råvaror	råvara	NOUN	_	_	_	_	_	_
+7	stödjer	stödja	VERB	_	_	_	_	_	_
+8	det	det	DET	_	_	_	_	_	_
+9	lokala	lokal	ADJ	_	_	_	_	_	_
+10	näringslivet	näringsliv	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_099
+# text = Läkare rekommenderar att livslång utbildning ökar individens flexibilitet på arbetsmarknaden.
+1	Läkare	läkare	NOUN	_	_	_	_	_	_
+2	rekommenderar	rekommenderar	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	livslång	livslång	ADJ	_	_	_	_	_	_
+5	utbildning	utbildning	NOUN	_	_	_	_	_	_
+6	ökar	öka	VERB	_	_	_	_	_	_
+7	individens	individ	NOUN	_	_	_	_	_	_
+8	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	arbetsmarknaden	arbetsmarknad	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_100
+# text = Läkare rekommenderar att högre utbildning borde vara kostnadsfri för alla.
+1	Läkare	läkare	NOUN	_	_	_	_	_	_
+2	rekommenderar	rekommenderar	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	högre	hög	ADJ	_	_	_	_	_	_
+5	utbildning	utbildning	NOUN	_	_	_	_	_	_
+6	borde	böra	VERB	_	_	_	_	_	_
+7	vara	vara	VERB	_	_	_	_	_	_
+8	kostnadsfri	kostnadsfri	ADJ	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	alla	all	PRON	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_101
+# text = I slutändan handlar det om att regelbunden träning förlänger livet och ger mer energi.
+1	I	i	ADP	_	_	_	_	_	_
+2	slutändan	slutända	NOUN	_	_	_	_	_	_
+3	handlar	handla	VERB	_	_	_	_	_	_
+4	det	det	PRON	_	_	_	_	_	_
+5	om	om	ADP	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	regelbunden	regelbunden	ADJ	_	_	_	_	_	_
+8	träning	träning	NOUN	_	_	_	_	_	_
+9	förlänger	förlänga	VERB	_	_	_	_	_	_
+10	livet	liv	NOUN	_	_	_	_	_	_
+11	och	och	CCONJ	_	_	_	_	_	_
+12	ger	ge	VERB	_	_	_	_	_	_
+13	mer	mycket	ADJ	_	_	_	_	_	_
+14	energi	energi	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_102
+# text = Vid sidan av studierna brukar unga människor få lättare att etablera sig på bostadsmarknaden.
+1	Vid	vid	ADP	_	_	_	_	_	_
+2	sidan	sida	NOUN	_	_	_	_	_	_
+3	av	av	ADP	_	_	_	_	_	_
+4	studierna	studium	NOUN	_	_	_	_	_	_
+5	brukar	bruka	VERB	_	_	_	_	_	_
+6	unga	ung	ADJ	_	_	_	_	_	_
+7	människor	människa	NOUN	_	_	_	_	_	_
+8	få	få	VERB	_	_	_	_	_	_
+9	lättare	lätt	ADJ	_	_	_	_	_	_
+10	att	att	PART	_	_	_	_	_	_
+11	etablera	etablera	VERB	_	_	_	_	_	_
+12	sig	sig	PRON	_	_	_	_	_	_
+13	på	på	ADP	_	_	_	_	_	_
+14	bostadsmarknaden	bostadsmarknad	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_103
+# text = Många forskare anser att offentlig konst gör våra gemensamma miljöer trevligare.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	forskare	forskare	NOUN	_	_	_	_	_	_
+3	anser	anse	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	offentlig	offentlig	ADJ	_	_	_	_	_	_
+6	konst	konst	NOUN	_	_	_	_	_	_
+7	gör	göra	VERB	_	_	_	_	_	_
+8	våra	vi	PRON	_	_	_	_	_	_
+9	gemensamma	gemensam	ADJ	_	_	_	_	_	_
+10	miljöer	miljö	NOUN	_	_	_	_	_	_
+11	trevligare	trevlig	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_104
+# text = Det är tydligt att klimatkrisen utgör ett hot mot vår framtid.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	klimatkrisen	klimatkris	NOUN	_	_	_	_	_	_
+6	utgör	utgöra	VERB	_	_	_	_	_	_
+7	ett	ett	DET	_	_	_	_	_	_
+8	hot	hot	NOUN	_	_	_	_	_	_
+9	mot	mot	ADP	_	_	_	_	_	_
+10	vår	vi	PRON	_	_	_	_	_	_
+11	framtid	framtid	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_105
+# text = Det är tydligt att bra samarbete löser de flesta problem på arbetsplatsen.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	samarbete	samarbete	NOUN	_	_	_	_	_	_
+7	löser	lösa	VERB	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	flesta	mången	ADJ	_	_	_	_	_	_
+10	problem	problem	NOUN	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	arbetsplatsen	arbetsplats	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_106
+# text = I de flesta europeiska länder väljer vi värna om vår integritet när vi använder internet.
+1	I	i	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	flesta	mången	ADJ	_	_	_	_	_	_
+4	europeiska	europeisk	ADJ	_	_	_	_	_	_
+5	länder	land	NOUN	_	_	_	_	_	_
+6	väljer	välja	VERB	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	värna	värna	VERB	_	_	_	_	_	_
+9	om	om	ADP	_	_	_	_	_	_
+10	vår	vi	PRON	_	_	_	_	_	_
+11	integritet	integritet	NOUN	_	_	_	_	_	_
+12	när	när	SCONJ	_	_	_	_	_	_
+13	vi	vi	PRON	_	_	_	_	_	_
+14	använder	använda	VERB	_	_	_	_	_	_
+15	internet	intern	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_107
+# text = Det har länge diskuterats om god sömn är avgörande för kroppens återhämtning.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	länge	länge	ADV	_	_	_	_	_	_
+4	diskuterats	diskutera	VERB	_	_	_	_	_	_
+5	om	om	SCONJ	_	_	_	_	_	_
+6	god	god	ADJ	_	_	_	_	_	_
+7	sömn	sömn	NOUN	_	_	_	_	_	_
+8	är	vara	AUX	_	_	_	_	_	_
+9	avgörande	avgörande	ADJ	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	kroppens	kropp	NOUN	_	_	_	_	_	_
+12	återhämtning	återhämtning	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_108
+# text = Flera studier visar att en hälsosam kost ger mer energi under dagen.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	visar	visa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	hälsosam	hälsosam	ADJ	_	_	_	_	_	_
+7	kost	kost	NOUN	_	_	_	_	_	_
+8	ger	ge	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	energi	energi	NOUN	_	_	_	_	_	_
+11	under	under	ADP	_	_	_	_	_	_
+12	dagen	dag	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_109
+# text = Det anses allmänt att bra ergonomi förhindrar arbetsskador under långa arbetsdagar.
+1	Det	det	PRON	_	_	_	_	_	_
+2	anses	anse	VERB	_	_	_	_	_	_
+3	allmänt	allmän	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	ergonomi	ergonomi	NOUN	_	_	_	_	_	_
+7	förhindrar	förhindra	VERB	_	_	_	_	_	_
+8	arbetsskador	arbetsskada	NOUN	_	_	_	_	_	_
+9	under	under	ADP	_	_	_	_	_	_
+10	långa	lång	ADJ	_	_	_	_	_	_
+11	arbetsdagar	arbetsdag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_110
+# text = Många tror att robotar kommer att ta över enkla arbetsuppgifter i framtiden.
+1	Många	mången	PRON	_	_	_	_	_	_
+2	tror	tro	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	robotar	robot	NOUN	_	_	_	_	_	_
+5	kommer	komma	AUX	_	_	_	_	_	_
+6	att	att	PART	_	_	_	_	_	_
+7	ta	ta	VERB	_	_	_	_	_	_
+8	över	över	ADP	_	_	_	_	_	_
+9	enkla	enkel	ADJ	_	_	_	_	_	_
+10	arbetsuppgifter	arbetsuppgift	NOUN	_	_	_	_	_	_
+11	i	i	ADP	_	_	_	_	_	_
+12	framtiden	framtid	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_111
+# text = Genom att införa nya regler vill konsumenter välja grönare alternativ i mataffären.
+1	Genom	genom	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	införa	införa	VERB	_	_	_	_	_	_
+4	nya	ny	ADJ	_	_	_	_	_	_
+5	regler	regel	NOUN	_	_	_	_	_	_
+6	vill	vilja	AUX	_	_	_	_	_	_
+7	konsumenter	konsument	NOUN	_	_	_	_	_	_
+8	välja	välja	VERB	_	_	_	_	_	_
+9	grönare	grön	ADJ	_	_	_	_	_	_
+10	alternativ	alternativ	NOUN	_	_	_	_	_	_
+11	i	i	ADP	_	_	_	_	_	_
+12	mataffären	mataffär	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_112
+# text = Vid sidan av studierna brukar vi uppmuntra till ökad läsning.
+1	Vid	vid	ADP	_	_	_	_	_	_
+2	sidan	sida	NOUN	_	_	_	_	_	_
+3	av	av	ADP	_	_	_	_	_	_
+4	studierna	studium	NOUN	_	_	_	_	_	_
+5	brukar	bruka	VERB	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	uppmuntra	uppmuntra	VERB	_	_	_	_	_	_
+8	till	till	ADP	_	_	_	_	_	_
+9	ökad	ökad	ADJ	_	_	_	_	_	_
+10	läsning	läsning	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_113
+# text = Vid sidan av studierna brukar arbetsgivare erbjuda mer flexibilitet till sina anställda.
+1	Vid	vid	ADP	_	_	_	_	_	_
+2	sidan	sida	NOUN	_	_	_	_	_	_
+3	av	av	ADP	_	_	_	_	_	_
+4	studierna	studium	NOUN	_	_	_	_	_	_
+5	brukar	bruka	VERB	_	_	_	_	_	_
+6	arbetsgivare	arbetsgivare	NOUN	_	_	_	_	_	_
+7	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+8	mer	mycket	ADJ	_	_	_	_	_	_
+9	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+10	till	till	ADP	_	_	_	_	_	_
+11	sina	sig	PRON	_	_	_	_	_	_
+12	anställda	anställd	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_114
+# text = Många medborgare tycker att en balanserad ekonomi minskar oron i vardagen.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	medborgare	medborgare	NOUN	_	_	_	_	_	_
+3	tycker	tycka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	balanserad	balanserad	ADJ	_	_	_	_	_	_
+7	ekonomi	ekonomi	NOUN	_	_	_	_	_	_
+8	minskar	minska	VERB	_	_	_	_	_	_
+9	oron	oron	NOUN	_	_	_	_	_	_
+10	i	i	ADP	_	_	_	_	_	_
+11	vardagen	vardag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_115
+# text = Många föräldrar ser att bra ergonomi förhindrar arbetsskador under långa arbetsdagar.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	föräldrar	förälder	NOUN	_	_	_	_	_	_
+3	ser	se	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	ergonomi	ergonomi	NOUN	_	_	_	_	_	_
+7	förhindrar	förhindra	VERB	_	_	_	_	_	_
+8	arbetsskador	arbetsskada	NOUN	_	_	_	_	_	_
+9	under	under	ADP	_	_	_	_	_	_
+10	långa	lång	ADJ	_	_	_	_	_	_
+11	arbetsdagar	arbetsdag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_116
+# text = Många forskare anser att fornybar energi ersätter gradvis de fossila bränslena.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	forskare	forskare	NOUN	_	_	_	_	_	_
+3	anser	anse	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	fornybar	fornybar	ADJ	_	_	_	_	_	_
+6	energi	energi	NOUN	_	_	_	_	_	_
+7	ersätter	ersätta	VERB	_	_	_	_	_	_
+8	gradvis	gradvis	ADV	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	fossila	fossil	ADJ	_	_	_	_	_	_
+11	bränslena	bränsle	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_117
+# text = Under det senaste året har vi förändra våra dagliga vanor för miljöns skull.
+1	Under	under	ADP	_	_	_	_	_	_
+2	det	det	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	året	år	NOUN	_	_	_	_	_	_
+5	har	ha	AUX	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	förändra	förändra	VERB	_	_	_	_	_	_
+8	våra	vi	PRON	_	_	_	_	_	_
+9	dagliga	daglig	ADJ	_	_	_	_	_	_
+10	vanor	vana	NOUN	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	miljöns	miljö	NOUN	_	_	_	_	_	_
+13	skull	skull	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_118
+# text = Det finns tecken på att tidiga insatser i skolan minskar risken för framtida utanförskap.
+1	Det	det	PRON	_	_	_	_	_	_
+2	finns	finnas	VERB	_	_	_	_	_	_
+3	tecken	tecken	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	tidiga	tidig	ADJ	_	_	_	_	_	_
+7	insatser	insats	NOUN	_	_	_	_	_	_
+8	i	i	ADP	_	_	_	_	_	_
+9	skolan	skola	NOUN	_	_	_	_	_	_
+10	minskar	minska	VERB	_	_	_	_	_	_
+11	risken	risk	NOUN	_	_	_	_	_	_
+12	för	för	ADP	_	_	_	_	_	_
+13	framtida	framtida	ADJ	_	_	_	_	_	_
+14	utanförskap	utanförskap	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_119
+# text = Genom att arbeta tillsammans kan skolan lägga större fokus på elevernas välbefinnande.
+1	Genom	genom	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	arbeta	arbeta	VERB	_	_	_	_	_	_
+4	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+5	kan	kunna	AUX	_	_	_	_	_	_
+6	skolan	skola	NOUN	_	_	_	_	_	_
+7	lägga	lägga	VERB	_	_	_	_	_	_
+8	större	stor	ADJ	_	_	_	_	_	_
+9	fokus	fokus	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	elevernas	elev	NOUN	_	_	_	_	_	_
+12	välbefinnande	välbefinnande	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_120
+# text = Ekonomer påpekar ofta att livslångt lärande är nödvändigt på dagens arbetsmarknad.
+1	Ekonomer	ekonom	NOUN	_	_	_	_	_	_
+2	påpekar	påpeka	VERB	_	_	_	_	_	_
+3	ofta	ofta	ADV	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	livslångt	livslång	ADJ	_	_	_	_	_	_
+6	lärande	lärande	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	nödvändigt	nödvändig	ADJ	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	dagens	dag	NOUN	_	_	_	_	_	_
+11	arbetsmarknad	arbetsmarknad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_121
+# text = Flera företag märker att en god natts sömn stärker immunförsvaret avsevärt.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	företag	företag	NOUN	_	_	_	_	_	_
+3	märker	märka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	god	god	ADJ	_	_	_	_	_	_
+7	natts	natt	NOUN	_	_	_	_	_	_
+8	sömn	sömn	NOUN	_	_	_	_	_	_
+9	stärker	stärka	VERB	_	_	_	_	_	_
+10	immunförsvaret	immunförsvar	NOUN	_	_	_	_	_	_
+11	avsevärt	avsevärd	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_122
+# text = Det är därför uppenbart att samhället måste ge mer stöd till unga entreprenörer.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	därför	därför	ADV	_	_	_	_	_	_
+4	uppenbart	uppenbar	ADJ	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	samhället	samhälle	NOUN	_	_	_	_	_	_
+7	måste	måste	VERB	_	_	_	_	_	_
+8	ge	ge	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	stöd	stöd	NOUN	_	_	_	_	_	_
+11	till	till	ADP	_	_	_	_	_	_
+12	unga	ung	ADJ	_	_	_	_	_	_
+13	entreprenörer	entreprenör	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_123
+# text = Att dricka tillräckligt med vatten är viktigt för att kroppen ska fungera optimalt.
+1	Att	att	PART	_	_	_	_	_	_
+2	dricka	dricka	VERB	_	_	_	_	_	_
+3	tillräckligt	tillräcklig	ADV	_	_	_	_	_	_
+4	med	med	ADP	_	_	_	_	_	_
+5	vatten	vatten	NOUN	_	_	_	_	_	_
+6	är	vara	AUX	_	_	_	_	_	_
+7	viktigt	viktig	ADJ	_	_	_	_	_	_
+8	för	för	ADP	_	_	_	_	_	_
+9	att	att	SCONJ	_	_	_	_	_	_
+10	kroppen	kropp	NOUN	_	_	_	_	_	_
+11	ska	skola	AUX	_	_	_	_	_	_
+12	fungera	fungera	VERB	_	_	_	_	_	_
+13	optimalt	optimal	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_124
+# text = Det är framför allt viktigt att vuxna måste ta större ansvar för barns skärmtid.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	framför	framför	ADP	_	_	_	_	_	_
+4	allt	allt	ADV	_	_	_	_	_	_
+5	viktigt	viktig	ADJ	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	vuxna	vuxen	ADJ	_	_	_	_	_	_
+8	måste	måste	VERB	_	_	_	_	_	_
+9	ta	ta	VERB	_	_	_	_	_	_
+10	större	stor	ADJ	_	_	_	_	_	_
+11	ansvar	ansvar	NOUN	_	_	_	_	_	_
+12	för	för	ADP	_	_	_	_	_	_
+13	barns	barn	NOUN	_	_	_	_	_	_
+14	skärmtid	skärmtid	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_125
+# text = Det har bevisats att digitaliseringen underlättar kommunikation över gränserna.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	bevisats	bevisa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	digitaliseringen	digitalisering	NOUN	_	_	_	_	_	_
+6	underlättar	underlätta	VERB	_	_	_	_	_	_
+7	kommunikation	kommunikation	NOUN	_	_	_	_	_	_
+8	över	över	ADP	_	_	_	_	_	_
+9	gränserna	gräns	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_126
+# text = Flera företag märker att distansarbete skapar en mer flexibel vardag.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	företag	företag	NOUN	_	_	_	_	_	_
+3	märker	märka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	distansarbete	distansarbete	NOUN	_	_	_	_	_	_
+6	skapar	skapa	VERB	_	_	_	_	_	_
+7	en	en	DET	_	_	_	_	_	_
+8	mer	mycket	ADV	_	_	_	_	_	_
+9	flexibel	flexibel	ADJ	_	_	_	_	_	_
+10	vardag	vardag	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_127
+# text = Enligt den senaste undersökningen bör unga människor få lättare.
+1	Enligt	enligt	ADP	_	_	_	_	_	_
+2	den	den	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	undersökningen	undersökning	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	unga	ung	ADJ	_	_	_	_	_	_
+7	människor	människa	NOUN	_	_	_	_	_	_
+8	få	få	VERB	_	_	_	_	_	_
+9	lättare	lätt	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_128
+# text = Om tekniken fortsätter utvecklas skapas det helt nya yrkesroller.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	tekniken	teknik	NOUN	_	_	_	_	_	_
+3	fortsätter	fortsätta	VERB	_	_	_	_	_	_
+4	utvecklas	utveckla	VERB	_	_	_	_	_	_
+5	skapas	skapa	VERB	_	_	_	_	_	_
+6	det	det	PRON	_	_	_	_	_	_
+7	helt	helt	ADV	_	_	_	_	_	_
+8	nya	ny	ADJ	_	_	_	_	_	_
+9	yrkesroller	yrkesroll	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_129
+# text = Vid sidan av studierna brukar skolan lägga större fokus på elevernas välbefinnande.
+1	Vid	vid	ADP	_	_	_	_	_	_
+2	sidan	sida	NOUN	_	_	_	_	_	_
+3	av	av	ADP	_	_	_	_	_	_
+4	studierna	studium	NOUN	_	_	_	_	_	_
+5	brukar	bruka	VERB	_	_	_	_	_	_
+6	skolan	skola	NOUN	_	_	_	_	_	_
+7	lägga	lägga	VERB	_	_	_	_	_	_
+8	större	stor	ADJ	_	_	_	_	_	_
+9	fokus	fokus	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	elevernas	elev	NOUN	_	_	_	_	_	_
+12	välbefinnande	välbefinnande	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_130
+# text = I de flesta europeiska länder väljer svenskar resa mer med tåg.
+1	I	i	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	flesta	mången	ADJ	_	_	_	_	_	_
+4	europeiska	europeisk	ADJ	_	_	_	_	_	_
+5	länder	land	NOUN	_	_	_	_	_	_
+6	väljer	välja	VERB	_	_	_	_	_	_
+7	svenskar	svensk	NOUN	_	_	_	_	_	_
+8	resa	resa	VERB	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	med	med	ADP	_	_	_	_	_	_
+11	tåg	tåg	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_131
+# text = Under det senaste året har konsumenter välja grönare alternativ i mataffären.
+1	Under	under	ADP	_	_	_	_	_	_
+2	det	det	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	året	år	NOUN	_	_	_	_	_	_
+5	har	ha	AUX	_	_	_	_	_	_
+6	konsumenter	konsument	NOUN	_	_	_	_	_	_
+7	välja	välja	VERB	_	_	_	_	_	_
+8	grönare	grön	ADJ	_	_	_	_	_	_
+9	alternativ	alternativ	NOUN	_	_	_	_	_	_
+10	i	i	ADP	_	_	_	_	_	_
+11	mataffären	mataffär	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_132
+# text = Flera företag märker att ökad källsortering leder till mindre avfall på soptippen.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	företag	företag	NOUN	_	_	_	_	_	_
+3	märker	märka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	ökad	ökad	ADJ	_	_	_	_	_	_
+6	källsortering	källsortering	NOUN	_	_	_	_	_	_
+7	leder	leda	VERB	_	_	_	_	_	_
+8	till	till	ADP	_	_	_	_	_	_
+9	mindre	liten	ADJ	_	_	_	_	_	_
+10	avfall	avfall	NOUN	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	soptippen	soptipp	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_133
+# text = Vid sidan av studierna brukar företag anställa fler personer.
+1	Vid	vid	ADP	_	_	_	_	_	_
+2	sidan	sida	NOUN	_	_	_	_	_	_
+3	av	av	ADP	_	_	_	_	_	_
+4	studierna	studium	NOUN	_	_	_	_	_	_
+5	brukar	bruka	VERB	_	_	_	_	_	_
+6	företag	företag	NOUN	_	_	_	_	_	_
+7	anställa	anställa	VERB	_	_	_	_	_	_
+8	fler	fler	ADJ	_	_	_	_	_	_
+9	personer	person	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_134
+# text = Utan tillräckliga resurser blir det svårt att vi minska stressen på kontoret genom bättre planering.
+1	Utan	utan	ADP	_	_	_	_	_	_
+2	tillräckliga	tillräcklig	ADJ	_	_	_	_	_	_
+3	resurser	resurs	NOUN	_	_	_	_	_	_
+4	blir	bli	VERB	_	_	_	_	_	_
+5	det	det	PRON	_	_	_	_	_	_
+6	svårt	svår	ADJ	_	_	_	_	_	_
+7	att	att	SCONJ	_	_	_	_	_	_
+8	vi	vi	PRON	_	_	_	_	_	_
+9	minska	minska	VERB	_	_	_	_	_	_
+10	stressen	stress	NOUN	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	kontoret	kontor	NOUN	_	_	_	_	_	_
+13	genom	genom	ADP	_	_	_	_	_	_
+14	bättre	bra	ADJ	_	_	_	_	_	_
+15	planering	planering	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_135
+# text = Många föräldrar ser att sociala medier påverkar ungdomars självbild negativt.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	föräldrar	förälder	NOUN	_	_	_	_	_	_
+3	ser	se	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	sociala	social	ADJ	_	_	_	_	_	_
+6	medier	medie	NOUN	_	_	_	_	_	_
+7	påverkar	påverka	VERB	_	_	_	_	_	_
+8	ungdomars	ungdom	NOUN	_	_	_	_	_	_
+9	självbild	självbild	NOUN	_	_	_	_	_	_
+10	negativt	negativ	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_136
+# text = Många politiker menar att livslång utbildning ökar individens flexibilitet på arbetsmarknaden.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	politiker	politiker	NOUN	_	_	_	_	_	_
+3	menar	mena	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	livslång	livslång	ADJ	_	_	_	_	_	_
+6	utbildning	utbildning	NOUN	_	_	_	_	_	_
+7	ökar	öka	VERB	_	_	_	_	_	_
+8	individens	individ	NOUN	_	_	_	_	_	_
+9	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	arbetsmarknaden	arbetsmarknad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_137
+# text = Det kan också konstateras att en hälsosam kost förebygger många vanliga sjukdomar.
+1	Det	det	PRON	_	_	_	_	_	_
+2	kan	kunna	AUX	_	_	_	_	_	_
+3	också	också	ADV	_	_	_	_	_	_
+4	konstateras	konstatera	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	hälsosam	hälsosam	ADJ	_	_	_	_	_	_
+8	kost	kost	NOUN	_	_	_	_	_	_
+9	förebygger	förebygga	VERB	_	_	_	_	_	_
+10	många	många	ADJ	_	_	_	_	_	_
+11	vanliga	vanlig	ADJ	_	_	_	_	_	_
+12	sjukdomar	sjukdom	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_138
+# text = Ekonomer påpekar ofta att bra ergonomi förhindrar arbetsskador under långa arbetsdagar.
+1	Ekonomer	ekonom	NOUN	_	_	_	_	_	_
+2	påpekar	påpeka	VERB	_	_	_	_	_	_
+3	ofta	ofta	ADV	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	bra	bra	ADJ	_	_	_	_	_	_
+6	ergonomi	ergonomi	NOUN	_	_	_	_	_	_
+7	förhindrar	förhindra	VERB	_	_	_	_	_	_
+8	arbetsskador	arbetsskada	NOUN	_	_	_	_	_	_
+9	under	under	ADP	_	_	_	_	_	_
+10	långa	lång	ADJ	_	_	_	_	_	_
+11	arbetsdagar	arbetsdag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_139
+# text = Många lärare betonar att distansarbete skapar en mer flexibel vardag.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	betonar	betona	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	distansarbete	distansarbete	NOUN	_	_	_	_	_	_
+6	skapar	skapa	VERB	_	_	_	_	_	_
+7	en	en	DET	_	_	_	_	_	_
+8	mer	mycket	ADV	_	_	_	_	_	_
+9	flexibel	flexibel	ADJ	_	_	_	_	_	_
+10	vardag	vardag	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_140
+# text = Undersökningar visar tydligt att regelbunden motion förbättrar den mentala hälsan.
+1	Undersökningar	undersökning	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	regelbunden	regelbunden	ADJ	_	_	_	_	_	_
+6	motion	motion	NOUN	_	_	_	_	_	_
+7	förbättrar	förbättra	VERB	_	_	_	_	_	_
+8	den	den	DET	_	_	_	_	_	_
+9	mentala	mental	ADJ	_	_	_	_	_	_
+10	hälsan	hälsa	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_141
+# text = Det är viktigt att vi köper närproducerad mat för att stödja lokala bönder.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	viktigt	viktig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	vi	vi	PRON	_	_	_	_	_	_
+6	köper	köpa	VERB	_	_	_	_	_	_
+7	närproducerad	närproducerad	ADJ	_	_	_	_	_	_
+8	mat	mat	NOUN	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	att	att	PART	_	_	_	_	_	_
+11	stödja	stödja	VERB	_	_	_	_	_	_
+12	lokala	lokal	ADJ	_	_	_	_	_	_
+13	bönder	bord	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_142
+# text = Det kan konstateras att god sömn är avgörande för kroppens återhämtning.
+1	Det	det	PRON	_	_	_	_	_	_
+2	kan	kunna	AUX	_	_	_	_	_	_
+3	konstateras	konstatera	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	god	god	ADJ	_	_	_	_	_	_
+6	sömn	sömn	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	avgörande	avgörande	ADJ	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	kroppens	kropp	NOUN	_	_	_	_	_	_
+11	återhämtning	återhämtning	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_143
+# text = Det anses allmänt att språkkunskaper ökar chanserna att få ett internationellt jobb.
+1	Det	det	PRON	_	_	_	_	_	_
+2	anses	anse	VERB	_	_	_	_	_	_
+3	allmänt	allmän	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	språkkunskaper	språkkunskap	NOUN	_	_	_	_	_	_
+6	ökar	öka	VERB	_	_	_	_	_	_
+7	chanserna	chans	NOUN	_	_	_	_	_	_
+8	att	att	PART	_	_	_	_	_	_
+9	få	få	VERB	_	_	_	_	_	_
+10	ett	ett	DET	_	_	_	_	_	_
+11	internationellt	internationell	ADJ	_	_	_	_	_	_
+12	jobb	jobb	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_144
+# text = Många unga upplever att god sömn är avgörande för kroppens återhämtning.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	unga	ung	ADJ	_	_	_	_	_	_
+3	upplever	uppleva	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	god	god	ADJ	_	_	_	_	_	_
+6	sömn	sömn	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	avgörande	avgörande	ADJ	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	kroppens	kropp	NOUN	_	_	_	_	_	_
+11	återhämtning	återhämtning	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_145
+# text = Med rätt stöd och vägledning kommer arbetsgivare erbjuda mer flexibilitet till sina anställda.
+1	Med	med	ADP	_	_	_	_	_	_
+2	rätt	rät	ADJ	_	_	_	_	_	_
+3	stöd	stöd	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	vägledning	vägledning	NOUN	_	_	_	_	_	_
+6	kommer	komma	AUX	_	_	_	_	_	_
+7	arbetsgivare	arbetsgivare	NOUN	_	_	_	_	_	_
+8	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+9	mer	mycket	ADJ	_	_	_	_	_	_
+10	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+11	till	till	ADP	_	_	_	_	_	_
+12	sina	sig	PRON	_	_	_	_	_	_
+13	anställda	anställd	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_146
+# text = Flera rapporter bekräftar att fornybar energi ersätter gradvis de fossila bränslena.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	rapporter	rapport	NOUN	_	_	_	_	_	_
+3	bekräftar	bekräfta	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	fornybar	fornybar	ADJ	_	_	_	_	_	_
+6	energi	energi	NOUN	_	_	_	_	_	_
+7	ersätter	ersätta	VERB	_	_	_	_	_	_
+8	gradvis	gradvis	ADV	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	fossila	fossil	ADJ	_	_	_	_	_	_
+11	bränslena	bränsle	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_147
+# text = För att nå sina mål måste man vara beredd att arbeta hårt och övervinna hinder.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	nå	nå	VERB	_	_	_	_	_	_
+4	sina	sig	PRON	_	_	_	_	_	_
+5	mål	mål	NOUN	_	_	_	_	_	_
+6	måste	måste	VERB	_	_	_	_	_	_
+7	man	man	PRON	_	_	_	_	_	_
+8	vara	vara	VERB	_	_	_	_	_	_
+9	beredd	beredd	ADJ	_	_	_	_	_	_
+10	att	att	PART	_	_	_	_	_	_
+11	arbeta	arbeta	VERB	_	_	_	_	_	_
+12	hårt	hård	ADV	_	_	_	_	_	_
+13	och	och	CCONJ	_	_	_	_	_	_
+14	övervinna	övervinna	VERB	_	_	_	_	_	_
+15	hinder	hinder	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_148
+# text = Det är dock viktigt att komma ihåg att samhället måste ge mer stöd till unga entreprenörer.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	dock	dock	ADV	_	_	_	_	_	_
+4	viktigt	viktig	ADJ	_	_	_	_	_	_
+5	att	att	PART	_	_	_	_	_	_
+6	komma	komma	VERB	_	_	_	_	_	_
+7	ihåg	ihåg	ADV	_	_	_	_	_	_
+8	att	att	SCONJ	_	_	_	_	_	_
+9	samhället	samhälle	NOUN	_	_	_	_	_	_
+10	måste	måste	VERB	_	_	_	_	_	_
+11	ge	ge	VERB	_	_	_	_	_	_
+12	mer	mycket	ADJ	_	_	_	_	_	_
+13	stöd	stöd	NOUN	_	_	_	_	_	_
+14	till	till	ADP	_	_	_	_	_	_
+15	unga	ung	ADJ	_	_	_	_	_	_
+16	entreprenörer	entreprenör	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_149
+# text = Psykologer menar att förkortad arbetstid kan öka produktiviteten på kontoret.
+1	Psykologer	psykolog	NOUN	_	_	_	_	_	_
+2	menar	mena	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	förkortad	förkortad	ADJ	_	_	_	_	_	_
+5	arbetstid	arbetstid	NOUN	_	_	_	_	_	_
+6	kan	kunna	AUX	_	_	_	_	_	_
+7	öka	öka	VERB	_	_	_	_	_	_
+8	produktiviteten	produktivitet	NOUN	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	kontoret	kontor	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_150
+# text = Efter en lång tids diskussion ska vi uppmuntra till ökad läsning.
+1	Efter	efter	ADP	_	_	_	_	_	_
+2	en	en	DET	_	_	_	_	_	_
+3	lång	lång	ADJ	_	_	_	_	_	_
+4	tids	tid	NOUN	_	_	_	_	_	_
+5	diskussion	diskussion	NOUN	_	_	_	_	_	_
+6	ska	skola	AUX	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	uppmuntra	uppmuntra	VERB	_	_	_	_	_	_
+9	till	till	ADP	_	_	_	_	_	_
+10	ökad	ökad	ADJ	_	_	_	_	_	_
+11	läsning	läsning	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_151
+# text = Frågan är om vi verkligen inser att kollektivtrafik är bäst lämpad för stora städer.
+1	Frågan	fråga	NOUN	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	om	om	SCONJ	_	_	_	_	_	_
+4	vi	vi	PRON	_	_	_	_	_	_
+5	verkligen	verkligen	ADV	_	_	_	_	_	_
+6	inser	inse	VERB	_	_	_	_	_	_
+7	att	att	SCONJ	_	_	_	_	_	_
+8	kollektivtrafik	kollektivtrafik	NOUN	_	_	_	_	_	_
+9	är	vara	AUX	_	_	_	_	_	_
+10	bäst	bra	ADV	_	_	_	_	_	_
+11	lämpad	lämpad	ADJ	_	_	_	_	_	_
+12	för	för	ADP	_	_	_	_	_	_
+13	stora	stor	ADJ	_	_	_	_	_	_
+14	städer	stad	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_152
+# text = Det har nyligen bekräftats att lokalproducerade råvaror stödjer det lokala näringslivet.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	nyligen	nyligen	ADV	_	_	_	_	_	_
+4	bekräftats	bekräfta	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	lokalproducerade	lokalproducerad	ADJ	_	_	_	_	_	_
+7	råvaror	råvara	NOUN	_	_	_	_	_	_
+8	stödjer	stödja	VERB	_	_	_	_	_	_
+9	det	det	DET	_	_	_	_	_	_
+10	lokala	lokal	ADJ	_	_	_	_	_	_
+11	näringslivet	näringsliv	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_153
+# text = Det är viktigt att konsumenter har tillgång till tydlig information om produkters ursprung.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	viktigt	viktig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	konsumenter	konsument	NOUN	_	_	_	_	_	_
+6	har	ha	AUX	_	_	_	_	_	_
+7	tillgång	tillgång	NOUN	_	_	_	_	_	_
+8	till	till	ADP	_	_	_	_	_	_
+9	tydlig	tydlig	ADJ	_	_	_	_	_	_
+10	information	information	NOUN	_	_	_	_	_	_
+11	om	om	ADP	_	_	_	_	_	_
+12	produkters	produkt	NOUN	_	_	_	_	_	_
+13	ursprung	ursprung	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_154
+# text = I dagens moderna samhälle vill företag satsa mer på hållbarhet.
+1	I	i	ADP	_	_	_	_	_	_
+2	dagens	dag	NOUN	_	_	_	_	_	_
+3	moderna	modern	ADJ	_	_	_	_	_	_
+4	samhälle	samhälle	NOUN	_	_	_	_	_	_
+5	vill	vilja	AUX	_	_	_	_	_	_
+6	företag	företag	NOUN	_	_	_	_	_	_
+7	satsa	satsa	VERB	_	_	_	_	_	_
+8	mer	mycket	ADV	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	hållbarhet	hållbarhet	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_155
+# text = De flesta experter hävdar att en god natts sömn stärker immunförsvaret avsevärt.
+1	De	de	DET	_	_	_	_	_	_
+2	flesta	mången	ADJ	_	_	_	_	_	_
+3	experter	expert	NOUN	_	_	_	_	_	_
+4	hävdar	hävda	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	god	god	ADJ	_	_	_	_	_	_
+8	natts	natt	NOUN	_	_	_	_	_	_
+9	sömn	sömn	NOUN	_	_	_	_	_	_
+10	stärker	stärka	VERB	_	_	_	_	_	_
+11	immunförsvaret	immunförsvar	NOUN	_	_	_	_	_	_
+12	avsevärt	avsevärd	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_156
+# text = Många tror att framtidens bilar kommer att vara helt självstyrande.
+1	Många	mången	PRON	_	_	_	_	_	_
+2	tror	tro	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	framtidens	framtid	NOUN	_	_	_	_	_	_
+5	bilar	bil	NOUN	_	_	_	_	_	_
+6	kommer	komma	AUX	_	_	_	_	_	_
+7	att	att	PART	_	_	_	_	_	_
+8	vara	vara	VERB	_	_	_	_	_	_
+9	helt	helt	ADV	_	_	_	_	_	_
+10	självstyrande	självstyrande	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_157
+# text = Läkare rekommenderar att en hälsosam kost ger mer energi under dagen.
+1	Läkare	läkare	NOUN	_	_	_	_	_	_
+2	rekommenderar	rekommenderar	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	hälsosam	hälsosam	ADJ	_	_	_	_	_	_
+6	kost	kost	NOUN	_	_	_	_	_	_
+7	ger	ge	VERB	_	_	_	_	_	_
+8	mer	mycket	ADJ	_	_	_	_	_	_
+9	energi	energi	NOUN	_	_	_	_	_	_
+10	under	under	ADP	_	_	_	_	_	_
+11	dagen	dag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_158
+# text = Det är allmänt känt att livslång utbildning ökar individens flexibilitet på arbetsmarknaden.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	allmänt	allmän	ADV	_	_	_	_	_	_
+4	känt	känd	ADJ	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	livslång	livslång	ADJ	_	_	_	_	_	_
+7	utbildning	utbildning	NOUN	_	_	_	_	_	_
+8	ökar	öka	VERB	_	_	_	_	_	_
+9	individens	individ	NOUN	_	_	_	_	_	_
+10	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+11	på	på	ADP	_	_	_	_	_	_
+12	arbetsmarknaden	arbetsmarknad	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_159
+# text = Flera företag märker att regelbunden motion förbättrar den mentala hälsan.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	företag	företag	NOUN	_	_	_	_	_	_
+3	märker	märka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	regelbunden	regelbunden	ADJ	_	_	_	_	_	_
+6	motion	motion	NOUN	_	_	_	_	_	_
+7	förbättrar	förbättra	VERB	_	_	_	_	_	_
+8	den	den	DET	_	_	_	_	_	_
+9	mentala	mental	ADJ	_	_	_	_	_	_
+10	hälsan	hälsa	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_160
+# text = Undersökningar visar tydligt att digitaliseringen underlättar kommunikation över gränserna.
+1	Undersökningar	undersökning	NOUN	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	tydligt	tydlig	ADJ	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	digitaliseringen	digitalisering	NOUN	_	_	_	_	_	_
+6	underlättar	underlätta	VERB	_	_	_	_	_	_
+7	kommunikation	kommunikation	NOUN	_	_	_	_	_	_
+8	över	över	ADP	_	_	_	_	_	_
+9	gränserna	gräns	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_161
+# text = Det är viktigt att inse att högre utbildning borde vara kostnadsfri för alla.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	viktigt	viktig	ADJ	_	_	_	_	_	_
+4	att	att	PART	_	_	_	_	_	_
+5	inse	inse	VERB	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	högre	hög	ADJ	_	_	_	_	_	_
+8	utbildning	utbildning	NOUN	_	_	_	_	_	_
+9	borde	böra	VERB	_	_	_	_	_	_
+10	vara	vara	VERB	_	_	_	_	_	_
+11	kostnadsfri	kostnadsfri	ADJ	_	_	_	_	_	_
+12	för	för	ADP	_	_	_	_	_	_
+13	alla	all	PRON	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_162
+# text = Med rätt stöd och vägledning kommer skolan erbjuda fler läxhjälpstillfällen för de elever som behöver.
+1	Med	med	ADP	_	_	_	_	_	_
+2	rätt	rät	ADJ	_	_	_	_	_	_
+3	stöd	stöd	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	vägledning	vägledning	NOUN	_	_	_	_	_	_
+6	kommer	komma	AUX	_	_	_	_	_	_
+7	skolan	skola	NOUN	_	_	_	_	_	_
+8	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+9	fler	fler	ADJ	_	_	_	_	_	_
+10	läxhjälpstillfällen	läxhjälpstillfälle	NOUN	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	elever	elev	NOUN	_	_	_	_	_	_
+14	som	som	PRON	_	_	_	_	_	_
+15	behöver	behöva	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_163
+# text = Ekonomer påpekar ofta att god sömn är avgörande för kroppens återhämtning.
+1	Ekonomer	ekonom	NOUN	_	_	_	_	_	_
+2	påpekar	påpeka	VERB	_	_	_	_	_	_
+3	ofta	ofta	ADV	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	god	god	ADJ	_	_	_	_	_	_
+6	sömn	sömn	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	avgörande	avgörande	ADJ	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	kroppens	kropp	NOUN	_	_	_	_	_	_
+11	återhämtning	återhämtning	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_164
+# text = Med rätt stöd och vägledning kommer svenskar resa mer med tåg under semestern.
+1	Med	med	ADP	_	_	_	_	_	_
+2	rätt	rät	ADJ	_	_	_	_	_	_
+3	stöd	stöd	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	vägledning	vägledning	NOUN	_	_	_	_	_	_
+6	kommer	komma	AUX	_	_	_	_	_	_
+7	svenskar	svensk	NOUN	_	_	_	_	_	_
+8	resa	resa	VERB	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	med	med	ADP	_	_	_	_	_	_
+11	tåg	tåg	NOUN	_	_	_	_	_	_
+12	under	under	ADP	_	_	_	_	_	_
+13	semestern	semester	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_165
+# text = Många studier tyder dessutom på att kollektivtrafik är bäst lämpad för stora städer.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	tyder	tyda	VERB	_	_	_	_	_	_
+4	dessutom	dessutom	ADV	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	kollektivtrafik	kollektivtrafik	NOUN	_	_	_	_	_	_
+8	är	vara	AUX	_	_	_	_	_	_
+9	bäst	bra	ADV	_	_	_	_	_	_
+10	lämpad	lämpad	ADJ	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	stora	stor	ADJ	_	_	_	_	_	_
+13	städer	stad	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_166
+# text = För att förbättra hälsan bör politiker ta ett större ansvar.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	politiker	politiker	NOUN	_	_	_	_	_	_
+7	ta	ta	VERB	_	_	_	_	_	_
+8	ett	ett	DET	_	_	_	_	_	_
+9	större	stor	ADJ	_	_	_	_	_	_
+10	ansvar	ansvar	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_167
+# text = Många studier tyder dessutom på att regelbunden träning förlänger livet och ger mer energi.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	tyder	tyda	VERB	_	_	_	_	_	_
+4	dessutom	dessutom	ADV	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	regelbunden	regelbunden	ADJ	_	_	_	_	_	_
+8	träning	träning	NOUN	_	_	_	_	_	_
+9	förlänger	förlänga	VERB	_	_	_	_	_	_
+10	livet	liv	NOUN	_	_	_	_	_	_
+11	och	och	CCONJ	_	_	_	_	_	_
+12	ger	ge	VERB	_	_	_	_	_	_
+13	mer	mycket	ADJ	_	_	_	_	_	_
+14	energi	energi	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_168
+# text = Trots stora ekonomiska utmaningar kan skolan lägga större fokus.
+1	Trots	trots	ADP	_	_	_	_	_	_
+2	stora	stor	ADJ	_	_	_	_	_	_
+3	ekonomiska	ekonomisk	ADJ	_	_	_	_	_	_
+4	utmaningar	utmaning	NOUN	_	_	_	_	_	_
+5	kan	kunna	AUX	_	_	_	_	_	_
+6	skolan	skola	NOUN	_	_	_	_	_	_
+7	lägga	lägga	VERB	_	_	_	_	_	_
+8	större	stor	ADJ	_	_	_	_	_	_
+9	fokus	fokus	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_169
+# text = De flesta experter hävdar att aktiv fritid minskar risken för stressrelaterade sjukdomar.
+1	De	de	DET	_	_	_	_	_	_
+2	flesta	mången	ADJ	_	_	_	_	_	_
+3	experter	expert	NOUN	_	_	_	_	_	_
+4	hävdar	hävda	VERB	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	aktiv	aktiv	ADJ	_	_	_	_	_	_
+7	fritid	fritid	NOUN	_	_	_	_	_	_
+8	minskar	minska	VERB	_	_	_	_	_	_
+9	risken	risk	NOUN	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	stressrelaterade	stressrelaterad	ADJ	_	_	_	_	_	_
+12	sjukdomar	sjukdom	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_170
+# text = Ny forskning tyder på att meditation och yoga hjälper människor att hantera stress.
+1	Ny	ny	ADJ	_	_	_	_	_	_
+2	forskning	forskning	NOUN	_	_	_	_	_	_
+3	tyder	tyda	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	meditation	meditation	NOUN	_	_	_	_	_	_
+7	och	och	CCONJ	_	_	_	_	_	_
+8	yoga	yoga	NOUN	_	_	_	_	_	_
+9	hjälper	hjälpa	VERB	_	_	_	_	_	_
+10	människor	människa	NOUN	_	_	_	_	_	_
+11	att	att	PART	_	_	_	_	_	_
+12	hantera	hantera	VERB	_	_	_	_	_	_
+13	stress	stress	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_171
+# text = Många forskare anser att en balanserad ekonomi minskar oron i vardagen.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	forskare	forskare	NOUN	_	_	_	_	_	_
+3	anser	anse	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	balanserad	balanserad	ADJ	_	_	_	_	_	_
+7	ekonomi	ekonomi	NOUN	_	_	_	_	_	_
+8	minskar	minska	VERB	_	_	_	_	_	_
+9	oron	oron	NOUN	_	_	_	_	_	_
+10	i	i	ADP	_	_	_	_	_	_
+11	vardagen	vardag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_172
+# text = Läkare rekommenderar att god kommunikation är grunden för framgångsrika relationer.
+1	Läkare	läkare	NOUN	_	_	_	_	_	_
+2	rekommenderar	rekommenderar	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	god	god	ADJ	_	_	_	_	_	_
+5	kommunikation	kommunikation	NOUN	_	_	_	_	_	_
+6	är	vara	AUX	_	_	_	_	_	_
+7	grunden	grund	NOUN	_	_	_	_	_	_
+8	för	för	ADP	_	_	_	_	_	_
+9	framgångsrika	framgångsrik	ADJ	_	_	_	_	_	_
+10	relationer	relation	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_173
+# text = Genom att arbeta tillsammans kan skolan erbjuda fler läxhjälpstillfällen.
+1	Genom	genom	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	arbeta	arbeta	VERB	_	_	_	_	_	_
+4	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+5	kan	kunna	AUX	_	_	_	_	_	_
+6	skolan	skola	NOUN	_	_	_	_	_	_
+7	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+8	fler	fler	ADJ	_	_	_	_	_	_
+9	läxhjälpstillfällen	läxhjälpstillfälle	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_174
+# text = Enligt den senaste undersökningen bör vi minska stressen på kontoret.
+1	Enligt	enligt	ADP	_	_	_	_	_	_
+2	den	den	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	undersökningen	undersökning	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	minska	minska	VERB	_	_	_	_	_	_
+8	stressen	stress	NOUN	_	_	_	_	_	_
+9	på	på	ADP	_	_	_	_	_	_
+10	kontoret	kontor	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_175
+# text = För att förbättra hälsan bör företag anställa fler personer med utländsk bakgrund.
+1	För	för	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	förbättra	förbättra	VERB	_	_	_	_	_	_
+4	hälsan	hälsa	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	företag	företag	NOUN	_	_	_	_	_	_
+7	anställa	anställa	VERB	_	_	_	_	_	_
+8	fler	fler	ADJ	_	_	_	_	_	_
+9	personer	person	NOUN	_	_	_	_	_	_
+10	med	med	ADP	_	_	_	_	_	_
+11	utländsk	utländsk	ADJ	_	_	_	_	_	_
+12	bakgrund	bakgrund	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_176
+# text = Genom att arbeta tillsammans kan många personer börja träna.
+1	Genom	genom	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	arbeta	arbeta	VERB	_	_	_	_	_	_
+4	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+5	kan	kunna	AUX	_	_	_	_	_	_
+6	många	många	ADJ	_	_	_	_	_	_
+7	personer	person	NOUN	_	_	_	_	_	_
+8	börja	börja	VERB	_	_	_	_	_	_
+9	träna	träna	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_177
+# text = I de flesta europeiska länder väljer konsumenter välja grönare alternativ.
+1	I	i	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	flesta	mången	ADJ	_	_	_	_	_	_
+4	europeiska	europeisk	ADJ	_	_	_	_	_	_
+5	länder	land	NOUN	_	_	_	_	_	_
+6	väljer	välja	VERB	_	_	_	_	_	_
+7	konsumenter	konsument	NOUN	_	_	_	_	_	_
+8	välja	välja	VERB	_	_	_	_	_	_
+9	grönare	grön	ADJ	_	_	_	_	_	_
+10	alternativ	alternativ	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_178
+# text = Många medborgare tycker att digitaliseringen underlättar kommunikation över gränserna.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	medborgare	medborgare	NOUN	_	_	_	_	_	_
+3	tycker	tycka	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	digitaliseringen	digitalisering	NOUN	_	_	_	_	_	_
+6	underlättar	underlätta	VERB	_	_	_	_	_	_
+7	kommunikation	kommunikation	NOUN	_	_	_	_	_	_
+8	över	över	ADP	_	_	_	_	_	_
+9	gränserna	gräns	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_179
+# text = Samtidigt visar studier att solpaneler är en bra investering för framtiden.
+1	Samtidigt	samtidig	ADV	_	_	_	_	_	_
+2	visar	visa	VERB	_	_	_	_	_	_
+3	studier	studie	NOUN	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	solpaneler	solpanel	NOUN	_	_	_	_	_	_
+6	är	vara	AUX	_	_	_	_	_	_
+7	en	en	DET	_	_	_	_	_	_
+8	bra	bra	ADJ	_	_	_	_	_	_
+9	investering	investering	NOUN	_	_	_	_	_	_
+10	för	för	ADP	_	_	_	_	_	_
+11	framtiden	framtid	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_180
+# text = Under det senaste året har arbetsgivare erbjuda mer flexibilitet.
+1	Under	under	ADP	_	_	_	_	_	_
+2	det	det	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	året	år	NOUN	_	_	_	_	_	_
+5	har	ha	AUX	_	_	_	_	_	_
+6	arbetsgivare	arbetsgivare	NOUN	_	_	_	_	_	_
+7	erbjuda	erbjuda	VERB	_	_	_	_	_	_
+8	mer	mycket	ADJ	_	_	_	_	_	_
+9	flexibilitet	flexibilitet	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_181
+# text = Teknologiska framsteg erbjuder fantastiska möjligheter men också stora utmaningar.
+1	Teknologiska	teknologisk	ADJ	_	_	_	_	_	_
+2	framsteg	framsteg	NOUN	_	_	_	_	_	_
+3	erbjuder	erbjuda	VERB	_	_	_	_	_	_
+4	fantastiska	fantastisk	ADJ	_	_	_	_	_	_
+5	möjligheter	möjlighet	NOUN	_	_	_	_	_	_
+6	men	men	CCONJ	_	_	_	_	_	_
+7	också	också	ADV	_	_	_	_	_	_
+8	stora	stor	ADJ	_	_	_	_	_	_
+9	utmaningar	utmaning	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_182
+# text = Många studier tyder dessutom på att grön teknik är avgörande för en hållbar framtid.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	studier	studie	NOUN	_	_	_	_	_	_
+3	tyder	tyda	VERB	_	_	_	_	_	_
+4	dessutom	dessutom	ADV	_	_	_	_	_	_
+5	på	på	ADP	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	grön	grön	ADJ	_	_	_	_	_	_
+8	teknik	teknik	NOUN	_	_	_	_	_	_
+9	är	vara	AUX	_	_	_	_	_	_
+10	avgörande	avgörande	ADJ	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	en	en	DET	_	_	_	_	_	_
+13	hållbar	hållbar	ADJ	_	_	_	_	_	_
+14	framtid	framtid	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_183
+# text = Efter en lång tids diskussion ska vi minska stressen på kontoret genom bättre planering.
+1	Efter	efter	ADP	_	_	_	_	_	_
+2	en	en	DET	_	_	_	_	_	_
+3	lång	lång	ADJ	_	_	_	_	_	_
+4	tids	tid	NOUN	_	_	_	_	_	_
+5	diskussion	diskussion	NOUN	_	_	_	_	_	_
+6	ska	skola	AUX	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	minska	minska	VERB	_	_	_	_	_	_
+9	stressen	stress	NOUN	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	kontoret	kontor	NOUN	_	_	_	_	_	_
+12	genom	genom	ADP	_	_	_	_	_	_
+13	bättre	bra	ADJ	_	_	_	_	_	_
+14	planering	planering	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_184
+# text = Läkare rekommenderar att artificiell intelligens förändrar hur vi lever och arbetar.
+1	Läkare	läkare	NOUN	_	_	_	_	_	_
+2	rekommenderar	rekommenderar	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	artificiell	artificiell	ADJ	_	_	_	_	_	_
+5	intelligens	intelligens	NOUN	_	_	_	_	_	_
+6	förändrar	förändra	VERB	_	_	_	_	_	_
+7	hur	hur	ADV	_	_	_	_	_	_
+8	vi	vi	PRON	_	_	_	_	_	_
+9	lever	leva	VERB	_	_	_	_	_	_
+10	och	och	CCONJ	_	_	_	_	_	_
+11	arbetar	arbeta	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_185
+# text = Under det senaste året har vi bygga fler miljövänliga bostäder.
+1	Under	under	ADP	_	_	_	_	_	_
+2	det	det	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	året	år	NOUN	_	_	_	_	_	_
+5	har	ha	AUX	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	bygga	bygga	VERB	_	_	_	_	_	_
+8	fler	fler	ADJ	_	_	_	_	_	_
+9	miljövänliga	miljövänlig	ADJ	_	_	_	_	_	_
+10	bostäder	bostad	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_186
+# text = Utan tillräckliga resurser blir det svårt att myndigheter samarbeta tätare för att lösa krisen.
+1	Utan	utan	ADP	_	_	_	_	_	_
+2	tillräckliga	tillräcklig	ADJ	_	_	_	_	_	_
+3	resurser	resurs	NOUN	_	_	_	_	_	_
+4	blir	bli	VERB	_	_	_	_	_	_
+5	det	det	PRON	_	_	_	_	_	_
+6	svårt	svår	ADJ	_	_	_	_	_	_
+7	att	att	SCONJ	_	_	_	_	_	_
+8	myndigheter	myndighet	NOUN	_	_	_	_	_	_
+9	samarbeta	samarbeta	VERB	_	_	_	_	_	_
+10	tätare	tät	ADJ	_	_	_	_	_	_
+11	för	för	ADP	_	_	_	_	_	_
+12	att	att	PART	_	_	_	_	_	_
+13	lösa	lösa	VERB	_	_	_	_	_	_
+14	krisen	kris	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_187
+# text = Många lärare betonar att klimatkrisen utgör ett hot mot vår framtid.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	lärare	lärare	NOUN	_	_	_	_	_	_
+3	betonar	betona	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	klimatkrisen	klimatkris	NOUN	_	_	_	_	_	_
+6	utgör	utgöra	VERB	_	_	_	_	_	_
+7	ett	ett	DET	_	_	_	_	_	_
+8	hot	hot	NOUN	_	_	_	_	_	_
+9	mot	mot	ADP	_	_	_	_	_	_
+10	vår	vi	PRON	_	_	_	_	_	_
+11	framtid	framtid	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_188
+# text = Enligt den senaste undersökningen bör vi uppmuntra till ökad läsning bland barn och unga.
+1	Enligt	enligt	ADP	_	_	_	_	_	_
+2	den	den	DET	_	_	_	_	_	_
+3	senaste	sen	ADJ	_	_	_	_	_	_
+4	undersökningen	undersökning	NOUN	_	_	_	_	_	_
+5	bör	böra	VERB	_	_	_	_	_	_
+6	vi	vi	PRON	_	_	_	_	_	_
+7	uppmuntra	uppmuntra	VERB	_	_	_	_	_	_
+8	till	till	ADP	_	_	_	_	_	_
+9	ökad	ökad	ADJ	_	_	_	_	_	_
+10	läsning	läsning	NOUN	_	_	_	_	_	_
+11	bland	bland	ADP	_	_	_	_	_	_
+12	barn	barn	NOUN	_	_	_	_	_	_
+13	och	och	CCONJ	_	_	_	_	_	_
+14	unga	ung	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_189
+# text = Många föräldrar ser att ekologiskt jordbruk skonar miljön och främjar biologisk mångfald.
+1	Många	många	ADJ	_	_	_	_	_	_
+2	föräldrar	förälder	NOUN	_	_	_	_	_	_
+3	ser	se	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	ekologiskt	ekologisk	ADJ	_	_	_	_	_	_
+6	jordbruk	jordbruk	NOUN	_	_	_	_	_	_
+7	skonar	skona	VERB	_	_	_	_	_	_
+8	miljön	miljö	NOUN	_	_	_	_	_	_
+9	och	och	CCONJ	_	_	_	_	_	_
+10	främjar	främja	VERB	_	_	_	_	_	_
+11	biologisk	biologisk	ADJ	_	_	_	_	_	_
+12	mångfald	mångfald	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_190
+# text = Flera rapporter bekräftar att god sömn är avgörande för kroppens återhämtning.
+1	Flera	flera	ADJ	_	_	_	_	_	_
+2	rapporter	rapport	NOUN	_	_	_	_	_	_
+3	bekräftar	bekräfta	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	god	god	ADJ	_	_	_	_	_	_
+6	sömn	sömn	NOUN	_	_	_	_	_	_
+7	är	vara	AUX	_	_	_	_	_	_
+8	avgörande	avgörande	ADJ	_	_	_	_	_	_
+9	för	för	ADP	_	_	_	_	_	_
+10	kroppens	kropp	NOUN	_	_	_	_	_	_
+11	återhämtning	återhämtning	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_191
+# text = Genom att införa nya regler vill konsumenter välja grönare alternativ.
+1	Genom	genom	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	införa	införa	VERB	_	_	_	_	_	_
+4	nya	ny	ADJ	_	_	_	_	_	_
+5	regler	regel	NOUN	_	_	_	_	_	_
+6	vill	vilja	AUX	_	_	_	_	_	_
+7	konsumenter	konsument	NOUN	_	_	_	_	_	_
+8	välja	välja	VERB	_	_	_	_	_	_
+9	grönare	grön	ADJ	_	_	_	_	_	_
+10	alternativ	alternativ	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_192
+# text = Vi bör komma ihåg att regelbunden motion förbättrar den mentala hälsan.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	bör	böra	VERB	_	_	_	_	_	_
+3	komma	komma	VERB	_	_	_	_	_	_
+4	ihåg	ihåg	ADV	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	regelbunden	regelbunden	ADJ	_	_	_	_	_	_
+7	motion	motion	NOUN	_	_	_	_	_	_
+8	förbättrar	förbättra	VERB	_	_	_	_	_	_
+9	den	den	DET	_	_	_	_	_	_
+10	mentala	mental	ADJ	_	_	_	_	_	_
+11	hälsan	hälsa	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_193
+# text = Genom att arbeta tillsammans kan politiker ta ett större ansvar.
+1	Genom	genom	ADP	_	_	_	_	_	_
+2	att	att	PART	_	_	_	_	_	_
+3	arbeta	arbeta	VERB	_	_	_	_	_	_
+4	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+5	kan	kunna	AUX	_	_	_	_	_	_
+6	politiker	politiker	NOUN	_	_	_	_	_	_
+7	ta	ta	VERB	_	_	_	_	_	_
+8	ett	ett	DET	_	_	_	_	_	_
+9	större	stor	ADJ	_	_	_	_	_	_
+10	ansvar	ansvar	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_194
+# text = Läkare rekommenderar att ekologiskt jordbruk skonar miljön och främjar biologisk mångfald.
+1	Läkare	läkare	NOUN	_	_	_	_	_	_
+2	rekommenderar	rekommenderar	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	ekologiskt	ekologisk	ADJ	_	_	_	_	_	_
+5	jordbruk	jordbruk	NOUN	_	_	_	_	_	_
+6	skonar	skona	VERB	_	_	_	_	_	_
+7	miljön	miljö	NOUN	_	_	_	_	_	_
+8	och	och	CCONJ	_	_	_	_	_	_
+9	främjar	främja	VERB	_	_	_	_	_	_
+10	biologisk	biologisk	ADJ	_	_	_	_	_	_
+11	mångfald	mångfald	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_195
+# text = I de flesta europeiska länder väljer vi förändra våra dagliga vanor för miljöns skull.
+1	I	i	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	flesta	mången	ADJ	_	_	_	_	_	_
+4	europeiska	europeisk	ADJ	_	_	_	_	_	_
+5	länder	land	NOUN	_	_	_	_	_	_
+6	väljer	välja	VERB	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	förändra	förändra	VERB	_	_	_	_	_	_
+9	våra	vi	PRON	_	_	_	_	_	_
+10	dagliga	daglig	ADJ	_	_	_	_	_	_
+11	vanor	vana	NOUN	_	_	_	_	_	_
+12	för	för	ADP	_	_	_	_	_	_
+13	miljöns	miljö	NOUN	_	_	_	_	_	_
+14	skull	skull	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_196
+# text = Det har bevisats att klimatkrisen utgör ett hot mot vår framtid.
+1	Det	det	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	bevisats	bevisa	VERB	_	_	_	_	_	_
+4	att	att	SCONJ	_	_	_	_	_	_
+5	klimatkrisen	klimatkris	NOUN	_	_	_	_	_	_
+6	utgör	utgöra	VERB	_	_	_	_	_	_
+7	ett	ett	DET	_	_	_	_	_	_
+8	hot	hot	NOUN	_	_	_	_	_	_
+9	mot	mot	ADP	_	_	_	_	_	_
+10	vår	vi	PRON	_	_	_	_	_	_
+11	framtid	framtid	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_197
+# text = I slutändan handlar det om att digitala verktyg kan förbättra undervisningen i skolan.
+1	I	i	ADP	_	_	_	_	_	_
+2	slutändan	slutända	NOUN	_	_	_	_	_	_
+3	handlar	handla	VERB	_	_	_	_	_	_
+4	det	det	PRON	_	_	_	_	_	_
+5	om	om	ADP	_	_	_	_	_	_
+6	att	att	SCONJ	_	_	_	_	_	_
+7	digitala	digital	ADJ	_	_	_	_	_	_
+8	verktyg	verktyg	NOUN	_	_	_	_	_	_
+9	kan	kunna	AUX	_	_	_	_	_	_
+10	förbättra	förbättra	VERB	_	_	_	_	_	_
+11	undervisningen	undervisning	NOUN	_	_	_	_	_	_
+12	i	i	ADP	_	_	_	_	_	_
+13	skolan	skola	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_198
+# text = Det är allmänt känt att distansarbete skapar en mer flexibel vardag.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	allmänt	allmän	ADV	_	_	_	_	_	_
+4	känt	känd	ADJ	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	distansarbete	distansarbete	NOUN	_	_	_	_	_	_
+7	skapar	skapa	VERB	_	_	_	_	_	_
+8	en	en	DET	_	_	_	_	_	_
+9	mer	mycket	ADV	_	_	_	_	_	_
+10	flexibel	flexibel	ADJ	_	_	_	_	_	_
+11	vardag	vardag	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_199
+# text = Det är därför uppenbart att distansarbete ökar motivationen hos de flesta anställda.
+1	Det	det	PRON	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	därför	därför	ADV	_	_	_	_	_	_
+4	uppenbart	uppenbar	ADJ	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	distansarbete	distansarbete	NOUN	_	_	_	_	_	_
+7	ökar	öka	VERB	_	_	_	_	_	_
+8	motivationen	motivation	NOUN	_	_	_	_	_	_
+9	hos	hos	ADP	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	flesta	mången	ADJ	_	_	_	_	_	_
+12	anställda	anställd	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = sv_b2_train_200
+# text = Vi bör komma ihåg att artificiell intelligens förändrar hur vi lever och arbetar.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	bör	böra	VERB	_	_	_	_	_	_
+3	komma	komma	VERB	_	_	_	_	_	_
+4	ihåg	ihåg	ADV	_	_	_	_	_	_
+5	att	att	SCONJ	_	_	_	_	_	_
+6	artificiell	artificiell	ADJ	_	_	_	_	_	_
+7	intelligens	intelligens	NOUN	_	_	_	_	_	_
+8	förändrar	förändra	VERB	_	_	_	_	_	_
+9	hur	hur	ADV	_	_	_	_	_	_
+10	vi	vi	PRON	_	_	_	_	_	_
+11	lever	leva	VERB	_	_	_	_	_	_
+12	och	och	CCONJ	_	_	_	_	_	_
+13	arbetar	arbeta	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+

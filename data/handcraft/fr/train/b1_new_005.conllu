@@ -1,0 +1,1513 @@
+# sent_id = fr_b1_train_801
+# text = Si mon entreprise maintenait le télétravail, je gagnerais une heure chaque matin.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	entreprise	entreprise	NOUN	_	_	_	_	_	_
+4	maintenait	maintenir	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	télétravail	télétravail	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	je	je	PRON	_	_	_	_	_	_
+9	gagnerais	gagner	VERB	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	heure	heure	NOUN	_	_	_	_	_	_
+12	chaque	chaque	DET	_	_	_	_	_	_
+13	matin	matin	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_802
+# text = Je pensais que travailler depuis la maison demandait une bonne organisation.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pensais	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	travailler	travailler	VERB	_	_	_	_	_	_
+5	depuis	depuis	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	maison	maison	NOUN	_	_	_	_	_	_
+8	demandait	demander	VERB	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	bonne	bon	ADJ	_	_	_	_	_	_
+11	organisation	organisation	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_803
+# text = Il faudrait que chaque salarié dispose d'un espace calme pour se concentrer.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	chaque	chaque	DET	_	_	_	_	_	_
+5	salarié	salarié	NOUN	_	_	_	_	_	_
+6	dispose	disposer	VERB	_	_	_	_	_	_
+7	d'un	d'un	X	_	_	_	_	_	_
+8	espace	espace	X	_	_	_	_	_	_
+9	calme	calme	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	se	se	PRON	_	_	_	_	_	_
+12	concentrer	concentrer	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_804
+# text = Elle disait qu'elle planifiait ses réunions en visioconférence le mardi.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	planifiait	planifiait	X	_	_	_	_	_	_
+5	ses	son	DET	_	_	_	_	_	_
+6	réunions	réunions	X	_	_	_	_	_	_
+7	en	en	PRON	_	_	_	_	_	_
+8	visioconférence	visioconférence	X	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	mardi	mardi	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_805
+# text = Nous aurions aimé une allocation pour améliorer notre connexion Internet.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	aimé	aimer	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	allocation	allocation	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	améliorer	améliorer	VERB	_	_	_	_	_	_
+8	notre	notre	DET	_	_	_	_	_	_
+9	connexion	connexion	NOUN	_	_	_	_	_	_
+10	Internet	Internet	PROPN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_806
+# text = Bien que pratique, le télétravail peut aussi isoler certains collaborateurs.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	pratique	pratique	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	télétravail	télétravail	NOUN	_	_	_	_	_	_
+7	peut	pouvoir	VERB	_	_	_	_	_	_
+8	aussi	aussi	ADV	_	_	_	_	_	_
+9	isoler	isoler	VERB	_	_	_	_	_	_
+10	certains	certain	DET	_	_	_	_	_	_
+11	collaborateurs	collaborateur	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_807
+# text = Je crois que fixer des horaires clairs évite de travailler trop tard.
+1	Je	je	PRON	_	_	_	_	_	_
+2	crois	croire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	fixer	fixer	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	horaires	horaire	NOUN	_	_	_	_	_	_
+7	clairs	clair	ADJ	_	_	_	_	_	_
+8	évite	éviter	VERB	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	travailler	travailler	VERB	_	_	_	_	_	_
+11	trop	trop	ADV	_	_	_	_	_	_
+12	tard	tard	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_808
+# text = Si l'équipe se réunissait chaque semaine, les liens resteraient plus forts.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	l'équipe	l'équipe	X	_	_	_	_	_	_
+3	se	se	PRON	_	_	_	_	_	_
+4	réunissait	réunissait	X	_	_	_	_	_	_
+5	chaque	chaque	X	_	_	_	_	_	_
+6	semaine	semaine	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	liens	liens	X	_	_	_	_	_	_
+10	resteraient	resteraient	X	_	_	_	_	_	_
+11	plus	plus	ADV	_	_	_	_	_	_
+12	forts	forts	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_809
+# text = Il me semblait que la communication écrite devenait encore plus importante.
+1	Il	il	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	semblait	sembler	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	communication	communication	NOUN	_	_	_	_	_	_
+7	écrite	écrire	VERB	_	_	_	_	_	_
+8	devenait	devenir	VERB	_	_	_	_	_	_
+9	encore	encore	ADV	_	_	_	_	_	_
+10	plus	plus	ADV	_	_	_	_	_	_
+11	importante	important	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_810
+# text = Elle souhaiterait que l'employeur fournisse un ordinateur adapté.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	souhaiterait	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'employeur	l'employeur	X	_	_	_	_	_	_
+5	fournisse	fournisse	X	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	ordinateur	ordinateur	X	_	_	_	_	_	_
+8	adapté	adapté	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_811
+# text = Nous discutions d'ergonomie pendant que nous aménagions le bureau.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	discutions	discutier	VERB	_	_	_	_	_	_
+3	d'ergonomie	d'ergonomie	X	_	_	_	_	_	_
+4	pendant	pendant	X	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	nous	nous	PRON	_	_	_	_	_	_
+7	aménagions	aménagions	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	bureau	bureau	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_812
+# text = À mon avis, alterner présentiel et distance préserve l'équilibre professionnel.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	alterner	alterner	VERB	_	_	_	_	_	_
+6	présentiel	présentiel	NOUN	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	distance	distance	NOUN	_	_	_	_	_	_
+9	préserve	préserver	VERB	_	_	_	_	_	_
+10	l'équilibre	l'équilibre	X	_	_	_	_	_	_
+11	professionnel	professionnel	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_813
+# text = Il disait qu'il éteignait les notifications après dix-sept heures.
+1	Il	il	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'il	qu'il	X	_	_	_	_	_	_
+4	éteignait	éteignait	X	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	notifications	notifications	X	_	_	_	_	_	_
+7	après	après	X	_	_	_	_	_	_
+8	dix-sept	dix-sept	X	_	_	_	_	_	_
+9	heures	heures	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_814
+# text = Je trouve nécessaire que les managers fassent confiance aux résultats obtenus.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	nécessaire	nécessaire	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	managers	manager	NOUN	_	_	_	_	_	_
+7	fassent	faire	VERB	_	_	_	_	_	_
+8	confiance	confiance	NOUN	_	_	_	_	_	_
+9	aux	aux	ADP	_	_	_	_	_	_
+10	résultats	résultats	X	_	_	_	_	_	_
+11	obtenus	obtenus	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_815
+# text = Si nous partagions un calendrier, les délais seraient mieux coordonnés.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	partagions	partagier	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	calendrier	calendrier	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	délais	délai	NOUN	_	_	_	_	_	_
+9	seraient	être	AUX	_	_	_	_	_	_
+10	mieux	mieux	ADV	_	_	_	_	_	_
+11	coordonnés	coordonner	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_816
+# text = Elle pensait que le télétravail facilitait la garde de ses enfants.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	pensait	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	télétravail	télétravail	NOUN	_	_	_	_	_	_
+6	facilitait	faciliter	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	garde	garde	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	ses	son	DET	_	_	_	_	_	_
+11	enfants	enfant	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_817
+# text = Il faudrait que l'entreprise rembourse une partie des frais de bureau.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'entreprise	l'entreprise	X	_	_	_	_	_	_
+5	rembourse	rembourse	X	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	partie	partie	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	frais	frais	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	bureau	bureau	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_818
+# text = Nous aurions pu terminer le projet si la connexion avait été stable.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	pu	pouvoir	VERB	_	_	_	_	_	_
+4	terminer	terminer	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	projet	projet	NOUN	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	connexion	connexion	NOUN	_	_	_	_	_	_
+10	avait	avoir	AUX	_	_	_	_	_	_
+11	été	être	AUX	_	_	_	_	_	_
+12	stable	stable	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_819
+# text = Bien que flexible, ce mode de travail exige de la discipline personnelle.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	flexible	flexible	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ce	ce	DET	_	_	_	_	_	_
+6	mode	mode	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	travail	travail	NOUN	_	_	_	_	_	_
+9	exige	exiger	VERB	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	discipline	discipline	NOUN	_	_	_	_	_	_
+13	personnelle	personnel	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_820
+# text = Je dirais que beaucoup souhaitent conserver au moins deux jours à distance.
+1	Je	je	PRON	_	_	_	_	_	_
+2	dirais	dire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+5	souhaitent	souhaiter	VERB	_	_	_	_	_	_
+6	conserver	conserver	VERB	_	_	_	_	_	_
+7	au	au	ADP	_	_	_	_	_	_
+8	moins	moins	X	_	_	_	_	_	_
+9	deux	deux	X	_	_	_	_	_	_
+10	jours	jours	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	distance	distance	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_821
+# text = Si j'avais une meilleure chaise, je souffrirais moins du dos.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	j'avais	j'avais	X	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	meilleure	meilleure	X	_	_	_	_	_	_
+5	chaise	chaise	X	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	je	je	PRON	_	_	_	_	_	_
+8	souffrirais	souffrirais	X	_	_	_	_	_	_
+9	moins	moins	X	_	_	_	_	_	_
+10	du	du	ADP	_	_	_	_	_	_
+11	dos	dos	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_822
+# text = Elle affirmait qu'elle prenait une vraie pause déjeuner chaque jour.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	affirmait	affirmer	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	prenait	prenait	X	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	vraie	vraie	X	_	_	_	_	_	_
+7	pause	pause	X	_	_	_	_	_	_
+8	déjeuner	déjeuner	X	_	_	_	_	_	_
+9	chaque	chaque	X	_	_	_	_	_	_
+10	jour	jour	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_823
+# text = Il est important que les employés puissent déconnecter après le travail.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	important	important	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	employés	employé	NOUN	_	_	_	_	_	_
+7	puissent	pouvoir	VERB	_	_	_	_	_	_
+8	déconnecter	déconnecter	VERB	_	_	_	_	_	_
+9	après	après	ADP	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	travail	travail	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_824
+# text = Nous pensions que le télétravail réduisait les déplacements domicile-travail.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	pensions	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	télétravail	télétravail	NOUN	_	_	_	_	_	_
+6	réduisait	réduire	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	déplacements	déplacement	NOUN	_	_	_	_	_	_
+9	domicile-travail	domicile-travail	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_825
+# text = Je souhaiterais que mon équipe définisse des règles communes de disponibilité.
+1	Je	je	PRON	_	_	_	_	_	_
+2	souhaiterais	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	mon	mon	DET	_	_	_	_	_	_
+5	équipe	équipe	NOUN	_	_	_	_	_	_
+6	définisse	définir	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	règles	règles	X	_	_	_	_	_	_
+9	communes	communes	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	disponibilité	disponibilité	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_826
+# text = Si l'école célébrait davantage de traditions, les élèves comprendraient mieux leurs différences.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	l'école	l'école	X	_	_	_	_	_	_
+3	célébrait	célébrait	X	_	_	_	_	_	_
+4	davantage	davantage	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	traditions	traditions	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	élèves	élèves	X	_	_	_	_	_	_
+10	comprendraient	comprendraient	X	_	_	_	_	_	_
+11	mieux	mieux	X	_	_	_	_	_	_
+12	leurs	leur	DET	_	_	_	_	_	_
+13	différences	différences	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_827
+# text = Je pensais que vivre dans un quartier multiculturel enrichissait le quotidien.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pensais	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	vivre	vivre	VERB	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	quartier	quartier	NOUN	_	_	_	_	_	_
+8	multiculturel	multiculturel	ADJ	_	_	_	_	_	_
+9	enrichissait	enrichir	VERB	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	quotidien	quotidien	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_828
+# text = Il faudrait que les médias évitent les stéréotypes sur certaines communautés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	médias	média	NOUN	_	_	_	_	_	_
+6	évitent	éviter	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	stéréotypes	stéréotype	NOUN	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	certaines	certain	DET	_	_	_	_	_	_
+11	communautés	communauté	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_829
+# text = Elle disait qu'elle apprenait des recettes de ses voisins originaires d'ailleurs.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	apprenait	apprenait	X	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	recettes	recettes	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	ses	son	DET	_	_	_	_	_	_
+9	voisins	voisins	X	_	_	_	_	_	_
+10	originaires	originaires	X	_	_	_	_	_	_
+11	d'ailleurs	d'ailleurs	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_830
+# text = Nous aurions aimé un festival réunissant musiques et cuisines du monde.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	aimé	aimer	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	festival	festival	NOUN	_	_	_	_	_	_
+6	réunissant	réunir	VERB	_	_	_	_	_	_
+7	musiques	musique	NOUN	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	cuisines	cuisine	NOUN	_	_	_	_	_	_
+10	du	du	ADP	_	_	_	_	_	_
+11	monde	monde	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_831
+# text = Bien que les cultures diffèrent, le respect mutuel reste fondamental.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	cultures	culture	NOUN	_	_	_	_	_	_
+5	diffèrent	différer	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	respect	respect	NOUN	_	_	_	_	_	_
+9	mutuel	mutuel	ADJ	_	_	_	_	_	_
+10	reste	rester	VERB	_	_	_	_	_	_
+11	fondamental	fondamental	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_832
+# text = Je crois que parler plusieurs langues ouvre des opportunités professionnelles.
+1	Je	je	PRON	_	_	_	_	_	_
+2	crois	croire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	parler	parler	VERB	_	_	_	_	_	_
+5	plusieurs	plusieurs	DET	_	_	_	_	_	_
+6	langues	langue	NOUN	_	_	_	_	_	_
+7	ouvre	ouvrir	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	opportunités	opportunité	NOUN	_	_	_	_	_	_
+10	professionnelles	professionnel	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_833
+# text = Si nous organisions des échanges, les préjugés diminueraient progressivement.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	organisions	organisier	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	échanges	échanges	X	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	préjugés	préjugés	X	_	_	_	_	_	_
+9	diminueraient	diminueraient	X	_	_	_	_	_	_
+10	progressivement	progressivement	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_834
+# text = Il me semblait que l'histoire migratoire de la ville était peu enseignée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	semblait	sembler	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	l'histoire	l'histoire	X	_	_	_	_	_	_
+6	migratoire	migratoire	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	ville	ville	X	_	_	_	_	_	_
+10	était	être	AUX	_	_	_	_	_	_
+11	peu	peu	X	_	_	_	_	_	_
+12	enseignée	enseignée	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_835
+# text = Elle souhaiterait que les bibliothèques proposent des livres en plusieurs langues.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	souhaiterait	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	bibliothèques	bibliothèque	NOUN	_	_	_	_	_	_
+6	proposent	proposer	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	livres	livre	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	plusieurs	plusieurs	DET	_	_	_	_	_	_
+11	langues	langue	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_836
+# text = Nous discutions d'intégration pendant que nous préparions un repas partagé.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	discutions	discutier	VERB	_	_	_	_	_	_
+3	d'intégration	d'intégration	X	_	_	_	_	_	_
+4	pendant	pendant	X	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	nous	nous	PRON	_	_	_	_	_	_
+7	préparions	préparions	X	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	repas	repas	X	_	_	_	_	_	_
+10	partagé	partagé	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_837
+# text = À mon avis, écouter les expériences personnelles humanise les débats publics.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	écouter	écouter	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	expériences	expérience	NOUN	_	_	_	_	_	_
+8	personnelles	personnel	ADJ	_	_	_	_	_	_
+9	humanise	humaniser	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	débats	débat	NOUN	_	_	_	_	_	_
+12	publics	public	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_838
+# text = Il disait qu'il participait à un groupe de conversation interculturelle.
+1	Il	il	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'il	qu'il	X	_	_	_	_	_	_
+4	participait	participait	X	_	_	_	_	_	_
+5	à	à	X	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	groupe	groupe	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	conversation	conversation	X	_	_	_	_	_	_
+10	interculturelle	interculturelle	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_839
+# text = Je trouve important que les institutions reconnaissent la diversité religieuse.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	important	important	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	institutions	institution	NOUN	_	_	_	_	_	_
+7	reconnaissent	reconnaître	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	diversité	diversité	NOUN	_	_	_	_	_	_
+10	religieuse	religieux	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_840
+# text = Si les quartiers accueillaient mieux, les nouveaux arrivants s'installeraient sereinement.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	quartiers	quartier	NOUN	_	_	_	_	_	_
+4	accueillaient	accueillir	VERB	_	_	_	_	_	_
+5	mieux	mieux	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	nouveaux	nouveau	ADJ	_	_	_	_	_	_
+9	arrivants	arrivant	NOUN	_	_	_	_	_	_
+10	s'installeraient	s'installeraient	X	_	_	_	_	_	_
+11	sereinement	sereinement	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_841
+# text = Elle pensait que les enfants jouaient ensemble sans se poser de questions.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	pensait	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	enfants	enfant	NOUN	_	_	_	_	_	_
+6	jouaient	jouer	VERB	_	_	_	_	_	_
+7	ensemble	ensemble	ADV	_	_	_	_	_	_
+8	sans	sans	ADP	_	_	_	_	_	_
+9	se	se	PRON	_	_	_	_	_	_
+10	poser	poser	VERB	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	questions	question	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_842
+# text = Il faudrait que les services publics offrent des traductions pour les démarches.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	services	service	NOUN	_	_	_	_	_	_
+6	publics	public	ADJ	_	_	_	_	_	_
+7	offrent	offrir	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	traductions	traduction	NOUN	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	démarches	démarche	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_843
+# text = Nous aurions pu comprendre le contexte si nous avions lu davantage d'histoires locales.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	pu	pouvoir	VERB	_	_	_	_	_	_
+4	comprendre	comprendre	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	contexte	contexte	NOUN	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	nous	nous	PRON	_	_	_	_	_	_
+9	avions	avoir	AUX	_	_	_	_	_	_
+10	lu	lire	VERB	_	_	_	_	_	_
+11	davantage	davantage	ADV	_	_	_	_	_	_
+12	d'histoires	d'histoires	X	_	_	_	_	_	_
+13	locales	locales	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_844
+# text = Bien que la diversité soit visible, certaines discriminations persistent encore.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	diversité	diversité	NOUN	_	_	_	_	_	_
+5	soit	être	AUX	_	_	_	_	_	_
+6	visible	visible	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	certaines	certain	DET	_	_	_	_	_	_
+9	discriminations	discrimination	NOUN	_	_	_	_	_	_
+10	persistent	persister	VERB	_	_	_	_	_	_
+11	encore	encore	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_845
+# text = Je dirais que la multiculturalité est une richesse pour la créativité locale.
+1	Je	je	PRON	_	_	_	_	_	_
+2	dirais	dire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	multiculturalité	multiculturalité	NOUN	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	richesse	richesse	NOUN	_	_	_	_	_	_
+9	pour	pour	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	créativité	créativité	NOUN	_	_	_	_	_	_
+12	locale	local	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_846
+# text = Si j'organisais un événement, j'inviterais des artistes de plusieurs horizons.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	j'organisais	j'organisais	X	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	événement	événement	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	j'inviterais	j'inviterais	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	artistes	artistes	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	plusieurs	plusieurs	X	_	_	_	_	_	_
+11	horizons	horizons	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_847
+# text = Elle affirmait qu'elle expliquait ses coutumes avec patience à ses collègues.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	affirmait	affirmer	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	expliquait	expliquait	X	_	_	_	_	_	_
+5	ses	son	DET	_	_	_	_	_	_
+6	coutumes	coutumes	X	_	_	_	_	_	_
+7	avec	avec	X	_	_	_	_	_	_
+8	patience	patience	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	ses	son	DET	_	_	_	_	_	_
+11	collègues	collègues	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_848
+# text = Il est essentiel que chacun se sente appartenir à la communauté locale.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	essentiel	essentiel	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	chacun	chacun	PRON	_	_	_	_	_	_
+6	se	se	PRON	_	_	_	_	_	_
+7	sente	sentir	VERB	_	_	_	_	_	_
+8	appartenir	appartenir	VERB	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	communauté	communauté	NOUN	_	_	_	_	_	_
+12	locale	local	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_849
+# text = Nous pensions que les écoles devraient enseigner l'histoire coloniale plus clairement.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	pensions	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	écoles	école	NOUN	_	_	_	_	_	_
+6	devraient	devoir	VERB	_	_	_	_	_	_
+7	enseigner	enseigner	VERB	_	_	_	_	_	_
+8	l'histoire	l'histoire	X	_	_	_	_	_	_
+9	coloniale	coloniale	X	_	_	_	_	_	_
+10	plus	plus	ADV	_	_	_	_	_	_
+11	clairement	clairement	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_850
+# text = Je souhaiterais que la ville finance des médiateurs interculturels dans les quartiers.
+1	Je	je	PRON	_	_	_	_	_	_
+2	souhaiterais	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	ville	ville	NOUN	_	_	_	_	_	_
+6	finance	financer	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	médiateurs	médiateurs	X	_	_	_	_	_	_
+9	interculturels	interculturels	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	quartiers	quartiers	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_851
+# text = Si nous suivions nos dépenses chaque mois, nous éviterions les mauvaises surprises.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	suivions	suivre	VERB	_	_	_	_	_	_
+4	nos	notre	DET	_	_	_	_	_	_
+5	dépenses	dépense	NOUN	_	_	_	_	_	_
+6	chaque	chaque	DET	_	_	_	_	_	_
+7	mois	moi	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	nous	nous	PRON	_	_	_	_	_	_
+10	éviterions	éviterier	VERB	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	mauvaises	mauvais	ADJ	_	_	_	_	_	_
+13	surprises	surprise	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_852
+# text = Je pensais que comparer les abonnements permettait de réduire les factures.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pensais	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	comparer	comparer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	abonnements	abonnement	NOUN	_	_	_	_	_	_
+7	permettait	permettre	VERB	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	réduire	réduire	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	factures	facture	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_853
+# text = Il faudrait que la famille fixe un plafond pour les sorties et loisirs.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	famille	famille	NOUN	_	_	_	_	_	_
+6	fixe	fixer	VERB	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	plafond	plafond	NOUN	_	_	_	_	_	_
+9	pour	pour	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	sorties	sortie	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	loisirs	loisir	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_854
+# text = Elle disait qu'elle mettait de l'argent de côté pour les imprévus.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	mettait	mettait	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	l'argent	l'argent	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	côté	côté	X	_	_	_	_	_	_
+9	pour	pour	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	imprévus	imprévus	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_855
+# text = Nous aurions aimé une application simple pour gérer notre budget.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	aimé	aimer	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	application	application	NOUN	_	_	_	_	_	_
+6	simple	simple	ADJ	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	gérer	gérer	VERB	_	_	_	_	_	_
+9	notre	notre	DET	_	_	_	_	_	_
+10	budget	budget	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_856
+# text = Bien que les prix augmentent, nous pouvons encore ajuster nos habitudes.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	prix	prix	NOUN	_	_	_	_	_	_
+5	augmentent	augmenter	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	nous	nous	PRON	_	_	_	_	_	_
+8	pouvons	pouvoir	VERB	_	_	_	_	_	_
+9	encore	encore	ADV	_	_	_	_	_	_
+10	ajuster	ajuster	VERB	_	_	_	_	_	_
+11	nos	notre	DET	_	_	_	_	_	_
+12	habitudes	habitude	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_857
+# text = Je crois que planifier les courses limite le gaspillage alimentaire coûteux.
+1	Je	je	PRON	_	_	_	_	_	_
+2	crois	croire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	planifier	planifier	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	courses	course	NOUN	_	_	_	_	_	_
+7	limite	limiter	VERB	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	gaspillage	gaspillage	NOUN	_	_	_	_	_	_
+10	alimentaire	alimentaire	ADJ	_	_	_	_	_	_
+11	coûteux	coûteux	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_858
+# text = Si nous renégociions notre assurance, nous paierions peut-être moins cher.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	renégociions	renégocier	VERB	_	_	_	_	_	_
+4	notre	notre	DET	_	_	_	_	_	_
+5	assurance	assurance	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	nous	nous	PRON	_	_	_	_	_	_
+8	paierions	payercer	VERB	_	_	_	_	_	_
+9	peut-être	peut-être	ADV	_	_	_	_	_	_
+10	moins	moins	ADV	_	_	_	_	_	_
+11	cher	cher	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_859
+# text = Il me semblait que les petites dépenses quotidiennes s'accumulaient vite.
+1	Il	il	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	semblait	sembler	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	petites	petit	ADJ	_	_	_	_	_	_
+7	dépenses	dépense	NOUN	_	_	_	_	_	_
+8	quotidiennes	quotidien	ADJ	_	_	_	_	_	_
+9	s'accumulaient	s'accumulaient	X	_	_	_	_	_	_
+10	vite	vite	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_860
+# text = Elle souhaiterait que l'école enseigne les bases de la finance personnelle.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	souhaiterait	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'école	l'école	X	_	_	_	_	_	_
+5	enseigne	enseigne	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	bases	bases	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	finance	finance	X	_	_	_	_	_	_
+11	personnelle	personnelle	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_861
+# text = Nous discutions d'épargne pendant que nous regardions le relevé bancaire.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	discutions	discutier	VERB	_	_	_	_	_	_
+3	d'épargne	d'épargne	X	_	_	_	_	_	_
+4	pendant	pendant	X	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	nous	nous	PRON	_	_	_	_	_	_
+7	regardions	regardions	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	relevé	relevé	X	_	_	_	_	_	_
+10	bancaire	bancaire	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_862
+# text = À mon avis, fixer des objectifs rend l'épargne plus motivante.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	fixer	fixer	VERB	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	objectifs	objectif	NOUN	_	_	_	_	_	_
+8	rend	rendre	VERB	_	_	_	_	_	_
+9	l'épargne	l'épargne	X	_	_	_	_	_	_
+10	plus	plus	ADV	_	_	_	_	_	_
+11	motivante	motivante	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_863
+# text = Il disait qu'il attendait les soldes pour acheter certains articles.
+1	Il	il	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'il	qu'il	X	_	_	_	_	_	_
+4	attendait	attendait	X	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	soldes	soldes	X	_	_	_	_	_	_
+7	pour	pour	X	_	_	_	_	_	_
+8	acheter	acheter	X	_	_	_	_	_	_
+9	certains	certains	X	_	_	_	_	_	_
+10	articles	articles	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_864
+# text = Je trouve utile de distinguer les dépenses essentielles des dépenses plaisir.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	utile	utile	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	distinguer	distinguer	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	dépenses	dépense	NOUN	_	_	_	_	_	_
+8	essentielles	essentiel	ADJ	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	dépenses	dépenses	X	_	_	_	_	_	_
+11	plaisir	plaisir	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_865
+# text = Si nous cuisinions davantage, nous dépenserions moins au restaurant.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	cuisinions	cuirinier	VERB	_	_	_	_	_	_
+4	davantage	davantage	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	nous	nous	PRON	_	_	_	_	_	_
+7	dépenserions	dépenserier	VERB	_	_	_	_	_	_
+8	moins	moins	ADV	_	_	_	_	_	_
+9	au	au	ADP	_	_	_	_	_	_
+10	restaurant	restaurant	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_866
+# text = Elle pensait que suivre un tableau Excel l'aidait à rester organisée.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	pensait	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	suivre	suivre	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	tableau	tableau	NOUN	_	_	_	_	_	_
+7	Excel	Excel	PROPN	_	_	_	_	_	_
+8	l'aidait	l'aidait	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	rester	rester	X	_	_	_	_	_	_
+11	organisée	organisée	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_867
+# text = Il faudrait que nous revoyions nos abonnements streaming inutilisés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	nous	nous	PRON	_	_	_	_	_	_
+5	revoyions	revoir	VERB	_	_	_	_	_	_
+6	nos	notre	DET	_	_	_	_	_	_
+7	abonnements	abonnement	NOUN	_	_	_	_	_	_
+8	streaming	streaming	ADJ	_	_	_	_	_	_
+9	inutilisés	inutiliser	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_868
+# text = Nous aurions pu économiser plus si nous avions réduit nos achats impulsifs.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	pu	pouvoir	VERB	_	_	_	_	_	_
+4	économiser	économiser	VERB	_	_	_	_	_	_
+5	plus	plus	ADV	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	nous	nous	PRON	_	_	_	_	_	_
+8	avions	avoir	AUX	_	_	_	_	_	_
+9	réduit	réduire	VERB	_	_	_	_	_	_
+10	nos	notre	DET	_	_	_	_	_	_
+11	achats	achat	NOUN	_	_	_	_	_	_
+12	impulsifs	impulsif	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_869
+# text = Bien que modeste, notre épargne nous rassure en cas d'urgence.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	modeste	modeste	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	notre	notre	DET	_	_	_	_	_	_
+6	épargne	épargner	NOUN	_	_	_	_	_	_
+7	nous	nous	PRON	_	_	_	_	_	_
+8	rassure	rassurer	VERB	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	cas	ca	NOUN	_	_	_	_	_	_
+11	d'urgence	d'urgence	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_870
+# text = Je dirais que anticiper les grosses dépenses évite d'emprunter trop souvent.
+1	Je	je	PRON	_	_	_	_	_	_
+2	dirais	dire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	anticiper	anticiper	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	grosses	gros	ADJ	_	_	_	_	_	_
+7	dépenses	dépense	NOUN	_	_	_	_	_	_
+8	évite	éviter	VERB	_	_	_	_	_	_
+9	d'emprunter	d'emprunter	X	_	_	_	_	_	_
+10	trop	trop	X	_	_	_	_	_	_
+11	souvent	souvent	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_871
+# text = Si j'avais un conseiller, je structurerais mieux nos finances familiales.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	j'avais	j'avais	X	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	conseiller	conseiller	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	je	je	PRON	_	_	_	_	_	_
+7	structurerais	structurerais	X	_	_	_	_	_	_
+8	mieux	mieux	X	_	_	_	_	_	_
+9	nos	notre	DET	_	_	_	_	_	_
+10	finances	finances	X	_	_	_	_	_	_
+11	familiales	familiales	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_872
+# text = Elle affirmait qu'elle comparait les prix avant chaque achat important.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	affirmait	affirmer	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	comparait	comparait	X	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	prix	prix	X	_	_	_	_	_	_
+7	avant	avant	X	_	_	_	_	_	_
+8	chaque	chaque	X	_	_	_	_	_	_
+9	achat	achat	X	_	_	_	_	_	_
+10	important	important	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_873
+# text = Il est prudent que nous gardions un fonds pour les réparations de la maison.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	prudent	prudent	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	nous	nous	PRON	_	_	_	_	_	_
+6	gardions	gardier	VERB	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	fonds	fond	NOUN	_	_	_	_	_	_
+9	pour	pour	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	réparations	réparation	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	maison	maison	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_874
+# text = Nous pensions que les promotions n'étaient rentables que si l'article était nécessaire.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	pensions	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	promotions	promotion	NOUN	_	_	_	_	_	_
+6	n'étaient	n'étaient	X	_	_	_	_	_	_
+7	rentables	rentables	X	_	_	_	_	_	_
+8	que	que	PRON	_	_	_	_	_	_
+9	si	si	SCONJ	_	_	_	_	_	_
+10	l'article	l'article	X	_	_	_	_	_	_
+11	était	être	AUX	_	_	_	_	_	_
+12	nécessaire	nécessaire	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_875
+# text = Je souhaiterais que la banque propose un outil de suivi budgétaire gratuit.
+1	Je	je	PRON	_	_	_	_	_	_
+2	souhaiterais	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	banque	banque	NOUN	_	_	_	_	_	_
+6	propose	proposer	VERB	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	outil	outil	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	suivi	suivi	NOUN	_	_	_	_	_	_
+11	budgétaire	budgétaire	ADJ	_	_	_	_	_	_
+12	gratuit	gratuit	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_876
+# text = Si plus d'habitants participaient aux conseils de quartier, les projets seraient mieux adaptés.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	plus	plus	ADV	_	_	_	_	_	_
+3	d'habitants	d'habitants	X	_	_	_	_	_	_
+4	participaient	participaient	X	_	_	_	_	_	_
+5	aux	aux	ADP	_	_	_	_	_	_
+6	conseils	conseils	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	quartier	quartier	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	projets	projets	X	_	_	_	_	_	_
+12	seraient	être	AUX	_	_	_	_	_	_
+13	mieux	mieux	X	_	_	_	_	_	_
+14	adaptés	adaptés	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_877
+# text = Je pensais que signer une pétition pouvait accélérer une décision municipale.
+1	Je	je	PRON	_	_	_	_	_	_
+2	pensais	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	signer	signer	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	pétition	pétition	NOUN	_	_	_	_	_	_
+7	pouvait	pouvoir	VERB	_	_	_	_	_	_
+8	accélérer	accélérer	VERB	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	décision	décision	NOUN	_	_	_	_	_	_
+11	municipale	municipal	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_878
+# text = Il faudrait que les réunions publiques se tiennent à des horaires accessibles.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	réunions	réunion	NOUN	_	_	_	_	_	_
+6	publiques	public	ADJ	_	_	_	_	_	_
+7	se	se	PRON	_	_	_	_	_	_
+8	tiennent	tenir	VERB	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	horaires	horaire	NOUN	_	_	_	_	_	_
+12	accessibles	accessible	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_879
+# text = Elle disait qu'elle bénévolait chaque mois à la cantine solidaire.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	bénévolait	bénévolait	X	_	_	_	_	_	_
+5	chaque	chaque	X	_	_	_	_	_	_
+6	mois	mois	X	_	_	_	_	_	_
+7	à	à	X	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	cantine	cantine	X	_	_	_	_	_	_
+10	solidaire	solidaire	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_880
+# text = Nous aurions aimé une plateforme pour proposer des idées aux élus.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	aimé	aimer	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	plateforme	plateforme	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	proposer	proposer	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	idées	idée	NOUN	_	_	_	_	_	_
+10	aux	aux	ADP	_	_	_	_	_	_
+11	élus	élus	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_881
+# text = Bien que modeste, chaque action locale contribue à améliorer la vie commune.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	modeste	modeste	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	chaque	chaque	DET	_	_	_	_	_	_
+6	action	action	NOUN	_	_	_	_	_	_
+7	locale	local	ADJ	_	_	_	_	_	_
+8	contribue	contribuer	VERB	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	améliorer	améliorer	VERB	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	vie	vie	NOUN	_	_	_	_	_	_
+13	commune	commun	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_882
+# text = Je crois que s'informer sur les budgets permet de débattre avec des faits.
+1	Je	je	PRON	_	_	_	_	_	_
+2	crois	croire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	s'informer	s'informer	X	_	_	_	_	_	_
+5	sur	sur	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	budgets	budgets	X	_	_	_	_	_	_
+8	permet	permet	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	débattre	débattre	X	_	_	_	_	_	_
+11	avec	avec	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	faits	faits	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_883
+# text = Si nous mobilisions nos voisins, la rue serait nettoyée plus régulièrement.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	mobilisions	mobilisier	VERB	_	_	_	_	_	_
+4	nos	notre	DET	_	_	_	_	_	_
+5	voisins	voisin	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	rue	rue	NOUN	_	_	_	_	_	_
+9	serait	être	AUX	_	_	_	_	_	_
+10	nettoyée	nettoyer	VERB	_	_	_	_	_	_
+11	plus	plus	ADV	_	_	_	_	_	_
+12	régulièrement	régulièrement	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_884
+# text = Il me semblait que les jeunes étaient sous-représentés dans les instances locales.
+1	Il	il	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	semblait	sembler	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	jeunes	jeune	NOUN	_	_	_	_	_	_
+7	étaient	être	AUX	_	_	_	_	_	_
+8	sous-représentés	sous-représenter	VERB	_	_	_	_	_	_
+9	dans	dans	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	instances	instance	NOUN	_	_	_	_	_	_
+12	locales	local	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_885
+# text = Elle souhaiterait que l'école organise des visites à la mairie.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	souhaiterait	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'école	l'école	X	_	_	_	_	_	_
+5	organise	organise	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	visites	visites	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	mairie	mairie	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_886
+# text = Nous discutions de participation citoyenne pendant que nous préparions l'assemblée.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	discutions	discutier	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	participation	participation	NOUN	_	_	_	_	_	_
+5	citoyenne	citoyen	ADJ	_	_	_	_	_	_
+6	pendant	pendant	ADP	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	nous	nous	PRON	_	_	_	_	_	_
+9	préparions	préparier	VERB	_	_	_	_	_	_
+10	l'assemblée	l'assemblée	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_887
+# text = À mon avis, associer habitants et techniciens améliore les projets urbains.
+1	À	à	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	avis	avi	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	associer	associer	VERB	_	_	_	_	_	_
+6	habitants	habitant	NOUN	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	techniciens	technicien	NOUN	_	_	_	_	_	_
+9	améliore	améliorer	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	projets	projet	NOUN	_	_	_	_	_	_
+12	urbains	urbain	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_888
+# text = Il disait qu'il relayait les annonces officielles dans le groupe du quartier.
+1	Il	il	PRON	_	_	_	_	_	_
+2	disait	dire	VERB	_	_	_	_	_	_
+3	qu'il	qu'il	X	_	_	_	_	_	_
+4	relayait	relayait	X	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	annonces	annonces	X	_	_	_	_	_	_
+7	officielles	officielles	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	groupe	groupe	X	_	_	_	_	_	_
+11	du	du	ADP	_	_	_	_	_	_
+12	quartier	quartier	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_889
+# text = Je trouve important que chacun puisse exprimer son avis sans intimidation.
+1	Je	je	PRON	_	_	_	_	_	_
+2	trouve	trouver	VERB	_	_	_	_	_	_
+3	important	important	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	chacun	chacun	PRON	_	_	_	_	_	_
+6	puisse	pouvoir	VERB	_	_	_	_	_	_
+7	exprimer	exprimer	VERB	_	_	_	_	_	_
+8	son	son	DET	_	_	_	_	_	_
+9	avis	avi	NOUN	_	_	_	_	_	_
+10	sans	sans	ADP	_	_	_	_	_	_
+11	intimidation	intimidation	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_890
+# text = Si la ville publiait ses comptes, la transparence renforcerait la confiance.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	ville	ville	NOUN	_	_	_	_	_	_
+4	publiait	publier	VERB	_	_	_	_	_	_
+5	ses	son	DET	_	_	_	_	_	_
+6	comptes	compte	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	transparence	transparence	NOUN	_	_	_	_	_	_
+10	renforcerait	renforcer	VERB	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	confiance	confiance	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_891
+# text = Elle pensait que les jardins partagés créaient du lien entre générations.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	pensait	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	jardins	jardin	NOUN	_	_	_	_	_	_
+6	partagés	partager	ADJ	_	_	_	_	_	_
+7	créaient	créer	VERB	_	_	_	_	_	_
+8	du	du	DET	_	_	_	_	_	_
+9	lien	lien	NOUN	_	_	_	_	_	_
+10	entre	entre	ADP	_	_	_	_	_	_
+11	générations	génération	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_892
+# text = Il faudrait que les décisions importantes fassent l'objet de consultations.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	décisions	décision	NOUN	_	_	_	_	_	_
+6	importantes	important	ADJ	_	_	_	_	_	_
+7	fassent	faire	VERB	_	_	_	_	_	_
+8	l'objet	l'objet	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	consultations	consultations	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_893
+# text = Nous aurions pu obtenir une réponse si nous avions assisté à la séance.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	aurions	avoir	AUX	_	_	_	_	_	_
+3	pu	pouvoir	VERB	_	_	_	_	_	_
+4	obtenir	obtenir	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	réponse	réponse	NOUN	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	nous	nous	PRON	_	_	_	_	_	_
+9	avions	avoir	AUX	_	_	_	_	_	_
+10	assisté	assister	VERB	_	_	_	_	_	_
+11	à	à	ADP	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	séance	séance	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_894
+# text = Bien que le temps manque, beaucoup restent engagés pour leur communauté.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	temps	temp	NOUN	_	_	_	_	_	_
+5	manque	manquer	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+8	restent	rester	VERB	_	_	_	_	_	_
+9	engagés	engager	VERB	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	leur	leur	DET	_	_	_	_	_	_
+12	communauté	communauté	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_895
+# text = Je dirais que l'engagement local complète le vote lors des élections.
+1	Je	je	PRON	_	_	_	_	_	_
+2	dirais	dire	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	l'engagement	l'engagement	X	_	_	_	_	_	_
+5	local	local	X	_	_	_	_	_	_
+6	complète	complète	X	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	vote	vote	X	_	_	_	_	_	_
+9	lors	lors	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	élections	élections	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_896
+# text = Si j'avais plus de disponibilité, j'animerais un atelier citoyen.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	j'avais	j'avais	X	_	_	_	_	_	_
+3	plus	plus	ADV	_	_	_	_	_	_
+4	de	un	DET	_	_	_	_	_	_
+5	disponibilité	disponibilité	X	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	j'animerais	j'animerais	X	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	atelier	atelier	X	_	_	_	_	_	_
+10	citoyen	citoyen	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_897
+# text = Elle affirmait qu'elle encourageait ses amis à rejoindre l'association.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	affirmait	affirmer	VERB	_	_	_	_	_	_
+3	qu'elle	qu'elle	X	_	_	_	_	_	_
+4	encourageait	encourageait	X	_	_	_	_	_	_
+5	ses	son	DET	_	_	_	_	_	_
+6	amis	amis	X	_	_	_	_	_	_
+7	à	à	X	_	_	_	_	_	_
+8	rejoindre	rejoindre	X	_	_	_	_	_	_
+9	l'association	l'association	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_898
+# text = Il est essentiel que les institutions reconnaissent le travail des bénévoles.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	essentiel	essentiel	ADJ	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	institutions	institution	NOUN	_	_	_	_	_	_
+7	reconnaissent	reconnaître	VERB	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	travail	travail	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	bénévoles	bénévoles	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_899
+# text = Nous pensions que la participation augmenterait avec une meilleure communication.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	pensions	penser	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	participation	participation	NOUN	_	_	_	_	_	_
+6	augmenterait	augmenter	VERB	_	_	_	_	_	_
+7	avec	avec	ADP	_	_	_	_	_	_
+8	une	un	DET	_	_	_	_	_	_
+9	meilleure	meilleur	ADJ	_	_	_	_	_	_
+10	communication	communication	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_b1_train_900
+# text = Je souhaiterais que notre quartier lance un conseil citoyen permanent.
+1	Je	je	PRON	_	_	_	_	_	_
+2	souhaiterais	souhaiter	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	notre	notre	DET	_	_	_	_	_	_
+5	quartier	quartier	NOUN	_	_	_	_	_	_
+6	lance	lancer	VERB	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	conseil	conseil	NOUN	_	_	_	_	_	_
+9	citoyen	citoyen	ADJ	_	_	_	_	_	_
+10	permanent	permanent	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,167 @@
+# sent_id = de_a2_val_001
+# text = Wir haben gestern ein neues Auto gekauft.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	gestern	gestern	ADV	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	neues	neu	ADJ	_	_	_	_	_	_
+6	Auto	Auto	NOUN	_	_	_	_	_	_
+7	gekauft	kaufen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_002
+# text = Sie ist mit dem Bus zur Schule gefahren.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Bus	Bus	NOUN	_	_	_	_	_	_
+6	zur	zu	ADP	_	_	_	_	_	_
+7	Schule	Schule	NOUN	_	_	_	_	_	_
+8	gefahren	fahren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_003
+# text = Ich konnte das Buch nicht finden.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	konnte	können	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Buch	Buch	NOUN	_	_	_	_	_	_
+5	nicht	nicht	PART	_	_	_	_	_	_
+6	finden	finden	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_004
+# text = Das ist der schönste Tag meines Lebens.
+1	Das	der	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	schönste	schön	ADJ	_	_	_	_	_	_
+5	Tag	Tag	NOUN	_	_	_	_	_	_
+6	meines	mein	PRON	_	_	_	_	_	_
+7	Lebens	Leben	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_005
+# text = Wir fliegen im August nach Griechenland.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	fliegen	fliegen	VERB	_	_	_	_	_	_
+3	im	in	ADP	_	_	_	_	_	_
+4	August	August	NOUN	_	_	_	_	_	_
+5	nach	nach	ADP	_	_	_	_	_	_
+6	Griechenland	Griechenland	PROPN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_006
+# text = Der Mantel kostet hundertzwanzig Euro.
+1	Der	der	DET	_	_	_	_	_	_
+2	Mantel	Mantel	NOUN	_	_	_	_	_	_
+3	kostet	kosten	VERB	_	_	_	_	_	_
+4	hundertzwanzig	hundertzwanzig	NUM	_	_	_	_	_	_
+5	Euro	Euro	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_007
+# text = Meine Schwester arbeitet in einem Krankenhaus.
+1	Meine	mein	PRON	_	_	_	_	_	_
+2	Schwester	Schwester	NOUN	_	_	_	_	_	_
+3	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	Krankenhaus	Krankenhaus	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_008
+# text = Der Arzt sagt, dass ich gesund bin.
+1	Der	der	DET	_	_	_	_	_	_
+2	Arzt	Arzt	NOUN	_	_	_	_	_	_
+3	sagt	sagen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	gesund	gesund	ADJ	_	_	_	_	_	_
+8	bin	sein	AUX	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_009
+# text = Heute scheint die Sonne, aber es ist kühl.
+1	Heute	heute	ADV	_	_	_	_	_	_
+2	scheint	scheinen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Sonne	Sonne	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	aber	aber	CCONJ	_	_	_	_	_	_
+7	es	es	PRON	_	_	_	_	_	_
+8	ist	sein	AUX	_	_	_	_	_	_
+9	kühl	kühl	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_010
+# text = Wenn ich Zeit habe, koche ich Abendessen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	Zeit	Zeit	NOUN	_	_	_	_	_	_
+4	habe	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	koche	kochen	VERB	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	Abendessen	Abendessen	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_011
+# text = Ich stehe morgen früh um fünf auf.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	stehe	aufstehen	VERB	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	früh	früh	ADV	_	_	_	_	_	_
+5	um	um	ADP	_	_	_	_	_	_
+6	fünf	fünf	NUM	_	_	_	_	_	_
+7	auf	auf	PART	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_012
+# text = Wir müssen den Zug um sieben nehmen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	müssen	müssen	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Zug	Zug	NOUN	_	_	_	_	_	_
+5	um	um	ADP	_	_	_	_	_	_
+6	sieben	sieben	NUM	_	_	_	_	_	_
+7	nehmen	nehmen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_013
+# text = Er hat die Rechnung noch nicht bezahlt.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+5	noch	noch	ADV	_	_	_	_	_	_
+6	nicht	nicht	PART	_	_	_	_	_	_
+7	bezahlt	bezahlen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_014
+# text = Das Hotel ist billiger als das andere.
+1	Das	der	DET	_	_	_	_	_	_
+2	Hotel	Hotel	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	billiger	billig	ADJ	_	_	_	_	_	_
+5	als	als	SCONJ	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	andere	ander	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a2_val_015
+# text = Weil sie krank ist, bleibt sie zu Hause.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	sie	sie	PRON	_	_	_	_	_	_
+3	krank	krank	ADJ	_	_	_	_	_	_
+4	ist	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	bleibt	bleiben	VERB	_	_	_	_	_	_
+7	sie	sie	PRON	_	_	_	_	_	_
+8	zu	zu	ADP	_	_	_	_	_	_
+9	Hause	Haus	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+

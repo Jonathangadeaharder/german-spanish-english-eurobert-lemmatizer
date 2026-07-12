@@ -1,0 +1,3324 @@
+# sent_id = es_b1_train_201
+# text = La solicitud de visado fue rechazada porque faltaban documentos obligatorios en el expediente.
+1	La	el	DET	_	_	_	_	_	_
+2	solicitud	solicitud	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	visado	visado	NOUN	_	_	_	_	_	_
+5	fue	ser	AUX	_	_	_	_	_	_
+6	rechazada	rechazar	VERB	_	_	_	_	_	_
+7	porque	porque	SCONJ	_	_	_	_	_	_
+8	faltaban	faltar	VERB	_	_	_	_	_	_
+9	documentos	documento	NOUN	_	_	_	_	_	_
+10	obligatorios	obligatorio	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	expediente	expediente	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_202
+# text = Si los inmigrantes aprenden el idioma local, suelen usar los servicios públicos mejor.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	inmigrantes	inmigrante	NOUN	_	_	_	_	_	_
+4	aprenden	aprender	VERB	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	idioma	idioma	NOUN	_	_	_	_	_	_
+7	local	local	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	suelen	soler	VERB	_	_	_	_	_	_
+10	usar	usar	VERB	_	_	_	_	_	_
+11	los	el	DET	_	_	_	_	_	_
+12	servicios	servicio	NOUN	_	_	_	_	_	_
+13	públicos	público	ADJ	_	_	_	_	_	_
+14	mejor	mejor	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_203
+# text = Muchas familias se trasladaron al extranjero tras recibir mejores ofertas laborales allí.
+1	Muchas	mucho	DET	_	_	_	_	_	_
+2	familias	familia	NOUN	_	_	_	_	_	_
+3	se	él	PRON	_	_	_	_	_	_
+4	trasladaron	trasladar	VERB	_	_	_	_	_	_
+5	al	al	ADP	_	_	_	_	_	_
+6	extranjero	extranjero	NOUN	_	_	_	_	_	_
+7	tras	tras	ADP	_	_	_	_	_	_
+8	recibir	recibir	VERB	_	_	_	_	_	_
+9	mejores	mejor	ADJ	_	_	_	_	_	_
+10	ofertas	oferta	NOUN	_	_	_	_	_	_
+11	laborales	laboral	ADJ	_	_	_	_	_	_
+12	allí	allí	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_204
+# text = El permiso de residencia debe renovarse antes de que expire a finales de mes.
+1	El	el	DET	_	_	_	_	_	_
+2	permiso	permiso	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	residencia	residencia	NOUN	_	_	_	_	_	_
+5	debe	deber	AUX	_	_	_	_	_	_
+6	renovarse	renovar	VERB	_	_	_	_	_	_
+7	antes	antes	ADV	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	expire	experar	VERB	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	finales	final	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	mes	me	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_205
+# text = Aunque el proceso sea lento, la mayoría recibe una decisión en doce semanas.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	proceso	proceso	NOUN	_	_	_	_	_	_
+4	sea	ser	AUX	_	_	_	_	_	_
+5	lento	lento	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	mayoría	mayoría	NOUN	_	_	_	_	_	_
+9	recibe	recibir	VERB	_	_	_	_	_	_
+10	una	uno	DET	_	_	_	_	_	_
+11	decisión	decisión	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	doce	doce	NUM	_	_	_	_	_	_
+14	semanas	semana	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_206
+# text = Explicó que solicitaría la nacionalidad tras vivir aquí durante cinco años.
+1	Explicó	explicar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	solicitaría	solicitar	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	nacionalidad	nacionalidad	NOUN	_	_	_	_	_	_
+6	tras	tras	ADP	_	_	_	_	_	_
+7	vivir	vivir	VERB	_	_	_	_	_	_
+8	aquí	aquí	ADV	_	_	_	_	_	_
+9	durante	durante	ADP	_	_	_	_	_	_
+10	cinco	cinco	NUM	_	_	_	_	_	_
+11	años	año	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_207
+# text = La oficina de fronteras se amplió porque aumentaron los viajeros cada verano.
+1	La	el	DET	_	_	_	_	_	_
+2	oficina	oficina	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	fronteras	frontera	NOUN	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	amplió	ampliar	VERB	_	_	_	_	_	_
+7	porque	porque	SCONJ	_	_	_	_	_	_
+8	aumentaron	aumentar	VERB	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	viajeros	viajero	NOUN	_	_	_	_	_	_
+11	cada	cada	DET	_	_	_	_	_	_
+12	verano	verano	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_208
+# text = Si los refugiados reciben apoyo de vivienda, pueden concentrarse más en idiomas.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	refugiados	refugiado	NOUN	_	_	_	_	_	_
+4	reciben	recibir	VERB	_	_	_	_	_	_
+5	apoyo	apoyo	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	vivienda	vivienda	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	pueden	poder	AUX	_	_	_	_	_	_
+10	concentrarse	concentrar	VERB	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	idiomas	idioma	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_209
+# text = Creo que los programas de integración deberían incluir ayuda con vivienda y empleo.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	programas	programa	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	integración	integración	NOUN	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	incluir	incluir	VERB	_	_	_	_	_	_
+9	ayuda	ayuda	NOUN	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	vivienda	vivienda	NOUN	_	_	_	_	_	_
+12	y	y	CCONJ	_	_	_	_	_	_
+13	empleo	empleo	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_210
+# text = Se introdujo la política para ayudar a trabajadores cualificados a obtener permisos.
+1	Se	él	PRON	_	_	_	_	_	_
+2	introdujo	introducir	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	política	política	NOUN	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	ayudar	ayudar	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	trabajadores	trabajador	NOUN	_	_	_	_	_	_
+9	cualificados	cualificado	ADJ	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	obtener	obtener	VERB	_	_	_	_	_	_
+12	permisos	permiso	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_211
+# text = Cuando cambió la ley, los estudiantes extranjeros pudieron quedarse más tras graduarse.
+1	Cuando	cuando	SCONJ	_	_	_	_	_	_
+2	cambió	cambiar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	ley	ley	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+8	extranjeros	extranjero	ADJ	_	_	_	_	_	_
+9	pudieron	poder	AUX	_	_	_	_	_	_
+10	quedarse	quedar	VERB	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	tras	tras	ADP	_	_	_	_	_	_
+13	graduarse	graduar	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_212
+# text = Le pidieron que presentara un comprobante de domicilio antes de confirmar la cita.
+1	Le	él	PRON	_	_	_	_	_	_
+2	pidieron	pedir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	presentara	presentar	VERB	_	_	_	_	_	_
+5	un	uno	DET	_	_	_	_	_	_
+6	comprobante	comprobante	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	domicilio	domicilio	NOUN	_	_	_	_	_	_
+9	antes	antes	ADV	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	confirmar	confirmar	VERB	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	cita	cita	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_213
+# text = Muchos residentes sienten que las normas de inmigración deberían ser más claras.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	residentes	residente	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	normas	norma	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	inmigración	inmigración	NOUN	_	_	_	_	_	_
+9	deberían	deber	AUX	_	_	_	_	_	_
+10	ser	ser	AUX	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	claras	claro	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_214
+# text = La embajada anunció que las citas se publicarían en línea cada lunes mañana.
+1	La	el	DET	_	_	_	_	_	_
+2	embajada	embajada	NOUN	_	_	_	_	_	_
+3	anunció	anunciar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	citas	cita	NOUN	_	_	_	_	_	_
+7	se	él	PRON	_	_	_	_	_	_
+8	publicarían	publicar	VERB	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	línea	línea	NOUN	_	_	_	_	_	_
+11	cada	cada	DET	_	_	_	_	_	_
+12	lunes	lune	NOUN	_	_	_	_	_	_
+13	mañana	mañana	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_215
+# text = Si se acepta la apelación, el solicitante recibirá una nueva fecha de entrevista.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	acepta	aceptar	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	apelación	apelación	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	solicitante	solicitante	NOUN	_	_	_	_	_	_
+9	recibirá	recibir	VERB	_	_	_	_	_	_
+10	una	uno	DET	_	_	_	_	_	_
+11	nueva	nuevo	ADJ	_	_	_	_	_	_
+12	fecha	fecha	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	entrevista	entrevista	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_216
+# text = Hablamos de si los recién llegados deberían recibir más apoyo el primer año.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	recién	recién	ADV	_	_	_	_	_	_
+6	llegados	llegado	ADJ	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	recibir	recibir	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	apoyo	apoyo	NOUN	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	primer	primero	ADJ	_	_	_	_	_	_
+13	año	año	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_217
+# text = El informe muestra que la migración ha cubierto carencias en el sector sanitario.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	muestra	mostrar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	migración	migración	NOUN	_	_	_	_	_	_
+7	ha	haber	AUX	_	_	_	_	_	_
+8	cubierto	cubrir	VERB	_	_	_	_	_	_
+9	carencias	carencia	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	sector	sector	NOUN	_	_	_	_	_	_
+13	sanitario	sanitario	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_218
+# text = Aunque las opiniones difieran, la mayoría apoyó mejor acceso a asesoramiento legal.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	opiniones	opinión	NOUN	_	_	_	_	_	_
+4	difieran	decir	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	mayoría	mayoría	NOUN	_	_	_	_	_	_
+8	apoyó	apoyar	VERB	_	_	_	_	_	_
+9	mejor	mejor	ADJ	_	_	_	_	_	_
+10	acceso	acceso	NOUN	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	asesoramiento	asesoramiento	NOUN	_	_	_	_	_	_
+13	legal	legal	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_219
+# text = La organización fue fundada por voluntarios que querían ayudar a solicitantes de asilo.
+1	La	el	DET	_	_	_	_	_	_
+2	organización	organización	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	fundada	fundar	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	querían	querer	VERB	_	_	_	_	_	_
+9	ayudar	ayudar	VERB	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	solicitantes	solicitante	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	asilo	asilo	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_220
+# text = Pienso que los empleadores no deberían discriminar a candidatos por nacionalidad.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	empleadores	empleador	NOUN	_	_	_	_	_	_
+5	no	no	ADV	_	_	_	_	_	_
+6	deberían	deber	AUX	_	_	_	_	_	_
+7	discriminar	discriminar	VERB	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	candidatos	candidato	NOUN	_	_	_	_	_	_
+10	por	por	ADP	_	_	_	_	_	_
+11	nacionalidad	nacionalidad	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_221
+# text = La familia se reunió tras aprobar las autoridades su solicitud de reagrupación.
+1	La	el	DET	_	_	_	_	_	_
+2	familia	familia	NOUN	_	_	_	_	_	_
+3	se	él	PRON	_	_	_	_	_	_
+4	reunió	reunir	VERB	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	aprobar	aprobar	VERB	_	_	_	_	_	_
+7	las	el	DET	_	_	_	_	_	_
+8	autoridades	autoridad	NOUN	_	_	_	_	_	_
+9	su	suyo	DET	_	_	_	_	_	_
+10	solicitud	solicitud	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	reagrupación	reagrupación	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_222
+# text = Si los documentos se traducen mal, las solicitudes pueden retrasarse varios meses.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	documentos	documento	NOUN	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	traducen	traducir	VERB	_	_	_	_	_	_
+6	mal	mal	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	las	el	DET	_	_	_	_	_	_
+9	solicitudes	solicitud	NOUN	_	_	_	_	_	_
+10	pueden	poder	AUX	_	_	_	_	_	_
+11	retrasarse	retrasar	VERB	_	_	_	_	_	_
+12	varios	vario	DET	_	_	_	_	_	_
+13	meses	me	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_223
+# text = Dijo que contactaría con un abogado si no renovaban su permiso de trabajo.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	contactaría	contactar	VERB	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	un	uno	DET	_	_	_	_	_	_
+6	abogado	abogado	NOUN	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	renovaban	renovar	VERB	_	_	_	_	_	_
+10	su	suyo	DET	_	_	_	_	_	_
+11	permiso	permiso	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	trabajo	trabajo	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_224
+# text = Se celebraron reuniones para que los residentes comentaran el nuevo centro de acogida.
+1	Se	él	PRON	_	_	_	_	_	_
+2	celebraron	celebrar	VERB	_	_	_	_	_	_
+3	reuniones	reunión	NOUN	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	residentes	residente	NOUN	_	_	_	_	_	_
+8	comentaran	comentar	VERB	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	nuevo	nuevo	ADJ	_	_	_	_	_	_
+11	centro	centro	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	acogida	acogida	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_225
+# text = El gobierno prometió que los plazos mejorarían contratando más personal.
+1	El	el	DET	_	_	_	_	_	_
+2	gobierno	gobierno	NOUN	_	_	_	_	_	_
+3	prometió	prometer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	plazos	plazo	NOUN	_	_	_	_	_	_
+7	mejorarían	mejorar	VERB	_	_	_	_	_	_
+8	contratando	contratar	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	personal	personal	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_226
+# text = El instituto anunció que ofrecerá clases nocturnas para adultos que trabajan.
+1	El	el	DET	_	_	_	_	_	_
+2	instituto	instituto	NOUN	_	_	_	_	_	_
+3	anunció	anunciar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	ofrecerá	ofrecer	VERB	_	_	_	_	_	_
+6	clases	clase	NOUN	_	_	_	_	_	_
+7	nocturnas	nocturno	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	adultos	adulto	NOUN	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	trabajan	trabajar	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_227
+# text = Si los estudiantes asisten con regularidad, tienen más probabilidades de aprobar.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+4	asisten	asistir	VERB	_	_	_	_	_	_
+5	con	con	ADP	_	_	_	_	_	_
+6	regularidad	regularidad	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	tienen	tener	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	probabilidades	probabilidad	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	aprobar	aprobar	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_228
+# text = Muchos padres creen que las escuelas deberían ofrecer más orientación a adolescentes.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	padres	padre	NOUN	_	_	_	_	_	_
+3	creen	creer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	escuelas	escuela	NOUN	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	ofrecer	ofrecer	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	orientación	orientación	NOUN	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	adolescentes	adolescente	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_229
+# text = Se aplazó el examen porque la calefacción falló durante la tormenta de invierno.
+1	Se	él	PRON	_	_	_	_	_	_
+2	aplazó	aplazar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	examen	examen	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	calefacción	calefacción	NOUN	_	_	_	_	_	_
+8	falló	fallar	VERB	_	_	_	_	_	_
+9	durante	durante	ADP	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	tormenta	tormenta	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	invierno	invierno	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_230
+# text = Aunque el módulo sea difícil, muchos dijeron que el profesor explicó bien.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	módulo	módulo	NOUN	_	_	_	_	_	_
+4	sea	ser	AUX	_	_	_	_	_	_
+5	difícil	difícil	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	muchos	mucho	DET	_	_	_	_	_	_
+8	dijeron	decir	VERB	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	profesor	profesor	NOUN	_	_	_	_	_	_
+12	explicó	explicar	VERB	_	_	_	_	_	_
+13	bien	bien	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_231
+# text = Se concedieron becas a estudiantes con buenos resultados en asignaturas científicas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	concedieron	conceder	VERB	_	_	_	_	_	_
+3	becas	beca	NOUN	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+6	con	con	ADP	_	_	_	_	_	_
+7	buenos	buen	ADJ	_	_	_	_	_	_
+8	resultados	resultado	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	asignaturas	asignatura	NOUN	_	_	_	_	_	_
+11	científicas	científico	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_232
+# text = Pienso que los proyectos en grupo ayudan a desarrollar habilidades de trabajo.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	proyectos	proyecto	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	grupo	grupo	NOUN	_	_	_	_	_	_
+7	ayudan	ayudar	VERB	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	desarrollar	desarrollar	VERB	_	_	_	_	_	_
+10	habilidades	habilidad	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	trabajo	trabajo	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_233
+# text = El tutor explicó que el ensayo debe entregarse por el portal en línea.
+1	El	el	DET	_	_	_	_	_	_
+2	tutor	tutor	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	ensayo	ensayo	NOUN	_	_	_	_	_	_
+7	debe	deber	AUX	_	_	_	_	_	_
+8	entregarse	entregar	VERB	_	_	_	_	_	_
+9	por	por	ADP	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	portal	portal	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	línea	línea	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_234
+# text = Si baja la matrícula, el colegio podría cancelar cursos opcionales el trimestre.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	baja	bajar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	matrícula	matrícula	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	colegio	colegio	NOUN	_	_	_	_	_	_
+8	podría	poder	AUX	_	_	_	_	_	_
+9	cancelar	cancelar	VERB	_	_	_	_	_	_
+10	cursos	curso	NOUN	_	_	_	_	_	_
+11	opcionales	opcional	ADJ	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	trimestre	trimestre	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_235
+# text = El laboratorio se renovó mientras las clases continuaban en aulas temporales.
+1	El	el	DET	_	_	_	_	_	_
+2	laboratorio	laboratorio	NOUN	_	_	_	_	_	_
+3	se	él	PRON	_	_	_	_	_	_
+4	renovó	renovar	VERB	_	_	_	_	_	_
+5	mientras	mientras	SCONJ	_	_	_	_	_	_
+6	las	el	DET	_	_	_	_	_	_
+7	clases	clase	NOUN	_	_	_	_	_	_
+8	continuaban	continuar	VERB	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	aulas	aula	NOUN	_	_	_	_	_	_
+11	temporales	temporal	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_236
+# text = Muchos docentes sienten que las herramientas digitales deberían apoyar el aprendizaje.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	docentes	docente	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	herramientas	herramienta	NOUN	_	_	_	_	_	_
+7	digitales	digital	ADJ	_	_	_	_	_	_
+8	deberían	deber	AUX	_	_	_	_	_	_
+9	apoyar	apoyar	VERB	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	aprendizaje	aprendizaje	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_237
+# text = Se revisó el plan de estudios para incluir habilidades prácticas y comunicación.
+1	Se	él	PRON	_	_	_	_	_	_
+2	revisó	revisar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	plan	plan	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	estudios	estudio	NOUN	_	_	_	_	_	_
+7	para	para	ADP	_	_	_	_	_	_
+8	incluir	incluir	VERB	_	_	_	_	_	_
+9	habilidades	habilidad	NOUN	_	_	_	_	_	_
+10	prácticas	práctico	ADJ	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	comunicación	comunicación	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_238
+# text = Dijo que se inscribiría al curso si su empresa cubría las tasas del programa.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	se	él	PRON	_	_	_	_	_	_
+4	inscribiría	inscribir	VERB	_	_	_	_	_	_
+5	al	al	ADP	_	_	_	_	_	_
+6	curso	curso	NOUN	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	su	suyo	DET	_	_	_	_	_	_
+9	empresa	empresa	NOUN	_	_	_	_	_	_
+10	cubría	cubrir	VERB	_	_	_	_	_	_
+11	las	el	DET	_	_	_	_	_	_
+12	tasas	tasa	NOUN	_	_	_	_	_	_
+13	del	del	ADP	_	_	_	_	_	_
+14	programa	programa	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_239
+# text = Se animó a estudiantes a usar la biblioteca porque ofrece espacios tranquilos.
+1	Se	él	PRON	_	_	_	_	_	_
+2	animó	animar	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	usar	usar	VERB	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	biblioteca	biblioteca	NOUN	_	_	_	_	_	_
+9	porque	porque	SCONJ	_	_	_	_	_	_
+10	ofrece	ofrecer	VERB	_	_	_	_	_	_
+11	espacios	espacio	NOUN	_	_	_	_	_	_
+12	tranquilos	tranquilo	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_240
+# text = Creo que la educación de adultos debería ser asequible para cambiar de carrera.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	educación	educación	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	adultos	adulto	NOUN	_	_	_	_	_	_
+7	debería	deber	AUX	_	_	_	_	_	_
+8	ser	ser	AUX	_	_	_	_	_	_
+9	asequible	asequible	ADJ	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	cambiar	cambiar	VERB	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	carrera	carrera	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_241
+# text = El taller fue dirigido por formadores especializados en enseñanza inclusiva.
+1	El	el	DET	_	_	_	_	_	_
+2	taller	taller	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	dirigido	dirigir	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	formadores	formador	NOUN	_	_	_	_	_	_
+7	especializados	especializado	ADJ	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	enseñanza	enseñanza	NOUN	_	_	_	_	_	_
+10	inclusiva	inclusivo	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_242
+# text = Si cae la asistencia, la universidad podría fusionar dos seminarios pequeños.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	cae	caer	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	asistencia	asistencia	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	universidad	universidad	NOUN	_	_	_	_	_	_
+8	podría	poder	AUX	_	_	_	_	_	_
+9	fusionar	fusionar	VERB	_	_	_	_	_	_
+10	dos	dos	NUM	_	_	_	_	_	_
+11	seminarios	seminario	NOUN	_	_	_	_	_	_
+12	pequeños	pequeño	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_243
+# text = Hablamos de si las tareas deberían reducirse para los alumnos más jóvenes.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	tareas	tarea	NOUN	_	_	_	_	_	_
+6	deberían	deber	AUX	_	_	_	_	_	_
+7	reducirse	reducir	VERB	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	alumnos	alumno	NOUN	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	jóvenes	joven	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_244
+# text = El programa fue financiado por una subvención de la autoridad educativa regional.
+1	El	el	DET	_	_	_	_	_	_
+2	programa	programa	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	financiado	financiar	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	una	uno	DET	_	_	_	_	_	_
+7	subvención	subvención	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	autoridad	autoridad	NOUN	_	_	_	_	_	_
+11	educativa	educativo	ADJ	_	_	_	_	_	_
+12	regional	regional	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_245
+# text = Muchos graduados tienen dificultades porque los empleadores exigen titulación y experiencia.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	graduados	graduado	NOUN	_	_	_	_	_	_
+3	tienen	tener	VERB	_	_	_	_	_	_
+4	dificultades	dificultad	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	empleadores	empleador	NOUN	_	_	_	_	_	_
+8	exigen	exigir	VERB	_	_	_	_	_	_
+9	titulación	titulación	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	experiencia	experiencia	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_246
+# text = La conferencia reunió a docentes que querían compartir ideas sobre evaluación.
+1	La	el	DET	_	_	_	_	_	_
+2	conferencia	conferencia	NOUN	_	_	_	_	_	_
+3	reunió	reunir	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	docentes	docente	NOUN	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	querían	querer	VERB	_	_	_	_	_	_
+8	compartir	compartir	VERB	_	_	_	_	_	_
+9	ideas	idea	NOUN	_	_	_	_	_	_
+10	sobre	sobre	ADP	_	_	_	_	_	_
+11	evaluación	evaluación	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_247
+# text = Si cambian las normas del examen, los estudiantes necesitarán instrucciones nuevas.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	cambian	cambiar	VERB	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	normas	norma	NOUN	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	examen	examen	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+10	necesitarán	necesitar	VERB	_	_	_	_	_	_
+11	instrucciones	instrucción	NOUN	_	_	_	_	_	_
+12	nuevas	nuevo	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_248
+# text = Estoy convencido de que el aprendizaje permanente es esencial hoy en día.
+1	Estoy	estar	AUX	_	_	_	_	_	_
+2	convencido	convencido	ADJ	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	aprendizaje	aprendizaje	NOUN	_	_	_	_	_	_
+7	permanente	permanente	ADJ	_	_	_	_	_	_
+8	es	ser	AUX	_	_	_	_	_	_
+9	esencial	esencial	ADJ	_	_	_	_	_	_
+10	hoy	hoy	ADV	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	día	día	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_249
+# text = El libro fue elegido por profesores que han impartido la materia durante años.
+1	El	el	DET	_	_	_	_	_	_
+2	libro	libro	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	elegido	elegir	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	profesores	profesor	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	han	haber	AUX	_	_	_	_	_	_
+9	impartido	impartir	VERB	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	materia	materia	NOUN	_	_	_	_	_	_
+12	durante	durante	ADP	_	_	_	_	_	_
+13	años	año	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_250
+# text = Aunque los resultados mejoraron, hace falta más inversión en formación docente.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	resultados	resultado	NOUN	_	_	_	_	_	_
+4	mejoraron	mejorar	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	hace	hacer	VERB	_	_	_	_	_	_
+7	falta	falta	NOUN	_	_	_	_	_	_
+8	más	más	ADV	_	_	_	_	_	_
+9	inversión	inversión	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	formación	formación	NOUN	_	_	_	_	_	_
+12	docente	docente	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_251
+# text = Se aprobó el reembolso tras demostrar el cliente que el producto llegó dañado.
+1	Se	él	PRON	_	_	_	_	_	_
+2	aprobó	aprobar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	reembolso	reembolso	NOUN	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	demostrar	demostrar	VERB	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	cliente	cliente	NOUN	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	producto	producto	NOUN	_	_	_	_	_	_
+12	llegó	llegar	VERB	_	_	_	_	_	_
+13	dañado	dañar	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_252
+# text = Si una tienda rechaza una devolución válida, contacta con la agencia de consumo.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	una	uno	DET	_	_	_	_	_	_
+3	tienda	tienda	NOUN	_	_	_	_	_	_
+4	rechaza	rechazar	VERB	_	_	_	_	_	_
+5	una	uno	DET	_	_	_	_	_	_
+6	devolución	devolución	NOUN	_	_	_	_	_	_
+7	válida	válido	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	contacta	contactar	VERB	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	agencia	agencia	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	consumo	consumo	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_253
+# text = Muchos compradores creen que los vendedores en línea deberían informar mejor plazos.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	compradores	comprador	NOUN	_	_	_	_	_	_
+3	creen	creer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	vendedores	vendedor	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	línea	línea	NOUN	_	_	_	_	_	_
+9	deberían	deber	AUX	_	_	_	_	_	_
+10	informar	informar	VERB	_	_	_	_	_	_
+11	mejor	mejor	ADJ	_	_	_	_	_	_
+12	plazos	plazo	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_254
+# text = Se canceló el contrato porque la empresa no entregó la mercancía a tiempo.
+1	Se	él	PRON	_	_	_	_	_	_
+2	canceló	cancelar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	contrato	contrato	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	empresa	empresa	NOUN	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	entregó	entregar	VERB	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	mercancía	mercancía	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	tiempo	tiempo	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_255
+# text = Aunque el precio fuera bajo, la garantía no cubría fallos eléctricos del aparato.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	precio	precio	NOUN	_	_	_	_	_	_
+4	fuera	ser	AUX	_	_	_	_	_	_
+5	bajo	bajo	ADP	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	garantía	garantía	NOUN	_	_	_	_	_	_
+9	no	no	ADV	_	_	_	_	_	_
+10	cubría	cubrir	VERB	_	_	_	_	_	_
+11	fallos	fallo	NOUN	_	_	_	_	_	_
+12	eléctricos	eléctrico	ADJ	_	_	_	_	_	_
+13	del	del	ADP	_	_	_	_	_	_
+14	aparato	aparato	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_256
+# text = Se introdujeron normas nuevas para impedir publicidad engañosa en internet.
+1	Se	él	PRON	_	_	_	_	_	_
+2	introdujeron	introducir	VERB	_	_	_	_	_	_
+3	normas	norma	NOUN	_	_	_	_	_	_
+4	nuevas	nuevo	ADJ	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	impedir	impedir	VERB	_	_	_	_	_	_
+7	publicidad	publicidad	NOUN	_	_	_	_	_	_
+8	engañosa	engañoso	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	internet	internet	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_257
+# text = Pienso que los clientes deberían recibir confirmación antes de cobrar pagos recurrentes.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	clientes	cliente	NOUN	_	_	_	_	_	_
+5	deberían	deber	AUX	_	_	_	_	_	_
+6	recibir	recibir	VERB	_	_	_	_	_	_
+7	confirmación	confirmación	NOUN	_	_	_	_	_	_
+8	antes	antes	ADV	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	cobrar	cobrar	VERB	_	_	_	_	_	_
+11	pagos	pago	NOUN	_	_	_	_	_	_
+12	recurrentes	recurrente	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_258
+# text = El asesor explicó que la reclamación debe presentarse en treinta días.
+1	El	el	DET	_	_	_	_	_	_
+2	asesor	asesor	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	reclamación	reclamación	NOUN	_	_	_	_	_	_
+7	debe	deber	AUX	_	_	_	_	_	_
+8	presentarse	presentar	VERB	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	treinta	treinta	NUM	_	_	_	_	_	_
+11	días	día	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_259
+# text = Si el artículo es defectuoso, el comercio debe ofrecer reparación o sustitución.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	artículo	artículo	NOUN	_	_	_	_	_	_
+4	es	ser	AUX	_	_	_	_	_	_
+5	defectuoso	defectuoso	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	comercio	comercio	NOUN	_	_	_	_	_	_
+9	debe	deber	AUX	_	_	_	_	_	_
+10	ofrecer	ofrecer	VERB	_	_	_	_	_	_
+11	reparación	reparación	NOUN	_	_	_	_	_	_
+12	o	o	CCONJ	_	_	_	_	_	_
+13	sustitución	sustitución	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_260
+# text = Se anunció el retiro del producto mientras las tiendas retiraban lotes afectados.
+1	Se	él	PRON	_	_	_	_	_	_
+2	anunció	anunciar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	retiro	retiro	NOUN	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	producto	producto	NOUN	_	_	_	_	_	_
+7	mientras	mientras	SCONJ	_	_	_	_	_	_
+8	las	el	DET	_	_	_	_	_	_
+9	tiendas	tienda	NOUN	_	_	_	_	_	_
+10	retiraban	retirar	VERB	_	_	_	_	_	_
+11	lotes	lote	NOUN	_	_	_	_	_	_
+12	afectados	afectado	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_261
+# text = Muchos consumidores sienten que las políticas de cancelación deberían ser más claras.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	consumidores	consumidor	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	políticas	política	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	cancelación	cancelación	NOUN	_	_	_	_	_	_
+9	deberían	deber	AUX	_	_	_	_	_	_
+10	ser	ser	AUX	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	claras	claro	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_262
+# text = El informe se publicó tras revisar reclamaciones de varias cadenas comerciales.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	se	él	PRON	_	_	_	_	_	_
+4	publicó	publicar	VERB	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	revisar	revisar	VERB	_	_	_	_	_	_
+7	reclamaciones	reclamación	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	varias	vario	DET	_	_	_	_	_	_
+10	cadenas	cadena	NOUN	_	_	_	_	_	_
+11	comerciales	comercial	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_263
+# text = Dijo que impugnaría el cargo si el servicio no se prestó como prometieron.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	impugnaría	impugnar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	cargo	cargo	NOUN	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	servicio	servicio	NOUN	_	_	_	_	_	_
+9	no	no	ADV	_	_	_	_	_	_
+10	se	él	PRON	_	_	_	_	_	_
+11	prestó	prestar	VERB	_	_	_	_	_	_
+12	como	como	SCONJ	_	_	_	_	_	_
+13	prometieron	prometir	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_264
+# text = Se revisaron las reseñas en línea porque la plataforma quería reducir valoraciones falsas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	revisaron	revisar	VERB	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	reseñas	reseño	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	línea	línea	NOUN	_	_	_	_	_	_
+7	porque	porque	SCONJ	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	plataforma	plataforma	NOUN	_	_	_	_	_	_
+10	quería	querer	VERB	_	_	_	_	_	_
+11	reducir	reducir	VERB	_	_	_	_	_	_
+12	valoraciones	valoración	NOUN	_	_	_	_	_	_
+13	falsas	falso	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_265
+# text = Hablamos de si los programas de fidelización deberían dar más control de datos.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	programas	programa	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	fidelización	fidelización	NOUN	_	_	_	_	_	_
+8	deberían	deber	AUX	_	_	_	_	_	_
+9	dar	dar	VERB	_	_	_	_	_	_
+10	más	más	ADV	_	_	_	_	_	_
+11	control	control	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	datos	dato	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_266
+# text = La tienda fue multada tras comprobar inspectores que los precios no coincidían.
+1	La	el	DET	_	_	_	_	_	_
+2	tienda	tienda	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	multada	multar	VERB	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	comprobar	comprobar	VERB	_	_	_	_	_	_
+7	inspectores	inspector	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	precios	precio	NOUN	_	_	_	_	_	_
+11	no	no	ADV	_	_	_	_	_	_
+12	coincidían	coincidir	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_267
+# text = Si el envío se retrasa, los compradores pueden tener derecho a compensación legal.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	envío	envío	NOUN	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	retrasa	retrasar	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	compradores	comprador	NOUN	_	_	_	_	_	_
+9	pueden	poder	AUX	_	_	_	_	_	_
+10	tener	tener	VERB	_	_	_	_	_	_
+11	derecho	derecho	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	compensación	compensación	NOUN	_	_	_	_	_	_
+14	legal	legal	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_268
+# text = Creo que las empresas deberían responder a las reclamaciones en plazo razonable.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	empresas	empresa	NOUN	_	_	_	_	_	_
+5	deberían	deber	AUX	_	_	_	_	_	_
+6	responder	responder	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	las	el	DET	_	_	_	_	_	_
+9	reclamaciones	reclamación	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	plazo	plazo	NOUN	_	_	_	_	_	_
+12	razonable	razonable	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_269
+# text = Se rechazó la garantía porque el dispositivo fue reparado por técnico no autorizado.
+1	Se	él	PRON	_	_	_	_	_	_
+2	rechazó	rechazar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	garantía	garantía	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	dispositivo	dispositivo	NOUN	_	_	_	_	_	_
+8	fue	ser	AUX	_	_	_	_	_	_
+9	reparado	reparar	VERB	_	_	_	_	_	_
+10	por	por	ADP	_	_	_	_	_	_
+11	técnico	técnico	NOUN	_	_	_	_	_	_
+12	no	no	ADV	_	_	_	_	_	_
+13	autorizado	autorizado	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_270
+# text = Muchos compradores temen que se añadan comisiones ocultas en el paso final.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	compradores	comprador	NOUN	_	_	_	_	_	_
+3	temen	temer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	añadan	añadar	VERB	_	_	_	_	_	_
+7	comisiones	comisión	NOUN	_	_	_	_	_	_
+8	ocultas	oculto	ADJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	paso	paso	NOUN	_	_	_	_	_	_
+12	final	final	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_271
+# text = Se amplió la línea de ayuda cuando la agencia recibió muchas disputas por facturación.
+1	Se	él	PRON	_	_	_	_	_	_
+2	amplió	ampliar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	línea	línea	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	ayuda	ayuda	NOUN	_	_	_	_	_	_
+7	cuando	cuando	SCONJ	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	agencia	agencia	NOUN	_	_	_	_	_	_
+10	recibió	recibir	VERB	_	_	_	_	_	_
+11	muchas	mucho	DET	_	_	_	_	_	_
+12	disputas	disputa	NOUN	_	_	_	_	_	_
+13	por	por	ADP	_	_	_	_	_	_
+14	facturación	facturación	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_272
+# text = Antes de firmar un contrato en línea, deberías guardar copia de condiciones.
+1	Antes	antes	ADV	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	firmar	firmar	VERB	_	_	_	_	_	_
+4	un	uno	DET	_	_	_	_	_	_
+5	contrato	contrato	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	línea	línea	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	deberías	deber	AUX	_	_	_	_	_	_
+10	guardar	guardar	VERB	_	_	_	_	_	_
+11	copia	copia	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	condiciones	condición	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_273
+# text = Explicó que el pago se cobró dos veces por un error del sistema bancario.
+1	Explicó	explicar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	pago	pago	NOUN	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	cobró	cobrar	VERB	_	_	_	_	_	_
+7	dos	dos	NUM	_	_	_	_	_	_
+8	veces	vez	NOUN	_	_	_	_	_	_
+9	por	por	ADP	_	_	_	_	_	_
+10	un	uno	DET	_	_	_	_	_	_
+11	error	error	NOUN	_	_	_	_	_	_
+12	del	del	ADP	_	_	_	_	_	_
+13	sistema	sistema	NOUN	_	_	_	_	_	_
+14	bancario	bancario	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_274
+# text = Aunque la oferta pareciera atractiva, el contrato incluía penalizaciones por cancelación.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	oferta	oferta	NOUN	_	_	_	_	_	_
+4	pareciera	parecer	VERB	_	_	_	_	_	_
+5	atractiva	atractivo	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	contrato	contrato	NOUN	_	_	_	_	_	_
+9	incluía	incluir	VERB	_	_	_	_	_	_
+10	penalizaciones	penalización	NOUN	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	cancelación	cancelación	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_275
+# text = El regulador prometió que las prácticas engañosas se investigarían con mayor rigor.
+1	El	el	DET	_	_	_	_	_	_
+2	regulador	regulador	NOUN	_	_	_	_	_	_
+3	prometió	prometer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	prácticas	práctica	NOUN	_	_	_	_	_	_
+7	engañosas	engañoso	ADJ	_	_	_	_	_	_
+8	se	él	PRON	_	_	_	_	_	_
+9	investigarían	investigar	VERB	_	_	_	_	_	_
+10	con	con	ADP	_	_	_	_	_	_
+11	mayor	mayor	ADJ	_	_	_	_	_	_
+12	rigor	rigor	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_276
+# text = Se actualizó la póliza porque la aseguradora cambió la cobertura dental.
+1	Se	él	PRON	_	_	_	_	_	_
+2	actualizó	actualizar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	póliza	póliza	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	aseguradora	aseguradora	NOUN	_	_	_	_	_	_
+8	cambió	cambiar	VERB	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	cobertura	cobertura	NOUN	_	_	_	_	_	_
+11	dental	dental	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_277
+# text = Si cambias de empleo, deberías comprobar si tu plan de salud sigue válido.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	cambias	cambiar	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	empleo	empleo	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	deberías	deber	AUX	_	_	_	_	_	_
+7	comprobar	comprobar	VERB	_	_	_	_	_	_
+8	si	si	SCONJ	_	_	_	_	_	_
+9	tu	tuyo	DET	_	_	_	_	_	_
+10	plan	plan	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	salud	salud	NOUN	_	_	_	_	_	_
+13	sigue	seguir	VERB	_	_	_	_	_	_
+14	válido	válido	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_278
+# text = Muchos pacientes creen que los formularios del seguro deberían ser más simples.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	pacientes	paciente	NOUN	_	_	_	_	_	_
+3	creen	creer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	formularios	formulario	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	seguro	seguro	NOUN	_	_	_	_	_	_
+9	deberían	deber	AUX	_	_	_	_	_	_
+10	ser	ser	AUX	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	simples	simple	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_279
+# text = Se rechazó la reclamación porque el tratamiento no figuraba en prestaciones aprobadas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	rechazó	rechazar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	reclamación	reclamación	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	tratamiento	tratamiento	NOUN	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	figuraba	figurar	VERB	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	prestaciones	prestación	NOUN	_	_	_	_	_	_
+12	aprobadas	aprobado	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_280
+# text = Aunque la prima sea alta, el plan cubre urgencias en muchos países europeos.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	prima	prima	NOUN	_	_	_	_	_	_
+4	sea	ser	AUX	_	_	_	_	_	_
+5	alta	alto	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	plan	plan	NOUN	_	_	_	_	_	_
+9	cubre	cubrir	VERB	_	_	_	_	_	_
+10	urgencias	urgencia	NOUN	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	muchos	mucho	DET	_	_	_	_	_	_
+13	países	paí	NOUN	_	_	_	_	_	_
+14	europeos	europeo	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_281
+# text = Se introdujeron directrices para ayudar a afiliados a comparar paquetes de seguro.
+1	Se	él	PRON	_	_	_	_	_	_
+2	introdujeron	introducir	VERB	_	_	_	_	_	_
+3	directrices	directriz	NOUN	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	ayudar	ayudar	VERB	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	afiliados	afiliado	NOUN	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	comparar	comparar	VERB	_	_	_	_	_	_
+10	paquetes	paquete	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	seguro	seguro	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_282
+# text = Pienso que los chequeos preventivos deberían incluirse en la cobertura básica.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	chequeos	chequeo	NOUN	_	_	_	_	_	_
+5	preventivos	preventivo	ADJ	_	_	_	_	_	_
+6	deberían	deber	AUX	_	_	_	_	_	_
+7	incluirse	incluir	VERB	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	cobertura	cobertura	NOUN	_	_	_	_	_	_
+11	básica	básico	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_283
+# text = El agente explicó que la solicitud debe presentarse antes del plazo de inscripción.
+1	El	el	DET	_	_	_	_	_	_
+2	agente	agente	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	solicitud	solicitud	NOUN	_	_	_	_	_	_
+7	debe	deber	AUX	_	_	_	_	_	_
+8	presentarse	presentar	VERB	_	_	_	_	_	_
+9	antes	antes	ADV	_	_	_	_	_	_
+10	del	del	ADP	_	_	_	_	_	_
+11	plazo	plazo	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	inscripción	inscripción	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_284
+# text = Si la farmacia no está en red, los pacientes pagan más gastos propios.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	farmacia	farmacia	NOUN	_	_	_	_	_	_
+4	no	no	ADV	_	_	_	_	_	_
+5	está	estar	AUX	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	red	red	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	pacientes	paciente	NOUN	_	_	_	_	_	_
+11	pagan	pagar	VERB	_	_	_	_	_	_
+12	más	más	ADV	_	_	_	_	_	_
+13	gastos	gasto	NOUN	_	_	_	_	_	_
+14	propios	propio	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_285
+# text = Se aprobó la ampliación de cobertura mientras el afiliado se recuperaba en casa.
+1	Se	él	PRON	_	_	_	_	_	_
+2	aprobó	aprobar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	ampliación	ampliación	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	cobertura	cobertura	NOUN	_	_	_	_	_	_
+7	mientras	mientras	SCONJ	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	afiliado	afiliado	NOUN	_	_	_	_	_	_
+10	se	él	PRON	_	_	_	_	_	_
+11	recuperaba	recuperar	VERB	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	casa	casa	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_286
+# text = Muchas familias temen que las primas harán el seguro inasequible el próximo año.
+1	Muchas	mucho	DET	_	_	_	_	_	_
+2	familias	familia	NOUN	_	_	_	_	_	_
+3	temen	temer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	primas	prima	NOUN	_	_	_	_	_	_
+7	harán	hacer	VERB	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	seguro	seguro	NOUN	_	_	_	_	_	_
+10	inasequible	inasequible	ADJ	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	próximo	próximo	ADJ	_	_	_	_	_	_
+13	año	año	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_287
+# text = El informe se publicó tras analizar datos de varias aseguradoras regionales.
+1	El	el	DET	_	_	_	_	_	_
+2	informe	informe	NOUN	_	_	_	_	_	_
+3	se	él	PRON	_	_	_	_	_	_
+4	publicó	publicar	VERB	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	analizar	analizar	VERB	_	_	_	_	_	_
+7	datos	dato	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	varias	vario	DET	_	_	_	_	_	_
+10	aseguradoras	aseguradora	NOUN	_	_	_	_	_	_
+11	regionales	regional	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_288
+# text = Dijo que cambiaría de compañía si el servicio al cliente seguía siendo difícil.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	cambiaría	cambiar	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	compañía	compañía	NOUN	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	servicio	servicio	NOUN	_	_	_	_	_	_
+9	al	al	ADP	_	_	_	_	_	_
+10	cliente	cliente	NOUN	_	_	_	_	_	_
+11	seguía	seguir	VERB	_	_	_	_	_	_
+12	siendo	ser	AUX	_	_	_	_	_	_
+13	difícil	difícil	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_289
+# text = Se cubrió la atención de emergencia porque el paciente no podía esperar autorización.
+1	Se	él	PRON	_	_	_	_	_	_
+2	cubrió	cubrir	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	atención	atención	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	emergencia	emergencia	NOUN	_	_	_	_	_	_
+7	porque	porque	SCONJ	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	paciente	paciente	NOUN	_	_	_	_	_	_
+10	no	no	ADV	_	_	_	_	_	_
+11	podía	poder	AUX	_	_	_	_	_	_
+12	esperar	esperar	VERB	_	_	_	_	_	_
+13	autorización	autorización	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_290
+# text = Hablamos de si la terapia de salud mental debería recibir las mismas tasas.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	terapia	terapia	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	salud	salud	NOUN	_	_	_	_	_	_
+8	mental	mental	ADJ	_	_	_	_	_	_
+9	debería	deber	AUX	_	_	_	_	_	_
+10	recibir	recibir	VERB	_	_	_	_	_	_
+11	las	el	DET	_	_	_	_	_	_
+12	mismas	mismo	DET	_	_	_	_	_	_
+13	tasas	tasa	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_291
+# text = Se revisó la guía de prestaciones mientras los afiliados recibían avisos de cambios.
+1	Se	él	PRON	_	_	_	_	_	_
+2	revisó	revisar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	guía	guía	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	prestaciones	prestación	NOUN	_	_	_	_	_	_
+7	mientras	mientras	SCONJ	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	afiliados	afiliado	NOUN	_	_	_	_	_	_
+10	recibían	recibir	VERB	_	_	_	_	_	_
+11	avisos	aviso	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	cambios	cambio	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_292
+# text = Si suben los deducibles, algunos hogares podrían retrasar citas médicas necesarias.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	suben	subir	VERB	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	deducibles	deducible	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	algunos	alguno	DET	_	_	_	_	_	_
+7	hogares	hogar	NOUN	_	_	_	_	_	_
+8	podrían	poder	AUX	_	_	_	_	_	_
+9	retrasar	retrasar	VERB	_	_	_	_	_	_
+10	citas	cita	NOUN	_	_	_	_	_	_
+11	médicas	médico	ADJ	_	_	_	_	_	_
+12	necesarias	necesario	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_293
+# text = Creo que los pacientes deberían recibir información clara sobre servicios con aprobación.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	pacientes	paciente	NOUN	_	_	_	_	_	_
+5	deberían	deber	AUX	_	_	_	_	_	_
+6	recibir	recibir	VERB	_	_	_	_	_	_
+7	información	información	NOUN	_	_	_	_	_	_
+8	clara	claro	ADJ	_	_	_	_	_	_
+9	sobre	sobre	ADP	_	_	_	_	_	_
+10	servicios	servicio	NOUN	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	aprobación	aprobación	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_294
+# text = Se aceptó la apelación para que la aseguradora revisara la medicación denegada.
+1	Se	él	PRON	_	_	_	_	_	_
+2	aceptó	aceptar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	apelación	apelación	NOUN	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	aseguradora	aseguradora	NOUN	_	_	_	_	_	_
+9	revisara	revisar	VERB	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	medicación	medicación	NOUN	_	_	_	_	_	_
+12	denegada	denegar	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_295
+# text = Muchos ciudadanos sienten que la información pública sobre seguros requiere mejora.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	ciudadanos	ciudadano	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	información	información	NOUN	_	_	_	_	_	_
+7	pública	público	ADJ	_	_	_	_	_	_
+8	sobre	sobre	ADP	_	_	_	_	_	_
+9	seguros	seguro	NOUN	_	_	_	_	_	_
+10	requiere	requerir	VERB	_	_	_	_	_	_
+11	mejora	mejora	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_296
+# text = La encuesta mostró que la satisfacción con reclamaciones había bajado ligeramente.
+1	La	el	DET	_	_	_	_	_	_
+2	encuesta	encuesta	NOUN	_	_	_	_	_	_
+3	mostró	mostrar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	satisfacción	satisfacción	NOUN	_	_	_	_	_	_
+7	con	con	ADP	_	_	_	_	_	_
+8	reclamaciones	reclamación	NOUN	_	_	_	_	_	_
+9	había	haber	AUX	_	_	_	_	_	_
+10	bajado	bajar	VERB	_	_	_	_	_	_
+11	ligeramente	ligeramente	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_297
+# text = Si funciona el nuevo portal, los afiliados podrán subir documentos en un sistema.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	funciona	funcionar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	nuevo	nuevo	ADJ	_	_	_	_	_	_
+5	portal	portal	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	afiliados	afiliado	NOUN	_	_	_	_	_	_
+9	podrán	poder	AUX	_	_	_	_	_	_
+10	subir	subir	VERB	_	_	_	_	_	_
+11	documentos	documento	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	un	uno	DET	_	_	_	_	_	_
+14	sistema	sistema	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_298
+# text = Explicó que la derivación fue enviada a un especialista de su plan de cobertura.
+1	Explicó	explicar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	derivación	derivación	NOUN	_	_	_	_	_	_
+5	fue	ser	AUX	_	_	_	_	_	_
+6	enviada	enviar	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	un	uno	DET	_	_	_	_	_	_
+9	especialista	especialista	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	su	suyo	DET	_	_	_	_	_	_
+12	plan	plan	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	cobertura	cobertura	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_299
+# text = Aunque el personal fue amable, la compañía aún carecía de asesores bilingües.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	personal	personal	NOUN	_	_	_	_	_	_
+4	fue	ser	AUX	_	_	_	_	_	_
+5	amable	amable	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	compañía	compañía	NOUN	_	_	_	_	_	_
+9	aún	aún	ADV	_	_	_	_	_	_
+10	carecía	carecer	VERB	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	asesores	asesor	NOUN	_	_	_	_	_	_
+13	bilingües	bilingüe	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_300
+# text = El ministerio prometió reducir tiempos de espera para decisiones sobre prestaciones.
+1	El	el	DET	_	_	_	_	_	_
+2	ministerio	ministerio	NOUN	_	_	_	_	_	_
+3	prometió	prometer	VERB	_	_	_	_	_	_
+4	reducir	reducir	VERB	_	_	_	_	_	_
+5	tiempos	tiempo	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	espera	espera	NOUN	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	decisiones	decisión	NOUN	_	_	_	_	_	_
+10	sobre	sobre	ADP	_	_	_	_	_	_
+11	prestaciones	prestación	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_301
+# text = Se suspendió la cuenta porque el usuario publicó contenido que violaba las normas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	suspendió	suspender	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cuenta	cuenta	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	usuario	usuario	NOUN	_	_	_	_	_	_
+8	publicó	publicar	VERB	_	_	_	_	_	_
+9	contenido	contenido	NOUN	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	violaba	violar	VERB	_	_	_	_	_	_
+12	las	el	DET	_	_	_	_	_	_
+13	normas	norma	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_302
+# text = Si las contraseñas son débiles, los perfiles pueden exponerse a graves riesgos.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	contraseñas	contraseña	NOUN	_	_	_	_	_	_
+4	son	ser	AUX	_	_	_	_	_	_
+5	débiles	débil	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	perfiles	perfil	NOUN	_	_	_	_	_	_
+9	pueden	poder	AUX	_	_	_	_	_	_
+10	exponerse	exponer	VERB	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	graves	grave	ADJ	_	_	_	_	_	_
+13	riesgos	riesgo	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_303
+# text = Muchos adolescentes creen que las plataformas deberían dar más control de datos.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	adolescentes	adolescente	NOUN	_	_	_	_	_	_
+3	creen	creer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	plataformas	plataforma	NOUN	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	dar	dar	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	control	control	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	datos	dato	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_304
+# text = Se eliminó la publicación tras reportar miembros que contenía información engañosa.
+1	Se	él	PRON	_	_	_	_	_	_
+2	eliminó	eliminar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	publicación	publicación	NOUN	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	reportar	reportar	VERB	_	_	_	_	_	_
+7	miembros	miembro	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	contenía	contener	VERB	_	_	_	_	_	_
+10	información	información	NOUN	_	_	_	_	_	_
+11	engañosa	engañoso	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_305
+# text = Aunque la aplicación sea popular, algunos padres temen el tiempo en línea.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	aplicación	aplicación	NOUN	_	_	_	_	_	_
+4	sea	ser	AUX	_	_	_	_	_	_
+5	popular	popular	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	algunos	alguno	DET	_	_	_	_	_	_
+8	padres	padre	NOUN	_	_	_	_	_	_
+9	temen	temer	VERB	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	tiempo	tiempo	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	línea	línea	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_306
+# text = Se introdujeron ajustes de privacidad tras quejas sobre publicidad dirigida no deseada.
+1	Se	él	PRON	_	_	_	_	_	_
+2	introdujeron	introducir	VERB	_	_	_	_	_	_
+3	ajustes	ajuste	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	privacidad	privacidad	NOUN	_	_	_	_	_	_
+6	tras	tras	ADP	_	_	_	_	_	_
+7	quejas	queja	NOUN	_	_	_	_	_	_
+8	sobre	sobre	ADP	_	_	_	_	_	_
+9	publicidad	publicidad	NOUN	_	_	_	_	_	_
+10	dirigida	dirigido	ADJ	_	_	_	_	_	_
+11	no	no	ADV	_	_	_	_	_	_
+12	deseada	deseado	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_307
+# text = Pienso que las escuelas deberían enseñar a evaluar la información de internet.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	escuelas	escuela	NOUN	_	_	_	_	_	_
+5	deberían	deber	AUX	_	_	_	_	_	_
+6	enseñar	enseñar	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	evaluar	evaluar	VERB	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	información	información	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	internet	internet	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_308
+# text = El moderador explicó que las apelaciones se revisarían en cuarenta y ocho horas.
+1	El	el	DET	_	_	_	_	_	_
+2	moderador	moderador	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	apelaciones	apelación	NOUN	_	_	_	_	_	_
+7	se	él	PRON	_	_	_	_	_	_
+8	revisarían	revisar	VERB	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	cuarenta	cuarenta	NUM	_	_	_	_	_	_
+11	y	y	CCONJ	_	_	_	_	_	_
+12	ocho	ocho	NUM	_	_	_	_	_	_
+13	horas	hora	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_309
+# text = Si falla la red, los usuarios no podrán subir fotos desde sus móviles.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	falla	fallar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	red	red	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	usuarios	usuario	NOUN	_	_	_	_	_	_
+8	no	no	ADV	_	_	_	_	_	_
+9	podrán	poder	AUX	_	_	_	_	_	_
+10	subir	subir	VERB	_	_	_	_	_	_
+11	fotos	foto	NOUN	_	_	_	_	_	_
+12	desde	desde	ADP	_	_	_	_	_	_
+13	sus	suyo	DET	_	_	_	_	_	_
+14	móviles	móvil	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_310
+# text = Se lanzó la campaña por activistas que querían promover debate respetuoso en línea.
+1	Se	él	PRON	_	_	_	_	_	_
+2	lanzó	lanzar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	campaña	campaña	NOUN	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	activistas	activista	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	querían	querer	VERB	_	_	_	_	_	_
+9	promover	promover	VERB	_	_	_	_	_	_
+10	debate	debate	NOUN	_	_	_	_	_	_
+11	respetuoso	respetuoso	ADJ	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	línea	línea	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_311
+# text = Muchos usuarios sienten que los ajustes de notificaciones deberían personalizarse mejor.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	usuarios	usuario	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	ajustes	ajuste	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	notificaciones	notificación	NOUN	_	_	_	_	_	_
+9	deberían	deber	AUX	_	_	_	_	_	_
+10	personalizarse	personalizar	VERB	_	_	_	_	_	_
+11	mejor	mejor	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_312
+# text = Se publicó la actualización mientras ingenieros monitorizaban errores de acceso.
+1	Se	él	PRON	_	_	_	_	_	_
+2	publicó	publicar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	actualización	actualización	NOUN	_	_	_	_	_	_
+5	mientras	mientras	SCONJ	_	_	_	_	_	_
+6	ingenieros	ingeniero	NOUN	_	_	_	_	_	_
+7	monitorizaban	monitorizar	VERB	_	_	_	_	_	_
+8	errores	error	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	acceso	acceso	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_313
+# text = Dijo que eliminaría el perfil si la empresa no mejoraba la privacidad pronto.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	eliminaría	eliminar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	perfil	perfil	NOUN	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	empresa	empresa	NOUN	_	_	_	_	_	_
+9	no	no	ADV	_	_	_	_	_	_
+10	mejoraba	mejorar	VERB	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	privacidad	privacidad	NOUN	_	_	_	_	_	_
+13	pronto	pronto	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_314
+# text = Se promocionaron eventos en línea porque el grupo quería llegar a zonas rurales.
+1	Se	él	PRON	_	_	_	_	_	_
+2	promocionaron	promocionar	VERB	_	_	_	_	_	_
+3	eventos	evento	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	línea	línea	NOUN	_	_	_	_	_	_
+6	porque	porque	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	grupo	grupo	NOUN	_	_	_	_	_	_
+9	quería	querer	VERB	_	_	_	_	_	_
+10	llegar	llegar	VERB	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	zonas	zona	NOUN	_	_	_	_	_	_
+13	rurales	rural	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_315
+# text = Hablamos de si las redes influyen más en política que los medios tradicionales.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	redes	red	NOUN	_	_	_	_	_	_
+6	influyen	influir	VERB	_	_	_	_	_	_
+7	más	más	ADV	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	política	política	NOUN	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	los	el	DET	_	_	_	_	_	_
+12	medios	medio	NOUN	_	_	_	_	_	_
+13	tradicionales	tradicional	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_316
+# text = El pódcast fue grabado por periodistas que cubren tecnología y comunicación digital.
+1	El	el	DET	_	_	_	_	_	_
+2	pódcast	pódcast	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	grabado	grabar	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	periodistas	periodista	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	cubren	cubrar	VERB	_	_	_	_	_	_
+9	tecnología	tecnología	NOUN	_	_	_	_	_	_
+10	y	y	CCONJ	_	_	_	_	_	_
+11	comunicación	comunicación	NOUN	_	_	_	_	_	_
+12	digital	digital	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_317
+# text = Si los usuarios reportan acoso, los moderadores deben responder en un día laborable.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	usuarios	usuario	NOUN	_	_	_	_	_	_
+4	reportan	reportar	VERB	_	_	_	_	_	_
+5	acoso	acoso	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	moderadores	moderador	NOUN	_	_	_	_	_	_
+9	deben	deber	AUX	_	_	_	_	_	_
+10	responder	responder	VERB	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	un	uno	DET	_	_	_	_	_	_
+13	día	día	NOUN	_	_	_	_	_	_
+14	laborable	laborable	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_318
+# text = No estoy seguro de que bloquear cuentas resuelva todos los problemas de abuso.
+1	No	no	ADV	_	_	_	_	_	_
+2	estoy	estar	AUX	_	_	_	_	_	_
+3	seguro	seguro	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	bloquear	bloquear	VERB	_	_	_	_	_	_
+7	cuentas	cuenta	NOUN	_	_	_	_	_	_
+8	resuelva	resolver	VERB	_	_	_	_	_	_
+9	todos	todo	DET	_	_	_	_	_	_
+10	los	el	DET	_	_	_	_	_	_
+11	problemas	problema	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	abuso	abuso	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_319
+# text = Se emitió el comunicado tras confirmar la empresa planes de reforzar moderación.
+1	Se	él	PRON	_	_	_	_	_	_
+2	emitió	emitir	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	comunicado	comunicado	NOUN	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	confirmar	confirmar	VERB	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	empresa	empresa	NOUN	_	_	_	_	_	_
+9	planes	plan	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	reforzar	reforzar	VERB	_	_	_	_	_	_
+12	moderación	moderación	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_320
+# text = Aunque la herramienta sea práctica, expertos advierten contra reemplazar contacto presencial.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	herramienta	herramienta	NOUN	_	_	_	_	_	_
+4	sea	ser	AUX	_	_	_	_	_	_
+5	práctica	práctico	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	expertos	experto	NOUN	_	_	_	_	_	_
+8	advierten	advertir	VERB	_	_	_	_	_	_
+9	contra	contra	ADP	_	_	_	_	_	_
+10	reemplazar	reemplazar	VERB	_	_	_	_	_	_
+11	contacto	contacto	NOUN	_	_	_	_	_	_
+12	presencial	presencial	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_321
+# text = Se criticó la página porque rumores falsos se difundieron durante la elección local.
+1	Se	él	PRON	_	_	_	_	_	_
+2	criticó	criticar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	página	página	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	rumores	rumor	NOUN	_	_	_	_	_	_
+7	falsos	falso	ADJ	_	_	_	_	_	_
+8	se	él	PRON	_	_	_	_	_	_
+9	difundieron	difundir	VERB	_	_	_	_	_	_
+10	durante	durante	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	elección	elección	NOUN	_	_	_	_	_	_
+13	local	local	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_322
+# text = Si los adolescentes comparten ubicación, sus cuentas pueden volverse visibles.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	adolescentes	adolescente	NOUN	_	_	_	_	_	_
+4	comparten	compartir	VERB	_	_	_	_	_	_
+5	ubicación	ubicación	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sus	suyo	DET	_	_	_	_	_	_
+8	cuentas	cuenta	NOUN	_	_	_	_	_	_
+9	pueden	poder	AUX	_	_	_	_	_	_
+10	volverse	volver	VERB	_	_	_	_	_	_
+11	visibles	visible	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_323
+# text = Muchos lectores piensan que las normas comunitarias deberían explicarse a usuarios nuevos.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	lectores	lector	NOUN	_	_	_	_	_	_
+3	piensan	pensar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	normas	norma	NOUN	_	_	_	_	_	_
+7	comunitarias	comunitario	ADJ	_	_	_	_	_	_
+8	deberían	deber	AUX	_	_	_	_	_	_
+9	explicarse	explicar	VERB	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	usuarios	usuario	NOUN	_	_	_	_	_	_
+12	nuevos	nuevo	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_324
+# text = Se publicó la entrevista tras responder el director preguntas sobre política digital.
+1	Se	él	PRON	_	_	_	_	_	_
+2	publicó	publicar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	entrevista	entrevista	NOUN	_	_	_	_	_	_
+5	tras	tras	ADP	_	_	_	_	_	_
+6	responder	responder	VERB	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	director	director	NOUN	_	_	_	_	_	_
+9	preguntas	pregunta	NOUN	_	_	_	_	_	_
+10	sobre	sobre	ADP	_	_	_	_	_	_
+11	política	política	NOUN	_	_	_	_	_	_
+12	digital	digital	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_325
+# text = Creo que la información fiable es necesaria para compartir contenido con responsabilidad.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	información	información	NOUN	_	_	_	_	_	_
+5	fiable	fiable	ADJ	_	_	_	_	_	_
+6	es	ser	AUX	_	_	_	_	_	_
+7	necesaria	necesario	ADJ	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	compartir	compartir	VERB	_	_	_	_	_	_
+10	contenido	contenido	NOUN	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	responsabilidad	responsabilidad	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_326
+# text = El banco de alimentos fue apoyado por voluntarios que recogían donaciones cada sábado.
+1	El	el	DET	_	_	_	_	_	_
+2	banco	banco	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	alimentos	alimento	NOUN	_	_	_	_	_	_
+5	fue	ser	AUX	_	_	_	_	_	_
+6	apoyado	apoyar	VERB	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	recogían	recoger	VERB	_	_	_	_	_	_
+11	donaciones	donación	NOUN	_	_	_	_	_	_
+12	cada	cada	DET	_	_	_	_	_	_
+13	sábado	sábado	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_327
+# text = Si se unen más colaboradores, la organización podrá atender a más familias semanalmente.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	unen	unir	VERB	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	colaboradores	colaborador	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	organización	organización	NOUN	_	_	_	_	_	_
+9	podrá	poder	AUX	_	_	_	_	_	_
+10	atender	atender	VERB	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	más	más	ADV	_	_	_	_	_	_
+13	familias	familia	NOUN	_	_	_	_	_	_
+14	semanalmente	semanalmente	ADV	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_328
+# text = Muchos residentes creen que organizaciones locales deberían reclutar voluntarios en escuelas.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	residentes	residente	NOUN	_	_	_	_	_	_
+3	creen	creer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	organizaciones	organización	NOUN	_	_	_	_	_	_
+6	locales	local	ADJ	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	reclutar	reclutar	VERB	_	_	_	_	_	_
+9	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	escuelas	escuela	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_329
+# text = Se pospuso la limpieza porque la lluvia hizo peligroso el sendero junto al río.
+1	Se	él	PRON	_	_	_	_	_	_
+2	pospuso	posponer	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	limpieza	limpieza	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	lluvia	lluvia	NOUN	_	_	_	_	_	_
+8	hizo	hacer	VERB	_	_	_	_	_	_
+9	peligroso	peligroso	ADJ	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	sendero	sendero	NOUN	_	_	_	_	_	_
+12	junto	junto	ADJ	_	_	_	_	_	_
+13	al	al	ADP	_	_	_	_	_	_
+14	río	río	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_330
+# text = Aunque el trabajo sea agotador, la mayoría dijo que disfrutó conocer nuevos vecinos.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	trabajo	trabajo	NOUN	_	_	_	_	_	_
+4	sea	ser	AUX	_	_	_	_	_	_
+5	agotador	agotador	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	mayoría	mayoría	NOUN	_	_	_	_	_	_
+9	dijo	decir	VERB	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	disfrutó	disfrutar	VERB	_	_	_	_	_	_
+12	conocer	conocer	VERB	_	_	_	_	_	_
+13	nuevos	nuevo	ADJ	_	_	_	_	_	_
+14	vecinos	vecino	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_331
+# text = Se ofrecieron sesiones de formación a voluntarios que querían apoyar a mayores.
+1	Se	él	PRON	_	_	_	_	_	_
+2	ofrecieron	ofrecer	VERB	_	_	_	_	_	_
+3	sesiones	sesión	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	formación	formación	NOUN	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	querían	querer	VERB	_	_	_	_	_	_
+10	apoyar	apoyar	VERB	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	mayores	mayor	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_332
+# text = Pienso que el servicio comunitario debería promoverse para fortalecer vínculos sociales.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	servicio	servicio	NOUN	_	_	_	_	_	_
+5	comunitario	comunitario	ADJ	_	_	_	_	_	_
+6	debería	deber	AUX	_	_	_	_	_	_
+7	promoverse	promover	VERB	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	fortalecer	fortalecer	VERB	_	_	_	_	_	_
+10	vínculos	vínculo	NOUN	_	_	_	_	_	_
+11	sociales	social	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_333
+# text = La coordinadora explicó que los turnos deben reservarse por el calendario de voluntariado.
+1	La	el	DET	_	_	_	_	_	_
+2	coordinadora	coordinadora	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	turnos	turno	NOUN	_	_	_	_	_	_
+7	deben	deber	AUX	_	_	_	_	_	_
+8	reservarse	reservar	VERB	_	_	_	_	_	_
+9	por	por	ADP	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	calendario	calendario	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	voluntariado	voluntariado	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_334
+# text = Si cae la financiación, varios programas podrían reducir sus actividades semanales.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	cae	caer	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	financiación	financiación	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	varios	vario	DET	_	_	_	_	_	_
+7	programas	programa	NOUN	_	_	_	_	_	_
+8	podrían	poder	AUX	_	_	_	_	_	_
+9	reducir	reducir	VERB	_	_	_	_	_	_
+10	sus	suyo	DET	_	_	_	_	_	_
+11	actividades	actividad	NOUN	_	_	_	_	_	_
+12	semanales	semanal	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_335
+# text = Se renovó el refugio mientras voluntarios ayudaban a residentes a mudarse temporalmente.
+1	Se	él	PRON	_	_	_	_	_	_
+2	renovó	renovar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	refugio	refugio	NOUN	_	_	_	_	_	_
+5	mientras	mientras	SCONJ	_	_	_	_	_	_
+6	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+7	ayudaban	ayudar	VERB	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	residentes	residente	NOUN	_	_	_	_	_	_
+10	a	a	ADP	_	_	_	_	_	_
+11	mudarse	mudar	VERB	_	_	_	_	_	_
+12	temporalmente	temporalmente	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_336
+# text = Muchos estudiantes sienten que el voluntariado mejora sus oportunidades de encontrar empleo.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	voluntariado	voluntariado	NOUN	_	_	_	_	_	_
+7	mejora	mejorar	VERB	_	_	_	_	_	_
+8	sus	suyo	DET	_	_	_	_	_	_
+9	oportunidades	oportunidad	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	encontrar	encontrar	VERB	_	_	_	_	_	_
+12	empleo	empleo	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_337
+# text = Se lanzó la iniciativa por grupos que querían tutorizar jóvenes tras el colegio.
+1	Se	él	PRON	_	_	_	_	_	_
+2	lanzó	lanzar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	iniciativa	iniciativa	NOUN	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	grupos	grupo	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	querían	querer	VERB	_	_	_	_	_	_
+9	tutorizar	tutorizar	VERB	_	_	_	_	_	_
+10	jóvenes	joven	NOUN	_	_	_	_	_	_
+11	tras	tras	ADP	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	colegio	colegio	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_338
+# text = Dijo que dirigiría el club de lectura si suficientes padres se ofrecían a ayudar.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	dirigiría	dirigir	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	club	club	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	lectura	lectura	NOUN	_	_	_	_	_	_
+8	si	si	SCONJ	_	_	_	_	_	_
+9	suficientes	suficiente	ADJ	_	_	_	_	_	_
+10	padres	padre	NOUN	_	_	_	_	_	_
+11	se	él	PRON	_	_	_	_	_	_
+12	ofrecían	ofrecer	VERB	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	ayudar	ayudar	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_339
+# text = Se organizaron campañas de donación porque las reservas de la cocina se agotaban.
+1	Se	él	PRON	_	_	_	_	_	_
+2	organizaron	organizar	VERB	_	_	_	_	_	_
+3	campañas	campaña	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	donación	donación	NOUN	_	_	_	_	_	_
+6	porque	porque	SCONJ	_	_	_	_	_	_
+7	las	el	DET	_	_	_	_	_	_
+8	reservas	reserva	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	cocina	cocina	NOUN	_	_	_	_	_	_
+12	se	él	PRON	_	_	_	_	_	_
+13	agotaban	agotar	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_340
+# text = Hablamos de si las empresas deberían conceder tiempo remunerado para voluntariado.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	empresas	empresa	NOUN	_	_	_	_	_	_
+6	deberían	deber	AUX	_	_	_	_	_	_
+7	conceder	conceder	VERB	_	_	_	_	_	_
+8	tiempo	tiempo	NOUN	_	_	_	_	_	_
+9	remunerado	remunerado	ADJ	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	voluntariado	voluntariado	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_341
+# text = Se elogió el proyecto del huerto porque creó un lugar seguro para familias.
+1	Se	él	PRON	_	_	_	_	_	_
+2	elogió	elogiar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	proyecto	proyecto	NOUN	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	huerto	huerto	NOUN	_	_	_	_	_	_
+7	porque	porque	SCONJ	_	_	_	_	_	_
+8	creó	crear	VERB	_	_	_	_	_	_
+9	un	uno	DET	_	_	_	_	_	_
+10	lugar	lugar	NOUN	_	_	_	_	_	_
+11	seguro	seguro	ADJ	_	_	_	_	_	_
+12	para	para	ADP	_	_	_	_	_	_
+13	familias	familia	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_342
+# text = Si bajan los voluntarios, la línea de ayuda podría cerrar por las tardes.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	bajan	bajar	VERB	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	línea	línea	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	ayuda	ayuda	NOUN	_	_	_	_	_	_
+10	podría	poder	AUX	_	_	_	_	_	_
+11	cerrar	cerrar	VERB	_	_	_	_	_	_
+12	por	por	ADP	_	_	_	_	_	_
+13	las	el	DET	_	_	_	_	_	_
+14	tardes	tarde	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_343
+# text = Creo que las organizaciones benéficas deberían orientar a quienes ofrecen ayuda nueva.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	organizaciones	organización	NOUN	_	_	_	_	_	_
+5	benéficas	benéfico	ADJ	_	_	_	_	_	_
+6	deberían	deber	AUX	_	_	_	_	_	_
+7	orientar	orientar	VERB	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	quienes	quien	PRON	_	_	_	_	_	_
+10	ofrecen	ofrecer	VERB	_	_	_	_	_	_
+11	ayuda	ayuda	NOUN	_	_	_	_	_	_
+12	nueva	nuevo	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_344
+# text = Se respondió al llamamiento cuando decenas de vecinos se inscribieron para repartir comidas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	respondió	responder	VERB	_	_	_	_	_	_
+3	al	al	ADP	_	_	_	_	_	_
+4	llamamiento	llamamiento	NOUN	_	_	_	_	_	_
+5	cuando	cuando	SCONJ	_	_	_	_	_	_
+6	decenas	decena	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	vecinos	vecino	NOUN	_	_	_	_	_	_
+9	se	él	PRON	_	_	_	_	_	_
+10	inscribieron	inscribir	VERB	_	_	_	_	_	_
+11	para	para	ADP	_	_	_	_	_	_
+12	repartir	repartir	VERB	_	_	_	_	_	_
+13	comidas	comida	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_345
+# text = Muchos vecinos temen que los centros juveniles cerrarán sin suficientes voluntarios adultos.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	vecinos	vecino	NOUN	_	_	_	_	_	_
+3	temen	temer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	centros	centro	NOUN	_	_	_	_	_	_
+7	juveniles	juvenil	ADJ	_	_	_	_	_	_
+8	cerrarán	cerrar	VERB	_	_	_	_	_	_
+9	sin	sin	ADP	_	_	_	_	_	_
+10	suficientes	suficiente	ADJ	_	_	_	_	_	_
+11	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+12	adultos	adulto	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_346
+# text = La encuesta mostró que la participación en voluntariado local había aumentado este año.
+1	La	el	DET	_	_	_	_	_	_
+2	encuesta	encuesta	NOUN	_	_	_	_	_	_
+3	mostró	mostrar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	participación	participación	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	voluntariado	voluntariado	NOUN	_	_	_	_	_	_
+9	local	local	ADJ	_	_	_	_	_	_
+10	había	haber	AUX	_	_	_	_	_	_
+11	aumentado	aumentar	VERB	_	_	_	_	_	_
+12	este	este	DET	_	_	_	_	_	_
+13	año	año	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_347
+# text = Si funciona el nuevo sistema, los colaboradores podrán registrar horas en una aplicación.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	funciona	funcionar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	nuevo	nuevo	ADJ	_	_	_	_	_	_
+5	sistema	sistema	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	colaboradores	colaborador	NOUN	_	_	_	_	_	_
+9	podrán	poder	AUX	_	_	_	_	_	_
+10	registrar	registrar	VERB	_	_	_	_	_	_
+11	horas	hora	NOUN	_	_	_	_	_	_
+12	en	en	ADP	_	_	_	_	_	_
+13	una	uno	DET	_	_	_	_	_	_
+14	aplicación	aplicación	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_348
+# text = Explicó que el programa de mentoría se amplió a tres escuelas del municipio.
+1	Explicó	explicar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	programa	programa	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	mentoría	mentoría	NOUN	_	_	_	_	_	_
+7	se	él	PRON	_	_	_	_	_	_
+8	amplió	ampliar	VERB	_	_	_	_	_	_
+9	a	a	ADP	_	_	_	_	_	_
+10	tres	tres	NUM	_	_	_	_	_	_
+11	escuelas	escuela	NOUN	_	_	_	_	_	_
+12	del	del	ADP	_	_	_	_	_	_
+13	municipio	municipio	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_349
+# text = Aunque la demanda sea alta, aún faltan voluntarios formados los fines de semana.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	demanda	demanda	NOUN	_	_	_	_	_	_
+4	sea	ser	AUX	_	_	_	_	_	_
+5	alta	alto	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	aún	aún	ADV	_	_	_	_	_	_
+8	faltan	faltar	VERB	_	_	_	_	_	_
+9	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+10	formados	formar	ADJ	_	_	_	_	_	_
+11	los	el	DET	_	_	_	_	_	_
+12	fines	fin	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	semana	semana	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_350
+# text = El ayuntamiento prometió más apoyo para coordinar voluntariado en proyectos comunitarios.
+1	El	el	DET	_	_	_	_	_	_
+2	ayuntamiento	ayuntamiento	NOUN	_	_	_	_	_	_
+3	prometió	prometer	VERB	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	apoyo	apoyo	NOUN	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	coordinar	coordinar	VERB	_	_	_	_	_	_
+8	voluntariado	voluntariado	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	proyectos	proyecto	NOUN	_	_	_	_	_	_
+11	comunitarios	comunitario	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_351
+# text = Se criticó la oficina de inmigración porque los tiempos de espera habían aumentado.
+1	Se	él	PRON	_	_	_	_	_	_
+2	criticó	criticar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	oficina	oficina	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	inmigración	inmigración	NOUN	_	_	_	_	_	_
+7	porque	porque	SCONJ	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	tiempos	tiempo	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	espera	espera	NOUN	_	_	_	_	_	_
+12	habían	haber	AUX	_	_	_	_	_	_
+13	aumentado	aumentar	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_352
+# text = Si los estudiantes faltan demasiado, pueden perder el acceso a la ayuda financiera.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	estudiantes	estudiante	NOUN	_	_	_	_	_	_
+4	faltan	faltar	VERB	_	_	_	_	_	_
+5	demasiado	demasiado	PRON	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	pueden	poder	AUX	_	_	_	_	_	_
+8	perder	perder	VERB	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	acceso	acceso	NOUN	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	ayuda	ayuda	NOUN	_	_	_	_	_	_
+14	financiera	financiero	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_353
+# text = Muchos consumidores se quejaron de que el comercio en línea ignoraba reembolsos.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	consumidores	consumidor	NOUN	_	_	_	_	_	_
+3	se	él	PRON	_	_	_	_	_	_
+4	quejaron	quejar	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	comercio	comercio	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	línea	línea	NOUN	_	_	_	_	_	_
+11	ignoraba	ignorar	VERB	_	_	_	_	_	_
+12	reembolsos	reembolso	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_354
+# text = La aseguradora anunció que las revisiones preventivas quedarían cubiertas en el plan.
+1	La	el	DET	_	_	_	_	_	_
+2	aseguradora	aseguradora	NOUN	_	_	_	_	_	_
+3	anunció	anunciar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	revisiones	revisión	NOUN	_	_	_	_	_	_
+7	preventivas	preventivo	ADJ	_	_	_	_	_	_
+8	quedarían	quedar	VERB	_	_	_	_	_	_
+9	cubiertas	cubierto	ADJ	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	plan	plan	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_355
+# text = Aunque la publicación fuera popular, los moderadores la retiraron por difundir rumores.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	publicación	publicación	NOUN	_	_	_	_	_	_
+4	fuera	ser	AUX	_	_	_	_	_	_
+5	popular	popular	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	moderadores	moderador	NOUN	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	retiraron	retirar	VERB	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	difundir	difundir	VERB	_	_	_	_	_	_
+13	rumores	rumor	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_356
+# text = Se reclutaron voluntarios cuando el centro de refugiados necesitaba tutores de idiomas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	reclutaron	reclutar	VERB	_	_	_	_	_	_
+3	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+4	cuando	cuando	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	centro	centro	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	refugiados	refugiado	NOUN	_	_	_	_	_	_
+9	necesitaba	necesitar	VERB	_	_	_	_	_	_
+10	tutores	tutor	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	idiomas	idioma	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_357
+# text = Pienso que escuelas y organizaciones deberían cooperar para apoyar familias recién llegadas.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	escuelas	escuela	NOUN	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	organizaciones	organización	NOUN	_	_	_	_	_	_
+6	deberían	deber	AUX	_	_	_	_	_	_
+7	cooperar	cooperar	VERB	_	_	_	_	_	_
+8	para	para	ADP	_	_	_	_	_	_
+9	apoyar	apoyar	VERB	_	_	_	_	_	_
+10	familias	familia	NOUN	_	_	_	_	_	_
+11	recién	recién	ADV	_	_	_	_	_	_
+12	llegadas	llegado	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_358
+# text = El profesor explicó que las normas contra el plagio aplican a trabajos por redes.
+1	El	el	DET	_	_	_	_	_	_
+2	profesor	profesor	NOUN	_	_	_	_	_	_
+3	explicó	explicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	normas	norma	NOUN	_	_	_	_	_	_
+7	contra	contra	ADP	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	plagio	plagio	NOUN	_	_	_	_	_	_
+10	aplican	aplicar	VERB	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	trabajos	trabajo	NOUN	_	_	_	_	_	_
+13	por	por	ADP	_	_	_	_	_	_
+14	redes	red	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_359
+# text = Si expira la garantía, los compradores pueden pagar el coste total de reparaciones.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	expira	expirar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	garantía	garantía	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	compradores	comprador	NOUN	_	_	_	_	_	_
+8	pueden	poder	AUX	_	_	_	_	_	_
+9	pagar	pagar	VERB	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	coste	coste	NOUN	_	_	_	_	_	_
+12	total	total	ADJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	reparaciones	reparación	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_360
+# text = Se desarrolló la aplicación de salud por un equipo que quería simplificar reclamaciones.
+1	Se	él	PRON	_	_	_	_	_	_
+2	desarrolló	desarrollar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	aplicación	aplicación	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	salud	salud	NOUN	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	un	uno	DET	_	_	_	_	_	_
+9	equipo	equipo	NOUN	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	quería	querer	VERB	_	_	_	_	_	_
+12	simplificar	simplificar	VERB	_	_	_	_	_	_
+13	reclamaciones	reclamación	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_361
+# text = Hablamos de si la política migratoria debería priorizar casos de reagrupación familiar.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	política	política	NOUN	_	_	_	_	_	_
+6	migratoria	migratorio	ADJ	_	_	_	_	_	_
+7	debería	deber	AUX	_	_	_	_	_	_
+8	priorizar	priorizar	VERB	_	_	_	_	_	_
+9	casos	caso	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	reagrupación	reagrupación	NOUN	_	_	_	_	_	_
+12	familiar	familiar	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_362
+# text = El curso fue financiado por donantes que apoyan programas de alfabetización de adultos.
+1	El	el	DET	_	_	_	_	_	_
+2	curso	curso	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	financiado	financiar	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	donantes	donante	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	apoyan	apoyar	VERB	_	_	_	_	_	_
+9	programas	programa	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	alfabetización	alfabetización	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	adultos	adulto	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_363
+# text = Dijo que denunciaría al vendedor si no se aplicaba el descuento anunciado en web.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	denunciaría	denunciar	VERB	_	_	_	_	_	_
+4	al	al	ADP	_	_	_	_	_	_
+5	vendedor	vendedor	NOUN	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	no	no	ADV	_	_	_	_	_	_
+8	se	él	PRON	_	_	_	_	_	_
+9	aplicaba	aplicar	VERB	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	descuento	descuento	NOUN	_	_	_	_	_	_
+12	anunciado	anunciado	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	web	web	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_364
+# text = Los grupos de apoyo en línea fueron moderados por voluntarios con experiencia en salud.
+1	Los	el	DET	_	_	_	_	_	_
+2	grupos	grupo	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	apoyo	apoyo	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	línea	línea	NOUN	_	_	_	_	_	_
+7	fueron	ser	AUX	_	_	_	_	_	_
+8	moderados	moderar	VERB	_	_	_	_	_	_
+9	por	por	ADP	_	_	_	_	_	_
+10	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+11	con	con	ADP	_	_	_	_	_	_
+12	experiencia	experiencia	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	salud	salud	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_365
+# text = Si se recortan subvenciones a primas, familias de bajos ingresos pueden perder cobertura.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	recortan	recortar	VERB	_	_	_	_	_	_
+4	subvenciones	subvención	NOUN	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	primas	prima	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	familias	familia	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	bajos	bajo	ADJ	_	_	_	_	_	_
+11	ingresos	ingreso	NOUN	_	_	_	_	_	_
+12	pueden	poder	AUX	_	_	_	_	_	_
+13	perder	perder	VERB	_	_	_	_	_	_
+14	cobertura	cobertura	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_366
+# text = Se actualizó la plataforma porque los usuarios pidieron herramientas contra el acoso.
+1	Se	él	PRON	_	_	_	_	_	_
+2	actualizó	actualizar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	plataforma	plataforma	NOUN	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	usuarios	usuario	NOUN	_	_	_	_	_	_
+8	pidieron	pedir	VERB	_	_	_	_	_	_
+9	herramientas	herramienta	NOUN	_	_	_	_	_	_
+10	contra	contra	ADP	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	acoso	acoso	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_367
+# text = Muchos solicitantes sienten que las instrucciones del visado deberían estar en más idiomas.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	solicitantes	solicitante	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	instrucciones	instrucción	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	visado	visado	NOUN	_	_	_	_	_	_
+9	deberían	deber	AUX	_	_	_	_	_	_
+10	estar	estar	AUX	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	más	más	ADV	_	_	_	_	_	_
+13	idiomas	idioma	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_368
+# text = La biblioteca fue atendida por voluntarios que ayudaron a recién llegados con ordenadores.
+1	La	el	DET	_	_	_	_	_	_
+2	biblioteca	biblioteca	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	atendida	atendir	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	ayudaron	ayudar	VERB	_	_	_	_	_	_
+9	a	a	ADP	_	_	_	_	_	_
+10	recién	recién	ADV	_	_	_	_	_	_
+11	llegados	llegado	ADJ	_	_	_	_	_	_
+12	con	con	ADP	_	_	_	_	_	_
+13	ordenadores	ordenador	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_369
+# text = Aunque el contrato pareciera justo, la cláusula de cancelación incluía cargos inesperados.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	contrato	contrato	NOUN	_	_	_	_	_	_
+4	pareciera	parecer	VERB	_	_	_	_	_	_
+5	justo	justo	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	cláusula	cláusula	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	cancelación	cancelación	NOUN	_	_	_	_	_	_
+11	incluía	incluir	VERB	_	_	_	_	_	_
+12	cargos	cargo	NOUN	_	_	_	_	_	_
+13	inesperados	inesperado	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_370
+# text = Se elogió a voluntarios de emergencia porque respondieron rápido durante las inundaciones.
+1	Se	él	PRON	_	_	_	_	_	_
+2	elogió	elogiar	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	emergencia	emergencia	NOUN	_	_	_	_	_	_
+7	porque	porque	SCONJ	_	_	_	_	_	_
+8	respondieron	responder	VERB	_	_	_	_	_	_
+9	rápido	rápido	ADJ	_	_	_	_	_	_
+10	durante	durante	ADP	_	_	_	_	_	_
+11	las	el	DET	_	_	_	_	_	_
+12	inundaciones	inundación	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_371
+# text = Creo que la educación del consumidor debería incluir conducta segura en redes sociales.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	educación	educación	NOUN	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	consumidor	consumidor	NOUN	_	_	_	_	_	_
+7	debería	deber	AUX	_	_	_	_	_	_
+8	incluir	incluir	VERB	_	_	_	_	_	_
+9	conducta	conducta	NOUN	_	_	_	_	_	_
+10	segura	seguro	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	redes	red	NOUN	_	_	_	_	_	_
+13	sociales	social	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_372
+# text = El seminario reunió a docentes que apoyan a alumnos migrantes en clases ordinarias.
+1	El	el	DET	_	_	_	_	_	_
+2	seminario	seminario	NOUN	_	_	_	_	_	_
+3	reunió	reunir	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	docentes	docente	NOUN	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	apoyan	apoyar	VERB	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	alumnos	alumno	NOUN	_	_	_	_	_	_
+10	migrantes	migrante	ADJ	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	clases	clase	NOUN	_	_	_	_	_	_
+13	ordinarias	ordinario	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_373
+# text = Si los formularios están incompletos, los pagos del seguro pueden retrasarse semanas.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	formularios	formulario	NOUN	_	_	_	_	_	_
+4	están	estar	AUX	_	_	_	_	_	_
+5	incompletos	incompleto	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	pagos	pago	NOUN	_	_	_	_	_	_
+9	del	del	ADP	_	_	_	_	_	_
+10	seguro	seguro	NOUN	_	_	_	_	_	_
+11	pueden	poder	AUX	_	_	_	_	_	_
+12	retrasarse	retrasar	VERB	_	_	_	_	_	_
+13	semanas	semana	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_374
+# text = Se creó la página comunitaria para compartir información verificada sobre apoyo local.
+1	Se	él	PRON	_	_	_	_	_	_
+2	creó	crear	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	página	página	NOUN	_	_	_	_	_	_
+5	comunitaria	comunitario	ADJ	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	compartir	compartir	VERB	_	_	_	_	_	_
+8	información	información	NOUN	_	_	_	_	_	_
+9	verificada	verificado	ADJ	_	_	_	_	_	_
+10	sobre	sobre	ADP	_	_	_	_	_	_
+11	apoyo	apoyo	NOUN	_	_	_	_	_	_
+12	local	local	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_375
+# text = Explicó que su visado de voluntariado le permitiría trabajar para la organización benéfica.
+1	Explicó	explicar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	visado	visado	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	voluntariado	voluntariado	NOUN	_	_	_	_	_	_
+7	le	él	PRON	_	_	_	_	_	_
+8	permitiría	permitir	VERB	_	_	_	_	_	_
+9	trabajar	trabajar	VERB	_	_	_	_	_	_
+10	para	para	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	organización	organización	NOUN	_	_	_	_	_	_
+13	benéfica	benéfico	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_376
+# text = Se emitió la tarjeta de residencia tras completar el solicitante un curso de integración.
+1	Se	él	PRON	_	_	_	_	_	_
+2	emitió	emitir	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	tarjeta	tarjeta	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	residencia	residencia	NOUN	_	_	_	_	_	_
+7	tras	tras	ADP	_	_	_	_	_	_
+8	completar	completar	VERB	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	solicitante	solicitante	NOUN	_	_	_	_	_	_
+11	un	uno	DET	_	_	_	_	_	_
+12	curso	curso	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	integración	integración	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_377
+# text = Con mejores recursos, los docentes pueden ofrecer más apoyo a alumnos con problemas.
+1	Con	con	ADP	_	_	_	_	_	_
+2	mejores	mejor	ADJ	_	_	_	_	_	_
+3	recursos	recurso	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	docentes	docente	NOUN	_	_	_	_	_	_
+7	pueden	poder	AUX	_	_	_	_	_	_
+8	ofrecer	ofrecer	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	apoyo	apoyo	NOUN	_	_	_	_	_	_
+11	a	a	ADP	_	_	_	_	_	_
+12	alumnos	alumno	NOUN	_	_	_	_	_	_
+13	con	con	ADP	_	_	_	_	_	_
+14	problemas	problema	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_378
+# text = Muchos compradores creen que las etiquetas deberían indicar alérgenos en lenguaje claro.
+1	Muchos	mucho	DET	_	_	_	_	_	_
+2	compradores	comprador	NOUN	_	_	_	_	_	_
+3	creen	creer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	etiquetas	etiqueta	NOUN	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	indicar	indicar	VERB	_	_	_	_	_	_
+9	alérgenos	alérgeno	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	lenguaje	lenguaje	NOUN	_	_	_	_	_	_
+12	claro	claro	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_379
+# text = Se añadió la prestación dental porque los afiliados pidieron cobertura más amplia.
+1	Se	él	PRON	_	_	_	_	_	_
+2	añadió	añadir	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	prestación	prestación	NOUN	_	_	_	_	_	_
+5	dental	dental	ADJ	_	_	_	_	_	_
+6	porque	porque	SCONJ	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	afiliados	afiliado	NOUN	_	_	_	_	_	_
+9	pidieron	pedir	VERB	_	_	_	_	_	_
+10	cobertura	cobertura	NOUN	_	_	_	_	_	_
+11	más	más	ADV	_	_	_	_	_	_
+12	amplia	amplio	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_380
+# text = Aunque el vídeo se volviera viral, verificadores advirtieron que varias afirmaciones eran falsas.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	vídeo	vídeo	NOUN	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	volviera	volver	VERB	_	_	_	_	_	_
+6	viral	viral	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	verificadores	verificador	NOUN	_	_	_	_	_	_
+9	advirtieron	advertir	VERB	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	varias	vario	DET	_	_	_	_	_	_
+12	afirmaciones	afirmación	NOUN	_	_	_	_	_	_
+13	eran	ser	AUX	_	_	_	_	_	_
+14	falsas	falso	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_381
+# text = Los voluntarios del fin de semana prepararon comidas mientras el personal coordinaba entregas.
+1	Los	el	DET	_	_	_	_	_	_
+2	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	fin	fin	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	semana	semana	NOUN	_	_	_	_	_	_
+7	prepararon	preparar	VERB	_	_	_	_	_	_
+8	comidas	comida	NOUN	_	_	_	_	_	_
+9	mientras	mientras	SCONJ	_	_	_	_	_	_
+10	el	el	DET	_	_	_	_	_	_
+11	personal	personal	NOUN	_	_	_	_	_	_
+12	coordinaba	coordinar	VERB	_	_	_	_	_	_
+13	entregas	entrega	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_382
+# text = Pienso que los asesores de inmigración deberían explicar derechos en la primera cita.
+1	Pienso	pensar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	asesores	asesor	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	inmigración	inmigración	NOUN	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	explicar	explicar	VERB	_	_	_	_	_	_
+9	derechos	derecho	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	primera	primero	ADJ	_	_	_	_	_	_
+13	cita	cita	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_383
+# text = La universidad dijo que ampliaría módulos en línea si la demanda seguía creciendo.
+1	La	el	DET	_	_	_	_	_	_
+2	universidad	universidad	NOUN	_	_	_	_	_	_
+3	dijo	decir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	ampliaría	ampliar	VERB	_	_	_	_	_	_
+6	módulos	módulo	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	línea	línea	NOUN	_	_	_	_	_	_
+9	si	si	SCONJ	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	demanda	demanda	NOUN	_	_	_	_	_	_
+12	seguía	seguir	VERB	_	_	_	_	_	_
+13	creciendo	crecer	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_384
+# text = Si una empresa engaña clientes, los reguladores pueden imponer multas según ley.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	una	uno	DET	_	_	_	_	_	_
+3	empresa	empresa	NOUN	_	_	_	_	_	_
+4	engaña	engañar	VERB	_	_	_	_	_	_
+5	clientes	cliente	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	reguladores	regulador	NOUN	_	_	_	_	_	_
+9	pueden	poder	AUX	_	_	_	_	_	_
+10	imponer	imponer	VERB	_	_	_	_	_	_
+11	multas	multa	NOUN	_	_	_	_	_	_
+12	según	según	ADP	_	_	_	_	_	_
+13	ley	ley	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_385
+# text = Se amplió la línea de ayuda cuando la inscripción generó miles de consultas.
+1	Se	él	PRON	_	_	_	_	_	_
+2	amplió	ampliar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	línea	línea	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	ayuda	ayuda	NOUN	_	_	_	_	_	_
+7	cuando	cuando	SCONJ	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	inscripción	inscripción	NOUN	_	_	_	_	_	_
+10	generó	generar	VERB	_	_	_	_	_	_
+11	miles	mil	NUM	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	consultas	consulta	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_386
+# text = Hablamos de si los adolescentes deberían limitar el uso de redes durante los exámenes.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	adolescentes	adolescente	NOUN	_	_	_	_	_	_
+6	deberían	deber	AUX	_	_	_	_	_	_
+7	limitar	limitar	VERB	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	uso	uso	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	redes	red	NOUN	_	_	_	_	_	_
+12	durante	durante	ADP	_	_	_	_	_	_
+13	los	el	DET	_	_	_	_	_	_
+14	exámenes	exámen	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_387
+# text = Se diseñó el programa de mentoría por voluntarios que querían reducir el abandono escolar.
+1	Se	él	PRON	_	_	_	_	_	_
+2	diseñó	diseñar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	programa	programa	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	mentoría	mentoría	NOUN	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	querían	querer	VERB	_	_	_	_	_	_
+11	reducir	reducir	VERB	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	abandono	abandono	NOUN	_	_	_	_	_	_
+14	escolar	escolar	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_388
+# text = Dijo que apelaría la decisión del visado si surgiera nueva evidencia a su favor.
+1	Dijo	decir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	apelaría	apelar	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	decisión	decisión	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	visado	visado	NOUN	_	_	_	_	_	_
+8	si	si	SCONJ	_	_	_	_	_	_
+9	surgiera	surgir	VERB	_	_	_	_	_	_
+10	nueva	nuevo	ADJ	_	_	_	_	_	_
+11	evidencia	evidencia	NOUN	_	_	_	_	_	_
+12	a	a	ADP	_	_	_	_	_	_
+13	su	suyo	DET	_	_	_	_	_	_
+14	favor	favor	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_389
+# text = Se revisaron políticas de reembolso tras quejas sobre gastos de envío de devolución.
+1	Se	él	PRON	_	_	_	_	_	_
+2	revisaron	revisar	VERB	_	_	_	_	_	_
+3	políticas	política	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	reembolso	reembolso	NOUN	_	_	_	_	_	_
+6	tras	tras	ADP	_	_	_	_	_	_
+7	quejas	queja	NOUN	_	_	_	_	_	_
+8	sobre	sobre	ADP	_	_	_	_	_	_
+9	gastos	gasto	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	envío	envío	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	devolución	devolución	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_390
+# text = Si los servicios de salud mental están infradotados, los pacientes pueden esperar meses.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	servicios	servicio	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	salud	salud	NOUN	_	_	_	_	_	_
+6	mental	mental	ADJ	_	_	_	_	_	_
+7	están	estar	AUX	_	_	_	_	_	_
+8	infradotados	infradotado	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	los	el	DET	_	_	_	_	_	_
+11	pacientes	paciente	NOUN	_	_	_	_	_	_
+12	pueden	poder	AUX	_	_	_	_	_	_
+13	esperar	esperar	VERB	_	_	_	_	_	_
+14	meses	me	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_391
+# text = Se cambiaron los ajustes de cuenta para desactivar compartir ubicación por defecto.
+1	Se	él	PRON	_	_	_	_	_	_
+2	cambiaron	cambiar	VERB	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	ajustes	ajuste	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	cuenta	cuenta	NOUN	_	_	_	_	_	_
+7	para	para	ADP	_	_	_	_	_	_
+8	desactivar	desactivar	VERB	_	_	_	_	_	_
+9	compartir	compartir	VERB	_	_	_	_	_	_
+10	ubicación	ubicación	NOUN	_	_	_	_	_	_
+11	por	por	ADP	_	_	_	_	_	_
+12	defecto	defecto	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_392
+# text = Muchas familias sienten que las escuelas deberían informar a padres sobre voluntarios locales.
+1	Muchas	mucho	DET	_	_	_	_	_	_
+2	familias	familia	NOUN	_	_	_	_	_	_
+3	sienten	sentir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	escuelas	escuela	NOUN	_	_	_	_	_	_
+7	deberían	deber	AUX	_	_	_	_	_	_
+8	informar	informar	VERB	_	_	_	_	_	_
+9	a	a	ADP	_	_	_	_	_	_
+10	padres	padre	NOUN	_	_	_	_	_	_
+11	sobre	sobre	ADP	_	_	_	_	_	_
+12	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+13	locales	local	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_393
+# text = La clase de idiomas fue impartida por voluntarios que habían emigrado hace diez años.
+1	La	el	DET	_	_	_	_	_	_
+2	clase	clase	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	idiomas	idioma	NOUN	_	_	_	_	_	_
+5	fue	ser	AUX	_	_	_	_	_	_
+6	impartida	impartir	VERB	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	voluntarios	voluntario	NOUN	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	habían	haber	AUX	_	_	_	_	_	_
+11	emigrado	emigrar	VERB	_	_	_	_	_	_
+12	hace	hacer	VERB	_	_	_	_	_	_
+13	diez	diez	NUM	_	_	_	_	_	_
+14	años	año	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_394
+# text = Aunque el folleto del seguro fuera detallado, las exclusiones eran difíciles de encontrar.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	folleto	folleto	NOUN	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	seguro	seguro	NOUN	_	_	_	_	_	_
+6	fuera	ser	AUX	_	_	_	_	_	_
+7	detallado	detallado	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	las	el	DET	_	_	_	_	_	_
+10	exclusiones	exclusión	NOUN	_	_	_	_	_	_
+11	eran	ser	AUX	_	_	_	_	_	_
+12	difíciles	difícil	ADJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	encontrar	encontrar	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_395
+# text = Se abrieron centros de donación porque los grupos esperaban más solicitudes de asistencia.
+1	Se	él	PRON	_	_	_	_	_	_
+2	abrieron	abrir	VERB	_	_	_	_	_	_
+3	centros	centro	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	donación	donación	NOUN	_	_	_	_	_	_
+6	porque	porque	SCONJ	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	grupos	grupo	NOUN	_	_	_	_	_	_
+9	esperaban	esperar	VERB	_	_	_	_	_	_
+10	más	más	ADV	_	_	_	_	_	_
+11	solicitudes	solicitud	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	asistencia	asistencia	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_396
+# text = Estoy convencido de que políticas transparentes mejoran la confianza en instituciones públicas.
+1	Estoy	estar	AUX	_	_	_	_	_	_
+2	convencido	convencido	ADJ	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	políticas	política	NOUN	_	_	_	_	_	_
+6	transparentes	transparente	ADJ	_	_	_	_	_	_
+7	mejoran	mejorar	VERB	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	confianza	confianza	NOUN	_	_	_	_	_	_
+10	en	en	ADP	_	_	_	_	_	_
+11	instituciones	institución	NOUN	_	_	_	_	_	_
+12	públicas	público	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_397
+# text = La junta de exámenes anunció que los resultados se publicarían el viernes en línea.
+1	La	el	DET	_	_	_	_	_	_
+2	junta	junta	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	exámenes	exámen	NOUN	_	_	_	_	_	_
+5	anunció	anunciar	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	resultados	resultado	NOUN	_	_	_	_	_	_
+9	se	él	PRON	_	_	_	_	_	_
+10	publicarían	publicar	VERB	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	viernes	vierne	NOUN	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	línea	línea	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_398
+# text = Si los vendedores ocultan comisiones, los compradores pueden presentar reclamaciones oficiales.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	vendedores	vendedor	NOUN	_	_	_	_	_	_
+4	ocultan	ocultar	VERB	_	_	_	_	_	_
+5	comisiones	comisión	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	compradores	comprador	NOUN	_	_	_	_	_	_
+9	pueden	poder	AUX	_	_	_	_	_	_
+10	presentar	presentar	VERB	_	_	_	_	_	_
+11	reclamaciones	reclamación	NOUN	_	_	_	_	_	_
+12	oficiales	oficial	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_399
+# text = El programa de bienestar fue apoyado por aseguradoras que querían fomentar vida saludable.
+1	El	el	DET	_	_	_	_	_	_
+2	programa	programa	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	bienestar	bienestar	NOUN	_	_	_	_	_	_
+5	fue	ser	AUX	_	_	_	_	_	_
+6	apoyado	apoyar	VERB	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	aseguradoras	aseguradora	NOUN	_	_	_	_	_	_
+9	que	que	SCONJ	_	_	_	_	_	_
+10	querían	querer	VERB	_	_	_	_	_	_
+11	fomentar	fomentar	VERB	_	_	_	_	_	_
+12	vida	vida	NOUN	_	_	_	_	_	_
+13	saludable	saludable	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_b1_train_400
+# text = Creo que la cooperación entre escuelas, organizaciones y gobierno local fortalece la comunidad.
+1	Creo	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cooperación	cooperación	NOUN	_	_	_	_	_	_
+5	entre	entre	ADP	_	_	_	_	_	_
+6	escuelas	escuela	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	organizaciones	organización	NOUN	_	_	_	_	_	_
+9	y	y	CCONJ	_	_	_	_	_	_
+10	gobierno	gobierno	NOUN	_	_	_	_	_	_
+11	local	local	ADJ	_	_	_	_	_	_
+12	fortalece	fortalecer	VERB	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	comunidad	comunidad	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+

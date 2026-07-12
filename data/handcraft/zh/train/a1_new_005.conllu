@@ -1,0 +1,954 @@
+# sent_id = zh_a1_train_801
+# text = 你 们 去 商 店 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	NOUN	_	_	_	_	_	_
+4	商	商	PART	_	_	_	_	_	_
+5	店	店	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_802
+# text = 你 们 去 商 店 吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	去	去	NOUN	_	_	_	_	_	_
+4	商	商	PART	_	_	_	_	_	_
+5	店	店	PUNCT	_	_	_	_	_	_
+6	吗	吗	X	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_803
+# text = 你 们 去 学 习 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	学	学	PART	_	_	_	_	_	_
+5	习	习	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_804
+# text = 你 们 去 学 校。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	去	去	NOUN	_	_	_	_	_	_
+4	学	学	PUNCT	_	_	_	_	_	_
+5	校	校	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_805
+# text = 你 们 去 学 校 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	去	去	NOUN	_	_	_	_	_	_
+4	学	学	PART	_	_	_	_	_	_
+5	校	校	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_806
+# text = 你 们 去 学 校 吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	去	去	NOUN	_	_	_	_	_	_
+4	学	学	PART	_	_	_	_	_	_
+5	校	校	PUNCT	_	_	_	_	_	_
+6	吗	吗	X	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_807
+# text = 你 们 去 家。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	NOUN	_	_	_	_	_	_
+4	家	家	PUNCT	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_808
+# text = 你 们 去 家 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	家	家	PART	_	_	_	_	_	_
+5	了	了	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_809
+# text = 你 们 去 家 吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	家	家	PART	_	_	_	_	_	_
+5	吗	吗	PUNCT	_	_	_	_	_	_
+6	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_810
+# text = 你 们 去 工 作 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	工	工	PART	_	_	_	_	_	_
+5	作	作	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_811
+# text = 你 们 去 看 书 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	看	看	NOUN	_	_	_	_	_	_
+5	书	书	PART	_	_	_	_	_	_
+6	了	了	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_812
+# text = 你 们 去 睡 觉 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	睡	睡	PART	_	_	_	_	_	_
+5	觉	觉	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_813
+# text = 你 们 去 说 话 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	SCONJ	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	说	说	PART	_	_	_	_	_	_
+5	话	话	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_814
+# text = 你 们 去 饭 馆。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	去	去	PART	_	_	_	_	_	_
+4	饭	饭	PUNCT	_	_	_	_	_	_
+5	馆	馆	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_815
+# text = 你 们 去 饭 馆 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	去	去	PART	_	_	_	_	_	_
+4	饭	饭	PART	_	_	_	_	_	_
+5	馆	馆	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_816
+# text = 你 们 去 饭 馆 吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	去	去	PART	_	_	_	_	_	_
+4	饭	饭	PART	_	_	_	_	_	_
+5	馆	馆	PUNCT	_	_	_	_	_	_
+6	吗	吗	X	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_817
+# text = 你 们 吃 水 果。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NOUN	_	_	_	_	_	_
+4	水	水	PUNCT	_	_	_	_	_	_
+5	果	果	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_818
+# text = 你 们 吃 米 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NOUN	_	_	_	_	_	_
+4	米	米	NOUN	_	_	_	_	_	_
+5	饭	饭	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_819
+# text = 你 们 吃 肉。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	PUNCT	_	_	_	_	_	_
+4	肉	肉	X	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_820
+# text = 你 们 吃 肉 吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	PART	_	_	_	_	_	_
+4	肉	肉	PUNCT	_	_	_	_	_	_
+5	吗	吗	X	_	_	_	_	_	_
+6	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_821
+# text = 你 们 吃 苹 果。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NOUN	_	_	_	_	_	_
+4	苹	苹	PUNCT	_	_	_	_	_	_
+5	果	果	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_822
+# text = 你 们 吃 菜。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NOUN	_	_	_	_	_	_
+4	菜	菜	PUNCT	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_823
+# text = 你 们 吃 面 包。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NOUN	_	_	_	_	_	_
+4	面	面	PUNCT	_	_	_	_	_	_
+5	包	包	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_824
+# text = 你 们 吃 面 条。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NUM	_	_	_	_	_	_
+4	面	面	NOUN	_	_	_	_	_	_
+5	条	条	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_825
+# text = 你 们 吃 鱼。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	吃	吃	NOUN	_	_	_	_	_	_
+4	鱼	鱼	PUNCT	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_826
+# text = 你 们 喜 欢 书。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	PART	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	书	书	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_827
+# text = 你 们 喜 欢 做 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	做	做	PUNCT	_	_	_	_	_	_
+6	饭	饭	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_828
+# text = 你 们 喜 欢 写 字。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	写	写	X	_	_	_	_	_	_
+6	字	字	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_829
+# text = 你 们 喜 欢 吃 水 果。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	水	水	X	_	_	_	_	_	_
+7	果	果	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_830
+# text = 你 们 喜 欢 吃 米 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PART	_	_	_	_	_	_
+6	米	米	PUNCT	_	_	_	_	_	_
+7	饭	饭	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_831
+# text = 你 们 喜 欢 吃 肉。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	吃	吃	X	_	_	_	_	_	_
+6	肉	肉	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_832
+# text = 你 们 喜 欢 吃 苹 果。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	苹	苹	X	_	_	_	_	_	_
+7	果	果	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_833
+# text = 你 们 喜 欢 吃 菜。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	菜	菜	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_834
+# text = 你 们 喜 欢 吃 面 包。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	面	面	X	_	_	_	_	_	_
+7	包	包	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_835
+# text = 你 们 喜 欢 吃 面 条。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	面	面	X	_	_	_	_	_	_
+7	条	条	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_836
+# text = 你 们 喜 欢 吃 鱼。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	吃	吃	PUNCT	_	_	_	_	_	_
+6	鱼	鱼	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_837
+# text = 你 们 喜 欢 听 歌。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	听	听	X	_	_	_	_	_	_
+6	歌	歌	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_838
+# text = 你 们 喜 欢 喝 咖 啡。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	喝	喝	PUNCT	_	_	_	_	_	_
+6	咖	咖	X	_	_	_	_	_	_
+7	啡	啡	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_839
+# text = 你 们 喜 欢 喝 啤 酒。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	喝	喝	PUNCT	_	_	_	_	_	_
+6	啤	啤	X	_	_	_	_	_	_
+7	酒	酒	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_840
+# text = 你 们 喜 欢 喝 水。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	喝	喝	PUNCT	_	_	_	_	_	_
+6	水	水	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_841
+# text = 你 们 喜 欢 喝 牛 奶。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	喝	喝	PUNCT	_	_	_	_	_	_
+6	牛	牛	X	_	_	_	_	_	_
+7	奶	奶	X	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_842
+# text = 你 们 喜 欢 喝 茶。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	NOUN	_	_	_	_	_	_
+5	喝	喝	PUNCT	_	_	_	_	_	_
+6	茶	茶	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_843
+# text = 你 们 喜 欢 学 习。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	学	学	X	_	_	_	_	_	_
+6	习	习	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_844
+# text = 你 们 喜 欢 工 作。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	工	工	X	_	_	_	_	_	_
+6	作	作	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_845
+# text = 你 们 喜 欢 时 间。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	时	时	X	_	_	_	_	_	_
+6	间	间	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_846
+# text = 你 们 喜 欢 朋 友。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	朋	朋	X	_	_	_	_	_	_
+6	友	友	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_847
+# text = 你 们 喜 欢 杯 子。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	杯	杯	X	_	_	_	_	_	_
+6	子	子	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_848
+# text = 你 们 喜 欢 狗。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	狗	狗	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_849
+# text = 你 们 喜 欢 猫。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	猫	猫	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_850
+# text = 你 们 喜 欢 电 脑。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	电	电	X	_	_	_	_	_	_
+6	脑	脑	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_851
+# text = 你 们 喜 欢 看 书。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	看	看	X	_	_	_	_	_	_
+6	书	书	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_852
+# text = 你 们 喜 欢 睡 觉。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	睡	睡	X	_	_	_	_	_	_
+6	觉	觉	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_853
+# text = 你 们 喜 欢 苹 果。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	PROPN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	苹	苹	X	_	_	_	_	_	_
+6	果	果	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_854
+# text = 你 们 喜 欢 衣 服。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	NOUN	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	衣	衣	X	_	_	_	_	_	_
+6	服	服	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_855
+# text = 你 们 喜 欢 说 话。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	说	说	X	_	_	_	_	_	_
+6	话	话	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_856
+# text = 你 们 喜 欢 车。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	PART	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	车	车	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_857
+# text = 你 们 喜 欢 钱。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喜	喜	VERB	_	_	_	_	_	_
+4	欢	欢	PUNCT	_	_	_	_	_	_
+5	钱	钱	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_858
+# text = 你 们 喝 咖 啡。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喝	喝	NOUN	_	_	_	_	_	_
+4	咖	咖	PUNCT	_	_	_	_	_	_
+5	啡	啡	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_859
+# text = 你 们 喝 啤 酒。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喝	喝	NOUN	_	_	_	_	_	_
+4	啤	啤	PUNCT	_	_	_	_	_	_
+5	酒	酒	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_860
+# text = 你 们 喝 水。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喝	喝	NOUN	_	_	_	_	_	_
+4	水	水	PUNCT	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_861
+# text = 你 们 喝 牛 奶。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喝	喝	NOUN	_	_	_	_	_	_
+4	牛	牛	PUNCT	_	_	_	_	_	_
+5	奶	奶	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_862
+# text = 你 们 喝 茶。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	喝	喝	NOUN	_	_	_	_	_	_
+4	茶	茶	PUNCT	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_863
+# text = 你 们 回 中 国 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	回	回	PROPN	_	_	_	_	_	_
+4	中	中	PART	_	_	_	_	_	_
+5	国	国	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_864
+# text = 你 们 回 北 京 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	回	回	PROPN	_	_	_	_	_	_
+4	北	北	PART	_	_	_	_	_	_
+5	京	京	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_865
+# text = 你 们 回 医 院 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	回	回	NOUN	_	_	_	_	_	_
+4	医	医	PART	_	_	_	_	_	_
+5	院	院	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_866
+# text = 你 们 回 商 店 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	回	回	NOUN	_	_	_	_	_	_
+4	商	商	PART	_	_	_	_	_	_
+5	店	店	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_867
+# text = 你 们 回 学 校 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	回	回	NOUN	_	_	_	_	_	_
+4	学	学	PART	_	_	_	_	_	_
+5	校	校	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_868
+# text = 你 们 回 家 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	回	回	PART	_	_	_	_	_	_
+4	家	家	PUNCT	_	_	_	_	_	_
+5	了	了	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_869
+# text = 你 们 回 饭 馆 了。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	NOUN	_	_	_	_	_	_
+3	回	回	PART	_	_	_	_	_	_
+4	饭	饭	PART	_	_	_	_	_	_
+5	馆	馆	PUNCT	_	_	_	_	_	_
+6	了	了	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_870
+# text = 你 们 在 中 国。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	在	在	PROPN	_	_	_	_	_	_
+4	中	中	PUNCT	_	_	_	_	_	_
+5	国	国	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_871
+# text = 你 们 在 做 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	做	做	NOUN	_	_	_	_	_	_
+5	饭	饭	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_872
+# text = 你 们 在 写 字。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	写	写	PUNCT	_	_	_	_	_	_
+5	字	字	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_873
+# text = 你 们 在 北 京。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	在	在	PROPN	_	_	_	_	_	_
+4	北	北	PUNCT	_	_	_	_	_	_
+5	京	京	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_874
+# text = 你 们 在 医 院。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	在	在	NOUN	_	_	_	_	_	_
+4	医	医	PUNCT	_	_	_	_	_	_
+5	院	院	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_875
+# text = 你 们 在 听 歌。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	听	听	PUNCT	_	_	_	_	_	_
+5	歌	歌	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_876
+# text = 你 们 在 商 店。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	在	在	NOUN	_	_	_	_	_	_
+4	商	商	PUNCT	_	_	_	_	_	_
+5	店	店	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_877
+# text = 你 们 在 学 习。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	学	学	PUNCT	_	_	_	_	_	_
+5	习	习	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_878
+# text = 你 们 在 学 校。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	在	在	NOUN	_	_	_	_	_	_
+4	学	学	PUNCT	_	_	_	_	_	_
+5	校	校	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_879
+# text = 你 们 在 家。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	在	在	NOUN	_	_	_	_	_	_
+4	家	家	PUNCT	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_880
+# text = 你 们 在 工 作。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	工	工	PUNCT	_	_	_	_	_	_
+5	作	作	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_881
+# text = 你 们 在 看 书。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	看	看	PUNCT	_	_	_	_	_	_
+5	书	书	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_882
+# text = 你 们 在 睡 觉。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	睡	睡	PUNCT	_	_	_	_	_	_
+5	觉	觉	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_883
+# text = 你 们 在 说 话。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	ADV	_	_	_	_	_	_
+3	在	在	VERB	_	_	_	_	_	_
+4	说	说	PUNCT	_	_	_	_	_	_
+5	话	话	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_884
+# text = 你 们 在 饭 馆。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	VERB	_	_	_	_	_	_
+3	在	在	NOUN	_	_	_	_	_	_
+4	饭	饭	PART	_	_	_	_	_	_
+5	馆	馆	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_885
+# text = 你 们 想 买 书。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	书	书	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_886
+# text = 你 们 想 买 工 作。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	工	工	PUNCT	_	_	_	_	_	_
+6	作	作	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_887
+# text = 你 们 想 买 时 间。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	时	时	PUNCT	_	_	_	_	_	_
+6	间	间	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_888
+# text = 你 们 想 买 朋 友。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	朋	朋	PUNCT	_	_	_	_	_	_
+6	友	友	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_889
+# text = 你 们 想 买 杯 子。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	杯	杯	NOUN	_	_	_	_	_	_
+6	子	子	PUNCT	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_890
+# text = 你 们 想 买 狗。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	狗	狗	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_891
+# text = 你 们 想 买 猫。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	猫	猫	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_892
+# text = 你 们 想 买 电 脑。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	电	电	PUNCT	_	_	_	_	_	_
+6	脑	脑	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_893
+# text = 你 们 想 买 苹 果。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	PROPN	_	_	_	_	_	_
+5	苹	苹	PUNCT	_	_	_	_	_	_
+6	果	果	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_894
+# text = 你 们 想 买 衣 服。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	衣	衣	PUNCT	_	_	_	_	_	_
+6	服	服	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_895
+# text = 你 们 想 买 车。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	车	车	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_896
+# text = 你 们 想 买 钱。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	买	买	NOUN	_	_	_	_	_	_
+5	钱	钱	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_897
+# text = 你 们 想 做 饭。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	做	做	NOUN	_	_	_	_	_	_
+5	饭	饭	PUNCT	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_898
+# text = 你 们 想 写 字。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	写	写	PUNCT	_	_	_	_	_	_
+5	字	字	X	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_899
+# text = 你 们 想 去 中 国。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	去	去	PROPN	_	_	_	_	_	_
+5	中	中	PUNCT	_	_	_	_	_	_
+6	国	国	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = zh_a1_train_900
+# text = 你 们 想 去 北 京。
+1	你	你	PRON	_	_	_	_	_	_
+2	们	们	AUX	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	去	去	PROPN	_	_	_	_	_	_
+5	北	北	PUNCT	_	_	_	_	_	_
+6	京	京	X	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+

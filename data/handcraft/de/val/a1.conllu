@@ -1,0 +1,135 @@
+# sent_id = de_a1_val_001
+# text = Meine Großmutter ist alt.
+1	Meine	mein	DET	_	_	_	_	_	_
+2	Großmutter	Großmutter	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	alt	alt	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_002
+# text = Der Großvater isst Suppe.
+1	Der	der	DET	_	_	_	_	_	_
+2	Großvater	Großvater	NOUN	_	_	_	_	_	_
+3	isst	essen	VERB	_	_	_	_	_	_
+4	Suppe	Suppe	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_003
+# text = Wir trinken kalte Milch.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	trinken	trinken	VERB	_	_	_	_	_	_
+3	kalte	kalt	ADJ	_	_	_	_	_	_
+4	Milch	Milch	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_004
+# text = Zwei Kinder gehen zur Schule.
+1	Zwei	zwei	NUM	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	gehen	gehen	VERB	_	_	_	_	_	_
+4	zur	zu	ADP	_	_	_	_	_	_
+5	Schule	Schule	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_005
+# text = Der rote Bus fährt.
+1	Der	der	DET	_	_	_	_	_	_
+2	rote	rot	ADJ	_	_	_	_	_	_
+3	Bus	Bus	NOUN	_	_	_	_	_	_
+4	fährt	fahren	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_006
+# text = Meine Schwester heißt Mia.
+1	Meine	mein	DET	_	_	_	_	_	_
+2	Schwester	Schwester	NOUN	_	_	_	_	_	_
+3	heißt	heißen	VERB	_	_	_	_	_	_
+4	Mia	Mia	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_007
+# text = Ich kaufe vier Äpfel.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	kaufe	kaufen	VERB	_	_	_	_	_	_
+3	vier	vier	NUM	_	_	_	_	_	_
+4	Äpfel	Apfel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_008
+# text = Die grüne Blume ist schön.
+1	Die	der	DET	_	_	_	_	_	_
+2	grüne	grün	ADJ	_	_	_	_	_	_
+3	Blume	Blume	NOUN	_	_	_	_	_	_
+4	ist	sein	AUX	_	_	_	_	_	_
+5	schön	schön	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_009
+# text = Wir wohnen in einem großen Haus.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	wohnen	wohnen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	einem	ein	DET	_	_	_	_	_	_
+5	großen	groß	ADJ	_	_	_	_	_	_
+6	Haus	Haus	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_010
+# text = Er bleibt, weil er krank ist.
+1	Er	er	PRON	_	_	_	_	_	_
+2	bleibt	bleiben	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	weil	weil	SCONJ	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	krank	krank	ADJ	_	_	_	_	_	_
+7	ist	sein	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_011
+# text = Hallo, wie heißt du?
+1	Hallo	hallo	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	wie	wie	ADV	_	_	_	_	_	_
+4	heißt	heißen	VERB	_	_	_	_	_	_
+5	du	du	PRON	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_012
+# text = Die Katze liegt auf dem Bett.
+1	Die	der	DET	_	_	_	_	_	_
+2	Katze	Katze	NOUN	_	_	_	_	_	_
+3	liegt	liegen	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Bett	Bett	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_013
+# text = Mein Bruder hat einen kleinen Hund.
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Bruder	Bruder	NOUN	_	_	_	_	_	_
+3	hat	haben	VERB	_	_	_	_	_	_
+4	einen	ein	DET	_	_	_	_	_	_
+5	kleinen	klein	ADJ	_	_	_	_	_	_
+6	Hund	Hund	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_014
+# text = Ich lese ein gutes Buch.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	lese	lesen	VERB	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	gutes	gut	ADJ	_	_	_	_	_	_
+5	Buch	Buch	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_015
+# text = Die Sonne ist gelb und warm.
+1	Die	der	DET	_	_	_	_	_	_
+2	Sonne	Sonne	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	gelb	gelb	ADJ	_	_	_	_	_	_
+5	und	und	CCONJ	_	_	_	_	_	_
+6	warm	warm	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,875 @@
+# sent_id = handcraft-zh-1
+# text = 我喜欢吃苹果。
+1	我	我	PRON	_	_	_	_	_	_
+2	喜欢	喜欢	VERB	_	_	_	_	_	_
+3	吃	吃	VERB	_	_	_	_	_	_
+4	苹果	苹果	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-2
+# text = 他是一个老师。
+1	他	他	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	一	一	NUM	_	_	_	_	_	_
+4	个	个	DET	_	_	_	_	_	_
+5	老师	老师	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-3
+# text = 我们明天去北京。
+1	我们	我	PRON	_	_	_	_	_	_
+2	明天	明天	NOUN	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	北京	北京	PROPN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-4
+# text = 这本书很有意思。
+1	这	这	DET	_	_	_	_	_	_
+2	本	本	DET	_	_	_	_	_	_
+3	书	书	NOUN	_	_	_	_	_	_
+4	很	很	ADV	_	_	_	_	_	_
+5	有意思	有意思	ADJ	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-5
+# text = 你今天怎么样？
+1	你	你	PRON	_	_	_	_	_	_
+2	今天	今天	NOUN	_	_	_	_	_	_
+3	怎么样	怎么样	PRON	_	_	_	_	_	_
+4	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-6
+# text = 她在图书馆看书。
+1	她	她	PRON	_	_	_	_	_	_
+2	在	在	ADP	_	_	_	_	_	_
+3	图书馆	图书馆	NOUN	_	_	_	_	_	_
+4	看	看	VERB	_	_	_	_	_	_
+5	书	书	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-7
+# text = 他们都不是学生。
+1	他们	他	PRON	_	_	_	_	_	_
+2	都	都	ADV	_	_	_	_	_	_
+3	不是	是	VERB	_	_	_	_	_	_
+4	学生	学生	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-8
+# text = 这是我的朋友。
+1	这	这	DET	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	我	我	PRON	_	_	_	_	_	_
+4	的	的	PART	_	_	_	_	_	_
+5	朋友	朋友	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-9
+# text = 现在几点？
+1	现在	现在	NOUN	_	_	_	_	_	_
+2	几	几	NUM	_	_	_	_	_	_
+3	点	点	NOUN	_	_	_	_	_	_
+4	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-10
+# text = 孩子们在公园里玩。
+1	孩子们	孩子们	NOUN	_	_	_	_	_	_
+2	在	在	ADP	_	_	_	_	_	_
+3	公园	公园	NOUN	_	_	_	_	_	_
+4	里	里	ADP	_	_	_	_	_	_
+5	玩	玩	VERB	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-11
+# text = 我不会说英语。
+1	我	我	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	会	会	AUX	_	_	_	_	_	_
+4	说	说	VERB	_	_	_	_	_	_
+5	英语	英语	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-12
+# text = 不会太难吧？
+1	不会	会	AUX	_	_	_	_	_	_
+2	太	太	ADV	_	_	_	_	_	_
+3	难	难	ADJ	_	_	_	_	_	_
+4	吧	吧	PART	_	_	_	_	_	_
+5	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-13
+# text = 妈妈给我买了一件衣服。
+1	妈妈	妈妈	NOUN	_	_	_	_	_	_
+2	给	给	ADP	_	_	_	_	_	_
+3	我	我	PRON	_	_	_	_	_	_
+4	买	买	VERB	_	_	_	_	_	_
+5	了	了	PART	_	_	_	_	_	_
+6	一	一	NUM	_	_	_	_	_	_
+7	件	件	DET	_	_	_	_	_	_
+8	衣服	衣服	NOUN	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-14
+# text = 北京是中国的首都。
+1	北京	北京	PROPN	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	中国	中国	PROPN	_	_	_	_	_	_
+4	的	的	PART	_	_	_	_	_	_
+5	首都	首都	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-15
+# text = 我还是喜欢他。
+1	我	我	PRON	_	_	_	_	_	_
+2	还是	是	ADV	_	_	_	_	_	_
+3	喜欢	喜欢	VERB	_	_	_	_	_	_
+4	他	他	PRON	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-16
+# text = 今天天气很好。
+1	今天	今天	NOUN	_	_	_	_	_	_
+2	天气	天气	NOUN	_	_	_	_	_	_
+3	很	很	ADV	_	_	_	_	_	_
+4	好	好	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-17
+# text = 我昨天晚上看了一部电影。
+1	我	我	PRON	_	_	_	_	_	_
+2	昨天	昨天	NOUN	_	_	_	_	_	_
+3	晚上	晚上	NOUN	_	_	_	_	_	_
+4	看	看	VERB	_	_	_	_	_	_
+5	了	了	PART	_	_	_	_	_	_
+6	一	一	NUM	_	_	_	_	_	_
+7	部	部	DET	_	_	_	_	_	_
+8	电影	电影	NOUN	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-18
+# text = 他正在吃饭。
+1	他	他	PRON	_	_	_	_	_	_
+2	正在	正在	ADV	_	_	_	_	_	_
+3	吃饭	吃饭	VERB	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-19
+# text = 我们一起去商店吧。
+1	我们	我	PRON	_	_	_	_	_	_
+2	一起	一起	ADV	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	商店	商店	NOUN	_	_	_	_	_	_
+5	吧	吧	PART	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-20
+# text = 这个问题很复杂。
+1	这个	这个	DET	_	_	_	_	_	_
+2	问题	问题	NOUN	_	_	_	_	_	_
+3	很	很	ADV	_	_	_	_	_	_
+4	复杂	复杂	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-21
+# text = 她说她不知道。
+1	她	她	PRON	_	_	_	_	_	_
+2	说	说	VERB	_	_	_	_	_	_
+3	她	她	PRON	_	_	_	_	_	_
+4	不	不	ADV	_	_	_	_	_	_
+5	知道	知道	VERB	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-22
+# text = 我会努力学习的。
+1	我	我	PRON	_	_	_	_	_	_
+2	会	会	AUX	_	_	_	_	_	_
+3	努力	努力	ADV	_	_	_	_	_	_
+4	学习	学习	VERB	_	_	_	_	_	_
+5	的	的	PART	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-23
+# text = 都是我的错。
+1	都是	是	VERB	_	_	_	_	_	_
+2	我	我	PRON	_	_	_	_	_	_
+3	的	的	PART	_	_	_	_	_	_
+4	错	错	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-24
+# text = 你不能迟到。
+1	你	你	PRON	_	_	_	_	_	_
+2	不能	能	AUX	_	_	_	_	_	_
+3	迟到	迟到	VERB	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-25
+# text = 谁打破了窗户？
+1	谁	谁	PRON	_	_	_	_	_	_
+2	打破	打破	VERB	_	_	_	_	_	_
+3	了	了	PART	_	_	_	_	_	_
+4	窗户	窗户	NOUN	_	_	_	_	_	_
+5	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-26
+# text = 我们老师非常严格。
+1	我们	我	PRON	_	_	_	_	_	_
+2	老师	老师	NOUN	_	_	_	_	_	_
+3	非常	非常	ADV	_	_	_	_	_	_
+4	严格	严格	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-27
+# text = 他已经走了。
+1	他	他	PRON	_	_	_	_	_	_
+2	已经	已经	ADV	_	_	_	_	_	_
+3	走	走	VERB	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-28
+# text = 这些花真漂亮。
+1	这些	这些	DET	_	_	_	_	_	_
+2	花	花	NOUN	_	_	_	_	_	_
+3	真	真	ADV	_	_	_	_	_	_
+4	漂亮	漂亮	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-29
+# text = 我买了两杯咖啡。
+1	我	我	PRON	_	_	_	_	_	_
+2	买	买	VERB	_	_	_	_	_	_
+3	了	了	PART	_	_	_	_	_	_
+4	两	两	NUM	_	_	_	_	_	_
+5	杯	杯	DET	_	_	_	_	_	_
+6	咖啡	咖啡	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-30
+# text = 上海比北京大。
+1	上海	上海	PROPN	_	_	_	_	_	_
+2	比	比	ADP	_	_	_	_	_	_
+3	北京	北京	PROPN	_	_	_	_	_	_
+4	大	大	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-31
+# text = 请坐。
+1	请	请	VERB	_	_	_	_	_	_
+2	坐	坐	VERB	_	_	_	_	_	_
+3	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-32
+# text = 他叫小明。
+1	他	他	PRON	_	_	_	_	_	_
+2	叫	叫	VERB	_	_	_	_	_	_
+3	小明	小明	PROPN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-33
+# text = 我家有三个人。
+1	我	我	PRON	_	_	_	_	_	_
+2	家	家	NOUN	_	_	_	_	_	_
+3	有	有	VERB	_	_	_	_	_	_
+4	三	三	NUM	_	_	_	_	_	_
+5	个	个	DET	_	_	_	_	_	_
+6	人	人	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-34
+# text = 你认识那个人吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	认识	认识	VERB	_	_	_	_	_	_
+3	那	那	DET	_	_	_	_	_	_
+4	个	个	DET	_	_	_	_	_	_
+5	人	人	NOUN	_	_	_	_	_	_
+6	吗	吗	PART	_	_	_	_	_	_
+7	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-35
+# text = 猫在桌子上。
+1	猫	猫	NOUN	_	_	_	_	_	_
+2	在	在	ADP	_	_	_	_	_	_
+3	桌子	桌子	NOUN	_	_	_	_	_	_
+4	上	上	ADP	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-36
+# text = 我喜欢听音乐。
+1	我	我	PRON	_	_	_	_	_	_
+2	喜欢	喜欢	VERB	_	_	_	_	_	_
+3	听	听	VERB	_	_	_	_	_	_
+4	音乐	音乐	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-37
+# text = 他们在教室里学习。
+1	他们	他	PRON	_	_	_	_	_	_
+2	在	在	ADP	_	_	_	_	_	_
+3	教室	教室	NOUN	_	_	_	_	_	_
+4	里	里	ADP	_	_	_	_	_	_
+5	学习	学习	VERB	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-38
+# text = 这是什么？
+1	这	这	DET	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	什么	什么	PRON	_	_	_	_	_	_
+4	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-39
+# text = 我不明白你的意思。
+1	我	我	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	明白	明白	VERB	_	_	_	_	_	_
+4	你	你	PRON	_	_	_	_	_	_
+5	的	的	PART	_	_	_	_	_	_
+6	意思	意思	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-40
+# text = 春天来了。
+1	春天	春天	NOUN	_	_	_	_	_	_
+2	来	来	VERB	_	_	_	_	_	_
+3	了	了	PART	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-41
+# text = 她很高兴地笑了。
+1	她	她	PRON	_	_	_	_	_	_
+2	很	很	ADV	_	_	_	_	_	_
+3	高兴	高兴	ADJ	_	_	_	_	_	_
+4	地	地	PART	_	_	_	_	_	_
+5	笑	笑	VERB	_	_	_	_	_	_
+6	了	了	PART	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-42
+# text = 我们必须完成任务。
+1	我们	我	PRON	_	_	_	_	_	_
+2	必须	必须	AUX	_	_	_	_	_	_
+3	完成	完成	VERB	_	_	_	_	_	_
+4	任务	任务	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-43
+# text = 他没告诉我。
+1	他	他	PRON	_	_	_	_	_	_
+2	没	没	ADV	_	_	_	_	_	_
+3	告诉	告诉	VERB	_	_	_	_	_	_
+4	我	我	PRON	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-44
+# text = 桌子上有一本书。
+1	桌子	桌子	NOUN	_	_	_	_	_	_
+2	上	上	ADP	_	_	_	_	_	_
+3	有	有	VERB	_	_	_	_	_	_
+4	一	一	NUM	_	_	_	_	_	_
+5	本	本	DET	_	_	_	_	_	_
+6	书	书	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-45
+# text = 我要去旅行。
+1	我	我	PRON	_	_	_	_	_	_
+2	要	要	AUX	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	旅行	旅行	VERB	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-46
+# text = 这个城市很干净。
+1	这个	这个	DET	_	_	_	_	_	_
+2	城市	城市	NOUN	_	_	_	_	_	_
+3	很	很	ADV	_	_	_	_	_	_
+4	干净	干净	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-47
+# text = 你会说汉语吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	会	会	AUX	_	_	_	_	_	_
+3	说	说	VERB	_	_	_	_	_	_
+4	汉语	汉语	NOUN	_	_	_	_	_	_
+5	吗	吗	PART	_	_	_	_	_	_
+6	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-48
+# text = 她是一位医生。
+1	她	她	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	一	一	NUM	_	_	_	_	_	_
+4	位	位	DET	_	_	_	_	_	_
+5	医生	医生	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-49
+# text = 我们吃过北京烤鸭。
+1	我们	我	PRON	_	_	_	_	_	_
+2	吃	吃	VERB	_	_	_	_	_	_
+3	过	过	PART	_	_	_	_	_	_
+4	北京	北京	PROPN	_	_	_	_	_	_
+5	烤鸭	烤鸭	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-50
+# text = 他每天跑步。
+1	他	他	PRON	_	_	_	_	_	_
+2	每天	每天	ADV	_	_	_	_	_	_
+3	跑步	跑步	VERB	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-51
+# text = 衣服太贵了。
+1	衣服	衣服	NOUN	_	_	_	_	_	_
+2	太	太	ADV	_	_	_	_	_	_
+3	贵	贵	ADJ	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-52
+# text = 我找不到钥匙。
+1	我	我	PRON	_	_	_	_	_	_
+2	找不到	找不到	VERB	_	_	_	_	_	_
+3	钥匙	钥匙	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-53
+# text = 大家都知道这件事。
+1	大家	大家	PRON	_	_	_	_	_	_
+2	都	都	ADV	_	_	_	_	_	_
+3	知道	知道	VERB	_	_	_	_	_	_
+4	这	这	DET	_	_	_	_	_	_
+5	件	件	DET	_	_	_	_	_	_
+6	事	事	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-54
+# text = 快来！
+1	快	快	ADV	_	_	_	_	_	_
+2	来	来	VERB	_	_	_	_	_	_
+3	！	！	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-55
+# text = 他去年毕业了。
+1	他	他	PRON	_	_	_	_	_	_
+2	去年	去年	NOUN	_	_	_	_	_	_
+3	毕业	毕业	VERB	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-56
+# text = 你多大？
+1	你	你	PRON	_	_	_	_	_	_
+2	多大	多大	PRON	_	_	_	_	_	_
+3	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-57
+# text = 我觉得很累。
+1	我	我	PRON	_	_	_	_	_	_
+2	觉得	觉得	VERB	_	_	_	_	_	_
+3	很	很	ADV	_	_	_	_	_	_
+4	累	累	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-58
+# text = 她唱歌唱得很好。
+1	她	她	PRON	_	_	_	_	_	_
+2	唱歌	唱歌	VERB	_	_	_	_	_	_
+3	唱	唱	VERB	_	_	_	_	_	_
+4	得	得	PART	_	_	_	_	_	_
+5	很	很	ADV	_	_	_	_	_	_
+6	好	好	ADJ	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-59
+# text = 火车快到站了。
+1	火车	火车	NOUN	_	_	_	_	_	_
+2	快	快	ADV	_	_	_	_	_	_
+3	到	到	VERB	_	_	_	_	_	_
+4	站	站	NOUN	_	_	_	_	_	_
+5	了	了	PART	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-60
+# text = 我给他写了一封信。
+1	我	我	PRON	_	_	_	_	_	_
+2	给	给	ADP	_	_	_	_	_	_
+3	他	他	PRON	_	_	_	_	_	_
+4	写	写	VERB	_	_	_	_	_	_
+5	了	了	PART	_	_	_	_	_	_
+6	一	一	NUM	_	_	_	_	_	_
+7	封	封	DET	_	_	_	_	_	_
+8	信	信	NOUN	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-61
+# text = 不要浪费时间。
+1	不	不	ADV	_	_	_	_	_	_
+2	要	要	AUX	_	_	_	_	_	_
+3	浪费	浪费	VERB	_	_	_	_	_	_
+4	时间	时间	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-62
+# text = 他把书放在桌子上。
+1	他	他	PRON	_	_	_	_	_	_
+2	把	把	ADP	_	_	_	_	_	_
+3	书	书	NOUN	_	_	_	_	_	_
+4	放	放	VERB	_	_	_	_	_	_
+5	在	在	ADP	_	_	_	_	_	_
+6	桌子	桌子	NOUN	_	_	_	_	_	_
+7	上	上	ADP	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-63
+# text = 你怎么想？
+1	你	你	PRON	_	_	_	_	_	_
+2	怎么	怎么	ADV	_	_	_	_	_	_
+3	想	想	VERB	_	_	_	_	_	_
+4	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-64
+# text = 这朵花是红色的。
+1	这	这	DET	_	_	_	_	_	_
+2	朵	朵	DET	_	_	_	_	_	_
+3	花	花	NOUN	_	_	_	_	_	_
+4	是	是	VERB	_	_	_	_	_	_
+5	红色	红色	ADJ	_	_	_	_	_	_
+6	的	的	PART	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-65
+# text = 我跟他一起工作。
+1	我	我	PRON	_	_	_	_	_	_
+2	跟	跟	ADP	_	_	_	_	_	_
+3	他	他	PRON	_	_	_	_	_	_
+4	一起	一起	ADV	_	_	_	_	_	_
+5	工作	工作	VERB	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-66
+# text = 苹果五块钱一斤。
+1	苹果	苹果	NOUN	_	_	_	_	_	_
+2	五	五	NUM	_	_	_	_	_	_
+3	块	块	NOUN	_	_	_	_	_	_
+4	钱	钱	NOUN	_	_	_	_	_	_
+5	一	一	NUM	_	_	_	_	_	_
+6	斤	斤	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-67
+# text = 她又哭又笑。
+1	她	她	PRON	_	_	_	_	_	_
+2	又	又	ADV	_	_	_	_	_	_
+3	哭	哭	VERB	_	_	_	_	_	_
+4	又	又	CCONJ	_	_	_	_	_	_
+5	笑	笑	VERB	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-68
+# text = 因为下雨了，所以我没去。
+1	因为	因为	SCONJ	_	_	_	_	_	_
+2	下	下	VERB	_	_	_	_	_	_
+3	雨	雨	NOUN	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	，	，	PUNCT	_	_	_	_	_	_
+6	所以	所以	SCONJ	_	_	_	_	_	_
+7	我	我	PRON	_	_	_	_	_	_
+8	没	没	ADV	_	_	_	_	_	_
+9	去	去	VERB	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-69
+# text = 我等了他半个小时。
+1	我	我	PRON	_	_	_	_	_	_
+2	等	等	VERB	_	_	_	_	_	_
+3	了	了	PART	_	_	_	_	_	_
+4	他	他	PRON	_	_	_	_	_	_
+5	半	半	NUM	_	_	_	_	_	_
+6	个	个	DET	_	_	_	_	_	_
+7	小时	小时	NOUN	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-70
+# text = 这是我的书。
+1	这	这	DET	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	我	我	PRON	_	_	_	_	_	_
+4	的	的	PART	_	_	_	_	_	_
+5	书	书	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-71
+# text = 他笑着说。
+1	他	他	PRON	_	_	_	_	_	_
+2	笑	笑	VERB	_	_	_	_	_	_
+3	着	着	PART	_	_	_	_	_	_
+4	说	说	VERB	_	_	_	_	_	_
+5	话	话	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-72
+# text = 那里有很多人。
+1	那里	那里	PRON	_	_	_	_	_	_
+2	有	有	VERB	_	_	_	_	_	_
+3	很	很	ADV	_	_	_	_	_	_
+4	多	多	ADJ	_	_	_	_	_	_
+5	人	人	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-73
+# text = 我以前住在上海。
+1	我	我	PRON	_	_	_	_	_	_
+2	以前	以前	ADV	_	_	_	_	_	_
+3	住	住	VERB	_	_	_	_	_	_
+4	在	在	ADP	_	_	_	_	_	_
+5	上海	上海	PROPN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-74
+# text = 请把门关上。
+1	请	请	VERB	_	_	_	_	_	_
+2	把	把	ADP	_	_	_	_	_	_
+3	门	门	NOUN	_	_	_	_	_	_
+4	关	关	VERB	_	_	_	_	_	_
+5	上	上	PART	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-75
+# text = 他是不是老师？
+1	他	他	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	不	不	ADV	_	_	_	_	_	_
+4	是	是	VERB	_	_	_	_	_	_
+5	老师	老师	NOUN	_	_	_	_	_	_
+6	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-76
+# text = 我越来越喜欢这个地方。
+1	我	我	PRON	_	_	_	_	_	_
+2	越来越	越来越	ADV	_	_	_	_	_	_
+3	喜欢	喜欢	VERB	_	_	_	_	_	_
+4	这	这	DET	_	_	_	_	_	_
+5	个	个	DET	_	_	_	_	_	_
+6	地方	地方	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-77
+# text = 水太烫了，不能喝。
+1	水	水	NOUN	_	_	_	_	_	_
+2	太	太	ADV	_	_	_	_	_	_
+3	烫	烫	ADJ	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	，	，	PUNCT	_	_	_	_	_	_
+6	不能	能	AUX	_	_	_	_	_	_
+7	喝	喝	VERB	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-78
+# text = 你去过北京吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	去	去	VERB	_	_	_	_	_	_
+3	过	过	PART	_	_	_	_	_	_
+4	北京	北京	PROPN	_	_	_	_	_	_
+5	吗	吗	PART	_	_	_	_	_	_
+6	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-79
+# text = 会议明天上午开始。
+1	会议	会议	NOUN	_	_	_	_	_	_
+2	明天	明天	ADV	_	_	_	_	_	_
+3	上午	上午	NOUN	_	_	_	_	_	_
+4	开始	开始	VERB	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-80
+# text = 我自己做了一个决定。
+1	我	我	PRON	_	_	_	_	_	_
+2	自己	自己	PRON	_	_	_	_	_	_
+3	做	做	VERB	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	一	一	NUM	_	_	_	_	_	_
+6	个	个	DET	_	_	_	_	_	_
+7	决定	决定	NOUN	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-81
+# text = 别走！
+1	别	别	ADV	_	_	_	_	_	_
+2	走	走	VERB	_	_	_	_	_	_
+3	！	！	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-82
+# text = 他比我高。
+1	他	他	PRON	_	_	_	_	_	_
+2	比	比	ADP	_	_	_	_	_	_
+3	我	我	PRON	_	_	_	_	_	_
+4	高	高	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-83
+# text = 电视开着。
+1	电视	电视	NOUN	_	_	_	_	_	_
+2	开	开	VERB	_	_	_	_	_	_
+3	着	着	PART	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-84
+# text = 我们应该互相帮助。
+1	我们	我	PRON	_	_	_	_	_	_
+2	应该	应该	AUX	_	_	_	_	_	_
+3	互相	互相	ADV	_	_	_	_	_	_
+4	帮助	帮助	VERB	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-85
+# text = 他既聪明又勤奋。
+1	他	他	PRON	_	_	_	_	_	_
+2	既	既	SCONJ	_	_	_	_	_	_
+3	聪明	聪明	ADJ	_	_	_	_	_	_
+4	又	又	CCONJ	_	_	_	_	_	_
+5	勤奋	勤奋	ADJ	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-86
+# text = 这件事让我很开心。
+1	这	这	DET	_	_	_	_	_	_
+2	件	件	DET	_	_	_	_	_	_
+3	事	事	NOUN	_	_	_	_	_	_
+4	让	让	VERB	_	_	_	_	_	_
+5	我	我	PRON	_	_	_	_	_	_
+6	很	很	ADV	_	_	_	_	_	_
+7	开心	开心	ADJ	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-87
+# text = 我看不见他。
+1	我	我	PRON	_	_	_	_	_	_
+2	看	看	VERB	_	_	_	_	_	_
+3	不	不	ADV	_	_	_	_	_	_
+4	见	见	VERB	_	_	_	_	_	_
+5	他	他	PRON	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-88
+# text = 她高兴得跳了起来。
+1	她	她	PRON	_	_	_	_	_	_
+2	高兴	高兴	ADJ	_	_	_	_	_	_
+3	得	得	PART	_	_	_	_	_	_
+4	跳	跳	VERB	_	_	_	_	_	_
+5	了	了	PART	_	_	_	_	_	_
+6	起来	起来	PART	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-89
+# text = 你准备好了吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	准备	准备	VERB	_	_	_	_	_	_
+3	好	好	ADJ	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	吗	吗	PART	_	_	_	_	_	_
+6	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-90
+# text = 哎呀，我忘了！
+1	哎呀	哎呀	INTJ	_	_	_	_	_	_
+2	，	，	PUNCT	_	_	_	_	_	_
+3	我	我	PRON	_	_	_	_	_	_
+4	忘	忘	VERB	_	_	_	_	_	_
+5	了	了	PART	_	_	_	_	_	_
+6	！	！	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-91
+# text = 他打算明年结婚。
+1	他	他	PRON	_	_	_	_	_	_
+2	打算	打算	VERB	_	_	_	_	_	_
+3	明年	明年	NOUN	_	_	_	_	_	_
+4	结婚	结婚	VERB	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-92
+# text = 我不知道他为什么没来。
+1	我	我	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	知道	知道	VERB	_	_	_	_	_	_
+4	他	他	PRON	_	_	_	_	_	_
+5	为什么	为什么	ADV	_	_	_	_	_	_
+6	没	没	ADV	_	_	_	_	_	_
+7	来	来	VERB	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-93
+# text = 这篇文章我读了三遍。
+1	这	这	DET	_	_	_	_	_	_
+2	篇	篇	DET	_	_	_	_	_	_
+3	文章	文章	NOUN	_	_	_	_	_	_
+4	我	我	PRON	_	_	_	_	_	_
+5	读	读	VERB	_	_	_	_	_	_
+6	了	了	PART	_	_	_	_	_	_
+7	三	三	NUM	_	_	_	_	_	_
+8	遍	遍	NOUN	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-94
+# text = 你还好吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	还	还	ADV	_	_	_	_	_	_
+3	好	好	ADJ	_	_	_	_	_	_
+4	吗	吗	PART	_	_	_	_	_	_
+5	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-95
+# text = 我们都是朋友。
+1	我们	我	PRON	_	_	_	_	_	_
+2	都是	是	VERB	_	_	_	_	_	_
+3	朋友	朋友	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-96
+# text = 路上铺满了雪。
+1	路	路	NOUN	_	_	_	_	_	_
+2	上	上	ADP	_	_	_	_	_	_
+3	铺	铺	VERB	_	_	_	_	_	_
+4	满	满	ADJ	_	_	_	_	_	_
+5	了	了	PART	_	_	_	_	_	_
+6	雪	雪	NOUN	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-97
+# text = 你姓什么？
+1	你	你	PRON	_	_	_	_	_	_
+2	姓	姓	VERB	_	_	_	_	_	_
+3	什么	什么	PRON	_	_	_	_	_	_
+4	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-98
+# text = 无论发生什么，我都会帮你。
+1	无论	无论	SCONJ	_	_	_	_	_	_
+2	发生	发生	VERB	_	_	_	_	_	_
+3	什么	什么	PRON	_	_	_	_	_	_
+4	，	，	PUNCT	_	_	_	_	_	_
+5	我	我	PRON	_	_	_	_	_	_
+6	都	都	ADV	_	_	_	_	_	_
+7	会	会	AUX	_	_	_	_	_	_
+8	帮	帮	VERB	_	_	_	_	_	_
+9	你	你	PRON	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-99
+# text = 他当了老师。
+1	他	他	PRON	_	_	_	_	_	_
+2	当	当	VERB	_	_	_	_	_	_
+3	了	了	PART	_	_	_	_	_	_
+4	老师	老师	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-100
+# text = 我爱你。
+1	我	我	PRON	_	_	_	_	_	_
+2	爱	爱	VERB	_	_	_	_	_	_
+3	你	你	PRON	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_

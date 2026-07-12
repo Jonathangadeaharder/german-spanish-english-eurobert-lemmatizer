@@ -1,0 +1,2305 @@
+# sent_id = en_a2_train_201
+# text = He plays tennis every Saturday morning.
+1	He	he	PRON	_	_	_	_	_	_
+2	plays	play	VERB	_	_	_	_	_	_
+3	tennis	tenni	NOUN	_	_	_	_	_	_
+4	every	every	DET	_	_	_	_	_	_
+5	Saturday	Saturday	PROPN	_	_	_	_	_	_
+6	morning	morning	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_202
+# text = She runs five kilometres in the park.
+1	She	she	PRON	_	_	_	_	_	_
+2	runs	run	VERB	_	_	_	_	_	_
+3	five	five	NUM	_	_	_	_	_	_
+4	kilometres	kilometre	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	park	park	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_203
+# text = We watch the football match on TV.
+1	We	we	PRON	_	_	_	_	_	_
+2	watch	watch	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	football	football	NOUN	_	_	_	_	_	_
+5	match	match	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	TV	TV	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_204
+# text = I swim in the pool three times weekly.
+1	I	I	PRON	_	_	_	_	_	_
+2	swim	swim	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	pool	pool	NOUN	_	_	_	_	_	_
+6	three	three	NUM	_	_	_	_	_	_
+7	times	time	NOUN	_	_	_	_	_	_
+8	weekly	weekly	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_205
+# text = They train hard before the big game.
+1	They	they	PRON	_	_	_	_	_	_
+2	train	train	VERB	_	_	_	_	_	_
+3	hard	hard	ADV	_	_	_	_	_	_
+4	before	before	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	big	big	ADJ	_	_	_	_	_	_
+7	game	game	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_206
+# text = He scores a goal in the second half.
+1	He	he	PRON	_	_	_	_	_	_
+2	scores	score	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	goal	goal	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	second	second	ADJ	_	_	_	_	_	_
+8	half	half	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_207
+# text = She joins a yoga class after work.
+1	She	she	PRON	_	_	_	_	_	_
+2	joins	join	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	yoga	yoga	NOUN	_	_	_	_	_	_
+5	class	class	NOUN	_	_	_	_	_	_
+6	after	after	ADP	_	_	_	_	_	_
+7	work	work	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_208
+# text = We cheer for our team at the stadium.
+1	We	we	PRON	_	_	_	_	_	_
+2	cheer	cheer	VERB	_	_	_	_	_	_
+3	for	for	ADP	_	_	_	_	_	_
+4	our	our	PRON	_	_	_	_	_	_
+5	team	team	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	stadium	stadium	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_209
+# text = I ride my bike along the river path.
+1	I	I	PRON	_	_	_	_	_	_
+2	ride	ride	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	bike	bike	NOUN	_	_	_	_	_	_
+5	along	along	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	river	river	NOUN	_	_	_	_	_	_
+8	path	path	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_210
+# text = He wins the race by two seconds.
+1	He	he	PRON	_	_	_	_	_	_
+2	wins	win	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	race	race	NOUN	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	two	two	NUM	_	_	_	_	_	_
+7	seconds	second	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_211
+# text = She stretches her legs before the run.
+1	She	she	PRON	_	_	_	_	_	_
+2	stretches	stretch	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	legs	leg	NOUN	_	_	_	_	_	_
+5	before	before	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	run	run	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_212
+# text = We give the ball to our teammate.
+1	We	we	PRON	_	_	_	_	_	_
+2	give	give	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	ball	ball	NOUN	_	_	_	_	_	_
+5	to	to	ADP	_	_	_	_	_	_
+6	our	our	PRON	_	_	_	_	_	_
+7	teammate	teammate	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_213
+# text = I lose the match but I had fun.
+1	I	I	PRON	_	_	_	_	_	_
+2	lose	lose	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	match	match	NOUN	_	_	_	_	_	_
+5	but	but	CCONJ	_	_	_	_	_	_
+6	I	I	PRON	_	_	_	_	_	_
+7	had	have	AUX	_	_	_	_	_	_
+8	fun	fun	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_214
+# text = He kicks the ball into the net.
+1	He	he	PRON	_	_	_	_	_	_
+2	kicks	kick	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	ball	ball	NOUN	_	_	_	_	_	_
+5	into	into	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	net	net	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_215
+# text = She wears new trainers for the race.
+1	She	she	PRON	_	_	_	_	_	_
+2	wears	wear	VERB	_	_	_	_	_	_
+3	new	new	ADJ	_	_	_	_	_	_
+4	trainers	trainer	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	race	race	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_216
+# text = We practice basketball in the school gym.
+1	We	we	PRON	_	_	_	_	_	_
+2	practice	practice	VERB	_	_	_	_	_	_
+3	basketball	basketball	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	school	school	NOUN	_	_	_	_	_	_
+7	gym	gym	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_217
+# text = I catch the ball with both hands.
+1	I	I	PRON	_	_	_	_	_	_
+2	catch	catch	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	ball	ball	NOUN	_	_	_	_	_	_
+5	with	with	ADP	_	_	_	_	_	_
+6	both	both	DET	_	_	_	_	_	_
+7	hands	hand	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_218
+# text = He hurt his ankle during the match.
+1	He	he	PRON	_	_	_	_	_	_
+2	hurt	hurt	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	ankle	ankle	NOUN	_	_	_	_	_	_
+5	during	during	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	match	match	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_219
+# text = She throws the ball to her friend.
+1	She	she	PRON	_	_	_	_	_	_
+2	throws	throw	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	ball	ball	NOUN	_	_	_	_	_	_
+5	to	to	ADP	_	_	_	_	_	_
+6	her	her	PRON	_	_	_	_	_	_
+7	friend	friend	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_220
+# text = We warm up before we start running.
+1	We	we	PRON	_	_	_	_	_	_
+2	warm	warm	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	before	before	ADP	_	_	_	_	_	_
+5	we	we	PRON	_	_	_	_	_	_
+6	start	start	VERB	_	_	_	_	_	_
+7	running	run	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_221
+# text = I skip rope in the garden sometimes.
+1	I	I	PRON	_	_	_	_	_	_
+2	skip	skip	VERB	_	_	_	_	_	_
+3	rope	rope	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	garden	garden	NOUN	_	_	_	_	_	_
+7	sometimes	sometimes	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_222
+# text = He lifts weights at the sports centre.
+1	He	he	PRON	_	_	_	_	_	_
+2	lifts	lift	VERB	_	_	_	_	_	_
+3	weights	weight	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	sports	sport	NOUN	_	_	_	_	_	_
+7	centre	centre	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_223
+# text = She moves faster than the other runners.
+1	She	she	PRON	_	_	_	_	_	_
+2	moves	move	VERB	_	_	_	_	_	_
+3	faster	fast	ADJ	_	_	_	_	_	_
+4	than	than	SCONJ	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	other	oth	ADJ	_	_	_	_	_	_
+7	runners	runner	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_224
+# text = We rest on the bench after the game.
+1	We	we	PRON	_	_	_	_	_	_
+2	rest	rest	VERB	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	bench	bench	NOUN	_	_	_	_	_	_
+6	after	after	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	game	game	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_225
+# text = I join the swimming club this autumn.
+1	I	I	PRON	_	_	_	_	_	_
+2	join	join	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	swimming	swim	NOUN	_	_	_	_	_	_
+5	club	club	NOUN	_	_	_	_	_	_
+6	this	this	DET	_	_	_	_	_	_
+7	autumn	autumn	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_226
+# text = We celebrate Christmas with our whole family.
+1	We	we	PRON	_	_	_	_	_	_
+2	celebrate	celebrate	VERB	_	_	_	_	_	_
+3	Christmas	Christmas	PROPN	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	our	our	PRON	_	_	_	_	_	_
+6	whole	whole	ADJ	_	_	_	_	_	_
+7	family	family	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_227
+# text = She wears a colourful dress at the festival.
+1	She	she	PRON	_	_	_	_	_	_
+2	wears	wear	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	colourful	colourful	ADJ	_	_	_	_	_	_
+5	dress	dress	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	festival	festival	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_228
+# text = They dance in the street during the parade.
+1	They	they	PRON	_	_	_	_	_	_
+2	dance	dance	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	street	street	NOUN	_	_	_	_	_	_
+6	during	during	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	parade	parade	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_229
+# text = I eat traditional food at the summer fair.
+1	I	I	PRON	_	_	_	_	_	_
+2	eat	eat	VERB	_	_	_	_	_	_
+3	traditional	traditional	ADJ	_	_	_	_	_	_
+4	food	food	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	summer	summer	NOUN	_	_	_	_	_	_
+8	fair	fair	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_230
+# text = He lights candles on the birthday cake.
+1	He	he	PRON	_	_	_	_	_	_
+2	lights	light	VERB	_	_	_	_	_	_
+3	candles	candle	NOUN	_	_	_	_	_	_
+4	on	on	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	birthday	birthday	NOUN	_	_	_	_	_	_
+7	cake	cake	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_231
+# text = We watch fireworks by the river tonight.
+1	We	we	PRON	_	_	_	_	_	_
+2	watch	watch	VERB	_	_	_	_	_	_
+3	fireworks	firework	NOUN	_	_	_	_	_	_
+4	by	by	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	river	river	NOUN	_	_	_	_	_	_
+7	tonight	tonight	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_232
+# text = She learns songs with her school choir.
+1	She	she	PRON	_	_	_	_	_	_
+2	learns	learn	VERB	_	_	_	_	_	_
+3	songs	song	NOUN	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	her	her	PRON	_	_	_	_	_	_
+6	school	school	NOUN	_	_	_	_	_	_
+7	choir	choir	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_233
+# text = They decorate the house with bright lights.
+1	They	they	PRON	_	_	_	_	_	_
+2	decorate	decorate	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	house	house	NOUN	_	_	_	_	_	_
+5	with	with	ADP	_	_	_	_	_	_
+6	bright	bright	ADJ	_	_	_	_	_	_
+7	lights	light	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_234
+# text = I give presents to my friends at Easter.
+1	I	I	PRON	_	_	_	_	_	_
+2	give	give	VERB	_	_	_	_	_	_
+3	presents	present	NOUN	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	my	my	PRON	_	_	_	_	_	_
+6	friends	friend	NOUN	_	_	_	_	_	_
+7	at	at	ADP	_	_	_	_	_	_
+8	Easter	Easter	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_235
+# text = We drink hot chocolate at the winter market.
+1	We	we	PRON	_	_	_	_	_	_
+2	drink	drink	VERB	_	_	_	_	_	_
+3	hot	hot	ADJ	_	_	_	_	_	_
+4	chocolate	chocolate	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	winter	winter	NOUN	_	_	_	_	_	_
+8	market	market	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_236
+# text = He plays music at the village festival.
+1	He	he	PRON	_	_	_	_	_	_
+2	plays	play	VERB	_	_	_	_	_	_
+3	music	music	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	village	village	NOUN	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_237
+# text = She buys gifts at the Christmas market.
+1	She	she	PRON	_	_	_	_	_	_
+2	buys	buy	VERB	_	_	_	_	_	_
+3	gifts	gift	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	Christmas	Christmas	PROPN	_	_	_	_	_	_
+7	market	market	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_238
+# text = They wear masks at the carnival party.
+1	They	they	PRON	_	_	_	_	_	_
+2	wear	wear	VERB	_	_	_	_	_	_
+3	masks	mask	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	carnival	carnival	NOUN	_	_	_	_	_	_
+7	party	party	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_239
+# text = I take photos of the street parade.
+1	I	I	PRON	_	_	_	_	_	_
+2	take	take	VERB	_	_	_	_	_	_
+3	photos	photo	NOUN	_	_	_	_	_	_
+4	of	of	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	street	street	NOUN	_	_	_	_	_	_
+7	parade	parade	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_240
+# text = We clap when the band finishes playing.
+1	We	we	PRON	_	_	_	_	_	_
+2	clap	clap	VERB	_	_	_	_	_	_
+3	when	when	SCONJ	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	band	band	NOUN	_	_	_	_	_	_
+6	finishes	finish	VERB	_	_	_	_	_	_
+7	playing	play	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_241
+# text = He brings flowers to the spring festival.
+1	He	he	PRON	_	_	_	_	_	_
+2	brings	br	VERB	_	_	_	_	_	_
+3	flowers	flower	NOUN	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	spring	spring	NOUN	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_242
+# text = She makes lanterns for the autumn event.
+1	She	she	PRON	_	_	_	_	_	_
+2	makes	make	VERB	_	_	_	_	_	_
+3	lanterns	lantern	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	autumn	autumn	NOUN	_	_	_	_	_	_
+7	event	event	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_243
+# text = They share cake at the wedding party.
+1	They	they	PRON	_	_	_	_	_	_
+2	share	share	VERB	_	_	_	_	_	_
+3	cake	cake	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	wedding	wedding	NOUN	_	_	_	_	_	_
+7	party	party	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_244
+# text = I watch dancers in the town square.
+1	I	I	PRON	_	_	_	_	_	_
+2	watch	watch	VERB	_	_	_	_	_	_
+3	dancers	dancer	NOUN	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	town	town	NOUN	_	_	_	_	_	_
+7	square	square	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_245
+# text = We meet friends at the music festival.
+1	We	we	PRON	_	_	_	_	_	_
+2	meet	meet	VERB	_	_	_	_	_	_
+3	friends	friend	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	music	music	NOUN	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_246
+# text = He tells jokes at the family gathering.
+1	He	he	PRON	_	_	_	_	_	_
+2	tells	tell	VERB	_	_	_	_	_	_
+3	jokes	joke	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	family	family	NOUN	_	_	_	_	_	_
+7	gathering	gathering	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_247
+# text = She paints her face for the parade.
+1	She	she	PRON	_	_	_	_	_	_
+2	paints	paint	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	face	face	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	parade	parade	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_248
+# text = They eat sweets at the Halloween party.
+1	They	they	PRON	_	_	_	_	_	_
+2	eat	eat	VERB	_	_	_	_	_	_
+3	sweets	sweet	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	Halloween	Halloween	PROPN	_	_	_	_	_	_
+7	party	party	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_249
+# text = I hear drums from the festival stage.
+1	I	I	PRON	_	_	_	_	_	_
+2	hear	hear	VERB	_	_	_	_	_	_
+3	drums	drum	NOUN	_	_	_	_	_	_
+4	from	from	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	festival	festival	NOUN	_	_	_	_	_	_
+7	stage	stage	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_250
+# text = We stay up late on New Year's Eve.
+1	We	we	PRON	_	_	_	_	_	_
+2	stay	stay	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	late	late	ADV	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	New	New	PROPN	_	_	_	_	_	_
+7	Year's	Year's	PROPN	_	_	_	_	_	_
+8	Eve	be	AUX	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_251
+# text = I call my mother every Sunday evening.
+1	I	I	PRON	_	_	_	_	_	_
+2	call	call	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	mother	mother	NOUN	_	_	_	_	_	_
+5	every	every	DET	_	_	_	_	_	_
+6	Sunday	Sunday	PROPN	_	_	_	_	_	_
+7	evening	evening	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_252
+# text = She answers the phone at work quickly.
+1	She	she	PRON	_	_	_	_	_	_
+2	answers	answer	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	phone	phone	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	work	work	NOUN	_	_	_	_	_	_
+7	quickly	quickly	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_253
+# text = He hangs up after a short conversation.
+1	He	he	PRON	_	_	_	_	_	_
+2	hangs	hang	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	after	after	ADP	_	_	_	_	_	_
+5	a	a	DET	_	_	_	_	_	_
+6	short	short	ADJ	_	_	_	_	_	_
+7	conversation	conversation	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_254
+# text = We speak to the manager on the phone.
+1	We	we	PRON	_	_	_	_	_	_
+2	speak	speak	VERB	_	_	_	_	_	_
+3	to	to	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	manager	manager	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	phone	phone	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_255
+# text = I leave a message on her voicemail.
+1	I	I	PRON	_	_	_	_	_	_
+2	leave	leave	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	message	message	NOUN	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	her	her	PRON	_	_	_	_	_	_
+7	voicemail	voicemail	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_256
+# text = She dials the number from her contact list.
+1	She	she	PRON	_	_	_	_	_	_
+2	dials	dial	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	number	number	NOUN	_	_	_	_	_	_
+5	from	from	ADP	_	_	_	_	_	_
+6	her	her	PRON	_	_	_	_	_	_
+7	contact	contact	NOUN	_	_	_	_	_	_
+8	list	list	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_257
+# text = He talks to the doctor about his cough.
+1	He	he	PRON	_	_	_	_	_	_
+2	talks	talk	VERB	_	_	_	_	_	_
+3	to	to	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	doctor	doctor	NOUN	_	_	_	_	_	_
+6	about	about	ADP	_	_	_	_	_	_
+7	his	his	PRON	_	_	_	_	_	_
+8	cough	cough	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_258
+# text = We call the hotel to book a room.
+1	We	we	PRON	_	_	_	_	_	_
+2	call	call	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	hotel	hotel	NOUN	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	book	book	VERB	_	_	_	_	_	_
+7	a	a	DET	_	_	_	_	_	_
+8	room	room	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_259
+# text = I wait on hold for five long minutes.
+1	I	I	PRON	_	_	_	_	_	_
+2	wait	wait	VERB	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	hold	hold	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	five	five	NUM	_	_	_	_	_	_
+7	long	long	ADJ	_	_	_	_	_	_
+8	minutes	minute	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_260
+# text = She calls back after she reads the text.
+1	She	she	PRON	_	_	_	_	_	_
+2	calls	call	VERB	_	_	_	_	_	_
+3	back	back	ADP	_	_	_	_	_	_
+4	after	after	ADP	_	_	_	_	_	_
+5	she	she	PRON	_	_	_	_	_	_
+6	reads	read	VERB	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	text	text	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_261
+# text = He asks for help on the support line.
+1	He	he	PRON	_	_	_	_	_	_
+2	asks	ask	VERB	_	_	_	_	_	_
+3	for	for	ADP	_	_	_	_	_	_
+4	help	help	NOUN	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	support	support	NOUN	_	_	_	_	_	_
+8	line	line	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_262
+# text = We hear a busy tone and try again.
+1	We	we	PRON	_	_	_	_	_	_
+2	hear	hear	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	busy	busy	ADJ	_	_	_	_	_	_
+5	tone	tone	NOUN	_	_	_	_	_	_
+6	and	and	CCONJ	_	_	_	_	_	_
+7	try	try	VERB	_	_	_	_	_	_
+8	again	again	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_263
+# text = I pick up the phone in the kitchen.
+1	I	I	PRON	_	_	_	_	_	_
+2	pick	pick	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	phone	phone	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	kitchen	kitchen	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_264
+# text = She speaks louder because the line is bad.
+1	She	she	PRON	_	_	_	_	_	_
+2	speaks	speak	VERB	_	_	_	_	_	_
+3	louder	loud	ADJ	_	_	_	_	_	_
+4	because	because	SCONJ	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	line	line	NOUN	_	_	_	_	_	_
+7	is	be	AUX	_	_	_	_	_	_
+8	bad	bad	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_265
+# text = He forgets to call his friend on time.
+1	He	he	PRON	_	_	_	_	_	_
+2	forgets	forget	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	call	call	VERB	_	_	_	_	_	_
+5	his	his	PRON	_	_	_	_	_	_
+6	friend	friend	NOUN	_	_	_	_	_	_
+7	on	on	ADP	_	_	_	_	_	_
+8	time	time	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_266
+# text = We talk about the plan over the phone tonight.
+1	We	we	PRON	_	_	_	_	_	_
+2	talk	talk	VERB	_	_	_	_	_	_
+3	about	about	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	plan	plan	NOUN	_	_	_	_	_	_
+6	over	over	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	phone	phone	NOUN	_	_	_	_	_	_
+9	tonight	tonight	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_267
+# text = I save his new number in my phone.
+1	I	I	PRON	_	_	_	_	_	_
+2	save	save	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	new	new	ADJ	_	_	_	_	_	_
+5	number	number	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	my	my	PRON	_	_	_	_	_	_
+8	phone	phone	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_268
+# text = She says goodbye and ends the call.
+1	She	she	PRON	_	_	_	_	_	_
+2	says	say	VERB	_	_	_	_	_	_
+3	goodbye	goodbye	NOUN	_	_	_	_	_	_
+4	and	and	CCONJ	_	_	_	_	_	_
+5	ends	end	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	call	call	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_269
+# text = He misses an important call at lunch.
+1	He	he	PRON	_	_	_	_	_	_
+2	misses	misse	VERB	_	_	_	_	_	_
+3	an	an	DET	_	_	_	_	_	_
+4	important	important	ADJ	_	_	_	_	_	_
+5	call	call	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	lunch	lunch	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_270
+# text = We chat with grandma for an hour.
+1	We	we	PRON	_	_	_	_	_	_
+2	chat	chat	VERB	_	_	_	_	_	_
+3	with	with	ADP	_	_	_	_	_	_
+4	grandma	grandma	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	an	an	DET	_	_	_	_	_	_
+7	hour	hour	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_271
+# text = I text him when he does not answer.
+1	I	I	PRON	_	_	_	_	_	_
+2	text	text	VERB	_	_	_	_	_	_
+3	him	he	PRON	_	_	_	_	_	_
+4	when	when	SCONJ	_	_	_	_	_	_
+5	he	he	PRON	_	_	_	_	_	_
+6	does	do	AUX	_	_	_	_	_	_
+7	not	not	PART	_	_	_	_	_	_
+8	answer	answer	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_272
+# text = She turns down the call during dinner.
+1	She	she	PRON	_	_	_	_	_	_
+2	turns	turn	VERB	_	_	_	_	_	_
+3	down	down	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	call	call	NOUN	_	_	_	_	_	_
+6	during	during	ADP	_	_	_	_	_	_
+7	dinner	dinner	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_273
+# text = He explains the problem on the phone clearly.
+1	He	he	PRON	_	_	_	_	_	_
+2	explains	explain	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	problem	problem	NOUN	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	phone	phone	NOUN	_	_	_	_	_	_
+8	clearly	clearly	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_274
+# text = We arrange a meeting time by phone.
+1	We	we	PRON	_	_	_	_	_	_
+2	arrange	arrange	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	meeting	meeting	NOUN	_	_	_	_	_	_
+5	time	time	NOUN	_	_	_	_	_	_
+6	by	by	ADP	_	_	_	_	_	_
+7	phone	phone	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_275
+# text = I charge my phone before the long trip.
+1	I	I	PRON	_	_	_	_	_	_
+2	charge	charge	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	phone	phone	NOUN	_	_	_	_	_	_
+5	before	before	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	long	long	ADJ	_	_	_	_	_	_
+8	trip	trip	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_276
+# text = I open a bank account at the local branch.
+1	I	I	PRON	_	_	_	_	_	_
+2	open	open	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	bank	bank	NOUN	_	_	_	_	_	_
+5	account	account	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	local	local	ADJ	_	_	_	_	_	_
+9	branch	branch	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_277
+# text = She pays her bills at the bank today.
+1	She	she	PRON	_	_	_	_	_	_
+2	pays	pay	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	bills	bill	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bank	bank	NOUN	_	_	_	_	_	_
+8	today	today	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_278
+# text = He withdraws cash from the ATM outside.
+1	He	he	PRON	_	_	_	_	_	_
+2	withdraws	withdraw	VERB	_	_	_	_	_	_
+3	cash	cash	NOUN	_	_	_	_	_	_
+4	from	from	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	ATM	ATM	PROPN	_	_	_	_	_	_
+7	outside	outside	ADP	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_279
+# text = We transfer money to our savings account.
+1	We	we	PRON	_	_	_	_	_	_
+2	transfer	transfer	VERB	_	_	_	_	_	_
+3	money	money	NOUN	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	our	our	PRON	_	_	_	_	_	_
+6	savings	saving	NOUN	_	_	_	_	_	_
+7	account	account	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_280
+# text = I check my balance on the banking app.
+1	I	I	PRON	_	_	_	_	_	_
+2	check	check	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	balance	balance	NOUN	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	banking	banking	NOUN	_	_	_	_	_	_
+8	app	app	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_281
+# text = She deposits her salary every month.
+1	She	she	PRON	_	_	_	_	_	_
+2	deposits	deposit	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	salary	salary	NOUN	_	_	_	_	_	_
+5	every	every	DET	_	_	_	_	_	_
+6	month	month	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_282
+# text = He signs the form at the bank desk.
+1	He	he	PRON	_	_	_	_	_	_
+2	signs	sign	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	form	form	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bank	bank	NOUN	_	_	_	_	_	_
+8	desk	desk	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_283
+# text = We need a PIN code for the card.
+1	We	we	PRON	_	_	_	_	_	_
+2	need	ne	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	PIN	PIN	PROPN	_	_	_	_	_	_
+5	code	code	NOUN	_	_	_	_	_	_
+6	for	for	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	card	card	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_284
+# text = I lose my bank card on the bus.
+1	I	I	PRON	_	_	_	_	_	_
+2	lose	lose	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	bank	bank	NOUN	_	_	_	_	_	_
+5	card	card	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	bus	bu	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_285
+# text = She asks about the loan at the counter.
+1	She	she	PRON	_	_	_	_	_	_
+2	asks	ask	VERB	_	_	_	_	_	_
+3	about	about	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	loan	loan	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	counter	counter	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_286
+# text = He saves fifty euros each week.
+1	He	he	PRON	_	_	_	_	_	_
+2	saves	save	VERB	_	_	_	_	_	_
+3	fifty	fifty	NUM	_	_	_	_	_	_
+4	euros	euro	NOUN	_	_	_	_	_	_
+5	each	each	DET	_	_	_	_	_	_
+6	week	week	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_287
+# text = We pay the rent by bank transfer.
+1	We	we	PRON	_	_	_	_	_	_
+2	pay	pay	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	rent	rent	NOUN	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	bank	bank	NOUN	_	_	_	_	_	_
+7	transfer	transfer	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_288
+# text = I show my ID at the bank office.
+1	I	I	PRON	_	_	_	_	_	_
+2	show	show	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	ID	ID	PROPN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bank	bank	NOUN	_	_	_	_	_	_
+8	office	office	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_289
+# text = She changes her address at the bank.
+1	She	she	PRON	_	_	_	_	_	_
+2	changes	change	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	address	address	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bank	bank	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_290
+# text = He receives a receipt after the payment.
+1	He	he	PRON	_	_	_	_	_	_
+2	receives	receive	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	receipt	receipt	NOUN	_	_	_	_	_	_
+5	after	after	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	payment	payment	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_291
+# text = We compare rates at two different banks.
+1	We	we	PRON	_	_	_	_	_	_
+2	compare	compare	VERB	_	_	_	_	_	_
+3	rates	rate	NOUN	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	two	two	NUM	_	_	_	_	_	_
+6	different	different	ADJ	_	_	_	_	_	_
+7	banks	bank	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_292
+# text = I borrow money for my new laptop.
+1	I	I	PRON	_	_	_	_	_	_
+2	borrow	borrow	VERB	_	_	_	_	_	_
+3	money	money	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	my	my	PRON	_	_	_	_	_	_
+6	new	new	ADJ	_	_	_	_	_	_
+7	laptop	laptop	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_293
+# text = She closes her old account this week.
+1	She	she	PRON	_	_	_	_	_	_
+2	closes	close	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	old	old	ADJ	_	_	_	_	_	_
+5	account	account	NOUN	_	_	_	_	_	_
+6	this	this	DET	_	_	_	_	_	_
+7	week	week	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_294
+# text = He counts the coins in his wallet.
+1	He	he	PRON	_	_	_	_	_	_
+2	counts	count	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	coins	coin	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	his	his	PRON	_	_	_	_	_	_
+7	wallet	wallet	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_295
+# text = We wait in line at the busy bank.
+1	We	we	PRON	_	_	_	_	_	_
+2	wait	wait	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	line	line	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	busy	busy	ADJ	_	_	_	_	_	_
+8	bank	bank	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_296
+# text = I type my password on the screen.
+1	I	I	PRON	_	_	_	_	_	_
+2	type	type	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	password	password	NOUN	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	screen	screen	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_297
+# text = She keeps her card in a safe place.
+1	She	she	PRON	_	_	_	_	_	_
+2	keeps	keep	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	card	card	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	safe	safe	ADJ	_	_	_	_	_	_
+8	place	place	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_298
+# text = He pays interest on his small loan.
+1	He	he	PRON	_	_	_	_	_	_
+2	pays	pay	VERB	_	_	_	_	_	_
+3	interest	interest	NOUN	_	_	_	_	_	_
+4	on	on	ADP	_	_	_	_	_	_
+5	his	his	PRON	_	_	_	_	_	_
+6	small	small	ADJ	_	_	_	_	_	_
+7	loan	loan	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_299
+# text = We receive a statement by email monthly.
+1	We	we	PRON	_	_	_	_	_	_
+2	receive	receive	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	statement	statement	NOUN	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	email	email	NOUN	_	_	_	_	_	_
+7	monthly	monthly	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_300
+# text = I report a lost card to the bank.
+1	I	I	PRON	_	_	_	_	_	_
+2	report	report	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	lost	lose	VERB	_	_	_	_	_	_
+5	card	card	NOUN	_	_	_	_	_	_
+6	to	to	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	bank	bank	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_301
+# text = This gym is bigger than the old one.
+1	This	this	DET	_	_	_	_	_	_
+2	gym	gym	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	bigger	big	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	old	old	ADJ	_	_	_	_	_	_
+8	one	one	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_302
+# text = She plays tennis better than her sister.
+1	She	she	PRON	_	_	_	_	_	_
+2	plays	play	VERB	_	_	_	_	_	_
+3	tennis	tenni	NOUN	_	_	_	_	_	_
+4	better	good	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	her	her	PRON	_	_	_	_	_	_
+7	sister	sister	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_303
+# text = The festival was louder than the concert.
+1	The	the	DET	_	_	_	_	_	_
+2	festival	festival	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	louder	loud	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	concert	concert	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_304
+# text = He is as fit as his coach now.
+1	He	he	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	as	as	SCONJ	_	_	_	_	_	_
+4	fit	fit	ADJ	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	his	his	PRON	_	_	_	_	_	_
+7	coach	coach	NOUN	_	_	_	_	_	_
+8	now	now	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_305
+# text = Today feels colder than it did yesterday.
+1	Today	today	ADV	_	_	_	_	_	_
+2	feels	feel	VERB	_	_	_	_	_	_
+3	colder	cold	ADJ	_	_	_	_	_	_
+4	than	than	SCONJ	_	_	_	_	_	_
+5	it	it	PRON	_	_	_	_	_	_
+6	did	do	AUX	_	_	_	_	_	_
+7	yesterday	yesterday	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_306
+# text = My phone is newer than your phone.
+1	My	my	PRON	_	_	_	_	_	_
+2	phone	phone	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	newer	new	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	your	your	PRON	_	_	_	_	_	_
+7	phone	phone	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_307
+# text = She speaks more clearly than he does.
+1	She	she	PRON	_	_	_	_	_	_
+2	speaks	speak	VERB	_	_	_	_	_	_
+3	more	more	ADV	_	_	_	_	_	_
+4	clearly	clearly	ADV	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	he	he	PRON	_	_	_	_	_	_
+7	does	do	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_308
+# text = The bank is closer than the post office.
+1	The	the	DET	_	_	_	_	_	_
+2	bank	bank	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	closer	close	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	post	post	NOUN	_	_	_	_	_	_
+8	office	office	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_309
+# text = He runs as far as the bridge every day.
+1	He	he	PRON	_	_	_	_	_	_
+2	runs	run	VERB	_	_	_	_	_	_
+3	as	as	SCONJ	_	_	_	_	_	_
+4	far	far	ADV	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bridge	bridge	NOUN	_	_	_	_	_	_
+8	every	every	DET	_	_	_	_	_	_
+9	day	day	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_310
+# text = This team is stronger than the other team.
+1	This	this	DET	_	_	_	_	_	_
+2	team	team	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	stronger	strong	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	other	oth	ADJ	_	_	_	_	_	_
+8	team	team	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_311
+# text = I sleep less than my roommate does.
+1	I	I	PRON	_	_	_	_	_	_
+2	sleep	sleep	VERB	_	_	_	_	_	_
+3	less	less	ADV	_	_	_	_	_	_
+4	than	than	SCONJ	_	_	_	_	_	_
+5	my	my	PRON	_	_	_	_	_	_
+6	roommate	roommate	NOUN	_	_	_	_	_	_
+7	does	do	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_312
+# text = The park is as quiet as the library.
+1	The	the	DET	_	_	_	_	_	_
+2	park	park	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	as	as	SCONJ	_	_	_	_	_	_
+5	quiet	quiet	ADJ	_	_	_	_	_	_
+6	as	as	SCONJ	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	library	library	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_313
+# text = She earns more money than her colleague.
+1	She	she	PRON	_	_	_	_	_	_
+2	earns	earn	VERB	_	_	_	_	_	_
+3	more	more	ADV	_	_	_	_	_	_
+4	money	money	NOUN	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	her	her	PRON	_	_	_	_	_	_
+7	colleague	colleague	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_314
+# text = Winter sports are harder than summer sports.
+1	Winter	Winter	PROPN	_	_	_	_	_	_
+2	sports	sport	NOUN	_	_	_	_	_	_
+3	are	be	AUX	_	_	_	_	_	_
+4	harder	hard	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	summer	summer	NOUN	_	_	_	_	_	_
+7	sports	sport	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_315
+# text = He is younger than his older brother.
+1	He	he	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	younger	young	ADJ	_	_	_	_	_	_
+4	than	than	SCONJ	_	_	_	_	_	_
+5	his	his	PRON	_	_	_	_	_	_
+6	older	old	ADJ	_	_	_	_	_	_
+7	brother	brother	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_316
+# text = The cake is sweeter than the bread.
+1	The	the	DET	_	_	_	_	_	_
+2	cake	cake	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	sweeter	sweet	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bread	bread	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_317
+# text = We arrive earlier than they do tonight.
+1	We	we	PRON	_	_	_	_	_	_
+2	arrive	arrive	VERB	_	_	_	_	_	_
+3	earlier	early	ADV	_	_	_	_	_	_
+4	than	than	SCONJ	_	_	_	_	_	_
+5	they	they	PRON	_	_	_	_	_	_
+6	do	do	AUX	_	_	_	_	_	_
+7	tonight	tonight	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_318
+# text = This street is narrower than the main road.
+1	This	this	DET	_	_	_	_	_	_
+2	street	street	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	narrower	narrow	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	main	main	ADJ	_	_	_	_	_	_
+8	road	road	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_319
+# text = She dances as gracefully as her teacher.
+1	She	she	PRON	_	_	_	_	_	_
+2	dances	dance	VERB	_	_	_	_	_	_
+3	as	as	SCONJ	_	_	_	_	_	_
+4	gracefully	gracefully	ADV	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	her	her	PRON	_	_	_	_	_	_
+7	teacher	teacher	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_320
+# text = The match was more exciting than the film.
+1	The	the	DET	_	_	_	_	_	_
+2	match	match	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	more	more	ADV	_	_	_	_	_	_
+5	exciting	exciting	ADJ	_	_	_	_	_	_
+6	than	than	SCONJ	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	film	film	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_321
+# text = I feel happier than I did last week.
+1	I	I	PRON	_	_	_	_	_	_
+2	feel	feel	VERB	_	_	_	_	_	_
+3	happier	happy	ADJ	_	_	_	_	_	_
+4	than	than	SCONJ	_	_	_	_	_	_
+5	I	I	PRON	_	_	_	_	_	_
+6	did	do	AUX	_	_	_	_	_	_
+7	last	last	ADJ	_	_	_	_	_	_
+8	week	week	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_322
+# text = His car is faster than my old bike.
+1	His	his	PRON	_	_	_	_	_	_
+2	car	car	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	faster	fast	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	my	my	PRON	_	_	_	_	_	_
+7	old	old	ADJ	_	_	_	_	_	_
+8	bike	bike	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_323
+# text = The market is as crowded as the mall.
+1	The	the	DET	_	_	_	_	_	_
+2	market	market	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	as	as	SCONJ	_	_	_	_	_	_
+5	crowded	crowded	ADJ	_	_	_	_	_	_
+6	as	as	SCONJ	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	mall	mall	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_324
+# text = She reads faster than most of her classmates.
+1	She	she	PRON	_	_	_	_	_	_
+2	reads	read	VERB	_	_	_	_	_	_
+3	faster	fast	ADJ	_	_	_	_	_	_
+4	than	than	SCONJ	_	_	_	_	_	_
+5	most	most	ADV	_	_	_	_	_	_
+6	of	of	ADP	_	_	_	_	_	_
+7	her	her	PRON	_	_	_	_	_	_
+8	classmates	classmate	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_325
+# text = This jacket is warmer than that thin shirt.
+1	This	this	DET	_	_	_	_	_	_
+2	jacket	jacket	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	warmer	warm	ADJ	_	_	_	_	_	_
+5	than	than	SCONJ	_	_	_	_	_	_
+6	that	that	DET	_	_	_	_	_	_
+7	thin	thin	ADJ	_	_	_	_	_	_
+8	shirt	shirt	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_326
+# text = I turn on the radio in the morning.
+1	I	I	PRON	_	_	_	_	_	_
+2	turn	turn	VERB	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	radio	radio	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	morning	morning	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_327
+# text = She takes off her shoes at the door.
+1	She	she	PRON	_	_	_	_	_	_
+2	takes	take	VERB	_	_	_	_	_	_
+3	off	off	ADP	_	_	_	_	_	_
+4	her	her	PRON	_	_	_	_	_	_
+5	shoes	shoe	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	door	door	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_328
+# text = He picks up the kids after school.
+1	He	he	PRON	_	_	_	_	_	_
+2	picks	pick	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	kids	kid	NOUN	_	_	_	_	_	_
+6	after	after	ADP	_	_	_	_	_	_
+7	school	school	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_329
+# text = We sit down and talk about the plan.
+1	We	we	PRON	_	_	_	_	_	_
+2	sit	sit	VERB	_	_	_	_	_	_
+3	down	down	ADP	_	_	_	_	_	_
+4	and	and	CCONJ	_	_	_	_	_	_
+5	talk	talk	VERB	_	_	_	_	_	_
+6	about	about	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	plan	plan	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_330
+# text = I look up the word in my dictionary.
+1	I	I	PRON	_	_	_	_	_	_
+2	look	look	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	word	word	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	my	my	PRON	_	_	_	_	_	_
+8	dictionary	dictionary	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_331
+# text = She fills out the form at the bank.
+1	She	she	PRON	_	_	_	_	_	_
+2	fills	fill	VERB	_	_	_	_	_	_
+3	out	out	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	form	form	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	bank	bank	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_332
+# text = He gives up smoking after the check-up.
+1	He	he	PRON	_	_	_	_	_	_
+2	gives	give	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	smoking	smoking	NOUN	_	_	_	_	_	_
+5	after	after	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	check-up	check	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_333
+# text = We clean up the kitchen after dinner.
+1	We	we	PRON	_	_	_	_	_	_
+2	clean	clean	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	kitchen	kitchen	NOUN	_	_	_	_	_	_
+6	after	after	ADP	_	_	_	_	_	_
+7	dinner	dinner	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_334
+# text = I write down the address on the paper.
+1	I	I	PRON	_	_	_	_	_	_
+2	write	write	VERB	_	_	_	_	_	_
+3	down	down	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	address	address	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	paper	paper	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_335
+# text = She wakes up late on Sunday morning.
+1	She	she	PRON	_	_	_	_	_	_
+2	wakes	wake	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	late	late	ADV	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	Sunday	Sunday	PROPN	_	_	_	_	_	_
+7	morning	morning	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_336
+# text = He puts away his clothes in the closet.
+1	He	he	PRON	_	_	_	_	_	_
+2	puts	put	VERB	_	_	_	_	_	_
+3	away	away	ADP	_	_	_	_	_	_
+4	his	his	PRON	_	_	_	_	_	_
+5	clothes	clothes	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	closet	closet	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_337
+# text = We set up the tent at the campsite.
+1	We	we	PRON	_	_	_	_	_	_
+2	set	set	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	tent	tent	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	campsite	campsite	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_338
+# text = I throw away the old newspapers today.
+1	I	I	PRON	_	_	_	_	_	_
+2	throw	throw	VERB	_	_	_	_	_	_
+3	away	away	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	old	old	ADJ	_	_	_	_	_	_
+6	newspapers	newspaper	NOUN	_	_	_	_	_	_
+7	today	today	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_339
+# text = She looks after her little brother tonight.
+1	She	she	PRON	_	_	_	_	_	_
+2	looks	look	VERB	_	_	_	_	_	_
+3	after	after	ADP	_	_	_	_	_	_
+4	her	her	PRON	_	_	_	_	_	_
+5	little	little	ADJ	_	_	_	_	_	_
+6	brother	brother	NOUN	_	_	_	_	_	_
+7	tonight	tonight	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_340
+# text = He runs out of milk before breakfast.
+1	He	he	PRON	_	_	_	_	_	_
+2	runs	run	VERB	_	_	_	_	_	_
+3	out	out	ADP	_	_	_	_	_	_
+4	of	of	ADP	_	_	_	_	_	_
+5	milk	milk	NOUN	_	_	_	_	_	_
+6	before	before	ADP	_	_	_	_	_	_
+7	breakfast	breakfast	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_341
+# text = We grow up in the same small town.
+1	We	we	PRON	_	_	_	_	_	_
+2	grow	grow	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	same	same	ADJ	_	_	_	_	_	_
+7	small	small	ADJ	_	_	_	_	_	_
+8	town	town	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_342
+# text = I switch off the TV before bed.
+1	I	I	PRON	_	_	_	_	_	_
+2	switch	switch	VERB	_	_	_	_	_	_
+3	off	off	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	TV	TV	PROPN	_	_	_	_	_	_
+6	before	before	ADP	_	_	_	_	_	_
+7	bed	bed	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_343
+# text = She hands in her homework on Monday.
+1	She	she	PRON	_	_	_	_	_	_
+2	hands	hand	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	her	her	PRON	_	_	_	_	_	_
+5	homework	homework	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	Monday	Monday	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_344
+# text = He carries on working after the break.
+1	He	he	PRON	_	_	_	_	_	_
+2	carries	carry	VERB	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	working	work	VERB	_	_	_	_	_	_
+5	after	after	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	break	break	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_345
+# text = We cheer up our sad friend after school.
+1	We	we	PRON	_	_	_	_	_	_
+2	cheer	cheer	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	our	our	PRON	_	_	_	_	_	_
+5	sad	sad	ADJ	_	_	_	_	_	_
+6	friend	friend	NOUN	_	_	_	_	_	_
+7	after	after	ADP	_	_	_	_	_	_
+8	school	school	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_346
+# text = I try on the blue jacket in the shop.
+1	I	I	PRON	_	_	_	_	_	_
+2	try	try	VERB	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	blue	blue	ADJ	_	_	_	_	_	_
+6	jacket	jacket	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	the	the	DET	_	_	_	_	_	_
+9	shop	shop	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_347
+# text = She calms down after the phone call ends.
+1	She	she	PRON	_	_	_	_	_	_
+2	calms	calm	VERB	_	_	_	_	_	_
+3	down	down	ADP	_	_	_	_	_	_
+4	after	after	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	phone	phone	NOUN	_	_	_	_	_	_
+7	call	call	NOUN	_	_	_	_	_	_
+8	ends	end	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_348
+# text = He checks in at the hotel reception.
+1	He	he	PRON	_	_	_	_	_	_
+2	checks	check	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	hotel	hotel	NOUN	_	_	_	_	_	_
+7	reception	reception	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_349
+# text = We work out at the gym every Tuesday.
+1	We	we	PRON	_	_	_	_	_	_
+2	work	work	VERB	_	_	_	_	_	_
+3	out	out	ADP	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	gym	gym	NOUN	_	_	_	_	_	_
+7	every	every	DET	_	_	_	_	_	_
+8	Tuesday	Tuesday	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_350
+# text = I call off the picnic because of rain.
+1	I	I	PRON	_	_	_	_	_	_
+2	call	call	VERB	_	_	_	_	_	_
+3	off	off	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	picnic	picnic	NOUN	_	_	_	_	_	_
+6	because	because	SCONJ	_	_	_	_	_	_
+7	of	of	ADP	_	_	_	_	_	_
+8	rain	rain	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_351
+# text = I hurt myself while I was playing football.
+1	I	I	PRON	_	_	_	_	_	_
+2	hurt	hurt	VERB	_	_	_	_	_	_
+3	myself	myself	PRON	_	_	_	_	_	_
+4	while	while	SCONJ	_	_	_	_	_	_
+5	I	I	PRON	_	_	_	_	_	_
+6	was	be	AUX	_	_	_	_	_	_
+7	playing	play	VERB	_	_	_	_	_	_
+8	football	football	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_352
+# text = She checks herself in the mirror before the show.
+1	She	she	PRON	_	_	_	_	_	_
+2	checks	check	VERB	_	_	_	_	_	_
+3	herself	herself	PRON	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	mirror	mirror	NOUN	_	_	_	_	_	_
+7	before	before	ADP	_	_	_	_	_	_
+8	the	the	DET	_	_	_	_	_	_
+9	show	show	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_353
+# text = He blames himself for the lost match.
+1	He	he	PRON	_	_	_	_	_	_
+2	blames	blame	VERB	_	_	_	_	_	_
+3	himself	himself	PRON	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	lost	lose	VERB	_	_	_	_	_	_
+7	match	match	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_354
+# text = We enjoy ourselves at the music festival.
+1	We	we	PRON	_	_	_	_	_	_
+2	enjoy	enjoy	VERB	_	_	_	_	_	_
+3	ourselves	ourselves	PRON	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	music	music	NOUN	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_355
+# text = I teach myself new words every week.
+1	I	I	PRON	_	_	_	_	_	_
+2	teach	teach	VERB	_	_	_	_	_	_
+3	myself	myself	PRON	_	_	_	_	_	_
+4	new	new	ADJ	_	_	_	_	_	_
+5	words	word	NOUN	_	_	_	_	_	_
+6	every	every	DET	_	_	_	_	_	_
+7	week	week	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_356
+# text = She buys herself a new pair of shoes.
+1	She	she	PRON	_	_	_	_	_	_
+2	buys	buy	VERB	_	_	_	_	_	_
+3	herself	herself	PRON	_	_	_	_	_	_
+4	a	a	DET	_	_	_	_	_	_
+5	new	new	ADJ	_	_	_	_	_	_
+6	pair	pair	NOUN	_	_	_	_	_	_
+7	of	of	ADP	_	_	_	_	_	_
+8	shoes	shoe	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_357
+# text = They help themselves to food at the party.
+1	They	they	PRON	_	_	_	_	_	_
+2	help	help	VERB	_	_	_	_	_	_
+3	themselves	themselves	PRON	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	food	food	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	party	party	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_358
+# text = He reminds himself to call the bank.
+1	He	he	PRON	_	_	_	_	_	_
+2	reminds	remind	VERB	_	_	_	_	_	_
+3	himself	himself	PRON	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	call	call	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bank	bank	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_359
+# text = I wash myself quickly before the meeting.
+1	I	I	PRON	_	_	_	_	_	_
+2	wash	wash	VERB	_	_	_	_	_	_
+3	myself	myself	PRON	_	_	_	_	_	_
+4	quickly	quickly	ADV	_	_	_	_	_	_
+5	before	before	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	meeting	meeting	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_360
+# text = She prepares herself for the big race.
+1	She	she	PRON	_	_	_	_	_	_
+2	prepares	prepare	VERB	_	_	_	_	_	_
+3	herself	herself	PRON	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	big	big	ADJ	_	_	_	_	_	_
+7	race	race	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_361
+# text = We introduce ourselves to the new neighbours.
+1	We	we	PRON	_	_	_	_	_	_
+2	introduce	introduce	VERB	_	_	_	_	_	_
+3	ourselves	ourselves	PRON	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	new	new	ADJ	_	_	_	_	_	_
+7	neighbours	neighbour	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_362
+# text = He pushes himself harder during every workout.
+1	He	he	PRON	_	_	_	_	_	_
+2	pushes	push	VERB	_	_	_	_	_	_
+3	himself	himself	PRON	_	_	_	_	_	_
+4	harder	hard	ADJ	_	_	_	_	_	_
+5	during	during	ADP	_	_	_	_	_	_
+6	every	every	DET	_	_	_	_	_	_
+7	workout	workout	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_363
+# text = I ask myself why the plan failed.
+1	I	I	PRON	_	_	_	_	_	_
+2	ask	ask	VERB	_	_	_	_	_	_
+3	myself	myself	PRON	_	_	_	_	_	_
+4	why	why	ADV	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	plan	plan	NOUN	_	_	_	_	_	_
+7	failed	fail	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_364
+# text = She looks at herself in the mirror.
+1	She	she	PRON	_	_	_	_	_	_
+2	looks	look	VERB	_	_	_	_	_	_
+3	at	at	ADP	_	_	_	_	_	_
+4	herself	herself	PRON	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	mirror	mirror	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_365
+# text = They seat themselves near the festival stage.
+1	They	they	PRON	_	_	_	_	_	_
+2	seat	seat	VERB	_	_	_	_	_	_
+3	themselves	themselves	PRON	_	_	_	_	_	_
+4	near	near	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	festival	festival	NOUN	_	_	_	_	_	_
+7	stage	stage	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_366
+# text = He finds himself alone at the bus stop.
+1	He	he	PRON	_	_	_	_	_	_
+2	finds	find	VERB	_	_	_	_	_	_
+3	himself	himself	PRON	_	_	_	_	_	_
+4	alone	alone	ADJ	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bus	bu	NOUN	_	_	_	_	_	_
+8	stop	stop	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_367
+# text = I tell myself to stay calm on the phone.
+1	I	I	PRON	_	_	_	_	_	_
+2	tell	tell	VERB	_	_	_	_	_	_
+3	myself	myself	PRON	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	stay	stay	VERB	_	_	_	_	_	_
+6	calm	calm	ADJ	_	_	_	_	_	_
+7	on	on	ADP	_	_	_	_	_	_
+8	the	the	DET	_	_	_	_	_	_
+9	phone	phone	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_368
+# text = She treats herself to coffee after the run.
+1	She	she	PRON	_	_	_	_	_	_
+2	treats	treat	VERB	_	_	_	_	_	_
+3	herself	herself	PRON	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	coffee	coffee	NOUN	_	_	_	_	_	_
+6	after	after	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	run	run	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_369
+# text = We prepare ourselves for the dance show tonight.
+1	We	we	PRON	_	_	_	_	_	_
+2	prepare	prepare	VERB	_	_	_	_	_	_
+3	ourselves	ourselves	PRON	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	dance	dance	NOUN	_	_	_	_	_	_
+7	show	show	NOUN	_	_	_	_	_	_
+8	tonight	tonight	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_370
+# text = He cuts himself while he chops vegetables.
+1	He	he	PRON	_	_	_	_	_	_
+2	cuts	cut	VERB	_	_	_	_	_	_
+3	himself	himself	PRON	_	_	_	_	_	_
+4	while	while	SCONJ	_	_	_	_	_	_
+5	he	he	PRON	_	_	_	_	_	_
+6	chops	chop	VERB	_	_	_	_	_	_
+7	vegetables	vegetable	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_371
+# text = I pride myself on my good handwriting.
+1	I	I	PRON	_	_	_	_	_	_
+2	pride	pride	VERB	_	_	_	_	_	_
+3	myself	myself	PRON	_	_	_	_	_	_
+4	on	on	ADP	_	_	_	_	_	_
+5	my	my	PRON	_	_	_	_	_	_
+6	good	good	ADJ	_	_	_	_	_	_
+7	handwriting	handwriting	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_372
+# text = She distances herself from the loud crowd.
+1	She	she	PRON	_	_	_	_	_	_
+2	distances	distance	VERB	_	_	_	_	_	_
+3	herself	herself	PRON	_	_	_	_	_	_
+4	from	from	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	loud	loud	ADJ	_	_	_	_	_	_
+7	crowd	crowd	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_373
+# text = They organize themselves into two small teams.
+1	They	they	PRON	_	_	_	_	_	_
+2	organize	organize	VERB	_	_	_	_	_	_
+3	themselves	themselves	PRON	_	_	_	_	_	_
+4	into	into	ADP	_	_	_	_	_	_
+5	two	two	NUM	_	_	_	_	_	_
+6	small	small	ADJ	_	_	_	_	_	_
+7	teams	team	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_374
+# text = He challenges himself with harder exercises.
+1	He	he	PRON	_	_	_	_	_	_
+2	challenges	challenge	VERB	_	_	_	_	_	_
+3	himself	himself	PRON	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	harder	hard	ADJ	_	_	_	_	_	_
+6	exercises	exercise	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_375
+# text = I remind myself to save money each month.
+1	I	I	PRON	_	_	_	_	_	_
+2	remind	remind	VERB	_	_	_	_	_	_
+3	myself	myself	PRON	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	save	save	VERB	_	_	_	_	_	_
+6	money	money	NOUN	_	_	_	_	_	_
+7	each	each	DET	_	_	_	_	_	_
+8	month	month	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_376
+# text = I join my friends for a picnic in May.
+1	I	I	PRON	_	_	_	_	_	_
+2	join	join	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	friends	friend	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	picnic	picnic	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	May	May	PROPN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_377
+# text = She sends an email to the bank manager.
+1	She	she	PRON	_	_	_	_	_	_
+2	sends	send	VERB	_	_	_	_	_	_
+3	an	an	DET	_	_	_	_	_	_
+4	email	email	NOUN	_	_	_	_	_	_
+5	to	to	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	bank	bank	NOUN	_	_	_	_	_	_
+8	manager	manager	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_378
+# text = We rent bikes and ride along the coast.
+1	We	we	PRON	_	_	_	_	_	_
+2	rent	rent	VERB	_	_	_	_	_	_
+3	bikes	bike	NOUN	_	_	_	_	_	_
+4	and	and	CCONJ	_	_	_	_	_	_
+5	ride	ride	VERB	_	_	_	_	_	_
+6	along	along	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	coast	coast	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_379
+# text = He repairs his racket before the tennis match.
+1	He	he	PRON	_	_	_	_	_	_
+2	repairs	repair	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	racket	racket	NOUN	_	_	_	_	_	_
+5	before	before	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	tennis	tenni	NOUN	_	_	_	_	_	_
+8	match	match	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_380
+# text = I pack snacks for the long festival day.
+1	I	I	PRON	_	_	_	_	_	_
+2	pack	pack	VERB	_	_	_	_	_	_
+3	snacks	snack	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	long	long	ADJ	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	day	day	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_381
+# text = She shares her seat on the crowded bus.
+1	She	she	PRON	_	_	_	_	_	_
+2	shares	share	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	seat	seat	NOUN	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	crowded	crowded	ADJ	_	_	_	_	_	_
+8	bus	bu	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_382
+# text = We plan a short trip for the spring break.
+1	We	we	PRON	_	_	_	_	_	_
+2	plan	plan	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	short	short	ADJ	_	_	_	_	_	_
+5	trip	trip	NOUN	_	_	_	_	_	_
+6	for	for	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	spring	spring	NOUN	_	_	_	_	_	_
+9	break	break	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_383
+# text = He writes a short note for his teacher.
+1	He	he	PRON	_	_	_	_	_	_
+2	writes	write	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	short	short	ADJ	_	_	_	_	_	_
+5	note	note	NOUN	_	_	_	_	_	_
+6	for	for	ADP	_	_	_	_	_	_
+7	his	his	PRON	_	_	_	_	_	_
+8	teacher	teacher	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_384
+# text = I borrow a book about sports from the library.
+1	I	I	PRON	_	_	_	_	_	_
+2	borrow	borrow	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	book	book	NOUN	_	_	_	_	_	_
+5	about	about	ADP	_	_	_	_	_	_
+6	sports	sport	NOUN	_	_	_	_	_	_
+7	from	from	ADP	_	_	_	_	_	_
+8	the	the	DET	_	_	_	_	_	_
+9	library	library	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_385
+# text = She finds a quiet spot near the river bank.
+1	She	she	PRON	_	_	_	_	_	_
+2	finds	find	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	quiet	quiet	ADJ	_	_	_	_	_	_
+5	spot	spot	NOUN	_	_	_	_	_	_
+6	near	near	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	river	river	NOUN	_	_	_	_	_	_
+9	bank	bank	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_386
+# text = We laugh together at the funny carnival masks.
+1	We	we	PRON	_	_	_	_	_	_
+2	laugh	laugh	VERB	_	_	_	_	_	_
+3	together	together	ADV	_	_	_	_	_	_
+4	at	at	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	funny	funny	ADJ	_	_	_	_	_	_
+7	carnival	carnival	NOUN	_	_	_	_	_	_
+8	masks	mask	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_387
+# text = He orders tea and sits by the window.
+1	He	he	PRON	_	_	_	_	_	_
+2	orders	order	VERB	_	_	_	_	_	_
+3	tea	tea	NOUN	_	_	_	_	_	_
+4	and	and	CCONJ	_	_	_	_	_	_
+5	sits	sit	VERB	_	_	_	_	_	_
+6	by	by	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	window	window	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_388
+# text = I return the sports equipment after the lesson.
+1	I	I	PRON	_	_	_	_	_	_
+2	return	return	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	sports	sport	NOUN	_	_	_	_	_	_
+5	equipment	equipment	NOUN	_	_	_	_	_	_
+6	after	after	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	lesson	lesson	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_389
+# text = She learns a new dance for the village fair.
+1	She	she	PRON	_	_	_	_	_	_
+2	learns	learn	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	new	new	ADJ	_	_	_	_	_	_
+5	dance	dance	NOUN	_	_	_	_	_	_
+6	for	for	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	village	village	NOUN	_	_	_	_	_	_
+9	fair	fair	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_390
+# text = We thank the staff for their friendly help.
+1	We	we	PRON	_	_	_	_	_	_
+2	thank	thank	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	staff	staff	NOUN	_	_	_	_	_	_
+5	for	for	ADP	_	_	_	_	_	_
+6	their	their	PRON	_	_	_	_	_	_
+7	friendly	friendly	ADJ	_	_	_	_	_	_
+8	help	help	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_391
+# text = He keeps his festival tickets in his wallet.
+1	He	he	PRON	_	_	_	_	_	_
+2	keeps	keep	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	festival	festival	NOUN	_	_	_	_	_	_
+5	tickets	ticket	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	his	his	PRON	_	_	_	_	_	_
+8	wallet	wallet	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_392
+# text = I meet my coach at the sports ground.
+1	I	I	PRON	_	_	_	_	_	_
+2	meet	meet	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	coach	coach	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	sports	sport	NOUN	_	_	_	_	_	_
+8	ground	ground	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_393
+# text = She listens carefully to the phone instructions.
+1	She	she	PRON	_	_	_	_	_	_
+2	listens	listen	VERB	_	_	_	_	_	_
+3	carefully	carefully	ADV	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	phone	phone	NOUN	_	_	_	_	_	_
+7	instructions	instruction	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_394
+# text = We choose a gift at the market stall.
+1	We	we	PRON	_	_	_	_	_	_
+2	choose	choose	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	gift	gift	NOUN	_	_	_	_	_	_
+5	at	at	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	market	market	NOUN	_	_	_	_	_	_
+8	stall	stall	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_395
+# text = He smiles when he sees his team win.
+1	He	he	PRON	_	_	_	_	_	_
+2	smiles	smile	VERB	_	_	_	_	_	_
+3	when	when	SCONJ	_	_	_	_	_	_
+4	he	he	PRON	_	_	_	_	_	_
+5	sees	see	VERB	_	_	_	_	_	_
+6	his	his	PRON	_	_	_	_	_	_
+7	team	team	NOUN	_	_	_	_	_	_
+8	win	win	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_396
+# text = I read the festival programme before we go.
+1	I	I	PRON	_	_	_	_	_	_
+2	read	read	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	festival	festival	NOUN	_	_	_	_	_	_
+5	programme	programme	NOUN	_	_	_	_	_	_
+6	before	before	ADP	_	_	_	_	_	_
+7	we	we	PRON	_	_	_	_	_	_
+8	go	go	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_397
+# text = She waits patiently in the bank queue.
+1	She	she	PRON	_	_	_	_	_	_
+2	waits	wait	VERB	_	_	_	_	_	_
+3	patiently	patiently	ADV	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	bank	bank	NOUN	_	_	_	_	_	_
+7	queue	queue	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_398
+# text = We walk home slowly after the late concert.
+1	We	we	PRON	_	_	_	_	_	_
+2	walk	walk	VERB	_	_	_	_	_	_
+3	home	home	ADV	_	_	_	_	_	_
+4	slowly	slowly	ADV	_	_	_	_	_	_
+5	after	after	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	late	late	ADV	_	_	_	_	_	_
+8	concert	concert	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_399
+# text = He turns up the volume on the radio.
+1	He	he	PRON	_	_	_	_	_	_
+2	turns	turn	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	volume	volume	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	radio	radio	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a2_train_400
+# text = I feel proud after my first swimming medal.
+1	I	I	PRON	_	_	_	_	_	_
+2	feel	feel	VERB	_	_	_	_	_	_
+3	proud	proud	ADJ	_	_	_	_	_	_
+4	after	after	ADP	_	_	_	_	_	_
+5	my	my	PRON	_	_	_	_	_	_
+6	first	first	ADJ	_	_	_	_	_	_
+7	swimming	swim	NOUN	_	_	_	_	_	_
+8	medal	medal	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+

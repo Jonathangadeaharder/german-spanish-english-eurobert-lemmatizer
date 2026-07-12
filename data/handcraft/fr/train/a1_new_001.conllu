@@ -1,0 +1,1884 @@
+# sent_id = fr_a1_train_001
+# text = Bonjour, comment vas-tu?
+1	Bonjour	bonjour	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	comment	comment	ADV	_	_	_	_	_	_
+4	vas-tu	vas-tu	X	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_002
+# text = Je m'appelle Marie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	m'appelle	m'appelle	X	_	_	_	_	_	_
+3	Marie	Marie	X	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_003
+# text = Salut, je suis Paul.
+1	Salut	salut	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	je	je	PRON	_	_	_	_	_	_
+4	suis	être	AUX	_	_	_	_	_	_
+5	Paul	Paul	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_004
+# text = Enchanté de te rencontrer.
+1	Enchanté	enchanter	VERB	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	te	te	PRON	_	_	_	_	_	_
+4	rencontrer	rencontrer	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_005
+# text = Comment tu t'appelles?
+1	Comment	comment	ADV	_	_	_	_	_	_
+2	tu	tu	PRON	_	_	_	_	_	_
+3	t'appelles	t'appelles	X	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_006
+# text = Au revoir, à bientôt!
+1	Au	Au	X	_	_	_	_	_	_
+2	revoir	revoir	X	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	à	à	X	_	_	_	_	_	_
+5	bientôt	bientôt	X	_	_	_	_	_	_
+6	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_007
+# text = Bonsoir, madame Martin.
+1	Bonsoir	bonsoir	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	madame	madame	NOUN	_	_	_	_	_	_
+4	Martin	Martin	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_008
+# text = Bonne journée à toi!
+1	Bonne	bon	ADJ	_	_	_	_	_	_
+2	journée	journée	NOUN	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	toi	toi	PRON	_	_	_	_	_	_
+5	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_009
+# text = Ça va bien, merci.
+1	Ça	ça	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	bien	bien	ADV	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	merci	merci	INTJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_010
+# text = Je ne comprends pas.
+1	Je	je	PRON	_	_	_	_	_	_
+2	ne	ne	PART	_	_	_	_	_	_
+3	comprends	comprendre	VERB	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_011
+# text = Parlez-vous français?
+1	Parlez-vous	Parlez-vous	X	_	_	_	_	_	_
+2	français	français	X	_	_	_	_	_	_
+3	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_012
+# text = Oui, je parle français.
+1	Oui	oui	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	je	je	PRON	_	_	_	_	_	_
+4	parle	parler	VERB	_	_	_	_	_	_
+5	français	français	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_013
+# text = Non, je ne parle pas anglais.
+1	Non	non	ADV	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	je	je	PRON	_	_	_	_	_	_
+4	ne	ne	PART	_	_	_	_	_	_
+5	parle	parler	VERB	_	_	_	_	_	_
+6	pas	pas	ADV	_	_	_	_	_	_
+7	anglais	anglais	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_014
+# text = S'il vous plaît, aidez-moi.
+1	S'il	S'il	X	_	_	_	_	_	_
+2	vous	vous	PRON	_	_	_	_	_	_
+3	plaît	plaît	X	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	aidez-moi	aidez-moi	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_015
+# text = Merci beaucoup, monsieur.
+1	Merci	merci	INTJ	_	_	_	_	_	_
+2	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	monsieur	monsieur	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_016
+# text = De rien, c'est gentil.
+1	De	un	DET	_	_	_	_	_	_
+2	rien	rien	PRON	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	c'est	c'est	X	_	_	_	_	_	_
+5	gentil	gentil	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_017
+# text = Pardon, où est la sortie?
+1	Pardon	pardon	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	où	où	PRON	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	sortie	sortie	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_018
+# text = Excusez-moi, je suis en retard.
+1	Excusez-moi	Excusez-moi	X	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	je	je	PRON	_	_	_	_	_	_
+4	suis	être	AUX	_	_	_	_	_	_
+5	en	en	PRON	_	_	_	_	_	_
+6	retard	retard	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_019
+# text = Bienvenue dans notre maison!
+1	Bienvenue	bienvenue	VERB	_	_	_	_	_	_
+2	dans	dans	ADP	_	_	_	_	_	_
+3	notre	notre	DET	_	_	_	_	_	_
+4	maison	maison	NOUN	_	_	_	_	_	_
+5	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_020
+# text = À demain, bonne nuit!
+1	À	à	ADP	_	_	_	_	_	_
+2	demain	demain	ADV	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	bonne	bon	ADJ	_	_	_	_	_	_
+5	nuit	nuit	NOUN	_	_	_	_	_	_
+6	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_021
+# text = Comment allez-vous aujourd'hui?
+1	Comment	comment	ADV	_	_	_	_	_	_
+2	allez-vous	allez-vous	X	_	_	_	_	_	_
+3	aujourd'hui	aujourd'hui	X	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_022
+# text = Très bien, et vous?
+1	Très	très	ADV	_	_	_	_	_	_
+2	bien	bien	ADV	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	et	et	CCONJ	_	_	_	_	_	_
+5	vous	vous	PRON	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_023
+# text = Je suis content de vous voir.
+1	Je	je	PRON	_	_	_	_	_	_
+2	suis	être	AUX	_	_	_	_	_	_
+3	content	content	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	vous	vous	PRON	_	_	_	_	_	_
+6	voir	voir	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_024
+# text = À tout à l'heure, les amis!
+1	À	à	ADP	_	_	_	_	_	_
+2	tout	tout	PRON	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	l'heure	l'heure	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	amis	amis	X	_	_	_	_	_	_
+8	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_025
+# text = Bonjour, mon cher ami!
+1	Bonjour	bonjour	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	mon	mon	DET	_	_	_	_	_	_
+4	cher	cher	ADJ	_	_	_	_	_	_
+5	ami	ami	NOUN	_	_	_	_	_	_
+6	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_026
+# text = Ma mère cuisine bien.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	mère	mère	NOUN	_	_	_	_	_	_
+3	cuisine	cuisine	NOUN	_	_	_	_	_	_
+4	bien	bien	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_027
+# text = Mon père travaille à Paris.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	père	père	NOUN	_	_	_	_	_	_
+3	travaille	travailler	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	Paris	Paris	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_028
+# text = J'ai une sœur et un frère.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	une	un	DET	_	_	_	_	_	_
+3	sœur	sœur	X	_	_	_	_	_	_
+4	et	et	CCONJ	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	frère	frère	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_029
+# text = Ma grand-mère habite à Lyon.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	grand-mère	grand-mère	NOUN	_	_	_	_	_	_
+3	habite	habiter	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	Lyon	Lyon	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_030
+# text = Mon oncle est très gentil.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	oncle	oncle	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	très	très	ADV	_	_	_	_	_	_
+5	gentil	gentil	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_031
+# text = Elle a deux enfants.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	VERB	_	_	_	_	_	_
+3	deux	deux	NUM	_	_	_	_	_	_
+4	enfants	enfant	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_032
+# text = Son fils va à l'école.
+1	Son	son	DET	_	_	_	_	_	_
+2	fils	fil	NOUN	_	_	_	_	_	_
+3	va	aller	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	l'école	l'école	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_033
+# text = Ma tante parle italien.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	tante	tante	NOUN	_	_	_	_	_	_
+3	parle	parler	VERB	_	_	_	_	_	_
+4	italien	italien	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_034
+# text = Nous sommes une grande famille.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	sommes	être	AUX	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	grande	grand	ADJ	_	_	_	_	_	_
+5	famille	famille	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_035
+# text = Mon cousin habite près de moi.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	cousin	cousin	NOUN	_	_	_	_	_	_
+3	habite	habiter	VERB	_	_	_	_	_	_
+4	près	près	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	moi	moi	PRON	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_036
+# text = Ma nièce est petite et mignonne.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	nièce	nièce	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	petite	petit	ADJ	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	mignonne	mignon	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_037
+# text = Les parents aiment leurs enfants.
+1	Les	le	DET	_	_	_	_	_	_
+2	parents	parent	NOUN	_	_	_	_	_	_
+3	aiment	aimer	VERB	_	_	_	_	_	_
+4	leurs	leur	DET	_	_	_	_	_	_
+5	enfants	enfant	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_038
+# text = Mon mari est médecin.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	mari	mari	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	médecin	médecin	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_039
+# text = Sa femme travaille aussi.
+1	Sa	son	DET	_	_	_	_	_	_
+2	femme	femme	NOUN	_	_	_	_	_	_
+3	travaille	travailler	VERB	_	_	_	_	_	_
+4	aussi	aussi	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_040
+# text = Mon bébé dort dans son lit.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	bébé	bébé	NOUN	_	_	_	_	_	_
+3	dort	dormir	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	son	son	DET	_	_	_	_	_	_
+6	lit	lit	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_041
+# text = J'aime ma famille.
+1	J'aime	J'aime	X	_	_	_	_	_	_
+2	ma	mon	DET	_	_	_	_	_	_
+3	famille	famille	X	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_042
+# text = Mon grand-père lit le journal.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	grand-père	grand-père	NOUN	_	_	_	_	_	_
+3	lit	lire	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	journal	journal	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_043
+# text = Ma sœur ne mange pas de viande.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	sœur	sœur	NOUN	_	_	_	_	_	_
+3	ne	ne	PART	_	_	_	_	_	_
+4	mange	manger	VERB	_	_	_	_	_	_
+5	pas	pas	ADV	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	viande	viande	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_044
+# text = Est-ce que tu as des frères?
+1	Est-ce	Est-ce	X	_	_	_	_	_	_
+2	que	que	PRON	_	_	_	_	_	_
+3	tu	tu	PRON	_	_	_	_	_	_
+4	as	avoir	AUX	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	frères	frères	X	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_045
+# text = Il n'a pas de sœur.
+1	Il	il	PRON	_	_	_	_	_	_
+2	n'a	n'a	X	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	de	un	DET	_	_	_	_	_	_
+5	sœur	sœur	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_046
+# text = Nos enfants jouent dans le jardin.
+1	Nos	notre	DET	_	_	_	_	_	_
+2	enfants	enfant	NOUN	_	_	_	_	_	_
+3	jouent	jouer	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	jardin	jardin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_047
+# text = Ma famille est très unie.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	famille	famille	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	très	très	ADV	_	_	_	_	_	_
+5	unie	uni	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_048
+# text = Mon neveu a cinq ans.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	neveu	neveu	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	cinq	cinq	NUM	_	_	_	_	_	_
+5	ans	an	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_049
+# text = Elle appelle sa mère chaque soir.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	appelle	appeler	VERB	_	_	_	_	_	_
+3	sa	son	DET	_	_	_	_	_	_
+4	mère	mère	NOUN	_	_	_	_	_	_
+5	chaque	chaque	DET	_	_	_	_	_	_
+6	soir	soir	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_050
+# text = Nous visitons nos grands-parents dimanche.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	visitons	visiter	VERB	_	_	_	_	_	_
+3	nos	notre	DET	_	_	_	_	_	_
+4	grands-parents	grand-parent	NOUN	_	_	_	_	_	_
+5	dimanche	dimanche	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_051
+# text = Je mange une pomme rouge.
+1	Je	je	PRON	_	_	_	_	_	_
+2	mange	manger	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	pomme	pomme	NOUN	_	_	_	_	_	_
+5	rouge	rouge	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_052
+# text = Nous buvons de l'eau fraîche.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	buvons	boire	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'eau	l'eau	X	_	_	_	_	_	_
+5	fraîche	fraîche	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_053
+# text = Le pain est très bon.
+1	Le	le	DET	_	_	_	_	_	_
+2	pain	pain	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	très	très	ADV	_	_	_	_	_	_
+5	bon	bon	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_054
+# text = J'aime le fromage français.
+1	J'aime	J'aime	X	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	fromage	fromage	X	_	_	_	_	_	_
+4	français	français	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_055
+# text = Elle prépare une salade verte.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	prépare	préparer	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	salade	salade	NOUN	_	_	_	_	_	_
+5	verte	vert	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_056
+# text = Il boit un café le matin.
+1	Il	il	PRON	_	_	_	_	_	_
+2	boit	boire	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	café	café	NOUN	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	matin	matin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_057
+# text = Les enfants mangent des fruits.
+1	Les	le	DET	_	_	_	_	_	_
+2	enfants	enfant	NOUN	_	_	_	_	_	_
+3	mangent	manger	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	fruits	fruit	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_058
+# text = Je ne mange pas de viande.
+1	Je	je	PRON	_	_	_	_	_	_
+2	ne	ne	PART	_	_	_	_	_	_
+3	mange	manger	VERB	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	viande	viande	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_059
+# text = Tu veux un peu de lait?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	veux	vouloir	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	peu	peu	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	lait	lait	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_060
+# text = Le riz est chaud.
+1	Le	le	DET	_	_	_	_	_	_
+2	riz	riz	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	chaud	chaud	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_061
+# text = Nous achetons du poisson frais.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	achetons	acheter	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	poisson	poisson	X	_	_	_	_	_	_
+5	frais	frais	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_062
+# text = Elle cuisine une soupe chaude.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	cuisine	cuisine	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	soupe	soupe	NOUN	_	_	_	_	_	_
+5	chaude	chaud	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_063
+# text = J'adore le chocolat noir.
+1	J'adore	J'adore	X	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	chocolat	chocolat	X	_	_	_	_	_	_
+4	noir	noir	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_064
+# text = Il prend un croissant au petit-déjeuner.
+1	Il	il	PRON	_	_	_	_	_	_
+2	prend	prendre	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	croissant	croissant	NOUN	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	petit-déjeuner	petit-déjeuner	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_065
+# text = Les légumes sont bons pour la santé.
+1	Les	le	DET	_	_	_	_	_	_
+2	légumes	légume	NOUN	_	_	_	_	_	_
+3	sont	être	AUX	_	_	_	_	_	_
+4	bons	bon	ADJ	_	_	_	_	_	_
+5	pour	pour	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	santé	santé	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_066
+# text = Je bois du jus d'orange.
+1	Je	je	PRON	_	_	_	_	_	_
+2	bois	boire	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	jus	jus	X	_	_	_	_	_	_
+5	d'orange	d'orange	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_067
+# text = Le gâteau est délicieux.
+1	Le	le	DET	_	_	_	_	_	_
+2	gâteau	gâteau	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	délicieux	délicieux	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_068
+# text = Nous partageons le repas ensemble.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	partageons	partager	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	repas	repa	NOUN	_	_	_	_	_	_
+5	ensemble	ensemble	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_069
+# text = Elle n'aime pas les olives.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	n'aime	n'aime	X	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	olives	olives	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_070
+# text = Tu manges à la cantine?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	manges	mange	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	cantine	cantine	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_071
+# text = Le restaurant est près d'ici.
+1	Le	le	DET	_	_	_	_	_	_
+2	restaurant	restaurant	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	près	près	ADV	_	_	_	_	_	_
+5	d'ici	d'ici	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_072
+# text = J'achète du pain à la boulangerie.
+1	J'achète	J'achète	X	_	_	_	_	_	_
+2	du	du	ADP	_	_	_	_	_	_
+3	pain	pain	X	_	_	_	_	_	_
+4	à	à	X	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	boulangerie	boulangerie	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_073
+# text = Il met du sucre dans son café.
+1	Il	il	PRON	_	_	_	_	_	_
+2	met	mettre	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	sucre	sucre	X	_	_	_	_	_	_
+5	dans	dans	X	_	_	_	_	_	_
+6	son	son	DET	_	_	_	_	_	_
+7	café	café	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_074
+# text = La soupe est trop salée.
+1	La	le	DET	_	_	_	_	_	_
+2	soupe	soupe	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	trop	trop	ADV	_	_	_	_	_	_
+5	salée	salé	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_075
+# text = Nous dînons à huit heures.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	dînons	dîner	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	huit	huit	NUM	_	_	_	_	_	_
+5	heures	heure	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_076
+# text = La maison est grande et belle.
+1	La	le	DET	_	_	_	_	_	_
+2	maison	maison	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	grande	grand	ADJ	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	belle	beau	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_077
+# text = Le salon est très lumineux.
+1	Le	le	DET	_	_	_	_	_	_
+2	salon	salon	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	très	très	ADV	_	_	_	_	_	_
+5	lumineux	lumineux	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_078
+# text = Ma chambre est au premier étage.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	chambre	chambre	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	premier	premier	X	_	_	_	_	_	_
+6	étage	étage	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_079
+# text = La cuisine est propre aujourd'hui.
+1	La	le	DET	_	_	_	_	_	_
+2	cuisine	cuisine	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	propre	propre	ADJ	_	_	_	_	_	_
+5	aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_080
+# text = Il y a un jardin derrière.
+1	Il	il	PRON	_	_	_	_	_	_
+2	y	y	PRON	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	jardin	jardin	NOUN	_	_	_	_	_	_
+6	derrière	derrière	ADP	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_081
+# text = La salle de bain est petite.
+1	La	le	DET	_	_	_	_	_	_
+2	salle	salle	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	bain	bain	NOUN	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	petite	petit	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_082
+# text = Nous avons un canapé confortable.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	canapé	canapé	NOUN	_	_	_	_	_	_
+5	confortable	confortable	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_083
+# text = La fenêtre est ouverte.
+1	La	le	DET	_	_	_	_	_	_
+2	fenêtre	fenêtre	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	ouverte	ouvrir	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_084
+# text = Le lit est dans la chambre.
+1	Le	le	DET	_	_	_	_	_	_
+2	lit	lit	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	chambre	chambre	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_085
+# text = Je range ma chambre le matin.
+1	Je	je	PRON	_	_	_	_	_	_
+2	range	ranger	VERB	_	_	_	_	_	_
+3	ma	mon	DET	_	_	_	_	_	_
+4	chambre	chambre	NOUN	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	matin	matin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_086
+# text = La table est dans la cuisine.
+1	La	le	DET	_	_	_	_	_	_
+2	table	table	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	cuisine	cuisine	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_087
+# text = Il n'y a pas de télévision ici.
+1	Il	il	PRON	_	_	_	_	_	_
+2	n'y	n'y	X	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	télévision	télévision	X	_	_	_	_	_	_
+7	ici	ici	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_088
+# text = Le chat dort sur le canapé.
+1	Le	le	DET	_	_	_	_	_	_
+2	chat	chat	NOUN	_	_	_	_	_	_
+3	dort	dormir	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	canapé	canapé	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_089
+# text = Nous nettoyons la cuisine ensemble.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	nettoyons	nettoyer	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	cuisine	cuisine	NOUN	_	_	_	_	_	_
+5	ensemble	ensemble	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_090
+# text = La porte de la maison est fermée.
+1	La	le	DET	_	_	_	_	_	_
+2	porte	porte	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	maison	maison	NOUN	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	fermée	fermer	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_091
+# text = Où est la télécommande?
+1	Où	où	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	télécommande	télécommande	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_092
+# text = Le frigo est dans la cuisine.
+1	Le	le	DET	_	_	_	_	_	_
+2	frigo	frigo	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	cuisine	cuisine	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_093
+# text = J'allume la lumière du salon.
+1	J'allume	J'allume	X	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	lumière	lumière	X	_	_	_	_	_	_
+4	du	du	ADP	_	_	_	_	_	_
+5	salon	salon	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_094
+# text = Elle ferme la fenêtre de sa chambre.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	ferme	fermer	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	fenêtre	fenêtre	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	sa	son	DET	_	_	_	_	_	_
+7	chambre	chambre	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_095
+# text = Le jardin a beaucoup de fleurs.
+1	Le	le	DET	_	_	_	_	_	_
+2	jardin	jardin	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	fleurs	fleur	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_096
+# text = Nous plantons des tomates au jardin.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	plantons	planter	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	tomates	tomates	X	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	jardin	jardin	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_097
+# text = La maison a trois chambres.
+1	La	le	DET	_	_	_	_	_	_
+2	maison	maison	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	trois	trois	NUM	_	_	_	_	_	_
+5	chambres	chambre	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_098
+# text = Mon frère dort dans sa chambre.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	frère	frère	NOUN	_	_	_	_	_	_
+3	dort	dormir	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	sa	son	DET	_	_	_	_	_	_
+6	chambre	chambre	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_099
+# text = Le tapis est sous la table.
+1	Le	le	DET	_	_	_	_	_	_
+2	tapis	tapi	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	sous	sous	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	table	table	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_100
+# text = J'aime notre maison.
+1	J'aime	J'aime	X	_	_	_	_	_	_
+2	notre	notre	DET	_	_	_	_	_	_
+3	maison	maison	X	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_101
+# text = Je vais à l'école chaque matin.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	l'école	l'école	X	_	_	_	_	_	_
+5	chaque	chaque	X	_	_	_	_	_	_
+6	matin	matin	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_102
+# text = La classe commence à huit heures.
+1	La	le	DET	_	_	_	_	_	_
+2	classe	classe	NOUN	_	_	_	_	_	_
+3	commence	commencer	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	huit	huit	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_103
+# text = Le professeur explique la leçon.
+1	Le	le	DET	_	_	_	_	_	_
+2	professeur	professeur	NOUN	_	_	_	_	_	_
+3	explique	expliquer	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	leçon	leçon	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_104
+# text = J'étudie le français à l'école.
+1	J'étudie	J'étudie	X	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	français	français	X	_	_	_	_	_	_
+4	à	à	X	_	_	_	_	_	_
+5	l'école	l'école	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_105
+# text = Elle lit un livre intéressant.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	lit	lire	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	livre	livre	NOUN	_	_	_	_	_	_
+5	intéressant	intéressant	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_106
+# text = Nous écrivons dans nos cahiers.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	écrivons	écrire	VERB	_	_	_	_	_	_
+3	dans	dans	ADP	_	_	_	_	_	_
+4	nos	notre	DET	_	_	_	_	_	_
+5	cahiers	cahier	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_107
+# text = Il fait ses devoirs le soir.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	ses	son	DET	_	_	_	_	_	_
+4	devoirs	devoir	NOUN	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	soir	soir	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_108
+# text = La bibliothèque est très calme.
+1	La	le	DET	_	_	_	_	_	_
+2	bibliothèque	bibliothèque	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	très	très	ADV	_	_	_	_	_	_
+5	calme	calme	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_109
+# text = J'apprends de nouveaux mots.
+1	J'apprends	J'apprends	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	nouveaux	nouveaux	X	_	_	_	_	_	_
+4	mots	mots	X	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_110
+# text = Le cours de maths est difficile.
+1	Le	le	DET	_	_	_	_	_	_
+2	cours	cour	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	maths	math	NOUN	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	difficile	difficile	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_111
+# text = Tu as ton stylo?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	ton	ton	DET	_	_	_	_	_	_
+4	stylo	stylo	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_112
+# text = Elle ne comprend pas l'exercice.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	ne	ne	PART	_	_	_	_	_	_
+3	comprend	comprendre	VERB	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	l'exercice	l'exercice	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_113
+# text = Les élèves écoutent le professeur.
+1	Les	le	DET	_	_	_	_	_	_
+2	élèves	élève	NOUN	_	_	_	_	_	_
+3	écoutent	écouter	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	professeur	professeur	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_114
+# text = Nous avons un examen demain.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	examen	examen	NOUN	_	_	_	_	_	_
+5	demain	demain	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_115
+# text = Il pose une question au professeur.
+1	Il	il	PRON	_	_	_	_	_	_
+2	pose	poser	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	question	question	NOUN	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	professeur	professeur	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_116
+# text = Je dessine dans mon cahier.
+1	Je	je	PRON	_	_	_	_	_	_
+2	dessine	dessiner	VERB	_	_	_	_	_	_
+3	dans	dans	ADP	_	_	_	_	_	_
+4	mon	mon	DET	_	_	_	_	_	_
+5	cahier	cahier	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_117
+# text = La cour de récréation est grande.
+1	La	le	DET	_	_	_	_	_	_
+2	cour	cour	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	récréation	récréation	NOUN	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	grande	grand	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_118
+# text = J'aime l'école et mes amis.
+1	J'aime	J'aime	X	_	_	_	_	_	_
+2	l'école	l'école	X	_	_	_	_	_	_
+3	et	et	CCONJ	_	_	_	_	_	_
+4	mes	mon	DET	_	_	_	_	_	_
+5	amis	amis	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_119
+# text = Elle apporte son cartable chaque jour.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	apporte	apporter	VERB	_	_	_	_	_	_
+3	son	son	DET	_	_	_	_	_	_
+4	cartable	cartable	NOUN	_	_	_	_	_	_
+5	chaque	chaque	DET	_	_	_	_	_	_
+6	jour	jour	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_120
+# text = Le tableau est devant la classe.
+1	Le	le	DET	_	_	_	_	_	_
+2	tableau	tableau	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	devant	devant	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	classe	classe	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_121
+# text = Nous lisons une histoire en français.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	lisons	lire	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	histoire	histoire	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	français	français	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_122
+# text = Il n'aime pas les devoirs.
+1	Il	il	PRON	_	_	_	_	_	_
+2	n'aime	n'aime	X	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	devoirs	devoirs	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_123
+# text = Où est la salle de sport?
+1	Où	où	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	salle	salle	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	sport	sport	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_124
+# text = Je parle avec mes camarades de classe.
+1	Je	je	PRON	_	_	_	_	_	_
+2	parle	parler	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	mes	mon	DET	_	_	_	_	_	_
+5	camarades	camarade	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	classe	classe	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_125
+# text = La pause dure quinze minutes.
+1	La	le	DET	_	_	_	_	_	_
+2	pause	pause	NOUN	_	_	_	_	_	_
+3	dure	durer	VERB	_	_	_	_	_	_
+4	quinze	quinze	NUM	_	_	_	_	_	_
+5	minutes	minute	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_126
+# text = Il fait beau aujourd'hui.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	beau	beau	ADJ	_	_	_	_	_	_
+4	aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_127
+# text = Il pleut ce matin.
+1	Il	il	PRON	_	_	_	_	_	_
+2	pleut	pleuvoir	VERB	_	_	_	_	_	_
+3	ce	ce	DET	_	_	_	_	_	_
+4	matin	matin	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_128
+# text = Le ciel est gris et nuageux.
+1	Le	le	DET	_	_	_	_	_	_
+2	ciel	ciel	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	gris	gris	ADJ	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	nuageux	nuageux	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_129
+# text = Il fait très chaud en été.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	très	très	ADV	_	_	_	_	_	_
+4	chaud	chaud	ADJ	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_130
+# text = Il fait froid en hiver.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	froid	froid	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	hiver	hiver	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_131
+# text = Le vent souffle fort dehors.
+1	Le	le	DET	_	_	_	_	_	_
+2	vent	vent	NOUN	_	_	_	_	_	_
+3	souffle	souffler	VERB	_	_	_	_	_	_
+4	fort	fort	ADV	_	_	_	_	_	_
+5	dehors	dehors	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_132
+# text = Il neige en montagne.
+1	Il	il	PRON	_	_	_	_	_	_
+2	neige	neige	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	montagne	montagne	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_133
+# text = Quel temps fait-il?
+1	Quel	quel	DET	_	_	_	_	_	_
+2	temps	temp	NOUN	_	_	_	_	_	_
+3	fait-il	fait-il	X	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_134
+# text = Le soleil brille dans le ciel.
+1	Le	le	DET	_	_	_	_	_	_
+2	soleil	soleil	NOUN	_	_	_	_	_	_
+3	brille	briller	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	ciel	ciel	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_135
+# text = Il y a de l'orage ce soir.
+1	Il	il	PRON	_	_	_	_	_	_
+2	y	y	PRON	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	l'orage	l'orage	X	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	soir	soir	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_136
+# text = La température est douce aujourd'hui.
+1	La	le	DET	_	_	_	_	_	_
+2	température	température	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	douce	doux	ADJ	_	_	_	_	_	_
+5	aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_137
+# text = Nous portons un manteau quand il pleut.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	portons	porter	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	manteau	manteau	NOUN	_	_	_	_	_	_
+5	quand	quand	SCONJ	_	_	_	_	_	_
+6	il	il	PRON	_	_	_	_	_	_
+7	pleut	pleuvoir	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_138
+# text = Le temps est ensoleillé demain.
+1	Le	le	DET	_	_	_	_	_	_
+2	temps	temp	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	ensoleillé	ensoleiller	VERB	_	_	_	_	_	_
+5	demain	demain	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_139
+# text = Il fait du vent sur la mer.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	vent	vent	X	_	_	_	_	_	_
+5	sur	sur	X	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	mer	mer	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_140
+# text = Je n'aime pas la pluie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	n'aime	n'aime	X	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	pluie	pluie	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_141
+# text = Le printemps est ma saison préférée.
+1	Le	le	DET	_	_	_	_	_	_
+2	printemps	printemp	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	ma	mon	DET	_	_	_	_	_	_
+5	saison	saison	NOUN	_	_	_	_	_	_
+6	préférée	préféré	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_142
+# text = Les nuages couvrent le ciel bleu.
+1	Les	le	DET	_	_	_	_	_	_
+2	nuages	nuage	NOUN	_	_	_	_	_	_
+3	couvrent	couvrir	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	ciel	ciel	NOUN	_	_	_	_	_	_
+6	bleu	bleu	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_143
+# text = Il fait frais ce matin.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	frais	frai	NOUN	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	matin	matin	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_144
+# text = Prends ton parapluie, il pleut!
+1	Prends	prendre	VERB	_	_	_	_	_	_
+2	ton	ton	DET	_	_	_	_	_	_
+3	parapluie	parapluie	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	il	il	PRON	_	_	_	_	_	_
+6	pleut	pleuvoir	VERB	_	_	_	_	_	_
+7	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_145
+# text = L'automne est une belle saison.
+1	L'automne	L'automne	X	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	belle	belle	X	_	_	_	_	_	_
+5	saison	saison	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_146
+# text = Il y a du brouillard ce matin.
+1	Il	il	PRON	_	_	_	_	_	_
+2	y	y	PRON	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	du	du	DET	_	_	_	_	_	_
+5	brouillard	brouillard	NOUN	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	matin	matin	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_147
+# text = Le temps change souvent ici.
+1	Le	le	DET	_	_	_	_	_	_
+2	temps	temp	NOUN	_	_	_	_	_	_
+3	change	changer	VERB	_	_	_	_	_	_
+4	souvent	souvent	ADV	_	_	_	_	_	_
+5	ici	ici	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_148
+# text = Nous allons à la plage demain.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	plage	plage	NOUN	_	_	_	_	_	_
+6	demain	demain	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_149
+# text = Il fait trop chaud pour courir.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	trop	trop	ADV	_	_	_	_	_	_
+4	chaud	chaud	ADJ	_	_	_	_	_	_
+5	pour	pour	ADP	_	_	_	_	_	_
+6	courir	courir	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_150
+# text = La neige tombe doucement dehors.
+1	La	le	DET	_	_	_	_	_	_
+2	neige	neige	NOUN	_	_	_	_	_	_
+3	tombe	tomber	VERB	_	_	_	_	_	_
+4	doucement	doucement	ADV	_	_	_	_	_	_
+5	dehors	dehors	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_151
+# text = Je vais au marché le samedi.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	marché	marché	X	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	samedi	samedi	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_152
+# text = La ville est grande et animée.
+1	La	le	DET	_	_	_	_	_	_
+2	ville	ville	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	grande	grand	ADJ	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	animée	animer	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_153
+# text = Où se trouve la gare?
+1	Où	où	PRON	_	_	_	_	_	_
+2	se	se	PRON	_	_	_	_	_	_
+3	trouve	trouver	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	gare	gare	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_154
+# text = Nous traversons la rue avec prudence.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	traversons	traverser	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	rue	rue	NOUN	_	_	_	_	_	_
+5	avec	avec	ADP	_	_	_	_	_	_
+6	prudence	prudence	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_155
+# text = Le bus arrive à l'arrêt.
+1	Le	le	DET	_	_	_	_	_	_
+2	bus	bu	NOUN	_	_	_	_	_	_
+3	arrive	arriver	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	l'arrêt	l'arrêt	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_156
+# text = Il y a un parc près d'ici.
+1	Il	il	PRON	_	_	_	_	_	_
+2	y	y	PRON	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	parc	parc	NOUN	_	_	_	_	_	_
+6	près	près	ADV	_	_	_	_	_	_
+7	d'ici	d'ici	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_157
+# text = La pharmacie est ouverte aujourd'hui.
+1	La	le	DET	_	_	_	_	_	_
+2	pharmacie	pharmacie	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	ouverte	ouvrir	VERB	_	_	_	_	_	_
+5	aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_158
+# text = Je cherche la banque en ville.
+1	Je	je	PRON	_	_	_	_	_	_
+2	cherche	chercher	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	banque	banque	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	ville	ville	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_159
+# text = Le musée est fermé le lundi.
+1	Le	le	DET	_	_	_	_	_	_
+2	musée	musée	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	fermé	fermer	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	lundi	lundi	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_160
+# text = Nous marchons dans les rues étroites.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	marchons	marcher	VERB	_	_	_	_	_	_
+3	dans	dans	ADP	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	rues	rue	NOUN	_	_	_	_	_	_
+6	étroites	étroit	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_161
+# text = La boulangerie sent bon le matin.
+1	La	le	DET	_	_	_	_	_	_
+2	boulangerie	boulangerie	NOUN	_	_	_	_	_	_
+3	sent	sentir	VERB	_	_	_	_	_	_
+4	bon	bon	ADJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	matin	matin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_162
+# text = Il y a beaucoup de voitures ici.
+1	Il	il	PRON	_	_	_	_	_	_
+2	y	y	PRON	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	voitures	voiture	NOUN	_	_	_	_	_	_
+7	ici	ici	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_163
+# text = Le métro est rapide et pratique.
+1	Le	le	DET	_	_	_	_	_	_
+2	métro	métro	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	rapide	rapide	ADJ	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	pratique	pratique	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_164
+# text = Je prends le tramway en ville.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prends	prendre	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	tramway	tramway	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	ville	ville	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_165
+# text = La place est pleine de monde.
+1	La	le	DET	_	_	_	_	_	_
+2	place	place	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	pleine	plein	ADJ	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	monde	monde	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_166
+# text = Où se trouve l'hôpital?
+1	Où	où	PRON	_	_	_	_	_	_
+2	se	se	PRON	_	_	_	_	_	_
+3	trouve	trouver	VERB	_	_	_	_	_	_
+4	l'hôpital	l'hôpital	X	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_167
+# text = Nous visitons une église ancienne.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	visitons	visiter	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	église	église	NOUN	_	_	_	_	_	_
+5	ancienne	ancien	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_168
+# text = Le magasin ferme à vingt heures.
+1	Le	le	DET	_	_	_	_	_	_
+2	magasin	magasin	NOUN	_	_	_	_	_	_
+3	ferme	fermer	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	vingt	vingt	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_169
+# text = Il y a un cinéma ici.
+1	Il	il	PRON	_	_	_	_	_	_
+2	y	y	PRON	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	cinéma	cinéma	NOUN	_	_	_	_	_	_
+6	ici	ici	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_170
+# text = La rue est très bruyante.
+1	La	le	DET	_	_	_	_	_	_
+2	rue	rue	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	très	très	ADV	_	_	_	_	_	_
+5	bruyante	bruyant	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_171
+# text = Je paie avec ma carte bancaire.
+1	Je	je	PRON	_	_	_	_	_	_
+2	paie	payer	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	ma	mon	DET	_	_	_	_	_	_
+5	carte	carte	NOUN	_	_	_	_	_	_
+6	bancaire	bancaire	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_172
+# text = Le feu rouge est allumé.
+1	Le	le	DET	_	_	_	_	_	_
+2	feu	feu	NOUN	_	_	_	_	_	_
+3	rouge	rouge	ADJ	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	allumé	allumer	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_173
+# text = Nous attendons le bus à l'arrêt.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	attendons	attendre	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	bus	bu	NOUN	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	l'arrêt	l'arrêt	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_174
+# text = La ville a beaucoup de monuments.
+1	La	le	DET	_	_	_	_	_	_
+2	ville	ville	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	monuments	monument	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_175
+# text = Je connais bien cette ville.
+1	Je	je	PRON	_	_	_	_	_	_
+2	connais	connaître	VERB	_	_	_	_	_	_
+3	bien	bien	ADV	_	_	_	_	_	_
+4	cette	ce	DET	_	_	_	_	_	_
+5	ville	ville	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_176
+# text = Je me lève à sept heures.
+1	Je	je	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	lève	lever	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	sept	sept	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_177
+# text = Je me brosse les dents le matin.
+1	Je	je	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	brosse	brosser	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	dents	dent	NOUN	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	matin	matin	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_178
+# text = Je prends une douche chaque jour.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prends	prendre	VERB	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	douche	douche	NOUN	_	_	_	_	_	_
+5	chaque	chaque	DET	_	_	_	_	_	_
+6	jour	jour	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_179
+# text = Je m'habille avant le petit-déjeuner.
+1	Je	je	PRON	_	_	_	_	_	_
+2	m'habille	m'habille	X	_	_	_	_	_	_
+3	avant	avant	X	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	petit-déjeuner	petit-déjeuner	X	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_180
+# text = Je prends le petit-déjeuner à huit heures.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prends	prendre	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	petit-déjeuner	petit-déjeuner	NOUN	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	huit	huit	NUM	_	_	_	_	_	_
+7	heures	heure	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_181
+# text = Je vais au travail en bus.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	au	au	ADP	_	_	_	_	_	_
+4	travail	travail	X	_	_	_	_	_	_
+5	en	en	PRON	_	_	_	_	_	_
+6	bus	bus	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_182
+# text = Je travaille de neuf à cinq heures.
+1	Je	je	PRON	_	_	_	_	_	_
+2	travaille	travailler	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	neuf	neuf	NUM	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	cinq	cinq	NUM	_	_	_	_	_	_
+7	heures	heure	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_183
+# text = Je déjeune à midi avec mes collègues.
+1	Je	je	PRON	_	_	_	_	_	_
+2	déjeune	déjeuner	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	midi	midi	NOUN	_	_	_	_	_	_
+5	avec	avec	ADP	_	_	_	_	_	_
+6	mes	mon	DET	_	_	_	_	_	_
+7	collègues	collègue	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_184
+# text = Je rentre à la maison le soir.
+1	Je	je	PRON	_	_	_	_	_	_
+2	rentre	rentrer	VERB	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	maison	maison	NOUN	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	soir	soir	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_185
+# text = Je prépare le dîner pour ma famille.
+1	Je	je	PRON	_	_	_	_	_	_
+2	prépare	préparer	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	dîner	dîner	NOUN	_	_	_	_	_	_
+5	pour	pour	ADP	_	_	_	_	_	_
+6	ma	mon	DET	_	_	_	_	_	_
+7	famille	famille	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_186
+# text = Je regarde la télé le soir.
+1	Je	je	PRON	_	_	_	_	_	_
+2	regarde	regarder	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	télé	télé	NOUN	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	soir	soir	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_187
+# text = Je me couche à vingt-deux heures.
+1	Je	je	PRON	_	_	_	_	_	_
+2	me	me	PRON	_	_	_	_	_	_
+3	couche	coucher	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	vingt-deux	vingt-deux	NUM	_	_	_	_	_	_
+6	heures	heure	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_188
+# text = Je fais du sport le mercredi.
+1	Je	je	PRON	_	_	_	_	_	_
+2	fais	faire	VERB	_	_	_	_	_	_
+3	du	du	DET	_	_	_	_	_	_
+4	sport	sport	NOUN	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	mercredi	mercredi	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_189
+# text = Je lis un livre avant de dormir.
+1	Je	je	PRON	_	_	_	_	_	_
+2	lis	lire	VERB	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	livre	livre	NOUN	_	_	_	_	_	_
+5	avant	avant	ADV	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	dormir	dormir	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_190
+# text = Je n'écoute pas la radio le matin.
+1	Je	je	PRON	_	_	_	_	_	_
+2	n'écoute	n'écoute	X	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	radio	radio	X	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	matin	matin	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_191
+# text = À quelle heure te lèves-tu?
+1	À	à	ADP	_	_	_	_	_	_
+2	quelle	quel	DET	_	_	_	_	_	_
+3	heure	heure	NOUN	_	_	_	_	_	_
+4	te	te	PRON	_	_	_	_	_	_
+5	lèves-tu	lèves-tu	X	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_192
+# text = Elle se promène dans le parc.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	se	se	PRON	_	_	_	_	_	_
+3	promène	promener	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	parc	parc	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_193
+# text = Il fait sa lessive le dimanche.
+1	Il	il	PRON	_	_	_	_	_	_
+2	fait	faire	VERB	_	_	_	_	_	_
+3	sa	son	DET	_	_	_	_	_	_
+4	lessive	lessive	NOUN	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	dimanche	dimanche	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_194
+# text = Nous nous réveillons tôt le lundi.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	nous	nous	PRON	_	_	_	_	_	_
+3	réveillons	réveiller	VERB	_	_	_	_	_	_
+4	tôt	tôt	ADV	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	lundi	lundi	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_195
+# text = Je range la maison le week-end.
+1	Je	je	PRON	_	_	_	_	_	_
+2	range	ranger	VERB	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	maison	maison	NOUN	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	week-end	week-end	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_196
+# text = Elle prend le train chaque matin.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	prend	prendre	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	train	train	NOUN	_	_	_	_	_	_
+5	chaque	chaque	DET	_	_	_	_	_	_
+6	matin	matin	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_197
+# text = Je n'aime pas me lever tôt.
+1	Je	je	PRON	_	_	_	_	_	_
+2	n'aime	n'aime	X	_	_	_	_	_	_
+3	pas	pas	ADV	_	_	_	_	_	_
+4	me	me	PRON	_	_	_	_	_	_
+5	lever	lever	X	_	_	_	_	_	_
+6	tôt	tôt	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_198
+# text = Il écrit des e-mails au bureau.
+1	Il	il	PRON	_	_	_	_	_	_
+2	écrit	écrire	VERB	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	e-mails	e-mail	NOUN	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	bureau	bureau	X	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_199
+# text = Je promène le chien après le dîner.
+1	Je	je	PRON	_	_	_	_	_	_
+2	promène	promener	VERB	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	chien	chien	NOUN	_	_	_	_	_	_
+5	après	après	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	dîner	dîner	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a1_train_200
+# text = Bonne nuit, à demain matin!
+1	Bonne	bon	ADJ	_	_	_	_	_	_
+2	nuit	nuit	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	demain	demain	ADV	_	_	_	_	_	_
+6	matin	matin	NOUN	_	_	_	_	_	_
+7	!	!	PUNCT	_	_	_	_	_	_
+

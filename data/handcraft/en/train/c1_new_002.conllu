@@ -1,0 +1,4297 @@
+# sent_id = en_c1_train_201
+# text = The constitutional court examined whether delegated legislative authority exceeded limits prescribed by the parliamentary enabling statute.
+1	The	the	DET	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	court	court	NOUN	_	_	_	_	_	_
+4	examined	examine	VERB	_	_	_	_	_	_
+5	whether	whether	SCONJ	_	_	_	_	_	_
+6	delegated	delegate	VERB	_	_	_	_	_	_
+7	legislative	legislative	ADJ	_	_	_	_	_	_
+8	authority	authority	NOUN	_	_	_	_	_	_
+9	exceeded	exce	VERB	_	_	_	_	_	_
+10	limits	limit	NOUN	_	_	_	_	_	_
+11	prescribed	prescribe	VERB	_	_	_	_	_	_
+12	by	by	ADP	_	_	_	_	_	_
+13	the	the	DET	_	_	_	_	_	_
+14	parliamentary	parliamentary	ADJ	_	_	_	_	_	_
+15	enabling	enable	VERB	_	_	_	_	_	_
+16	statute	statute	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_202
+# text = Judicial review ensures that executive decrees remain consistent with fundamental rights enshrined in the national constitutional charter.
+1	Judicial	judicial	ADJ	_	_	_	_	_	_
+2	review	review	NOUN	_	_	_	_	_	_
+3	ensures	ensure	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	executive	executive	ADJ	_	_	_	_	_	_
+6	decrees	decree	NOUN	_	_	_	_	_	_
+7	remain	remain	VERB	_	_	_	_	_	_
+8	consistent	consistent	ADJ	_	_	_	_	_	_
+9	with	with	ADP	_	_	_	_	_	_
+10	fundamental	fundamental	ADJ	_	_	_	_	_	_
+11	rights	right	NOUN	_	_	_	_	_	_
+12	enshrined	enshrine	VERB	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	the	the	DET	_	_	_	_	_	_
+15	national	national	ADJ	_	_	_	_	_	_
+16	constitutional	constitutional	ADJ	_	_	_	_	_	_
+17	charter	charter	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_203
+# text = Although federalism distributes competences across tiers of government, conflicts frequently arise over concurrent regulatory jurisdiction in commerce.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	federalism	federalism	NOUN	_	_	_	_	_	_
+3	distributes	distribute	VERB	_	_	_	_	_	_
+4	competences	competence	NOUN	_	_	_	_	_	_
+5	across	across	ADP	_	_	_	_	_	_
+6	tiers	tier	NOUN	_	_	_	_	_	_
+7	of	of	ADP	_	_	_	_	_	_
+8	government	government	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	conflicts	conflict	NOUN	_	_	_	_	_	_
+11	frequently	frequently	ADV	_	_	_	_	_	_
+12	arise	arise	VERB	_	_	_	_	_	_
+13	over	over	ADP	_	_	_	_	_	_
+14	concurrent	concurrent	ADJ	_	_	_	_	_	_
+15	regulatory	regulatory	ADJ	_	_	_	_	_	_
+16	jurisdiction	jurisdiction	NOUN	_	_	_	_	_	_
+17	in	in	ADP	_	_	_	_	_	_
+18	commerce	commerce	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_204
+# text = The separation of powers doctrine constrains legislative overreach by empowering independent courts to invalidate unconstitutional statutory provisions.
+1	The	the	DET	_	_	_	_	_	_
+2	separation	separation	NOUN	_	_	_	_	_	_
+3	of	of	ADP	_	_	_	_	_	_
+4	powers	power	NOUN	_	_	_	_	_	_
+5	doctrine	doctrine	NOUN	_	_	_	_	_	_
+6	constrains	constrain	VERB	_	_	_	_	_	_
+7	legislative	legislative	ADJ	_	_	_	_	_	_
+8	overreach	overreach	NOUN	_	_	_	_	_	_
+9	by	by	ADP	_	_	_	_	_	_
+10	empowering	empower	VERB	_	_	_	_	_	_
+11	independent	independent	ADJ	_	_	_	_	_	_
+12	courts	court	NOUN	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	invalidate	invalidate	VERB	_	_	_	_	_	_
+15	unconstitutional	unconstitutional	ADJ	_	_	_	_	_	_
+16	statutory	statutory	ADJ	_	_	_	_	_	_
+17	provisions	provision	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_205
+# text = Constitutional amendments require supermajority approval and extended deliberation to prevent hasty revisions undermining institutional stability.
+1	Constitutional	constitutional	ADJ	_	_	_	_	_	_
+2	amendments	amendment	NOUN	_	_	_	_	_	_
+3	require	require	VERB	_	_	_	_	_	_
+4	supermajority	supermajority	ADJ	_	_	_	_	_	_
+5	approval	approval	NOUN	_	_	_	_	_	_
+6	and	and	CCONJ	_	_	_	_	_	_
+7	extended	extend	VERB	_	_	_	_	_	_
+8	deliberation	deliberation	NOUN	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	prevent	prevent	VERB	_	_	_	_	_	_
+11	hasty	hasty	ADJ	_	_	_	_	_	_
+12	revisions	revision	NOUN	_	_	_	_	_	_
+13	undermining	undermine	VERB	_	_	_	_	_	_
+14	institutional	institutional	ADJ	_	_	_	_	_	_
+15	stability	stability	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_206
+# text = It remains contested whether emergency powers granted during crises should automatically lapse after predetermined temporal thresholds expire.
+1	It	it	PRON	_	_	_	_	_	_
+2	remains	remain	VERB	_	_	_	_	_	_
+3	contested	contest	VERB	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	emergency	emergency	NOUN	_	_	_	_	_	_
+6	powers	power	NOUN	_	_	_	_	_	_
+7	granted	grant	VERB	_	_	_	_	_	_
+8	during	during	ADP	_	_	_	_	_	_
+9	crises	crisis	NOUN	_	_	_	_	_	_
+10	should	shall	AUX	_	_	_	_	_	_
+11	automatically	automatically	ADV	_	_	_	_	_	_
+12	lapse	lapse	VERB	_	_	_	_	_	_
+13	after	after	SCONJ	_	_	_	_	_	_
+14	predetermined	predetermine	VERB	_	_	_	_	_	_
+15	temporal	temporal	ADJ	_	_	_	_	_	_
+16	thresholds	threshold	NOUN	_	_	_	_	_	_
+17	expire	expire	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_207
+# text = The bill of rights guarantees procedural fairness while obliging the state to justify limitations on civil liberties proportionally.
+1	The	the	DET	_	_	_	_	_	_
+2	bill	bill	NOUN	_	_	_	_	_	_
+3	of	of	ADP	_	_	_	_	_	_
+4	rights	right	NOUN	_	_	_	_	_	_
+5	guarantees	guarantee	VERB	_	_	_	_	_	_
+6	procedural	procedural	ADJ	_	_	_	_	_	_
+7	fairness	fairness	NOUN	_	_	_	_	_	_
+8	while	while	SCONJ	_	_	_	_	_	_
+9	obliging	oblige	VERB	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	state	state	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	justify	justify	VERB	_	_	_	_	_	_
+14	limitations	limitation	NOUN	_	_	_	_	_	_
+15	on	on	ADP	_	_	_	_	_	_
+16	civil	civil	ADJ	_	_	_	_	_	_
+17	liberties	liberty	NOUN	_	_	_	_	_	_
+18	proportionally	proportionally	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_208
+# text = Having ratified the convention, the state incorporated international human rights norms into domestically enforceable constitutional adjudication frameworks.
+1	Having	have	AUX	_	_	_	_	_	_
+2	ratified	ratify	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	convention	convention	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	state	state	NOUN	_	_	_	_	_	_
+8	incorporated	incorporate	VERB	_	_	_	_	_	_
+9	international	international	ADJ	_	_	_	_	_	_
+10	human	human	ADJ	_	_	_	_	_	_
+11	rights	right	NOUN	_	_	_	_	_	_
+12	norms	norm	NOUN	_	_	_	_	_	_
+13	into	into	ADP	_	_	_	_	_	_
+14	domestically	domestically	ADV	_	_	_	_	_	_
+15	enforceable	enforceable	ADJ	_	_	_	_	_	_
+16	constitutional	constitutional	ADJ	_	_	_	_	_	_
+17	adjudication	adjudication	NOUN	_	_	_	_	_	_
+18	frameworks	framework	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_209
+# text = Scholars debated whether originalist interpretation adequately addresses technological developments unforeseen by eighteenth - century constitutional framers.
+1	Scholars	scholars	NOUN	_	_	_	_	_	_
+2	debated	debate	VERB	_	_	_	_	_	_
+3	whether	whether	SCONJ	_	_	_	_	_	_
+4	originalist	originalist	ADJ	_	_	_	_	_	_
+5	interpretation	interpretation	NOUN	_	_	_	_	_	_
+6	adequately	adequately	ADV	_	_	_	_	_	_
+7	addresses	addre	VERB	_	_	_	_	_	_
+8	technological	technological	ADJ	_	_	_	_	_	_
+9	developments	development	NOUN	_	_	_	_	_	_
+10	unforeseen	unforeseen	ADJ	_	_	_	_	_	_
+11	by	by	ADP	_	_	_	_	_	_
+12	eighteenth	eighteenth	ADJ	_	_	_	_	_	_
+13	-	-	PUNCT	_	_	_	_	_	_
+14	century	century	NOUN	_	_	_	_	_	_
+15	constitutional	constitutional	ADJ	_	_	_	_	_	_
+16	framers	framer	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_210
+# text = The ombudsman challenged administrative detention orders lacking individualized judicial authorization within constitutionally mandated timeframes.
+1	The	the	DET	_	_	_	_	_	_
+2	ombudsman	ombudsman	NOUN	_	_	_	_	_	_
+3	challenged	challenge	VERB	_	_	_	_	_	_
+4	administrative	administrative	ADJ	_	_	_	_	_	_
+5	detention	detention	NOUN	_	_	_	_	_	_
+6	orders	order	NOUN	_	_	_	_	_	_
+7	lacking	lack	VERB	_	_	_	_	_	_
+8	individualized	individualized	ADJ	_	_	_	_	_	_
+9	judicial	judicial	ADJ	_	_	_	_	_	_
+10	authorization	authorization	NOUN	_	_	_	_	_	_
+11	within	within	ADP	_	_	_	_	_	_
+12	constitutionally	constitutionally	ADV	_	_	_	_	_	_
+13	mandated	mandate	VERB	_	_	_	_	_	_
+14	timeframes	timeframe	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_211
+# text = Preliminary references enable national courts to seek authoritative guidance from the supranational court on treaty compatibility questions.
+1	Preliminary	preliminary	ADJ	_	_	_	_	_	_
+2	references	reference	NOUN	_	_	_	_	_	_
+3	enable	enable	VERB	_	_	_	_	_	_
+4	national	national	ADJ	_	_	_	_	_	_
+5	courts	court	NOUN	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	seek	seek	VERB	_	_	_	_	_	_
+8	authoritative	authoritative	ADJ	_	_	_	_	_	_
+9	guidance	guidance	NOUN	_	_	_	_	_	_
+10	from	from	ADP	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	supranational	supranational	ADJ	_	_	_	_	_	_
+13	court	court	NOUN	_	_	_	_	_	_
+14	on	on	ADP	_	_	_	_	_	_
+15	treaty	treaty	NOUN	_	_	_	_	_	_
+16	compatibility	compatibility	NOUN	_	_	_	_	_	_
+17	questions	question	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_212
+# text = Notwithstanding parliamentary sovereignty doctrines, certain legal norms may bind future legislatures through entrenched constitutional guarantees.
+1	Notwithstanding	notwithstanding	ADP	_	_	_	_	_	_
+2	parliamentary	parliamentary	ADJ	_	_	_	_	_	_
+3	sovereignty	sovereignty	NOUN	_	_	_	_	_	_
+4	doctrines	doctrine	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	certain	certain	ADJ	_	_	_	_	_	_
+7	legal	legal	ADJ	_	_	_	_	_	_
+8	norms	norm	NOUN	_	_	_	_	_	_
+9	may	may	AUX	_	_	_	_	_	_
+10	bind	bind	VERB	_	_	_	_	_	_
+11	future	future	ADJ	_	_	_	_	_	_
+12	legislatures	legislature	NOUN	_	_	_	_	_	_
+13	through	through	ADP	_	_	_	_	_	_
+14	entrenched	entrench	VERB	_	_	_	_	_	_
+15	constitutional	constitutional	ADJ	_	_	_	_	_	_
+16	guarantees	guarantee	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_213
+# text = The constitutional tribunal ruled that electoral districting practices violated equal suffrage principles embedded in foundational constitutional texts.
+1	The	the	DET	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	tribunal	tribunal	NOUN	_	_	_	_	_	_
+4	ruled	rule	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	electoral	electoral	ADJ	_	_	_	_	_	_
+7	districting	districting	NOUN	_	_	_	_	_	_
+8	practices	practice	NOUN	_	_	_	_	_	_
+9	violated	violate	VERB	_	_	_	_	_	_
+10	equal	equal	ADJ	_	_	_	_	_	_
+11	suffrage	suffrage	NOUN	_	_	_	_	_	_
+12	principles	principle	NOUN	_	_	_	_	_	_
+13	embedded	emb	VERB	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	foundational	foundational	ADJ	_	_	_	_	_	_
+16	constitutional	constitutional	ADJ	_	_	_	_	_	_
+17	texts	text	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_214
+# text = Federal supremacy clauses resolve conflicts between state legislation and nationally enacted statutes within enumerated competence domains.
+1	Federal	federal	ADJ	_	_	_	_	_	_
+2	supremacy	supremacy	NOUN	_	_	_	_	_	_
+3	clauses	clause	NOUN	_	_	_	_	_	_
+4	resolve	resolve	VERB	_	_	_	_	_	_
+5	conflicts	conflict	NOUN	_	_	_	_	_	_
+6	between	between	ADP	_	_	_	_	_	_
+7	state	state	NOUN	_	_	_	_	_	_
+8	legislation	legislation	NOUN	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	nationally	nationally	ADV	_	_	_	_	_	_
+11	enacted	enact	VERB	_	_	_	_	_	_
+12	statutes	statute	NOUN	_	_	_	_	_	_
+13	within	within	ADP	_	_	_	_	_	_
+14	enumerated	enumerate	VERB	_	_	_	_	_	_
+15	competence	competence	NOUN	_	_	_	_	_	_
+16	domains	domain	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_215
+# text = The attorney general defended the statute's constitutionality by demonstrating narrowly tailored objectives served by disputed regulatory measures.
+1	The	the	DET	_	_	_	_	_	_
+2	attorney	attorney	NOUN	_	_	_	_	_	_
+3	general	general	NOUN	_	_	_	_	_	_
+4	defended	defend	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	statute's	statute	NOUN	_	_	_	_	_	_
+7	constitutionality	constitutionality	NOUN	_	_	_	_	_	_
+8	by	by	ADP	_	_	_	_	_	_
+9	demonstrating	demonstrate	VERB	_	_	_	_	_	_
+10	narrowly	narrowly	ADV	_	_	_	_	_	_
+11	tailored	tailor	VERB	_	_	_	_	_	_
+12	objectives	objective	NOUN	_	_	_	_	_	_
+13	served	serve	VERB	_	_	_	_	_	_
+14	by	by	ADP	_	_	_	_	_	_
+15	disputed	dispute	VERB	_	_	_	_	_	_
+16	regulatory	regulatory	ADJ	_	_	_	_	_	_
+17	measures	measure	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_216
+# text = Constitutional conventions supplement written provisions by guiding executive conduct even when formal textual mandates remain deliberately ambiguous.
+1	Constitutional	constitutional	ADJ	_	_	_	_	_	_
+2	conventions	convention	NOUN	_	_	_	_	_	_
+3	supplement	supplement	VERB	_	_	_	_	_	_
+4	written	write	VERB	_	_	_	_	_	_
+5	provisions	provision	NOUN	_	_	_	_	_	_
+6	by	by	ADP	_	_	_	_	_	_
+7	guiding	guide	VERB	_	_	_	_	_	_
+8	executive	executive	ADJ	_	_	_	_	_	_
+9	conduct	conduct	NOUN	_	_	_	_	_	_
+10	even	even	ADV	_	_	_	_	_	_
+11	when	when	SCONJ	_	_	_	_	_	_
+12	formal	formal	ADJ	_	_	_	_	_	_
+13	textual	textual	ADJ	_	_	_	_	_	_
+14	mandates	mandate	NOUN	_	_	_	_	_	_
+15	remain	remain	VERB	_	_	_	_	_	_
+16	deliberately	deliberately	ADV	_	_	_	_	_	_
+17	ambiguous	ambiguous	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_217
+# text = The dissenting opinion warned that deferential scrutiny of security legislation risked eroding judicial protection of marginalized communities.
+1	The	the	DET	_	_	_	_	_	_
+2	dissenting	dissent	VERB	_	_	_	_	_	_
+3	opinion	opinion	NOUN	_	_	_	_	_	_
+4	warned	warn	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	deferential	deferential	ADJ	_	_	_	_	_	_
+7	scrutiny	scrutiny	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	security	security	NOUN	_	_	_	_	_	_
+10	legislation	legislation	NOUN	_	_	_	_	_	_
+11	risked	risk	VERB	_	_	_	_	_	_
+12	eroding	erode	VERB	_	_	_	_	_	_
+13	judicial	judicial	ADJ	_	_	_	_	_	_
+14	protection	protection	NOUN	_	_	_	_	_	_
+15	of	of	ADP	_	_	_	_	_	_
+16	marginalized	marginalized	ADJ	_	_	_	_	_	_
+17	communities	community	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_218
+# text = Subnational governments invoked constitutional autonomy guarantees to resist centrally imposed standardization of educational curricula nationwide.
+1	Subnational	subnational	ADJ	_	_	_	_	_	_
+2	governments	government	NOUN	_	_	_	_	_	_
+3	invoked	invoke	VERB	_	_	_	_	_	_
+4	constitutional	constitutional	ADJ	_	_	_	_	_	_
+5	autonomy	autonomy	NOUN	_	_	_	_	_	_
+6	guarantees	guarantee	NOUN	_	_	_	_	_	_
+7	to	to	PART	_	_	_	_	_	_
+8	resist	resist	VERB	_	_	_	_	_	_
+9	centrally	centrally	ADV	_	_	_	_	_	_
+10	imposed	impose	VERB	_	_	_	_	_	_
+11	standardization	standardization	NOUN	_	_	_	_	_	_
+12	of	of	ADP	_	_	_	_	_	_
+13	educational	educational	ADJ	_	_	_	_	_	_
+14	curricula	curriculum	NOUN	_	_	_	_	_	_
+15	nationwide	nationwide	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_219
+# text = The constitutional complaint procedure allows individual petitioners to challenge statutes directly before the highest constitutional adjudicator.
+1	The	the	DET	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	complaint	complaint	NOUN	_	_	_	_	_	_
+4	procedure	procedure	NOUN	_	_	_	_	_	_
+5	allows	allow	VERB	_	_	_	_	_	_
+6	individual	individual	ADJ	_	_	_	_	_	_
+7	petitioners	petitioner	NOUN	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	challenge	challenge	VERB	_	_	_	_	_	_
+10	statutes	statute	NOUN	_	_	_	_	_	_
+11	directly	directly	ADV	_	_	_	_	_	_
+12	before	before	ADP	_	_	_	_	_	_
+13	the	the	DET	_	_	_	_	_	_
+14	highest	high	ADJ	_	_	_	_	_	_
+15	constitutional	constitutional	ADJ	_	_	_	_	_	_
+16	adjudicator	adjudicator	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_220
+# text = Proportionality analysis requires assessing suitability, necessity, and balanced severity before restricting constitutionally protected expressive freedoms.
+1	Proportionality	proportionality	NOUN	_	_	_	_	_	_
+2	analysis	analysis	NOUN	_	_	_	_	_	_
+3	requires	require	VERB	_	_	_	_	_	_
+4	assessing	asse	VERB	_	_	_	_	_	_
+5	suitability	suitability	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	necessity	necessity	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	balanced	balance	VERB	_	_	_	_	_	_
+11	severity	severity	NOUN	_	_	_	_	_	_
+12	before	before	SCONJ	_	_	_	_	_	_
+13	restricting	restrict	VERB	_	_	_	_	_	_
+14	constitutionally	constitutionally	ADV	_	_	_	_	_	_
+15	protected	protect	VERB	_	_	_	_	_	_
+16	expressive	expressive	ADJ	_	_	_	_	_	_
+17	freedoms	freedom	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_221
+# text = The grand chamber reheard the case after conflicting lower panel decisions created doctrinal uncertainty concerning privacy rights online.
+1	The	the	DET	_	_	_	_	_	_
+2	grand	grand	ADJ	_	_	_	_	_	_
+3	chamber	chamber	NOUN	_	_	_	_	_	_
+4	reheard	rehear	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	case	case	NOUN	_	_	_	_	_	_
+7	after	after	SCONJ	_	_	_	_	_	_
+8	conflicting	conflict	VERB	_	_	_	_	_	_
+9	lower	low	ADJ	_	_	_	_	_	_
+10	panel	panel	NOUN	_	_	_	_	_	_
+11	decisions	decision	NOUN	_	_	_	_	_	_
+12	created	create	VERB	_	_	_	_	_	_
+13	doctrinal	doctrinal	ADJ	_	_	_	_	_	_
+14	uncertainty	uncertainty	NOUN	_	_	_	_	_	_
+15	concerning	concern	ADP	_	_	_	_	_	_
+16	privacy	privacy	NOUN	_	_	_	_	_	_
+17	rights	right	NOUN	_	_	_	_	_	_
+18	online	online	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_222
+# text = Constitutional identity clauses permit member states to resist harmonization measures perceived as threatening foundational legal traditions domestically.
+1	Constitutional	constitutional	ADJ	_	_	_	_	_	_
+2	identity	identity	NOUN	_	_	_	_	_	_
+3	clauses	clause	NOUN	_	_	_	_	_	_
+4	permit	permit	VERB	_	_	_	_	_	_
+5	member	member	NOUN	_	_	_	_	_	_
+6	states	state	NOUN	_	_	_	_	_	_
+7	to	to	PART	_	_	_	_	_	_
+8	resist	resist	VERB	_	_	_	_	_	_
+9	harmonization	harmonization	NOUN	_	_	_	_	_	_
+10	measures	measure	NOUN	_	_	_	_	_	_
+11	perceived	perceive	VERB	_	_	_	_	_	_
+12	as	as	SCONJ	_	_	_	_	_	_
+13	threatening	threaten	VERB	_	_	_	_	_	_
+14	foundational	foundational	ADJ	_	_	_	_	_	_
+15	legal	legal	ADJ	_	_	_	_	_	_
+16	traditions	tradition	NOUN	_	_	_	_	_	_
+17	domestically	domestically	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_223
+# text = The impeachment proceedings examined whether executive misconduct constituted high crimes warranting removal under constitutional removal standards.
+1	The	the	DET	_	_	_	_	_	_
+2	impeachment	impeachment	NOUN	_	_	_	_	_	_
+3	proceedings	proceedings	NOUN	_	_	_	_	_	_
+4	examined	examine	VERB	_	_	_	_	_	_
+5	whether	whether	SCONJ	_	_	_	_	_	_
+6	executive	executive	ADJ	_	_	_	_	_	_
+7	misconduct	misconduct	NOUN	_	_	_	_	_	_
+8	constituted	constitute	VERB	_	_	_	_	_	_
+9	high	high	ADJ	_	_	_	_	_	_
+10	crimes	crime	NOUN	_	_	_	_	_	_
+11	warranting	warrant	VERB	_	_	_	_	_	_
+12	removal	removal	NOUN	_	_	_	_	_	_
+13	under	under	ADP	_	_	_	_	_	_
+14	constitutional	constitutional	ADJ	_	_	_	_	_	_
+15	removal	removal	NOUN	_	_	_	_	_	_
+16	standards	standard	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_224
+# text = Judicial appointments commissions aim to depoliticize selection processes while preserving democratic accountability through transparent nomination hearings.
+1	Judicial	judicial	ADJ	_	_	_	_	_	_
+2	appointments	appointment	NOUN	_	_	_	_	_	_
+3	commissions	commission	NOUN	_	_	_	_	_	_
+4	aim	aim	VERB	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	depoliticize	depoliticize	VERB	_	_	_	_	_	_
+7	selection	selection	NOUN	_	_	_	_	_	_
+8	processes	process	NOUN	_	_	_	_	_	_
+9	while	while	SCONJ	_	_	_	_	_	_
+10	preserving	preserve	VERB	_	_	_	_	_	_
+11	democratic	democratic	ADJ	_	_	_	_	_	_
+12	accountability	accountability	NOUN	_	_	_	_	_	_
+13	through	through	ADP	_	_	_	_	_	_
+14	transparent	transparent	ADJ	_	_	_	_	_	_
+15	nomination	nomination	NOUN	_	_	_	_	_	_
+16	hearings	hearing	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_225
+# text = The constitutional settlement balanced minority veto mechanisms with majoritarian decision rules to prevent legislative paralysis in plural societies.
+1	The	the	DET	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	settlement	settlement	NOUN	_	_	_	_	_	_
+4	balanced	balance	VERB	_	_	_	_	_	_
+5	minority	minority	NOUN	_	_	_	_	_	_
+6	veto	veto	NOUN	_	_	_	_	_	_
+7	mechanisms	mechanism	NOUN	_	_	_	_	_	_
+8	with	with	ADP	_	_	_	_	_	_
+9	majoritarian	majoritarian	ADJ	_	_	_	_	_	_
+10	decision	decision	NOUN	_	_	_	_	_	_
+11	rules	rule	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	prevent	prevent	VERB	_	_	_	_	_	_
+14	legislative	legislative	ADJ	_	_	_	_	_	_
+15	paralysis	paralysis	NOUN	_	_	_	_	_	_
+16	in	in	ADP	_	_	_	_	_	_
+17	plural	plural	ADJ	_	_	_	_	_	_
+18	societies	society	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_226
+# text = The living constitutionalist argued that evolving social consensus should inform interpretation of open - textured constitutional equality provisions.
+1	The	the	DET	_	_	_	_	_	_
+2	living	living	NOUN	_	_	_	_	_	_
+3	constitutionalist	constitutionalist	NOUN	_	_	_	_	_	_
+4	argued	argue	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	evolving	evolve	VERB	_	_	_	_	_	_
+7	social	social	ADJ	_	_	_	_	_	_
+8	consensus	consensus	NOUN	_	_	_	_	_	_
+9	should	shall	AUX	_	_	_	_	_	_
+10	inform	inform	VERB	_	_	_	_	_	_
+11	interpretation	interpretation	NOUN	_	_	_	_	_	_
+12	of	of	ADP	_	_	_	_	_	_
+13	open	open	ADJ	_	_	_	_	_	_
+14	-	-	PUNCT	_	_	_	_	_	_
+15	textured	texture	VERB	_	_	_	_	_	_
+16	constitutional	constitutional	ADJ	_	_	_	_	_	_
+17	equality	equality	NOUN	_	_	_	_	_	_
+18	provisions	provision	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_227
+# text = Standing requirements limit access to constitutional litigation, thereby filtering disputes to plaintiffs demonstrating concrete and particularized injuries.
+1	Standing	standing	NOUN	_	_	_	_	_	_
+2	requirements	requirement	NOUN	_	_	_	_	_	_
+3	limit	limit	VERB	_	_	_	_	_	_
+4	access	access	NOUN	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	constitutional	constitutional	ADJ	_	_	_	_	_	_
+7	litigation	litigation	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	thereby	thereby	ADV	_	_	_	_	_	_
+10	filtering	filter	VERB	_	_	_	_	_	_
+11	disputes	dispute	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	plaintiffs	plaintiff	NOUN	_	_	_	_	_	_
+14	demonstrating	demonstrate	VERB	_	_	_	_	_	_
+15	concrete	concrete	ADJ	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	particularized	particularize	VERB	_	_	_	_	_	_
+18	injuries	injury	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_228
+# text = Although the legislature enjoys broad discretion in taxation, discriminatory classification schemes remain subject to heightened constitutional scrutiny.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	legislature	legislature	NOUN	_	_	_	_	_	_
+4	enjoys	enjoy	VERB	_	_	_	_	_	_
+5	broad	broad	ADJ	_	_	_	_	_	_
+6	discretion	discretion	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	taxation	taxation	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	discriminatory	discriminatory	ADJ	_	_	_	_	_	_
+11	classification	classification	NOUN	_	_	_	_	_	_
+12	schemes	scheme	NOUN	_	_	_	_	_	_
+13	remain	remain	VERB	_	_	_	_	_	_
+14	subject	subject	ADJ	_	_	_	_	_	_
+15	to	to	PART	_	_	_	_	_	_
+16	heightened	heighten	VERB	_	_	_	_	_	_
+17	constitutional	constitutional	ADJ	_	_	_	_	_	_
+18	scrutiny	scrutiny	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_229
+# text = The constitutional court invalidated retroactive criminal statutes that violated principles prohibiting punishment without prior legal authorization clearly.
+1	The	the	DET	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	court	court	NOUN	_	_	_	_	_	_
+4	invalidated	invalidate	VERB	_	_	_	_	_	_
+5	retroactive	retroactive	ADJ	_	_	_	_	_	_
+6	criminal	criminal	ADJ	_	_	_	_	_	_
+7	statutes	statute	NOUN	_	_	_	_	_	_
+8	that	that	SCONJ	_	_	_	_	_	_
+9	violated	violate	VERB	_	_	_	_	_	_
+10	principles	principle	NOUN	_	_	_	_	_	_
+11	prohibiting	prohibit	VERB	_	_	_	_	_	_
+12	punishment	punishment	NOUN	_	_	_	_	_	_
+13	without	without	ADP	_	_	_	_	_	_
+14	prior	prior	ADJ	_	_	_	_	_	_
+15	legal	legal	ADJ	_	_	_	_	_	_
+16	authorization	authorization	NOUN	_	_	_	_	_	_
+17	clearly	clearly	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_230
+# text = Federal police powers coexist uneasily with constitutional guarantees restraining searches conducted without probable cause or judicial warrants.
+1	Federal	federal	ADJ	_	_	_	_	_	_
+2	police	police	NOUN	_	_	_	_	_	_
+3	powers	power	NOUN	_	_	_	_	_	_
+4	coexist	coexist	VERB	_	_	_	_	_	_
+5	uneasily	uneasily	ADV	_	_	_	_	_	_
+6	with	with	ADP	_	_	_	_	_	_
+7	constitutional	constitutional	ADJ	_	_	_	_	_	_
+8	guarantees	guarantee	NOUN	_	_	_	_	_	_
+9	restraining	restrain	VERB	_	_	_	_	_	_
+10	searches	search	NOUN	_	_	_	_	_	_
+11	conducted	conduct	VERB	_	_	_	_	_	_
+12	without	without	ADP	_	_	_	_	_	_
+13	probable	probable	ADJ	_	_	_	_	_	_
+14	cause	cause	NOUN	_	_	_	_	_	_
+15	or	or	CCONJ	_	_	_	_	_	_
+16	judicial	judicial	ADJ	_	_	_	_	_	_
+17	warrants	warrant	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_231
+# text = It is widely acknowledged that constitutional adjudication inevitably involves value judgments about competing liberty and security imperatives.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	widely	widely	ADV	_	_	_	_	_	_
+4	acknowledged	acknowledge	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	constitutional	constitutional	ADJ	_	_	_	_	_	_
+7	adjudication	adjudication	NOUN	_	_	_	_	_	_
+8	inevitably	inevitably	ADV	_	_	_	_	_	_
+9	involves	involve	VERB	_	_	_	_	_	_
+10	value	value	NOUN	_	_	_	_	_	_
+11	judgments	judgment	NOUN	_	_	_	_	_	_
+12	about	about	ADP	_	_	_	_	_	_
+13	competing	compete	VERB	_	_	_	_	_	_
+14	liberty	liberty	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	security	security	NOUN	_	_	_	_	_	_
+17	imperatives	imperative	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_232
+# text = The amicus brief synthesized comparative constitutional scholarship supporting robust protection of digital privacy against indiscriminate state surveillance.
+1	The	the	DET	_	_	_	_	_	_
+2	amicus	amicus	NOUN	_	_	_	_	_	_
+3	brief	brief	NOUN	_	_	_	_	_	_
+4	synthesized	synthesize	VERB	_	_	_	_	_	_
+5	comparative	comparative	ADJ	_	_	_	_	_	_
+6	constitutional	constitutional	ADJ	_	_	_	_	_	_
+7	scholarship	scholarship	NOUN	_	_	_	_	_	_
+8	supporting	support	VERB	_	_	_	_	_	_
+9	robust	robust	ADJ	_	_	_	_	_	_
+10	protection	protection	NOUN	_	_	_	_	_	_
+11	of	of	ADP	_	_	_	_	_	_
+12	digital	digital	ADJ	_	_	_	_	_	_
+13	privacy	privacy	NOUN	_	_	_	_	_	_
+14	against	against	ADP	_	_	_	_	_	_
+15	indiscriminate	indiscriminate	ADJ	_	_	_	_	_	_
+16	state	state	NOUN	_	_	_	_	_	_
+17	surveillance	surveillance	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_233
+# text = Having consolidated fragmented jurisdiction, the tribunal centralized constitutional matters previously dispersed among specialized administrative tribunals nationally.
+1	Having	have	AUX	_	_	_	_	_	_
+2	consolidated	consolidate	VERB	_	_	_	_	_	_
+3	fragmented	fragment	VERB	_	_	_	_	_	_
+4	jurisdiction	jurisdiction	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	tribunal	tribunal	NOUN	_	_	_	_	_	_
+8	centralized	centralized	ADJ	_	_	_	_	_	_
+9	constitutional	constitutional	ADJ	_	_	_	_	_	_
+10	matters	matter	NOUN	_	_	_	_	_	_
+11	previously	previously	ADV	_	_	_	_	_	_
+12	dispersed	disperse	VERB	_	_	_	_	_	_
+13	among	among	ADP	_	_	_	_	_	_
+14	specialized	specialized	ADJ	_	_	_	_	_	_
+15	administrative	administrative	ADJ	_	_	_	_	_	_
+16	tribunals	tribunal	NOUN	_	_	_	_	_	_
+17	nationally	nationally	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_234
+# text = The sunset clause ensured that extraordinary surveillance authorities expired unless explicitly reauthorized through renewed legislative deliberation periodically.
+1	The	the	DET	_	_	_	_	_	_
+2	sunset	sunset	NOUN	_	_	_	_	_	_
+3	clause	clause	NOUN	_	_	_	_	_	_
+4	ensured	ensure	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	extraordinary	extraordinary	ADJ	_	_	_	_	_	_
+7	surveillance	surveillance	NOUN	_	_	_	_	_	_
+8	authorities	authority	NOUN	_	_	_	_	_	_
+9	expired	expire	VERB	_	_	_	_	_	_
+10	unless	unless	SCONJ	_	_	_	_	_	_
+11	explicitly	explicitly	ADV	_	_	_	_	_	_
+12	reauthorized	reauthorize	VERB	_	_	_	_	_	_
+13	through	through	ADP	_	_	_	_	_	_
+14	renewed	renew	VERB	_	_	_	_	_	_
+15	legislative	legislative	ADJ	_	_	_	_	_	_
+16	deliberation	deliberation	NOUN	_	_	_	_	_	_
+17	periodically	periodically	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_235
+# text = Constitutional theorists examine how dialogic models encourage iterative exchanges between courts, legislatures, and civil society stakeholders.
+1	Constitutional	constitutional	ADJ	_	_	_	_	_	_
+2	theorists	theorist	NOUN	_	_	_	_	_	_
+3	examine	examine	VERB	_	_	_	_	_	_
+4	how	how	ADV	_	_	_	_	_	_
+5	dialogic	dialogic	ADJ	_	_	_	_	_	_
+6	models	model	NOUN	_	_	_	_	_	_
+7	encourage	encourage	VERB	_	_	_	_	_	_
+8	iterative	iterative	ADJ	_	_	_	_	_	_
+9	exchanges	exchange	NOUN	_	_	_	_	_	_
+10	between	between	ADP	_	_	_	_	_	_
+11	courts	court	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	legislatures	legislature	NOUN	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	civil	civil	ADJ	_	_	_	_	_	_
+17	society	society	NOUN	_	_	_	_	_	_
+18	stakeholders	stakeholder	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_236
+# text = The reserved powers doctrine preserves regulatory authority for subnational entities in domains not expressly delegated to central institutions.
+1	The	the	DET	_	_	_	_	_	_
+2	reserved	reserve	VERB	_	_	_	_	_	_
+3	powers	power	NOUN	_	_	_	_	_	_
+4	doctrine	doctrine	NOUN	_	_	_	_	_	_
+5	preserves	preserve	VERB	_	_	_	_	_	_
+6	regulatory	regulatory	ADJ	_	_	_	_	_	_
+7	authority	authority	NOUN	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	subnational	subnational	ADJ	_	_	_	_	_	_
+10	entities	entity	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	domains	domain	NOUN	_	_	_	_	_	_
+13	not	not	PART	_	_	_	_	_	_
+14	expressly	expressly	ADV	_	_	_	_	_	_
+15	delegated	delegate	VERB	_	_	_	_	_	_
+16	to	to	PART	_	_	_	_	_	_
+17	central	central	ADJ	_	_	_	_	_	_
+18	institutions	institution	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_237
+# text = Notwithstanding textual silence, implied constitutional rights derive from structural principles underlying democratic governance and rule of law.
+1	Notwithstanding	notwithstanding	ADP	_	_	_	_	_	_
+2	textual	textual	ADJ	_	_	_	_	_	_
+3	silence	silence	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	implied	imply	VERB	_	_	_	_	_	_
+6	constitutional	constitutional	ADJ	_	_	_	_	_	_
+7	rights	right	NOUN	_	_	_	_	_	_
+8	derive	derive	VERB	_	_	_	_	_	_
+9	from	from	ADP	_	_	_	_	_	_
+10	structural	structural	ADJ	_	_	_	_	_	_
+11	principles	principle	NOUN	_	_	_	_	_	_
+12	underlying	underlie	VERB	_	_	_	_	_	_
+13	democratic	democratic	ADJ	_	_	_	_	_	_
+14	governance	governance	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	rule	rule	NOUN	_	_	_	_	_	_
+17	of	of	ADP	_	_	_	_	_	_
+18	law	law	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_238
+# text = The chamber held that compelled speech requirements infringed constitutional autonomy by mandating endorsement of government - sponsored ideological messaging.
+1	The	the	DET	_	_	_	_	_	_
+2	chamber	chamber	NOUN	_	_	_	_	_	_
+3	held	hold	VERB	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	compelled	compel	VERB	_	_	_	_	_	_
+6	speech	speech	NOUN	_	_	_	_	_	_
+7	requirements	requirement	NOUN	_	_	_	_	_	_
+8	infringed	infr	VERB	_	_	_	_	_	_
+9	constitutional	constitutional	ADJ	_	_	_	_	_	_
+10	autonomy	autonomy	NOUN	_	_	_	_	_	_
+11	by	by	ADP	_	_	_	_	_	_
+12	mandating	mandate	VERB	_	_	_	_	_	_
+13	endorsement	endorsement	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	government	government	NOUN	_	_	_	_	_	_
+16	-	-	PUNCT	_	_	_	_	_	_
+17	sponsored	sponsor	VERB	_	_	_	_	_	_
+18	ideological	ideological	ADJ	_	_	_	_	_	_
+19	messaging	messaging	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_239
+# text = Constitutional avoidance canons instruct courts to prefer statutory constructions that circumvent unnecessary resolution of constitutional questions.
+1	Constitutional	constitutional	ADJ	_	_	_	_	_	_
+2	avoidance	avoidance	NOUN	_	_	_	_	_	_
+3	canons	canon	NOUN	_	_	_	_	_	_
+4	instruct	instruct	VERB	_	_	_	_	_	_
+5	courts	court	NOUN	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	prefer	prefer	VERB	_	_	_	_	_	_
+8	statutory	statutory	ADJ	_	_	_	_	_	_
+9	constructions	construction	NOUN	_	_	_	_	_	_
+10	that	that	SCONJ	_	_	_	_	_	_
+11	circumvent	circumvent	VERB	_	_	_	_	_	_
+12	unnecessary	unnecessary	ADJ	_	_	_	_	_	_
+13	resolution	resolution	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	constitutional	constitutional	ADJ	_	_	_	_	_	_
+16	questions	question	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_240
+# text = The referendum result triggered constitutional reform negotiations addressing longstanding grievances concerning regional autonomy and fiscal redistribution.
+1	The	the	DET	_	_	_	_	_	_
+2	referendum	referendum	NOUN	_	_	_	_	_	_
+3	result	result	NOUN	_	_	_	_	_	_
+4	triggered	trigger	VERB	_	_	_	_	_	_
+5	constitutional	constitutional	ADJ	_	_	_	_	_	_
+6	reform	reform	NOUN	_	_	_	_	_	_
+7	negotiations	negotiation	NOUN	_	_	_	_	_	_
+8	addressing	addre	VERB	_	_	_	_	_	_
+9	longstanding	longstanding	ADJ	_	_	_	_	_	_
+10	grievances	grievance	NOUN	_	_	_	_	_	_
+11	concerning	concern	ADP	_	_	_	_	_	_
+12	regional	regional	ADJ	_	_	_	_	_	_
+13	autonomy	autonomy	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	fiscal	fiscal	ADJ	_	_	_	_	_	_
+16	redistribution	redistribution	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_241
+# text = Executive privilege claims must yield when competing constitutional interests in criminal investigation and accountability substantially outweigh confidentiality concerns.
+1	Executive	executive	ADJ	_	_	_	_	_	_
+2	privilege	privilege	NOUN	_	_	_	_	_	_
+3	claims	claim	NOUN	_	_	_	_	_	_
+4	must	must	AUX	_	_	_	_	_	_
+5	yield	yield	VERB	_	_	_	_	_	_
+6	when	when	SCONJ	_	_	_	_	_	_
+7	competing	compete	VERB	_	_	_	_	_	_
+8	constitutional	constitutional	ADJ	_	_	_	_	_	_
+9	interests	interest	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	criminal	criminal	ADJ	_	_	_	_	_	_
+12	investigation	investigation	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	accountability	accountability	NOUN	_	_	_	_	_	_
+15	substantially	substantially	ADV	_	_	_	_	_	_
+16	outweigh	outweigh	VERB	_	_	_	_	_	_
+17	confidentiality	confidentiality	NOUN	_	_	_	_	_	_
+18	concerns	concern	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_242
+# text = The constitutional bench affirmed that affirmative action programs required periodic reassessment to ensure continued alignment with remedial objectives.
+1	The	the	DET	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	bench	bench	NOUN	_	_	_	_	_	_
+4	affirmed	affirm	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	affirmative	affirmative	ADJ	_	_	_	_	_	_
+7	action	action	NOUN	_	_	_	_	_	_
+8	programs	program	NOUN	_	_	_	_	_	_
+9	required	require	VERB	_	_	_	_	_	_
+10	periodic	periodic	ADJ	_	_	_	_	_	_
+11	reassessment	reassessment	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	ensure	ensure	VERB	_	_	_	_	_	_
+14	continued	continue	VERB	_	_	_	_	_	_
+15	alignment	alignment	NOUN	_	_	_	_	_	_
+16	with	with	ADP	_	_	_	_	_	_
+17	remedial	remedial	ADJ	_	_	_	_	_	_
+18	objectives	objective	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_243
+# text = Parliamentary immunity shields legislators from prosecution for speeches delivered within chambers, preserving robust democratic deliberation constitutionally.
+1	Parliamentary	parliamentary	ADJ	_	_	_	_	_	_
+2	immunity	immunity	NOUN	_	_	_	_	_	_
+3	shields	shield	VERB	_	_	_	_	_	_
+4	legislators	legislator	NOUN	_	_	_	_	_	_
+5	from	from	ADP	_	_	_	_	_	_
+6	prosecution	prosecution	NOUN	_	_	_	_	_	_
+7	for	for	ADP	_	_	_	_	_	_
+8	speeches	speech	NOUN	_	_	_	_	_	_
+9	delivered	deliver	VERB	_	_	_	_	_	_
+10	within	within	ADP	_	_	_	_	_	_
+11	chambers	chamber	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	preserving	preserve	VERB	_	_	_	_	_	_
+14	robust	robust	ADJ	_	_	_	_	_	_
+15	democratic	democratic	ADJ	_	_	_	_	_	_
+16	deliberation	deliberation	NOUN	_	_	_	_	_	_
+17	constitutionally	constitutionally	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_244
+# text = The preliminary injunction suspended enforcement of the statute pending final constitutional review of its restrictions on peaceful assembly.
+1	The	the	DET	_	_	_	_	_	_
+2	preliminary	preliminary	ADJ	_	_	_	_	_	_
+3	injunction	injunction	NOUN	_	_	_	_	_	_
+4	suspended	suspend	VERB	_	_	_	_	_	_
+5	enforcement	enforcement	NOUN	_	_	_	_	_	_
+6	of	of	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	statute	statute	NOUN	_	_	_	_	_	_
+9	pending	pending	ADP	_	_	_	_	_	_
+10	final	final	ADJ	_	_	_	_	_	_
+11	constitutional	constitutional	ADJ	_	_	_	_	_	_
+12	review	review	NOUN	_	_	_	_	_	_
+13	of	of	ADP	_	_	_	_	_	_
+14	its	its	PRON	_	_	_	_	_	_
+15	restrictions	restriction	NOUN	_	_	_	_	_	_
+16	on	on	ADP	_	_	_	_	_	_
+17	peaceful	peaceful	ADJ	_	_	_	_	_	_
+18	assembly	assembly	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_245
+# text = Scholars caution that excessive judicial activism may undermine democratic legitimacy when courts substitute policy preferences for legislative judgment.
+1	Scholars	scholars	NOUN	_	_	_	_	_	_
+2	caution	caution	VERB	_	_	_	_	_	_
+3	that	that	SCONJ	_	_	_	_	_	_
+4	excessive	excessive	ADJ	_	_	_	_	_	_
+5	judicial	judicial	ADJ	_	_	_	_	_	_
+6	activism	activism	NOUN	_	_	_	_	_	_
+7	may	may	AUX	_	_	_	_	_	_
+8	undermine	undermine	VERB	_	_	_	_	_	_
+9	democratic	democratic	ADJ	_	_	_	_	_	_
+10	legitimacy	legitimacy	NOUN	_	_	_	_	_	_
+11	when	when	SCONJ	_	_	_	_	_	_
+12	courts	court	NOUN	_	_	_	_	_	_
+13	substitute	substitute	VERB	_	_	_	_	_	_
+14	policy	policy	NOUN	_	_	_	_	_	_
+15	preferences	preference	NOUN	_	_	_	_	_	_
+16	for	for	ADP	_	_	_	_	_	_
+17	legislative	legislative	ADJ	_	_	_	_	_	_
+18	judgment	judgment	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_246
+# text = The constitutional mandate required independent electoral administration insulated from partisan interference during nationally consequential ballot procedures.
+1	The	the	DET	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	mandate	mandate	NOUN	_	_	_	_	_	_
+4	required	require	VERB	_	_	_	_	_	_
+5	independent	independent	ADJ	_	_	_	_	_	_
+6	electoral	electoral	ADJ	_	_	_	_	_	_
+7	administration	administration	NOUN	_	_	_	_	_	_
+8	insulated	insulate	VERB	_	_	_	_	_	_
+9	from	from	ADP	_	_	_	_	_	_
+10	partisan	partisan	ADJ	_	_	_	_	_	_
+11	interference	interference	NOUN	_	_	_	_	_	_
+12	during	during	ADP	_	_	_	_	_	_
+13	nationally	nationally	ADV	_	_	_	_	_	_
+14	consequential	consequential	ADJ	_	_	_	_	_	_
+15	ballot	ballot	NOUN	_	_	_	_	_	_
+16	procedures	procedure	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_247
+# text = Dualist constitutional systems treat international treaties as requiring domestic incorporation before courts may enforce rights provisions directly.
+1	Dualist	dualist	ADJ	_	_	_	_	_	_
+2	constitutional	constitutional	ADJ	_	_	_	_	_	_
+3	systems	system	NOUN	_	_	_	_	_	_
+4	treat	treat	VERB	_	_	_	_	_	_
+5	international	international	ADJ	_	_	_	_	_	_
+6	treaties	treaty	NOUN	_	_	_	_	_	_
+7	as	as	SCONJ	_	_	_	_	_	_
+8	requiring	require	VERB	_	_	_	_	_	_
+9	domestic	domestic	ADJ	_	_	_	_	_	_
+10	incorporation	incorporation	NOUN	_	_	_	_	_	_
+11	before	before	SCONJ	_	_	_	_	_	_
+12	courts	court	NOUN	_	_	_	_	_	_
+13	may	may	AUX	_	_	_	_	_	_
+14	enforce	enforce	VERB	_	_	_	_	_	_
+15	rights	right	NOUN	_	_	_	_	_	_
+16	provisions	provision	NOUN	_	_	_	_	_	_
+17	directly	directly	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_248
+# text = The concurring opinion emphasized that procedural due process safeguards apply equally to administrative agencies exercising quasi- judicial adjudicatory functions.
+1	The	the	DET	_	_	_	_	_	_
+2	concurring	concurr	VERB	_	_	_	_	_	_
+3	opinion	opinion	NOUN	_	_	_	_	_	_
+4	emphasized	emphasize	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	procedural	procedural	ADJ	_	_	_	_	_	_
+7	due	due	ADJ	_	_	_	_	_	_
+8	process	process	NOUN	_	_	_	_	_	_
+9	safeguards	safeguard	NOUN	_	_	_	_	_	_
+10	apply	apply	VERB	_	_	_	_	_	_
+11	equally	equally	ADV	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	administrative	administrative	ADJ	_	_	_	_	_	_
+14	agencies	agency	NOUN	_	_	_	_	_	_
+15	exercising	exercise	VERB	_	_	_	_	_	_
+16	quasi-	quasi-	ADJ	_	_	_	_	_	_
+17	judicial	judicial	ADJ	_	_	_	_	_	_
+18	adjudicatory	adjudicatory	NOUN	_	_	_	_	_	_
+19	functions	function	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_249
+# text = Constitutional unamendability doctrines protect democratic core principles against repeal by transient legislative majorities pursuing authoritarian consolidation.
+1	Constitutional	constitutional	ADJ	_	_	_	_	_	_
+2	unamendability	unamendability	NOUN	_	_	_	_	_	_
+3	doctrines	doctrine	NOUN	_	_	_	_	_	_
+4	protect	protect	VERB	_	_	_	_	_	_
+5	democratic	democratic	ADJ	_	_	_	_	_	_
+6	core	core	NOUN	_	_	_	_	_	_
+7	principles	principle	NOUN	_	_	_	_	_	_
+8	against	against	ADP	_	_	_	_	_	_
+9	repeal	repeal	NOUN	_	_	_	_	_	_
+10	by	by	ADP	_	_	_	_	_	_
+11	transient	transient	ADJ	_	_	_	_	_	_
+12	legislative	legislative	ADJ	_	_	_	_	_	_
+13	majorities	majority	NOUN	_	_	_	_	_	_
+14	pursuing	pursue	VERB	_	_	_	_	_	_
+15	authoritarian	authoritarian	ADJ	_	_	_	_	_	_
+16	consolidation	consolidation	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_250
+# text = The remedial decree mandated redistricting maps complying with constitutional standards for representational equality across demographic constituencies nationwide.
+1	The	the	DET	_	_	_	_	_	_
+2	remedial	remedial	ADJ	_	_	_	_	_	_
+3	decree	decree	NOUN	_	_	_	_	_	_
+4	mandated	mandate	VERB	_	_	_	_	_	_
+5	redistricting	redistricting	NOUN	_	_	_	_	_	_
+6	maps	map	NOUN	_	_	_	_	_	_
+7	complying	comply	VERB	_	_	_	_	_	_
+8	with	with	ADP	_	_	_	_	_	_
+9	constitutional	constitutional	ADJ	_	_	_	_	_	_
+10	standards	standard	NOUN	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	representational	representational	ADJ	_	_	_	_	_	_
+13	equality	equality	NOUN	_	_	_	_	_	_
+14	across	across	ADP	_	_	_	_	_	_
+15	demographic	demographic	ADJ	_	_	_	_	_	_
+16	constituencies	constituency	NOUN	_	_	_	_	_	_
+17	nationwide	nationwide	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_251
+# text = Monetary policymakers signaled willingness to maintain restrictive interest rates until inflation expectations converge sustainably toward official targets.
+1	Monetary	monetary	ADJ	_	_	_	_	_	_
+2	policymakers	policymaker	NOUN	_	_	_	_	_	_
+3	signaled	signal	VERB	_	_	_	_	_	_
+4	willingness	willingness	NOUN	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	maintain	maintain	VERB	_	_	_	_	_	_
+7	restrictive	restrictive	ADJ	_	_	_	_	_	_
+8	interest	interest	NOUN	_	_	_	_	_	_
+9	rates	rate	NOUN	_	_	_	_	_	_
+10	until	until	SCONJ	_	_	_	_	_	_
+11	inflation	inflation	NOUN	_	_	_	_	_	_
+12	expectations	expectation	NOUN	_	_	_	_	_	_
+13	converge	converge	VERB	_	_	_	_	_	_
+14	sustainably	sustainably	ADV	_	_	_	_	_	_
+15	toward	toward	ADP	_	_	_	_	_	_
+16	official	official	ADJ	_	_	_	_	_	_
+17	targets	target	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_252
+# text = The fiscal multiplier for infrastructure investment appears larger during recessions when idle capacity and accommodative monetary conditions prevail simultaneously.
+1	The	the	DET	_	_	_	_	_	_
+2	fiscal	fiscal	ADJ	_	_	_	_	_	_
+3	multiplier	multiplier	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	infrastructure	infrastructure	NOUN	_	_	_	_	_	_
+6	investment	investment	NOUN	_	_	_	_	_	_
+7	appears	appear	VERB	_	_	_	_	_	_
+8	larger	large	ADJ	_	_	_	_	_	_
+9	during	during	ADP	_	_	_	_	_	_
+10	recessions	recession	NOUN	_	_	_	_	_	_
+11	when	when	SCONJ	_	_	_	_	_	_
+12	idle	idle	ADJ	_	_	_	_	_	_
+13	capacity	capacity	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	accommodative	accommodative	ADJ	_	_	_	_	_	_
+16	monetary	monetary	ADJ	_	_	_	_	_	_
+17	conditions	condition	NOUN	_	_	_	_	_	_
+18	prevail	prevail	VERB	_	_	_	_	_	_
+19	simultaneously	simultaneously	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_253
+# text = Although unemployment declined, discouraged worker effects and declining participation rates complicated interpretation of headline labor market indicators.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	unemployment	unemployment	NOUN	_	_	_	_	_	_
+3	declined	decline	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	discouraged	discourage	VERB	_	_	_	_	_	_
+6	worker	worker	NOUN	_	_	_	_	_	_
+7	effects	effect	NOUN	_	_	_	_	_	_
+8	and	and	CCONJ	_	_	_	_	_	_
+9	declining	decline	VERB	_	_	_	_	_	_
+10	participation	participation	NOUN	_	_	_	_	_	_
+11	rates	rate	NOUN	_	_	_	_	_	_
+12	complicated	complicat	VERB	_	_	_	_	_	_
+13	interpretation	interpretation	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	headline	headline	NOUN	_	_	_	_	_	_
+16	labor	labor	NOUN	_	_	_	_	_	_
+17	market	market	NOUN	_	_	_	_	_	_
+18	indicators	indicator	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_254
+# text = Central bank independence shields rate decisions from political pressures that might fuel unsustainable aggregate demand expansions.
+1	Central	central	ADJ	_	_	_	_	_	_
+2	bank	bank	NOUN	_	_	_	_	_	_
+3	independence	independence	NOUN	_	_	_	_	_	_
+4	shields	shield	VERB	_	_	_	_	_	_
+5	rate	rate	NOUN	_	_	_	_	_	_
+6	decisions	decision	NOUN	_	_	_	_	_	_
+7	from	from	ADP	_	_	_	_	_	_
+8	political	political	ADJ	_	_	_	_	_	_
+9	pressures	pressure	NOUN	_	_	_	_	_	_
+10	that	that	SCONJ	_	_	_	_	_	_
+11	might	may	AUX	_	_	_	_	_	_
+12	fuel	fuel	VERB	_	_	_	_	_	_
+13	unsustainable	unsustainable	ADJ	_	_	_	_	_	_
+14	aggregate	aggregate	ADJ	_	_	_	_	_	_
+15	demand	demand	NOUN	_	_	_	_	_	_
+16	expansions	expansion	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_255
+# text = The Phillips curve weakened as supply shocks altered historical trade - offs between inflation and unemployment.
+1	The	the	DET	_	_	_	_	_	_
+2	Phillips	Phillips	PROPN	_	_	_	_	_	_
+3	curve	curve	NOUN	_	_	_	_	_	_
+4	weakened	weaken	VERB	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	supply	supply	NOUN	_	_	_	_	_	_
+7	shocks	shock	NOUN	_	_	_	_	_	_
+8	altered	alter	VERB	_	_	_	_	_	_
+9	historical	historical	ADJ	_	_	_	_	_	_
+10	trade	trade	NOUN	_	_	_	_	_	_
+11	-	-	PUNCT	_	_	_	_	_	_
+12	offs	off	NOUN	_	_	_	_	_	_
+13	between	between	ADP	_	_	_	_	_	_
+14	inflation	inflation	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	unemployment	unemployment	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_256
+# text = It remains debatable whether quantitative easing primarily stimulated real activity or inflated asset valuations disproportionately benefiting wealthy households.
+1	It	it	PRON	_	_	_	_	_	_
+2	remains	remain	VERB	_	_	_	_	_	_
+3	debatable	debatable	ADJ	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	quantitative	quantitative	ADJ	_	_	_	_	_	_
+6	easing	ease	NOUN	_	_	_	_	_	_
+7	primarily	primarily	ADV	_	_	_	_	_	_
+8	stimulated	stimulate	VERB	_	_	_	_	_	_
+9	real	real	ADJ	_	_	_	_	_	_
+10	activity	activity	NOUN	_	_	_	_	_	_
+11	or	or	CCONJ	_	_	_	_	_	_
+12	inflated	inflate	VERB	_	_	_	_	_	_
+13	asset	asset	NOUN	_	_	_	_	_	_
+14	valuations	valuation	NOUN	_	_	_	_	_	_
+15	disproportionately	disproportionately	ADV	_	_	_	_	_	_
+16	benefiting	benefit	VERB	_	_	_	_	_	_
+17	wealthy	wealthy	ADJ	_	_	_	_	_	_
+18	households	household	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_257
+# text = Twin deficits in budgets and current accounts reflect structural imbalances requiring coordinated fiscal adjustment programs.
+1	Twin	Twin	PROPN	_	_	_	_	_	_
+2	deficits	deficit	NOUN	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	budgets	budget	NOUN	_	_	_	_	_	_
+5	and	and	CCONJ	_	_	_	_	_	_
+6	current	current	ADJ	_	_	_	_	_	_
+7	accounts	account	NOUN	_	_	_	_	_	_
+8	reflect	reflect	VERB	_	_	_	_	_	_
+9	structural	structural	ADJ	_	_	_	_	_	_
+10	imbalances	imbalance	NOUN	_	_	_	_	_	_
+11	requiring	require	VERB	_	_	_	_	_	_
+12	coordinated	coordinated	ADJ	_	_	_	_	_	_
+13	fiscal	fiscal	ADJ	_	_	_	_	_	_
+14	adjustment	adjustment	NOUN	_	_	_	_	_	_
+15	programs	program	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_258
+# text = Yield curve inversion historically precedes recessions when term premia fluctuate unpredictably amid policy uncertainty.
+1	Yield	yield	NOUN	_	_	_	_	_	_
+2	curve	curve	NOUN	_	_	_	_	_	_
+3	inversion	inversion	NOUN	_	_	_	_	_	_
+4	historically	historically	ADV	_	_	_	_	_	_
+5	precedes	precede	VERB	_	_	_	_	_	_
+6	recessions	recession	NOUN	_	_	_	_	_	_
+7	when	when	SCONJ	_	_	_	_	_	_
+8	term	term	NOUN	_	_	_	_	_	_
+9	premia	premia	NOUN	_	_	_	_	_	_
+10	fluctuate	fluctuate	VERB	_	_	_	_	_	_
+11	unpredictably	unpredictably	ADV	_	_	_	_	_	_
+12	amid	amid	ADP	_	_	_	_	_	_
+13	policy	policy	NOUN	_	_	_	_	_	_
+14	uncertainty	uncertainty	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_259
+# text = Having accumulated precautionary reserves, emerging economies weathered capital outflow pressures better than during previous financial crisis episodes.
+1	Having	have	AUX	_	_	_	_	_	_
+2	accumulated	accumulate	VERB	_	_	_	_	_	_
+3	precautionary	precautionary	ADJ	_	_	_	_	_	_
+4	reserves	reserve	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	emerging	emerge	VERB	_	_	_	_	_	_
+7	economies	economy	NOUN	_	_	_	_	_	_
+8	weathered	weather	VERB	_	_	_	_	_	_
+9	capital	capital	NOUN	_	_	_	_	_	_
+10	outflow	outflow	NOUN	_	_	_	_	_	_
+11	pressures	pressure	NOUN	_	_	_	_	_	_
+12	better	good	ADJ	_	_	_	_	_	_
+13	than	than	SCONJ	_	_	_	_	_	_
+14	during	during	ADP	_	_	_	_	_	_
+15	previous	previous	ADJ	_	_	_	_	_	_
+16	financial	financial	ADJ	_	_	_	_	_	_
+17	crisis	crisis	NOUN	_	_	_	_	_	_
+18	episodes	episode	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_260
+# text = Macroprudential regulators tightened lending ratios to restrain credit fueled property booms threatening financial system stability.
+1	Macroprudential	macroprudential	ADJ	_	_	_	_	_	_
+2	regulators	regulator	NOUN	_	_	_	_	_	_
+3	tightened	tighten	VERB	_	_	_	_	_	_
+4	lending	lending	NOUN	_	_	_	_	_	_
+5	ratios	ratio	NOUN	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	restrain	restrain	VERB	_	_	_	_	_	_
+8	credit	credit	NOUN	_	_	_	_	_	_
+9	fueled	fuel	VERB	_	_	_	_	_	_
+10	property	property	NOUN	_	_	_	_	_	_
+11	booms	boom	NOUN	_	_	_	_	_	_
+12	threatening	threaten	VERB	_	_	_	_	_	_
+13	financial	financial	ADJ	_	_	_	_	_	_
+14	system	system	NOUN	_	_	_	_	_	_
+15	stability	stability	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_261
+# text = The public debt ratio stabilized following primary fiscal surpluses and favorable nominal output growth effects.
+1	The	the	DET	_	_	_	_	_	_
+2	public	public	ADJ	_	_	_	_	_	_
+3	debt	debt	NOUN	_	_	_	_	_	_
+4	ratio	ratio	NOUN	_	_	_	_	_	_
+5	stabilized	stabilize	VERB	_	_	_	_	_	_
+6	following	follow	ADP	_	_	_	_	_	_
+7	primary	primary	ADJ	_	_	_	_	_	_
+8	fiscal	fiscal	ADJ	_	_	_	_	_	_
+9	surpluses	surplus	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	favorable	favorable	ADJ	_	_	_	_	_	_
+12	nominal	nominal	ADJ	_	_	_	_	_	_
+13	output	output	NOUN	_	_	_	_	_	_
+14	growth	growth	NOUN	_	_	_	_	_	_
+15	effects	effect	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_262
+# text = Currency depreciations transmit into consumer prices differently across economies according to exchange rate pass through dynamics.
+1	Currency	currency	NOUN	_	_	_	_	_	_
+2	depreciations	depreciation	NOUN	_	_	_	_	_	_
+3	transmit	transmit	VERB	_	_	_	_	_	_
+4	into	into	ADP	_	_	_	_	_	_
+5	consumer	consumer	NOUN	_	_	_	_	_	_
+6	prices	price	NOUN	_	_	_	_	_	_
+7	differently	differently	ADV	_	_	_	_	_	_
+8	across	across	ADP	_	_	_	_	_	_
+9	economies	economy	NOUN	_	_	_	_	_	_
+10	according	accord	VERB	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	exchange	exchange	NOUN	_	_	_	_	_	_
+13	rate	rate	NOUN	_	_	_	_	_	_
+14	pass	pass	NOUN	_	_	_	_	_	_
+15	through	through	ADP	_	_	_	_	_	_
+16	dynamics	dynamic	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_263
+# text = Core services inflation persisted due to wage growth in labor constrained sectors despite aggressive monetary tightening.
+1	Core	core	NOUN	_	_	_	_	_	_
+2	services	service	NOUN	_	_	_	_	_	_
+3	inflation	inflation	NOUN	_	_	_	_	_	_
+4	persisted	persist	VERB	_	_	_	_	_	_
+5	due	due	ADJ	_	_	_	_	_	_
+6	to	to	PART	_	_	_	_	_	_
+7	wage	wage	NOUN	_	_	_	_	_	_
+8	growth	growth	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	labor	labor	NOUN	_	_	_	_	_	_
+11	constrained	constrain	VERB	_	_	_	_	_	_
+12	sectors	sector	NOUN	_	_	_	_	_	_
+13	despite	despite	ADP	_	_	_	_	_	_
+14	aggressive	aggressive	ADJ	_	_	_	_	_	_
+15	monetary	monetary	ADJ	_	_	_	_	_	_
+16	tightening	tightening	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_264
+# text = The national accounts revision incorporated improved measurement of intangible investment and digital platform contributions to gross domestic product.
+1	The	the	DET	_	_	_	_	_	_
+2	national	national	ADJ	_	_	_	_	_	_
+3	accounts	account	NOUN	_	_	_	_	_	_
+4	revision	revision	NOUN	_	_	_	_	_	_
+5	incorporated	incorporate	VERB	_	_	_	_	_	_
+6	improved	improve	VERB	_	_	_	_	_	_
+7	measurement	measurement	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	intangible	intangible	ADJ	_	_	_	_	_	_
+10	investment	investment	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	digital	digital	ADJ	_	_	_	_	_	_
+13	platform	platform	NOUN	_	_	_	_	_	_
+14	contributions	contribution	NOUN	_	_	_	_	_	_
+15	to	to	PART	_	_	_	_	_	_
+16	gross	gross	ADJ	_	_	_	_	_	_
+17	domestic	domestic	ADJ	_	_	_	_	_	_
+18	product	product	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_265
+# text = Automatic stabilizers moderated recession severity by expanding transfer payments and reducing tax liabilities as aggregate income contracted cyclically.
+1	Automatic	automatic	ADJ	_	_	_	_	_	_
+2	stabilizers	stabilizer	NOUN	_	_	_	_	_	_
+3	moderated	moderate	VERB	_	_	_	_	_	_
+4	recession	recession	NOUN	_	_	_	_	_	_
+5	severity	severity	NOUN	_	_	_	_	_	_
+6	by	by	ADP	_	_	_	_	_	_
+7	expanding	expand	VERB	_	_	_	_	_	_
+8	transfer	transfer	NOUN	_	_	_	_	_	_
+9	payments	payment	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	reducing	reduce	VERB	_	_	_	_	_	_
+12	tax	tax	NOUN	_	_	_	_	_	_
+13	liabilities	liability	NOUN	_	_	_	_	_	_
+14	as	as	SCONJ	_	_	_	_	_	_
+15	aggregate	aggregate	ADJ	_	_	_	_	_	_
+16	income	income	NOUN	_	_	_	_	_	_
+17	contracted	contract	VERB	_	_	_	_	_	_
+18	cyclically	cyclically	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_266
+# text = Forward guidance shapes expectations by communicating conditional policy pathways contingent upon evolving inflation and employment data releases.
+1	Forward	forward	ADJ	_	_	_	_	_	_
+2	guidance	guidance	NOUN	_	_	_	_	_	_
+3	shapes	shape	VERB	_	_	_	_	_	_
+4	expectations	expectation	NOUN	_	_	_	_	_	_
+5	by	by	ADP	_	_	_	_	_	_
+6	communicating	communicate	VERB	_	_	_	_	_	_
+7	conditional	conditional	ADJ	_	_	_	_	_	_
+8	policy	policy	NOUN	_	_	_	_	_	_
+9	pathways	pathway	NOUN	_	_	_	_	_	_
+10	contingent	contingent	VERB	_	_	_	_	_	_
+11	upon	upon	ADP	_	_	_	_	_	_
+12	evolving	evolve	VERB	_	_	_	_	_	_
+13	inflation	inflation	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	employment	employment	NOUN	_	_	_	_	_	_
+16	data	datum	NOUN	_	_	_	_	_	_
+17	releases	release	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_267
+# text = The output gap estimate suggested persistent slack despite low unemployment, reflecting mismeasurement of potential growth following productivity slowdowns.
+1	The	the	DET	_	_	_	_	_	_
+2	output	output	NOUN	_	_	_	_	_	_
+3	gap	gap	NOUN	_	_	_	_	_	_
+4	estimate	estimate	NOUN	_	_	_	_	_	_
+5	suggested	suggest	VERB	_	_	_	_	_	_
+6	persistent	persistent	ADJ	_	_	_	_	_	_
+7	slack	slack	NOUN	_	_	_	_	_	_
+8	despite	despite	ADP	_	_	_	_	_	_
+9	low	low	ADJ	_	_	_	_	_	_
+10	unemployment	unemployment	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	reflecting	reflect	VERB	_	_	_	_	_	_
+13	mismeasurement	mismeasurement	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	potential	potential	ADJ	_	_	_	_	_	_
+16	growth	growth	NOUN	_	_	_	_	_	_
+17	following	follow	ADP	_	_	_	_	_	_
+18	productivity	productivity	NOUN	_	_	_	_	_	_
+19	slowdowns	slowdown	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_268
+# text = Sovereign risk premia widened amid concerns that state enterprise liabilities could destabilize medium term fiscal sustainability.
+1	Sovereign	sovereign	ADJ	_	_	_	_	_	_
+2	risk	risk	NOUN	_	_	_	_	_	_
+3	premia	premia	NOUN	_	_	_	_	_	_
+4	widened	widen	VERB	_	_	_	_	_	_
+5	amid	amid	ADP	_	_	_	_	_	_
+6	concerns	concern	NOUN	_	_	_	_	_	_
+7	that	that	SCONJ	_	_	_	_	_	_
+8	state	state	NOUN	_	_	_	_	_	_
+9	enterprise	enterprise	NOUN	_	_	_	_	_	_
+10	liabilities	liability	NOUN	_	_	_	_	_	_
+11	could	can	AUX	_	_	_	_	_	_
+12	destabilize	destabilize	VERB	_	_	_	_	_	_
+13	medium	medium	ADJ	_	_	_	_	_	_
+14	term	term	NOUN	_	_	_	_	_	_
+15	fiscal	fiscal	ADJ	_	_	_	_	_	_
+16	sustainability	sustainability	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_269
+# text = The reserve currency status conferred exorbitant privilege, enabling cheaper international borrowing despite chronic current account deficits domestically.
+1	The	the	DET	_	_	_	_	_	_
+2	reserve	reserve	NOUN	_	_	_	_	_	_
+3	currency	currency	NOUN	_	_	_	_	_	_
+4	status	status	NOUN	_	_	_	_	_	_
+5	conferred	confer	VERB	_	_	_	_	_	_
+6	exorbitant	exorbitant	ADJ	_	_	_	_	_	_
+7	privilege	privilege	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	enabling	enable	VERB	_	_	_	_	_	_
+10	cheaper	cheap	ADJ	_	_	_	_	_	_
+11	international	international	ADJ	_	_	_	_	_	_
+12	borrowing	borrowing	NOUN	_	_	_	_	_	_
+13	despite	despite	ADP	_	_	_	_	_	_
+14	chronic	chronic	ADJ	_	_	_	_	_	_
+15	current	current	ADJ	_	_	_	_	_	_
+16	account	account	NOUN	_	_	_	_	_	_
+17	deficits	deficit	NOUN	_	_	_	_	_	_
+18	domestically	domestically	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_270
+# text = Stagflation scenarios complicate policymaking when contractionary monetary responses risk amplifying unemployment without reliably containing supply - driven inflation pressures.
+1	Stagflation	stagflation	NOUN	_	_	_	_	_	_
+2	scenarios	scenario	NOUN	_	_	_	_	_	_
+3	complicate	complicate	VERB	_	_	_	_	_	_
+4	policymaking	policymaking	NOUN	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	contractionary	contractionary	ADJ	_	_	_	_	_	_
+7	monetary	monetary	ADJ	_	_	_	_	_	_
+8	responses	response	NOUN	_	_	_	_	_	_
+9	risk	risk	VERB	_	_	_	_	_	_
+10	amplifying	amplify	VERB	_	_	_	_	_	_
+11	unemployment	unemployment	NOUN	_	_	_	_	_	_
+12	without	without	ADP	_	_	_	_	_	_
+13	reliably	reliably	ADV	_	_	_	_	_	_
+14	containing	contain	VERB	_	_	_	_	_	_
+15	supply	supply	NOUN	_	_	_	_	_	_
+16	-	-	PUNCT	_	_	_	_	_	_
+17	driven	drive	VERB	_	_	_	_	_	_
+18	inflation	inflation	NOUN	_	_	_	_	_	_
+19	pressures	pressure	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_271
+# text = The growth accounting decomposition attributed deceleration primarily to slowing total factor productivity rather than demographic headwinds alone.
+1	The	the	DET	_	_	_	_	_	_
+2	growth	growth	NOUN	_	_	_	_	_	_
+3	accounting	accounting	NOUN	_	_	_	_	_	_
+4	decomposition	decomposition	NOUN	_	_	_	_	_	_
+5	attributed	attribute	VERB	_	_	_	_	_	_
+6	deceleration	deceleration	NOUN	_	_	_	_	_	_
+7	primarily	primarily	ADV	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	slowing	slow	VERB	_	_	_	_	_	_
+10	total	total	ADJ	_	_	_	_	_	_
+11	factor	factor	NOUN	_	_	_	_	_	_
+12	productivity	productivity	NOUN	_	_	_	_	_	_
+13	rather	rather	ADV	_	_	_	_	_	_
+14	than	than	SCONJ	_	_	_	_	_	_
+15	demographic	demographic	ADJ	_	_	_	_	_	_
+16	headwinds	headwind	NOUN	_	_	_	_	_	_
+17	alone	alone	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_272
+# text = Capital flight accelerated after investors anticipated imminent currency devaluation and capital control imposition by monetary authorities desperately.
+1	Capital	capital	NOUN	_	_	_	_	_	_
+2	flight	flight	NOUN	_	_	_	_	_	_
+3	accelerated	accelerate	VERB	_	_	_	_	_	_
+4	after	after	SCONJ	_	_	_	_	_	_
+5	investors	investor	NOUN	_	_	_	_	_	_
+6	anticipated	anticipate	VERB	_	_	_	_	_	_
+7	imminent	imminent	ADJ	_	_	_	_	_	_
+8	currency	currency	NOUN	_	_	_	_	_	_
+9	devaluation	devaluation	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	capital	capital	NOUN	_	_	_	_	_	_
+12	control	control	NOUN	_	_	_	_	_	_
+13	imposition	imposition	NOUN	_	_	_	_	_	_
+14	by	by	ADP	_	_	_	_	_	_
+15	monetary	monetary	ADJ	_	_	_	_	_	_
+16	authorities	authority	NOUN	_	_	_	_	_	_
+17	desperately	desperately	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_273
+# text = The Taylor rule prescription implied rates should remain elevated given inflation overshoots and output levels exceeding estimated potential consistently.
+1	The	the	DET	_	_	_	_	_	_
+2	Taylor	Taylor	PROPN	_	_	_	_	_	_
+3	rule	rule	NOUN	_	_	_	_	_	_
+4	prescription	prescription	NOUN	_	_	_	_	_	_
+5	implied	imply	VERB	_	_	_	_	_	_
+6	rates	rate	NOUN	_	_	_	_	_	_
+7	should	shall	AUX	_	_	_	_	_	_
+8	remain	remain	VERB	_	_	_	_	_	_
+9	elevated	elevate	VERB	_	_	_	_	_	_
+10	given	give	VERB	_	_	_	_	_	_
+11	inflation	inflation	NOUN	_	_	_	_	_	_
+12	overshoots	overshoot	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	output	output	NOUN	_	_	_	_	_	_
+15	levels	level	NOUN	_	_	_	_	_	_
+16	exceeding	exce	VERB	_	_	_	_	_	_
+17	estimated	estimate	VERB	_	_	_	_	_	_
+18	potential	potential	NOUN	_	_	_	_	_	_
+19	consistently	consistently	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_274
+# text = Hysteresis effects suggest prolonged recessions may permanently reduce potential output through skill atrophy and diminished business formation rates.
+1	Hysteresis	hysteresis	NOUN	_	_	_	_	_	_
+2	effects	effect	NOUN	_	_	_	_	_	_
+3	suggest	suggest	VERB	_	_	_	_	_	_
+4	prolonged	prolonged	ADJ	_	_	_	_	_	_
+5	recessions	recession	NOUN	_	_	_	_	_	_
+6	may	may	AUX	_	_	_	_	_	_
+7	permanently	permanently	ADV	_	_	_	_	_	_
+8	reduce	reduce	VERB	_	_	_	_	_	_
+9	potential	potential	ADJ	_	_	_	_	_	_
+10	output	output	NOUN	_	_	_	_	_	_
+11	through	through	ADP	_	_	_	_	_	_
+12	skill	skill	NOUN	_	_	_	_	_	_
+13	atrophy	atrophy	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	diminished	diminish	VERB	_	_	_	_	_	_
+16	business	business	NOUN	_	_	_	_	_	_
+17	formation	formation	NOUN	_	_	_	_	_	_
+18	rates	rate	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_275
+# text = The intertemporal government budget constraint requires that present debt levels remain consistent with credible future primary balance commitments politically.
+1	The	the	DET	_	_	_	_	_	_
+2	intertemporal	intertemporal	ADJ	_	_	_	_	_	_
+3	government	government	NOUN	_	_	_	_	_	_
+4	budget	budget	NOUN	_	_	_	_	_	_
+5	constraint	constraint	NOUN	_	_	_	_	_	_
+6	requires	require	VERB	_	_	_	_	_	_
+7	that	that	SCONJ	_	_	_	_	_	_
+8	present	present	ADJ	_	_	_	_	_	_
+9	debt	debt	NOUN	_	_	_	_	_	_
+10	levels	level	NOUN	_	_	_	_	_	_
+11	remain	remain	VERB	_	_	_	_	_	_
+12	consistent	consistent	ADJ	_	_	_	_	_	_
+13	with	with	ADP	_	_	_	_	_	_
+14	credible	credible	ADJ	_	_	_	_	_	_
+15	future	future	ADJ	_	_	_	_	_	_
+16	primary	primary	ADJ	_	_	_	_	_	_
+17	balance	balance	NOUN	_	_	_	_	_	_
+18	commitments	commitment	NOUN	_	_	_	_	_	_
+19	politically	politically	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_276
+# text = Rational expectations models assume agents incorporate available information efficiently when forming forecasts about policy responses and inflation dynamics.
+1	Rational	rational	ADJ	_	_	_	_	_	_
+2	expectations	expectation	NOUN	_	_	_	_	_	_
+3	models	model	NOUN	_	_	_	_	_	_
+4	assume	assume	VERB	_	_	_	_	_	_
+5	agents	agent	NOUN	_	_	_	_	_	_
+6	incorporate	incorporate	VERB	_	_	_	_	_	_
+7	available	available	ADJ	_	_	_	_	_	_
+8	information	information	NOUN	_	_	_	_	_	_
+9	efficiently	efficiently	ADV	_	_	_	_	_	_
+10	when	when	SCONJ	_	_	_	_	_	_
+11	forming	form	VERB	_	_	_	_	_	_
+12	forecasts	forecast	NOUN	_	_	_	_	_	_
+13	about	about	ADP	_	_	_	_	_	_
+14	policy	policy	NOUN	_	_	_	_	_	_
+15	responses	response	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	inflation	inflation	NOUN	_	_	_	_	_	_
+18	dynamics	dynamic	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_277
+# text = Although headline inflation moderated, shelter and energy components continued exerting upward pressure on household inflation perception indices.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	headline	headline	NOUN	_	_	_	_	_	_
+3	inflation	inflation	NOUN	_	_	_	_	_	_
+4	moderated	moderate	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	shelter	shelter	NOUN	_	_	_	_	_	_
+7	and	and	CCONJ	_	_	_	_	_	_
+8	energy	energy	NOUN	_	_	_	_	_	_
+9	components	component	NOUN	_	_	_	_	_	_
+10	continued	continue	VERB	_	_	_	_	_	_
+11	exerting	exert	VERB	_	_	_	_	_	_
+12	upward	upward	ADJ	_	_	_	_	_	_
+13	pressure	pressure	NOUN	_	_	_	_	_	_
+14	on	on	ADP	_	_	_	_	_	_
+15	household	household	NOUN	_	_	_	_	_	_
+16	inflation	inflation	NOUN	_	_	_	_	_	_
+17	perception	perception	NOUN	_	_	_	_	_	_
+18	indices	index	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_278
+# text = The liquidity trap constrains conventional monetary policy effectiveness when nominal interest rates approach zero lower bound thresholds persistently.
+1	The	the	DET	_	_	_	_	_	_
+2	liquidity	liquidity	NOUN	_	_	_	_	_	_
+3	trap	trap	NOUN	_	_	_	_	_	_
+4	constrains	constrain	VERB	_	_	_	_	_	_
+5	conventional	conventional	ADJ	_	_	_	_	_	_
+6	monetary	monetary	ADJ	_	_	_	_	_	_
+7	policy	policy	NOUN	_	_	_	_	_	_
+8	effectiveness	effectiveness	NOUN	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	nominal	nominal	ADJ	_	_	_	_	_	_
+11	interest	interest	NOUN	_	_	_	_	_	_
+12	rates	rate	NOUN	_	_	_	_	_	_
+13	approach	approach	VERB	_	_	_	_	_	_
+14	zero	zero	NUM	_	_	_	_	_	_
+15	lower	low	ADJ	_	_	_	_	_	_
+16	bound	bound	ADJ	_	_	_	_	_	_
+17	thresholds	threshold	NOUN	_	_	_	_	_	_
+18	persistently	persistently	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_279
+# text = Fiscal consolidation packages combined expenditure caps with progressive taxation reforms aimed at preserving social safety net adequacy.
+1	Fiscal	fiscal	ADJ	_	_	_	_	_	_
+2	consolidation	consolidation	NOUN	_	_	_	_	_	_
+3	packages	package	NOUN	_	_	_	_	_	_
+4	combined	combine	VERB	_	_	_	_	_	_
+5	expenditure	expenditure	NOUN	_	_	_	_	_	_
+6	caps	cap	NOUN	_	_	_	_	_	_
+7	with	with	ADP	_	_	_	_	_	_
+8	progressive	progressive	ADJ	_	_	_	_	_	_
+9	taxation	taxation	NOUN	_	_	_	_	_	_
+10	reforms	reform	NOUN	_	_	_	_	_	_
+11	aimed	aim	VERB	_	_	_	_	_	_
+12	at	at	ADP	_	_	_	_	_	_
+13	preserving	preserve	VERB	_	_	_	_	_	_
+14	social	social	ADJ	_	_	_	_	_	_
+15	safety	safety	NOUN	_	_	_	_	_	_
+16	net	net	NOUN	_	_	_	_	_	_
+17	adequacy	adequacy	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_280
+# text = The purchasing managers index declined for consecutive months, signaling weakening manufacturing activity amid contracting export order volumes globally.
+1	The	the	DET	_	_	_	_	_	_
+2	purchasing	purchase	NOUN	_	_	_	_	_	_
+3	managers	manager	NOUN	_	_	_	_	_	_
+4	index	index	NOUN	_	_	_	_	_	_
+5	declined	decline	VERB	_	_	_	_	_	_
+6	for	for	ADP	_	_	_	_	_	_
+7	consecutive	consecutive	ADJ	_	_	_	_	_	_
+8	months	month	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	signaling	signal	VERB	_	_	_	_	_	_
+11	weakening	weaken	VERB	_	_	_	_	_	_
+12	manufacturing	manufacturing	NOUN	_	_	_	_	_	_
+13	activity	activity	NOUN	_	_	_	_	_	_
+14	amid	amid	ADP	_	_	_	_	_	_
+15	contracting	contract	VERB	_	_	_	_	_	_
+16	export	export	NOUN	_	_	_	_	_	_
+17	order	order	NOUN	_	_	_	_	_	_
+18	volumes	volume	NOUN	_	_	_	_	_	_
+19	globally	globally	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_281
+# text = It cannot be denied that wealth inequality influences consumption patterns because marginal propensities differ substantially across income distributions.
+1	It	it	PRON	_	_	_	_	_	_
+2	cannot	can	AUX	_	_	_	_	_	_
+3	be	be	AUX	_	_	_	_	_	_
+4	denied	deny	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	wealth	wealth	NOUN	_	_	_	_	_	_
+7	inequality	inequality	NOUN	_	_	_	_	_	_
+8	influences	influence	VERB	_	_	_	_	_	_
+9	consumption	consumption	NOUN	_	_	_	_	_	_
+10	patterns	pattern	NOUN	_	_	_	_	_	_
+11	because	because	SCONJ	_	_	_	_	_	_
+12	marginal	marginal	ADJ	_	_	_	_	_	_
+13	propensities	propensity	NOUN	_	_	_	_	_	_
+14	differ	differ	VERB	_	_	_	_	_	_
+15	substantially	substantially	ADV	_	_	_	_	_	_
+16	across	across	ADP	_	_	_	_	_	_
+17	income	income	NOUN	_	_	_	_	_	_
+18	distributions	distribution	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_282
+# text = The balance of payments crisis necessitated emergency financing accompanied by structural reforms liberalizing trade and strengthening tax administration.
+1	The	the	DET	_	_	_	_	_	_
+2	balance	balance	NOUN	_	_	_	_	_	_
+3	of	of	ADP	_	_	_	_	_	_
+4	payments	payment	NOUN	_	_	_	_	_	_
+5	crisis	crisis	NOUN	_	_	_	_	_	_
+6	necessitated	necessitate	VERB	_	_	_	_	_	_
+7	emergency	emergency	NOUN	_	_	_	_	_	_
+8	financing	financing	NOUN	_	_	_	_	_	_
+9	accompanied	accompany	VERB	_	_	_	_	_	_
+10	by	by	ADP	_	_	_	_	_	_
+11	structural	structural	ADJ	_	_	_	_	_	_
+12	reforms	reform	NOUN	_	_	_	_	_	_
+13	liberalizing	liberalize	VERB	_	_	_	_	_	_
+14	trade	trade	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	strengthening	strengthen	VERB	_	_	_	_	_	_
+17	tax	tax	NOUN	_	_	_	_	_	_
+18	administration	administration	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_283
+# text = Having diversified export markets, the economy reduced vulnerability to commodity price volatility affecting primary product dependent budgets.
+1	Having	have	AUX	_	_	_	_	_	_
+2	diversified	diversified	ADJ	_	_	_	_	_	_
+3	export	export	NOUN	_	_	_	_	_	_
+4	markets	market	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	economy	economy	NOUN	_	_	_	_	_	_
+8	reduced	reduce	VERB	_	_	_	_	_	_
+9	vulnerability	vulnerability	NOUN	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	commodity	commodity	NOUN	_	_	_	_	_	_
+12	price	price	NOUN	_	_	_	_	_	_
+13	volatility	volatility	NOUN	_	_	_	_	_	_
+14	affecting	affect	VERB	_	_	_	_	_	_
+15	primary	primary	ADJ	_	_	_	_	_	_
+16	product	product	NOUN	_	_	_	_	_	_
+17	dependent	dependent	ADJ	_	_	_	_	_	_
+18	budgets	budget	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_284
+# text = The neutral rate estimate guides policymakers assessing whether current settings are contractionary relative to long run equilibrium.
+1	The	the	DET	_	_	_	_	_	_
+2	neutral	neutral	ADJ	_	_	_	_	_	_
+3	rate	rate	NOUN	_	_	_	_	_	_
+4	estimate	estimate	NOUN	_	_	_	_	_	_
+5	guides	guide	VERB	_	_	_	_	_	_
+6	policymakers	policymaker	NOUN	_	_	_	_	_	_
+7	assessing	asse	VERB	_	_	_	_	_	_
+8	whether	whether	SCONJ	_	_	_	_	_	_
+9	current	current	ADJ	_	_	_	_	_	_
+10	settings	setting	NOUN	_	_	_	_	_	_
+11	are	be	AUX	_	_	_	_	_	_
+12	contractionary	contractionary	ADJ	_	_	_	_	_	_
+13	relative	relative	ADJ	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	long	long	ADJ	_	_	_	_	_	_
+16	run	run	NOUN	_	_	_	_	_	_
+17	equilibrium	equilibrium	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_285
+# text = Crowding out concerns arise when government borrowing elevates interest rates, displacing private investment in credit constrained environments.
+1	Crowding	crowd	VERB	_	_	_	_	_	_
+2	out	out	ADP	_	_	_	_	_	_
+3	concerns	concern	NOUN	_	_	_	_	_	_
+4	arise	arise	VERB	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	government	government	NOUN	_	_	_	_	_	_
+7	borrowing	borrowing	NOUN	_	_	_	_	_	_
+8	elevates	elevate	VERB	_	_	_	_	_	_
+9	interest	interest	NOUN	_	_	_	_	_	_
+10	rates	rate	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	displacing	displace	VERB	_	_	_	_	_	_
+13	private	private	ADJ	_	_	_	_	_	_
+14	investment	investment	NOUN	_	_	_	_	_	_
+15	in	in	ADP	_	_	_	_	_	_
+16	credit	credit	NOUN	_	_	_	_	_	_
+17	constrained	constrain	VERB	_	_	_	_	_	_
+18	environments	environment	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_286
+# text = The misery index combining unemployment and inflation captures popular economic discontent during periods of simultaneous macroeconomic stress.
+1	The	the	DET	_	_	_	_	_	_
+2	misery	misery	NOUN	_	_	_	_	_	_
+3	index	index	NOUN	_	_	_	_	_	_
+4	combining	combine	VERB	_	_	_	_	_	_
+5	unemployment	unemployment	NOUN	_	_	_	_	_	_
+6	and	and	CCONJ	_	_	_	_	_	_
+7	inflation	inflation	NOUN	_	_	_	_	_	_
+8	captures	capture	VERB	_	_	_	_	_	_
+9	popular	popular	ADJ	_	_	_	_	_	_
+10	economic	economic	ADJ	_	_	_	_	_	_
+11	discontent	discontent	NOUN	_	_	_	_	_	_
+12	during	during	ADP	_	_	_	_	_	_
+13	periods	period	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	simultaneous	simultaneous	ADJ	_	_	_	_	_	_
+16	macroeconomic	macroeconomic	ADJ	_	_	_	_	_	_
+17	stress	stress	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_287
+# text = Notwithstanding globalization benefits, trade shocks transmit rapidly through integrated supply chains amplifying domestic output fluctuations unexpectedly.
+1	Notwithstanding	notwithstanding	ADP	_	_	_	_	_	_
+2	globalization	globalization	NOUN	_	_	_	_	_	_
+3	benefits	benefit	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	trade	trade	NOUN	_	_	_	_	_	_
+6	shocks	shock	NOUN	_	_	_	_	_	_
+7	transmit	transmit	VERB	_	_	_	_	_	_
+8	rapidly	rapidly	ADV	_	_	_	_	_	_
+9	through	through	ADP	_	_	_	_	_	_
+10	integrated	integrated	ADJ	_	_	_	_	_	_
+11	supply	supply	NOUN	_	_	_	_	_	_
+12	chains	chain	NOUN	_	_	_	_	_	_
+13	amplifying	amplify	VERB	_	_	_	_	_	_
+14	domestic	domestic	ADJ	_	_	_	_	_	_
+15	output	output	NOUN	_	_	_	_	_	_
+16	fluctuations	fluctuation	NOUN	_	_	_	_	_	_
+17	unexpectedly	unexpectedly	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_288
+# text = The Okun coefficient quantified responsiveness of unemployment to output deviations during cyclical expansions and subsequent downturn episodes.
+1	The	the	DET	_	_	_	_	_	_
+2	Okun	Okun	PROPN	_	_	_	_	_	_
+3	coefficient	coefficient	NOUN	_	_	_	_	_	_
+4	quantified	quantify	VERB	_	_	_	_	_	_
+5	responsiveness	responsiveness	NOUN	_	_	_	_	_	_
+6	of	of	ADP	_	_	_	_	_	_
+7	unemployment	unemployment	NOUN	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	output	output	NOUN	_	_	_	_	_	_
+10	deviations	deviation	NOUN	_	_	_	_	_	_
+11	during	during	ADP	_	_	_	_	_	_
+12	cyclical	cyclical	ADJ	_	_	_	_	_	_
+13	expansions	expansion	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	subsequent	subsequent	ADJ	_	_	_	_	_	_
+16	downturn	downturn	NOUN	_	_	_	_	_	_
+17	episodes	episode	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_289
+# text = Deflationary spirals emerge when falling prices increase real debt burdens, prompting consumption postponement and further downward price pressure.
+1	Deflationary	deflationary	ADJ	_	_	_	_	_	_
+2	spirals	spiral	NOUN	_	_	_	_	_	_
+3	emerge	emerge	VERB	_	_	_	_	_	_
+4	when	when	SCONJ	_	_	_	_	_	_
+5	falling	fall	VERB	_	_	_	_	_	_
+6	prices	price	NOUN	_	_	_	_	_	_
+7	increase	increase	VERB	_	_	_	_	_	_
+8	real	real	ADJ	_	_	_	_	_	_
+9	debt	debt	NOUN	_	_	_	_	_	_
+10	burdens	burden	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	prompting	prompt	VERB	_	_	_	_	_	_
+13	consumption	consumption	NOUN	_	_	_	_	_	_
+14	postponement	postponement	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	further	further	ADJ	_	_	_	_	_	_
+17	downward	downward	ADJ	_	_	_	_	_	_
+18	price	price	NOUN	_	_	_	_	_	_
+19	pressure	pressure	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_290
+# text = The structural budget balance adjusts for cyclical components, revealing underlying fiscal stance independent of temporary automatic stabilizer effects.
+1	The	the	DET	_	_	_	_	_	_
+2	structural	structural	ADJ	_	_	_	_	_	_
+3	budget	budget	NOUN	_	_	_	_	_	_
+4	balance	balance	NOUN	_	_	_	_	_	_
+5	adjusts	adjust	VERB	_	_	_	_	_	_
+6	for	for	ADP	_	_	_	_	_	_
+7	cyclical	cyclical	ADJ	_	_	_	_	_	_
+8	components	component	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	revealing	reveal	VERB	_	_	_	_	_	_
+11	underlying	underlying	ADJ	_	_	_	_	_	_
+12	fiscal	fiscal	ADJ	_	_	_	_	_	_
+13	stance	stance	NOUN	_	_	_	_	_	_
+14	independent	independent	ADJ	_	_	_	_	_	_
+15	of	of	ADP	_	_	_	_	_	_
+16	temporary	temporary	ADJ	_	_	_	_	_	_
+17	automatic	automatic	ADJ	_	_	_	_	_	_
+18	stabilizer	stabilizer	NOUN	_	_	_	_	_	_
+19	effects	effect	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_291
+# text = Credibility of inflation targeting frameworks depends on transparent communication and consistent policy reactions to persistent target deviations.
+1	Credibility	credibility	NOUN	_	_	_	_	_	_
+2	of	of	ADP	_	_	_	_	_	_
+3	inflation	inflation	NOUN	_	_	_	_	_	_
+4	targeting	target	VERB	_	_	_	_	_	_
+5	frameworks	framework	NOUN	_	_	_	_	_	_
+6	depends	depend	VERB	_	_	_	_	_	_
+7	on	on	ADP	_	_	_	_	_	_
+8	transparent	transparent	ADJ	_	_	_	_	_	_
+9	communication	communication	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	consistent	consistent	ADJ	_	_	_	_	_	_
+12	policy	policy	NOUN	_	_	_	_	_	_
+13	reactions	reaction	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	persistent	persistent	ADJ	_	_	_	_	_	_
+16	target	target	NOUN	_	_	_	_	_	_
+17	deviations	deviation	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_292
+# text = The real effective exchange rate appreciated substantially, eroding export competitiveness despite stable nominal bilateral currency peg arrangements.
+1	The	the	DET	_	_	_	_	_	_
+2	real	real	ADJ	_	_	_	_	_	_
+3	effective	effective	ADJ	_	_	_	_	_	_
+4	exchange	exchange	NOUN	_	_	_	_	_	_
+5	rate	rate	NOUN	_	_	_	_	_	_
+6	appreciated	appreciate	VERB	_	_	_	_	_	_
+7	substantially	substantially	ADV	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	eroding	erode	VERB	_	_	_	_	_	_
+10	export	export	NOUN	_	_	_	_	_	_
+11	competitiveness	competitiveness	NOUN	_	_	_	_	_	_
+12	despite	despite	ADP	_	_	_	_	_	_
+13	stable	stable	ADJ	_	_	_	_	_	_
+14	nominal	nominal	ADJ	_	_	_	_	_	_
+15	bilateral	bilateral	ADJ	_	_	_	_	_	_
+16	currency	currency	NOUN	_	_	_	_	_	_
+17	peg	peg	NOUN	_	_	_	_	_	_
+18	arrangements	arrangement	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_293
+# text = Financial accelerator mechanisms amplify business cycle fluctuations as collateral values and credit availability move procyclically during expansions.
+1	Financial	financial	ADJ	_	_	_	_	_	_
+2	accelerator	accelerator	NOUN	_	_	_	_	_	_
+3	mechanisms	mechanism	NOUN	_	_	_	_	_	_
+4	amplify	amplify	VERB	_	_	_	_	_	_
+5	business	business	NOUN	_	_	_	_	_	_
+6	cycle	cycle	NOUN	_	_	_	_	_	_
+7	fluctuations	fluctuation	NOUN	_	_	_	_	_	_
+8	as	as	SCONJ	_	_	_	_	_	_
+9	collateral	collateral	ADJ	_	_	_	_	_	_
+10	values	value	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	credit	credit	NOUN	_	_	_	_	_	_
+13	availability	availability	NOUN	_	_	_	_	_	_
+14	move	move	VERB	_	_	_	_	_	_
+15	procyclically	procyclically	ADV	_	_	_	_	_	_
+16	during	during	ADP	_	_	_	_	_	_
+17	expansions	expansion	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_294
+# text = The precautionary saving motive intensified following heightened geopolitical uncertainty and deteriorating consumer confidence survey readings nationally.
+1	The	the	DET	_	_	_	_	_	_
+2	precautionary	precautionary	ADJ	_	_	_	_	_	_
+3	saving	save	NOUN	_	_	_	_	_	_
+4	motive	motive	NOUN	_	_	_	_	_	_
+5	intensified	intensify	VERB	_	_	_	_	_	_
+6	following	follow	ADP	_	_	_	_	_	_
+7	heightened	heighten	VERB	_	_	_	_	_	_
+8	geopolitical	geopolitical	ADJ	_	_	_	_	_	_
+9	uncertainty	uncertainty	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	deteriorating	deteriorate	VERB	_	_	_	_	_	_
+12	consumer	consumer	NOUN	_	_	_	_	_	_
+13	confidence	confidence	NOUN	_	_	_	_	_	_
+14	survey	survey	NOUN	_	_	_	_	_	_
+15	readings	reading	NOUN	_	_	_	_	_	_
+16	nationally	nationally	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_295
+# text = Supply side reforms targeting labor rigidities aim to raise potential growth without generating demand pull inflationary pressures.
+1	Supply	supply	NOUN	_	_	_	_	_	_
+2	side	side	NOUN	_	_	_	_	_	_
+3	reforms	reform	NOUN	_	_	_	_	_	_
+4	targeting	target	VERB	_	_	_	_	_	_
+5	labor	labor	NOUN	_	_	_	_	_	_
+6	rigidities	rigidity	NOUN	_	_	_	_	_	_
+7	aim	aim	VERB	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	raise	raise	VERB	_	_	_	_	_	_
+10	potential	potential	ADJ	_	_	_	_	_	_
+11	growth	growth	NOUN	_	_	_	_	_	_
+12	without	without	ADP	_	_	_	_	_	_
+13	generating	generate	VERB	_	_	_	_	_	_
+14	demand	demand	NOUN	_	_	_	_	_	_
+15	pull	pull	VERB	_	_	_	_	_	_
+16	inflationary	inflationary	ADJ	_	_	_	_	_	_
+17	pressures	pressure	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_296
+# text = The consumption function specification incorporated wealth effects from housing valuations alongside disposable income variables empirically.
+1	The	the	DET	_	_	_	_	_	_
+2	consumption	consumption	NOUN	_	_	_	_	_	_
+3	function	function	NOUN	_	_	_	_	_	_
+4	specification	specification	NOUN	_	_	_	_	_	_
+5	incorporated	incorporate	VERB	_	_	_	_	_	_
+6	wealth	wealth	NOUN	_	_	_	_	_	_
+7	effects	effect	NOUN	_	_	_	_	_	_
+8	from	from	ADP	_	_	_	_	_	_
+9	housing	housing	NOUN	_	_	_	_	_	_
+10	valuations	valuation	NOUN	_	_	_	_	_	_
+11	alongside	alongside	ADP	_	_	_	_	_	_
+12	disposable	disposable	ADJ	_	_	_	_	_	_
+13	income	income	NOUN	_	_	_	_	_	_
+14	variables	variable	NOUN	_	_	_	_	_	_
+15	empirically	empirically	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_297
+# text = External adjustment required real depreciation through internal devaluation when exchange rate flexibility remained politically constrained domestically.
+1	External	external	ADJ	_	_	_	_	_	_
+2	adjustment	adjustment	NOUN	_	_	_	_	_	_
+3	required	require	VERB	_	_	_	_	_	_
+4	real	real	ADJ	_	_	_	_	_	_
+5	depreciation	depreciation	NOUN	_	_	_	_	_	_
+6	through	through	ADP	_	_	_	_	_	_
+7	internal	internal	ADJ	_	_	_	_	_	_
+8	devaluation	devaluation	NOUN	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	exchange	exchange	NOUN	_	_	_	_	_	_
+11	rate	rate	NOUN	_	_	_	_	_	_
+12	flexibility	flexibility	NOUN	_	_	_	_	_	_
+13	remained	remain	VERB	_	_	_	_	_	_
+14	politically	politically	ADV	_	_	_	_	_	_
+15	constrained	constrain	VERB	_	_	_	_	_	_
+16	domestically	domestically	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_298
+# text = The Beveridge curve shift indicated worsening matching efficiency between vacant positions and unemployed workers across regional labor markets.
+1	The	the	DET	_	_	_	_	_	_
+2	Beveridge	Beveridge	PROPN	_	_	_	_	_	_
+3	curve	curve	NOUN	_	_	_	_	_	_
+4	shift	shift	NOUN	_	_	_	_	_	_
+5	indicated	indicate	VERB	_	_	_	_	_	_
+6	worsening	worsen	VERB	_	_	_	_	_	_
+7	matching	matching	NOUN	_	_	_	_	_	_
+8	efficiency	efficiency	NOUN	_	_	_	_	_	_
+9	between	between	ADP	_	_	_	_	_	_
+10	vacant	vacant	ADJ	_	_	_	_	_	_
+11	positions	position	NOUN	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	unemployed	unemployed	ADJ	_	_	_	_	_	_
+14	workers	worker	NOUN	_	_	_	_	_	_
+15	across	across	ADP	_	_	_	_	_	_
+16	regional	regional	ADJ	_	_	_	_	_	_
+17	labor	labor	NOUN	_	_	_	_	_	_
+18	markets	market	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_299
+# text = Debt sustainability analyses stress test projections under adverse growth, interest rate, and contingent fiscal shock scenarios.
+1	Debt	debt	NOUN	_	_	_	_	_	_
+2	sustainability	sustainability	NOUN	_	_	_	_	_	_
+3	analyses	analysis	NOUN	_	_	_	_	_	_
+4	stress	stress	NOUN	_	_	_	_	_	_
+5	test	test	NOUN	_	_	_	_	_	_
+6	projections	projection	NOUN	_	_	_	_	_	_
+7	under	under	ADP	_	_	_	_	_	_
+8	adverse	adverse	ADJ	_	_	_	_	_	_
+9	growth	growth	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	interest	interest	NOUN	_	_	_	_	_	_
+12	rate	rate	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	contingent	contingent	ADJ	_	_	_	_	_	_
+16	fiscal	fiscal	ADJ	_	_	_	_	_	_
+17	shock	shock	NOUN	_	_	_	_	_	_
+18	scenarios	scenario	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_300
+# text = The macroeconomic consensus forecast projected gradual disinflation alongside resilient employment, contingent upon stable energy prices internationally.
+1	The	the	DET	_	_	_	_	_	_
+2	macroeconomic	macroeconomic	ADJ	_	_	_	_	_	_
+3	consensus	consensus	NOUN	_	_	_	_	_	_
+4	forecast	forecast	NOUN	_	_	_	_	_	_
+5	projected	project	VERB	_	_	_	_	_	_
+6	gradual	gradual	ADJ	_	_	_	_	_	_
+7	disinflation	disinflation	NOUN	_	_	_	_	_	_
+8	alongside	alongside	ADP	_	_	_	_	_	_
+9	resilient	resilient	ADJ	_	_	_	_	_	_
+10	employment	employment	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	contingent	contingent	ADJ	_	_	_	_	_	_
+13	upon	upon	ADP	_	_	_	_	_	_
+14	stable	stable	ADJ	_	_	_	_	_	_
+15	energy	energy	NOUN	_	_	_	_	_	_
+16	prices	price	NOUN	_	_	_	_	_	_
+17	internationally	internationally	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_301
+# text = The cohort study estimated hazard ratios for cardiovascular events associated with prolonged exposure to fine particulate air pollution.
+1	The	the	DET	_	_	_	_	_	_
+2	cohort	cohort	NOUN	_	_	_	_	_	_
+3	study	study	NOUN	_	_	_	_	_	_
+4	estimated	estimate	VERB	_	_	_	_	_	_
+5	hazard	hazard	NOUN	_	_	_	_	_	_
+6	ratios	ratio	NOUN	_	_	_	_	_	_
+7	for	for	ADP	_	_	_	_	_	_
+8	cardiovascular	cardiovascular	ADJ	_	_	_	_	_	_
+9	events	event	NOUN	_	_	_	_	_	_
+10	associated	associate	VERB	_	_	_	_	_	_
+11	with	with	ADP	_	_	_	_	_	_
+12	prolonged	prolonged	ADJ	_	_	_	_	_	_
+13	exposure	exposure	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	fine	fine	ADJ	_	_	_	_	_	_
+16	particulate	particulate	NOUN	_	_	_	_	_	_
+17	air	air	NOUN	_	_	_	_	_	_
+18	pollution	pollution	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_302
+# text = Case definitions for notifiable diseases require laboratory confirmation to minimize misclassification bias in official surveillance reporting systems.
+1	Case	case	NOUN	_	_	_	_	_	_
+2	definitions	definition	NOUN	_	_	_	_	_	_
+3	for	for	ADP	_	_	_	_	_	_
+4	notifiable	notifiable	ADJ	_	_	_	_	_	_
+5	diseases	disease	NOUN	_	_	_	_	_	_
+6	require	require	VERB	_	_	_	_	_	_
+7	laboratory	laboratory	NOUN	_	_	_	_	_	_
+8	confirmation	confirmation	NOUN	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	minimize	minimize	VERB	_	_	_	_	_	_
+11	misclassification	misclassification	NOUN	_	_	_	_	_	_
+12	bias	bias	NOUN	_	_	_	_	_	_
+13	in	in	ADP	_	_	_	_	_	_
+14	official	official	ADJ	_	_	_	_	_	_
+15	surveillance	surveillance	NOUN	_	_	_	_	_	_
+16	reporting	reporting	NOUN	_	_	_	_	_	_
+17	systems	system	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_303
+# text = Although vaccination reduced symptomatic infections, breakthrough transmission among household contacts necessitated continued nonpharmaceutical intervention measures temporarily.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	vaccination	vaccination	NOUN	_	_	_	_	_	_
+3	reduced	reduce	VERB	_	_	_	_	_	_
+4	symptomatic	symptomatic	ADJ	_	_	_	_	_	_
+5	infections	infection	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	breakthrough	breakthrough	NOUN	_	_	_	_	_	_
+8	transmission	transmission	NOUN	_	_	_	_	_	_
+9	among	among	ADP	_	_	_	_	_	_
+10	household	household	NOUN	_	_	_	_	_	_
+11	contacts	contact	NOUN	_	_	_	_	_	_
+12	necessitated	necessitate	VERB	_	_	_	_	_	_
+13	continued	continue	VERB	_	_	_	_	_	_
+14	nonpharmaceutical	nonpharmaceutical	ADJ	_	_	_	_	_	_
+15	intervention	intervention	NOUN	_	_	_	_	_	_
+16	measures	measure	NOUN	_	_	_	_	_	_
+17	temporarily	temporarily	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_304
+# text = The reproductive number declined below unity following combined immunity from prior infection and mass immunization campaign completion nationwide.
+1	The	the	DET	_	_	_	_	_	_
+2	reproductive	reproductive	ADJ	_	_	_	_	_	_
+3	number	number	NOUN	_	_	_	_	_	_
+4	declined	decline	VERB	_	_	_	_	_	_
+5	below	below	ADP	_	_	_	_	_	_
+6	unity	unity	NOUN	_	_	_	_	_	_
+7	following	follow	ADP	_	_	_	_	_	_
+8	combined	combine	VERB	_	_	_	_	_	_
+9	immunity	immunity	NOUN	_	_	_	_	_	_
+10	from	from	ADP	_	_	_	_	_	_
+11	prior	prior	ADJ	_	_	_	_	_	_
+12	infection	infection	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	mass	mass	ADJ	_	_	_	_	_	_
+15	immunization	immunization	NOUN	_	_	_	_	_	_
+16	campaign	campaign	NOUN	_	_	_	_	_	_
+17	completion	completion	NOUN	_	_	_	_	_	_
+18	nationwide	nationwide	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_305
+# text = Molecular epidemiology traced outbreak clusters through genomic sequencing, revealing cryptic community transmission chains previously undetected by contact tracing.
+1	Molecular	molecular	ADJ	_	_	_	_	_	_
+2	epidemiology	epidemiology	NOUN	_	_	_	_	_	_
+3	traced	trace	VERB	_	_	_	_	_	_
+4	outbreak	outbreak	NOUN	_	_	_	_	_	_
+5	clusters	cluster	NOUN	_	_	_	_	_	_
+6	through	through	ADP	_	_	_	_	_	_
+7	genomic	genomic	ADJ	_	_	_	_	_	_
+8	sequencing	sequencing	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	revealing	reveal	VERB	_	_	_	_	_	_
+11	cryptic	cryptic	ADJ	_	_	_	_	_	_
+12	community	community	NOUN	_	_	_	_	_	_
+13	transmission	transmission	NOUN	_	_	_	_	_	_
+14	chains	chain	NOUN	_	_	_	_	_	_
+15	previously	previously	ADV	_	_	_	_	_	_
+16	undetected	undetect	VERB	_	_	_	_	_	_
+17	by	by	ADP	_	_	_	_	_	_
+18	contact	contact	NOUN	_	_	_	_	_	_
+19	tracing	tracing	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_306
+# text = It remains critical that seroprevalence surveys account for waning antibody titers when inferring population - level cumulative infection burdens.
+1	It	it	PRON	_	_	_	_	_	_
+2	remains	remain	VERB	_	_	_	_	_	_
+3	critical	critical	ADJ	_	_	_	_	_	_
+4	that	that	SCONJ	_	_	_	_	_	_
+5	seroprevalence	seroprevalence	NOUN	_	_	_	_	_	_
+6	surveys	survey	NOUN	_	_	_	_	_	_
+7	account	account	VERB	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	waning	wane	VERB	_	_	_	_	_	_
+10	antibody	antibody	NOUN	_	_	_	_	_	_
+11	titers	titer	NOUN	_	_	_	_	_	_
+12	when	when	SCONJ	_	_	_	_	_	_
+13	inferring	inferr	VERB	_	_	_	_	_	_
+14	population	population	NOUN	_	_	_	_	_	_
+15	-	-	PUNCT	_	_	_	_	_	_
+16	level	level	NOUN	_	_	_	_	_	_
+17	cumulative	cumulative	ADJ	_	_	_	_	_	_
+18	infection	infection	NOUN	_	_	_	_	_	_
+19	burdens	burden	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_307
+# text = The nested case control design evaluated dietary risk factors while controlling for confounding lifestyle variables through matched sampling.
+1	The	the	DET	_	_	_	_	_	_
+2	nested	nested	ADJ	_	_	_	_	_	_
+3	case	case	NOUN	_	_	_	_	_	_
+4	control	control	NOUN	_	_	_	_	_	_
+5	design	design	NOUN	_	_	_	_	_	_
+6	evaluated	evaluate	VERB	_	_	_	_	_	_
+7	dietary	dietary	NOUN	_	_	_	_	_	_
+8	risk	risk	NOUN	_	_	_	_	_	_
+9	factors	factor	NOUN	_	_	_	_	_	_
+10	while	while	SCONJ	_	_	_	_	_	_
+11	controlling	control	VERB	_	_	_	_	_	_
+12	for	for	ADP	_	_	_	_	_	_
+13	confounding	confound	VERB	_	_	_	_	_	_
+14	lifestyle	lifestyle	NOUN	_	_	_	_	_	_
+15	variables	variable	NOUN	_	_	_	_	_	_
+16	through	through	ADP	_	_	_	_	_	_
+17	matched	match	VERB	_	_	_	_	_	_
+18	sampling	sampling	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_308
+# text = Having implemented syndromic surveillance, health authorities detected anomalous emergency department presentations preceding confirmed pathogen identification regionally.
+1	Having	have	AUX	_	_	_	_	_	_
+2	implemented	implement	VERB	_	_	_	_	_	_
+3	syndromic	syndromic	ADJ	_	_	_	_	_	_
+4	surveillance	surveillance	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	health	health	NOUN	_	_	_	_	_	_
+7	authorities	authority	NOUN	_	_	_	_	_	_
+8	detected	detect	VERB	_	_	_	_	_	_
+9	anomalous	anomalous	ADJ	_	_	_	_	_	_
+10	emergency	emergency	NOUN	_	_	_	_	_	_
+11	department	department	NOUN	_	_	_	_	_	_
+12	presentations	presentation	NOUN	_	_	_	_	_	_
+13	preceding	prec	VERB	_	_	_	_	_	_
+14	confirmed	confirm	VERB	_	_	_	_	_	_
+15	pathogen	pathogen	NOUN	_	_	_	_	_	_
+16	identification	identification	NOUN	_	_	_	_	_	_
+17	regionally	regionally	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_309
+# text = Attack rates within confined settings demonstrated heightened transmissibility under conditions of poor ventilation and prolonged close contact.
+1	Attack	attack	NOUN	_	_	_	_	_	_
+2	rates	rate	NOUN	_	_	_	_	_	_
+3	within	within	ADP	_	_	_	_	_	_
+4	confined	confine	VERB	_	_	_	_	_	_
+5	settings	setting	NOUN	_	_	_	_	_	_
+6	demonstrated	demonstrate	VERB	_	_	_	_	_	_
+7	heightened	heighten	VERB	_	_	_	_	_	_
+8	transmissibility	transmissibility	NOUN	_	_	_	_	_	_
+9	under	under	ADP	_	_	_	_	_	_
+10	conditions	condition	NOUN	_	_	_	_	_	_
+11	of	of	ADP	_	_	_	_	_	_
+12	poor	poor	ADJ	_	_	_	_	_	_
+13	ventilation	ventilation	NOUN	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	prolonged	prolong	VERB	_	_	_	_	_	_
+16	close	close	ADJ	_	_	_	_	_	_
+17	contact	contact	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_310
+# text = The odds ratio suggested significant association between occupational exposure and incident disease after adjusting for age and comorbidity status.
+1	The	the	DET	_	_	_	_	_	_
+2	odds	odd	NOUN	_	_	_	_	_	_
+3	ratio	ratio	NOUN	_	_	_	_	_	_
+4	suggested	suggest	VERB	_	_	_	_	_	_
+5	significant	significant	ADJ	_	_	_	_	_	_
+6	association	association	NOUN	_	_	_	_	_	_
+7	between	between	ADP	_	_	_	_	_	_
+8	occupational	occupational	ADJ	_	_	_	_	_	_
+9	exposure	exposure	NOUN	_	_	_	_	_	_
+10	and	and	CCONJ	_	_	_	_	_	_
+11	incident	incident	NOUN	_	_	_	_	_	_
+12	disease	disease	NOUN	_	_	_	_	_	_
+13	after	after	SCONJ	_	_	_	_	_	_
+14	adjusting	adjust	VERB	_	_	_	_	_	_
+15	for	for	ADP	_	_	_	_	_	_
+16	age	age	NOUN	_	_	_	_	_	_
+17	and	and	CCONJ	_	_	_	_	_	_
+18	comorbidity	comorbidity	NOUN	_	_	_	_	_	_
+19	status	status	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_311
+# text = Notwithstanding declining incidence, geographic heterogeneity in vaccine coverage perpetuated localized resurgence risk among undervaccinated demographic subgroups.
+1	Notwithstanding	notwithstanding	ADP	_	_	_	_	_	_
+2	declining	decline	VERB	_	_	_	_	_	_
+3	incidence	incidence	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	geographic	geographic	ADJ	_	_	_	_	_	_
+6	heterogeneity	heterogeneity	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	vaccine	vaccine	NOUN	_	_	_	_	_	_
+9	coverage	coverage	NOUN	_	_	_	_	_	_
+10	perpetuated	perpetuate	VERB	_	_	_	_	_	_
+11	localized	localize	VERB	_	_	_	_	_	_
+12	resurgence	resurgence	NOUN	_	_	_	_	_	_
+13	risk	risk	NOUN	_	_	_	_	_	_
+14	among	among	ADP	_	_	_	_	_	_
+15	undervaccinated	undervaccinated	ADJ	_	_	_	_	_	_
+16	demographic	demographic	NOUN	_	_	_	_	_	_
+17	subgroups	subgroup	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_312
+# text = The incubation period distribution informed quarantine duration policies balancing transmission prevention against economic and psychosocial disruption costs.
+1	The	the	DET	_	_	_	_	_	_
+2	incubation	incubation	NOUN	_	_	_	_	_	_
+3	period	period	NOUN	_	_	_	_	_	_
+4	distribution	distribution	NOUN	_	_	_	_	_	_
+5	informed	inform	VERB	_	_	_	_	_	_
+6	quarantine	quarantine	NOUN	_	_	_	_	_	_
+7	duration	duration	NOUN	_	_	_	_	_	_
+8	policies	policy	NOUN	_	_	_	_	_	_
+9	balancing	balance	VERB	_	_	_	_	_	_
+10	transmission	transmission	NOUN	_	_	_	_	_	_
+11	prevention	prevention	NOUN	_	_	_	_	_	_
+12	against	against	ADP	_	_	_	_	_	_
+13	economic	economic	ADJ	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	psychosocial	psychosocial	ADJ	_	_	_	_	_	_
+16	disruption	disruption	NOUN	_	_	_	_	_	_
+17	costs	cost	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_313
+# text = Propensity score matching reduced selection bias when comparing treatment outcomes between observational patient groups with differing baseline characteristics.
+1	Propensity	propensity	NOUN	_	_	_	_	_	_
+2	score	score	NOUN	_	_	_	_	_	_
+3	matching	match	VERB	_	_	_	_	_	_
+4	reduced	reduce	VERB	_	_	_	_	_	_
+5	selection	selection	NOUN	_	_	_	_	_	_
+6	bias	bias	NOUN	_	_	_	_	_	_
+7	when	when	SCONJ	_	_	_	_	_	_
+8	comparing	compare	VERB	_	_	_	_	_	_
+9	treatment	treatment	NOUN	_	_	_	_	_	_
+10	outcomes	outcome	NOUN	_	_	_	_	_	_
+11	between	between	ADP	_	_	_	_	_	_
+12	observational	observational	ADJ	_	_	_	_	_	_
+13	patient	patient	NOUN	_	_	_	_	_	_
+14	groups	group	NOUN	_	_	_	_	_	_
+15	with	with	ADP	_	_	_	_	_	_
+16	differing	differ	VERB	_	_	_	_	_	_
+17	baseline	baseline	NOUN	_	_	_	_	_	_
+18	characteristics	characteristic	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_314
+# text = The epidemic curve peaked earlier than modeled projections after aggressive testing expansion and behavior change reduced effective contact rates.
+1	The	the	DET	_	_	_	_	_	_
+2	epidemic	epidemic	NOUN	_	_	_	_	_	_
+3	curve	curve	NOUN	_	_	_	_	_	_
+4	peaked	peak	VERB	_	_	_	_	_	_
+5	earlier	early	ADV	_	_	_	_	_	_
+6	than	than	SCONJ	_	_	_	_	_	_
+7	modeled	model	VERB	_	_	_	_	_	_
+8	projections	projection	NOUN	_	_	_	_	_	_
+9	after	after	SCONJ	_	_	_	_	_	_
+10	aggressive	aggressive	ADJ	_	_	_	_	_	_
+11	testing	testing	NOUN	_	_	_	_	_	_
+12	expansion	expansion	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	behavior	behavior	NOUN	_	_	_	_	_	_
+15	change	change	NOUN	_	_	_	_	_	_
+16	reduced	reduce	VERB	_	_	_	_	_	_
+17	effective	effective	ADJ	_	_	_	_	_	_
+18	contact	contact	NOUN	_	_	_	_	_	_
+19	rates	rate	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_315
+# text = Zoonotic spillover events underscore necessity of integrated surveillance linking veterinary, ecological, and human health data streams systematically.
+1	Zoonotic	zoonotic	ADJ	_	_	_	_	_	_
+2	spillover	spillover	NOUN	_	_	_	_	_	_
+3	events	event	NOUN	_	_	_	_	_	_
+4	underscore	underscore	VERB	_	_	_	_	_	_
+5	necessity	necessity	NOUN	_	_	_	_	_	_
+6	of	of	ADP	_	_	_	_	_	_
+7	integrated	integrated	ADJ	_	_	_	_	_	_
+8	surveillance	surveillance	NOUN	_	_	_	_	_	_
+9	linking	link	VERB	_	_	_	_	_	_
+10	veterinary	veterinary	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	ecological	ecological	ADJ	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	human	human	ADJ	_	_	_	_	_	_
+16	health	health	NOUN	_	_	_	_	_	_
+17	data	datum	NOUN	_	_	_	_	_	_
+18	streams	stream	NOUN	_	_	_	_	_	_
+19	systematically	systematically	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_316
+# text = The attributable fraction quantified disease burden preventable through hypothetical elimination of modifiable environmental exposures across populations.
+1	The	the	DET	_	_	_	_	_	_
+2	attributable	attributable	ADJ	_	_	_	_	_	_
+3	fraction	fraction	NOUN	_	_	_	_	_	_
+4	quantified	quantify	VERB	_	_	_	_	_	_
+5	disease	disease	NOUN	_	_	_	_	_	_
+6	burden	burden	NOUN	_	_	_	_	_	_
+7	preventable	preventable	ADJ	_	_	_	_	_	_
+8	through	through	ADP	_	_	_	_	_	_
+9	hypothetical	hypothetical	ADJ	_	_	_	_	_	_
+10	elimination	elimination	NOUN	_	_	_	_	_	_
+11	of	of	ADP	_	_	_	_	_	_
+12	modifiable	modifiable	ADJ	_	_	_	_	_	_
+13	environmental	environmental	ADJ	_	_	_	_	_	_
+14	exposures	exposure	NOUN	_	_	_	_	_	_
+15	across	across	ADP	_	_	_	_	_	_
+16	populations	population	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_317
+# text = Screening program sensitivity depends on test performance characteristics and disease prevalence within targeted asymptomatic community populations.
+1	Screening	screening	NOUN	_	_	_	_	_	_
+2	program	program	NOUN	_	_	_	_	_	_
+3	sensitivity	sensitivity	NOUN	_	_	_	_	_	_
+4	depends	depend	VERB	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	test	test	NOUN	_	_	_	_	_	_
+7	performance	performance	NOUN	_	_	_	_	_	_
+8	characteristics	characteristic	NOUN	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	disease	disease	NOUN	_	_	_	_	_	_
+11	prevalence	prevalence	NOUN	_	_	_	_	_	_
+12	within	within	ADP	_	_	_	_	_	_
+13	targeted	targeted	ADJ	_	_	_	_	_	_
+14	asymptomatic	asymptomatic	ADJ	_	_	_	_	_	_
+15	community	community	NOUN	_	_	_	_	_	_
+16	populations	population	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_318
+# text = The pharmacoepidemiological study linked prescription records to mortality registries while preserving patient confidentiality through anonymized linkage protocols.
+1	The	the	DET	_	_	_	_	_	_
+2	pharmacoepidemiological	pharmacoepidemiological	ADJ	_	_	_	_	_	_
+3	study	study	NOUN	_	_	_	_	_	_
+4	linked	link	VERB	_	_	_	_	_	_
+5	prescription	prescription	NOUN	_	_	_	_	_	_
+6	records	record	NOUN	_	_	_	_	_	_
+7	to	to	PART	_	_	_	_	_	_
+8	mortality	mortality	NOUN	_	_	_	_	_	_
+9	registries	registry	NOUN	_	_	_	_	_	_
+10	while	while	SCONJ	_	_	_	_	_	_
+11	preserving	preserve	VERB	_	_	_	_	_	_
+12	patient	patient	NOUN	_	_	_	_	_	_
+13	confidentiality	confidentiality	NOUN	_	_	_	_	_	_
+14	through	through	ADP	_	_	_	_	_	_
+15	anonymized	anonymized	ADJ	_	_	_	_	_	_
+16	linkage	linkage	NOUN	_	_	_	_	_	_
+17	protocols	protocol	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_319
+# text = Having randomized intervention clusters, investigators assessed whether school closure policies reduced community transmission beyond direct educational settings.
+1	Having	have	AUX	_	_	_	_	_	_
+2	randomized	randomize	VERB	_	_	_	_	_	_
+3	intervention	intervention	NOUN	_	_	_	_	_	_
+4	clusters	cluster	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	investigators	investigator	NOUN	_	_	_	_	_	_
+7	assessed	asse	VERB	_	_	_	_	_	_
+8	whether	whether	SCONJ	_	_	_	_	_	_
+9	school	school	NOUN	_	_	_	_	_	_
+10	closure	closure	NOUN	_	_	_	_	_	_
+11	policies	policy	NOUN	_	_	_	_	_	_
+12	reduced	reduce	VERB	_	_	_	_	_	_
+13	community	community	NOUN	_	_	_	_	_	_
+14	transmission	transmission	NOUN	_	_	_	_	_	_
+15	beyond	beyond	ADP	_	_	_	_	_	_
+16	direct	direct	ADJ	_	_	_	_	_	_
+17	educational	educational	ADJ	_	_	_	_	_	_
+18	settings	setting	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_320
+# text = The confidence interval for vaccine effectiveness excluded null values, supporting robust protection against severe outcomes among immunocompromised patients.
+1	The	the	DET	_	_	_	_	_	_
+2	confidence	confidence	NOUN	_	_	_	_	_	_
+3	interval	interval	NOUN	_	_	_	_	_	_
+4	for	for	ADP	_	_	_	_	_	_
+5	vaccine	vaccine	NOUN	_	_	_	_	_	_
+6	effectiveness	effectiveness	NOUN	_	_	_	_	_	_
+7	excluded	exclude	VERB	_	_	_	_	_	_
+8	null	null	ADJ	_	_	_	_	_	_
+9	values	value	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	supporting	support	VERB	_	_	_	_	_	_
+12	robust	robust	ADJ	_	_	_	_	_	_
+13	protection	protection	NOUN	_	_	_	_	_	_
+14	against	against	ADP	_	_	_	_	_	_
+15	severe	severe	ADJ	_	_	_	_	_	_
+16	outcomes	outcome	NOUN	_	_	_	_	_	_
+17	among	among	ADP	_	_	_	_	_	_
+18	immunocompromised	immunocompromised	ADJ	_	_	_	_	_	_
+19	patients	patient	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_321
+# text = Surveillance bias may inflate apparent incidence trends when expanded diagnostic criteria capture milder clinical presentations previously underreported systematically.
+1	Surveillance	surveillance	NOUN	_	_	_	_	_	_
+2	bias	bias	NOUN	_	_	_	_	_	_
+3	may	may	AUX	_	_	_	_	_	_
+4	inflate	inflate	VERB	_	_	_	_	_	_
+5	apparent	apparent	ADJ	_	_	_	_	_	_
+6	incidence	incidence	NOUN	_	_	_	_	_	_
+7	trends	trend	NOUN	_	_	_	_	_	_
+8	when	when	SCONJ	_	_	_	_	_	_
+9	expanded	expand	VERB	_	_	_	_	_	_
+10	diagnostic	diagnostic	ADJ	_	_	_	_	_	_
+11	criteria	criterion	NOUN	_	_	_	_	_	_
+12	capture	capture	VERB	_	_	_	_	_	_
+13	milder	mild	ADJ	_	_	_	_	_	_
+14	clinical	clinical	ADJ	_	_	_	_	_	_
+15	presentations	presentation	NOUN	_	_	_	_	_	_
+16	previously	previously	ADV	_	_	_	_	_	_
+17	underreported	underreport	VERB	_	_	_	_	_	_
+18	systematically	systematically	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_322
+# text = The compartmental model incorporated waning immunity parameters to project epidemic trajectories under varying booster vaccination coverage scenarios.
+1	The	the	DET	_	_	_	_	_	_
+2	compartmental	compartmental	ADJ	_	_	_	_	_	_
+3	model	model	NOUN	_	_	_	_	_	_
+4	incorporated	incorporate	VERB	_	_	_	_	_	_
+5	waning	wane	VERB	_	_	_	_	_	_
+6	immunity	immunity	NOUN	_	_	_	_	_	_
+7	parameters	parameter	NOUN	_	_	_	_	_	_
+8	to	to	PART	_	_	_	_	_	_
+9	project	project	VERB	_	_	_	_	_	_
+10	epidemic	epidemic	NOUN	_	_	_	_	_	_
+11	trajectories	trajectory	NOUN	_	_	_	_	_	_
+12	under	under	ADP	_	_	_	_	_	_
+13	varying	vary	VERB	_	_	_	_	_	_
+14	booster	booster	NOUN	_	_	_	_	_	_
+15	vaccination	vaccination	NOUN	_	_	_	_	_	_
+16	coverage	coverage	NOUN	_	_	_	_	_	_
+17	scenarios	scenario	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_323
+# text = Ecological studies examining aggregate exposures must cautiously interpret associations that may reflect confounding at individual levels.
+1	Ecological	ecological	ADJ	_	_	_	_	_	_
+2	studies	study	NOUN	_	_	_	_	_	_
+3	examining	examine	VERB	_	_	_	_	_	_
+4	aggregate	aggregate	ADJ	_	_	_	_	_	_
+5	exposures	exposure	NOUN	_	_	_	_	_	_
+6	must	must	AUX	_	_	_	_	_	_
+7	cautiously	cautiously	ADV	_	_	_	_	_	_
+8	interpret	interpret	VERB	_	_	_	_	_	_
+9	associations	association	NOUN	_	_	_	_	_	_
+10	that	that	SCONJ	_	_	_	_	_	_
+11	may	may	AUX	_	_	_	_	_	_
+12	reflect	reflect	VERB	_	_	_	_	_	_
+13	confounding	confounding	NOUN	_	_	_	_	_	_
+14	at	at	ADP	_	_	_	_	_	_
+15	individual	individual	ADJ	_	_	_	_	_	_
+16	levels	level	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_324
+# text = The outbreak investigation implicated a common food source through traceback analysis coordinated across multijurisdictional public health agencies.
+1	The	the	DET	_	_	_	_	_	_
+2	outbreak	outbreak	NOUN	_	_	_	_	_	_
+3	investigation	investigation	NOUN	_	_	_	_	_	_
+4	implicated	implicate	VERB	_	_	_	_	_	_
+5	a	a	DET	_	_	_	_	_	_
+6	common	common	ADJ	_	_	_	_	_	_
+7	food	food	NOUN	_	_	_	_	_	_
+8	source	source	NOUN	_	_	_	_	_	_
+9	through	through	ADP	_	_	_	_	_	_
+10	traceback	traceback	NOUN	_	_	_	_	_	_
+11	analysis	analysis	NOUN	_	_	_	_	_	_
+12	coordinated	coordinated	ADJ	_	_	_	_	_	_
+13	across	across	ADP	_	_	_	_	_	_
+14	multijurisdictional	multijurisdictional	ADJ	_	_	_	_	_	_
+15	public	public	ADJ	_	_	_	_	_	_
+16	health	health	NOUN	_	_	_	_	_	_
+17	agencies	agency	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_325
+# text = Latency period estimation informed occupational disease registries assessing cumulative exposure risks among manufacturing workers retrospectively.
+1	Latency	latency	NOUN	_	_	_	_	_	_
+2	period	period	NOUN	_	_	_	_	_	_
+3	estimation	estimation	NOUN	_	_	_	_	_	_
+4	informed	inform	VERB	_	_	_	_	_	_
+5	occupational	occupational	ADJ	_	_	_	_	_	_
+6	disease	disease	NOUN	_	_	_	_	_	_
+7	registries	registry	NOUN	_	_	_	_	_	_
+8	assessing	asse	VERB	_	_	_	_	_	_
+9	cumulative	cumulative	ADJ	_	_	_	_	_	_
+10	exposure	exposure	NOUN	_	_	_	_	_	_
+11	risks	risk	NOUN	_	_	_	_	_	_
+12	among	among	ADP	_	_	_	_	_	_
+13	manufacturing	manufacturing	NOUN	_	_	_	_	_	_
+14	workers	worker	NOUN	_	_	_	_	_	_
+15	retrospectively	retrospectively	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_326
+# text = The randomized field trial evaluated insecticide - treated bed nets reducing malaria incidence among children in hyperendemic transmission regions.
+1	The	the	DET	_	_	_	_	_	_
+2	randomized	randomize	VERB	_	_	_	_	_	_
+3	field	field	NOUN	_	_	_	_	_	_
+4	trial	trial	NOUN	_	_	_	_	_	_
+5	evaluated	evaluate	VERB	_	_	_	_	_	_
+6	insecticide	insecticide	NOUN	_	_	_	_	_	_
+7	-	-	PUNCT	_	_	_	_	_	_
+8	treated	treat	VERB	_	_	_	_	_	_
+9	bed	bed	NOUN	_	_	_	_	_	_
+10	nets	net	NOUN	_	_	_	_	_	_
+11	reducing	reduce	VERB	_	_	_	_	_	_
+12	malaria	malaria	NOUN	_	_	_	_	_	_
+13	incidence	incidence	NOUN	_	_	_	_	_	_
+14	among	among	ADP	_	_	_	_	_	_
+15	children	child	NOUN	_	_	_	_	_	_
+16	in	in	ADP	_	_	_	_	_	_
+17	hyperendemic	hyperendemic	ADJ	_	_	_	_	_	_
+18	transmission	transmission	NOUN	_	_	_	_	_	_
+19	regions	region	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_327
+# text = Although herd immunity thresholds were approached, variant emergence threatened to erode population protection and necessitate updated vaccine formulations.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	herd	herd	NOUN	_	_	_	_	_	_
+3	immunity	immunity	NOUN	_	_	_	_	_	_
+4	thresholds	threshold	NOUN	_	_	_	_	_	_
+5	were	be	AUX	_	_	_	_	_	_
+6	approached	approach	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	variant	variant	NOUN	_	_	_	_	_	_
+9	emergence	emergence	NOUN	_	_	_	_	_	_
+10	threatened	threaten	VERB	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	erode	erode	VERB	_	_	_	_	_	_
+13	population	population	NOUN	_	_	_	_	_	_
+14	protection	protection	NOUN	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	necessitate	necessitate	VERB	_	_	_	_	_	_
+17	updated	update	VERB	_	_	_	_	_	_
+18	vaccine	vaccine	NOUN	_	_	_	_	_	_
+19	formulations	formulation	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_328
+# text = The standardized mortality ratio compared observed deaths against expected rates derived from age - specific population reference tables regionally.
+1	The	the	DET	_	_	_	_	_	_
+2	standardized	standardized	ADJ	_	_	_	_	_	_
+3	mortality	mortality	NOUN	_	_	_	_	_	_
+4	ratio	ratio	NOUN	_	_	_	_	_	_
+5	compared	compare	VERB	_	_	_	_	_	_
+6	observed	observe	VERB	_	_	_	_	_	_
+7	deaths	death	NOUN	_	_	_	_	_	_
+8	against	against	ADP	_	_	_	_	_	_
+9	expected	expect	VERB	_	_	_	_	_	_
+10	rates	rate	NOUN	_	_	_	_	_	_
+11	derived	derive	VERB	_	_	_	_	_	_
+12	from	from	ADP	_	_	_	_	_	_
+13	age	age	NOUN	_	_	_	_	_	_
+14	-	-	PUNCT	_	_	_	_	_	_
+15	specific	specific	ADJ	_	_	_	_	_	_
+16	population	population	NOUN	_	_	_	_	_	_
+17	reference	reference	NOUN	_	_	_	_	_	_
+18	tables	table	NOUN	_	_	_	_	_	_
+19	regionally	regionally	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_329
+# text = Causal inference frameworks emphasize triangulating evidence from diverse study designs rather than relying solely on observational association measures.
+1	Causal	causal	ADJ	_	_	_	_	_	_
+2	inference	inference	NOUN	_	_	_	_	_	_
+3	frameworks	framework	NOUN	_	_	_	_	_	_
+4	emphasize	emphasize	VERB	_	_	_	_	_	_
+5	triangulating	triangulate	VERB	_	_	_	_	_	_
+6	evidence	evidence	NOUN	_	_	_	_	_	_
+7	from	from	ADP	_	_	_	_	_	_
+8	diverse	diverse	ADJ	_	_	_	_	_	_
+9	study	study	NOUN	_	_	_	_	_	_
+10	designs	design	NOUN	_	_	_	_	_	_
+11	rather	rather	ADV	_	_	_	_	_	_
+12	than	than	SCONJ	_	_	_	_	_	_
+13	relying	rely	VERB	_	_	_	_	_	_
+14	solely	solely	ADV	_	_	_	_	_	_
+15	on	on	ADP	_	_	_	_	_	_
+16	observational	observational	ADJ	_	_	_	_	_	_
+17	association	association	NOUN	_	_	_	_	_	_
+18	measures	measure	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_330
+# text = The contact tracing application logged proximity events while implementing privacy - preserving encryption to address civil liberties concerns adequately.
+1	The	the	DET	_	_	_	_	_	_
+2	contact	contact	NOUN	_	_	_	_	_	_
+3	tracing	tracing	NOUN	_	_	_	_	_	_
+4	application	application	NOUN	_	_	_	_	_	_
+5	logged	log	VERB	_	_	_	_	_	_
+6	proximity	proximity	NOUN	_	_	_	_	_	_
+7	events	event	NOUN	_	_	_	_	_	_
+8	while	while	SCONJ	_	_	_	_	_	_
+9	implementing	implement	VERB	_	_	_	_	_	_
+10	privacy	privacy	NOUN	_	_	_	_	_	_
+11	-	-	PUNCT	_	_	_	_	_	_
+12	preserving	preserve	VERB	_	_	_	_	_	_
+13	encryption	encryption	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	address	addre	VERB	_	_	_	_	_	_
+16	civil	civil	ADJ	_	_	_	_	_	_
+17	liberties	liberty	NOUN	_	_	_	_	_	_
+18	concerns	concern	NOUN	_	_	_	_	_	_
+19	adequately	adequately	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_331
+# text = It is increasingly recognized that social determinants mediate disease risk through pathways involving housing instability and inadequate healthcare access.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	increasingly	increasingly	ADV	_	_	_	_	_	_
+4	recognized	recognize	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	social	social	ADJ	_	_	_	_	_	_
+7	determinants	determinant	NOUN	_	_	_	_	_	_
+8	mediate	mediate	VERB	_	_	_	_	_	_
+9	disease	disease	NOUN	_	_	_	_	_	_
+10	risk	risk	NOUN	_	_	_	_	_	_
+11	through	through	ADP	_	_	_	_	_	_
+12	pathways	pathway	NOUN	_	_	_	_	_	_
+13	involving	involve	VERB	_	_	_	_	_	_
+14	housing	housing	NOUN	_	_	_	_	_	_
+15	instability	instability	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	inadequate	inadequate	ADJ	_	_	_	_	_	_
+18	healthcare	healthcare	NOUN	_	_	_	_	_	_
+19	access	access	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_332
+# text = Kaplan Meier analysis illustrated diverging survival curves before proportional hazards assumptions were formally tested statistically.
+1	Kaplan	Kaplan	PROPN	_	_	_	_	_	_
+2	Meier	Meier	PROPN	_	_	_	_	_	_
+3	analysis	analysis	NOUN	_	_	_	_	_	_
+4	illustrated	illustrate	VERB	_	_	_	_	_	_
+5	diverging	diverg	VERB	_	_	_	_	_	_
+6	survival	survival	NOUN	_	_	_	_	_	_
+7	curves	curve	NOUN	_	_	_	_	_	_
+8	before	before	SCONJ	_	_	_	_	_	_
+9	proportional	proportional	ADJ	_	_	_	_	_	_
+10	hazards	hazard	NOUN	_	_	_	_	_	_
+11	assumptions	assumption	NOUN	_	_	_	_	_	_
+12	were	be	AUX	_	_	_	_	_	_
+13	formally	formally	ADV	_	_	_	_	_	_
+14	tested	test	VERB	_	_	_	_	_	_
+15	statistically	statistically	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_333
+# text = Having stratified randomization by site, the multicenter trial minimized imbalance in baseline prognostic factors across participating clinical centers.
+1	Having	have	AUX	_	_	_	_	_	_
+2	stratified	stratify	VERB	_	_	_	_	_	_
+3	randomization	randomization	NOUN	_	_	_	_	_	_
+4	by	by	ADP	_	_	_	_	_	_
+5	site	site	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	multicenter	multicenter	NOUN	_	_	_	_	_	_
+9	trial	trial	NOUN	_	_	_	_	_	_
+10	minimized	minimize	VERB	_	_	_	_	_	_
+11	imbalance	imbalance	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	baseline	baseline	NOUN	_	_	_	_	_	_
+14	prognostic	prognostic	ADJ	_	_	_	_	_	_
+15	factors	factor	NOUN	_	_	_	_	_	_
+16	across	across	ADP	_	_	_	_	_	_
+17	participating	participate	VERB	_	_	_	_	_	_
+18	clinical	clinical	ADJ	_	_	_	_	_	_
+19	centers	center	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_334
+# text = False discovery rate adjustment controlled expected proportion of spurious associations in high dimensional genomic analyses.
+1	False	false	ADJ	_	_	_	_	_	_
+2	discovery	discovery	NOUN	_	_	_	_	_	_
+3	rate	rate	NOUN	_	_	_	_	_	_
+4	adjustment	adjustment	NOUN	_	_	_	_	_	_
+5	controlled	control	VERB	_	_	_	_	_	_
+6	expected	expect	VERB	_	_	_	_	_	_
+7	proportion	proportion	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	spurious	spurious	ADJ	_	_	_	_	_	_
+10	associations	association	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	high	high	ADJ	_	_	_	_	_	_
+13	dimensional	dimensional	ADJ	_	_	_	_	_	_
+14	genomic	genomic	ADJ	_	_	_	_	_	_
+15	analyses	analysis	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_335
+# text = Disease mapping techniques revealed persistent spatial clustering of tuberculosis cases in neighborhoods characterized by socioeconomic deprivation indicators.
+1	Disease	disease	NOUN	_	_	_	_	_	_
+2	mapping	mapping	NOUN	_	_	_	_	_	_
+3	techniques	technique	NOUN	_	_	_	_	_	_
+4	revealed	reveal	VERB	_	_	_	_	_	_
+5	persistent	persistent	ADJ	_	_	_	_	_	_
+6	spatial	spatial	ADJ	_	_	_	_	_	_
+7	clustering	clustering	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	tuberculosis	tuberculosis	NOUN	_	_	_	_	_	_
+10	cases	case	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	neighborhoods	neighborhood	NOUN	_	_	_	_	_	_
+13	characterized	characterize	VERB	_	_	_	_	_	_
+14	by	by	ADP	_	_	_	_	_	_
+15	socioeconomic	socioeconomic	ADJ	_	_	_	_	_	_
+16	deprivation	deprivation	NOUN	_	_	_	_	_	_
+17	indicators	indicator	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_336
+# text = Per protocol analysis excluded participants with major deviations, diverging from intention to treat effectiveness estimates.
+1	Per	per	ADP	_	_	_	_	_	_
+2	protocol	protocol	NOUN	_	_	_	_	_	_
+3	analysis	analysis	NOUN	_	_	_	_	_	_
+4	excluded	exclude	VERB	_	_	_	_	_	_
+5	participants	participant	NOUN	_	_	_	_	_	_
+6	with	with	ADP	_	_	_	_	_	_
+7	major	major	ADJ	_	_	_	_	_	_
+8	deviations	deviation	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	diverging	diverg	VERB	_	_	_	_	_	_
+11	from	from	ADP	_	_	_	_	_	_
+12	intention	intention	NOUN	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	treat	treat	VERB	_	_	_	_	_	_
+15	effectiveness	effectiveness	NOUN	_	_	_	_	_	_
+16	estimates	estimate	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_337
+# text = Notwithstanding high specificity, low pretest probability contexts rendered positive screening results more likely false alarms than true disease.
+1	Notwithstanding	notwithstanding	ADP	_	_	_	_	_	_
+2	high	high	ADJ	_	_	_	_	_	_
+3	specificity	specificity	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	low	low	ADJ	_	_	_	_	_	_
+6	pretest	pretest	NOUN	_	_	_	_	_	_
+7	probability	probability	NOUN	_	_	_	_	_	_
+8	contexts	context	NOUN	_	_	_	_	_	_
+9	rendered	render	VERB	_	_	_	_	_	_
+10	positive	positive	ADJ	_	_	_	_	_	_
+11	screening	screen	NOUN	_	_	_	_	_	_
+12	results	result	NOUN	_	_	_	_	_	_
+13	more	more	ADV	_	_	_	_	_	_
+14	likely	likely	ADJ	_	_	_	_	_	_
+15	false	false	ADJ	_	_	_	_	_	_
+16	alarms	alarm	NOUN	_	_	_	_	_	_
+17	than	than	SCONJ	_	_	_	_	_	_
+18	true	true	ADJ	_	_	_	_	_	_
+19	disease	disease	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_338
+# text = The age period cohort model disentangled temporal trends when analyzing chronic disease incidence across generational cohorts.
+1	The	the	DET	_	_	_	_	_	_
+2	age	age	NOUN	_	_	_	_	_	_
+3	period	period	NOUN	_	_	_	_	_	_
+4	cohort	cohort	NOUN	_	_	_	_	_	_
+5	model	model	NOUN	_	_	_	_	_	_
+6	disentangled	disentangle	VERB	_	_	_	_	_	_
+7	temporal	temporal	ADJ	_	_	_	_	_	_
+8	trends	trend	NOUN	_	_	_	_	_	_
+9	when	when	SCONJ	_	_	_	_	_	_
+10	analyzing	analyze	VERB	_	_	_	_	_	_
+11	chronic	chronic	ADJ	_	_	_	_	_	_
+12	disease	disease	NOUN	_	_	_	_	_	_
+13	incidence	incidence	NOUN	_	_	_	_	_	_
+14	across	across	ADP	_	_	_	_	_	_
+15	generational	generational	ADJ	_	_	_	_	_	_
+16	cohorts	cohort	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_339
+# text = Environmental sampling detected pathogen persistence on surfaces, informing infection control protocols during nosocomial outbreak responses.
+1	Environmental	environmental	ADJ	_	_	_	_	_	_
+2	sampling	sampling	NOUN	_	_	_	_	_	_
+3	detected	detect	VERB	_	_	_	_	_	_
+4	pathogen	pathogen	NOUN	_	_	_	_	_	_
+5	persistence	persistence	NOUN	_	_	_	_	_	_
+6	on	on	ADP	_	_	_	_	_	_
+7	surfaces	surface	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	informing	inform	VERB	_	_	_	_	_	_
+10	infection	infection	NOUN	_	_	_	_	_	_
+11	control	control	NOUN	_	_	_	_	_	_
+12	protocols	protocol	NOUN	_	_	_	_	_	_
+13	during	during	ADP	_	_	_	_	_	_
+14	nosocomial	nosocomial	ADJ	_	_	_	_	_	_
+15	outbreak	outbreak	NOUN	_	_	_	_	_	_
+16	responses	response	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_340
+# text = The relative risk reduction translated into modest absolute benefits when baseline event rates remained low among screened populations.
+1	The	the	DET	_	_	_	_	_	_
+2	relative	relative	ADJ	_	_	_	_	_	_
+3	risk	risk	NOUN	_	_	_	_	_	_
+4	reduction	reduction	NOUN	_	_	_	_	_	_
+5	translated	translate	VERB	_	_	_	_	_	_
+6	into	into	ADP	_	_	_	_	_	_
+7	modest	modest	ADJ	_	_	_	_	_	_
+8	absolute	absolute	ADJ	_	_	_	_	_	_
+9	benefits	benefit	NOUN	_	_	_	_	_	_
+10	when	when	SCONJ	_	_	_	_	_	_
+11	baseline	baseline	NOUN	_	_	_	_	_	_
+12	event	event	NOUN	_	_	_	_	_	_
+13	rates	rate	NOUN	_	_	_	_	_	_
+14	remained	remain	VERB	_	_	_	_	_	_
+15	low	low	ADJ	_	_	_	_	_	_
+16	among	among	ADP	_	_	_	_	_	_
+17	screened	screen	VERB	_	_	_	_	_	_
+18	populations	population	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_341
+# text = Reverse causation threatens validity when early disease stages alter exposures investigators later associate with outcome development retrospectively.
+1	Reverse	reverse	ADJ	_	_	_	_	_	_
+2	causation	causation	NOUN	_	_	_	_	_	_
+3	threatens	threaten	VERB	_	_	_	_	_	_
+4	validity	validity	NOUN	_	_	_	_	_	_
+5	when	when	SCONJ	_	_	_	_	_	_
+6	early	early	ADJ	_	_	_	_	_	_
+7	disease	disease	NOUN	_	_	_	_	_	_
+8	stages	stage	NOUN	_	_	_	_	_	_
+9	alter	alter	VERB	_	_	_	_	_	_
+10	exposures	exposure	NOUN	_	_	_	_	_	_
+11	investigators	investigator	NOUN	_	_	_	_	_	_
+12	later	late	ADV	_	_	_	_	_	_
+13	associate	associate	VERB	_	_	_	_	_	_
+14	with	with	ADP	_	_	_	_	_	_
+15	outcome	outcome	NOUN	_	_	_	_	_	_
+16	development	development	NOUN	_	_	_	_	_	_
+17	retrospectively	retrospectively	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_342
+# text = The stepped wedge design sequentially introduced interventions across clusters, accommodating logistical constraints precluding simultaneous nationwide program rollout.
+1	The	the	DET	_	_	_	_	_	_
+2	stepped	step	VERB	_	_	_	_	_	_
+3	wedge	wedge	NOUN	_	_	_	_	_	_
+4	design	design	NOUN	_	_	_	_	_	_
+5	sequentially	sequentially	ADV	_	_	_	_	_	_
+6	introduced	introduce	VERB	_	_	_	_	_	_
+7	interventions	intervention	NOUN	_	_	_	_	_	_
+8	across	across	ADP	_	_	_	_	_	_
+9	clusters	cluster	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	accommodating	accommodate	VERB	_	_	_	_	_	_
+12	logistical	logistical	ADJ	_	_	_	_	_	_
+13	constraints	constraint	NOUN	_	_	_	_	_	_
+14	precluding	preclude	VERB	_	_	_	_	_	_
+15	simultaneous	simultaneous	ADJ	_	_	_	_	_	_
+16	nationwide	nationwide	ADJ	_	_	_	_	_	_
+17	program	program	NOUN	_	_	_	_	_	_
+18	rollout	rollout	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_343
+# text = Migrant health surveillance highlighted disparities in latent infection prevalence linked to origin - country endemicity and predeparture screening policies.
+1	Migrant	migrant	ADJ	_	_	_	_	_	_
+2	health	health	NOUN	_	_	_	_	_	_
+3	surveillance	surveillance	NOUN	_	_	_	_	_	_
+4	highlighted	highlight	VERB	_	_	_	_	_	_
+5	disparities	disparity	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	latent	latent	ADJ	_	_	_	_	_	_
+8	infection	infection	NOUN	_	_	_	_	_	_
+9	prevalence	prevalence	NOUN	_	_	_	_	_	_
+10	linked	link	VERB	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	origin	origin	NOUN	_	_	_	_	_	_
+13	-	-	PUNCT	_	_	_	_	_	_
+14	country	country	NOUN	_	_	_	_	_	_
+15	endemicity	endemicity	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	predeparture	predeparture	NOUN	_	_	_	_	_	_
+18	screening	screen	NOUN	_	_	_	_	_	_
+19	policies	policy	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_344
+# text = The diagnostic odds ratio summarized test discrimination capacity across varying prevalence settings better than sensitivity and specificity alone.
+1	The	the	DET	_	_	_	_	_	_
+2	diagnostic	diagnostic	ADJ	_	_	_	_	_	_
+3	odds	odd	NOUN	_	_	_	_	_	_
+4	ratio	ratio	NOUN	_	_	_	_	_	_
+5	summarized	summarize	VERB	_	_	_	_	_	_
+6	test	test	NOUN	_	_	_	_	_	_
+7	discrimination	discrimination	NOUN	_	_	_	_	_	_
+8	capacity	capacity	NOUN	_	_	_	_	_	_
+9	across	across	ADP	_	_	_	_	_	_
+10	varying	vary	VERB	_	_	_	_	_	_
+11	prevalence	prevalence	NOUN	_	_	_	_	_	_
+12	settings	setting	NOUN	_	_	_	_	_	_
+13	better	good	ADJ	_	_	_	_	_	_
+14	than	than	SCONJ	_	_	_	_	_	_
+15	sensitivity	sensitivity	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	specificity	specificity	NOUN	_	_	_	_	_	_
+18	alone	alone	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_345
+# text = Having pooled individual participant data, the consortium increased statistical power to evaluate treatment effect heterogeneity across prespecified subgroups.
+1	Having	have	AUX	_	_	_	_	_	_
+2	pooled	pool	VERB	_	_	_	_	_	_
+3	individual	individual	ADJ	_	_	_	_	_	_
+4	participant	participant	NOUN	_	_	_	_	_	_
+5	data	datum	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	consortium	consortium	NOUN	_	_	_	_	_	_
+9	increased	increase	VERB	_	_	_	_	_	_
+10	statistical	statistical	ADJ	_	_	_	_	_	_
+11	power	power	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	evaluate	evaluate	VERB	_	_	_	_	_	_
+14	treatment	treatment	NOUN	_	_	_	_	_	_
+15	effect	effect	NOUN	_	_	_	_	_	_
+16	heterogeneity	heterogeneity	NOUN	_	_	_	_	_	_
+17	across	across	ADP	_	_	_	_	_	_
+18	prespecified	prespecified	ADJ	_	_	_	_	_	_
+19	subgroups	subgroup	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_346
+# text = The endemic equilibrium model predicted resurgent seasonality once susceptible recruitment through demographic turnover restored transmission potential cyclically.
+1	The	the	DET	_	_	_	_	_	_
+2	endemic	endemic	ADJ	_	_	_	_	_	_
+3	equilibrium	equilibrium	NOUN	_	_	_	_	_	_
+4	model	model	NOUN	_	_	_	_	_	_
+5	predicted	predict	VERB	_	_	_	_	_	_
+6	resurgent	resurgent	ADJ	_	_	_	_	_	_
+7	seasonality	seasonality	NOUN	_	_	_	_	_	_
+8	once	once	SCONJ	_	_	_	_	_	_
+9	susceptible	susceptible	ADJ	_	_	_	_	_	_
+10	recruitment	recruitment	NOUN	_	_	_	_	_	_
+11	through	through	ADP	_	_	_	_	_	_
+12	demographic	demographic	ADJ	_	_	_	_	_	_
+13	turnover	turnover	NOUN	_	_	_	_	_	_
+14	restored	restore	VERB	_	_	_	_	_	_
+15	transmission	transmission	NOUN	_	_	_	_	_	_
+16	potential	potential	NOUN	_	_	_	_	_	_
+17	cyclically	cyclically	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_347
+# text = Recall bias may distort exposure histories when case participants more intensely search memory for hypothesized risk factors than controls.
+1	Recall	recall	VERB	_	_	_	_	_	_
+2	bias	bias	NOUN	_	_	_	_	_	_
+3	may	may	AUX	_	_	_	_	_	_
+4	distort	distort	VERB	_	_	_	_	_	_
+5	exposure	exposure	NOUN	_	_	_	_	_	_
+6	histories	history	NOUN	_	_	_	_	_	_
+7	when	when	SCONJ	_	_	_	_	_	_
+8	case	case	NOUN	_	_	_	_	_	_
+9	participants	participant	NOUN	_	_	_	_	_	_
+10	more	more	ADV	_	_	_	_	_	_
+11	intensely	intensely	ADV	_	_	_	_	_	_
+12	search	search	VERB	_	_	_	_	_	_
+13	memory	memory	NOUN	_	_	_	_	_	_
+14	for	for	ADP	_	_	_	_	_	_
+15	hypothesized	hypothesize	VERB	_	_	_	_	_	_
+16	risk	risk	NOUN	_	_	_	_	_	_
+17	factors	factor	NOUN	_	_	_	_	_	_
+18	than	than	SCONJ	_	_	_	_	_	_
+19	controls	control	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_348
+# text = The attributable risk percent indicated what proportion of cases among exposed individuals resulted specifically from identified occupational hazards.
+1	The	the	DET	_	_	_	_	_	_
+2	attributable	attributable	ADJ	_	_	_	_	_	_
+3	risk	risk	NOUN	_	_	_	_	_	_
+4	percent	percent	NOUN	_	_	_	_	_	_
+5	indicated	indicate	VERB	_	_	_	_	_	_
+6	what	what	PRON	_	_	_	_	_	_
+7	proportion	proportion	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	cases	case	NOUN	_	_	_	_	_	_
+10	among	among	ADP	_	_	_	_	_	_
+11	exposed	expose	VERB	_	_	_	_	_	_
+12	individuals	individual	NOUN	_	_	_	_	_	_
+13	resulted	result	VERB	_	_	_	_	_	_
+14	specifically	specifically	ADV	_	_	_	_	_	_
+15	from	from	ADP	_	_	_	_	_	_
+16	identified	identify	VERB	_	_	_	_	_	_
+17	occupational	occupational	ADJ	_	_	_	_	_	_
+18	hazards	hazard	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_349
+# text = Screening interval optimization balances early detection benefits against false positive harms and cumulative radiation exposure in imaging programs.
+1	Screening	screening	NOUN	_	_	_	_	_	_
+2	interval	interval	ADJ	_	_	_	_	_	_
+3	optimization	optimization	NOUN	_	_	_	_	_	_
+4	balances	balance	VERB	_	_	_	_	_	_
+5	early	early	ADJ	_	_	_	_	_	_
+6	detection	detection	NOUN	_	_	_	_	_	_
+7	benefits	benefit	NOUN	_	_	_	_	_	_
+8	against	against	ADP	_	_	_	_	_	_
+9	false	false	ADJ	_	_	_	_	_	_
+10	positive	positive	ADJ	_	_	_	_	_	_
+11	harms	harm	NOUN	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	cumulative	cumulative	ADJ	_	_	_	_	_	_
+14	radiation	radiation	NOUN	_	_	_	_	_	_
+15	exposure	exposure	NOUN	_	_	_	_	_	_
+16	in	in	ADP	_	_	_	_	_	_
+17	imaging	imaging	NOUN	_	_	_	_	_	_
+18	programs	program	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_350
+# text = The field epidemiology training program strengthened capacity for rapid outbreak response in resource - limited settings through mentored investigations.
+1	The	the	DET	_	_	_	_	_	_
+2	field	field	NOUN	_	_	_	_	_	_
+3	epidemiology	epidemiology	NOUN	_	_	_	_	_	_
+4	training	training	NOUN	_	_	_	_	_	_
+5	program	program	NOUN	_	_	_	_	_	_
+6	strengthened	strengthen	VERB	_	_	_	_	_	_
+7	capacity	capacity	NOUN	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	rapid	rapid	ADJ	_	_	_	_	_	_
+10	outbreak	outbreak	NOUN	_	_	_	_	_	_
+11	response	response	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	resource	resource	NOUN	_	_	_	_	_	_
+14	-	-	PUNCT	_	_	_	_	_	_
+15	limited	limited	ADJ	_	_	_	_	_	_
+16	settings	setting	NOUN	_	_	_	_	_	_
+17	through	through	ADP	_	_	_	_	_	_
+18	mentored	mentore	VERB	_	_	_	_	_	_
+19	investigations	investigation	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_351
+# text = Most favored nation clauses prohibit discriminatory tariffs among trading partners except where preferential regional agreements apply legally.
+1	Most	most	ADV	_	_	_	_	_	_
+2	favored	favore	VERB	_	_	_	_	_	_
+3	nation	nation	NOUN	_	_	_	_	_	_
+4	clauses	clause	NOUN	_	_	_	_	_	_
+5	prohibit	prohibit	VERB	_	_	_	_	_	_
+6	discriminatory	discriminatory	ADJ	_	_	_	_	_	_
+7	tariffs	tariff	NOUN	_	_	_	_	_	_
+8	among	among	ADP	_	_	_	_	_	_
+9	trading	trading	NOUN	_	_	_	_	_	_
+10	partners	partner	NOUN	_	_	_	_	_	_
+11	except	except	ADP	_	_	_	_	_	_
+12	where	where	ADV	_	_	_	_	_	_
+13	preferential	preferential	ADJ	_	_	_	_	_	_
+14	regional	regional	ADJ	_	_	_	_	_	_
+15	agreements	agreement	NOUN	_	_	_	_	_	_
+16	apply	apply	VERB	_	_	_	_	_	_
+17	legally	legally	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_352
+# text = The trade deficit widened as import volumes surged despite currency depreciation failing to stimulate export competitiveness sufficiently rapidly.
+1	The	the	DET	_	_	_	_	_	_
+2	trade	trade	NOUN	_	_	_	_	_	_
+3	deficit	deficit	NOUN	_	_	_	_	_	_
+4	widened	widen	VERB	_	_	_	_	_	_
+5	as	as	SCONJ	_	_	_	_	_	_
+6	import	import	NOUN	_	_	_	_	_	_
+7	volumes	volume	NOUN	_	_	_	_	_	_
+8	surged	surge	VERB	_	_	_	_	_	_
+9	despite	despite	ADP	_	_	_	_	_	_
+10	currency	currency	NOUN	_	_	_	_	_	_
+11	depreciation	depreciation	NOUN	_	_	_	_	_	_
+12	failing	fail	VERB	_	_	_	_	_	_
+13	to	to	PART	_	_	_	_	_	_
+14	stimulate	stimulate	VERB	_	_	_	_	_	_
+15	export	export	NOUN	_	_	_	_	_	_
+16	competitiveness	competitiveness	NOUN	_	_	_	_	_	_
+17	sufficiently	sufficiently	ADV	_	_	_	_	_	_
+18	rapidly	rapidly	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_353
+# text = Although tariffs generated fiscal revenue, retaliatory measures offset anticipated gains by restricting market access for agricultural export commodities.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	tariffs	tariff	NOUN	_	_	_	_	_	_
+3	generated	generate	VERB	_	_	_	_	_	_
+4	fiscal	fiscal	ADJ	_	_	_	_	_	_
+5	revenue	revenue	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	retaliatory	retaliatory	ADJ	_	_	_	_	_	_
+8	measures	measure	NOUN	_	_	_	_	_	_
+9	offset	offset	VERB	_	_	_	_	_	_
+10	anticipated	anticipate	VERB	_	_	_	_	_	_
+11	gains	gain	NOUN	_	_	_	_	_	_
+12	by	by	ADP	_	_	_	_	_	_
+13	restricting	restrict	VERB	_	_	_	_	_	_
+14	market	market	NOUN	_	_	_	_	_	_
+15	access	access	NOUN	_	_	_	_	_	_
+16	for	for	ADP	_	_	_	_	_	_
+17	agricultural	agricultural	ADJ	_	_	_	_	_	_
+18	export	export	NOUN	_	_	_	_	_	_
+19	commodities	commodity	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_354
+# text = Rules of origin determinations govern eligibility for preferential duties under free trade agreements incorporating substantial regional value content.
+1	Rules	rule	NOUN	_	_	_	_	_	_
+2	of	of	ADP	_	_	_	_	_	_
+3	origin	origin	NOUN	_	_	_	_	_	_
+4	determinations	determination	NOUN	_	_	_	_	_	_
+5	govern	govern	VERB	_	_	_	_	_	_
+6	eligibility	eligibility	NOUN	_	_	_	_	_	_
+7	for	for	ADP	_	_	_	_	_	_
+8	preferential	preferential	ADJ	_	_	_	_	_	_
+9	duties	duty	NOUN	_	_	_	_	_	_
+10	under	under	ADP	_	_	_	_	_	_
+11	free	free	ADJ	_	_	_	_	_	_
+12	trade	trade	NOUN	_	_	_	_	_	_
+13	agreements	agreement	NOUN	_	_	_	_	_	_
+14	incorporating	incorporate	VERB	_	_	_	_	_	_
+15	substantial	substantial	ADJ	_	_	_	_	_	_
+16	regional	regional	ADJ	_	_	_	_	_	_
+17	value	value	NOUN	_	_	_	_	_	_
+18	content	content	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_355
+# text = The anti-dumping investigation examined whether foreign producers sold below normal value, injuring domestic industries manufacturing comparable product lines.
+1	The	the	DET	_	_	_	_	_	_
+2	anti-dumping	anti-dumping	NOUN	_	_	_	_	_	_
+3	investigation	investigation	NOUN	_	_	_	_	_	_
+4	examined	examine	VERB	_	_	_	_	_	_
+5	whether	whether	SCONJ	_	_	_	_	_	_
+6	foreign	foreign	ADJ	_	_	_	_	_	_
+7	producers	producer	NOUN	_	_	_	_	_	_
+8	sold	sell	VERB	_	_	_	_	_	_
+9	below	below	ADP	_	_	_	_	_	_
+10	normal	normal	ADJ	_	_	_	_	_	_
+11	value	value	NOUN	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	injuring	injure	VERB	_	_	_	_	_	_
+14	domestic	domestic	ADJ	_	_	_	_	_	_
+15	industries	industry	NOUN	_	_	_	_	_	_
+16	manufacturing	manufacture	VERB	_	_	_	_	_	_
+17	comparable	comparable	ADJ	_	_	_	_	_	_
+18	product	product	NOUN	_	_	_	_	_	_
+19	lines	line	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_356
+# text = It remains contentious whether bilateral investment treaties adequately balance investor protections with regulatory autonomy over environmental standards domestically.
+1	It	it	PRON	_	_	_	_	_	_
+2	remains	remain	VERB	_	_	_	_	_	_
+3	contentious	contentious	ADJ	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	bilateral	bilateral	ADJ	_	_	_	_	_	_
+6	investment	investment	NOUN	_	_	_	_	_	_
+7	treaties	treaty	NOUN	_	_	_	_	_	_
+8	adequately	adequately	ADV	_	_	_	_	_	_
+9	balance	balance	VERB	_	_	_	_	_	_
+10	investor	investor	NOUN	_	_	_	_	_	_
+11	protections	protection	NOUN	_	_	_	_	_	_
+12	with	with	ADP	_	_	_	_	_	_
+13	regulatory	regulatory	ADJ	_	_	_	_	_	_
+14	autonomy	autonomy	NOUN	_	_	_	_	_	_
+15	over	over	ADP	_	_	_	_	_	_
+16	environmental	environmental	ADJ	_	_	_	_	_	_
+17	standards	standard	NOUN	_	_	_	_	_	_
+18	domestically	domestically	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_357
+# text = The customs union eliminated internal tariffs while harmonizing external trade policy toward nonmember countries across participating economies collectively.
+1	The	the	DET	_	_	_	_	_	_
+2	customs	custom	NOUN	_	_	_	_	_	_
+3	union	union	NOUN	_	_	_	_	_	_
+4	eliminated	eliminate	VERB	_	_	_	_	_	_
+5	internal	internal	ADJ	_	_	_	_	_	_
+6	tariffs	tariff	NOUN	_	_	_	_	_	_
+7	while	while	SCONJ	_	_	_	_	_	_
+8	harmonizing	harmonize	VERB	_	_	_	_	_	_
+9	external	external	ADJ	_	_	_	_	_	_
+10	trade	trade	NOUN	_	_	_	_	_	_
+11	policy	policy	NOUN	_	_	_	_	_	_
+12	toward	toward	ADP	_	_	_	_	_	_
+13	nonmember	nonmember	NOUN	_	_	_	_	_	_
+14	countries	country	NOUN	_	_	_	_	_	_
+15	across	across	ADP	_	_	_	_	_	_
+16	participating	participate	VERB	_	_	_	_	_	_
+17	economies	economy	NOUN	_	_	_	_	_	_
+18	collectively	collectively	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_358
+# text = Having reformed export procedures, the ministry reduced dwell times at borders through digital preclearance and risk based inspection.
+1	Having	have	AUX	_	_	_	_	_	_
+2	reformed	reform	VERB	_	_	_	_	_	_
+3	export	export	NOUN	_	_	_	_	_	_
+4	procedures	procedure	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	ministry	ministry	NOUN	_	_	_	_	_	_
+8	reduced	reduce	VERB	_	_	_	_	_	_
+9	dwell	dwell	NOUN	_	_	_	_	_	_
+10	times	time	NOUN	_	_	_	_	_	_
+11	at	at	ADP	_	_	_	_	_	_
+12	borders	border	NOUN	_	_	_	_	_	_
+13	through	through	ADP	_	_	_	_	_	_
+14	digital	digital	ADJ	_	_	_	_	_	_
+15	preclearance	preclearance	NOUN	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	risk	risk	NOUN	_	_	_	_	_	_
+18	based	base	VERB	_	_	_	_	_	_
+19	inspection	inspection	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_359
+# text = Comparative advantage theory predicts specialization patterns even when trading partners exhibit absolute productivity advantages across all goods produced.
+1	Comparative	comparative	ADJ	_	_	_	_	_	_
+2	advantage	advantage	NOUN	_	_	_	_	_	_
+3	theory	theory	NOUN	_	_	_	_	_	_
+4	predicts	predict	VERB	_	_	_	_	_	_
+5	specialization	specialization	NOUN	_	_	_	_	_	_
+6	patterns	pattern	NOUN	_	_	_	_	_	_
+7	even	even	ADV	_	_	_	_	_	_
+8	when	when	SCONJ	_	_	_	_	_	_
+9	trading	trading	NOUN	_	_	_	_	_	_
+10	partners	partner	NOUN	_	_	_	_	_	_
+11	exhibit	exhibit	VERB	_	_	_	_	_	_
+12	absolute	absolute	ADJ	_	_	_	_	_	_
+13	productivity	productivity	NOUN	_	_	_	_	_	_
+14	advantages	advantage	NOUN	_	_	_	_	_	_
+15	across	across	ADP	_	_	_	_	_	_
+16	all	all	DET	_	_	_	_	_	_
+17	goods	goods	NOUN	_	_	_	_	_	_
+18	produced	produce	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_360
+# text = The safeguard mechanism permitted temporary tariff increases when import surges threatened serious injury to domestic production sectors nationally.
+1	The	the	DET	_	_	_	_	_	_
+2	safeguard	safeguard	NOUN	_	_	_	_	_	_
+3	mechanism	mechanism	NOUN	_	_	_	_	_	_
+4	permitted	permit	VERB	_	_	_	_	_	_
+5	temporary	temporary	ADJ	_	_	_	_	_	_
+6	tariff	tariff	NOUN	_	_	_	_	_	_
+7	increases	increase	NOUN	_	_	_	_	_	_
+8	when	when	SCONJ	_	_	_	_	_	_
+9	import	import	NOUN	_	_	_	_	_	_
+10	surges	surge	NOUN	_	_	_	_	_	_
+11	threatened	threaten	VERB	_	_	_	_	_	_
+12	serious	serious	ADJ	_	_	_	_	_	_
+13	injury	injury	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	domestic	domestic	ADJ	_	_	_	_	_	_
+16	production	production	NOUN	_	_	_	_	_	_
+17	sectors	sector	NOUN	_	_	_	_	_	_
+18	nationally	nationally	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_361
+# text = Notwithstanding services liberalization commitments, professional qualification recognition barriers continued impeding cross-border mobility of skilled practitioners.
+1	Notwithstanding	notwithstanding	ADP	_	_	_	_	_	_
+2	services	service	NOUN	_	_	_	_	_	_
+3	liberalization	liberalization	NOUN	_	_	_	_	_	_
+4	commitments	commitment	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	professional	professional	ADJ	_	_	_	_	_	_
+7	qualification	qualification	NOUN	_	_	_	_	_	_
+8	recognition	recognition	NOUN	_	_	_	_	_	_
+9	barriers	barrier	NOUN	_	_	_	_	_	_
+10	continued	continue	VERB	_	_	_	_	_	_
+11	impeding	imp	VERB	_	_	_	_	_	_
+12	cross-border	cross-border	ADJ	_	_	_	_	_	_
+13	mobility	mobility	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	skilled	skilled	ADJ	_	_	_	_	_	_
+16	practitioners	practitioner	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_362
+# text = Sanitary agreements permit trade restrictions justified by scientific risk assessments protecting human, animal, and plant health.
+1	Sanitary	sanitary	NOUN	_	_	_	_	_	_
+2	agreements	agreement	NOUN	_	_	_	_	_	_
+3	permit	permit	VERB	_	_	_	_	_	_
+4	trade	trade	NOUN	_	_	_	_	_	_
+5	restrictions	restriction	NOUN	_	_	_	_	_	_
+6	justified	justify	VERB	_	_	_	_	_	_
+7	by	by	ADP	_	_	_	_	_	_
+8	scientific	scientific	ADJ	_	_	_	_	_	_
+9	risk	risk	NOUN	_	_	_	_	_	_
+10	assessments	assessment	NOUN	_	_	_	_	_	_
+11	protecting	protect	VERB	_	_	_	_	_	_
+12	human	human	ADJ	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	animal	animal	NOUN	_	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	plant	plant	NOUN	_	_	_	_	_	_
+18	health	health	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_363
+# text = Terms of trade shocks redistribute welfare between exporting commodity producers and importing manufacturing economies during global price fluctuations.
+1	Terms	term	NOUN	_	_	_	_	_	_
+2	of	of	ADP	_	_	_	_	_	_
+3	trade	trade	NOUN	_	_	_	_	_	_
+4	shocks	shock	NOUN	_	_	_	_	_	_
+5	redistribute	redistribute	VERB	_	_	_	_	_	_
+6	welfare	welfare	NOUN	_	_	_	_	_	_
+7	between	between	ADP	_	_	_	_	_	_
+8	exporting	export	VERB	_	_	_	_	_	_
+9	commodity	commodity	NOUN	_	_	_	_	_	_
+10	producers	producer	NOUN	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	importing	import	VERB	_	_	_	_	_	_
+13	manufacturing	manufacturing	NOUN	_	_	_	_	_	_
+14	economies	economy	NOUN	_	_	_	_	_	_
+15	during	during	ADP	_	_	_	_	_	_
+16	global	global	ADJ	_	_	_	_	_	_
+17	price	price	NOUN	_	_	_	_	_	_
+18	fluctuations	fluctuation	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_364
+# text = The export processing zone offered tax incentives attracting assembly operations reliant on imported intermediates reexported as finished manufactured goods.
+1	The	the	DET	_	_	_	_	_	_
+2	export	export	NOUN	_	_	_	_	_	_
+3	processing	processing	NOUN	_	_	_	_	_	_
+4	zone	zone	NOUN	_	_	_	_	_	_
+5	offered	offer	VERB	_	_	_	_	_	_
+6	tax	tax	NOUN	_	_	_	_	_	_
+7	incentives	incentive	NOUN	_	_	_	_	_	_
+8	attracting	attract	VERB	_	_	_	_	_	_
+9	assembly	assembly	NOUN	_	_	_	_	_	_
+10	operations	operation	NOUN	_	_	_	_	_	_
+11	reliant	reliant	VERB	_	_	_	_	_	_
+12	on	on	ADP	_	_	_	_	_	_
+13	imported	import	VERB	_	_	_	_	_	_
+14	intermediates	intermediate	NOUN	_	_	_	_	_	_
+15	reexported	reexport	VERB	_	_	_	_	_	_
+16	as	as	SCONJ	_	_	_	_	_	_
+17	finished	finish	VERB	_	_	_	_	_	_
+18	manufactured	manufacture	VERB	_	_	_	_	_	_
+19	goods	goods	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_365
+# text = Intellectual property provisions extended patent protections, provoking debates about access to affordable generic medicines globally.
+1	Intellectual	intellectual	ADJ	_	_	_	_	_	_
+2	property	property	NOUN	_	_	_	_	_	_
+3	provisions	provision	NOUN	_	_	_	_	_	_
+4	extended	extend	VERB	_	_	_	_	_	_
+5	patent	patent	NOUN	_	_	_	_	_	_
+6	protections	protection	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	provoking	provoke	VERB	_	_	_	_	_	_
+9	debates	debate	NOUN	_	_	_	_	_	_
+10	about	about	ADP	_	_	_	_	_	_
+11	access	access	NOUN	_	_	_	_	_	_
+12	to	to	PART	_	_	_	_	_	_
+13	affordable	affordable	ADJ	_	_	_	_	_	_
+14	generic	generic	ADJ	_	_	_	_	_	_
+15	medicines	medicine	NOUN	_	_	_	_	_	_
+16	globally	globally	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_366
+# text = The countervailing duty countered subsidized imports that distorted competition by enabling foreign producers to undercut unsubsidized domestic market prices.
+1	The	the	DET	_	_	_	_	_	_
+2	countervailing	countervailing	NOUN	_	_	_	_	_	_
+3	duty	duty	NOUN	_	_	_	_	_	_
+4	countered	counter	VERB	_	_	_	_	_	_
+5	subsidized	subsidize	VERB	_	_	_	_	_	_
+6	imports	import	NOUN	_	_	_	_	_	_
+7	that	that	SCONJ	_	_	_	_	_	_
+8	distorted	distort	VERB	_	_	_	_	_	_
+9	competition	competition	NOUN	_	_	_	_	_	_
+10	by	by	ADP	_	_	_	_	_	_
+11	enabling	enable	VERB	_	_	_	_	_	_
+12	foreign	foreign	ADJ	_	_	_	_	_	_
+13	producers	producer	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	undercut	undercut	VERB	_	_	_	_	_	_
+16	unsubsidized	unsubsidized	ADJ	_	_	_	_	_	_
+17	domestic	domestic	ADJ	_	_	_	_	_	_
+18	market	market	NOUN	_	_	_	_	_	_
+19	prices	price	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_367
+# text = Trade facilitation reforms standardized documentation requirements, reducing transactional costs for small exporters participating in regional value chains.
+1	Trade	trade	NOUN	_	_	_	_	_	_
+2	facilitation	facilitation	NOUN	_	_	_	_	_	_
+3	reforms	reform	VERB	_	_	_	_	_	_
+4	standardized	standardized	ADJ	_	_	_	_	_	_
+5	documentation	documentation	NOUN	_	_	_	_	_	_
+6	requirements	requirement	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	reducing	reduce	VERB	_	_	_	_	_	_
+9	transactional	transactional	ADJ	_	_	_	_	_	_
+10	costs	cost	NOUN	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	small	small	ADJ	_	_	_	_	_	_
+13	exporters	exporter	NOUN	_	_	_	_	_	_
+14	participating	participate	VERB	_	_	_	_	_	_
+15	in	in	ADP	_	_	_	_	_	_
+16	regional	regional	ADJ	_	_	_	_	_	_
+17	value	value	NOUN	_	_	_	_	_	_
+18	chains	chain	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_368
+# text = The gravity model explained bilateral trade flows using economic size, distance, and institutional affinity variables estimated econometrically.
+1	The	the	DET	_	_	_	_	_	_
+2	gravity	gravity	NOUN	_	_	_	_	_	_
+3	model	model	NOUN	_	_	_	_	_	_
+4	explained	explain	VERB	_	_	_	_	_	_
+5	bilateral	bilateral	ADJ	_	_	_	_	_	_
+6	trade	trade	NOUN	_	_	_	_	_	_
+7	flows	flow	VERB	_	_	_	_	_	_
+8	using	use	VERB	_	_	_	_	_	_
+9	economic	economic	ADJ	_	_	_	_	_	_
+10	size	size	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	distance	distance	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	and	and	CCONJ	_	_	_	_	_	_
+15	institutional	institutional	ADJ	_	_	_	_	_	_
+16	affinity	affinity	NOUN	_	_	_	_	_	_
+17	variables	variable	NOUN	_	_	_	_	_	_
+18	estimated	estimate	VERB	_	_	_	_	_	_
+19	econometrically	econometrically	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_369
+# text = Having diversified suppliers, manufacturers mitigated disruption risks previously concentrated among single - source procurement arrangements during pandemic shortages.
+1	Having	have	AUX	_	_	_	_	_	_
+2	diversified	diversified	ADJ	_	_	_	_	_	_
+3	suppliers	supplier	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	manufacturers	manufacturer	NOUN	_	_	_	_	_	_
+6	mitigated	mitigate	VERB	_	_	_	_	_	_
+7	disruption	disruption	NOUN	_	_	_	_	_	_
+8	risks	risk	NOUN	_	_	_	_	_	_
+9	previously	previously	ADV	_	_	_	_	_	_
+10	concentrated	concentrate	VERB	_	_	_	_	_	_
+11	among	among	ADP	_	_	_	_	_	_
+12	single	single	ADJ	_	_	_	_	_	_
+13	-	-	PUNCT	_	_	_	_	_	_
+14	source	source	NOUN	_	_	_	_	_	_
+15	procurement	procurement	NOUN	_	_	_	_	_	_
+16	arrangements	arrangement	NOUN	_	_	_	_	_	_
+17	during	during	ADP	_	_	_	_	_	_
+18	pandemic	pandemic	NOUN	_	_	_	_	_	_
+19	shortages	shortage	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_370
+# text = The bound tariff commitments limited permissible applied rates, enhancing predictability for exporters navigating multilateral trade negotiation outcomes.
+1	The	the	DET	_	_	_	_	_	_
+2	bound	bind	VERB	_	_	_	_	_	_
+3	tariff	tariff	NOUN	_	_	_	_	_	_
+4	commitments	commitment	NOUN	_	_	_	_	_	_
+5	limited	limit	VERB	_	_	_	_	_	_
+6	permissible	permissible	ADJ	_	_	_	_	_	_
+7	applied	apply	VERB	_	_	_	_	_	_
+8	rates	rate	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	enhancing	enhance	VERB	_	_	_	_	_	_
+11	predictability	predictability	NOUN	_	_	_	_	_	_
+12	for	for	ADP	_	_	_	_	_	_
+13	exporters	exporter	NOUN	_	_	_	_	_	_
+14	navigating	navigate	VERB	_	_	_	_	_	_
+15	multilateral	multilateral	ADJ	_	_	_	_	_	_
+16	trade	trade	NOUN	_	_	_	_	_	_
+17	negotiation	negotiation	NOUN	_	_	_	_	_	_
+18	outcomes	outcome	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_371
+# text = Export restrictions on critical minerals prompted concerns about weaponized interdependence in strategic industries including renewable energy manufacturing.
+1	Export	export	NOUN	_	_	_	_	_	_
+2	restrictions	restriction	NOUN	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	critical	critical	ADJ	_	_	_	_	_	_
+5	minerals	mineral	NOUN	_	_	_	_	_	_
+6	prompted	prompt	VERB	_	_	_	_	_	_
+7	concerns	concern	NOUN	_	_	_	_	_	_
+8	about	about	ADP	_	_	_	_	_	_
+9	weaponized	weaponize	VERB	_	_	_	_	_	_
+10	interdependence	interdependence	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	strategic	strategic	ADJ	_	_	_	_	_	_
+13	industries	industry	NOUN	_	_	_	_	_	_
+14	including	include	ADP	_	_	_	_	_	_
+15	renewable	renewable	ADJ	_	_	_	_	_	_
+16	energy	energy	NOUN	_	_	_	_	_	_
+17	manufacturing	manufacturing	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_372
+# text = The trade creation effect outweighed trade diversion as regional integration redirected commerce toward more efficient intra-bloc specialization patterns.
+1	The	the	DET	_	_	_	_	_	_
+2	trade	trade	NOUN	_	_	_	_	_	_
+3	creation	creation	NOUN	_	_	_	_	_	_
+4	effect	effect	NOUN	_	_	_	_	_	_
+5	outweighed	outweigh	VERB	_	_	_	_	_	_
+6	trade	trade	NOUN	_	_	_	_	_	_
+7	diversion	diversion	NOUN	_	_	_	_	_	_
+8	as	as	SCONJ	_	_	_	_	_	_
+9	regional	regional	ADJ	_	_	_	_	_	_
+10	integration	integration	NOUN	_	_	_	_	_	_
+11	redirected	redirect	VERB	_	_	_	_	_	_
+12	commerce	commerce	NOUN	_	_	_	_	_	_
+13	toward	toward	ADP	_	_	_	_	_	_
+14	more	more	ADV	_	_	_	_	_	_
+15	efficient	efficient	ADJ	_	_	_	_	_	_
+16	intra-bloc	intra-bloc	ADJ	_	_	_	_	_	_
+17	specialization	specialization	NOUN	_	_	_	_	_	_
+18	patterns	pattern	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_373
+# text = Non-tariff barriers including licensing requirements and conformity assessment procedures often impede market entry more than ad valorem duties.
+1	Non-tariff	non-tariff	NOUN	_	_	_	_	_	_
+2	barriers	barrier	NOUN	_	_	_	_	_	_
+3	including	include	ADP	_	_	_	_	_	_
+4	licensing	licensing	NOUN	_	_	_	_	_	_
+5	requirements	requirement	NOUN	_	_	_	_	_	_
+6	and	and	CCONJ	_	_	_	_	_	_
+7	conformity	conformity	NOUN	_	_	_	_	_	_
+8	assessment	assessment	NOUN	_	_	_	_	_	_
+9	procedures	procedure	NOUN	_	_	_	_	_	_
+10	often	often	ADV	_	_	_	_	_	_
+11	impede	impede	VERB	_	_	_	_	_	_
+12	market	market	NOUN	_	_	_	_	_	_
+13	entry	entry	NOUN	_	_	_	_	_	_
+14	more	more	ADJ	_	_	_	_	_	_
+15	than	than	SCONJ	_	_	_	_	_	_
+16	ad	ad	NOUN	_	_	_	_	_	_
+17	valorem	valorem	NOUN	_	_	_	_	_	_
+18	duties	duty	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_374
+# text = The current account adjustment followed improved services exports and remittance inflows offsetting persistent merchandise trade deficits structurally.
+1	The	the	DET	_	_	_	_	_	_
+2	current	current	ADJ	_	_	_	_	_	_
+3	account	account	NOUN	_	_	_	_	_	_
+4	adjustment	adjustment	NOUN	_	_	_	_	_	_
+5	followed	follow	VERB	_	_	_	_	_	_
+6	improved	improve	VERB	_	_	_	_	_	_
+7	services	service	NOUN	_	_	_	_	_	_
+8	exports	export	NOUN	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	remittance	remittance	NOUN	_	_	_	_	_	_
+11	inflows	inflow	NOUN	_	_	_	_	_	_
+12	offsetting	offset	VERB	_	_	_	_	_	_
+13	persistent	persistent	ADJ	_	_	_	_	_	_
+14	merchandise	merchandise	NOUN	_	_	_	_	_	_
+15	trade	trade	NOUN	_	_	_	_	_	_
+16	deficits	deficit	NOUN	_	_	_	_	_	_
+17	structurally	structurally	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_375
+# text = Bilateral swap arrangements provided liquidity during currency crises, stabilizing trade finance availability for importers facing acute dollar shortages.
+1	Bilateral	bilateral	ADJ	_	_	_	_	_	_
+2	swap	swap	NOUN	_	_	_	_	_	_
+3	arrangements	arrangement	NOUN	_	_	_	_	_	_
+4	provided	provide	VERB	_	_	_	_	_	_
+5	liquidity	liquidity	NOUN	_	_	_	_	_	_
+6	during	during	ADP	_	_	_	_	_	_
+7	currency	currency	NOUN	_	_	_	_	_	_
+8	crises	crisis	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	stabilizing	stabilize	VERB	_	_	_	_	_	_
+11	trade	trade	NOUN	_	_	_	_	_	_
+12	finance	finance	NOUN	_	_	_	_	_	_
+13	availability	availability	NOUN	_	_	_	_	_	_
+14	for	for	ADP	_	_	_	_	_	_
+15	importers	importer	NOUN	_	_	_	_	_	_
+16	facing	face	VERB	_	_	_	_	_	_
+17	acute	acute	ADJ	_	_	_	_	_	_
+18	dollar	dollar	NOUN	_	_	_	_	_	_
+19	shortages	shortage	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_376
+# text = The dual - process model distinguishes fast heuristic reasoning from slower analytic deliberation underlying judgment under uncertainty systematically.
+1	The	the	DET	_	_	_	_	_	_
+2	dual	dual	ADJ	_	_	_	_	_	_
+3	-	-	PUNCT	_	_	_	_	_	_
+4	process	process	NOUN	_	_	_	_	_	_
+5	model	model	NOUN	_	_	_	_	_	_
+6	distinguishes	distinguish	VERB	_	_	_	_	_	_
+7	fast	fast	ADJ	_	_	_	_	_	_
+8	heuristic	heuristic	ADJ	_	_	_	_	_	_
+9	reasoning	reasoning	NOUN	_	_	_	_	_	_
+10	from	from	ADP	_	_	_	_	_	_
+11	slower	slow	ADJ	_	_	_	_	_	_
+12	analytic	analytic	ADJ	_	_	_	_	_	_
+13	deliberation	deliberation	NOUN	_	_	_	_	_	_
+14	underlying	underlie	VERB	_	_	_	_	_	_
+15	judgment	judgment	NOUN	_	_	_	_	_	_
+16	under	under	ADP	_	_	_	_	_	_
+17	uncertainty	uncertainty	NOUN	_	_	_	_	_	_
+18	systematically	systematically	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_377
+# text = Although working memory capacity constrains complex problem solving, chunking strategies enable experts to circumvent apparent cognitive limitations effectively.
+1	Although	although	SCONJ	_	_	_	_	_	_
+2	working	work	VERB	_	_	_	_	_	_
+3	memory	memory	NOUN	_	_	_	_	_	_
+4	capacity	capacity	NOUN	_	_	_	_	_	_
+5	constrains	constrain	VERB	_	_	_	_	_	_
+6	complex	complex	ADJ	_	_	_	_	_	_
+7	problem	problem	NOUN	_	_	_	_	_	_
+8	solving	solving	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	chunking	chunking	NOUN	_	_	_	_	_	_
+11	strategies	strategy	NOUN	_	_	_	_	_	_
+12	enable	enable	VERB	_	_	_	_	_	_
+13	experts	expert	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	circumvent	circumvent	VERB	_	_	_	_	_	_
+16	apparent	apparent	ADJ	_	_	_	_	_	_
+17	cognitive	cognitive	ADJ	_	_	_	_	_	_
+18	limitations	limitation	NOUN	_	_	_	_	_	_
+19	effectively	effectively	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_378
+# text = Event related potential studies identified neural signatures of semantic incongruity within several hundred milliseconds post stimulus presentation.
+1	Event	event	NOUN	_	_	_	_	_	_
+2	related	related	ADJ	_	_	_	_	_	_
+3	potential	potential	ADJ	_	_	_	_	_	_
+4	studies	study	NOUN	_	_	_	_	_	_
+5	identified	identify	VERB	_	_	_	_	_	_
+6	neural	neural	ADJ	_	_	_	_	_	_
+7	signatures	signature	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	semantic	semantic	ADJ	_	_	_	_	_	_
+10	incongruity	incongruity	NOUN	_	_	_	_	_	_
+11	within	within	ADP	_	_	_	_	_	_
+12	several	several	ADJ	_	_	_	_	_	_
+13	hundred	hundred	NUM	_	_	_	_	_	_
+14	milliseconds	millisecond	NOUN	_	_	_	_	_	_
+15	post	post	ADP	_	_	_	_	_	_
+16	stimulus	stimulus	NOUN	_	_	_	_	_	_
+17	presentation	presentation	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_379
+# text = Embodied cognition theories emphasize sensorimotor interaction with environments rather than abstract symbol manipulation alone during conceptual processing.
+1	Embodied	embody	VERB	_	_	_	_	_	_
+2	cognition	cognition	NOUN	_	_	_	_	_	_
+3	theories	theory	NOUN	_	_	_	_	_	_
+4	emphasize	emphasize	VERB	_	_	_	_	_	_
+5	sensorimotor	sensorimotor	NOUN	_	_	_	_	_	_
+6	interaction	interaction	NOUN	_	_	_	_	_	_
+7	with	with	ADP	_	_	_	_	_	_
+8	environments	environment	NOUN	_	_	_	_	_	_
+9	rather	rather	ADV	_	_	_	_	_	_
+10	than	than	SCONJ	_	_	_	_	_	_
+11	abstract	abstract	ADJ	_	_	_	_	_	_
+12	symbol	symbol	NOUN	_	_	_	_	_	_
+13	manipulation	manipulation	NOUN	_	_	_	_	_	_
+14	alone	alone	ADV	_	_	_	_	_	_
+15	during	during	ADP	_	_	_	_	_	_
+16	conceptual	conceptual	ADJ	_	_	_	_	_	_
+17	processing	processing	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_380
+# text = The Stroop task demonstrated automaticity of reading processes that interfere selectively with color naming responses under conflicting conditions.
+1	The	the	DET	_	_	_	_	_	_
+2	Stroop	Stroop	PROPN	_	_	_	_	_	_
+3	task	task	NOUN	_	_	_	_	_	_
+4	demonstrated	demonstrate	VERB	_	_	_	_	_	_
+5	automaticity	automaticity	NOUN	_	_	_	_	_	_
+6	of	of	ADP	_	_	_	_	_	_
+7	reading	reading	NOUN	_	_	_	_	_	_
+8	processes	process	NOUN	_	_	_	_	_	_
+9	that	that	SCONJ	_	_	_	_	_	_
+10	interfere	interfere	VERB	_	_	_	_	_	_
+11	selectively	selectively	ADV	_	_	_	_	_	_
+12	with	with	ADP	_	_	_	_	_	_
+13	color	color	NOUN	_	_	_	_	_	_
+14	naming	naming	NOUN	_	_	_	_	_	_
+15	responses	response	NOUN	_	_	_	_	_	_
+16	under	under	ADP	_	_	_	_	_	_
+17	conflicting	conflict	VERB	_	_	_	_	_	_
+18	conditions	condition	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_381
+# text = It is widely accepted that predictive coding frameworks minimize surprise by updating internal models through hierarchical Bayesian inference mechanisms.
+1	It	it	PRON	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	widely	widely	ADV	_	_	_	_	_	_
+4	accepted	accept	VERB	_	_	_	_	_	_
+5	that	that	SCONJ	_	_	_	_	_	_
+6	predictive	predictive	ADJ	_	_	_	_	_	_
+7	coding	coding	NOUN	_	_	_	_	_	_
+8	frameworks	framework	NOUN	_	_	_	_	_	_
+9	minimize	minimize	VERB	_	_	_	_	_	_
+10	surprise	surprise	NOUN	_	_	_	_	_	_
+11	by	by	ADP	_	_	_	_	_	_
+12	updating	update	VERB	_	_	_	_	_	_
+13	internal	internal	ADJ	_	_	_	_	_	_
+14	models	model	NOUN	_	_	_	_	_	_
+15	through	through	ADP	_	_	_	_	_	_
+16	hierarchical	hierarchical	ADJ	_	_	_	_	_	_
+17	Bayesian	Bayesian	ADJ	_	_	_	_	_	_
+18	inference	inference	NOUN	_	_	_	_	_	_
+19	mechanisms	mechanism	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_382
+# text = Longitudinal studies traced shifts from egocentric perspective taking toward mature theory of mind capacities across early childhood.
+1	Longitudinal	longitudinal	ADJ	_	_	_	_	_	_
+2	studies	study	NOUN	_	_	_	_	_	_
+3	traced	trace	VERB	_	_	_	_	_	_
+4	shifts	shift	NOUN	_	_	_	_	_	_
+5	from	from	ADP	_	_	_	_	_	_
+6	egocentric	egocentric	ADJ	_	_	_	_	_	_
+7	perspective	perspective	NOUN	_	_	_	_	_	_
+8	taking	take	VERB	_	_	_	_	_	_
+9	toward	toward	ADP	_	_	_	_	_	_
+10	mature	mature	ADJ	_	_	_	_	_	_
+11	theory	theory	NOUN	_	_	_	_	_	_
+12	of	of	ADP	_	_	_	_	_	_
+13	mind	mind	NOUN	_	_	_	_	_	_
+14	capacities	capacity	NOUN	_	_	_	_	_	_
+15	across	across	ADP	_	_	_	_	_	_
+16	early	early	ADJ	_	_	_	_	_	_
+17	childhood	childhood	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_383
+# text = Having controlled attentional load, researchers isolated priming effects attributable to implicit memory rather than conscious strategic processing.
+1	Having	have	AUX	_	_	_	_	_	_
+2	controlled	control	VERB	_	_	_	_	_	_
+3	attentional	attentional	ADJ	_	_	_	_	_	_
+4	load	load	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	researchers	researcher	NOUN	_	_	_	_	_	_
+7	isolated	isolate	VERB	_	_	_	_	_	_
+8	priming	priming	NOUN	_	_	_	_	_	_
+9	effects	effect	NOUN	_	_	_	_	_	_
+10	attributable	attributable	ADJ	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	implicit	implicit	ADJ	_	_	_	_	_	_
+13	memory	memory	NOUN	_	_	_	_	_	_
+14	rather	rather	ADV	_	_	_	_	_	_
+15	than	than	SCONJ	_	_	_	_	_	_
+16	conscious	conscious	ADJ	_	_	_	_	_	_
+17	strategic	strategic	ADJ	_	_	_	_	_	_
+18	processing	processing	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_384
+# text = Neuroimaging evidence implicated prefrontal cortex in executive control functions mediating conflict monitoring and behavioral inhibition during tasks.
+1	Neuroimaging	neuroimaging	NOUN	_	_	_	_	_	_
+2	evidence	evidence	NOUN	_	_	_	_	_	_
+3	implicated	implicate	VERB	_	_	_	_	_	_
+4	prefrontal	prefrontal	ADJ	_	_	_	_	_	_
+5	cortex	cortex	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	executive	executive	ADJ	_	_	_	_	_	_
+8	control	control	NOUN	_	_	_	_	_	_
+9	functions	function	NOUN	_	_	_	_	_	_
+10	mediating	mediat	VERB	_	_	_	_	_	_
+11	conflict	conflict	NOUN	_	_	_	_	_	_
+12	monitoring	monitoring	NOUN	_	_	_	_	_	_
+13	and	and	CCONJ	_	_	_	_	_	_
+14	behavioral	behavioral	ADJ	_	_	_	_	_	_
+15	inhibition	inhibition	NOUN	_	_	_	_	_	_
+16	during	during	ADP	_	_	_	_	_	_
+17	tasks	task	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_385
+# text = The illusion of control persists because confirmation bias selectively reinforces beliefs that personal agency influenced random outcome events.
+1	The	the	DET	_	_	_	_	_	_
+2	illusion	illusion	NOUN	_	_	_	_	_	_
+3	of	of	ADP	_	_	_	_	_	_
+4	control	control	NOUN	_	_	_	_	_	_
+5	persists	persist	VERB	_	_	_	_	_	_
+6	because	because	SCONJ	_	_	_	_	_	_
+7	confirmation	confirmation	NOUN	_	_	_	_	_	_
+8	bias	bias	NOUN	_	_	_	_	_	_
+9	selectively	selectively	ADV	_	_	_	_	_	_
+10	reinforces	reinforce	VERB	_	_	_	_	_	_
+11	beliefs	belief	NOUN	_	_	_	_	_	_
+12	that	that	SCONJ	_	_	_	_	_	_
+13	personal	personal	ADJ	_	_	_	_	_	_
+14	agency	agency	NOUN	_	_	_	_	_	_
+15	influenced	influence	VERB	_	_	_	_	_	_
+16	random	random	ADJ	_	_	_	_	_	_
+17	outcome	outcome	NOUN	_	_	_	_	_	_
+18	events	event	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_386
+# text = Notwithstanding behavioral parallels, computational models debated whether neural implementations resemble symbolic production systems or distributed connectionist architectures.
+1	Notwithstanding	notwithstanding	ADP	_	_	_	_	_	_
+2	behavioral	behavioral	ADJ	_	_	_	_	_	_
+3	parallels	parallel	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	computational	computational	ADJ	_	_	_	_	_	_
+6	models	model	NOUN	_	_	_	_	_	_
+7	debated	debate	VERB	_	_	_	_	_	_
+8	whether	whether	SCONJ	_	_	_	_	_	_
+9	neural	neural	ADJ	_	_	_	_	_	_
+10	implementations	implementation	NOUN	_	_	_	_	_	_
+11	resemble	resemble	VERB	_	_	_	_	_	_
+12	symbolic	symbolic	ADJ	_	_	_	_	_	_
+13	production	production	NOUN	_	_	_	_	_	_
+14	systems	system	NOUN	_	_	_	_	_	_
+15	or	or	CCONJ	_	_	_	_	_	_
+16	distributed	distribute	VERB	_	_	_	_	_	_
+17	connectionist	connectionist	ADJ	_	_	_	_	_	_
+18	architectures	architecture	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_387
+# text = The attentional blink paradigm revealed temporal limitations preventing conscious perception of second targets presented shortly after first identification.
+1	The	the	DET	_	_	_	_	_	_
+2	attentional	attentional	ADJ	_	_	_	_	_	_
+3	blink	blink	NOUN	_	_	_	_	_	_
+4	paradigm	paradigm	NOUN	_	_	_	_	_	_
+5	revealed	reveal	VERB	_	_	_	_	_	_
+6	temporal	temporal	ADJ	_	_	_	_	_	_
+7	limitations	limitation	NOUN	_	_	_	_	_	_
+8	preventing	prevent	VERB	_	_	_	_	_	_
+9	conscious	conscious	ADJ	_	_	_	_	_	_
+10	perception	perception	NOUN	_	_	_	_	_	_
+11	of	of	ADP	_	_	_	_	_	_
+12	second	second	ADJ	_	_	_	_	_	_
+13	targets	target	NOUN	_	_	_	_	_	_
+14	presented	present	VERB	_	_	_	_	_	_
+15	shortly	shortly	ADV	_	_	_	_	_	_
+16	after	after	ADP	_	_	_	_	_	_
+17	first	first	ADJ	_	_	_	_	_	_
+18	identification	identification	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_388
+# text = Metacognitive monitoring enables learners to calibrate confidence judgments, improving study allocation decisions when accuracy feedback remains unavailable.
+1	Metacognitive	metacognitive	ADJ	_	_	_	_	_	_
+2	monitoring	monitoring	NOUN	_	_	_	_	_	_
+3	enables	enable	VERB	_	_	_	_	_	_
+4	learners	learner	NOUN	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	calibrate	calibrate	VERB	_	_	_	_	_	_
+7	confidence	confidence	NOUN	_	_	_	_	_	_
+8	judgments	judgment	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	improving	improve	VERB	_	_	_	_	_	_
+11	study	study	NOUN	_	_	_	_	_	_
+12	allocation	allocation	NOUN	_	_	_	_	_	_
+13	decisions	decision	NOUN	_	_	_	_	_	_
+14	when	when	SCONJ	_	_	_	_	_	_
+15	accuracy	accuracy	NOUN	_	_	_	_	_	_
+16	feedback	feedback	NOUN	_	_	_	_	_	_
+17	remains	remain	VERB	_	_	_	_	_	_
+18	unavailable	unavailable	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_389
+# text = The prototype theory explains categorization gradedness through similarity to central exemplars rather than necessary and sufficient definitional features.
+1	The	the	DET	_	_	_	_	_	_
+2	prototype	prototype	NOUN	_	_	_	_	_	_
+3	theory	theory	NOUN	_	_	_	_	_	_
+4	explains	explain	VERB	_	_	_	_	_	_
+5	categorization	categorization	NOUN	_	_	_	_	_	_
+6	gradedness	gradedness	NOUN	_	_	_	_	_	_
+7	through	through	ADP	_	_	_	_	_	_
+8	similarity	similarity	NOUN	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	central	central	ADJ	_	_	_	_	_	_
+11	exemplars	exemplar	NOUN	_	_	_	_	_	_
+12	rather	rather	ADV	_	_	_	_	_	_
+13	than	than	SCONJ	_	_	_	_	_	_
+14	necessary	necessary	ADJ	_	_	_	_	_	_
+15	and	and	CCONJ	_	_	_	_	_	_
+16	sufficient	sufficient	ADJ	_	_	_	_	_	_
+17	definitional	definitional	ADJ	_	_	_	_	_	_
+18	features	feature	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_390
+# text = Cross-linguistic studies examined whether linguistic relativity shapes color discrimination thresholds across communities using differing basic color terminologies.
+1	Cross-linguistic	cross-linguistic	ADJ	_	_	_	_	_	_
+2	studies	study	NOUN	_	_	_	_	_	_
+3	examined	examine	VERB	_	_	_	_	_	_
+4	whether	whether	SCONJ	_	_	_	_	_	_
+5	linguistic	linguistic	ADJ	_	_	_	_	_	_
+6	relativity	relativity	NOUN	_	_	_	_	_	_
+7	shapes	shape	VERB	_	_	_	_	_	_
+8	color	color	NOUN	_	_	_	_	_	_
+9	discrimination	discrimination	NOUN	_	_	_	_	_	_
+10	thresholds	threshold	NOUN	_	_	_	_	_	_
+11	across	across	ADP	_	_	_	_	_	_
+12	communities	community	NOUN	_	_	_	_	_	_
+13	using	use	VERB	_	_	_	_	_	_
+14	differing	differ	VERB	_	_	_	_	_	_
+15	basic	basic	ADJ	_	_	_	_	_	_
+16	color	color	NOUN	_	_	_	_	_	_
+17	terminologies	terminology	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_391
+# text = The change blindness phenomenon illustrates limited capacity for detecting substantial visual alterations when attention remains focally allocated elsewhere.
+1	The	the	DET	_	_	_	_	_	_
+2	change	change	NOUN	_	_	_	_	_	_
+3	blindness	blindness	NOUN	_	_	_	_	_	_
+4	phenomenon	phenomenon	NOUN	_	_	_	_	_	_
+5	illustrates	illustrate	VERB	_	_	_	_	_	_
+6	limited	limited	ADJ	_	_	_	_	_	_
+7	capacity	capacity	NOUN	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	detecting	detect	VERB	_	_	_	_	_	_
+10	substantial	substantial	ADJ	_	_	_	_	_	_
+11	visual	visual	ADJ	_	_	_	_	_	_
+12	alterations	alteration	NOUN	_	_	_	_	_	_
+13	when	when	SCONJ	_	_	_	_	_	_
+14	attention	attention	NOUN	_	_	_	_	_	_
+15	remains	remain	VERB	_	_	_	_	_	_
+16	focally	focally	ADV	_	_	_	_	_	_
+17	allocated	allocate	VERB	_	_	_	_	_	_
+18	elsewhere	elsewhere	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_392
+# text = Having manipulated reward schedules, the experiment tested whether dopaminergic signals encoded prediction errors rather than reward receipt directly.
+1	Having	have	AUX	_	_	_	_	_	_
+2	manipulated	manipulate	VERB	_	_	_	_	_	_
+3	reward	reward	NOUN	_	_	_	_	_	_
+4	schedules	schedule	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	experiment	experiment	NOUN	_	_	_	_	_	_
+8	tested	test	VERB	_	_	_	_	_	_
+9	whether	whether	SCONJ	_	_	_	_	_	_
+10	dopaminergic	dopaminergic	ADJ	_	_	_	_	_	_
+11	signals	signal	NOUN	_	_	_	_	_	_
+12	encoded	encode	VERB	_	_	_	_	_	_
+13	prediction	prediction	NOUN	_	_	_	_	_	_
+14	errors	error	NOUN	_	_	_	_	_	_
+15	rather	rather	ADV	_	_	_	_	_	_
+16	than	than	SCONJ	_	_	_	_	_	_
+17	reward	reward	NOUN	_	_	_	_	_	_
+18	receipt	receipt	NOUN	_	_	_	_	_	_
+19	directly	directly	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_393
+# text = The framing effect demonstrates reference dependence whereby equivalent outcomes elicit divergent choices depending on descriptive presentation format.
+1	The	the	DET	_	_	_	_	_	_
+2	framing	framing	NOUN	_	_	_	_	_	_
+3	effect	effect	NOUN	_	_	_	_	_	_
+4	demonstrates	demonstrate	VERB	_	_	_	_	_	_
+5	reference	reference	NOUN	_	_	_	_	_	_
+6	dependence	dependence	NOUN	_	_	_	_	_	_
+7	whereby	whereby	SCONJ	_	_	_	_	_	_
+8	equivalent	equivalent	ADJ	_	_	_	_	_	_
+9	outcomes	outcome	NOUN	_	_	_	_	_	_
+10	elicit	elicit	VERB	_	_	_	_	_	_
+11	divergent	divergent	ADJ	_	_	_	_	_	_
+12	choices	choice	NOUN	_	_	_	_	_	_
+13	depending	depend	VERB	_	_	_	_	_	_
+14	on	on	ADP	_	_	_	_	_	_
+15	descriptive	descriptive	ADJ	_	_	_	_	_	_
+16	presentation	presentation	NOUN	_	_	_	_	_	_
+17	format	format	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_394
+# text = Cognitive load theory distinguishes intrinsic, extraneous, and germane loads affecting learning efficiency in instructional design environments pedagogically.
+1	Cognitive	cognitive	ADJ	_	_	_	_	_	_
+2	load	load	NOUN	_	_	_	_	_	_
+3	theory	theory	NOUN	_	_	_	_	_	_
+4	distinguishes	distinguish	VERB	_	_	_	_	_	_
+5	intrinsic	intrinsic	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	extraneous	extraneous	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	germane	germane	ADJ	_	_	_	_	_	_
+11	loads	load	NOUN	_	_	_	_	_	_
+12	affecting	affect	VERB	_	_	_	_	_	_
+13	learning	learning	NOUN	_	_	_	_	_	_
+14	efficiency	efficiency	NOUN	_	_	_	_	_	_
+15	in	in	ADP	_	_	_	_	_	_
+16	instructional	instructional	ADJ	_	_	_	_	_	_
+17	design	design	NOUN	_	_	_	_	_	_
+18	environments	environment	NOUN	_	_	_	_	_	_
+19	pedagogically	pedagogically	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_395
+# text = The mental rotation task provided evidence for spatial representation formats supporting analog transformation processes rather than purely propositional encodings.
+1	The	the	DET	_	_	_	_	_	_
+2	mental	mental	ADJ	_	_	_	_	_	_
+3	rotation	rotation	NOUN	_	_	_	_	_	_
+4	task	task	NOUN	_	_	_	_	_	_
+5	provided	provide	VERB	_	_	_	_	_	_
+6	evidence	evidence	NOUN	_	_	_	_	_	_
+7	for	for	ADP	_	_	_	_	_	_
+8	spatial	spatial	ADJ	_	_	_	_	_	_
+9	representation	representation	NOUN	_	_	_	_	_	_
+10	formats	format	NOUN	_	_	_	_	_	_
+11	supporting	support	VERB	_	_	_	_	_	_
+12	analog	analog	NOUN	_	_	_	_	_	_
+13	transformation	transformation	NOUN	_	_	_	_	_	_
+14	processes	process	NOUN	_	_	_	_	_	_
+15	rather	rather	ADV	_	_	_	_	_	_
+16	than	than	SCONJ	_	_	_	_	_	_
+17	purely	purely	ADV	_	_	_	_	_	_
+18	propositional	propositional	ADJ	_	_	_	_	_	_
+19	encodings	encoding	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_396
+# text = Sleep dependent memory consolidation strengthens hippocampal neocortical interactions integrating episodic details into semantic knowledge structures.
+1	Sleep	sleep	NOUN	_	_	_	_	_	_
+2	dependent	dependent	ADJ	_	_	_	_	_	_
+3	memory	memory	NOUN	_	_	_	_	_	_
+4	consolidation	consolidation	NOUN	_	_	_	_	_	_
+5	strengthens	strengthen	VERB	_	_	_	_	_	_
+6	hippocampal	hippocampal	ADJ	_	_	_	_	_	_
+7	neocortical	neocortical	ADJ	_	_	_	_	_	_
+8	interactions	interaction	NOUN	_	_	_	_	_	_
+9	integrating	integrate	VERB	_	_	_	_	_	_
+10	episodic	episodic	ADJ	_	_	_	_	_	_
+11	details	detail	NOUN	_	_	_	_	_	_
+12	into	into	ADP	_	_	_	_	_	_
+13	semantic	semantic	ADJ	_	_	_	_	_	_
+14	knowledge	knowledge	NOUN	_	_	_	_	_	_
+15	structures	structure	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_397
+# text = The cocktail party effect shows selective attention can amplify attended speech streams while suppressing irrelevant background auditory input channels.
+1	The	the	DET	_	_	_	_	_	_
+2	cocktail	cocktail	NOUN	_	_	_	_	_	_
+3	party	party	NOUN	_	_	_	_	_	_
+4	effect	effect	NOUN	_	_	_	_	_	_
+5	shows	show	VERB	_	_	_	_	_	_
+6	selective	selective	ADJ	_	_	_	_	_	_
+7	attention	attention	NOUN	_	_	_	_	_	_
+8	can	can	AUX	_	_	_	_	_	_
+9	amplify	amplify	VERB	_	_	_	_	_	_
+10	attended	attend	VERB	_	_	_	_	_	_
+11	speech	speech	NOUN	_	_	_	_	_	_
+12	streams	stream	NOUN	_	_	_	_	_	_
+13	while	while	SCONJ	_	_	_	_	_	_
+14	suppressing	suppre	VERB	_	_	_	_	_	_
+15	irrelevant	irrelevant	ADJ	_	_	_	_	_	_
+16	background	background	NOUN	_	_	_	_	_	_
+17	auditory	auditory	ADJ	_	_	_	_	_	_
+18	input	input	NOUN	_	_	_	_	_	_
+19	channels	channel	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_398
+# text = Situated cognition research investigates how tools and environmental affordances extend problem solving capacities beyond isolated individual minds.
+1	Situated	situate	VERB	_	_	_	_	_	_
+2	cognition	cognition	NOUN	_	_	_	_	_	_
+3	research	research	NOUN	_	_	_	_	_	_
+4	investigates	investigate	VERB	_	_	_	_	_	_
+5	how	how	ADV	_	_	_	_	_	_
+6	tools	tool	NOUN	_	_	_	_	_	_
+7	and	and	CCONJ	_	_	_	_	_	_
+8	environmental	environmental	ADJ	_	_	_	_	_	_
+9	affordances	affordance	NOUN	_	_	_	_	_	_
+10	extend	extend	VERB	_	_	_	_	_	_
+11	problem	problem	NOUN	_	_	_	_	_	_
+12	solving	solving	NOUN	_	_	_	_	_	_
+13	capacities	capacity	NOUN	_	_	_	_	_	_
+14	beyond	beyond	ADP	_	_	_	_	_	_
+15	isolated	isolate	VERB	_	_	_	_	_	_
+16	individual	individual	ADJ	_	_	_	_	_	_
+17	minds	mind	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_399
+# text = The anchoring heuristic skews numerical estimates toward initially presented values even when participants recognize those anchors as arbitrary.
+1	The	the	DET	_	_	_	_	_	_
+2	anchoring	anchoring	NOUN	_	_	_	_	_	_
+3	heuristic	heuristic	NOUN	_	_	_	_	_	_
+4	skews	skew	VERB	_	_	_	_	_	_
+5	numerical	numerical	ADJ	_	_	_	_	_	_
+6	estimates	estimate	NOUN	_	_	_	_	_	_
+7	toward	toward	ADP	_	_	_	_	_	_
+8	initially	initially	ADV	_	_	_	_	_	_
+9	presented	present	VERB	_	_	_	_	_	_
+10	values	value	NOUN	_	_	_	_	_	_
+11	even	even	ADV	_	_	_	_	_	_
+12	when	when	SCONJ	_	_	_	_	_	_
+13	participants	participant	NOUN	_	_	_	_	_	_
+14	recognize	recognize	VERB	_	_	_	_	_	_
+15	those	that	DET	_	_	_	_	_	_
+16	anchors	anchor	NOUN	_	_	_	_	_	_
+17	as	as	SCONJ	_	_	_	_	_	_
+18	arbitrary	arbitrary	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_c1_train_400
+# text = Neuroplasticity findings suggest intensive training regimes can reallocate cortical representation maps following sensory deprivation or skill acquisition extensively.
+1	Neuroplasticity	neuroplasticity	NOUN	_	_	_	_	_	_
+2	findings	finding	NOUN	_	_	_	_	_	_
+3	suggest	suggest	VERB	_	_	_	_	_	_
+4	intensive	intensive	ADJ	_	_	_	_	_	_
+5	training	training	NOUN	_	_	_	_	_	_
+6	regimes	regime	NOUN	_	_	_	_	_	_
+7	can	can	AUX	_	_	_	_	_	_
+8	reallocate	reallocate	VERB	_	_	_	_	_	_
+9	cortical	cortical	ADJ	_	_	_	_	_	_
+10	representation	representation	NOUN	_	_	_	_	_	_
+11	maps	map	NOUN	_	_	_	_	_	_
+12	following	follow	ADP	_	_	_	_	_	_
+13	sensory	sensory	ADJ	_	_	_	_	_	_
+14	deprivation	deprivation	NOUN	_	_	_	_	_	_
+15	or	or	CCONJ	_	_	_	_	_	_
+16	skill	skill	NOUN	_	_	_	_	_	_
+17	acquisition	acquisition	NOUN	_	_	_	_	_	_
+18	extensively	extensively	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+

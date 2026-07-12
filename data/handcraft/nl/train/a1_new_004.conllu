@@ -1,0 +1,1572 @@
+# sent_id = nl_a1_train_601
+# text = Ik woon in een dorp.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	dorp	dorp	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_602
+# text = Hij woont in Utrecht.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Utrecht	Utrecht	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_603
+# text = Jullie drinken bier.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	drinken	drinken	VERB	_	_	_	_	_	_
+3	bier	bier	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_604
+# text = Jij woont in Parijs.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Parijs	Parijs	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_605
+# text = Alles is goed met mij.
+1	Alles	alles	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	goed	goed	ADJ	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	mij	mij	PRON	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_606
+# text = Wij zien een e-mail.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	zien	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	e-mail	e-mail	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_607
+# text = Spreekt u Engels?
+1	Spreekt	spreken	VERB	_	_	_	_	_	_
+2	u	u	PRON	_	_	_	_	_	_
+3	Engels	Engels	PROPN	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_608
+# text = Ik ga naar Amsterdam.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ga	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_609
+# text = U woont in Utrecht.
+1	U	u	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Utrecht	Utrecht	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_610
+# text = Wij schrijven een pen.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	schrijven	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	pen	pen	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_611
+# text = Zij gaat naar Parijs.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Parijs	Parijs	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_612
+# text = Jullie schrijven een film.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	schrijven	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_613
+# text = Jij woont in Berlijn.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Berlijn	Berlijn	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_614
+# text = Jij eet groente.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	groente	groente	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_615
+# text = U leest een lied.
+1	U	u	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	lied	lied	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_616
+# text = Ik wil sap.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	wil	willen	VERB	_	_	_	_	_	_
+3	sap	sap	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_617
+# text = Jij eet een sinaasappel.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	sinaasappel	sinaasappel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_618
+# text = Zij gaat naar Londen.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Londen	Londen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_619
+# text = Wij eten een appel.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	appel	appel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_620
+# text = Wij komen uit Polen.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	komen	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Polen	Polen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_621
+# text = Zij eet een appel.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	appel	appel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_622
+# text = Jullie komen uit Duitsland.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	komen	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Duitsland	Duitsland	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_623
+# text = Zij drinkt koffie.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	koffie	koffie	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_624
+# text = U leest een tas.
+1	U	u	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tas	tas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_625
+# text = U eet groente.
+1	U	u	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	groente	groente	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_626
+# text = De rekening, alstublieft.
+1	De	de	DET	_	_	_	_	_	_
+2	rekening	rekening	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	alstublieft	alstublieft	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_627
+# text = Ik schrijf een tas.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	schrijf	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tas	tas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_628
+# text = Wij drinken sap.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	drinken	drinken	VERB	_	_	_	_	_	_
+3	sap	sap	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_629
+# text = Is de supermarkt dicht?
+1	Is	zijn	AUX	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	supermarkt	supermarkt	NOUN	_	_	_	_	_	_
+4	dicht	dicht	ADJ	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_630
+# text = Jij woont in Antwerpen.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Antwerpen	Antwerpen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_631
+# text = Ik woon in Arnhem.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Arnhem	Arnhem	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_632
+# text = Jullie schrijven een tas.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	schrijven	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tas	tas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_633
+# text = Het brood is lekker.
+1	Het	het	DET	_	_	_	_	_	_
+2	brood	brood	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	lekker	lekker	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_634
+# text = Wij drinken bier.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	drinken	drinken	VERB	_	_	_	_	_	_
+3	bier	bier	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_635
+# text = Ik schrijf een pen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	schrijf	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	pen	pen	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_636
+# text = Zij woont in Rotterdam.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Rotterdam	Rotterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_637
+# text = Hij woont in Londen.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Londen	Londen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_638
+# text = De leraar is streng.
+1	De	de	DET	_	_	_	_	_	_
+2	leraar	leraar	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	streng	streng	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_639
+# text = Zijn vader is dokter.
+1	Zijn	zijn	AUX	_	_	_	_	_	_
+2	vader	vader	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	dokter	dokter	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_640
+# text = Ik drink frisdrank.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	drink	drinken	VERB	_	_	_	_	_	_
+3	frisdrank	frisdrank	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_641
+# text = Ik lees een pen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	lees	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	pen	pen	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_642
+# text = Ik woon in Antwerpen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Antwerpen	Antwerpen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_643
+# text = Jij komt uit Engeland.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	komt	aankomen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Engeland	Engeland	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_644
+# text = Hij ziet een brief.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	brief	brief	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_645
+# text = Ik ben er klaar voor.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ben	zijn	AUX	_	_	_	_	_	_
+3	er	er	ADV	_	_	_	_	_	_
+4	klaar	klaar	ADJ	_	_	_	_	_	_
+5	voor	voor	ADP	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_646
+# text = Jij leest een brief.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	brief	brief	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_647
+# text = De tuin is groen.
+1	De	de	DET	_	_	_	_	_	_
+2	tuin	tuin	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	groen	groen	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_648
+# text = Ik zoek mijn paspoort.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zoek	zoeken	VERB	_	_	_	_	_	_
+3	mijn	mijn	PRON	_	_	_	_	_	_
+4	paspoort	paspoort	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_649
+# text = Hij eet groente.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	groente	groente	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_650
+# text = Zij schrijft een sleutel.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	schrijft	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	sleutel	sleutel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_651
+# text = Zij eet groente.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	groente	groente	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_652
+# text = Wij drinken wijn.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	drinken	drinken	VERB	_	_	_	_	_	_
+3	wijn	wijn	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_653
+# text = Is het brood lekker?
+1	Is	zijn	AUX	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	brood	brood	NOUN	_	_	_	_	_	_
+4	lekker	lekker	ADJ	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_654
+# text = Ik schrijf een tekening.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	schrijf	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tekening	tekening	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_655
+# text = Hij wilt sap.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	wilt	willen	VERB	_	_	_	_	_	_
+3	sap	sap	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_656
+# text = De lerares is lief.
+1	De	de	DET	_	_	_	_	_	_
+2	lerares	lerares	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	lief	lief	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_657
+# text = Is het huis groot?
+1	Is	zijn	AUX	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	huis	huis	NOUN	_	_	_	_	_	_
+4	groot	groot	ADJ	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_658
+# text = Hij wilt koffie.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	wilt	willen	VERB	_	_	_	_	_	_
+3	koffie	koffie	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_659
+# text = Hij schrijft een film.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	schrijft	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_660
+# text = Waar kom je vandaan?
+1	Waar	waar	ADV	_	_	_	_	_	_
+2	kom	komen	VERB	_	_	_	_	_	_
+3	je	je	PRON	_	_	_	_	_	_
+4	vandaan	vandaan	ADP	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_661
+# text = U ziet een auto.
+1	U	u	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	auto	auto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_662
+# text = Jullie willen bier.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	willen	willen	VERB	_	_	_	_	_	_
+3	bier	bier	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_663
+# text = Waar is mijn pen?
+1	Waar	waar	ADV	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	mijn	mijn	PRON	_	_	_	_	_	_
+4	pen	pen	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_664
+# text = Jullie eten soep.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	soep	soep	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_665
+# text = Wij eten soep.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	soep	soep	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_666
+# text = Hij eet een peer.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	peer	peer	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_667
+# text = Wie is dat meisje?
+1	Wie	wie	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	dat	dat	DET	_	_	_	_	_	_
+4	meisje	meisje	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_668
+# text = U eet een ijsje.
+1	U	u	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	ijsje	ijs	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_669
+# text = Ik woon in Leiden.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Leiden	Leiden	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_670
+# text = U schrijft een jas.
+1	U	u	PRON	_	_	_	_	_	_
+2	schrijft	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	jas	jas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_671
+# text = Ik zie een auto.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zie	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	auto	auto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_672
+# text = Ik lees een tas.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	lees	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tas	tas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_673
+# text = De wc is boven.
+1	De	de	DET	_	_	_	_	_	_
+2	wc	wc	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	boven	boven	ADP	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_674
+# text = Hij gaat naar Utrecht.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Utrecht	Utrecht	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_675
+# text = Zij woont in Delft.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Delft	Delft	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_676
+# text = Hij leest een foto.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_677
+# text = Jullie eten een peer.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	peer	peer	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_678
+# text = Jullie komen uit Frankrijk.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	komen	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Frankrijk	Frankrijk	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_679
+# text = U gaat naar Parijs.
+1	U	u	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Parijs	Parijs	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_680
+# text = De trein heeft vertraging.
+1	De	de	DET	_	_	_	_	_	_
+2	trein	trein	NOUN	_	_	_	_	_	_
+3	heeft	hebben	AUX	_	_	_	_	_	_
+4	vertraging	vertraging	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_681
+# text = Jullie drinken water.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	drinken	drinken	VERB	_	_	_	_	_	_
+3	water	water	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_682
+# text = Hij leest een jas.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	jas	jas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_683
+# text = Welke dag is het vandaag?
+1	Welke	welk	DET	_	_	_	_	_	_
+2	dag	dag	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	het	het	PRON	_	_	_	_	_	_
+5	vandaag	vandaag	ADV	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_684
+# text = Wij wonen in Utrecht.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Utrecht	Utrecht	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_685
+# text = U ziet een foto.
+1	U	u	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_686
+# text = Jullie eten vis.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	vis	vis	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_687
+# text = Jij eet een banaan.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	banaan	banaan	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_688
+# text = Jullie eten een koekje.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	koekje	koek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_689
+# text = Jij gaat naar Amsterdam.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_690
+# text = Wij zien een lied.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	zien	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	lied	lied	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_691
+# text = Ik ga naar Groningen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ga	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Groningen	Groningen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_692
+# text = Jullie wonen in Groningen.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Groningen	Groningen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_693
+# text = Hij komt uit Amerika.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	komt	aankomen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Amerika	Amerika	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_694
+# text = Ik speel graag voetbal.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	speel	spelen	VERB	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	voetbal	voetbal	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_695
+# text = Zij eet een broodje.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	broodje	brood	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_696
+# text = De zon is warm.
+1	De	de	DET	_	_	_	_	_	_
+2	zon	zon	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	warm	warm	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_697
+# text = Zij komt uit Duitsland.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	komt	aankomen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Duitsland	Duitsland	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_698
+# text = U ziet een kaart.
+1	U	u	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	kaart	kaart	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_699
+# text = U drinkt wijn.
+1	U	u	PRON	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	wijn	wijn	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_700
+# text = Hij drinkt koffie.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	koffie	koffie	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_701
+# text = Fijn weekend!
+1	Fijn	fijn	ADJ	_	_	_	_	_	_
+2	weekend	weekend	NOUN	_	_	_	_	_	_
+3	!	!	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_702
+# text = Zij gaat naar Eindhoven.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Eindhoven	Eindhoven	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_703
+# text = Wij zien een boek.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	zien	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_704
+# text = Jij wilt thee.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	wilt	willen	VERB	_	_	_	_	_	_
+3	thee	thee	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_705
+# text = U eet pasta.
+1	U	u	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	pasta	pasta	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_706
+# text = Jullie wonen in Delft.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Delft	Delft	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_707
+# text = U drinkt thee.
+1	U	u	PRON	_	_	_	_	_	_
+2	drinkt	drinken	VERB	_	_	_	_	_	_
+3	thee	thee	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_708
+# text = Hij ziet een foto.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_709
+# text = Ik wil koffie.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	wil	willen	VERB	_	_	_	_	_	_
+3	koffie	koffie	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_710
+# text = Hij ziet een sleutel.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	sleutel	sleutel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_711
+# text = Jullie schrijven een auto.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	schrijven	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	auto	auto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_712
+# text = Ik kom uit China.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	kom	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	China	China	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_713
+# text = Ik heb een potlood nodig.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	heb	hebben	AUX	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	potlood	potlood	NOUN	_	_	_	_	_	_
+5	nodig	nodig	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_714
+# text = Hij leest een tas.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tas	tas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_715
+# text = Zij gaat naar Delft.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Delft	Delft	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_716
+# text = Hij eet fruit.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	fruit	fruit	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_717
+# text = Hij gaat naar Arnhem.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Arnhem	Arnhem	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_718
+# text = Ik ga naar Londen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ga	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Londen	Londen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_719
+# text = Hij komt uit Engeland.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	komt	aankomen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Engeland	Engeland	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_720
+# text = Hij eet een pizza.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	pizza	pizza	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_721
+# text = Lust je koffie?
+1	Lust	lussen	VERB	_	_	_	_	_	_
+2	je	je	PRON	_	_	_	_	_	_
+3	koffie	koffie	NOUN	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_722
+# text = Ik lees een film.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	lees	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_723
+# text = Wij lezen een e-mail.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	lezen	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	e-mail	e-mail	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_724
+# text = Mijn naam is Emma.
+1	Mijn	mijn	PRON	_	_	_	_	_	_
+2	naam	naam	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	Emma	Emma	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_725
+# text = De appel is groen.
+1	De	de	DET	_	_	_	_	_	_
+2	appel	appel	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	groen	groen	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_726
+# text = Zij gaat naar Groningen.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Groningen	Groningen	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_727
+# text = Wil je wat water?
+1	Wil	willen	VERB	_	_	_	_	_	_
+2	je	je	PRON	_	_	_	_	_	_
+3	wat	wat	DET	_	_	_	_	_	_
+4	water	water	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_728
+# text = Jullie schrijven een jas.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	schrijven	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	jas	jas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_729
+# text = Ik lees een kaart.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	lees	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	kaart	kaart	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_730
+# text = U eet vis.
+1	U	u	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	vis	vis	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_731
+# text = Jullie drinken sap.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	drinken	drinken	VERB	_	_	_	_	_	_
+3	sap	sap	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_732
+# text = Wij lezen een sleutel.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	lezen	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	sleutel	sleutel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_733
+# text = U wilt water.
+1	U	u	PRON	_	_	_	_	_	_
+2	wilt	willen	VERB	_	_	_	_	_	_
+3	water	water	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_734
+# text = Ik kom uit Frankrijk.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	kom	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Frankrijk	Frankrijk	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_735
+# text = Ik zie een film.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zie	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_736
+# text = Ik eet fruit.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	fruit	fruit	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_737
+# text = U wilt frisdrank.
+1	U	u	PRON	_	_	_	_	_	_
+2	wilt	willen	VERB	_	_	_	_	_	_
+3	frisdrank	frisdrank	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_738
+# text = Ik woon in Amsterdam.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	woon	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_739
+# text = Wij gaan naar Maastricht.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Maastricht	Maastricht	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_740
+# text = U leest een kaart.
+1	U	u	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	kaart	kaart	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_741
+# text = Jij wilt water.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	wilt	willen	VERB	_	_	_	_	_	_
+3	water	water	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_742
+# text = Waar is de uitgang?
+1	Waar	waar	ADV	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	uitgang	uitgang	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_743
+# text = Jij ziet een tekening.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tekening	tekening	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_744
+# text = Het huis is erg groot.
+1	Het	het	DET	_	_	_	_	_	_
+2	huis	huis	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	erg	erg	ADJ	_	_	_	_	_	_
+5	groot	groot	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_745
+# text = Hij eet een broodje.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	broodje	brood	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_746
+# text = Jullie gaan naar Amsterdam.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_747
+# text = Jullie willen chocolademelk.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	willen	willen	VERB	_	_	_	_	_	_
+3	chocolademelk	chocolade_melk	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_748
+# text = Zij leest een krant.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	krant	krant	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_749
+# text = De auto is erg snel.
+1	De	de	DET	_	_	_	_	_	_
+2	auto	auto	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	erg	erg	ADJ	_	_	_	_	_	_
+5	snel	snel	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_750
+# text = Het examen was erg moeilijk.
+1	Het	het	DET	_	_	_	_	_	_
+2	examen	exame	NOUN	_	_	_	_	_	_
+3	was	zijn	AUX	_	_	_	_	_	_
+4	erg	erg	ADJ	_	_	_	_	_	_
+5	moeilijk	moeilijk	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_751
+# text = U leest een tekening.
+1	U	u	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tekening	tekening	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_752
+# text = Jij komt uit België.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	komt	aankomen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	België	België	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_753
+# text = Ik lees een foto.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	lees	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_754
+# text = Jullie zien een boek.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	zien	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_755
+# text = Wij luisteren naar muziek.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	luisteren	luisteren	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	muziek	muziek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_756
+# text = Hij komt uit België.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	komt	aankomen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	België	België	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_757
+# text = Is de man aardig?
+1	Is	zijn	AUX	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	man	man	NOUN	_	_	_	_	_	_
+4	aardig	aardig	ADJ	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_758
+# text = U ziet een sleutel.
+1	U	u	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	sleutel	sleutel	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_759
+# text = Ik eet een ijsje.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	ijsje	ijs	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_760
+# text = U woont in Delft.
+1	U	u	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Delft	Delft	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_761
+# text = U gaat naar Maastricht.
+1	U	u	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Maastricht	Maastricht	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_762
+# text = Wij hebben geen tijd.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	hebben	hebben	AUX	_	_	_	_	_	_
+3	geen	geen	DET	_	_	_	_	_	_
+4	tijd	tijd	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_763
+# text = Zij woont in Berlijn.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Berlijn	Berlijn	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_764
+# text = Ik ga naar Eindhoven.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ga	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Eindhoven	Eindhoven	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_765
+# text = Ik poets mijn tanden.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	poets	poetsen	VERB	_	_	_	_	_	_
+3	mijn	mijn	PRON	_	_	_	_	_	_
+4	tanden	tand	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_766
+# text = Jij ziet een auto.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	ziet	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	auto	auto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_767
+# text = Jullie gaan naar Arnhem.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Arnhem	Arnhem	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_768
+# text = Jullie komen uit Italië.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	komen	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Italië	Italië	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_769
+# text = Jullie zien een tas.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	zien	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tas	tas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_770
+# text = Zij schrijft een e-mail.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	schrijft	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	e-mail	e-mail	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_771
+# text = Het is vandaag erg warm.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	vandaag	vandaag	ADV	_	_	_	_	_	_
+4	erg	erg	ADJ	_	_	_	_	_	_
+5	warm	warm	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_772
+# text = Jullie schrijven een tekening.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	schrijven	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tekening	tekening	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_773
+# text = De tv is kapot.
+1	De	de	DET	_	_	_	_	_	_
+2	tv	tv	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	kapot	kapot	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_774
+# text = Jullie lezen een film.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	lezen	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	film	film	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_775
+# text = Zij schrijft een tas.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	schrijft	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	tas	tas	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_776
+# text = Ik eet groente.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	groente	groente	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_777
+# text = Jullie gaan naar Eindhoven.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Eindhoven	Eindhoven	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_778
+# text = Hij gaat naar Den Haag.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	gaat	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	Den	Den	PROPN	_	_	_	_	_	_
+5	Haag	Haag	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_779
+# text = Is de tuin groen?
+1	Is	zijn	AUX	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	tuin	tuin	NOUN	_	_	_	_	_	_
+4	groen	groen	ADJ	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_780
+# text = Ik drink wijn.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	drink	drinken	VERB	_	_	_	_	_	_
+3	wijn	wijn	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_781
+# text = Natuurlijk, geen probleem.
+1	Natuurlijk	natuurlijk	ADJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	geen	geen	DET	_	_	_	_	_	_
+4	probleem	probleem	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_782
+# text = Wij komen uit Italië.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	komen	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Italië	Italië	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_783
+# text = Jullie lezen een foto.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	lezen	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_784
+# text = Wij willen thee.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	willen	willen	VERB	_	_	_	_	_	_
+3	thee	thee	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_785
+# text = Hij woont in Berlijn.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Berlijn	Berlijn	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_786
+# text = Het is precies tien uur.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	precies	precies	ADJ	_	_	_	_	_	_
+4	tien	tien	NUM	_	_	_	_	_	_
+5	uur	uur	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_787
+# text = Jij woont in Amsterdam.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Amsterdam	Amsterdam	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_788
+# text = U woont in Brussel.
+1	U	u	PRON	_	_	_	_	_	_
+2	woont	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	Brussel	Brussel	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_789
+# text = Zij eet een koekje.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	eet	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	koekje	koek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_790
+# text = Wij zien een foto.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	zien	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_791
+# text = Jij wilt koffie.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	wilt	willen	VERB	_	_	_	_	_	_
+3	koffie	koffie	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_792
+# text = Jij leest een krant.
+1	Jij	jij	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	krant	krant	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_793
+# text = Jullie komen uit Marokko.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	komen	komen	VERB	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	Marokko	Marokko	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_794
+# text = Wat is er aan de hand?
+1	Wat	wat	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	er	er	ADV	_	_	_	_	_	_
+4	aan	aan	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	hand	hand	NOUN	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_795
+# text = Goedenavond, meneer.
+1	Goedenavond	goedenavond	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	meneer	meneer	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_796
+# text = Ik neem deze groene tas.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	neem	nemen	VERB	_	_	_	_	_	_
+3	deze	deze	DET	_	_	_	_	_	_
+4	groene	groen	ADJ	_	_	_	_	_	_
+5	tas	tas	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_797
+# text = U schrijft een auto.
+1	U	u	PRON	_	_	_	_	_	_
+2	schrijft	schrijven	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	auto	auto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_798
+# text = Wij eten een peer.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	peer	peer	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_799
+# text = Jullie drinken melk.
+1	Jullie	jullie	PRON	_	_	_	_	_	_
+2	drinken	drinken	VERB	_	_	_	_	_	_
+3	melk	melk	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = nl_a1_train_800
+# text = U leest een fiets.
+1	U	u	PRON	_	_	_	_	_	_
+2	leest	doorlezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	fiets	fiets	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+

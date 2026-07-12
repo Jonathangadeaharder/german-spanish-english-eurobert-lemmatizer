@@ -1,0 +1,830 @@
+# sent_id = es_a1_val_001
+# text = Veo el granero grande.
+1	Veo	ver	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	granero	granero	NOUN	_	_	_	_	_	_
+4	grande	grande	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_002
+# text = La vaca come hierba.
+1	La	el	DET	_	_	_	_	_	_
+2	vaca	vaca	NOUN	_	_	_	_	_	_
+3	come	comer	VERB	_	_	_	_	_	_
+4	hierba	hierba	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_003
+# text = Damos paja a los caballos.
+1	Damos	dar	VERB	_	_	_	_	_	_
+2	paja	paja	NOUN	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	caballos	caballo	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_004
+# text = Él ordeña la vaca.
+1	Él	él	PRON	_	_	_	_	_	_
+2	ordeña	ordeñar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	vaca	vaca	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_005
+# text = La granja es tranquila.
+1	La	el	DET	_	_	_	_	_	_
+2	granja	granja	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	tranquila	tranquilo	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_006
+# text = Ella recoge huevos frescos.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	recoge	recoger	VERB	_	_	_	_	_	_
+3	huevos	huevo	NOUN	_	_	_	_	_	_
+4	frescos	fresco	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_007
+# text = La gallina es marrón.
+1	La	el	DET	_	_	_	_	_	_
+2	gallina	gallina	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	marrón	marrón	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_008
+# text = Me gusta la vida rural.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	gusta	gustar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	vida	vida	NOUN	_	_	_	_	_	_
+5	rural	rural	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_009
+# text = Montamos el tractor rojo.
+1	Montamos	montar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	tractor	tractor	NOUN	_	_	_	_	_	_
+4	rojo	rojo	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_010
+# text = El campo es verde.
+1	El	el	DET	_	_	_	_	_	_
+2	campo	campo	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	verde	verde	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_011
+# text = Él corta la leña.
+1	Él	él	PRON	_	_	_	_	_	_
+2	corta	cortar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	leña	leña	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_012
+# text = El cerdo es gordo.
+1	El	el	DET	_	_	_	_	_	_
+2	cerdo	cerdo	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	gordo	gordo	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_013
+# text = Cultivamos maíz aquí.
+1	Cultivamos	cultivar	VERB	_	_	_	_	_	_
+2	maíz	maíz	NOUN	_	_	_	_	_	_
+3	aquí	aquí	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_014
+# text = Ella lleva un cubo.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	lleva	llevar	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	cubo	cubo	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_015
+# text = La puerta del granero está abierta.
+1	La	el	DET	_	_	_	_	_	_
+2	puerta	puerta	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	granero	granero	NOUN	_	_	_	_	_	_
+5	está	estar	AUX	_	_	_	_	_	_
+6	abierta	abierto	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_016
+# text = Oigo al gallo cantar.
+1	Oigo	oir	VERB	_	_	_	_	_	_
+2	al	al	ADP	_	_	_	_	_	_
+3	gallo	gallo	NOUN	_	_	_	_	_	_
+4	cantar	cantar	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_017
+# text = Las ovejas comen paja.
+1	Las	el	DET	_	_	_	_	_	_
+2	ovejas	oveja	NOUN	_	_	_	_	_	_
+3	comen	comer	VERB	_	_	_	_	_	_
+4	paja	paja	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_018
+# text = Él arregla la cerca.
+1	Él	él	PRON	_	_	_	_	_	_
+2	arregla	arreglar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cerca	cerca	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_019
+# text = Vemos los patos nadar.
+1	Vemos	ver	VERB	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	patos	pato	NOUN	_	_	_	_	_	_
+4	nadar	nadar	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_020
+# text = La cabra es pequeña.
+1	La	el	DET	_	_	_	_	_	_
+2	cabra	cabra	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	pequeña	pequeño	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_021
+# text = Riego las plantas del huerto.
+1	Riego	regar	VERB	_	_	_	_	_	_
+2	las	el	DET	_	_	_	_	_	_
+3	plantas	planta	NOUN	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	huerto	huerto	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_022
+# text = Ella vende leche fresca.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	vende	vender	VERB	_	_	_	_	_	_
+3	leche	leche	NOUN	_	_	_	_	_	_
+4	fresca	fresco	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_023
+# text = El camino está embarrado.
+1	El	el	DET	_	_	_	_	_	_
+2	camino	camino	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	embarrado	embarrado	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_024
+# text = ¿ Te gustan las granjas?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Te	tú	PRON	_	_	_	_	_	_
+3	gustan	gustar	VERB	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	granjas	granja	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_025
+# text = Él conduce el camión.
+1	Él	él	PRON	_	_	_	_	_	_
+2	conduce	conducir	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	camión	camión	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_026
+# text = Envío esta carta hoy.
+1	Envío	enviar	VERB	_	_	_	_	_	_
+2	esta	este	DET	_	_	_	_	_	_
+3	carta	carta	NOUN	_	_	_	_	_	_
+4	hoy	hoy	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_027
+# text = Ella compra un sello.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	compra	comprar	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	sello	sello	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_028
+# text = La caja es pesada.
+1	La	el	DET	_	_	_	_	_	_
+2	caja	caja	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	pesada	pesado	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_029
+# text = Mandamos un paquete grande.
+1	Mandamos	mandar	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	paquete	paquete	NOUN	_	_	_	_	_	_
+4	grande	grande	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_030
+# text = Él escribe la dirección.
+1	Él	él	PRON	_	_	_	_	_	_
+2	escribe	escribir	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	dirección	dirección	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_031
+# text = El correo está aquí.
+1	El	el	DET	_	_	_	_	_	_
+2	correo	correo	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	aquí	aquí	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_032
+# text = Espero en la fila.
+1	Espero	esperar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	fila	fila	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_033
+# text = Ella cierra el sobre.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	cierra	cerrar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	sobre	sobre	ADP	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_034
+# text = El sello es azul.
+1	El	el	DET	_	_	_	_	_	_
+2	sello	sello	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	azul	azul	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_035
+# text = Recogemos el correo hoy.
+1	Recogemos	recoger	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	correo	correo	NOUN	_	_	_	_	_	_
+4	hoy	hoy	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_036
+# text = Él rellena el formulario.
+1	Él	él	PRON	_	_	_	_	_	_
+2	rellena	rellenar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	formulario	formulario	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_037
+# text = El empleado está ocupado.
+1	El	el	DET	_	_	_	_	_	_
+2	empleado	empleado	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	ocupado	ocupado	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_038
+# text = Quiero más sellos, por favor.
+1	Quiero	querer	VERB	_	_	_	_	_	_
+2	más	más	ADV	_	_	_	_	_	_
+3	sellos	sello	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	favor	favor	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_039
+# text = Ella envía la postal.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	envía	enviar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	postal	postal	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_040
+# text = La fila es larga.
+1	La	el	DET	_	_	_	_	_	_
+2	fila	fila	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	larga	largo	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_041
+# text = Pesamos la caja ahora.
+1	Pesamos	pesar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	caja	caja	NOUN	_	_	_	_	_	_
+4	ahora	ahora	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_042
+# text = Él pega la cinta.
+1	Él	él	PRON	_	_	_	_	_	_
+2	pega	pegar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cinta	cinta	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_043
+# text = ¿ Llega tarde el correo?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Llega	llegar	VERB	_	_	_	_	_	_
+3	tarde	tarde	ADV	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	correo	correo	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_044
+# text = Recibo un paquete hoy.
+1	Recibo	recibir	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	paquete	paquete	NOUN	_	_	_	_	_	_
+4	hoy	hoy	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_045
+# text = Ella lee el aviso.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	lee	leer	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	aviso	aviso	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_046
+# text = La oficina está abierta.
+1	La	el	DET	_	_	_	_	_	_
+2	oficina	oficina	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	abierta	abierto	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_047
+# text = Pagamos la tarifa postal.
+1	Pagamos	pagar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	tarifa	tarifa	NOUN	_	_	_	_	_	_
+4	postal	postal	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_048
+# text = Él pide ayuda al empleado.
+1	Él	él	PRON	_	_	_	_	_	_
+2	pide	pedir	VERB	_	_	_	_	_	_
+3	ayuda	ayuda	NOUN	_	_	_	_	_	_
+4	al	al	ADP	_	_	_	_	_	_
+5	empleado	empleado	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_049
+# text = La carta es delgada.
+1	La	el	DET	_	_	_	_	_	_
+2	carta	carta	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	delgada	delgado	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_050
+# text = ¿ Puedes enviar esto?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Puedes	poder	VERB	_	_	_	_	_	_
+3	enviar	enviar	VERB	_	_	_	_	_	_
+4	esto	este	PRON	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_051
+# text = Veo un león grande.
+1	Veo	ver	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	león	león	NOUN	_	_	_	_	_	_
+4	grande	grande	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_052
+# text = El tigre es salvaje.
+1	El	el	DET	_	_	_	_	_	_
+2	tigre	tigre	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	salvaje	salvaje	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_053
+# text = Miramos a los osos.
+1	Miramos	mirar	VERB	_	_	_	_	_	_
+2	a	a	ADP	_	_	_	_	_	_
+3	los	el	DET	_	_	_	_	_	_
+4	osos	oso	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_054
+# text = Ella da pescado a los pingüinos.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	da	dar	VERB	_	_	_	_	_	_
+3	pescado	pescado	NOUN	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	pingüinos	pingüino	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_055
+# text = El zoo es divertido.
+1	El	el	DET	_	_	_	_	_	_
+2	zoo	zoo	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	divertido	divertido	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_056
+# text = A él le gustan los monos.
+1	A	a	ADP	_	_	_	_	_	_
+2	él	él	PRON	_	_	_	_	_	_
+3	le	él	PRON	_	_	_	_	_	_
+4	gustan	gustar	VERB	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	monos	mono	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_057
+# text = La jaula es fuerte.
+1	La	el	DET	_	_	_	_	_	_
+2	jaula	jaula	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	fuerte	fuerte	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_058
+# text = Oímos rugidos muy fuertes.
+1	Oímos	oir	VERB	_	_	_	_	_	_
+2	rugidos	rugido	NOUN	_	_	_	_	_	_
+3	muy	muy	ADV	_	_	_	_	_	_
+4	fuertes	fuerte	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_059
+# text = Hago fotos en el zoo.
+1	Hago	hacer	VERB	_	_	_	_	_	_
+2	fotos	foto	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	zoo	zoo	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_060
+# text = La jirafa es muy alta.
+1	La	el	DET	_	_	_	_	_	_
+2	jirafa	jirafa	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	muy	muy	ADV	_	_	_	_	_	_
+5	alta	alto	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_061
+# text = Ella señala a las focas.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	señala	señalar	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	las	el	DET	_	_	_	_	_	_
+5	focas	foca	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_062
+# text = El elefante es enorme.
+1	El	el	DET	_	_	_	_	_	_
+2	elefante	elefante	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	enorme	enorme	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_063
+# text = Compramos entradas del zoo.
+1	Compramos	comprar	VERB	_	_	_	_	_	_
+2	entradas	entrada	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	zoo	zoo	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_064
+# text = Él saluda a los simios.
+1	Él	él	PRON	_	_	_	_	_	_
+2	saluda	saludar	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	simios	simio	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_065
+# text = El estanque tiene patos.
+1	El	el	DET	_	_	_	_	_	_
+2	estanque	estanque	NOUN	_	_	_	_	_	_
+3	tiene	tener	VERB	_	_	_	_	_	_
+4	patos	pato	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_066
+# text = Leo el cartel informativo.
+1	Leo	leer	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	cartel	cartel	NOUN	_	_	_	_	_	_
+4	informativo	informativo	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_067
+# text = La cebra tiene rayas.
+1	La	el	DET	_	_	_	_	_	_
+2	cebra	cebra	NOUN	_	_	_	_	_	_
+3	tiene	tener	VERB	_	_	_	_	_	_
+4	rayas	raya	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_068
+# text = A ella le encantan los pandas.
+1	A	a	ADP	_	_	_	_	_	_
+2	ella	él	PRON	_	_	_	_	_	_
+3	le	él	PRON	_	_	_	_	_	_
+4	encantan	encantar	VERB	_	_	_	_	_	_
+5	los	el	DET	_	_	_	_	_	_
+6	pandas	panda	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_069
+# text = El sendero va a la izquierda.
+1	El	el	DET	_	_	_	_	_	_
+2	sendero	sendero	NOUN	_	_	_	_	_	_
+3	va	ir	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	izquierda	izquierda	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_070
+# text = Descansamos en un banco.
+1	Descansamos	descansar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	banco	banco	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_071
+# text = Él ve un hipopótamo.
+1	Él	él	PRON	_	_	_	_	_	_
+2	ve	ver	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	hipopótamo	hipopótamo	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_072
+# text = Los pájaros son libres.
+1	Los	el	DET	_	_	_	_	_	_
+2	pájaros	pájaro	NOUN	_	_	_	_	_	_
+3	son	ser	AUX	_	_	_	_	_	_
+4	libres	libre	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_073
+# text = Compro snacks en el zoo.
+1	Compro	comprar	VERB	_	_	_	_	_	_
+2	snacks	snack	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	zoo	zoo	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_074
+# text = Ella mira el mapa del zoo.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	mira	mirar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	mapa	mapa	NOUN	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	zoo	zoo	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_075
+# text = ¿ Dónde está el oso?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Dónde	donde	ADV	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	oso	oso	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_076
+# text = Montamos la tienda hoy.
+1	Montamos	montar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	tienda	tienda	NOUN	_	_	_	_	_	_
+4	hoy	hoy	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_077
+# text = El fuego es cálido.
+1	El	el	DET	_	_	_	_	_	_
+2	fuego	fuego	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	cálido	cálido	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_078
+# text = Empaco mi mochila.
+1	Empaco	empacar	VERB	_	_	_	_	_	_
+2	mi	mío	DET	_	_	_	_	_	_
+3	mochila	mochila	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_079
+# text = Ella duerme en la tienda.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	duerme	dormir	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	tienda	tienda	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_080
+# text = El sendero es largo.
+1	El	el	DET	_	_	_	_	_	_
+2	sendero	sendero	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	largo	largo	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_081
+# text = Él enciende el fuego.
+1	Él	él	PRON	_	_	_	_	_	_
+2	enciende	encender	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	fuego	fuego	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_082
+# text = Cocinamos sobre el fuego.
+1	Cocinamos	cocinar	VERB	_	_	_	_	_	_
+2	sobre	sobre	ADP	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	fuego	fuego	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_083
+# text = El arroyo es claro.
+1	El	el	DET	_	_	_	_	_	_
+2	arroyo	arroyo	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	claro	claro	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_084
+# text = Busco leña seca ahora.
+1	Busco	buscar	VERB	_	_	_	_	_	_
+2	leña	leña	NOUN	_	_	_	_	_	_
+3	seca	seco	ADJ	_	_	_	_	_	_
+4	ahora	ahora	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_085
+# text = Ella ata la cuerda fuerte.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	ata	atar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cuerda	cuerda	NOUN	_	_	_	_	_	_
+5	fuerte	fuerte	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_086
+# text = La luna es brillante.
+1	La	el	DET	_	_	_	_	_	_
+2	luna	luna	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	brillante	brillante	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_087
+# text = Contamos historias de campamento.
+1	Contamos	contar	VERB	_	_	_	_	_	_
+2	historias	historia	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	campamento	campamento	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_088
+# text = Él lleva botas de montaña.
+1	Él	él	PRON	_	_	_	_	_	_
+2	lleva	llevar	VERB	_	_	_	_	_	_
+3	botas	bota	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	montaña	montaña	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_089
+# text = La noche es fría hoy.
+1	La	el	DET	_	_	_	_	_	_
+2	noche	noche	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	fría	frío	ADJ	_	_	_	_	_	_
+5	hoy	hoy	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_090
+# text = Hiervo agua del arroyo.
+1	Hiervo	Hiervo	PROPN	_	_	_	_	_	_
+2	agua	agua	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	arroyo	arroyo	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_091
+# text = Ella revisa el mapa.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	revisa	revisar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	mapa	mapa	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_092
+# text = El camino es empinado.
+1	El	el	DET	_	_	_	_	_	_
+2	camino	camino	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	empinado	empinado	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_093
+# text = Caminamos por el sendero.
+1	Caminamos	caminar	VERB	_	_	_	_	_	_
+2	por	por	ADP	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	sendero	sendero	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_094
+# text = Él enciende la lámpara.
+1	Él	él	PRON	_	_	_	_	_	_
+2	enciende	encender	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	lámpara	lámpara	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_095
+# text = La mochila es ligera.
+1	La	el	DET	_	_	_	_	_	_
+2	mochila	mochila	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	ligera	ligero	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_096
+# text = Oigo búhos en el bosque.
+1	Oigo	oir	VERB	_	_	_	_	_	_
+2	búhos	búho	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	bosque	bosque	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_097
+# text = Ella comparte sopa caliente.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	comparte	compartir	VERB	_	_	_	_	_	_
+3	sopa	sopa	NOUN	_	_	_	_	_	_
+4	caliente	caliente	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_098
+# text = La tienda está seca.
+1	La	el	DET	_	_	_	_	_	_
+2	tienda	tienda	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	seca	seco	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_099
+# text = ¿ Estamos cerca del campamento?
+1	¿	¿	PUNCT	_	_	_	_	_	_
+2	Estamos	estar	AUX	_	_	_	_	_	_
+3	cerca	cerca	ADV	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	campamento	campamento	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a1_val_100
+# text = Él enrolla su esterilla.
+1	Él	él	PRON	_	_	_	_	_	_
+2	enrolla	enrollar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	esterilla	esterilla	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+

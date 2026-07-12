@@ -1,0 +1,797 @@
+# sent_id = en_a1_train_801
+# text = I order hot soup.
+1	I	I	PRON	_	_	_	_	_	_
+2	order	order	VERB	_	_	_	_	_	_
+3	hot	hot	ADJ	_	_	_	_	_	_
+4	soup	soup	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_802
+# text = She asks for menu.
+1	She	she	PRON	_	_	_	_	_	_
+2	asks	ask	VERB	_	_	_	_	_	_
+3	for	for	ADP	_	_	_	_	_	_
+4	menu	menu	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_803
+# text = He pays the bill.
+1	He	he	PRON	_	_	_	_	_	_
+2	pays	pay	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	bill	bill	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_804
+# text = We sit at table.
+1	We	we	PRON	_	_	_	_	_	_
+2	sit	sit	VERB	_	_	_	_	_	_
+3	at	at	ADP	_	_	_	_	_	_
+4	table	table	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_805
+# text = The waiter is nice.
+1	The	the	DET	_	_	_	_	_	_
+2	waiter	waiter	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	nice	nice	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_806
+# text = I want some water.
+1	I	I	PRON	_	_	_	_	_	_
+2	want	want	VERB	_	_	_	_	_	_
+3	some	some	DET	_	_	_	_	_	_
+4	water	water	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_807
+# text = She eats the salad.
+1	She	she	PRON	_	_	_	_	_	_
+2	eats	eat	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	salad	salad	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_808
+# text = He likes the fish.
+1	He	he	PRON	_	_	_	_	_	_
+2	likes	like	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	fish	fish	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_809
+# text = The food is good.
+1	The	the	DET	_	_	_	_	_	_
+2	food	food	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	good	good	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_810
+# text = We share the pasta.
+1	We	we	PRON	_	_	_	_	_	_
+2	share	share	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	pasta	pasta	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_811
+# text = I drink cold juice.
+1	I	I	PRON	_	_	_	_	_	_
+2	drink	drink	VERB	_	_	_	_	_	_
+3	cold	cold	ADJ	_	_	_	_	_	_
+4	juice	juice	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_812
+# text = She orders a cake.
+1	She	she	PRON	_	_	_	_	_	_
+2	orders	order	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	cake	cake	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_813
+# text = The cup is small.
+1	The	the	DET	_	_	_	_	_	_
+2	cup	cup	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	small	small	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_814
+# text = He wants more bread.
+1	He	he	PRON	_	_	_	_	_	_
+2	wants	want	VERB	_	_	_	_	_	_
+3	more	more	ADJ	_	_	_	_	_	_
+4	bread	bread	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_815
+# text = We wait for food.
+1	We	we	PRON	_	_	_	_	_	_
+2	wait	wait	VERB	_	_	_	_	_	_
+3	for	for	ADP	_	_	_	_	_	_
+4	food	food	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_816
+# text = I try the soup.
+1	I	I	PRON	_	_	_	_	_	_
+2	try	try	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	soup	soup	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_817
+# text = She tips the waiter.
+1	She	she	PRON	_	_	_	_	_	_
+2	tips	tip	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	waiter	waiter	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_818
+# text = The plate is hot.
+1	The	the	DET	_	_	_	_	_	_
+2	plate	plate	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	hot	hot	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_819
+# text = He eats his lunch.
+1	He	he	PRON	_	_	_	_	_	_
+2	eats	eat	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	lunch	lunch	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_820
+# text = We like this cafe.
+1	We	we	PRON	_	_	_	_	_	_
+2	like	like	ADP	_	_	_	_	_	_
+3	this	this	DET	_	_	_	_	_	_
+4	cafe	cafe	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_821
+# text = I pick a dish.
+1	I	I	PRON	_	_	_	_	_	_
+2	pick	pick	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	dish	dish	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_822
+# text = She gets the tea.
+1	She	she	PRON	_	_	_	_	_	_
+2	gets	get	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	tea	tea	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_823
+# text = The fork is clean.
+1	The	the	DET	_	_	_	_	_	_
+2	fork	fork	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	clean	clean	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_824
+# text = Do you want dessert?
+1	Do	do	AUX	_	_	_	_	_	_
+2	you	you	PRON	_	_	_	_	_	_
+3	want	want	VERB	_	_	_	_	_	_
+4	dessert	dessert	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_825
+# text = He adds some salt.
+1	He	he	PRON	_	_	_	_	_	_
+2	adds	add	VERB	_	_	_	_	_	_
+3	some	some	DET	_	_	_	_	_	_
+4	salt	salt	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_826
+# text = The sun is out.
+1	The	the	DET	_	_	_	_	_	_
+2	sun	sun	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	out	out	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_827
+# text = It rains a lot.
+1	It	it	PRON	_	_	_	_	_	_
+2	rains	rain	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	lot	lot	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_828
+# text = The wind is strong.
+1	The	the	DET	_	_	_	_	_	_
+2	wind	wind	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	strong	strong	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_829
+# text = We walk in park.
+1	We	we	PRON	_	_	_	_	_	_
+2	walk	walk	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	park	park	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_830
+# text = He flies a kite.
+1	He	he	PRON	_	_	_	_	_	_
+2	flies	fly	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	kite	kite	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_831
+# text = The sky is gray.
+1	The	the	DET	_	_	_	_	_	_
+2	sky	sky	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	gray	gray	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_832
+# text = I see dark clouds.
+1	I	I	PRON	_	_	_	_	_	_
+2	see	see	VERB	_	_	_	_	_	_
+3	dark	dark	ADJ	_	_	_	_	_	_
+4	clouds	cloud	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_833
+# text = She picks a flower.
+1	She	she	PRON	_	_	_	_	_	_
+2	picks	pick	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	flower	flower	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_834
+# text = We play outside.
+1	We	we	PRON	_	_	_	_	_	_
+2	play	play	VERB	_	_	_	_	_	_
+3	outside	outside	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_835
+# text = The air is cold.
+1	The	the	DET	_	_	_	_	_	_
+2	air	air	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	cold	cold	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_836
+# text = I feel the sun.
+1	I	I	PRON	_	_	_	_	_	_
+2	feel	feel	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	sun	sun	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_837
+# text = He runs in rain.
+1	He	he	PRON	_	_	_	_	_	_
+2	runs	run	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	rain	rain	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_838
+# text = The lake is calm.
+1	The	the	DET	_	_	_	_	_	_
+2	lake	lake	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	calm	calm	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_839
+# text = We sit on grass.
+1	We	we	PRON	_	_	_	_	_	_
+2	sit	sit	VERB	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	grass	grass	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_840
+# text = I watch the clouds.
+1	I	I	PRON	_	_	_	_	_	_
+2	watch	watch	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	clouds	cloud	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_841
+# text = She holds an umbrella.
+1	She	she	PRON	_	_	_	_	_	_
+2	holds	hold	VERB	_	_	_	_	_	_
+3	an	an	DET	_	_	_	_	_	_
+4	umbrella	umbrella	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_842
+# text = The beach is near.
+1	The	the	DET	_	_	_	_	_	_
+2	beach	beach	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	near	near	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_843
+# text = He digs in sand.
+1	He	he	PRON	_	_	_	_	_	_
+2	digs	dig	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	sand	sand	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_844
+# text = We fish by lake.
+1	We	we	PRON	_	_	_	_	_	_
+2	fish	fish	VERB	_	_	_	_	_	_
+3	by	by	ADP	_	_	_	_	_	_
+4	lake	lake	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_845
+# text = I see a rainbow.
+1	I	I	PRON	_	_	_	_	_	_
+2	see	see	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	rainbow	rainbow	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_846
+# text = The storm is far.
+1	The	the	DET	_	_	_	_	_	_
+2	storm	storm	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	far	far	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_847
+# text = She skips stones.
+1	She	she	PRON	_	_	_	_	_	_
+2	skips	skip	VERB	_	_	_	_	_	_
+3	stones	stone	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_848
+# text = He finds small shells.
+1	He	he	PRON	_	_	_	_	_	_
+2	finds	find	VERB	_	_	_	_	_	_
+3	small	small	ADJ	_	_	_	_	_	_
+4	shells	shell	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_849
+# text = Is it warm today?
+1	Is	be	AUX	_	_	_	_	_	_
+2	it	it	PRON	_	_	_	_	_	_
+3	warm	warm	ADJ	_	_	_	_	_	_
+4	today	today	ADV	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_850
+# text = We hike up hill.
+1	We	we	PRON	_	_	_	_	_	_
+2	hike	hike	VERB	_	_	_	_	_	_
+3	up	up	ADP	_	_	_	_	_	_
+4	hill	hill	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_851
+# text = We have a party.
+1	We	we	PRON	_	_	_	_	_	_
+2	have	have	AUX	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	party	party	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_852
+# text = She gets a gift.
+1	She	she	PRON	_	_	_	_	_	_
+2	gets	get	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	gift	gift	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_853
+# text = He lights a candle.
+1	He	he	PRON	_	_	_	_	_	_
+2	lights	light	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	candle	candle	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_854
+# text = The cake has candles.
+1	The	the	DET	_	_	_	_	_	_
+2	cake	cake	NOUN	_	_	_	_	_	_
+3	has	have	AUX	_	_	_	_	_	_
+4	candles	candle	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_855
+# text = I play a song.
+1	I	I	PRON	_	_	_	_	_	_
+2	play	play	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	song	song	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_856
+# text = We open gifts.
+1	We	we	PRON	_	_	_	_	_	_
+2	open	open	VERB	_	_	_	_	_	_
+3	gifts	gift	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_857
+# text = She wears a dress.
+1	She	she	PRON	_	_	_	_	_	_
+2	wears	wear	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	dress	dress	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_858
+# text = The tree has lights.
+1	The	the	DET	_	_	_	_	_	_
+2	tree	tree	NOUN	_	_	_	_	_	_
+3	has	have	AUX	_	_	_	_	_	_
+4	lights	light	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_859
+# text = He blows out candles.
+1	He	he	PRON	_	_	_	_	_	_
+2	blows	blow	VERB	_	_	_	_	_	_
+3	out	out	ADP	_	_	_	_	_	_
+4	candles	candle	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_860
+# text = We eat big cake.
+1	We	we	PRON	_	_	_	_	_	_
+2	eat	eat	VERB	_	_	_	_	_	_
+3	big	big	ADJ	_	_	_	_	_	_
+4	cake	cake	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_861
+# text = I wrap a gift.
+1	I	I	PRON	_	_	_	_	_	_
+2	wrap	wrap	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	gift	gift	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_862
+# text = She decorates the tree.
+1	She	she	PRON	_	_	_	_	_	_
+2	decorates	decorate	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	tree	tree	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_863
+# text = The card is red.
+1	The	the	DET	_	_	_	_	_	_
+2	card	card	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	red	red	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_864
+# text = He invites his friends.
+1	He	he	PRON	_	_	_	_	_	_
+2	invites	invite	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	friends	friend	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_865
+# text = We clap our hands.
+1	We	we	PRON	_	_	_	_	_	_
+2	clap	clap	VERB	_	_	_	_	_	_
+3	our	our	PRON	_	_	_	_	_	_
+4	hands	hand	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_866
+# text = I make a wish.
+1	I	I	PRON	_	_	_	_	_	_
+2	make	make	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	wish	wish	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_867
+# text = She snaps a photo.
+1	She	she	PRON	_	_	_	_	_	_
+2	snaps	snap	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	photo	photo	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_868
+# text = The gift is big.
+1	The	the	DET	_	_	_	_	_	_
+2	gift	gift	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	big	big	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_869
+# text = He wears a crown.
+1	He	he	PRON	_	_	_	_	_	_
+2	wears	wear	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	crown	crown	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_870
+# text = We count to ten.
+1	We	we	PRON	_	_	_	_	_	_
+2	count	count	VERB	_	_	_	_	_	_
+3	to	to	ADP	_	_	_	_	_	_
+4	ten	ten	NUM	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_871
+# text = I blow the horn.
+1	I	I	PRON	_	_	_	_	_	_
+2	blow	blow	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	horn	horn	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_872
+# text = She cuts the cake.
+1	She	she	PRON	_	_	_	_	_	_
+2	cuts	cut	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	cake	cake	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_873
+# text = The balloons are red.
+1	The	the	DET	_	_	_	_	_	_
+2	balloons	balloon	NOUN	_	_	_	_	_	_
+3	are	be	AUX	_	_	_	_	_	_
+4	red	red	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_874
+# text = When is the party?
+1	When	when	ADV	_	_	_	_	_	_
+2	is	be	AUX	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	party	party	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_875
+# text = He shares his cake.
+1	He	he	PRON	_	_	_	_	_	_
+2	shares	share	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	cake	cake	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_876
+# text = I read at night.
+1	I	I	PRON	_	_	_	_	_	_
+2	read	read	VERB	_	_	_	_	_	_
+3	at	at	ADP	_	_	_	_	_	_
+4	night	night	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_877
+# text = She walks her dog.
+1	She	she	PRON	_	_	_	_	_	_
+2	walks	walk	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	dog	dog	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_878
+# text = He fixes the bike.
+1	He	he	PRON	_	_	_	_	_	_
+2	fixes	fix	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	bike	bike	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_879
+# text = We cook at home.
+1	We	we	PRON	_	_	_	_	_	_
+2	cook	cook	VERB	_	_	_	_	_	_
+3	at	at	ADP	_	_	_	_	_	_
+4	home	home	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_880
+# text = The milk is cold.
+1	The	the	DET	_	_	_	_	_	_
+2	milk	milk	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	cold	cold	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_881
+# text = I call my dad.
+1	I	I	PRON	_	_	_	_	_	_
+2	call	call	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	dad	dad	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_882
+# text = She goes to gym.
+1	She	she	PRON	_	_	_	_	_	_
+2	goes	go	VERB	_	_	_	_	_	_
+3	to	to	ADP	_	_	_	_	_	_
+4	gym	gym	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_883
+# text = The park is quiet.
+1	The	the	DET	_	_	_	_	_	_
+2	park	park	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	quiet	quiet	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_884
+# text = He washes his car.
+1	He	he	PRON	_	_	_	_	_	_
+2	washes	wash	VERB	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	car	car	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_885
+# text = We meet at noon.
+1	We	we	PRON	_	_	_	_	_	_
+2	meet	meet	VERB	_	_	_	_	_	_
+3	at	at	ADP	_	_	_	_	_	_
+4	noon	noon	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_886
+# text = I put on shoes.
+1	I	I	PRON	_	_	_	_	_	_
+2	put	put	VERB	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	shoes	shoe	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_887
+# text = She pets the cat.
+1	She	she	PRON	_	_	_	_	_	_
+2	pets	pet	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	cat	cat	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_888
+# text = The book is long.
+1	The	the	DET	_	_	_	_	_	_
+2	book	book	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	long	long	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_889
+# text = He sells old books.
+1	He	he	PRON	_	_	_	_	_	_
+2	sells	sell	VERB	_	_	_	_	_	_
+3	old	old	ADJ	_	_	_	_	_	_
+4	books	book	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_890
+# text = We clean the room.
+1	We	we	PRON	_	_	_	_	_	_
+2	clean	clean	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	room	room	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_891
+# text = I want more sleep.
+1	I	I	PRON	_	_	_	_	_	_
+2	want	want	VERB	_	_	_	_	_	_
+3	more	more	ADJ	_	_	_	_	_	_
+4	sleep	sleep	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_892
+# text = She drops her bag.
+1	She	she	PRON	_	_	_	_	_	_
+2	drops	drop	VERB	_	_	_	_	_	_
+3	her	her	PRON	_	_	_	_	_	_
+4	bag	bag	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_893
+# text = The bus is full.
+1	The	the	DET	_	_	_	_	_	_
+2	bus	bus	NOUN	_	_	_	_	_	_
+3	is	be	AUX	_	_	_	_	_	_
+4	full	full	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_894
+# text = He reads the news.
+1	He	he	PRON	_	_	_	_	_	_
+2	reads	read	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	news	news	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_895
+# text = We plant a tree.
+1	We	we	PRON	_	_	_	_	_	_
+2	plant	plant	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	tree	tree	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_896
+# text = I lock my door.
+1	I	I	PRON	_	_	_	_	_	_
+2	lock	lock	VERB	_	_	_	_	_	_
+3	my	my	PRON	_	_	_	_	_	_
+4	door	door	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_897
+# text = She folds the paper.
+1	She	she	PRON	_	_	_	_	_	_
+2	folds	fold	VERB	_	_	_	_	_	_
+3	the	the	DET	_	_	_	_	_	_
+4	paper	paper	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_898
+# text = The soup smells good.
+1	The	the	DET	_	_	_	_	_	_
+2	soup	soup	NOUN	_	_	_	_	_	_
+3	smells	smell	VERB	_	_	_	_	_	_
+4	good	good	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_899
+# text = Can you help me?
+1	Can	can	AUX	_	_	_	_	_	_
+2	you	you	PRON	_	_	_	_	_	_
+3	help	help	VERB	_	_	_	_	_	_
+4	me	I	PRON	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = en_a1_train_900
+# text = He thanks his teacher.
+1	He	he	PRON	_	_	_	_	_	_
+2	thanks	thanks	NOUN	_	_	_	_	_	_
+3	his	his	PRON	_	_	_	_	_	_
+4	teacher	teacher	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,399 @@
+# sent_id = de_b1_train_230
+# text = Wenn ich mehr Zeit hätte, würde ich ein neues Hobby anfangen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	mehr	mehr	ADV	_	_	_	_	_	_
+4	Zeit	Zeit	NOUN	_	_	_	_	_	_
+5	hätte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würde	werden	AUX	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	ein	ein	DET	_	_	_	_	_	_
+10	neues	neu	ADJ	_	_	_	_	_	_
+11	Hobby	Hobby	NOUN	_	_	_	_	_	_
+12	anfangen	anfangen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_231
+# text = Der Journalist, der den Artikel schrieb, erhielt einen wichtigen Preis.
+1	Der	der	DET	_	_	_	_	_	_
+2	Journalist	Journalist	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Artikel	Artikel	NOUN	_	_	_	_	_	_
+7	schrieb	schreiben	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	erhielt	erhalten	VERB	_	_	_	_	_	_
+10	einen	ein	DET	_	_	_	_	_	_
+11	wichtigen	wichtig	ADJ	_	_	_	_	_	_
+12	Preis	Preis	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_232
+# text = Die Patientin wurde vom Arzt gründlich untersucht und erhielt ein Rezept.
+1	Die	der	DET	_	_	_	_	_	_
+2	Patientin	Patientin	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	vom	von	ADP	_	_	_	_	_	_
+5	Arzt	Arzt	NOUN	_	_	_	_	_	_
+6	gründlich	gründlich	ADV	_	_	_	_	_	_
+7	untersucht	untersuchen	VERB	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	erhielt	erhalten	VERB	_	_	_	_	_	_
+10	ein	ein	DET	_	_	_	_	_	_
+11	Rezept	Rezept	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_233
+# text = Die Schulleitung hat beschlossen, das nächste Schuljahr früher zu beginnen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Schulleitung	Schulleitung	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	beschlossen	beschließen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	nächste	nächst	ADJ	_	_	_	_	_	_
+8	Schuljahr	Schuljahr	NOUN	_	_	_	_	_	_
+9	früher	früh	ADV	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	beginnen	beginnen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_234
+# text = Die Abteilung, deren Leiterin krank war, musste das Meeting verschieben.
+1	Die	der	DET	_	_	_	_	_	_
+2	Abteilung	Abteilung	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	deren	PRON	_	_	_	_	_	_
+5	Leiterin	Leiterin	NOUN	_	_	_	_	_	_
+6	krank	krank	ADJ	_	_	_	_	_	_
+7	war	sein	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	musste	müssen	AUX	_	_	_	_	_	_
+10	das	der	DET	_	_	_	_	_	_
+11	Meeting	Meeting	NOUN	_	_	_	_	_	_
+12	verschieben	verschieben	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_235
+# text = Wenn das Wetter schöner gewesen wäre, wären wir zum See gefahren.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	schöner	schön	ADJ	_	_	_	_	_	_
+5	gewesen	sein	AUX	_	_	_	_	_	_
+6	wäre	sein	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wären	sein	AUX	_	_	_	_	_	_
+9	wir	wir	PRON	_	_	_	_	_	_
+10	zum	zu	ADP	_	_	_	_	_	_
+11	See	See	NOUN	_	_	_	_	_	_
+12	gefahren	fahren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_236
+# text = Der Roman, den ich letzte Woche las, hat mich tief beeindruckt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Roman	Roman	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	letzte	letzt	ADJ	_	_	_	_	_	_
+7	Woche	Woche	NOUN	_	_	_	_	_	_
+8	las	lesen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	hat	haben	AUX	_	_	_	_	_	_
+11	mich	ich	PRON	_	_	_	_	_	_
+12	tief	tief	ADV	_	_	_	_	_	_
+13	beeindruckt	beeindrucken	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_237
+# text = Die Tabletten, die der Apotheker empfohlen hatte, wirkten schnell.
+1	Die	der	DET	_	_	_	_	_	_
+2	Tabletten	Tablette	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Apotheker	Apotheker	NOUN	_	_	_	_	_	_
+7	empfohlen	empfehlen	VERB	_	_	_	_	_	_
+8	hatte	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	wirkten	wirken	VERB	_	_	_	_	_	_
+11	schnell	schnell	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_238
+# text = Die Fabrik, die am Stadtrand liegt, wurde im letzten Jahr erweitert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Fabrik	Fabrik	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	am	an	ADP	_	_	_	_	_	_
+6	Stadtrand	Stadtrand	NOUN	_	_	_	_	_	_
+7	liegt	liegen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	wurde	werden	AUX	_	_	_	_	_	_
+10	im	in	ADP	_	_	_	_	_	_
+11	letzten	letzt	ADJ	_	_	_	_	_	_
+12	Jahr	Jahr	NOUN	_	_	_	_	_	_
+13	erweitert	erweitern	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_239
+# text = Ohne die Hilfe meiner Kollegen hätte ich das Projekt nicht abgeschlossen.
+1	Ohne	ohne	ADP	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Hilfe	Hilfe	NOUN	_	_	_	_	_	_
+4	meiner	mein	PRON	_	_	_	_	_	_
+5	Kollegen	Kollege	NOUN	_	_	_	_	_	_
+6	hätte	haben	AUX	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Projekt	Projekt	NOUN	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	abgeschlossen	abschließen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_240
+# text = Die Familie zog um, weil die Miete in der Innenstadt zu hoch wurde.
+1	Die	der	DET	_	_	_	_	_	_
+2	Familie	Familie	NOUN	_	_	_	_	_	_
+3	zog	ziehen	VERB	_	_	_	_	_	_
+4	um	um	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	weil	weil	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Miete	Miete	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Innenstadt	Innenstadt	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	hoch	hoch	ADJ	_	_	_	_	_	_
+14	wurde	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_241
+# text = Der Referent sprach über die Bedeutung erneuerbarer Energien für die Zukunft.
+1	Der	der	DET	_	_	_	_	_	_
+2	Referent	Referent	NOUN	_	_	_	_	_	_
+3	sprach	sprechen	VERB	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+7	erneuerbarer	erneuerbar	ADJ	_	_	_	_	_	_
+8	Energien	Energie	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_242
+# text = Die Geschichte, die der Großvater erzählte, handelte von seiner Jugend.
+1	Die	der	DET	_	_	_	_	_	_
+2	Geschichte	Geschichte	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Großvater	Großvater	NOUN	_	_	_	_	_	_
+7	erzählte	erzählen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	handelte	handeln	VERB	_	_	_	_	_	_
+10	von	von	ADP	_	_	_	_	_	_
+11	seiner	sein	PRON	_	_	_	_	_	_
+12	Jugend	Jugend	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_243
+# text = Die Richterin, die den Fall leitete, wurde für ihre Fairness bewundert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Richterin	Richterin	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Fall	Fall	NOUN	_	_	_	_	_	_
+7	leitete	leiten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	wurde	werden	AUX	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	ihre	ihr	PRON	_	_	_	_	_	_
+12	Fairness	Fairness	NOUN	_	_	_	_	_	_
+13	bewundert	bewundern	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_244
+# text = Es wäre besser, wenn wir den Termin auf nächste Woche verschieben würden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wäre	sein	AUX	_	_	_	_	_	_
+3	besser	gut	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wenn	wenn	SCONJ	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Termin	Termin	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	nächste	nächst	ADJ	_	_	_	_	_	_
+11	Woche	Woche	NOUN	_	_	_	_	_	_
+12	verschieben	verschieben	VERB	_	_	_	_	_	_
+13	würden	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_245
+# text = Der Moderator bat die Gäste, ihre Fragen kurz zu formulieren.
+1	Der	der	DET	_	_	_	_	_	_
+2	Moderator	Moderator	NOUN	_	_	_	_	_	_
+3	bat	bitten	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Gäste	Gast	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	ihre	ihr	PRON	_	_	_	_	_	_
+8	Fragen	Frage	NOUN	_	_	_	_	_	_
+9	kurz	kurz	ADV	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	formulieren	formulieren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_246
+# text = Die Kinder, deren Eltern arbeitslos waren, erhielten kostenlose Mittagessen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	deren	PRON	_	_	_	_	_	_
+5	Eltern	Eltern	NOUN	_	_	_	_	_	_
+6	arbeitslos	arbeitslos	ADJ	_	_	_	_	_	_
+7	waren	sein	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	erhielten	erhalten	VERB	_	_	_	_	_	_
+10	kostenlose	kostenlos	ADJ	_	_	_	_	_	_
+11	Mittagessen	Mittagessen	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_247
+# text = Die Kampagne zum Schutz der Wälder erreichte mehr Menschen als erwartet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kampagne	Kampagne	NOUN	_	_	_	_	_	_
+3	zum	zu	ADP	_	_	_	_	_	_
+4	Schutz	Schutz	NOUN	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Wälder	Wald	NOUN	_	_	_	_	_	_
+7	erreichte	erreichen	VERB	_	_	_	_	_	_
+8	mehr	mehr	ADV	_	_	_	_	_	_
+9	Menschen	Mensch	NOUN	_	_	_	_	_	_
+10	als	als	CCONJ	_	_	_	_	_	_
+11	erwartet	erwarten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_248
+# text = Das Experiment, das in der letzten Woche durchgeführt wurde, lieferte überraschende Ergebnisse.
+1	Das	der	DET	_	_	_	_	_	_
+2	Experiment	Experiment	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	letzten	letzt	ADJ	_	_	_	_	_	_
+8	Woche	Woche	NOUN	_	_	_	_	_	_
+9	durchgeführt	durchführen	VERB	_	_	_	_	_	_
+10	wurde	werden	AUX	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	lieferte	liefern	VERB	_	_	_	_	_	_
+13	überraschende	überraschend	ADJ	_	_	_	_	_	_
+14	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_249
+# text = Der Wagen, den mein Onkel kaufte, verbraucht weniger Benzin als der alte.
+1	Der	der	DET	_	_	_	_	_	_
+2	Wagen	Wagen	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	mein	mein	PRON	_	_	_	_	_	_
+6	Onkel	Onkel	NOUN	_	_	_	_	_	_
+7	kaufte	kaufen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	verbraucht	verbrauchen	VERB	_	_	_	_	_	_
+10	weniger	wenig	ADV	_	_	_	_	_	_
+11	Benzin	Benzin	NOUN	_	_	_	_	_	_
+12	als	als	CCONJ	_	_	_	_	_	_
+13	der	der	DET	_	_	_	_	_	_
+14	alte	alt	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_250
+# text = Der Trainer riet den Sportlern, vor dem Lauf ausreichend Wasser zu trinken.
+1	Der	der	DET	_	_	_	_	_	_
+2	Trainer	Trainer	NOUN	_	_	_	_	_	_
+3	riet	raten	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Sportlern	Sportler	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	vor	vor	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Lauf	Lauf	NOUN	_	_	_	_	_	_
+10	ausreichend	ausreichend	ADV	_	_	_	_	_	_
+11	Wasser	Wasser	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	trinken	trinken	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_251
+# text = Die Ergebnisse der Studie wurden in mehreren Zeitungen veröffentlicht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Studie	Studie	NOUN	_	_	_	_	_	_
+5	wurden	werden	AUX	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	mehreren	mehr	DET	_	_	_	_	_	_
+8	Zeitungen	Zeitung	NOUN	_	_	_	_	_	_
+9	veröffentlicht	veröffentlichen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_252
+# text = Der Geschäftsmann, dessen Firma insolvent war, musste alle Mitarbeiter entlassen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Geschäftsmann	Geschäftsmann	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dessen	dessen	PRON	_	_	_	_	_	_
+5	Firma	Firma	NOUN	_	_	_	_	_	_
+6	insolvent	insolvent	ADJ	_	_	_	_	_	_
+7	war	sein	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	musste	müssen	AUX	_	_	_	_	_	_
+10	alle	alle	DET	_	_	_	_	_	_
+11	Mitarbeiter	Mitarbeiter	NOUN	_	_	_	_	_	_
+12	entlassen	entlassen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_253
+# text = Die Aufgabe, die die Lehrerin gestellt hatte, war schwieriger als gedacht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+7	gestellt	stellen	VERB	_	_	_	_	_	_
+8	hatte	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	schwieriger	schwierig	ADJ	_	_	_	_	_	_
+12	als	als	CCONJ	_	_	_	_	_	_
+13	gedacht	denken	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_254
+# text = Die Stadtverwaltung plant, den öffentlichen Nahverkehr umweltfreundlicher zu gestalten.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stadtverwaltung	Stadtverwaltung	NOUN	_	_	_	_	_	_
+3	plant	planen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	öffentlichen	öffentlich	ADJ	_	_	_	_	_	_
+7	Nahverkehr	Nahverkehr	NOUN	_	_	_	_	_	_
+8	umweltfreundlicher	umweltfreundlich	ADJ	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	gestalten	gestalten	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+

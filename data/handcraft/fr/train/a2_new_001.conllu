@@ -1,0 +1,2565 @@
+# sent_id = fr_a2_train_001
+# text = Nous avons pris le train pour Lyon hier soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	pris	prendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	train	train	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	Lyon	Lyon	PROPN	_	_	_	_	_	_
+8	hier	hier	ADV	_	_	_	_	_	_
+9	soir	soir	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_002
+# text = Je vais réserver une chambre d'hôtel pour demain.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	réserver	réserver	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	chambre	chambre	NOUN	_	_	_	_	_	_
+6	d'hôtel	d'hôtel	X	_	_	_	_	_	_
+7	pour	pour	X	_	_	_	_	_	_
+8	demain	demain	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_003
+# text = Ils ont visité la cathédrale pendant leur séjour à Paris.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	visité	visiter	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	cathédrale	cathédrale	NOUN	_	_	_	_	_	_
+6	pendant	pendant	ADP	_	_	_	_	_	_
+7	leur	leur	DET	_	_	_	_	_	_
+8	séjour	séjour	NOUN	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	Paris	Paris	PROPN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_004
+# text = Tu vas prendre l'avion ou le train pour Marseille?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	l'avion	l'avion	X	_	_	_	_	_	_
+5	ou	ou	CCONJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	train	train	X	_	_	_	_	_	_
+8	pour	pour	X	_	_	_	_	_	_
+9	Marseille	Marseille	X	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_005
+# text = Elle a perdu son passeport à la gare centrale.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	perdu	perdre	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	passeport	passeport	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	gare	gare	NOUN	_	_	_	_	_	_
+9	centrale	central	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_006
+# text = Nous allons partir en vacances la semaine prochaine.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	partir	partir	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	vacances	vacances	NOUN	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	semaine	semaine	NOUN	_	_	_	_	_	_
+8	prochaine	prochain	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_007
+# text = J'ai acheté un billet aller-retour pour Nice.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	acheté	acheté	X	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	billet	billet	X	_	_	_	_	_	_
+5	aller-retour	aller-retour	X	_	_	_	_	_	_
+6	pour	pour	X	_	_	_	_	_	_
+7	Nice	Nice	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_008
+# text = Ils vont passer trois jours à la montagne.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	vont	aller	VERB	_	_	_	_	_	_
+3	passer	passer	VERB	_	_	_	_	_	_
+4	trois	trois	NUM	_	_	_	_	_	_
+5	jours	jour	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	montagne	montagne	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_009
+# text = Nous avons attendu notre vol pendant deux heures.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	attendu	attendre	VERB	_	_	_	_	_	_
+4	notre	notre	DET	_	_	_	_	_	_
+5	vol	vol	NOUN	_	_	_	_	_	_
+6	pendant	pendant	ADP	_	_	_	_	_	_
+7	deux	deux	NUM	_	_	_	_	_	_
+8	heures	heure	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_010
+# text = Je vais changer d'argent à la banque demain.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	changer	changer	VERB	_	_	_	_	_	_
+4	d'argent	d'argent	X	_	_	_	_	_	_
+5	à	à	X	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	banque	banque	X	_	_	_	_	_	_
+8	demain	demain	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_011
+# text = Elle a pris des photos devant la Tour Eiffel.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	pris	prendre	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	photos	photo	NOUN	_	_	_	_	_	_
+6	devant	devant	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	Tour	tour	NOUN	_	_	_	_	_	_
+9	Eiffel	Eiffel	PROPN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_012
+# text = Tu vas descendre à la prochaine station de métro?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	descendre	descendre	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	prochaine	prochain	ADJ	_	_	_	_	_	_
+7	station	station	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	métro	métro	NOUN	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_013
+# text = Nous avons loué une voiture pour visiter la région.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	loué	louer	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	voiture	voiture	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	visiter	visiter	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	région	région	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_014
+# text = Il va arriver à l'aéroport vers huit heures.
+1	Il	il	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	arriver	arriver	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	l'aéroport	l'aéroport	X	_	_	_	_	_	_
+6	vers	vers	X	_	_	_	_	_	_
+7	huit	huit	X	_	_	_	_	_	_
+8	heures	heures	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_015
+# text = J'ai oublié ma valise dans le taxi hier.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	oublié	oublié	X	_	_	_	_	_	_
+3	ma	mon	DET	_	_	_	_	_	_
+4	valise	valise	X	_	_	_	_	_	_
+5	dans	dans	X	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	taxi	taxi	X	_	_	_	_	_	_
+8	hier	hier	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_016
+# text = Nous allons faire une excursion en bateau demain.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	faire	faire	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	excursion	excursion	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	bateau	bateau	NOUN	_	_	_	_	_	_
+8	demain	demain	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_017
+# text = Ils ont dormi dans un petit hôtel près de la plage.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	dormi	dormir	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	petit	petit	ADJ	_	_	_	_	_	_
+7	hôtel	hôtel	NOUN	_	_	_	_	_	_
+8	près	près	ADV	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	plage	plage	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_018
+# text = Je vais demander une carte de la ville à l'accueil.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	demander	demander	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	carte	carte	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	ville	ville	NOUN	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	l'accueil	l'accueil	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_019
+# text = Elle a rencontré des amis pendant son voyage en Italie.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	rencontré	rencontrer	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	amis	ami	NOUN	_	_	_	_	_	_
+6	pendant	pendant	ADP	_	_	_	_	_	_
+7	son	son	DET	_	_	_	_	_	_
+8	voyage	voyage	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	Italie	Italie	PROPN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_020
+# text = Nous allons prendre le ferry pour l'île cet après-midi.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	ferry	ferry	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	l'île	l'île	X	_	_	_	_	_	_
+8	cet	ce	DET	_	_	_	_	_	_
+9	après-midi	après-midi	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_021
+# text = Tu as déjà visité ce musée avec ta famille?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	déjà	déjà	ADV	_	_	_	_	_	_
+4	visité	visiter	VERB	_	_	_	_	_	_
+5	ce	ce	DET	_	_	_	_	_	_
+6	musée	musée	NOUN	_	_	_	_	_	_
+7	avec	avec	ADP	_	_	_	_	_	_
+8	ta	ton	DET	_	_	_	_	_	_
+9	famille	famille	NOUN	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_022
+# text = Il va chercher les horaires des bus à la gare.
+1	Il	il	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	chercher	chercher	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	horaires	horaire	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	bus	bus	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	gare	gare	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_023
+# text = Nous avons marché longtemps dans les rues du centre.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	marché	marcher	VERB	_	_	_	_	_	_
+4	longtemps	longtemps	ADV	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	rues	rue	NOUN	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	centre	centre	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_024
+# text = Je vais envoyer une carte postale à mes parents.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	envoyer	envoyer	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	carte	carte	NOUN	_	_	_	_	_	_
+6	postale	postal	ADJ	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	mes	mon	DET	_	_	_	_	_	_
+9	parents	parent	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_025
+# text = Ils ont goûté des spécialités locales au marché.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	goûté	goûter	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	spécialités	spécialité	NOUN	_	_	_	_	_	_
+6	locales	local	ADJ	_	_	_	_	_	_
+7	au	au	ADP	_	_	_	_	_	_
+8	marché	marché	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_026
+# text = J'ai acheté une robe rouge au centre commercial.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	acheté	acheté	X	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	robe	robe	X	_	_	_	_	_	_
+5	rouge	rouge	X	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	centre	centre	X	_	_	_	_	_	_
+8	commercial	commercial	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_027
+# text = Nous allons faire les courses au supermarché ce soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	faire	faire	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	courses	course	NOUN	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	supermarché	supermarché	X	_	_	_	_	_	_
+8	ce	ce	DET	_	_	_	_	_	_
+9	soir	soir	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_028
+# text = Elle a payé avec sa carte bancaire à la caisse.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	payé	payer	VERB	_	_	_	_	_	_
+4	avec	avec	ADP	_	_	_	_	_	_
+5	sa	son	DET	_	_	_	_	_	_
+6	carte	carte	NOUN	_	_	_	_	_	_
+7	bancaire	bancaire	ADJ	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	caisse	caisse	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_029
+# text = Tu vas essayer cette veste bleue en taille moyenne?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	essayer	essayer	VERB	_	_	_	_	_	_
+4	cette	ce	DET	_	_	_	_	_	_
+5	veste	veste	NOUN	_	_	_	_	_	_
+6	bleue	bleu	ADJ	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	taille	taille	NOUN	_	_	_	_	_	_
+9	moyenne	moyen	ADJ	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_030
+# text = Ils ont trouvé des chaussures en solde hier.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	trouvé	trouver	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	chaussures	chaussure	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	solde	solde	NOUN	_	_	_	_	_	_
+8	hier	hier	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_031
+# text = Je vais chercher un cadeau pour l'anniversaire de Marie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	chercher	chercher	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	cadeau	cadeau	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	l'anniversaire	l'anniversaire	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	Marie	Marie	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_032
+# text = Nous avons comparé les prix dans trois magasins différents.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	comparé	comparer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	prix	prix	NOUN	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	trois	trois	NUM	_	_	_	_	_	_
+8	magasins	magasin	NOUN	_	_	_	_	_	_
+9	différents	différent	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_033
+# text = Il va retourner ce pull parce qu'il est trop petit.
+1	Il	il	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	retourner	retourner	VERB	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	pull	pull	NOUN	_	_	_	_	_	_
+6	parce	parce	SCONJ	_	_	_	_	_	_
+7	qu'il	qu'il	X	_	_	_	_	_	_
+8	est	être	AUX	_	_	_	_	_	_
+9	trop	trop	X	_	_	_	_	_	_
+10	petit	petit	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_034
+# text = Elle a demandé un reçu après son achat.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	demandé	demander	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	reçu	recevoir	NOUN	_	_	_	_	_	_
+6	après	après	ADP	_	_	_	_	_	_
+7	son	son	DET	_	_	_	_	_	_
+8	achat	achat	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_035
+# text = Tu vas prendre le sac en cuir ou en tissu?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	sac	sac	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	cuir	cuir	NOUN	_	_	_	_	_	_
+8	ou	ou	CCONJ	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	tissu	tissu	NOUN	_	_	_	_	_	_
+11	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_036
+# text = J'ai dépensé trop d'argent au marché ce matin.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	dépensé	dépensé	X	_	_	_	_	_	_
+3	trop	trop	X	_	_	_	_	_	_
+4	d'argent	d'argent	X	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	marché	marché	X	_	_	_	_	_	_
+7	ce	ce	DET	_	_	_	_	_	_
+8	matin	matin	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_037
+# text = Nous allons commander des fruits frais en ligne.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	commander	commander	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	fruits	fruit	NOUN	_	_	_	_	_	_
+6	frais	frais	ADJ	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	ligne	ligne	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_038
+# text = Ils ont échangé le manteau contre une taille plus grande.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	échangé	échanger	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	manteau	manteau	NOUN	_	_	_	_	_	_
+6	contre	contre	ADP	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	taille	taille	NOUN	_	_	_	_	_	_
+9	plus	plus	ADV	_	_	_	_	_	_
+10	grande	grand	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_039
+# text = Je vais payer en espèces à la boulangerie.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	payer	payer	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	espèces	espèce	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	boulangerie	boulangerie	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_040
+# text = Elle a choisi un pantalon noir pour le travail.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	choisi	choisir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	pantalon	pantalon	NOUN	_	_	_	_	_	_
+6	noir	noir	ADJ	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	travail	travail	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_041
+# text = Tu as déjà utilisé ce coupon de réduction?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	déjà	déjà	ADV	_	_	_	_	_	_
+4	utilisé	utiliser	VERB	_	_	_	_	_	_
+5	ce	ce	DET	_	_	_	_	_	_
+6	coupon	coupon	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	réduction	réduction	NOUN	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_042
+# text = Nous allons attendre les soldes pour acheter un canapé.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	attendre	attendre	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	soldes	solde	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	acheter	acheter	VERB	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	canapé	canapé	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_043
+# text = Il a négocié le prix avec le vendeur du marché.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	négocié	négocier	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	prix	prix	NOUN	_	_	_	_	_	_
+6	avec	avec	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	vendeur	vendeur	NOUN	_	_	_	_	_	_
+9	du	du	ADP	_	_	_	_	_	_
+10	marché	marché	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_044
+# text = Je vais prendre deux kilos de pommes, s'il vous plaît.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	deux	deux	NUM	_	_	_	_	_	_
+5	kilos	kilo	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	pommes	pomme	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	s'il	s'il	X	_	_	_	_	_	_
+10	vous	vous	PRON	_	_	_	_	_	_
+11	plaît	plaît	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_045
+# text = Elle a oublié son portefeuille dans le magasin de chaussures.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	oublié	oublier	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	portefeuille	portefeuille	NOUN	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	magasin	magasin	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	chaussures	chaussure	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_046
+# text = Nous avons acheté du pain et du fromage ce matin.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	acheté	acheter	VERB	_	_	_	_	_	_
+4	du	du	ADP	_	_	_	_	_	_
+5	pain	pain	X	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	du	du	ADP	_	_	_	_	_	_
+8	fromage	fromage	X	_	_	_	_	_	_
+9	ce	ce	DET	_	_	_	_	_	_
+10	matin	matin	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_047
+# text = Tu vas emporter ces articles ou les faire livrer?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	emporter	emporter	VERB	_	_	_	_	_	_
+4	ces	ce	DET	_	_	_	_	_	_
+5	articles	article	NOUN	_	_	_	_	_	_
+6	ou	ou	CCONJ	_	_	_	_	_	_
+7	les	le	PRON	_	_	_	_	_	_
+8	faire	faire	VERB	_	_	_	_	_	_
+9	livrer	livrer	VERB	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_048
+# text = Ils ont rempli leur panier avec des produits locaux.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	rempli	remplir	VERB	_	_	_	_	_	_
+4	leur	leur	DET	_	_	_	_	_	_
+5	panier	panier	NOUN	_	_	_	_	_	_
+6	avec	avec	ADP	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	produits	produit	NOUN	_	_	_	_	_	_
+9	locaux	local	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_049
+# text = Je vais demander la taille au vendeur, s'il vous plaît.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	demander	demander	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	taille	taille	NOUN	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	vendeur	vendeur	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	s'il	s'il	X	_	_	_	_	_	_
+10	vous	vous	PRON	_	_	_	_	_	_
+11	plaît	plaît	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_050
+# text = Elle a rendu le livre défectueux à la librairie.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	rendu	rendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	livre	livre	NOUN	_	_	_	_	_	_
+6	défectueux	défectueux	ADJ	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	librairie	librairie	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_051
+# text = J'ai pris rendez-vous chez le médecin pour demain.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	pris	pris	X	_	_	_	_	_	_
+3	rendez-vous	rendez-vous	X	_	_	_	_	_	_
+4	chez	chez	X	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	médecin	médecin	X	_	_	_	_	_	_
+7	pour	pour	X	_	_	_	_	_	_
+8	demain	demain	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_052
+# text = Elle va aller à la pharmacie acheter des médicaments.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	aller	aller	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	pharmacie	pharmacie	NOUN	_	_	_	_	_	_
+7	acheter	acheter	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	médicaments	médicaments	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_053
+# text = Nous avons attendu longtemps à la salle d'attente.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	attendu	attendre	VERB	_	_	_	_	_	_
+4	longtemps	longtemps	ADV	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	salle	salle	NOUN	_	_	_	_	_	_
+8	d'attente	d'attente	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_054
+# text = Il a mal à la tête depuis ce matin.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	VERB	_	_	_	_	_	_
+3	mal	mal	ADV	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	tête	tête	NOUN	_	_	_	_	_	_
+7	depuis	depuis	ADP	_	_	_	_	_	_
+8	ce	ce	DET	_	_	_	_	_	_
+9	matin	matin	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_055
+# text = Tu vas boire plus d'eau pendant la journée?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	boire	boire	VERB	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	d'eau	d'eau	X	_	_	_	_	_	_
+6	pendant	pendant	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	journée	journée	X	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_056
+# text = Elle a suivi les conseils de son médecin traitant.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	suivi	suivre	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	conseils	conseil	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	son	son	DET	_	_	_	_	_	_
+8	médecin	médecin	NOUN	_	_	_	_	_	_
+9	traitant	traitant	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_057
+# text = Nous allons faire une prise de sang lundi matin.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	faire	faire	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	prise	prise	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	sang	sang	NOUN	_	_	_	_	_	_
+8	lundi	lundi	NOUN	_	_	_	_	_	_
+9	matin	matin	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_058
+# text = J'ai attrapé un rhume pendant mon voyage.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	attrapé	attrapé	X	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	rhume	rhume	X	_	_	_	_	_	_
+5	pendant	pendant	X	_	_	_	_	_	_
+6	mon	mon	DET	_	_	_	_	_	_
+7	voyage	voyage	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_059
+# text = Il va se reposer à la maison toute la journée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	se	se	PRON	_	_	_	_	_	_
+4	reposer	reposer	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	maison	maison	NOUN	_	_	_	_	_	_
+8	toute	tout	ADJ	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	journée	journée	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_060
+# text = Elle a pris une aspirine après le déjeuner.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	pris	prendre	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	aspirine	aspirine	NOUN	_	_	_	_	_	_
+6	après	après	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	déjeuner	déjeuner	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_061
+# text = Nous avons appelé le numéro des urgences hier soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	appelé	appeler	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	numéro	numéro	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	urgences	urgences	X	_	_	_	_	_	_
+8	hier	hier	X	_	_	_	_	_	_
+9	soir	soir	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_062
+# text = Tu vas arrêter de fumer pour améliorer ta santé?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	arrêter	arrêter	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	fumer	fumer	VERB	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	améliorer	améliorer	VERB	_	_	_	_	_	_
+8	ta	ton	DET	_	_	_	_	_	_
+9	santé	santé	NOUN	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_063
+# text = Il a fait une allergie aux fruits de mer.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	fait	faire	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	allergie	allergie	NOUN	_	_	_	_	_	_
+6	aux	aux	ADP	_	_	_	_	_	_
+7	fruits	fruits	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	mer	mer	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_064
+# text = Je vais manger plus de légumes et moins de sucre.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	manger	manger	VERB	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	légumes	légume	NOUN	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	moins	moins	ADV	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	sucre	sucre	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_065
+# text = Elle a porté un masque à l'hôpital la semaine dernière.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	porté	porter	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	masque	masque	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	l'hôpital	l'hôpital	X	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	semaine	semaine	X	_	_	_	_	_	_
+10	dernière	dernière	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_066
+# text = Nous avons parlé de notre alimentation avec le nutritionniste.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	parlé	parler	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	notre	notre	DET	_	_	_	_	_	_
+6	alimentation	alimentation	NOUN	_	_	_	_	_	_
+7	avec	avec	ADP	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	nutritionniste	nutritionniste	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_067
+# text = Tu as déjà fait un test pour la grippe?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	déjà	déjà	ADV	_	_	_	_	_	_
+4	fait	faire	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	test	test	NOUN	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	grippe	grippe	NOUN	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_068
+# text = Il va prendre ses médicaments trois fois par jour.
+1	Il	il	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	ses	son	DET	_	_	_	_	_	_
+5	médicaments	médicament	NOUN	_	_	_	_	_	_
+6	trois	trois	NUM	_	_	_	_	_	_
+7	fois	foi	NOUN	_	_	_	_	_	_
+8	par	par	ADP	_	_	_	_	_	_
+9	jour	jour	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_069
+# text = Elle s'est blessée au genou en faisant du sport.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	s'est	s'est	X	_	_	_	_	_	_
+3	blessée	blessée	X	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	genou	genou	X	_	_	_	_	_	_
+6	en	en	PRON	_	_	_	_	_	_
+7	faisant	faisant	X	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	sport	sport	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_070
+# text = Nous allons marcher trente minutes chaque matin.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	marcher	marcher	VERB	_	_	_	_	_	_
+4	trente	trente	NUM	_	_	_	_	_	_
+5	minutes	minute	NOUN	_	_	_	_	_	_
+6	chaque	chaque	DET	_	_	_	_	_	_
+7	matin	matin	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_071
+# text = J'ai dormi mal à cause de la toux cette nuit.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	dormi	dormi	X	_	_	_	_	_	_
+3	mal	mal	X	_	_	_	_	_	_
+4	à	à	X	_	_	_	_	_	_
+5	cause	cause	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	toux	toux	X	_	_	_	_	_	_
+9	cette	ce	DET	_	_	_	_	_	_
+10	nuit	nuit	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_072
+# text = Il a consulté un dentiste pour une carie.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	consulté	consulter	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	dentiste	dentiste	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	carie	carie	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_073
+# text = Tu vas te laver les mains avant de manger?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	te	te	PRON	_	_	_	_	_	_
+4	laver	laver	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	mains	main	NOUN	_	_	_	_	_	_
+7	avant	avant	ADV	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	manger	manger	VERB	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_074
+# text = Elle a guéri rapidement grâce au traitement prescrit.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	guéri	guérir	VERB	_	_	_	_	_	_
+4	rapidement	rapidement	ADV	_	_	_	_	_	_
+5	grâce	grâce	NOUN	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	traitement	traitement	X	_	_	_	_	_	_
+8	prescrit	prescrit	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_075
+# text = Nous avons acheté du sirop contre la toux à la pharmacie.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	acheté	acheter	VERB	_	_	_	_	_	_
+4	du	du	ADP	_	_	_	_	_	_
+5	sirop	sirop	X	_	_	_	_	_	_
+6	contre	contre	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	toux	toux	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	pharmacie	pharmacie	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_076
+# text = J'ai commencé à apprendre la guitare l'année dernière.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	commencé	commencé	X	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	apprendre	apprendre	X	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	guitare	guitare	X	_	_	_	_	_	_
+7	l'année	l'année	X	_	_	_	_	_	_
+8	dernière	dernière	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_077
+# text = Nous allons jouer au football au parc ce week-end.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	jouer	jouer	VERB	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	football	football	X	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	parc	parc	X	_	_	_	_	_	_
+8	ce	ce	DET	_	_	_	_	_	_
+9	week-end	week-end	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_078
+# text = Elle a lu trois romans pendant ses vacances.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	lu	lire	VERB	_	_	_	_	_	_
+4	trois	trois	NUM	_	_	_	_	_	_
+5	romans	roman	NOUN	_	_	_	_	_	_
+6	pendant	pendant	ADP	_	_	_	_	_	_
+7	ses	son	DET	_	_	_	_	_	_
+8	vacances	vacances	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_079
+# text = Tu vas participer au tournoi de tennis demain?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	participer	participer	VERB	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	tournoi	tournoi	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	tennis	tennis	X	_	_	_	_	_	_
+8	demain	demain	X	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_080
+# text = Ils ont peint un paysage pendant le cours d'art.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	peint	peindre	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	paysage	paysage	NOUN	_	_	_	_	_	_
+6	pendant	pendant	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	cours	cour	NOUN	_	_	_	_	_	_
+9	d'art	d'art	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_081
+# text = Je vais courir dans le bois tous les matins.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	courir	courir	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	bois	boi	NOUN	_	_	_	_	_	_
+7	tous	tout	ADJ	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	matins	matin	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_082
+# text = Elle a regardé un documentaire sur la nature hier.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	regardé	regarder	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	documentaire	documentaire	NOUN	_	_	_	_	_	_
+6	sur	sur	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	nature	nature	NOUN	_	_	_	_	_	_
+9	hier	hier	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_083
+# text = Nous allons cuisiner un gâteau pour la fête.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	cuisiner	cuisiner	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	gâteau	gâteau	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	fête	fête	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_084
+# text = Il a collectionné des timbres depuis son enfance.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	collectionné	collectionner	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	timbres	timbre	NOUN	_	_	_	_	_	_
+6	depuis	depuis	ADP	_	_	_	_	_	_
+7	son	son	DET	_	_	_	_	_	_
+8	enfance	enfance	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_085
+# text = Tu vas prendre des cours de danse le mercredi?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	cours	cour	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	danse	danse	NOUN	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	mercredi	mercredi	NOUN	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_086
+# text = J'ai passé l'après-midi à dessiner dans mon carnet.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	passé	passé	X	_	_	_	_	_	_
+3	l'après-midi	l'après-midi	X	_	_	_	_	_	_
+4	à	à	X	_	_	_	_	_	_
+5	dessiner	dessiner	X	_	_	_	_	_	_
+6	dans	dans	X	_	_	_	_	_	_
+7	mon	mon	DET	_	_	_	_	_	_
+8	carnet	carnet	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_087
+# text = Nous allons faire une randonnée en forêt dimanche.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	faire	faire	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	randonnée	randonnée	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	forêt	forêt	NOUN	_	_	_	_	_	_
+8	dimanche	dimanche	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_088
+# text = Elle a écouté de la musique classique toute la soirée.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	écouté	écouter	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	musique	musique	NOUN	_	_	_	_	_	_
+7	classique	classique	ADJ	_	_	_	_	_	_
+8	toute	tout	ADJ	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	soirée	soirée	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_089
+# text = Il a appris à nager à la piscine municipale.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	appris	apprendre	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	nager	nager	VERB	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	piscine	piscine	NOUN	_	_	_	_	_	_
+9	municipale	municipal	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_090
+# text = Tu vas emprunter ce livre à la bibliothèque?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	emprunter	emprunter	VERB	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	livre	livre	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	bibliothèque	bibliothèque	NOUN	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_091
+# text = Nous avons planté des fleurs dans le jardin.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	planté	planter	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	fleurs	fleurs	X	_	_	_	_	_	_
+6	dans	dans	X	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	jardin	jardin	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_092
+# text = Je vais photographier les oiseaux au lac demain.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	photographier	photographier	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	oiseaux	oiseau	NOUN	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	lac	lac	X	_	_	_	_	_	_
+8	demain	demain	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_093
+# text = Elle a tricoté un pull pour son petit frère.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	tricoté	tricoter	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	pull	pull	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	son	son	DET	_	_	_	_	_	_
+8	petit	petit	ADJ	_	_	_	_	_	_
+9	frère	frère	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_094
+# text = Ils ont regardé un match de basket à la télévision.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	regardé	regarder	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	match	match	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	basket	basket	NOUN	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	télévision	télévision	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_095
+# text = Tu as déjà essayé la poterie au centre culturel?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	déjà	déjà	ADV	_	_	_	_	_	_
+4	essayé	essayer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	poterie	poterie	NOUN	_	_	_	_	_	_
+7	au	au	ADP	_	_	_	_	_	_
+8	centre	centre	X	_	_	_	_	_	_
+9	culturel	culturel	X	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_096
+# text = Nous allons organiser une soirée jeux avec nos amis.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	organiser	organiser	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	soirée	soirée	NOUN	_	_	_	_	_	_
+6	jeux	jeu	NOUN	_	_	_	_	_	_
+7	avec	avec	ADP	_	_	_	_	_	_
+8	nos	notre	DET	_	_	_	_	_	_
+9	amis	ami	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_097
+# text = Il a écrit un poème pour le concours de l'école.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	écrit	écrire	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	poème	poème	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	concours	concour	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	l'école	l'école	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_098
+# text = Je vais apprendre à jouer aux échecs avec mon grand-père.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	apprendre	apprendre	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	jouer	jouer	VERB	_	_	_	_	_	_
+6	aux	aux	ADP	_	_	_	_	_	_
+7	échecs	échecs	X	_	_	_	_	_	_
+8	avec	avec	X	_	_	_	_	_	_
+9	mon	mon	DET	_	_	_	_	_	_
+10	grand-père	grand-père	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_099
+# text = Elle a fait du vélo le long de la rivière.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	fait	faire	VERB	_	_	_	_	_	_
+4	du	du	DET	_	_	_	_	_	_
+5	vélo	vélo	NOUN	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	long	long	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	rivière	rivière	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_100
+# text = Nous avons passé un bon moment au concert hier.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	passé	passer	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	bon	bon	ADJ	_	_	_	_	_	_
+6	moment	moment	NOUN	_	_	_	_	_	_
+7	au	au	ADP	_	_	_	_	_	_
+8	concert	concert	X	_	_	_	_	_	_
+9	hier	hier	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_101
+# text = J'ai commencé mon nouveau travail lundi matin.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	commencé	commencé	X	_	_	_	_	_	_
+3	mon	mon	DET	_	_	_	_	_	_
+4	nouveau	nouveau	X	_	_	_	_	_	_
+5	travail	travail	X	_	_	_	_	_	_
+6	lundi	lundi	X	_	_	_	_	_	_
+7	matin	matin	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_102
+# text = Elle va préparer un rapport pour la réunion demain.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	préparer	préparer	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	rapport	rapport	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	réunion	réunion	NOUN	_	_	_	_	_	_
+9	demain	demain	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_103
+# text = Nous avons travaillé tard au bureau hier soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	travaillé	travailler	VERB	_	_	_	_	_	_
+4	tard	tard	ADV	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	bureau	bureau	X	_	_	_	_	_	_
+7	hier	hier	X	_	_	_	_	_	_
+8	soir	soir	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_104
+# text = Il a envoyé son curriculum vitae par courriel.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	envoyé	envoyer	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	curriculum	curriculum	NOUN	_	_	_	_	_	_
+6	vitae	vitae	NOUN	_	_	_	_	_	_
+7	par	par	ADP	_	_	_	_	_	_
+8	courriel	courriel	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_105
+# text = Tu vas arriver à l'heure pour l'entretien?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	arriver	arriver	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	l'heure	l'heure	X	_	_	_	_	_	_
+6	pour	pour	X	_	_	_	_	_	_
+7	l'entretien	l'entretien	X	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_106
+# text = Elle a répondu aux messages de ses collègues.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	répondu	répondre	VERB	_	_	_	_	_	_
+4	aux	aux	ADP	_	_	_	_	_	_
+5	messages	messages	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	ses	son	DET	_	_	_	_	_	_
+8	collègues	collègues	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_107
+# text = Nous allons organiser une réunion avec le directeur.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	organiser	organiser	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	réunion	réunion	NOUN	_	_	_	_	_	_
+6	avec	avec	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	directeur	directeur	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_108
+# text = J'ai pris une pause déjeuner à midi aujourd'hui.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	pris	pris	X	_	_	_	_	_	_
+3	une	un	DET	_	_	_	_	_	_
+4	pause	pause	X	_	_	_	_	_	_
+5	déjeuner	déjeuner	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	midi	midi	X	_	_	_	_	_	_
+8	aujourd'hui	aujourd'hui	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_109
+# text = Il a fini sa tâche avant la fin de la journée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	fini	finir	VERB	_	_	_	_	_	_
+4	sa	son	DET	_	_	_	_	_	_
+5	tâche	tâche	NOUN	_	_	_	_	_	_
+6	avant	avant	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	fin	fin	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	journée	journée	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_110
+# text = Tu vas demander un congé pour la semaine prochaine?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	demander	demander	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	congé	congé	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	semaine	semaine	NOUN	_	_	_	_	_	_
+9	prochaine	prochain	ADJ	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_111
+# text = Elle a appris à utiliser un nouveau logiciel.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	appris	apprendre	VERB	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	utiliser	utiliser	VERB	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	nouveau	nouveau	ADJ	_	_	_	_	_	_
+8	logiciel	logiciel	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_112
+# text = Nous avons signé le contrat avec le client hier.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	signé	signer	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	contrat	contrat	NOUN	_	_	_	_	_	_
+6	avec	avec	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	client	client	NOUN	_	_	_	_	_	_
+9	hier	hier	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_113
+# text = Je vais téléphoner au service des ressources humaines.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	téléphoner	téléphoner	VERB	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	service	service	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	ressources	ressources	X	_	_	_	_	_	_
+8	humaines	humaines	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_114
+# text = Il a reçu un salaire plus élevé ce mois-ci.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	reçu	recevoir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	salaire	salaire	NOUN	_	_	_	_	_	_
+6	plus	plus	ADV	_	_	_	_	_	_
+7	élevé	élevé	ADJ	_	_	_	_	_	_
+8	ce	ce	DET	_	_	_	_	_	_
+9	mois-ci	mois-ci	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_115
+# text = Tu as déjà travaillé dans un restaurant?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	déjà	déjà	ADV	_	_	_	_	_	_
+4	travaillé	travailler	VERB	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	restaurant	restaurant	NOUN	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_116
+# text = Elle va présenter son projet devant toute l'équipe.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	va	aller	VERB	_	_	_	_	_	_
+3	présenter	présenter	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	projet	projet	NOUN	_	_	_	_	_	_
+6	devant	devant	ADP	_	_	_	_	_	_
+7	toute	tout	ADJ	_	_	_	_	_	_
+8	l'équipe	l'équipe	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_117
+# text = Nous avons nettoyé le magasin avant l'ouverture.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	nettoyé	nettoyer	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	magasin	magasin	NOUN	_	_	_	_	_	_
+6	avant	avant	ADP	_	_	_	_	_	_
+7	l'ouverture	l'ouverture	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_118
+# text = Je vais noter les idées importantes pendant la réunion.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	noter	noter	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	idées	idée	NOUN	_	_	_	_	_	_
+6	importantes	important	ADJ	_	_	_	_	_	_
+7	pendant	pendant	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	réunion	réunion	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_119
+# text = Il a aidé un nouveau collègue à son poste.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	aidé	aider	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	nouveau	nouveau	ADJ	_	_	_	_	_	_
+6	collègue	collègue	NOUN	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	son	son	DET	_	_	_	_	_	_
+9	poste	poste	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_120
+# text = Tu vas porter une chemise pour l'entretien demain?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	porter	porter	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	chemise	chemise	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	l'entretien	l'entretien	X	_	_	_	_	_	_
+8	demain	demain	X	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_121
+# text = Elle a compté les stocks en fin de journée.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	compté	compter	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	stocks	stock	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	fin	fin	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	journée	journée	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_122
+# text = Nous allons livrer les commandes avant ce soir.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	livrer	livrer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	commandes	commande	NOUN	_	_	_	_	_	_
+6	avant	avant	ADP	_	_	_	_	_	_
+7	ce	ce	DET	_	_	_	_	_	_
+8	soir	soir	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_123
+# text = J'ai oublié mes clés de bureau ce matin.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	oublié	oublié	X	_	_	_	_	_	_
+3	mes	mon	DET	_	_	_	_	_	_
+4	clés	clés	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	bureau	bureau	X	_	_	_	_	_	_
+7	ce	ce	DET	_	_	_	_	_	_
+8	matin	matin	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_124
+# text = Il a pris le métro pour aller au travail.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	pris	prendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	métro	métro	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	aller	aller	VERB	_	_	_	_	_	_
+8	au	au	ADP	_	_	_	_	_	_
+9	travail	travail	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_125
+# text = Tu vas chercher un emploi à temps partiel?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	chercher	chercher	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	emploi	emploi	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	temps	temp	NOUN	_	_	_	_	_	_
+8	partiel	partiel	ADJ	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_126
+# text = J'ai vécu à Bordeaux pendant cinq ans.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	vécu	vécu	X	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	Bordeaux	Bordeaux	X	_	_	_	_	_	_
+5	pendant	pendant	X	_	_	_	_	_	_
+6	cinq	cinq	X	_	_	_	_	_	_
+7	ans	ans	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_127
+# text = Elle a rencontré son mari lors d'un voyage.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	rencontré	rencontrer	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	mari	mari	NOUN	_	_	_	_	_	_
+6	lors	lors	ADV	_	_	_	_	_	_
+7	d'un	d'un	X	_	_	_	_	_	_
+8	voyage	voyage	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_128
+# text = Nous avons célébré Noël chez mes grands-parents.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	célébré	célébrer	VERB	_	_	_	_	_	_
+4	Noël	Noël	PROPN	_	_	_	_	_	_
+5	chez	chez	ADP	_	_	_	_	_	_
+6	mes	mon	DET	_	_	_	_	_	_
+7	grands-parents	grand-parent	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_129
+# text = Il a appris le français à l'école secondaire.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	appris	apprendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	français	français	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	l'école	l'école	X	_	_	_	_	_	_
+8	secondaire	secondaire	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_130
+# text = Tu as déjà mangé des escargots en France?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	déjà	déjà	ADV	_	_	_	_	_	_
+4	mangé	manger	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	escargots	escargots	X	_	_	_	_	_	_
+7	en	en	PRON	_	_	_	_	_	_
+8	France	France	X	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_131
+# text = Elle a obtenu son diplôme l'année dernière.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	obtenu	obtenir	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	diplôme	diplôme	NOUN	_	_	_	_	_	_
+6	l'année	l'année	X	_	_	_	_	_	_
+7	dernière	dernière	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_132
+# text = Nous avons passé un été formidable à la campagne.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	passé	passer	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	été	être	AUX	_	_	_	_	_	_
+6	formidable	formidable	ADJ	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	campagne	campagne	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_133
+# text = J'ai perdu mon téléphone pendant le concert.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	perdu	perdu	X	_	_	_	_	_	_
+3	mon	mon	DET	_	_	_	_	_	_
+4	téléphone	téléphone	X	_	_	_	_	_	_
+5	pendant	pendant	X	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	concert	concert	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_134
+# text = Il a voyagé seul en Espagne pour la première fois.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	voyagé	voyager	VERB	_	_	_	_	_	_
+4	seul	seul	ADJ	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	Espagne	Espagne	PROPN	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	première	premier	ADJ	_	_	_	_	_	_
+10	fois	foi	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_135
+# text = Tu as vu ce film au cinéma la semaine passée?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	vu	voir	VERB	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	film	film	NOUN	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	cinéma	cinéma	X	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	semaine	semaine	X	_	_	_	_	_	_
+10	passée	passée	X	_	_	_	_	_	_
+11	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_136
+# text = Elle a écrit une lettre à son ancienne professeure.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	écrit	écrire	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	lettre	lettre	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	son	son	DET	_	_	_	_	_	_
+8	ancienne	ancien	ADJ	_	_	_	_	_	_
+9	professeure	professeure	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_137
+# text = Nous avons déménagé dans un appartement plus grand.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	déménagé	déménager	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	appartement	appartement	NOUN	_	_	_	_	_	_
+7	plus	plus	ADV	_	_	_	_	_	_
+8	grand	grand	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_138
+# text = J'ai fait la connaissance de Paul au travail.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	fait	fait	X	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	connaissance	connaissance	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	Paul	Paul	X	_	_	_	_	_	_
+7	au	au	ADP	_	_	_	_	_	_
+8	travail	travail	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_139
+# text = Il a raté son train à cause du trafic.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	raté	rater	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	train	train	NOUN	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	cause	cause	NOUN	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	trafic	trafic	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_140
+# text = Tu as déjà nagé dans la mer Méditerranée?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	déjà	déjà	ADV	_	_	_	_	_	_
+4	nagé	nager	VERB	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	mer	mer	NOUN	_	_	_	_	_	_
+8	Méditerranée	Méditerranée	PROPN	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_141
+# text = Elle a gagné un prix au concours de poésie.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	gagné	gagner	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	prix	prix	NOUN	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	concours	concours	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	poésie	poésie	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_142
+# text = Nous avons regardé les feux d'artifice le quatorze juillet.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	regardé	regarder	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	feux	feu	NOUN	_	_	_	_	_	_
+6	d'artifice	d'artifice	X	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	quatorze	quatorze	X	_	_	_	_	_	_
+9	juillet	juillet	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_143
+# text = J'ai cassé mon verre en le posant trop vite.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	cassé	cassé	X	_	_	_	_	_	_
+3	mon	mon	DET	_	_	_	_	_	_
+4	verre	verre	X	_	_	_	_	_	_
+5	en	en	PRON	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	posant	posant	X	_	_	_	_	_	_
+8	trop	trop	X	_	_	_	_	_	_
+9	vite	vite	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_144
+# text = Il a étudié l'allemand pendant deux semestres.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	étudié	étudier	VERB	_	_	_	_	_	_
+4	l'allemand	l'allemand	X	_	_	_	_	_	_
+5	pendant	pendant	X	_	_	_	_	_	_
+6	deux	deux	X	_	_	_	_	_	_
+7	semestres	semestres	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_145
+# text = Tu as visité tes cousins pendant les vacances?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	visité	visiter	VERB	_	_	_	_	_	_
+4	tes	ton	DET	_	_	_	_	_	_
+5	cousins	cousin	NOUN	_	_	_	_	_	_
+6	pendant	pendant	ADP	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	vacances	vacances	NOUN	_	_	_	_	_	_
+9	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_146
+# text = Elle a ouvert un petit café près de la gare.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	ouvert	ouvrir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	petit	petit	ADJ	_	_	_	_	_	_
+6	café	café	NOUN	_	_	_	_	_	_
+7	près	près	ADV	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	gare	gare	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_147
+# text = Nous avons dansé toute la nuit à la fête.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	dansé	danser	VERB	_	_	_	_	_	_
+4	toute	tout	ADJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	nuit	nuit	NOUN	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	fête	fête	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_148
+# text = J'ai trouvé un chaton abandonné dans la rue.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	trouvé	trouvé	X	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	chaton	chaton	X	_	_	_	_	_	_
+5	abandonné	abandonné	X	_	_	_	_	_	_
+6	dans	dans	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	rue	rue	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_149
+# text = Il a réparé la porte de la cuisine lui-même.
+1	Il	il	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	réparé	réparer	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	porte	porte	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	cuisine	cuisine	NOUN	_	_	_	_	_	_
+9	lui-même	lui-même	PRON	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_150
+# text = Tu as fini ton roman avant la date limite?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	as	avoir	AUX	_	_	_	_	_	_
+3	fini	finir	VERB	_	_	_	_	_	_
+4	ton	ton	DET	_	_	_	_	_	_
+5	roman	roman	NOUN	_	_	_	_	_	_
+6	avant	avant	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	date	date	NOUN	_	_	_	_	_	_
+9	limite	limite	NOUN	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_151
+# text = Ce restaurant est plus cher que celui du coin.
+1	Ce	ce	DET	_	_	_	_	_	_
+2	restaurant	restaurant	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	cher	cher	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	celui	celui	PRON	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	coin	coin	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_152
+# text = Elle court aussi vite que son frère aîné.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	court	courir	VERB	_	_	_	_	_	_
+3	aussi	aussi	ADV	_	_	_	_	_	_
+4	vite	vite	ADV	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	son	son	DET	_	_	_	_	_	_
+7	frère	frère	NOUN	_	_	_	_	_	_
+8	aîné	aîné	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_153
+# text = J'ai acheté un téléphone moins cher que le tien.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	acheté	acheté	X	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	téléphone	téléphone	X	_	_	_	_	_	_
+5	moins	moins	X	_	_	_	_	_	_
+6	cher	cher	X	_	_	_	_	_	_
+7	que	que	PRON	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	tien	tien	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_154
+# text = Cette ville est plus calme que la capitale.
+1	Cette	ce	DET	_	_	_	_	_	_
+2	ville	ville	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	calme	calme	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	capitale	capitale	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_155
+# text = Il parle français mieux que moi maintenant.
+1	Il	il	PRON	_	_	_	_	_	_
+2	parle	parler	VERB	_	_	_	_	_	_
+3	français	français	ADJ	_	_	_	_	_	_
+4	mieux	mieux	ADV	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	moi	moi	PRON	_	_	_	_	_	_
+7	maintenant	maintenant	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_156
+# text = Nous allons choisir l'hôtel le plus proche de la plage.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	choisir	choisir	VERB	_	_	_	_	_	_
+4	l'hôtel	l'hôtel	X	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	plus	plus	ADV	_	_	_	_	_	_
+7	proche	proche	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	plage	plage	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_157
+# text = Ce film est plus intéressant que celui d'hier soir.
+1	Ce	ce	DET	_	_	_	_	_	_
+2	film	film	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	intéressant	intéressant	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	celui	celui	PRON	_	_	_	_	_	_
+8	d'hier	d'hier	X	_	_	_	_	_	_
+9	soir	soir	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_158
+# text = Elle est aussi grande que sa mère à son âge.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	aussi	aussi	ADV	_	_	_	_	_	_
+4	grande	grand	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	sa	son	DET	_	_	_	_	_	_
+7	mère	mère	NOUN	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	son	son	DET	_	_	_	_	_	_
+10	âge	âge	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_159
+# text = J'ai trouvé un trajet plus court vers le centre.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	trouvé	trouvé	X	_	_	_	_	_	_
+3	un	un	DET	_	_	_	_	_	_
+4	trajet	trajet	X	_	_	_	_	_	_
+5	plus	plus	ADV	_	_	_	_	_	_
+6	court	court	X	_	_	_	_	_	_
+7	vers	vers	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	centre	centre	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_160
+# text = Ce pain est meilleur que celui de la boulangerie voisine.
+1	Ce	ce	DET	_	_	_	_	_	_
+2	pain	pain	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	meilleur	meilleur	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	celui	celui	PRON	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	boulangerie	boulangerie	NOUN	_	_	_	_	_	_
+10	voisine	voisin	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_161
+# text = Il travaille plus dur que les autres employés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	travaille	travailler	VERB	_	_	_	_	_	_
+3	plus	plus	ADV	_	_	_	_	_	_
+4	dur	dur	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	autres	autre	ADJ	_	_	_	_	_	_
+8	employés	employé	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_162
+# text = Cette robe est moins longue que la robe bleue.
+1	Cette	ce	DET	_	_	_	_	_	_
+2	robe	robe	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	moins	moins	ADV	_	_	_	_	_	_
+5	longue	long	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	robe	robe	NOUN	_	_	_	_	_	_
+9	bleue	bleu	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_163
+# text = Nous avons pris le train le plus rapide disponible.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	pris	prendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	train	train	NOUN	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	plus	plus	ADV	_	_	_	_	_	_
+8	rapide	rapide	ADJ	_	_	_	_	_	_
+9	disponible	disponible	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_164
+# text = Tu es plus patient que ton ami dans cette situation.
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	es	être	AUX	_	_	_	_	_	_
+3	plus	plus	ADV	_	_	_	_	_	_
+4	patient	patient	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	ton	ton	DET	_	_	_	_	_	_
+7	ami	ami	NOUN	_	_	_	_	_	_
+8	dans	dans	ADP	_	_	_	_	_	_
+9	cette	ce	DET	_	_	_	_	_	_
+10	situation	situation	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_165
+# text = Ce magasin a des prix aussi bas que le marché.
+1	Ce	ce	DET	_	_	_	_	_	_
+2	magasin	magasin	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	prix	prix	NOUN	_	_	_	_	_	_
+6	aussi	aussi	ADV	_	_	_	_	_	_
+7	bas	bas	ADJ	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	marché	marché	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_166
+# text = Elle chante mieux que tout le monde dans le groupe.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	chante	chanter	VERB	_	_	_	_	_	_
+3	mieux	mieux	ADV	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	tout	tout	ADJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	monde	monde	NOUN	_	_	_	_	_	_
+8	dans	dans	ADP	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	groupe	groupe	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_167
+# text = J'ai choisi la chambre la plus lumineuse de l'hôtel.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	choisi	choisi	X	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	chambre	chambre	X	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	plus	plus	ADV	_	_	_	_	_	_
+7	lumineuse	lumineuse	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	l'hôtel	l'hôtel	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_168
+# text = Ce café est plus fort que celui que j'ai pris hier.
+1	Ce	ce	DET	_	_	_	_	_	_
+2	café	café	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	fort	fort	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	celui	celui	PRON	_	_	_	_	_	_
+8	que	que	PRON	_	_	_	_	_	_
+9	j'ai	j'ai	X	_	_	_	_	_	_
+10	pris	pris	X	_	_	_	_	_	_
+11	hier	hier	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_169
+# text = Il court moins souvent que sa sœur le week-end.
+1	Il	il	PRON	_	_	_	_	_	_
+2	court	courir	VERB	_	_	_	_	_	_
+3	moins	moins	ADV	_	_	_	_	_	_
+4	souvent	souvent	ADV	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	sa	son	DET	_	_	_	_	_	_
+7	sœur	sœur	NOUN	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	week-end	week-end	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_170
+# text = Cette rue est plus large que la rue d'à côté.
+1	Cette	ce	DET	_	_	_	_	_	_
+2	rue	rue	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	large	large	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	rue	rue	NOUN	_	_	_	_	_	_
+9	d'à	d'à	X	_	_	_	_	_	_
+10	côté	côté	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_171
+# text = Nous allons prendre le bus le moins cher possible.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	bus	bu	NOUN	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	moins	moins	ADV	_	_	_	_	_	_
+8	cher	cher	ADJ	_	_	_	_	_	_
+9	possible	possible	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_172
+# text = Elle est plus jeune que son mari de trois ans.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	plus	plus	ADV	_	_	_	_	_	_
+4	jeune	jeune	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	son	son	DET	_	_	_	_	_	_
+7	mari	mari	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	trois	trois	NUM	_	_	_	_	_	_
+10	ans	an	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_173
+# text = Ce livre est plus court que le roman précédent.
+1	Ce	ce	DET	_	_	_	_	_	_
+2	livre	livre	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	plus	plus	ADV	_	_	_	_	_	_
+5	court	court	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	roman	roman	NOUN	_	_	_	_	_	_
+9	précédent	précédent	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_174
+# text = J'ai acheté le sac le plus léger du magasin.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	acheté	acheté	X	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	sac	sac	X	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	plus	plus	ADV	_	_	_	_	_	_
+7	léger	léger	X	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	magasin	magasin	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_175
+# text = Il est aussi talentueux que son père au piano.
+1	Il	il	PRON	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	aussi	aussi	ADV	_	_	_	_	_	_
+4	talentueux	talentueux	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	son	son	DET	_	_	_	_	_	_
+7	père	père	NOUN	_	_	_	_	_	_
+8	au	au	ADP	_	_	_	_	_	_
+9	piano	piano	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_176
+# text = Tournez à droite après le feu rouge, s'il vous plaît.
+1	Tournez	tourner	VERB	_	_	_	_	_	_
+2	à	à	ADP	_	_	_	_	_	_
+3	droite	droite	NOUN	_	_	_	_	_	_
+4	après	après	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	feu	feu	NOUN	_	_	_	_	_	_
+7	rouge	rouge	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	s'il	s'il	X	_	_	_	_	_	_
+10	vous	vous	PRON	_	_	_	_	_	_
+11	plaît	plaît	X	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_177
+# text = La banque se trouve en face de la poste.
+1	La	le	DET	_	_	_	_	_	_
+2	banque	banque	NOUN	_	_	_	_	_	_
+3	se	se	PRON	_	_	_	_	_	_
+4	trouve	trouver	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	face	face	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	poste	poste	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_178
+# text = Nous allons passer devant l'église et continuer tout droit.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	passer	passer	VERB	_	_	_	_	_	_
+4	devant	devant	ADP	_	_	_	_	_	_
+5	l'église	l'église	X	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	continuer	continuer	X	_	_	_	_	_	_
+8	tout	tout	X	_	_	_	_	_	_
+9	droit	droit	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_179
+# text = J'ai demandé le chemin à un passant dans la rue.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	demandé	demandé	X	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	chemin	chemin	X	_	_	_	_	_	_
+5	à	à	X	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	passant	passant	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	rue	rue	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_180
+# text = Le musée est à côté de la place principale.
+1	Le	le	DET	_	_	_	_	_	_
+2	musée	musée	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	à	à	ADP	_	_	_	_	_	_
+5	côté	côté	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	place	place	NOUN	_	_	_	_	_	_
+9	principale	principal	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_181
+# text = Tu vas prendre la première rue à gauche après le pont.
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	prendre	prendre	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	première	premier	ADJ	_	_	_	_	_	_
+6	rue	rue	NOUN	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	gauche	gauche	NOUN	_	_	_	_	_	_
+9	après	après	ADP	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	pont	pont	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_182
+# text = L'arrêt de bus est juste derrière la gare routière.
+1	L'arrêt	L'arrêt	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	bus	bus	X	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	juste	juste	X	_	_	_	_	_	_
+6	derrière	derrière	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	gare	gare	X	_	_	_	_	_	_
+9	routière	routière	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_183
+# text = Nous avons marché jusqu'au parc au bout de l'avenue.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	marché	marcher	VERB	_	_	_	_	_	_
+4	jusqu'au	jusqu'au	X	_	_	_	_	_	_
+5	parc	parc	X	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	bout	bout	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	l'avenue	l'avenue	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_184
+# text = Le restaurant se trouve au coin de cette rue.
+1	Le	le	DET	_	_	_	_	_	_
+2	restaurant	restaurant	NOUN	_	_	_	_	_	_
+3	se	se	PRON	_	_	_	_	_	_
+4	trouve	trouver	VERB	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	coin	coin	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	cette	ce	DET	_	_	_	_	_	_
+9	rue	rue	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_185
+# text = Je vais suivre la carte pour ne pas me perdre.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	suivre	suivre	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	carte	carte	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	ne	ne	PART	_	_	_	_	_	_
+8	pas	pas	ADV	_	_	_	_	_	_
+9	me	me	PRON	_	_	_	_	_	_
+10	perdre	perdre	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_186
+# text = L'hôpital est à dix minutes à pied d'ici.
+1	L'hôpital	L'hôpital	X	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	à	à	X	_	_	_	_	_	_
+4	dix	dix	X	_	_	_	_	_	_
+5	minutes	minutes	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	pied	pied	X	_	_	_	_	_	_
+8	d'ici	d'ici	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_187
+# text = Elle a indiqué la direction vers la plage.
+1	Elle	elle	PRON	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	indiqué	indiquer	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	direction	direction	NOUN	_	_	_	_	_	_
+6	vers	vers	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	plage	plage	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_188
+# text = Prenez le métro jusqu'à la station République.
+1	Prenez	prendre	VERB	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	métro	métro	NOUN	_	_	_	_	_	_
+4	jusqu'à	jusqu'à	X	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	station	station	X	_	_	_	_	_	_
+7	République	République	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_189
+# text = La pharmacie est entre la boulangerie et la librairie.
+1	La	le	DET	_	_	_	_	_	_
+2	pharmacie	pharmacie	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	entre	entre	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	boulangerie	boulangerie	NOUN	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	librairie	librairie	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_190
+# text = Nous allons traverser le pont et tourner à gauche.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	allons	aller	VERB	_	_	_	_	_	_
+3	traverser	traverser	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	pont	pont	NOUN	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	tourner	tourner	VERB	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	gauche	gauche	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_191
+# text = J'ai trouvé le parking près de l'entrée du stade.
+1	J'ai	J'ai	X	_	_	_	_	_	_
+2	trouvé	trouvé	X	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	parking	parking	X	_	_	_	_	_	_
+5	près	près	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	l'entrée	l'entrée	X	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	stade	stade	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_192
+# text = Le bureau de poste est au fond du couloir.
+1	Le	le	DET	_	_	_	_	_	_
+2	bureau	bureau	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	poste	poste	NOUN	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	au	au	ADP	_	_	_	_	_	_
+7	fond	fond	X	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	couloir	couloir	X	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_193
+# text = Tu vas monter au deuxième étage pour le cabinet médical.
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	vas	aller	VERB	_	_	_	_	_	_
+3	monter	monter	VERB	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	deuxième	deuxième	X	_	_	_	_	_	_
+6	étage	étage	X	_	_	_	_	_	_
+7	pour	pour	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	cabinet	cabinet	X	_	_	_	_	_	_
+10	médical	médical	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_194
+# text = La sortie se trouve derrière le grand bâtiment blanc.
+1	La	le	DET	_	_	_	_	_	_
+2	sortie	sortie	NOUN	_	_	_	_	_	_
+3	se	se	PRON	_	_	_	_	_	_
+4	trouve	trouver	VERB	_	_	_	_	_	_
+5	derrière	derrière	ADP	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	grand	grand	ADJ	_	_	_	_	_	_
+8	bâtiment	bâtiment	NOUN	_	_	_	_	_	_
+9	blanc	blanc	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_195
+# text = Nous avons suivi les panneaux jusqu'au centre-ville.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	avons	avoir	AUX	_	_	_	_	_	_
+3	suivi	suivre	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	panneaux	panneau	NOUN	_	_	_	_	_	_
+6	jusqu'au	jusqu'au	X	_	_	_	_	_	_
+7	centre-ville	centre-ville	X	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_196
+# text = Le marché est ouvert tous les matins près de la rivière.
+1	Le	le	DET	_	_	_	_	_	_
+2	marché	marché	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	ouvert	ouvrir	VERB	_	_	_	_	_	_
+5	tous	tout	ADJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	matins	matin	NOUN	_	_	_	_	_	_
+8	près	près	ADV	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	rivière	rivière	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_197
+# text = Je vais t'accompagner jusqu'à la station de métro.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	t'accompagner	t'accompagner	X	_	_	_	_	_	_
+4	jusqu'à	jusqu'à	X	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	station	station	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	métro	métro	X	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_198
+# text = Descendez ici et marchez deux rues vers le nord.
+1	Descendez	descendre	VERB	_	_	_	_	_	_
+2	ici	ici	ADV	_	_	_	_	_	_
+3	et	et	CCONJ	_	_	_	_	_	_
+4	marchez	marcher	VERB	_	_	_	_	_	_
+5	deux	deux	NUM	_	_	_	_	_	_
+6	rues	rue	NOUN	_	_	_	_	_	_
+7	vers	vers	ADP	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	nord	nord	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_199
+# text = L'école est située au bout de la rue des Lilas.
+1	L'école	L'école	X	_	_	_	_	_	_
+2	est	être	AUX	_	_	_	_	_	_
+3	située	située	X	_	_	_	_	_	_
+4	au	au	ADP	_	_	_	_	_	_
+5	bout	bout	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	rue	rue	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	Lilas	Lilas	X	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_a2_train_200
+# text = Ils ont perdu leur chemin dans le vieux quartier.
+1	Ils	ils	PRON	_	_	_	_	_	_
+2	ont	avoir	AUX	_	_	_	_	_	_
+3	perdu	perdre	VERB	_	_	_	_	_	_
+4	leur	leur	DET	_	_	_	_	_	_
+5	chemin	chemin	NOUN	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	vieux	vieux	ADJ	_	_	_	_	_	_
+9	quartier	quartier	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+

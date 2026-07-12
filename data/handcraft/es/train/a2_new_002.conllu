@@ -1,0 +1,2348 @@
+# sent_id = es_a2_train_201
+# text = Yo juego al tenis todos los sábados por la mañana.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	juego	jugar	VERB	_	_	_	_	_	_
+3	al	al	ADP	_	_	_	_	_	_
+4	tenis	tenis	NOUN	_	_	_	_	_	_
+5	todos	todo	DET	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	sábados	sábado	NOUN	_	_	_	_	_	_
+8	por	por	ADP	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	mañana	mañana	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_202
+# text = Ella corre cinco kilómetros en el parque.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	corre	correr	VERB	_	_	_	_	_	_
+3	cinco	cinco	NUM	_	_	_	_	_	_
+4	kilómetros	kilómetro	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	parque	parque	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_203
+# text = Vemos el partido de fútbol en la tele.
+1	Vemos	ver	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	partido	partido	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	fútbol	fútbol	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	tele	tele	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_204
+# text = Nado en la piscina tres veces por semana.
+1	Nado	Nado	PROPN	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	piscina	piscina	NOUN	_	_	_	_	_	_
+5	tres	tres	NUM	_	_	_	_	_	_
+6	veces	vez	NOUN	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	semana	semana	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_205
+# text = Entrenan duro antes del partido importante.
+1	Entrenan	entrenar	VERB	_	_	_	_	_	_
+2	duro	duro	ADJ	_	_	_	_	_	_
+3	antes	antes	ADV	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	partido	partido	NOUN	_	_	_	_	_	_
+6	importante	importante	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_206
+# text = Él marca un gol en el segundo tiempo.
+1	Él	él	PRON	_	_	_	_	_	_
+2	marca	marcar	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	gol	gol	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	segundo	segundo	ADJ	_	_	_	_	_	_
+8	tiempo	tiempo	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_207
+# text = Ella se une a una clase de yoga.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	une	unir	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	una	uno	DET	_	_	_	_	_	_
+6	clase	clase	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	yoga	yoga	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_208
+# text = Animamos a nuestro equipo en el estadio.
+1	Animamos	animar	VERB	_	_	_	_	_	_
+2	a	a	ADP	_	_	_	_	_	_
+3	nuestro	nuestro	DET	_	_	_	_	_	_
+4	equipo	equipo	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	estadio	estadio	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_209
+# text = Monto en bicicleta por el camino del río.
+1	Monto	Monto	PROPN	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	bicicleta	bicicleta	NOUN	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	camino	camino	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	río	río	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_210
+# text = Gana la carrera por dos segundos.
+1	Gana	ganar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	carrera	carrera	NOUN	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	dos	dos	NUM	_	_	_	_	_	_
+6	segundos	segundo	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_211
+# text = Ella estira las piernas antes de correr.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	estira	estirar	VERB	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	piernas	pierna	NOUN	_	_	_	_	_	_
+5	antes	antes	ADV	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	correr	correr	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_212
+# text = Pasamos la pelota a nuestro compañero.
+1	Pasamos	pasar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	pelota	pelota	NOUN	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	nuestro	nuestro	DET	_	_	_	_	_	_
+6	compañero	compañero	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_213
+# text = Pierdo el partido pero me divierto mucho.
+1	Pierdo	perder	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	partido	partido	NOUN	_	_	_	_	_	_
+4	pero	pero	CCONJ	_	_	_	_	_	_
+5	me	yo	PRON	_	_	_	_	_	_
+6	divierto	divertir	VERB	_	_	_	_	_	_
+7	mucho	mucho	DET	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_214
+# text = Él chuta la pelota dentro de la red.
+1	Él	él	PRON	_	_	_	_	_	_
+2	chuta	chutar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	pelota	pelota	NOUN	_	_	_	_	_	_
+5	dentro	dentro	ADV	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	red	red	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_215
+# text = Ella lleva zapatillas nuevas para la carrera.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	lleva	llevar	VERB	_	_	_	_	_	_
+3	zapatillas	zapatilla	NOUN	_	_	_	_	_	_
+4	nuevas	nuevo	ADJ	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	carrera	carrera	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_216
+# text = Practicamos baloncesto en el gimnasio del colegio.
+1	Practicamos	practicar	VERB	_	_	_	_	_	_
+2	baloncesto	baloncesto	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	gimnasio	gimnasio	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	colegio	colegio	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_217
+# text = Atrapo la pelota con las dos manos.
+1	Atrapo	atrar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	pelota	pelota	NOUN	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	dos	dos	NUM	_	_	_	_	_	_
+7	manos	mano	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_218
+# text = Él se lastima el tobillo durante el partido.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	lastima	lastimar	VERB	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	tobillo	tobillo	NOUN	_	_	_	_	_	_
+6	durante	durante	ADP	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	partido	partido	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_219
+# text = Ella lanza la pelota a su amiga.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	lanza	lanzar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	pelota	pelota	NOUN	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	amiga	amiga	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_220
+# text = Calentamos antes de empezar a correr.
+1	Calentamos	calentar	VERB	_	_	_	_	_	_
+2	antes	antes	ADV	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	empezar	empezar	VERB	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	correr	correr	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_221
+# text = Yo salto a la comba en el jardín a veces.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	salto	saltar	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	comba	comba	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	jardín	jardín	NOUN	_	_	_	_	_	_
+9	a	a	ADP	_	_	_	_	_	_
+10	veces	vez	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_222
+# text = Él levanta pesas en el centro deportivo.
+1	Él	él	PRON	_	_	_	_	_	_
+2	levanta	levantar	VERB	_	_	_	_	_	_
+3	pesas	pesa	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	centro	centro	NOUN	_	_	_	_	_	_
+7	deportivo	deportivo	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_223
+# text = Ella corre más rápido que los otros corredores.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	corre	correr	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	rápido	rápido	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	otros	otro	DET	_	_	_	_	_	_
+8	corredores	corredor	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_224
+# text = Descansamos en el banco después del partido.
+1	Descansamos	descansar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	banco	banco	NOUN	_	_	_	_	_	_
+5	después	después	ADV	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	partido	partido	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_225
+# text = Me apunto al club de natación este otoño.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	apunto	apuntar	VERB	_	_	_	_	_	_
+3	al	al	ADP	_	_	_	_	_	_
+4	club	club	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	natación	natación	NOUN	_	_	_	_	_	_
+7	este	este	DET	_	_	_	_	_	_
+8	otoño	otoño	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_226
+# text = Celebramos la Navidad con toda la familia.
+1	Celebramos	celebrar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	Navidad	Navidad	PROPN	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	toda	todo	DET	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	familia	familia	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_227
+# text = Ella lleva un vestido colorido en el festival.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	lleva	llevar	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	vestido	vestido	NOUN	_	_	_	_	_	_
+5	colorido	colorido	ADJ	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	festival	festival	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_228
+# text = Bailan en la calle durante el desfile.
+1	Bailan	bailar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	calle	calle	NOUN	_	_	_	_	_	_
+5	durante	durante	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	desfile	desfile	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_229
+# text = Como comida tradicional en la feria de verano.
+1	Como	como	SCONJ	_	_	_	_	_	_
+2	comida	comida	NOUN	_	_	_	_	_	_
+3	tradicional	tradicional	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	feria	feria	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	verano	verano	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_230
+# text = Él enciende las velas en la tarta de cumpleaños.
+1	Él	él	PRON	_	_	_	_	_	_
+2	enciende	encender	VERB	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	velas	vela	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	tarta	tarta	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	cumpleaños	cumpleaño	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_231
+# text = Vemos fuegos artificiales junto al río esta noche.
+1	Vemos	ver	VERB	_	_	_	_	_	_
+2	fuegos	fuego	NOUN	_	_	_	_	_	_
+3	artificiales	artificial	ADJ	_	_	_	_	_	_
+4	junto	junto	ADJ	_	_	_	_	_	_
+5	al	al	ADP	_	_	_	_	_	_
+6	río	río	NOUN	_	_	_	_	_	_
+7	esta	este	DET	_	_	_	_	_	_
+8	noche	noche	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_232
+# text = Ella aprende canciones con el coro del colegio.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	aprende	aprender	VERB	_	_	_	_	_	_
+3	canciones	canción	NOUN	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	coro	coro	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	colegio	colegio	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_233
+# text = Decoramos la casa con luces brillantes.
+1	Decoramos	decorar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	casa	casa	NOUN	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	luces	luz	NOUN	_	_	_	_	_	_
+6	brillantes	brillante	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_234
+# text = Yo regalo presentes a mis amigos en Pascua.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	regalo	regalar	VERB	_	_	_	_	_	_
+3	presentes	presente	ADJ	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	mis	mío	DET	_	_	_	_	_	_
+6	amigos	amigo	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	Pascua	Pascua	PROPN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_235
+# text = Bebemos chocolate caliente en el mercado de invierno.
+1	Bebemos	beber	VERB	_	_	_	_	_	_
+2	chocolate	chocolate	NOUN	_	_	_	_	_	_
+3	caliente	caliente	ADJ	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	mercado	mercado	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	invierno	invierno	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_236
+# text = Él toca música en el festival del pueblo.
+1	Él	él	PRON	_	_	_	_	_	_
+2	toca	tocar	VERB	_	_	_	_	_	_
+3	música	música	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	festival	festival	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	pueblo	pueblo	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_237
+# text = Ella compra regalos en el mercado navideño.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	compra	comprar	VERB	_	_	_	_	_	_
+3	regalos	regalo	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	mercado	mercado	NOUN	_	_	_	_	_	_
+7	navideño	navideño	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_238
+# text = Llevan máscaras en la fiesta de carnaval.
+1	Llevan	llevar	VERB	_	_	_	_	_	_
+2	máscaras	máscara	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	fiesta	fiesta	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	carnaval	carnaval	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_239
+# text = Hago fotos del desfile en la calle.
+1	Hago	hacer	VERB	_	_	_	_	_	_
+2	fotos	foto	NOUN	_	_	_	_	_	_
+3	del	del	ADP	_	_	_	_	_	_
+4	desfile	desfile	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	calle	calle	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_240
+# text = Aplaudimos cuando termina de tocar la banda.
+1	Aplaudimos	aplaudir	VERB	_	_	_	_	_	_
+2	cuando	cuando	SCONJ	_	_	_	_	_	_
+3	termina	terminar	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	tocar	tocar	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	banda	banda	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_241
+# text = Él trae flores al festival de primavera.
+1	Él	él	PRON	_	_	_	_	_	_
+2	trae	traer	VERB	_	_	_	_	_	_
+3	flores	flor	NOUN	_	_	_	_	_	_
+4	al	al	ADP	_	_	_	_	_	_
+5	festival	festival	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	primavera	primavera	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_242
+# text = Ella hace farolillos para el evento de otoño.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	hace	hacer	VERB	_	_	_	_	_	_
+3	farolillos	farolillo	NOUN	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	evento	evento	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	otoño	otoño	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_243
+# text = Compartimos tarta en la fiesta de bodas.
+1	Compartimos	compartir	VERB	_	_	_	_	_	_
+2	tarta	tarta	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	fiesta	fiesta	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	bodas	boda	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_244
+# text = Veo bailarines en la plaza del pueblo.
+1	Veo	ver	VERB	_	_	_	_	_	_
+2	bailarines	bailarín	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	plaza	plaza	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	pueblo	pueblo	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_245
+# text = Quedamos con amigos en el festival de música.
+1	Quedamos	quedar	VERB	_	_	_	_	_	_
+2	con	con	ADP	_	_	_	_	_	_
+3	amigos	amigo	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	festival	festival	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	música	música	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_246
+# text = Él cuenta chistes en la reunión familiar.
+1	Él	él	PRON	_	_	_	_	_	_
+2	cuenta	contar	VERB	_	_	_	_	_	_
+3	chistes	chiste	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	reunión	reunión	NOUN	_	_	_	_	_	_
+7	familiar	familiar	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_247
+# text = Ella se pinta la cara para el desfile.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	pinta	pintar	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	cara	cara	NOUN	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	desfile	desfile	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_248
+# text = Comen dulces en la fiesta de Halloween.
+1	Comen	comer	VERB	_	_	_	_	_	_
+2	dulces	dulce	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	fiesta	fiesta	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	Halloween	Halloween	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_249
+# text = Oigo tambores desde el escenario del festival.
+1	Oigo	oir	VERB	_	_	_	_	_	_
+2	tambores	tambor	NOUN	_	_	_	_	_	_
+3	desde	desde	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	escenario	escenario	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_250
+# text = Nos quedamos despiertos hasta tarde en Nochevieja.
+1	Nos	nosotros	PRON	_	_	_	_	_	_
+2	quedamos	quedar	VERB	_	_	_	_	_	_
+3	despiertos	despierto	ADJ	_	_	_	_	_	_
+4	hasta	hasta	ADP	_	_	_	_	_	_
+5	tarde	tarde	ADV	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	Nochevieja	Nochevieja	PROPN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_251
+# text = Llamo a mi madre todos los domingos por la noche.
+1	Llamo	llamar	VERB	_	_	_	_	_	_
+2	a	a	ADP	_	_	_	_	_	_
+3	mi	mío	DET	_	_	_	_	_	_
+4	madre	madre	NOUN	_	_	_	_	_	_
+5	todos	todo	DET	_	_	_	_	_	_
+6	los	el	DET	_	_	_	_	_	_
+7	domingos	domingo	NOUN	_	_	_	_	_	_
+8	por	por	ADP	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	noche	noche	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_252
+# text = Ella contesta el teléfono en el trabajo rápido.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	contesta	contestar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	teléfono	teléfono	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	trabajo	trabajo	NOUN	_	_	_	_	_	_
+8	rápido	rápido	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_253
+# text = Él cuelga después de una conversación corta.
+1	Él	él	PRON	_	_	_	_	_	_
+2	cuelga	colgar	VERB	_	_	_	_	_	_
+3	después	después	ADV	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	una	uno	DET	_	_	_	_	_	_
+6	conversación	conversación	NOUN	_	_	_	_	_	_
+7	corta	corto	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_254
+# text = Hablamos con el gerente por teléfono esta tarde.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	con	con	ADP	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	gerente	gerente	NOUN	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	teléfono	teléfono	NOUN	_	_	_	_	_	_
+7	esta	este	DET	_	_	_	_	_	_
+8	tarde	tarde	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_255
+# text = Dejo un mensaje en su buzón de voz.
+1	Dejo	dejar	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	mensaje	mensaje	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	su	suyo	DET	_	_	_	_	_	_
+6	buzón	buzón	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	voz	voz	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_256
+# text = Ella marca el número de su lista de contactos.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	marca	marcar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	número	número	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	lista	lista	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	contactos	contacto	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_257
+# text = Él habla con el médico sobre su tos.
+1	Él	él	PRON	_	_	_	_	_	_
+2	habla	hablar	VERB	_	_	_	_	_	_
+3	con	con	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	médico	médico	NOUN	_	_	_	_	_	_
+6	sobre	sobre	ADP	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	tos	to	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_258
+# text = Llamamos al hotel para reservar una habitación.
+1	Llamamos	llamar	VERB	_	_	_	_	_	_
+2	al	al	ADP	_	_	_	_	_	_
+3	hotel	hotel	NOUN	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	reservar	reservar	VERB	_	_	_	_	_	_
+6	una	uno	DET	_	_	_	_	_	_
+7	habitación	habitación	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_259
+# text = Espero en espera durante cinco minutos largos.
+1	Espero	esperar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	espera	espera	NOUN	_	_	_	_	_	_
+4	durante	durante	ADP	_	_	_	_	_	_
+5	cinco	cinco	NUM	_	_	_	_	_	_
+6	minutos	minuto	NOUN	_	_	_	_	_	_
+7	largos	largo	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_260
+# text = Ella devuelve la llamada después de leer el mensaje.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	devuelve	devolver	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	llamada	llamada	NOUN	_	_	_	_	_	_
+5	después	después	ADV	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	leer	leer	VERB	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	mensaje	mensaje	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_261
+# text = Él pide ayuda en la línea de atención.
+1	Él	él	PRON	_	_	_	_	_	_
+2	pide	pedir	VERB	_	_	_	_	_	_
+3	ayuda	ayuda	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	línea	línea	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	atención	atención	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_262
+# text = Oímos tono de ocupado y volvemos a intentar.
+1	Oímos	oir	VERB	_	_	_	_	_	_
+2	tono	tono	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	ocupado	ocupado	ADJ	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	volvemos	volver	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	intentar	intentar	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_263
+# text = Cojo el teléfono en la cocina de casa.
+1	Cojo	coger	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	teléfono	teléfono	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	cocina	cocina	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	casa	casa	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_264
+# text = Ella habla más alto porque la línea es mala.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	habla	hablar	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	alto	alto	ADJ	_	_	_	_	_	_
+5	porque	porque	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	línea	línea	NOUN	_	_	_	_	_	_
+8	es	ser	AUX	_	_	_	_	_	_
+9	mala	mal	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_265
+# text = Él olvida llamar a su amigo a tiempo.
+1	Él	él	PRON	_	_	_	_	_	_
+2	olvida	olvidar	VERB	_	_	_	_	_	_
+3	llamar	llamar	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	su	suyo	DET	_	_	_	_	_	_
+6	amigo	amigo	NOUN	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	tiempo	tiempo	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_266
+# text = Hablamos del plan por teléfono esta noche.
+1	Hablamos	hablar	VERB	_	_	_	_	_	_
+2	del	del	ADP	_	_	_	_	_	_
+3	plan	plan	NOUN	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	teléfono	teléfono	NOUN	_	_	_	_	_	_
+6	esta	este	DET	_	_	_	_	_	_
+7	noche	noche	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_267
+# text = Guardo su nuevo número en mi móvil.
+1	Guardo	guardar	VERB	_	_	_	_	_	_
+2	su	suyo	DET	_	_	_	_	_	_
+3	nuevo	nuevo	ADJ	_	_	_	_	_	_
+4	número	número	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	mi	mío	DET	_	_	_	_	_	_
+7	móvil	móvil	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_268
+# text = Ella dice adiós y termina la llamada.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	dice	decir	VERB	_	_	_	_	_	_
+3	adiós	adió	NOUN	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	termina	terminar	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	llamada	llamada	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_269
+# text = Él pierde una llamada importante a la hora de comer.
+1	Él	él	PRON	_	_	_	_	_	_
+2	pierde	perder	VERB	_	_	_	_	_	_
+3	una	uno	DET	_	_	_	_	_	_
+4	llamada	llamada	NOUN	_	_	_	_	_	_
+5	importante	importante	ADJ	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	hora	hora	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	comer	comer	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_270
+# text = Charlamos con la abuela durante una hora.
+1	Charlamos	charlar	VERB	_	_	_	_	_	_
+2	con	con	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	abuela	abuela	NOUN	_	_	_	_	_	_
+5	durante	durante	ADP	_	_	_	_	_	_
+6	una	uno	DET	_	_	_	_	_	_
+7	hora	hora	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_271
+# text = Le escribo un mensaje cuando no contesta.
+1	Le	él	PRON	_	_	_	_	_	_
+2	escribo	escribir	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	mensaje	mensaje	NOUN	_	_	_	_	_	_
+5	cuando	cuando	SCONJ	_	_	_	_	_	_
+6	no	no	ADV	_	_	_	_	_	_
+7	contesta	contestar	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_272
+# text = Ella rechaza la llamada durante la cena.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	rechaza	rechazar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	llamada	llamada	NOUN	_	_	_	_	_	_
+5	durante	durante	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	cena	cena	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_273
+# text = Él explica el problema por teléfono con claridad.
+1	Él	él	PRON	_	_	_	_	_	_
+2	explica	explicar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	problema	problema	NOUN	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	teléfono	teléfono	NOUN	_	_	_	_	_	_
+7	con	con	ADP	_	_	_	_	_	_
+8	claridad	claridad	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_274
+# text = Acordamos una hora de reunión por teléfono.
+1	Acordamos	acordar	VERB	_	_	_	_	_	_
+2	una	uno	DET	_	_	_	_	_	_
+3	hora	hora	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	reunión	reunión	NOUN	_	_	_	_	_	_
+6	por	por	ADP	_	_	_	_	_	_
+7	teléfono	teléfono	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_275
+# text = Yo cargo el móvil antes del viaje largo.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	cargo	cargar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	móvil	móvil	NOUN	_	_	_	_	_	_
+5	antes	antes	ADV	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	viaje	viaje	NOUN	_	_	_	_	_	_
+8	largo	largo	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_276
+# text = Abro una cuenta bancaria en la sucursal local.
+1	Abro	abrir	VERB	_	_	_	_	_	_
+2	una	uno	DET	_	_	_	_	_	_
+3	cuenta	cuenta	NOUN	_	_	_	_	_	_
+4	bancaria	bancario	ADJ	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	sucursal	sucursal	NOUN	_	_	_	_	_	_
+8	local	local	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_277
+# text = Ella paga sus facturas en el banco hoy.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	paga	pagar	VERB	_	_	_	_	_	_
+3	sus	suyo	DET	_	_	_	_	_	_
+4	facturas	factura	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	banco	banco	NOUN	_	_	_	_	_	_
+8	hoy	hoy	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_278
+# text = Él saca dinero del cajero automático de fuera.
+1	Él	él	PRON	_	_	_	_	_	_
+2	saca	sacar	VERB	_	_	_	_	_	_
+3	dinero	dinero	NOUN	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	cajero	cajero	NOUN	_	_	_	_	_	_
+6	automático	automático	ADJ	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	fuera	fuera	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_279
+# text = Transferimos dinero a nuestra cuenta de ahorros.
+1	Transferimos	transfer	VERB	_	_	_	_	_	_
+2	dinero	dinero	NOUN	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	nuestra	nuestro	DET	_	_	_	_	_	_
+5	cuenta	cuenta	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	ahorros	ahorro	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_280
+# text = Consulto mi saldo en la aplicación del banco.
+1	Consulto	consultar	VERB	_	_	_	_	_	_
+2	mi	mío	DET	_	_	_	_	_	_
+3	saldo	saldo	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	aplicación	aplicación	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	banco	banco	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_281
+# text = Ella deposita su sueldo cada mes.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	deposita	depositar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	sueldo	sueldo	NOUN	_	_	_	_	_	_
+5	cada	cada	DET	_	_	_	_	_	_
+6	mes	me	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_282
+# text = Él firma el formulario en el mostrador del banco.
+1	Él	él	PRON	_	_	_	_	_	_
+2	firma	firmar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	formulario	formulario	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	mostrador	mostrador	NOUN	_	_	_	_	_	_
+8	del	del	ADP	_	_	_	_	_	_
+9	banco	banco	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_283
+# text = Necesitamos un código PIN para la tarjeta.
+1	Necesitamos	necesitar	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	código	código	NOUN	_	_	_	_	_	_
+4	PIN	PIN	PROPN	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	tarjeta	tarjeta	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_284
+# text = Pierdo mi tarjeta bancaria en el autobús.
+1	Pierdo	perder	VERB	_	_	_	_	_	_
+2	mi	mío	DET	_	_	_	_	_	_
+3	tarjeta	tarjeta	NOUN	_	_	_	_	_	_
+4	bancaria	bancario	ADJ	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	autobús	autobú	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_285
+# text = Ella pregunta por el préstamo en el mostrador.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	pregunta	preguntar	VERB	_	_	_	_	_	_
+3	por	por	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	préstamo	préstamo	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	mostrador	mostrador	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_286
+# text = Él ahorra cincuenta euros cada semana.
+1	Él	él	PRON	_	_	_	_	_	_
+2	ahorra	ahorrar	VERB	_	_	_	_	_	_
+3	cincuenta	cincuenta	NUM	_	_	_	_	_	_
+4	euros	euro	NOUN	_	_	_	_	_	_
+5	cada	cada	DET	_	_	_	_	_	_
+6	semana	semana	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_287
+# text = Pagamos el alquiler por transferencia bancaria mensual.
+1	Pagamos	pagar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	alquiler	alquiler	NOUN	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	transferencia	transferencia	NOUN	_	_	_	_	_	_
+6	bancaria	bancario	ADJ	_	_	_	_	_	_
+7	mensual	mensual	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_288
+# text = Muestro mi documento en la oficina del banco.
+1	Muestro	mostrar	VERB	_	_	_	_	_	_
+2	mi	mío	DET	_	_	_	_	_	_
+3	documento	documento	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	oficina	oficina	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	banco	banco	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_289
+# text = Ella cambia su dirección en el banco.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	cambia	cambiar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	dirección	dirección	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	banco	banco	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_290
+# text = Él recibe un recibo después del pago.
+1	Él	él	PRON	_	_	_	_	_	_
+2	recibe	recibir	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	recibo	recibo	NOUN	_	_	_	_	_	_
+5	después	después	ADV	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	pago	pago	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_291
+# text = Comparamos tipos en dos bancos diferentes.
+1	Comparamos	comparar	VERB	_	_	_	_	_	_
+2	tipos	tipo	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	dos	dos	NUM	_	_	_	_	_	_
+5	bancos	banco	NOUN	_	_	_	_	_	_
+6	diferentes	diferente	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_292
+# text = Pido dinero prestado para mi portátil nuevo.
+1	Pido	pedir	VERB	_	_	_	_	_	_
+2	dinero	dinero	NOUN	_	_	_	_	_	_
+3	prestado	prestado	ADJ	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	mi	mío	DET	_	_	_	_	_	_
+6	portátil	portátil	NOUN	_	_	_	_	_	_
+7	nuevo	nuevo	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_293
+# text = Ella cierra su cuenta antigua esta semana.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	cierra	cerrar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	cuenta	cuenta	NOUN	_	_	_	_	_	_
+5	antigua	antiguo	ADJ	_	_	_	_	_	_
+6	esta	este	DET	_	_	_	_	_	_
+7	semana	semana	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_294
+# text = Él cuenta las monedas en su cartera.
+1	Él	él	PRON	_	_	_	_	_	_
+2	cuenta	contar	VERB	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	monedas	moneda	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	cartera	cartera	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_295
+# text = Esperamos en la cola del banco concurrido.
+1	Esperamos	esperar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cola	cola	NOUN	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	banco	banco	NOUN	_	_	_	_	_	_
+7	concurrido	concurrido	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_296
+# text = Escribo mi contraseña en la pantalla.
+1	Escribo	escribir	VERB	_	_	_	_	_	_
+2	mi	mío	DET	_	_	_	_	_	_
+3	contraseña	contraseña	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	pantalla	pantalla	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_297
+# text = Ella guarda su tarjeta en un lugar seguro.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	guarda	guardar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	tarjeta	tarjeta	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	un	uno	DET	_	_	_	_	_	_
+7	lugar	lugar	NOUN	_	_	_	_	_	_
+8	seguro	seguro	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_298
+# text = Él paga intereses por su préstamo pequeño.
+1	Él	él	PRON	_	_	_	_	_	_
+2	paga	pagar	VERB	_	_	_	_	_	_
+3	intereses	interé	NOUN	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	su	suyo	DET	_	_	_	_	_	_
+6	préstamo	préstamo	NOUN	_	_	_	_	_	_
+7	pequeño	pequeño	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_299
+# text = Recibimos un extracto por correo cada mes.
+1	Recibimos	recibir	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	extracto	extracto	NOUN	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	correo	correo	NOUN	_	_	_	_	_	_
+6	cada	cada	DET	_	_	_	_	_	_
+7	mes	me	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_300
+# text = Denuncio una tarjeta perdida en el banco.
+1	Denuncio	denunciar	VERB	_	_	_	_	_	_
+2	una	uno	DET	_	_	_	_	_	_
+3	tarjeta	tarjeta	NOUN	_	_	_	_	_	_
+4	perdida	perdido	ADJ	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	banco	banco	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_301
+# text = Este gimnasio es más grande que el antiguo.
+1	Este	este	DET	_	_	_	_	_	_
+2	gimnasio	gimnasio	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	grande	grande	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	antiguo	antiguo	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_302
+# text = Ella juega al tenis mejor que su hermana.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	juega	jugar	VERB	_	_	_	_	_	_
+3	al	al	ADP	_	_	_	_	_	_
+4	tenis	tenis	NOUN	_	_	_	_	_	_
+5	mejor	mejor	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	hermana	hermana	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_303
+# text = El festival era más ruidoso que el concierto.
+1	El	el	DET	_	_	_	_	_	_
+2	festival	festival	NOUN	_	_	_	_	_	_
+3	era	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	ruidoso	ruidoso	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	concierto	concierto	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_304
+# text = Él está tan en forma como su entrenador ahora.
+1	Él	él	PRON	_	_	_	_	_	_
+2	está	estar	AUX	_	_	_	_	_	_
+3	tan	tanto	ADV	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	forma	forma	NOUN	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	entrenador	entrenador	NOUN	_	_	_	_	_	_
+9	ahora	ahora	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_305
+# text = Hoy hace más frío que ayer por la tarde.
+1	Hoy	hoy	ADV	_	_	_	_	_	_
+2	hace	hacer	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	frío	frío	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	ayer	ayer	ADV	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	tarde	tarde	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_306
+# text = Mi móvil es más nuevo que el tuyo.
+1	Mi	mío	DET	_	_	_	_	_	_
+2	móvil	móvil	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	nuevo	nuevo	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	tuyo	tuyo	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_307
+# text = Ella habla más claro que él.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	habla	hablar	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	claro	claro	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	él	él	PRON	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_308
+# text = El banco está más cerca que la oficina de correos.
+1	El	el	DET	_	_	_	_	_	_
+2	banco	banco	NOUN	_	_	_	_	_	_
+3	está	estar	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	cerca	cerca	ADV	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	oficina	oficina	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	correos	correo	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_309
+# text = Él corre tan lejos como el puente cada día.
+1	Él	él	PRON	_	_	_	_	_	_
+2	corre	correr	VERB	_	_	_	_	_	_
+3	tan	tanto	ADV	_	_	_	_	_	_
+4	lejos	lejos	ADV	_	_	_	_	_	_
+5	como	como	SCONJ	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	puente	puente	NOUN	_	_	_	_	_	_
+8	cada	cada	DET	_	_	_	_	_	_
+9	día	día	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_310
+# text = Este equipo es más fuerte que el otro equipo.
+1	Este	este	DET	_	_	_	_	_	_
+2	equipo	equipo	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	fuerte	fuerte	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	otro	otro	DET	_	_	_	_	_	_
+9	equipo	equipo	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_311
+# text = Duermo menos que mi compañero de piso.
+1	Duermo	dormir	VERB	_	_	_	_	_	_
+2	menos	menos	ADV	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	mi	mío	DET	_	_	_	_	_	_
+5	compañero	compañero	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	piso	piso	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_312
+# text = El parque es tan tranquilo como la biblioteca.
+1	El	el	DET	_	_	_	_	_	_
+2	parque	parque	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	tan	tanto	ADV	_	_	_	_	_	_
+5	tranquilo	tranquilo	ADJ	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	biblioteca	biblioteca	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_313
+# text = Ella gana más dinero que su compañera de trabajo.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	gana	ganar	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	dinero	dinero	NOUN	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	compañera	compañera	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	trabajo	trabajo	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_314
+# text = Los deportes de invierno son más difíciles que los de verano.
+1	Los	el	DET	_	_	_	_	_	_
+2	deportes	deporte	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	invierno	invierno	NOUN	_	_	_	_	_	_
+5	son	ser	AUX	_	_	_	_	_	_
+6	más	más	ADV	_	_	_	_	_	_
+7	difíciles	difícil	ADJ	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	verano	verano	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_315
+# text = Él es más joven que su hermano mayor.
+1	Él	él	PRON	_	_	_	_	_	_
+2	es	ser	AUX	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	joven	joven	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	hermano	hermano	NOUN	_	_	_	_	_	_
+8	mayor	mayor	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_316
+# text = La tarta es más dulce que el pan.
+1	La	el	DET	_	_	_	_	_	_
+2	tarta	tarta	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	dulce	dulce	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	pan	pan	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_317
+# text = Llegamos antes que ellos esta noche.
+1	Llegamos	llegar	VERB	_	_	_	_	_	_
+2	antes	antes	ADV	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	ellos	él	PRON	_	_	_	_	_	_
+5	esta	este	DET	_	_	_	_	_	_
+6	noche	noche	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_318
+# text = Esta calle es más estrecha que la carretera principal.
+1	Esta	este	DET	_	_	_	_	_	_
+2	calle	calle	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	estrecha	estrecho	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	carretera	carretera	NOUN	_	_	_	_	_	_
+9	principal	principal	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_319
+# text = Ella baila tan bien como su profesora.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	baila	bailar	VERB	_	_	_	_	_	_
+3	tan	tanto	ADV	_	_	_	_	_	_
+4	bien	bien	ADV	_	_	_	_	_	_
+5	como	como	SCONJ	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	profesora	profesora	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_320
+# text = El partido fue más emocionante que la película.
+1	El	el	DET	_	_	_	_	_	_
+2	partido	partido	NOUN	_	_	_	_	_	_
+3	fue	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	emocionante	emocionante	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	película	película	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_321
+# text = Me siento más feliz que la semana pasada.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	siento	sentir	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	feliz	feliz	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	semana	semana	NOUN	_	_	_	_	_	_
+8	pasada	pasado	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_322
+# text = Su coche es más rápido que mi bicicleta vieja.
+1	Su	su	DET	_	_	_	_	_	_
+2	coche	coche	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	rápido	rápido	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	mi	mío	DET	_	_	_	_	_	_
+8	bicicleta	bicicleta	NOUN	_	_	_	_	_	_
+9	vieja	viejo	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_323
+# text = El mercado es tan lleno como el centro comercial.
+1	El	el	DET	_	_	_	_	_	_
+2	mercado	mercado	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	tan	tanto	ADV	_	_	_	_	_	_
+5	lleno	lleno	ADJ	_	_	_	_	_	_
+6	como	como	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	centro	centro	NOUN	_	_	_	_	_	_
+9	comercial	comercial	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_324
+# text = Ella lee más rápido que la mayoría de sus compañeros.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	lee	leer	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	rápido	rápido	ADJ	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	mayoría	mayoría	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	sus	suyo	DET	_	_	_	_	_	_
+10	compañeros	compañero	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_325
+# text = Esta chaqueta es más cálida que esa camisa fina.
+1	Esta	este	DET	_	_	_	_	_	_
+2	chaqueta	chaqueta	NOUN	_	_	_	_	_	_
+3	es	ser	AUX	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	cálida	cálido	ADJ	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	esa	ese	DET	_	_	_	_	_	_
+8	camisa	camisa	NOUN	_	_	_	_	_	_
+9	fina	fino	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_326
+# text = Me hago daño jugando al fútbol en el parque.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	hago	hacer	VERB	_	_	_	_	_	_
+3	daño	daño	NOUN	_	_	_	_	_	_
+4	jugando	jugar	VERB	_	_	_	_	_	_
+5	al	al	ADP	_	_	_	_	_	_
+6	fútbol	fútbol	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	parque	parque	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_327
+# text = Ella se mira en el espejo antes del espectáculo.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	mira	mirar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	espejo	espejo	NOUN	_	_	_	_	_	_
+7	antes	antes	ADV	_	_	_	_	_	_
+8	del	del	ADP	_	_	_	_	_	_
+9	espectáculo	espectáculo	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_328
+# text = Él se culpa por haber perdido el partido.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	culpa	culpar	VERB	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	haber	haber	AUX	_	_	_	_	_	_
+6	perdido	perder	VERB	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	partido	partido	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_329
+# text = Nos divertimos mucho en el festival de música.
+1	Nos	nosotros	PRON	_	_	_	_	_	_
+2	divertimos	divertir	VERB	_	_	_	_	_	_
+3	mucho	mucho	DET	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	festival	festival	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	música	música	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_330
+# text = Aprendo palabras nuevas yo solo cada semana.
+1	Aprendo	aprer	VERB	_	_	_	_	_	_
+2	palabras	palabra	NOUN	_	_	_	_	_	_
+3	nuevas	nuevo	ADJ	_	_	_	_	_	_
+4	yo	yo	PRON	_	_	_	_	_	_
+5	solo	solo	ADV	_	_	_	_	_	_
+6	cada	cada	DET	_	_	_	_	_	_
+7	semana	semana	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_331
+# text = Ella se compra un par de zapatos nuevos.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	compra	comprar	VERB	_	_	_	_	_	_
+4	un	uno	DET	_	_	_	_	_	_
+5	par	par	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	zapatos	zapato	NOUN	_	_	_	_	_	_
+8	nuevos	nuevo	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_332
+# text = Se sirven comida en la fiesta sin pedir.
+1	Se	él	PRON	_	_	_	_	_	_
+2	sirven	servir	VERB	_	_	_	_	_	_
+3	comida	comida	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	fiesta	fiesta	NOUN	_	_	_	_	_	_
+7	sin	sin	ADP	_	_	_	_	_	_
+8	pedir	pedir	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_333
+# text = Él se recuerda que debe llamar al banco.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	recuerda	recordar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	debe	deber	AUX	_	_	_	_	_	_
+6	llamar	llamar	VERB	_	_	_	_	_	_
+7	al	al	ADP	_	_	_	_	_	_
+8	banco	banco	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_334
+# text = Me lavo rápido antes de la reunión.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	lavo	laver	VERB	_	_	_	_	_	_
+3	rápido	rápido	ADJ	_	_	_	_	_	_
+4	antes	antes	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	reunión	reunión	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_335
+# text = Ella se prepara para la gran carrera.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	prepara	preparar	VERB	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	gran	gran	ADJ	_	_	_	_	_	_
+7	carrera	carrera	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_336
+# text = Nos presentamos a los vecinos nuevos del piso.
+1	Nos	nosotros	PRON	_	_	_	_	_	_
+2	presentamos	presentar	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	los	el	DET	_	_	_	_	_	_
+5	vecinos	vecino	NOUN	_	_	_	_	_	_
+6	nuevos	nuevo	ADJ	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	piso	piso	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_337
+# text = Él se esfuerza más en cada entrenamiento.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	esfuerza	esforzar	VERB	_	_	_	_	_	_
+4	más	más	ADV	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	cada	cada	DET	_	_	_	_	_	_
+7	entrenamiento	entrenamiento	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_338
+# text = Me pregunto por qué falló el plan.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	pregunto	preguntar	VERB	_	_	_	_	_	_
+3	por	por	ADP	_	_	_	_	_	_
+4	qué	que	PRON	_	_	_	_	_	_
+5	falló	fallar	VERB	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	plan	plan	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_339
+# text = Ella se mira en el espejo del baño.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	mira	mirar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	espejo	espejo	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	baño	baño	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_340
+# text = Se sientan cerca del escenario del festival.
+1	Se	él	PRON	_	_	_	_	_	_
+2	sientan	sentar	VERB	_	_	_	_	_	_
+3	cerca	cerca	ADV	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	escenario	escenario	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	festival	festival	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_341
+# text = Él se encuentra solo en la parada de autobús.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	encuentra	encontrar	VERB	_	_	_	_	_	_
+4	solo	solo	ADV	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	parada	parada	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	autobús	autobú	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_342
+# text = Me digo que debo mantener la calma.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	digo	decir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	debo	deber	AUX	_	_	_	_	_	_
+5	mantener	mantener	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	calma	calma	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_343
+# text = Ella se regala un café después de correr.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	regala	regalar	VERB	_	_	_	_	_	_
+4	un	uno	DET	_	_	_	_	_	_
+5	café	café	NOUN	_	_	_	_	_	_
+6	después	después	ADV	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	correr	correr	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_344
+# text = Nos preparamos para el espectáculo de danza.
+1	Nos	nosotros	PRON	_	_	_	_	_	_
+2	preparamos	preparar	VERB	_	_	_	_	_	_
+3	para	para	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	espectáculo	espectáculo	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	danza	danza	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_345
+# text = Él se corta mientras corta las verduras.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	corta	cortar	VERB	_	_	_	_	_	_
+4	mientras	mientras	SCONJ	_	_	_	_	_	_
+5	corta	cortar	VERB	_	_	_	_	_	_
+6	las	el	DET	_	_	_	_	_	_
+7	verduras	verdura	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_346
+# text = Me enorgullezco de mi buena letra.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	enorgullezco	enorgullecer	VERB	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	mi	mío	DET	_	_	_	_	_	_
+5	buena	buen	ADJ	_	_	_	_	_	_
+6	letra	letra	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_347
+# text = Ella se aleja de la multitud ruidosa.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	aleja	alejar	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	multitud	multitud	NOUN	_	_	_	_	_	_
+7	ruidosa	ruidoso	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_348
+# text = Se organizan en dos equipos pequeños.
+1	Se	él	PRON	_	_	_	_	_	_
+2	organizan	organizar	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	dos	dos	NUM	_	_	_	_	_	_
+5	equipos	equipo	NOUN	_	_	_	_	_	_
+6	pequeños	pequeño	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_349
+# text = Él se supera con ejercicios más difíciles.
+1	Él	él	PRON	_	_	_	_	_	_
+2	se	él	PRON	_	_	_	_	_	_
+3	supera	superar	VERB	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	ejercicios	ejercicio	NOUN	_	_	_	_	_	_
+6	más	más	ADV	_	_	_	_	_	_
+7	difíciles	difícil	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_350
+# text = Me recuerdo que debo ahorrar dinero cada mes.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	recuerdo	recordar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	debo	deber	AUX	_	_	_	_	_	_
+5	ahorrar	ahorrar	VERB	_	_	_	_	_	_
+6	dinero	dinero	NOUN	_	_	_	_	_	_
+7	cada	cada	DET	_	_	_	_	_	_
+8	mes	me	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_351
+# text = Me apunté al club de tenis el mes pasado.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	apunté	apuntar	VERB	_	_	_	_	_	_
+3	al	al	ADP	_	_	_	_	_	_
+4	club	club	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	tenis	tenis	NOUN	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	mes	me	NOUN	_	_	_	_	_	_
+9	pasado	pasado	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_352
+# text = Ella bailó toda la noche en el festival.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	bailó	bailar	VERB	_	_	_	_	_	_
+3	toda	todo	DET	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	noche	noche	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	festival	festival	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_353
+# text = Llamamos al banco para resolver el problema.
+1	Llamamos	llamar	VERB	_	_	_	_	_	_
+2	al	al	ADP	_	_	_	_	_	_
+3	banco	banco	NOUN	_	_	_	_	_	_
+4	para	para	ADP	_	_	_	_	_	_
+5	resolver	resolver	VERB	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	problema	problema	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_354
+# text = Él ganó su primer partido de fútbol ayer.
+1	Él	él	PRON	_	_	_	_	_	_
+2	ganó	ganar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	primer	primero	ADJ	_	_	_	_	_	_
+5	partido	partido	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	fútbol	fútbol	NOUN	_	_	_	_	_	_
+8	ayer	ayer	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_355
+# text = Visité el mercado navideño con mis amigos.
+1	Visité	visitar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	mercado	mercado	NOUN	_	_	_	_	_	_
+4	navideño	navideño	ADJ	_	_	_	_	_	_
+5	con	con	ADP	_	_	_	_	_	_
+6	mis	mío	DET	_	_	_	_	_	_
+7	amigos	amigo	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_356
+# text = Ella depositó el dinero en su cuenta nueva.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	depositó	depositar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	dinero	dinero	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	su	suyo	DET	_	_	_	_	_	_
+7	cuenta	cuenta	NOUN	_	_	_	_	_	_
+8	nueva	nuevo	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_357
+# text = Celebramos el cumpleaños de Ana el sábado.
+1	Celebramos	celebrar	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	cumpleaños	cumpleaño	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	Ana	Ana	PROPN	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	sábado	sábado	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_358
+# text = Él colgó el teléfono sin decir adiós.
+1	Él	él	PRON	_	_	_	_	_	_
+2	colgó	colgar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	teléfono	teléfono	NOUN	_	_	_	_	_	_
+5	sin	sin	ADP	_	_	_	_	_	_
+6	decir	decir	VERB	_	_	_	_	_	_
+7	adiós	adió	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_359
+# text = Compré entradas para el concierto del parque.
+1	Compré	comprar	VERB	_	_	_	_	_	_
+2	entradas	entrada	NOUN	_	_	_	_	_	_
+3	para	para	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	concierto	concierto	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	parque	parque	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_360
+# text = Ella corrió cinco kilómetros en veinticinco minutos.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	corrió	correr	VERB	_	_	_	_	_	_
+3	cinco	cinco	NUM	_	_	_	_	_	_
+4	kilómetros	kilómetro	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	veinticinco	veinticinco	NUM	_	_	_	_	_	_
+7	minutos	minuto	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_361
+# text = Nos quedamos en casa durante la tormenta.
+1	Nos	nosotros	PRON	_	_	_	_	_	_
+2	quedamos	quedar	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	casa	casa	NOUN	_	_	_	_	_	_
+5	durante	durante	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	tormenta	tormenta	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_362
+# text = Él sacó dinero del cajero antes de cenar.
+1	Él	él	PRON	_	_	_	_	_	_
+2	sacó	sacar	VERB	_	_	_	_	_	_
+3	dinero	dinero	NOUN	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	cajero	cajero	NOUN	_	_	_	_	_	_
+6	antes	antes	ADV	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	cenar	cenar	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_363
+# text = Perdí mi móvil en el estadio del partido.
+1	Perdí	perder	VERB	_	_	_	_	_	_
+2	mi	mío	DET	_	_	_	_	_	_
+3	móvil	móvil	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	estadio	estadio	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	partido	partido	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_364
+# text = Ella decoró la casa para la fiesta navideña.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	decoró	decorar	VERB	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	casa	casa	NOUN	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	fiesta	fiesta	NOUN	_	_	_	_	_	_
+8	navideña	navideño	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_365
+# text = Jugamos al baloncesto en el parque municipal.
+1	Jugamos	jugar	VERB	_	_	_	_	_	_
+2	al	al	ADP	_	_	_	_	_	_
+3	baloncesto	baloncesto	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	parque	parque	NOUN	_	_	_	_	_	_
+7	municipal	municipal	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_366
+# text = Él firmó el contrato en la oficina del banco.
+1	Él	él	PRON	_	_	_	_	_	_
+2	firmó	firmar	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	contrato	contrato	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	oficina	oficina	NOUN	_	_	_	_	_	_
+8	del	del	ADP	_	_	_	_	_	_
+9	banco	banco	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_367
+# text = Recibí una llamada importante durante el almuerzo.
+1	Recibí	recibir	VERB	_	_	_	_	_	_
+2	una	uno	DET	_	_	_	_	_	_
+3	llamada	llamada	NOUN	_	_	_	_	_	_
+4	importante	importante	ADJ	_	_	_	_	_	_
+5	durante	durante	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	almuerzo	almuerzo	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_368
+# text = Ella preparó una tarta para la fiesta familiar.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	preparó	preparar	VERB	_	_	_	_	_	_
+3	una	uno	DET	_	_	_	_	_	_
+4	tarta	tarta	NOUN	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	fiesta	fiesta	NOUN	_	_	_	_	_	_
+8	familiar	familiar	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_369
+# text = Viajamos en tren al festival de música.
+1	Viajamos	viajar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	tren	tren	NOUN	_	_	_	_	_	_
+4	al	al	ADP	_	_	_	_	_	_
+5	festival	festival	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	música	música	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_370
+# text = Él olvidó su tarjeta en el mostrador del banco.
+1	Él	él	PRON	_	_	_	_	_	_
+2	olvidó	olvidar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	tarjeta	tarjeta	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	mostrador	mostrador	NOUN	_	_	_	_	_	_
+8	del	del	ADP	_	_	_	_	_	_
+9	banco	banco	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_371
+# text = Nadé en la piscina después del entrenamiento.
+1	Nadé	nadar	VERB	_	_	_	_	_	_
+2	en	en	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	piscina	piscina	NOUN	_	_	_	_	_	_
+5	después	después	ADV	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	entrenamiento	entrenamiento	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_372
+# text = Ella envió un mensaje a todos sus amigos.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	envió	enviar	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	mensaje	mensaje	NOUN	_	_	_	_	_	_
+5	a	a	ADP	_	_	_	_	_	_
+6	todos	todo	DET	_	_	_	_	_	_
+7	sus	suyo	DET	_	_	_	_	_	_
+8	amigos	amigo	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_373
+# text = Comimos paella en la feria del pueblo.
+1	Comimos	comer	VERB	_	_	_	_	_	_
+2	paella	paella	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	feria	feria	NOUN	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	pueblo	pueblo	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_374
+# text = Él aprendió a tocar la guitarra el año pasado.
+1	Él	él	PRON	_	_	_	_	_	_
+2	aprendió	aprender	VERB	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	tocar	tocar	VERB	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	guitarra	guitarra	NOUN	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	año	año	NOUN	_	_	_	_	_	_
+9	pasado	pasado	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_375
+# text = Recordé la fecha del partido a última hora.
+1	Recordé	recordar	VERB	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	fecha	fecha	NOUN	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	partido	partido	NOUN	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	última	último	ADJ	_	_	_	_	_	_
+8	hora	hora	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_376
+# text = Me uno a mis amigos para un picnic en mayo.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	uno	uno	PRON	_	_	_	_	_	_
+3	a	a	ADP	_	_	_	_	_	_
+4	mis	mío	DET	_	_	_	_	_	_
+5	amigos	amigo	NOUN	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	un	uno	DET	_	_	_	_	_	_
+8	picnic	picnic	NOUN	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	mayo	mayo	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_377
+# text = Ella envía un correo al gerente del banco.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	envía	enviar	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	correo	correo	NOUN	_	_	_	_	_	_
+5	al	al	ADP	_	_	_	_	_	_
+6	gerente	gerente	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	banco	banco	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_378
+# text = Alquilamos bicicletas y pedaleamos por la costa.
+1	Alquilamos	alquilar	VERB	_	_	_	_	_	_
+2	bicicletas	bicicleta	NOUN	_	_	_	_	_	_
+3	y	y	CCONJ	_	_	_	_	_	_
+4	pedaleamos	pedalear	VERB	_	_	_	_	_	_
+5	por	por	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	costa	costa	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_379
+# text = Él repara su raqueta antes del partido de tenis.
+1	Él	él	PRON	_	_	_	_	_	_
+2	repara	reparar	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	raqueta	raqueta	NOUN	_	_	_	_	_	_
+5	antes	antes	ADV	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	partido	partido	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	tenis	tenis	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_380
+# text = Preparo bocadillos para el largo día del festival.
+1	Preparo	preparar	VERB	_	_	_	_	_	_
+2	bocadillos	bocadillo	NOUN	_	_	_	_	_	_
+3	para	para	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	largo	largo	ADJ	_	_	_	_	_	_
+6	día	día	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	festival	festival	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_381
+# text = Ella comparte su asiento en el autobús lleno.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	comparte	compartir	VERB	_	_	_	_	_	_
+3	su	suyo	DET	_	_	_	_	_	_
+4	asiento	asiento	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	autobús	autobú	NOUN	_	_	_	_	_	_
+8	lleno	lleno	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_382
+# text = Planeamos un viaje corto para las vacaciones de primavera.
+1	Planeamos	planear	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	viaje	viaje	NOUN	_	_	_	_	_	_
+4	corto	corto	ADJ	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	las	el	DET	_	_	_	_	_	_
+7	vacaciones	vacacion	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	primavera	primavera	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_383
+# text = Él escribe una nota corta para su profesor.
+1	Él	él	PRON	_	_	_	_	_	_
+2	escribe	escribir	VERB	_	_	_	_	_	_
+3	una	uno	DET	_	_	_	_	_	_
+4	nota	nota	NOUN	_	_	_	_	_	_
+5	corta	corto	ADJ	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	profesor	profesor	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_384
+# text = Pido prestado un libro de deportes de la biblioteca.
+1	Pido	pedir	VERB	_	_	_	_	_	_
+2	prestado	prestado	ADJ	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	libro	libro	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	deportes	deporte	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	biblioteca	biblioteca	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_385
+# text = Ella encuentra un lugar tranquilo junto al río.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	encuentra	encontrar	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	lugar	lugar	NOUN	_	_	_	_	_	_
+5	tranquilo	tranquilo	ADJ	_	_	_	_	_	_
+6	junto	junto	ADJ	_	_	_	_	_	_
+7	al	al	ADP	_	_	_	_	_	_
+8	río	río	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_386
+# text = Nos reímos juntos con las máscaras del carnaval.
+1	Nos	nosotros	PRON	_	_	_	_	_	_
+2	reímos	reir	VERB	_	_	_	_	_	_
+3	juntos	junto	ADJ	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	máscaras	máscara	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	carnaval	carnaval	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_387
+# text = Él pide té y se sienta junto a la ventana.
+1	Él	él	PRON	_	_	_	_	_	_
+2	pide	pedir	VERB	_	_	_	_	_	_
+3	té	té	NOUN	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	se	él	PRON	_	_	_	_	_	_
+6	sienta	sentar	VERB	_	_	_	_	_	_
+7	junto	junto	ADJ	_	_	_	_	_	_
+8	a	a	ADP	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	ventana	ventana	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_388
+# text = Devuelvo el material deportivo después de la clase.
+1	Devuelvo	devolver	VERB	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	material	material	NOUN	_	_	_	_	_	_
+4	deportivo	deportivo	ADJ	_	_	_	_	_	_
+5	después	después	ADV	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	clase	clase	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_389
+# text = Ella aprende un baile nuevo para la feria del pueblo.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	aprende	aprender	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	baile	baile	NOUN	_	_	_	_	_	_
+5	nuevo	nuevo	ADJ	_	_	_	_	_	_
+6	para	para	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	feria	feria	NOUN	_	_	_	_	_	_
+9	del	del	ADP	_	_	_	_	_	_
+10	pueblo	pueblo	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_390
+# text = Agradecemos al personal por su amable ayuda.
+1	Agradecemos	agradecer	VERB	_	_	_	_	_	_
+2	al	al	ADP	_	_	_	_	_	_
+3	personal	personal	NOUN	_	_	_	_	_	_
+4	por	por	ADP	_	_	_	_	_	_
+5	su	suyo	DET	_	_	_	_	_	_
+6	amable	amable	ADJ	_	_	_	_	_	_
+7	ayuda	ayuda	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_391
+# text = Él guarda las entradas del festival en su cartera.
+1	Él	él	PRON	_	_	_	_	_	_
+2	guarda	guardar	VERB	_	_	_	_	_	_
+3	las	el	DET	_	_	_	_	_	_
+4	entradas	entrada	NOUN	_	_	_	_	_	_
+5	del	del	ADP	_	_	_	_	_	_
+6	festival	festival	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	su	suyo	DET	_	_	_	_	_	_
+9	cartera	cartera	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_392
+# text = Quedo con mi entrenador en el campo deportivo.
+1	Quedo	quedar	VERB	_	_	_	_	_	_
+2	con	con	ADP	_	_	_	_	_	_
+3	mi	mío	DET	_	_	_	_	_	_
+4	entrenador	entrenador	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	campo	campo	NOUN	_	_	_	_	_	_
+8	deportivo	deportivo	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_393
+# text = Ella escucha con atención las instrucciones por teléfono.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	escucha	escuchar	VERB	_	_	_	_	_	_
+3	con	con	ADP	_	_	_	_	_	_
+4	atención	atención	NOUN	_	_	_	_	_	_
+5	las	el	DET	_	_	_	_	_	_
+6	instrucciones	instrucción	NOUN	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	teléfono	teléfono	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_394
+# text = Elegimos un regalo en el puesto del mercado.
+1	Elegimos	elegir	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	regalo	regalo	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	puesto	puesto	NOUN	_	_	_	_	_	_
+7	del	del	ADP	_	_	_	_	_	_
+8	mercado	mercado	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_395
+# text = Él sonríe cuando ve ganar a su equipo.
+1	Él	él	PRON	_	_	_	_	_	_
+2	sonríe	sonreir	VERB	_	_	_	_	_	_
+3	cuando	cuando	SCONJ	_	_	_	_	_	_
+4	ve	ver	VERB	_	_	_	_	_	_
+5	ganar	ganar	VERB	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	su	suyo	DET	_	_	_	_	_	_
+8	equipo	equipo	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_396
+# text = Leo el programa del festival antes de salir.
+1	Leo	Leo	PROPN	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	programa	programa	NOUN	_	_	_	_	_	_
+4	del	del	ADP	_	_	_	_	_	_
+5	festival	festival	NOUN	_	_	_	_	_	_
+6	antes	antes	ADV	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	salir	salir	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_397
+# text = Ella espera con paciencia en la cola del banco.
+1	Ella	él	PRON	_	_	_	_	_	_
+2	espera	esperar	VERB	_	_	_	_	_	_
+3	con	con	ADP	_	_	_	_	_	_
+4	paciencia	paciencia	NOUN	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	cola	cola	NOUN	_	_	_	_	_	_
+8	del	del	ADP	_	_	_	_	_	_
+9	banco	banco	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_398
+# text = Volvemos a casa despacio después del concierto.
+1	Volvemos	volver	VERB	_	_	_	_	_	_
+2	a	a	ADP	_	_	_	_	_	_
+3	casa	casa	NOUN	_	_	_	_	_	_
+4	despacio	despacio	ADV	_	_	_	_	_	_
+5	después	después	ADV	_	_	_	_	_	_
+6	del	del	ADP	_	_	_	_	_	_
+7	concierto	concierto	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_399
+# text = Él sube el volumen de la radio un poco.
+1	Él	él	PRON	_	_	_	_	_	_
+2	sube	subir	VERB	_	_	_	_	_	_
+3	el	el	DET	_	_	_	_	_	_
+4	volumen	volumen	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	radio	radio	NOUN	_	_	_	_	_	_
+8	un	uno	DET	_	_	_	_	_	_
+9	poco	poco	DET	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = es_a2_train_400
+# text = Me siento orgulloso después de mi primera medalla.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	siento	sentir	VERB	_	_	_	_	_	_
+3	orgulloso	orgulloso	ADJ	_	_	_	_	_	_
+4	después	después	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	mi	mío	DET	_	_	_	_	_	_
+7	primera	primero	ADJ	_	_	_	_	_	_
+8	medalla	medalla	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,3168 @@
+# sent_id = de_b2_train_534
+# text = Obwohl die Opposition Bedenken äußerte, wurde das Reformgesetz gestern verabschiedet.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Opposition	Opposition	NOUN	_	_	_	_	_	_
+4	Bedenken	Bedenken	NOUN	_	_	_	_	_	_
+5	äußerte	äußern	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wurde	werden	AUX	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Reformgesetz	Reformgesetz	NOUN	_	_	_	_	_	_
+10	gestern	gestern	ADV	_	_	_	_	_	_
+11	verabschiedet	verabschieden	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_535
+# text = Der Minister betonte, die Regierung werde die Bürgerrechte nach wie vor schützen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Minister	Minister	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Regierung	Regierung	NOUN	_	_	_	_	_	_
+7	werde	werden	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Bürgerrechte	Bürgerrecht	NOUN	_	_	_	_	_	_
+10	nach	nach	ADP	_	_	_	_	_	_
+11	wie	wie	SCONJ	_	_	_	_	_	_
+12	vor	vor	ADP	_	_	_	_	_	_
+13	schützen	schützen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_536
+# text = Es wird erwartet, dass die Wahlbeteiligung in diesem Jahr deutlich steigen wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Wahlbeteiligung	Wahlbeteiligung	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	diesem	dieser	DET	_	_	_	_	_	_
+10	Jahr	Jahr	NOUN	_	_	_	_	_	_
+11	deutlich	deutlich	ADJ	_	_	_	_	_	_
+12	steigen	steigen	VERB	_	_	_	_	_	_
+13	wird	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_537
+# text = Die Demokratie lebt davon, dass unterschiedliche Meinungen respektvoll diskutiert werden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Demokratie	Demokratie	NOUN	_	_	_	_	_	_
+3	lebt	leben	VERB	_	_	_	_	_	_
+4	davon	davon	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	unterschiedliche	unterschiedlich	ADJ	_	_	_	_	_	_
+8	Meinungen	Meinung	NOUN	_	_	_	_	_	_
+9	respektvoll	respektvoll	ADJ	_	_	_	_	_	_
+10	diskutiert	diskutieren	VERB	_	_	_	_	_	_
+11	werden	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_538
+# text = Obschon die Kritik laut wurde, hielt die Kommission an ihrem Beschluss fest.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kritik	Kritik	NOUN	_	_	_	_	_	_
+4	laut	lauten	VERB	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	hielt	halten	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Kommission	Kommission	NOUN	_	_	_	_	_	_
+10	an	an	ADP	_	_	_	_	_	_
+11	ihrem	ihr	DET	_	_	_	_	_	_
+12	Beschluss	Beschluß	NOUN	_	_	_	_	_	_
+13	fest	fest	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_539
+# text = Die Verfassung garantiert jedem Bürger das Recht auf freie Meinungsäußerung.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verfassung	Verfassung	NOUN	_	_	_	_	_	_
+3	garantiert	garantieren	VERB	_	_	_	_	_	_
+4	jedem	jed	DET	_	_	_	_	_	_
+5	Bürger	Bürger	NOUN	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Recht	Recht	NOUN	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	freie	frei	ADJ	_	_	_	_	_	_
+10	Meinungsäußerung	Meinungsäußerung	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_540
+# text = Würden mehr Frauen im Parlament sitzen, könnte die Politik ausgewogener werden.
+1	Würden	werden	AUX	_	_	_	_	_	_
+2	mehr	mehr	DET	_	_	_	_	_	_
+3	Frauen	Frau	NOUN	_	_	_	_	_	_
+4	im	in	ADP	_	_	_	_	_	_
+5	Parlament	Parlament	NOUN	_	_	_	_	_	_
+6	sitzen	sitzen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	könnte	können	AUX	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Politik	Politik	NOUN	_	_	_	_	_	_
+11	ausgewogener	ausgewogen	ADJ	_	_	_	_	_	_
+12	werden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_541
+# text = Der Bericht legt nahe, dass Korruption noch immer ein ernstes Problem sei.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	legt	legen	VERB	_	_	_	_	_	_
+4	nahe	nahe	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	Korruption	Korruption	NOUN	_	_	_	_	_	_
+8	noch	noch	ADV	_	_	_	_	_	_
+9	immer	immer	ADV	_	_	_	_	_	_
+10	ein	ein	DET	_	_	_	_	_	_
+11	ernstes	ernst	ADJ	_	_	_	_	_	_
+12	Problem	Problem	NOUN	_	_	_	_	_	_
+13	sei	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_542
+# text = Die Bürgerinitiative setzte sich für eine transparente Verwaltung der öffentlichen Mittel ein.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bürgerinitiative	Bürgerinitiative	NOUN	_	_	_	_	_	_
+3	setzte	setzen	VERB	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	transparente	transparent	ADJ	_	_	_	_	_	_
+8	Verwaltung	Verwaltung	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	öffentlichen	öffentlich	ADJ	_	_	_	_	_	_
+11	Mittel	Mittel	NOUN	_	_	_	_	_	_
+12	ein	ein	DET	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_543
+# text = Nach der Debatte wurde beschlossen, die Steuerreform im Frühjahr umzusetzen.
+1	Nach	nach	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Debatte	Debatte	NOUN	_	_	_	_	_	_
+4	wurde	werden	AUX	_	_	_	_	_	_
+5	beschlossen	beschließen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Steuerreform	Steuerreform	NOUN	_	_	_	_	_	_
+9	im	in	ADP	_	_	_	_	_	_
+10	Frühjahr	Frühjahr	NOUN	_	_	_	_	_	_
+11	umzusetzen	umsetzen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_544
+# text = Obwohl die Umfragen schwankten, blieb die Regierungspartei in der Führung.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Umfragen	Umfrage	NOUN	_	_	_	_	_	_
+4	schwankten	schwanken	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	blieb	bleiben	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Regierungspartei	Regierungspartei	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Führung	Führung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_545
+# text = Es sei wichtig, dass alle Stimmen im demokratischen Prozess gehört werden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	sei	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	alle	all	DET	_	_	_	_	_	_
+7	Stimmen	Stimme	NOUN	_	_	_	_	_	_
+8	im	in	ADP	_	_	_	_	_	_
+9	demokratischen	demokratisch	ADJ	_	_	_	_	_	_
+10	Prozess	Prozeß	NOUN	_	_	_	_	_	_
+11	gehört	gehören	VERB	_	_	_	_	_	_
+12	werden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_546
+# text = Die Opposition forderte, der Premierminister solle sich der Verantwortung stellen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Opposition	Opposition	NOUN	_	_	_	_	_	_
+3	forderte	fordern	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Premierminister	Premierminister	NOUN	_	_	_	_	_	_
+7	solle	sollen	AUX	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Verantwortung	Verantwortung	NOUN	_	_	_	_	_	_
+11	stellen	stellen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_547
+# text = Die Einführung des neuen Wahlrechts wurde von Experten gründlich geprüft.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einführung	Einführung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	neuen	neu	ADJ	_	_	_	_	_	_
+5	Wahlrechts	Wahlrecht	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	Experten	Experte	NOUN	_	_	_	_	_	_
+9	gründlich	gründlich	ADJ	_	_	_	_	_	_
+10	geprüft	prüfen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_548
+# text = Hätte man früher gehandelt, wäre die Krise möglicherweise vermeidbar gewesen.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	früher	früher	ADJ	_	_	_	_	_	_
+4	gehandelt	handeln	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wäre	sein	AUX	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Krise	Krise	NOUN	_	_	_	_	_	_
+9	möglicherweise	möglicherweise	ADV	_	_	_	_	_	_
+10	vermeidbar	vermeidbar	ADJ	_	_	_	_	_	_
+11	gewesen	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_549
+# text = Die Parteien einigten sich darauf, gemeinsam an einer Klimastrategie zu arbeiten.
+1	Die	der	DET	_	_	_	_	_	_
+2	Parteien	Partei	NOUN	_	_	_	_	_	_
+3	einigten	einigen	VERB	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	darauf	darauf	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	gemeinsam	gemeinsam	ADJ	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	einer	ein	DET	_	_	_	_	_	_
+10	Klimastrategie	Klimastrategie	NOUN	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_550
+# text = Der Sprecher erklärte, die Lage unterscheide sich grundlegend von der Vergangenheit.
+1	Der	der	DET	_	_	_	_	_	_
+2	Sprecher	Sprecher	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Lage	Lage	NOUN	_	_	_	_	_	_
+7	unterscheide	unterscheiden	VERB	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+10	von	von	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Vergangenheit	Vergangenheit	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_551
+# text = Es wird davon ausgegangen, dass die Verhandlungen noch mehrere Wochen dauern.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	davon	davon	ADV	_	_	_	_	_	_
+4	ausgegangen	ausgehen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Verhandlungen	Verhandlung	NOUN	_	_	_	_	_	_
+9	noch	noch	ADV	_	_	_	_	_	_
+10	mehrere	mehr	DET	_	_	_	_	_	_
+11	Wochen	Woche	NOUN	_	_	_	_	_	_
+12	dauern	dauern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_552
+# text = Obwohl die Proteste andauerten, verweigerte das Parlament jede Kompromissbereitschaft.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Proteste	Protest	NOUN	_	_	_	_	_	_
+4	andauerten	andauern	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	verweigerte	verweigern	VERB	_	_	_	_	_	_
+7	das	der	DET	_	_	_	_	_	_
+8	Parlament	Parlament	NOUN	_	_	_	_	_	_
+9	jede	jed	DET	_	_	_	_	_	_
+10	Kompromissbereitschaft	Kompromißbereitschaft	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_553
+# text = Die Verwaltung muss die Forderung nach mehr Bürgerbeteiligung ernst nehmen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verwaltung	Verwaltung	NOUN	_	_	_	_	_	_
+3	muss	müssen	AUX	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Forderung	Forderung	NOUN	_	_	_	_	_	_
+6	nach	nach	ADP	_	_	_	_	_	_
+7	mehr	mehr	DET	_	_	_	_	_	_
+8	Bürgerbeteiligung	Bürgerbeteiligung	NOUN	_	_	_	_	_	_
+9	ernst	ernst	ADJ	_	_	_	_	_	_
+10	nehmen	nehmen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_554
+# text = Wäre die Koalition geschlossen aufgetreten, hätte man schneller Fortschritte erzielen können.
+1	Wäre	sein	AUX	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Koalition	Koalition	NOUN	_	_	_	_	_	_
+4	geschlossen	schließen	ADJ	_	_	_	_	_	_
+5	aufgetreten	auftreten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	hätte	haben	AUX	_	_	_	_	_	_
+8	man	man	PRON	_	_	_	_	_	_
+9	schneller	schnell	ADJ	_	_	_	_	_	_
+10	Fortschritte	Fortschritt	NOUN	_	_	_	_	_	_
+11	erzielen	erzielen	VERB	_	_	_	_	_	_
+12	können	können	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_555
+# text = Der zuständige Ausschuss empfahl, die staatlichen Subventionen schrittweise abzubauen.
+1	Der	der	DET	_	_	_	_	_	_
+2	zuständige	zuständig	ADJ	_	_	_	_	_	_
+3	Ausschuss	Ausschuß	NOUN	_	_	_	_	_	_
+4	empfahl	empfehlen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	staatlichen	staatlich	ADJ	_	_	_	_	_	_
+8	Subventionen	Subvention	NOUN	_	_	_	_	_	_
+9	schrittweise	schrittweise	ADV	_	_	_	_	_	_
+10	abzubauen	abbauen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_556
+# text = Die Presse berichtete, der Staat habe seine Versprechen nur teilweise eingelöst.
+1	Die	der	DET	_	_	_	_	_	_
+2	Presse	Presse	NOUN	_	_	_	_	_	_
+3	berichtete	berichten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Staat	Staat	NOUN	_	_	_	_	_	_
+7	habe	haben	AUX	_	_	_	_	_	_
+8	seine	sein	DET	_	_	_	_	_	_
+9	Versprechen	Versprechen	NOUN	_	_	_	_	_	_
+10	nur	nur	ADV	_	_	_	_	_	_
+11	teilweise	teilweise	ADV	_	_	_	_	_	_
+12	eingelöst	einlösen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_557
+# text = Es mangelt nicht an Ideen, sondern an der politischen Durchsetzungskraft.
+1	Es	es	PRON	_	_	_	_	_	_
+2	mangelt	mangeln	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	Ideen	Idee	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sondern	sondern	CCONJ	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	politischen	politisch	ADJ	_	_	_	_	_	_
+11	Durchsetzungskraft	Durchsetzungskraft	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_558
+# text = Die Reform soll gewährleisten, dass alle Regionen gleichberechtigt berücksichtigt werden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Reform	Reform	NOUN	_	_	_	_	_	_
+3	soll	sollen	AUX	_	_	_	_	_	_
+4	gewährleisten	gewährleisten	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	alle	all	DET	_	_	_	_	_	_
+8	Regionen	Region	NOUN	_	_	_	_	_	_
+9	gleichberechtigt	gleichberechtigt	ADJ	_	_	_	_	_	_
+10	berücksichtigt	berücksichtigen	VERB	_	_	_	_	_	_
+11	werden	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_559
+# text = Die Hypothese wurde durch mehrere unabhängige Studien eindrucksvoll bestätigt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Hypothese	Hypothese	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	durch	durch	ADP	_	_	_	_	_	_
+5	mehrere	mehr	DET	_	_	_	_	_	_
+6	unabhängige	unabhängig	ADJ	_	_	_	_	_	_
+7	Studien	Studie|Studium	NOUN	_	_	_	_	_	_
+8	eindrucksvoll	eindrucksvoll	ADJ	_	_	_	_	_	_
+9	bestätigt	bestätigen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_560
+# text = Der Forscher erklärte, das Experiment lasse sich nur unter Laborbedingungen wiederholen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Forscher	Forscher	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Experiment	Experiment	NOUN	_	_	_	_	_	_
+7	lasse	lassen	AUX	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	nur	nur	ADV	_	_	_	_	_	_
+10	unter	unter	ADP	_	_	_	_	_	_
+11	Laborbedingungen	Laborbedingung	NOUN	_	_	_	_	_	_
+12	wiederholen	wiederholen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_561
+# text = Obwohl die Daten unvollständig waren, lieferte die Analyse wertvolle Erkenntnisse.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Daten	Datum	NOUN	_	_	_	_	_	_
+4	unvollständig	unvollständig	ADJ	_	_	_	_	_	_
+5	waren	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	lieferte	liefern	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Analyse	Analyse	NOUN	_	_	_	_	_	_
+10	wertvolle	wertvoll	ADJ	_	_	_	_	_	_
+11	Erkenntnisse	Erkenntnis	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_562
+# text = Es wird angenommen, dass die Entdeckung weitreichende Folgen für die Medizin haben werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	angenommen	annehmen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Entdeckung	Entdeckung	NOUN	_	_	_	_	_	_
+8	weitreichende	weitreichend	ADJ	_	_	_	_	_	_
+9	Folgen	Folge	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Medizin	Medizin	NOUN	_	_	_	_	_	_
+13	haben	haben	AUX	_	_	_	_	_	_
+14	werde	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_563
+# text = Die Veröffentlichung der Ergebnisse erfolgte erst nach einer strengen fachlichen Begutachtung.
+1	Die	der	DET	_	_	_	_	_	_
+2	Veröffentlichung	Veröffentlichung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+5	erfolgte	erfolgen	VERB	_	_	_	_	_	_
+6	erst	erst	ADV	_	_	_	_	_	_
+7	nach	nach	ADP	_	_	_	_	_	_
+8	einer	ein	DET	_	_	_	_	_	_
+9	strengen	streng	ADJ	_	_	_	_	_	_
+10	fachlichen	fachlich	ADJ	_	_	_	_	_	_
+11	Begutachtung	Begutachtung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_564
+# text = Obschon die Theorie umstritten ist, findet sie in der Fachwelt breite Unterstützung.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Theorie	Theorie	NOUN	_	_	_	_	_	_
+4	umstritten	umstritten	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	findet	finden	VERB	_	_	_	_	_	_
+8	sie	sie	PRON	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Fachwelt	Fachwelt	NOUN	_	_	_	_	_	_
+12	breite	breit	ADJ	_	_	_	_	_	_
+13	Unterstützung	Unterstützung	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_565
+# text = Die Messung der Temperatur wurde mit modernsten Sensoren durchgeführt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Messung	Messung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Temperatur	Temperatur	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	mit	mit	ADP	_	_	_	_	_	_
+7	modernsten	modern	ADJ	_	_	_	_	_	_
+8	Sensoren	Sensor	NOUN	_	_	_	_	_	_
+9	durchgeführt	durchführen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_566
+# text = Würde man die Proben anders behandeln, könnten die Resultate deutlich abweichen.
+1	Würde	werden	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Proben	Probe	NOUN	_	_	_	_	_	_
+5	anders	anders	ADV	_	_	_	_	_	_
+6	behandeln	behandeln	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	könnten	können	VERB	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Resultate	Resultat	NOUN	_	_	_	_	_	_
+11	deutlich	deutlich	ADJ	_	_	_	_	_	_
+12	abweichen	abweichen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_567
+# text = Der Professor betonte, die Forschung sei noch lange nicht abgeschlossen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Professor	Professor	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Forschung	Forschung	NOUN	_	_	_	_	_	_
+7	sei	sein	AUX	_	_	_	_	_	_
+8	noch	noch	ADV	_	_	_	_	_	_
+9	lange	lange	ADV	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	abgeschlossen	abschließen	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_568
+# text = Es ist ratsam, die statistischen Auswertungen vor der Publikation nochmals zu überprüfen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	statistischen	statistisch	ADJ	_	_	_	_	_	_
+7	Auswertungen	Auswertung	NOUN	_	_	_	_	_	_
+8	vor	vor	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Publikation	Publikation	NOUN	_	_	_	_	_	_
+11	nochmals	nochmals	ADV	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	überprüfen	überprüfen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_569
+# text = Die Entwicklung neuer Impfstoffe erfordert jahrelange klinische Tests und Zulassungsverfahren.
+1	Die	der	DET	_	_	_	_	_	_
+2	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+3	neuer	neu	ADJ	_	_	_	_	_	_
+4	Impfstoffe	Impfstoff	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	jahrelange	jahrelang	ADJ	_	_	_	_	_	_
+7	klinische	klinisch	ADJ	_	_	_	_	_	_
+8	Tests	Test	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Zulassungsverfahren	Zulassungsverfahren	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_570
+# text = Nach der Konferenz wurde beschlossen, die Zusammenarbeit zwischen den Instituten zu vertiefen.
+1	Nach	nach	ADP	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Konferenz	Konferenz	NOUN	_	_	_	_	_	_
+4	wurde	werden	AUX	_	_	_	_	_	_
+5	beschlossen	beschließen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Zusammenarbeit	Zusammenarbeit	NOUN	_	_	_	_	_	_
+9	zwischen	zwischen	ADP	_	_	_	_	_	_
+10	den	der	DET	_	_	_	_	_	_
+11	Instituten	Institut	NOUN	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	vertiefen	vertiefen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_571
+# text = Obwohl die Finanzierung knapp war, gelang es dem Team, das Projekt fortzuführen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Finanzierung	Finanzierung	NOUN	_	_	_	_	_	_
+4	knapp	knapp	ADJ	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	gelang	gelingen	VERB	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	dem	der	DET	_	_	_	_	_	_
+10	Team	Team	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	das	der	DET	_	_	_	_	_	_
+13	Projekt	Projekt	NOUN	_	_	_	_	_	_
+14	fortzuführen	fortführen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_572
+# text = Die Auswirkungen des Klimawandels auf die Artenvielfalt werden intensiv untersucht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Auswirkungen	Auswirkung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Klimawandels	Klimawandel	NOUN	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Artenvielfalt	Artenvielfalt	NOUN	_	_	_	_	_	_
+8	werden	werden	AUX	_	_	_	_	_	_
+9	intensiv	intensiv	ADJ	_	_	_	_	_	_
+10	untersucht	untersuchen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_573
+# text = Es werde erwartet, dass die nächste Generation von Batterien deutlich effizienter sei.
+1	Es	es	PRON	_	_	_	_	_	_
+2	werde	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	nächste	nah	ADJ	_	_	_	_	_	_
+8	Generation	Generation	NOUN	_	_	_	_	_	_
+9	von	von	ADP	_	_	_	_	_	_
+10	Batterien	Batterie	NOUN	_	_	_	_	_	_
+11	deutlich	deutlich	ADJ	_	_	_	_	_	_
+12	effizienter	effizient	ADJ	_	_	_	_	_	_
+13	sei	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_574
+# text = Die Durchführung des Experiments wurde wegen technischer Probleme vorübergehend unterbrochen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Durchführung	Durchführung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Experiments	Experiment	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	wegen	wegen	ADP	_	_	_	_	_	_
+7	technischer	technisch	ADJ	_	_	_	_	_	_
+8	Probleme	Problem	NOUN	_	_	_	_	_	_
+9	vorübergehend	vorübergehend	ADJ	_	_	_	_	_	_
+10	unterbrochen	unterbrechen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_575
+# text = Hätte man die Variable berücksichtigt, wäre das Ergebnis wahrscheinlich anders ausgefallen.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Variable	Variable	NOUN	_	_	_	_	_	_
+5	berücksichtigt	berücksichtigen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wäre	sein	AUX	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Ergebnis	Ergebnis	NOUN	_	_	_	_	_	_
+10	wahrscheinlich	wahrscheinlich	ADJ	_	_	_	_	_	_
+11	anders	anders	ADV	_	_	_	_	_	_
+12	ausgefallen	ausfallen	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_576
+# text = Der Bericht weist darauf hin, dass weitere Forschung dringend notwendig sei.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	weist	weisen	VERB	_	_	_	_	_	_
+4	darauf	darauf	ADV	_	_	_	_	_	_
+5	hin	hin	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dass	dass	SCONJ	_	_	_	_	_	_
+8	weitere	weit	ADJ	_	_	_	_	_	_
+9	Forschung	Forschung	NOUN	_	_	_	_	_	_
+10	dringend	dringend	ADJ	_	_	_	_	_	_
+11	notwendig	notwendig	ADJ	_	_	_	_	_	_
+12	sei	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_577
+# text = Die Anwendung der neuen Methode führte zu einer erheblichen Verbesserung der Genauigkeit.
+1	Die	der	DET	_	_	_	_	_	_
+2	Anwendung	Anwendung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	neuen	neu	ADJ	_	_	_	_	_	_
+5	Methode	Methode	NOUN	_	_	_	_	_	_
+6	führte	führen	VERB	_	_	_	_	_	_
+7	zu	zu	ADP	_	_	_	_	_	_
+8	einer	ein	DET	_	_	_	_	_	_
+9	erheblichen	erheblich	ADJ	_	_	_	_	_	_
+10	Verbesserung	Verbesserung	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Genauigkeit	Genauigkeit	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_578
+# text = Obschon die Ergebnisse vielversprechend sind, mahnt die Wissenschaft zu großer Vorsicht.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Ergebnisse	Ergebnis	NOUN	_	_	_	_	_	_
+4	vielversprechend	vielversprechend	ADJ	_	_	_	_	_	_
+5	sind	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mahnt	mahnen	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Wissenschaft	Wissenschaft	NOUN	_	_	_	_	_	_
+10	zu	zu	ADP	_	_	_	_	_	_
+11	großer	groß	ADJ	_	_	_	_	_	_
+12	Vorsicht	Vorsicht	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_579
+# text = Es wird davon abgeraten, die ersten Befunde voreilig zu verallgemeinern.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	davon	davon	ADV	_	_	_	_	_	_
+4	abgeraten	abgeraten	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	ersten	erst	ADJ	_	_	_	_	_	_
+8	Befunde	Befund	NOUN	_	_	_	_	_	_
+9	voreilig	voreilig	ADJ	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	verallgemeinern	verallmeinern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_580
+# text = Die Erforschung des Weltraums erfordert internationale Kooperation und enorme finanzielle Mittel.
+1	Die	der	DET	_	_	_	_	_	_
+2	Erforschung	Erforschung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Weltraums	Weltraum	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	internationale	international	ADJ	_	_	_	_	_	_
+7	Kooperation	Kooperation	NOUN	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	enorme	enorm	ADJ	_	_	_	_	_	_
+10	finanzielle	finanziell	ADJ	_	_	_	_	_	_
+11	Mittel	Mittel	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_581
+# text = Der Autor argumentiert, die bisherige Erklärung des Phänomens sei unzureichend.
+1	Der	der	DET	_	_	_	_	_	_
+2	Autor	Autor	NOUN	_	_	_	_	_	_
+3	argumentiert	argumentieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	bisherige	bisherig	ADJ	_	_	_	_	_	_
+7	Erklärung	Erklärung	NOUN	_	_	_	_	_	_
+8	des	der	DET	_	_	_	_	_	_
+9	Phänomens	Phänomen	NOUN	_	_	_	_	_	_
+10	sei	sein	AUX	_	_	_	_	_	_
+11	unzureichend	unzureichend	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_582
+# text = Die Validierung der Messwerte erfolgte mithilfe eines unabhängigen Referenzverfahrens.
+1	Die	der	DET	_	_	_	_	_	_
+2	Validierung	Validierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Messwerte	Meßwert	NOUN	_	_	_	_	_	_
+5	erfolgte	erfolgen	VERB	_	_	_	_	_	_
+6	mithilfe	mithilfe	ADP	_	_	_	_	_	_
+7	eines	ein	DET	_	_	_	_	_	_
+8	unabhängigen	unabhängig	ADJ	_	_	_	_	_	_
+9	Referenzverfahrens	Referenzverfahren	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_583
+# text = Wären die Rahmenbedingungen günstiger gewesen, hätte die Studie schneller abgeschlossen werden können.
+1	Wären	sein	AUX	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Rahmenbedingungen	Rahmenbedingung	NOUN	_	_	_	_	_	_
+4	günstiger	günstig	ADJ	_	_	_	_	_	_
+5	gewesen	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	hätte	haben	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Studie	Studie	NOUN	_	_	_	_	_	_
+10	schneller	schnell	ADJ	_	_	_	_	_	_
+11	abgeschlossen	abschließen	VERB	_	_	_	_	_	_
+12	werden	werden	AUX	_	_	_	_	_	_
+13	können	können	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_584
+# text = Die Integration von Migranten wird in vielen Ländern kontrovers diskutiert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Integration	Integration	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Migranten	Migranten	NOUN	_	_	_	_	_	_
+5	wird	werden	AUX	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	vielen	viel	DET	_	_	_	_	_	_
+8	Ländern	Land	NOUN	_	_	_	_	_	_
+9	kontrovers	kontrovers	ADJ	_	_	_	_	_	_
+10	diskutiert	diskutieren	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_585
+# text = Obwohl die Arbeitslosigkeit gesunken ist, bleibt die soziale Ungleichheit bestehen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Arbeitslosigkeit	Arbeitslosigkeit	NOUN	_	_	_	_	_	_
+4	gesunken	sinken	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bleibt	bleiben	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	soziale	sozial	ADJ	_	_	_	_	_	_
+10	Ungleichheit	Ungleichheit	NOUN	_	_	_	_	_	_
+11	bestehen	bestehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_586
+# text = Es wird befürchtet, dass die Altersarmut in den kommenden Jahren zunehmen werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	befürchtet	befürchten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Altersarmut	Altersarmut	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	kommenden	kommend	ADJ	_	_	_	_	_	_
+11	Jahren	Jahr	NOUN	_	_	_	_	_	_
+12	zunehmen	zunehmen	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_587
+# text = Die Gleichstellung der Geschlechter ist ein zentrales Anliegen der modernen Gesellschaft.
+1	Die	der	DET	_	_	_	_	_	_
+2	Gleichstellung	Gleichstellung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Geschlechter	Geschlecht	NOUN	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	ein	ein	DET	_	_	_	_	_	_
+7	zentrales	zentral	ADJ	_	_	_	_	_	_
+8	Anliegen	Anliegen	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	modernen	modern	ADJ	_	_	_	_	_	_
+11	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_588
+# text = Obschon viele Fortschritte erzielt wurden, bestehen im Alltag noch immer Vorurteile.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	viele	viel	DET	_	_	_	_	_	_
+3	Fortschritte	Fortschritt	NOUN	_	_	_	_	_	_
+4	erzielt	erzielen	VERB	_	_	_	_	_	_
+5	wurden	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bestehen	bestehen	VERB	_	_	_	_	_	_
+8	im	in	ADP	_	_	_	_	_	_
+9	Alltag	Alltag	NOUN	_	_	_	_	_	_
+10	noch	noch	ADV	_	_	_	_	_	_
+11	immer	immer	ADV	_	_	_	_	_	_
+12	Vorurteile	Vorurteil	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_589
+# text = Der Soziologe erklärte, die Struktur der Familie habe sich grundlegend verändert.
+1	Der	der	DET	_	_	_	_	_	_
+2	Soziologe	Soziologe	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Struktur	Struktur	NOUN	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Familie	Familie	NOUN	_	_	_	_	_	_
+9	habe	haben	AUX	_	_	_	_	_	_
+10	sich	sich	PRON	_	_	_	_	_	_
+11	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+12	verändert	verändern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_590
+# text = Die Bekämpfung der Kinderarmut erfordert gezielte politische Maßnahmen und gesellschaftliches Engagement.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bekämpfung	Bekämpfung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Kinderarmut	Kinderarmut	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	gezielte	gezielt	ADJ	_	_	_	_	_	_
+7	politische	politisch	ADJ	_	_	_	_	_	_
+8	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	gesellschaftliches	gesellschaftlich	ADJ	_	_	_	_	_	_
+11	Engagement	Engagement	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_591
+# text = Es sei wichtig, dass benachteiligte Gruppen besser am gesellschaftlichen Leben teilhaben.
+1	Es	es	PRON	_	_	_	_	_	_
+2	sei	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	benachteiligte	benachteiligen	ADJ	_	_	_	_	_	_
+7	Gruppen	Gruppe	NOUN	_	_	_	_	_	_
+8	besser	gut	ADJ	_	_	_	_	_	_
+9	am	an	ADP	_	_	_	_	_	_
+10	gesellschaftlichen	gesellschaftlich	ADJ	_	_	_	_	_	_
+11	Leben	Leben	NOUN	_	_	_	_	_	_
+12	teilhaben	teilhaben	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_592
+# text = Die Verbreitung von Desinformation gefährdet das Vertrauen in demokratische Institutionen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verbreitung	Verbreitung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Desinformation	Desinformation	NOUN	_	_	_	_	_	_
+5	gefährdet	gefährden	VERB	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Vertrauen	Vertrauen	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	demokratische	demokratisch	ADJ	_	_	_	_	_	_
+10	Institutionen	Institution	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_593
+# text = Würde man mehr in Bildung investieren, könnte die Chancengleichheit deutlich verbessert werden.
+1	Würde	werden	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	mehr	mehr	DET	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	Bildung	Bildung	NOUN	_	_	_	_	_	_
+6	investieren	investieren	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	könnte	können	AUX	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Chancengleichheit	Chancengleichheit	NOUN	_	_	_	_	_	_
+11	deutlich	deutlich	ADJ	_	_	_	_	_	_
+12	verbessert	verbessern	VERB	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_594
+# text = Die Senkung der Wohnsubventionen wurde von Wohlfahrtsverbänden scharf kritisiert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Senkung	Senkung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Wohnsubventionen	Wohnsubvention	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	Wohlfahrtsverbänden	Wohlfahrtsverband	NOUN	_	_	_	_	_	_
+8	scharf	scharf	ADJ	_	_	_	_	_	_
+9	kritisiert	kritisieren	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_595
+# text = Obwohl die Stadt wächst, fehlt es an bezahlbarem Wohnraum für junge Familien.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Stadt	Stadt	NOUN	_	_	_	_	_	_
+4	wächst	wachsen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	fehlt	fehlen	VERB	_	_	_	_	_	_
+7	es	es	PRON	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	bezahlbarem	bezahlbar	ADJ	_	_	_	_	_	_
+10	Wohnraum	Wohnraum	NOUN	_	_	_	_	_	_
+11	für	für	ADP	_	_	_	_	_	_
+12	junge	jung	ADJ	_	_	_	_	_	_
+13	Familien	Familie	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_596
+# text = Es wird erwartet, dass die Urbanisierung in den nächsten Jahrzehnten weiter zunehmen wird.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Urbanisierung	Urbanisierung	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	nächsten	nah	ADJ	_	_	_	_	_	_
+11	Jahrzehnten	Jahrzehnt	NOUN	_	_	_	_	_	_
+12	weiter	weit	ADJ	_	_	_	_	_	_
+13	zunehmen	zunehmen	VERB	_	_	_	_	_	_
+14	wird	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_597
+# text = Die Stärkung des bürgerschaftlichen Engagements wird als Schlüssel zu dieser Lösung angesehen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stärkung	Stärkung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	bürgerschaftlichen	bürgerschaftlich	ADJ	_	_	_	_	_	_
+5	Engagements	Engagement	NOUN	_	_	_	_	_	_
+6	wird	werden	AUX	_	_	_	_	_	_
+7	als	als	SCONJ	_	_	_	_	_	_
+8	Schlüssel	Schlüssel	NOUN	_	_	_	_	_	_
+9	zu	zu	ADP	_	_	_	_	_	_
+10	dieser	dieser	DET	_	_	_	_	_	_
+11	Lösung	Lösung	NOUN	_	_	_	_	_	_
+12	angesehen	ansehen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_598
+# text = Hätte die Politik früher reagiert, wäre die Wohnungsnot weniger dramatisch geworden.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Politik	Politik	NOUN	_	_	_	_	_	_
+4	früher	früher	ADJ	_	_	_	_	_	_
+5	reagiert	reagieren	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wäre	sein	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Wohnungsnot	Wohnungsnot	NOUN	_	_	_	_	_	_
+10	weniger	wenig	DET	_	_	_	_	_	_
+11	dramatisch	dramatisch	ADJ	_	_	_	_	_	_
+12	geworden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_599
+# text = Der Bericht dokumentiert, wie sich die Lebensbedingungen in ländlichen Regionen verschlechtert haben.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	dokumentiert	dokumentieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wie	wie	SCONJ	_	_	_	_	_	_
+6	sich	sich	PRON	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Lebensbedingungen	Lebensbedingung	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	ländlichen	ländlich	ADJ	_	_	_	_	_	_
+11	Regionen	Region	NOUN	_	_	_	_	_	_
+12	verschlechtert	verschlechtern	VERB	_	_	_	_	_	_
+13	haben	haben	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_600
+# text = Die Förderung der Inklusion behinderter Menschen ist gesetzlich verankert worden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Förderung	Förderung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Inklusion	Inklusion	NOUN	_	_	_	_	_	_
+5	behinderter	behindert	ADJ	_	_	_	_	_	_
+6	Menschen	Mensch	NOUN	_	_	_	_	_	_
+7	ist	sein	AUX	_	_	_	_	_	_
+8	gesetzlich	gesetzlich	ADJ	_	_	_	_	_	_
+9	verankert	verankern	VERB	_	_	_	_	_	_
+10	worden	werden	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_601
+# text = Obschon die Debatte emotional geführt wird, sind sachliche Argumente unerlässlich.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Debatte	Debatte	NOUN	_	_	_	_	_	_
+4	emotional	emotional	ADJ	_	_	_	_	_	_
+5	geführt	führen	VERB	_	_	_	_	_	_
+6	wird	werden	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	sind	sein	AUX	_	_	_	_	_	_
+9	sachliche	sachlich	ADJ	_	_	_	_	_	_
+10	Argumente	Argument	NOUN	_	_	_	_	_	_
+11	unerlässlich	unerlässlich	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_602
+# text = Es mangelt nicht an gutem Willen, sondern an konkreten Umsetzungsstrategien.
+1	Es	es	PRON	_	_	_	_	_	_
+2	mangelt	mangeln	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	gutem	gut	ADJ	_	_	_	_	_	_
+6	Willen	Wille	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	sondern	sondern	CCONJ	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	konkreten	konkret	ADJ	_	_	_	_	_	_
+11	Umsetzungsstrategien	Umsetzungsstrategie	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_603
+# text = Die Entwicklung sozialer Wohnprojekte soll die Segregation in den Städten verringern.
+1	Die	der	DET	_	_	_	_	_	_
+2	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+3	sozialer	sozial	ADJ	_	_	_	_	_	_
+4	Wohnprojekte	Wohnprojekt	NOUN	_	_	_	_	_	_
+5	soll	sollen	AUX	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Segregation	Segregation	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Städten	Stadt	NOUN	_	_	_	_	_	_
+11	verringern	verringern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_604
+# text = Der Experte betonte, die Solidarität in der Gesellschaft dürfe nicht nachlassen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Experte	Experte	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Solidarität	Solidarität	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Gesellschaft	Gesellschaft	NOUN	_	_	_	_	_	_
+10	dürfe	dürfen	VERB	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	nachlassen	nachlassen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_605
+# text = Die Auswirkungen der Digitalisierung auf den Arbeitsmarkt werden kontrovers bewertet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Auswirkungen	Auswirkung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Digitalisierung	Digitalisierung	NOUN	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Arbeitsmarkt	Arbeitsmarkt	NOUN	_	_	_	_	_	_
+8	werden	werden	AUX	_	_	_	_	_	_
+9	kontrovers	kontrovers	ADJ	_	_	_	_	_	_
+10	bewertet	bewerten	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_606
+# text = Es wird empfohlen, die sozialen Sicherungssysteme an die demografische Entwicklung anzupassen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	empfohlen	empfehlen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	sozialen	sozial	ADJ	_	_	_	_	_	_
+7	Sicherungssysteme	Sicherungssystem	NOUN	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	demografische	demografisch	ADJ	_	_	_	_	_	_
+11	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+12	anzupassen	anpassen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_607
+# text = Obwohl die Kriminalitätsrate gesunken ist, fühlen sich viele Bürger unsicher.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Kriminalitätsrate	Kriminalitätsrate	NOUN	_	_	_	_	_	_
+4	gesunken	sinken	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	fühlen	fühlen	VERB	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	viele	viel	DET	_	_	_	_	_	_
+10	Bürger	Bürger	NOUN	_	_	_	_	_	_
+11	unsicher	unsicher	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_608
+# text = Die Schaffung neuer Arbeitsplätze in strukturschwachen Regionen bleibt eine große Herausforderung.
+1	Die	der	DET	_	_	_	_	_	_
+2	Schaffung	Schaffung	NOUN	_	_	_	_	_	_
+3	neuer	neu	ADJ	_	_	_	_	_	_
+4	Arbeitsplätze	Arbeitsplatz	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	strukturschwachen	strukturschwachen	ADJ	_	_	_	_	_	_
+7	Regionen	Region	NOUN	_	_	_	_	_	_
+8	bleibt	bleiben	VERB	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	große	groß	ADJ	_	_	_	_	_	_
+11	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_609
+# text = Die Digitalisierung der Verwaltung soll den Bürgern den Zugang zu Dienstleistungen erleichtern.
+1	Die	der	DET	_	_	_	_	_	_
+2	Digitalisierung	Digitalisierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Verwaltung	Verwaltung	NOUN	_	_	_	_	_	_
+5	soll	sollen	AUX	_	_	_	_	_	_
+6	den	der	DET	_	_	_	_	_	_
+7	Bürgern	Bürger	NOUN	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Zugang	Zugang	NOUN	_	_	_	_	_	_
+10	zu	zu	ADP	_	_	_	_	_	_
+11	Dienstleistungen	Dienstleistung	NOUN	_	_	_	_	_	_
+12	erleichtern	erleichtern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_610
+# text = Obwohl die Technologie fortschrittlich ist, werden Datenschutzbedenken immer lauter.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Technologie	Technologie	NOUN	_	_	_	_	_	_
+4	fortschrittlich	fortschrittlich	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	Datenschutzbedenken	Datenschutzbedenk	NOUN	_	_	_	_	_	_
+9	immer	immer	ADV	_	_	_	_	_	_
+10	lauter	laut	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_611
+# text = Es wird prognostiziert, dass künstliche Intelligenz viele Berufsbilder grundlegend verändern werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	prognostiziert	prognostizieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	künstliche	künstlich	ADJ	_	_	_	_	_	_
+7	Intelligenz	Intelligenz	NOUN	_	_	_	_	_	_
+8	viele	viel	DET	_	_	_	_	_	_
+9	Berufsbilder	Berufsbild	NOUN	_	_	_	_	_	_
+10	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+11	verändern	verändern	VERB	_	_	_	_	_	_
+12	werde	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_612
+# text = Die Entwicklung autonomer Fahrzeuge erfordert neue gesetzliche Rahmenbedingungen und Sicherheitsstandards.
+1	Die	der	DET	_	_	_	_	_	_
+2	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+3	autonomer	autonom	ADJ	_	_	_	_	_	_
+4	Fahrzeuge	Fahrzeug	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	neue	neu	ADJ	_	_	_	_	_	_
+7	gesetzliche	gesetzlich	ADJ	_	_	_	_	_	_
+8	Rahmenbedingungen	Rahmenbedingung	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Sicherheitsstandards	Sicherheitsstandard	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_613
+# text = Obschon die Software leistungsfähig ist, mangelt es an benutzerfreundlichen Oberflächen.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Software	Software	NOUN	_	_	_	_	_	_
+4	leistungsfähig	leistungsfähig	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mangelt	mangeln	VERB	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	benutzerfreundlichen	benutzerfreundlich	ADJ	_	_	_	_	_	_
+11	Oberflächen	Oberfläche	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_614
+# text = Der Ingenieur erklärte, das System lasse sich nur schwer in bestehende Netzwerke integrieren.
+1	Der	der	DET	_	_	_	_	_	_
+2	Ingenieur	Ingenieur	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	System	System	NOUN	_	_	_	_	_	_
+7	lasse	lassen	AUX	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	nur	nur	ADV	_	_	_	_	_	_
+10	schwer	schwer	ADJ	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	bestehende	bestehend	ADJ	_	_	_	_	_	_
+13	Netzwerke	Netzwerk	NOUN	_	_	_	_	_	_
+14	integrieren	integrieren	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_615
+# text = Die Speicherung sensibler Daten in der Cloud wirft erhebliche Sicherheitsfragen auf.
+1	Die	der	DET	_	_	_	_	_	_
+2	Speicherung	Speicherung	NOUN	_	_	_	_	_	_
+3	sensibler	sensibel	ADJ	_	_	_	_	_	_
+4	Daten	Datum	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Cloud	Cloud	PROPN	_	_	_	_	_	_
+8	wirft	werfen	VERB	_	_	_	_	_	_
+9	erhebliche	erheblich	ADJ	_	_	_	_	_	_
+10	Sicherheitsfragen	Sicherheitsfrage	NOUN	_	_	_	_	_	_
+11	auf	auf	ADP	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_616
+# text = Es sei ratsam, vor der Einführung neuer Technologien eine gründliche Risikoanalyse durchzuführen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	sei	sein	AUX	_	_	_	_	_	_
+3	ratsam	ratsam	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Einführung	Einführung	NOUN	_	_	_	_	_	_
+8	neuer	neu	ADJ	_	_	_	_	_	_
+9	Technologien	Technologie	NOUN	_	_	_	_	_	_
+10	eine	ein	DET	_	_	_	_	_	_
+11	gründliche	gründlich	ADJ	_	_	_	_	_	_
+12	Risikoanalyse	Risikoanalyse	NOUN	_	_	_	_	_	_
+13	durchzuführen	durchführen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_617
+# text = Die Verbreitung von Smartphones hat die Art der Kommunikation nachhaltig verändert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verbreitung	Verbreitung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Smartphones	Smartphone	NOUN	_	_	_	_	_	_
+5	hat	haben	AUX	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Art	Art	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Kommunikation	Kommunikation	NOUN	_	_	_	_	_	_
+10	nachhaltig	nachhaltig	ADJ	_	_	_	_	_	_
+11	verändert	verändern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_618
+# text = Würde man die Algorithmen transparenter gestalten, könnte das Vertrauen der Nutzer steigen.
+1	Würde	werden	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Algorithmen	Algorithmus	NOUN	_	_	_	_	_	_
+5	transparenter	transparent	ADJ	_	_	_	_	_	_
+6	gestalten	gestalten	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	könnte	können	AUX	_	_	_	_	_	_
+9	das	der	DET	_	_	_	_	_	_
+10	Vertrauen	Vertrauen	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Nutzer	Nutzer	NOUN	_	_	_	_	_	_
+13	steigen	steigen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_619
+# text = Die Modernisierung der digitalen Infrastruktur wurde mit erheblichen Kosten und Zeitaufwand verbunden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Modernisierung	Modernisierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	digitalen	digital	ADJ	_	_	_	_	_	_
+5	Infrastruktur	Infrastruktur	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	erheblichen	erheblich	ADJ	_	_	_	_	_	_
+9	Kosten	Kosten	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Zeitaufwand	Zeitaufwand	NOUN	_	_	_	_	_	_
+12	verbunden	verbinden	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_620
+# text = Obwohl die Bandbreite ausreichend war, traten bei der Videokonferenz technische Störungen auf.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Bandbreite	Bandbreite	NOUN	_	_	_	_	_	_
+4	ausreichend	ausreichend	ADJ	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	traten	treten	VERB	_	_	_	_	_	_
+8	bei	bei	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Videokonferenz	Videokonferenz	NOUN	_	_	_	_	_	_
+11	technische	technisch	ADJ	_	_	_	_	_	_
+12	Störungen	Störung	NOUN	_	_	_	_	_	_
+13	auf	auf	ADP	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_621
+# text = Es wird erwartet, dass die nächste Softwareversion zahlreiche Fehler beheben werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	nächste	nah	ADJ	_	_	_	_	_	_
+8	Softwareversion	Softwareversion	NOUN	_	_	_	_	_	_
+9	zahlreiche	zahlreich	ADJ	_	_	_	_	_	_
+10	Fehler	Fehler	NOUN	_	_	_	_	_	_
+11	beheben	beheben	VERB	_	_	_	_	_	_
+12	werde	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_622
+# text = Die Anwendung von Blockchaintechnologie in der Finanzbranche wird intensiv erforscht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Anwendung	Anwendung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Blockchaintechnologie	Blockchaintechnologie	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Finanzbranche	Finanzbranche	NOUN	_	_	_	_	_	_
+8	wird	werden	AUX	_	_	_	_	_	_
+9	intensiv	intensiv	ADJ	_	_	_	_	_	_
+10	erforscht	erforschen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_623
+# text = Hätte man die Sicherheitslücken früher entdeckt, wäre der Datenverlust vermeidbar gewesen.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Sicherheitslücken	Sicherheitslücke	NOUN	_	_	_	_	_	_
+5	früher	früher	ADJ	_	_	_	_	_	_
+6	entdeckt	entdecken	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wäre	sein	AUX	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Datenverlust	Datenverlust	NOUN	_	_	_	_	_	_
+11	vermeidbar	vermeidbar	ADJ	_	_	_	_	_	_
+12	gewesen	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_624
+# text = Der Bericht empfiehlt, die Cybersicherheit als strategische Priorität zu behandeln.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	empfiehlt	empfehlen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Cybersicherheit	Cybersicherheit	NOUN	_	_	_	_	_	_
+7	als	als	SCONJ	_	_	_	_	_	_
+8	strategische	strategisch	ADJ	_	_	_	_	_	_
+9	Priorität	Priorität	NOUN	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	behandeln	behandeln	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_625
+# text = Die Automatisierung von Produktionsprozessen führt zu einer Steigerung der Wirtschaftlichkeit.
+1	Die	der	DET	_	_	_	_	_	_
+2	Automatisierung	Automatisierung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Produktionsprozessen	Produktionsprozess	NOUN	_	_	_	_	_	_
+5	führt	führen	VERB	_	_	_	_	_	_
+6	zu	zu	ADP	_	_	_	_	_	_
+7	einer	ein	DET	_	_	_	_	_	_
+8	Steigerung	Steigerung	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Wirtschaftlichkeit	Wirtschaftlichkeit	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_626
+# text = Obschon die Innovation vielversprechend klingt, sind die langfristigen Folgen ungewiss.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Innovation	Innovation	NOUN	_	_	_	_	_	_
+4	vielversprechend	vielversprechend	ADJ	_	_	_	_	_	_
+5	klingt	klingen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sind	sein	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	langfristigen	langfristig	ADJ	_	_	_	_	_	_
+10	Folgen	Folge	NOUN	_	_	_	_	_	_
+11	ungewiss	ungewiß	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_627
+# text = Es wird davon ausgegangen, dass die Digitalisierung die Bildung grundlegend transformieren werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	davon	davon	ADV	_	_	_	_	_	_
+4	ausgegangen	ausgehen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Digitalisierung	Digitalisierung	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Bildung	Bildung	NOUN	_	_	_	_	_	_
+11	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+12	transformieren	transformieren	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_628
+# text = Die Einrichtung eines landesweiten Glasfasernetzes erfordert massive öffentliche Investitionen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einrichtung	Einrichtung	NOUN	_	_	_	_	_	_
+3	eines	ein	DET	_	_	_	_	_	_
+4	landesweiten	landesweit	ADJ	_	_	_	_	_	_
+5	Glasfasernetzes	Glasfasernetz	NOUN	_	_	_	_	_	_
+6	erfordert	erfordern	VERB	_	_	_	_	_	_
+7	massive	massiv	ADJ	_	_	_	_	_	_
+8	öffentliche	öffentlich	ADJ	_	_	_	_	_	_
+9	Investitionen	Investition	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_629
+# text = Der Experte warnte, die Abhängigkeit von ausländischen Technologieanbietern nehme stetig zu.
+1	Der	der	DET	_	_	_	_	_	_
+2	Experte	Experte	NOUN	_	_	_	_	_	_
+3	warnte	warnen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Abhängigkeit	Abhängigkeit	NOUN	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	ausländischen	ausländisch	ADJ	_	_	_	_	_	_
+9	Technologieanbietern	Technologieanbieter	NOUN	_	_	_	_	_	_
+10	nehme	nehmen	VERB	_	_	_	_	_	_
+11	stetig	stetig	ADJ	_	_	_	_	_	_
+12	zu	zu	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_630
+# text = Die Entwicklung nachhaltiger Energietechnologien ist für die Bekämpfung des Klimawandels unerlässlich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Entwicklung	Entwicklung	NOUN	_	_	_	_	_	_
+3	nachhaltiger	nachhaltig	ADJ	_	_	_	_	_	_
+4	Energietechnologien	Energietechnologie	NOUN	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	für	für	ADP	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Bekämpfung	Bekämpfung	NOUN	_	_	_	_	_	_
+9	des	der	DET	_	_	_	_	_	_
+10	Klimawandels	Klimawandel	NOUN	_	_	_	_	_	_
+11	unerlässlich	unerlässlich	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_631
+# text = Es werde betont, dass der Schutz der Privatsphäre im digitalen Zeitalter oberste Priorität habe.
+1	Es	es	PRON	_	_	_	_	_	_
+2	werde	werden	AUX	_	_	_	_	_	_
+3	betont	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Schutz	Schutz	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Privatsphäre	Privatsphäre	NOUN	_	_	_	_	_	_
+10	im	in	ADP	_	_	_	_	_	_
+11	digitalen	digital	ADJ	_	_	_	_	_	_
+12	Zeitalter	Zeitalter	NOUN	_	_	_	_	_	_
+13	oberste	ober	ADJ	_	_	_	_	_	_
+14	Priorität	Priorität	NOUN	_	_	_	_	_	_
+15	habe	haben	AUX	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_632
+# text = Obwohl die Plattform beliebt ist, wird ihre Marktmacht zunehmend kritisch hinterfragt.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Plattform	Plattform	NOUN	_	_	_	_	_	_
+4	beliebt	belieben	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wird	werden	AUX	_	_	_	_	_	_
+8	ihre	ihr	DET	_	_	_	_	_	_
+9	Marktmacht	Marktmacht	NOUN	_	_	_	_	_	_
+10	zunehmend	zunehmend	ADJ	_	_	_	_	_	_
+11	kritisch	kritisch	ADJ	_	_	_	_	_	_
+12	hinterfragt	hinterfragen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_633
+# text = Die Einführung des neuen Verschlüsselungsverfahrens wurde von Sicherheitsexperten positiv bewertet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einführung	Einführung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	neuen	neu	ADJ	_	_	_	_	_	_
+5	Verschlüsselungsverfahrens	Verschlüsselungsverfahren	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	Sicherheitsexperten	Sicherheitsexperte	NOUN	_	_	_	_	_	_
+9	positiv	positiv	ADJ	_	_	_	_	_	_
+10	bewertet	bewerten	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_634
+# text = Die Inflation hat in den letzten Monaten die Kaufkraft der Verbraucher spürbar geschwächt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Inflation	Inflation	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	letzten	letzt	ADJ	_	_	_	_	_	_
+7	Monaten	Monat	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Kaufkraft	Kaufkraft	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Verbraucher	Verbraucher	NOUN	_	_	_	_	_	_
+12	spürbar	spürbar	ADJ	_	_	_	_	_	_
+13	geschwächt	schwächen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_635
+# text = Obwohl die Wirtschaft wächst, bleibt die Zahl der prekären Beschäftigungsverhältnisse hoch.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Wirtschaft	Wirtschaft	NOUN	_	_	_	_	_	_
+4	wächst	wachsen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	bleibt	bleiben	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Zahl	Zahl	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	prekären	prekär	ADJ	_	_	_	_	_	_
+11	Beschäftigungsverhältnisse	Beschäftigungsverhältnis	NOUN	_	_	_	_	_	_
+12	hoch	hoch	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_636
+# text = Es wird befürchtet, dass die nächste Rezession die Staatshaushalte erheblich belasten werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	befürchtet	befürchten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	nächste	nah	ADJ	_	_	_	_	_	_
+8	Rezession	Rezession	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Staatshaushalte	Staatshaushalt	NOUN	_	_	_	_	_	_
+11	erheblich	erheblich	ADJ	_	_	_	_	_	_
+12	belasten	belasten	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_637
+# text = Die Reduzierung der Treibhausgasemissionen erfordert einen grundlegenden Umbau der Industrie.
+1	Die	der	DET	_	_	_	_	_	_
+2	Reduzierung	Reduzierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Treibhausgasemissionen	Treibhausgasemission	NOUN	_	_	_	_	_	_
+5	erfordert	erfordern	VERB	_	_	_	_	_	_
+6	einen	ein	DET	_	_	_	_	_	_
+7	grundlegenden	grundlegend	ADJ	_	_	_	_	_	_
+8	Umbau	Umbau	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Industrie	Industrie	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_638
+# text = Obschon die Energiewende voranschreitet, hängt der Ausstieg aus der Kohle noch ab.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Energiewende	Energiewende	NOUN	_	_	_	_	_	_
+4	voranschreitet	voranschreiten	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	hängt	hängen	VERB	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Ausstieg	Ausstieg	NOUN	_	_	_	_	_	_
+9	aus	aus	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Kohle	Kohle	NOUN	_	_	_	_	_	_
+12	noch	noch	ADV	_	_	_	_	_	_
+13	ab	ab	ADP	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_639
+# text = Der Ökonom erklärte, die Zinsen würden voraussichtlich in den kommenden Quartalen steigen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Ökonom	Ökonom	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Zinsen	Zins	NOUN	_	_	_	_	_	_
+7	würden	werden	AUX	_	_	_	_	_	_
+8	voraussichtlich	voraussichtlich	ADJ	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	den	der	DET	_	_	_	_	_	_
+11	kommenden	kommend	ADJ	_	_	_	_	_	_
+12	Quartalen	Quartal	NOUN	_	_	_	_	_	_
+13	steigen	steigen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_640
+# text = Die Förderung erneuerbarer Energien wurde im Haushalt mit zusätzlichen Mitteln ausgestattet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Förderung	Förderung	NOUN	_	_	_	_	_	_
+3	erneuerbarer	erneuerbar	ADJ	_	_	_	_	_	_
+4	Energien	Energie	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	im	in	ADP	_	_	_	_	_	_
+7	Haushalt	Haushalt	NOUN	_	_	_	_	_	_
+8	mit	mit	ADP	_	_	_	_	_	_
+9	zusätzlichen	zusätzlich	ADJ	_	_	_	_	_	_
+10	Mitteln	Mittel|Mitteln	NOUN	_	_	_	_	_	_
+11	ausgestattet	ausstatten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_641
+# text = Es sei notwendig, die Nachhaltigkeit der Lieferketten strenger zu überwachen und zu kontrollieren.
+1	Es	es	PRON	_	_	_	_	_	_
+2	sei	sein	AUX	_	_	_	_	_	_
+3	notwendig	notwendig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Nachhaltigkeit	Nachhaltigkeit	NOUN	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Lieferketten	Lieferkette	NOUN	_	_	_	_	_	_
+9	strenger	streng	ADJ	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	überwachen	überwachen	VERB	_	_	_	_	_	_
+12	und	und	CCONJ	_	_	_	_	_	_
+13	zu	zu	PART	_	_	_	_	_	_
+14	kontrollieren	kontrollieren	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_642
+# text = Die Verschärfung der Umweltauflagen führte zu Protesten in der verarbeitenden Industrie.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verschärfung	Verschärfung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Umweltauflagen	Umweltauflage	NOUN	_	_	_	_	_	_
+5	führte	führen	VERB	_	_	_	_	_	_
+6	zu	zu	ADP	_	_	_	_	_	_
+7	Protesten	Protest	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	verarbeitenden	verarbeitend	ADJ	_	_	_	_	_	_
+11	Industrie	Industrie	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_643
+# text = Würde man die Subventionen umleiten, könnte der Ausbau der Windkraft deutlich beschleunigt werden.
+1	Würde	werden	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Subventionen	Subvention	NOUN	_	_	_	_	_	_
+5	umleiten	umleiten	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	könnte	können	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Ausbau	Ausbau	NOUN	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Windkraft	Windkraft	NOUN	_	_	_	_	_	_
+12	deutlich	deutlich	ADJ	_	_	_	_	_	_
+13	beschleunigt	beschleunigen	VERB	_	_	_	_	_	_
+14	werden	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_644
+# text = Die Stabilisierung der Finanzmärkte hängt von der Geldpolitik der Zentralbank ab.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stabilisierung	Stabilisierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Finanzmärkte	Finanzmarkt	NOUN	_	_	_	_	_	_
+5	hängt	hängen	VERB	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Geldpolitik	Geldpolitik	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Zentralbank	Zentralbank	NOUN	_	_	_	_	_	_
+11	ab	ab	ADP	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_645
+# text = Obwohl die Exporte zulegen, belasten steigende Rohstoffpreise die Gewinnmargen der Unternehmen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Exporte	Export	NOUN	_	_	_	_	_	_
+4	zulegen	zulegen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	belasten	belasten	VERB	_	_	_	_	_	_
+7	steigende	steigend	ADJ	_	_	_	_	_	_
+8	Rohstoffpreise	Rohstoffpreis	NOUN	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Gewinnmargen	Gewinnmarge	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Unternehmen	Unternehmen	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_646
+# text = Es wird erwartet, dass die Arbeitslosigkeit im kommenden Jahr leicht zurückgehen werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Arbeitslosigkeit	Arbeitslosigkeit	NOUN	_	_	_	_	_	_
+8	im	in	ADP	_	_	_	_	_	_
+9	kommenden	kommend	ADJ	_	_	_	_	_	_
+10	Jahr	Jahr	NOUN	_	_	_	_	_	_
+11	leicht	leicht	ADJ	_	_	_	_	_	_
+12	zurückgehen	zurückgehen	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_647
+# text = Die Bewirtschaftung der natürlichen Ressourcen muss langfristig und verantwortungsvoll erfolgen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bewirtschaftung	Bewirtschaftung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	natürlichen	natürlich	ADJ	_	_	_	_	_	_
+5	Ressourcen	Ressource	NOUN	_	_	_	_	_	_
+6	muss	müssen	AUX	_	_	_	_	_	_
+7	langfristig	langfristig	ADJ	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	verantwortungsvoll	verantwortungsvoll	ADJ	_	_	_	_	_	_
+10	erfolgen	erfolgen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_648
+# text = Hätte man früher in den Klimaschutz investiert, wären die Anpassungskosten geringer ausgefallen.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	früher	früher	ADJ	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Klimaschutz	Klimaschutz	NOUN	_	_	_	_	_	_
+7	investiert	investieren	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	wären	sein	AUX	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Anpassungskosten	Anpassungskosten	NOUN	_	_	_	_	_	_
+12	geringer	gering	ADJ	_	_	_	_	_	_
+13	ausgefallen	ausfallen	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_649
+# text = Der Bericht dokumentiert, wie sich die Erderwärmung auf die Landwirtschaft auswirkt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Bericht	Bericht	NOUN	_	_	_	_	_	_
+3	dokumentiert	dokumentieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wie	wie	SCONJ	_	_	_	_	_	_
+6	sich	sich	PRON	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Erderwärmung	Erderwärmung	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Landwirtschaft	Landwirtschaft	NOUN	_	_	_	_	_	_
+12	auswirkt	auswirken	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_650
+# text = Die Einführung einer CO2 Abgabe wurde von Umweltschützern als längst überfällig bezeichnet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einführung	Einführung	NOUN	_	_	_	_	_	_
+3	einer	ein	DET	_	_	_	_	_	_
+4	CO2	CO2	PROPN	_	_	_	_	_	_
+5	Abgabe	Abgabe	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	Umweltschützern	Umweltschützer	NOUN	_	_	_	_	_	_
+9	als	als	SCONJ	_	_	_	_	_	_
+10	längst	längst	ADV	_	_	_	_	_	_
+11	überfällig	überfällig	ADJ	_	_	_	_	_	_
+12	bezeichnet	bezeichnen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_651
+# text = Obschon die Konjunktur robust wirkt, warnen Analysten vor versteckten systemischen Risiken.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Konjunktur	Konjunktur	NOUN	_	_	_	_	_	_
+4	robust	robust	ADJ	_	_	_	_	_	_
+5	wirkt	wirken	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	warnen	warnen	VERB	_	_	_	_	_	_
+8	Analysten	Analyst	NOUN	_	_	_	_	_	_
+9	vor	vor	ADP	_	_	_	_	_	_
+10	versteckten	versteckt	ADJ	_	_	_	_	_	_
+11	systemischen	systemisch	ADJ	_	_	_	_	_	_
+12	Risiken	Risiko	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_652
+# text = Es mangelt nicht an Konzepten, sondern an der Bereitschaft zu konsequentem politischem Handeln.
+1	Es	es	PRON	_	_	_	_	_	_
+2	mangelt	mangeln	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	Konzepten	Konzept	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sondern	sondern	CCONJ	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Bereitschaft	Bereitschaft	NOUN	_	_	_	_	_	_
+11	zu	zu	ADP	_	_	_	_	_	_
+12	konsequentem	konsequent	ADJ	_	_	_	_	_	_
+13	politischem	politisch	ADJ	_	_	_	_	_	_
+14	Handeln	Handeln	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_653
+# text = Die Sanierung der maroden Infrastruktur erfordert Koordination zwischen Bund, Ländern und Kommunen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Sanierung	Sanierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	maroden	maroden	ADJ	_	_	_	_	_	_
+5	Infrastruktur	Infrastruktur	NOUN	_	_	_	_	_	_
+6	erfordert	erfordern	VERB	_	_	_	_	_	_
+7	Koordination	Koordination	NOUN	_	_	_	_	_	_
+8	zwischen	zwischen	ADP	_	_	_	_	_	_
+9	Bund	Bund	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	Ländern	Land	NOUN	_	_	_	_	_	_
+12	und	und	CCONJ	_	_	_	_	_	_
+13	Kommunen	Kommune	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_654
+# text = Der Minister betonte, die Energieversorgungssicherheit dürfe unter keinen Umständen gefährdet werden.
+1	Der	der	DET	_	_	_	_	_	_
+2	Minister	Minister	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Energieversorgungssicherheit	Energieversorgungssicherheit	NOUN	_	_	_	_	_	_
+7	dürfe	dürfen	VERB	_	_	_	_	_	_
+8	unter	unter	ADP	_	_	_	_	_	_
+9	keinen	kein	DET	_	_	_	_	_	_
+10	Umständen	Umstand	NOUN	_	_	_	_	_	_
+11	gefährdet	gefährden	VERB	_	_	_	_	_	_
+12	werden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_655
+# text = Die Ausweitung des Naturschutzgebietes wurde von Umweltverbänden ausdrücklich begrüßt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ausweitung	Ausweitung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Naturschutzgebietes	Naturschutzgebiet	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	Umweltverbänden	Umweltverband	NOUN	_	_	_	_	_	_
+8	ausdrücklich	ausdrücklich	ADJ	_	_	_	_	_	_
+9	begrüßt	begrüßen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_656
+# text = Es wird angenommen, dass die Kreislaufwirtschaft in Zukunft an Bedeutung gewinnen werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	angenommen	annehmen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Kreislaufwirtschaft	Kreislaufwirtschaft	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+10	an	an	ADP	_	_	_	_	_	_
+11	Bedeutung	Bedeutung	NOUN	_	_	_	_	_	_
+12	gewinnen	gewinnen	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_657
+# text = Obwohl die Renditen attraktiv sind, bergen spekulative Investitionen erhebliche Verlustrisiken.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Renditen	Rendite	NOUN	_	_	_	_	_	_
+4	attraktiv	attraktiv	ADJ	_	_	_	_	_	_
+5	sind	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bergen	bergen	VERB	_	_	_	_	_	_
+8	spekulative	spekulativ	ADJ	_	_	_	_	_	_
+9	Investitionen	Investition	NOUN	_	_	_	_	_	_
+10	erhebliche	erheblich	ADJ	_	_	_	_	_	_
+11	Verlustrisiken	Verlustrisiko	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_658
+# text = Die Umstellung auf klimaneutrale Produktionsverfahren stellt viele mittelständische Betriebe vor Herausforderungen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Umstellung	Umstellung	NOUN	_	_	_	_	_	_
+3	auf	auf	ADP	_	_	_	_	_	_
+4	klimaneutrale	klimaneutral	ADJ	_	_	_	_	_	_
+5	Produktionsverfahren	Produktionsverfahren	NOUN	_	_	_	_	_	_
+6	stellt	stellen	VERB	_	_	_	_	_	_
+7	viele	viel	DET	_	_	_	_	_	_
+8	mittelständische	mittelständisch	ADJ	_	_	_	_	_	_
+9	Betriebe	Betrieb	NOUN	_	_	_	_	_	_
+10	vor	vor	ADP	_	_	_	_	_	_
+11	Herausforderungen	Herausforderung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_659
+# text = Die Reform des Bildungssystems soll die Chancengleichheit für alle Schüler verbessern.
+1	Die	der	DET	_	_	_	_	_	_
+2	Reform	Reform	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Bildungssystems	Bildungssystem	NOUN	_	_	_	_	_	_
+5	soll	sollen	AUX	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Chancengleichheit	Chancengleichheit	NOUN	_	_	_	_	_	_
+8	für	für	ADP	_	_	_	_	_	_
+9	alle	all	DET	_	_	_	_	_	_
+10	Schüler	Schüler	NOUN	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_660
+# text = Obwohl die Universitäten überfüllt sind, fehlt es an qualifizierten Lehrkräften.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Universitäten	Universität	NOUN	_	_	_	_	_	_
+4	überfüllt	überfüllen	VERB	_	_	_	_	_	_
+5	sind	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	fehlt	fehlen	VERB	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	qualifizierten	qualifizieren	ADJ	_	_	_	_	_	_
+11	Lehrkräften	Lehrkraft	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_661
+# text = Es wird erwartet, dass die Digitalisierung des Unterrichts neue Lernmethoden ermöglichen werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Digitalisierung	Digitalisierung	NOUN	_	_	_	_	_	_
+8	des	der	DET	_	_	_	_	_	_
+9	Unterrichts	Unterricht	NOUN	_	_	_	_	_	_
+10	neue	neu	ADJ	_	_	_	_	_	_
+11	Lernmethoden	Lernmethode	NOUN	_	_	_	_	_	_
+12	ermöglichen	ermöglichen	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_662
+# text = Die Förderung des bilingualen Unterrichts wird als Investition in die Zukunft der Jugend gesehen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Förderung	Förderung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	bilingualen	bilingualen	ADJ	_	_	_	_	_	_
+5	Unterrichts	Unterricht	NOUN	_	_	_	_	_	_
+6	wird	werden	AUX	_	_	_	_	_	_
+7	als	als	SCONJ	_	_	_	_	_	_
+8	Investition	Investition	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+12	der	der	DET	_	_	_	_	_	_
+13	Jugend	Jugend	NOUN	_	_	_	_	_	_
+14	gesehen	sehen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_663
+# text = Obschon die Bibliothek renoviert wurde, reichen die Öffnungszeiten für viele Studierende nicht aus.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Bibliothek	Bibliothek	NOUN	_	_	_	_	_	_
+4	renoviert	renovieren	VERB	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	reichen	reichen	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Öffnungszeiten	Öffnungszeit	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	viele	viel	DET	_	_	_	_	_	_
+12	Studierende	Studierende	NOUN	_	_	_	_	_	_
+13	nicht	nicht	PART	_	_	_	_	_	_
+14	aus	aus	ADP	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_664
+# text = Der Rektor erklärte, die Qualität der Lehre müsse an erster Stelle stehen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Rektor	Rektor	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Qualität	Qualität	NOUN	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Lehre	Lehre	NOUN	_	_	_	_	_	_
+9	müsse	müssen	VERB	_	_	_	_	_	_
+10	an	an	ADP	_	_	_	_	_	_
+11	erster	erst	ADJ	_	_	_	_	_	_
+12	Stelle	Stelle	NOUN	_	_	_	_	_	_
+13	stehen	stehen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_665
+# text = Die Einführung von Kompetenznachweisen soll die Anerkennung beruflicher Qualifikationen erleichtern.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einführung	Einführung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Kompetenznachweisen	Kompetenznachweis	NOUN	_	_	_	_	_	_
+5	soll	sollen	AUX	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Anerkennung	Anerkennung	NOUN	_	_	_	_	_	_
+8	beruflicher	beruflich	ADJ	_	_	_	_	_	_
+9	Qualifikationen	Qualifikation	NOUN	_	_	_	_	_	_
+10	erleichtern	erleichtern	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_666
+# text = Es sei wichtig, dass kulturelle Vielfalt in Schulen aktiv gefördert und gewürdigt werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	sei	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	kulturelle	kulturell	ADJ	_	_	_	_	_	_
+7	Vielfalt	Vielfalt	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	Schulen	Schule	NOUN	_	_	_	_	_	_
+10	aktiv	aktiv	ADJ	_	_	_	_	_	_
+11	gefördert	fördern	VERB	_	_	_	_	_	_
+12	und	und	CCONJ	_	_	_	_	_	_
+13	gewürdigt	würdigen	VERB	_	_	_	_	_	_
+14	werde	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_667
+# text = Die Finanzierung der Museen hängt zunehmend von privaten Stiftungen und Sponsoren ab.
+1	Die	der	DET	_	_	_	_	_	_
+2	Finanzierung	Finanzierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Museen	Museum	NOUN	_	_	_	_	_	_
+5	hängt	hängen	VERB	_	_	_	_	_	_
+6	zunehmend	zunehmend	ADJ	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	privaten	privat	ADJ	_	_	_	_	_	_
+9	Stiftungen	Stiftung	NOUN	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	Sponsoren	Sponsor	NOUN	_	_	_	_	_	_
+12	ab	ab	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_668
+# text = Würde man mehr in die Lehrerausbildung investieren, könnte der Fachkräftemangel gelindert werden.
+1	Würde	werden	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	mehr	mehr	DET	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Lehrerausbildung	Lehrerausbildung	NOUN	_	_	_	_	_	_
+7	investieren	investieren	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	könnte	können	AUX	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Fachkräftemangel	Fachkräftemangel	NOUN	_	_	_	_	_	_
+12	gelindert	lindern	VERB	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_669
+# text = Die Durchführung des Austauschprogramms wurde wegen der Pandemie vorübergehend ausgesetzt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Durchführung	Durchführung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Austauschprogramms	Austauschprogramm	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	wegen	wegen	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Pandemie	Pandemie	NOUN	_	_	_	_	_	_
+9	vorübergehend	vorübergehend	ADJ	_	_	_	_	_	_
+10	ausgesetzt	aussetzen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_670
+# text = Obwohl die Nachfrage groß ist, sind die Plätze in den Integrationskursen begrenzt.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Nachfrage	Nachfrage	NOUN	_	_	_	_	_	_
+4	groß	groß	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sind	sein	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Plätze	Platz	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	den	der	DET	_	_	_	_	_	_
+12	Integrationskursen	Integrationskurs	NOUN	_	_	_	_	_	_
+13	begrenzt	begrenzen	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_671
+# text = Es wird empfohlen, die Curricula regelmäßig an die Anforderungen des Arbeitsmarktes anzupassen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	empfohlen	empfehlen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Curricula	Curriculum	NOUN	_	_	_	_	_	_
+7	regelmäßig	regelmäßig	ADJ	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Anforderungen	Anforderung	NOUN	_	_	_	_	_	_
+11	des	der	DET	_	_	_	_	_	_
+12	Arbeitsmarktes	Arbeitsmarkt	NOUN	_	_	_	_	_	_
+13	anzupassen	anpassen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_672
+# text = Die Bewahrung des kulturellen Erbes erfordert kontinuierliche Restaurierungsarbeiten und finanzielle Mittel.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bewahrung	Bewahrung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	kulturellen	kulturell	ADJ	_	_	_	_	_	_
+5	Erbes	Erbe	NOUN	_	_	_	_	_	_
+6	erfordert	erfordern	VERB	_	_	_	_	_	_
+7	kontinuierliche	kontinuierlich	ADJ	_	_	_	_	_	_
+8	Restaurierungsarbeiten	Restaurierungsarbeit	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	finanzielle	finanziell	ADJ	_	_	_	_	_	_
+11	Mittel	Mittel	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_673
+# text = Hätte die Schule früher interveniert, wäre der Leistungsrückstand möglicherweise vermieden worden.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Schule	Schule	NOUN	_	_	_	_	_	_
+4	früher	früher	ADJ	_	_	_	_	_	_
+5	interveniert	intervenieren	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wäre	sein	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Leistungsrückstand	Leistungsrückstand	NOUN	_	_	_	_	_	_
+10	möglicherweise	möglicherweise	ADV	_	_	_	_	_	_
+11	vermieden	vermeiden	VERB	_	_	_	_	_	_
+12	worden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_674
+# text = Der Kulturminister betonte, die Kunstfreiheit sei ein unverzichtbares Gut der Demokratie.
+1	Der	der	DET	_	_	_	_	_	_
+2	Kulturminister	Kulturminister	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Kunstfreiheit	Kunstfreiheit	NOUN	_	_	_	_	_	_
+7	sei	sein	AUX	_	_	_	_	_	_
+8	ein	ein	DET	_	_	_	_	_	_
+9	unverzichtbares	unverzichtbar	ADJ	_	_	_	_	_	_
+10	Gut	Gut	NOUN	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Demokratie	Demokratie	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_675
+# text = Die Stärkung des Leseförderprogramms zeigt bereits erste positive Wirkungen in den Grundschulen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stärkung	Stärkung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Leseförderprogramms	Leseförderprogramm	NOUN	_	_	_	_	_	_
+5	zeigt	zeigen	VERB	_	_	_	_	_	_
+6	bereits	bereits	ADV	_	_	_	_	_	_
+7	erste	erst	ADJ	_	_	_	_	_	_
+8	positive	positiv	ADJ	_	_	_	_	_	_
+9	Wirkungen	Wirkung	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	den	der	DET	_	_	_	_	_	_
+12	Grundschulen	Grundschule	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_676
+# text = Obschon die Theaterkassen leiden, finden weiterhin ehrgeizige und innovative Produktionen statt.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Theaterkassen	Theaterkasse	NOUN	_	_	_	_	_	_
+4	leiden	leiden	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	finden	finden	VERB	_	_	_	_	_	_
+7	weiterhin	weiterhin	ADV	_	_	_	_	_	_
+8	ehrgeizige	ehrgeizig	ADJ	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	innovative	innovativ	ADJ	_	_	_	_	_	_
+11	Produktionen	Produktion	NOUN	_	_	_	_	_	_
+12	statt	statt	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_677
+# text = Es wird davon ausgegangen, dass lebenslanges Lernen in Zukunft zur Norm werden werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	davon	davon	ADV	_	_	_	_	_	_
+4	ausgegangen	ausgehen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	lebenslanges	lebenslang	ADJ	_	_	_	_	_	_
+8	Lernen	Lernen	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	Zukunft	Zukunft	NOUN	_	_	_	_	_	_
+11	zur	zu	ADP	_	_	_	_	_	_
+12	Norm	Norm	NOUN	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	werde	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_678
+# text = Die Ausstellung zeitgenössischer Kunst zog in den ersten Wochen zahlreiche Besucher an.
+1	Die	der	DET	_	_	_	_	_	_
+2	Ausstellung	Ausstellung	NOUN	_	_	_	_	_	_
+3	zeitgenössischer	zeitgenössisch	ADJ	_	_	_	_	_	_
+4	Kunst	Kunst	NOUN	_	_	_	_	_	_
+5	zog	ziehen	VERB	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	ersten	erst	ADJ	_	_	_	_	_	_
+9	Wochen	Woche	NOUN	_	_	_	_	_	_
+10	zahlreiche	zahlreich	ADJ	_	_	_	_	_	_
+11	Besucher	Besucher	NOUN	_	_	_	_	_	_
+12	an	an	ADP	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_679
+# text = Der Professor argumentierte, die akademische Freiheit dürfe nicht durch politischen Druck eingeschränkt werden.
+1	Der	der	DET	_	_	_	_	_	_
+2	Professor	Professor	NOUN	_	_	_	_	_	_
+3	argumentierte	argumentieren	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	akademische	akademisch	ADJ	_	_	_	_	_	_
+7	Freiheit	Freiheit	NOUN	_	_	_	_	_	_
+8	dürfe	dürfen	VERB	_	_	_	_	_	_
+9	nicht	nicht	PART	_	_	_	_	_	_
+10	durch	durch	ADP	_	_	_	_	_	_
+11	politischen	politisch	ADJ	_	_	_	_	_	_
+12	Druck	Druck	NOUN	_	_	_	_	_	_
+13	eingeschränkt	einschränken	VERB	_	_	_	_	_	_
+14	werden	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_680
+# text = Die Verbesserung der Studienbedingungen wurde im Hochschulvertrag verbindlich festgeschrieben.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verbesserung	Verbesserung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Studienbedingungen	Studienbedingung	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	im	in	ADP	_	_	_	_	_	_
+7	Hochschulvertrag	Hochschulvertrag	NOUN	_	_	_	_	_	_
+8	verbindlich	verbindlich	ADJ	_	_	_	_	_	_
+9	festgeschrieben	festschreiben	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_681
+# text = Es werde betont, dass interkulturelle Kompetenz heute eine Schlüsselqualifikation im Berufsleben sei.
+1	Es	es	PRON	_	_	_	_	_	_
+2	werde	werden	AUX	_	_	_	_	_	_
+3	betont	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	interkulturelle	interkulturell	ADJ	_	_	_	_	_	_
+7	Kompetenz	Kompetenz	NOUN	_	_	_	_	_	_
+8	heute	heute	ADV	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	Schlüsselqualifikation	Schlüsselqualifikation	NOUN	_	_	_	_	_	_
+11	im	in	ADP	_	_	_	_	_	_
+12	Berufsleben	Berufsleben	NOUN	_	_	_	_	_	_
+13	sei	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_682
+# text = Obwohl die Prüfung anspruchsvoll war, bestanden die meisten Teilnehmer mit guten Ergebnissen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+4	anspruchsvoll	anspruchsvoll	ADJ	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bestanden	bestehen	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	meisten	meist	DET	_	_	_	_	_	_
+10	Teilnehmer	Teilnehmer	NOUN	_	_	_	_	_	_
+11	mit	mit	ADP	_	_	_	_	_	_
+12	guten	gut	ADJ	_	_	_	_	_	_
+13	Ergebnissen	Ergebnis	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_683
+# text = Die Etablierung neuer Forschungszentren soll die internationale Wettbewerbsfähigkeit der Hochschulen stärken.
+1	Die	der	DET	_	_	_	_	_	_
+2	Etablierung	Etablierung	NOUN	_	_	_	_	_	_
+3	neuer	neu	ADJ	_	_	_	_	_	_
+4	Forschungszentren	Forschungszentrum	NOUN	_	_	_	_	_	_
+5	soll	sollen	AUX	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	internationale	international	ADJ	_	_	_	_	_	_
+8	Wettbewerbsfähigkeit	Wettbewerbsfähigkeit	NOUN	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Hochschulen	Hochschule	NOUN	_	_	_	_	_	_
+11	stärken	stärken	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_684
+# text = Die Reform des Strafgesetzbuches wurde nach langen Beratungen endlich verabschiedet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Reform	Reform	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Strafgesetzbuches	Strafgesetzbuch	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	nach	nach	ADP	_	_	_	_	_	_
+7	langen	lang	ADJ	_	_	_	_	_	_
+8	Beratungen	Beratung	NOUN	_	_	_	_	_	_
+9	endlich	endlich	ADV	_	_	_	_	_	_
+10	verabschiedet	verabschieden	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_685
+# text = Obwohl die Beweise belastend waren, sprach die Jury den Angeklagten frei.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beweise	Beweis	NOUN	_	_	_	_	_	_
+4	belastend	belastend	ADJ	_	_	_	_	_	_
+5	waren	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sprach	sprechen	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Jury	Jury	NOUN	_	_	_	_	_	_
+10	den	der	DET	_	_	_	_	_	_
+11	Angeklagten	Angeklagter	NOUN	_	_	_	_	_	_
+12	frei	frei	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_686
+# text = Es wird erwartet, dass das neue Gesetz zum Schutz von Whistleblowern bald in Kraft trete.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	neue	neu	ADJ	_	_	_	_	_	_
+8	Gesetz	Gesetz	NOUN	_	_	_	_	_	_
+9	zum	zu	ADP	_	_	_	_	_	_
+10	Schutz	Schutz	NOUN	_	_	_	_	_	_
+11	von	von	ADP	_	_	_	_	_	_
+12	Whistleblowern	Whistleblower	NOUN	_	_	_	_	_	_
+13	bald	bald	ADV	_	_	_	_	_	_
+14	in	in	ADP	_	_	_	_	_	_
+15	Kraft	Kraft	NOUN	_	_	_	_	_	_
+16	trete	treten	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_687
+# text = Die Gewährleistung eines fairen Verfahrens ist ein Grundpfeiler des Rechtsstaats.
+1	Die	der	DET	_	_	_	_	_	_
+2	Gewährleistung	Gewährleistung	NOUN	_	_	_	_	_	_
+3	eines	ein	DET	_	_	_	_	_	_
+4	fairen	fair	ADJ	_	_	_	_	_	_
+5	Verfahrens	Verfahren	NOUN	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	ein	ein	DET	_	_	_	_	_	_
+8	Grundpfeiler	Grundpfeiler	NOUN	_	_	_	_	_	_
+9	des	der	DET	_	_	_	_	_	_
+10	Rechtsstaats	Rechtsstaat	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_688
+# text = Obschon die Klage eingereicht wurde, dauert die gerichtliche Verhandlung noch Monate an.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Klage	Klage	NOUN	_	_	_	_	_	_
+4	eingereicht	einreichen	VERB	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	dauert	dauern	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	gerichtliche	gerichtlich	ADJ	_	_	_	_	_	_
+10	Verhandlung	Verhandlung	NOUN	_	_	_	_	_	_
+11	noch	noch	ADV	_	_	_	_	_	_
+12	Monate	Monat	NOUN	_	_	_	_	_	_
+13	an	an	ADP	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_689
+# text = Der Anwalt erklärte, sein Mandant habe das Recht auf ein unabhängiges Gericht.
+1	Der	der	DET	_	_	_	_	_	_
+2	Anwalt	Anwalt	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	sein	sein	DET	_	_	_	_	_	_
+6	Mandant	Mandant	NOUN	_	_	_	_	_	_
+7	habe	haben	AUX	_	_	_	_	_	_
+8	das	der	DET	_	_	_	_	_	_
+9	Recht	Recht	NOUN	_	_	_	_	_	_
+10	auf	auf	ADP	_	_	_	_	_	_
+11	ein	ein	DET	_	_	_	_	_	_
+12	unabhängiges	unabhängig	ADJ	_	_	_	_	_	_
+13	Gericht	Gericht	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_690
+# text = Die Bekämpfung der organisierten Kriminalität erfordert internationale Zusammenarbeit und Datenaustausch.
+1	Die	der	DET	_	_	_	_	_	_
+2	Bekämpfung	Bekämpfung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	organisierten	organisieren	ADJ	_	_	_	_	_	_
+5	Kriminalität	Kriminalität	NOUN	_	_	_	_	_	_
+6	erfordert	erfordern	VERB	_	_	_	_	_	_
+7	internationale	international	ADJ	_	_	_	_	_	_
+8	Zusammenarbeit	Zusammenarbeit	NOUN	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	Datenaustausch	Datenaustausch	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_691
+# text = Es sei unerlässlich, dass die Rechte der Angeklagten in jedem Verfahren gewahrt bleiben.
+1	Es	es	PRON	_	_	_	_	_	_
+2	sei	sein	AUX	_	_	_	_	_	_
+3	unerlässlich	unerlässlich	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Rechte	Recht	NOUN	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Angeklagten	Angeklagter	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	jedem	jed	DET	_	_	_	_	_	_
+12	Verfahren	Verfahren	NOUN	_	_	_	_	_	_
+13	gewahrt	gewahrt	ADJ	_	_	_	_	_	_
+14	bleiben	bleiben	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_692
+# text = Die Einführung von Videoverhandlungen wurde als effiziente Lösung für überlastete Gerichte begrüßt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einführung	Einführung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Videoverhandlungen	Videoverhandlung	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	effiziente	effizient	ADJ	_	_	_	_	_	_
+8	Lösung	Lösung	NOUN	_	_	_	_	_	_
+9	für	für	ADP	_	_	_	_	_	_
+10	überlastete	überlasten	ADJ	_	_	_	_	_	_
+11	Gerichte	Gericht	NOUN	_	_	_	_	_	_
+12	begrüßt	begrüßen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_693
+# text = Würde man die Strafen verschärfen, könnte die Abschreckungswirkung möglicherweise steigen.
+1	Würde	werden	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Strafen	Strafe	NOUN	_	_	_	_	_	_
+5	verschärfen	verschärfen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	könnte	können	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Abschreckungswirkung	Abschreckungswirkung	NOUN	_	_	_	_	_	_
+10	möglicherweise	möglicherweise	ADV	_	_	_	_	_	_
+11	steigen	steigen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_694
+# text = Die Prävention von Krankheiten durch Impfungen hat die Lebenserwartung weltweit deutlich erhöht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Prävention	Prävention	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Krankheiten	Krankheit	NOUN	_	_	_	_	_	_
+5	durch	durch	ADP	_	_	_	_	_	_
+6	Impfungen	Impfung	NOUN	_	_	_	_	_	_
+7	hat	haben	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Lebenserwartung	Lebenserwartung	NOUN	_	_	_	_	_	_
+10	weltweit	weltweit	ADJ	_	_	_	_	_	_
+11	deutlich	deutlich	ADJ	_	_	_	_	_	_
+12	erhöht	erhöhen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_695
+# text = Obwohl die Behandlung wirksam war, traten bei einigen Patienten unerwartete Nebenwirkungen auf.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Behandlung	Behandlung	NOUN	_	_	_	_	_	_
+4	wirksam	wirksam	ADJ	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	traten	treten	VERB	_	_	_	_	_	_
+8	bei	bei	ADP	_	_	_	_	_	_
+9	einigen	einige	DET	_	_	_	_	_	_
+10	Patienten	Patient	NOUN	_	_	_	_	_	_
+11	unerwartete	unerwartet	ADJ	_	_	_	_	_	_
+12	Nebenwirkungen	Nebenwirkung	NOUN	_	_	_	_	_	_
+13	auf	auf	ADP	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_696
+# text = Es wird befürchtet, dass die nächste Grippewelle das Gesundheitssystem erneut stark belasten werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	befürchtet	befürchten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	nächste	nah	ADJ	_	_	_	_	_	_
+8	Grippewelle	Grippewelle	NOUN	_	_	_	_	_	_
+9	das	der	DET	_	_	_	_	_	_
+10	Gesundheitssystem	Gesundheitssystem	NOUN	_	_	_	_	_	_
+11	erneut	erneut	ADJ	_	_	_	_	_	_
+12	stark	stark	ADJ	_	_	_	_	_	_
+13	belasten	belasten	VERB	_	_	_	_	_	_
+14	werde	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_697
+# text = Die Digitalisierung der Patientenakten soll die Koordination zwischen den Fachärzten verbessern.
+1	Die	der	DET	_	_	_	_	_	_
+2	Digitalisierung	Digitalisierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Patientenakten	Patientenakte	NOUN	_	_	_	_	_	_
+5	soll	sollen	AUX	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Koordination	Koordination	NOUN	_	_	_	_	_	_
+8	zwischen	zwischen	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Fachärzten	Facharzt	NOUN	_	_	_	_	_	_
+11	verbessern	verbessern	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_698
+# text = Obschon die Studie vielversprechend ist, sind weitere klinische Tests unbedingt erforderlich.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Studie	Studie	NOUN	_	_	_	_	_	_
+4	vielversprechend	vielversprechend	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sind	sein	AUX	_	_	_	_	_	_
+8	weitere	weit	ADJ	_	_	_	_	_	_
+9	klinische	klinisch	ADJ	_	_	_	_	_	_
+10	Tests	Test	NOUN	_	_	_	_	_	_
+11	unbedingt	unbedingt	ADV	_	_	_	_	_	_
+12	erforderlich	erforderlich	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_699
+# text = Der Arzt betonte, die Prävention sei wirksamer als die Behandlung bereits fortgeschrittener Erkrankungen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Arzt	Arzt	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Prävention	Prävention	NOUN	_	_	_	_	_	_
+7	sei	sein	AUX	_	_	_	_	_	_
+8	wirksamer	wirksam	ADJ	_	_	_	_	_	_
+9	als	als	SCONJ	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Behandlung	Behandlung	NOUN	_	_	_	_	_	_
+12	bereits	bereits	ADV	_	_	_	_	_	_
+13	fortgeschrittener	fortgeschritten	ADJ	_	_	_	_	_	_
+14	Erkrankungen	Erkrankung	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_700
+# text = Die Finanzierung der Krankenhäuser wird in Zeiten steigender Kosten zunehmend zur Herausforderung.
+1	Die	der	DET	_	_	_	_	_	_
+2	Finanzierung	Finanzierung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Krankenhäuser	Krankenhaus	NOUN	_	_	_	_	_	_
+5	wird	werden	AUX	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	Zeiten	Zeit	NOUN	_	_	_	_	_	_
+8	steigender	steigend	ADJ	_	_	_	_	_	_
+9	Kosten	Kosten	NOUN	_	_	_	_	_	_
+10	zunehmend	zunehmend	ADJ	_	_	_	_	_	_
+11	zur	zu	ADP	_	_	_	_	_	_
+12	Herausforderung	Herausforderung	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_701
+# text = Es werde empfohlen, den Zugang zur psychiatrischen Versorgung flächendeckend auszubauen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	werde	werden	AUX	_	_	_	_	_	_
+3	empfohlen	empfehlen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Zugang	Zugang	NOUN	_	_	_	_	_	_
+7	zur	zu	ADP	_	_	_	_	_	_
+8	psychiatrischen	psychiatrisch	ADJ	_	_	_	_	_	_
+9	Versorgung	Versorgung	NOUN	_	_	_	_	_	_
+10	flächendeckend	flächendeckend	ADJ	_	_	_	_	_	_
+11	auszubauen	ausbauen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_702
+# text = Die Durchsetzung des Verbots diskriminierender Praktiken wurde von Menschenrechtsorganisationen gefordert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Durchsetzung	Durchsetzung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Verbots	Verbot	NOUN	_	_	_	_	_	_
+5	diskriminierender	diskriminierend	ADJ	_	_	_	_	_	_
+6	Praktiken	Praktik	NOUN	_	_	_	_	_	_
+7	wurde	werden	AUX	_	_	_	_	_	_
+8	von	von	ADP	_	_	_	_	_	_
+9	Menschenrechtsorganisationen	Menschenrechtsorganisation	NOUN	_	_	_	_	_	_
+10	gefordert	fordern	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_703
+# text = Hätte die Behörde schneller reagiert, wäre der Schaden für die Betroffenen geringer ausgefallen.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Behörde	Behörde	NOUN	_	_	_	_	_	_
+4	schneller	schnell	ADJ	_	_	_	_	_	_
+5	reagiert	reagieren	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wäre	sein	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Schaden	Schaden	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Betroffenen	Betroffene	NOUN	_	_	_	_	_	_
+13	geringer	gering	ADJ	_	_	_	_	_	_
+14	ausgefallen	ausfallen	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_704
+# text = Der Richter erklärte, die Entscheidung beruhe auf einer sorgfältigen Abwägung aller Umstände.
+1	Der	der	DET	_	_	_	_	_	_
+2	Richter	Richter	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Entscheidung	Entscheidung	NOUN	_	_	_	_	_	_
+7	beruhe	beruhen	VERB	_	_	_	_	_	_
+8	auf	auf	ADP	_	_	_	_	_	_
+9	einer	ein	DET	_	_	_	_	_	_
+10	sorgfältigen	sorgfältig	ADJ	_	_	_	_	_	_
+11	Abwägung	Abwägung	NOUN	_	_	_	_	_	_
+12	aller	alle	DET	_	_	_	_	_	_
+13	Umstände	Umstand	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_705
+# text = Die Verbesserung der Pflegebedingungen in Altenheimen bleibt eine dringende gesellschaftliche Aufgabe.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verbesserung	Verbesserung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Pflegebedingungen	Pflegebedingung	NOUN	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	Altenheimen	Altenheim	NOUN	_	_	_	_	_	_
+7	bleibt	bleiben	VERB	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	dringende	dringend	ADJ	_	_	_	_	_	_
+10	gesellschaftliche	gesellschaftlich	ADJ	_	_	_	_	_	_
+11	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_706
+# text = Es wird angenommen, dass personalisierte Medizin die Behandlung vieler Krankheiten revolutionieren werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	angenommen	annehmen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	personalisierte	personalisieren	ADJ	_	_	_	_	_	_
+7	Medizin	Medizin	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Behandlung	Behandlung	NOUN	_	_	_	_	_	_
+10	vieler	viel	DET	_	_	_	_	_	_
+11	Krankheiten	Krankheit	NOUN	_	_	_	_	_	_
+12	revolutionieren	revolutionieren	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_707
+# text = Obwohl die Pandemie abgeklungen ist, bleiben die Folgen für die psychische Gesundheit spürbar.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Pandemie	Pandemie	NOUN	_	_	_	_	_	_
+4	abgeklungen	abklingen	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bleiben	bleiben	VERB	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Folgen	Folge	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	psychische	psychisch	ADJ	_	_	_	_	_	_
+13	Gesundheit	Gesundheit	NOUN	_	_	_	_	_	_
+14	spürbar	spürbar	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_708
+# text = Die Stärkung der Rechte von Opfern schwerer Straftaten wurde im Gesetzgebungsverfahren verankert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stärkung	Stärkung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Rechte	Recht	NOUN	_	_	_	_	_	_
+5	von	von	ADP	_	_	_	_	_	_
+6	Opfern	Opfer	NOUN	_	_	_	_	_	_
+7	schwerer	schwer	ADJ	_	_	_	_	_	_
+8	Straftaten	Straftat	NOUN	_	_	_	_	_	_
+9	wurde	werden	AUX	_	_	_	_	_	_
+10	im	in	ADP	_	_	_	_	_	_
+11	Gesetzgebungsverfahren	Gesetzgebungsverfahren	NOUN	_	_	_	_	_	_
+12	verankert	verankern	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_709
+# text = Die Berichterstattung über den Konflikt wurde von beiden Seiten als einseitig kritisiert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Berichterstattung	Berichterstattung	NOUN	_	_	_	_	_	_
+3	über	über	ADP	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Konflikt	Konflikt	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	beiden	beide	DET	_	_	_	_	_	_
+9	Seiten	Seite	NOUN	_	_	_	_	_	_
+10	als	als	SCONJ	_	_	_	_	_	_
+11	einseitig	einseitig	ADJ	_	_	_	_	_	_
+12	kritisiert	kritisieren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_710
+# text = Obwohl die Sanktionen verschärft wurden, änderte sich die Haltung des Regimes nicht.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Sanktionen	Sanktion	NOUN	_	_	_	_	_	_
+4	verschärft	verschärfen	VERB	_	_	_	_	_	_
+5	wurden	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	änderte	ändern	VERB	_	_	_	_	_	_
+8	sich	sich	PRON	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Haltung	Haltung	NOUN	_	_	_	_	_	_
+11	des	der	DET	_	_	_	_	_	_
+12	Regimes	Regime	NOUN	_	_	_	_	_	_
+13	nicht	nicht	PART	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_711
+# text = Es wird erwartet, dass die Friedensverhandlungen in den kommenden Wochen wieder aufgenommen werden.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Friedensverhandlungen	Friedensverhandlung	NOUN	_	_	_	_	_	_
+8	in	in	ADP	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	kommenden	kommend	ADJ	_	_	_	_	_	_
+11	Wochen	Woche	NOUN	_	_	_	_	_	_
+12	wieder	wieder	ADV	_	_	_	_	_	_
+13	aufgenommen	aufnehmen	VERB	_	_	_	_	_	_
+14	werden	werden	AUX	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_712
+# text = Die Stärkung der multilateralen Zusammenarbeit gilt als Antwort auf globale Herausforderungen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Stärkung	Stärkung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	multilateralen	multilateral	ADJ	_	_	_	_	_	_
+5	Zusammenarbeit	Zusammenarbeit	NOUN	_	_	_	_	_	_
+6	gilt	gelten	VERB	_	_	_	_	_	_
+7	als	als	SCONJ	_	_	_	_	_	_
+8	Antwort	Antwort	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	globale	global	ADJ	_	_	_	_	_	_
+11	Herausforderungen	Herausforderung	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_713
+# text = Obschon die diplomatischen Bemühungen intensiviert wurden, bleibt eine Einigung fraglich.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	diplomatischen	diplomatisch	ADJ	_	_	_	_	_	_
+4	Bemühungen	Bemühung	NOUN	_	_	_	_	_	_
+5	intensiviert	intensivieren	VERB	_	_	_	_	_	_
+6	wurden	werden	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bleibt	bleiben	VERB	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	Einigung	Einigung	NOUN	_	_	_	_	_	_
+11	fraglich	fraglich	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_714
+# text = Der Außenminister erklärte, sein Land werde die humanitäre Hilfe nicht einschränken.
+1	Der	der	DET	_	_	_	_	_	_
+2	Außenminister	Außenminister	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	sein	sein	DET	_	_	_	_	_	_
+6	Land	Land	NOUN	_	_	_	_	_	_
+7	werde	werden	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	humanitäre	humanitär	ADJ	_	_	_	_	_	_
+10	Hilfe	Hilfe	NOUN	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	einschränken	einschränken	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_715
+# text = Die Verbreitung von Nachrichten über soziale Medien verändert die öffentliche Meinungsbildung grundlegend.
+1	Die	der	DET	_	_	_	_	_	_
+2	Verbreitung	Verbreitung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Nachrichten	Nachricht	NOUN	_	_	_	_	_	_
+5	über	über	ADP	_	_	_	_	_	_
+6	soziale	sozial	ADJ	_	_	_	_	_	_
+7	Medien	Medium	NOUN	_	_	_	_	_	_
+8	verändert	verändern	VERB	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	öffentliche	öffentlich	ADJ	_	_	_	_	_	_
+11	Meinungsbildung	Meinungsbildung	NOUN	_	_	_	_	_	_
+12	grundlegend	grundlegend	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_716
+# text = Es sei wichtig, dass die Pressefreiheit auch in Krisenzeiten uneingeschränkt gewährleistet bleibe.
+1	Es	es	PRON	_	_	_	_	_	_
+2	sei	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Pressefreiheit	Pressefreiheit	NOUN	_	_	_	_	_	_
+8	auch	auch	PART	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	Krisenzeiten	Krisenzeit	NOUN	_	_	_	_	_	_
+11	uneingeschränkt	uneingeschränkt	ADJ	_	_	_	_	_	_
+12	gewährleistet	gewährleisten	ADJ	_	_	_	_	_	_
+13	bleibe	bleiben	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_717
+# text = Die Aufnahme von Flüchtlingen wurde von der internationalen Gemeinschaft unterschiedlich bewertet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Aufnahme	Aufnahme	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Flüchtlingen	Flüchtling	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	internationalen	international	ADJ	_	_	_	_	_	_
+9	Gemeinschaft	Gemeinschaft	NOUN	_	_	_	_	_	_
+10	unterschiedlich	unterschiedlich	ADJ	_	_	_	_	_	_
+11	bewertet	bewerten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_718
+# text = Würde man die Handelsbarrieren senken, könnte der wirtschaftliche Austausch deutlich zunehmen.
+1	Würde	werden	AUX	_	_	_	_	_	_
+2	man	man	PRON	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Handelsbarrieren	Handelsbarriere	NOUN	_	_	_	_	_	_
+5	senken	senken	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	könnte	können	AUX	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	wirtschaftliche	wirtschaftlich	ADJ	_	_	_	_	_	_
+10	Austausch	Austausch	NOUN	_	_	_	_	_	_
+11	deutlich	deutlich	ADJ	_	_	_	_	_	_
+12	zunehmen	zunehmen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_719
+# text = Die Überprüfung des Atomabkommens wurde von den Unterzeichnerstaaten als dringend erachtet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Überprüfung	Überprüfung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Atomabkommens	Atomabkommens	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	von	von	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Unterzeichnerstaaten	Unterzeichnerstaat	NOUN	_	_	_	_	_	_
+9	als	als	SCONJ	_	_	_	_	_	_
+10	dringend	dringend	ADJ	_	_	_	_	_	_
+11	erachtet	erachten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_720
+# text = Obwohl die Beziehungen angespannt sind, finden weiterhin kulturelle Austauschprogramme statt.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Beziehungen	Beziehung	NOUN	_	_	_	_	_	_
+4	angespannt	anspannen	ADJ	_	_	_	_	_	_
+5	sind	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	finden	finden	VERB	_	_	_	_	_	_
+8	weiterhin	weiterhin	ADV	_	_	_	_	_	_
+9	kulturelle	kulturell	ADJ	_	_	_	_	_	_
+10	Austauschprogramme	Austauschprogramm	NOUN	_	_	_	_	_	_
+11	statt	statt	ADP	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_721
+# text = Es wird befürchtet, dass der Protektionismus die globale Wirtschaftslage weiter verschlechtern werde.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	befürchtet	befürchten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Protektionismus	Protektionismus	NOUN	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	globale	global	ADJ	_	_	_	_	_	_
+10	Wirtschaftslage	Wirtschaftslage	NOUN	_	_	_	_	_	_
+11	weiter	weit	ADJ	_	_	_	_	_	_
+12	verschlechtern	verschlechtern	VERB	_	_	_	_	_	_
+13	werde	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_722
+# text = Die Rolle internationaler Organisationen bei der Konfliktlösung wird kontrovers diskutiert.
+1	Die	der	DET	_	_	_	_	_	_
+2	Rolle	Rolle	NOUN	_	_	_	_	_	_
+3	internationaler	international	ADJ	_	_	_	_	_	_
+4	Organisationen	Organisation	NOUN	_	_	_	_	_	_
+5	bei	bei	ADP	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Konfliktlösung	Konfliktlösung	NOUN	_	_	_	_	_	_
+8	wird	werden	AUX	_	_	_	_	_	_
+9	kontrovers	kontrovers	ADJ	_	_	_	_	_	_
+10	diskutiert	diskutieren	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_723
+# text = Hätte die Diplomatie früher eingegriffen, wäre die Eskalation möglicherweise verhindert worden.
+1	Hätte	haben	AUX	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Diplomatie	Diplomatie	NOUN	_	_	_	_	_	_
+4	früher	früher	ADJ	_	_	_	_	_	_
+5	eingegriffen	eingreifen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wäre	sein	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Eskalation	Eskalation	NOUN	_	_	_	_	_	_
+10	möglicherweise	möglicherweise	ADV	_	_	_	_	_	_
+11	verhindert	verhindern	VERB	_	_	_	_	_	_
+12	worden	werden	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_724
+# text = Der Korrespondent berichtete, die Lage an der Grenze habe sich in letzter Zeit verschärft.
+1	Der	der	DET	_	_	_	_	_	_
+2	Korrespondent	Korrespondent	NOUN	_	_	_	_	_	_
+3	berichtete	berichten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Lage	Lage	NOUN	_	_	_	_	_	_
+7	an	an	ADP	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Grenze	Grenze	NOUN	_	_	_	_	_	_
+10	habe	haben	AUX	_	_	_	_	_	_
+11	sich	sich	PRON	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	letzter	letzt	ADJ	_	_	_	_	_	_
+14	Zeit	Zeit	NOUN	_	_	_	_	_	_
+15	verschärft	verschärfen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_725
+# text = Die Förderung des interkulturellen Dialogs soll Vorurteile abbauen und gegenseitiges Verständnis stärken.
+1	Die	der	DET	_	_	_	_	_	_
+2	Förderung	Förderung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	interkulturellen	interkulturell	ADJ	_	_	_	_	_	_
+5	Dialogs	Dialog	NOUN	_	_	_	_	_	_
+6	soll	sollen	AUX	_	_	_	_	_	_
+7	Vorurteile	Vorurteil	NOUN	_	_	_	_	_	_
+8	abbauen	abbauen	VERB	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	gegenseitiges	gegenseitig	ADJ	_	_	_	_	_	_
+11	Verständnis	Verständnis	NOUN	_	_	_	_	_	_
+12	stärken	stärken	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_726
+# text = Obschon die Resolution verabschiedet wurde, fehlt es an wirksamen Durchsetzungsmechanismen.
+1	Obschon	obschon	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Resolution	Resolution	NOUN	_	_	_	_	_	_
+4	verabschiedet	verabschieden	VERB	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	fehlt	fehlen	VERB	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	an	an	ADP	_	_	_	_	_	_
+10	wirksamen	wirksam	ADJ	_	_	_	_	_	_
+11	Durchsetzungsmechanismen	Durchsetzungsmechanismus	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_727
+# text = Es mangelt nicht an Absichtserklärungen, sondern an verbindlichen und durchsetzbaren Vereinbarungen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	mangelt	mangeln	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	Absichtserklärungen	Absichtserklärung	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sondern	sondern	CCONJ	_	_	_	_	_	_
+8	an	an	ADP	_	_	_	_	_	_
+9	verbindlichen	verbindlich	ADJ	_	_	_	_	_	_
+10	und	und	CCONJ	_	_	_	_	_	_
+11	durchsetzbaren	durchsetzbar	ADJ	_	_	_	_	_	_
+12	Vereinbarungen	Vereinbarung	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_728
+# text = Die Einrichtung von Pufferzonen wurde als mögliche Deeskalationsmaßnahme in Betracht gezogen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Einrichtung	Einrichtung	NOUN	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	Pufferzonen	Pufferzone	NOUN	_	_	_	_	_	_
+5	wurde	werden	AUX	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	mögliche	möglich	ADJ	_	_	_	_	_	_
+8	Deeskalationsmaßnahme	Deeskalationsmaßnahme	NOUN	_	_	_	_	_	_
+9	in	in	ADP	_	_	_	_	_	_
+10	Betracht	Betracht	NOUN	_	_	_	_	_	_
+11	gezogen	ziehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_729
+# text = Der Kommentator betonte, die Solidarität zwischen den Partnern dürfe nicht nachlassen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Kommentator	Kommentator	NOUN	_	_	_	_	_	_
+3	betonte	betonen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Solidarität	Solidarität	NOUN	_	_	_	_	_	_
+7	zwischen	zwischen	ADP	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Partnern	Partner	NOUN	_	_	_	_	_	_
+10	dürfe	dürfen	VERB	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	nachlassen	nachlassen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_730
+# text = Die Auswirkungen des Handelskrieges auf die Verbraucherpreise werden mit Sorge beobachtet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Auswirkungen	Auswirkung	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Handelskrieges	Handelskrieg	NOUN	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Verbraucherpreise	Verbraucherpreis	NOUN	_	_	_	_	_	_
+8	werden	werden	AUX	_	_	_	_	_	_
+9	mit	mit	ADP	_	_	_	_	_	_
+10	Sorge	Sorge	NOUN	_	_	_	_	_	_
+11	beobachtet	beobachten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_731
+# text = Es werde erwartet, dass die nächste Gipfelkonferenz neue Klimaziele für alle Staaten festlege.
+1	Es	es	PRON	_	_	_	_	_	_
+2	werde	werden	AUX	_	_	_	_	_	_
+3	erwartet	erwarten	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	nächste	nah	ADJ	_	_	_	_	_	_
+8	Gipfelkonferenz	Gipfelkonferenz	NOUN	_	_	_	_	_	_
+9	neue	neu	ADJ	_	_	_	_	_	_
+10	Klimaziele	Klimaziel	NOUN	_	_	_	_	_	_
+11	für	für	ADP	_	_	_	_	_	_
+12	alle	all	DET	_	_	_	_	_	_
+13	Staaten	Staat	NOUN	_	_	_	_	_	_
+14	festlege	festlegen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_732
+# text = Obwohl die Hilfsgelder angekündigt wurden, erreichen sie die betroffenen Regionen nur langsam.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Hilfsgelder	Hilfsgeld	NOUN	_	_	_	_	_	_
+4	angekündigt	ankündigen	VERB	_	_	_	_	_	_
+5	wurden	werden	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	erreichen	erreichen	VERB	_	_	_	_	_	_
+8	sie	sie	PRON	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	betroffenen	betroffen	ADJ	_	_	_	_	_	_
+11	Regionen	Region	NOUN	_	_	_	_	_	_
+12	nur	nur	ADV	_	_	_	_	_	_
+13	langsam	langsam	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b2_train_733
+# text = Die Wahrung der territorialen Integrität wurde von allen Beteiligten als nicht verhandelbar bezeichnet.
+1	Die	der	DET	_	_	_	_	_	_
+2	Wahrung	Wahrung	NOUN	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	territorialen	territorial	ADJ	_	_	_	_	_	_
+5	Integrität	Integrität	NOUN	_	_	_	_	_	_
+6	wurde	werden	AUX	_	_	_	_	_	_
+7	von	von	ADP	_	_	_	_	_	_
+8	allen	all	DET	_	_	_	_	_	_
+9	Beteiligten	Beteiligte	NOUN	_	_	_	_	_	_
+10	als	als	SCONJ	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	verhandelbar	verhandelbar	ADJ	_	_	_	_	_	_
+13	bezeichnet	bezeichnen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+

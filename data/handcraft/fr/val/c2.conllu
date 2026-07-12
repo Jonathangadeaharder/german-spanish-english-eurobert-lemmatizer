@@ -1,0 +1,2337 @@
+# sent_id = fr_c2_val_001
+# text = L'ontologie phénoménologique sartrienne distingue l'être en soi, opaque et massif, de l'être pour soi, caractérisé par le néant originel.
+1	L'ontologie	L'ontologie	X	_	_	_	_	_	_
+2	phénoménologique	phénoménologique	X	_	_	_	_	_	_
+3	sartrienne	sartrienne	X	_	_	_	_	_	_
+4	distingue	distingue	X	_	_	_	_	_	_
+5	l'être	l'être	X	_	_	_	_	_	_
+6	en	en	PRON	_	_	_	_	_	_
+7	soi	soi	PRON	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	opaque	opaque	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	massif	massif	X	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	l'être	l'être	X	_	_	_	_	_	_
+15	pour	pour	X	_	_	_	_	_	_
+16	soi	soi	PRON	_	_	_	_	_	_
+17	,	,	PUNCT	_	_	_	_	_	_
+18	caractérisé	caractérisé	X	_	_	_	_	_	_
+19	par	par	X	_	_	_	_	_	_
+20	le	le	DET	_	_	_	_	_	_
+21	néant	néant	X	_	_	_	_	_	_
+22	originel	originel	X	_	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_002
+# text = La métaphysique leibnizienne postule que les monades, substances simples sans fenêtres, expriment l'univers entier selon leur propre perspective interne.
+1	La	le	DET	_	_	_	_	_	_
+2	métaphysique	métaphysique	NOUN	_	_	_	_	_	_
+3	leibnizienne	leibnizien	ADJ	_	_	_	_	_	_
+4	postule	postuler	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	monades	monade	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	substances	substance	NOUN	_	_	_	_	_	_
+10	simples	simple	ADJ	_	_	_	_	_	_
+11	sans	sans	ADP	_	_	_	_	_	_
+12	fenêtres	fenêtre	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	expriment	exprimer	VERB	_	_	_	_	_	_
+15	l'univers	l'univers	X	_	_	_	_	_	_
+16	entier	entier	X	_	_	_	_	_	_
+17	selon	selon	X	_	_	_	_	_	_
+18	leur	leur	DET	_	_	_	_	_	_
+19	propre	propre	X	_	_	_	_	_	_
+20	perspective	perspective	X	_	_	_	_	_	_
+21	interne	interne	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_003
+# text = L'idéalisme transcendantal de Kant affirme que l'espace et le temps sont des formes a priori de notre intuition sensible.
+1	L'idéalisme	L'idéalisme	X	_	_	_	_	_	_
+2	transcendantal	transcendantal	X	_	_	_	_	_	_
+3	de	un	DET	_	_	_	_	_	_
+4	Kant	Kant	X	_	_	_	_	_	_
+5	affirme	affirme	X	_	_	_	_	_	_
+6	que	que	PRON	_	_	_	_	_	_
+7	l'espace	l'espace	X	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	temps	temps	X	_	_	_	_	_	_
+11	sont	être	AUX	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	formes	formes	X	_	_	_	_	_	_
+14	a	avoir	AUX	_	_	_	_	_	_
+15	priori	priori	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	notre	notre	DET	_	_	_	_	_	_
+18	intuition	intuition	X	_	_	_	_	_	_
+19	sensible	sensible	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_004
+# text = Dans la phénoménologie de Husserl, l'épochè suspend notre attitude naturelle afin de révéler les structures pures de la conscience intentionnelle.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	phénoménologie	phénoménologie	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	Husserl	Husserl	PROPN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'épochè	l'épochè	X	_	_	_	_	_	_
+8	suspend	suspend	X	_	_	_	_	_	_
+9	notre	notre	DET	_	_	_	_	_	_
+10	attitude	attitude	X	_	_	_	_	_	_
+11	naturelle	naturelle	X	_	_	_	_	_	_
+12	afin	afin	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	révéler	révéler	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	structures	structures	X	_	_	_	_	_	_
+17	pures	pures	X	_	_	_	_	_	_
+18	de	un	DET	_	_	_	_	_	_
+19	la	le	DET	_	_	_	_	_	_
+20	conscience	conscience	X	_	_	_	_	_	_
+21	intentionnelle	intentionnelle	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_005
+# text = L'impératif catégorique kantien exige que la maxime de notre action puisse être érigée en loi universelle de la nature.
+1	L'impératif	L'impératif	X	_	_	_	_	_	_
+2	catégorique	catégorique	X	_	_	_	_	_	_
+3	kantien	kantien	X	_	_	_	_	_	_
+4	exige	exige	X	_	_	_	_	_	_
+5	que	que	PRON	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	maxime	maxime	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	notre	notre	DET	_	_	_	_	_	_
+10	action	action	X	_	_	_	_	_	_
+11	puisse	puisse	X	_	_	_	_	_	_
+12	être	être	X	_	_	_	_	_	_
+13	érigée	érigée	X	_	_	_	_	_	_
+14	en	en	PRON	_	_	_	_	_	_
+15	loi	loi	X	_	_	_	_	_	_
+16	universelle	universelle	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	la	le	DET	_	_	_	_	_	_
+19	nature	nature	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_006
+# text = Le concept de dasein chez Heidegger désigne cet étant pour qui son propre être est en question dans son existence.
+1	Le	le	DET	_	_	_	_	_	_
+2	concept	concept	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	dasein	dasein	NOUN	_	_	_	_	_	_
+5	chez	chez	ADP	_	_	_	_	_	_
+6	Heidegger	Heidegger	PROPN	_	_	_	_	_	_
+7	désigne	désigner	VERB	_	_	_	_	_	_
+8	cet	ce	DET	_	_	_	_	_	_
+9	étant	être	AUX	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	qui	qui	PRON	_	_	_	_	_	_
+12	son	son	DET	_	_	_	_	_	_
+13	propre	propre	ADJ	_	_	_	_	_	_
+14	être	être	VERB	_	_	_	_	_	_
+15	est	être	AUX	_	_	_	_	_	_
+16	en	en	ADP	_	_	_	_	_	_
+17	question	question	NOUN	_	_	_	_	_	_
+18	dans	dans	ADP	_	_	_	_	_	_
+19	son	son	DET	_	_	_	_	_	_
+20	existence	existence	NOUN	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_007
+# text = Selon la dialectique hégélienne, le développement de l'esprit absolu procède par des moments d'affirmation, de négation et de synthèse.
+1	Selon	selon	ADP	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	dialectique	dialectique	NOUN	_	_	_	_	_	_
+4	hégélienne	hégélien	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	développement	développement	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	l'esprit	l'esprit	X	_	_	_	_	_	_
+10	absolu	absolu	X	_	_	_	_	_	_
+11	procède	procède	X	_	_	_	_	_	_
+12	par	par	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	moments	moments	X	_	_	_	_	_	_
+15	d'affirmation	d'affirmation	X	_	_	_	_	_	_
+16	,	,	PUNCT	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	négation	négation	X	_	_	_	_	_	_
+19	et	et	CCONJ	_	_	_	_	_	_
+20	de	de	ADP	_	_	_	_	_	_
+21	synthèse	synthèse	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_008
+# text = La déconstruction derridienne remet en question le privilège accordé à la parole sur l'écriture dans la tradition philosophique occidentale.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	derridienne	derridien	ADJ	_	_	_	_	_	_
+4	remet	remettre	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	question	question	NOUN	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	privilège	privilège	NOUN	_	_	_	_	_	_
+9	accordé	accorder	VERB	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	parole	parole	NOUN	_	_	_	_	_	_
+13	sur	sur	ADP	_	_	_	_	_	_
+14	l'écriture	l'écriture	X	_	_	_	_	_	_
+15	dans	dans	X	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	tradition	tradition	X	_	_	_	_	_	_
+18	philosophique	philosophique	X	_	_	_	_	_	_
+19	occidentale	occidentale	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_009
+# text = Pour Spinoza, il n'existe qu'une seule substance infinie, Dieu ou la nature, dont les modes expriment les attributs éternels.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	Spinoza	Spinoza	PROPN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	il	il	PRON	_	_	_	_	_	_
+5	n'existe	n'existe	X	_	_	_	_	_	_
+6	qu'une	qu'une	X	_	_	_	_	_	_
+7	seule	seule	X	_	_	_	_	_	_
+8	substance	substance	X	_	_	_	_	_	_
+9	infinie	infinie	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	Dieu	Dieu	X	_	_	_	_	_	_
+12	ou	ou	CCONJ	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	nature	nature	X	_	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_	_
+16	dont	dont	PRON	_	_	_	_	_	_
+17	les	le	DET	_	_	_	_	_	_
+18	modes	modes	X	_	_	_	_	_	_
+19	expriment	expriment	X	_	_	_	_	_	_
+20	les	le	DET	_	_	_	_	_	_
+21	attributs	attributs	X	_	_	_	_	_	_
+22	éternels	éternels	X	_	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_010
+# text = L'épistémologie cartésienne utilise le doute hyperbolique comme un outil méthodique pour découvrir une vérité absolument indubitable et fondatrice.
+1	L'épistémologie	L'épistémologie	X	_	_	_	_	_	_
+2	cartésienne	cartésienne	X	_	_	_	_	_	_
+3	utilise	utilise	X	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	doute	doute	X	_	_	_	_	_	_
+6	hyperbolique	hyperbolique	X	_	_	_	_	_	_
+7	comme	comme	SCONJ	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	outil	outil	X	_	_	_	_	_	_
+10	méthodique	méthodique	X	_	_	_	_	_	_
+11	pour	pour	X	_	_	_	_	_	_
+12	découvrir	découvrir	X	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	vérité	vérité	X	_	_	_	_	_	_
+15	absolument	absolument	X	_	_	_	_	_	_
+16	indubitable	indubitable	X	_	_	_	_	_	_
+17	et	et	CCONJ	_	_	_	_	_	_
+18	fondatrice	fondatrice	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_011
+# text = Le nominalisme médiéval soutient que les universaux ne sont que des désignations verbales sans réalité objective hors de l'esprit.
+1	Le	le	DET	_	_	_	_	_	_
+2	nominalisme	nominalisme	NOUN	_	_	_	_	_	_
+3	médiéval	médiéval	ADJ	_	_	_	_	_	_
+4	soutient	soutenir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	universaux	universal	NOUN	_	_	_	_	_	_
+8	ne	ne	PART	_	_	_	_	_	_
+9	sont	être	AUX	_	_	_	_	_	_
+10	que	que	PRON	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	désignations	désignation	NOUN	_	_	_	_	_	_
+13	verbales	verbal	ADJ	_	_	_	_	_	_
+14	sans	sans	ADP	_	_	_	_	_	_
+15	réalité	réalité	NOUN	_	_	_	_	_	_
+16	objective	objectif	ADJ	_	_	_	_	_	_
+17	hors	hors	ADV	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	l'esprit	l'esprit	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_012
+# text = Dans le sillage de la phénoménologie de la perception, Merleau-Ponty décrit le corps propre comme sujet incarné ouvrant sur le monde.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	sillage	sillage	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	phénoménologie	phénoménologie	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	perception	perception	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	Merleau-Ponty	Merleau-Ponty	PROPN	_	_	_	_	_	_
+12	décrit	décrire	VERB	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	corps	corp	NOUN	_	_	_	_	_	_
+15	propre	propre	ADJ	_	_	_	_	_	_
+16	comme	comme	SCONJ	_	_	_	_	_	_
+17	sujet	sujet	NOUN	_	_	_	_	_	_
+18	incarné	incarner	VERB	_	_	_	_	_	_
+19	ouvrant	ouvrir	VERB	_	_	_	_	_	_
+20	sur	sur	ADP	_	_	_	_	_	_
+21	le	le	DET	_	_	_	_	_	_
+22	monde	monde	NOUN	_	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_013
+# text = Le solipsisme est une position métaphysique extrême qui affirme que seule la conscience du sujet pensant a une existence certaine.
+1	Le	le	DET	_	_	_	_	_	_
+2	solipsisme	solipsisme	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	position	position	NOUN	_	_	_	_	_	_
+6	métaphysique	métaphysique	ADJ	_	_	_	_	_	_
+7	extrême	extrême	ADJ	_	_	_	_	_	_
+8	qui	qui	PRON	_	_	_	_	_	_
+9	affirme	affirmer	VERB	_	_	_	_	_	_
+10	que	que	SCONJ	_	_	_	_	_	_
+11	seule	seul	ADJ	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	conscience	conscience	NOUN	_	_	_	_	_	_
+14	du	du	ADP	_	_	_	_	_	_
+15	sujet	sujet	X	_	_	_	_	_	_
+16	pensant	pensant	X	_	_	_	_	_	_
+17	a	avoir	AUX	_	_	_	_	_	_
+18	une	un	DET	_	_	_	_	_	_
+19	existence	existence	X	_	_	_	_	_	_
+20	certaine	certaine	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_014
+# text = L'éternel retour nietzschéen nous invite à vouloir chaque instant de notre vie comme s'il devait se répéter indéfiniment.
+1	L'éternel	L'éternel	X	_	_	_	_	_	_
+2	retour	retour	X	_	_	_	_	_	_
+3	nietzschéen	nietzschéen	X	_	_	_	_	_	_
+4	nous	nous	PRON	_	_	_	_	_	_
+5	invite	invite	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	vouloir	vouloir	X	_	_	_	_	_	_
+8	chaque	chaque	X	_	_	_	_	_	_
+9	instant	instant	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	notre	notre	DET	_	_	_	_	_	_
+12	vie	vie	X	_	_	_	_	_	_
+13	comme	comme	SCONJ	_	_	_	_	_	_
+14	s'il	s'il	X	_	_	_	_	_	_
+15	devait	devoir	AUX	_	_	_	_	_	_
+16	se	se	PRON	_	_	_	_	_	_
+17	répéter	répéter	X	_	_	_	_	_	_
+18	indéfiniment	indéfiniment	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_015
+# text = La philosophie analytique contemporaine s'efforce de dissoudre les faux problèmes métaphysiques par une analyse logique rigoureuse du langage ordinaire.
+1	La	le	DET	_	_	_	_	_	_
+2	philosophie	philosophie	NOUN	_	_	_	_	_	_
+3	analytique	analytique	ADJ	_	_	_	_	_	_
+4	contemporaine	contemporain	ADJ	_	_	_	_	_	_
+5	s'efforce	s'efforce	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	dissoudre	dissoudre	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	faux	faux	X	_	_	_	_	_	_
+10	problèmes	problèmes	X	_	_	_	_	_	_
+11	métaphysiques	métaphysiques	X	_	_	_	_	_	_
+12	par	par	X	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	analyse	analyse	X	_	_	_	_	_	_
+15	logique	logique	X	_	_	_	_	_	_
+16	rigoureuse	rigoureuse	X	_	_	_	_	_	_
+17	du	du	ADP	_	_	_	_	_	_
+18	langage	langage	X	_	_	_	_	_	_
+19	ordinaire	ordinaire	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_016
+# text = La théorie de la justice de Rawls repose sur l'hypothèse d'un voile d'ignorance garantissant l'impartialité des principes choisis.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	justice	justice	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	Rawls	Rawls	PROPN	_	_	_	_	_	_
+8	repose	reposer	VERB	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	l'hypothèse	l'hypothèse	X	_	_	_	_	_	_
+11	d'un	d'un	X	_	_	_	_	_	_
+12	voile	voile	X	_	_	_	_	_	_
+13	d'ignorance	d'ignorance	X	_	_	_	_	_	_
+14	garantissant	garantissant	X	_	_	_	_	_	_
+15	l'impartialité	l'impartialité	X	_	_	_	_	_	_
+16	des	des	DET	_	_	_	_	_	_
+17	principes	principes	X	_	_	_	_	_	_
+18	choisis	choisis	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_017
+# text = Pour Gilles Deleuze, la différence pure et la répétition s'opposent aux catégories classiques de la représentation et de l'identité.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	Gilles	Gilles	PROPN	_	_	_	_	_	_
+3	Deleuze	Deleuze	PROPN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	différence	différence	NOUN	_	_	_	_	_	_
+7	pure	pur	ADJ	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	répétition	répétition	NOUN	_	_	_	_	_	_
+11	s'opposent	s'opposent	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	catégories	catégories	X	_	_	_	_	_	_
+14	classiques	classiques	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	représentation	représentation	X	_	_	_	_	_	_
+18	et	et	CCONJ	_	_	_	_	_	_
+19	de	un	DET	_	_	_	_	_	_
+20	l'identité	l'identité	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_018
+# text = Le déterminisme causal affirme que tout événement est rigoureusement déterminé par les conditions antérieures et les lois de la nature.
+1	Le	le	DET	_	_	_	_	_	_
+2	déterminisme	déterminisme	NOUN	_	_	_	_	_	_
+3	causal	causal	ADJ	_	_	_	_	_	_
+4	affirme	affirmer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	tout	tout	DET	_	_	_	_	_	_
+7	événement	événement	NOUN	_	_	_	_	_	_
+8	est	être	AUX	_	_	_	_	_	_
+9	rigoureusement	rigoureusement	ADV	_	_	_	_	_	_
+10	déterminé	déterminer	VERB	_	_	_	_	_	_
+11	par	par	ADP	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	conditions	condition	NOUN	_	_	_	_	_	_
+14	antérieures	antérieur	ADJ	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	lois	loi	NOUN	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	la	le	DET	_	_	_	_	_	_
+20	nature	nature	NOUN	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_019
+# text = La notion d'hétérogénéité temporelle chez Bergson oppose la durée vécue et qualitative au temps spatialisé et quantifiable des sciences physiques.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	d'hétérogénéité	d'hétérogénéité	X	_	_	_	_	_	_
+4	temporelle	temporelle	X	_	_	_	_	_	_
+5	chez	chez	X	_	_	_	_	_	_
+6	Bergson	Bergson	X	_	_	_	_	_	_
+7	oppose	oppose	X	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	durée	durée	X	_	_	_	_	_	_
+10	vécue	vécue	X	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	qualitative	qualitative	X	_	_	_	_	_	_
+13	au	au	ADP	_	_	_	_	_	_
+14	temps	temps	X	_	_	_	_	_	_
+15	spatialisé	spatialisé	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	quantifiable	quantifiable	X	_	_	_	_	_	_
+18	des	des	DET	_	_	_	_	_	_
+19	sciences	sciences	X	_	_	_	_	_	_
+20	physiques	physiques	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_020
+# text = L'existentialisme postule que l'existence précède l'essence, ce qui signifie que l'homme se définit par ses propres choix conscients.
+1	L'existentialisme	L'existentialisme	X	_	_	_	_	_	_
+2	postule	postule	X	_	_	_	_	_	_
+3	que	que	PRON	_	_	_	_	_	_
+4	l'existence	l'existence	X	_	_	_	_	_	_
+5	précède	précède	X	_	_	_	_	_	_
+6	l'essence	l'essence	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	ce	ce	DET	_	_	_	_	_	_
+9	qui	qui	PRON	_	_	_	_	_	_
+10	signifie	signifie	X	_	_	_	_	_	_
+11	que	que	PRON	_	_	_	_	_	_
+12	l'homme	l'homme	X	_	_	_	_	_	_
+13	se	se	PRON	_	_	_	_	_	_
+14	définit	définit	X	_	_	_	_	_	_
+15	par	par	X	_	_	_	_	_	_
+16	ses	son	DET	_	_	_	_	_	_
+17	propres	propres	X	_	_	_	_	_	_
+18	choix	choix	X	_	_	_	_	_	_
+19	conscients	conscients	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_021
+# text = Le rationalisme de Descartes s'oppose à l'empirisme de Locke concernant l'origine de nos connaissances et l'existence d'idées innées.
+1	Le	le	DET	_	_	_	_	_	_
+2	rationalisme	rationalisme	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	Descartes	Descartes	PROPN	_	_	_	_	_	_
+5	s'oppose	s'oppose	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	l'empirisme	l'empirisme	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	Locke	Locke	X	_	_	_	_	_	_
+10	concernant	concernant	X	_	_	_	_	_	_
+11	l'origine	l'origine	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	nos	notre	DET	_	_	_	_	_	_
+14	connaissances	connaissances	X	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	l'existence	l'existence	X	_	_	_	_	_	_
+17	d'idées	d'idées	X	_	_	_	_	_	_
+18	innées	innées	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_022
+# text = La philosophie politique de Hobbes décrit l'état de nature comme une guerre de tous contre tous nécessitant un souverain absolu.
+1	La	le	DET	_	_	_	_	_	_
+2	philosophie	philosophie	NOUN	_	_	_	_	_	_
+3	politique	politique	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	Hobbes	Hobbes	PROPN	_	_	_	_	_	_
+6	décrit	décrire	VERB	_	_	_	_	_	_
+7	l'état	l'état	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	nature	nature	X	_	_	_	_	_	_
+10	comme	comme	SCONJ	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	guerre	guerre	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	tous	tous	X	_	_	_	_	_	_
+15	contre	contre	X	_	_	_	_	_	_
+16	tous	tous	X	_	_	_	_	_	_
+17	nécessitant	nécessitant	X	_	_	_	_	_	_
+18	un	un	DET	_	_	_	_	_	_
+19	souverain	souverain	X	_	_	_	_	_	_
+20	absolu	absolu	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_023
+# text = Le concept d'aliénation chez Marx décrit la perte de contrôle de l'ouvrier sur le produit et le processus de son travail.
+1	Le	le	DET	_	_	_	_	_	_
+2	concept	concept	NOUN	_	_	_	_	_	_
+3	d'aliénation	d'aliénation	X	_	_	_	_	_	_
+4	chez	chez	X	_	_	_	_	_	_
+5	Marx	Marx	X	_	_	_	_	_	_
+6	décrit	décrit	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	perte	perte	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	contrôle	contrôle	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	l'ouvrier	l'ouvrier	X	_	_	_	_	_	_
+13	sur	sur	X	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	produit	produit	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	le	le	DET	_	_	_	_	_	_
+18	processus	processus	X	_	_	_	_	_	_
+19	de	un	DET	_	_	_	_	_	_
+20	son	son	DET	_	_	_	_	_	_
+21	travail	travail	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_024
+# text = La théologie négative soutient que l'on ne peut définir l'essence divine que par ce qu'elle n'est pas.
+1	La	le	DET	_	_	_	_	_	_
+2	théologie	théologie	NOUN	_	_	_	_	_	_
+3	négative	négatif	ADJ	_	_	_	_	_	_
+4	soutient	soutenir	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	l'on	on	PRON	_	_	_	_	_	_
+7	ne	ne	PART	_	_	_	_	_	_
+8	peut	pouvoir	VERB	_	_	_	_	_	_
+9	définir	définir	VERB	_	_	_	_	_	_
+10	l'essence	l'essence	X	_	_	_	_	_	_
+11	divine	divine	X	_	_	_	_	_	_
+12	que	que	PRON	_	_	_	_	_	_
+13	par	par	X	_	_	_	_	_	_
+14	ce	ce	DET	_	_	_	_	_	_
+15	qu'elle	qu'elle	X	_	_	_	_	_	_
+16	n'est	n'est	X	_	_	_	_	_	_
+17	pas	pas	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_025
+# text = Dans le Tractatus, Wittgenstein soutient que les limites de mon langage signifient les limites de mon propre monde.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	le	le	DET	_	_	_	_	_	_
+3	Tractatus	Tractatus	PROPN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	Wittgenstein	Wittgenstein	PROPN	_	_	_	_	_	_
+6	soutient	soutenir	VERB	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	limites	limite	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	mon	mon	DET	_	_	_	_	_	_
+12	langage	langage	NOUN	_	_	_	_	_	_
+13	signifient	signifier	VERB	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	limites	limite	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	mon	mon	DET	_	_	_	_	_	_
+18	propre	propre	ADJ	_	_	_	_	_	_
+19	monde	monde	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_026
+# text = L'éthique aristotélicienne est une éthique de la vertu qui vise la réalisation du souverain bien à travers la prudence.
+1	L'éthique	L'éthique	X	_	_	_	_	_	_
+2	aristotélicienne	aristotélicienne	X	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	éthique	éthique	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	vertu	vertu	X	_	_	_	_	_	_
+9	qui	qui	PRON	_	_	_	_	_	_
+10	vise	vise	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	réalisation	réalisation	X	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	souverain	souverain	X	_	_	_	_	_	_
+15	bien	bien	X	_	_	_	_	_	_
+16	à	à	X	_	_	_	_	_	_
+17	travers	travers	X	_	_	_	_	_	_
+18	la	le	DET	_	_	_	_	_	_
+19	prudence	prudence	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_027
+# text = Le faillibilisme épistémologique reconnaît que toutes nos connaissances scientifiques sont provisoires et sujettes à une révision future.
+1	Le	le	DET	_	_	_	_	_	_
+2	faillibilisme	faillibilisme	NOUN	_	_	_	_	_	_
+3	épistémologique	épistémologique	ADJ	_	_	_	_	_	_
+4	reconnaît	reconnaître	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	toutes	tout	ADJ	_	_	_	_	_	_
+7	nos	notre	DET	_	_	_	_	_	_
+8	connaissances	connaissance	NOUN	_	_	_	_	_	_
+9	scientifiques	scientifique	ADJ	_	_	_	_	_	_
+10	sont	être	AUX	_	_	_	_	_	_
+11	provisoires	provisoire	ADJ	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	sujettes	sujet	ADJ	_	_	_	_	_	_
+14	à	à	ADP	_	_	_	_	_	_
+15	une	un	DET	_	_	_	_	_	_
+16	révision	révision	NOUN	_	_	_	_	_	_
+17	future	futur	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_028
+# text = L'esthétique d'Adorno analyse la capacité de l'art autonome à résister à la réification imposée par l'industrie culturelle capitaliste.
+1	L'esthétique	L'esthétique	X	_	_	_	_	_	_
+2	d'Adorno	d'Adorno	X	_	_	_	_	_	_
+3	analyse	analyse	X	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	capacité	capacité	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	l'art	l'art	X	_	_	_	_	_	_
+8	autonome	autonome	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	résister	résister	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	réification	réification	X	_	_	_	_	_	_
+14	imposée	imposée	X	_	_	_	_	_	_
+15	par	par	X	_	_	_	_	_	_
+16	l'industrie	l'industrie	X	_	_	_	_	_	_
+17	culturelle	culturelle	X	_	_	_	_	_	_
+18	capitaliste	capitaliste	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_029
+# text = La métaphysique de la volonté chez Schopenhauer présente le monde comme une représentation phénoménale masquant un vouloir-vivre aveugle et douloureux.
+1	La	le	DET	_	_	_	_	_	_
+2	métaphysique	métaphysique	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	volonté	volonté	NOUN	_	_	_	_	_	_
+6	chez	chez	ADP	_	_	_	_	_	_
+7	Schopenhauer	Schopenhauer	PROPN	_	_	_	_	_	_
+8	présente	présenter	VERB	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	monde	monde	NOUN	_	_	_	_	_	_
+11	comme	comme	SCONJ	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	représentation	représentation	NOUN	_	_	_	_	_	_
+14	phénoménale	phénoménal	ADJ	_	_	_	_	_	_
+15	masquant	masquer	VERB	_	_	_	_	_	_
+16	un	un	DET	_	_	_	_	_	_
+17	vouloir-vivre	vouloir-vivre	NOUN	_	_	_	_	_	_
+18	aveugle	aveugle	ADJ	_	_	_	_	_	_
+19	et	et	CCONJ	_	_	_	_	_	_
+20	douloureux	douloureux	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_030
+# text = Pour Bachelard, le progrès scientifique s'effectue par des ruptures épistémologiques qui brisent les obstacles de l'opinion commune.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	Bachelard	Bachelard	PROPN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	progrès	progrè	NOUN	_	_	_	_	_	_
+6	scientifique	scientifique	ADJ	_	_	_	_	_	_
+7	s'effectue	s'effectue	X	_	_	_	_	_	_
+8	par	par	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	ruptures	ruptures	X	_	_	_	_	_	_
+11	épistémologiques	épistémologiques	X	_	_	_	_	_	_
+12	qui	qui	PRON	_	_	_	_	_	_
+13	brisent	brisent	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	obstacles	obstacles	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	l'opinion	l'opinion	X	_	_	_	_	_	_
+18	commune	commune	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_031
+# text = L'utilitarisme de Bentham définit la moralité d'une action en fonction de sa contribution au bonheur du plus grand nombre.
+1	L'utilitarisme	L'utilitarisme	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	Bentham	Bentham	X	_	_	_	_	_	_
+4	définit	définit	X	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	moralité	moralité	X	_	_	_	_	_	_
+7	d'une	d'une	X	_	_	_	_	_	_
+8	action	action	X	_	_	_	_	_	_
+9	en	en	PRON	_	_	_	_	_	_
+10	fonction	fonction	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	sa	son	DET	_	_	_	_	_	_
+13	contribution	contribution	X	_	_	_	_	_	_
+14	au	au	ADP	_	_	_	_	_	_
+15	bonheur	bonheur	X	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	plus	plus	ADV	_	_	_	_	_	_
+18	grand	grand	X	_	_	_	_	_	_
+19	nombre	nombre	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_032
+# text = La monadologie propose une harmonie préétablie pour expliquer la correspondance parfaite entre l'esprit et le corps sans causalité directe.
+1	La	le	DET	_	_	_	_	_	_
+2	monadologie	monadologie	NOUN	_	_	_	_	_	_
+3	propose	proposer	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	harmonie	harmonie	NOUN	_	_	_	_	_	_
+6	préétablie	préétablie	ADJ	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	expliquer	expliquer	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	correspondance	correspondance	NOUN	_	_	_	_	_	_
+11	parfaite	parfait	ADJ	_	_	_	_	_	_
+12	entre	entre	ADP	_	_	_	_	_	_
+13	l'esprit	l'esprit	X	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	le	le	DET	_	_	_	_	_	_
+16	corps	corps	X	_	_	_	_	_	_
+17	sans	sans	X	_	_	_	_	_	_
+18	causalité	causalité	X	_	_	_	_	_	_
+19	directe	directe	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_033
+# text = Le problème de l'induction soulevé par Hume démontre que nos croyances causales reposent sur l'habitude plutôt que sur la logique.
+1	Le	le	DET	_	_	_	_	_	_
+2	problème	problème	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'induction	l'induction	X	_	_	_	_	_	_
+5	soulevé	soulevé	X	_	_	_	_	_	_
+6	par	par	X	_	_	_	_	_	_
+7	Hume	Hume	X	_	_	_	_	_	_
+8	démontre	démontre	X	_	_	_	_	_	_
+9	que	que	PRON	_	_	_	_	_	_
+10	nos	notre	DET	_	_	_	_	_	_
+11	croyances	croyances	X	_	_	_	_	_	_
+12	causales	causales	X	_	_	_	_	_	_
+13	reposent	reposent	X	_	_	_	_	_	_
+14	sur	sur	X	_	_	_	_	_	_
+15	l'habitude	l'habitude	X	_	_	_	_	_	_
+16	plutôt	plutôt	X	_	_	_	_	_	_
+17	que	que	PRON	_	_	_	_	_	_
+18	sur	sur	X	_	_	_	_	_	_
+19	la	le	DET	_	_	_	_	_	_
+20	logique	logique	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_034
+# text = La critique de la raison pure examine les conditions de possibilité d'une connaissance synthétique a priori dans les sciences.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	raison	raison	NOUN	_	_	_	_	_	_
+6	pure	pur	ADJ	_	_	_	_	_	_
+7	examine	examiner	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	conditions	condition	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	possibilité	possibilité	NOUN	_	_	_	_	_	_
+12	d'une	d'une	X	_	_	_	_	_	_
+13	connaissance	connaissance	X	_	_	_	_	_	_
+14	synthétique	synthétique	X	_	_	_	_	_	_
+15	a	avoir	AUX	_	_	_	_	_	_
+16	priori	priori	X	_	_	_	_	_	_
+17	dans	dans	X	_	_	_	_	_	_
+18	les	le	DET	_	_	_	_	_	_
+19	sciences	sciences	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_035
+# text = La philosophie bouddhiste de la vacuité affirme que tous les phénomènes sont dépourvus d'une nature propre et indépendante.
+1	La	le	DET	_	_	_	_	_	_
+2	philosophie	philosophie	NOUN	_	_	_	_	_	_
+3	bouddhiste	bouddhiste	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	vacuité	vacuité	NOUN	_	_	_	_	_	_
+7	affirme	affirmer	VERB	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	tous	tout	ADJ	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	phénomènes	phénomène	NOUN	_	_	_	_	_	_
+12	sont	être	AUX	_	_	_	_	_	_
+13	dépourvus	dépourvoir	VERB	_	_	_	_	_	_
+14	d'une	d'une	X	_	_	_	_	_	_
+15	nature	nature	X	_	_	_	_	_	_
+16	propre	propre	X	_	_	_	_	_	_
+17	et	et	CCONJ	_	_	_	_	_	_
+18	indépendante	indépendante	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_036
+# text = Chez Levinas, l'éthique naît de la rencontre d'autrui, dont le visage nous adresse un commandement infini de responsabilité.
+1	Chez	chez	ADP	_	_	_	_	_	_
+2	Levinas	Levinas	PROPN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	l'éthique	l'éthique	X	_	_	_	_	_	_
+5	naît	naît	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	rencontre	rencontre	X	_	_	_	_	_	_
+9	d'autrui	d'autrui	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	dont	dont	PRON	_	_	_	_	_	_
+12	le	le	DET	_	_	_	_	_	_
+13	visage	visage	X	_	_	_	_	_	_
+14	nous	nous	PRON	_	_	_	_	_	_
+15	adresse	adresse	X	_	_	_	_	_	_
+16	un	un	DET	_	_	_	_	_	_
+17	commandement	commandement	X	_	_	_	_	_	_
+18	infini	infini	X	_	_	_	_	_	_
+19	de	un	DET	_	_	_	_	_	_
+20	responsabilité	responsabilité	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_037
+# text = Le matérialisme dialectique interprète l'histoire humaine à travers le prisme des contradictions matérielles et des rapports de production.
+1	Le	le	DET	_	_	_	_	_	_
+2	matérialisme	matérialisme	NOUN	_	_	_	_	_	_
+3	dialectique	dialectique	ADJ	_	_	_	_	_	_
+4	interprète	interpréter	VERB	_	_	_	_	_	_
+5	l'histoire	l'histoire	X	_	_	_	_	_	_
+6	humaine	humaine	X	_	_	_	_	_	_
+7	à	à	X	_	_	_	_	_	_
+8	travers	travers	X	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	prisme	prisme	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	contradictions	contradictions	X	_	_	_	_	_	_
+13	matérielles	matérielles	X	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	rapports	rapports	X	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	production	production	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_038
+# text = La pragmatique de Habermas étudie les conditions de validité d'une communication orientée vers l'intercompréhension rationnelle et le consensus.
+1	La	le	DET	_	_	_	_	_	_
+2	pragmatique	pragmatique	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	Habermas	Habermas	PROPN	_	_	_	_	_	_
+5	étudie	étudier	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	conditions	condition	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	validité	validité	NOUN	_	_	_	_	_	_
+10	d'une	d'une	X	_	_	_	_	_	_
+11	communication	communication	X	_	_	_	_	_	_
+12	orientée	orientée	X	_	_	_	_	_	_
+13	vers	vers	X	_	_	_	_	_	_
+14	l'intercompréhension	l'intercompréhension	X	_	_	_	_	_	_
+15	rationnelle	rationnelle	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	le	le	DET	_	_	_	_	_	_
+18	consensus	consensus	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_039
+# text = La théorie des formes de Platon postule un monde intelligible d'essences parfaites dont le monde sensible n'est qu'un reflet.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	formes	formes	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	Platon	Platon	X	_	_	_	_	_	_
+7	postule	postule	X	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	monde	monde	X	_	_	_	_	_	_
+10	intelligible	intelligible	X	_	_	_	_	_	_
+11	d'essences	d'essences	X	_	_	_	_	_	_
+12	parfaites	parfaites	X	_	_	_	_	_	_
+13	dont	dont	PRON	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	monde	monde	X	_	_	_	_	_	_
+16	sensible	sensible	X	_	_	_	_	_	_
+17	n'est	n'est	X	_	_	_	_	_	_
+18	qu'un	qu'un	X	_	_	_	_	_	_
+19	reflet	reflet	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_040
+# text = L'historicisme affirme que les idées et les institutions humaines doivent être comprises en fonction de leur développement historique spécifique.
+1	L'historicisme	L'historicisme	X	_	_	_	_	_	_
+2	affirme	affirme	X	_	_	_	_	_	_
+3	que	que	PRON	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	idées	idées	X	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	institutions	institutions	X	_	_	_	_	_	_
+9	humaines	humaines	X	_	_	_	_	_	_
+10	doivent	devoir	AUX	_	_	_	_	_	_
+11	être	être	X	_	_	_	_	_	_
+12	comprises	comprises	X	_	_	_	_	_	_
+13	en	en	PRON	_	_	_	_	_	_
+14	fonction	fonction	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	leur	leur	DET	_	_	_	_	_	_
+17	développement	développement	X	_	_	_	_	_	_
+18	historique	historique	X	_	_	_	_	_	_
+19	spécifique	spécifique	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_041
+# text = La philosophie de l'absurde chez Camus naît de la confrontation entre le désir de sens de l'homme et le silence du monde.
+1	La	le	DET	_	_	_	_	_	_
+2	philosophie	philosophie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'absurde	l'absurde	X	_	_	_	_	_	_
+5	chez	chez	X	_	_	_	_	_	_
+6	Camus	Camus	X	_	_	_	_	_	_
+7	naît	naît	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	confrontation	confrontation	X	_	_	_	_	_	_
+11	entre	entre	X	_	_	_	_	_	_
+12	le	le	DET	_	_	_	_	_	_
+13	désir	désir	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	sens	sens	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	l'homme	l'homme	X	_	_	_	_	_	_
+18	et	et	CCONJ	_	_	_	_	_	_
+19	le	le	DET	_	_	_	_	_	_
+20	silence	silence	X	_	_	_	_	_	_
+21	du	du	ADP	_	_	_	_	_	_
+22	monde	monde	X	_	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_042
+# text = Le perspectivisme de Nietzsche rejette l'idée d'une vérité objective en soi au profit d'une multiplicité d'interprétations subjectives.
+1	Le	le	DET	_	_	_	_	_	_
+2	perspectivisme	perspectivisme	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	Nietzsche	Nietzsche	PROPN	_	_	_	_	_	_
+5	rejette	rejeter	VERB	_	_	_	_	_	_
+6	l'idée	l'idée	X	_	_	_	_	_	_
+7	d'une	d'une	X	_	_	_	_	_	_
+8	vérité	vérité	X	_	_	_	_	_	_
+9	objective	objective	X	_	_	_	_	_	_
+10	en	en	PRON	_	_	_	_	_	_
+11	soi	soi	PRON	_	_	_	_	_	_
+12	au	au	ADP	_	_	_	_	_	_
+13	profit	profit	X	_	_	_	_	_	_
+14	d'une	d'une	X	_	_	_	_	_	_
+15	multiplicité	multiplicité	X	_	_	_	_	_	_
+16	d'interprétations	d'interprétations	X	_	_	_	_	_	_
+17	subjectives	subjectives	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_043
+# text = Dans la phénoménologie de la perception, la sensation n'est pas une simple réception passive mais une structuration active du monde.
+1	Dans	dans	ADP	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	phénoménologie	phénoménologie	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	perception	perception	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	sensation	sensation	NOUN	_	_	_	_	_	_
+10	n'est	n'est	X	_	_	_	_	_	_
+11	pas	pas	ADV	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	simple	simple	X	_	_	_	_	_	_
+14	réception	réception	X	_	_	_	_	_	_
+15	passive	passive	X	_	_	_	_	_	_
+16	mais	mais	CCONJ	_	_	_	_	_	_
+17	une	un	DET	_	_	_	_	_	_
+18	structuration	structuration	X	_	_	_	_	_	_
+19	active	active	X	_	_	_	_	_	_
+20	du	du	ADP	_	_	_	_	_	_
+21	monde	monde	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_044
+# text = Le concept de transcendance s'oppose à l'immanence en désignant ce qui dépasse les limites de l'expérience humaine possible.
+1	Le	le	DET	_	_	_	_	_	_
+2	concept	concept	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	transcendance	transcendance	NOUN	_	_	_	_	_	_
+5	s'oppose	s'oppose	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	l'immanence	l'immanence	X	_	_	_	_	_	_
+8	en	en	PRON	_	_	_	_	_	_
+9	désignant	désignant	X	_	_	_	_	_	_
+10	ce	ce	DET	_	_	_	_	_	_
+11	qui	qui	PRON	_	_	_	_	_	_
+12	dépasse	dépasse	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	limites	limites	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	l'expérience	l'expérience	X	_	_	_	_	_	_
+17	humaine	humaine	X	_	_	_	_	_	_
+18	possible	possible	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_045
+# text = La théorie des actes de langage d'Austin montre que dire quelque chose équivaut souvent à accomplir une action sociale précise.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	actes	actes	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	langage	langage	X	_	_	_	_	_	_
+7	d'Austin	d'Austin	X	_	_	_	_	_	_
+8	montre	montre	X	_	_	_	_	_	_
+9	que	que	PRON	_	_	_	_	_	_
+10	dire	dire	X	_	_	_	_	_	_
+11	quelque	quelque	X	_	_	_	_	_	_
+12	chose	chose	X	_	_	_	_	_	_
+13	équivaut	équivaut	X	_	_	_	_	_	_
+14	souvent	souvent	X	_	_	_	_	_	_
+15	à	à	X	_	_	_	_	_	_
+16	accomplir	accomplir	X	_	_	_	_	_	_
+17	une	un	DET	_	_	_	_	_	_
+18	action	action	X	_	_	_	_	_	_
+19	sociale	sociale	X	_	_	_	_	_	_
+20	précise	précise	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_046
+# text = L'épistémologie féministe critique les biais androcentriques qui structurent les prétentions à l'objectivité scientifique dans la recherche traditionnelle.
+1	L'épistémologie	L'épistémologie	X	_	_	_	_	_	_
+2	féministe	féministe	X	_	_	_	_	_	_
+3	critique	critique	X	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	biais	biais	X	_	_	_	_	_	_
+6	androcentriques	androcentriques	X	_	_	_	_	_	_
+7	qui	qui	PRON	_	_	_	_	_	_
+8	structurent	structurent	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	prétentions	prétentions	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	l'objectivité	l'objectivité	X	_	_	_	_	_	_
+13	scientifique	scientifique	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	recherche	recherche	X	_	_	_	_	_	_
+17	traditionnelle	traditionnelle	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_047
+# text = Pour Foucault, le pouvoir n'est pas seulement répressif mais il produit activement des savoirs et des formes de subjectivité contemporaines.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	Foucault	Foucault	PROPN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	pouvoir	pouvoir	NOUN	_	_	_	_	_	_
+6	n'est	n'est	X	_	_	_	_	_	_
+7	pas	pas	ADV	_	_	_	_	_	_
+8	seulement	seulement	X	_	_	_	_	_	_
+9	répressif	répressif	X	_	_	_	_	_	_
+10	mais	mais	CCONJ	_	_	_	_	_	_
+11	il	il	PRON	_	_	_	_	_	_
+12	produit	produit	X	_	_	_	_	_	_
+13	activement	activement	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	savoirs	savoirs	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	formes	formes	X	_	_	_	_	_	_
+19	de	un	DET	_	_	_	_	_	_
+20	subjectivité	subjectivité	X	_	_	_	_	_	_
+21	contemporaines	contemporaines	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_048
+# text = Le vitalisme suppose l'existence d'une force vitale irréductible aux seules lois de la physique et de la chimie organiques.
+1	Le	le	DET	_	_	_	_	_	_
+2	vitalisme	vitalisme	NOUN	_	_	_	_	_	_
+3	suppose	supposer	VERB	_	_	_	_	_	_
+4	l'existence	l'existence	X	_	_	_	_	_	_
+5	d'une	d'une	X	_	_	_	_	_	_
+6	force	force	X	_	_	_	_	_	_
+7	vitale	vitale	X	_	_	_	_	_	_
+8	irréductible	irréductible	X	_	_	_	_	_	_
+9	aux	aux	ADP	_	_	_	_	_	_
+10	seules	seules	X	_	_	_	_	_	_
+11	lois	lois	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	physique	physique	X	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	chimie	chimie	X	_	_	_	_	_	_
+19	organiques	organiques	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_049
+# text = La philosophie stoïcienne enseigne à distinguer les choses qui dépendent de nous de celles qui n'en dépendent absolument pas.
+1	La	le	DET	_	_	_	_	_	_
+2	philosophie	philosophie	NOUN	_	_	_	_	_	_
+3	stoïcienne	stoïcien	ADJ	_	_	_	_	_	_
+4	enseigne	enseigner	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	distinguer	distinguer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	choses	chose	NOUN	_	_	_	_	_	_
+9	qui	qui	PRON	_	_	_	_	_	_
+10	dépendent	dépendre	VERB	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	nous	nous	PRON	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	celles	celui	PRON	_	_	_	_	_	_
+15	qui	qui	PRON	_	_	_	_	_	_
+16	n'en	n'en	X	_	_	_	_	_	_
+17	dépendent	dépendent	X	_	_	_	_	_	_
+18	absolument	absolument	X	_	_	_	_	_	_
+19	pas	pas	ADV	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_050
+# text = L'ontologie relationnelle suggère que les entités n'existent pas de manière isolée mais sont entièrement constituées par leurs rapports mutuels.
+1	L'ontologie	L'ontologie	X	_	_	_	_	_	_
+2	relationnelle	relationnelle	X	_	_	_	_	_	_
+3	suggère	suggère	X	_	_	_	_	_	_
+4	que	que	PRON	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	entités	entités	X	_	_	_	_	_	_
+7	n'existent	n'existent	X	_	_	_	_	_	_
+8	pas	pas	ADV	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	manière	manière	X	_	_	_	_	_	_
+11	isolée	isolée	X	_	_	_	_	_	_
+12	mais	mais	CCONJ	_	_	_	_	_	_
+13	sont	être	AUX	_	_	_	_	_	_
+14	entièrement	entièrement	X	_	_	_	_	_	_
+15	constituées	constituées	X	_	_	_	_	_	_
+16	par	par	X	_	_	_	_	_	_
+17	leurs	leur	DET	_	_	_	_	_	_
+18	rapports	rapports	X	_	_	_	_	_	_
+19	mutuels	mutuels	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_051
+# text = Le principe de proportionnalité exige que toute restriction des libertés individuelles soit nécessaire et adaptée à l'objectif d'intérêt public.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	proportionnalité	proportionnalité	NOUN	_	_	_	_	_	_
+5	exige	exiger	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	toute	tout	DET	_	_	_	_	_	_
+8	restriction	restriction	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	libertés	libertés	X	_	_	_	_	_	_
+11	individuelles	individuelles	X	_	_	_	_	_	_
+12	soit	être	AUX	_	_	_	_	_	_
+13	nécessaire	nécessaire	X	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	adaptée	adaptée	X	_	_	_	_	_	_
+16	à	à	X	_	_	_	_	_	_
+17	l'objectif	l'objectif	X	_	_	_	_	_	_
+18	d'intérêt	d'intérêt	X	_	_	_	_	_	_
+19	public	public	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_052
+# text = La directive européenne impose aux États membres d'harmoniser leur législation nationale sous peine de sanctions financières particulièrement sévères.
+1	La	le	DET	_	_	_	_	_	_
+2	directive	directive	NOUN	_	_	_	_	_	_
+3	européenne	européen	ADJ	_	_	_	_	_	_
+4	impose	imposer	VERB	_	_	_	_	_	_
+5	aux	aux	ADP	_	_	_	_	_	_
+6	États	États	X	_	_	_	_	_	_
+7	membres	membres	X	_	_	_	_	_	_
+8	d'harmoniser	d'harmoniser	X	_	_	_	_	_	_
+9	leur	leur	DET	_	_	_	_	_	_
+10	législation	législation	X	_	_	_	_	_	_
+11	nationale	nationale	X	_	_	_	_	_	_
+12	sous	sous	X	_	_	_	_	_	_
+13	peine	peine	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	sanctions	sanctions	X	_	_	_	_	_	_
+16	financières	financières	X	_	_	_	_	_	_
+17	particulièrement	particulièrement	X	_	_	_	_	_	_
+18	sévères	sévères	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_053
+# text = Le pourvoi en cassation est rejeté lorsque les juges du fond ont souverainement apprécié les éléments de preuve présentés.
+1	Le	le	DET	_	_	_	_	_	_
+2	pourvoi	pourvoi	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	cassation	cassation	NOUN	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	rejeté	rejeter	VERB	_	_	_	_	_	_
+7	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	juges	juge	NOUN	_	_	_	_	_	_
+10	du	du	ADP	_	_	_	_	_	_
+11	fond	fond	X	_	_	_	_	_	_
+12	ont	avoir	AUX	_	_	_	_	_	_
+13	souverainement	souverainement	X	_	_	_	_	_	_
+14	apprécié	apprécié	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	éléments	éléments	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	preuve	preuve	X	_	_	_	_	_	_
+19	présentés	présentés	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_054
+# text = L'opposabilité des contrats aux tiers découle du principe général de sécurité juridique indispensable au bon fonctionnement du commerce international.
+1	L'opposabilité	L'opposabilité	X	_	_	_	_	_	_
+2	des	des	DET	_	_	_	_	_	_
+3	contrats	contrats	X	_	_	_	_	_	_
+4	aux	aux	ADP	_	_	_	_	_	_
+5	tiers	tiers	X	_	_	_	_	_	_
+6	découle	découle	X	_	_	_	_	_	_
+7	du	du	ADP	_	_	_	_	_	_
+8	principe	principe	X	_	_	_	_	_	_
+9	général	général	X	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	sécurité	sécurité	X	_	_	_	_	_	_
+12	juridique	juridique	X	_	_	_	_	_	_
+13	indispensable	indispensable	X	_	_	_	_	_	_
+14	au	au	ADP	_	_	_	_	_	_
+15	bon	bon	X	_	_	_	_	_	_
+16	fonctionnement	fonctionnement	X	_	_	_	_	_	_
+17	du	du	ADP	_	_	_	_	_	_
+18	commerce	commerce	X	_	_	_	_	_	_
+19	international	international	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_055
+# text = Le tribunal administratif est compétent pour statuer sur les recours pour excès de pouvoir formés contre les décisions administratives.
+1	Le	le	DET	_	_	_	_	_	_
+2	tribunal	tribunal	NOUN	_	_	_	_	_	_
+3	administratif	administratif	ADJ	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	compétent	compétent	ADJ	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	statuer	statuer	VERB	_	_	_	_	_	_
+8	sur	sur	ADP	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	recours	recour	NOUN	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	excès	excè	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	pouvoir	pouvoir	NOUN	_	_	_	_	_	_
+15	formés	former	VERB	_	_	_	_	_	_
+16	contre	contre	ADP	_	_	_	_	_	_
+17	les	le	DET	_	_	_	_	_	_
+18	décisions	décision	NOUN	_	_	_	_	_	_
+19	administratives	administratif	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_056
+# text = Le principe de non-rétroactivité de la loi pénale garantit qu'aucun citoyen ne peut être condamné pour une action licite antérieure.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	non-rétroactivité	non-rétroactivité	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	loi	loi	NOUN	_	_	_	_	_	_
+8	pénale	pénal	ADJ	_	_	_	_	_	_
+9	garantit	garantir	VERB	_	_	_	_	_	_
+10	qu'aucun	qu'aucun	X	_	_	_	_	_	_
+11	citoyen	citoyen	X	_	_	_	_	_	_
+12	ne	ne	PART	_	_	_	_	_	_
+13	peut	peut	X	_	_	_	_	_	_
+14	être	être	X	_	_	_	_	_	_
+15	condamné	condamné	X	_	_	_	_	_	_
+16	pour	pour	X	_	_	_	_	_	_
+17	une	un	DET	_	_	_	_	_	_
+18	action	action	X	_	_	_	_	_	_
+19	licite	licite	X	_	_	_	_	_	_
+20	antérieure	antérieure	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_057
+# text = La responsabilité civile délictuelle suppose la réunion d'une faute prouvée, d'un préjudice certain et d'un lien de causalité direct.
+1	La	le	DET	_	_	_	_	_	_
+2	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+3	civile	civil	ADJ	_	_	_	_	_	_
+4	délictuelle	délictuel	ADJ	_	_	_	_	_	_
+5	suppose	supposer	VERB	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	réunion	réunion	NOUN	_	_	_	_	_	_
+8	d'une	d'une	X	_	_	_	_	_	_
+9	faute	faute	X	_	_	_	_	_	_
+10	prouvée	prouvée	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	d'un	d'un	X	_	_	_	_	_	_
+13	préjudice	préjudice	X	_	_	_	_	_	_
+14	certain	certain	X	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	d'un	d'un	X	_	_	_	_	_	_
+17	lien	lien	X	_	_	_	_	_	_
+18	de	un	DET	_	_	_	_	_	_
+19	causalité	causalité	X	_	_	_	_	_	_
+20	direct	direct	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_058
+# text = Les clauses limitatives de responsabilité sont réputées non écrites si elles vident de sa substance l'obligation essentielle du contrat.
+1	Les	le	DET	_	_	_	_	_	_
+2	clauses	clause	NOUN	_	_	_	_	_	_
+3	limitatives	limitatif	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+6	sont	être	AUX	_	_	_	_	_	_
+7	réputées	réputer	VERB	_	_	_	_	_	_
+8	non	non	ADV	_	_	_	_	_	_
+9	écrites	écrire	VERB	_	_	_	_	_	_
+10	si	si	SCONJ	_	_	_	_	_	_
+11	elles	elle	PRON	_	_	_	_	_	_
+12	vident	vider	VERB	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	sa	son	DET	_	_	_	_	_	_
+15	substance	substance	NOUN	_	_	_	_	_	_
+16	l'obligation	l'obligation	X	_	_	_	_	_	_
+17	essentielle	essentielle	X	_	_	_	_	_	_
+18	du	du	ADP	_	_	_	_	_	_
+19	contrat	contrat	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_059
+# text = L'abus de droit consiste à exercer une prérogative juridique dans la seule intention de nuire à autrui sans intérêt légitime.
+1	L'abus	L'abus	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	droit	droit	X	_	_	_	_	_	_
+4	consiste	consiste	X	_	_	_	_	_	_
+5	à	à	X	_	_	_	_	_	_
+6	exercer	exercer	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	prérogative	prérogative	X	_	_	_	_	_	_
+9	juridique	juridique	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	seule	seule	X	_	_	_	_	_	_
+13	intention	intention	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	nuire	nuire	X	_	_	_	_	_	_
+16	à	à	X	_	_	_	_	_	_
+17	autrui	autrui	X	_	_	_	_	_	_
+18	sans	sans	X	_	_	_	_	_	_
+19	intérêt	intérêt	X	_	_	_	_	_	_
+20	légitime	légitime	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_060
+# text = Le contrôle de constitutionnalité des lois protège les droits fondamentaux des citoyens contre les dérives potentielles d'une majorité parlementaire.
+1	Le	le	DET	_	_	_	_	_	_
+2	contrôle	contrôle	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	constitutionnalité	constitutionnalité	NOUN	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	lois	lois	X	_	_	_	_	_	_
+7	protège	protège	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	droits	droits	X	_	_	_	_	_	_
+10	fondamentaux	fondamentaux	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	citoyens	citoyens	X	_	_	_	_	_	_
+13	contre	contre	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	dérives	dérives	X	_	_	_	_	_	_
+16	potentielles	potentielles	X	_	_	_	_	_	_
+17	d'une	d'une	X	_	_	_	_	_	_
+18	majorité	majorité	X	_	_	_	_	_	_
+19	parlementaire	parlementaire	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_061
+# text = La notion d'ordre public restreint la liberté contractuelle en interdisant les conventions contraires aux valeurs fondamentales de notre société.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	d'ordre	d'ordre	X	_	_	_	_	_	_
+4	public	public	X	_	_	_	_	_	_
+5	restreint	restreint	X	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	liberté	liberté	X	_	_	_	_	_	_
+8	contractuelle	contractuelle	X	_	_	_	_	_	_
+9	en	en	PRON	_	_	_	_	_	_
+10	interdisant	interdisant	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	conventions	conventions	X	_	_	_	_	_	_
+13	contraires	contraires	X	_	_	_	_	_	_
+14	aux	aux	ADP	_	_	_	_	_	_
+15	valeurs	valeurs	X	_	_	_	_	_	_
+16	fondamentales	fondamentales	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	notre	notre	DET	_	_	_	_	_	_
+19	société	société	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_062
+# text = Le principe de la force obligatoire du contrat oblige les parties contractantes à exécuter loyalement toutes leurs obligations respectives.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	force	force	NOUN	_	_	_	_	_	_
+6	obligatoire	obligatoire	ADJ	_	_	_	_	_	_
+7	du	du	ADP	_	_	_	_	_	_
+8	contrat	contrat	X	_	_	_	_	_	_
+9	oblige	oblige	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	parties	parties	X	_	_	_	_	_	_
+12	contractantes	contractantes	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	exécuter	exécuter	X	_	_	_	_	_	_
+15	loyalement	loyalement	X	_	_	_	_	_	_
+16	toutes	toutes	X	_	_	_	_	_	_
+17	leurs	leur	DET	_	_	_	_	_	_
+18	obligations	obligations	X	_	_	_	_	_	_
+19	respectives	respectives	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_063
+# text = Le droit d'usufruit confère à son titulaire le droit d'utiliser un bien et d'en percevoir les fruits sans en être propriétaire.
+1	Le	le	DET	_	_	_	_	_	_
+2	droit	droit	NOUN	_	_	_	_	_	_
+3	d'usufruit	d'usufruit	X	_	_	_	_	_	_
+4	confère	confère	X	_	_	_	_	_	_
+5	à	à	X	_	_	_	_	_	_
+6	son	son	DET	_	_	_	_	_	_
+7	titulaire	titulaire	X	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	droit	droit	X	_	_	_	_	_	_
+10	d'utiliser	d'utiliser	X	_	_	_	_	_	_
+11	un	un	DET	_	_	_	_	_	_
+12	bien	bien	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	d'en	d'en	X	_	_	_	_	_	_
+15	percevoir	percevoir	X	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	fruits	fruits	X	_	_	_	_	_	_
+18	sans	sans	X	_	_	_	_	_	_
+19	en	en	PRON	_	_	_	_	_	_
+20	être	être	X	_	_	_	_	_	_
+21	propriétaire	propriétaire	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_064
+# text = L'exception d'inexécution permet à une partie de suspendre ses prestations tant que son cocontractant n'exécute pas les siennes.
+1	L'exception	L'exception	X	_	_	_	_	_	_
+2	d'inexécution	d'inexécution	X	_	_	_	_	_	_
+3	permet	permet	X	_	_	_	_	_	_
+4	à	à	X	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	partie	partie	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	suspendre	suspendre	X	_	_	_	_	_	_
+9	ses	son	DET	_	_	_	_	_	_
+10	prestations	prestations	X	_	_	_	_	_	_
+11	tant	tant	X	_	_	_	_	_	_
+12	que	que	PRON	_	_	_	_	_	_
+13	son	son	DET	_	_	_	_	_	_
+14	cocontractant	cocontractant	X	_	_	_	_	_	_
+15	n'exécute	n'exécute	X	_	_	_	_	_	_
+16	pas	pas	ADV	_	_	_	_	_	_
+17	les	le	DET	_	_	_	_	_	_
+18	siennes	siennes	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_065
+# text = La nullité absolue d'un acte juridique peut être invoquée par tout intéressé lorsque la règle violée protège l'intérêt général.
+1	La	le	DET	_	_	_	_	_	_
+2	nullité	nullité	NOUN	_	_	_	_	_	_
+3	absolue	absolu	ADJ	_	_	_	_	_	_
+4	d'un	d'un	X	_	_	_	_	_	_
+5	acte	acte	X	_	_	_	_	_	_
+6	juridique	juridique	X	_	_	_	_	_	_
+7	peut	peut	X	_	_	_	_	_	_
+8	être	être	X	_	_	_	_	_	_
+9	invoquée	invoquée	X	_	_	_	_	_	_
+10	par	par	X	_	_	_	_	_	_
+11	tout	tout	X	_	_	_	_	_	_
+12	intéressé	intéressé	X	_	_	_	_	_	_
+13	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	règle	règle	X	_	_	_	_	_	_
+16	violée	violée	X	_	_	_	_	_	_
+17	protège	protège	X	_	_	_	_	_	_
+18	l'intérêt	l'intérêt	X	_	_	_	_	_	_
+19	général	général	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_066
+# text = Le dol est un vice du consentement qui entraîna la rescision de la vente s'il est prouvé de manière indiscutable.
+1	Le	le	DET	_	_	_	_	_	_
+2	dol	dol	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	vice	vice	NOUN	_	_	_	_	_	_
+6	du	du	ADP	_	_	_	_	_	_
+7	consentement	consentement	X	_	_	_	_	_	_
+8	qui	qui	PRON	_	_	_	_	_	_
+9	entraîna	entraîna	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	rescision	rescision	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	vente	vente	X	_	_	_	_	_	_
+15	s'il	s'il	X	_	_	_	_	_	_
+16	est	être	AUX	_	_	_	_	_	_
+17	prouvé	prouvé	X	_	_	_	_	_	_
+18	de	un	DET	_	_	_	_	_	_
+19	manière	manière	X	_	_	_	_	_	_
+20	indiscutable	indiscutable	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_067
+# text = La souveraineté nationale appartient au peuple qui l'exerce par ses représentants directs et par la voie du référendum populaire.
+1	La	le	DET	_	_	_	_	_	_
+2	souveraineté	souveraineté	NOUN	_	_	_	_	_	_
+3	nationale	national	ADJ	_	_	_	_	_	_
+4	appartient	appartenir	VERB	_	_	_	_	_	_
+5	au	au	ADP	_	_	_	_	_	_
+6	peuple	peuple	X	_	_	_	_	_	_
+7	qui	qui	PRON	_	_	_	_	_	_
+8	l'exerce	l'exerce	X	_	_	_	_	_	_
+9	par	par	X	_	_	_	_	_	_
+10	ses	son	DET	_	_	_	_	_	_
+11	représentants	représentants	X	_	_	_	_	_	_
+12	directs	directs	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	par	par	X	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	voie	voie	X	_	_	_	_	_	_
+17	du	du	ADP	_	_	_	_	_	_
+18	référendum	référendum	X	_	_	_	_	_	_
+19	populaire	populaire	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_068
+# text = Le règlement général sur la protection des données impose des obligations strictes concernant le traitement automatisé des données personnelles.
+1	Le	le	DET	_	_	_	_	_	_
+2	règlement	règlement	NOUN	_	_	_	_	_	_
+3	général	général	ADJ	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	protection	protection	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	données	données	X	_	_	_	_	_	_
+9	impose	impose	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	obligations	obligations	X	_	_	_	_	_	_
+12	strictes	strictes	X	_	_	_	_	_	_
+13	concernant	concernant	X	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	traitement	traitement	X	_	_	_	_	_	_
+16	automatisé	automatisé	X	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	données	données	X	_	_	_	_	_	_
+19	personnelles	personnelles	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_069
+# text = La présomption d'innocence interdit de présenter une personne soupçonnée comme coupable avant sa condamnation définitive par un tribunal.
+1	La	le	DET	_	_	_	_	_	_
+2	présomption	présomption	NOUN	_	_	_	_	_	_
+3	d'innocence	d'innocence	X	_	_	_	_	_	_
+4	interdit	interdit	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	présenter	présenter	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	personne	personne	X	_	_	_	_	_	_
+9	soupçonnée	soupçonnée	X	_	_	_	_	_	_
+10	comme	comme	SCONJ	_	_	_	_	_	_
+11	coupable	coupable	X	_	_	_	_	_	_
+12	avant	avant	X	_	_	_	_	_	_
+13	sa	son	DET	_	_	_	_	_	_
+14	condamnation	condamnation	X	_	_	_	_	_	_
+15	définitive	définitive	X	_	_	_	_	_	_
+16	par	par	X	_	_	_	_	_	_
+17	un	un	DET	_	_	_	_	_	_
+18	tribunal	tribunal	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_070
+# text = La clause compromissoire permet de soumettre les litiges éventuels issus du contrat à un tribunal arbitral indépendant et privé.
+1	La	le	DET	_	_	_	_	_	_
+2	clause	clause	NOUN	_	_	_	_	_	_
+3	compromissoire	compromissoire	ADJ	_	_	_	_	_	_
+4	permet	permettre	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	soumettre	soumettre	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	litiges	litige	NOUN	_	_	_	_	_	_
+9	éventuels	éventuel	ADJ	_	_	_	_	_	_
+10	issus	issu	ADJ	_	_	_	_	_	_
+11	du	du	ADP	_	_	_	_	_	_
+12	contrat	contrat	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	un	un	DET	_	_	_	_	_	_
+15	tribunal	tribunal	X	_	_	_	_	_	_
+16	arbitral	arbitral	X	_	_	_	_	_	_
+17	indépendant	indépendant	X	_	_	_	_	_	_
+18	et	et	CCONJ	_	_	_	_	_	_
+19	privé	privé	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_071
+# text = L'enrichissement sans cause donne droit à une action en restitution visant à rétablir l'équilibre financier rompu de manière injuste.
+1	L'enrichissement	L'enrichissement	X	_	_	_	_	_	_
+2	sans	sans	X	_	_	_	_	_	_
+3	cause	cause	X	_	_	_	_	_	_
+4	donne	donne	X	_	_	_	_	_	_
+5	droit	droit	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	action	action	X	_	_	_	_	_	_
+9	en	en	PRON	_	_	_	_	_	_
+10	restitution	restitution	X	_	_	_	_	_	_
+11	visant	visant	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	rétablir	rétablir	X	_	_	_	_	_	_
+14	l'équilibre	l'équilibre	X	_	_	_	_	_	_
+15	financier	financier	X	_	_	_	_	_	_
+16	rompu	rompu	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	manière	manière	X	_	_	_	_	_	_
+19	injuste	injuste	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_072
+# text = L'autorité de la chose jugée fait obstacle à ce qu'une même contestation soit à nouveau portée devant les juridictions étatiques.
+1	L'autorité	L'autorité	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	chose	chose	X	_	_	_	_	_	_
+5	jugée	jugée	X	_	_	_	_	_	_
+6	fait	fait	X	_	_	_	_	_	_
+7	obstacle	obstacle	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	ce	ce	DET	_	_	_	_	_	_
+10	qu'une	qu'une	X	_	_	_	_	_	_
+11	même	même	X	_	_	_	_	_	_
+12	contestation	contestation	X	_	_	_	_	_	_
+13	soit	être	AUX	_	_	_	_	_	_
+14	à	à	X	_	_	_	_	_	_
+15	nouveau	nouveau	X	_	_	_	_	_	_
+16	portée	portée	X	_	_	_	_	_	_
+17	devant	devant	X	_	_	_	_	_	_
+18	les	le	DET	_	_	_	_	_	_
+19	juridictions	juridictions	X	_	_	_	_	_	_
+20	étatiques	étatiques	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_073
+# text = La faute lourde du débiteur fait échec aux clauses contractuelles d'exonération et engage sa responsabilité civile de manière illimitée.
+1	La	le	DET	_	_	_	_	_	_
+2	faute	faute	NOUN	_	_	_	_	_	_
+3	lourde	lourd	ADJ	_	_	_	_	_	_
+4	du	du	ADP	_	_	_	_	_	_
+5	débiteur	débiteur	X	_	_	_	_	_	_
+6	fait	fait	X	_	_	_	_	_	_
+7	échec	échec	X	_	_	_	_	_	_
+8	aux	aux	ADP	_	_	_	_	_	_
+9	clauses	clauses	X	_	_	_	_	_	_
+10	contractuelles	contractuelles	X	_	_	_	_	_	_
+11	d'exonération	d'exonération	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	engage	engage	X	_	_	_	_	_	_
+14	sa	son	DET	_	_	_	_	_	_
+15	responsabilité	responsabilité	X	_	_	_	_	_	_
+16	civile	civile	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	manière	manière	X	_	_	_	_	_	_
+19	illimitée	illimitée	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_074
+# text = Le droit de rétention permet à un créancier légitime de conserver un objet tant qu'il n'est pas intégralement payé.
+1	Le	le	DET	_	_	_	_	_	_
+2	droit	droit	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	rétention	rétention	NOUN	_	_	_	_	_	_
+5	permet	permettre	VERB	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	créancier	créancier	NOUN	_	_	_	_	_	_
+9	légitime	légitime	ADJ	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	conserver	conserver	VERB	_	_	_	_	_	_
+12	un	un	DET	_	_	_	_	_	_
+13	objet	objet	NOUN	_	_	_	_	_	_
+14	tant	tant	ADV	_	_	_	_	_	_
+15	qu'il	qu'il	X	_	_	_	_	_	_
+16	n'est	n'est	X	_	_	_	_	_	_
+17	pas	pas	ADV	_	_	_	_	_	_
+18	intégralement	intégralement	X	_	_	_	_	_	_
+19	payé	payé	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_075
+# text = Le principe de spécialité des personnes morales limite leur capacité juridique aux seuls actes conformes à leur objet social statutaire.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	spécialité	spécialité	NOUN	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	personnes	personnes	X	_	_	_	_	_	_
+7	morales	morales	X	_	_	_	_	_	_
+8	limite	limite	X	_	_	_	_	_	_
+9	leur	leur	DET	_	_	_	_	_	_
+10	capacité	capacité	X	_	_	_	_	_	_
+11	juridique	juridique	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	seuls	seuls	X	_	_	_	_	_	_
+14	actes	actes	X	_	_	_	_	_	_
+15	conformes	conformes	X	_	_	_	_	_	_
+16	à	à	X	_	_	_	_	_	_
+17	leur	leur	DET	_	_	_	_	_	_
+18	objet	objet	X	_	_	_	_	_	_
+19	social	social	X	_	_	_	_	_	_
+20	statutaire	statutaire	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_076
+# text = L'indivisibilité de la prestation souscrite permet au créancier d'exiger le paiement intégral auprès de n'importe quel codébiteur solidaire.
+1	L'indivisibilité	L'indivisibilité	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	prestation	prestation	X	_	_	_	_	_	_
+5	souscrite	souscrite	X	_	_	_	_	_	_
+6	permet	permet	X	_	_	_	_	_	_
+7	au	au	ADP	_	_	_	_	_	_
+8	créancier	créancier	X	_	_	_	_	_	_
+9	d'exiger	d'exiger	X	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	paiement	paiement	X	_	_	_	_	_	_
+12	intégral	intégral	X	_	_	_	_	_	_
+13	auprès	auprès	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	n'importe	n'importe	X	_	_	_	_	_	_
+16	quel	quel	X	_	_	_	_	_	_
+17	codébiteur	codébiteur	X	_	_	_	_	_	_
+18	solidaire	solidaire	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_077
+# text = La caducité d'un contrat survient lorsque l'un de ses éléments essentiels disparaît postérieurement à sa formation tout à fait valable.
+1	La	le	DET	_	_	_	_	_	_
+2	caducité	caducité	NOUN	_	_	_	_	_	_
+3	d'un	d'un	X	_	_	_	_	_	_
+4	contrat	contrat	X	_	_	_	_	_	_
+5	survient	survient	X	_	_	_	_	_	_
+6	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+7	l'un	l'un	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	ses	son	DET	_	_	_	_	_	_
+10	éléments	éléments	X	_	_	_	_	_	_
+11	essentiels	essentiels	X	_	_	_	_	_	_
+12	disparaît	disparaît	X	_	_	_	_	_	_
+13	postérieurement	postérieurement	X	_	_	_	_	_	_
+14	à	à	X	_	_	_	_	_	_
+15	sa	son	DET	_	_	_	_	_	_
+16	formation	formation	X	_	_	_	_	_	_
+17	tout	tout	X	_	_	_	_	_	_
+18	à	à	X	_	_	_	_	_	_
+19	fait	fait	X	_	_	_	_	_	_
+20	valable	valable	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_078
+# text = Le juge des référés peut ordonner des mesures conservatoires pour prévenir un dommage imminent ou faire cesser un trouble manifestement illicite.
+1	Le	le	DET	_	_	_	_	_	_
+2	juge	juge	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	référés	référés	X	_	_	_	_	_	_
+5	peut	peut	X	_	_	_	_	_	_
+6	ordonner	ordonner	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	mesures	mesures	X	_	_	_	_	_	_
+9	conservatoires	conservatoires	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	prévenir	prévenir	X	_	_	_	_	_	_
+12	un	un	DET	_	_	_	_	_	_
+13	dommage	dommage	X	_	_	_	_	_	_
+14	imminent	imminent	X	_	_	_	_	_	_
+15	ou	ou	CCONJ	_	_	_	_	_	_
+16	faire	faire	X	_	_	_	_	_	_
+17	cesser	cesser	X	_	_	_	_	_	_
+18	un	un	DET	_	_	_	_	_	_
+19	trouble	trouble	X	_	_	_	_	_	_
+20	manifestement	manifestement	X	_	_	_	_	_	_
+21	illicite	illicite	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_079
+# text = La prescription acquisitive permet d'acquérir la propriété d'un bien immobilier par une possession prolongée, paisible et non équivoque.
+1	La	le	DET	_	_	_	_	_	_
+2	prescription	prescription	NOUN	_	_	_	_	_	_
+3	acquisitive	acquisitif	ADJ	_	_	_	_	_	_
+4	permet	permettre	VERB	_	_	_	_	_	_
+5	d'acquérir	d'acquérir	X	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	propriété	propriété	X	_	_	_	_	_	_
+8	d'un	d'un	X	_	_	_	_	_	_
+9	bien	bien	X	_	_	_	_	_	_
+10	immobilier	immobilier	X	_	_	_	_	_	_
+11	par	par	X	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	possession	possession	X	_	_	_	_	_	_
+14	prolongée	prolongée	X	_	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_	_
+16	paisible	paisible	X	_	_	_	_	_	_
+17	et	et	CCONJ	_	_	_	_	_	_
+18	non	non	X	_	_	_	_	_	_
+19	équivoque	équivoque	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_080
+# text = L'action de groupe permet à des consommateurs victimes d'obtenir réparation pour un préjudice individuel causé par un même professionnel.
+1	L'action	L'action	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	groupe	groupe	X	_	_	_	_	_	_
+4	permet	permet	X	_	_	_	_	_	_
+5	à	à	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	consommateurs	consommateurs	X	_	_	_	_	_	_
+8	victimes	victimes	X	_	_	_	_	_	_
+9	d'obtenir	d'obtenir	X	_	_	_	_	_	_
+10	réparation	réparation	X	_	_	_	_	_	_
+11	pour	pour	X	_	_	_	_	_	_
+12	un	un	DET	_	_	_	_	_	_
+13	préjudice	préjudice	X	_	_	_	_	_	_
+14	individuel	individuel	X	_	_	_	_	_	_
+15	causé	causé	X	_	_	_	_	_	_
+16	par	par	X	_	_	_	_	_	_
+17	un	un	DET	_	_	_	_	_	_
+18	même	même	X	_	_	_	_	_	_
+19	professionnel	professionnel	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_081
+# text = La hiérarchie des normes juridiques implique que les règlements administratifs doivent être entièrement conformes aux lois votées par le Parlement.
+1	La	le	DET	_	_	_	_	_	_
+2	hiérarchie	hiérarchie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	normes	normes	X	_	_	_	_	_	_
+5	juridiques	juridiques	X	_	_	_	_	_	_
+6	implique	implique	X	_	_	_	_	_	_
+7	que	que	PRON	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	règlements	règlements	X	_	_	_	_	_	_
+10	administratifs	administratifs	X	_	_	_	_	_	_
+11	doivent	devoir	AUX	_	_	_	_	_	_
+12	être	être	X	_	_	_	_	_	_
+13	entièrement	entièrement	X	_	_	_	_	_	_
+14	conformes	conformes	X	_	_	_	_	_	_
+15	aux	aux	ADP	_	_	_	_	_	_
+16	lois	lois	X	_	_	_	_	_	_
+17	votées	votées	X	_	_	_	_	_	_
+18	par	par	X	_	_	_	_	_	_
+19	le	le	DET	_	_	_	_	_	_
+20	Parlement	Parlement	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_082
+# text = Le contrat d'adhésion se caractérise par l'absence de négociation réelle, les conditions étant unilatéralement déterminées par la partie forte.
+1	Le	le	DET	_	_	_	_	_	_
+2	contrat	contrat	NOUN	_	_	_	_	_	_
+3	d'adhésion	d'adhésion	X	_	_	_	_	_	_
+4	se	se	PRON	_	_	_	_	_	_
+5	caractérise	caractérise	X	_	_	_	_	_	_
+6	par	par	X	_	_	_	_	_	_
+7	l'absence	l'absence	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	négociation	négociation	X	_	_	_	_	_	_
+10	réelle	réelle	X	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	conditions	conditions	X	_	_	_	_	_	_
+14	étant	être	AUX	_	_	_	_	_	_
+15	unilatéralement	unilatéralement	X	_	_	_	_	_	_
+16	déterminées	déterminées	X	_	_	_	_	_	_
+17	par	par	X	_	_	_	_	_	_
+18	la	le	DET	_	_	_	_	_	_
+19	partie	partie	X	_	_	_	_	_	_
+20	forte	forte	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_083
+# text = L'erreur sur les qualités substantielles de la prestation convenue justifie l'annulation rétroactive du contrat pour vice du consentement.
+1	L'erreur	L'erreur	X	_	_	_	_	_	_
+2	sur	sur	X	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	qualités	qualités	X	_	_	_	_	_	_
+5	substantielles	substantielles	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	prestation	prestation	X	_	_	_	_	_	_
+9	convenue	convenue	X	_	_	_	_	_	_
+10	justifie	justifie	X	_	_	_	_	_	_
+11	l'annulation	l'annulation	X	_	_	_	_	_	_
+12	rétroactive	rétroactive	X	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	contrat	contrat	X	_	_	_	_	_	_
+15	pour	pour	X	_	_	_	_	_	_
+16	vice	vice	X	_	_	_	_	_	_
+17	du	du	ADP	_	_	_	_	_	_
+18	consentement	consentement	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_084
+# text = Le principe de neutralité du service public interdit aux agents de manifester leurs opinions religieuses ou politiques dans leurs fonctions.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	neutralité	neutralité	NOUN	_	_	_	_	_	_
+5	du	du	ADP	_	_	_	_	_	_
+6	service	service	X	_	_	_	_	_	_
+7	public	public	X	_	_	_	_	_	_
+8	interdit	interdit	X	_	_	_	_	_	_
+9	aux	aux	ADP	_	_	_	_	_	_
+10	agents	agents	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	manifester	manifester	X	_	_	_	_	_	_
+13	leurs	leur	DET	_	_	_	_	_	_
+14	opinions	opinions	X	_	_	_	_	_	_
+15	religieuses	religieuses	X	_	_	_	_	_	_
+16	ou	ou	CCONJ	_	_	_	_	_	_
+17	politiques	politiques	X	_	_	_	_	_	_
+18	dans	dans	X	_	_	_	_	_	_
+19	leurs	leur	DET	_	_	_	_	_	_
+20	fonctions	fonctions	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_085
+# text = La notification préalable est une formalité substantielle dont le non-respect entraîne irrémédiablement la nullité de la procédure de licenciement.
+1	La	le	DET	_	_	_	_	_	_
+2	notification	notification	NOUN	_	_	_	_	_	_
+3	préalable	préalable	ADJ	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	formalité	formalité	NOUN	_	_	_	_	_	_
+7	substantielle	substantiel	ADJ	_	_	_	_	_	_
+8	dont	dont	PRON	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	non-respect	non-respect	NOUN	_	_	_	_	_	_
+11	entraîne	entraîner	VERB	_	_	_	_	_	_
+12	irrémédiablement	irrémédiablement	ADV	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	nullité	nullité	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	procédure	procédure	NOUN	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	licenciement	licenciement	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_086
+# text = La force majeure est un événement extérieur, imprévisible et irrésistible qui libère totalement le débiteur de son obligation contractuelle.
+1	La	le	DET	_	_	_	_	_	_
+2	force	force	NOUN	_	_	_	_	_	_
+3	majeure	majeur	ADJ	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	événement	événement	NOUN	_	_	_	_	_	_
+7	extérieur	extérieur	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	imprévisible	imprévisible	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	irrésistible	irrésistible	ADJ	_	_	_	_	_	_
+12	qui	qui	PRON	_	_	_	_	_	_
+13	libère	libérer	VERB	_	_	_	_	_	_
+14	totalement	totalement	ADV	_	_	_	_	_	_
+15	le	le	DET	_	_	_	_	_	_
+16	débiteur	débiteur	NOUN	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	son	son	DET	_	_	_	_	_	_
+19	obligation	obligation	NOUN	_	_	_	_	_	_
+20	contractuelle	contractuel	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_087
+# text = Le droit de préemption permet à une collectivité publique d'acquérir en priorité un bien mis en vente pour un motif d'intérêt général.
+1	Le	le	DET	_	_	_	_	_	_
+2	droit	droit	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	préemption	préemption	NOUN	_	_	_	_	_	_
+5	permet	permettre	VERB	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	collectivité	collectivité	NOUN	_	_	_	_	_	_
+9	publique	public	ADJ	_	_	_	_	_	_
+10	d'acquérir	d'acquérir	X	_	_	_	_	_	_
+11	en	en	PRON	_	_	_	_	_	_
+12	priorité	priorité	X	_	_	_	_	_	_
+13	un	un	DET	_	_	_	_	_	_
+14	bien	bien	X	_	_	_	_	_	_
+15	mis	mis	X	_	_	_	_	_	_
+16	en	en	PRON	_	_	_	_	_	_
+17	vente	vente	X	_	_	_	_	_	_
+18	pour	pour	X	_	_	_	_	_	_
+19	un	un	DET	_	_	_	_	_	_
+20	motif	motif	X	_	_	_	_	_	_
+21	d'intérêt	d'intérêt	X	_	_	_	_	_	_
+22	général	général	X	_	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_088
+# text = Le vice caché doit être antérieur à la vente et rendre la chose totalement impropre à l'usage auquel on la destinait.
+1	Le	le	DET	_	_	_	_	_	_
+2	vice	vice	NOUN	_	_	_	_	_	_
+3	caché	cacher	VERB	_	_	_	_	_	_
+4	doit	devoir	AUX	_	_	_	_	_	_
+5	être	être	VERB	_	_	_	_	_	_
+6	antérieur	antérieur	ADJ	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	vente	vente	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	rendre	rendre	VERB	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	chose	chose	NOUN	_	_	_	_	_	_
+14	totalement	totalement	ADV	_	_	_	_	_	_
+15	impropre	impropre	ADJ	_	_	_	_	_	_
+16	à	à	ADP	_	_	_	_	_	_
+17	l'usage	l'usage	X	_	_	_	_	_	_
+18	auquel	auquel	X	_	_	_	_	_	_
+19	on	on	PRON	_	_	_	_	_	_
+20	la	le	DET	_	_	_	_	_	_
+21	destinait	destinait	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_089
+# text = Le principe d'impartialité objective interdit à un magistrat de siéger s'il existe un doute légitime sur sa neutralité personnelle.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	d'impartialité	d'impartialité	X	_	_	_	_	_	_
+4	objective	objective	X	_	_	_	_	_	_
+5	interdit	interdit	X	_	_	_	_	_	_
+6	à	à	X	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	magistrat	magistrat	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	siéger	siéger	X	_	_	_	_	_	_
+11	s'il	s'il	X	_	_	_	_	_	_
+12	existe	existe	X	_	_	_	_	_	_
+13	un	un	DET	_	_	_	_	_	_
+14	doute	doute	X	_	_	_	_	_	_
+15	légitime	légitime	X	_	_	_	_	_	_
+16	sur	sur	X	_	_	_	_	_	_
+17	sa	son	DET	_	_	_	_	_	_
+18	neutralité	neutralité	X	_	_	_	_	_	_
+19	personnelle	personnelle	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_090
+# text = La mise en demeure est un acte solennel qui constate le retard du débiteur et fait courir les intérêts moratoires.
+1	La	le	DET	_	_	_	_	_	_
+2	mise	mise	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	demeure	demeure	NOUN	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	acte	acte	NOUN	_	_	_	_	_	_
+8	solennel	solennel	ADJ	_	_	_	_	_	_
+9	qui	qui	PRON	_	_	_	_	_	_
+10	constate	constater	VERB	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	retard	retard	NOUN	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	débiteur	débiteur	X	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	fait	fait	X	_	_	_	_	_	_
+17	courir	courir	X	_	_	_	_	_	_
+18	les	le	DET	_	_	_	_	_	_
+19	intérêts	intérêts	X	_	_	_	_	_	_
+20	moratoires	moratoires	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_091
+# text = Le secret professionnel protège les confidences reçues par les avocats et les médecins dans l'exercice quotidien de leur art.
+1	Le	le	DET	_	_	_	_	_	_
+2	secret	secret	NOUN	_	_	_	_	_	_
+3	professionnel	professionnel	ADJ	_	_	_	_	_	_
+4	protège	protéger	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	confidences	confidence	NOUN	_	_	_	_	_	_
+7	reçues	recevoir	VERB	_	_	_	_	_	_
+8	par	par	ADP	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	avocats	avocat	NOUN	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	médecins	médecin	NOUN	_	_	_	_	_	_
+14	dans	dans	ADP	_	_	_	_	_	_
+15	l'exercice	l'exercice	X	_	_	_	_	_	_
+16	quotidien	quotidien	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	leur	leur	DET	_	_	_	_	_	_
+19	art	art	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_092
+# text = La délégation de pouvoir transfère la responsabilité pénale au délégataire s'il dispose de la compétence et des moyens nécessaires.
+1	La	le	DET	_	_	_	_	_	_
+2	délégation	délégation	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	pouvoir	pouvoir	NOUN	_	_	_	_	_	_
+5	transfère	transférer	VERB	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+8	pénale	pénal	ADJ	_	_	_	_	_	_
+9	au	au	ADP	_	_	_	_	_	_
+10	délégataire	délégataire	X	_	_	_	_	_	_
+11	s'il	s'il	X	_	_	_	_	_	_
+12	dispose	dispose	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	compétence	compétence	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	moyens	moyens	X	_	_	_	_	_	_
+19	nécessaires	nécessaires	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_093
+# text = La résiliation unilatérale est admise en cas de comportement grave d'une partie, sous réserve d'une notification préalable écrite.
+1	La	le	DET	_	_	_	_	_	_
+2	résiliation	résiliation	NOUN	_	_	_	_	_	_
+3	unilatérale	unilatéral	ADJ	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	admise	admettre	VERB	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	cas	ca	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	comportement	comportement	NOUN	_	_	_	_	_	_
+10	grave	grave	ADJ	_	_	_	_	_	_
+11	d'une	d'une	X	_	_	_	_	_	_
+12	partie	partie	X	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	sous	sous	X	_	_	_	_	_	_
+15	réserve	réserve	X	_	_	_	_	_	_
+16	d'une	d'une	X	_	_	_	_	_	_
+17	notification	notification	X	_	_	_	_	_	_
+18	préalable	préalable	X	_	_	_	_	_	_
+19	écrite	écrite	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_094
+# text = Le principe de loyauté dans l'administration de la preuve interdit le recours à des procédés déloyaux pour obtenir des aveux.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	loyauté	loyauté	NOUN	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	l'administration	l'administration	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	preuve	preuve	X	_	_	_	_	_	_
+10	interdit	interdit	X	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	recours	recours	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	procédés	procédés	X	_	_	_	_	_	_
+16	déloyaux	déloyaux	X	_	_	_	_	_	_
+17	pour	pour	X	_	_	_	_	_	_
+18	obtenir	obtenir	X	_	_	_	_	_	_
+19	des	des	DET	_	_	_	_	_	_
+20	aveux	aveux	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_095
+# text = La tierce opposition permet à une personne n'ayant pas été partie au procès de contester un jugement qui préjudicie ses droits.
+1	La	le	DET	_	_	_	_	_	_
+2	tierce	tierce	ADJ	_	_	_	_	_	_
+3	opposition	opposition	NOUN	_	_	_	_	_	_
+4	permet	permettre	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	personne	personne	NOUN	_	_	_	_	_	_
+8	n'ayant	n'ayant	X	_	_	_	_	_	_
+9	pas	pas	ADV	_	_	_	_	_	_
+10	été	être	AUX	_	_	_	_	_	_
+11	partie	partie	X	_	_	_	_	_	_
+12	au	au	ADP	_	_	_	_	_	_
+13	procès	procès	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	contester	contester	X	_	_	_	_	_	_
+16	un	un	DET	_	_	_	_	_	_
+17	jugement	jugement	X	_	_	_	_	_	_
+18	qui	qui	PRON	_	_	_	_	_	_
+19	préjudicie	préjudicie	X	_	_	_	_	_	_
+20	ses	son	DET	_	_	_	_	_	_
+21	droits	droits	X	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_096
+# text = Le détournement de pouvoir est un vice de légalité interne qui affecte les actes administratifs adoptés dans un but illégitime.
+1	Le	le	DET	_	_	_	_	_	_
+2	détournement	détournement	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	pouvoir	pouvoir	NOUN	_	_	_	_	_	_
+5	est	être	AUX	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	vice	vice	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	légalité	légalité	NOUN	_	_	_	_	_	_
+10	interne	interne	ADJ	_	_	_	_	_	_
+11	qui	qui	PRON	_	_	_	_	_	_
+12	affecte	affecter	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	actes	acte	NOUN	_	_	_	_	_	_
+15	administratifs	administratif	ADJ	_	_	_	_	_	_
+16	adoptés	adopter	VERB	_	_	_	_	_	_
+17	dans	dans	ADP	_	_	_	_	_	_
+18	un	un	DET	_	_	_	_	_	_
+19	but	but	NOUN	_	_	_	_	_	_
+20	illégitime	illégitime	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_097
+# text = L'opposabilité de la coutume internationale suppose une pratique générale acceptée comme étant le droit par les membres de la communauté.
+1	L'opposabilité	L'opposabilité	X	_	_	_	_	_	_
+2	de	un	DET	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	coutume	coutume	X	_	_	_	_	_	_
+5	internationale	internationale	X	_	_	_	_	_	_
+6	suppose	suppose	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	pratique	pratique	X	_	_	_	_	_	_
+9	générale	générale	X	_	_	_	_	_	_
+10	acceptée	acceptée	X	_	_	_	_	_	_
+11	comme	comme	SCONJ	_	_	_	_	_	_
+12	étant	être	AUX	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	droit	droit	X	_	_	_	_	_	_
+15	par	par	X	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	membres	membres	X	_	_	_	_	_	_
+18	de	un	DET	_	_	_	_	_	_
+19	la	le	DET	_	_	_	_	_	_
+20	communauté	communauté	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_098
+# text = Le quasi-contrat est un fait purement volontaire dont il résulte un engagement envers un tiers sans convention expresse préalable.
+1	Le	le	DET	_	_	_	_	_	_
+2	quasi-contrat	quasi-contrat	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	fait	fait	NOUN	_	_	_	_	_	_
+6	purement	purement	ADV	_	_	_	_	_	_
+7	volontaire	volontaire	ADJ	_	_	_	_	_	_
+8	dont	dont	PRON	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	résulte	résulter	VERB	_	_	_	_	_	_
+11	un	un	DET	_	_	_	_	_	_
+12	engagement	engagement	NOUN	_	_	_	_	_	_
+13	envers	envers	ADP	_	_	_	_	_	_
+14	un	un	DET	_	_	_	_	_	_
+15	tiers	tier	NOUN	_	_	_	_	_	_
+16	sans	sans	ADP	_	_	_	_	_	_
+17	convention	convention	NOUN	_	_	_	_	_	_
+18	expresse	expresse	ADJ	_	_	_	_	_	_
+19	préalable	préalable	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_099
+# text = Le principe de précaution exige des mesures de gestion des risques face à des menaces de dommages graves et irréversibles.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	précaution	précaution	NOUN	_	_	_	_	_	_
+5	exige	exiger	VERB	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	mesures	mesure	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	gestion	gestion	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	risques	risques	X	_	_	_	_	_	_
+12	face	face	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	menaces	menaces	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	dommages	dommages	X	_	_	_	_	_	_
+18	graves	graves	X	_	_	_	_	_	_
+19	et	et	CCONJ	_	_	_	_	_	_
+20	irréversibles	irréversibles	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c2_val_100
+# text = La clause pénale détermine à l'avance le montant des dommages-intérêts dus en cas d'inexécution ou de retard d'exécution.
+1	La	le	DET	_	_	_	_	_	_
+2	clause	clause	NOUN	_	_	_	_	_	_
+3	pénale	pénal	ADJ	_	_	_	_	_	_
+4	détermine	déterminer	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	l'avance	l'avance	X	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	montant	montant	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	dommages-intérêts	dommages-intérêts	X	_	_	_	_	_	_
+11	dus	dus	X	_	_	_	_	_	_
+12	en	en	PRON	_	_	_	_	_	_
+13	cas	cas	X	_	_	_	_	_	_
+14	d'inexécution	d'inexécution	X	_	_	_	_	_	_
+15	ou	ou	CCONJ	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	retard	retard	X	_	_	_	_	_	_
+18	d'exécution	d'exécution	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,340 @@
+# sent_id = de_c1_val_001
+# text = Der von dem Kritiker erhobene Vorwurf, die Argumentation sei zirkulär, lässt sich widerlegen, obgleich er oberflächlich betrachtet plausibel wirkt.
+1	Der	der	DET	_	_	_	_	_	_
+2	von	von	ADP	_	_	_	_	_	_
+3	dem	der	DET	_	_	_	_	_	_
+4	Kritiker	Kritiker	NOUN	_	_	_	_	_	_
+5	erhobene	erhoben	ADJ	_	_	_	_	_	_
+6	Vorwurf	Vorwurf	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Argumentation	Argumentation	NOUN	_	_	_	_	_	_
+10	sei	sein	AUX	_	_	_	_	_	_
+11	zirkulär	zirkulär	ADJ	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	lässt	lassen	AUX	_	_	_	_	_	_
+14	sich	sich	PRON	_	_	_	_	_	_
+15	widerlegen	widerlegen	VERB	_	_	_	_	_	_
+16	,	,	PUNCT	_	_	_	_	_	_
+17	obgleich	obgleich	SCONJ	_	_	_	_	_	_
+18	er	er	PRON	_	_	_	_	_	_
+19	oberflächlich	oberflächlich	ADV	_	_	_	_	_	_
+20	betrachtet	betrachten	VERB	_	_	_	_	_	_
+21	plausibel	plausibel	ADJ	_	_	_	_	_	_
+22	wirkt	wirken	VERB	_	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_002
+# text = Inwiefern die von dem Soziologen herausgestellten Thesen empirisch haltbar sind, bedarf einer eingehenden Überprüfung der zugrunde liegenden Daten.
+1	Inwiefern	inwiefern	ADV	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Soziologen	Soziologe	NOUN	_	_	_	_	_	_
+6	herausgestellten	herausgestellt	ADJ	_	_	_	_	_	_
+7	Thesen	These	NOUN	_	_	_	_	_	_
+8	empirisch	empirisch	ADV	_	_	_	_	_	_
+9	haltbar	haltbar	ADJ	_	_	_	_	_	_
+10	sind	sein	AUX	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	bedarf	bedürfen	VERB	_	_	_	_	_	_
+13	einer	ein	DET	_	_	_	_	_	_
+14	eingehenden	eingehend	ADJ	_	_	_	_	_	_
+15	Überprüfung	Überprüfung	NOUN	_	_	_	_	_	_
+16	der	der	DET	_	_	_	_	_	_
+17	zugrunde	zugrunde	ADV	_	_	_	_	_	_
+18	liegenden	liegend	ADJ	_	_	_	_	_	_
+19	Daten	Datum	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_003
+# text = Der von der Ethikkommission erarbeitete Kompromiss, obgleich von keiner Seite vollumfänglich begrüßt, vermochte einen Konsens zu sichern.
+1	Der	der	DET	_	_	_	_	_	_
+2	von	von	ADP	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Ethikkommission	Ethikkommission	NOUN	_	_	_	_	_	_
+5	erarbeitete	erarbeitet	ADJ	_	_	_	_	_	_
+6	Kompromiss	Kompromiss	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	obgleich	obgleich	SCONJ	_	_	_	_	_	_
+9	von	von	ADP	_	_	_	_	_	_
+10	keiner	kein	DET	_	_	_	_	_	_
+11	Seite	Seite	NOUN	_	_	_	_	_	_
+12	vollumfänglich	vollumfänglich	ADV	_	_	_	_	_	_
+13	begrüßt	begrüßen	VERB	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	vermochte	vermögen	VERB	_	_	_	_	_	_
+16	einen	ein	DET	_	_	_	_	_	_
+17	Konsens	Konsens	NOUN	_	_	_	_	_	_
+18	zu	zu	PART	_	_	_	_	_	_
+19	sichern	sichern	VERB	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_004
+# text = Gleichwohl legt der Essayist dar, insofern ästhetische Urteile sich einer rationalen Begründung entziehen, bleibe ihr Geltungsanspruch prekär.
+1	Gleichwohl	gleichwohl	ADV	_	_	_	_	_	_
+2	legt	darlegen	VERB	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Essayist	Essayist	NOUN	_	_	_	_	_	_
+5	dar	dar	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	insofern	insofern	ADV	_	_	_	_	_	_
+8	ästhetische	ästhetisch	ADJ	_	_	_	_	_	_
+9	Urteile	Urteil	NOUN	_	_	_	_	_	_
+10	sich	sich	PRON	_	_	_	_	_	_
+11	einer	ein	DET	_	_	_	_	_	_
+12	rationalen	rational	ADJ	_	_	_	_	_	_
+13	Begründung	Begründung	NOUN	_	_	_	_	_	_
+14	entziehen	entziehen	VERB	_	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_	_
+16	bleibe	bleiben	AUX	_	_	_	_	_	_
+17	ihr	ihr	DET	_	_	_	_	_	_
+18	Geltungsanspruch	Geltungsanspruch	NOUN	_	_	_	_	_	_
+19	prekär	prekär	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_005
+# text = Dem von dem Rezensenten besprochenen Band gelang es, einen innovatives Zugriff auf den viel diskutierten Stoff zu eröffnen.
+1	Dem	der	DET	_	_	_	_	_	_
+2	von	von	ADP	_	_	_	_	_	_
+3	dem	der	DET	_	_	_	_	_	_
+4	Rezensenten	Rezensent	NOUN	_	_	_	_	_	_
+5	besprochenen	besprochen	ADJ	_	_	_	_	_	_
+6	Band	Band	NOUN	_	_	_	_	_	_
+7	gelang	gelingen	VERB	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	einen	ein	DET	_	_	_	_	_	_
+11	innovatives	innovativ	ADJ	_	_	_	_	_	_
+12	Zugriff	Zugriff	NOUN	_	_	_	_	_	_
+13	auf	auf	ADP	_	_	_	_	_	_
+14	den	der	DET	_	_	_	_	_	_
+15	viel	viel	ADV	_	_	_	_	_	_
+16	diskutierten	diskutiert	ADJ	_	_	_	_	_	_
+17	Stoff	Stoff	NOUN	_	_	_	_	_	_
+18	zu	zu	PART	_	_	_	_	_	_
+19	eröffnen	eröffnen	VERB	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_006
+# text = Der Minister erklärte gestern, die vorgelegten Maßnahmen seien verhältnismäßig, nichtsdestotrotz bleibe der parlamentarische Diskurs unerlässlich.
+1	Der	der	DET	_	_	_	_	_	_
+2	Minister	Minister	NOUN	_	_	_	_	_	_
+3	erklärte	erklären	VERB	_	_	_	_	_	_
+4	gestern	gestern	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	vorgelegten	vorgelegt	ADJ	_	_	_	_	_	_
+8	Maßnahmen	Maßnahme	NOUN	_	_	_	_	_	_
+9	seien	sein	AUX	_	_	_	_	_	_
+10	verhältnismäßig	verhältnismäßig	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	nichtsdestotrotz	nichtsdestotrotz	ADV	_	_	_	_	_	_
+13	bleibe	bleiben	AUX	_	_	_	_	_	_
+14	der	der	DET	_	_	_	_	_	_
+15	parlamentarische	parlamentarisch	ADJ	_	_	_	_	_	_
+16	Diskurs	Diskurs	NOUN	_	_	_	_	_	_
+17	unerlässlich	unerlässlich	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_007
+# text = Insofern die von dem Linguisten erörterte Hypothese Bestand hat, ergeben sich weitreichende Implikationen für die historische Sprachwissenschaft.
+1	Insofern	insofern	ADV	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Linguisten	Linguist	NOUN	_	_	_	_	_	_
+6	erörterte	erörtert	ADJ	_	_	_	_	_	_
+7	Hypothese	Hypothese	NOUN	_	_	_	_	_	_
+8	Bestand	Bestand	NOUN	_	_	_	_	_	_
+9	hat	haben	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	ergeben	ergeben	VERB	_	_	_	_	_	_
+12	sich	sich	PRON	_	_	_	_	_	_
+13	weitreichende	weitreichend	ADJ	_	_	_	_	_	_
+14	Implikationen	Implikation	NOUN	_	_	_	_	_	_
+15	für	für	ADP	_	_	_	_	_	_
+16	die	der	DET	_	_	_	_	_	_
+17	historische	historisch	ADJ	_	_	_	_	_	_
+18	Sprachwissenschaft	Sprachwissenschaft	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_008
+# text = Obgleich die von dem Statistiker ausgewerteten Daten lückenhaft innovativen, vermögen sie dennoch ein klarem Muster aufzuweisen.
+1	Obgleich	obgleich	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Statistiker	Statistiker	NOUN	_	_	_	_	_	_
+6	ausgewerteten	ausgewertet	ADJ	_	_	_	_	_	_
+7	Daten	Datum	NOUN	_	_	_	_	_	_
+8	lückenhaft	lückenhaft	ADJ	_	_	_	_	_	_
+9	innovativen	innovativ	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	vermögen	vermögen	VERB	_	_	_	_	_	_
+12	sie	sie	PRON	_	_	_	_	_	_
+13	dennoch	dennoch	ADV	_	_	_	_	_	_
+14	ein	ein	DET	_	_	_	_	_	_
+15	klarem	klar	ADJ	_	_	_	_	_	_
+16	Muster	Muster	NOUN	_	_	_	_	_	_
+17	aufzuweisen	aufweisen	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_009
+# text = Der von dem Archivar katalogisierte Nachlass, dessen Erschließung Jahre in Anspruch nahm, erweist sich als philologische Fundgrube.
+1	Der	der	DET	_	_	_	_	_	_
+2	von	von	ADP	_	_	_	_	_	_
+3	dem	der	DET	_	_	_	_	_	_
+4	Archivar	Archivar	NOUN	_	_	_	_	_	_
+5	katalogisierte	katalogisiert	ADJ	_	_	_	_	_	_
+6	Nachlass	Nachlass	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	dessen	dessen	DET	_	_	_	_	_	_
+9	Erschließung	Erschließung	NOUN	_	_	_	_	_	_
+10	Jahre	Jahr	NOUN	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	Anspruch	Anspruch	NOUN	_	_	_	_	_	_
+13	nahm	nehmen	VERB	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	erweist	erweisen	VERB	_	_	_	_	_	_
+16	sich	sich	PRON	_	_	_	_	_	_
+17	als	als	ADP	_	_	_	_	_	_
+18	philologische	philologisch	ADJ	_	_	_	_	_	_
+19	Fundgrube	Fundgrube	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_010
+# text = Nichtsdestotrotz weist die von dem Gutachter vorgenommene Analyse auf gravierende methodische Mängel hin, die eine Revision nahelegen.
+1	Nichtsdestotrotz	nichtsdestotrotz	ADV	_	_	_	_	_	_
+2	weist	hinweisen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Gutachter	Gutachter	NOUN	_	_	_	_	_	_
+7	vorgenommene	vorgenommen	ADJ	_	_	_	_	_	_
+8	Analyse	Analyse	NOUN	_	_	_	_	_	_
+9	auf	auf	ADP	_	_	_	_	_	_
+10	gravierende	gravierend	ADJ	_	_	_	_	_	_
+11	methodische	methodisch	ADJ	_	_	_	_	_	_
+12	Mängel	Mangel	NOUN	_	_	_	_	_	_
+13	hin	hin	ADV	_	_	_	_	_	_
+14	,	,	PUNCT	_	_	_	_	_	_
+15	die	der	PRON	_	_	_	_	_	_
+16	eine	ein	DET	_	_	_	_	_	_
+17	Revision	Revision	NOUN	_	_	_	_	_	_
+18	nahelegen	nahelegen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_011
+# text = Inwiefern das von dem Psychologen entworfene Paradigma tragfähig ist, lässt sich erst nach umfassender empirischer Prüfung beurteilen.
+1	Inwiefern	inwiefern	ADV	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Psychologen	Psychologe	NOUN	_	_	_	_	_	_
+6	entworfene	entworfen	ADJ	_	_	_	_	_	_
+7	Paradigma	Paradigma	NOUN	_	_	_	_	_	_
+8	tragfähig	tragfähig	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	lässt	lassen	AUX	_	_	_	_	_	_
+12	sich	sich	PRON	_	_	_	_	_	_
+13	erst	erst	ADV	_	_	_	_	_	_
+14	nach	nach	ADP	_	_	_	_	_	_
+15	umfassender	umfassend	ADJ	_	_	_	_	_	_
+16	empirischer	empirisch	ADJ	_	_	_	_	_	_
+17	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+18	beurteilen	beurteilen	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_012
+# text = Der von dem Philosophen dargelegte Begriff der Autonomie, der eng klares der praktischen Vernunft verknüpft ist, erfuhr unterschiedliche Deutungen.
+1	Der	der	DET	_	_	_	_	_	_
+2	von	von	ADP	_	_	_	_	_	_
+3	dem	der	DET	_	_	_	_	_	_
+4	Philosophen	Philosoph	NOUN	_	_	_	_	_	_
+5	dargelegte	dargelegt	ADJ	_	_	_	_	_	_
+6	Begriff	Begriff	NOUN	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Autonomie	Autonomie	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	der	der	PRON	_	_	_	_	_	_
+11	eng	eng	ADV	_	_	_	_	_	_
+12	klares	klar	ADJ	_	_	_	_	_	_
+13	der	der	DET	_	_	_	_	_	_
+14	praktischen	praktisch	ADJ	_	_	_	_	_	_
+15	Vernunft	Vernunft	NOUN	_	_	_	_	_	_
+16	verknüpft	verknüpfen	VERB	_	_	_	_	_	_
+17	ist	sein	AUX	_	_	_	_	_	_
+18	,	,	PUNCT	_	_	_	_	_	_
+19	erfuhr	erfahren	VERB	_	_	_	_	_	_
+20	unterschiedliche	unterschiedlich	ADJ	_	_	_	_	_	_
+21	Deutungen	Deutung	NOUN	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_013
+# text = Gleichwohl vermag die von dem Historiker verfasste Monographie nicht, die komplexen dynastischen Verflechtungen erschöpfend darzulegen.
+1	Gleichwohl	gleichwohl	ADV	_	_	_	_	_	_
+2	vermag	vermögen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Historiker	Historiker	NOUN	_	_	_	_	_	_
+7	verfasste	verfasst	ADJ	_	_	_	_	_	_
+8	Monographie	Monographie	NOUN	_	_	_	_	_	_
+9	nicht	nicht	ADV	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	komplexen	komplex	ADJ	_	_	_	_	_	_
+13	dynastischen	dynastisch	ADJ	_	_	_	_	_	_
+14	Verflechtungen	Verflechtung	NOUN	_	_	_	_	_	_
+15	erschöpfend	erschöpfend	ADV	_	_	_	_	_	_
+16	darzulegen	darlegen	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_014
+# text = Der von dem Herausgeber besorgte Kommentarband, der schwierige Stellen erhellt, zeichnet sich durch philologische Akribie aus.
+1	Der	der	DET	_	_	_	_	_	_
+2	von	von	ADP	_	_	_	_	_	_
+3	dem	der	DET	_	_	_	_	_	_
+4	Herausgeber	Herausgeber	NOUN	_	_	_	_	_	_
+5	besorgte	besorgt	ADJ	_	_	_	_	_	_
+6	Kommentarband	Kommentarband	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	der	der	PRON	_	_	_	_	_	_
+9	schwierige	schwierig	ADJ	_	_	_	_	_	_
+10	Stellen	Stelle	NOUN	_	_	_	_	_	_
+11	erhellt	erhellen	VERB	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	zeichnet	auszeichnen	VERB	_	_	_	_	_	_
+14	sich	sich	PRON	_	_	_	_	_	_
+15	durch	durch	ADP	_	_	_	_	_	_
+16	philologische	philologisch	ADJ	_	_	_	_	_	_
+17	Akribie	Akribie	NOUN	_	_	_	_	_	_
+18	aus	aus	ADP	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_c1_val_015
+# text = Insofern die von dem Medizinethiker erörterten Aporien unlösbar scheinen, erübrigen sich weitere Lösungsversuche, gleichwohl bleibt der Diskurs wertvoll.
+1	Insofern	insofern	ADV	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	von	von	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Medizinethiker	Medizinethiker	NOUN	_	_	_	_	_	_
+6	erörterten	erörtert	ADJ	_	_	_	_	_	_
+7	Aporien	Aporie	NOUN	_	_	_	_	_	_
+8	unlösbar	unlösbar	ADJ	_	_	_	_	_	_
+9	scheinen	scheinen	VERB	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	erübrigen	erübrigen	VERB	_	_	_	_	_	_
+12	sich	sich	PRON	_	_	_	_	_	_
+13	weitere	weit	ADJ	_	_	_	_	_	_
+14	Lösungsversuche	Lösungsversuch	NOUN	_	_	_	_	_	_
+15	,	,	PUNCT	_	_	_	_	_	_
+16	gleichwohl	gleichwohl	ADV	_	_	_	_	_	_
+17	bleibt	bleiben	VERB	_	_	_	_	_	_
+18	der	der	DET	_	_	_	_	_	_
+19	Diskurs	Diskurs	NOUN	_	_	_	_	_	_
+20	wertvoll	wertvoll	ADJ	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+

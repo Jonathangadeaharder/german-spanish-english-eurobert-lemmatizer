@@ -1,0 +1,715 @@
+# sent_id = de_a1_val_016
+# text = Der Vogel sitzt auf dem Baum.
+1	Der	der	DET	_	_	_	_	_	_
+2	Vogel	Vogel	NOUN	_	_	_	_	_	_
+3	sitzt	sitzen	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Baum	Baum	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_017
+# text = Es regnet heute.
+1	Es	er	PRON	_	_	_	_	_	_
+2	regnet	regnen	VERB	_	_	_	_	_	_
+3	heute	heute	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_018
+# text = Ich trage eine blaue Jacke.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	trage	tragen	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	blaue	blau	ADJ	_	_	_	_	_	_
+5	Jacke	Jacke	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_019
+# text = Das Wasser ist kalt.
+1	Das	der	DET	_	_	_	_	_	_
+2	Wasser	Wasser	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	kalt	kalt	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_020
+# text = Wir fahren mit dem Zug.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	fahren	fahren	VERB	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Zug	Zug	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_021
+# text = Der Fisch schwimmt im See.
+1	Der	der	DET	_	_	_	_	_	_
+2	Fisch	Fisch	NOUN	_	_	_	_	_	_
+3	schwimmt	schwimmen	VERB	_	_	_	_	_	_
+4	im	in	ADP	_	_	_	_	_	_
+5	See	See	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_022
+# text = Mein Opa liest die Zeitung.
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Opa	Opa	NOUN	_	_	_	_	_	_
+3	liest	lesen	VERB	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Zeitung	Zeitung	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_023
+# text = Sie tanzt sehr gut.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	tanzt	tanzen	VERB	_	_	_	_	_	_
+3	sehr	sehr	ADV	_	_	_	_	_	_
+4	gut	gut	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_024
+# text = Drei Eier liegen auf dem Tisch.
+1	Drei	drei	NUM	_	_	_	_	_	_
+2	Eier	Ei	NOUN	_	_	_	_	_	_
+3	liegen	liegen	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Tisch	Tisch	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_025
+# text = Ich habe Hunger.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	VERB	_	_	_	_	_	_
+3	Hunger	Hunger	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_026
+# text = Die Tür ist offen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Tür	Tür	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	offen	offen	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_027
+# text = Er malt ein Bild.
+1	Er	er	PRON	_	_	_	_	_	_
+2	malt	malen	VERB	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	Bild	Bild	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_028
+# text = Wo ist die Apotheke?
+1	Wo	wo	ADV	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Apotheke	Apotheke	NOUN	_	_	_	_	_	_
+5	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_029
+# text = Der Hase ist schnell.
+1	Der	der	DET	_	_	_	_	_	_
+2	Hase	Hase	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	schnell	schnell	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_030
+# text = Wir singen ein Lied.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	singen	singen	VERB	_	_	_	_	_	_
+3	ein	ein	DET	_	_	_	_	_	_
+4	Lied	Lied	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_031
+# text = Das Eis schmilzt schnell.
+1	Das	der	DET	_	_	_	_	_	_
+2	Eis	Eis	NOUN	_	_	_	_	_	_
+3	schmilzt	schmelzen	VERB	_	_	_	_	_	_
+4	schnell	schnell	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_032
+# text = Ich kaufe Bananen und Orangen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	kaufe	kaufen	VERB	_	_	_	_	_	_
+3	Bananen	Banane	NOUN	_	_	_	_	_	_
+4	und	und	CCONJ	_	_	_	_	_	_
+5	Orangen	Orange	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_033
+# text = Der Mantel ist zu groß.
+1	Der	der	DET	_	_	_	_	_	_
+2	Mantel	Mantel	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	zu	zu	ADV	_	_	_	_	_	_
+5	groß	groß	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_034
+# text = Sie schläft am Nachmittag.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	schläft	schlafen	VERB	_	_	_	_	_	_
+3	am	an	ADP	_	_	_	_	_	_
+4	Nachmittag	Nachmittag	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_035
+# text = Fährst du mit dem Fahrrad?
+1	Fährst	fahren	VERB	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	mit	mit	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Fahrrad	Fahrrad	NOUN	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_036
+# text = Der Wind ist stark.
+1	Der	der	DET	_	_	_	_	_	_
+2	Wind	Wind	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	stark	stark	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_037
+# text = Ich wasche meine Hände.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	wasche	waschen	VERB	_	_	_	_	_	_
+3	meine	mein	DET	_	_	_	_	_	_
+4	Hände	Hand	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_038
+# text = Das Pferd läuft auf der Wiese.
+1	Das	der	DET	_	_	_	_	_	_
+2	Pferd	Pferd	NOUN	_	_	_	_	_	_
+3	läuft	laufen	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Wiese	Wiese	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_039
+# text = Wir essen Salat heute.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	essen	essen	VERB	_	_	_	_	_	_
+3	Salat	Salat	NOUN	_	_	_	_	_	_
+4	heute	heute	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_040
+# text = Meine Tante wohnt in Hamburg.
+1	Meine	mein	DET	_	_	_	_	_	_
+2	Tante	Tante	NOUN	_	_	_	_	_	_
+3	wohnt	wohnen	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	Hamburg	Hamburg	PROPN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_041
+# text = Der Regen fällt leise.
+1	Der	der	DET	_	_	_	_	_	_
+2	Regen	Regen	NOUN	_	_	_	_	_	_
+3	fällt	fallen	VERB	_	_	_	_	_	_
+4	leise	leise	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_042
+# text = Ich sehe einen Film im Kino.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	sehe	sehen	VERB	_	_	_	_	_	_
+3	einen	ein	DET	_	_	_	_	_	_
+4	Film	Film	NOUN	_	_	_	_	_	_
+5	im	in	ADP	_	_	_	_	_	_
+6	Kino	Kino	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_043
+# text = Die Banane ist gelb.
+1	Die	der	DET	_	_	_	_	_	_
+2	Banane	Banane	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	gelb	gelb	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_044
+# text = Er trinkt warmen Tee.
+1	Er	er	PRON	_	_	_	_	_	_
+2	trinkt	trinken	VERB	_	_	_	_	_	_
+3	warmen	warm	ADJ	_	_	_	_	_	_
+4	Tee	Tee	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_045
+# text = Zwei Vögel fliegen hoch.
+1	Zwei	zwei	NUM	_	_	_	_	_	_
+2	Vögel	Vogel	NOUN	_	_	_	_	_	_
+3	fliegen	fliegen	VERB	_	_	_	_	_	_
+4	hoch	hoch	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_046
+# text = Das Fenster ist sauber.
+1	Das	der	DET	_	_	_	_	_	_
+2	Fenster	Fenster	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	sauber	sauber	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_047
+# text = Ich schreibe einen Brief.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	schreibe	schreiben	VERB	_	_	_	_	_	_
+3	einen	ein	DET	_	_	_	_	_	_
+4	Brief	Brief	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_048
+# text = Der Schuh ist neu.
+1	Der	der	DET	_	_	_	_	_	_
+2	Schuh	Schuh	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	neu	neu	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_049
+# text = Wir gehen zum Bahnhof.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	gehen	gehen	VERB	_	_	_	_	_	_
+3	zum	zu	ADP	_	_	_	_	_	_
+4	Bahnhof	Bahnhof	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_050
+# text = Sie hat lange Haare.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	VERB	_	_	_	_	_	_
+3	lange	lang	ADJ	_	_	_	_	_	_
+4	Haare	Haar	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_051
+# text = Der Käse schmeckt gut.
+1	Der	der	DET	_	_	_	_	_	_
+2	Käse	Käse	NOUN	_	_	_	_	_	_
+3	schmeckt	schmecken	VERB	_	_	_	_	_	_
+4	gut	gut	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_052
+# text = Ich höre Musik.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	höre	hören	VERB	_	_	_	_	_	_
+3	Musik	Musik	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_053
+# text = Das Radio ist laut.
+1	Das	der	DET	_	_	_	_	_	_
+2	Radio	Radio	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	laut	laut	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_054
+# text = Er putzt die Zähne.
+1	Er	er	PRON	_	_	_	_	_	_
+2	putzt	putzen	VERB	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Zähne	Zahn	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_055
+# text = Eine Maus läuft schnell.
+1	Eine	ein	DET	_	_	_	_	_	_
+2	Maus	Maus	NOUN	_	_	_	_	_	_
+3	läuft	laufen	VERB	_	_	_	_	_	_
+4	schnell	schnell	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_056
+# text = Wir sitzen im Park.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	sitzen	sitzen	VERB	_	_	_	_	_	_
+3	im	in	ADP	_	_	_	_	_	_
+4	Park	Park	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_057
+# text = Der See ist tief.
+1	Der	der	DET	_	_	_	_	_	_
+2	See	See	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	tief	tief	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_058
+# text = Ich finde den Schlüssel nicht.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	finde	finden	VERB	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Schlüssel	Schlüssel	NOUN	_	_	_	_	_	_
+5	nicht	nicht	PART	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_059
+# text = Das Hemd ist weiß.
+1	Das	der	DET	_	_	_	_	_	_
+2	Hemd	Hemd	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	weiß	weiß	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_060
+# text = Sie kommt aus Spanien.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	kommt	kommen	VERB	_	_	_	_	_	_
+3	aus	aus	ADP	_	_	_	_	_	_
+4	Spanien	Spanien	PROPN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_061
+# text = Der Berg ist sehr hoch.
+1	Der	der	DET	_	_	_	_	_	_
+2	Berg	Berg	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	hoch	hoch	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_062
+# text = Ich esse Reis mit Gemüse.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	esse	essen	VERB	_	_	_	_	_	_
+3	Reis	Reis	NOUN	_	_	_	_	_	_
+4	mit	mit	ADP	_	_	_	_	_	_
+5	Gemüse	Gemüse	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_063
+# text = Die Uhr zeigt zehn Uhr.
+1	Die	der	DET	_	_	_	_	_	_
+2	Uhr	Uhr	NOUN	_	_	_	_	_	_
+3	zeigt	zeigen	VERB	_	_	_	_	_	_
+4	zehn	zehn	NUM	_	_	_	_	_	_
+5	Uhr	Uhr	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_064
+# text = Er sitzt auf dem Stuhl.
+1	Er	er	PRON	_	_	_	_	_	_
+2	sitzt	sitzen	VERB	_	_	_	_	_	_
+3	auf	auf	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Stuhl	Stuhl	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_065
+# text = Wir treffen uns am Park.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	treffen	treffen	VERB	_	_	_	_	_	_
+3	uns	sich	PRON	_	_	_	_	_	_
+4	am	an	ADP	_	_	_	_	_	_
+5	Park	Park	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_066
+# text = Das Wetter ist schön heute.
+1	Das	der	DET	_	_	_	_	_	_
+2	Wetter	Wetter	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	schön	schön	ADJ	_	_	_	_	_	_
+5	heute	heute	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_067
+# text = Ich trinke Wasser, weil ich Durst habe.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	trinke	trinken	VERB	_	_	_	_	_	_
+3	Wasser	Wasser	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	weil	weil	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	Durst	Durst	NOUN	_	_	_	_	_	_
+8	habe	haben	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_068
+# text = Der Himmel ist blau.
+1	Der	der	DET	_	_	_	_	_	_
+2	Himmel	Himmel	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	blau	blau	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_069
+# text = Sie kocht Nudeln.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	kocht	kochen	VERB	_	_	_	_	_	_
+3	Nudeln	Nudel	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_070
+# text = Fünf Kinder spielen Fußball.
+1	Fünf	fünf	NUM	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	spielen	spielen	VERB	_	_	_	_	_	_
+4	Fußball	Fußball	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_071
+# text = Das Museum ist geschlossen.
+1	Das	der	DET	_	_	_	_	_	_
+2	Museum	Museum	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	geschlossen	geschlossen	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_072
+# text = Ich putze das Zimmer.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	putze	putzen	VERB	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Zimmer	Zimmer	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_073
+# text = Der Rock ist rot.
+1	Der	der	DET	_	_	_	_	_	_
+2	Rock	Rock	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	rot	rot	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_074
+# text = Wir besuchen unsere Freunde.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	besuchen	besuchen	VERB	_	_	_	_	_	_
+3	unsere	unser	DET	_	_	_	_	_	_
+4	Freunde	Freund	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_075
+# text = Er trägt eine Mütze.
+1	Er	er	PRON	_	_	_	_	_	_
+2	trägt	tragen	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Mütze	Mütze	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_076
+# text = Die Straße ist lang.
+1	Die	der	DET	_	_	_	_	_	_
+2	Straße	Straße	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	lang	lang	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_077
+# text = Ich gehe spät ins Bett.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	gehe	gehen	VERB	_	_	_	_	_	_
+3	spät	spät	ADV	_	_	_	_	_	_
+4	ins	in	ADP	_	_	_	_	_	_
+5	Bett	Bett	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_078
+# text = Der Brief kommt morgen.
+1	Der	der	DET	_	_	_	_	_	_
+2	Brief	Brief	NOUN	_	_	_	_	_	_
+3	kommt	kommen	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_079
+# text = Sie liest eine Zeitung.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	liest	lesen	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	Zeitung	Zeitung	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_080
+# text = Wo wohnst du?
+1	Wo	wo	ADV	_	_	_	_	_	_
+2	wohnst	wohnen	VERB	_	_	_	_	_	_
+3	du	du	PRON	_	_	_	_	_	_
+4	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_081
+# text = Das Frühstück ist fertig.
+1	Das	der	DET	_	_	_	_	_	_
+2	Frühstück	Frühstück	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	fertig	fertig	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_082
+# text = Ich gehe in die Bäckerei.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	gehe	gehen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Bäckerei	Bäckerei	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_083
+# text = Der Nebel ist dick.
+1	Der	der	DET	_	_	_	_	_	_
+2	Nebel	Nebel	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	dick	dick	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_084
+# text = Wir lernen Spanisch zusammen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	lernen	lernen	VERB	_	_	_	_	_	_
+3	Spanisch	Spanisch	NOUN	_	_	_	_	_	_
+4	zusammen	zusammen	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_085
+# text = Sie hat eine schöne Stimme.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	VERB	_	_	_	_	_	_
+3	eine	ein	DET	_	_	_	_	_	_
+4	schöne	schön	ADJ	_	_	_	_	_	_
+5	Stimme	Stimme	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_086
+# text = Der Schnee ist weiß.
+1	Der	der	DET	_	_	_	_	_	_
+2	Schnee	Schnee	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	weiß	weiß	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_087
+# text = Ich brauche einen Regenschirm.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	brauche	brauchen	VERB	_	_	_	_	_	_
+3	einen	ein	DET	_	_	_	_	_	_
+4	Regenschirm	Regenschirm	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_088
+# text = Das Pferd frisst Gras.
+1	Das	der	DET	_	_	_	_	_	_
+2	Pferd	Pferd	NOUN	_	_	_	_	_	_
+3	frisst	fressen	VERB	_	_	_	_	_	_
+4	Gras	Gras	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_089
+# text = Er wartet vor der Tür.
+1	Er	er	PRON	_	_	_	_	_	_
+2	wartet	warten	VERB	_	_	_	_	_	_
+3	vor	vor	ADP	_	_	_	_	_	_
+4	der	der	DET	_	_	_	_	_	_
+5	Tür	Tür	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_090
+# text = Wir machen einen Spaziergang.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	machen	machen	VERB	_	_	_	_	_	_
+3	einen	ein	DET	_	_	_	_	_	_
+4	Spaziergang	Spaziergang	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_091
+# text = Die Nacht ist dunkel.
+1	Die	der	DET	_	_	_	_	_	_
+2	Nacht	Nacht	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	dunkel	dunkel	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_092
+# text = Ich esse Honig auf dem Brot.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	esse	essen	VERB	_	_	_	_	_	_
+3	Honig	Honig	NOUN	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Brot	Brot	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_093
+# text = Der Fluss ist breit.
+1	Der	der	DET	_	_	_	_	_	_
+2	Fluss	Fluss	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	breit	breit	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_094
+# text = Sie trägt grüne Schuhe.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	trägt	tragen	VERB	_	_	_	_	_	_
+3	grüne	grün	ADJ	_	_	_	_	_	_
+4	Schuhe	Schuh	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_095
+# text = Das Café ist voll.
+1	Das	der	DET	_	_	_	_	_	_
+2	Café	Café	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	voll	voll	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_096
+# text = Ich rufe meine Oma an.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	rufe	anrufen	VERB	_	_	_	_	_	_
+3	meine	mein	DET	_	_	_	_	_	_
+4	Oma	Oma	NOUN	_	_	_	_	_	_
+5	an	an	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_097
+# text = Der Laptop ist klein.
+1	Der	der	DET	_	_	_	_	_	_
+2	Laptop	Laptop	NOUN	_	_	_	_	_	_
+3	ist	sein	AUX	_	_	_	_	_	_
+4	klein	klein	ADJ	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_098
+# text = Wir trinken Tee, weil es kalt ist.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	trinken	trinken	VERB	_	_	_	_	_	_
+3	Tee	Tee	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	weil	weil	SCONJ	_	_	_	_	_	_
+6	es	er	PRON	_	_	_	_	_	_
+7	kalt	kalt	ADJ	_	_	_	_	_	_
+8	ist	sein	AUX	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_099
+# text = Sie wäscht das Geschirr.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	wäscht	waschen	VERB	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Geschirr	Geschirr	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_a1_val_100
+# text = Tschüss, wir sehen uns morgen.
+1	Tschüss	tschüss	INTJ	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	wir	wir	PRON	_	_	_	_	_	_
+4	sehen	sehen	VERB	_	_	_	_	_	_
+5	uns	sich	PRON	_	_	_	_	_	_
+6	morgen	morgen	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+

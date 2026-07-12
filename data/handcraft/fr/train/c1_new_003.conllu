@@ -1,0 +1,3896 @@
+# sent_id = fr_c1_train_401
+# text = La chambre sociale a précisé que le licenciement économique exige une justification objective et une procédure contradictoire régulière.
+1	La	le	DET	_	_	_	_	_	_
+2	chambre	chambre	NOUN	_	_	_	_	_	_
+3	sociale	social	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	précisé	préciser	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	licenciement	licenciement	NOUN	_	_	_	_	_	_
+9	économique	économique	ADJ	_	_	_	_	_	_
+10	exige	exiger	VERB	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	justification	justification	NOUN	_	_	_	_	_	_
+13	objective	objectif	ADJ	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	une	un	DET	_	_	_	_	_	_
+16	procédure	procédure	NOUN	_	_	_	_	_	_
+17	contradictoire	contradictoire	ADJ	_	_	_	_	_	_
+18	régulière	régulier	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_402
+# text = Bien que l'employeur ait proposé un reclassement, le salarié a démontré que les postes offerts étaient manifestement inadaptés.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'employeur	l'employeur	X	_	_	_	_	_	_
+4	ait	avoir	AUX	_	_	_	_	_	_
+5	proposé	proposé	X	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	reclassement	reclassement	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	salarié	salarié	X	_	_	_	_	_	_
+11	a	avoir	AUX	_	_	_	_	_	_
+12	démontré	démontré	X	_	_	_	_	_	_
+13	que	que	PRON	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	postes	postes	X	_	_	_	_	_	_
+16	offerts	offerts	X	_	_	_	_	_	_
+17	étaient	être	AUX	_	_	_	_	_	_
+18	manifestement	manifestement	X	_	_	_	_	_	_
+19	inadaptés	inadaptés	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_403
+# text = Le tribunal a annulé la sanction disciplinaire au motif d'une méconnaissance du principe de proportionnalité entre faute et peine.
+1	Le	le	DET	_	_	_	_	_	_
+2	tribunal	tribunal	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	annulé	annuler	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	sanction	sanction	NOUN	_	_	_	_	_	_
+7	disciplinaire	disciplinaire	ADJ	_	_	_	_	_	_
+8	au	au	ADP	_	_	_	_	_	_
+9	motif	motif	X	_	_	_	_	_	_
+10	d'une	d'une	X	_	_	_	_	_	_
+11	méconnaissance	méconnaissance	X	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	principe	principe	X	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	proportionnalité	proportionnalité	X	_	_	_	_	_	_
+16	entre	entre	X	_	_	_	_	_	_
+17	faute	faute	X	_	_	_	_	_	_
+18	et	et	CCONJ	_	_	_	_	_	_
+19	peine	peine	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_404
+# text = Il demeure controversé de savoir si le télétravail modifie la notion de lieu de travail pour l'appréciation des accidents.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	controversé	controversé	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	télétravail	télétravail	NOUN	_	_	_	_	_	_
+9	modifie	modifier	VERB	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	notion	notion	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	lieu	lieu	NOUN	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	travail	travail	NOUN	_	_	_	_	_	_
+16	pour	pour	ADP	_	_	_	_	_	_
+17	l'appréciation	l'appréciation	X	_	_	_	_	_	_
+18	des	des	DET	_	_	_	_	_	_
+19	accidents	accidents	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_405
+# text = La réforme du code du travail a harmonisé les règles relatives aux contrats à durée déterminée et aux missions temporaires.
+1	La	le	DET	_	_	_	_	_	_
+2	réforme	réforme	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	code	code	X	_	_	_	_	_	_
+5	du	du	ADP	_	_	_	_	_	_
+6	travail	travail	X	_	_	_	_	_	_
+7	a	avoir	AUX	_	_	_	_	_	_
+8	harmonisé	harmonisé	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	règles	règles	X	_	_	_	_	_	_
+11	relatives	relatives	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	contrats	contrats	X	_	_	_	_	_	_
+14	à	à	ADP	_	_	_	_	_	_
+15	durée	durée	X	_	_	_	_	_	_
+16	déterminée	déterminée	X	_	_	_	_	_	_
+17	et	et	CCONJ	_	_	_	_	_	_
+18	aux	aux	ADP	_	_	_	_	_	_
+19	missions	missions	X	_	_	_	_	_	_
+20	temporaires	temporaires	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_406
+# text = Nonobstant les garanties procédurales, les parties ont contesté la recevabilité de la demande pour défaut de représentation syndicale.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	garanties	garantie	NOUN	_	_	_	_	_	_
+4	procédurales	procédural	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	parties	partie	NOUN	_	_	_	_	_	_
+8	ont	avoir	AUX	_	_	_	_	_	_
+9	contesté	contester	VERB	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	recevabilité	recevabilité	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	demande	demande	NOUN	_	_	_	_	_	_
+15	pour	pour	ADP	_	_	_	_	_	_
+16	défaut	défaut	NOUN	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	représentation	représentation	NOUN	_	_	_	_	_	_
+19	syndicale	syndical	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_407
+# text = Le juge des référés a ordonné la réintégration provisoire du salarié après examen des pièces versées au dossier.
+1	Le	le	DET	_	_	_	_	_	_
+2	juge	juge	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	référés	référés	X	_	_	_	_	_	_
+5	a	avoir	AUX	_	_	_	_	_	_
+6	ordonné	ordonné	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	réintégration	réintégration	X	_	_	_	_	_	_
+9	provisoire	provisoire	X	_	_	_	_	_	_
+10	du	du	ADP	_	_	_	_	_	_
+11	salarié	salarié	X	_	_	_	_	_	_
+12	après	après	X	_	_	_	_	_	_
+13	examen	examen	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	pièces	pièces	X	_	_	_	_	_	_
+16	versées	versées	X	_	_	_	_	_	_
+17	au	au	ADP	_	_	_	_	_	_
+18	dossier	dossier	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_408
+# text = Les juristes comparatistes analysent comment les systèmes européens articulent négociation collective et minimums légaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	juristes	juriste	NOUN	_	_	_	_	_	_
+3	comparatistes	comparatiste	ADJ	_	_	_	_	_	_
+4	analysent	analyser	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	systèmes	système	NOUN	_	_	_	_	_	_
+8	européens	européen	ADJ	_	_	_	_	_	_
+9	articulent	articuler	VERB	_	_	_	_	_	_
+10	négociation	négociation	NOUN	_	_	_	_	_	_
+11	collective	collectif	ADJ	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	minimums	minimum	NOUN	_	_	_	_	_	_
+14	légaux	légal	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_409
+# text = La nullité de la clause de non-concurrence a été prononcée faute de contrepartie financière suffisante et de limitation géographique.
+1	La	le	DET	_	_	_	_	_	_
+2	nullité	nullité	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	clause	clause	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	non-concurrence	non-concurrence	NOUN	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	été	être	AUX	_	_	_	_	_	_
+10	prononcée	prononcer	VERB	_	_	_	_	_	_
+11	faute	faute	ADV	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	contrepartie	contrepartie	NOUN	_	_	_	_	_	_
+14	financière	financier	ADJ	_	_	_	_	_	_
+15	suffisante	suffisant	ADJ	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	de	de	ADP	_	_	_	_	_	_
+18	limitation	limitation	NOUN	_	_	_	_	_	_
+19	géographique	géographique	ADJ	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_410
+# text = Le débat doctrinal porte sur l'étendue du devoir de sécurité de l'employeur en situation de harcèlement moral caractérisé.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	doctrinal	doctrinal	ADJ	_	_	_	_	_	_
+4	porte	porter	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	l'étendue	l'étendue	X	_	_	_	_	_	_
+7	du	du	ADP	_	_	_	_	_	_
+8	devoir	devoir	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	sécurité	sécurité	X	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	l'employeur	l'employeur	X	_	_	_	_	_	_
+13	en	en	PRON	_	_	_	_	_	_
+14	situation	situation	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	harcèlement	harcèlement	X	_	_	_	_	_	_
+17	moral	moral	X	_	_	_	_	_	_
+18	caractérisé	caractérisé	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_411
+# text = Les psychologues du travail étudient comment les biais managériaux influencent l'évaluation des performances individuelles.
+1	Les	le	DET	_	_	_	_	_	_
+2	psychologues	psychologue	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	travail	travail	X	_	_	_	_	_	_
+5	étudient	étudient	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	biais	biais	X	_	_	_	_	_	_
+9	managériaux	managériaux	X	_	_	_	_	_	_
+10	influencent	influencent	X	_	_	_	_	_	_
+11	l'évaluation	l'évaluation	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	performances	performances	X	_	_	_	_	_	_
+14	individuelles	individuelles	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_412
+# text = Le conseil de prud'hommes a condamné l'entreprise au paiement de dommages-intérêts pour discrimination liée à la grossesse.
+1	Le	le	DET	_	_	_	_	_	_
+2	conseil	conseil	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	prud'hommes	prud'homme	NOUN	_	_	_	_	_	_
+5	a	avoir	AUX	_	_	_	_	_	_
+6	condamné	condamner	VERB	_	_	_	_	_	_
+7	l'entreprise	l'entreprise	X	_	_	_	_	_	_
+8	au	au	ADP	_	_	_	_	_	_
+9	paiement	paiement	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	dommages-intérêts	dommages-intérêts	X	_	_	_	_	_	_
+12	pour	pour	X	_	_	_	_	_	_
+13	discrimination	discrimination	X	_	_	_	_	_	_
+14	liée	liée	X	_	_	_	_	_	_
+15	à	à	X	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	grossesse	grossesse	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_413
+# text = Après avoir instruit le dossier, l'inspecteur du travail a constaté des violations répétées des durées maximales de travail.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	instruit	instruire	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	dossier	dossier	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'inspecteur	l'inspecteur	X	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	travail	travail	X	_	_	_	_	_	_
+10	a	avoir	AUX	_	_	_	_	_	_
+11	constaté	constaté	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	violations	violations	X	_	_	_	_	_	_
+14	répétées	répétées	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	durées	durées	X	_	_	_	_	_	_
+17	maximales	maximales	X	_	_	_	_	_	_
+18	de	un	DET	_	_	_	_	_	_
+19	travail	travail	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_414
+# text = La jurisprudence constante exige que toute modification substantielle du contrat fasse l'objet d'un accord exprès du salarié.
+1	La	le	DET	_	_	_	_	_	_
+2	jurisprudence	jurisprudence	NOUN	_	_	_	_	_	_
+3	constante	constant	ADJ	_	_	_	_	_	_
+4	exige	exiger	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	toute	tout	DET	_	_	_	_	_	_
+7	modification	modification	NOUN	_	_	_	_	_	_
+8	substantielle	substantiel	ADJ	_	_	_	_	_	_
+9	du	du	ADP	_	_	_	_	_	_
+10	contrat	contrat	X	_	_	_	_	_	_
+11	fasse	fasse	X	_	_	_	_	_	_
+12	l'objet	l'objet	X	_	_	_	_	_	_
+13	d'un	d'un	X	_	_	_	_	_	_
+14	accord	accord	X	_	_	_	_	_	_
+15	exprès	exprès	X	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	salarié	salarié	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_415
+# text = Il reste disputé si la rupture conventionnelle peut être annulée pour vice du consentement lors d'un contexte de pression.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	rupture	rupture	NOUN	_	_	_	_	_	_
+7	conventionnelle	conventionnel	ADJ	_	_	_	_	_	_
+8	peut	pouvoir	VERB	_	_	_	_	_	_
+9	être	être	VERB	_	_	_	_	_	_
+10	annulée	annuler	VERB	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	vice	vice	NOUN	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	consentement	consentement	X	_	_	_	_	_	_
+15	lors	lors	X	_	_	_	_	_	_
+16	d'un	d'un	X	_	_	_	_	_	_
+17	contexte	contexte	X	_	_	_	_	_	_
+18	de	un	DET	_	_	_	_	_	_
+19	pression	pression	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_416
+# text = Le cadre de la négociation obligatoire impose aux employeurs de consulter les délégués sur les orientations stratégiques.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	négociation	négociation	NOUN	_	_	_	_	_	_
+6	obligatoire	obligatoire	ADJ	_	_	_	_	_	_
+7	impose	imposer	VERB	_	_	_	_	_	_
+8	aux	aux	ADP	_	_	_	_	_	_
+9	employeurs	employeurs	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	consulter	consulter	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	délégués	délégués	X	_	_	_	_	_	_
+14	sur	sur	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	orientations	orientations	X	_	_	_	_	_	_
+17	stratégiques	stratégiques	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_417
+# text = Les approches contractualistes évaluent la légitimité des normes sociales selon l'acceptation qu'en donneraient des parties informées.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	contractualistes	contractualiste	ADJ	_	_	_	_	_	_
+4	évaluent	évaluer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	légitimité	légitimité	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	normes	normes	X	_	_	_	_	_	_
+9	sociales	sociales	X	_	_	_	_	_	_
+10	selon	selon	X	_	_	_	_	_	_
+11	l'acceptation	l'acceptation	X	_	_	_	_	_	_
+12	qu'en	qu'en	X	_	_	_	_	_	_
+13	donneraient	donneraient	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	parties	parties	X	_	_	_	_	_	_
+16	informées	informées	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_418
+# text = La commission paritaire a homologué un accord portant sur la réduction du temps de travail et la modulation annuelle.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	paritaire	paritaire	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	homologué	homologuer	VERB	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	accord	accord	NOUN	_	_	_	_	_	_
+8	portant	porter	VERB	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	réduction	réduction	NOUN	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	temps	temps	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	travail	travail	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	modulation	modulation	X	_	_	_	_	_	_
+19	annuelle	annuelle	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_419
+# text = Le contentieux européen examine si la directive transposée respecte le droit effectif à une limitation raisonnable des heures.
+1	Le	le	DET	_	_	_	_	_	_
+2	contentieux	contentieux	NOUN	_	_	_	_	_	_
+3	européen	européen	ADJ	_	_	_	_	_	_
+4	examine	examiner	VERB	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	directive	directive	NOUN	_	_	_	_	_	_
+8	transposée	transposer	VERB	_	_	_	_	_	_
+9	respecte	respecter	VERB	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	droit	droit	NOUN	_	_	_	_	_	_
+12	effectif	effectif	ADJ	_	_	_	_	_	_
+13	à	à	ADP	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	limitation	limitation	NOUN	_	_	_	_	_	_
+16	raisonnable	raisonnable	ADJ	_	_	_	_	_	_
+17	des	des	DET	_	_	_	_	_	_
+18	heures	heures	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_420
+# text = La critique institutionnelle met en garde contre la précarisation croissante des parcours professionnels dans certains secteurs.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	met	mettre	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	garde	garde	NOUN	_	_	_	_	_	_
+7	contre	contre	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	précarisation	précarisation	NOUN	_	_	_	_	_	_
+10	croissante	croissant	ADJ	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	parcours	parcours	X	_	_	_	_	_	_
+13	professionnels	professionnels	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	certains	certains	X	_	_	_	_	_	_
+16	secteurs	secteurs	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_421
+# text = Le droit de grève, exercé dans le respect des garanties minimales, a été jugé conforme aux exigences constitutionnelles.
+1	Le	le	DET	_	_	_	_	_	_
+2	droit	droit	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	grève	grève	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	exercé	exercer	VERB	_	_	_	_	_	_
+7	dans	dans	ADP	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	respect	respect	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	garanties	garanties	X	_	_	_	_	_	_
+12	minimales	minimales	X	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	a	avoir	AUX	_	_	_	_	_	_
+15	été	être	AUX	_	_	_	_	_	_
+16	jugé	jugé	X	_	_	_	_	_	_
+17	conforme	conforme	X	_	_	_	_	_	_
+18	aux	aux	ADP	_	_	_	_	_	_
+19	exigences	exigences	X	_	_	_	_	_	_
+20	constitutionnelles	constitutionnelles	X	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_422
+# text = Les requérants ont saisi la juridiction pour obtenir la reconnaissance d'un accident du travail en télétravail.
+1	Les	le	DET	_	_	_	_	_	_
+2	requérants	requérant	NOUN	_	_	_	_	_	_
+3	ont	avoir	AUX	_	_	_	_	_	_
+4	saisi	saisir	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	juridiction	juridiction	NOUN	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	obtenir	obtenir	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	reconnaissance	reconnaissance	NOUN	_	_	_	_	_	_
+11	d'un	d'un	X	_	_	_	_	_	_
+12	accident	accident	X	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	travail	travail	X	_	_	_	_	_	_
+15	en	en	PRON	_	_	_	_	_	_
+16	télétravail	télétravail	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_423
+# text = La théorie des droits sociaux relie les prérogatives des travailleurs à des obligations corrélatives de l'employeur.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	droits	droits	X	_	_	_	_	_	_
+5	sociaux	sociaux	X	_	_	_	_	_	_
+6	relie	relie	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	prérogatives	prérogatives	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	travailleurs	travailleurs	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	obligations	obligations	X	_	_	_	_	_	_
+14	corrélatives	corrélatives	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	l'employeur	l'employeur	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_424
+# text = Le principe du contradictoire impose que le salarié puisse répondre aux griefs avant toute sanction définitive.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	contradictoire	contradictoire	X	_	_	_	_	_	_
+5	impose	impose	X	_	_	_	_	_	_
+6	que	que	PRON	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	salarié	salarié	X	_	_	_	_	_	_
+9	puisse	puisse	X	_	_	_	_	_	_
+10	répondre	répondre	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	griefs	griefs	X	_	_	_	_	_	_
+13	avant	avant	X	_	_	_	_	_	_
+14	toute	toute	X	_	_	_	_	_	_
+15	sanction	sanction	X	_	_	_	_	_	_
+16	définitive	définitive	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_425
+# text = Les explications sociologiques décrivent comment les inégalités de pouvoir structurent les relations de subordination au travail.
+1	Les	le	DET	_	_	_	_	_	_
+2	explications	explication	NOUN	_	_	_	_	_	_
+3	sociologiques	sociologique	ADJ	_	_	_	_	_	_
+4	décrivent	décrire	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	inégalités	inégalité	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	pouvoir	pouvoir	NOUN	_	_	_	_	_	_
+10	structurent	structurer	VERB	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	relations	relation	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	subordination	subordination	NOUN	_	_	_	_	_	_
+15	au	au	ADP	_	_	_	_	_	_
+16	travail	travail	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_426
+# text = La gentrification documentée dans le centre historique accélère le départ des ménages modestes vers la périphérie.
+1	La	le	DET	_	_	_	_	_	_
+2	gentrification	gentrification	NOUN	_	_	_	_	_	_
+3	documentée	documenter	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	centre	centre	NOUN	_	_	_	_	_	_
+7	historique	historique	ADJ	_	_	_	_	_	_
+8	accélère	accélérer	VERB	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	départ	départ	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	ménages	ménages	X	_	_	_	_	_	_
+13	modestes	modestes	X	_	_	_	_	_	_
+14	vers	vers	X	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	périphérie	périphérie	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_427
+# text = Bien que la municipalité ait investi dans les transports, les inégalités d'accessibilité persistent entre quartiers nord et sud.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	municipalité	municipalité	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	investi	investir	VERB	_	_	_	_	_	_
+7	dans	dans	ADP	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	transports	transport	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	inégalités	inégalité	NOUN	_	_	_	_	_	_
+13	d'accessibilité	d'accessibilité	X	_	_	_	_	_	_
+14	persistent	persistent	X	_	_	_	_	_	_
+15	entre	entre	X	_	_	_	_	_	_
+16	quartiers	quartiers	X	_	_	_	_	_	_
+17	nord	nord	X	_	_	_	_	_	_
+18	et	et	CCONJ	_	_	_	_	_	_
+19	sud	sud	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_428
+# text = L'enquête ethnographique a révélé comment les pratiques quotidiennes reconfigurent l'usage des espaces publics partagés.
+1	L'enquête	L'enquête	X	_	_	_	_	_	_
+2	ethnographique	ethnographique	X	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	révélé	révélé	X	_	_	_	_	_	_
+5	comment	comment	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	pratiques	pratiques	X	_	_	_	_	_	_
+8	quotidiennes	quotidiennes	X	_	_	_	_	_	_
+9	reconfigurent	reconfigurent	X	_	_	_	_	_	_
+10	l'usage	l'usage	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	espaces	espaces	X	_	_	_	_	_	_
+13	publics	publics	X	_	_	_	_	_	_
+14	partagés	partagés	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_429
+# text = Il demeure disputé de savoir si la mixité sociale résulte d'une politique volontariste ou de dynamiques marchandes spontanées.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	mixité	mixité	NOUN	_	_	_	_	_	_
+9	sociale	social	ADJ	_	_	_	_	_	_
+10	résulte	résulter	VERB	_	_	_	_	_	_
+11	d'une	d'une	X	_	_	_	_	_	_
+12	politique	politique	X	_	_	_	_	_	_
+13	volontariste	volontariste	X	_	_	_	_	_	_
+14	ou	ou	CCONJ	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	dynamiques	dynamiques	X	_	_	_	_	_	_
+17	marchandes	marchandes	X	_	_	_	_	_	_
+18	spontanées	spontanées	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_430
+# text = Les indicateurs de ségrégation résidentielle montrent une concentration croissante des ménages précaires dans certains secteurs.
+1	Les	le	DET	_	_	_	_	_	_
+2	indicateurs	indicateur	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	ségrégation	ségrégation	NOUN	_	_	_	_	_	_
+5	résidentielle	résidentiel	ADJ	_	_	_	_	_	_
+6	montrent	montrer	VERB	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	concentration	concentration	NOUN	_	_	_	_	_	_
+9	croissante	croissant	ADJ	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	ménages	ménages	X	_	_	_	_	_	_
+12	précaires	précaires	X	_	_	_	_	_	_
+13	dans	dans	X	_	_	_	_	_	_
+14	certains	certains	X	_	_	_	_	_	_
+15	secteurs	secteurs	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_431
+# text = Nonobstant les programmes de rénovation urbaine, les loyers ont augmenté plus rapidement que les revenus médians locaux.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	programmes	programme	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	rénovation	rénovation	NOUN	_	_	_	_	_	_
+6	urbaine	urbain	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	loyers	loyer	NOUN	_	_	_	_	_	_
+10	ont	avoir	AUX	_	_	_	_	_	_
+11	augmenté	augmenter	VERB	_	_	_	_	_	_
+12	plus	plus	ADV	_	_	_	_	_	_
+13	rapidement	rapidement	ADV	_	_	_	_	_	_
+14	que	que	SCONJ	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	revenus	revenu	NOUN	_	_	_	_	_	_
+17	médians	médian	ADJ	_	_	_	_	_	_
+18	locaux	local	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_432
+# text = La sociologie des réseaux explique comment les liens faibles facilitent l'accès à l'emploi dans les métropoles régionales.
+1	La	le	DET	_	_	_	_	_	_
+2	sociologie	sociologie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	réseaux	réseaux	X	_	_	_	_	_	_
+5	explique	explique	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	liens	liens	X	_	_	_	_	_	_
+9	faibles	faibles	X	_	_	_	_	_	_
+10	facilitent	facilitent	X	_	_	_	_	_	_
+11	l'accès	l'accès	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	l'emploi	l'emploi	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	métropoles	métropoles	X	_	_	_	_	_	_
+17	régionales	régionales	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_433
+# text = Les politiques de désenclavement visent à réduire l'isolement des quartiers prioritaires par des infrastructures adaptées.
+1	Les	le	DET	_	_	_	_	_	_
+2	politiques	politique	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	désenclavement	désenclavement	NOUN	_	_	_	_	_	_
+5	visent	viser	VERB	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	réduire	réduire	VERB	_	_	_	_	_	_
+8	l'isolement	l'isolement	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	quartiers	quartiers	X	_	_	_	_	_	_
+11	prioritaires	prioritaires	X	_	_	_	_	_	_
+12	par	par	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	infrastructures	infrastructures	X	_	_	_	_	_	_
+15	adaptées	adaptées	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_434
+# text = Le débat public oppose les partisans d'une densification verticale aux défenseurs d'une ville à échelle humaine.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	public	public	ADJ	_	_	_	_	_	_
+4	oppose	opposer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	partisans	partisan	NOUN	_	_	_	_	_	_
+7	d'une	d'une	X	_	_	_	_	_	_
+8	densification	densification	X	_	_	_	_	_	_
+9	verticale	verticale	X	_	_	_	_	_	_
+10	aux	aux	ADP	_	_	_	_	_	_
+11	défenseurs	défenseurs	X	_	_	_	_	_	_
+12	d'une	d'une	X	_	_	_	_	_	_
+13	ville	ville	X	_	_	_	_	_	_
+14	à	à	X	_	_	_	_	_	_
+15	échelle	échelle	X	_	_	_	_	_	_
+16	humaine	humaine	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_435
+# text = Les travaux comparatifs analysent comment les métropoles européennes gèrent la pression immobilière et touristique.
+1	Les	le	DET	_	_	_	_	_	_
+2	travaux	travail	NOUN	_	_	_	_	_	_
+3	comparatifs	comparatif	ADJ	_	_	_	_	_	_
+4	analysent	analyser	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	métropoles	métropole	NOUN	_	_	_	_	_	_
+8	européennes	européen	ADJ	_	_	_	_	_	_
+9	gèrent	gérer	VERB	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	pression	pression	NOUN	_	_	_	_	_	_
+12	immobilière	immobilier	ADJ	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	touristique	touristique	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_436
+# text = La notion de capital social renvoie aux ressources mobilisables par les habitants grâce à leurs appartenances collectives.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	capital	capital	NOUN	_	_	_	_	_	_
+5	social	social	ADJ	_	_	_	_	_	_
+6	renvoie	renvoyer	VERB	_	_	_	_	_	_
+7	aux	aux	ADP	_	_	_	_	_	_
+8	ressources	ressources	X	_	_	_	_	_	_
+9	mobilisables	mobilisables	X	_	_	_	_	_	_
+10	par	par	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	habitants	habitants	X	_	_	_	_	_	_
+13	grâce	grâce	X	_	_	_	_	_	_
+14	à	à	X	_	_	_	_	_	_
+15	leurs	leur	DET	_	_	_	_	_	_
+16	appartenances	appartenances	X	_	_	_	_	_	_
+17	collectives	collectives	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_437
+# text = Après avoir cartographié les flux, l'équipe a observé une polarisation croissante entre emplois centraux et résidences périphériques.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	cartographié	cartographier	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	flux	flux	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	observé	observé	X	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	polarisation	polarisation	X	_	_	_	_	_	_
+12	croissante	croissante	X	_	_	_	_	_	_
+13	entre	entre	X	_	_	_	_	_	_
+14	emplois	emplois	X	_	_	_	_	_	_
+15	centraux	centraux	X	_	_	_	_	_	_
+16	et	et	CCONJ	_	_	_	_	_	_
+17	résidences	résidences	X	_	_	_	_	_	_
+18	périphériques	périphériques	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_438
+# text = La critique urbanistique dénonce la financiarisation de l'habitat et ses effets sur la stabilité résidentielle.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	urbanistique	urbanistique	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	financiarisation	financiarisation	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	l'habitat	l'habitat	X	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	ses	son	DET	_	_	_	_	_	_
+11	effets	effets	X	_	_	_	_	_	_
+12	sur	sur	X	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	stabilité	stabilité	X	_	_	_	_	_	_
+15	résidentielle	résidentielle	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_439
+# text = Il reste débattu si les écoquartiers réduisent réellement l'empreinte écologique ou valorisent surtout l'image de la ville.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	écoquartiers	écoquartier	NOUN	_	_	_	_	_	_
+7	réduisent	réduire	VERB	_	_	_	_	_	_
+8	réellement	réellement	ADV	_	_	_	_	_	_
+9	l'empreinte	l'empreinte	X	_	_	_	_	_	_
+10	écologique	écologique	X	_	_	_	_	_	_
+11	ou	ou	CCONJ	_	_	_	_	_	_
+12	valorisent	valorisent	X	_	_	_	_	_	_
+13	surtout	surtout	X	_	_	_	_	_	_
+14	l'image	l'image	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	ville	ville	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_440
+# text = Le cadre de la justice spatiale réclame une répartition plus équitable des équipements publics entre territoires.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	justice	justice	NOUN	_	_	_	_	_	_
+6	spatiale	spatial	ADJ	_	_	_	_	_	_
+7	réclame	réclamer	VERB	_	_	_	_	_	_
+8	une	un	DET	_	_	_	_	_	_
+9	répartition	répartition	NOUN	_	_	_	_	_	_
+10	plus	plus	ADV	_	_	_	_	_	_
+11	équitable	équitable	ADJ	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	équipements	équipements	X	_	_	_	_	_	_
+14	publics	publics	X	_	_	_	_	_	_
+15	entre	entre	X	_	_	_	_	_	_
+16	territoires	territoires	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_441
+# text = Les approches intersectionnelles montrent comment genre, origine et classe structurent l'expérience urbaine quotidienne.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	intersectionnelles	intersectionnel	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	genre	genre	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	origine	origine	NOUN	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	classe	classe	NOUN	_	_	_	_	_	_
+11	structurent	structurer	VERB	_	_	_	_	_	_
+12	l'expérience	l'expérience	X	_	_	_	_	_	_
+13	urbaine	urbaine	X	_	_	_	_	_	_
+14	quotidienne	quotidienne	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_442
+# text = La politique du logement social peine à compenser la rareté de l'offre locative abordable en zone tendue.
+1	La	le	DET	_	_	_	_	_	_
+2	politique	politique	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	logement	logement	X	_	_	_	_	_	_
+5	social	social	X	_	_	_	_	_	_
+6	peine	peine	X	_	_	_	_	_	_
+7	à	à	X	_	_	_	_	_	_
+8	compenser	compenser	X	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	rareté	rareté	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	l'offre	l'offre	X	_	_	_	_	_	_
+13	locative	locative	X	_	_	_	_	_	_
+14	abordable	abordable	X	_	_	_	_	_	_
+15	en	en	PRON	_	_	_	_	_	_
+16	zone	zone	X	_	_	_	_	_	_
+17	tendue	tendue	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_443
+# text = Les habitants mobilisés ont obtenu la révision d'un projet routier menaçant la qualité de vie du quartier.
+1	Les	le	DET	_	_	_	_	_	_
+2	habitants	habitant	NOUN	_	_	_	_	_	_
+3	mobilisés	mobiliser	VERB	_	_	_	_	_	_
+4	ont	avoir	AUX	_	_	_	_	_	_
+5	obtenu	obtenir	VERB	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	révision	révision	NOUN	_	_	_	_	_	_
+8	d'un	d'un	X	_	_	_	_	_	_
+9	projet	projet	X	_	_	_	_	_	_
+10	routier	routier	X	_	_	_	_	_	_
+11	menaçant	menaçant	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	qualité	qualité	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	vie	vie	X	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	quartier	quartier	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_444
+# text = Le séminaire a évalué la pertinence des concepts hérités pour analyser les mobilités numériques contemporaines.
+1	Le	le	DET	_	_	_	_	_	_
+2	séminaire	séminaire	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	évalué	évaluer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	pertinence	pertinence	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	concepts	concepts	X	_	_	_	_	_	_
+9	hérités	hérités	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	analyser	analyser	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	mobilités	mobilités	X	_	_	_	_	_	_
+14	numériques	numériques	X	_	_	_	_	_	_
+15	contemporaines	contemporaines	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_445
+# text = La déconstruction des mythes fondateurs urbains révèle comment les récits officiels occultent des expulsions silencieuses.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	mythes	mythes	X	_	_	_	_	_	_
+5	fondateurs	fondateurs	X	_	_	_	_	_	_
+6	urbains	urbains	X	_	_	_	_	_	_
+7	révèle	révèle	X	_	_	_	_	_	_
+8	comment	comment	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	récits	récits	X	_	_	_	_	_	_
+11	officiels	officiels	X	_	_	_	_	_	_
+12	occultent	occultent	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	expulsions	expulsions	X	_	_	_	_	_	_
+15	silencieuses	silencieuses	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_446
+# text = Les données longitudinales confirment une métropolisation progressive des emplois qualifiés au détriment des villes moyennes.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	longitudinales	longitudinal	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	métropolisation	métropolisation	NOUN	_	_	_	_	_	_
+7	progressive	progressif	ADJ	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	emplois	emplois	X	_	_	_	_	_	_
+10	qualifiés	qualifiés	X	_	_	_	_	_	_
+11	au	au	ADP	_	_	_	_	_	_
+12	détriment	détriment	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	villes	villes	X	_	_	_	_	_	_
+15	moyennes	moyennes	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_447
+# text = La théorie de la sociologie urbaine relie morphologie spatiale, institutions locales et trajectoires biographiques.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	sociologie	sociologie	NOUN	_	_	_	_	_	_
+6	urbaine	urbain	ADJ	_	_	_	_	_	_
+7	relie	relier	VERB	_	_	_	_	_	_
+8	morphologie	morphologie	NOUN	_	_	_	_	_	_
+9	spatiale	spatial	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	institutions	institution	NOUN	_	_	_	_	_	_
+12	locales	local	ADJ	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	trajectoires	trajectoire	NOUN	_	_	_	_	_	_
+15	biographiques	biographique	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_448
+# text = Les analystes des politiques publiques étudient comment les subventions orientent la visibilité des projets culturels.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	politiques	politiques	X	_	_	_	_	_	_
+5	publiques	publiques	X	_	_	_	_	_	_
+6	étudient	étudient	X	_	_	_	_	_	_
+7	comment	comment	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	subventions	subventions	X	_	_	_	_	_	_
+10	orientent	orientent	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	visibilité	visibilité	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	projets	projets	X	_	_	_	_	_	_
+15	culturels	culturels	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_449
+# text = Le principe de réflexivité impose aux chercheurs d'intégrer l'effet de leur présence sur les communautés étudiées.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	réflexivité	réflexivité	NOUN	_	_	_	_	_	_
+5	impose	imposer	VERB	_	_	_	_	_	_
+6	aux	aux	ADP	_	_	_	_	_	_
+7	chercheurs	chercheurs	X	_	_	_	_	_	_
+8	d'intégrer	d'intégrer	X	_	_	_	_	_	_
+9	l'effet	l'effet	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	leur	leur	DET	_	_	_	_	_	_
+12	présence	présence	X	_	_	_	_	_	_
+13	sur	sur	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	communautés	communautés	X	_	_	_	_	_	_
+16	étudiées	étudiées	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_450
+# text = La critique des algorithmes montre comment les systèmes de géolocalisation enferment les usagers dans des trajets prévisibles.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	algorithmes	algorithmes	X	_	_	_	_	_	_
+5	montre	montre	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	systèmes	systèmes	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	géolocalisation	géolocalisation	X	_	_	_	_	_	_
+11	enferment	enferment	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	usagers	usagers	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	trajets	trajets	X	_	_	_	_	_	_
+17	prévisibles	prévisibles	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_451
+# text = La commission a estimé que le diagnostic préimplantatoire exige un encadrement strict pour éviter les dérives eugéniques.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	estimé	estimer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	diagnostic	diagnostic	NOUN	_	_	_	_	_	_
+8	préimplantatoire	préimplantatoire	ADJ	_	_	_	_	_	_
+9	exige	exiger	VERB	_	_	_	_	_	_
+10	un	un	DET	_	_	_	_	_	_
+11	encadrement	encadrement	NOUN	_	_	_	_	_	_
+12	strict	strict	ADJ	_	_	_	_	_	_
+13	pour	pour	ADP	_	_	_	_	_	_
+14	éviter	éviter	VERB	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	dérives	dérive	NOUN	_	_	_	_	_	_
+17	eugéniques	eugénique	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_452
+# text = Bien que la procréation médicalement assistée soit autorisée, certaines techniques restent interdites par le cadre légal.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	la	le	DET	_	_	_	_	_	_
+4	procréation	procréation	NOUN	_	_	_	_	_	_
+5	médicalement	médicalement	ADV	_	_	_	_	_	_
+6	assistée	assister	VERB	_	_	_	_	_	_
+7	soit	être	AUX	_	_	_	_	_	_
+8	autorisée	autoriser	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	certaines	certain	DET	_	_	_	_	_	_
+11	techniques	technique	NOUN	_	_	_	_	_	_
+12	restent	rester	VERB	_	_	_	_	_	_
+13	interdites	interdire	VERB	_	_	_	_	_	_
+14	par	par	ADP	_	_	_	_	_	_
+15	le	le	DET	_	_	_	_	_	_
+16	cadre	cadre	NOUN	_	_	_	_	_	_
+17	légal	légal	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_453
+# text = Le débat porte sur la reconnaissance des parcours de maternité et de paternité dans les familles recomposées.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	reconnaissance	reconnaissance	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	parcours	parcours	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	maternité	maternité	X	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	paternité	paternité	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	familles	familles	X	_	_	_	_	_	_
+17	recomposées	recomposées	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_454
+# text = Il demeure controversé de savoir si la préservation du gamète devrait être ouverte sans condition d'âge uniforme.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	controversé	controversé	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	préservation	préservation	NOUN	_	_	_	_	_	_
+9	du	du	ADP	_	_	_	_	_	_
+10	gamète	gamète	X	_	_	_	_	_	_
+11	devrait	devrait	X	_	_	_	_	_	_
+12	être	être	X	_	_	_	_	_	_
+13	ouverte	ouverte	X	_	_	_	_	_	_
+14	sans	sans	X	_	_	_	_	_	_
+15	condition	condition	X	_	_	_	_	_	_
+16	d'âge	d'âge	X	_	_	_	_	_	_
+17	uniforme	uniforme	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_455
+# text = Les médecins reproductive specialists rappellent que le consentement éclairé doit précéder chaque intervention.
+1	Les	le	DET	_	_	_	_	_	_
+2	médecins	médecin	NOUN	_	_	_	_	_	_
+3	reproductive	reproductif	ADJ	_	_	_	_	_	_
+4	specialists	specialists	X	_	_	_	_	_	_
+5	rappellent	rappeler	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	consentement	consentement	NOUN	_	_	_	_	_	_
+9	éclairé	éclairer	VERB	_	_	_	_	_	_
+10	doit	devoir	AUX	_	_	_	_	_	_
+11	précéder	précéder	VERB	_	_	_	_	_	_
+12	chaque	chaque	DET	_	_	_	_	_	_
+13	intervention	intervention	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_456
+# text = Nonobstant les avancées technologiques, l'accès inégal aux traitements reproduit des injustices socioéconomiques.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	avancées	avancée	NOUN	_	_	_	_	_	_
+4	technologiques	technologique	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	l'accès	l'accès	X	_	_	_	_	_	_
+7	inégal	inégal	X	_	_	_	_	_	_
+8	aux	aux	ADP	_	_	_	_	_	_
+9	traitements	traitements	X	_	_	_	_	_	_
+10	reproduit	reproduit	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	injustices	injustices	X	_	_	_	_	_	_
+13	socioéconomiques	socioéconomiques	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_457
+# text = La jurisprudence récente précise les conditions de filiation lorsque la gestation pour autrui est pratiquée à l'étranger.
+1	La	le	DET	_	_	_	_	_	_
+2	jurisprudence	jurisprudence	NOUN	_	_	_	_	_	_
+3	récente	récent	ADJ	_	_	_	_	_	_
+4	précise	préciser	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	conditions	condition	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	filiation	filiation	NOUN	_	_	_	_	_	_
+9	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	gestation	gestation	NOUN	_	_	_	_	_	_
+12	pour	pour	ADP	_	_	_	_	_	_
+13	autrui	autrui	PRON	_	_	_	_	_	_
+14	est	être	AUX	_	_	_	_	_	_
+15	pratiquée	pratiquer	VERB	_	_	_	_	_	_
+16	à	à	ADP	_	_	_	_	_	_
+17	l'étranger	l'étranger	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_458
+# text = Les philosophes du droit analysent comment concilier autonomie reproductive et protection des personnes vulnérables.
+1	Les	le	DET	_	_	_	_	_	_
+2	philosophes	philosophe	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	droit	droit	X	_	_	_	_	_	_
+5	analysent	analysent	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	concilier	concilier	X	_	_	_	_	_	_
+8	autonomie	autonomie	X	_	_	_	_	_	_
+9	reproductive	reproductive	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	protection	protection	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	personnes	personnes	X	_	_	_	_	_	_
+14	vulnérables	vulnérables	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_459
+# text = Le rapport parlementaire recommande un renforcement des contrôles sur les centres de fécondation in vitro.
+1	Le	le	DET	_	_	_	_	_	_
+2	rapport	rapport	NOUN	_	_	_	_	_	_
+3	parlementaire	parlementaire	ADJ	_	_	_	_	_	_
+4	recommande	recommander	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	renforcement	renforcement	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	contrôles	contrôles	X	_	_	_	_	_	_
+9	sur	sur	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	centres	centres	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	fécondation	fécondation	X	_	_	_	_	_	_
+14	in	in	X	_	_	_	_	_	_
+15	vitro	vitro	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_460
+# text = La notion de dignité humaine structure les arguments contre la sélection embryonnaire à des fins non thérapeutiques.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	dignité	dignité	NOUN	_	_	_	_	_	_
+5	humaine	humain	ADJ	_	_	_	_	_	_
+6	structure	structurer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	arguments	argument	NOUN	_	_	_	_	_	_
+9	contre	contre	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	sélection	sélection	NOUN	_	_	_	_	_	_
+12	embryonnaire	embryonnaire	ADJ	_	_	_	_	_	_
+13	à	à	ADP	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	fins	fin	NOUN	_	_	_	_	_	_
+16	non	non	ADV	_	_	_	_	_	_
+17	thérapeutiques	thérapeutique	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_461
+# text = Après avoir consulté les associations, le ministère a annoncé une révision des protocoles de consentement.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	consulté	consulter	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	associations	association	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	ministère	ministère	NOUN	_	_	_	_	_	_
+9	a	avoir	AUX	_	_	_	_	_	_
+10	annoncé	annoncer	VERB	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	révision	révision	NOUN	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	protocoles	protocoles	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	consentement	consentement	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_462
+# text = La critique féministe souligne que les politiques de fertilité ignorent souvent la charge mentale des patientes.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	féministe	féministe	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	politiques	politique	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	fertilité	fertilité	NOUN	_	_	_	_	_	_
+10	ignorent	ignorer	VERB	_	_	_	_	_	_
+11	souvent	souvent	ADV	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	charge	charge	NOUN	_	_	_	_	_	_
+14	mentale	mental	ADJ	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	patientes	patientes	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_463
+# text = Il reste disputé si l'anonymat des donneurs de gamètes doit être maintenu ou progressivement levé.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	l'anonymat	l'anonymat	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	donneurs	donneurs	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	gamètes	gamètes	X	_	_	_	_	_	_
+10	doit	devoir	AUX	_	_	_	_	_	_
+11	être	être	X	_	_	_	_	_	_
+12	maintenu	maintenu	X	_	_	_	_	_	_
+13	ou	ou	CCONJ	_	_	_	_	_	_
+14	progressivement	progressivement	X	_	_	_	_	_	_
+15	levé	levé	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_464
+# text = Le cadre éthique impose que les recherches sur embryons respectent des limites temporelles et scientifiques strictes.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	éthique	éthique	ADJ	_	_	_	_	_	_
+4	impose	imposer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	recherches	recherche	NOUN	_	_	_	_	_	_
+8	sur	sur	ADP	_	_	_	_	_	_
+9	embryons	embryon	NOUN	_	_	_	_	_	_
+10	respectent	respecter	VERB	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	limites	limite	NOUN	_	_	_	_	_	_
+13	temporelles	temporel	ADJ	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	scientifiques	scientifique	ADJ	_	_	_	_	_	_
+16	strictes	strict	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_465
+# text = Les approches comparatistes montrent des divergences majeures entre pays sur la gestation pour autrui.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	comparatistes	comparatiste	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	divergences	divergence	NOUN	_	_	_	_	_	_
+7	majeures	majeur	ADJ	_	_	_	_	_	_
+8	entre	entre	ADP	_	_	_	_	_	_
+9	pays	pay	NOUN	_	_	_	_	_	_
+10	sur	sur	ADP	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	gestation	gestation	NOUN	_	_	_	_	_	_
+13	pour	pour	ADP	_	_	_	_	_	_
+14	autrui	autrui	PRON	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_466
+# text = La commission de bioéthique a auditionné des généticiens sur les risques des tests préconceptionnels élargis.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	bioéthique	bioéthique	NOUN	_	_	_	_	_	_
+5	a	avoir	AUX	_	_	_	_	_	_
+6	auditionné	auditionner	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	généticiens	généticien	NOUN	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	risques	risque	NOUN	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	tests	tests	X	_	_	_	_	_	_
+14	préconceptionnels	préconceptionnels	X	_	_	_	_	_	_
+15	élargis	élargis	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_467
+# text = Les psychologues cliniciens étudient l'impact du parcours PMA sur la santé mentale des couples.
+1	Les	le	DET	_	_	_	_	_	_
+2	psychologues	psychologue	NOUN	_	_	_	_	_	_
+3	cliniciens	clinicien	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	l'impact	l'impact	X	_	_	_	_	_	_
+6	du	du	ADP	_	_	_	_	_	_
+7	parcours	parcours	X	_	_	_	_	_	_
+8	PMA	PMA	X	_	_	_	_	_	_
+9	sur	sur	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	santé	santé	X	_	_	_	_	_	_
+12	mentale	mentale	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	couples	couples	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_468
+# text = Le débat médiatique a relancé la question du statut juridique des embryons surnuméraires congelés.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	médiatique	médiatique	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	relancé	relancer	VERB	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	question	question	NOUN	_	_	_	_	_	_
+8	du	du	ADP	_	_	_	_	_	_
+9	statut	statut	X	_	_	_	_	_	_
+10	juridique	juridique	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	embryons	embryons	X	_	_	_	_	_	_
+13	surnuméraires	surnuméraires	X	_	_	_	_	_	_
+14	congelés	congelés	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_469
+# text = La théorie des droits de l'enfant invite à anticiper l'intérêt supérieur dans les décisions de filiation.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	droits	droits	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	l'enfant	l'enfant	X	_	_	_	_	_	_
+7	invite	invite	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	anticiper	anticiper	X	_	_	_	_	_	_
+10	l'intérêt	l'intérêt	X	_	_	_	_	_	_
+11	supérieur	supérieur	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	décisions	décisions	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	filiation	filiation	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_470
+# text = Les juristes européens examinent si les législations nationales respectent les standards du conseil de l'Europe.
+1	Les	le	DET	_	_	_	_	_	_
+2	juristes	juriste	NOUN	_	_	_	_	_	_
+3	européens	européen	ADJ	_	_	_	_	_	_
+4	examinent	examiner	VERB	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	législations	législation	NOUN	_	_	_	_	_	_
+8	nationales	national	ADJ	_	_	_	_	_	_
+9	respectent	respecter	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	standards	standard	NOUN	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	conseil	conseil	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	l'Europe	l'Europe	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_471
+# text = La déconstruction des discours biomédicaux révèle des présupposés normatifs sur la famille hétéronormée.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	biomédicaux	biomédicaux	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	présupposés	présupposés	X	_	_	_	_	_	_
+9	normatifs	normatifs	X	_	_	_	_	_	_
+10	sur	sur	X	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	famille	famille	X	_	_	_	_	_	_
+13	hétéronormée	hétéronormée	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_472
+# text = Le principe de non-malfaisance exige que toute innovation reproductive soit évaluée à l'aune des risques à long terme.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	non-malfaisance	non-malfaisance	NOUN	_	_	_	_	_	_
+5	exige	exiger	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	toute	tout	DET	_	_	_	_	_	_
+8	innovation	innovation	NOUN	_	_	_	_	_	_
+9	reproductive	reproductif	ADJ	_	_	_	_	_	_
+10	soit	être	AUX	_	_	_	_	_	_
+11	évaluée	évaluer	VERB	_	_	_	_	_	_
+12	à	à	ADP	_	_	_	_	_	_
+13	l'aune	l'aune	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	risques	risques	X	_	_	_	_	_	_
+16	à	à	X	_	_	_	_	_	_
+17	long	long	X	_	_	_	_	_	_
+18	terme	terme	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_473
+# text = Les données épidémiologiques montrent une hausse des demandes de préservation ovarienne chez les femmes jeunes.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	épidémiologiques	épidémiologique	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	hausse	hausse	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	demandes	demandes	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	préservation	préservation	X	_	_	_	_	_	_
+11	ovarienne	ovarienne	X	_	_	_	_	_	_
+12	chez	chez	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	femmes	femmes	X	_	_	_	_	_	_
+15	jeunes	jeunes	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_474
+# text = La critique institutionnelle dénonce le manque de transparence sur les taux de réussite des cliniques privées.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	manque	manque	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	transparence	transparence	NOUN	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	taux	taux	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	réussite	réussite	NOUN	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	cliniques	cliniques	X	_	_	_	_	_	_
+16	privées	privées	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_475
+# text = Il faudrait que la société débatte collectivement des limites à poser face aux promesses de perfectionnement génétique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	société	société	NOUN	_	_	_	_	_	_
+6	débatte	débatter	VERB	_	_	_	_	_	_
+7	collectivement	collectivement	ADV	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	limites	limites	X	_	_	_	_	_	_
+10	à	à	X	_	_	_	_	_	_
+11	poser	poser	X	_	_	_	_	_	_
+12	face	face	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	promesses	promesses	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	perfectionnement	perfectionnement	X	_	_	_	_	_	_
+17	génétique	génétique	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_476
+# text = Les expériences de terrain montrent que le cadrage des choix modifie significativement les décisions d'épargne retraite.
+1	Les	le	DET	_	_	_	_	_	_
+2	expériences	expérience	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	terrain	terrain	NOUN	_	_	_	_	_	_
+5	montrent	montrer	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	cadrage	cadrage	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	choix	choix	X	_	_	_	_	_	_
+11	modifie	modifie	X	_	_	_	_	_	_
+12	significativement	significativement	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	décisions	décisions	X	_	_	_	_	_	_
+15	d'épargne	d'épargne	X	_	_	_	_	_	_
+16	retraite	retraite	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_477
+# text = Bien que les agents soient rationnels dans les modèles classiques, les biais cognitifs perturbent les prévisions comportementales.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	agents	agent	NOUN	_	_	_	_	_	_
+5	soient	être	AUX	_	_	_	_	_	_
+6	rationnels	rationnel	ADJ	_	_	_	_	_	_
+7	dans	dans	ADP	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	modèles	modèle	NOUN	_	_	_	_	_	_
+10	classiques	classique	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	biais	biai	NOUN	_	_	_	_	_	_
+14	cognitifs	cognitif	ADJ	_	_	_	_	_	_
+15	perturbent	perturber	VERB	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	prévisions	prévision	NOUN	_	_	_	_	_	_
+18	comportementales	comportemental	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_478
+# text = La politique publique nudge vise à orienter les comportements sans interdire les options disponibles aux citoyens.
+1	La	le	DET	_	_	_	_	_	_
+2	politique	politique	NOUN	_	_	_	_	_	_
+3	publique	public	ADJ	_	_	_	_	_	_
+4	nudge	nudge	NOUN	_	_	_	_	_	_
+5	vise	viser	VERB	_	_	_	_	_	_
+6	à	à	ADP	_	_	_	_	_	_
+7	orienter	orienter	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	comportements	comportement	NOUN	_	_	_	_	_	_
+10	sans	sans	ADP	_	_	_	_	_	_
+11	interdire	interdire	VERB	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	options	option	NOUN	_	_	_	_	_	_
+14	disponibles	disponible	ADJ	_	_	_	_	_	_
+15	aux	aux	ADP	_	_	_	_	_	_
+16	citoyens	citoyens	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_479
+# text = Il demeure disputé de savoir si les incitations douces suffisent à modifier des habitudes de consommation énergétique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	incitations	incitation	NOUN	_	_	_	_	_	_
+9	douces	doux	ADJ	_	_	_	_	_	_
+10	suffisent	suffiser	VERB	_	_	_	_	_	_
+11	à	à	ADP	_	_	_	_	_	_
+12	modifier	modifier	VERB	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	habitudes	habitude	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	consommation	consommation	NOUN	_	_	_	_	_	_
+17	énergétique	énergétique	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_480
+# text = Les économistes comportementaux utilisent des listes aléatoires pour isoler l'effet causal des interventions testées.
+1	Les	le	DET	_	_	_	_	_	_
+2	économistes	économiste	NOUN	_	_	_	_	_	_
+3	comportementaux	comportemental	ADJ	_	_	_	_	_	_
+4	utilisent	utiliser	VERB	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	listes	liste	NOUN	_	_	_	_	_	_
+7	aléatoires	aléatoire	ADJ	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	isoler	isoler	VERB	_	_	_	_	_	_
+10	l'effet	l'effet	X	_	_	_	_	_	_
+11	causal	causal	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	interventions	interventions	X	_	_	_	_	_	_
+14	testées	testées	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_481
+# text = Nonobstant l'attrait des nudges, certains critiques dénoncent une manipulation paternaliste des préférences individuelles.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	l'attrait	l'attrait	X	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	nudges	nudges	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	certains	certains	X	_	_	_	_	_	_
+7	critiques	critiques	X	_	_	_	_	_	_
+8	dénoncent	dénoncent	X	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	manipulation	manipulation	X	_	_	_	_	_	_
+11	paternaliste	paternaliste	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	préférences	préférences	X	_	_	_	_	_	_
+14	individuelles	individuelles	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_482
+# text = La théorie des perspectives prospectives explique pourquoi les pertes sont psychologiquement plus saillantes que les gains.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	perspectives	perspectives	X	_	_	_	_	_	_
+5	prospectives	prospectives	X	_	_	_	_	_	_
+6	explique	explique	X	_	_	_	_	_	_
+7	pourquoi	pourquoi	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	pertes	pertes	X	_	_	_	_	_	_
+10	sont	être	AUX	_	_	_	_	_	_
+11	psychologiquement	psychologiquement	X	_	_	_	_	_	_
+12	plus	plus	ADV	_	_	_	_	_	_
+13	saillantes	saillantes	X	_	_	_	_	_	_
+14	que	que	PRON	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	gains	gains	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_483
+# text = Les données de laboratoire confirment que l'aversion à l'ambiguïté influence les choix d'investissement sous incertitude.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	laboratoire	laboratoire	NOUN	_	_	_	_	_	_
+5	confirment	confirmer	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	l'aversion	l'aversion	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	l'ambiguïté	l'ambiguïté	X	_	_	_	_	_	_
+10	influence	influence	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	choix	choix	X	_	_	_	_	_	_
+13	d'investissement	d'investissement	X	_	_	_	_	_	_
+14	sous	sous	X	_	_	_	_	_	_
+15	incertitude	incertitude	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_484
+# text = Le débat porte sur la reproductibilité des résultats empiriques dans des contextes culturels différents.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	reproductibilité	reproductibilité	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	résultats	résultats	X	_	_	_	_	_	_
+9	empiriques	empiriques	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	contextes	contextes	X	_	_	_	_	_	_
+13	culturels	culturels	X	_	_	_	_	_	_
+14	différents	différents	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_485
+# text = La notion de biais de présent favorise la consommation immédiate au détriment des objectifs à long terme.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	biais	biai	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	présent	présent	NOUN	_	_	_	_	_	_
+7	favorise	favoriser	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	consommation	consommation	NOUN	_	_	_	_	_	_
+10	immédiate	immédiat	ADJ	_	_	_	_	_	_
+11	au	au	ADP	_	_	_	_	_	_
+12	détriment	détriment	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	objectifs	objectifs	X	_	_	_	_	_	_
+15	à	à	X	_	_	_	_	_	_
+16	long	long	X	_	_	_	_	_	_
+17	terme	terme	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_486
+# text = Après avoir randomisé les messages, l'équipe a observé une hausse des inscriptions aux programmes de formation.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	randomisé	randomiser	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	messages	message	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	observé	observé	X	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	hausse	hausse	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	inscriptions	inscriptions	X	_	_	_	_	_	_
+14	aux	aux	ADP	_	_	_	_	_	_
+15	programmes	programmes	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	formation	formation	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_487
+# text = La critique méthodologique souligne que les effets annoncés disparaissent parfois à l'échelle des politiques nationales.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	méthodologique	méthodologique	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	effets	effet	NOUN	_	_	_	_	_	_
+8	annoncés	annoncer	VERB	_	_	_	_	_	_
+9	disparaissent	disparaître	VERB	_	_	_	_	_	_
+10	parfois	parfois	ADV	_	_	_	_	_	_
+11	à	à	ADP	_	_	_	_	_	_
+12	l'échelle	l'échelle	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	politiques	politiques	X	_	_	_	_	_	_
+15	nationales	nationales	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_488
+# text = Il reste débattu si les défauts de raisonnement justifient une intervention étatique plus directive.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	défauts	défaut	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	raisonnement	raisonnement	NOUN	_	_	_	_	_	_
+9	justifient	justifier	VERB	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	intervention	intervention	NOUN	_	_	_	_	_	_
+12	étatique	étatique	ADJ	_	_	_	_	_	_
+13	plus	plus	ADV	_	_	_	_	_	_
+14	directive	directive	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_489
+# text = Le cadre de la welfare economics comportementale réévalue les critères d'efficacité à la lumière des préférences révélées.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	welfare	welfare	X	_	_	_	_	_	_
+6	economics	economics	X	_	_	_	_	_	_
+7	comportementale	comportemental	ADJ	_	_	_	_	_	_
+8	réévalue	réévaluer	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	critères	critère	NOUN	_	_	_	_	_	_
+11	d'efficacité	d'efficacité	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	lumière	lumière	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	préférences	préférences	X	_	_	_	_	_	_
+17	révélées	révélées	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_490
+# text = Les approches expérimentales comparent l'efficacité relative des subventions, des labels et des messages normatifs.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	expérimentales	expérimental	ADJ	_	_	_	_	_	_
+4	comparent	comparer	VERB	_	_	_	_	_	_
+5	l'efficacité	l'efficacité	X	_	_	_	_	_	_
+6	relative	relative	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	subventions	subventions	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	labels	labels	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	messages	messages	X	_	_	_	_	_	_
+15	normatifs	normatifs	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_491
+# text = La commission a recommandé de tester les réformes fiscales sur des échantillons représentatifs avant généralisation.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	tester	tester	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	réformes	réforme	NOUN	_	_	_	_	_	_
+9	fiscales	fiscal	ADJ	_	_	_	_	_	_
+10	sur	sur	ADP	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	échantillons	échantillon	NOUN	_	_	_	_	_	_
+13	représentatifs	représentatif	ADJ	_	_	_	_	_	_
+14	avant	avant	ADP	_	_	_	_	_	_
+15	généralisation	généralisation	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_492
+# text = Les neurosciences économiques cherchent à relier activations cérébrales et processus de décision intertemporelle.
+1	Les	le	DET	_	_	_	_	_	_
+2	neurosciences	neuroscience	NOUN	_	_	_	_	_	_
+3	économiques	économique	ADJ	_	_	_	_	_	_
+4	cherchent	chercher	VERB	_	_	_	_	_	_
+5	à	à	ADP	_	_	_	_	_	_
+6	relier	relier	VERB	_	_	_	_	_	_
+7	activations	activation	NOUN	_	_	_	_	_	_
+8	cérébrales	cérébral	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	processus	processu	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	décision	décision	NOUN	_	_	_	_	_	_
+13	intertemporelle	intertemporel	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_493
+# text = Le débat éthique interroge la légitimité démocratique des architectures de choix conçues par des experts.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	éthique	éthique	ADJ	_	_	_	_	_	_
+4	interroge	interroger	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	légitimité	légitimité	NOUN	_	_	_	_	_	_
+7	démocratique	démocratique	ADJ	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	architectures	architectures	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	choix	choix	X	_	_	_	_	_	_
+12	conçues	conçues	X	_	_	_	_	_	_
+13	par	par	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	experts	experts	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_494
+# text = La théorie de l'ancrage montre comment une information initiale irrélevante peut fausser les négociations salariales.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'ancrage	l'ancrage	X	_	_	_	_	_	_
+5	montre	montre	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	information	information	X	_	_	_	_	_	_
+9	initiale	initiale	X	_	_	_	_	_	_
+10	irrélevante	irrélevante	X	_	_	_	_	_	_
+11	peut	peut	X	_	_	_	_	_	_
+12	fausser	fausser	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	négociations	négociations	X	_	_	_	_	_	_
+15	salariales	salariales	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_495
+# text = Les analystes publics étudient comment les défauts d'option influencent l'adhésion aux régimes de prévoyance.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	publics	public	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	défauts	défaut	NOUN	_	_	_	_	_	_
+8	d'option	d'option	X	_	_	_	_	_	_
+9	influencent	influencent	X	_	_	_	_	_	_
+10	l'adhésion	l'adhésion	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	régimes	régimes	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	prévoyance	prévoyance	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_496
+# text = La déconstruction des mythes rationnels révèle des hétérogénéités persistantes entre groupes sociaux.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	mythes	mythes	X	_	_	_	_	_	_
+5	rationnels	rationnels	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	hétérogénéités	hétérogénéités	X	_	_	_	_	_	_
+9	persistantes	persistantes	X	_	_	_	_	_	_
+10	entre	entre	X	_	_	_	_	_	_
+11	groupes	groupes	X	_	_	_	_	_	_
+12	sociaux	sociaux	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_497
+# text = Le principe de transparence exige que les citoyens sachent quand un dispositif vise à modifier leurs choix.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	transparence	transparence	NOUN	_	_	_	_	_	_
+5	exige	exiger	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	citoyens	citoyen	NOUN	_	_	_	_	_	_
+9	sachent	savoir	VERB	_	_	_	_	_	_
+10	quand	quand	SCONJ	_	_	_	_	_	_
+11	un	un	DET	_	_	_	_	_	_
+12	dispositif	dispositif	NOUN	_	_	_	_	_	_
+13	vise	viser	VERB	_	_	_	_	_	_
+14	à	à	ADP	_	_	_	_	_	_
+15	modifier	modifier	VERB	_	_	_	_	_	_
+16	leurs	leur	DET	_	_	_	_	_	_
+17	choix	choix	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_498
+# text = Les données administratives confirment que le changement de défaut augmente les dons d'organes dans plusieurs pays.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	administratives	administratif	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	changement	changement	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	défaut	défaut	NOUN	_	_	_	_	_	_
+10	augmente	augmenter	VERB	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	dons	don	NOUN	_	_	_	_	_	_
+13	d'organes	d'organes	X	_	_	_	_	_	_
+14	dans	dans	X	_	_	_	_	_	_
+15	plusieurs	plusieurs	X	_	_	_	_	_	_
+16	pays	pays	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_499
+# text = La critique institutionnelle met en garde contre l'usage politique sélectif des résultats comportementaux.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	met	mettre	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	garde	garde	NOUN	_	_	_	_	_	_
+7	contre	contre	ADP	_	_	_	_	_	_
+8	l'usage	l'usage	X	_	_	_	_	_	_
+9	politique	politique	X	_	_	_	_	_	_
+10	sélectif	sélectif	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	résultats	résultats	X	_	_	_	_	_	_
+13	comportementaux	comportementaux	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_500
+# text = Il faudrait que les décideurs publient les protocoles d'évaluation avant le déploiement des politiques inspirées du nudge.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	décideurs	décideur	NOUN	_	_	_	_	_	_
+6	publient	publier	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	protocoles	protocole	NOUN	_	_	_	_	_	_
+9	d'évaluation	d'évaluation	X	_	_	_	_	_	_
+10	avant	avant	X	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	déploiement	déploiement	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	politiques	politiques	X	_	_	_	_	_	_
+15	inspirées	inspirées	X	_	_	_	_	_	_
+16	du	du	ADP	_	_	_	_	_	_
+17	nudge	nudge	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_501
+# text = Le discours inaugural a mobilisé des métaphores guerrières pour présenter la réforme comme une nécessité nationale.
+1	Le	le	DET	_	_	_	_	_	_
+2	discours	discour	NOUN	_	_	_	_	_	_
+3	inaugural	inaugural	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	mobilisé	mobiliser	VERB	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	métaphores	métaphore	NOUN	_	_	_	_	_	_
+8	guerrières	guerrier	ADJ	_	_	_	_	_	_
+9	pour	pour	ADP	_	_	_	_	_	_
+10	présenter	présenter	VERB	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	réforme	réforme	NOUN	_	_	_	_	_	_
+13	comme	comme	SCONJ	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	nécessité	nécessité	NOUN	_	_	_	_	_	_
+16	nationale	national	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_502
+# text = Bien que les promesses aient été nombreuses, l'analyse rhétorique révèle des ellipses sur le coût social du projet.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	promesses	promesse	NOUN	_	_	_	_	_	_
+5	aient	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	nombreuses	nombreux	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	l'analyse	l'analyse	X	_	_	_	_	_	_
+10	rhétorique	rhétorique	X	_	_	_	_	_	_
+11	révèle	révèle	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	ellipses	ellipses	X	_	_	_	_	_	_
+14	sur	sur	X	_	_	_	_	_	_
+15	le	le	DET	_	_	_	_	_	_
+16	coût	coût	X	_	_	_	_	_	_
+17	social	social	X	_	_	_	_	_	_
+18	du	du	ADP	_	_	_	_	_	_
+19	projet	projet	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_503
+# text = La stratégie argumentative combine pathos et ethos pour restaurer la crédibilité du dirigeant après la crise.
+1	La	le	DET	_	_	_	_	_	_
+2	stratégie	stratégie	NOUN	_	_	_	_	_	_
+3	argumentative	argumentatif	ADJ	_	_	_	_	_	_
+4	combine	combiner	VERB	_	_	_	_	_	_
+5	pathos	patho	NOUN	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	ethos	etho	NOUN	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	restaurer	restaurer	VERB	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	crédibilité	crédibilité	NOUN	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	dirigeant	dirigeant	X	_	_	_	_	_	_
+14	après	après	X	_	_	_	_	_	_
+15	la	le	DET	_	_	_	_	_	_
+16	crise	crise	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_504
+# text = Il demeure disputé de savoir si la simplification sloganeuse facilite ou appauvrit le débat démocratique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	simplification	simplification	NOUN	_	_	_	_	_	_
+9	sloganeuse	sloganeux	ADJ	_	_	_	_	_	_
+10	facilite	faciliter	VERB	_	_	_	_	_	_
+11	ou	ou	CCONJ	_	_	_	_	_	_
+12	appauvrit	appauvrir	VERB	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	débat	débat	NOUN	_	_	_	_	_	_
+15	démocratique	démocratique	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_505
+# text = Les linguistes politiques étudient comment les cadres interprétatifs orientent la perception des enjeux migratoires.
+1	Les	le	DET	_	_	_	_	_	_
+2	linguistes	linguiste	NOUN	_	_	_	_	_	_
+3	politiques	politique	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	cadres	cadre	NOUN	_	_	_	_	_	_
+8	interprétatifs	interprétatif	ADJ	_	_	_	_	_	_
+9	orientent	orienter	VERB	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	perception	perception	NOUN	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	enjeux	enjeux	X	_	_	_	_	_	_
+14	migratoires	migratoires	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_506
+# text = Nonobstant les discours d'unité, les pronoms inclusifs masquent parfois des divisions profondes au sein de la coalition.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	discours	discour	NOUN	_	_	_	_	_	_
+4	d'unité	d'unité	X	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	pronoms	pronoms	X	_	_	_	_	_	_
+8	inclusifs	inclusifs	X	_	_	_	_	_	_
+9	masquent	masquent	X	_	_	_	_	_	_
+10	parfois	parfois	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	divisions	divisions	X	_	_	_	_	_	_
+13	profondes	profondes	X	_	_	_	_	_	_
+14	au	au	ADP	_	_	_	_	_	_
+15	sein	sein	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	coalition	coalition	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_507
+# text = La notion d'acte de langage performatif explique comment certaines déclarations créent des faits institutionnels.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	d'acte	d'acte	X	_	_	_	_	_	_
+4	de	un	DET	_	_	_	_	_	_
+5	langage	langage	X	_	_	_	_	_	_
+6	performatif	performatif	X	_	_	_	_	_	_
+7	explique	explique	X	_	_	_	_	_	_
+8	comment	comment	X	_	_	_	_	_	_
+9	certaines	certaines	X	_	_	_	_	_	_
+10	déclarations	déclarations	X	_	_	_	_	_	_
+11	créent	créent	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	faits	faits	X	_	_	_	_	_	_
+14	institutionnels	institutionnels	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_508
+# text = Les analystes du discours comparent les figures de style employées par les oppositions lors des motions de censure.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	comparent	comparent	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	figures	figures	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	style	style	X	_	_	_	_	_	_
+10	employées	employées	X	_	_	_	_	_	_
+11	par	par	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	oppositions	oppositions	X	_	_	_	_	_	_
+14	lors	lors	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	motions	motions	X	_	_	_	_	_	_
+17	de	un	DET	_	_	_	_	_	_
+18	censure	censure	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_509
+# text = Le débat télévisé a illustré l'usage stratégique des interruptions pour déstabiliser l'adversaire.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	télévisé	télévisé	ADJ	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	illustré	illustrer	VERB	_	_	_	_	_	_
+6	l'usage	l'usage	X	_	_	_	_	_	_
+7	stratégique	stratégique	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	interruptions	interruptions	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	déstabiliser	déstabiliser	X	_	_	_	_	_	_
+12	l'adversaire	l'adversaire	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_510
+# text = La rhétorique de la transparence sert souvent à légitimer des mesures dont les détails restent opaques.
+1	La	le	DET	_	_	_	_	_	_
+2	rhétorique	rhétorique	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	transparence	transparence	NOUN	_	_	_	_	_	_
+6	sert	servir	VERB	_	_	_	_	_	_
+7	souvent	souvent	ADV	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	légitimer	légitimer	VERB	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	mesures	mesure	NOUN	_	_	_	_	_	_
+12	dont	dont	PRON	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	détails	détail	NOUN	_	_	_	_	_	_
+15	restent	rester	VERB	_	_	_	_	_	_
+16	opaques	opaque	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_511
+# text = Après avoir codé les interventions, l'équipe a identifié une polarisation croissante des registres argumentatifs.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	codé	coder	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	interventions	intervention	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	identifié	identifié	X	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	polarisation	polarisation	X	_	_	_	_	_	_
+12	croissante	croissante	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	registres	registres	X	_	_	_	_	_	_
+15	argumentatifs	argumentatifs	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_512
+# text = La critique médiatique souligne que les raccourcis rhétoriques remplacent parfois l'examen des preuves.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	médiatique	médiatique	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	raccourcis	raccourci	NOUN	_	_	_	_	_	_
+8	rhétoriques	rhétorique	ADJ	_	_	_	_	_	_
+9	remplacent	remplacer	VERB	_	_	_	_	_	_
+10	parfois	parfois	ADV	_	_	_	_	_	_
+11	l'examen	l'examen	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	preuves	preuves	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_513
+# text = Il reste débattu si la rhétorique populiste repose sur une simplification factuelle ou une mobilisation identitaire.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	rhétorique	rhétorique	NOUN	_	_	_	_	_	_
+7	populiste	populiste	ADJ	_	_	_	_	_	_
+8	repose	reposer	VERB	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	simplification	simplification	NOUN	_	_	_	_	_	_
+12	factuelle	factuel	ADJ	_	_	_	_	_	_
+13	ou	ou	CCONJ	_	_	_	_	_	_
+14	une	un	DET	_	_	_	_	_	_
+15	mobilisation	mobilisation	NOUN	_	_	_	_	_	_
+16	identitaire	identitaire	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_514
+# text = Le cadre de l'analyse pragma-dialectique évalue la pertinence des réponses dans les confrontations parlementaires.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'analyse	l'analyse	X	_	_	_	_	_	_
+5	pragma-dialectique	pragma-dialectique	X	_	_	_	_	_	_
+6	évalue	évalue	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	pertinence	pertinence	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	réponses	réponses	X	_	_	_	_	_	_
+11	dans	dans	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	confrontations	confrontations	X	_	_	_	_	_	_
+14	parlementaires	parlementaires	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_515
+# text = Les approches sémiotiques montrent comment les symboles visuels renforcent les messages des campagnes électorales.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	sémiotiques	sémiotique	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	symboles	symbole	NOUN	_	_	_	_	_	_
+8	visuels	visuel	ADJ	_	_	_	_	_	_
+9	renforcent	renforcer	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	messages	message	NOUN	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	campagnes	campagnes	X	_	_	_	_	_	_
+14	électorales	électorales	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_516
+# text = La commission a recommandé de former les élus à la communication responsable en période de désinformation.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	former	former	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	élus	élu	NOUN	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	communication	communication	NOUN	_	_	_	_	_	_
+12	responsable	responsable	ADJ	_	_	_	_	_	_
+13	en	en	ADP	_	_	_	_	_	_
+14	période	période	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	désinformation	désinformation	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_517
+# text = Les historiens du discours relient les formules actuelles à des traditions oratoires nationales antérieures.
+1	Les	le	DET	_	_	_	_	_	_
+2	historiens	historien	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	relient	relient	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	formules	formules	X	_	_	_	_	_	_
+8	actuelles	actuelles	X	_	_	_	_	_	_
+9	à	à	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	traditions	traditions	X	_	_	_	_	_	_
+12	oratoires	oratoires	X	_	_	_	_	_	_
+13	nationales	nationales	X	_	_	_	_	_	_
+14	antérieures	antérieures	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_518
+# text = Le débat sur la sincérité politique interroge la frontière entre persuasion légitime et manipulation délibérée.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	sincérité	sincérité	NOUN	_	_	_	_	_	_
+6	politique	politique	ADJ	_	_	_	_	_	_
+7	interroge	interroger	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	frontière	frontière	NOUN	_	_	_	_	_	_
+10	entre	entre	ADP	_	_	_	_	_	_
+11	persuasion	persuasion	NOUN	_	_	_	_	_	_
+12	légitime	légitime	ADJ	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	manipulation	manipulation	NOUN	_	_	_	_	_	_
+15	délibérée	délibérer	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_519
+# text = La théorie des cadres cognitifs explique pourquoi certains mots déclenchent des réactions affectives immédiates.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	cadres	cadres	X	_	_	_	_	_	_
+5	cognitifs	cognitifs	X	_	_	_	_	_	_
+6	explique	explique	X	_	_	_	_	_	_
+7	pourquoi	pourquoi	X	_	_	_	_	_	_
+8	certains	certains	X	_	_	_	_	_	_
+9	mots	mots	X	_	_	_	_	_	_
+10	déclenchent	déclenchent	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	réactions	réactions	X	_	_	_	_	_	_
+13	affectives	affectives	X	_	_	_	_	_	_
+14	immédiates	immédiates	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_520
+# text = Les chercheurs en sciences politiques étudient comment les réseaux sociaux amplifient les messages polarisants.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	sciences	science	NOUN	_	_	_	_	_	_
+5	politiques	politique	ADJ	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	comment	comment	ADV	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	réseaux	réseau	NOUN	_	_	_	_	_	_
+10	sociaux	social	ADJ	_	_	_	_	_	_
+11	amplifient	amplifier	VERB	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	messages	message	NOUN	_	_	_	_	_	_
+14	polarisants	polarisant	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_521
+# text = La déconstruction des mythes fondateurs nationaux révèle des récits sélectifs dans les discours commémoratifs.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	mythes	mythes	X	_	_	_	_	_	_
+5	fondateurs	fondateurs	X	_	_	_	_	_	_
+6	nationaux	nationaux	X	_	_	_	_	_	_
+7	révèle	révèle	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	récits	récits	X	_	_	_	_	_	_
+10	sélectifs	sélectifs	X	_	_	_	_	_	_
+11	dans	dans	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	discours	discours	X	_	_	_	_	_	_
+14	commémoratifs	commémoratifs	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_522
+# text = Le principe de parité argumentative invite à accorder un temps de parole équitable aux positions minoritaires.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	parité	parité	NOUN	_	_	_	_	_	_
+5	argumentative	argumentatif	ADJ	_	_	_	_	_	_
+6	invite	inviter	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	accorder	accorder	VERB	_	_	_	_	_	_
+9	un	un	DET	_	_	_	_	_	_
+10	temps	temp	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	parole	parole	NOUN	_	_	_	_	_	_
+13	équitable	équitable	ADJ	_	_	_	_	_	_
+14	aux	aux	ADP	_	_	_	_	_	_
+15	positions	positions	X	_	_	_	_	_	_
+16	minoritaires	minoritaires	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_523
+# text = Les données de corpus confirment une augmentation des constructions impersonnelles dans les discours gouvernementaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	corpus	corpu	NOUN	_	_	_	_	_	_
+5	confirment	confirmer	VERB	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	augmentation	augmentation	NOUN	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	constructions	constructions	X	_	_	_	_	_	_
+10	impersonnelles	impersonnelles	X	_	_	_	_	_	_
+11	dans	dans	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	discours	discours	X	_	_	_	_	_	_
+14	gouvernementaux	gouvernementaux	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_524
+# text = La critique institutionnelle dénonce l'usage des expertises comme argument d'autorité sans discussion contradictoire.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	l'usage	l'usage	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	expertises	expertises	X	_	_	_	_	_	_
+8	comme	comme	SCONJ	_	_	_	_	_	_
+9	argument	argument	X	_	_	_	_	_	_
+10	d'autorité	d'autorité	X	_	_	_	_	_	_
+11	sans	sans	X	_	_	_	_	_	_
+12	discussion	discussion	X	_	_	_	_	_	_
+13	contradictoire	contradictoire	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_525
+# text = Il faudrait que les citoyens disposent d'outils pour évaluer la solidité argumentative des programmes présentés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	citoyens	citoyen	NOUN	_	_	_	_	_	_
+6	disposent	disposer	VERB	_	_	_	_	_	_
+7	d'outils	d'outils	X	_	_	_	_	_	_
+8	pour	pour	X	_	_	_	_	_	_
+9	évaluer	évaluer	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	solidité	solidité	X	_	_	_	_	_	_
+12	argumentative	argumentative	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	programmes	programmes	X	_	_	_	_	_	_
+15	présentés	présentés	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_526
+# text = Les études longitudinales montrent que l'exposition précoce à la parole influence la segmentation phonologique chez le nourrisson.
+1	Les	le	DET	_	_	_	_	_	_
+2	études	étude	NOUN	_	_	_	_	_	_
+3	longitudinales	longitudinal	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	l'exposition	l'exposition	X	_	_	_	_	_	_
+7	précoce	précoce	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	parole	parole	X	_	_	_	_	_	_
+11	influence	influence	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	segmentation	segmentation	X	_	_	_	_	_	_
+14	phonologique	phonologique	X	_	_	_	_	_	_
+15	chez	chez	X	_	_	_	_	_	_
+16	le	le	DET	_	_	_	_	_	_
+17	nourrisson	nourrisson	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_527
+# text = Bien que l'innéisme explique certaines universalités, l'input linguistique structure fortement le développement lexical.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'innéisme	l'innéisme	X	_	_	_	_	_	_
+4	explique	explique	X	_	_	_	_	_	_
+5	certaines	certaines	X	_	_	_	_	_	_
+6	universalités	universalités	X	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	l'input	l'input	X	_	_	_	_	_	_
+9	linguistique	linguistique	X	_	_	_	_	_	_
+10	structure	structure	X	_	_	_	_	_	_
+11	fortement	fortement	X	_	_	_	_	_	_
+12	le	le	DET	_	_	_	_	_	_
+13	développement	développement	X	_	_	_	_	_	_
+14	lexical	lexical	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_528
+# text = La théorie de l'apprentissage social suggère que les enfants imitent les modèles fournis par l'entourage communicatif.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'apprentissage	l'apprentissage	X	_	_	_	_	_	_
+5	social	social	X	_	_	_	_	_	_
+6	suggère	suggère	X	_	_	_	_	_	_
+7	que	que	PRON	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	enfants	enfants	X	_	_	_	_	_	_
+10	imitent	imitent	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	modèles	modèles	X	_	_	_	_	_	_
+13	fournis	fournis	X	_	_	_	_	_	_
+14	par	par	X	_	_	_	_	_	_
+15	l'entourage	l'entourage	X	_	_	_	_	_	_
+16	communicatif	communicatif	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_529
+# text = Il demeure disputé de savoir si la fenêtre critique pour l'acquisition phonétique se referme de manière abrupte.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	fenêtre	fenêtre	NOUN	_	_	_	_	_	_
+9	critique	critique	ADJ	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	l'acquisition	l'acquisition	X	_	_	_	_	_	_
+12	phonétique	phonétique	X	_	_	_	_	_	_
+13	se	se	PRON	_	_	_	_	_	_
+14	referme	referme	X	_	_	_	_	_	_
+15	de	un	DET	_	_	_	_	_	_
+16	manière	manière	X	_	_	_	_	_	_
+17	abrupte	abrupte	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_530
+# text = Les psycholinguistes utilisent des paradigmes d'écoute préférentielle pour tester la sensibilité aux structures prosodiques.
+1	Les	le	DET	_	_	_	_	_	_
+2	psycholinguistes	psycholinguiste	NOUN	_	_	_	_	_	_
+3	utilisent	utiliser	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	paradigmes	paradigme	NOUN	_	_	_	_	_	_
+6	d'écoute	d'écoute	X	_	_	_	_	_	_
+7	préférentielle	préférentielle	X	_	_	_	_	_	_
+8	pour	pour	X	_	_	_	_	_	_
+9	tester	tester	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	sensibilité	sensibilité	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	structures	structures	X	_	_	_	_	_	_
+14	prosodiques	prosodiques	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_531
+# text = Nonobstant les progrès en imagerie, relier activations cérébrales et étapes développementales reste méthodologiquement délicat.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	progrès	progrè	NOUN	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	imagerie	imagerie	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	relier	relier	VERB	_	_	_	_	_	_
+8	activations	activation	NOUN	_	_	_	_	_	_
+9	cérébrales	cérébral	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	étapes	étape	NOUN	_	_	_	_	_	_
+12	développementales	développemental	ADJ	_	_	_	_	_	_
+13	reste	rester	VERB	_	_	_	_	_	_
+14	méthodologiquement	méthodologiquement	ADV	_	_	_	_	_	_
+15	délicat	délicat	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_532
+# text = La notion de bootstrap lexical propose que les enfants exploitent des régularités phonotactiques pour segmenter le flux.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	bootstrap	bootstrap	NOUN	_	_	_	_	_	_
+5	lexical	lexical	ADJ	_	_	_	_	_	_
+6	propose	proposer	VERB	_	_	_	_	_	_
+7	que	que	SCONJ	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	enfants	enfant	NOUN	_	_	_	_	_	_
+10	exploitent	exploiter	VERB	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	régularités	régularité	NOUN	_	_	_	_	_	_
+13	phonotactiques	phonotactique	ADJ	_	_	_	_	_	_
+14	pour	pour	ADP	_	_	_	_	_	_
+15	segmenter	segmenter	VERB	_	_	_	_	_	_
+16	le	le	DET	_	_	_	_	_	_
+17	flux	flux	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_533
+# text = Les données transcrites de corpus d'enfants bilingues révèlent des stratégies de code-switching dès le stade précoce.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	transcrites	transcrire	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	corpus	corpu	NOUN	_	_	_	_	_	_
+6	d'enfants	d'enfants	X	_	_	_	_	_	_
+7	bilingues	bilingues	X	_	_	_	_	_	_
+8	révèlent	révèlent	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	stratégies	stratégies	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	code-switching	code-switching	X	_	_	_	_	_	_
+13	dès	dès	X	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	stade	stade	X	_	_	_	_	_	_
+16	précoce	précoce	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_534
+# text = Le débat oppose les modèles connectionnistes aux approches symboliques dans l'explication de la morphologie.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	oppose	opposer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	modèles	modèle	NOUN	_	_	_	_	_	_
+6	connectionnistes	connectionniste	ADJ	_	_	_	_	_	_
+7	aux	aux	ADP	_	_	_	_	_	_
+8	approches	approches	X	_	_	_	_	_	_
+9	symboliques	symboliques	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	l'explication	l'explication	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	morphologie	morphologie	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_535
+# text = La théorie de l'optimalité phonologique décrit comment les contraintes hiérarchisées guident la production enfantine.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'optimalité	l'optimalité	X	_	_	_	_	_	_
+5	phonologique	phonologique	X	_	_	_	_	_	_
+6	décrit	décrit	X	_	_	_	_	_	_
+7	comment	comment	X	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	contraintes	contraintes	X	_	_	_	_	_	_
+10	hiérarchisées	hiérarchisées	X	_	_	_	_	_	_
+11	guident	guident	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	production	production	X	_	_	_	_	_	_
+14	enfantine	enfantine	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_536
+# text = Après avoir contrôlé le quotient socioéconomique, l'équipe a observé des écarts persistants de taille de vocabulaire.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	contrôlé	contrôler	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	quotient	quotient	NOUN	_	_	_	_	_	_
+6	socioéconomique	socioéconomique	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	l'équipe	l'équipe	X	_	_	_	_	_	_
+9	a	avoir	AUX	_	_	_	_	_	_
+10	observé	observé	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	écarts	écarts	X	_	_	_	_	_	_
+13	persistants	persistants	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	taille	taille	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	vocabulaire	vocabulaire	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_537
+# text = La critique méthodologique souligne que les tâches expérimentales sous-estiment parfois les compétences pragmatiques.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	méthodologique	méthodologique	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	tâches	tâche	NOUN	_	_	_	_	_	_
+8	expérimentales	expérimental	ADJ	_	_	_	_	_	_
+9	sous-estiment	sous-estimer	VERB	_	_	_	_	_	_
+10	parfois	parfois	ADV	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	compétences	compétence	NOUN	_	_	_	_	_	_
+13	pragmatiques	pragmatique	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_538
+# text = Il reste débattu si la lecture influence rétroactivement la conscience phonémique chez l'apprenant alphabétisé.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	lecture	lecture	NOUN	_	_	_	_	_	_
+7	influence	influence	VERB	_	_	_	_	_	_
+8	rétroactivement	rétroactivement	ADV	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	conscience	conscience	NOUN	_	_	_	_	_	_
+11	phonémique	phonémique	ADJ	_	_	_	_	_	_
+12	chez	chez	ADP	_	_	_	_	_	_
+13	l'apprenant	l'apprenant	X	_	_	_	_	_	_
+14	alphabétisé	alphabétisé	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_539
+# text = Le cadre de la linguistique développementale relie input, mécanismes d'apprentissage et maturation cognitive.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	linguistique	linguistique	NOUN	_	_	_	_	_	_
+6	développementale	développemental	ADJ	_	_	_	_	_	_
+7	relie	relier	VERB	_	_	_	_	_	_
+8	input	input	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	mécanismes	mécanisme	NOUN	_	_	_	_	_	_
+11	d'apprentissage	d'apprentissage	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	maturation	maturation	X	_	_	_	_	_	_
+14	cognitive	cognitive	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_540
+# text = Les approches usage-based affirment que les constructions émergent de la fréquence et de la fonction communicative.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	usage-based	usage-based	ADJ	_	_	_	_	_	_
+4	affirment	affirmer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	constructions	construction	NOUN	_	_	_	_	_	_
+8	émergent	émerger	VERB	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	fréquence	fréquence	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	fonction	fonction	NOUN	_	_	_	_	_	_
+16	communicative	communicatif	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_541
+# text = La commission a recommandé d'enrichir les interactions langagières dans les crèches des quartiers défavorisés.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	d'enrichir	d'enrichir	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	interactions	interactions	X	_	_	_	_	_	_
+8	langagières	langagières	X	_	_	_	_	_	_
+9	dans	dans	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	crèches	crèches	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	quartiers	quartiers	X	_	_	_	_	_	_
+14	défavorisés	défavorisés	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_542
+# text = Les cliniciens orthophonistes étudient comment les troubles développementaux modifient les trajectoires scolaires.
+1	Les	le	DET	_	_	_	_	_	_
+2	cliniciens	clinicien	NOUN	_	_	_	_	_	_
+3	orthophonistes	orthophoniste	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	troubles	trouble	NOUN	_	_	_	_	_	_
+8	développementaux	développemental	ADJ	_	_	_	_	_	_
+9	modifient	modifier	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	trajectoires	trajectoire	NOUN	_	_	_	_	_	_
+12	scolaires	scolaire	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_543
+# text = Le débat sur le bilinguisme précoce interroge les mythes de confusion linguistique chez l'enfant.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	bilinguisme	bilinguisme	NOUN	_	_	_	_	_	_
+6	précoce	précoce	ADJ	_	_	_	_	_	_
+7	interroge	interroger	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	mythes	mythe	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	confusion	confusion	NOUN	_	_	_	_	_	_
+12	linguistique	linguistique	ADJ	_	_	_	_	_	_
+13	chez	chez	ADP	_	_	_	_	_	_
+14	l'enfant	l'enfant	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_544
+# text = La théorie des paramètres explique comment l'enfant fixe les options grammaticales à partir d'indices limités.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	paramètres	paramètres	X	_	_	_	_	_	_
+5	explique	explique	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	l'enfant	l'enfant	X	_	_	_	_	_	_
+8	fixe	fixe	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	options	options	X	_	_	_	_	_	_
+11	grammaticales	grammaticales	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	partir	partir	X	_	_	_	_	_	_
+14	d'indices	d'indices	X	_	_	_	_	_	_
+15	limités	limités	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_545
+# text = Les chercheurs en didactique des langues étudient comment l'âge d'acquisition influence la prononciation finale.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	didactique	didactique	NOUN	_	_	_	_	_	_
+5	des	des	DET	_	_	_	_	_	_
+6	langues	langues	X	_	_	_	_	_	_
+7	étudient	étudient	X	_	_	_	_	_	_
+8	comment	comment	X	_	_	_	_	_	_
+9	l'âge	l'âge	X	_	_	_	_	_	_
+10	d'acquisition	d'acquisition	X	_	_	_	_	_	_
+11	influence	influence	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	prononciation	prononciation	X	_	_	_	_	_	_
+14	finale	finale	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_546
+# text = La déconstruction des tests standardisés révèle des biais culturels dans l'évaluation des compétences langagières.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	tests	tests	X	_	_	_	_	_	_
+5	standardisés	standardisés	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	biais	biais	X	_	_	_	_	_	_
+9	culturels	culturels	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	l'évaluation	l'évaluation	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	compétences	compétences	X	_	_	_	_	_	_
+14	langagières	langagières	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_547
+# text = Le principe de richesse input invite les institutions à promouvoir des environnements linguistiquement stimulants.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	richesse	richesse	NOUN	_	_	_	_	_	_
+5	input	input	NOUN	_	_	_	_	_	_
+6	invite	inviter	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	institutions	institution	NOUN	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	promouvoir	promouvoir	VERB	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	environnements	environnement	NOUN	_	_	_	_	_	_
+13	linguistiquement	linguistiquement	ADV	_	_	_	_	_	_
+14	stimulants	stimulant	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_548
+# text = Les données scolaires confirment un lien entre maîtrise orale précoce et réussite ultérieure en lecture.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	scolaires	scolaire	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	lien	lien	NOUN	_	_	_	_	_	_
+7	entre	entre	ADP	_	_	_	_	_	_
+8	maîtrise	maîtrise	NOUN	_	_	_	_	_	_
+9	orale	oral	ADJ	_	_	_	_	_	_
+10	précoce	précoce	ADJ	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	réussite	réussite	NOUN	_	_	_	_	_	_
+13	ultérieure	ultérieur	ADJ	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	lecture	lecture	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_549
+# text = La critique institutionnelle dénonce le sous-financement des dispositifs de détection précoce des retards.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	sous-financement	sous-financement	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	dispositifs	dispositifs	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	détection	détection	X	_	_	_	_	_	_
+11	précoce	précoce	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	retards	retards	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_550
+# text = Il faudrait que les politiques éducatives intègrent les apports récents de la psycholinguistique développementale.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	politiques	politique	NOUN	_	_	_	_	_	_
+6	éducatives	éducatif	ADJ	_	_	_	_	_	_
+7	intègrent	intégrer	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	apports	apport	NOUN	_	_	_	_	_	_
+10	récents	récent	ADJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	psycholinguistique	psycholinguistique	NOUN	_	_	_	_	_	_
+14	développementale	développemental	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_551
+# text = Les enquêtes internes montrent que le climat de confiance conditionne l'adhésion aux transformations managériales annoncées.
+1	Les	le	DET	_	_	_	_	_	_
+2	enquêtes	enquête	NOUN	_	_	_	_	_	_
+3	internes	interne	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	climat	climat	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	confiance	confiance	NOUN	_	_	_	_	_	_
+10	conditionne	conditionner	VERB	_	_	_	_	_	_
+11	l'adhésion	l'adhésion	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	transformations	transformations	X	_	_	_	_	_	_
+14	managériales	managériales	X	_	_	_	_	_	_
+15	annoncées	annoncées	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_552
+# text = Bien que les primes individuelles motivent certains profils, elles peuvent affaiblir la coopération interéquipes.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	primes	prime	NOUN	_	_	_	_	_	_
+5	individuelles	individuel	ADJ	_	_	_	_	_	_
+6	motivent	motiver	VERB	_	_	_	_	_	_
+7	certains	certain	DET	_	_	_	_	_	_
+8	profils	profil	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	elles	elle	PRON	_	_	_	_	_	_
+11	peuvent	pouvoir	VERB	_	_	_	_	_	_
+12	affaiblir	affaiblir	VERB	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	coopération	coopération	NOUN	_	_	_	_	_	_
+15	interéquipes	interéquipe	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_553
+# text = La théorie de l'engagement organisationnel distingue affectif, continuité et obligation normative dans les attachements.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'engagement	l'engagement	X	_	_	_	_	_	_
+5	organisationnel	organisationnel	X	_	_	_	_	_	_
+6	distingue	distingue	X	_	_	_	_	_	_
+7	affectif	affectif	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	continuité	continuité	X	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	obligation	obligation	X	_	_	_	_	_	_
+12	normative	normative	X	_	_	_	_	_	_
+13	dans	dans	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	attachements	attachements	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_554
+# text = Il demeure disputé de savoir si le leadership transformationnel produit des effets durables hors contexte charismatique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	leadership	leadership	NOUN	_	_	_	_	_	_
+9	transformationnel	transformationnel	ADJ	_	_	_	_	_	_
+10	produit	produire	VERB	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	effets	effet	NOUN	_	_	_	_	_	_
+13	durables	durable	ADJ	_	_	_	_	_	_
+14	hors	hors	ADP	_	_	_	_	_	_
+15	contexte	contexte	NOUN	_	_	_	_	_	_
+16	charismatique	charismatique	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_555
+# text = Les psychologues du travail utilisent des échelles validées pour mesurer l'épuisement professionnel et le cynisme.
+1	Les	le	DET	_	_	_	_	_	_
+2	psychologues	psychologue	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	travail	travail	X	_	_	_	_	_	_
+5	utilisent	utilisent	X	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	échelles	échelles	X	_	_	_	_	_	_
+8	validées	validées	X	_	_	_	_	_	_
+9	pour	pour	X	_	_	_	_	_	_
+10	mesurer	mesurer	X	_	_	_	_	_	_
+11	l'épuisement	l'épuisement	X	_	_	_	_	_	_
+12	professionnel	professionnel	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	cynisme	cynisme	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_556
+# text = Nonobstant les programmes de bien-être, la charge mentale persiste lorsque les priorités restent contradictoires.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	programmes	programme	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	bien-être	bien-être	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	charge	charge	NOUN	_	_	_	_	_	_
+9	mentale	mental	ADJ	_	_	_	_	_	_
+10	persiste	persister	VERB	_	_	_	_	_	_
+11	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	priorités	priorité	NOUN	_	_	_	_	_	_
+14	restent	rester	VERB	_	_	_	_	_	_
+15	contradictoires	contradictoire	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_557
+# text = La notion de justice organisationnelle structure les perceptions de légitimité des décisions de restructuration.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	justice	justice	NOUN	_	_	_	_	_	_
+5	organisationnelle	organisationnel	ADJ	_	_	_	_	_	_
+6	structure	structurer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	perceptions	perception	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	légitimité	légitimité	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	décisions	décisions	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	restructuration	restructuration	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_558
+# text = Les données multilevel montrent que la culture d'entreprise module l'effet des pratiques de télétravail.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	multilevel	multilevel	ADJ	_	_	_	_	_	_
+4	montrent	montrer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	culture	culture	NOUN	_	_	_	_	_	_
+8	d'entreprise	d'entreprise	X	_	_	_	_	_	_
+9	module	module	X	_	_	_	_	_	_
+10	l'effet	l'effet	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	pratiques	pratiques	X	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	télétravail	télétravail	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_559
+# text = Le débat porte sur la validité transculturelle des modèles nord-américains importés sans adaptation locale.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	validité	validité	NOUN	_	_	_	_	_	_
+7	transculturelle	transculturel	ADJ	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	modèles	modèles	X	_	_	_	_	_	_
+10	nord-américains	nord-américains	X	_	_	_	_	_	_
+11	importés	importés	X	_	_	_	_	_	_
+12	sans	sans	X	_	_	_	_	_	_
+13	adaptation	adaptation	X	_	_	_	_	_	_
+14	locale	locale	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_560
+# text = La théorie de la conservation des ressources explique comment le stress accumulé réduit la performance cognitive.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	conservation	conservation	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	ressources	ressources	X	_	_	_	_	_	_
+8	explique	explique	X	_	_	_	_	_	_
+9	comment	comment	X	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	stress	stress	X	_	_	_	_	_	_
+12	accumulé	accumulé	X	_	_	_	_	_	_
+13	réduit	réduit	X	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	performance	performance	X	_	_	_	_	_	_
+16	cognitive	cognitive	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_561
+# text = Après avoir mené des entretiens semi-directifs, l'équipe a identifié des mécanismes de résistance passive.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	mené	mener	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	entretiens	entretien	NOUN	_	_	_	_	_	_
+6	semi-directifs	semi-directif	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	l'équipe	l'équipe	X	_	_	_	_	_	_
+9	a	avoir	AUX	_	_	_	_	_	_
+10	identifié	identifié	X	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	mécanismes	mécanismes	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	résistance	résistance	X	_	_	_	_	_	_
+15	passive	passive	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_562
+# text = La critique managériale souligne que les discours d'agilité masquent parfois l'intensification du travail.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	managériale	managérial	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	discours	discour	NOUN	_	_	_	_	_	_
+8	d'agilité	d'agilité	X	_	_	_	_	_	_
+9	masquent	masquent	X	_	_	_	_	_	_
+10	parfois	parfois	X	_	_	_	_	_	_
+11	l'intensification	l'intensification	X	_	_	_	_	_	_
+12	du	du	ADP	_	_	_	_	_	_
+13	travail	travail	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_563
+# text = Il reste débattu si les feedbacks continus améliorent l'apprentissage ou génèrent une surveillance permanente.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	feedbacks	feedback	NOUN	_	_	_	_	_	_
+7	continus	continu	ADJ	_	_	_	_	_	_
+8	améliorent	améliorer	VERB	_	_	_	_	_	_
+9	l'apprentissage	l'apprentissage	X	_	_	_	_	_	_
+10	ou	ou	CCONJ	_	_	_	_	_	_
+11	génèrent	génèrent	X	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	surveillance	surveillance	X	_	_	_	_	_	_
+14	permanente	permanente	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_564
+# text = Le cadre de la psychologie positive au travail valorise les forces individuelles sans ignorer les contraintes structurelles.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	psychologie	psychologie	NOUN	_	_	_	_	_	_
+6	positive	positif	ADJ	_	_	_	_	_	_
+7	au	au	ADP	_	_	_	_	_	_
+8	travail	travail	X	_	_	_	_	_	_
+9	valorise	valorise	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	forces	forces	X	_	_	_	_	_	_
+12	individuelles	individuelles	X	_	_	_	_	_	_
+13	sans	sans	X	_	_	_	_	_	_
+14	ignorer	ignorer	X	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	contraintes	contraintes	X	_	_	_	_	_	_
+17	structurelles	structurelles	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_565
+# text = Les approches participatives associent employés et direction pour concevoir des processus plus soutenables.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	participatives	participatif	ADJ	_	_	_	_	_	_
+4	associent	associer	VERB	_	_	_	_	_	_
+5	employés	employer	VERB	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	direction	direction	NOUN	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	concevoir	concevoir	VERB	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	processus	processu	NOUN	_	_	_	_	_	_
+12	plus	plus	ADV	_	_	_	_	_	_
+13	soutenables	soutenable	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_566
+# text = La commission RH a recommandé de former les managers à la prévention des conflits interpersonnels.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	RH	RH	PROPN	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	recommandé	recommander	VERB	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	former	former	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	managers	manager	NOUN	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	prévention	prévention	NOUN	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	conflits	conflits	X	_	_	_	_	_	_
+15	interpersonnels	interpersonnels	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_567
+# text = Les sociologues des organisations étudient comment les réseaux informels contournent les hiérarchies officielles.
+1	Les	le	DET	_	_	_	_	_	_
+2	sociologues	sociologue	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	organisations	organisations	X	_	_	_	_	_	_
+5	étudient	étudient	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	réseaux	réseaux	X	_	_	_	_	_	_
+9	informels	informels	X	_	_	_	_	_	_
+10	contournent	contournent	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	hiérarchies	hiérarchies	X	_	_	_	_	_	_
+13	officielles	officielles	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_568
+# text = Le débat sur la diversité interroge l'efficacité des quotas face aux biais implicites persistants.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	diversité	diversité	NOUN	_	_	_	_	_	_
+6	interroge	interroger	VERB	_	_	_	_	_	_
+7	l'efficacité	l'efficacité	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	quotas	quotas	X	_	_	_	_	_	_
+10	face	face	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	biais	biais	X	_	_	_	_	_	_
+13	implicites	implicites	X	_	_	_	_	_	_
+14	persistants	persistants	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_569
+# text = La théorie de la charge cognitive explique les erreurs lorsque les systèmes d'information se multiplient.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	charge	charge	NOUN	_	_	_	_	_	_
+6	cognitive	cognitif	ADJ	_	_	_	_	_	_
+7	explique	expliquer	VERB	_	_	_	_	_	_
+8	les	le	DET	_	_	_	_	_	_
+9	erreurs	erreur	NOUN	_	_	_	_	_	_
+10	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	systèmes	système	NOUN	_	_	_	_	_	_
+13	d'information	d'information	X	_	_	_	_	_	_
+14	se	se	PRON	_	_	_	_	_	_
+15	multiplient	multiplient	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_570
+# text = Les chercheurs en ergonomie psychologique étudient l'impact des open spaces sur la concentration individuelle.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	ergonomie	ergonomie	NOUN	_	_	_	_	_	_
+5	psychologique	psychologique	ADJ	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	l'impact	l'impact	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	open	open	X	_	_	_	_	_	_
+10	spaces	spaces	X	_	_	_	_	_	_
+11	sur	sur	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	concentration	concentration	X	_	_	_	_	_	_
+14	individuelle	individuelle	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_571
+# text = La déconstruction des discours de performance révèle des attentes irréalistes imposées aux équipes opérationnelles.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	performance	performance	X	_	_	_	_	_	_
+7	révèle	révèle	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	attentes	attentes	X	_	_	_	_	_	_
+10	irréalistes	irréalistes	X	_	_	_	_	_	_
+11	imposées	imposées	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	équipes	équipes	X	_	_	_	_	_	_
+14	opérationnelles	opérationnelles	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_572
+# text = Le principe de reconnaissance professionnelle invite à valoriser les compétences tacites des travailleurs expérimentés.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	reconnaissance	reconnaissance	NOUN	_	_	_	_	_	_
+5	professionnelle	professionnel	ADJ	_	_	_	_	_	_
+6	invite	inviter	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	valoriser	valoriser	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	compétences	compétence	NOUN	_	_	_	_	_	_
+11	tacites	tacite	ADJ	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	travailleurs	travailleurs	X	_	_	_	_	_	_
+14	expérimentés	expérimentés	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_573
+# text = Les données longitudinales confirment un lien entre autonomie décisionnelle et satisfaction au travail.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	longitudinales	longitudinal	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	lien	lien	NOUN	_	_	_	_	_	_
+7	entre	entre	ADP	_	_	_	_	_	_
+8	autonomie	autonomie	NOUN	_	_	_	_	_	_
+9	décisionnelle	décisionnel	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	satisfaction	satisfaction	NOUN	_	_	_	_	_	_
+12	au	au	ADP	_	_	_	_	_	_
+13	travail	travail	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_574
+# text = La critique institutionnelle dénonce les programmes de résilience individualisant des problèmes organisationnels.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	programmes	programme	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	résilience	résilience	NOUN	_	_	_	_	_	_
+9	individualisant	individualiser	VERB	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	problèmes	problèmes	X	_	_	_	_	_	_
+12	organisationnels	organisationnels	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_575
+# text = Il faudrait que les entreprises évaluent les interventions RH à l'aune de critères scientifiques rigoureux.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	entreprises	entreprise	NOUN	_	_	_	_	_	_
+6	évaluent	évaluer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	interventions	intervention	NOUN	_	_	_	_	_	_
+9	RH	RH	PROPN	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	l'aune	l'aune	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	critères	critères	X	_	_	_	_	_	_
+14	scientifiques	scientifiques	X	_	_	_	_	_	_
+15	rigoureux	rigoureux	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_576
+# text = La désertification médicale documentée dans les cantons montagneux accentue les inégalités d'accès aux soins primaires.
+1	La	le	DET	_	_	_	_	_	_
+2	désertification	désertification	NOUN	_	_	_	_	_	_
+3	médicale	médical	ADJ	_	_	_	_	_	_
+4	documentée	documenter	VERB	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	cantons	canton	NOUN	_	_	_	_	_	_
+8	montagneux	montagneux	ADJ	_	_	_	_	_	_
+9	accentue	accentuer	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	inégalités	inégalité	NOUN	_	_	_	_	_	_
+12	d'accès	d'accès	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	soins	soins	X	_	_	_	_	_	_
+15	primaires	primaires	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_577
+# text = Bien que les politiques d'aménagement visent la revitalisation, les services publics continuent de se concentrer en ville.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	politiques	politique	NOUN	_	_	_	_	_	_
+5	d'aménagement	d'aménagement	X	_	_	_	_	_	_
+6	visent	visent	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	revitalisation	revitalisation	X	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	services	services	X	_	_	_	_	_	_
+12	publics	publics	X	_	_	_	_	_	_
+13	continuent	continuent	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	se	se	PRON	_	_	_	_	_	_
+16	concentrer	concentrer	X	_	_	_	_	_	_
+17	en	en	PRON	_	_	_	_	_	_
+18	ville	ville	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_578
+# text = La géographie agricole montre une spécialisation croissante des exploitations selon les terroirs et les débouchés.
+1	La	le	DET	_	_	_	_	_	_
+2	géographie	géographie	NOUN	_	_	_	_	_	_
+3	agricole	agricole	ADJ	_	_	_	_	_	_
+4	montre	montrer	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	spécialisation	spécialisation	NOUN	_	_	_	_	_	_
+7	croissante	croissant	ADJ	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	exploitations	exploitations	X	_	_	_	_	_	_
+10	selon	selon	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	terroirs	terroirs	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	débouchés	débouchés	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_579
+# text = Il demeure disputé de savoir si le télétravail suffit à inverser l'exode des jeunes ménages qualifiés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	télétravail	télétravail	NOUN	_	_	_	_	_	_
+9	suffit	suffire	VERB	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	inverser	inverser	VERB	_	_	_	_	_	_
+12	l'exode	l'exode	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	jeunes	jeunes	X	_	_	_	_	_	_
+15	ménages	ménages	X	_	_	_	_	_	_
+16	qualifiés	qualifiés	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_580
+# text = Les géographes utilisent des indicateurs composites pour mesurer la fragilité des communes rurales isolées.
+1	Les	le	DET	_	_	_	_	_	_
+2	géographes	géographe	NOUN	_	_	_	_	_	_
+3	utilisent	utiliser	VERB	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	indicateurs	indicateur	NOUN	_	_	_	_	_	_
+6	composites	composite	ADJ	_	_	_	_	_	_
+7	pour	pour	ADP	_	_	_	_	_	_
+8	mesurer	mesurer	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	fragilité	fragilité	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	communes	communes	X	_	_	_	_	_	_
+13	rurales	rurales	X	_	_	_	_	_	_
+14	isolées	isolées	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_581
+# text = Nonobstant les labels de qualité, les producteurs peinent à capter la valeur ajoutée dans les filières courtes.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	labels	label	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	qualité	qualité	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	producteurs	producteur	NOUN	_	_	_	_	_	_
+9	peinent	peiner	VERB	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	capter	capter	VERB	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	valeur	valeur	NOUN	_	_	_	_	_	_
+14	ajoutée	ajouter	VERB	_	_	_	_	_	_
+15	dans	dans	ADP	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	filières	filière	NOUN	_	_	_	_	_	_
+18	courtes	court	ADJ	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_582
+# text = La notion de multifunctionnalité agricole relie production alimentaire, entretien des paysages et accueil touristique.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	multifunctionnalité	multifunctionnalité	NOUN	_	_	_	_	_	_
+5	agricole	agricole	ADJ	_	_	_	_	_	_
+6	relie	relier	VERB	_	_	_	_	_	_
+7	production	production	NOUN	_	_	_	_	_	_
+8	alimentaire	alimentaire	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	entretien	entretien	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	paysages	paysages	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	accueil	accueil	X	_	_	_	_	_	_
+15	touristique	touristique	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_583
+# text = Les données d'occupation du sol révèlent une artificialisation modérée mais persistante en périphérie des bourgs.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	d'occupation	d'occupation	X	_	_	_	_	_	_
+4	du	du	ADP	_	_	_	_	_	_
+5	sol	sol	X	_	_	_	_	_	_
+6	révèlent	révèlent	X	_	_	_	_	_	_
+7	une	un	DET	_	_	_	_	_	_
+8	artificialisation	artificialisation	X	_	_	_	_	_	_
+9	modérée	modérée	X	_	_	_	_	_	_
+10	mais	mais	CCONJ	_	_	_	_	_	_
+11	persistante	persistante	X	_	_	_	_	_	_
+12	en	en	PRON	_	_	_	_	_	_
+13	périphérie	périphérie	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	bourgs	bourgs	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_584
+# text = Le débat oppose les partisans d'une agriculture productiviste aux défenseurs d'une transition agroécologique territorialisée.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	oppose	opposer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	partisans	partisan	NOUN	_	_	_	_	_	_
+6	d'une	d'une	X	_	_	_	_	_	_
+7	agriculture	agriculture	X	_	_	_	_	_	_
+8	productiviste	productiviste	X	_	_	_	_	_	_
+9	aux	aux	ADP	_	_	_	_	_	_
+10	défenseurs	défenseurs	X	_	_	_	_	_	_
+11	d'une	d'une	X	_	_	_	_	_	_
+12	transition	transition	X	_	_	_	_	_	_
+13	agroécologique	agroécologique	X	_	_	_	_	_	_
+14	territorialisée	territorialisée	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_585
+# text = La théorie des circuits courts explique comment la proximité transforme les relations entre consommateurs et producteurs.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	circuits	circuits	X	_	_	_	_	_	_
+5	courts	courts	X	_	_	_	_	_	_
+6	explique	explique	X	_	_	_	_	_	_
+7	comment	comment	X	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	proximité	proximité	X	_	_	_	_	_	_
+10	transforme	transforme	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	relations	relations	X	_	_	_	_	_	_
+13	entre	entre	X	_	_	_	_	_	_
+14	consommateurs	consommateurs	X	_	_	_	_	_	_
+15	et	et	CCONJ	_	_	_	_	_	_
+16	producteurs	producteurs	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_586
+# text = Après avoir cartographié les fermetures, l'équipe a observé un effet domino sur les commerces de proximité.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	cartographié	cartographier	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	fermetures	fermeture	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	observé	observé	X	_	_	_	_	_	_
+10	un	un	DET	_	_	_	_	_	_
+11	effet	effet	X	_	_	_	_	_	_
+12	domino	domino	X	_	_	_	_	_	_
+13	sur	sur	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	commerces	commerces	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	proximité	proximité	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_587
+# text = La critique territoriale souligne que les zonages réglementaires freinent parfois l'installation de nouveaux agriculteurs.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	territoriale	territorial	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	zonages	zonage	NOUN	_	_	_	_	_	_
+8	réglementaires	réglementaire	ADJ	_	_	_	_	_	_
+9	freinent	freiner	VERB	_	_	_	_	_	_
+10	parfois	parfois	ADV	_	_	_	_	_	_
+11	l'installation	l'installation	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	nouveaux	nouveaux	X	_	_	_	_	_	_
+14	agriculteurs	agriculteurs	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_588
+# text = Il reste débattu si les éoliennes rurales renforcent les revenus locaux ou fragmentent les paysages habités.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	éoliennes	éolienne	NOUN	_	_	_	_	_	_
+7	rurales	rural	ADJ	_	_	_	_	_	_
+8	renforcent	renforcer	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	revenus	revenu	NOUN	_	_	_	_	_	_
+11	locaux	local	ADJ	_	_	_	_	_	_
+12	ou	ou	CCONJ	_	_	_	_	_	_
+13	fragmentent	fragmenter	VERB	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	paysages	paysage	NOUN	_	_	_	_	_	_
+16	habités	habité	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_589
+# text = Le cadre de la géographie rurale française articule centralité, accessibilité et attractivité résidentielle.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	géographie	géographie	NOUN	_	_	_	_	_	_
+6	rurale	rural	ADJ	_	_	_	_	_	_
+7	française	français	ADJ	_	_	_	_	_	_
+8	articule	articuler	VERB	_	_	_	_	_	_
+9	centralité	centralité	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	accessibilité	accessibilité	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	attractivité	attractivité	NOUN	_	_	_	_	_	_
+14	résidentielle	résidentiel	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_590
+# text = Les approches participatives associent habitants et élus pour définir des projets de territoire cohérents.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	participatives	participatif	ADJ	_	_	_	_	_	_
+4	associent	associer	VERB	_	_	_	_	_	_
+5	habitants	habitant	NOUN	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	élus	élu	NOUN	_	_	_	_	_	_
+8	pour	pour	ADP	_	_	_	_	_	_
+9	définir	définir	VERB	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	projets	projet	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	territoire	territoire	NOUN	_	_	_	_	_	_
+14	cohérents	cohérent	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_591
+# text = La commission a recommandé de sécuriser les friches agricoles pour faciliter les installations en zone difficile.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	sécuriser	sécuriser	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	friches	friche	NOUN	_	_	_	_	_	_
+9	agricoles	agricole	ADJ	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	faciliter	faciliter	VERB	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	installations	installation	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	zone	zone	NOUN	_	_	_	_	_	_
+16	difficile	difficile	ADJ	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_592
+# text = Les sociologues ruraux étudient comment les associations maintiennent la vie sociale dans les villages en déclin.
+1	Les	le	DET	_	_	_	_	_	_
+2	sociologues	sociologue	NOUN	_	_	_	_	_	_
+3	ruraux	rural	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	associations	association	NOUN	_	_	_	_	_	_
+8	maintiennent	maintenir	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	vie	vie	NOUN	_	_	_	_	_	_
+11	sociale	social	ADJ	_	_	_	_	_	_
+12	dans	dans	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	villages	village	NOUN	_	_	_	_	_	_
+15	en	en	ADP	_	_	_	_	_	_
+16	déclin	déclin	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_593
+# text = Le débat sur la fibre interroge la priorisation des investissements numériques en territoires peu denses.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	fibre	fibre	NOUN	_	_	_	_	_	_
+6	interroge	interroger	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	priorisation	priorisation	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	investissements	investissements	X	_	_	_	_	_	_
+11	numériques	numériques	X	_	_	_	_	_	_
+12	en	en	PRON	_	_	_	_	_	_
+13	territoires	territoires	X	_	_	_	_	_	_
+14	peu	peu	X	_	_	_	_	_	_
+15	denses	denses	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_594
+# text = La théorie de la rente foncière explique la spéculation autour des terres agricoles proches des métropoles.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	rente	rente	NOUN	_	_	_	_	_	_
+6	foncière	foncier	ADJ	_	_	_	_	_	_
+7	explique	expliquer	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	spéculation	spéculation	NOUN	_	_	_	_	_	_
+10	autour	autour	ADV	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	terres	terres	X	_	_	_	_	_	_
+13	agricoles	agricoles	X	_	_	_	_	_	_
+14	proches	proches	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	métropoles	métropoles	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_595
+# text = Les chercheurs en aménagement étudient comment les maisons de santé pluridisciplinaires compensent les déserts médicaux.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	aménagement	aménagement	NOUN	_	_	_	_	_	_
+5	étudient	étudier	VERB	_	_	_	_	_	_
+6	comment	comment	ADV	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	maisons	maison	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	santé	santé	NOUN	_	_	_	_	_	_
+11	pluridisciplinaires	pluridisciplinaire	ADJ	_	_	_	_	_	_
+12	compensent	compenser	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	déserts	désert	NOUN	_	_	_	_	_	_
+15	médicaux	médical	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_596
+# text = La déconstruction des discours de ruralité révèle des stéréotypes entre tradition, modernité et authenticité.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	ruralité	ruralité	X	_	_	_	_	_	_
+7	révèle	révèle	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	stéréotypes	stéréotypes	X	_	_	_	_	_	_
+10	entre	entre	X	_	_	_	_	_	_
+11	tradition	tradition	X	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	modernité	modernité	X	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	authenticité	authenticité	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_597
+# text = Le principe de équité territoriale invite à corriger les handicaps structurels par une péréquation renforcée.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	équité	équité	NOUN	_	_	_	_	_	_
+5	territoriale	territorial	ADJ	_	_	_	_	_	_
+6	invite	inviter	VERB	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	corriger	corriger	VERB	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	handicaps	handicap	NOUN	_	_	_	_	_	_
+11	structurels	structurel	ADJ	_	_	_	_	_	_
+12	par	par	ADP	_	_	_	_	_	_
+13	une	un	DET	_	_	_	_	_	_
+14	péréquation	péréquation	NOUN	_	_	_	_	_	_
+15	renforcée	renforcer	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_598
+# text = Les données démographiques confirment un vieillissement accéléré des populations dans les communes les plus isolées.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	démographiques	démographique	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	vieillissement	vieillissement	NOUN	_	_	_	_	_	_
+7	accéléré	accélérer	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	populations	populations	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	communes	communes	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	plus	plus	ADV	_	_	_	_	_	_
+15	isolées	isolées	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_599
+# text = La critique institutionnelle dénonce la lenteur des programmes de revitalisation face à l'urgence des fermetures.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	lenteur	lenteur	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	programmes	programmes	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	revitalisation	revitalisation	X	_	_	_	_	_	_
+11	face	face	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	l'urgence	l'urgence	X	_	_	_	_	_	_
+14	des	des	DET	_	_	_	_	_	_
+15	fermetures	fermetures	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_600
+# text = Il faudrait que les politiques publiques articulent agriculture, mobilité et services pour stabiliser les campagnes.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	politiques	politique	NOUN	_	_	_	_	_	_
+6	publiques	public	ADJ	_	_	_	_	_	_
+7	articulent	articuler	VERB	_	_	_	_	_	_
+8	agriculture	agriculture	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	mobilité	mobilité	NOUN	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	services	service	NOUN	_	_	_	_	_	_
+13	pour	pour	ADP	_	_	_	_	_	_
+14	stabiliser	stabiliser	VERB	_	_	_	_	_	_
+15	les	le	DET	_	_	_	_	_	_
+16	campagnes	campagne	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+

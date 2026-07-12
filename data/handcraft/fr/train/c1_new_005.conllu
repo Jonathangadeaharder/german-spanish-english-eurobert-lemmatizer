@@ -1,0 +1,1837 @@
+# sent_id = fr_c1_train_801
+# text = La cour d'appel a confirmé que la reproduction partielle constituait une exception de citation lorsque la source est mentionnée.
+1	La	le	DET	_	_	_	_	_	_
+2	cour	cour	NOUN	_	_	_	_	_	_
+3	d'appel	d'appel	X	_	_	_	_	_	_
+4	a	avoir	AUX	_	_	_	_	_	_
+5	confirmé	confirmé	X	_	_	_	_	_	_
+6	que	que	PRON	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	reproduction	reproduction	X	_	_	_	_	_	_
+9	partielle	partielle	X	_	_	_	_	_	_
+10	constituait	constituait	X	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	exception	exception	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	citation	citation	X	_	_	_	_	_	_
+15	lorsque	lorsque	SCONJ	_	_	_	_	_	_
+16	la	le	DET	_	_	_	_	_	_
+17	source	source	X	_	_	_	_	_	_
+18	est	être	AUX	_	_	_	_	_	_
+19	mentionnée	mentionnée	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_802
+# text = Bien que le dépôt ait été effectué, l'examen de la nouveauté a révélé un antériorité non divulguée antérieurement.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	le	le	DET	_	_	_	_	_	_
+4	dépôt	dépôt	NOUN	_	_	_	_	_	_
+5	ait	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	effectué	effectuer	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	l'examen	l'examen	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	nouveauté	nouveauté	X	_	_	_	_	_	_
+13	a	avoir	AUX	_	_	_	_	_	_
+14	révélé	révélé	X	_	_	_	_	_	_
+15	un	un	DET	_	_	_	_	_	_
+16	antériorité	antériorité	X	_	_	_	_	_	_
+17	non	non	X	_	_	_	_	_	_
+18	divulguée	divulguée	X	_	_	_	_	_	_
+19	antérieurement	antérieurement	X	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_803
+# text = Le titulaire du droit d'auteur peut interdire toute communication publique non autorisée de l'œuvre protégée.
+1	Le	le	DET	_	_	_	_	_	_
+2	titulaire	titulaire	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	droit	droit	X	_	_	_	_	_	_
+5	d'auteur	d'auteur	X	_	_	_	_	_	_
+6	peut	peut	X	_	_	_	_	_	_
+7	interdire	interdire	X	_	_	_	_	_	_
+8	toute	toute	X	_	_	_	_	_	_
+9	communication	communication	X	_	_	_	_	_	_
+10	publique	publique	X	_	_	_	_	_	_
+11	non	non	X	_	_	_	_	_	_
+12	autorisée	autorisée	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	l'œuvre	l'œuvre	X	_	_	_	_	_	_
+15	protégée	protégée	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_804
+# text = Il demeure controversé de savoir si l'entraînement d'un modèle d'IA constitue une reproduction protégée.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	controversé	controversé	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	l'entraînement	l'entraînement	X	_	_	_	_	_	_
+8	d'un	d'un	X	_	_	_	_	_	_
+9	modèle	modèle	X	_	_	_	_	_	_
+10	d'IA	d'IA	X	_	_	_	_	_	_
+11	constitue	constitue	X	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	reproduction	reproduction	X	_	_	_	_	_	_
+14	protégée	protégée	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_805
+# text = Les juristes comparatistes analysent comment les systèmes harmonisent brevets, marques et dessins industriels.
+1	Les	le	DET	_	_	_	_	_	_
+2	juristes	juriste	NOUN	_	_	_	_	_	_
+3	comparatistes	comparatiste	ADJ	_	_	_	_	_	_
+4	analysent	analyser	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	systèmes	système	NOUN	_	_	_	_	_	_
+8	harmonisent	harmoniser	VERB	_	_	_	_	_	_
+9	brevets	brevet	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	marques	marque	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	dessins	dessin	NOUN	_	_	_	_	_	_
+14	industriels	industriel	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_806
+# text = Nonobstant la licence accordée, le cessionnaire a dépassé le champ d'exploitation prévu contractuellement.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	la	le	DET	_	_	_	_	_	_
+3	licence	licence	NOUN	_	_	_	_	_	_
+4	accordée	accorder	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	le	le	DET	_	_	_	_	_	_
+7	cessionnaire	cessionnaire	NOUN	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	dépassé	dépasser	VERB	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	champ	champ	NOUN	_	_	_	_	_	_
+12	d'exploitation	d'exploitation	X	_	_	_	_	_	_
+13	prévu	prévu	X	_	_	_	_	_	_
+14	contractuellement	contractuellement	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_807
+# text = L'office a rejeté la demande de marque au motif d'un risque de confusion avec un signe antérieur.
+1	L'office	L'office	X	_	_	_	_	_	_
+2	a	avoir	AUX	_	_	_	_	_	_
+3	rejeté	rejeté	X	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	demande	demande	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	marque	marque	X	_	_	_	_	_	_
+8	au	au	ADP	_	_	_	_	_	_
+9	motif	motif	X	_	_	_	_	_	_
+10	d'un	d'un	X	_	_	_	_	_	_
+11	risque	risque	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	confusion	confusion	X	_	_	_	_	_	_
+14	avec	avec	X	_	_	_	_	_	_
+15	un	un	DET	_	_	_	_	_	_
+16	signe	signe	X	_	_	_	_	_	_
+17	antérieur	antérieur	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_808
+# text = Le débat doctrinal porte sur la portée de l'exception de parodie dans les contenus numériques.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	doctrinal	doctrinal	ADJ	_	_	_	_	_	_
+4	porte	porter	VERB	_	_	_	_	_	_
+5	sur	sur	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	portée	portée	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	l'exception	l'exception	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	parodie	parodie	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	contenus	contenus	X	_	_	_	_	_	_
+15	numériques	numériques	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_809
+# text = Les économistes de l'innovation étudient comment la durée de protection influence les investissements.
+1	Les	le	DET	_	_	_	_	_	_
+2	économistes	économiste	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'innovation	l'innovation	X	_	_	_	_	_	_
+5	étudient	étudient	X	_	_	_	_	_	_
+6	comment	comment	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	durée	durée	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	protection	protection	X	_	_	_	_	_	_
+11	influence	influence	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	investissements	investissements	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_810
+# text = La nullité du brevet a été prononcée pour défaut d'activité inventive au regard de l'état de la technique.
+1	La	le	DET	_	_	_	_	_	_
+2	nullité	nullité	NOUN	_	_	_	_	_	_
+3	du	du	ADP	_	_	_	_	_	_
+4	brevet	brevet	X	_	_	_	_	_	_
+5	a	avoir	AUX	_	_	_	_	_	_
+6	été	être	AUX	_	_	_	_	_	_
+7	prononcée	prononcée	X	_	_	_	_	_	_
+8	pour	pour	X	_	_	_	_	_	_
+9	défaut	défaut	X	_	_	_	_	_	_
+10	d'activité	d'activité	X	_	_	_	_	_	_
+11	inventive	inventive	X	_	_	_	_	_	_
+12	au	au	ADP	_	_	_	_	_	_
+13	regard	regard	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	l'état	l'état	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	technique	technique	X	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_811
+# text = Après avoir analysé le code source, l'expert a conclu à une contrefaçon de l'architecture logicielle.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	analysé	analyser	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	code	code	NOUN	_	_	_	_	_	_
+6	source	source	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	l'expert	l'expert	X	_	_	_	_	_	_
+9	a	avoir	AUX	_	_	_	_	_	_
+10	conclu	conclu	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	contrefaçon	contrefaçon	X	_	_	_	_	_	_
+14	de	un	DET	_	_	_	_	_	_
+15	l'architecture	l'architecture	X	_	_	_	_	_	_
+16	logicielle	logicielle	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_812
+# text = La critique institutionnelle met en garde contre l'extension excessive des droits voisins au profit des industries.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	met	mettre	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	garde	garde	NOUN	_	_	_	_	_	_
+7	contre	contre	ADP	_	_	_	_	_	_
+8	l'extension	l'extension	X	_	_	_	_	_	_
+9	excessive	excessive	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	droits	droits	X	_	_	_	_	_	_
+12	voisins	voisins	X	_	_	_	_	_	_
+13	au	au	ADP	_	_	_	_	_	_
+14	profit	profit	X	_	_	_	_	_	_
+15	des	des	DET	_	_	_	_	_	_
+16	industries	industries	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_813
+# text = Il reste disputé si les bases de données méritent une protection sui generis indépendante du droit d'auteur.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	bases	base	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	données	donnée	NOUN	_	_	_	_	_	_
+9	méritent	mériter	VERB	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	protection	protection	NOUN	_	_	_	_	_	_
+12	sui	sui	ADP	_	_	_	_	_	_
+13	generis	generi	NOUN	_	_	_	_	_	_
+14	indépendante	indépendant	ADJ	_	_	_	_	_	_
+15	du	du	ADP	_	_	_	_	_	_
+16	droit	droit	X	_	_	_	_	_	_
+17	d'auteur	d'auteur	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_814
+# text = Le cadre de la licence obligatoire permet l'exploitation sous rémunération en cas d'intérêt public.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	licence	licence	NOUN	_	_	_	_	_	_
+6	obligatoire	obligatoire	ADJ	_	_	_	_	_	_
+7	permet	permettre	VERB	_	_	_	_	_	_
+8	l'exploitation	l'exploitation	X	_	_	_	_	_	_
+9	sous	sous	X	_	_	_	_	_	_
+10	rémunération	rémunération	X	_	_	_	_	_	_
+11	en	en	PRON	_	_	_	_	_	_
+12	cas	cas	X	_	_	_	_	_	_
+13	d'intérêt	d'intérêt	X	_	_	_	_	_	_
+14	public	public	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_815
+# text = Les approches contractuelles évaluent la validité des clauses limitant la reverse engineering.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	contractuelles	contractuel	ADJ	_	_	_	_	_	_
+4	évaluent	évaluer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	validité	validité	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	clauses	clauses	X	_	_	_	_	_	_
+9	limitant	limitant	X	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	reverse	reverse	X	_	_	_	_	_	_
+12	engineering	engineering	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_816
+# text = La commission a recommandé de renforcer la formation des entreprises aux risques de contrefaçon.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	renforcer	renforcer	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	formation	formation	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	entreprises	entreprises	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	risques	risques	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	contrefaçon	contrefaçon	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_817
+# text = Les médiateurs examinent les litiges opposant créateurs et plateformes de partage de contenus.
+1	Les	le	DET	_	_	_	_	_	_
+2	médiateurs	médiateur	NOUN	_	_	_	_	_	_
+3	examinent	examiner	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	litiges	litige	NOUN	_	_	_	_	_	_
+6	opposant	opposer	VERB	_	_	_	_	_	_
+7	créateurs	créateur	NOUN	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	plateformes	plateforme	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	partage	partage	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	contenus	contenu	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_818
+# text = Le débat sur le domaine public interroge la durée de protection après le décès de l'auteur.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	domaine	domaine	NOUN	_	_	_	_	_	_
+6	public	public	ADJ	_	_	_	_	_	_
+7	interroge	interroger	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	durée	durée	NOUN	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	protection	protection	NOUN	_	_	_	_	_	_
+12	après	après	ADP	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	décès	décè	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	l'auteur	l'auteur	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_819
+# text = La théorie des droits exclusifs articule monopole temporaire et diffusion de la connaissance.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	droits	droits	X	_	_	_	_	_	_
+5	exclusifs	exclusifs	X	_	_	_	_	_	_
+6	articule	articule	X	_	_	_	_	_	_
+7	monopole	monopole	X	_	_	_	_	_	_
+8	temporaire	temporaire	X	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	diffusion	diffusion	X	_	_	_	_	_	_
+11	de	un	DET	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	connaissance	connaissance	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_820
+# text = Les analystes juridiques étudient comment les NFT reconfigurent la preuve de propriété numérique.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	juridiques	juridique	ADJ	_	_	_	_	_	_
+4	étudient	étudier	VERB	_	_	_	_	_	_
+5	comment	comment	ADV	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	NFT	NFT	PROPN	_	_	_	_	_	_
+8	reconfigurent	reconfigurer	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	preuve	preuve	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	propriété	propriété	NOUN	_	_	_	_	_	_
+13	numérique	numérique	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_821
+# text = La déconstruction des contrats de cession révèle des déséquilibres entre auteurs et éditeurs.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	contrats	contrats	X	_	_	_	_	_	_
+5	de	un	DET	_	_	_	_	_	_
+6	cession	cession	X	_	_	_	_	_	_
+7	révèle	révèle	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	déséquilibres	déséquilibres	X	_	_	_	_	_	_
+10	entre	entre	X	_	_	_	_	_	_
+11	auteurs	auteurs	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	éditeurs	éditeurs	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_822
+# text = Le principe de spécialité impose que la protection corresponde à la catégorie juridique invoquée.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	spécialité	spécialité	NOUN	_	_	_	_	_	_
+5	impose	imposer	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	protection	protection	NOUN	_	_	_	_	_	_
+9	corresponde	correspondre	VERB	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	catégorie	catégorie	NOUN	_	_	_	_	_	_
+13	juridique	juridique	ADJ	_	_	_	_	_	_
+14	invoquée	invoquer	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_823
+# text = Les données de contentieux confirment une hausse des actions liées aux contrefaçons en ligne.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	contentieux	contentieux	NOUN	_	_	_	_	_	_
+5	confirment	confirmer	VERB	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	hausse	hausse	NOUN	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	actions	actions	X	_	_	_	_	_	_
+10	liées	liées	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	contrefaçons	contrefaçons	X	_	_	_	_	_	_
+13	en	en	PRON	_	_	_	_	_	_
+14	ligne	ligne	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_824
+# text = La critique économique dénonce le coût des procédures pour les petits portefeuilles de brevets.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	économique	économique	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	coût	coût	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	procédures	procédures	X	_	_	_	_	_	_
+9	pour	pour	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	petits	petits	X	_	_	_	_	_	_
+12	portefeuilles	portefeuilles	X	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	brevets	brevets	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_825
+# text = Il faudrait que la législation précise le statut des œuvres générées par des systèmes automatisés.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	législation	législation	NOUN	_	_	_	_	_	_
+6	précise	préciser	VERB	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	statut	statut	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	œuvres	œuvres	X	_	_	_	_	_	_
+11	générées	générées	X	_	_	_	_	_	_
+12	par	par	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	systèmes	systèmes	X	_	_	_	_	_	_
+15	automatisés	automatisés	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_826
+# text = La théorie déontologique affirme que certaines actions sont interdites indépendamment de leurs conséquences agrégées.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	déontologique	déontologique	ADJ	_	_	_	_	_	_
+4	affirme	affirmer	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	certaines	certain	DET	_	_	_	_	_	_
+7	actions	action	NOUN	_	_	_	_	_	_
+8	sont	être	AUX	_	_	_	_	_	_
+9	interdites	interdire	VERB	_	_	_	_	_	_
+10	indépendamment	indépendamment	ADV	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	leurs	leur	DET	_	_	_	_	_	_
+13	conséquences	conséquence	NOUN	_	_	_	_	_	_
+14	agrégées	agréger	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_827
+# text = Bien que l'utilitarisme maximise le bien-être global, il peine à respecter les droits individuels inaliénables.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	l'utilitarisme	l'utilitarisme	X	_	_	_	_	_	_
+4	maximise	maximise	X	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	bien-être	bien-être	X	_	_	_	_	_	_
+7	global	global	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	il	il	PRON	_	_	_	_	_	_
+10	peine	peine	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	respecter	respecter	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	droits	droits	X	_	_	_	_	_	_
+15	individuels	individuels	X	_	_	_	_	_	_
+16	inaliénables	inaliénables	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_828
+# text = La notion de responsabilité morale agentielle distingue actes intentionnels, omissions et conséquences prévisibles.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+5	morale	moral	ADJ	_	_	_	_	_	_
+6	agentielle	agentiel	ADJ	_	_	_	_	_	_
+7	distingue	distinguer	VERB	_	_	_	_	_	_
+8	actes	acte	NOUN	_	_	_	_	_	_
+9	intentionnels	intentionnel	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	omissions	omission	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	conséquences	conséquence	NOUN	_	_	_	_	_	_
+14	prévisibles	prévisible	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_829
+# text = Il demeure disputé de savoir si l'éthique de la vertu supplante les règles universelles dans les professions.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	l'éthique	l'éthique	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	vertu	vertu	X	_	_	_	_	_	_
+11	supplante	supplante	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	règles	règles	X	_	_	_	_	_	_
+14	universelles	universelles	X	_	_	_	_	_	_
+15	dans	dans	X	_	_	_	_	_	_
+16	les	le	DET	_	_	_	_	_	_
+17	professions	professions	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_830
+# text = Les philosophes appliqués analysent les dilemmes posés par les technologies de surveillance de masse.
+1	Les	le	DET	_	_	_	_	_	_
+2	philosophes	philosophe	NOUN	_	_	_	_	_	_
+3	appliqués	appliquer	VERB	_	_	_	_	_	_
+4	analysent	analyser	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	dilemmes	dilemme	NOUN	_	_	_	_	_	_
+7	posés	poser	VERB	_	_	_	_	_	_
+8	par	par	ADP	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	technologies	technologie	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	surveillance	surveillance	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	masse	masse	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_831
+# text = Nonobstant les codes déontologiques, les conflits d'intérêts persistent dans les conseils d'administration.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	codes	code	NOUN	_	_	_	_	_	_
+4	déontologiques	déontologique	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	conflits	conflit	NOUN	_	_	_	_	_	_
+8	d'intérêts	d'intérêts	X	_	_	_	_	_	_
+9	persistent	persistent	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	conseils	conseils	X	_	_	_	_	_	_
+13	d'administration	d'administration	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_832
+# text = La justice distributive interroge la légitimité des inégalités héritées de circonstances moralement arbitraires.
+1	La	le	DET	_	_	_	_	_	_
+2	justice	justice	NOUN	_	_	_	_	_	_
+3	distributive	distributif	ADJ	_	_	_	_	_	_
+4	interroge	interroger	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	légitimité	légitimité	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	inégalités	inégalités	X	_	_	_	_	_	_
+9	héritées	héritées	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	circonstances	circonstances	X	_	_	_	_	_	_
+12	moralement	moralement	X	_	_	_	_	_	_
+13	arbitraires	arbitraires	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_833
+# text = Le débat oppose les partisans du contrat social aux défenseurs d'une éthique du care relationnelle.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	oppose	opposer	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	partisans	partisan	NOUN	_	_	_	_	_	_
+6	du	du	ADP	_	_	_	_	_	_
+7	contrat	contrat	X	_	_	_	_	_	_
+8	social	social	X	_	_	_	_	_	_
+9	aux	aux	ADP	_	_	_	_	_	_
+10	défenseurs	défenseurs	X	_	_	_	_	_	_
+11	d'une	d'une	X	_	_	_	_	_	_
+12	éthique	éthique	X	_	_	_	_	_	_
+13	du	du	ADP	_	_	_	_	_	_
+14	care	care	X	_	_	_	_	_	_
+15	relationnelle	relationnelle	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_834
+# text = La théorie des capacités évalue les institutions selon leur contribution à l'épanouissement humain réel.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	capacités	capacités	X	_	_	_	_	_	_
+5	évalue	évalue	X	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	institutions	institutions	X	_	_	_	_	_	_
+8	selon	selon	X	_	_	_	_	_	_
+9	leur	leur	DET	_	_	_	_	_	_
+10	contribution	contribution	X	_	_	_	_	_	_
+11	à	à	X	_	_	_	_	_	_
+12	l'épanouissement	l'épanouissement	X	_	_	_	_	_	_
+13	humain	humain	X	_	_	_	_	_	_
+14	réel	réel	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_835
+# text = Les approches conséquentialistes comparent les politiques publiques à l'aune de leurs effets sur les plus vulnérables.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	conséquentialistes	conséquentialiste	ADJ	_	_	_	_	_	_
+4	comparent	comparer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	politiques	politique	NOUN	_	_	_	_	_	_
+7	publiques	public	ADJ	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	l'aune	l'aune	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	leurs	leur	DET	_	_	_	_	_	_
+12	effets	effets	X	_	_	_	_	_	_
+13	sur	sur	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	plus	plus	ADV	_	_	_	_	_	_
+16	vulnérables	vulnérables	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_836
+# text = Après avoir examiné le cas clinique, le comité a estimé que le principe de proportionnalité devait primer.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	examiné	examiner	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	cas	ca	NOUN	_	_	_	_	_	_
+6	clinique	clinique	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	comité	comité	NOUN	_	_	_	_	_	_
+10	a	avoir	AUX	_	_	_	_	_	_
+11	estimé	estimer	VERB	_	_	_	_	_	_
+12	que	que	SCONJ	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	principe	principe	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	proportionnalité	proportionnalité	NOUN	_	_	_	_	_	_
+17	devait	devoir	AUX	_	_	_	_	_	_
+18	primer	primer	VERB	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_837
+# text = La critique féministe souligne que les théories classiques ignorent le travail reproductif invisible.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	féministe	féministe	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	théories	théorie	NOUN	_	_	_	_	_	_
+8	classiques	classique	ADJ	_	_	_	_	_	_
+9	ignorent	ignorer	VERB	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	travail	travail	NOUN	_	_	_	_	_	_
+12	reproductif	reproductif	ADJ	_	_	_	_	_	_
+13	invisible	invisible	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_838
+# text = Il reste débattu si le permis moral autorise des actes normalement prohibés en situation d'urgence extrême.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	permis	permi	NOUN	_	_	_	_	_	_
+7	moral	moral	ADJ	_	_	_	_	_	_
+8	autorise	autoriser	VERB	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	actes	actes	X	_	_	_	_	_	_
+11	normalement	normalement	X	_	_	_	_	_	_
+12	prohibés	prohibés	X	_	_	_	_	_	_
+13	en	en	PRON	_	_	_	_	_	_
+14	situation	situation	X	_	_	_	_	_	_
+15	d'urgence	d'urgence	X	_	_	_	_	_	_
+16	extrême	extrême	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_839
+# text = Le cadre de l'éthique du discours vise des normes universalisables par la discussion rationnelle sincère.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'éthique	l'éthique	X	_	_	_	_	_	_
+5	du	du	ADP	_	_	_	_	_	_
+6	discours	discours	X	_	_	_	_	_	_
+7	vise	vise	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	normes	normes	X	_	_	_	_	_	_
+10	universalisables	universalisables	X	_	_	_	_	_	_
+11	par	par	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	discussion	discussion	X	_	_	_	_	_	_
+14	rationnelle	rationnelle	X	_	_	_	_	_	_
+15	sincère	sincère	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_840
+# text = Les bioéthiciens évaluent la recevabilité des arguments invoquant la dignité humaine dans les débats contemporains.
+1	Les	le	DET	_	_	_	_	_	_
+2	bioéthiciens	bioéthicien	NOUN	_	_	_	_	_	_
+3	évaluent	évaluer	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	recevabilité	recevabilité	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	arguments	arguments	X	_	_	_	_	_	_
+8	invoquant	invoquant	X	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	dignité	dignité	X	_	_	_	_	_	_
+11	humaine	humaine	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	débats	débats	X	_	_	_	_	_	_
+15	contemporains	contemporains	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_841
+# text = La commission a recommandé d'introduire l'éthique appliquée dans les cursus d'ingénierie et de management.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	d'introduire	d'introduire	X	_	_	_	_	_	_
+6	l'éthique	l'éthique	X	_	_	_	_	_	_
+7	appliquée	appliquée	X	_	_	_	_	_	_
+8	dans	dans	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	cursus	cursus	X	_	_	_	_	_	_
+11	d'ingénierie	d'ingénierie	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	de	un	DET	_	_	_	_	_	_
+14	management	management	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_842
+# text = Les historiens de la philosophie relient les controverses actuelles aux traditions kantienne et aristotélicienne.
+1	Les	le	DET	_	_	_	_	_	_
+2	historiens	historien	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	philosophie	philosophie	NOUN	_	_	_	_	_	_
+6	relient	relier	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	controverses	controverse	NOUN	_	_	_	_	_	_
+9	actuelles	actuel	ADJ	_	_	_	_	_	_
+10	aux	aux	ADP	_	_	_	_	_	_
+11	traditions	traditions	X	_	_	_	_	_	_
+12	kantienne	kantienne	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	aristotélicienne	aristotélicienne	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_843
+# text = Le débat sur la responsabilité collective interroge la culpabilité des citoyens face aux injustices structurelles.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+6	collective	collectif	ADJ	_	_	_	_	_	_
+7	interroge	interroger	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	culpabilité	culpabilité	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	citoyens	citoyens	X	_	_	_	_	_	_
+12	face	face	X	_	_	_	_	_	_
+13	aux	aux	ADP	_	_	_	_	_	_
+14	injustices	injustices	X	_	_	_	_	_	_
+15	structurelles	structurelles	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_844
+# text = La théorie des deux niveaux de moralité tente de concilier jugements intuitifs et principes réfléchis.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	deux	deux	X	_	_	_	_	_	_
+5	niveaux	niveaux	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	moralité	moralité	X	_	_	_	_	_	_
+8	tente	tente	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	concilier	concilier	X	_	_	_	_	_	_
+11	jugements	jugements	X	_	_	_	_	_	_
+12	intuitifs	intuitifs	X	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	principes	principes	X	_	_	_	_	_	_
+15	réfléchis	réfléchis	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_845
+# text = Les chercheurs en éthique environnementale étudient les obligations envers les générations futures.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	éthique	éthique	NOUN	_	_	_	_	_	_
+5	environnementale	environnemental	ADJ	_	_	_	_	_	_
+6	étudient	étudier	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	obligations	obligation	NOUN	_	_	_	_	_	_
+9	envers	envers	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	générations	génération	NOUN	_	_	_	_	_	_
+12	futures	futur	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_846
+# text = La déconstruction des discours moraux révèle des présupposés culturels dans les jugements universels prétendus.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	discours	discours	X	_	_	_	_	_	_
+5	moraux	moraux	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	présupposés	présupposés	X	_	_	_	_	_	_
+9	culturels	culturels	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	jugements	jugements	X	_	_	_	_	_	_
+13	universels	universels	X	_	_	_	_	_	_
+14	prétendus	prétendus	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_847
+# text = Le principe de neutralité procédurale invite l'État à ne pas favoriser une conception du bien.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	neutralité	neutralité	NOUN	_	_	_	_	_	_
+5	procédurale	procédural	ADJ	_	_	_	_	_	_
+6	invite	inviter	VERB	_	_	_	_	_	_
+7	l'État	l'État	X	_	_	_	_	_	_
+8	à	à	X	_	_	_	_	_	_
+9	ne	ne	PART	_	_	_	_	_	_
+10	pas	pas	ADV	_	_	_	_	_	_
+11	favoriser	favoriser	X	_	_	_	_	_	_
+12	une	un	DET	_	_	_	_	_	_
+13	conception	conception	X	_	_	_	_	_	_
+14	du	du	ADP	_	_	_	_	_	_
+15	bien	bien	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_848
+# text = Les données d'enquête confirment une pluralité de intuitions morales selon les contextes communautaires.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	d'enquête	d'enquête	X	_	_	_	_	_	_
+4	confirment	confirment	X	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	pluralité	pluralité	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	intuitions	intuitions	X	_	_	_	_	_	_
+9	morales	morales	X	_	_	_	_	_	_
+10	selon	selon	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	contextes	contextes	X	_	_	_	_	_	_
+13	communautaires	communautaires	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_849
+# text = La critique institutionnelle dénonce l'usage de l'éthique comme argument de légitimation sans transformation.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	l'usage	l'usage	X	_	_	_	_	_	_
+6	de	un	DET	_	_	_	_	_	_
+7	l'éthique	l'éthique	X	_	_	_	_	_	_
+8	comme	comme	SCONJ	_	_	_	_	_	_
+9	argument	argument	X	_	_	_	_	_	_
+10	de	un	DET	_	_	_	_	_	_
+11	légitimation	légitimation	X	_	_	_	_	_	_
+12	sans	sans	X	_	_	_	_	_	_
+13	transformation	transformation	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_850
+# text = Il faudrait que les politiques publiques intègrent explicitement les valeurs en conflit dans leurs arbitrages.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	politiques	politique	NOUN	_	_	_	_	_	_
+6	publiques	public	ADJ	_	_	_	_	_	_
+7	intègrent	intégrer	VERB	_	_	_	_	_	_
+8	explicitement	explicitement	ADV	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	valeurs	valeur	NOUN	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	conflit	conflit	NOUN	_	_	_	_	_	_
+13	dans	dans	ADP	_	_	_	_	_	_
+14	leurs	leur	DET	_	_	_	_	_	_
+15	arbitrages	arbitrage	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_851
+# text = La taxonomie verte distingue les investissements compatibles avec une trajectoire de décarbonation crédible.
+1	La	le	DET	_	_	_	_	_	_
+2	taxonomie	taxonomie	NOUN	_	_	_	_	_	_
+3	verte	vert	ADJ	_	_	_	_	_	_
+4	distingue	distinguer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	investissements	investissement	NOUN	_	_	_	_	_	_
+7	compatibles	compatible	ADJ	_	_	_	_	_	_
+8	avec	avec	ADP	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	trajectoire	trajectoire	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	décarbonation	décarbonation	NOUN	_	_	_	_	_	_
+13	crédible	crédible	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_852
+# text = Bien que les subventions aient stimulé l'éolien, le réseau peine à absorber les variations de production.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	subventions	subvention	NOUN	_	_	_	_	_	_
+5	aient	avoir	AUX	_	_	_	_	_	_
+6	stimulé	stimuler	VERB	_	_	_	_	_	_
+7	l'éolien	l'éolien	X	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	réseau	réseau	X	_	_	_	_	_	_
+11	peine	peine	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	absorber	absorber	X	_	_	_	_	_	_
+14	les	le	DET	_	_	_	_	_	_
+15	variations	variations	X	_	_	_	_	_	_
+16	de	un	DET	_	_	_	_	_	_
+17	production	production	X	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_853
+# text = La notion de coût social du carbone internalise les externalités négatives dans les décisions d'investissement.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	coût	coût	NOUN	_	_	_	_	_	_
+5	social	social	ADJ	_	_	_	_	_	_
+6	du	du	ADP	_	_	_	_	_	_
+7	carbone	carbone	X	_	_	_	_	_	_
+8	internalise	internalise	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	externalités	externalités	X	_	_	_	_	_	_
+11	négatives	négatives	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	décisions	décisions	X	_	_	_	_	_	_
+15	d'investissement	d'investissement	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_854
+# text = Il demeure controversé de savoir si la finance durable évite le greenwashing ou le renforce.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	controversé	controversé	ADJ	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	finance	finance	NOUN	_	_	_	_	_	_
+9	durable	durable	ADJ	_	_	_	_	_	_
+10	évite	éviter	VERB	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	greenwashing	greenwashing	NOUN	_	_	_	_	_	_
+13	ou	ou	CCONJ	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	renforce	renforcer	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_855
+# text = Les économistes étudient comment les prix du carbone orientent l'innovation dans les secteurs lourds.
+1	Les	le	DET	_	_	_	_	_	_
+2	économistes	économiste	NOUN	_	_	_	_	_	_
+3	étudient	étudier	VERB	_	_	_	_	_	_
+4	comment	comment	ADV	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	prix	prix	NOUN	_	_	_	_	_	_
+7	du	du	ADP	_	_	_	_	_	_
+8	carbone	carbone	X	_	_	_	_	_	_
+9	orientent	orientent	X	_	_	_	_	_	_
+10	l'innovation	l'innovation	X	_	_	_	_	_	_
+11	dans	dans	X	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	secteurs	secteurs	X	_	_	_	_	_	_
+14	lourds	lourds	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_856
+# text = Nonobstant les engagements annoncés, les flux financiers vers les énergies fossiles persistent à l'échelle mondiale.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	engagements	engagement	NOUN	_	_	_	_	_	_
+4	annoncés	annoncer	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	flux	flux	NOUN	_	_	_	_	_	_
+8	financiers	financier	ADJ	_	_	_	_	_	_
+9	vers	vers	ADP	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	énergies	énergie	NOUN	_	_	_	_	_	_
+12	fossiles	fossile	ADJ	_	_	_	_	_	_
+13	persistent	persister	VERB	_	_	_	_	_	_
+14	à	à	ADP	_	_	_	_	_	_
+15	l'échelle	l'échelle	X	_	_	_	_	_	_
+16	mondiale	mondiale	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_857
+# text = La planification énergétique articule sobriété, efficacité et déploiement massif des renouvelables.
+1	La	le	DET	_	_	_	_	_	_
+2	planification	planification	NOUN	_	_	_	_	_	_
+3	énergétique	énergétique	ADJ	_	_	_	_	_	_
+4	articule	articuler	VERB	_	_	_	_	_	_
+5	sobriété	sobriété	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	efficacité	efficacité	NOUN	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	déploiement	déploiement	NOUN	_	_	_	_	_	_
+10	massif	massif	ADJ	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	renouvelables	renouvelables	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_858
+# text = Le débat porte sur la justice climatique entre pays historiquement émetteurs et pays en développement.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	justice	justice	NOUN	_	_	_	_	_	_
+7	climatique	climatique	ADJ	_	_	_	_	_	_
+8	entre	entre	ADP	_	_	_	_	_	_
+9	pays	pay	NOUN	_	_	_	_	_	_
+10	historiquement	historiquement	ADV	_	_	_	_	_	_
+11	émetteurs	émetteur	NOUN	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	pays	pay	NOUN	_	_	_	_	_	_
+14	en	en	ADP	_	_	_	_	_	_
+15	développement	développement	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_859
+# text = La théorie de la croissance endogène verte relie politiques publiques, R&D et transition sectorielle.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	croissance	croissance	NOUN	_	_	_	_	_	_
+6	endogène	endogène	ADJ	_	_	_	_	_	_
+7	verte	vert	ADJ	_	_	_	_	_	_
+8	relie	relier	VERB	_	_	_	_	_	_
+9	politiques	politique	ADJ	_	_	_	_	_	_
+10	publiques	public	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	R&D	r&d	NOUN	_	_	_	_	_	_
+13	et	et	CCONJ	_	_	_	_	_	_
+14	transition	transition	NOUN	_	_	_	_	_	_
+15	sectorielle	sectoriel	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_860
+# text = Les approches input-output quantifient les émissions indirectes le long des chaînes de valeur mondialisées.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	input-output	input-output	ADJ	_	_	_	_	_	_
+4	quantifient	quantifier	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	émissions	émission	NOUN	_	_	_	_	_	_
+7	indirectes	indirect	ADJ	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	long	long	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	chaînes	chaînes	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	valeur	valeur	X	_	_	_	_	_	_
+14	mondialisées	mondialisées	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_861
+# text = Après avoir modélisé les scénarios, l'équipe a estimé le coût marginal d'abattement par secteur.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	modélisé	modéliser	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	scénarios	scénario	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	estimé	estimé	X	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	coût	coût	X	_	_	_	_	_	_
+12	marginal	marginal	X	_	_	_	_	_	_
+13	d'abattement	d'abattement	X	_	_	_	_	_	_
+14	par	par	X	_	_	_	_	_	_
+15	secteur	secteur	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_862
+# text = La critique institutionnelle souligne que les indicateurs ESG manquent parfois de comparabilité internationale.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	souligne	souligner	VERB	_	_	_	_	_	_
+5	que	que	SCONJ	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	indicateurs	indicateur	NOUN	_	_	_	_	_	_
+8	ESG	ESG	PROPN	_	_	_	_	_	_
+9	manquent	manquer	VERB	_	_	_	_	_	_
+10	parfois	parfois	ADV	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	comparabilité	comparabilité	NOUN	_	_	_	_	_	_
+13	internationale	international	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_863
+# text = Il reste débattu si la décroissance est compatible avec le maintien de l'emploi industriel qualifié.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	décroissance	décroissance	NOUN	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	compatible	compatible	ADJ	_	_	_	_	_	_
+9	avec	avec	ADP	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	maintien	maintien	NOUN	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	l'emploi	l'emploi	X	_	_	_	_	_	_
+14	industriel	industriel	X	_	_	_	_	_	_
+15	qualifié	qualifié	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_864
+# text = Le cadre de la neutralité carbone impose des bilans incluant les importations énergétiques indirectes.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	neutralité	neutralité	NOUN	_	_	_	_	_	_
+6	carbone	carbone	ADJ	_	_	_	_	_	_
+7	impose	imposer	VERB	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	bilans	bilan	NOUN	_	_	_	_	_	_
+10	incluant	inclure	VERB	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	importations	importation	NOUN	_	_	_	_	_	_
+13	énergétiques	énergétique	ADJ	_	_	_	_	_	_
+14	indirectes	indirect	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_865
+# text = Les analystes financiers évaluent la résilience des portefeuilles face aux risques de transition réglementaire.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	financiers	financier	ADJ	_	_	_	_	_	_
+4	évaluent	évaluer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	résilience	résilience	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	portefeuilles	portefeuilles	X	_	_	_	_	_	_
+9	face	face	X	_	_	_	_	_	_
+10	aux	aux	ADP	_	_	_	_	_	_
+11	risques	risques	X	_	_	_	_	_	_
+12	de	un	DET	_	_	_	_	_	_
+13	transition	transition	X	_	_	_	_	_	_
+14	réglementaire	réglementaire	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_866
+# text = La commission a recommandé de publier des trajectoires sectorielles chiffrées pour guider les investisseurs.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	publier	publier	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	trajectoires	trajectoire	NOUN	_	_	_	_	_	_
+9	sectorielles	sectoriel	ADJ	_	_	_	_	_	_
+10	chiffrées	chiffrer	VERB	_	_	_	_	_	_
+11	pour	pour	ADP	_	_	_	_	_	_
+12	guider	guider	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	investisseurs	investisseur	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_867
+# text = Les sociologues étudient comment les reconversions professionnelles accompagnent la fermeture des sites polluants.
+1	Les	le	DET	_	_	_	_	_	_
+2	sociologues	sociologue	NOUN	_	_	_	_	_	_
+3	étudient	étudier	VERB	_	_	_	_	_	_
+4	comment	comment	ADV	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	reconversions	reconversion	NOUN	_	_	_	_	_	_
+7	professionnelles	professionnel	ADJ	_	_	_	_	_	_
+8	accompagnent	accompagner	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	fermeture	fermeture	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	sites	sites	X	_	_	_	_	_	_
+13	polluants	polluants	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_868
+# text = Le débat sur les compensations carbone interroge la fiabilité des crédits forestiers monétisés.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	compensations	compensation	NOUN	_	_	_	_	_	_
+6	carbone	carbone	ADJ	_	_	_	_	_	_
+7	interroge	interroger	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	fiabilité	fiabilité	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	crédits	crédits	X	_	_	_	_	_	_
+12	forestiers	forestiers	X	_	_	_	_	_	_
+13	monétisés	monétisés	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_869
+# text = La théorie des lock-in technologiques explique la persistance des infrastructures fossiles coûteuses à remplacer.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	lock-in	lock-in	X	_	_	_	_	_	_
+5	technologiques	technologiques	X	_	_	_	_	_	_
+6	explique	explique	X	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	persistance	persistance	X	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	infrastructures	infrastructures	X	_	_	_	_	_	_
+11	fossiles	fossiles	X	_	_	_	_	_	_
+12	coûteuses	coûteuses	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	remplacer	remplacer	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_870
+# text = Les chercheurs en politique industrielle comparent les stratégies de souveraineté énergétique européennes.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	politique	politique	NOUN	_	_	_	_	_	_
+5	industrielle	industriel	ADJ	_	_	_	_	_	_
+6	comparent	comparer	VERB	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	stratégies	stratégie	NOUN	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	souveraineté	souveraineté	NOUN	_	_	_	_	_	_
+11	énergétique	énergétique	ADJ	_	_	_	_	_	_
+12	européennes	européen	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_871
+# text = La déconstruction des rapports RSE révèle des objectifs ambitieux mais des trajectoires peu vérifiables.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	rapports	rapports	X	_	_	_	_	_	_
+5	RSE	RSE	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	objectifs	objectifs	X	_	_	_	_	_	_
+9	ambitieux	ambitieux	X	_	_	_	_	_	_
+10	mais	mais	CCONJ	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	trajectoires	trajectoires	X	_	_	_	_	_	_
+13	peu	peu	X	_	_	_	_	_	_
+14	vérifiables	vérifiables	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_872
+# text = Le principe de pollueur-payeur exige que les coûts environnementaux soient supportés par les émetteurs.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	pollueur-payeur	pollueur-payeur	NOUN	_	_	_	_	_	_
+5	exige	exiger	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	coûts	coût	NOUN	_	_	_	_	_	_
+9	environnementaux	environnemental	ADJ	_	_	_	_	_	_
+10	soient	être	AUX	_	_	_	_	_	_
+11	supportés	supporter	VERB	_	_	_	_	_	_
+12	par	par	ADP	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	émetteurs	émetteur	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_873
+# text = Les données macroéconomiques confirment une hausse des investissements dans les batteries et l'hydrogène.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	macroéconomiques	macroéconomique	ADJ	_	_	_	_	_	_
+4	confirment	confirmer	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	hausse	hausse	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	investissements	investissements	X	_	_	_	_	_	_
+9	dans	dans	X	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	batteries	batteries	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	l'hydrogène	l'hydrogène	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_874
+# text = La critique écologique dénonce le retard des politiques de rénovation thermique des bâtiments.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	écologique	écologique	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	retard	retard	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	politiques	politiques	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	rénovation	rénovation	X	_	_	_	_	_	_
+11	thermique	thermique	X	_	_	_	_	_	_
+12	des	des	DET	_	_	_	_	_	_
+13	bâtiments	bâtiments	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_875
+# text = Il faudrait que les États coordonnent fiscalité carbone et mécanismes d'ajustement aux frontières.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	États	état	NOUN	_	_	_	_	_	_
+6	coordonnent	coordonner	VERB	_	_	_	_	_	_
+7	fiscalité	fiscalité	NOUN	_	_	_	_	_	_
+8	carbone	carbone	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	mécanismes	mécanisme	NOUN	_	_	_	_	_	_
+11	d'ajustement	d'ajustement	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	frontières	frontières	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_876
+# text = La concentration propriétaire des groupes médiatiques réduit la diversité des perspectives diffusées à l'antenne.
+1	La	le	DET	_	_	_	_	_	_
+2	concentration	concentration	NOUN	_	_	_	_	_	_
+3	propriétaire	propriétaire	ADJ	_	_	_	_	_	_
+4	des	des	DET	_	_	_	_	_	_
+5	groupes	groupes	X	_	_	_	_	_	_
+6	médiatiques	médiatiques	X	_	_	_	_	_	_
+7	réduit	réduit	X	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	diversité	diversité	X	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	perspectives	perspectives	X	_	_	_	_	_	_
+12	diffusées	diffusées	X	_	_	_	_	_	_
+13	à	à	X	_	_	_	_	_	_
+14	l'antenne	l'antenne	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_877
+# text = Bien que les réseaux sociaux démocratisent la parole, les algorithmes filtrent les contenus de manière opaque.
+1	Bien	bien	ADV	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	les	le	DET	_	_	_	_	_	_
+4	réseaux	réseau	NOUN	_	_	_	_	_	_
+5	sociaux	social	ADJ	_	_	_	_	_	_
+6	démocratisent	démocratiser	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	parole	parole	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	algorithmes	algorithme	NOUN	_	_	_	_	_	_
+12	filtrent	filtrer	VERB	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	contenus	contenu	NOUN	_	_	_	_	_	_
+15	de	de	ADP	_	_	_	_	_	_
+16	manière	manière	NOUN	_	_	_	_	_	_
+17	opaque	opaque	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_878
+# text = La notion de chambre d'écho décrit l'enfermement informationnel produit par les recommandations personnalisées.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	chambre	chambre	NOUN	_	_	_	_	_	_
+5	d'écho	d'écho	X	_	_	_	_	_	_
+6	décrit	décrit	X	_	_	_	_	_	_
+7	l'enfermement	l'enfermement	X	_	_	_	_	_	_
+8	informationnel	informationnel	X	_	_	_	_	_	_
+9	produit	produit	X	_	_	_	_	_	_
+10	par	par	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	recommandations	recommandations	X	_	_	_	_	_	_
+13	personnalisées	personnalisées	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_879
+# text = Il demeure disputé de savoir si la régulation des plateformes menace la liberté d'expression légitime.
+1	Il	il	PRON	_	_	_	_	_	_
+2	demeure	demeurer	VERB	_	_	_	_	_	_
+3	disputé	disputer	VERB	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	savoir	savoir	VERB	_	_	_	_	_	_
+6	si	si	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	régulation	régulation	NOUN	_	_	_	_	_	_
+9	des	des	DET	_	_	_	_	_	_
+10	plateformes	plateformes	X	_	_	_	_	_	_
+11	menace	menace	X	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	liberté	liberté	X	_	_	_	_	_	_
+14	d'expression	d'expression	X	_	_	_	_	_	_
+15	légitime	légitime	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_880
+# text = Les sociologues analysent comment les cadres médiatiques orientent la perception des crises internationales.
+1	Les	le	DET	_	_	_	_	_	_
+2	sociologues	sociologue	NOUN	_	_	_	_	_	_
+3	analysent	analyser	VERB	_	_	_	_	_	_
+4	comment	comment	ADV	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	cadres	cadre	NOUN	_	_	_	_	_	_
+7	médiatiques	médiatique	ADJ	_	_	_	_	_	_
+8	orientent	orienter	VERB	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	perception	perception	NOUN	_	_	_	_	_	_
+11	des	des	DET	_	_	_	_	_	_
+12	crises	crises	X	_	_	_	_	_	_
+13	internationales	internationales	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_881
+# text = Nonobstant les codes déontologiques, la course à l'audience influence le traitement des faits d'actualité.
+1	Nonobstant	nonobster	VERB	_	_	_	_	_	_
+2	les	le	DET	_	_	_	_	_	_
+3	codes	code	NOUN	_	_	_	_	_	_
+4	déontologiques	déontologique	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	course	course	NOUN	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	l'audience	l'audience	X	_	_	_	_	_	_
+10	influence	influence	X	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	traitement	traitement	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	faits	faits	X	_	_	_	_	_	_
+15	d'actualité	d'actualité	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_882
+# text = La théorie de la sociologie des publics distingue consommation passive et participation culturelle active.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	sociologie	sociologie	NOUN	_	_	_	_	_	_
+6	des	des	DET	_	_	_	_	_	_
+7	publics	publics	X	_	_	_	_	_	_
+8	distingue	distingue	X	_	_	_	_	_	_
+9	consommation	consommation	X	_	_	_	_	_	_
+10	passive	passive	X	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	participation	participation	X	_	_	_	_	_	_
+13	culturelle	culturelle	X	_	_	_	_	_	_
+14	active	active	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_883
+# text = Le débat porte sur la responsabilité éditoriale des modérateurs face aux contenus haineux viralisés.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	porte	porter	VERB	_	_	_	_	_	_
+4	sur	sur	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	responsabilité	responsabilité	NOUN	_	_	_	_	_	_
+7	éditoriale	éditorial	ADJ	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	modérateurs	modérateurs	X	_	_	_	_	_	_
+10	face	face	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	contenus	contenus	X	_	_	_	_	_	_
+13	haineux	haineux	X	_	_	_	_	_	_
+14	viralisés	viralisés	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_884
+# text = La notion de capital médiatique renvoie aux ressources mobilisables pour accéder à la visibilité publique.
+1	La	le	DET	_	_	_	_	_	_
+2	notion	notion	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	capital	capital	NOUN	_	_	_	_	_	_
+5	médiatique	médiatique	ADJ	_	_	_	_	_	_
+6	renvoie	renvoyer	VERB	_	_	_	_	_	_
+7	aux	aux	ADP	_	_	_	_	_	_
+8	ressources	ressources	X	_	_	_	_	_	_
+9	mobilisables	mobilisables	X	_	_	_	_	_	_
+10	pour	pour	X	_	_	_	_	_	_
+11	accéder	accéder	X	_	_	_	_	_	_
+12	à	à	X	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	visibilité	visibilité	X	_	_	_	_	_	_
+15	publique	publique	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_885
+# text = Les approches ethnographiques observent les pratiques quotidiennes de vérification des informations en ligne.
+1	Les	le	DET	_	_	_	_	_	_
+2	approches	approche	NOUN	_	_	_	_	_	_
+3	ethnographiques	ethnographique	ADJ	_	_	_	_	_	_
+4	observent	observer	VERB	_	_	_	_	_	_
+5	les	le	DET	_	_	_	_	_	_
+6	pratiques	pratique	NOUN	_	_	_	_	_	_
+7	quotidiennes	quotidien	ADJ	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	vérification	vérification	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	informations	informations	X	_	_	_	_	_	_
+12	en	en	PRON	_	_	_	_	_	_
+13	ligne	ligne	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_886
+# text = Après avoir codé les unes, l'équipe a identifié une dramatisation récurrente des faits divers locaux.
+1	Après	après	ADP	_	_	_	_	_	_
+2	avoir	avoir	VERB	_	_	_	_	_	_
+3	codé	coder	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	unes	un	PRON	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	l'équipe	l'équipe	X	_	_	_	_	_	_
+8	a	avoir	AUX	_	_	_	_	_	_
+9	identifié	identifié	X	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	dramatisation	dramatisation	X	_	_	_	_	_	_
+12	récurrente	récurrente	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	faits	faits	X	_	_	_	_	_	_
+15	divers	divers	X	_	_	_	_	_	_
+16	locaux	locaux	X	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_887
+# text = La critique politique économique souligne que la publicité structure les priorités éditoriales des journaux.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	politique	politique	ADJ	_	_	_	_	_	_
+4	économique	économique	ADJ	_	_	_	_	_	_
+5	souligne	souligner	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	publicité	publicité	NOUN	_	_	_	_	_	_
+9	structure	structurer	VERB	_	_	_	_	_	_
+10	les	le	DET	_	_	_	_	_	_
+11	priorités	priorité	NOUN	_	_	_	_	_	_
+12	éditoriales	éditorial	ADJ	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	journaux	journaux	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_888
+# text = Il reste débattu si la littératie médiatique suffit à contrer la désinformation sans réforme institutionnelle.
+1	Il	il	PRON	_	_	_	_	_	_
+2	reste	rester	VERB	_	_	_	_	_	_
+3	débattu	débattre	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	littératie	littératie	NOUN	_	_	_	_	_	_
+7	médiatique	médiatique	ADJ	_	_	_	_	_	_
+8	suffit	suffire	VERB	_	_	_	_	_	_
+9	à	à	ADP	_	_	_	_	_	_
+10	contrer	contrer	VERB	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	désinformation	désinformation	NOUN	_	_	_	_	_	_
+13	sans	sans	ADP	_	_	_	_	_	_
+14	réforme	réforme	NOUN	_	_	_	_	_	_
+15	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_889
+# text = Le cadre de l'analyse du discours médiatique articule syntaxe, intertextualité et positionnements idéologiques.
+1	Le	le	DET	_	_	_	_	_	_
+2	cadre	cadre	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'analyse	l'analyse	X	_	_	_	_	_	_
+5	du	du	ADP	_	_	_	_	_	_
+6	discours	discours	X	_	_	_	_	_	_
+7	médiatique	médiatique	X	_	_	_	_	_	_
+8	articule	articule	X	_	_	_	_	_	_
+9	syntaxe	syntaxe	X	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	intertextualité	intertextualité	X	_	_	_	_	_	_
+12	et	et	CCONJ	_	_	_	_	_	_
+13	positionnements	positionnements	X	_	_	_	_	_	_
+14	idéologiques	idéologiques	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_890
+# text = Les chercheurs en journalisme étudient les conditions de production des enquêtes d'investigation longues.
+1	Les	le	DET	_	_	_	_	_	_
+2	chercheurs	chercheur	NOUN	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	journalisme	journalisme	NOUN	_	_	_	_	_	_
+5	étudient	étudier	VERB	_	_	_	_	_	_
+6	les	le	DET	_	_	_	_	_	_
+7	conditions	condition	NOUN	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	production	production	NOUN	_	_	_	_	_	_
+10	des	des	DET	_	_	_	_	_	_
+11	enquêtes	enquêtes	X	_	_	_	_	_	_
+12	d'investigation	d'investigation	X	_	_	_	_	_	_
+13	longues	longues	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_891
+# text = La commission a recommandé de financer des médias locaux indépendants dans les territoires sous-informés.
+1	La	le	DET	_	_	_	_	_	_
+2	commission	commission	NOUN	_	_	_	_	_	_
+3	a	avoir	AUX	_	_	_	_	_	_
+4	recommandé	recommander	VERB	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	financer	financer	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	médias	média	NOUN	_	_	_	_	_	_
+9	locaux	local	ADJ	_	_	_	_	_	_
+10	indépendants	indépendant	ADJ	_	_	_	_	_	_
+11	dans	dans	ADP	_	_	_	_	_	_
+12	les	le	DET	_	_	_	_	_	_
+13	territoires	territoire	NOUN	_	_	_	_	_	_
+14	sous-informés	sous-informer	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_892
+# text = Les historiens des médias relient l'émergence de la presse industrielle aux transformations urbaines.
+1	Les	le	DET	_	_	_	_	_	_
+2	historiens	historien	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	médias	médias	X	_	_	_	_	_	_
+5	relient	relient	X	_	_	_	_	_	_
+6	l'émergence	l'émergence	X	_	_	_	_	_	_
+7	de	un	DET	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	presse	presse	X	_	_	_	_	_	_
+10	industrielle	industrielle	X	_	_	_	_	_	_
+11	aux	aux	ADP	_	_	_	_	_	_
+12	transformations	transformations	X	_	_	_	_	_	_
+13	urbaines	urbaines	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_893
+# text = Le débat sur la neutralité interroge la possibilité d'une information objective dans des marchés polarisés.
+1	Le	le	DET	_	_	_	_	_	_
+2	débat	débat	NOUN	_	_	_	_	_	_
+3	sur	sur	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	neutralité	neutralité	NOUN	_	_	_	_	_	_
+6	interroge	interroger	VERB	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	possibilité	possibilité	NOUN	_	_	_	_	_	_
+9	d'une	d'une	X	_	_	_	_	_	_
+10	information	information	X	_	_	_	_	_	_
+11	objective	objective	X	_	_	_	_	_	_
+12	dans	dans	X	_	_	_	_	_	_
+13	des	des	DET	_	_	_	_	_	_
+14	marchés	marchés	X	_	_	_	_	_	_
+15	polarisés	polarisés	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_894
+# text = La théorie de la double boucle d'information décrit les interactions entre médias traditionnels et sociaux.
+1	La	le	DET	_	_	_	_	_	_
+2	théorie	théorie	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	double	double	ADJ	_	_	_	_	_	_
+6	boucle	boucle	NOUN	_	_	_	_	_	_
+7	d'information	d'information	X	_	_	_	_	_	_
+8	décrit	décrit	X	_	_	_	_	_	_
+9	les	le	DET	_	_	_	_	_	_
+10	interactions	interactions	X	_	_	_	_	_	_
+11	entre	entre	X	_	_	_	_	_	_
+12	médias	médias	X	_	_	_	_	_	_
+13	traditionnels	traditionnels	X	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	sociaux	sociaux	X	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_895
+# text = Les analystes des politiques culturelles comparent les modèles de service public audiovisuel européens.
+1	Les	le	DET	_	_	_	_	_	_
+2	analystes	analyste	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	politiques	politiques	X	_	_	_	_	_	_
+5	culturelles	culturelles	X	_	_	_	_	_	_
+6	comparent	comparent	X	_	_	_	_	_	_
+7	les	le	DET	_	_	_	_	_	_
+8	modèles	modèles	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	service	service	X	_	_	_	_	_	_
+11	public	public	X	_	_	_	_	_	_
+12	audiovisuel	audiovisuel	X	_	_	_	_	_	_
+13	européens	européens	X	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_896
+# text = La déconstruction des sondages médiatisés révèle des effets de désirabilité sociale sur les réponses.
+1	La	le	DET	_	_	_	_	_	_
+2	déconstruction	déconstruction	NOUN	_	_	_	_	_	_
+3	des	des	DET	_	_	_	_	_	_
+4	sondages	sondages	X	_	_	_	_	_	_
+5	médiatisés	médiatisés	X	_	_	_	_	_	_
+6	révèle	révèle	X	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	effets	effets	X	_	_	_	_	_	_
+9	de	un	DET	_	_	_	_	_	_
+10	désirabilité	désirabilité	X	_	_	_	_	_	_
+11	sociale	sociale	X	_	_	_	_	_	_
+12	sur	sur	X	_	_	_	_	_	_
+13	les	le	DET	_	_	_	_	_	_
+14	réponses	réponses	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_897
+# text = Le principe de pluralisme impose aux autorités de garantir l'accès équitable aux fréquences radio.
+1	Le	le	DET	_	_	_	_	_	_
+2	principe	principe	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	pluralisme	pluralisme	NOUN	_	_	_	_	_	_
+5	impose	imposer	VERB	_	_	_	_	_	_
+6	aux	aux	ADP	_	_	_	_	_	_
+7	autorités	autorités	X	_	_	_	_	_	_
+8	de	un	DET	_	_	_	_	_	_
+9	garantir	garantir	X	_	_	_	_	_	_
+10	l'accès	l'accès	X	_	_	_	_	_	_
+11	équitable	équitable	X	_	_	_	_	_	_
+12	aux	aux	ADP	_	_	_	_	_	_
+13	fréquences	fréquences	X	_	_	_	_	_	_
+14	radio	radio	X	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_898
+# text = Les données d'audience confirment une fragmentation croissante des publics selon les plateformes.
+1	Les	le	DET	_	_	_	_	_	_
+2	données	donnée	NOUN	_	_	_	_	_	_
+3	d'audience	d'audience	X	_	_	_	_	_	_
+4	confirment	confirment	X	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	fragmentation	fragmentation	X	_	_	_	_	_	_
+7	croissante	croissante	X	_	_	_	_	_	_
+8	des	des	DET	_	_	_	_	_	_
+9	publics	publics	X	_	_	_	_	_	_
+10	selon	selon	X	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	plateformes	plateformes	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_899
+# text = La critique institutionnelle dénonce la précarité des journalistes freelances dans l'économie numérique.
+1	La	le	DET	_	_	_	_	_	_
+2	critique	critique	NOUN	_	_	_	_	_	_
+3	institutionnelle	institutionnel	ADJ	_	_	_	_	_	_
+4	dénonce	dénoncer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	précarité	précarité	NOUN	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	journalistes	journalistes	X	_	_	_	_	_	_
+9	freelances	freelances	X	_	_	_	_	_	_
+10	dans	dans	X	_	_	_	_	_	_
+11	l'économie	l'économie	X	_	_	_	_	_	_
+12	numérique	numérique	X	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = fr_c1_train_900
+# text = Il faudrait que les régulateurs publient des audits transparents sur les systèmes de recommandation algorithmique.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faudrait	falloir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	régulateurs	régulateur	NOUN	_	_	_	_	_	_
+6	publient	publier	VERB	_	_	_	_	_	_
+7	des	des	DET	_	_	_	_	_	_
+8	audits	audit	NOUN	_	_	_	_	_	_
+9	transparents	transparent	ADJ	_	_	_	_	_	_
+10	sur	sur	ADP	_	_	_	_	_	_
+11	les	le	DET	_	_	_	_	_	_
+12	systèmes	système	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	recommandation	recommandation	NOUN	_	_	_	_	_	_
+15	algorithmique	algorithmique	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
