@@ -17,7 +17,7 @@
 
 # sent_id = handcraft-zh-3
 # text = 我们明天去北京。
-1	我们	我	PRON	_	_	_	_	_	_
+1	我们	我们	PRON	_	_	_	_	_	_
 2	明天	明天	NOUN	_	_	_	_	_	_
 3	去	去	VERB	_	_	_	_	_	_
 4	北京	北京	PROPN	_	_	_	_	_	_
@@ -50,9 +50,9 @@
 
 # sent_id = handcraft-zh-7
 # text = 他们都不是学生。
-1	他们	他	PRON	_	_	_	_	_	_
+1	他们	他们	PRON	_	_	_	_	_	_
 2	都	都	ADV	_	_	_	_	_	_
-3	不是	是	VERB	_	_	_	_	_	_
+3	不是	不是	VERB	_	_	_	_	_	_
 4	学生	学生	NOUN	_	_	_	_	_	_
 5	。	。	PUNCT	_	_	_	_	_	_
 
@@ -92,7 +92,7 @@
 
 # sent_id = handcraft-zh-12
 # text = 不会太难吧？
-1	不会	会	AUX	_	_	_	_	_	_
+1	不会	不会	AUX	_	_	_	_	_	_
 2	太	太	ADV	_	_	_	_	_	_
 3	难	难	ADJ	_	_	_	_	_	_
 4	吧	吧	PART	_	_	_	_	_	_
@@ -122,7 +122,7 @@
 # sent_id = handcraft-zh-15
 # text = 我还是喜欢他。
 1	我	我	PRON	_	_	_	_	_	_
-2	还是	是	ADV	_	_	_	_	_	_
+2	还是	还是	ADV	_	_	_	_	_	_
 3	喜欢	喜欢	VERB	_	_	_	_	_	_
 4	他	他	PRON	_	_	_	_	_	_
 5	。	。	PUNCT	_	_	_	_	_	_
@@ -156,7 +156,7 @@
 
 # sent_id = handcraft-zh-19
 # text = 我们一起去商店吧。
-1	我们	我	PRON	_	_	_	_	_	_
+1	我们	我们	PRON	_	_	_	_	_	_
 2	一起	一起	ADV	_	_	_	_	_	_
 3	去	去	VERB	_	_	_	_	_	_
 4	商店	商店	NOUN	_	_	_	_	_	_
@@ -191,7 +191,7 @@
 
 # sent_id = handcraft-zh-23
 # text = 都是我的错。
-1	都是	是	VERB	_	_	_	_	_	_
+1	都是	都是	VERB	_	_	_	_	_	_
 2	我	我	PRON	_	_	_	_	_	_
 3	的	的	PART	_	_	_	_	_	_
 4	错	错	NOUN	_	_	_	_	_	_
@@ -200,7 +200,7 @@
 # sent_id = handcraft-zh-24
 # text = 你不能迟到。
 1	你	你	PRON	_	_	_	_	_	_
-2	不能	能	AUX	_	_	_	_	_	_
+2	不能	不能	AUX	_	_	_	_	_	_
 3	迟到	迟到	VERB	_	_	_	_	_	_
 4	。	。	PUNCT	_	_	_	_	_	_
 
@@ -214,7 +214,7 @@
 
 # sent_id = handcraft-zh-26
 # text = 我们老师非常严格。
-1	我们	我	PRON	_	_	_	_	_	_
+1	我们	我们	PRON	_	_	_	_	_	_
 2	老师	老师	NOUN	_	_	_	_	_	_
 3	非常	非常	ADV	_	_	_	_	_	_
 4	严格	严格	ADJ	_	_	_	_	_	_
@@ -305,7 +305,7 @@
 
 # sent_id = handcraft-zh-37
 # text = 他们在教室里学习。
-1	他们	他	PRON	_	_	_	_	_	_
+1	他们	他们	PRON	_	_	_	_	_	_
 2	在	在	ADP	_	_	_	_	_	_
 3	教室	教室	NOUN	_	_	_	_	_	_
 4	里	里	ADP	_	_	_	_	_	_
@@ -348,7 +348,7 @@
 
 # sent_id = handcraft-zh-42
 # text = 我们必须完成任务。
-1	我们	我	PRON	_	_	_	_	_	_
+1	我们	我们	PRON	_	_	_	_	_	_
 2	必须	必须	AUX	_	_	_	_	_	_
 3	完成	完成	VERB	_	_	_	_	_	_
 4	任务	任务	NOUN	_	_	_	_	_	_
@@ -408,7 +408,7 @@
 
 # sent_id = handcraft-zh-49
 # text = 我们吃过北京烤鸭。
-1	我们	我	PRON	_	_	_	_	_	_
+1	我们	我们	PRON	_	_	_	_	_	_
 2	吃	吃	VERB	_	_	_	_	_	_
 3	过	过	PART	_	_	_	_	_	_
 4	北京	北京	PROPN	_	_	_	_	_	_
@@ -609,8 +609,7 @@
 2	笑	笑	VERB	_	_	_	_	_	_
 3	着	着	PART	_	_	_	_	_	_
 4	说	说	VERB	_	_	_	_	_	_
-5	话	话	NOUN	_	_	_	_	_	_
-6	。	。	PUNCT	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-zh-72
 # text = 那里有很多人。
@@ -665,7 +664,7 @@
 3	烫	烫	ADJ	_	_	_	_	_	_
 4	了	了	PART	_	_	_	_	_	_
 5	，	，	PUNCT	_	_	_	_	_	_
-6	不能	能	AUX	_	_	_	_	_	_
+6	不能	不能	AUX	_	_	_	_	_	_
 7	喝	喝	VERB	_	_	_	_	_	_
 8	。	。	PUNCT	_	_	_	_	_	_
 
@@ -720,7 +719,7 @@
 
 # sent_id = handcraft-zh-84
 # text = 我们应该互相帮助。
-1	我们	我	PRON	_	_	_	_	_	_
+1	我们	我们	PRON	_	_	_	_	_	_
 2	应该	应该	AUX	_	_	_	_	_	_
 3	互相	互相	ADV	_	_	_	_	_	_
 4	帮助	帮助	VERB	_	_	_	_	_	_
@@ -824,8 +823,8 @@
 
 # sent_id = handcraft-zh-95
 # text = 我们都是朋友。
-1	我们	我	PRON	_	_	_	_	_	_
-2	都是	是	VERB	_	_	_	_	_	_
+1	我们	我们	PRON	_	_	_	_	_	_
+2	都是	都是	VERB	_	_	_	_	_	_
 3	朋友	朋友	NOUN	_	_	_	_	_	_
 4	。	。	PUNCT	_	_	_	_	_	_
 

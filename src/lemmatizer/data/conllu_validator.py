@@ -90,13 +90,9 @@ def validate_text(text: str) -> ValidationResult:
                         )
                     sent_ids_seen.add(current_sent_id)
                 if current_text is not None and current_forms:
-                    reconstructed = _reconstruct_text(current_forms)
-                    if reconstructed.rstrip() != current_text.rstrip():
-                        result.errors.append(
-                            f"Line {line_num}: text mismatch — "
-                            f"'# text'='{current_text}' vs "
-                            f"reconstructed='{reconstructed}'"
-                        )
+                    mismatch = _text_content_mismatch(current_forms, current_text)
+                    if mismatch:
+                        result.errors.append(f"Line {line_num}: {mismatch}")
                 result.sentence_count += 1
                 result.token_count += len(current_forms)
                 in_sentence = False
@@ -165,30 +161,35 @@ def validate_text(text: str) -> ValidationResult:
                 result.errors.append(f"Line {len(lines)}: duplicate sent_id '{current_sent_id}'")
             sent_ids_seen.add(current_sent_id)
         if current_text is not None and current_forms:
-            reconstructed = _reconstruct_text(current_forms)
-            if reconstructed.rstrip() != current_text.rstrip():
-                result.errors.append(
-                    f"Line {len(lines)}: text mismatch — "
-                    f"'# text'='{current_text}' vs "
-                    f"reconstructed='{reconstructed}'"
-                )
+            mismatch = _text_content_mismatch(current_forms, current_text)
+            if mismatch:
+                result.errors.append(f"Line {len(lines)}: {mismatch}")
         result.sentence_count += 1
         result.token_count += len(current_forms)
 
     return result
 
 
-_PUNCT_PREFIXES = frozenset(".,;:!?\"')\u3001\u3002\uff0c\uff01\uff1f\u061f\u060c")
+_WHITESPACE_RE = re.compile(r"\s+")
 
 
-def _reconstruct_text(forms: list[str]) -> str:
-    parts: list[str] = []
-    for form in forms:
-        if form and form[0] in _PUNCT_PREFIXES and parts:
-            parts[-1] = parts[-1] + form
-        else:
-            parts.append(form)
-    return " ".join(parts)
+def _text_content_mismatch(forms: list[str], text: str) -> str | None:
+    """Check that FORM tokens are a whitespace-agnostic re-partition of `# text`.
+
+    CoNLL-U MISC (SpaceAfter=No, etc.) is intentionally unused in this
+    dataset (columns 5-10 are always `_`), so exact inter-token spacing
+    cannot be reconstructed from FORM columns alone — e.g. Stanza MWT
+    expansion of "m'appelle" into "m'" + "appelle" has no space between
+    them, and Chinese words have no spaces at all. Instead, we verify that
+    concatenating every FORM (in order) reproduces `# text` with all
+    whitespace removed: this still catches dropped/altered/reordered
+    tokens without depending on a specific spacing convention.
+    """
+    joined_forms = "".join(forms)
+    squeezed_text = _WHITESPACE_RE.sub("", text)
+    if joined_forms != squeezed_text:
+        return f"text mismatch — '# text'='{text}' vs tokens='{joined_forms}'"
+    return None
 
 
 def _is_nfc(s: str) -> bool:

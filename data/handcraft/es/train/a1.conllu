@@ -1,0 +1,197 @@
+# sent_id = handcraft-es-a1-001
+# text = Yo soy feliz y tengo una familia.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	soy	ser	VERB	_	_	_	_	_	_
+3	feliz	feliz	ADJ	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	tengo	tener	VERB	_	_	_	_	_	_
+6	una	uno	DET	_	_	_	_	_	_
+7	familia	familia	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-002
+# text = La casa es grande y bonita.
+1	La	el	DET	_	_	_	_	_	_
+2	casa	casa	NOUN	_	_	_	_	_	_
+3	es	ser	VERB	_	_	_	_	_	_
+4	grande	grande	ADJ	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	bonita	bonito	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-003
+# text = Tengo un perro negro en casa.
+1	Tengo	tener	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	perro	perro	NOUN	_	_	_	_	_	_
+4	negro	negro	ADJ	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	casa	casa	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-004
+# text = Mi madre está en la cocina ahora.
+1	Mi	mi	DET	_	_	_	_	_	_
+2	madre	madre	NOUN	_	_	_	_	_	_
+3	está	estar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	cocina	cocina	NOUN	_	_	_	_	_	_
+7	ahora	ahora	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-005
+# text = El niño come la comida en la mesa.
+1	El	el	DET	_	_	_	_	_	_
+2	niño	niño	NOUN	_	_	_	_	_	_
+3	come	comer	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	comida	comida	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	mesa	mesa	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-006
+# text = Nosotros vivimos en una ciudad nueva.
+1	Nosotros	nosotros	PRON	_	_	_	_	_	_
+2	vivimos	vivir	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	una	uno	DET	_	_	_	_	_	_
+5	ciudad	ciudad	NOUN	_	_	_	_	_	_
+6	nueva	nuevo	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-007
+# text = Ella tiene un libro interesante.
+1	Ella	ella	PRON	_	_	_	_	_	_
+2	tiene	tener	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	libro	libro	NOUN	_	_	_	_	_	_
+5	interesante	interesante	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-008
+# text = Él es mi amigo y es alto.
+1	Él	él	PRON	_	_	_	_	_	_
+2	es	ser	VERB	_	_	_	_	_	_
+3	mi	mi	DET	_	_	_	_	_	_
+4	amigo	amigo	NOUN	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	es	ser	VERB	_	_	_	_	_	_
+7	alto	alto	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-009
+# text = La mujer trabaja en una oficina.
+1	La	el	DET	_	_	_	_	_	_
+2	mujer	mujer	NOUN	_	_	_	_	_	_
+3	trabaja	trabajar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	una	uno	DET	_	_	_	_	_	_
+6	oficina	oficina	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-010
+# text = Hoy es mi cumpleaños.
+1	Hoy	hoy	ADV	_	_	_	_	_	_
+2	es	ser	VERB	_	_	_	_	_	_
+3	mi	mi	DET	_	_	_	_	_	_
+4	cumpleaños	cumpleaños	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-011
+# text = Nosotros bebemos agua y café.
+1	Nosotros	nosotros	PRON	_	_	_	_	_	_
+2	bebemos	beber	VERB	_	_	_	_	_	_
+3	agua	agua	NOUN	_	_	_	_	_	_
+4	y	y	CCONJ	_	_	_	_	_	_
+5	café	café	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-012
+# text = El coche es nuevo y rápido.
+1	El	el	DET	_	_	_	_	_	_
+2	coche	coche	NOUN	_	_	_	_	_	_
+3	es	ser	VERB	_	_	_	_	_	_
+4	nuevo	nuevo	ADJ	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	rápido	rápido	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-013
+# text = Yo vivo en una casa pequeña.
+1	Yo	yo	PRON	_	_	_	_	_	_
+2	vivo	vivir	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	una	uno	DET	_	_	_	_	_	_
+5	casa	casa	NOUN	_	_	_	_	_	_
+6	pequeña	pequeño	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-014
+# text = El niño está aquí ahora.
+1	El	el	DET	_	_	_	_	_	_
+2	niño	niño	NOUN	_	_	_	_	_	_
+3	está	estar	VERB	_	_	_	_	_	_
+4	aquí	aquí	ADV	_	_	_	_	_	_
+5	ahora	ahora	ADV	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-015
+# text = Tú tienes un perro bonito.
+1	Tú	tú	PRON	_	_	_	_	_	_
+2	tienes	tener	VERB	_	_	_	_	_	_
+3	un	uno	DET	_	_	_	_	_	_
+4	perro	perro	NOUN	_	_	_	_	_	_
+5	bonito	bonito	ADJ	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-016
+# text = El hombre es alto y fuerte.
+1	El	el	DET	_	_	_	_	_	_
+2	hombre	hombre	NOUN	_	_	_	_	_	_
+3	es	ser	VERB	_	_	_	_	_	_
+4	alto	alto	ADJ	_	_	_	_	_	_
+5	y	y	CCONJ	_	_	_	_	_	_
+6	fuerte	fuerte	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-017
+# text = Mi padre tiene un auto nuevo.
+1	Mi	mi	DET	_	_	_	_	_	_
+2	padre	padre	NOUN	_	_	_	_	_	_
+3	tiene	tener	VERB	_	_	_	_	_	_
+4	un	uno	DET	_	_	_	_	_	_
+5	auto	auto	NOUN	_	_	_	_	_	_
+6	nuevo	nuevo	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-018
+# text = El profesor habla en la clase.
+1	El	el	DET	_	_	_	_	_	_
+2	profesor	profesor	NOUN	_	_	_	_	_	_
+3	habla	hablar	VERB	_	_	_	_	_	_
+4	en	en	ADP	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	clase	clase	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-019
+# text = La niña tiene una familia feliz.
+1	La	el	DET	_	_	_	_	_	_
+2	niña	niña	NOUN	_	_	_	_	_	_
+3	tiene	tener	VERB	_	_	_	_	_	_
+4	una	uno	DET	_	_	_	_	_	_
+5	familia	familia	NOUN	_	_	_	_	_	_
+6	feliz	feliz	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-a1-020
+# text = Él está en el baño.
+1	Él	él	PRON	_	_	_	_	_	_
+2	está	estar	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	el	el	DET	_	_	_	_	_	_
+5	baño	baño	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_

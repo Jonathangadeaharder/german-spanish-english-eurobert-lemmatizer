@@ -1,0 +1,145 @@
+# sent_id = handcraft-zh-a1-001
+# text = 我是学生。
+1	我	我	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	学生	学生	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-002
+# text = 他有朋友。
+1	他	他	PRON	_	_	_	_	_	_
+2	有	有	VERB	_	_	_	_	_	_
+3	朋友	朋友	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-003
+# text = 我在学校。
+1	我	我	PRON	_	_	_	_	_	_
+2	在	在	ADP	_	_	_	_	_	_
+3	学校	学校	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-004
+# text = 她是老师。
+1	她	她	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	老师	老师	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-005
+# text = 我们学习汉语。
+1	我们	我们	PRON	_	_	_	_	_	_
+2	学习	学习	VERB	_	_	_	_	_	_
+3	汉语	汉语	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-006
+# text = 他喝水。
+1	他	他	PRON	_	_	_	_	_	_
+2	喝	喝	VERB	_	_	_	_	_	_
+3	水	水	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-007
+# text = 我喜欢吃苹果。
+1	我	我	PRON	_	_	_	_	_	_
+2	喜欢	喜欢	VERB	_	_	_	_	_	_
+3	吃	吃	VERB	_	_	_	_	_	_
+4	苹果	苹果	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-008
+# text = 今天天气很好。
+1	今天	今天	NOUN	_	_	_	_	_	_
+2	天气	天气	NOUN	_	_	_	_	_	_
+3	很	很	ADV	_	_	_	_	_	_
+4	好	好	ADJ	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-009
+# text = 这是书。
+1	这	这	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	书	书	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-010
+# text = 妈妈在家。
+1	妈妈	妈妈	NOUN	_	_	_	_	_	_
+2	在	在	ADP	_	_	_	_	_	_
+3	家	家	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-011
+# text = 你是学生吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	学生	学生	NOUN	_	_	_	_	_	_
+4	吗	吗	PART	_	_	_	_	_	_
+5	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-012
+# text = 他去学校。
+1	他	他	PRON	_	_	_	_	_	_
+2	去	去	VERB	_	_	_	_	_	_
+3	学校	学校	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-013
+# text = 你好吗？
+1	你	你	PRON	_	_	_	_	_	_
+2	好	好	ADJ	_	_	_	_	_	_
+3	吗	吗	PART	_	_	_	_	_	_
+4	？	？	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-014
+# text = 她喜欢狗。
+1	她	她	PRON	_	_	_	_	_	_
+2	喜欢	喜欢	VERB	_	_	_	_	_	_
+3	狗	狗	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-015
+# text = 他在医院。
+1	他	他	PRON	_	_	_	_	_	_
+2	在	在	ADP	_	_	_	_	_	_
+3	医院	医院	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-016
+# text = 我是医生。
+1	我	我	PRON	_	_	_	_	_	_
+2	是	是	VERB	_	_	_	_	_	_
+3	医生	医生	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-017
+# text = 我们看电影。
+1	我们	我们	PRON	_	_	_	_	_	_
+2	看	看	VERB	_	_	_	_	_	_
+3	电影	电影	NOUN	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-018
+# text = 今天很冷。
+1	今天	今天	NOUN	_	_	_	_	_	_
+2	很	很	ADV	_	_	_	_	_	_
+3	冷	冷	ADJ	_	_	_	_	_	_
+4	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-019
+# text = 我不喝水。
+1	我	我	PRON	_	_	_	_	_	_
+2	不	不	ADV	_	_	_	_	_	_
+3	喝	喝	VERB	_	_	_	_	_	_
+4	水	水	NOUN	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a1-020
+# text = 爸爸和妈妈认识老师。
+1	爸爸	爸爸	NOUN	_	_	_	_	_	_
+2	和	和	CCONJ	_	_	_	_	_	_
+3	妈妈	妈妈	NOUN	_	_	_	_	_	_
+4	认识	认识	VERB	_	_	_	_	_	_
+5	老师	老师	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_

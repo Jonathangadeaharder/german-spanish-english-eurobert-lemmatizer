@@ -1,0 +1,167 @@
+# sent_id = handcraft-nl-a1-001
+# text = Ik ben een vrouw.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ben	zijn	AUX	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	vrouw	vrouw	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-002
+# text = Hij heeft een boek.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	heeft	hebben	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-003
+# text = Wij gaan naar huis.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	huis	huis	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-004
+# text = De vrouw werkt op een kamer.
+1	De	de	DET	_	_	_	_	_	_
+2	vrouw	vrouw	NOUN	_	_	_	_	_	_
+3	werkt	werken	VERB	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	kamer	kamer	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-005
+# text = Het kind speelt graag.
+1	Het	het	DET	_	_	_	_	_	_
+2	kind	kind	NOUN	_	_	_	_	_	_
+3	speelt	spelen	VERB	_	_	_	_	_	_
+4	graag	graag	ADV	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-006
+# text = Ik heb een auto.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	heb	hebben	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	auto	auto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-007
+# text = Mijn vader heeft geld.
+1	Mijn	mijn	DET	_	_	_	_	_	_
+2	vader	vader	NOUN	_	_	_	_	_	_
+3	heeft	hebben	VERB	_	_	_	_	_	_
+4	geld	geld	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-008
+# text = Wij komen vandaag.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	komen	komen	VERB	_	_	_	_	_	_
+3	vandaag	vandaag	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-009
+# text = De moeder maakt het eten klaar.
+1	De	de	DET	_	_	_	_	_	_
+2	moeder	moeder	NOUN	_	_	_	_	_	_
+3	maakt	maken	VERB	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	eten	eten	NOUN	_	_	_	_	_	_
+6	klaar	klaar	ADJ	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-010
+# text = Ik zie een foto.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zie	zien	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-011
+# text = Hij leest een boek.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	leest	lezen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-012
+# text = Wij eten samen.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	eten	eten	VERB	_	_	_	_	_	_
+3	samen	samen	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-013
+# text = De dochter vraagt de naam.
+1	De	de	DET	_	_	_	_	_	_
+2	dochter	dochter	NOUN	_	_	_	_	_	_
+3	vraagt	vragen	VERB	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	naam	naam	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-014
+# text = Ik wacht hier.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	wacht	wachten	VERB	_	_	_	_	_	_
+3	hier	hier	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-015
+# text = De vader speelt met het kind.
+1	De	de	DET	_	_	_	_	_	_
+2	vader	vader	NOUN	_	_	_	_	_	_
+3	speelt	spelen	VERB	_	_	_	_	_	_
+4	met	met	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	kind	kind	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-016
+# text = Ik neem de foto.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	neem	nemen	VERB	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	foto	foto	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-017
+# text = Zij kopen een huis.
+1	Zij	zij	PRON	_	_	_	_	_	_
+2	kopen	kopen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	huis	huis	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-018
+# text = Het is een goed boek.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	goed	goed	ADJ	_	_	_	_	_	_
+5	boek	boek	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-019
+# text = Wij hebben een nieuwe auto.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	hebben	hebben	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+5	auto	auto	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-020
+# text = De vrouw loopt naar het huis.
+1	De	de	DET	_	_	_	_	_	_
+2	vrouw	vrouw	NOUN	_	_	_	_	_	_
+3	loopt	lopen	VERB	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	huis	huis	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_

@@ -1,0 +1,238 @@
+# sent_id = handcraft-sv-a2-001
+# text = Igår ringde jag min kompis och vi pratade länge.
+1	Igår	igår	ADV	_	_	_	_	_	_
+2	ringde	ringa	VERB	_	_	_	_	_	_
+3	jag	jag	PRON	_	_	_	_	_	_
+4	min	min	DET	_	_	_	_	_	_
+5	kompis	kompis	NOUN	_	_	_	_	_	_
+6	och	och	CCONJ	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	pratade	prata	VERB	_	_	_	_	_	_
+9	länge	länge	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-002
+# text = Jag ska åka till stan imorgon och köpa en present.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	ska	ska	AUX	_	_	_	_	_	_
+3	åka	åka	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	stan	stan	NOUN	_	_	_	_	_	_
+6	imorgon	imorgon	ADV	_	_	_	_	_	_
+7	och	och	CCONJ	_	_	_	_	_	_
+8	köpa	köpa	VERB	_	_	_	_	_	_
+9	en	en	DET	_	_	_	_	_	_
+10	present	present	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-003
+# text = Min bror är längre än jag, men jag är snabbare.
+1	Min	min	DET	_	_	_	_	_	_
+2	bror	bror	NOUN	_	_	_	_	_	_
+3	är	vara	AUX	_	_	_	_	_	_
+4	längre	längre	ADJ	_	_	_	_	_	_
+5	än	än	ADP	_	_	_	_	_	_
+6	jag	jag	PRON	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	men	men	CCONJ	_	_	_	_	_	_
+9	jag	jag	PRON	_	_	_	_	_	_
+10	är	vara	AUX	_	_	_	_	_	_
+11	snabbare	snabbare	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-004
+# text = Hon försökte lära sig svenska förra året, men det var svårt.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	försökte	försöka	VERB	_	_	_	_	_	_
+3	lära	lära	VERB	_	_	_	_	_	_
+4	sig	sig	PRON	_	_	_	_	_	_
+5	svenska	svenska	NOUN	_	_	_	_	_	_
+6	förra	förra	ADJ	_	_	_	_	_	_
+7	året	år	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	men	men	CCONJ	_	_	_	_	_	_
+10	det	det	PRON	_	_	_	_	_	_
+11	var	vara	AUX	_	_	_	_	_	_
+12	svårt	svårt	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-005
+# text = Vi ska träffa våra vänner ikväll på restaurang.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	ska	ska	AUX	_	_	_	_	_	_
+3	träffa	träffa	VERB	_	_	_	_	_	_
+4	våra	vår	DET	_	_	_	_	_	_
+5	vänner	vän	NOUN	_	_	_	_	_	_
+6	ikväll	ikväll	ADV	_	_	_	_	_	_
+7	på	på	ADP	_	_	_	_	_	_
+8	restaurang	restaurang	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-006
+# text = Denna bok är mer intressant än den förra.
+1	Denna	denna	DET	_	_	_	_	_	_
+2	bok	bok	NOUN	_	_	_	_	_	_
+3	är	vara	AUX	_	_	_	_	_	_
+4	mer	mer	ADJ	_	_	_	_	_	_
+5	intressant	intressant	ADJ	_	_	_	_	_	_
+6	än	än	ADP	_	_	_	_	_	_
+7	den	den	DET	_	_	_	_	_	_
+8	förra	förra	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-007
+# text = De byggde ett hus bredvid sjön förra sommaren.
+1	De	de	PRON	_	_	_	_	_	_
+2	byggde	bygga	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	hus	hus	NOUN	_	_	_	_	_	_
+5	bredvid	bredvid	ADP	_	_	_	_	_	_
+6	sjön	sjö	NOUN	_	_	_	_	_	_
+7	förra	förra	ADJ	_	_	_	_	_	_
+8	sommaren	sommar	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-008
+# text = Ska du komma till festen ikväll?
+1	Ska	ska	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	komma	komma	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	festen	fest	NOUN	_	_	_	_	_	_
+6	ikväll	ikväll	ADV	_	_	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-009
+# text = Det går snabbare om vi åker tillsammans.
+1	Det	det	PRON	_	_	_	_	_	_
+2	går	gå	VERB	_	_	_	_	_	_
+3	snabbare	snabbare	ADJ	_	_	_	_	_	_
+4	om	om	SCONJ	_	_	_	_	_	_
+5	vi	vi	PRON	_	_	_	_	_	_
+6	åker	åka	VERB	_	_	_	_	_	_
+7	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-010
+# text = Barnen hoppade och skrattade hela dagen.
+1	Barnen	barn	NOUN	_	_	_	_	_	_
+2	hoppade	hoppa	VERB	_	_	_	_	_	_
+3	och	och	CCONJ	_	_	_	_	_	_
+4	skrattade	skratta	VERB	_	_	_	_	_	_
+5	hela	hel	ADJ	_	_	_	_	_	_
+6	dagen	dag	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-011
+# text = Jag ska ringa dig senare och berätta allt.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	ska	ska	AUX	_	_	_	_	_	_
+3	ringa	ringa	VERB	_	_	_	_	_	_
+4	dig	du	PRON	_	_	_	_	_	_
+5	senare	senare	ADV	_	_	_	_	_	_
+6	och	och	CCONJ	_	_	_	_	_	_
+7	berätta	berätta	VERB	_	_	_	_	_	_
+8	allt	allt	PRON	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-012
+# text = Vädret är värre imorgon, säger de på tv.
+1	Vädret	väder	NOUN	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	värre	värre	ADJ	_	_	_	_	_	_
+4	imorgon	imorgon	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	säger	säga	VERB	_	_	_	_	_	_
+7	de	de	PRON	_	_	_	_	_	_
+8	på	på	ADP	_	_	_	_	_	_
+9	tv	tv	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-013
+# text = Vi besökte min mormor förra veckan.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	besökte	besöka	VERB	_	_	_	_	_	_
+3	min	min	DET	_	_	_	_	_	_
+4	mormor	mormor	NOUN	_	_	_	_	_	_
+5	förra	förra	ADJ	_	_	_	_	_	_
+6	veckan	vecka	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-014
+# text = Hon ska flytta till en ny stad nästa månad.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	ska	ska	AUX	_	_	_	_	_	_
+3	flytta	flytta	VERB	_	_	_	_	_	_
+4	till	till	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	ny	ny	ADJ	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	nästa	nästa	ADJ	_	_	_	_	_	_
+9	månad	månad	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-015
+# text = Detta problem är värre än det förra.
+1	Detta	detta	DET	_	_	_	_	_	_
+2	problem	problem	NOUN	_	_	_	_	_	_
+3	är	vara	AUX	_	_	_	_	_	_
+4	värre	värre	ADJ	_	_	_	_	_	_
+5	än	än	ADP	_	_	_	_	_	_
+6	det	det	DET	_	_	_	_	_	_
+7	förra	förra	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-016
+# text = Han köpte en dyrare bil än sin bror.
+1	Han	han	PRON	_	_	_	_	_	_
+2	köpte	köpa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	dyrare	dyrare	ADJ	_	_	_	_	_	_
+5	bil	bil	NOUN	_	_	_	_	_	_
+6	än	än	ADP	_	_	_	_	_	_
+7	sin	sin	DET	_	_	_	_	_	_
+8	bror	bror	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-017
+# text = Vi ska äta middag tillsammans ikväll.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	ska	ska	AUX	_	_	_	_	_	_
+3	äta	äta	VERB	_	_	_	_	_	_
+4	middag	middag	NOUN	_	_	_	_	_	_
+5	tillsammans	tillsammans	ADV	_	_	_	_	_	_
+6	ikväll	ikväll	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-018
+# text = Bussen är långsammare än tåget idag.
+1	Bussen	buss	NOUN	_	_	_	_	_	_
+2	är	vara	AUX	_	_	_	_	_	_
+3	långsammare	långsammare	ADJ	_	_	_	_	_	_
+4	än	än	ADP	_	_	_	_	_	_
+5	tåget	tåg	NOUN	_	_	_	_	_	_
+6	idag	idag	ADV	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-019
+# text = De pratade länge om sina drömmar och sin framtid.
+1	De	de	PRON	_	_	_	_	_	_
+2	pratade	prata	VERB	_	_	_	_	_	_
+3	länge	länge	ADV	_	_	_	_	_	_
+4	om	om	ADP	_	_	_	_	_	_
+5	sina	sin	DET	_	_	_	_	_	_
+6	drömmar	dröm	NOUN	_	_	_	_	_	_
+7	och	och	CCONJ	_	_	_	_	_	_
+8	sin	sin	DET	_	_	_	_	_	_
+9	framtid	framtid	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a2-020
+# text = Jag ska jobba hårdare nästa gång.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	ska	ska	AUX	_	_	_	_	_	_
+3	jobba	jobba	VERB	_	_	_	_	_	_
+4	hårdare	hårdare	ADJ	_	_	_	_	_	_
+5	nästa	nästa	ADJ	_	_	_	_	_	_
+6	gång	gång	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_

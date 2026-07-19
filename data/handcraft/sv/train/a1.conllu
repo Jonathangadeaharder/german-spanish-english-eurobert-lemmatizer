@@ -1,0 +1,208 @@
+# sent_id = handcraft-sv-a1-001
+# text = Jag är här och har en bok.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	är	vara	VERB	_	_	_	_	_	_
+3	här	här	ADV	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	har	ha	VERB	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	bok	bok	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-002
+# text = Han har en hund och en katt.
+1	Han	han	PRON	_	_	_	_	_	_
+2	har	ha	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	hund	hund	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	katt	katt	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-003
+# text = Vi har en bil och ett hus.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	har	ha	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	bil	bil	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	ett	ett	DET	_	_	_	_	_	_
+7	hus	hus	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-004
+# text = Barnet läser en bok i rummet.
+1	Barnet	barn	NOUN	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	bok	bok	NOUN	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	rummet	rum	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-005
+# text = Hon arbetar på ett kontor i staden.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	arbetar	arbeta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	kontor	kontor	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	staden	stad	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-006
+# text = De äter frukost på morgonen.
+1	De	de	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	frukost	frukost	NOUN	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	morgonen	morgon	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-007
+# text = Mor och far har ett barn.
+1	Mor	mor	NOUN	_	_	_	_	_	_
+2	och	och	CCONJ	_	_	_	_	_	_
+3	far	far	NOUN	_	_	_	_	_	_
+4	har	ha	VERB	_	_	_	_	_	_
+5	ett	ett	DET	_	_	_	_	_	_
+6	barn	barn	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-008
+# text = Jag dricker kaffe och äter bröd.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	dricker	dricka	VERB	_	_	_	_	_	_
+3	kaffe	kaffe	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	äter	äta	VERB	_	_	_	_	_	_
+6	bröd	bröd	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-009
+# text = Vi ser en räv och en björn i skogen.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	ser	se	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	räv	räv	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	björn	björn	NOUN	_	_	_	_	_	_
+8	i	i	ADP	_	_	_	_	_	_
+9	skogen	skog	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-010
+# text = Pojken och flickan sjunger och dansar.
+1	Pojken	pojke	NOUN	_	_	_	_	_	_
+2	och	och	CCONJ	_	_	_	_	_	_
+3	flickan	flicka	NOUN	_	_	_	_	_	_
+4	sjunger	sjunga	VERB	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	dansar	dansa	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-011
+# text = Kvinnan läser en tidning och dricker te.
+1	Kvinnan	kvinna	NOUN	_	_	_	_	_	_
+2	läser	läsa	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	tidning	tidning	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	dricker	dricka	VERB	_	_	_	_	_	_
+7	te	te	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-012
+# text = Läkaren arbetar på ett sjukhus i staden.
+1	Läkaren	läkare	NOUN	_	_	_	_	_	_
+2	arbetar	arbeta	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	sjukhus	sjukhus	NOUN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	staden	stad	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-013
+# text = Vi äter middag och dricker mjölk.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	äter	äta	VERB	_	_	_	_	_	_
+3	middag	middag	NOUN	_	_	_	_	_	_
+4	och	och	CCONJ	_	_	_	_	_	_
+5	dricker	dricka	VERB	_	_	_	_	_	_
+6	mjölk	mjölk	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-014
+# text = Hunden och katten sover i rummet.
+1	Hunden	hund	NOUN	_	_	_	_	_	_
+2	och	och	CCONJ	_	_	_	_	_	_
+3	katten	katt	NOUN	_	_	_	_	_	_
+4	sover	sova	VERB	_	_	_	_	_	_
+5	i	i	ADP	_	_	_	_	_	_
+6	rummet	rum	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-015
+# text = Jag skriver ett brev med en penna.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	ett	ett	DET	_	_	_	_	_	_
+4	brev	brev	NOUN	_	_	_	_	_	_
+5	med	med	ADP	_	_	_	_	_	_
+6	en	en	DET	_	_	_	_	_	_
+7	penna	penna	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-016
+# text = Läraren skriver på en tavla.
+1	Läraren	lärare	NOUN	_	_	_	_	_	_
+2	skriver	skriva	VERB	_	_	_	_	_	_
+3	på	på	ADP	_	_	_	_	_	_
+4	en	en	DET	_	_	_	_	_	_
+5	tavla	tavla	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-017
+# text = Flickan har en blomma och ett äpple.
+1	Flickan	flicka	NOUN	_	_	_	_	_	_
+2	har	ha	VERB	_	_	_	_	_	_
+3	en	en	DET	_	_	_	_	_	_
+4	blomma	blomma	NOUN	_	_	_	_	_	_
+5	och	och	CCONJ	_	_	_	_	_	_
+6	ett	ett	DET	_	_	_	_	_	_
+7	äpple	äpple	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-018
+# text = Vi bor i ett hus på landet.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	bor	bo	VERB	_	_	_	_	_	_
+3	i	i	ADP	_	_	_	_	_	_
+4	ett	ett	DET	_	_	_	_	_	_
+5	hus	hus	NOUN	_	_	_	_	_	_
+6	på	på	ADP	_	_	_	_	_	_
+7	landet	land	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-019
+# text = Barnen simmar i sjön.
+1	Barnen	barn	NOUN	_	_	_	_	_	_
+2	simmar	simma	VERB	_	_	_	_	_	_
+3	i	i	ADP	_	_	_	_	_	_
+4	sjön	sjö	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-a1-020
+# text = Min vän bor i en stor stad.
+1	Min	min	DET	_	_	_	_	_	_
+2	vän	vän	NOUN	_	_	_	_	_	_
+3	bor	bo	VERB	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	en	en	DET	_	_	_	_	_	_
+6	stor	stor	ADJ	_	_	_	_	_	_
+7	stad	stad	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_

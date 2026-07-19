@@ -1,0 +1,138 @@
+# sent_id = handcraft-ar-a1-001
+# text = هذا بيت كبير.
+1	هذا	هذا	DET	_	_	_	_	_	_
+2	بيت	بيت	NOUN	_	_	_	_	_	_
+3	كبير	كبير	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-002
+# text = هذه بنت صغيرة.
+1	هذه	هذه	DET	_	_	_	_	_	_
+2	بنت	بنت	NOUN	_	_	_	_	_	_
+3	صغيرة	صغير	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-003
+# text = هو طالب جديد.
+1	هو	هو	PRON	_	_	_	_	_	_
+2	طالب	طالب	NOUN	_	_	_	_	_	_
+3	جديد	جديد	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-004
+# text = هي طبيب سعيد.
+1	هي	هي	PRON	_	_	_	_	_	_
+2	طبيب	طبيب	NOUN	_	_	_	_	_	_
+3	سعيد	سعيد	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-005
+# text = أنا أقرأ كتاب.
+1	أنا	أنا	PRON	_	_	_	_	_	_
+2	أقرأ	قَرَأَ	VERB	_	_	_	_	_	_
+3	كتاب	كِتَاب	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-006
+# text = نحن نشرب قهوة.
+1	نحن	نحن	PRON	_	_	_	_	_	_
+2	نشرب	شرب	VERB	_	_	_	_	_	_
+3	قهوة	قَهْوَة	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-007
+# text = هو يجلس هناك.
+1	هو	هو	PRON	_	_	_	_	_	_
+2	يجلس	جلس	VERB	_	_	_	_	_	_
+3	هناك	هناك	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-008
+# text = هي تشرب حليب.
+1	هي	هي	PRON	_	_	_	_	_	_
+2	تشرب	شرب	VERB	_	_	_	_	_	_
+3	حليب	حليب	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-009
+# text = أنت تكتب كتاب.
+1	أنت	أنت	PRON	_	_	_	_	_	_
+2	تكتب	كَتَبَ	VERB	_	_	_	_	_	_
+3	كتاب	كِتَاب	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-010
+# text = هو يلعب داخل البيت.
+1	هو	هو	PRON	_	_	_	_	_	_
+2	يلعب	لعب	VERB	_	_	_	_	_	_
+3	داخل	داخل	ADP	_	_	_	_	_	_
+4	البيت	بيت	NOUN	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-011
+# text = الطفل يشرب ماء.
+1	الطفل	طفل	NOUN	_	_	_	_	_	_
+2	يشرب	شرب	VERB	_	_	_	_	_	_
+3	ماء	ماء	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-012
+# text = المرأة طباخ طيب.
+1	المرأة	مَرْأَة	NOUN	_	_	_	_	_	_
+2	طباخ	طباخ	NOUN	_	_	_	_	_	_
+3	طيب	طيب	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-013
+# text = الكلب سريع.
+1	الكلب	كَلْب	NOUN	_	_	_	_	_	_
+2	سريع	سريع	ADJ	_	_	_	_	_	_
+3	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-014
+# text = القطة صغيرة.
+1	القطة	قِطّ	NOUN	_	_	_	_	_	_
+2	صغيرة	صغير	ADJ	_	_	_	_	_	_
+3	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-015
+# text = هذا رجل طويل.
+1	هذا	هذا	DET	_	_	_	_	_	_
+2	رجل	رجل	NOUN	_	_	_	_	_	_
+3	طويل	طويل	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-016
+# text = هذه بنت جميلة.
+1	هذه	هذه	DET	_	_	_	_	_	_
+2	بنت	بنت	NOUN	_	_	_	_	_	_
+3	جميلة	جَمِيل	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-017
+# text = ذلك كلب كبير.
+1	ذلك	ذلك	DET	_	_	_	_	_	_
+2	كلب	كَلْب	NOUN	_	_	_	_	_	_
+3	كبير	كبير	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-018
+# text = نحن نمشي هناك.
+1	نحن	نحن	PRON	_	_	_	_	_	_
+2	نمشي	مَشَى	VERB	_	_	_	_	_	_
+3	هناك	هناك	ADV	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-019
+# text = الأب يدخل البيت.
+1	الأب	أب	NOUN	_	_	_	_	_	_
+2	يدخل	دخل	VERB	_	_	_	_	_	_
+3	البيت	بيت	NOUN	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-ar-a1-020
+# text = ذلك بيت صغير.
+1	ذلك	ذلك	DET	_	_	_	_	_	_
+2	بيت	بيت	NOUN	_	_	_	_	_	_
+3	صغير	صغير	ADJ	_	_	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_

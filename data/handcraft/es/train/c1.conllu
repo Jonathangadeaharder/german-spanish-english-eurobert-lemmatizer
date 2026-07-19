@@ -1,0 +1,357 @@
+# sent_id = handcraft-es-c1-001
+# text = Si hubiera sabido la magnitud de la crisis, habría propuesto una solución alternativa.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	hubiera	haber	AUX	_	_	_	_	_	_
+3	sabido	saber	VERB	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	magnitud	magnitud	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	crisis	crisis	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	habría	haber	AUX	_	_	_	_	_	_
+11	propuesto	proponer	VERB	_	_	_	_	_	_
+12	una	uno	DET	_	_	_	_	_	_
+13	solución	solución	NOUN	_	_	_	_	_	_
+14	alternativa	alternativo	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-002
+# text = El investigador declaró que habría publicado los resultados si hubiera recibido más fondos.
+1	El	el	DET	_	_	_	_	_	_
+2	investigador	investigador	NOUN	_	_	_	_	_	_
+3	declaró	declarar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	habría	haber	AUX	_	_	_	_	_	_
+6	publicado	publicar	VERB	_	_	_	_	_	_
+7	los	el	DET	_	_	_	_	_	_
+8	resultados	resultado	NOUN	_	_	_	_	_	_
+9	si	si	SCONJ	_	_	_	_	_	_
+10	hubiera	haber	AUX	_	_	_	_	_	_
+11	recibido	recibir	VERB	_	_	_	_	_	_
+12	más	más	ADV	_	_	_	_	_	_
+13	fondos	fondo	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-003
+# text = Si la hipótesis hubiera sido válida, los investigadores habrían aceptado la teoría.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	hipótesis	hipótesis	NOUN	_	_	_	_	_	_
+4	hubiera	haber	AUX	_	_	_	_	_	_
+5	sido	ser	AUX	_	_	_	_	_	_
+6	válida	válido	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	investigadores	investigador	NOUN	_	_	_	_	_	_
+10	habrían	haber	AUX	_	_	_	_	_	_
+11	aceptado	aceptar	VERB	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	teoría	teoría	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-004
+# text = El profesor sugirió que el alumno habría plagiado el ensayo.
+1	El	el	DET	_	_	_	_	_	_
+2	profesor	profesor	NOUN	_	_	_	_	_	_
+3	sugirió	sugerir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	alumno	alumno	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	plagiado	plagiar	VERB	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	ensayo	ensayo	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-005
+# text = Aunque el experimento hubiera fracasado, el equipo habría seguido investigando.
+1	Aunque	aunque	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	experimento	experimento	NOUN	_	_	_	_	_	_
+4	hubiera	haber	AUX	_	_	_	_	_	_
+5	fracasado	fracasar	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	equipo	equipo	NOUN	_	_	_	_	_	_
+9	habría	haber	AUX	_	_	_	_	_	_
+10	seguido	seguir	VERB	_	_	_	_	_	_
+11	investigando	investigar	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-006
+# text = Los analistas concluyeron que la empresa habría quebrado sin la subvención.
+1	Los	el	DET	_	_	_	_	_	_
+2	analistas	analista	NOUN	_	_	_	_	_	_
+3	concluyeron	concluir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	empresa	empresa	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	quebrado	quebrar	VERB	_	_	_	_	_	_
+9	sin	sin	ADP	_	_	_	_	_	_
+10	la	el	DET	_	_	_	_	_	_
+11	subvención	subvención	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-007
+# text = El juez manifestó que el acusado habría confesado si hubiera sido interrogado correctamente.
+1	El	el	DET	_	_	_	_	_	_
+2	juez	juez	NOUN	_	_	_	_	_	_
+3	manifestó	manifestar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	acusado	acusado	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	confesado	confesar	VERB	_	_	_	_	_	_
+9	si	si	SCONJ	_	_	_	_	_	_
+10	hubiera	haber	AUX	_	_	_	_	_	_
+11	sido	ser	AUX	_	_	_	_	_	_
+12	interrogado	interrogar	VERB	_	_	_	_	_	_
+13	correctamente	correctamente	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-008
+# text = Si el fenómeno se hubiera observado antes, la comunidad científica habría reaccionado.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	fenómeno	fenómeno	NOUN	_	_	_	_	_	_
+4	se	él	PRON	_	_	_	_	_	_
+5	hubiera	haber	AUX	_	_	_	_	_	_
+6	observado	observar	VERB	_	_	_	_	_	_
+7	antes	antes	ADV	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	comunidad	comunidad	NOUN	_	_	_	_	_	_
+11	científica	científico	ADJ	_	_	_	_	_	_
+12	habría	haber	AUX	_	_	_	_	_	_
+13	reaccionado	reaccionar	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-009
+# text = El economista predijo que la inflación habría superado el umbral si no se hubiera aplicado la medida.
+1	El	el	DET	_	_	_	_	_	_
+2	economista	economista	NOUN	_	_	_	_	_	_
+3	predijo	predecir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	inflación	inflación	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	superado	superar	VERB	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	umbral	umbral	NOUN	_	_	_	_	_	_
+11	si	si	SCONJ	_	_	_	_	_	_
+12	no	no	PART	_	_	_	_	_	_
+13	se	él	PRON	_	_	_	_	_	_
+14	hubiera	haber	AUX	_	_	_	_	_	_
+15	aplicado	aplicar	VERB	_	_	_	_	_	_
+16	la	el	DET	_	_	_	_	_	_
+17	medida	medida	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-010
+# text = El filósofo sostuvo que la argumentación habría convencido a los oyentes si se hubiera expuesto con claridad.
+1	El	el	DET	_	_	_	_	_	_
+2	filósofo	filósofo	NOUN	_	_	_	_	_	_
+3	sostuvo	sostener	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	argumentación	argumentación	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	convencido	convencer	VERB	_	_	_	_	_	_
+9	a	a	ADP	_	_	_	_	_	_
+10	los	el	DET	_	_	_	_	_	_
+11	oyentes	oyente	NOUN	_	_	_	_	_	_
+12	si	si	SCONJ	_	_	_	_	_	_
+13	se	él	PRON	_	_	_	_	_	_
+14	hubiera	haber	AUX	_	_	_	_	_	_
+15	expuesto	exponer	VERB	_	_	_	_	_	_
+16	con	con	ADP	_	_	_	_	_	_
+17	claridad	claridad	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-011
+# text = Si el gobierno hubiera invertido más recursos, el proyecto habría concluido a tiempo.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	gobierno	gobierno	NOUN	_	_	_	_	_	_
+4	hubiera	haber	AUX	_	_	_	_	_	_
+5	invertido	invertir	VERB	_	_	_	_	_	_
+6	más	más	ADV	_	_	_	_	_	_
+7	recursos	recurso	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	proyecto	proyecto	NOUN	_	_	_	_	_	_
+11	habría	haber	AUX	_	_	_	_	_	_
+12	concluido	concluir	VERB	_	_	_	_	_	_
+13	a	a	ADP	_	_	_	_	_	_
+14	tiempo	tiempo	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-012
+# text = El historiador reconoció que la fuente habría sido falsificada si el perito no la hubiera examinado.
+1	El	el	DET	_	_	_	_	_	_
+2	historiador	historiador	NOUN	_	_	_	_	_	_
+3	reconoció	reconocer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	fuente	fuente	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	sido	ser	AUX	_	_	_	_	_	_
+9	falsificada	falsificar	VERB	_	_	_	_	_	_
+10	si	si	SCONJ	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	perito	perito	NOUN	_	_	_	_	_	_
+13	no	no	PART	_	_	_	_	_	_
+14	la	él	PRON	_	_	_	_	_	_
+15	hubiera	haber	AUX	_	_	_	_	_	_
+16	examinado	examinar	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-013
+# text = El comité habría rechazado la propuesta si los miembros hubieran detectado irregularidades.
+1	El	el	DET	_	_	_	_	_	_
+2	comité	comité	NOUN	_	_	_	_	_	_
+3	habría	haber	AUX	_	_	_	_	_	_
+4	rechazado	rechazar	VERB	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	propuesta	propuesta	NOUN	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	los	el	DET	_	_	_	_	_	_
+9	miembros	miembro	NOUN	_	_	_	_	_	_
+10	hubieran	haber	AUX	_	_	_	_	_	_
+11	detectado	detectar	VERB	_	_	_	_	_	_
+12	irregularidades	irregularidad	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-014
+# text = El lingüista indicó que el dialecto habría desaparecido si no se hubiera documentado.
+1	El	el	DET	_	_	_	_	_	_
+2	lingüista	lingüista	NOUN	_	_	_	_	_	_
+3	indicó	indicar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	dialecto	dialecto	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	desaparecido	desaparecer	VERB	_	_	_	_	_	_
+9	si	si	SCONJ	_	_	_	_	_	_
+10	no	no	PART	_	_	_	_	_	_
+11	se	él	PRON	_	_	_	_	_	_
+12	hubiera	haber	AUX	_	_	_	_	_	_
+13	documentado	documentar	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-015
+# text = Si el traductor hubiera consultado el glosario, habría evitado los errores terminológicos.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	el	el	DET	_	_	_	_	_	_
+3	traductor	traductor	NOUN	_	_	_	_	_	_
+4	hubiera	haber	AUX	_	_	_	_	_	_
+5	consultado	consultar	VERB	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	glosario	glosario	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	habría	haber	AUX	_	_	_	_	_	_
+10	evitado	evitar	VERB	_	_	_	_	_	_
+11	los	el	DET	_	_	_	_	_	_
+12	errores	error	NOUN	_	_	_	_	_	_
+13	terminológicos	terminológico	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-016
+# text = El sociólogo afirmó que la encuesta habría sesgado los resultados si la muestra no hubiera sido representativa.
+1	El	el	DET	_	_	_	_	_	_
+2	sociólogo	sociólogo	NOUN	_	_	_	_	_	_
+3	afirmó	afirmar	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	encuesta	encuesta	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	sesgado	sesgar	VERB	_	_	_	_	_	_
+9	los	el	DET	_	_	_	_	_	_
+10	resultados	resultado	NOUN	_	_	_	_	_	_
+11	si	si	SCONJ	_	_	_	_	_	_
+12	la	el	DET	_	_	_	_	_	_
+13	muestra	muestra	NOUN	_	_	_	_	_	_
+14	no	no	PART	_	_	_	_	_	_
+15	hubiera	haber	AUX	_	_	_	_	_	_
+16	sido	ser	AUX	_	_	_	_	_	_
+17	representativa	representativo	ADJ	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-017
+# text = Si la editorial hubiera publicado el manuscrito, la crítica habría elogiado la prosa.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	la	el	DET	_	_	_	_	_	_
+3	editorial	editorial	NOUN	_	_	_	_	_	_
+4	hubiera	haber	AUX	_	_	_	_	_	_
+5	publicado	publicar	VERB	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	manuscrito	manuscrito	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	la	el	DET	_	_	_	_	_	_
+10	crítica	crítica	NOUN	_	_	_	_	_	_
+11	habría	haber	AUX	_	_	_	_	_	_
+12	elogiado	elogiar	VERB	_	_	_	_	_	_
+13	la	el	DET	_	_	_	_	_	_
+14	prosa	prosa	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-018
+# text = El arquitecto reconoció que el diseño habría sido inviable si el terreno no hubiera soportado la carga.
+1	El	el	DET	_	_	_	_	_	_
+2	arquitecto	arquitecto	NOUN	_	_	_	_	_	_
+3	reconoció	reconocer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	diseño	diseño	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	sido	ser	AUX	_	_	_	_	_	_
+9	inviable	inviable	ADJ	_	_	_	_	_	_
+10	si	si	SCONJ	_	_	_	_	_	_
+11	el	el	DET	_	_	_	_	_	_
+12	terreno	terreno	NOUN	_	_	_	_	_	_
+13	no	no	PART	_	_	_	_	_	_
+14	hubiera	haber	AUX	_	_	_	_	_	_
+15	soportado	soportar	VERB	_	_	_	_	_	_
+16	la	el	DET	_	_	_	_	_	_
+17	carga	carga	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-019
+# text = Si los diplomáticos hubieran negociado antes, el conflicto habría finalizado sin violencia.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	los	el	DET	_	_	_	_	_	_
+3	diplomáticos	diplomático	NOUN	_	_	_	_	_	_
+4	hubieran	haber	AUX	_	_	_	_	_	_
+5	negociado	negociar	VERB	_	_	_	_	_	_
+6	antes	antes	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	conflicto	conflicto	NOUN	_	_	_	_	_	_
+10	habría	haber	AUX	_	_	_	_	_	_
+11	finalizado	finalizar	VERB	_	_	_	_	_	_
+12	sin	sin	ADP	_	_	_	_	_	_
+13	violencia	violencia	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-c1-020
+# text = El epidemiólogo concluyó que la pandemia habría causado más víctimas si no se hubiera impuesto el confinamiento.
+1	El	el	DET	_	_	_	_	_	_
+2	epidemiólogo	epidemiólogo	NOUN	_	_	_	_	_	_
+3	concluyó	concluir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	pandemia	pandemia	NOUN	_	_	_	_	_	_
+7	habría	haber	AUX	_	_	_	_	_	_
+8	causado	causar	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	víctimas	víctima	NOUN	_	_	_	_	_	_
+11	si	si	SCONJ	_	_	_	_	_	_
+12	no	no	PART	_	_	_	_	_	_
+13	se	él	PRON	_	_	_	_	_	_
+14	hubiera	haber	AUX	_	_	_	_	_	_
+15	impuesto	imponer	VERB	_	_	_	_	_	_
+16	el	el	DET	_	_	_	_	_	_
+17	confinamiento	confinamiento	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_

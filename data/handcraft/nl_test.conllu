@@ -83,7 +83,7 @@
 # sent_id = handcraft-nl-10
 # text = Hij komt vandaag laat thuis.
 1	Hij	hij	PRON	_	_	_	_	_	_
-2	komt	thuiskomen	VERB	_	_	_	_	_	_
+2	komt	komen	VERB	_	_	_	_	_	_
 3	vandaag	vandaag	ADV	_	_	_	_	_	_
 4	laat	laat	ADV	_	_	_	_	_	_
 5	thuis	thuis	ADV	_	_	_	_	_	_
@@ -188,7 +188,7 @@
 # sent_id = handcraft-nl-22
 # text = Wij gaan met jullie mee.
 1	Wij	wij	PRON	_	_	_	_	_	_
-2	gaan	meegaan	VERB	_	_	_	_	_	_
+2	gaan	gaan	VERB	_	_	_	_	_	_
 3	met	met	ADP	_	_	_	_	_	_
 4	jullie	jullie	PRON	_	_	_	_	_	_
 5	mee	mee	ADV	_	_	_	_	_	_
@@ -215,7 +215,7 @@
 # sent_id = handcraft-nl-25
 # text = Hij staat altijd vroeg op.
 1	Hij	hij	PRON	_	_	_	_	_	_
-2	staat	opstaan	VERB	_	_	_	_	_	_
+2	staat	staan	VERB	_	_	_	_	_	_
 3	altijd	altijd	ADV	_	_	_	_	_	_
 4	vroeg	vroeg	ADV	_	_	_	_	_	_
 5	op	op	ADV	_	_	_	_	_	_
@@ -479,7 +479,7 @@
 # text = De trein komt laat aan.
 1	De	de	DET	_	_	_	_	_	_
 2	trein	trein	NOUN	_	_	_	_	_	_
-3	komt	aankomen	VERB	_	_	_	_	_	_
+3	komt	komen	VERB	_	_	_	_	_	_
 4	laat	laat	ADV	_	_	_	_	_	_
 5	aan	aan	ADV	_	_	_	_	_	_
 6	.	.	PUNCT	_	_	_	_	_	_

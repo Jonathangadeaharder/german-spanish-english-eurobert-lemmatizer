@@ -1,0 +1,244 @@
+# sent_id = handcraft-es-b2-001
+# text = Me dijo que ya había terminado el informe cuando llegué.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	dijo	decir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	ya	ya	ADV	_	_	_	_	_	_
+5	había	haber	AUX	_	_	_	_	_	_
+6	terminado	terminar	VERB	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	informe	informe	NOUN	_	_	_	_	_	_
+9	cuando	cuando	SCONJ	_	_	_	_	_	_
+10	llegué	llegar	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-002
+# text = Si tuviera más tiempo, viajaría por toda Europa.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	tuviera	tener	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	tiempo	tiempo	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	viajaría	viajar	VERB	_	_	_	_	_	_
+7	por	por	ADP	_	_	_	_	_	_
+8	toda	todo	DET	_	_	_	_	_	_
+9	Europa	Europa	PROPN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-003
+# text = Si hubieras llamado, te habría ayudado con gusto.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	hubieras	haber	AUX	_	_	_	_	_	_
+3	llamado	llamar	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	te	tú	PRON	_	_	_	_	_	_
+6	habría	haber	AUX	_	_	_	_	_	_
+7	ayudado	ayudar	VERB	_	_	_	_	_	_
+8	con	con	ADP	_	_	_	_	_	_
+9	gusto	gusto	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-004
+# text = María afirmó que no había recibido ninguna respuesta.
+1	María	María	PROPN	_	_	_	_	_	_
+2	afirmó	afirmar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	no	no	ADV	_	_	_	_	_	_
+5	había	haber	AUX	_	_	_	_	_	_
+6	recibido	recibir	VERB	_	_	_	_	_	_
+7	ninguna	ninguno	DET	_	_	_	_	_	_
+8	respuesta	respuesta	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-005
+# text = Era importante que todos supieran la verdad antes de decidir.
+1	Era	ser	AUX	_	_	_	_	_	_
+2	importante	importante	ADJ	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	todos	todo	PRON	_	_	_	_	_	_
+5	supieran	saber	VERB	_	_	_	_	_	_
+6	la	el	DET	_	_	_	_	_	_
+7	verdad	verdad	NOUN	_	_	_	_	_	_
+8	antes	antes	ADV	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	decidir	decidir	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-006
+# text = El profesor dijo que habríamos aprobado si hubiéramos estudiado más.
+1	El	el	DET	_	_	_	_	_	_
+2	profesor	profesor	NOUN	_	_	_	_	_	_
+3	dijo	decir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	habríamos	haber	AUX	_	_	_	_	_	_
+6	aprobado	aprobar	VERB	_	_	_	_	_	_
+7	si	si	SCONJ	_	_	_	_	_	_
+8	hubiéramos	haber	AUX	_	_	_	_	_	_
+9	estudiado	estudiar	VERB	_	_	_	_	_	_
+10	más	más	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-007
+# text = Cuando llegamos, la película ya había empezado.
+1	Cuando	cuando	SCONJ	_	_	_	_	_	_
+2	llegamos	llegar	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	película	película	NOUN	_	_	_	_	_	_
+6	ya	ya	ADV	_	_	_	_	_	_
+7	había	haber	AUX	_	_	_	_	_	_
+8	empezado	empezar	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-008
+# text = Quería que fuéramos juntos esa noche.
+1	Quería	querer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	fuéramos	ir	VERB	_	_	_	_	_	_
+4	juntos	junto	ADJ	_	_	_	_	_	_
+5	esa	ese	DET	_	_	_	_	_	_
+6	noche	noche	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-009
+# text = Me habría gustado conocer tu opinión sobre el asunto.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	habría	haber	AUX	_	_	_	_	_	_
+3	gustado	gustar	VERB	_	_	_	_	_	_
+4	conocer	conocer	VERB	_	_	_	_	_	_
+5	tu	tu	DET	_	_	_	_	_	_
+6	opinión	opinión	NOUN	_	_	_	_	_	_
+7	sobre	sobre	ADP	_	_	_	_	_	_
+8	el	el	DET	_	_	_	_	_	_
+9	asunto	asunto	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-010
+# text = Le pregunté si vendría el día siguiente.
+1	Le	él	PRON	_	_	_	_	_	_
+2	pregunté	preguntar	VERB	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	vendría	venir	VERB	_	_	_	_	_	_
+5	el	el	DET	_	_	_	_	_	_
+6	día	día	NOUN	_	_	_	_	_	_
+7	siguiente	siguiente	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-011
+# text = Me contó que había vivido en Madrid durante años.
+1	Me	yo	PRON	_	_	_	_	_	_
+2	contó	contar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	había	haber	AUX	_	_	_	_	_	_
+5	vivido	vivir	VERB	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	Madrid	Madrid	PROPN	_	_	_	_	_	_
+8	durante	durante	ADP	_	_	_	_	_	_
+9	años	año	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-012
+# text = Si lloviera, cancelaríamos la excursión.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	lloviera	llover	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	cancelaríamos	cancelar	VERB	_	_	_	_	_	_
+5	la	el	DET	_	_	_	_	_	_
+6	excursión	excursión	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-013
+# text = Habríamos llegado antes si no hubiera habido tráfico.
+1	Habríamos	haber	AUX	_	_	_	_	_	_
+2	llegado	llegar	VERB	_	_	_	_	_	_
+3	antes	antes	ADV	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	no	no	ADV	_	_	_	_	_	_
+6	hubiera	haber	AUX	_	_	_	_	_	_
+7	habido	haber	VERB	_	_	_	_	_	_
+8	tráfico	tráfico	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-014
+# text = Sugirió que llegáramos temprano para evitar retrasos.
+1	Sugirió	sugerir	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	llegáramos	llegar	VERB	_	_	_	_	_	_
+4	temprano	temprano	ADV	_	_	_	_	_	_
+5	para	para	ADP	_	_	_	_	_	_
+6	evitar	evitar	VERB	_	_	_	_	_	_
+7	retrasos	retraso	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-015
+# text = Antes de la cena, ya habían preparado todo.
+1	Antes	antes	ADV	_	_	_	_	_	_
+2	de	de	ADP	_	_	_	_	_	_
+3	la	el	DET	_	_	_	_	_	_
+4	cena	cena	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	ya	ya	ADV	_	_	_	_	_	_
+7	habían	haber	AUX	_	_	_	_	_	_
+8	preparado	preparar	VERB	_	_	_	_	_	_
+9	todo	todo	PRON	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-016
+# text = Si tuviera dinero, compraría una casa más grande.
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	tuviera	tener	VERB	_	_	_	_	_	_
+3	dinero	dinero	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	compraría	comprar	VERB	_	_	_	_	_	_
+6	una	un	DET	_	_	_	_	_	_
+7	casa	casa	NOUN	_	_	_	_	_	_
+8	más	más	ADV	_	_	_	_	_	_
+9	grande	grande	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-017
+# text = Te habría avisado si hubiera sabido la respuesta.
+1	Te	tú	PRON	_	_	_	_	_	_
+2	habría	haber	AUX	_	_	_	_	_	_
+3	avisado	avisar	VERB	_	_	_	_	_	_
+4	si	si	SCONJ	_	_	_	_	_	_
+5	hubiera	haber	AUX	_	_	_	_	_	_
+6	sabido	saber	VERB	_	_	_	_	_	_
+7	la	el	DET	_	_	_	_	_	_
+8	respuesta	respuesta	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-018
+# text = Creía que ya habías terminado el trabajo.
+1	Creía	creer	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	ya	ya	ADV	_	_	_	_	_	_
+4	habías	haber	AUX	_	_	_	_	_	_
+5	terminado	terminar	VERB	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	trabajo	trabajo	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-019
+# text = Ojalá pudieras venir con nosotros este verano.
+1	Ojalá	ojalá	INTJ	_	_	_	_	_	_
+2	pudieras	poder	AUX	_	_	_	_	_	_
+3	venir	venir	VERB	_	_	_	_	_	_
+4	con	con	ADP	_	_	_	_	_	_
+5	nosotros	nosotros	PRON	_	_	_	_	_	_
+6	este	este	DET	_	_	_	_	_	_
+7	verano	verano	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b2-020
+# text = El médico dijo que habría sido mejor descansar más.
+1	El	el	DET	_	_	_	_	_	_
+2	médico	médico	NOUN	_	_	_	_	_	_
+3	dijo	decir	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	habría	haber	AUX	_	_	_	_	_	_
+6	sido	ser	AUX	_	_	_	_	_	_
+7	mejor	mejor	ADJ	_	_	_	_	_	_
+8	descansar	descansar	VERB	_	_	_	_	_	_
+9	más	más	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_

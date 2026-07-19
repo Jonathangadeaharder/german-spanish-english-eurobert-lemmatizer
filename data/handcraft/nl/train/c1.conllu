@@ -1,0 +1,291 @@
+# sent_id = handcraft-nl-c1-001
+# text = De wetenschapper had de ontdekking reeds gepubliceerd.
+1	De	de	DET	_	_	_	_	_	_
+2	wetenschapper	wetenschapper	NOUN	_	_	_	_	_	_
+3	had	hebben	AUX	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	ontdekking	ontdekking	NOUN	_	_	_	_	_	_
+6	reeds	reeds	ADV	_	_	_	_	_	_
+7	gepubliceerd	publiceren	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-002
+# text = De onderzoeker beweerde dat hij de gegevens grondig had geanalyseerd.
+1	De	de	DET	_	_	_	_	_	_
+2	onderzoeker	onderzoeker	NOUN	_	_	_	_	_	_
+3	beweerde	beweren	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	hij	hij	PRON	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	gegevens	gegevens	NOUN	_	_	_	_	_	_
+8	grondig	grondig	ADV	_	_	_	_	_	_
+9	had	hebben	AUX	_	_	_	_	_	_
+10	geanalyseerd	analyseren	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-003
+# text = Indien de autoriteit tijdig had ingegrepen, dan zou de onrust zijn afgenomen.
+1	Indien	indien	SCONJ	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	autoriteit	autoriteit	NOUN	_	_	_	_	_	_
+4	tijdig	tijdig	ADV	_	_	_	_	_	_
+5	had	hebben	AUX	_	_	_	_	_	_
+6	ingegrepen	ingrijpen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	dan	dan	ADV	_	_	_	_	_	_
+9	zou	zullen	AUX	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	onrust	onrust	NOUN	_	_	_	_	_	_
+12	zijn	zijn	AUX	_	_	_	_	_	_
+13	afgenomen	afnemen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-004
+# text = De onderzoeker had het middeleeuwse manuscript bestudeerd alvorens het werk te publiceren.
+1	De	de	DET	_	_	_	_	_	_
+2	onderzoeker	onderzoeker	NOUN	_	_	_	_	_	_
+3	had	hebben	AUX	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	middeleeuwse	middeleeuws	ADJ	_	_	_	_	_	_
+6	manuscript	manuscript	NOUN	_	_	_	_	_	_
+7	bestudeerd	bestuderen	VERB	_	_	_	_	_	_
+8	alvorens	alvorens	SCONJ	_	_	_	_	_	_
+9	het	het	DET	_	_	_	_	_	_
+10	werk	werk	NOUN	_	_	_	_	_	_
+11	te	te	PART	_	_	_	_	_	_
+12	publiceren	publiceren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-005
+# text = De verslaggever vermeldde dat het parlement de maatregel had aanvaard.
+1	De	de	DET	_	_	_	_	_	_
+2	verslaggever	verslaggever	NOUN	_	_	_	_	_	_
+3	vermeldde	vermelden	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	parlement	parlement	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	maatregel	maatregel	NOUN	_	_	_	_	_	_
+9	had	hebben	AUX	_	_	_	_	_	_
+10	aanvaard	aanvaarden	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-006
+# text = Zonder een grondige beoordeling zou de onderzoeker een fundamentele vergissing hebben begaan.
+1	Zonder	zonder	ADP	_	_	_	_	_	_
+2	een	een	DET	_	_	_	_	_	_
+3	grondige	grondig	ADJ	_	_	_	_	_	_
+4	beoordeling	beoordeling	NOUN	_	_	_	_	_	_
+5	zou	zullen	AUX	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	onderzoeker	onderzoeker	NOUN	_	_	_	_	_	_
+8	een	een	DET	_	_	_	_	_	_
+9	fundamentele	fundamenteel	ADJ	_	_	_	_	_	_
+10	vergissing	vergissing	NOUN	_	_	_	_	_	_
+11	hebben	hebben	AUX	_	_	_	_	_	_
+12	begaan	begaan	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-007
+# text = De criticus meende dat de auteur de feiten oppervlakkig had benaderd.
+1	De	de	DET	_	_	_	_	_	_
+2	criticus	criticus	NOUN	_	_	_	_	_	_
+3	meende	menen	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	auteur	auteur	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	feiten	feit	NOUN	_	_	_	_	_	_
+9	oppervlakkig	oppervlakkig	ADV	_	_	_	_	_	_
+10	had	hebben	AUX	_	_	_	_	_	_
+11	benaderd	benaderen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-008
+# text = Na een langdurig debat had de senaat het wetsvoorstel afgewezen.
+1	Na	na	ADP	_	_	_	_	_	_
+2	een	een	DET	_	_	_	_	_	_
+3	langdurig	langdurig	ADJ	_	_	_	_	_	_
+4	debat	debat	NOUN	_	_	_	_	_	_
+5	had	hebben	AUX	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	senaat	senaat	NOUN	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	wetsvoorstel	wetsvoorstel	NOUN	_	_	_	_	_	_
+10	afgewezen	afwijzen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-009
+# text = De wetenschapper betoogde dat een alternatieve benadering de uitkomst zou hebben verbeterd.
+1	De	de	DET	_	_	_	_	_	_
+2	wetenschapper	wetenschapper	NOUN	_	_	_	_	_	_
+3	betoogde	betogen	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	alternatieve	alternatief	ADJ	_	_	_	_	_	_
+7	benadering	benadering	NOUN	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	uitkomst	uitkomst	NOUN	_	_	_	_	_	_
+10	zou	zullen	AUX	_	_	_	_	_	_
+11	hebben	hebben	AUX	_	_	_	_	_	_
+12	verbeterd	verbeteren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-010
+# text = De onderzoeker had de vondst zorgvuldig beschreven alvorens deze te publiceren.
+1	De	de	DET	_	_	_	_	_	_
+2	onderzoeker	onderzoeker	NOUN	_	_	_	_	_	_
+3	had	hebben	AUX	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	vondst	vondst	NOUN	_	_	_	_	_	_
+6	zorgvuldig	zorgvuldig	ADV	_	_	_	_	_	_
+7	beschreven	beschrijven	VERB	_	_	_	_	_	_
+8	alvorens	alvorens	SCONJ	_	_	_	_	_	_
+9	deze	deze	PRON	_	_	_	_	_	_
+10	te	te	PART	_	_	_	_	_	_
+11	publiceren	publiceren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-011
+# text = De woordvoerder verklaarde dat de regering de maatregel zou intrekken.
+1	De	de	DET	_	_	_	_	_	_
+2	woordvoerder	woordvoerder	NOUN	_	_	_	_	_	_
+3	verklaarde	verklaren	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	regering	regering	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	maatregel	maatregel	NOUN	_	_	_	_	_	_
+9	zou	zullen	AUX	_	_	_	_	_	_
+10	intrekken	intrekken	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-012
+# text = De psycholoog had het symptoom zorgvuldig geanalyseerd.
+1	De	de	DET	_	_	_	_	_	_
+2	psycholoog	psycholoog	NOUN	_	_	_	_	_	_
+3	had	hebben	AUX	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	symptoom	symptoom	NOUN	_	_	_	_	_	_
+6	zorgvuldig	zorgvuldig	ADV	_	_	_	_	_	_
+7	geanalyseerd	analyseren	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-013
+# text = De wetenschapper stelde dat een dergelijk onderzoek tijdig zou zijn voltooid.
+1	De	de	DET	_	_	_	_	_	_
+2	wetenschapper	wetenschapper	NOUN	_	_	_	_	_	_
+3	stelde	stellen	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	dergelijk	dergelijk	ADJ	_	_	_	_	_	_
+7	onderzoek	onderzoek	NOUN	_	_	_	_	_	_
+8	tijdig	tijdig	ADV	_	_	_	_	_	_
+9	zou	zullen	AUX	_	_	_	_	_	_
+10	zijn	zijn	AUX	_	_	_	_	_	_
+11	voltooid	voltooien	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-014
+# text = De betrokkene beweerde dat de verdachte het bewijs had vernield.
+1	De	de	DET	_	_	_	_	_	_
+2	betrokkene	betrokkene	NOUN	_	_	_	_	_	_
+3	beweerde	beweren	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	verdachte	verdachte	NOUN	_	_	_	_	_	_
+7	het	het	DET	_	_	_	_	_	_
+8	bewijs	bewijs	NOUN	_	_	_	_	_	_
+9	had	hebben	AUX	_	_	_	_	_	_
+10	vernield	vernielen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-015
+# text = Met een degelijke financiering zou het project een doorbraak hebben betekend.
+1	Met	met	ADP	_	_	_	_	_	_
+2	een	een	DET	_	_	_	_	_	_
+3	degelijke	degelijk	ADJ	_	_	_	_	_	_
+4	financiering	financiering	NOUN	_	_	_	_	_	_
+5	zou	zullen	AUX	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	project	project	NOUN	_	_	_	_	_	_
+8	een	een	DET	_	_	_	_	_	_
+9	doorbraak	doorbraak	NOUN	_	_	_	_	_	_
+10	hebben	hebben	AUX	_	_	_	_	_	_
+11	betekend	betekenen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-016
+# text = De econoom had de inflatie en de werkloosheid uitvoerig bestudeerd.
+1	De	de	DET	_	_	_	_	_	_
+2	econoom	econoom	NOUN	_	_	_	_	_	_
+3	had	hebben	AUX	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	inflatie	inflatie	NOUN	_	_	_	_	_	_
+6	en	en	CCONJ	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	werkloosheid	werkloosheid	NOUN	_	_	_	_	_	_
+9	uitvoerig	uitvoerig	ADV	_	_	_	_	_	_
+10	bestudeerd	bestuderen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-017
+# text = De verslaggever stelde dat de politicus de feiten had verdraaid.
+1	De	de	DET	_	_	_	_	_	_
+2	verslaggever	verslaggever	NOUN	_	_	_	_	_	_
+3	stelde	stellen	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	politicus	politicus	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	feiten	feit	NOUN	_	_	_	_	_	_
+9	had	hebben	AUX	_	_	_	_	_	_
+10	verdraaid	verdraaien	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-018
+# text = Voor de conferentie had de spreker het betoog zorgvuldig opgebouwd.
+1	Voor	voor	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	conferentie	conferentie	NOUN	_	_	_	_	_	_
+4	had	hebben	AUX	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	spreker	spreker	NOUN	_	_	_	_	_	_
+7	het	het	DET	_	_	_	_	_	_
+8	betoog	betoog	NOUN	_	_	_	_	_	_
+9	zorgvuldig	zorgvuldig	ADV	_	_	_	_	_	_
+10	opgebouwd	opbouwen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-019
+# text = De deskundige beweerde dat, zonder die maatregel, de werkloosheid verder zou zijn gestegen.
+1	De	de	DET	_	_	_	_	_	_
+2	deskundige	deskundige	NOUN	_	_	_	_	_	_
+3	beweerde	beweren	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	zonder	zonder	ADP	_	_	_	_	_	_
+7	die	die	DET	_	_	_	_	_	_
+8	maatregel	maatregel	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	werkloosheid	werkloosheid	NOUN	_	_	_	_	_	_
+12	verder	verder	ADV	_	_	_	_	_	_
+13	zou	zullen	AUX	_	_	_	_	_	_
+14	zijn	zijn	AUX	_	_	_	_	_	_
+15	gestegen	stijgen	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-c1-020
+# text = De wetenschapper had de oorzaak van de ondergang zorgvuldig bestudeerd.
+1	De	de	DET	_	_	_	_	_	_
+2	wetenschapper	wetenschapper	NOUN	_	_	_	_	_	_
+3	had	hebben	AUX	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	oorzaak	oorzaak	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	ondergang	ondergang	NOUN	_	_	_	_	_	_
+9	zorgvuldig	zorgvuldig	ADV	_	_	_	_	_	_
+10	bestudeerd	bestuderen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_

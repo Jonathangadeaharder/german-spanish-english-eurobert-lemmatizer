@@ -1,0 +1,412 @@
+# sent_id = handcraft-en-b2-001
+# text = The committee decided to abandon the failing project, fearing that its eventual abandonment would not abate the growing public concern.
+1	The	the	DET	_	_	_	_	_	_
+2	committee	committee	NOUN	_	_	_	_	_	_
+3	decided	decide	VERB	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	abandon	abandon	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	failing	fail	VERB	_	_	_	_	_	_
+8	project	project	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	fearing	fear	VERB	_	_	_	_	_	_
+11	that	that	SCONJ	_	_	_	_	_	_
+12	its	its	PRON	_	_	_	_	_	_
+13	eventual	eventual	ADJ	_	_	_	_	_	_
+14	abandonment	abandonment	NOUN	_	_	_	_	_	_
+15	would	would	AUX	_	_	_	_	_	_
+16	not	not	PART	_	_	_	_	_	_
+17	abate	abate	VERB	_	_	_	_	_	_
+18	the	the	DET	_	_	_	_	_	_
+19	growing	grow	VERB	_	_	_	_	_	_
+20	public	public	ADJ	_	_	_	_	_	_
+21	concern	concern	NOUN	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-002
+# text = The king chose to abdicate the throne, as his aberrant behavior was believed to abet the rebellion.
+1	The	the	DET	_	_	_	_	_	_
+2	king	king	NOUN	_	_	_	_	_	_
+3	chose	choose	VERB	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	abdicate	abdicate	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	throne	throne	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	as	as	SCONJ	_	_	_	_	_	_
+10	his	his	PRON	_	_	_	_	_	_
+11	aberrant	aberrant	ADJ	_	_	_	_	_	_
+12	behavior	behavior	NOUN	_	_	_	_	_	_
+13	was	be	AUX	_	_	_	_	_	_
+14	believed	believe	VERB	_	_	_	_	_	_
+15	to	to	PART	_	_	_	_	_	_
+16	abet	abet	VERB	_	_	_	_	_	_
+17	the	the	DET	_	_	_	_	_	_
+18	rebellion	rebellion	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-003
+# text = She did abhor the abhorrent act, doubting her ability to forgive such cruelty.
+1	She	she	PRON	_	_	_	_	_	_
+2	did	do	AUX	_	_	_	_	_	_
+3	abhor	abhor	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	abhorrent	abhorrent	ADJ	_	_	_	_	_	_
+6	act	act	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	doubting	doubt	VERB	_	_	_	_	_	_
+9	her	her	PRON	_	_	_	_	_	_
+10	ability	ability	NOUN	_	_	_	_	_	_
+11	to	to	PART	_	_	_	_	_	_
+12	forgive	forgive	VERB	_	_	_	_	_	_
+13	such	such	DET	_	_	_	_	_	_
+14	cruelty	cruelty	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-004
+# text = In abject poverty, he chose to abjure his abnormal habits and start anew.
+1	In	in	ADP	_	_	_	_	_	_
+2	abject	abject	ADJ	_	_	_	_	_	_
+3	poverty	poverty	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	he	he	PRON	_	_	_	_	_	_
+6	chose	choose	VERB	_	_	_	_	_	_
+7	to	to	PART	_	_	_	_	_	_
+8	abjure	abjure	VERB	_	_	_	_	_	_
+9	his	his	PRON	_	_	_	_	_	_
+10	abnormal	abnormal	ADJ	_	_	_	_	_	_
+11	habits	habit	NOUN	_	_	_	_	_	_
+12	and	and	CCONJ	_	_	_	_	_	_
+13	start	start	VERB	_	_	_	_	_	_
+14	anew	anew	ADV	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-005
+# text = They vowed to abolish the abominable law because they abominate injustice above all else.
+1	They	they	PRON	_	_	_	_	_	_
+2	vowed	vow	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	abolish	abolish	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	abominable	abominable	ADJ	_	_	_	_	_	_
+7	law	law	NOUN	_	_	_	_	_	_
+8	because	because	SCONJ	_	_	_	_	_	_
+9	they	they	PRON	_	_	_	_	_	_
+10	abominate	abominate	VERB	_	_	_	_	_	_
+11	injustice	injustice	NOUN	_	_	_	_	_	_
+12	above	above	ADP	_	_	_	_	_	_
+13	all	all	DET	_	_	_	_	_	_
+14	else	else	ADV	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-006
+# text = The debate on abortion became abrasive when the politician returned from abroad.
+1	The	the	DET	_	_	_	_	_	_
+2	debate	debate	NOUN	_	_	_	_	_	_
+3	on	on	ADP	_	_	_	_	_	_
+4	abortion	abortion	NOUN	_	_	_	_	_	_
+5	became	become	VERB	_	_	_	_	_	_
+6	abrasive	abrasive	ADJ	_	_	_	_	_	_
+7	when	when	SCONJ	_	_	_	_	_	_
+8	the	the	DET	_	_	_	_	_	_
+9	politician	politician	NOUN	_	_	_	_	_	_
+10	returned	return	VERB	_	_	_	_	_	_
+11	from	from	ADP	_	_	_	_	_	_
+12	abroad	abroad	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-007
+# text = They decided to abrogate the abrupt policy after discovering an abscess in the system.
+1	They	they	PRON	_	_	_	_	_	_
+2	decided	decide	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	abrogate	abrogate	VERB	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	abrupt	abrupt	ADJ	_	_	_	_	_	_
+7	policy	policy	NOUN	_	_	_	_	_	_
+8	after	after	SCONJ	_	_	_	_	_	_
+9	discovering	discover	VERB	_	_	_	_	_	_
+10	an	a	DET	_	_	_	_	_	_
+11	abscess	abscess	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	the	the	DET	_	_	_	_	_	_
+14	system	system	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-008
+# text = He tried to abscond during the absence of the absent manager.
+1	He	he	PRON	_	_	_	_	_	_
+2	tried	try	VERB	_	_	_	_	_	_
+3	to	to	PART	_	_	_	_	_	_
+4	abscond	abscond	VERB	_	_	_	_	_	_
+5	during	during	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	absence	absence	NOUN	_	_	_	_	_	_
+8	of	of	ADP	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	absent	absent	ADJ	_	_	_	_	_	_
+11	manager	manager	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-009
+# text = Her absent-mindedness was absolute, yet the judge chose to absolve her.
+1	Her	her	PRON	_	_	_	_	_	_
+2	absent-mindedness	absent-mindedness	NOUN	_	_	_	_	_	_
+3	was	be	VERB	_	_	_	_	_	_
+4	absolute	absolute	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	yet	yet	CCONJ	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	judge	judge	NOUN	_	_	_	_	_	_
+9	chose	choose	VERB	_	_	_	_	_	_
+10	to	to	PART	_	_	_	_	_	_
+11	absolve	absolve	VERB	_	_	_	_	_	_
+12	her	she	PRON	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-010
+# text = The student seemed absorbed in the book and could absorb every detail, so he chose to abstain from distractions.
+1	The	the	DET	_	_	_	_	_	_
+2	student	student	NOUN	_	_	_	_	_	_
+3	seemed	seem	VERB	_	_	_	_	_	_
+4	absorbed	absorbed	ADJ	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	book	book	NOUN	_	_	_	_	_	_
+8	and	and	CCONJ	_	_	_	_	_	_
+9	could	can	VERB	_	_	_	_	_	_
+10	absorb	absorb	VERB	_	_	_	_	_	_
+11	every	every	DET	_	_	_	_	_	_
+12	detail	detail	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	so	so	CCONJ	_	_	_	_	_	_
+15	he	he	PRON	_	_	_	_	_	_
+16	chose	choose	VERB	_	_	_	_	_	_
+17	to	to	PART	_	_	_	_	_	_
+18	abstain	abstain	VERB	_	_	_	_	_	_
+19	from	from	ADP	_	_	_	_	_	_
+20	distractions	distraction	NOUN	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-011
+# text = His abstemious lifestyle, marked by strict abstinence from alcohol, seemed almost abstract to his indulgent friends.
+1	His	his	DET	_	_	_	_	_	_
+2	abstemious	abstemious	ADJ	_	_	_	_	_	_
+3	lifestyle	lifestyle	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	marked	mark	VERB	_	_	_	_	_	_
+6	by	by	ADP	_	_	_	_	_	_
+7	strict	strict	ADJ	_	_	_	_	_	_
+8	abstinence	abstinence	NOUN	_	_	_	_	_	_
+9	from	from	ADP	_	_	_	_	_	_
+10	alcohol	alcohol	NOUN	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	seemed	seem	VERB	_	_	_	_	_	_
+13	almost	almost	ADV	_	_	_	_	_	_
+14	abstract	abstract	ADJ	_	_	_	_	_	_
+15	to	to	ADP	_	_	_	_	_	_
+16	his	his	DET	_	_	_	_	_	_
+17	indulgent	indulgent	ADJ	_	_	_	_	_	_
+18	friends	friend	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-012
+# text = The abstraction required to understand such abstruse theories often leads to absurd conclusions if logic is ignored.
+1	The	the	DET	_	_	_	_	_	_
+2	abstraction	abstraction	NOUN	_	_	_	_	_	_
+3	required	require	VERB	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	understand	understand	VERB	_	_	_	_	_	_
+6	such	such	DET	_	_	_	_	_	_
+7	abstruse	abstruse	ADJ	_	_	_	_	_	_
+8	theories	theory	NOUN	_	_	_	_	_	_
+9	often	often	ADV	_	_	_	_	_	_
+10	leads	lead	VERB	_	_	_	_	_	_
+11	to	to	ADP	_	_	_	_	_	_
+12	absurd	absurd	ADJ	_	_	_	_	_	_
+13	conclusions	conclusion	NOUN	_	_	_	_	_	_
+14	if	if	SCONJ	_	_	_	_	_	_
+15	logic	logic	NOUN	_	_	_	_	_	_
+16	is	be	AUX	_	_	_	_	_	_
+17	ignored	ignore	VERB	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-013
+# text = Despite the abundance of resources and abundant support, the report highlighted cases of severe abuse within the system.
+1	Despite	despite	ADP	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	abundance	abundance	NOUN	_	_	_	_	_	_
+4	of	of	ADP	_	_	_	_	_	_
+5	resources	resource	NOUN	_	_	_	_	_	_
+6	and	and	CCONJ	_	_	_	_	_	_
+7	abundant	abundant	ADJ	_	_	_	_	_	_
+8	support	support	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	report	report	NOUN	_	_	_	_	_	_
+12	highlighted	highlight	VERB	_	_	_	_	_	_
+13	cases	case	NOUN	_	_	_	_	_	_
+14	of	of	ADP	_	_	_	_	_	_
+15	severe	severe	ADJ	_	_	_	_	_	_
+16	abuse	abuse	NOUN	_	_	_	_	_	_
+17	within	within	ADP	_	_	_	_	_	_
+18	the	the	DET	_	_	_	_	_	_
+19	system	system	NOUN	_	_	_	_	_	_
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-014
+# text = Those who abuse their power may eventually fall into an abysmal situation, resembling a dark abyss from which there is no escape.
+1	Those	those	PRON	_	_	_	_	_	_
+2	who	who	PRON	_	_	_	_	_	_
+3	abuse	abuse	VERB	_	_	_	_	_	_
+4	their	their	DET	_	_	_	_	_	_
+5	power	power	NOUN	_	_	_	_	_	_
+6	may	may	AUX	_	_	_	_	_	_
+7	eventually	eventually	ADV	_	_	_	_	_	_
+8	fall	fall	VERB	_	_	_	_	_	_
+9	into	into	ADP	_	_	_	_	_	_
+10	an	an	DET	_	_	_	_	_	_
+11	abysmal	abysmal	ADJ	_	_	_	_	_	_
+12	situation	situation	NOUN	_	_	_	_	_	_
+13	,	,	PUNCT	_	_	_	_	_	_
+14	resembling	resemble	VERB	_	_	_	_	_	_
+15	a	a	DET	_	_	_	_	_	_
+16	dark	dark	ADJ	_	_	_	_	_	_
+17	abyss	abyss	NOUN	_	_	_	_	_	_
+18	from	from	ADP	_	_	_	_	_	_
+19	which	which	PRON	_	_	_	_	_	_
+20	there	there	PRON	_	_	_	_	_	_
+21	is	be	AUX	_	_	_	_	_	_
+22	no	no	DET	_	_	_	_	_	_
+23	escape	escape	NOUN	_	_	_	_	_	_
+24	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-015
+# text = The academic board of the prestigious academy decided to accede to the new regulations after much debate.
+1	The	the	DET	_	_	_	_	_	_
+2	academic	academic	ADJ	_	_	_	_	_	_
+3	board	board	NOUN	_	_	_	_	_	_
+4	of	of	ADP	_	_	_	_	_	_
+5	the	the	DET	_	_	_	_	_	_
+6	prestigious	prestigious	ADJ	_	_	_	_	_	_
+7	academy	academy	NOUN	_	_	_	_	_	_
+8	decided	decide	VERB	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	accede	accede	VERB	_	_	_	_	_	_
+11	to	to	ADP	_	_	_	_	_	_
+12	the	the	DET	_	_	_	_	_	_
+13	new	new	ADJ	_	_	_	_	_	_
+14	regulations	regulation	NOUN	_	_	_	_	_	_
+15	after	after	ADP	_	_	_	_	_	_
+16	much	much	ADJ	_	_	_	_	_	_
+17	debate	debate	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-016
+# text = New policies will accelerate growth, accentuate regional differences, and make outcomes acceptable to all stakeholders.
+1	New	new	ADJ	_	_	_	_	_	_
+2	policies	policy	NOUN	_	_	_	_	_	_
+3	will	will	AUX	_	_	_	_	_	_
+4	accelerate	accelerate	VERB	_	_	_	_	_	_
+5	growth	growth	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	accentuate	accentuate	VERB	_	_	_	_	_	_
+8	regional	regional	ADJ	_	_	_	_	_	_
+9	differences	difference	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	make	make	VERB	_	_	_	_	_	_
+13	outcomes	outcome	NOUN	_	_	_	_	_	_
+14	acceptable	acceptable	ADJ	_	_	_	_	_	_
+15	to	to	ADP	_	_	_	_	_	_
+16	all	all	DET	_	_	_	_	_	_
+17	stakeholders	stakeholder	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-017
+# text = Public acceptance of the plan increased as it became accessible, causing critics to acclaim its design.
+1	Public	public	ADJ	_	_	_	_	_	_
+2	acceptance	acceptance	NOUN	_	_	_	_	_	_
+3	of	of	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	plan	plan	NOUN	_	_	_	_	_	_
+6	increased	increase	VERB	_	_	_	_	_	_
+7	as	as	SCONJ	_	_	_	_	_	_
+8	it	it	PRON	_	_	_	_	_	_
+9	became	become	VERB	_	_	_	_	_	_
+10	accessible	accessible	ADJ	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	causing	cause	VERB	_	_	_	_	_	_
+13	critics	critic	NOUN	_	_	_	_	_	_
+14	to	to	PART	_	_	_	_	_	_
+15	acclaim	acclaim	VERB	_	_	_	_	_	_
+16	its	its	PRON	_	_	_	_	_	_
+17	design	design	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-018
+# text = It took time to acclimatize to the heat, but the hotel could accommodate us and the staff were very accommodating.
+1	It	it	PRON	_	_	_	_	_	_
+2	took	take	VERB	_	_	_	_	_	_
+3	time	time	NOUN	_	_	_	_	_	_
+4	to	to	PART	_	_	_	_	_	_
+5	acclimatize	acclimatize	VERB	_	_	_	_	_	_
+6	to	to	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	heat	heat	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	but	but	CCONJ	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	hotel	hotel	NOUN	_	_	_	_	_	_
+13	could	could	AUX	_	_	_	_	_	_
+14	accommodate	accommodate	VERB	_	_	_	_	_	_
+15	us	we	PRON	_	_	_	_	_	_
+16	and	and	CCONJ	_	_	_	_	_	_
+17	the	the	DET	_	_	_	_	_	_
+18	staff	staff	NOUN	_	_	_	_	_	_
+19	were	be	AUX	_	_	_	_	_	_
+20	very	very	ADV	_	_	_	_	_	_
+21	accommodating	accommodating	ADJ	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-019
+# text = The accommodation was cheap, a friend did accompany me, yet my accomplice vanished before arrival.
+1	The	the	DET	_	_	_	_	_	_
+2	accommodation	accommodation	NOUN	_	_	_	_	_	_
+3	was	be	AUX	_	_	_	_	_	_
+4	cheap	cheap	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	friend	friend	NOUN	_	_	_	_	_	_
+8	did	do	AUX	_	_	_	_	_	_
+9	accompany	accompany	VERB	_	_	_	_	_	_
+10	me	I	PRON	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	yet	yet	CCONJ	_	_	_	_	_	_
+13	my	my	PRON	_	_	_	_	_	_
+14	accomplice	accomplice	NOUN	_	_	_	_	_	_
+15	vanished	vanish	VERB	_	_	_	_	_	_
+16	before	before	ADP	_	_	_	_	_	_
+17	arrival	arrival	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-b2-020
+# text = He did accomplish the task after strangers tried to accost him, proving he remained accountable throughout.
+1	He	he	PRON	_	_	_	_	_	_
+2	did	do	AUX	_	_	_	_	_	_
+3	accomplish	accomplish	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	task	task	NOUN	_	_	_	_	_	_
+6	after	after	SCONJ	_	_	_	_	_	_
+7	strangers	stranger	NOUN	_	_	_	_	_	_
+8	tried	try	VERB	_	_	_	_	_	_
+9	to	to	PART	_	_	_	_	_	_
+10	accost	accost	VERB	_	_	_	_	_	_
+11	him	he	PRON	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	proving	prove	VERB	_	_	_	_	_	_
+14	he	he	PRON	_	_	_	_	_	_
+15	remained	remain	VERB	_	_	_	_	_	_
+16	accountable	accountable	ADJ	_	_	_	_	_	_
+17	throughout	throughout	ADV	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
