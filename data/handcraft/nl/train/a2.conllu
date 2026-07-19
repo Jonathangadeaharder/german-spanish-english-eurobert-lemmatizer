@@ -1,0 +1,214 @@
+# sent_id = handcraft-nl-a2-001
+# text = Gisteren ontving mijn broer een brief van zijn vriend.
+1	Gisteren	gisteren	ADV	_	_	_	_	_	_
+2	ontving	ontvangen	VERB	_	_	_	_	_	_
+3	mijn	mijn	DET	_	_	_	_	_	_
+4	broer	broer	NOUN	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	brief	brief	NOUN	_	_	_	_	_	_
+7	van	van	ADP	_	_	_	_	_	_
+8	zijn	zijn	DET	_	_	_	_	_	_
+9	vriend	vriend	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-002
+# text = Vanavond gaan wij samen koffie drinken in een café.
+1	Vanavond	vanavond	ADV	_	_	_	_	_	_
+2	gaan	gaan	AUX	_	_	_	_	_	_
+3	wij	wij	PRON	_	_	_	_	_	_
+4	samen	samen	ADV	_	_	_	_	_	_
+5	koffie	koffie	NOUN	_	_	_	_	_	_
+6	drinken	drinken	VERB	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	een	een	DET	_	_	_	_	_	_
+9	café	café	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-003
+# text = Deze zin is korter dan de vorige zin.
+1	Deze	deze	DET	_	_	_	_	_	_
+2	zin	zin	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	korter	kort	ADJ	_	_	_	_	_	_
+5	dan	dan	SCONJ	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	vorige	vorig	ADJ	_	_	_	_	_	_
+8	zin	zin	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-004
+# text = Ik moet straks mijn vriend bellen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	moet	moeten	AUX	_	_	_	_	_	_
+3	straks	straks	ADV	_	_	_	_	_	_
+4	mijn	mijn	DET	_	_	_	_	_	_
+5	vriend	vriend	NOUN	_	_	_	_	_	_
+6	bellen	bellen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-005
+# text = Mijn vriend gaat morgen naar de universiteit.
+1	Mijn	mijn	DET	_	_	_	_	_	_
+2	vriend	vriend	NOUN	_	_	_	_	_	_
+3	gaat	gaan	VERB	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	naar	naar	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	universiteit	universiteit	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-006
+# text = Gisteren schreef ik een korte brief aan mijn vriendin.
+1	Gisteren	gisteren	ADV	_	_	_	_	_	_
+2	schreef	schrijven	VERB	_	_	_	_	_	_
+3	ik	ik	PRON	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	korte	kort	ADJ	_	_	_	_	_	_
+6	brief	brief	NOUN	_	_	_	_	_	_
+7	aan	aan	ADP	_	_	_	_	_	_
+8	mijn	mijn	DET	_	_	_	_	_	_
+9	vriendin	vriendin	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-007
+# text = Mijn vriend is jonger dan ik.
+1	Mijn	mijn	DET	_	_	_	_	_	_
+2	vriend	vriend	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	jonger	jong	ADJ	_	_	_	_	_	_
+5	dan	dan	SCONJ	_	_	_	_	_	_
+6	ik	ik	PRON	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-008
+# text = Wij willen samen een koffie drinken.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	willen	willen	AUX	_	_	_	_	_	_
+3	samen	samen	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	koffie	koffie	NOUN	_	_	_	_	_	_
+6	drinken	drinken	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-009
+# text = Vroeger woonde ik in een rustig dorp.
+1	Vroeger	vroeger	ADV	_	_	_	_	_	_
+2	woonde	wonen	VERB	_	_	_	_	_	_
+3	ik	ik	PRON	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	rustig	rustig	ADJ	_	_	_	_	_	_
+7	dorp	dorp	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-010
+# text = Straks gaan wij naar de zee rijden.
+1	Straks	straks	ADV	_	_	_	_	_	_
+2	gaan	gaan	AUX	_	_	_	_	_	_
+3	wij	wij	PRON	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	zee	zee	NOUN	_	_	_	_	_	_
+7	rijden	rijden	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-011
+# text = Mijn vriend stuurde gisteren een brief.
+1	Mijn	mijn	DET	_	_	_	_	_	_
+2	vriend	vriend	NOUN	_	_	_	_	_	_
+3	stuurde	sturen	VERB	_	_	_	_	_	_
+4	gisteren	gisteren	ADV	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	brief	brief	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-012
+# text = Ik wil graag een koffie drinken.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	wil	willen	AUX	_	_	_	_	_	_
+3	graag	graag	ADV	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	koffie	koffie	NOUN	_	_	_	_	_	_
+6	drinken	drinken	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-013
+# text = Het gebouw is hoger dan de kerk.
+1	Het	het	DET	_	_	_	_	_	_
+2	gebouw	gebouw	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	hoger	hoog	ADJ	_	_	_	_	_	_
+5	dan	dan	SCONJ	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	kerk	kerk	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-014
+# text = Hij vertelde over zijn jeugd.
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	vertelde	vertellen	VERB	_	_	_	_	_	_
+3	over	over	ADP	_	_	_	_	_	_
+4	zijn	zijn	DET	_	_	_	_	_	_
+5	jeugd	jeugd	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-015
+# text = Morgen gaan wij naar de markt rijden.
+1	Morgen	morgen	ADV	_	_	_	_	_	_
+2	gaan	gaan	AUX	_	_	_	_	_	_
+3	wij	wij	PRON	_	_	_	_	_	_
+4	naar	naar	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	markt	markt	NOUN	_	_	_	_	_	_
+7	rijden	rijden	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-016
+# text = Je moet jezelf beschermen.
+1	Je	je	PRON	_	_	_	_	_	_
+2	moet	moeten	AUX	_	_	_	_	_	_
+3	jezelf	jezelf	PRON	_	_	_	_	_	_
+4	beschermen	beschermen	VERB	_	_	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-017
+# text = De koning bouwde een kerk in het dorp.
+1	De	de	DET	_	_	_	_	_	_
+2	koning	koning	NOUN	_	_	_	_	_	_
+3	bouwde	bouwen	VERB	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	kerk	kerk	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	het	het	DET	_	_	_	_	_	_
+8	dorp	dorp	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-018
+# text = Mijn vriendin is sterker dan haar broer.
+1	Mijn	mijn	DET	_	_	_	_	_	_
+2	vriendin	vriendin	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	sterker	sterk	ADJ	_	_	_	_	_	_
+5	dan	dan	SCONJ	_	_	_	_	_	_
+6	haar	haar	DET	_	_	_	_	_	_
+7	broer	broer	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-019
+# text = Ik kon gisteren niet slapen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	kon	kunnen	AUX	_	_	_	_	_	_
+3	gisteren	gisteren	ADV	_	_	_	_	_	_
+4	niet	niet	PART	_	_	_	_	_	_
+5	slapen	slapen	VERB	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-020
+# text = Eindelijk gaat hij een brief schrijven.
+1	Eindelijk	eindelijk	ADV	_	_	_	_	_	_
+2	gaat	gaan	AUX	_	_	_	_	_	_
+3	hij	hij	PRON	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	brief	brief	NOUN	_	_	_	_	_	_
+6	schrijven	schrijven	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_

@@ -28,11 +28,7 @@ data/validation_batches/
 data/validation_results/
 scratch_*.py
 
-# Tool caches (editor-specific, downloaded model resources)
-.kilo/
-kilo.json
-.stanza_resources/
-data/handcraft/_lib/
-
-# LLM validation output
+# LLM validation output (removed pipeline)
 artifacts/llm_validation/
+*.proposed.conllu
+.stanza_resources/

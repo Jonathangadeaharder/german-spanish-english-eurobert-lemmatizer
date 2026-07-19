@@ -1,0 +1,296 @@
+# sent_id = handcraft-nl-b2-001
+# text = De minister heeft verklaard dat de economie dit jaar sterker is gegroeid dan verwacht .
+1	De	de	DET	_	_	_	_	_	_
+2	minister	minister	NOUN	_	_	_	_	_	_
+3	heeft	hebben	AUX	_	_	_	_	_	_
+4	verklaard	verklaren	VERB	_	_	_	_	_	_
+5	dat	dat	SCONJ	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	economie	economie	NOUN	_	_	_	_	_	_
+8	dit	dit	DET	_	_	_	_	_	_
+9	jaar	jaar	NOUN	_	_	_	_	_	_
+10	sterker	sterk	ADJ	_	_	_	_	_	_
+11	is	zijn	AUX	_	_	_	_	_	_
+12	gegroeid	groeien	VERB	_	_	_	_	_	_
+13	dan	dan	CCONJ	_	_	_	_	_	_
+14	verwacht	verwachten	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-002
+# text = Als ik meer tijd had , zou ik het boek hebben uitgelezen .
+1	Als	als	SCONJ	_	_	_	_	_	_
+2	ik	ik	PRON	_	_	_	_	_	_
+3	meer	meer	ADV	_	_	_	_	_	_
+4	tijd	tijd	NOUN	_	_	_	_	_	_
+5	had	hebben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	zou	zullen	AUX	_	_	_	_	_	_
+8	ik	ik	PRON	_	_	_	_	_	_
+9	het	het	DET	_	_	_	_	_	_
+10	boek	boek	NOUN	_	_	_	_	_	_
+11	hebben	hebben	AUX	_	_	_	_	_	_
+12	uitgelezen	uitlezen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-003
+# text = De overheid heeft besloten de belastingen te verlagen om de koopkracht te stimuleren .
+1	De	de	DET	_	_	_	_	_	_
+2	overheid	overheid	NOUN	_	_	_	_	_	_
+3	heeft	hebben	AUX	_	_	_	_	_	_
+4	besloten	besluiten	VERB	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	belastingen	belasting	NOUN	_	_	_	_	_	_
+7	te	te	PART	_	_	_	_	_	_
+8	verlagen	verlagen	VERB	_	_	_	_	_	_
+9	om	om	ADP	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	koopkracht	koopkracht	NOUN	_	_	_	_	_	_
+12	te	te	PART	_	_	_	_	_	_
+13	stimuleren	stimuleren	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-004
+# text = De professor beweerde dat het onderzoek de hypothese had bevestigd .
+1	De	de	DET	_	_	_	_	_	_
+2	professor	professor	NOUN	_	_	_	_	_	_
+3	beweerde	beweren	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	onderzoek	onderzoek	NOUN	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	hypothese	hypothese	NOUN	_	_	_	_	_	_
+9	had	hebben	AUX	_	_	_	_	_	_
+10	bevestigd	bevestigen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-005
+# text = De bedrijven hebben een strategie ontwikkeld om de concurrentie aan te gaan .
+1	De	de	DET	_	_	_	_	_	_
+2	bedrijven	bedrijf	NOUN	_	_	_	_	_	_
+3	hebben	hebben	AUX	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	strategie	strategie	NOUN	_	_	_	_	_	_
+6	ontwikkeld	ontwikkelen	VERB	_	_	_	_	_	_
+7	om	om	ADP	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	concurrentie	concurrentie	NOUN	_	_	_	_	_	_
+10	aan	aan	ADP	_	_	_	_	_	_
+11	te	te	PART	_	_	_	_	_	_
+12	gaan	gaan	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-006
+# text = Zonder internationale samenwerking zou de crisis veel erger geworden zijn .
+1	Zonder	zonder	ADP	_	_	_	_	_	_
+2	internationale	internationaal	ADJ	_	_	_	_	_	_
+3	samenwerking	samenwerking	NOUN	_	_	_	_	_	_
+4	zou	zullen	AUX	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	crisis	crisis	NOUN	_	_	_	_	_	_
+7	veel	veel	ADV	_	_	_	_	_	_
+8	erger	erg	ADJ	_	_	_	_	_	_
+9	geworden	worden	VERB	_	_	_	_	_	_
+10	zijn	zijn	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-007
+# text = De journalist rapporteerde dat de onderhandelingen waren vastgelopen .
+1	De	de	DET	_	_	_	_	_	_
+2	journalist	journalist	NOUN	_	_	_	_	_	_
+3	rapporteerde	rapporteren	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	onderhandelingen	onderhandeling	NOUN	_	_	_	_	_	_
+7	waren	zijn	AUX	_	_	_	_	_	_
+8	vastgelopen	vastlopen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-008
+# text = De studenten hebben hun scriptie ingeleverd voor de deadline .
+1	De	de	DET	_	_	_	_	_	_
+2	studenten	student	NOUN	_	_	_	_	_	_
+3	hebben	hebben	AUX	_	_	_	_	_	_
+4	hun	hun	DET	_	_	_	_	_	_
+5	scriptie	scriptie	NOUN	_	_	_	_	_	_
+6	ingeleverd	inleveren	VERB	_	_	_	_	_	_
+7	voor	voor	ADP	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	deadline	deadline	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-009
+# text = De commissie heeft het voorstel unaniem goedgekeurd ondanks enkele bezwaren .
+1	De	de	DET	_	_	_	_	_	_
+2	commissie	commissie	NOUN	_	_	_	_	_	_
+3	heeft	hebben	AUX	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	voorstel	voorstel	NOUN	_	_	_	_	_	_
+6	unaniem	unaniem	ADJ	_	_	_	_	_	_
+7	goedgekeurd	goedkeuren	VERB	_	_	_	_	_	_
+8	ondanks	ondanks	ADP	_	_	_	_	_	_
+9	enkele	enkel	DET	_	_	_	_	_	_
+10	bezwaren	bezwaar	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-010
+# text = Ik zou eerder zijn gekomen als ik de weg had geweten .
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zou	zullen	AUX	_	_	_	_	_	_
+3	eerder	eerder	ADV	_	_	_	_	_	_
+4	zijn	zijn	AUX	_	_	_	_	_	_
+5	gekomen	komen	VERB	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	ik	ik	PRON	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	weg	weg	NOUN	_	_	_	_	_	_
+10	had	hebben	AUX	_	_	_	_	_	_
+11	geweten	weten	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-011
+# text = De arts legde uit dat de behandeling enige tijd in beslag zou nemen .
+1	De	de	DET	_	_	_	_	_	_
+2	arts	arts	NOUN	_	_	_	_	_	_
+3	legde	leggen	VERB	_	_	_	_	_	_
+4	uit	uit	ADP	_	_	_	_	_	_
+5	dat	dat	SCONJ	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	behandeling	behandeling	NOUN	_	_	_	_	_	_
+8	enige	enig	DET	_	_	_	_	_	_
+9	tijd	tijd	NOUN	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	beslag	beslag	NOUN	_	_	_	_	_	_
+12	zou	zullen	AUX	_	_	_	_	_	_
+13	nemen	nemen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-012
+# text = De recessie heeft geleid tot een aanzienlijke stijging van de werkloosheid .
+1	De	de	DET	_	_	_	_	_	_
+2	recessie	recessie	NOUN	_	_	_	_	_	_
+3	heeft	hebben	AUX	_	_	_	_	_	_
+4	geleid	leiden	VERB	_	_	_	_	_	_
+5	tot	tot	ADP	_	_	_	_	_	_
+6	een	een	DET	_	_	_	_	_	_
+7	aanzienlijke	aanzienlijk	ADJ	_	_	_	_	_	_
+8	stijging	stijging	NOUN	_	_	_	_	_	_
+9	van	van	ADP	_	_	_	_	_	_
+10	de	de	DET	_	_	_	_	_	_
+11	werkloosheid	werkloosheid	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-013
+# text = Hij zei dat hij zou hebben meegedaan als hij was uitgenodigd .
+1	Hij	hij	PRON	_	_	_	_	_	_
+2	zei	zeggen	VERB	_	_	_	_	_	_
+3	dat	dat	SCONJ	_	_	_	_	_	_
+4	hij	hij	PRON	_	_	_	_	_	_
+5	zou	zullen	AUX	_	_	_	_	_	_
+6	hebben	hebben	AUX	_	_	_	_	_	_
+7	meegedaan	meedoen	VERB	_	_	_	_	_	_
+8	als	als	SCONJ	_	_	_	_	_	_
+9	hij	hij	PRON	_	_	_	_	_	_
+10	was	zijn	AUX	_	_	_	_	_	_
+11	uitgenodigd	uitnodigen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-014
+# text = Het parlement heeft een nieuwe wet aangenomen ter bescherming van het milieu .
+1	Het	het	DET	_	_	_	_	_	_
+2	parlement	parlement	NOUN	_	_	_	_	_	_
+3	heeft	hebben	AUX	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+6	wet	wet	NOUN	_	_	_	_	_	_
+7	aangenomen	aannemen	VERB	_	_	_	_	_	_
+8	ter	te	ADP	_	_	_	_	_	_
+9	bescherming	bescherming	NOUN	_	_	_	_	_	_
+10	van	van	ADP	_	_	_	_	_	_
+11	het	het	DET	_	_	_	_	_	_
+12	milieu	milieu	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-015
+# text = De wetenschappers hebben ontdekt dat de methode verrassend effectief bleek .
+1	De	de	DET	_	_	_	_	_	_
+2	wetenschappers	wetenschapper	NOUN	_	_	_	_	_	_
+3	hebben	hebben	AUX	_	_	_	_	_	_
+4	ontdekt	ontdekken	VERB	_	_	_	_	_	_
+5	dat	dat	SCONJ	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	methode	methode	NOUN	_	_	_	_	_	_
+8	verrassend	verrassend	ADJ	_	_	_	_	_	_
+9	effectief	effectief	ADJ	_	_	_	_	_	_
+10	bleek	blijken	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-016
+# text = Bij een andere aanpak zou het resultaat waarschijnlijk beter zijn .
+1	Bij	bij	ADP	_	_	_	_	_	_
+2	een	een	DET	_	_	_	_	_	_
+3	andere	ander	ADJ	_	_	_	_	_	_
+4	aanpak	aanpak	NOUN	_	_	_	_	_	_
+5	zou	zullen	AUX	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	resultaat	resultaat	NOUN	_	_	_	_	_	_
+8	waarschijnlijk	waarschijnlijk	ADV	_	_	_	_	_	_
+9	beter	goed	ADJ	_	_	_	_	_	_
+10	zijn	zijn	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-017
+# text = De getuige verklaarde dat hij het incident duidelijk had waargenomen .
+1	De	de	DET	_	_	_	_	_	_
+2	getuige	getuige	NOUN	_	_	_	_	_	_
+3	verklaarde	verklaren	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	hij	hij	PRON	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	incident	incident	NOUN	_	_	_	_	_	_
+8	duidelijk	duidelijk	ADJ	_	_	_	_	_	_
+9	had	hebben	AUX	_	_	_	_	_	_
+10	waargenomen	waarnemen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-018
+# text = De raad van bestuur heeft het ontslag van de directeur bekendgemaakt .
+1	De	de	DET	_	_	_	_	_	_
+2	raad	raad	NOUN	_	_	_	_	_	_
+3	van	van	ADP	_	_	_	_	_	_
+4	bestuur	bestuur	NOUN	_	_	_	_	_	_
+5	heeft	hebben	AUX	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	ontslag	ontslag	NOUN	_	_	_	_	_	_
+8	van	van	ADP	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	directeur	directeur	NOUN	_	_	_	_	_	_
+11	bekendgemaakt	bekendmaken	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-019
+# text = De demonstranten eisten dat de regering haar beleid zou herzien .
+1	De	de	DET	_	_	_	_	_	_
+2	demonstranten	demonstrant	NOUN	_	_	_	_	_	_
+3	eisten	eisen	VERB	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	regering	regering	NOUN	_	_	_	_	_	_
+7	haar	haar	DET	_	_	_	_	_	_
+8	beleid	beleid	NOUN	_	_	_	_	_	_
+9	zou	zullen	AUX	_	_	_	_	_	_
+10	herzien	herzien	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b2-020
+# text = Had ik dat geweten , dan had ik anders gehandeld .
+1	Had	hebben	AUX	_	_	_	_	_	_
+2	ik	ik	PRON	_	_	_	_	_	_
+3	dat	dat	PRON	_	_	_	_	_	_
+4	geweten	weten	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dan	dan	ADV	_	_	_	_	_	_
+7	had	hebben	AUX	_	_	_	_	_	_
+8	ik	ik	PRON	_	_	_	_	_	_
+9	anders	anders	ADV	_	_	_	_	_	_
+10	gehandeld	handelen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_

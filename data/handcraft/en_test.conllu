@@ -246,10 +246,10 @@
 11	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = en_023
-# text = Can you pass me the salt, please?
+# text = Can you hand me the salt, please?
 1	Can	can	AUX	_	_	_	_	_	_
 2	you	you	PRON	_	_	_	_	_	_
-3	pass	pass	VERB	_	_	_	_	_	_
+3	hand	hand	VERB	_	_	_	_	_	_
 4	me	I	PRON	_	_	_	_	_	_
 5	the	the	DET	_	_	_	_	_	_
 6	salt	salt	NOUN	_	_	_	_	_	_
@@ -423,12 +423,12 @@
 8	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = en_039
-# text = Do not forget to bring your umbrella.
+# text = Do not forget to carry your umbrella.
 1	Do	do	AUX	_	_	_	_	_	_
 2	not	not	PART	_	_	_	_	_	_
 3	forget	forget	VERB	_	_	_	_	_	_
 4	to	to	PART	_	_	_	_	_	_
-5	bring	bring	VERB	_	_	_	_	_	_
+5	carry	carry	VERB	_	_	_	_	_	_
 6	your	your	PRON	_	_	_	_	_	_
 7	umbrella	umbrella	NOUN	_	_	_	_	_	_
 8	.	.	PUNCT	_	_	_	_	_	_
@@ -892,9 +892,9 @@
 9	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = en_081
-# text = I need to buy some milk and eggs.
+# text = I want to buy some milk and eggs.
 1	I	I	PRON	_	_	_	_	_	_
-2	need	need	VERB	_	_	_	_	_	_
+2	want	want	VERB	_	_	_	_	_	_
 3	to	to	PART	_	_	_	_	_	_
 4	buy	buy	VERB	_	_	_	_	_	_
 5	some	some	DET	_	_	_	_	_	_

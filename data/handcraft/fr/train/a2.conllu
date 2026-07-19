@@ -1,0 +1,328 @@
+# sent_id = handcraft-fr-a2-001
+# text = Cet abricot est absolument délicieux et nous sommes en parfait accord.
+1	Cet	ce	DET	_	_	_	_	_	_
+2	abricot	abricot	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	absolument	absolument	ADV	_	_	_	_	_	_
+5	délicieux	délicieux	ADJ	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	nous	nous	PRON	_	_	_	_	_	_
+8	sommes	être	AUX	_	_	_	_	_	_
+9	en	en	ADP	_	_	_	_	_	_
+10	parfait	parfait	ADJ	_	_	_	_	_	_
+11	accord	accord	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-002
+# text = L'accès à ce bâtiment est interdit et l'acte officiel indique actuellement la fermeture.
+1	L'	le	DET	_	_	_	_	_	_
+2	accès	accès	NOUN	_	_	_	_	_	_
+3	à	à	ADP	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	bâtiment	bâtiment	NOUN	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	interdit	interdire	VERB	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	l'	le	DET	_	_	_	_	_	_
+10	acte	acte	NOUN	_	_	_	_	_	_
+11	officiel	officiel	ADJ	_	_	_	_	_	_
+12	indique	indiquer	VERB	_	_	_	_	_	_
+13	actuellement	actuellement	ADV	_	_	_	_	_	_
+14	la	le	DET	_	_	_	_	_	_
+15	fermeture	fermeture	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-003
+# text = Je demande l'addition car j'adore ce restaurant et cette agence de voyage le recommande.
+1	Je	je	PRON	_	_	_	_	_	_
+2	demande	demander	VERB	_	_	_	_	_	_
+3	l'	le	DET	_	_	_	_	_	_
+4	addition	addition	NOUN	_	_	_	_	_	_
+5	car	car	CCONJ	_	_	_	_	_	_
+6	j'	je	PRON	_	_	_	_	_	_
+7	adore	adorer	VERB	_	_	_	_	_	_
+8	ce	ce	DET	_	_	_	_	_	_
+9	restaurant	restaurant	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	cette	ce	DET	_	_	_	_	_	_
+12	agence	agence	NOUN	_	_	_	_	_	_
+13	de	de	ADP	_	_	_	_	_	_
+14	voyage	voyage	NOUN	_	_	_	_	_	_
+15	le	le	PRON	_	_	_	_	_	_
+16	recommande	recommander	VERB	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-004
+# text = Il faut agir vite pour sauver l'agneau et utiliser une agrafeuse pour le dossier.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faut	falloir	VERB	_	_	_	_	_	_
+3	agir	agir	VERB	_	_	_	_	_	_
+4	vite	vite	ADV	_	_	_	_	_	_
+5	pour	pour	ADP	_	_	_	_	_	_
+6	sauver	sauver	VERB	_	_	_	_	_	_
+7	l'	le	DET	_	_	_	_	_	_
+8	agneau	agneau	NOUN	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	utiliser	utiliser	VERB	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	agrafeuse	agrafeuse	NOUN	_	_	_	_	_	_
+13	pour	pour	ADP	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	dossier	dossier	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-005
+# text = L'ail est partout ailleurs dans la cuisine et ainsi le plat sera prêt.
+1	L'	le	DET	_	_	_	_	_	_
+2	ail	ail	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	partout	partout	ADV	_	_	_	_	_	_
+5	ailleurs	ailleurs	ADV	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	cuisine	cuisine	NOUN	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	ainsi	ainsi	ADV	_	_	_	_	_	_
+11	le	le	DET	_	_	_	_	_	_
+12	plat	plat	NOUN	_	_	_	_	_	_
+13	sera	être	AUX	_	_	_	_	_	_
+14	prêt	prêt	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-006
+# text = Mon ami allemand parle alors avec un touriste américain.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	ami	ami	NOUN	_	_	_	_	_	_
+3	allemand	allemand	ADJ	_	_	_	_	_	_
+4	parle	parler	VERB	_	_	_	_	_	_
+5	alors	alors	ADV	_	_	_	_	_	_
+6	avec	avec	ADP	_	_	_	_	_	_
+7	un	un	DET	_	_	_	_	_	_
+8	touriste	touriste	NOUN	_	_	_	_	_	_
+9	américain	américain	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-007
+# text = L'analyse de l'ananas est ancienne.
+1	L'	le	DET	_	_	_	_	_	_
+2	analyse	analyse	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'	le	DET	_	_	_	_	_	_
+5	ananas	ananas	NOUN	_	_	_	_	_	_
+6	est	être	AUX	_	_	_	_	_	_
+7	ancienne	ancien	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-008
+# text = Pour mon anniversaire, j'ai vu une annonce et reçu un appel.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	mon	mon	DET	_	_	_	_	_	_
+3	anniversaire	anniversaire	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	j'	je	PRON	_	_	_	_	_	_
+6	ai	avoir	AUX	_	_	_	_	_	_
+7	vu	voir	VERB	_	_	_	_	_	_
+8	une	un	DET	_	_	_	_	_	_
+9	annonce	annonce	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	reçu	recevoir	VERB	_	_	_	_	_	_
+12	un	un	DET	_	_	_	_	_	_
+13	appel	appel	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-009
+# text = L'arme de l'armée marque l'arrivée des soldats.
+1	L'	le	DET	_	_	_	_	_	_
+2	arme	arme	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	l'	le	DET	_	_	_	_	_	_
+5	armée	armée	NOUN	_	_	_	_	_	_
+6	marque	marquer	VERB	_	_	_	_	_	_
+7	l'	le	DET	_	_	_	_	_	_
+8	arrivée	arrivée	NOUN	_	_	_	_	_	_
+9	des	de	ADP	_	_	_	_	_	_
+10	soldats	soldat	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-010
+# text = À l'arrière, mon arrière-grand-père attend à l'arrêt.
+1	À	à	ADP	_	_	_	_	_	_
+2	l'	le	DET	_	_	_	_	_	_
+3	arrière	arrière	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	mon	mon	DET	_	_	_	_	_	_
+6	arrière-grand-père	arrière-grand-père	NOUN	_	_	_	_	_	_
+7	attend	attendre	VERB	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	l'	le	DET	_	_	_	_	_	_
+10	arrêt	arrêt	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-011
+# text = Cet artiste célèbre pose son assiette sur la table avec une grande assurance.
+1	Cet	ce	DET	_	_	_	_	_	_
+2	artiste	artiste	NOUN	_	_	_	_	_	_
+3	célèbre	célèbre	ADJ	_	_	_	_	_	_
+4	pose	poser	VERB	_	_	_	_	_	_
+5	son	son	DET	_	_	_	_	_	_
+6	assiette	assiette	NOUN	_	_	_	_	_	_
+7	sur	sur	ADP	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	table	table	NOUN	_	_	_	_	_	_
+10	avec	avec	ADP	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	grande	grand	ADJ	_	_	_	_	_	_
+13	assurance	assurance	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-012
+# text = Le coach veut assurer la défense avant de lancer une attaque pour atteindre le but.
+1	Le	le	DET	_	_	_	_	_	_
+2	coach	coach	NOUN	_	_	_	_	_	_
+3	veut	vouloir	VERB	_	_	_	_	_	_
+4	assurer	assurer	VERB	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	défense	défense	NOUN	_	_	_	_	_	_
+7	avant	avant	ADV	_	_	_	_	_	_
+8	de	de	ADP	_	_	_	_	_	_
+9	lancer	lancer	VERB	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	attaque	attaque	NOUN	_	_	_	_	_	_
+12	pour	pour	ADP	_	_	_	_	_	_
+13	atteindre	atteindre	VERB	_	_	_	_	_	_
+14	le	le	DET	_	_	_	_	_	_
+15	but	but	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-013
+# text = Nous devons attendre le bus pour acheter une aubergine, car l'autorité locale ferme le marché tôt.
+1	Nous	nous	PRON	_	_	_	_	_	_
+2	devons	devoir	VERB	_	_	_	_	_	_
+3	attendre	attendre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	bus	bus	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	acheter	acheter	VERB	_	_	_	_	_	_
+8	une	un	DET	_	_	_	_	_	_
+9	aubergine	aubergine	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	car	car	CCONJ	_	_	_	_	_	_
+12	l'	le	DET	_	_	_	_	_	_
+13	autorité	autorité	NOUN	_	_	_	_	_	_
+14	locale	local	ADJ	_	_	_	_	_	_
+15	ferme	fermer	VERB	_	_	_	_	_	_
+16	le	le	DET	_	_	_	_	_	_
+17	marché	marché	NOUN	_	_	_	_	_	_
+18	tôt	tôt	ADV	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-014
+# text = Les enfants jouent autour de la fontaine et avancent vers leur avenir avec espoir.
+1	Les	le	DET	_	_	_	_	_	_
+2	enfants	enfant	NOUN	_	_	_	_	_	_
+3	jouent	jouer	VERB	_	_	_	_	_	_
+4	autour	autour	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	fontaine	fontaine	NOUN	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	avancent	avancer	VERB	_	_	_	_	_	_
+10	vers	vers	ADP	_	_	_	_	_	_
+11	leur	leur	DET	_	_	_	_	_	_
+12	avenir	avenir	NOUN	_	_	_	_	_	_
+13	avec	avec	ADP	_	_	_	_	_	_
+14	espoir	espoir	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-015
+# text = Il rame avec un aviron rapide, demande l'avis de son avocat et signe le document.
+1	Il	il	PRON	_	_	_	_	_	_
+2	rame	ramer	VERB	_	_	_	_	_	_
+3	avec	avec	ADP	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	aviron	aviron	NOUN	_	_	_	_	_	_
+6	rapide	rapide	ADJ	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	demande	demander	VERB	_	_	_	_	_	_
+9	l'	le	DET	_	_	_	_	_	_
+10	avis	avis	NOUN	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	son	son	DET	_	_	_	_	_	_
+13	avocat	avocat	NOUN	_	_	_	_	_	_
+14	et	et	CCONJ	_	_	_	_	_	_
+15	signe	signer	VERB	_	_	_	_	_	_
+16	le	le	DET	_	_	_	_	_	_
+17	document	document	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-016
+# text = Mon frère aîné porte une bague en or et nettoie la baignoire.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	frère	frère	NOUN	_	_	_	_	_	_
+3	aîné	aîné	ADJ	_	_	_	_	_	_
+4	porte	porter	VERB	_	_	_	_	_	_
+5	une	un	DET	_	_	_	_	_	_
+6	bague	bague	NOUN	_	_	_	_	_	_
+7	en	en	ADP	_	_	_	_	_	_
+8	or	or	NOUN	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	nettoie	nettoyer	VERB	_	_	_	_	_	_
+11	la	le	DET	_	_	_	_	_	_
+12	baignoire	baignoire	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-017
+# text = La balançoire est près de la banque et le ciel est bas.
+1	La	le	DET	_	_	_	_	_	_
+2	balançoire	balançoire	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	près	près	ADV	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	la	le	DET	_	_	_	_	_	_
+7	banque	banque	NOUN	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	ciel	ciel	NOUN	_	_	_	_	_	_
+11	est	être	AUX	_	_	_	_	_	_
+12	bas	bas	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-018
+# text = Le basilic pousse dans le jardin de mon beau-fils et de mon beau-frère.
+1	Le	le	DET	_	_	_	_	_	_
+2	basilic	basilic	NOUN	_	_	_	_	_	_
+3	pousse	pousser	VERB	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	jardin	jardin	NOUN	_	_	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	mon	mon	DET	_	_	_	_	_	_
+9	beau-fils	beau-fils	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	mon	mon	DET	_	_	_	_	_	_
+13	beau-frère	beau-frère	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-019
+# text = Mon beau-père admire la beauté de ma belle-mère.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	beau-père	beau-père	NOUN	_	_	_	_	_	_
+3	admire	admirer	VERB	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	beauté	beauté	NOUN	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	ma	mon	DET	_	_	_	_	_	_
+8	belle-mère	belle-mère	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a2-020
+# text = Ma belle-soeur a besoin de partir bientôt.
+1	Ma	mon	DET	_	_	_	_	_	_
+2	belle-soeur	belle-soeur	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	besoin	besoin	NOUN	_	_	_	_	_	_
+5	de	de	ADP	_	_	_	_	_	_
+6	partir	partir	VERB	_	_	_	_	_	_
+7	bientôt	bientôt	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_

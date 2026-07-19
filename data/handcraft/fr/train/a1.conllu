@@ -1,0 +1,289 @@
+# sent_id = handcraft-fr-a1-001
+# text = Je dois abaisser les bras, abandonner ce jouet et parler d'abord.
+1	Je	je	PRON	_	_	_	_	_	_
+2	dois	devoir	VERB	_	_	_	_	_	_
+3	abaisser	abaisser	VERB	_	_	_	_	_	_
+4	les	le	DET	_	_	_	_	_	_
+5	bras	bras	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	abandonner	abandonner	VERB	_	_	_	_	_	_
+8	ce	ce	DET	_	_	_	_	_	_
+9	jouet	jouet	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	parler	parler	VERB	_	_	_	_	_	_
+12	d'	de	ADP	_	_	_	_	_	_
+13	abord	abord	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-002
+# text = Il faut accepter d'acheter ce couteau en acier.
+1	Il	il	PRON	_	_	_	_	_	_
+2	faut	falloir	VERB	_	_	_	_	_	_
+3	accepter	accepter	VERB	_	_	_	_	_	_
+4	d'	de	ADP	_	_	_	_	_	_
+5	acheter	acheter	VERB	_	_	_	_	_	_
+6	ce	ce	DET	_	_	_	_	_	_
+7	couteau	couteau	NOUN	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	acier	acier	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-003
+# text = Cette activité actuelle est un adieu.
+1	Cette	ce	DET	_	_	_	_	_	_
+2	activité	activité	NOUN	_	_	_	_	_	_
+3	actuelle	actuel	ADJ	_	_	_	_	_	_
+4	est	être	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	adieu	adieu	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-004
+# text = Mon adresse pour cette affaire est très agréable.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	adresse	adresse	NOUN	_	_	_	_	_	_
+3	pour	pour	ADP	_	_	_	_	_	_
+4	cette	ce	DET	_	_	_	_	_	_
+5	affaire	affaire	NOUN	_	_	_	_	_	_
+6	est	être	VERB	_	_	_	_	_	_
+7	très	très	ADV	_	_	_	_	_	_
+8	agréable	agréable	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-005
+# text = J'aime l'aide et je veux aider.
+1	J'	je	PRON	_	_	_	_	_	_
+2	aime	aimer	VERB	_	_	_	_	_	_
+3	l'	le	DET	_	_	_	_	_	_
+4	aide	aide	NOUN	_	_	_	_	_	_
+5	et	et	CCONJ	_	_	_	_	_	_
+6	je	je	PRON	_	_	_	_	_	_
+7	veux	vouloir	VERB	_	_	_	_	_	_
+8	aider	aider	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-006
+# text = Je vais acheter une allumette et il va m'amener au magasin.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	VERB	_	_	_	_	_	_
+3	acheter	acheter	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	allumette	allumette	NOUN	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	il	il	PRON	_	_	_	_	_	_
+8	va	aller	VERB	_	_	_	_	_	_
+9	m'	me	PRON	_	_	_	_	_	_
+10	amener	amener	VERB	_	_	_	_	_	_
+11	au	au	ADP	_	_	_	_	_	_
+12	magasin	magasin	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-007
+# text = Mon ami a beaucoup d'amour et il a vingt ans.
+1	Mon	mon	DET	_	_	_	_	_	_
+2	ami	ami	NOUN	_	_	_	_	_	_
+3	a	avoir	VERB	_	_	_	_	_	_
+4	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+5	d'	de	ADP	_	_	_	_	_	_
+6	amour	amour	NOUN	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	a	avoir	VERB	_	_	_	_	_	_
+10	vingt	vingt	NUM	_	_	_	_	_	_
+11	ans	an	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-008
+# text = L'anglais est facile cette année et je m'appelle Pierre.
+1	L'	le	DET	_	_	_	_	_	_
+2	anglais	anglais	NOUN	_	_	_	_	_	_
+3	est	être	VERB	_	_	_	_	_	_
+4	facile	facile	ADJ	_	_	_	_	_	_
+5	cette	ce	DET	_	_	_	_	_	_
+6	année	année	NOUN	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	je	je	PRON	_	_	_	_	_	_
+9	m'	me	PRON	_	_	_	_	_	_
+10	appelle	appeler	VERB	_	_	_	_	_	_
+11	Pierre	Pierre	PROPN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-009
+# text = Tu peux apporter ce livre, apprendre la leçon et voir l'arbre ?
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	peux	pouvoir	VERB	_	_	_	_	_	_
+3	apporter	apporter	VERB	_	_	_	_	_	_
+4	ce	ce	DET	_	_	_	_	_	_
+5	livre	livre	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	apprendre	apprendre	VERB	_	_	_	_	_	_
+8	la	le	DET	_	_	_	_	_	_
+9	leçon	leçon	NOUN	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	voir	voir	VERB	_	_	_	_	_	_
+12	l'	le	DET	_	_	_	_	_	_
+13	arbre	arbre	NOUN	_	_	_	_	_	_
+14	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-010
+# text = J'ai peu d'argent, mais le bus arrive et il s'arrête ici.
+1	J'	je	PRON	_	_	_	_	_	_
+2	ai	avoir	VERB	_	_	_	_	_	_
+3	peu	peu	ADV	_	_	_	_	_	_
+4	d'	de	ADP	_	_	_	_	_	_
+5	argent	argent	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mais	mais	CCONJ	_	_	_	_	_	_
+8	le	le	DET	_	_	_	_	_	_
+9	bus	bus	NOUN	_	_	_	_	_	_
+10	arrive	arriver	VERB	_	_	_	_	_	_
+11	et	et	CCONJ	_	_	_	_	_	_
+12	il	il	PRON	_	_	_	_	_	_
+13	s'	se	PRON	_	_	_	_	_	_
+14	arrête	arrêter	VERB	_	_	_	_	_	_
+15	ici	ici	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-011
+# text = Je suis assez assis dans cette petite auberge.
+1	Je	je	PRON	_	_	_	_	_	_
+2	suis	être	AUX	_	_	_	_	_	_
+3	assez	assez	ADV	_	_	_	_	_	_
+4	assis	assis	ADJ	_	_	_	_	_	_
+5	dans	dans	ADP	_	_	_	_	_	_
+6	cette	ce	DET	_	_	_	_	_	_
+7	petite	petit	ADJ	_	_	_	_	_	_
+8	auberge	auberge	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-012
+# text = Aujourd'hui, il fait aussi chaud et il pleut autant.
+1	Aujourd'hui	aujourd'hui	ADV	_	_	_	_	_	_
+2	,	,	PUNCT	_	_	_	_	_	_
+3	il	il	PRON	_	_	_	_	_	_
+4	fait	faire	VERB	_	_	_	_	_	_
+5	aussi	aussi	ADV	_	_	_	_	_	_
+6	chaud	chaud	ADJ	_	_	_	_	_	_
+7	et	et	CCONJ	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	pleut	pleuvoir	VERB	_	_	_	_	_	_
+10	autant	autant	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-013
+# text = L'auteur conduit son auto en automne.
+1	L'	le	DET	_	_	_	_	_	_
+2	auteur	auteur	NOUN	_	_	_	_	_	_
+3	conduit	conduire	VERB	_	_	_	_	_	_
+4	son	son	DET	_	_	_	_	_	_
+5	auto	auto	NOUN	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	automne	automne	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-014
+# text = Un autre enfant veut avaler son bonbon avant l'avion.
+1	Un	un	DET	_	_	_	_	_	_
+2	autre	autre	ADJ	_	_	_	_	_	_
+3	enfant	enfant	NOUN	_	_	_	_	_	_
+4	veut	vouloir	VERB	_	_	_	_	_	_
+5	avaler	avaler	VERB	_	_	_	_	_	_
+6	son	son	DET	_	_	_	_	_	_
+7	bonbon	bonbon	NOUN	_	_	_	_	_	_
+8	avant	avant	ADP	_	_	_	_	_	_
+9	l'	le	DET	_	_	_	_	_	_
+10	avion	avion	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-015
+# text = Je veux avoir un bain et baiser ma joue.
+1	Je	je	PRON	_	_	_	_	_	_
+2	veux	vouloir	VERB	_	_	_	_	_	_
+3	avoir	avoir	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	bain	bain	NOUN	_	_	_	_	_	_
+6	et	et	CCONJ	_	_	_	_	_	_
+7	baiser	baiser	VERB	_	_	_	_	_	_
+8	ma	mon	DET	_	_	_	_	_	_
+9	joue	joue	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-016
+# text = La petite balle roule près de la banane sur le banc.
+1	La	le	DET	_	_	_	_	_	_
+2	petite	petit	ADJ	_	_	_	_	_	_
+3	balle	balle	NOUN	_	_	_	_	_	_
+4	roule	rouler	VERB	_	_	_	_	_	_
+5	près	près	ADV	_	_	_	_	_	_
+6	de	de	ADP	_	_	_	_	_	_
+7	la	le	DET	_	_	_	_	_	_
+8	banane	banane	NOUN	_	_	_	_	_	_
+9	sur	sur	ADP	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	banc	banc	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-017
+# text = Une bande d'amis regarde sa barbe et joue au basket.
+1	Une	un	DET	_	_	_	_	_	_
+2	bande	bande	NOUN	_	_	_	_	_	_
+3	d'	de	ADP	_	_	_	_	_	_
+4	amis	ami	NOUN	_	_	_	_	_	_
+5	regarde	regarder	VERB	_	_	_	_	_	_
+6	sa	son	DET	_	_	_	_	_	_
+7	barbe	barbe	NOUN	_	_	_	_	_	_
+8	et	et	CCONJ	_	_	_	_	_	_
+9	joue	jouer	VERB	_	_	_	_	_	_
+10	au	au	ADP	_	_	_	_	_	_
+11	basket	basket	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-018
+# text = Il peut battre le record, il est beau et il travaille beaucoup.
+1	Il	il	PRON	_	_	_	_	_	_
+2	peut	pouvoir	VERB	_	_	_	_	_	_
+3	battre	battre	VERB	_	_	_	_	_	_
+4	le	le	DET	_	_	_	_	_	_
+5	record	record	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	il	il	PRON	_	_	_	_	_	_
+8	est	être	AUX	_	_	_	_	_	_
+9	beau	beau	ADJ	_	_	_	_	_	_
+10	et	et	CCONJ	_	_	_	_	_	_
+11	il	il	PRON	_	_	_	_	_	_
+12	travaille	travailler	VERB	_	_	_	_	_	_
+13	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-019
+# text = Je mange du beurre, je vais à la bibliothèque en bicyclette.
+1	Je	je	PRON	_	_	_	_	_	_
+2	mange	manger	VERB	_	_	_	_	_	_
+3	du	du	DET	_	_	_	_	_	_
+4	beurre	beurre	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	je	je	PRON	_	_	_	_	_	_
+7	vais	aller	VERB	_	_	_	_	_	_
+8	à	à	ADP	_	_	_	_	_	_
+9	la	le	DET	_	_	_	_	_	_
+10	bibliothèque	bibliothèque	NOUN	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	bicyclette	bicyclette	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-a1-020
+# text = Tu chantes bien, ta chemise est blanche et ton ciel est bleu.
+1	Tu	tu	PRON	_	_	_	_	_	_
+2	chantes	chanter	VERB	_	_	_	_	_	_
+3	bien	bien	ADV	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ta	ton	DET	_	_	_	_	_	_
+6	chemise	chemise	NOUN	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	blanche	blanc	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	ton	ton	DET	_	_	_	_	_	_
+11	ciel	ciel	NOUN	_	_	_	_	_	_
+12	est	être	AUX	_	_	_	_	_	_
+13	bleu	bleu	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_

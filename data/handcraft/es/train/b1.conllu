@@ -1,0 +1,279 @@
+# sent_id = handcraft-es-b1-001
+# text = Cuando era niño , vivía en una aldea cerca de un río .
+1	Cuando	cuando	SCONJ	_	_	_	_	_	_
+2	era	ser	AUX	_	_	_	_	_	_
+3	niño	niño	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	vivía	vivir	VERB	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	una	uno	DET	_	_	_	_	_	_
+8	aldea	aldea	NOUN	_	_	_	_	_	_
+9	cerca	cerca	ADV	_	_	_	_	_	_
+10	de	de	ADP	_	_	_	_	_	_
+11	un	uno	DET	_	_	_	_	_	_
+12	río	río	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-002
+# text = Si tuviera tiempo , visitaría a mis abuelos que viven en el campo .
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	tuviera	tener	VERB	_	_	_	_	_	_
+3	tiempo	tiempo	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	visitaría	visitar	VERB	_	_	_	_	_	_
+6	a	a	ADP	_	_	_	_	_	_
+7	mis	mi	DET	_	_	_	_	_	_
+8	abuelos	abuelo	NOUN	_	_	_	_	_	_
+9	que	que	PRON	_	_	_	_	_	_
+10	viven	vivir	VERB	_	_	_	_	_	_
+11	en	en	ADP	_	_	_	_	_	_
+12	el	el	DET	_	_	_	_	_	_
+13	campo	campo	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-003
+# text = Me gustaría que mañana hiciéramos una fiesta en el jardín .
+1	Me	yo	PRON	_	_	_	_	_	_
+2	gustaría	gustar	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	mañana	mañana	ADV	_	_	_	_	_	_
+5	hiciéramos	hacer	VERB	_	_	_	_	_	_
+6	una	uno	DET	_	_	_	_	_	_
+7	fiesta	fiesta	NOUN	_	_	_	_	_	_
+8	en	en	ADP	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	jardín	jardín	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-004
+# text = El libro que leíste ayer era muy interesante y divertido .
+1	El	el	DET	_	_	_	_	_	_
+2	libro	libro	NOUN	_	_	_	_	_	_
+3	que	que	PRON	_	_	_	_	_	_
+4	leíste	leer	VERB	_	_	_	_	_	_
+5	ayer	ayer	ADV	_	_	_	_	_	_
+6	era	ser	AUX	_	_	_	_	_	_
+7	muy	muy	ADV	_	_	_	_	_	_
+8	interesante	interesante	ADJ	_	_	_	_	_	_
+9	y	y	CCONJ	_	_	_	_	_	_
+10	divertido	divertido	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-005
+# text = Si hiciera buen tiempo , iríamos a la playa por la tarde .
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	hiciera	hacer	VERB	_	_	_	_	_	_
+3	buen	bueno	ADJ	_	_	_	_	_	_
+4	tiempo	tiempo	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	iríamos	ir	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	la	el	DET	_	_	_	_	_	_
+9	playa	playa	NOUN	_	_	_	_	_	_
+10	por	por	ADP	_	_	_	_	_	_
+11	la	el	DET	_	_	_	_	_	_
+12	tarde	tarde	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-006
+# text = Cuando vivíamos en la ciudad , siempre tomábamos el metro .
+1	Cuando	cuando	SCONJ	_	_	_	_	_	_
+2	vivíamos	vivir	VERB	_	_	_	_	_	_
+3	en	en	ADP	_	_	_	_	_	_
+4	la	el	DET	_	_	_	_	_	_
+5	ciudad	ciudad	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	siempre	siempre	ADV	_	_	_	_	_	_
+8	tomábamos	tomar	VERB	_	_	_	_	_	_
+9	el	el	DET	_	_	_	_	_	_
+10	metro	metro	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-007
+# text = Esperaba que ella me llamara , pero nunca lo hizo .
+1	Esperaba	esperar	VERB	_	_	_	_	_	_
+2	que	que	SCONJ	_	_	_	_	_	_
+3	ella	él	PRON	_	_	_	_	_	_
+4	me	yo	PRON	_	_	_	_	_	_
+5	llamara	llamar	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	pero	pero	CCONJ	_	_	_	_	_	_
+8	nunca	nunca	ADV	_	_	_	_	_	_
+9	lo	él	PRON	_	_	_	_	_	_
+10	hizo	hacer	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-008
+# text = Compraría un coche nuevo si tuviera suficiente dinero .
+1	Compraría	comprar	VERB	_	_	_	_	_	_
+2	un	uno	DET	_	_	_	_	_	_
+3	coche	coche	NOUN	_	_	_	_	_	_
+4	nuevo	nuevo	ADJ	_	_	_	_	_	_
+5	si	si	SCONJ	_	_	_	_	_	_
+6	tuviera	tener	VERB	_	_	_	_	_	_
+7	suficiente	suficiente	ADJ	_	_	_	_	_	_
+8	dinero	dinero	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-009
+# text = La mujer que hablaba con el camarero era mi profesora .
+1	La	el	DET	_	_	_	_	_	_
+2	mujer	mujer	NOUN	_	_	_	_	_	_
+3	que	que	PRON	_	_	_	_	_	_
+4	hablaba	hablar	VERB	_	_	_	_	_	_
+5	con	con	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	camarero	camarero	NOUN	_	_	_	_	_	_
+8	era	ser	AUX	_	_	_	_	_	_
+9	mi	mi	DET	_	_	_	_	_	_
+10	profesora	profesor	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-010
+# text = Si pudieras viajar a cualquier país , ¿ adónde irías ?
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	pudieras	poder	AUX	_	_	_	_	_	_
+3	viajar	viajar	VERB	_	_	_	_	_	_
+4	a	a	ADP	_	_	_	_	_	_
+5	cualquier	cualquier	DET	_	_	_	_	_	_
+6	país	país	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	¿	¿	PUNCT	_	_	_	_	_	_
+9	adónde	adónde	ADV	_	_	_	_	_	_
+10	irías	ir	VERB	_	_	_	_	_	_
+11	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-011
+# text = Mis padres querían que estudiara medicina , pero prefería arte .
+1	Mis	mi	DET	_	_	_	_	_	_
+2	padres	padre	NOUN	_	_	_	_	_	_
+3	querían	querer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	estudiara	estudiar	VERB	_	_	_	_	_	_
+6	medicina	medicina	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	pero	pero	CCONJ	_	_	_	_	_	_
+9	prefería	preferir	VERB	_	_	_	_	_	_
+10	arte	arte	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-012
+# text = Antes dormía bien , pero ahora siempre tengo pesadillas .
+1	Antes	antes	ADV	_	_	_	_	_	_
+2	dormía	dormir	VERB	_	_	_	_	_	_
+3	bien	bien	ADV	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	pero	pero	CCONJ	_	_	_	_	_	_
+6	ahora	ahora	ADV	_	_	_	_	_	_
+7	siempre	siempre	ADV	_	_	_	_	_	_
+8	tengo	tener	VERB	_	_	_	_	_	_
+9	pesadillas	pesadilla	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-013
+# text = Si lloviera , nos quedaríamos en casa viendo una película .
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	lloviera	llover	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	nos	nosotros	PRON	_	_	_	_	_	_
+5	quedaríamos	quedar	VERB	_	_	_	_	_	_
+6	en	en	ADP	_	_	_	_	_	_
+7	casa	casa	NOUN	_	_	_	_	_	_
+8	viendo	ver	VERB	_	_	_	_	_	_
+9	una	uno	DET	_	_	_	_	_	_
+10	película	película	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-014
+# text = El pueblo donde nací era pequeño y muy tranquilo .
+1	El	el	DET	_	_	_	_	_	_
+2	pueblo	pueblo	NOUN	_	_	_	_	_	_
+3	donde	donde	ADV	_	_	_	_	_	_
+4	nací	nacer	VERB	_	_	_	_	_	_
+5	era	ser	AUX	_	_	_	_	_	_
+6	pequeño	pequeño	ADJ	_	_	_	_	_	_
+7	y	y	CCONJ	_	_	_	_	_	_
+8	muy	muy	ADV	_	_	_	_	_	_
+9	tranquilo	tranquilo	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-015
+# text = Le dije que vendría temprano , pero llegué tarde .
+1	Le	él	PRON	_	_	_	_	_	_
+2	dije	decir	VERB	_	_	_	_	_	_
+3	que	que	SCONJ	_	_	_	_	_	_
+4	vendría	venir	VERB	_	_	_	_	_	_
+5	temprano	temprano	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	pero	pero	CCONJ	_	_	_	_	_	_
+8	llegué	llegar	VERB	_	_	_	_	_	_
+9	tarde	tarde	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-016
+# text = Cuando era adolescente , pensaba que el mundo era más fácil .
+1	Cuando	cuando	SCONJ	_	_	_	_	_	_
+2	era	ser	AUX	_	_	_	_	_	_
+3	adolescente	adolescente	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	pensaba	pensar	VERB	_	_	_	_	_	_
+6	que	que	SCONJ	_	_	_	_	_	_
+7	el	el	DET	_	_	_	_	_	_
+8	mundo	mundo	NOUN	_	_	_	_	_	_
+9	era	ser	AUX	_	_	_	_	_	_
+10	más	más	ADV	_	_	_	_	_	_
+11	fácil	fácil	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-017
+# text = Si fuera tú , hablaría con él antes de decidir .
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	fuera	ser	AUX	_	_	_	_	_	_
+3	tú	tú	PRON	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	hablaría	hablar	VERB	_	_	_	_	_	_
+6	con	con	ADP	_	_	_	_	_	_
+7	él	él	PRON	_	_	_	_	_	_
+8	antes	antes	ADV	_	_	_	_	_	_
+9	de	de	ADP	_	_	_	_	_	_
+10	decidir	decidir	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-018
+# text = Los niños que jugaban en el parque eran muy felices .
+1	Los	el	DET	_	_	_	_	_	_
+2	niños	niño	NOUN	_	_	_	_	_	_
+3	que	que	PRON	_	_	_	_	_	_
+4	jugaban	jugar	VERB	_	_	_	_	_	_
+5	en	en	ADP	_	_	_	_	_	_
+6	el	el	DET	_	_	_	_	_	_
+7	parque	parque	NOUN	_	_	_	_	_	_
+8	eran	ser	AUX	_	_	_	_	_	_
+9	muy	muy	ADV	_	_	_	_	_	_
+10	felices	feliz	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-019
+# text = Me preguntó si quería cenar con ellos esa noche .
+1	Me	yo	PRON	_	_	_	_	_	_
+2	preguntó	preguntar	VERB	_	_	_	_	_	_
+3	si	si	SCONJ	_	_	_	_	_	_
+4	quería	querer	VERB	_	_	_	_	_	_
+5	cenar	cenar	VERB	_	_	_	_	_	_
+6	con	con	ADP	_	_	_	_	_	_
+7	ellos	él	PRON	_	_	_	_	_	_
+8	esa	ese	DET	_	_	_	_	_	_
+9	noche	noche	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-es-b1-020
+# text = Si tuviéramos más vacaciones , viajaríamos a menudo .
+1	Si	si	SCONJ	_	_	_	_	_	_
+2	tuviéramos	tener	VERB	_	_	_	_	_	_
+3	más	más	ADV	_	_	_	_	_	_
+4	vacaciones	vacaciones	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	viajaríamos	viajar	VERB	_	_	_	_	_	_
+7	a	a	ADP	_	_	_	_	_	_
+8	menudo	menudo	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_

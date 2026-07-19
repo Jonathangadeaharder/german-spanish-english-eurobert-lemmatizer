@@ -1,0 +1,357 @@
+# sent_id = handcraft-en-a2-001
+# text = I absolutely accept your access to the file.
+1	I	I	PRON	_	_	_	_	_	_
+2	absolutely	absolutely	ADV	_	_	_	_	_	_
+3	accept	accept	VERB	_	_	_	_	_	_
+4	your	your	PRON	_	_	_	_	_	_
+5	access	access	NOUN	_	_	_	_	_	_
+6	to	to	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	file	file	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-002
+# text = Please add money to my bank account before taking action.
+1	Please	please	INTJ	_	_	_	_	_	_
+2	add	add	VERB	_	_	_	_	_	_
+3	money	money	NOUN	_	_	_	_	_	_
+4	to	to	ADP	_	_	_	_	_	_
+5	my	my	PRON	_	_	_	_	_	_
+6	bank	bank	NOUN	_	_	_	_	_	_
+7	account	account	NOUN	_	_	_	_	_	_
+8	before	before	SCONJ	_	_	_	_	_	_
+9	taking	take	VERB	_	_	_	_	_	_
+10	action	action	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-003
+# text = He did not admit his home address when he asked for advice.
+1	He	he	PRON	_	_	_	_	_	_
+2	did	do	AUX	_	_	_	_	_	_
+3	not	not	PART	_	_	_	_	_	_
+4	admit	admit	VERB	_	_	_	_	_	_
+5	his	his	PRON	_	_	_	_	_	_
+6	home	home	NOUN	_	_	_	_	_	_
+7	address	address	NOUN	_	_	_	_	_	_
+8	when	when	SCONJ	_	_	_	_	_	_
+9	he	he	PRON	_	_	_	_	_	_
+10	asked	ask	VERB	_	_	_	_	_	_
+11	for	for	ADP	_	_	_	_	_	_
+12	advice	advice	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-004
+# text = The travel agent said we could afford a trip this afternoon.
+1	The	the	DET	_	_	_	_	_	_
+2	travel	travel	NOUN	_	_	_	_	_	_
+3	agent	agent	NOUN	_	_	_	_	_	_
+4	said	say	VERB	_	_	_	_	_	_
+5	we	we	PRON	_	_	_	_	_	_
+6	could	can	AUX	_	_	_	_	_	_
+7	afford	afford	VERB	_	_	_	_	_	_
+8	a	a	DET	_	_	_	_	_	_
+9	trip	trip	NOUN	_	_	_	_	_	_
+10	this	this	DET	_	_	_	_	_	_
+11	afternoon	afternoon	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-005
+# text = They do not allow such a large amount if you are angry.
+1	They	they	PRON	_	_	_	_	_	_
+2	do	do	AUX	_	_	_	_	_	_
+3	not	not	PART	_	_	_	_	_	_
+4	allow	allow	VERB	_	_	_	_	_	_
+5	such	such	DET	_	_	_	_	_	_
+6	a	a	DET	_	_	_	_	_	_
+7	large	large	ADJ	_	_	_	_	_	_
+8	amount	amount	NOUN	_	_	_	_	_	_
+9	if	if	SCONJ	_	_	_	_	_	_
+10	you	you	PRON	_	_	_	_	_	_
+11	are	be	AUX	_	_	_	_	_	_
+12	angry	angry	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-006
+# text = My aunt has a small animal in her apartment, and she will apologize if it makes noise.
+1	My	my	DET	_	_	_	_	_	_
+2	aunt	aunt	NOUN	_	_	_	_	_	_
+3	has	have	VERB	_	_	_	_	_	_
+4	a	a	DET	_	_	_	_	_	_
+5	small	small	ADJ	_	_	_	_	_	_
+6	animal	animal	NOUN	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	her	her	DET	_	_	_	_	_	_
+9	apartment	apartment	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	and	and	CCONJ	_	_	_	_	_	_
+12	she	she	PRON	_	_	_	_	_	_
+13	will	will	AUX	_	_	_	_	_	_
+14	apologize	apologize	VERB	_	_	_	_	_	_
+15	if	if	SCONJ	_	_	_	_	_	_
+16	it	it	PRON	_	_	_	_	_	_
+17	makes	make	VERB	_	_	_	_	_	_
+18	noise	noise	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-007
+# text = The audience gave loud applause because they appreciate the actor who broke his arm.
+1	The	the	DET	_	_	_	_	_	_
+2	audience	audience	NOUN	_	_	_	_	_	_
+3	gave	give	VERB	_	_	_	_	_	_
+4	loud	loud	ADJ	_	_	_	_	_	_
+5	applause	applause	NOUN	_	_	_	_	_	_
+6	because	because	SCONJ	_	_	_	_	_	_
+7	they	they	PRON	_	_	_	_	_	_
+8	appreciate	appreciate	VERB	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	actor	actor	NOUN	_	_	_	_	_	_
+11	who	who	PRON	_	_	_	_	_	_
+12	broke	break	VERB	_	_	_	_	_	_
+13	his	his	DET	_	_	_	_	_	_
+14	arm	arm	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-008
+# text = The army did not arrest the artist for his strange art.
+1	The	the	DET	_	_	_	_	_	_
+2	army	army	NOUN	_	_	_	_	_	_
+3	did	do	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	arrest	arrest	VERB	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	artist	artist	NOUN	_	_	_	_	_	_
+8	for	for	ADP	_	_	_	_	_	_
+9	his	his	DET	_	_	_	_	_	_
+10	strange	strange	ADJ	_	_	_	_	_	_
+11	art	art	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-009
+# text = The baby fell asleep while the audience paid attention to the show.
+1	The	the	DET	_	_	_	_	_	_
+2	baby	baby	NOUN	_	_	_	_	_	_
+3	fell	fall	VERB	_	_	_	_	_	_
+4	asleep	asleep	ADJ	_	_	_	_	_	_
+5	while	while	SCONJ	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	audience	audience	NOUN	_	_	_	_	_	_
+8	paid	pay	VERB	_	_	_	_	_	_
+9	attention	attention	NOUN	_	_	_	_	_	_
+10	to	to	ADP	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	show	show	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-010
+# text = My aunt thinks the weather is awful, but I think it is awesome.
+1	My	my	DET	_	_	_	_	_	_
+2	aunt	aunt	NOUN	_	_	_	_	_	_
+3	thinks	think	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	weather	weather	NOUN	_	_	_	_	_	_
+6	is	be	AUX	_	_	_	_	_	_
+7	awful	awful	ADJ	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	but	but	CCONJ	_	_	_	_	_	_
+10	I	I	PRON	_	_	_	_	_	_
+11	think	think	VERB	_	_	_	_	_	_
+12	it	it	PRON	_	_	_	_	_	_
+13	is	be	AUX	_	_	_	_	_	_
+14	awesome	awesome	ADJ	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-011
+# text = The children play with a red ball while a small band performs near the river bank.
+1	The	the	DET	_	_	_	_	_	_
+2	children	child	NOUN	_	_	_	_	_	_
+3	play	play	VERB	_	_	_	_	_	_
+4	with	with	ADP	_	_	_	_	_	_
+5	a	a	DET	_	_	_	_	_	_
+6	red	red	ADJ	_	_	_	_	_	_
+7	ball	ball	NOUN	_	_	_	_	_	_
+8	while	while	SCONJ	_	_	_	_	_	_
+9	a	a	DET	_	_	_	_	_	_
+10	small	small	ADJ	_	_	_	_	_	_
+11	band	band	NOUN	_	_	_	_	_	_
+12	performs	perform	VERB	_	_	_	_	_	_
+13	near	near	ADP	_	_	_	_	_	_
+14	the	the	DET	_	_	_	_	_	_
+15	river	river	NOUN	_	_	_	_	_	_
+16	bank	bank	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-012
+# text = He sat at the bar, put his bag on the base of the chair, and then went to the bathroom.
+1	He	he	PRON	_	_	_	_	_	_
+2	sat	sit	VERB	_	_	_	_	_	_
+3	at	at	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	bar	bar	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	put	put	VERB	_	_	_	_	_	_
+8	his	his	PRON	_	_	_	_	_	_
+9	bag	bag	NOUN	_	_	_	_	_	_
+10	on	on	ADP	_	_	_	_	_	_
+11	the	the	DET	_	_	_	_	_	_
+12	base	base	NOUN	_	_	_	_	_	_
+13	of	of	ADP	_	_	_	_	_	_
+14	the	the	DET	_	_	_	_	_	_
+15	chair	chair	NOUN	_	_	_	_	_	_
+16	,	,	PUNCT	_	_	_	_	_	_
+17	and	and	CCONJ	_	_	_	_	_	_
+18	then	then	ADV	_	_	_	_	_	_
+19	went	go	VERB	_	_	_	_	_	_
+20	to	to	ADP	_	_	_	_	_	_
+21	the	the	DET	_	_	_	_	_	_
+22	bathroom	bathroom	NOUN	_	_	_	_	_	_
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-013
+# text = After the long battle, the soldiers rested on the beach where they saw a large bear.
+1	After	after	ADP	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	long	long	ADJ	_	_	_	_	_	_
+4	battle	battle	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	soldiers	soldier	NOUN	_	_	_	_	_	_
+8	rested	rest	VERB	_	_	_	_	_	_
+9	on	on	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	beach	beach	NOUN	_	_	_	_	_	_
+12	where	where	ADV	_	_	_	_	_	_
+13	they	they	PRON	_	_	_	_	_	_
+14	saw	see	VERB	_	_	_	_	_	_
+15	a	a	DET	_	_	_	_	_	_
+16	large	large	ADJ	_	_	_	_	_	_
+17	bear	bear	NOUN	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-014
+# text = The beauty of the garden made him want beer, but he did not beg for any.
+1	The	the	DET	_	_	_	_	_	_
+2	beauty	beauty	NOUN	_	_	_	_	_	_
+3	of	of	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	garden	garden	NOUN	_	_	_	_	_	_
+6	made	make	VERB	_	_	_	_	_	_
+7	him	he	PRON	_	_	_	_	_	_
+8	want	want	VERB	_	_	_	_	_	_
+9	beer	beer	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	but	but	CCONJ	_	_	_	_	_	_
+12	he	he	PRON	_	_	_	_	_	_
+13	did	do	AUX	_	_	_	_	_	_
+14	not	not	PART	_	_	_	_	_	_
+15	beg	beg	VERB	_	_	_	_	_	_
+16	for	for	ADP	_	_	_	_	_	_
+17	any	any	PRON	_	_	_	_	_	_
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-015
+# text = We will begin the meeting at the beginning of the hour when the bell rings.
+1	We	we	PRON	_	_	_	_	_	_
+2	will	will	AUX	_	_	_	_	_	_
+3	begin	begin	VERB	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	meeting	meeting	NOUN	_	_	_	_	_	_
+6	at	at	ADP	_	_	_	_	_	_
+7	the	the	DET	_	_	_	_	_	_
+8	beginning	beginning	NOUN	_	_	_	_	_	_
+9	of	of	ADP	_	_	_	_	_	_
+10	the	the	DET	_	_	_	_	_	_
+11	hour	hour	NOUN	_	_	_	_	_	_
+12	when	when	ADV	_	_	_	_	_	_
+13	the	the	DET	_	_	_	_	_	_
+14	bell	bell	NOUN	_	_	_	_	_	_
+15	rings	ring	VERB	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-016
+# text = This book does not belong to me, and besides, it is too big for my bag.
+1	This	this	DET	_	_	_	_	_	_
+2	book	book	NOUN	_	_	_	_	_	_
+3	does	do	AUX	_	_	_	_	_	_
+4	not	not	PART	_	_	_	_	_	_
+5	belong	belong	VERB	_	_	_	_	_	_
+6	to	to	ADP	_	_	_	_	_	_
+7	me	I	PRON	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	and	and	CCONJ	_	_	_	_	_	_
+10	besides	besides	ADV	_	_	_	_	_	_
+11	,	,	PUNCT	_	_	_	_	_	_
+12	it	it	PRON	_	_	_	_	_	_
+13	is	be	AUX	_	_	_	_	_	_
+14	too	too	ADV	_	_	_	_	_	_
+15	big	big	ADJ	_	_	_	_	_	_
+16	for	for	ADP	_	_	_	_	_	_
+17	my	my	DET	_	_	_	_	_	_
+18	bag	bag	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-017
+# text = The bill for the bird's birth was very high.
+1	The	the	DET	_	_	_	_	_	_
+2	bill	bill	NOUN	_	_	_	_	_	_
+3	for	for	ADP	_	_	_	_	_	_
+4	the	the	DET	_	_	_	_	_	_
+5	bird	bird	NOUN	_	_	_	_	_	_
+6	's	's	PART	_	_	_	_	_	_
+7	birth	birth	NOUN	_	_	_	_	_	_
+8	was	be	AUX	_	_	_	_	_	_
+9	very	very	ADV	_	_	_	_	_	_
+10	high	high	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-018
+# text = If the dog tries to bite you, do not blame yourself if you feel blind with fear.
+1	If	if	SCONJ	_	_	_	_	_	_
+2	the	the	DET	_	_	_	_	_	_
+3	dog	dog	NOUN	_	_	_	_	_	_
+4	tries	try	VERB	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	bite	bite	VERB	_	_	_	_	_	_
+7	you	you	PRON	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	do	do	AUX	_	_	_	_	_	_
+10	not	not	PART	_	_	_	_	_	_
+11	blame	blame	VERB	_	_	_	_	_	_
+12	yourself	yourself	PRON	_	_	_	_	_	_
+13	if	if	SCONJ	_	_	_	_	_	_
+14	you	you	PRON	_	_	_	_	_	_
+15	feel	feel	VERB	_	_	_	_	_	_
+16	blind	blind	ADJ	_	_	_	_	_	_
+17	with	with	ADP	_	_	_	_	_	_
+18	fear	fear	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-019
+# text = The bloody wind began to blow, turning the sky a dark blue.
+1	The	the	DET	_	_	_	_	_	_
+2	bloody	bloody	ADJ	_	_	_	_	_	_
+3	wind	wind	NOUN	_	_	_	_	_	_
+4	began	begin	VERB	_	_	_	_	_	_
+5	to	to	PART	_	_	_	_	_	_
+6	blow	blow	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	turning	turn	VERB	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	sky	sky	NOUN	_	_	_	_	_	_
+11	a	a	DET	_	_	_	_	_	_
+12	dark	dark	ADJ	_	_	_	_	_	_
+13	blue	blue	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-en-a2-020
+# text = They found a bomb on the board near the body.
+1	They	they	PRON	_	_	_	_	_	_
+2	found	find	VERB	_	_	_	_	_	_
+3	a	a	DET	_	_	_	_	_	_
+4	bomb	bomb	NOUN	_	_	_	_	_	_
+5	on	on	ADP	_	_	_	_	_	_
+6	the	the	DET	_	_	_	_	_	_
+7	board	board	NOUN	_	_	_	_	_	_
+8	near	near	ADP	_	_	_	_	_	_
+9	the	the	DET	_	_	_	_	_	_
+10	body	body	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_

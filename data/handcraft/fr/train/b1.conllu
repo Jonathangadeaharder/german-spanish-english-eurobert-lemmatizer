@@ -1,0 +1,356 @@
+# sent_id = handcraft-fr-b1-001
+# text = Sous cet abri, le silence est absolu et aucun abus n'est toléré.
+1	Sous	sous	ADP	_	_	_	_	_	_
+2	cet	ce	DET	_	_	_	_	_	_
+3	abri	abri	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	silence	silence	NOUN	_	_	_	_	_	_
+7	est	être	AUX	_	_	_	_	_	_
+8	absolu	absolu	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	aucun	aucun	DET	_	_	_	_	_	_
+11	abus	abus	NOUN	_	_	_	_	_	_
+12	n'	ne	ADV	_	_	_	_	_	_
+13	est	être	AUX	_	_	_	_	_	_
+14	toléré	tolérer	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-002
+# text = Je vais accompagner mon ami dans ce lieu accueillant pour y accueillir des visiteurs.
+1	Je	je	PRON	_	_	_	_	_	_
+2	vais	aller	AUX	_	_	_	_	_	_
+3	accompagner	accompagner	VERB	_	_	_	_	_	_
+4	mon	mon	DET	_	_	_	_	_	_
+5	ami	ami	NOUN	_	_	_	_	_	_
+6	dans	dans	ADP	_	_	_	_	_	_
+7	ce	ce	DET	_	_	_	_	_	_
+8	lieu	lieu	NOUN	_	_	_	_	_	_
+9	accueillant	accueillant	ADJ	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	y	y	PRON	_	_	_	_	_	_
+12	accueillir	accueillir	VERB	_	_	_	_	_	_
+13	des	un	DET	_	_	_	_	_	_
+14	visiteurs	visiteur	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-003
+# text = Il ne faut pas l'accuser sans preuve, mais il peut accéder à son compte après avoir versé un acompte.
+1	Il	il	PRON	_	_	_	_	_	_
+2	ne	ne	ADV	_	_	_	_	_	_
+3	faut	falloir	VERB	_	_	_	_	_	_
+4	pas	pas	ADV	_	_	_	_	_	_
+5	l'	le	PRON	_	_	_	_	_	_
+6	accuser	accuser	VERB	_	_	_	_	_	_
+7	sans	sans	ADP	_	_	_	_	_	_
+8	preuve	preuve	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	mais	mais	CCONJ	_	_	_	_	_	_
+11	il	il	PRON	_	_	_	_	_	_
+12	peut	pouvoir	AUX	_	_	_	_	_	_
+13	accéder	accéder	VERB	_	_	_	_	_	_
+14	à	à	ADP	_	_	_	_	_	_
+15	son	son	DET	_	_	_	_	_	_
+16	compte	compte	NOUN	_	_	_	_	_	_
+17	après	après	ADP	_	_	_	_	_	_
+18	avoir	avoir	AUX	_	_	_	_	_	_
+19	versé	verser	VERB	_	_	_	_	_	_
+20	un	un	DET	_	_	_	_	_	_
+21	acompte	acompte	NOUN	_	_	_	_	_	_
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-004
+# text = Cette actrice dynamique veut acquérir un rôle actif dans le nouveau projet.
+1	Cette	ce	DET	_	_	_	_	_	_
+2	actrice	actrice	NOUN	_	_	_	_	_	_
+3	dynamique	dynamique	ADJ	_	_	_	_	_	_
+4	veut	vouloir	VERB	_	_	_	_	_	_
+5	acquérir	acquérir	VERB	_	_	_	_	_	_
+6	un	un	DET	_	_	_	_	_	_
+7	rôle	rôle	NOUN	_	_	_	_	_	_
+8	actif	actif	ADJ	_	_	_	_	_	_
+9	dans	dans	ADP	_	_	_	_	_	_
+10	le	le	DET	_	_	_	_	_	_
+11	nouveau	nouveau	ADJ	_	_	_	_	_	_
+12	projet	projet	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-005
+# text = L'actualité montre que l'adjoint au maire va adopter une nouvelle stratégie.
+1	L'	le	DET	_	_	_	_	_	_
+2	actualité	actualité	NOUN	_	_	_	_	_	_
+3	montre	montrer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	l'	le	DET	_	_	_	_	_	_
+6	adjoint	adjoint	NOUN	_	_	_	_	_	_
+7	au	à	ADP	_	_	_	_	_	_
+8	maire	maire	NOUN	_	_	_	_	_	_
+9	va	aller	AUX	_	_	_	_	_	_
+10	adopter	adopter	VERB	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	nouvelle	nouveau	ADJ	_	_	_	_	_	_
+13	stratégie	stratégie	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-006
+# text = Chaque adulte rencontre un adversaire devant cette grande affiche.
+1	Chaque	chaque	DET	_	_	_	_	_	_
+2	adulte	adulte	NOUN	_	_	_	_	_	_
+3	rencontre	rencontrer	VERB	_	_	_	_	_	_
+4	un	un	DET	_	_	_	_	_	_
+5	adversaire	adversaire	NOUN	_	_	_	_	_	_
+6	devant	devant	ADP	_	_	_	_	_	_
+7	cette	ce	DET	_	_	_	_	_	_
+8	grande	grand	ADJ	_	_	_	_	_	_
+9	affiche	affiche	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-007
+# text = Il ose affirmer que le joueur africain montre son agacement.
+1	Il	il	PRON	_	_	_	_	_	_
+2	ose	oser	VERB	_	_	_	_	_	_
+3	affirmer	affirmer	VERB	_	_	_	_	_	_
+4	que	que	SCONJ	_	_	_	_	_	_
+5	le	le	DET	_	_	_	_	_	_
+6	joueur	joueur	NOUN	_	_	_	_	_	_
+7	africain	africain	ADJ	_	_	_	_	_	_
+8	montre	montrer	VERB	_	_	_	_	_	_
+9	son	son	DET	_	_	_	_	_	_
+10	agacement	agacement	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-008
+# text = Ce bruit agaçant dans la zone agricole cause une grande aise.
+1	Ce	ce	DET	_	_	_	_	_	_
+2	bruit	bruit	NOUN	_	_	_	_	_	_
+3	agaçant	agaçant	ADJ	_	_	_	_	_	_
+4	dans	dans	ADP	_	_	_	_	_	_
+5	la	le	DET	_	_	_	_	_	_
+6	zone	zone	NOUN	_	_	_	_	_	_
+7	agricole	agricole	ADJ	_	_	_	_	_	_
+8	cause	causer	VERB	_	_	_	_	_	_
+9	une	un	DET	_	_	_	_	_	_
+10	grande	grand	ADJ	_	_	_	_	_	_
+11	aise	aise	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-009
+# text = Je dois ajouter une alerte sur le produit alimentaire.
+1	Je	je	PRON	_	_	_	_	_	_
+2	dois	devoir	VERB	_	_	_	_	_	_
+3	ajouter	ajouter	VERB	_	_	_	_	_	_
+4	une	un	DET	_	_	_	_	_	_
+5	alerte	alerte	NOUN	_	_	_	_	_	_
+6	sur	sur	ADP	_	_	_	_	_	_
+7	le	le	DET	_	_	_	_	_	_
+8	produit	produit	NOUN	_	_	_	_	_	_
+9	alimentaire	alimentaire	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-010
+# text = Son alimentation change après cet aller-retour à cause d'une allergie.
+1	Son	son	DET	_	_	_	_	_	_
+2	alimentation	alimentation	NOUN	_	_	_	_	_	_
+3	change	changer	VERB	_	_	_	_	_	_
+4	après	après	ADP	_	_	_	_	_	_
+5	cet	ce	DET	_	_	_	_	_	_
+6	aller-retour	aller-retour	NOUN	_	_	_	_	_	_
+7	à	à	ADP	_	_	_	_	_	_
+8	cause	cause	NOUN	_	_	_	_	_	_
+9	d'	de	ADP	_	_	_	_	_	_
+10	une	un	DET	_	_	_	_	_	_
+11	allergie	allergie	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-011
+# text = L'allié de la France a rencontré l'ambassadeur pour discuter de l'amende.
+1	L'	le	DET	_	_	_	_	_	_
+2	allié	allié	NOUN	_	_	_	_	_	_
+3	de	de	ADP	_	_	_	_	_	_
+4	la	le	DET	_	_	_	_	_	_
+5	France	France	PROPN	_	_	_	_	_	_
+6	a	avoir	AUX	_	_	_	_	_	_
+7	rencontré	rencontrer	VERB	_	_	_	_	_	_
+8	l'	le	DET	_	_	_	_	_	_
+9	ambassadeur	ambassadeur	NOUN	_	_	_	_	_	_
+10	pour	pour	ADP	_	_	_	_	_	_
+11	discuter	discuter	VERB	_	_	_	_	_	_
+12	de	de	ADP	_	_	_	_	_	_
+13	l'	le	DET	_	_	_	_	_	_
+14	amende	amende	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-012
+# text = Leur amitié est solide car ils sont amoureux et souhaitent une amélioration.
+1	Leur	leur	DET	_	_	_	_	_	_
+2	amitié	amitié	NOUN	_	_	_	_	_	_
+3	est	être	AUX	_	_	_	_	_	_
+4	solide	solide	ADJ	_	_	_	_	_	_
+5	car	car	CCONJ	_	_	_	_	_	_
+6	ils	il	PRON	_	_	_	_	_	_
+7	sont	être	AUX	_	_	_	_	_	_
+8	amoureux	amoureux	ADJ	_	_	_	_	_	_
+9	et	et	CCONJ	_	_	_	_	_	_
+10	souhaitent	souhaiter	VERB	_	_	_	_	_	_
+11	une	un	DET	_	_	_	_	_	_
+12	amélioration	amélioration	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-013
+# text = L'aménagement du jardin semble divin comme un ange, mais la situation reste angoissante.
+1	L'	le	DET	_	_	_	_	_	_
+2	aménagement	aménagement	NOUN	_	_	_	_	_	_
+3	du	de	ADP	_	_	_	_	_	_
+4	jardin	jardin	NOUN	_	_	_	_	_	_
+5	semble	sembler	VERB	_	_	_	_	_	_
+6	divin	divin	ADJ	_	_	_	_	_	_
+7	comme	comme	ADP	_	_	_	_	_	_
+8	un	un	DET	_	_	_	_	_	_
+9	ange	ange	NOUN	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	mais	mais	CCONJ	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	situation	situation	NOUN	_	_	_	_	_	_
+14	reste	rester	VERB	_	_	_	_	_	_
+15	angoissante	angoissant	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-014
+# text = L'enfant angoissé regarde l'animation avant que le directeur n'annonce la fin.
+1	L'	le	DET	_	_	_	_	_	_
+2	enfant	enfant	NOUN	_	_	_	_	_	_
+3	angoissé	angoissé	ADJ	_	_	_	_	_	_
+4	regarde	regarder	VERB	_	_	_	_	_	_
+5	l'	le	DET	_	_	_	_	_	_
+6	animation	animation	NOUN	_	_	_	_	_	_
+7	avant	avant	ADP	_	_	_	_	_	_
+8	que	que	SCONJ	_	_	_	_	_	_
+9	le	le	DET	_	_	_	_	_	_
+10	directeur	directeur	NOUN	_	_	_	_	_	_
+11	n'	ne	ADV	_	_	_	_	_	_
+12	annonce	annoncer	VERB	_	_	_	_	_	_
+13	la	le	DET	_	_	_	_	_	_
+14	fin	fin	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-015
+# text = Le rapport annuel mentionne un antidouleur efficace qui commence à apparaître sur le marché.
+1	Le	le	DET	_	_	_	_	_	_
+2	rapport	rapport	NOUN	_	_	_	_	_	_
+3	annuel	annuel	ADJ	_	_	_	_	_	_
+4	mentionne	mentionner	VERB	_	_	_	_	_	_
+5	un	un	DET	_	_	_	_	_	_
+6	antidouleur	antidouleur	NOUN	_	_	_	_	_	_
+7	efficace	efficace	ADJ	_	_	_	_	_	_
+8	qui	qui	PRON	_	_	_	_	_	_
+9	commence	commencer	VERB	_	_	_	_	_	_
+10	à	à	ADP	_	_	_	_	_	_
+11	apparaître	apparaître	VERB	_	_	_	_	_	_
+12	sur	sur	ADP	_	_	_	_	_	_
+13	le	le	DET	_	_	_	_	_	_
+14	marché	marché	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-016
+# text = Cet appareil photo est cher, mais il fonctionne apparemment bien malgré son apparence vieillotte.
+1	Cet	ce	DET	_	_	_	_	_	_
+2	appareil	appareil	NOUN	_	_	_	_	_	_
+3	photo	photo	NOUN	_	_	_	_	_	_
+4	est	être	AUX	_	_	_	_	_	_
+5	cher	cher	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mais	mais	CCONJ	_	_	_	_	_	_
+8	il	il	PRON	_	_	_	_	_	_
+9	fonctionne	fonctionner	VERB	_	_	_	_	_	_
+10	apparemment	apparemment	ADV	_	_	_	_	_	_
+11	bien	bien	ADV	_	_	_	_	_	_
+12	malgré	malgré	ADP	_	_	_	_	_	_
+13	son	son	DET	_	_	_	_	_	_
+14	apparence	apparence	NOUN	_	_	_	_	_	_
+15	vieillotte	vieillot	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-017
+# text = L'apparition soudaine du soleil nous permet d'appliquer la crème solaire pendant notre apprentissage de la natation.
+1	L'	le	DET	_	_	_	_	_	_
+2	apparition	apparition	NOUN	_	_	_	_	_	_
+3	soudaine	soudain	ADJ	_	_	_	_	_	_
+4	du	de	ADP	_	_	_	_	_	_
+5	soleil	soleil	NOUN	_	_	_	_	_	_
+6	nous	nous	PRON	_	_	_	_	_	_
+7	permet	permettre	VERB	_	_	_	_	_	_
+8	d'	de	ADP	_	_	_	_	_	_
+9	appliquer	appliquer	VERB	_	_	_	_	_	_
+10	la	le	DET	_	_	_	_	_	_
+11	crème	crème	NOUN	_	_	_	_	_	_
+12	solaire	solaire	ADJ	_	_	_	_	_	_
+13	pendant	pendant	ADP	_	_	_	_	_	_
+14	notre	notre	DET	_	_	_	_	_	_
+15	apprentissage	apprentissage	NOUN	_	_	_	_	_	_
+16	de	de	ADP	_	_	_	_	_	_
+17	la	le	DET	_	_	_	_	_	_
+18	natation	natation	NOUN	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-018
+# text = J'apprécie beaucoup ton appui pour mes cours d'arabe car la grammaire est difficile.
+1	J'	je	PRON	_	_	_	_	_	_
+2	apprécie	apprécier	VERB	_	_	_	_	_	_
+3	beaucoup	beaucoup	ADV	_	_	_	_	_	_
+4	ton	ton	DET	_	_	_	_	_	_
+5	appui	appui	NOUN	_	_	_	_	_	_
+6	pour	pour	ADP	_	_	_	_	_	_
+7	mes	mon	DET	_	_	_	_	_	_
+8	cours	cours	NOUN	_	_	_	_	_	_
+9	d'	de	ADP	_	_	_	_	_	_
+10	arabe	arabe	NOUN	_	_	_	_	_	_
+11	car	car	CCONJ	_	_	_	_	_	_
+12	la	le	DET	_	_	_	_	_	_
+13	grammaire	grammaire	NOUN	_	_	_	_	_	_
+14	est	être	AUX	_	_	_	_	_	_
+15	difficile	difficile	ADJ	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-019
+# text = Sous l'arc de triomphe, nous avons vu un magnifique arc-en-ciel au-dessus de notre arrondissement.
+1	Sous	sous	ADP	_	_	_	_	_	_
+2	l'	le	DET	_	_	_	_	_	_
+3	arc	arc	NOUN	_	_	_	_	_	_
+4	de	de	ADP	_	_	_	_	_	_
+5	triomphe	triomphe	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	nous	nous	PRON	_	_	_	_	_	_
+8	avons	avoir	AUX	_	_	_	_	_	_
+9	vu	voir	VERB	_	_	_	_	_	_
+10	un	un	DET	_	_	_	_	_	_
+11	magnifique	magnifique	ADJ	_	_	_	_	_	_
+12	arc-en-ciel	arc-en-ciel	NOUN	_	_	_	_	_	_
+13	au-dessus	au-dessus	ADV	_	_	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	notre	notre	DET	_	_	_	_	_	_
+16	arrondissement	arrondissement	NOUN	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-fr-b1-020
+# text = Pour préparer cet artichaut avec une touche artistique, il faut l'assaisonner avec du citron et de l'huile.
+1	Pour	pour	ADP	_	_	_	_	_	_
+2	préparer	préparer	VERB	_	_	_	_	_	_
+3	cet	ce	DET	_	_	_	_	_	_
+4	artichaut	artichaut	NOUN	_	_	_	_	_	_
+5	avec	avec	ADP	_	_	_	_	_	_
+6	une	un	DET	_	_	_	_	_	_
+7	touche	touche	NOUN	_	_	_	_	_	_
+8	artistique	artistique	ADJ	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	il	il	PRON	_	_	_	_	_	_
+11	faut	falloir	VERB	_	_	_	_	_	_
+12	l'	le	PRON	_	_	_	_	_	_
+13	assaisonner	assaisonner	VERB	_	_	_	_	_	_
+14	avec	avec	ADP	_	_	_	_	_	_
+15	du	de	ADP	_	_	_	_	_	_
+16	citron	citron	NOUN	_	_	_	_	_	_
+17	et	et	CCONJ	_	_	_	_	_	_
+18	de	de	ADP	_	_	_	_	_	_
+19	l'	le	DET	_	_	_	_	_	_
+20	huile	huile	NOUN	_	_	_	_	_	_
+21	.	.	PUNCT	_	_	_	_	_	_

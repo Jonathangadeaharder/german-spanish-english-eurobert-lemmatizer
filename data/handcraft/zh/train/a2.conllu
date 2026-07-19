@@ -1,0 +1,231 @@
+# sent_id = handcraft-zh-a2-001
+# text = 我已经吃过北京的饺子了。
+1	我	我	PRON	_	_	_	_	_	_
+2	已经	已经	ADV	_	_	_	_	_	_
+3	吃	吃	VERB	_	_	_	_	_	_
+4	过	过	PART	_	_	_	_	_	_
+5	北京	北京	PROPN	_	_	_	_	_	_
+6	的	的	PART	_	_	_	_	_	_
+7	饺子	饺子	NOUN	_	_	_	_	_	_
+8	了	了	PART	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-002
+# text = 他会开车，但是不能抽烟。
+1	他	他	PRON	_	_	_	_	_	_
+2	会	会	AUX	_	_	_	_	_	_
+3	开车	开车	VERB	_	_	_	_	_	_
+4	，	，	PUNCT	_	_	_	_	_	_
+5	但是	但是	CCONJ	_	_	_	_	_	_
+6	不	不	ADV	_	_	_	_	_	_
+7	能	能	AUX	_	_	_	_	_	_
+8	抽烟	抽烟	VERB	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-003
+# text = 我们应该准时出发。
+1	我们	我们	PRON	_	_	_	_	_	_
+2	应该	应该	AUX	_	_	_	_	_	_
+3	准时	准时	ADV	_	_	_	_	_	_
+4	出发	出发	VERB	_	_	_	_	_	_
+5	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-004
+# text = 她去过上海，也看过京剧。
+1	她	她	PRON	_	_	_	_	_	_
+2	去	去	VERB	_	_	_	_	_	_
+3	过	过	PART	_	_	_	_	_	_
+4	上海	上海	PROPN	_	_	_	_	_	_
+5	，	，	PUNCT	_	_	_	_	_	_
+6	也	也	ADV	_	_	_	_	_	_
+7	看	看	VERB	_	_	_	_	_	_
+8	过	过	PART	_	_	_	_	_	_
+9	京剧	京剧	NOUN	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-005
+# text = 这个压力太大了，我受不了。
+1	这	这	DET	_	_	_	_	_	_
+2	个	个	DET	_	_	_	_	_	_
+3	压力	压力	NOUN	_	_	_	_	_	_
+4	太	太	ADV	_	_	_	_	_	_
+5	大	大	ADJ	_	_	_	_	_	_
+6	了	了	PART	_	_	_	_	_	_
+7	，	，	PUNCT	_	_	_	_	_	_
+8	我	我	PRON	_	_	_	_	_	_
+9	受不了	受不了	VERB	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-006
+# text = 你可以试试这件衣服，很合适。
+1	你	你	PRON	_	_	_	_	_	_
+2	可以	可以	AUX	_	_	_	_	_	_
+3	试	试	VERB	_	_	_	_	_	_
+4	试	试	VERB	_	_	_	_	_	_
+5	这	这	DET	_	_	_	_	_	_
+6	件	件	DET	_	_	_	_	_	_
+7	衣服	衣服	NOUN	_	_	_	_	_	_
+8	，	，	PUNCT	_	_	_	_	_	_
+9	很	很	ADV	_	_	_	_	_	_
+10	合适	合适	ADJ	_	_	_	_	_	_
+11	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-007
+# text = 咱们一起去看猴子吧。
+1	咱们	咱们	PRON	_	_	_	_	_	_
+2	一起	一起	ADV	_	_	_	_	_	_
+3	去	去	VERB	_	_	_	_	_	_
+4	看	看	VERB	_	_	_	_	_	_
+5	猴子	猴子	NOUN	_	_	_	_	_	_
+6	吧	吧	PART	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-008
+# text = 他必须按时到达大使馆。
+1	他	他	PRON	_	_	_	_	_	_
+2	必须	必须	AUX	_	_	_	_	_	_
+3	按时	按时	ADV	_	_	_	_	_	_
+4	到达	到达	VERB	_	_	_	_	_	_
+5	大使馆	大使馆	NOUN	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-009
+# text = 我已经看过大夫了。
+1	我	我	PRON	_	_	_	_	_	_
+2	已经	已经	ADV	_	_	_	_	_	_
+3	看	看	VERB	_	_	_	_	_	_
+4	过	过	PART	_	_	_	_	_	_
+5	大夫	大夫	NOUN	_	_	_	_	_	_
+6	了	了	PART	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-010
+# text = 这本杂志很有趣，我想买一本。
+1	这	这	DET	_	_	_	_	_	_
+2	本	本	DET	_	_	_	_	_	_
+3	杂志	杂志	NOUN	_	_	_	_	_	_
+4	很	很	ADV	_	_	_	_	_	_
+5	有趣	有趣	ADJ	_	_	_	_	_	_
+6	，	，	PUNCT	_	_	_	_	_	_
+7	我	我	PRON	_	_	_	_	_	_
+8	想	想	AUX	_	_	_	_	_	_
+9	买	买	VERB	_	_	_	_	_	_
+10	一	一	NUM	_	_	_	_	_	_
+11	本	本	DET	_	_	_	_	_	_
+12	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-011
+# text = 她每天早上都吃一个饺子。
+1	她	她	PRON	_	_	_	_	_	_
+2	每天	每天	ADV	_	_	_	_	_	_
+3	早上	早上	NOUN	_	_	_	_	_	_
+4	都	都	ADV	_	_	_	_	_	_
+5	吃	吃	VERB	_	_	_	_	_	_
+6	一	一	NUM	_	_	_	_	_	_
+7	个	个	DET	_	_	_	_	_	_
+8	饺子	饺子	NOUN	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-012
+# text = 我们已经讨论过这个问题了。
+1	我们	我们	PRON	_	_	_	_	_	_
+2	已经	已经	ADV	_	_	_	_	_	_
+3	讨论	讨论	VERB	_	_	_	_	_	_
+4	过	过	PART	_	_	_	_	_	_
+5	这	这	DET	_	_	_	_	_	_
+6	个	个	DET	_	_	_	_	_	_
+7	问题	问题	NOUN	_	_	_	_	_	_
+8	了	了	PART	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-013
+# text = 你应该向老师道歉。
+1	你	你	PRON	_	_	_	_	_	_
+2	应该	应该	AUX	_	_	_	_	_	_
+3	向	向	ADP	_	_	_	_	_	_
+4	老师	老师	NOUN	_	_	_	_	_	_
+5	道歉	道歉	VERB	_	_	_	_	_	_
+6	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-014
+# text = 他可能累了，所以请假了。
+1	他	他	PRON	_	_	_	_	_	_
+2	可能	可能	AUX	_	_	_	_	_	_
+3	累	累	ADJ	_	_	_	_	_	_
+4	了	了	PART	_	_	_	_	_	_
+5	，	，	PUNCT	_	_	_	_	_	_
+6	所以	所以	SCONJ	_	_	_	_	_	_
+7	请假	请假	VERB	_	_	_	_	_	_
+8	了	了	PART	_	_	_	_	_	_
+9	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-015
+# text = 他下个月要出差。
+1	他	他	PRON	_	_	_	_	_	_
+2	下	下	DET	_	_	_	_	_	_
+3	个	个	DET	_	_	_	_	_	_
+4	月	月	NOUN	_	_	_	_	_	_
+5	要	要	AUX	_	_	_	_	_	_
+6	出差	出差	VERB	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-016
+# text = 这个沙发太脏了，我不喜欢。
+1	这	这	DET	_	_	_	_	_	_
+2	个	个	DET	_	_	_	_	_	_
+3	沙发	沙发	NOUN	_	_	_	_	_	_
+4	太	太	ADV	_	_	_	_	_	_
+5	脏	脏	ADJ	_	_	_	_	_	_
+6	了	了	PART	_	_	_	_	_	_
+7	，	，	PUNCT	_	_	_	_	_	_
+8	我	我	PRON	_	_	_	_	_	_
+9	不	不	ADV	_	_	_	_	_	_
+10	喜欢	喜欢	VERB	_	_	_	_	_	_
+11	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-017
+# text = 她的中文越来越流利了。
+1	她	她	PRON	_	_	_	_	_	_
+2	的	的	PART	_	_	_	_	_	_
+3	中文	中文	NOUN	_	_	_	_	_	_
+4	越来越	越来越	ADV	_	_	_	_	_	_
+5	流利	流利	ADJ	_	_	_	_	_	_
+6	了	了	PART	_	_	_	_	_	_
+7	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-018
+# text = 我觉得这个演出很精彩。
+1	我	我	PRON	_	_	_	_	_	_
+2	觉得	觉得	VERB	_	_	_	_	_	_
+3	这	这	DET	_	_	_	_	_	_
+4	个	个	DET	_	_	_	_	_	_
+5	演出	演出	NOUN	_	_	_	_	_	_
+6	很	很	ADV	_	_	_	_	_	_
+7	精彩	精彩	ADJ	_	_	_	_	_	_
+8	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-019
+# text = 他虽然很累，但是仍然坚持散步。
+1	他	他	PRON	_	_	_	_	_	_
+2	虽然	虽然	SCONJ	_	_	_	_	_	_
+3	很	很	ADV	_	_	_	_	_	_
+4	累	累	ADJ	_	_	_	_	_	_
+5	，	，	PUNCT	_	_	_	_	_	_
+6	但是	但是	CCONJ	_	_	_	_	_	_
+7	仍然	仍然	ADV	_	_	_	_	_	_
+8	坚持	坚持	VERB	_	_	_	_	_	_
+9	散步	散步	VERB	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-zh-a2-020
+# text = 请你帮我填一下这个表格。
+1	请	请	VERB	_	_	_	_	_	_
+2	你	你	PRON	_	_	_	_	_	_
+3	帮	帮	VERB	_	_	_	_	_	_
+4	我	我	PRON	_	_	_	_	_	_
+5	填	填	VERB	_	_	_	_	_	_
+6	一下	一下	ADV	_	_	_	_	_	_
+7	这	这	DET	_	_	_	_	_	_
+8	个	个	DET	_	_	_	_	_	_
+9	表格	表格	NOUN	_	_	_	_	_	_
+10	。	。	PUNCT	_	_	_	_	_	_

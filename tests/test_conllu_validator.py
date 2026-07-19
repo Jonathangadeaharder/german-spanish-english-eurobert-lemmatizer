@@ -164,6 +164,38 @@ def test_non_nfc_unicode_warns() -> None:
     assert any("NFC" in w or "unicode" in w.lower() for w in result.warnings)
 
 
+def test_text_matches_mwt_split_with_no_space_between_subwords() -> None:
+    """Stanza MWT expansion (e.g. French "m'appelle" -> "m'" + "appelle") has
+    no space between the sub-words; MISC is unused in this dataset, so the
+    validator must not require a literal space there."""
+    text = (
+        "# sent_id = fr_a1_train_001\n"
+        "# text = Je m'appelle Marie.\n"
+        "1\tJe\tje\tPRON\t_\t_\t_\t_\t_\t_\n"
+        "2\tm'\tje\tPRON\t_\t_\t_\t_\t_\t_\n"
+        "3\tappelle\tappeler\tVERB\t_\t_\t_\t_\t_\t_\n"
+        "4\tMarie\tMarie\tPROPN\t_\t_\t_\t_\t_\t_\n"
+        "5\t.\t.\tPUNCT\t_\t_\t_\t_\t_\t_\n"
+        "\n"
+    )
+    result = validate_text(text)
+    assert result.passed, f"Expected pass, got errors: {result.errors}"
+
+
+def test_text_matches_no_space_script_like_chinese() -> None:
+    text = (
+        "# sent_id = zh_a1_train_001\n"
+        "# text = \u4e00\u5171\u591a\u5c11\u94b1\uff1f\n"
+        "1\t\u4e00\u5171\t\u4e00\u5171\tADV\t_\t_\t_\t_\t_\t_\n"
+        "2\t\u591a\u5c11\t\u591a\u5c11\tNUM\t_\t_\t_\t_\t_\t_\n"
+        "3\t\u94b1\t\u94b1\tNOUN\t_\t_\t_\t_\t_\t_\n"
+        "4\t\uff1f\t\uff1f\tPUNCT\t_\t_\t_\t_\t_\t_\n"
+        "\n"
+    )
+    result = validate_text(text)
+    assert result.passed, f"Expected pass, got errors: {result.errors}"
+
+
 def test_validation_result_dataclass() -> None:
     vr = ValidationResult()
     assert vr.errors == []

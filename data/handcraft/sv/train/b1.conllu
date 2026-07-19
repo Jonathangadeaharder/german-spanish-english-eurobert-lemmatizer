@@ -1,0 +1,293 @@
+# sent_id = handcraft-sv-b1-001
+# text = Jag har erkänt faktumet, men jag är inte glad.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	erkänt	erkänna	VERB	_	_	_	_	_	_
+4	faktumet	faktum	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	men	men	CCONJ	_	_	_	_	_	_
+7	jag	jag	PRON	_	_	_	_	_	_
+8	är	vara	AUX	_	_	_	_	_	_
+9	inte	inte	ADV	_	_	_	_	_	_
+10	glad	glad	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-002
+# text = Om jag hade vetat sanningen, skulle jag ha berättat den.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	jag	jag	PRON	_	_	_	_	_	_
+3	hade	ha	AUX	_	_	_	_	_	_
+4	vetat	veta	VERB	_	_	_	_	_	_
+5	sanningen	sanning	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	skulle	skola	AUX	_	_	_	_	_	_
+8	jag	jag	PRON	_	_	_	_	_	_
+9	ha	ha	AUX	_	_	_	_	_	_
+10	berättat	berätta	VERB	_	_	_	_	_	_
+11	den	den	PRON	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-003
+# text = Han ville fira sin födelsedag med vänner, men han blev sjuk.
+1	Han	han	PRON	_	_	_	_	_	_
+2	ville	vilja	AUX	_	_	_	_	_	_
+3	fira	fira	VERB	_	_	_	_	_	_
+4	sin	sin	DET	_	_	_	_	_	_
+5	födelsedag	födelsedag	NOUN	_	_	_	_	_	_
+6	med	med	ADP	_	_	_	_	_	_
+7	vänner	vän	NOUN	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	men	men	CCONJ	_	_	_	_	_	_
+10	han	han	PRON	_	_	_	_	_	_
+11	blev	bli	AUX	_	_	_	_	_	_
+12	sjuk	sjuk	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-004
+# text = Vi har inte sett filmen, eftersom vi saknade tid.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	inte	inte	ADV	_	_	_	_	_	_
+4	sett	se	VERB	_	_	_	_	_	_
+5	filmen	film	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	eftersom	eftersom	SCONJ	_	_	_	_	_	_
+8	vi	vi	PRON	_	_	_	_	_	_
+9	saknade	sakna	VERB	_	_	_	_	_	_
+10	tid	tid	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-005
+# text = Hon sa att hon skulle resa hem nästa vecka.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	sa	säga	VERB	_	_	_	_	_	_
+3	att	att	SCONJ	_	_	_	_	_	_
+4	hon	hon	PRON	_	_	_	_	_	_
+5	skulle	skola	AUX	_	_	_	_	_	_
+6	resa	resa	VERB	_	_	_	_	_	_
+7	hem	hem	ADV	_	_	_	_	_	_
+8	nästa	nästa	DET	_	_	_	_	_	_
+9	vecka	vecka	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-006
+# text = Om du hade frågat mig, skulle jag ha hjälpt dig.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	hade	ha	AUX	_	_	_	_	_	_
+4	frågat	fråga	VERB	_	_	_	_	_	_
+5	mig	jag	PRON	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	skulle	skola	AUX	_	_	_	_	_	_
+8	jag	jag	PRON	_	_	_	_	_	_
+9	ha	ha	AUX	_	_	_	_	_	_
+10	hjälpt	hjälpa	VERB	_	_	_	_	_	_
+11	dig	du	PRON	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-007
+# text = Barnen lekte med bollen, medan vi pratade om framtiden.
+1	Barnen	barn	NOUN	_	_	_	_	_	_
+2	lekte	leka	VERB	_	_	_	_	_	_
+3	med	med	ADP	_	_	_	_	_	_
+4	bollen	boll	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	medan	medan	SCONJ	_	_	_	_	_	_
+7	vi	vi	PRON	_	_	_	_	_	_
+8	pratade	prata	VERB	_	_	_	_	_	_
+9	om	om	ADP	_	_	_	_	_	_
+10	framtiden	framtid	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-008
+# text = Han har jobbat på företaget sedan förra året.
+1	Han	han	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	jobbat	jobba	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	företaget	företag	NOUN	_	_	_	_	_	_
+6	sedan	sedan	ADP	_	_	_	_	_	_
+7	förra	förra	DET	_	_	_	_	_	_
+8	året	år	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-009
+# text = Jag skulle vilja träffa min kusin, som bor i en annan stad.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	skulle	skola	AUX	_	_	_	_	_	_
+3	vilja	vilja	AUX	_	_	_	_	_	_
+4	träffa	träffa	VERB	_	_	_	_	_	_
+5	min	min	DET	_	_	_	_	_	_
+6	kusin	kusin	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	som	som	PRON	_	_	_	_	_	_
+9	bor	bo	VERB	_	_	_	_	_	_
+10	i	i	ADP	_	_	_	_	_	_
+11	en	en	DET	_	_	_	_	_	_
+12	annan	annan	ADJ	_	_	_	_	_	_
+13	stad	stad	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-010
+# text = Hon har skrivit ett brev till sin mormor.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	skrivit	skriva	VERB	_	_	_	_	_	_
+4	ett	en	DET	_	_	_	_	_	_
+5	brev	brev	NOUN	_	_	_	_	_	_
+6	till	till	ADP	_	_	_	_	_	_
+7	sin	sin	DET	_	_	_	_	_	_
+8	mormor	mormor	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-011
+# text = Om vädret hade varit bättre, hade vi åkt till stranden.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	vädret	väder	NOUN	_	_	_	_	_	_
+3	hade	ha	AUX	_	_	_	_	_	_
+4	varit	vara	AUX	_	_	_	_	_	_
+5	bättre	bra	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	hade	ha	AUX	_	_	_	_	_	_
+8	vi	vi	PRON	_	_	_	_	_	_
+9	åkt	åka	VERB	_	_	_	_	_	_
+10	till	till	ADP	_	_	_	_	_	_
+11	stranden	strand	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-012
+# text = De har bott i Sverige i flera år, men de talar inte svenska perfekt.
+1	De	de	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	bott	bo	VERB	_	_	_	_	_	_
+4	i	i	ADP	_	_	_	_	_	_
+5	Sverige	Sverige	PROPN	_	_	_	_	_	_
+6	i	i	ADP	_	_	_	_	_	_
+7	flera	flera	DET	_	_	_	_	_	_
+8	år	år	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	men	men	CCONJ	_	_	_	_	_	_
+11	de	de	PRON	_	_	_	_	_	_
+12	talar	tala	VERB	_	_	_	_	_	_
+13	inte	inte	ADV	_	_	_	_	_	_
+14	svenska	svenska	NOUN	_	_	_	_	_	_
+15	perfekt	perfekt	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-013
+# text = Hon studerade medicin eftersom hon ville bli läkare.
+1	Hon	hon	PRON	_	_	_	_	_	_
+2	studerade	studera	VERB	_	_	_	_	_	_
+3	medicin	medicin	NOUN	_	_	_	_	_	_
+4	eftersom	eftersom	SCONJ	_	_	_	_	_	_
+5	hon	hon	PRON	_	_	_	_	_	_
+6	ville	vilja	AUX	_	_	_	_	_	_
+7	bli	bli	AUX	_	_	_	_	_	_
+8	läkare	läkare	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-014
+# text = Om jag hade haft pengar, skulle jag ha köpt ett stort hus.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	jag	jag	PRON	_	_	_	_	_	_
+3	hade	ha	AUX	_	_	_	_	_	_
+4	haft	ha	AUX	_	_	_	_	_	_
+5	pengar	pengar	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	skulle	skola	AUX	_	_	_	_	_	_
+8	jag	jag	PRON	_	_	_	_	_	_
+9	ha	ha	AUX	_	_	_	_	_	_
+10	köpt	köpa	VERB	_	_	_	_	_	_
+11	ett	en	DET	_	_	_	_	_	_
+12	stort	stor	ADJ	_	_	_	_	_	_
+13	hus	hus	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-015
+# text = Vi har inte bestämt oss ännu, för vi måste tänka på saken.
+1	Vi	vi	PRON	_	_	_	_	_	_
+2	har	ha	AUX	_	_	_	_	_	_
+3	inte	inte	ADV	_	_	_	_	_	_
+4	bestämt	bestämma	VERB	_	_	_	_	_	_
+5	oss	vi	PRON	_	_	_	_	_	_
+6	ännu	ännu	ADV	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	för	för	CCONJ	_	_	_	_	_	_
+9	vi	vi	PRON	_	_	_	_	_	_
+10	måste	måste	AUX	_	_	_	_	_	_
+11	tänka	tänka	VERB	_	_	_	_	_	_
+12	på	på	ADP	_	_	_	_	_	_
+13	saken	sak	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-016
+# text = Han hade glömt nycklarna, så han kunde inte komma in.
+1	Han	han	PRON	_	_	_	_	_	_
+2	hade	ha	AUX	_	_	_	_	_	_
+3	glömt	glömma	VERB	_	_	_	_	_	_
+4	nycklarna	nyckel	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	så	så	CCONJ	_	_	_	_	_	_
+7	han	han	PRON	_	_	_	_	_	_
+8	kunde	kunna	AUX	_	_	_	_	_	_
+9	inte	inte	ADV	_	_	_	_	_	_
+10	komma	komma	VERB	_	_	_	_	_	_
+11	in	in	ADV	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-017
+# text = Om du hade ringt tidigare, hade jag svarat direkt.
+1	Om	om	SCONJ	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	hade	ha	AUX	_	_	_	_	_	_
+4	ringt	ringa	VERB	_	_	_	_	_	_
+5	tidigare	tidigt	ADV	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	hade	ha	AUX	_	_	_	_	_	_
+8	jag	jag	PRON	_	_	_	_	_	_
+9	svarat	svara	VERB	_	_	_	_	_	_
+10	direkt	direkt	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-018
+# text = Boken som ligger på bordet är väldigt intressant.
+1	Boken	bok	NOUN	_	_	_	_	_	_
+2	som	som	PRON	_	_	_	_	_	_
+3	ligger	ligga	VERB	_	_	_	_	_	_
+4	på	på	ADP	_	_	_	_	_	_
+5	bordet	bord	NOUN	_	_	_	_	_	_
+6	är	vara	AUX	_	_	_	_	_	_
+7	väldigt	väldigt	ADV	_	_	_	_	_	_
+8	intressant	intressant	ADJ	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-019
+# text = Jag skulle vilja veta varför hon inte kom till mötet.
+1	Jag	jag	PRON	_	_	_	_	_	_
+2	skulle	skola	AUX	_	_	_	_	_	_
+3	vilja	vilja	AUX	_	_	_	_	_	_
+4	veta	veta	VERB	_	_	_	_	_	_
+5	varför	varför	SCONJ	_	_	_	_	_	_
+6	hon	hon	PRON	_	_	_	_	_	_
+7	inte	inte	ADV	_	_	_	_	_	_
+8	kom	komma	VERB	_	_	_	_	_	_
+9	till	till	ADP	_	_	_	_	_	_
+10	mötet	möte	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-sv-b1-020
+# text = När vi hade ätit färdigt, gick vi ut på en promenad.
+1	När	när	SCONJ	_	_	_	_	_	_
+2	vi	vi	PRON	_	_	_	_	_	_
+3	hade	ha	AUX	_	_	_	_	_	_
+4	ätit	äta	VERB	_	_	_	_	_	_
+5	färdigt	färdig	ADJ	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	gick	gå	VERB	_	_	_	_	_	_
+8	vi	vi	PRON	_	_	_	_	_	_
+9	ut	ut	ADV	_	_	_	_	_	_
+10	på	på	ADP	_	_	_	_	_	_
+11	en	en	DET	_	_	_	_	_	_
+12	promenad	promenad	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+

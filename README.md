@@ -32,7 +32,6 @@ src/lemmatizer/
   data/               CoNLL-U reader, UD fetch, labels, dataset builders
                       script_guard.py — cross-language corruption guard
                       zh_lexicon.py — zh exception lexicon builder
-                      zh_augment.py, zh_augment2.py — handcrafted zh training data
   train/              TrainOptions + train_language() dispatcher + MLX trainers
     mlx_multitask.py   de/en/es/fr/nl/sv (EuroBERT/ScandiBERT)
     train_byt5.py      ar (ByT5-small)
