@@ -1,167 +1,251 @@
 # sent_id = handcraft-nl-a1-001
-# text = Ik ben een vrouw.
+# text = Ik ben er niet en hij is ook hier.
 1	Ik	ik	PRON	_	_	_	_	_	_
 2	ben	zijn	AUX	_	_	_	_	_	_
-3	een	een	DET	_	_	_	_	_	_
-4	vrouw	vrouw	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
+3	er	er	ADV	_	_	_	_	_	_
+4	niet	niet	ADV	_	_	_	_	_	_
+5	en	en	CCONJ	_	_	_	_	_	_
+6	hij	hij	PRON	_	_	_	_	_	_
+7	is	zijn	AUX	_	_	_	_	_	_
+8	ook	ook	ADV	_	_	_	_	_	_
+9	hier	hier	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-002
-# text = Hij heeft een boek.
-1	Hij	hij	PRON	_	_	_	_	_	_
-2	heeft	hebben	VERB	_	_	_	_	_	_
-3	een	een	DET	_	_	_	_	_	_
-4	boek	boek	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
+# text = Dan hebben we nog tijd.
+1	Dan	dan	ADV	_	_	_	_	_	_
+2	hebben	hebben	VERB	_	_	_	_	_	_
+3	we	wij	PRON	_	_	_	_	_	_
+4	nog	nog	ADV	_	_	_	_	_	_
+5	tijd	tijd	NOUN	_	_	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-003
-# text = Wij gaan naar huis.
-1	Wij	wij	PRON	_	_	_	_	_	_
-2	gaan	gaan	VERB	_	_	_	_	_	_
-3	naar	naar	ADP	_	_	_	_	_	_
-4	huis	huis	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
+# text = Het is al zo meer dan genoeg.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	al	al	ADV	_	_	_	_	_	_
+4	zo	zo	ADV	_	_	_	_	_	_
+5	meer	meer	ADV	_	_	_	_	_	_
+6	dan	dan	SCONJ	_	_	_	_	_	_
+7	genoeg	genoeg	ADV	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-004
-# text = De vrouw werkt op een kamer.
-1	De	de	DET	_	_	_	_	_	_
-2	vrouw	vrouw	NOUN	_	_	_	_	_	_
-3	werkt	werken	VERB	_	_	_	_	_	_
-4	op	op	ADP	_	_	_	_	_	_
-5	een	een	DET	_	_	_	_	_	_
-6	kamer	kamer	NOUN	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
+# text = Dit jaar is het nu wel klaar.
+1	Dit	deze	DET	_	_	_	_	_	_
+2	jaar	jaar	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	het	het	PRON	_	_	_	_	_	_
+5	nu	nu	ADV	_	_	_	_	_	_
+6	wel	wel	ADV	_	_	_	_	_	_
+7	klaar	klaar	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-005
-# text = Het kind speelt graag.
-1	Het	het	DET	_	_	_	_	_	_
-2	kind	kind	NOUN	_	_	_	_	_	_
-3	speelt	spelen	VERB	_	_	_	_	_	_
-4	graag	graag	ADV	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
+# text = Hoe goed is dat waar?
+1	Hoe	hoe	ADV	_	_	_	_	_	_
+2	goed	goed	ADJ	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	dat	dat	PRON	_	_	_	_	_	_
+5	waar	waar	ADV	_	_	_	_	_	_
+6	?	?	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-006
-# text = Ik heb een auto.
+# text = Ik ga naar school en doe mijn huiswerk met een ander kind.
 1	Ik	ik	PRON	_	_	_	_	_	_
-2	heb	hebben	VERB	_	_	_	_	_	_
-3	een	een	DET	_	_	_	_	_	_
-4	auto	auto	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
+2	ga	gaan	VERB	_	_	_	_	_	_
+3	naar	naar	ADP	_	_	_	_	_	_
+4	school	school	NOUN	_	_	_	_	_	_
+5	en	en	CCONJ	_	_	_	_	_	_
+6	doe	doen	VERB	_	_	_	_	_	_
+7	mijn	mijn	PRON	_	_	_	_	_	_
+8	huiswerk	huiswerk	NOUN	_	_	_	_	_	_
+9	met	met	ADP	_	_	_	_	_	_
+10	een	een	DET	_	_	_	_	_	_
+11	ander	ander	ADJ	_	_	_	_	_	_
+12	kind	kind	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-007
-# text = Mijn vader heeft geld.
-1	Mijn	mijn	DET	_	_	_	_	_	_
-2	vader	vader	NOUN	_	_	_	_	_	_
-3	heeft	hebben	VERB	_	_	_	_	_	_
-4	geld	geld	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
+# text = Wij maken hier dus een taart.
+1	Wij	wij	PRON	_	_	_	_	_	_
+2	maken	maken	VERB	_	_	_	_	_	_
+3	hier	hier	ADV	_	_	_	_	_	_
+4	dus	dus	ADV	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	taart	taart	NOUN	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-008
-# text = Wij komen vandaag.
-1	Wij	wij	PRON	_	_	_	_	_	_
-2	komen	komen	VERB	_	_	_	_	_	_
-3	vandaag	vandaag	ADV	_	_	_	_	_	_
-4	.	.	PUNCT	_	_	_	_	_	_
+# text = Alleen het nieuwe boek is weer goed.
+1	Alleen	alleen	ADV	_	_	_	_	_	_
+2	het	het	DET	_	_	_	_	_	_
+3	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+4	boek	boek	NOUN	_	_	_	_	_	_
+5	is	zijn	VERB	_	_	_	_	_	_
+6	weer	weer	ADV	_	_	_	_	_	_
+7	goed	goed	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-009
-# text = De moeder maakt het eten klaar.
-1	De	de	DET	_	_	_	_	_	_
-2	moeder	moeder	NOUN	_	_	_	_	_	_
-3	maakt	maken	VERB	_	_	_	_	_	_
-4	het	het	DET	_	_	_	_	_	_
-5	eten	eten	NOUN	_	_	_	_	_	_
-6	klaar	klaar	ADJ	_	_	_	_	_	_
+# text = Ik zie de eerste man komen.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zie	zien	VERB	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	eerste	eerste	ADJ	_	_	_	_	_	_
+5	man	man	NOUN	_	_	_	_	_	_
+6	komen	komen	VERB	_	_	_	_	_	_
 7	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-010
-# text = Ik zie een foto.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	zie	zien	VERB	_	_	_	_	_	_
+# text = Dat is een echt mooi huis eens daar.
+1	Dat	dat	PRON	_	_	_	_	_	_
+2	is	zijn	VERB	_	_	_	_	_	_
 3	een	een	DET	_	_	_	_	_	_
-4	foto	foto	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
+4	echt	echt	ADJ	_	_	_	_	_	_
+5	mooi	mooi	ADJ	_	_	_	_	_	_
+6	huis	huis	NOUN	_	_	_	_	_	_
+7	eens	eens	ADV	_	_	_	_	_	_
+8	daar	daar	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-011
-# text = Hij leest een boek.
-1	Hij	hij	PRON	_	_	_	_	_	_
-2	leest	lezen	VERB	_	_	_	_	_	_
-3	een	een	DET	_	_	_	_	_	_
-4	boek	boek	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a1-012
-# text = Wij eten samen.
-1	Wij	wij	PRON	_	_	_	_	_	_
-2	eten	eten	VERB	_	_	_	_	_	_
-3	samen	samen	ADV	_	_	_	_	_	_
-4	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a1-013
-# text = De dochter vraagt de naam.
-1	De	de	DET	_	_	_	_	_	_
-2	dochter	dochter	NOUN	_	_	_	_	_	_
-3	vraagt	vragen	VERB	_	_	_	_	_	_
-4	de	de	DET	_	_	_	_	_	_
-5	naam	naam	NOUN	_	_	_	_	_	_
-6	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a1-014
-# text = Ik wacht hier.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	wacht	wachten	VERB	_	_	_	_	_	_
-3	hier	hier	ADV	_	_	_	_	_	_
-4	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a1-015
-# text = De vader speelt met het kind.
-1	De	de	DET	_	_	_	_	_	_
-2	vader	vader	NOUN	_	_	_	_	_	_
-3	speelt	spelen	VERB	_	_	_	_	_	_
-4	met	met	ADP	_	_	_	_	_	_
-5	het	het	DET	_	_	_	_	_	_
-6	kind	kind	NOUN	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a1-016
-# text = Ik neem de foto.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	neem	nemen	VERB	_	_	_	_	_	_
-3	de	de	DET	_	_	_	_	_	_
-4	foto	foto	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a1-017
-# text = Zij kopen een huis.
-1	Zij	zij	PRON	_	_	_	_	_	_
-2	kopen	kopen	VERB	_	_	_	_	_	_
-3	een	een	DET	_	_	_	_	_	_
-4	huis	huis	NOUN	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a1-018
-# text = Het is een goed boek.
+# text = Het is heel warm, maar het is toch een mooie dag.
 1	Het	het	PRON	_	_	_	_	_	_
 2	is	zijn	AUX	_	_	_	_	_	_
-3	een	een	DET	_	_	_	_	_	_
-4	goed	goed	ADJ	_	_	_	_	_	_
-5	boek	boek	NOUN	_	_	_	_	_	_
-6	.	.	PUNCT	_	_	_	_	_	_
+3	heel	heel	ADV	_	_	_	_	_	_
+4	warm	warm	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	maar	maar	CCONJ	_	_	_	_	_	_
+7	het	het	PRON	_	_	_	_	_	_
+8	is	zijn	AUX	_	_	_	_	_	_
+9	toch	toch	ADV	_	_	_	_	_	_
+10	een	een	DET	_	_	_	_	_	_
+11	mooie	mooi	ADJ	_	_	_	_	_	_
+12	dag	dag	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-012
+# text = De klok staat op de muur; de tijd gaat snel en wij leven hier.
+1	De	de	DET	_	_	_	_	_	_
+2	klok	klok	NOUN	_	_	_	_	_	_
+3	staat	staan	VERB	_	_	_	_	_	_
+4	op	op	ADP	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	muur	muur	NOUN	_	_	_	_	_	_
+7	;	;	PUNCT	_	_	_	_	_	_
+8	de	de	DET	_	_	_	_	_	_
+9	tijd	tijd	NOUN	_	_	_	_	_	_
+10	gaat	gaan	VERB	_	_	_	_	_	_
+11	snel	snel	ADV	_	_	_	_	_	_
+12	en	en	CCONJ	_	_	_	_	_	_
+13	wij	wij	PRON	_	_	_	_	_	_
+14	leven	leven	VERB	_	_	_	_	_	_
+15	hier	hier	ADV	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-013
+# text = Toen was ik klein, maar ik wist het altijd.
+1	Toen	toen	ADV	_	_	_	_	_	_
+2	was	zijn	AUX	_	_	_	_	_	_
+3	ik	ik	PRON	_	_	_	_	_	_
+4	klein	klein	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	maar	maar	CCONJ	_	_	_	_	_	_
+7	ik	ik	PRON	_	_	_	_	_	_
+8	wist	weten	VERB	_	_	_	_	_	_
+9	het	het	PRON	_	_	_	_	_	_
+10	altijd	altijd	ADV	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-014
+# text = Laat me zien waarom je net bent gekomen.
+1	Laat	laten	VERB	_	_	_	_	_	_
+2	me	ik	PRON	_	_	_	_	_	_
+3	zien	zien	VERB	_	_	_	_	_	_
+4	waarom	waarom	ADV	_	_	_	_	_	_
+5	je	jij	PRON	_	_	_	_	_	_
+6	net	net	ADV	_	_	_	_	_	_
+7	bent	zijn	AUX	_	_	_	_	_	_
+8	gekomen	komen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-015
+# text = Wacht even, het is gewoon een groot huis.
+1	Wacht	wachten	VERB	_	_	_	_	_	_
+2	even	even	ADV	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	het	het	PRON	_	_	_	_	_	_
+5	is	zijn	AUX	_	_	_	_	_	_
+6	gewoon	gewoon	ADJ	_	_	_	_	_	_
+7	een	een	DET	_	_	_	_	_	_
+8	groot	groot	ADJ	_	_	_	_	_	_
+9	huis	huis	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-016
+# text = Ik kom elke dag om drie uur terug en ik bel steeds op hetzelfde moment.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	kom	komen	VERB	_	_	_	_	_	_
+3	elke	elk	DET	_	_	_	_	_	_
+4	dag	dag	NOUN	_	_	_	_	_	_
+5	om	om	ADP	_	_	_	_	_	_
+6	drie	drie	NUM	_	_	_	_	_	_
+7	uur	uur	NOUN	_	_	_	_	_	_
+8	terug	terug	ADV	_	_	_	_	_	_
+9	en	en	CCONJ	_	_	_	_	_	_
+10	ik	ik	PRON	_	_	_	_	_	_
+11	bel	bellen	VERB	_	_	_	_	_	_
+12	steeds	steeds	ADV	_	_	_	_	_	_
+13	op	op	ADP	_	_	_	_	_	_
+14	hetzelfde	hetzelfde	DET	_	_	_	_	_	_
+15	moment	moment	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-017
+# text = Deze keer wil ik mijn eigen huis kopen.
+1	Deze	deze	DET	_	_	_	_	_	_
+2	keer	keer	NOUN	_	_	_	_	_	_
+3	wil	willen	VERB	_	_	_	_	_	_
+4	ik	ik	PRON	_	_	_	_	_	_
+5	mijn	mijn	DET	_	_	_	_	_	_
+6	eigen	eigen	ADJ	_	_	_	_	_	_
+7	huis	huis	NOUN	_	_	_	_	_	_
+8	kopen	kopen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a1-018
+# text = Het is heel veel werk als je weg gaat.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	VERB	_	_	_	_	_	_
+3	heel	heel	ADJ	_	_	_	_	_	_
+4	veel	veel	DET	_	_	_	_	_	_
+5	werk	werk	NOUN	_	_	_	_	_	_
+6	als	als	SCONJ	_	_	_	_	_	_
+7	je	jij	PRON	_	_	_	_	_	_
+8	weg	weg	ADV	_	_	_	_	_	_
+9	gaat	gaan	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-019
-# text = Wij hebben een nieuwe auto.
-1	Wij	wij	PRON	_	_	_	_	_	_
-2	hebben	hebben	VERB	_	_	_	_	_	_
-3	een	een	DET	_	_	_	_	_	_
-4	nieuwe	nieuw	ADJ	_	_	_	_	_	_
-5	auto	auto	NOUN	_	_	_	_	_	_
-6	.	.	PUNCT	_	_	_	_	_	_
+# text = Ik zit nooit zelf op de bank.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	zit	zitten	VERB	_	_	_	_	_	_
+3	nooit	nooit	ADV	_	_	_	_	_	_
+4	zelf	zelf	ADV	_	_	_	_	_	_
+5	op	op	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	bank	bank	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a1-020
-# text = De vrouw loopt naar het huis.
-1	De	de	DET	_	_	_	_	_	_
-2	vrouw	vrouw	NOUN	_	_	_	_	_	_
-3	loopt	lopen	VERB	_	_	_	_	_	_
-4	naar	naar	ADP	_	_	_	_	_	_
-5	het	het	DET	_	_	_	_	_	_
-6	huis	huis	NOUN	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
+# text = Een klein aantal kinderen geeft een cadeau.
+1	Een	een	DET	_	_	_	_	_	_
+2	klein	klein	ADJ	_	_	_	_	_	_
+3	aantal	aantal	NOUN	_	_	_	_	_	_
+4	kinderen	kind	NOUN	_	_	_	_	_	_
+5	geeft	geven	VERB	_	_	_	_	_	_
+6	een	een	DET	_	_	_	_	_	_
+7	cadeau	cadeau	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_

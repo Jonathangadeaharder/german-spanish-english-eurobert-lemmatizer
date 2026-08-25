@@ -1,214 +1,259 @@
 # sent_id = handcraft-nl-a2-001
-# text = Gisteren ontving mijn broer een brief van zijn vriend.
-1	Gisteren	gisteren	ADV	_	_	_	_	_	_
-2	ontving	ontvangen	VERB	_	_	_	_	_	_
-3	mijn	mijn	DET	_	_	_	_	_	_
-4	broer	broer	NOUN	_	_	_	_	_	_
-5	een	een	DET	_	_	_	_	_	_
-6	brief	brief	NOUN	_	_	_	_	_	_
-7	van	van	ADP	_	_	_	_	_	_
-8	zijn	zijn	DET	_	_	_	_	_	_
-9	vriend	vriend	NOUN	_	_	_	_	_	_
-10	.	.	PUNCT	_	_	_	_	_	_
+# text = Dit is de derde keer dat ik enkel geloof heb.
+1	Dit	dit	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	derde	derde	ADJ	_	_	_	_	_	_
+5	keer	keer	NOUN	_	_	_	_	_	_
+6	dat	dat	SCONJ	_	_	_	_	_	_
+7	ik	ik	PRON	_	_	_	_	_	_
+8	enkel	enkel	ADJ	_	_	_	_	_	_
+9	geloof	geloof	NOUN	_	_	_	_	_	_
+10	heb	hebben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a2-002
-# text = Vanavond gaan wij samen koffie drinken in een café.
-1	Vanavond	vanavond	ADV	_	_	_	_	_	_
-2	gaan	gaan	AUX	_	_	_	_	_	_
-3	wij	wij	PRON	_	_	_	_	_	_
-4	samen	samen	ADV	_	_	_	_	_	_
-5	koffie	koffie	NOUN	_	_	_	_	_	_
-6	drinken	drinken	VERB	_	_	_	_	_	_
-7	in	in	ADP	_	_	_	_	_	_
-8	een	een	DET	_	_	_	_	_	_
-9	café	café	NOUN	_	_	_	_	_	_
-10	.	.	PUNCT	_	_	_	_	_	_
+# text = Mensen noemen een mens overal ter wereld bij zijn naam.
+1	Mensen	mens	NOUN	_	_	_	_	_	_
+2	noemen	noemen	VERB	_	_	_	_	_	_
+3	een	een	DET	_	_	_	_	_	_
+4	mens	mens	NOUN	_	_	_	_	_	_
+5	overal	overal	ADV	_	_	_	_	_	_
+6	ter	ter	ADP	_	_	_	_	_	_
+7	wereld	wereld	NOUN	_	_	_	_	_	_
+8	bij	bij	ADP	_	_	_	_	_	_
+9	zijn	zijn	DET	_	_	_	_	_	_
+10	naam	naam	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a2-003
-# text = Deze zin is korter dan de vorige zin.
-1	Deze	deze	DET	_	_	_	_	_	_
-2	zin	zin	NOUN	_	_	_	_	_	_
-3	is	zijn	AUX	_	_	_	_	_	_
-4	korter	kort	ADJ	_	_	_	_	_	_
-5	dan	dan	SCONJ	_	_	_	_	_	_
-6	de	de	DET	_	_	_	_	_	_
-7	vorige	vorig	ADJ	_	_	_	_	_	_
-8	zin	zin	NOUN	_	_	_	_	_	_
-9	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-004
-# text = Ik moet straks mijn vriend bellen.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	moet	moeten	AUX	_	_	_	_	_	_
-3	straks	straks	ADV	_	_	_	_	_	_
-4	mijn	mijn	DET	_	_	_	_	_	_
-5	vriend	vriend	NOUN	_	_	_	_	_	_
-6	bellen	bellen	VERB	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-005
-# text = Mijn vriend gaat morgen naar de universiteit.
-1	Mijn	mijn	DET	_	_	_	_	_	_
-2	vriend	vriend	NOUN	_	_	_	_	_	_
-3	gaat	gaan	VERB	_	_	_	_	_	_
-4	morgen	morgen	ADV	_	_	_	_	_	_
-5	naar	naar	ADP	_	_	_	_	_	_
-6	de	de	DET	_	_	_	_	_	_
-7	universiteit	universiteit	NOUN	_	_	_	_	_	_
-8	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-006
-# text = Gisteren schreef ik een korte brief aan mijn vriendin.
-1	Gisteren	gisteren	ADV	_	_	_	_	_	_
-2	schreef	schrijven	VERB	_	_	_	_	_	_
-3	ik	ik	PRON	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	korte	kort	ADJ	_	_	_	_	_	_
-6	brief	brief	NOUN	_	_	_	_	_	_
-7	aan	aan	ADP	_	_	_	_	_	_
-8	mijn	mijn	DET	_	_	_	_	_	_
-9	vriendin	vriendin	NOUN	_	_	_	_	_	_
+# text = De politiek van deze staat vertelt ons veel verhalen.
+1	De	de	DET	_	_	_	_	_	_
+2	politiek	politiek	NOUN	_	_	_	_	_	_
+3	van	van	ADP	_	_	_	_	_	_
+4	deze	deze	DET	_	_	_	_	_	_
+5	staat	staat	NOUN	_	_	_	_	_	_
+6	vertelt	vertellen	VERB	_	_	_	_	_	_
+7	ons	wij	PRON	_	_	_	_	_	_
+8	veel	veel	DET	_	_	_	_	_	_
+9	verhalen	verhaal	NOUN	_	_	_	_	_	_
 10	.	.	PUNCT	_	_	_	_	_	_
 
-# sent_id = handcraft-nl-a2-007
-# text = Mijn vriend is jonger dan ik.
-1	Mijn	mijn	DET	_	_	_	_	_	_
-2	vriend	vriend	NOUN	_	_	_	_	_	_
-3	is	zijn	AUX	_	_	_	_	_	_
-4	jonger	jong	ADJ	_	_	_	_	_	_
-5	dan	dan	SCONJ	_	_	_	_	_	_
-6	ik	ik	PRON	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
+# sent_id = handcraft-nl-a2-004
+# text = Heeft deze zin bestaan ervoor of daarna?
+1	Heeft	hebben	AUX	_	_	_	_	_	_
+2	deze	deze	DET	_	_	_	_	_	_
+3	zin	zin	NOUN	_	_	_	_	_	_
+4	bestaan	bestaan	VERB	_	_	_	_	_	_
+5	ervoor	ervoor	ADV	_	_	_	_	_	_
+6	of	of	CCONJ	_	_	_	_	_	_
+7	daarna	daarna	ADV	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
 
-# sent_id = handcraft-nl-a2-008
-# text = Wij willen samen een koffie drinken.
-1	Wij	wij	PRON	_	_	_	_	_	_
-2	willen	willen	AUX	_	_	_	_	_	_
-3	samen	samen	ADV	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	koffie	koffie	NOUN	_	_	_	_	_	_
-6	drinken	drinken	VERB	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-009
-# text = Vroeger woonde ik in een rustig dorp.
-1	Vroeger	vroeger	ADV	_	_	_	_	_	_
-2	woonde	wonen	VERB	_	_	_	_	_	_
-3	ik	ik	PRON	_	_	_	_	_	_
-4	in	in	ADP	_	_	_	_	_	_
-5	een	een	DET	_	_	_	_	_	_
-6	rustig	rustig	ADJ	_	_	_	_	_	_
-7	dorp	dorp	NOUN	_	_	_	_	_	_
-8	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-010
-# text = Straks gaan wij naar de zee rijden.
-1	Straks	straks	ADV	_	_	_	_	_	_
-2	gaan	gaan	AUX	_	_	_	_	_	_
-3	wij	wij	PRON	_	_	_	_	_	_
-4	naar	naar	ADP	_	_	_	_	_	_
-5	de	de	DET	_	_	_	_	_	_
-6	zee	zee	NOUN	_	_	_	_	_	_
-7	rijden	rijden	VERB	_	_	_	_	_	_
-8	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-011
-# text = Mijn vriend stuurde gisteren een brief.
-1	Mijn	mijn	DET	_	_	_	_	_	_
-2	vriend	vriend	NOUN	_	_	_	_	_	_
-3	stuurde	sturen	VERB	_	_	_	_	_	_
-4	gisteren	gisteren	ADV	_	_	_	_	_	_
-5	een	een	DET	_	_	_	_	_	_
-6	brief	brief	NOUN	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-012
-# text = Ik wil graag een koffie drinken.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	wil	willen	AUX	_	_	_	_	_	_
-3	graag	graag	ADV	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	koffie	koffie	NOUN	_	_	_	_	_	_
-6	drinken	drinken	VERB	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-013
-# text = Het gebouw is hoger dan de kerk.
-1	Het	het	DET	_	_	_	_	_	_
-2	gebouw	gebouw	NOUN	_	_	_	_	_	_
-3	is	zijn	AUX	_	_	_	_	_	_
-4	hoger	hoog	ADJ	_	_	_	_	_	_
-5	dan	dan	SCONJ	_	_	_	_	_	_
-6	de	de	DET	_	_	_	_	_	_
-7	kerk	kerk	NOUN	_	_	_	_	_	_
-8	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-014
-# text = Hij vertelde over zijn jeugd.
-1	Hij	hij	PRON	_	_	_	_	_	_
-2	vertelde	vertellen	VERB	_	_	_	_	_	_
-3	over	over	ADP	_	_	_	_	_	_
-4	zijn	zijn	DET	_	_	_	_	_	_
-5	jeugd	jeugd	NOUN	_	_	_	_	_	_
-6	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-015
-# text = Morgen gaan wij naar de markt rijden.
-1	Morgen	morgen	ADV	_	_	_	_	_	_
-2	gaan	gaan	AUX	_	_	_	_	_	_
-3	wij	wij	PRON	_	_	_	_	_	_
-4	naar	naar	ADP	_	_	_	_	_	_
-5	de	de	DET	_	_	_	_	_	_
-6	markt	markt	NOUN	_	_	_	_	_	_
-7	rijden	rijden	VERB	_	_	_	_	_	_
-8	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-016
-# text = Je moet jezelf beschermen.
-1	Je	je	PRON	_	_	_	_	_	_
-2	moet	moeten	AUX	_	_	_	_	_	_
-3	jezelf	jezelf	PRON	_	_	_	_	_	_
-4	beschermen	beschermen	VERB	_	_	_	_	_	_
-5	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-a2-017
-# text = De koning bouwde een kerk in het dorp.
+# sent_id = handcraft-nl-a2-005
+# text = De grond onder ons leidt kort naar het dorp.
 1	De	de	DET	_	_	_	_	_	_
-2	koning	koning	NOUN	_	_	_	_	_	_
-3	bouwde	bouwen	VERB	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	kerk	kerk	NOUN	_	_	_	_	_	_
-6	in	in	ADP	_	_	_	_	_	_
-7	het	het	DET	_	_	_	_	_	_
-8	dorp	dorp	NOUN	_	_	_	_	_	_
+2	grond	grond	NOUN	_	_	_	_	_	_
+3	onder	onder	ADP	_	_	_	_	_	_
+4	ons	wij	PRON	_	_	_	_	_	_
+5	leidt	leiden	VERB	_	_	_	_	_	_
+6	kort	kort	ADJ	_	_	_	_	_	_
+7	naar	naar	ADP	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	dorp	dorp	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-006
+# text = Dit seizoen vallen de prijzen algemeen lager.
+1	Dit	dit	DET	_	_	_	_	_	_
+2	seizoen	seizoen	NOUN	_	_	_	_	_	_
+3	vallen	vallen	VERB	_	_	_	_	_	_
+4	de	de	DET	_	_	_	_	_	_
+5	prijzen	prijs	NOUN	_	_	_	_	_	_
+6	algemeen	algemeen	ADJ	_	_	_	_	_	_
+7	lager	laag	ADJ	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-007
+# text = Je antwoord op mijn bericht was daarmee duidelijk.
+1	Je	jij	PRON	_	_	_	_	_	_
+2	antwoord	antwoord	NOUN	_	_	_	_	_	_
+3	op	op	ADP	_	_	_	_	_	_
+4	mijn	mijn	DET	_	_	_	_	_	_
+5	bericht	bericht	NOUN	_	_	_	_	_	_
+6	was	zijn	AUX	_	_	_	_	_	_
+7	daarmee	daarmee	ADV	_	_	_	_	_	_
+8	duidelijk	duidelijk	ADJ	_	_	_	_	_	_
 9	.	.	PUNCT	_	_	_	_	_	_
 
-# sent_id = handcraft-nl-a2-018
-# text = Mijn vriendin is sterker dan haar broer.
-1	Mijn	mijn	DET	_	_	_	_	_	_
-2	vriendin	vriendin	NOUN	_	_	_	_	_	_
+# sent_id = handcraft-nl-a2-008
+# text = De doden waren geweldig en links van het pad.
+1	De	de	DET	_	_	_	_	_	_
+2	doden	doden	VERB	_	_	_	_	_	_
+3	waren	zijn	AUX	_	_	_	_	_	_
+4	geweldig	geweldig	ADJ	_	_	_	_	_	_
+5	en	en	CCONJ	_	_	_	_	_	_
+6	links	links	ADJ	_	_	_	_	_	_
+7	van	van	ADP	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	pad	pad	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-009
+# text = De omgeving is een belangrijk onderdeel van ons succes.
+1	De	de	DET	_	_	_	_	_	_
+2	omgeving	omgeving	NOUN	_	_	_	_	_	_
 3	is	zijn	AUX	_	_	_	_	_	_
-4	sterker	sterk	ADJ	_	_	_	_	_	_
-5	dan	dan	SCONJ	_	_	_	_	_	_
-6	haar	haar	DET	_	_	_	_	_	_
-7	broer	broer	NOUN	_	_	_	_	_	_
-8	.	.	PUNCT	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	belangrijk	belangrijk	ADJ	_	_	_	_	_	_
+6	onderdeel	onderdeel	NOUN	_	_	_	_	_	_
+7	van	van	ADP	_	_	_	_	_	_
+8	ons	ons	DET	_	_	_	_	_	_
+9	succes	succes	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-010
+# text = Vanavond reizen we ver, maar jullie zijn welkom.
+1	Vanavond	vanavond	ADV	_	_	_	_	_	_
+2	reizen	reizen	VERB	_	_	_	_	_	_
+3	we	wij	PRON	_	_	_	_	_	_
+4	ver	ver	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	maar	maar	CCONJ	_	_	_	_	_	_
+7	jullie	jullie	PRON	_	_	_	_	_	_
+8	zijn	zijn	AUX	_	_	_	_	_	_
+9	welkom	welkom	ADJ	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-011
+# text = Volgens de wet kan alles gebeuren, maar de kleur blijft hetzelfde.
+1	Volgens	volgens	ADP	_	_	_	_	_	_
+2	de	de	DET	_	_	_	_	_	_
+3	wet	wet	NOUN	_	_	_	_	_	_
+4	kan	kunnen	AUX	_	_	_	_	_	_
+5	alles	alles	PRON	_	_	_	_	_	_
+6	gebeuren	gebeuren	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	maar	maar	CCONJ	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	kleur	kleur	NOUN	_	_	_	_	_	_
+11	blijft	blijven	VERB	_	_	_	_	_	_
+12	hetzelfde	hetzelfde	PRON	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-012
+# text = De eerste stap is je vorige telefoon opnieuw instellen.
+1	De	de	DET	_	_	_	_	_	_
+2	eerste	eerste	ADJ	_	_	_	_	_	_
+3	stap	stap	NOUN	_	_	_	_	_	_
+4	is	zijn	AUX	_	_	_	_	_	_
+5	je	jij	PRON	_	_	_	_	_	_
+6	vorige	vorig	ADJ	_	_	_	_	_	_
+7	telefoon	telefoon	NOUN	_	_	_	_	_	_
+8	opnieuw	opnieuw	ADV	_	_	_	_	_	_
+9	instellen	instellen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-013
+# text = Ze wonen in een mooi beeld en krijgen vaak bezoek.
+1	Ze	zij	PRON	_	_	_	_	_	_
+2	wonen	wonen	VERB	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	een	een	DET	_	_	_	_	_	_
+5	mooi	mooi	ADJ	_	_	_	_	_	_
+6	beeld	beeld	NOUN	_	_	_	_	_	_
+7	en	en	CCONJ	_	_	_	_	_	_
+8	krijgen	krijgen	VERB	_	_	_	_	_	_
+9	vaak	vaak	ADV	_	_	_	_	_	_
+10	bezoek	bezoek	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-014
+# text = Deze dienst is gek, maar het is inderdaad waar.
+1	Deze	deze	DET	_	_	_	_	_	_
+2	dienst	dienst	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	gek	gek	ADJ	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	maar	maar	CCONJ	_	_	_	_	_	_
+7	het	het	PRON	_	_	_	_	_	_
+8	is	zijn	AUX	_	_	_	_	_	_
+9	inderdaad	inderdaad	ADV	_	_	_	_	_	_
+10	waar	waar	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-015
+# text = De jonge jongen staat op de lijst voor het leger.
+1	De	de	DET	_	_	_	_	_	_
+2	jonge	jong	ADJ	_	_	_	_	_	_
+3	jongen	jongen	NOUN	_	_	_	_	_	_
+4	staat	staan	VERB	_	_	_	_	_	_
+5	op	op	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	lijst	lijst	NOUN	_	_	_	_	_	_
+8	voor	voor	ADP	_	_	_	_	_	_
+9	het	het	DET	_	_	_	_	_	_
+10	leger	leger	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-016
+# text = De losse wagen rijdt weg en zijn stem klinkt zacht.
+1	De	de	DET	_	_	_	_	_	_
+2	losse	los	ADJ	_	_	_	_	_	_
+3	wagen	wagen	NOUN	_	_	_	_	_	_
+4	rijdt	rijden	VERB	_	_	_	_	_	_
+5	weg	weg	ADV	_	_	_	_	_	_
+6	en	en	CCONJ	_	_	_	_	_	_
+7	zijn	zijn	PRON	_	_	_	_	_	_
+8	stem	stem	NOUN	_	_	_	_	_	_
+9	klinkt	klinken	VERB	_	_	_	_	_	_
+10	zacht	zacht	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-017
+# text = Helaas is het zwart erop gegaan.
+1	Helaas	helaas	ADV	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	het	het	PRON	_	_	_	_	_	_
+4	zwart	zwart	ADJ	_	_	_	_	_	_
+5	erop	erop	ADV	_	_	_	_	_	_
+6	gegaan	gaan	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-a2-018
+# text = Ik ken de ontwikkeling van dit spel goed.
+1	Ik	ik	PRON	_	_	_	_	_	_
+2	ken	kennen	VERB	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	ontwikkeling	ontwikkeling	NOUN	_	_	_	_	_	_
+5	van	van	ADP	_	_	_	_	_	_
+6	dit	dit	DET	_	_	_	_	_	_
+7	spel	spel	NOUN	_	_	_	_	_	_
+8	goed	goed	ADV	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a2-019
-# text = Ik kon gisteren niet slapen.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	kon	kunnen	AUX	_	_	_	_	_	_
-3	gisteren	gisteren	ADV	_	_	_	_	_	_
-4	niet	niet	PART	_	_	_	_	_	_
-5	slapen	slapen	VERB	_	_	_	_	_	_
-6	.	.	PUNCT	_	_	_	_	_	_
+# text = Het totaal is sterk en voelt veilig aan.
+1	Het	het	DET	_	_	_	_	_	_
+2	totaal	totaal	NOUN	_	_	_	_	_	_
+3	is	zijn	AUX	_	_	_	_	_	_
+4	sterk	sterk	ADJ	_	_	_	_	_	_
+5	en	en	CCONJ	_	_	_	_	_	_
+6	voelt	voelen	VERB	_	_	_	_	_	_
+7	veilig	veilig	ADJ	_	_	_	_	_	_
+8	aan	aan	ADP	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-a2-020
-# text = Eindelijk gaat hij een brief schrijven.
-1	Eindelijk	eindelijk	ADV	_	_	_	_	_	_
-2	gaat	gaan	AUX	_	_	_	_	_	_
-3	hij	hij	PRON	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	brief	brief	NOUN	_	_	_	_	_	_
-6	schrijven	schrijven	VERB	_	_	_	_	_	_
-7	.	.	PUNCT	_	_	_	_	_	_
+# text = Mijn vriend, waaronder ook Jan, is inmiddels vertrokken.
+1	Mijn	mijn	PRON	_	_	_	_	_	_
+2	vriend	vriend	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	waaronder	waaronder	ADV	_	_	_	_	_	_
+5	ook	ook	ADV	_	_	_	_	_	_
+6	Jan	Jan	PROPN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	is	zijn	AUX	_	_	_	_	_	_
+9	inmiddels	inmiddels	ADV	_	_	_	_	_	_
+10	vertrokken	vertrekken	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
