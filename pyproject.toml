@@ -30,6 +30,7 @@ eurobert-lemma = "lemmatizer.cli:app"
 
 [dependency-groups]
 dev = [
+  "pyright>=1.1.411",
   "pytest>=8.0.0",
   "pytest-socket>=0.7.0",
   "ruff>=0.6.0",
