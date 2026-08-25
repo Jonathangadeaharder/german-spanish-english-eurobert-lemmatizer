@@ -1,285 +1,308 @@
 # sent_id = handcraft-nl-b1-001
-# text = Ik heb gisteren een lange brief naar mijn broer gestuurd.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	heb	hebben	AUX	_	_	_	_	_	_
-3	gisteren	gisteren	ADV	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	lange	lang	ADJ	_	_	_	_	_	_
-6	brief	brief	NOUN	_	_	_	_	_	_
-7	naar	naar	ADP	_	_	_	_	_	_
-8	mijn	mijn	DET	_	_	_	_	_	_
-9	broer	broer	NOUN	_	_	_	_	_	_
-10	gestuurd	sturen	VERB	_	_	_	_	_	_
-11	.	.	PUNCT	_	_	_	_	_	_
+# text = De natuur in het oosten van het land is officieel beschermd gebied.
+1	De	de	DET	_	_	_	_	_	_
+2	natuur	natuur	NOUN	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	oosten	oost	NOUN	_	_	_	_	_	_
+6	van	van	ADP	_	_	_	_	_	_
+7	het	het	DET	_	_	_	_	_	_
+8	land	land	NOUN	_	_	_	_	_	_
+9	is	zijn	AUX	_	_	_	_	_	_
+10	officieel	officieel	ADJ	_	_	_	_	_	_
+11	beschermd	beschermen	VERB	_	_	_	_	_	_
+12	gebied	gebied	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-b1-002
-# text = Als ik tijd had, zou ik een reis naar het buitenland maken.
-1	Als	als	SCONJ	_	_	_	_	_	_
-2	ik	ik	PRON	_	_	_	_	_	_
-3	tijd	tijd	NOUN	_	_	_	_	_	_
-4	had	hebben	AUX	_	_	_	_	_	_
-5	,	,	PUNCT	_	_	_	_	_	_
-6	zou	zullen	AUX	_	_	_	_	_	_
-7	ik	ik	PRON	_	_	_	_	_	_
-8	een	een	DET	_	_	_	_	_	_
-9	reis	reis	NOUN	_	_	_	_	_	_
-10	naar	naar	ADP	_	_	_	_	_	_
-11	het	het	DET	_	_	_	_	_	_
-12	buitenland	buitenland	NOUN	_	_	_	_	_	_
-13	maken	maken	VERB	_	_	_	_	_	_
-14	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-003
-# text = Zodra de trein aankomt, zullen we samen vertrekken.
-1	Zodra	zodra	SCONJ	_	_	_	_	_	_
-2	de	de	DET	_	_	_	_	_	_
-3	trein	trein	NOUN	_	_	_	_	_	_
-4	aankomt	aankomen	VERB	_	_	_	_	_	_
-5	,	,	PUNCT	_	_	_	_	_	_
-6	zullen	zullen	AUX	_	_	_	_	_	_
-7	we	we	PRON	_	_	_	_	_	_
-8	samen	samen	ADV	_	_	_	_	_	_
-9	vertrekken	vertrekken	VERB	_	_	_	_	_	_
-10	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-004
-# text = Hij heeft zijn fiets aan een collega verkocht.
-1	Hij	hij	PRON	_	_	_	_	_	_
-2	heeft	hebben	AUX	_	_	_	_	_	_
-3	zijn	zijn	DET	_	_	_	_	_	_
-4	fiets	fiets	NOUN	_	_	_	_	_	_
-5	aan	aan	ADP	_	_	_	_	_	_
-6	een	een	DET	_	_	_	_	_	_
-7	collega	collega	NOUN	_	_	_	_	_	_
-8	verkocht	verkopen	VERB	_	_	_	_	_	_
-9	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-005
-# text = Ondertussen heeft zij het rapport aan de commissie gegeven.
-1	Ondertussen	ondertussen	ADV	_	_	_	_	_	_
-2	heeft	hebben	AUX	_	_	_	_	_	_
-3	zij	zij	PRON	_	_	_	_	_	_
-4	het	het	DET	_	_	_	_	_	_
-5	rapport	rapport	NOUN	_	_	_	_	_	_
-6	aan	aan	ADP	_	_	_	_	_	_
-7	de	de	DET	_	_	_	_	_	_
-8	commissie	commissie	NOUN	_	_	_	_	_	_
-9	gegeven	geven	VERB	_	_	_	_	_	_
-10	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-006
-# text = Ik zou je graag willen helpen, maar ik ben momenteel te moe.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	zou	zullen	AUX	_	_	_	_	_	_
-3	je	je	PRON	_	_	_	_	_	_
-4	graag	graag	ADV	_	_	_	_	_	_
-5	willen	willen	AUX	_	_	_	_	_	_
-6	helpen	helpen	VERB	_	_	_	_	_	_
-7	,	,	PUNCT	_	_	_	_	_	_
-8	maar	maar	CCONJ	_	_	_	_	_	_
-9	ik	ik	PRON	_	_	_	_	_	_
-10	ben	zijn	AUX	_	_	_	_	_	_
-11	momenteel	momenteel	ADV	_	_	_	_	_	_
-12	te	te	ADV	_	_	_	_	_	_
-13	moe	moe	ADJ	_	_	_	_	_	_
-14	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-007
-# text = Toen ik op straat liep, heb ik een oude vriend ontmoet.
-1	Toen	toen	SCONJ	_	_	_	_	_	_
-2	ik	ik	PRON	_	_	_	_	_	_
-3	op	op	ADP	_	_	_	_	_	_
-4	straat	straat	NOUN	_	_	_	_	_	_
-5	liep	lopen	VERB	_	_	_	_	_	_
-6	,	,	PUNCT	_	_	_	_	_	_
-7	heb	hebben	AUX	_	_	_	_	_	_
-8	ik	ik	PRON	_	_	_	_	_	_
-9	een	een	DET	_	_	_	_	_	_
-10	oude	oud	ADJ	_	_	_	_	_	_
-11	vriend	vriend	NOUN	_	_	_	_	_	_
-12	ontmoet	ontmoeten	VERB	_	_	_	_	_	_
-13	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-008
-# text = De winnaar heeft de finale met veel indruk gewonnen.
+# text = De winnaar zal het openbaar vervoer officieel openen en veel geld verdienen.
 1	De	de	DET	_	_	_	_	_	_
 2	winnaar	winnaar	NOUN	_	_	_	_	_	_
-3	heeft	hebben	AUX	_	_	_	_	_	_
-4	de	de	DET	_	_	_	_	_	_
-5	finale	finale	NOUN	_	_	_	_	_	_
-6	met	met	ADP	_	_	_	_	_	_
-7	veel	veel	DET	_	_	_	_	_	_
-8	indruk	indruk	NOUN	_	_	_	_	_	_
-9	gewonnen	winnen	VERB	_	_	_	_	_	_
-10	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-009
-# text = We zouden naar het westen reizen als we tijd hadden.
-1	We	we	PRON	_	_	_	_	_	_
-2	zouden	zullen	AUX	_	_	_	_	_	_
-3	naar	naar	ADP	_	_	_	_	_	_
+3	zal	zullen	AUX	_	_	_	_	_	_
 4	het	het	DET	_	_	_	_	_	_
-5	westen	westen	NOUN	_	_	_	_	_	_
-6	reizen	reizen	VERB	_	_	_	_	_	_
-7	als	als	SCONJ	_	_	_	_	_	_
-8	we	we	PRON	_	_	_	_	_	_
-9	tijd	tijd	NOUN	_	_	_	_	_	_
-10	hadden	hebben	AUX	_	_	_	_	_	_
-11	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-010
-# text = Zij heeft gisteren een afspraak met de arts gemaakt.
-1	Zij	zij	PRON	_	_	_	_	_	_
-2	heeft	hebben	AUX	_	_	_	_	_	_
-3	gisteren	gisteren	ADV	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	afspraak	afspraak	NOUN	_	_	_	_	_	_
-6	met	met	ADP	_	_	_	_	_	_
-7	de	de	DET	_	_	_	_	_	_
-8	arts	arts	NOUN	_	_	_	_	_	_
-9	gemaakt	maken	VERB	_	_	_	_	_	_
-10	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-011
-# text = Hoewel het regende, zijn we naar het strand gefietst.
-1	Hoewel	hoewel	SCONJ	_	_	_	_	_	_
-2	het	het	PRON	_	_	_	_	_	_
-3	regende	regenen	VERB	_	_	_	_	_	_
-4	,	,	PUNCT	_	_	_	_	_	_
-5	zijn	zijn	AUX	_	_	_	_	_	_
-6	we	we	PRON	_	_	_	_	_	_
-7	naar	naar	ADP	_	_	_	_	_	_
-8	het	het	DET	_	_	_	_	_	_
-9	strand	strand	NOUN	_	_	_	_	_	_
-10	gefietst	fietsen	VERB	_	_	_	_	_	_
-11	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-012
-# text = De burgemeester heeft een nieuw besluit genomen.
-1	De	de	DET	_	_	_	_	_	_
-2	burgemeester	burgemeester	NOUN	_	_	_	_	_	_
-3	heeft	hebben	AUX	_	_	_	_	_	_
-4	een	een	DET	_	_	_	_	_	_
-5	nieuw	nieuw	ADJ	_	_	_	_	_	_
-6	besluit	besluit	NOUN	_	_	_	_	_	_
-7	genomen	nemen	VERB	_	_	_	_	_	_
-8	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-013
-# text = Als ik jou was, zou ik die kans met beide handen grijpen.
-1	Als	als	SCONJ	_	_	_	_	_	_
-2	ik	ik	PRON	_	_	_	_	_	_
-3	jou	jou	PRON	_	_	_	_	_	_
-4	was	zijn	AUX	_	_	_	_	_	_
-5	,	,	PUNCT	_	_	_	_	_	_
-6	zou	zullen	AUX	_	_	_	_	_	_
-7	ik	ik	PRON	_	_	_	_	_	_
-8	die	die	DET	_	_	_	_	_	_
-9	kans	kans	NOUN	_	_	_	_	_	_
-10	met	met	ADP	_	_	_	_	_	_
-11	beide	beide	DET	_	_	_	_	_	_
-12	handen	hand	NOUN	_	_	_	_	_	_
-13	grijpen	grijpen	VERB	_	_	_	_	_	_
-14	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-014
-# text = Ik heb altijd al een reis naar de hoofdstad willen maken.
-1	Ik	ik	PRON	_	_	_	_	_	_
-2	heb	hebben	AUX	_	_	_	_	_	_
-3	altijd	altijd	ADV	_	_	_	_	_	_
-4	al	al	ADV	_	_	_	_	_	_
-5	een	een	DET	_	_	_	_	_	_
-6	reis	reis	NOUN	_	_	_	_	_	_
-7	naar	naar	ADP	_	_	_	_	_	_
-8	de	de	DET	_	_	_	_	_	_
-9	hoofdstad	hoofdstad	NOUN	_	_	_	_	_	_
-10	willen	willen	AUX	_	_	_	_	_	_
-11	maken	maken	VERB	_	_	_	_	_	_
-12	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-015
-# text = De collega die gisteren ziek was, is vandaag weer terug.
-1	De	de	DET	_	_	_	_	_	_
-2	collega	collega	NOUN	_	_	_	_	_	_
-3	die	die	PRON	_	_	_	_	_	_
-4	gisteren	gisteren	ADV	_	_	_	_	_	_
-5	ziek	ziek	ADJ	_	_	_	_	_	_
-6	was	zijn	AUX	_	_	_	_	_	_
-7	,	,	PUNCT	_	_	_	_	_	_
-8	is	zijn	AUX	_	_	_	_	_	_
-9	vandaag	vandaag	ADV	_	_	_	_	_	_
-10	weer	weer	ADV	_	_	_	_	_	_
-11	terug	terug	ADV	_	_	_	_	_	_
-12	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-016
-# text = Hij zou graag willen weten of wij het rapport al gelezen hebben.
-1	Hij	hij	PRON	_	_	_	_	_	_
-2	zou	zullen	AUX	_	_	_	_	_	_
-3	graag	graag	ADV	_	_	_	_	_	_
-4	willen	willen	AUX	_	_	_	_	_	_
-5	weten	weten	VERB	_	_	_	_	_	_
-6	of	of	SCONJ	_	_	_	_	_	_
-7	wij	wij	PRON	_	_	_	_	_	_
-8	het	het	DET	_	_	_	_	_	_
-9	rapport	rapport	NOUN	_	_	_	_	_	_
-10	al	al	ADV	_	_	_	_	_	_
-11	gelezen	lezen	VERB	_	_	_	_	_	_
-12	hebben	hebben	AUX	_	_	_	_	_	_
+5	openbaar	openbaar	ADJ	_	_	_	_	_	_
+6	vervoer	vervoer	NOUN	_	_	_	_	_	_
+7	officieel	officieel	ADV	_	_	_	_	_	_
+8	openen	openen	VERB	_	_	_	_	_	_
+9	en	en	CCONJ	_	_	_	_	_	_
+10	veel	veel	DET	_	_	_	_	_	_
+11	geld	geld	NOUN	_	_	_	_	_	_
+12	verdienen	verdienen	VERB	_	_	_	_	_	_
 13	.	.	PUNCT	_	_	_	_	_	_
 
-# sent_id = handcraft-nl-b1-017
-# text = Omdat de vergadering lang duurde, ben ik te laat gekomen.
-1	Omdat	omdat	SCONJ	_	_	_	_	_	_
-2	de	de	DET	_	_	_	_	_	_
-3	vergadering	vergadering	NOUN	_	_	_	_	_	_
-4	lang	lang	ADJ	_	_	_	_	_	_
-5	duurde	duren	VERB	_	_	_	_	_	_
-6	,	,	PUNCT	_	_	_	_	_	_
-7	ben	zijn	AUX	_	_	_	_	_	_
-8	ik	ik	PRON	_	_	_	_	_	_
-9	te	te	ADV	_	_	_	_	_	_
-10	laat	laat	ADJ	_	_	_	_	_	_
-11	gekomen	komen	VERB	_	_	_	_	_	_
-12	.	.	PUNCT	_	_	_	_	_	_
-
-# sent_id = handcraft-nl-b1-018
-# text = Zou je mij alsjeblieft willen vertellen waar de locatie is?
-1	Zou	zullen	AUX	_	_	_	_	_	_
-2	je	je	PRON	_	_	_	_	_	_
-3	mij	mij	PRON	_	_	_	_	_	_
-4	alsjeblieft	alsjeblieft	INTJ	_	_	_	_	_	_
-5	willen	willen	AUX	_	_	_	_	_	_
-6	vertellen	vertellen	VERB	_	_	_	_	_	_
-7	waar	waar	ADV	_	_	_	_	_	_
-8	de	de	DET	_	_	_	_	_	_
-9	locatie	locatie	NOUN	_	_	_	_	_	_
-10	is	zijn	AUX	_	_	_	_	_	_
+# sent_id = handcraft-nl-b1-003
+# text = Wat bedoelen jullie als we dit bos samen gaan bekijken?
+1	Wat	wat	PRON	_	_	_	_	_	_
+2	bedoelen	bedoelen	VERB	_	_	_	_	_	_
+3	jullie	jullie	PRON	_	_	_	_	_	_
+4	als	als	SCONJ	_	_	_	_	_	_
+5	we	wij	PRON	_	_	_	_	_	_
+6	dit	dit	DET	_	_	_	_	_	_
+7	bos	bos	NOUN	_	_	_	_	_	_
+8	samen	samen	ADV	_	_	_	_	_	_
+9	gaan	gaan	AUX	_	_	_	_	_	_
+10	bekijken	bekijken	VERB	_	_	_	_	_	_
 11	?	?	PUNCT	_	_	_	_	_	_
 
-# sent_id = handcraft-nl-b1-019
-# text = De politie heeft de verdachte op straat aangehouden.
+# sent_id = handcraft-nl-b1-004
+# text = De rechtszaak op donderdag zal lang duren voor de gevangenis.
 1	De	de	DET	_	_	_	_	_	_
-2	politie	politie	NOUN	_	_	_	_	_	_
-3	heeft	hebben	AUX	_	_	_	_	_	_
-4	de	de	DET	_	_	_	_	_	_
-5	verdachte	verdachte	NOUN	_	_	_	_	_	_
-6	op	op	ADP	_	_	_	_	_	_
-7	straat	straat	NOUN	_	_	_	_	_	_
-8	aangehouden	aanhouden	VERB	_	_	_	_	_	_
+2	rechtszaak	rechtszaak	NOUN	_	_	_	_	_	_
+3	op	op	ADP	_	_	_	_	_	_
+4	donderdag	donderdag	NOUN	_	_	_	_	_	_
+5	zal	zullen	AUX	_	_	_	_	_	_
+6	lang	lang	ADV	_	_	_	_	_	_
+7	duren	duren	VERB	_	_	_	_	_	_
+8	voor	voor	ADP	_	_	_	_	_	_
+9	de	de	DET	_	_	_	_	_	_
+10	gevangenis	gevangenis	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-005
+# text = Het is grappig dat de grens van het koninkrijk zo klein is.
+1	Het	het	PRON	_	_	_	_	_	_
+2	is	zijn	AUX	_	_	_	_	_	_
+3	grappig	grappig	ADJ	_	_	_	_	_	_
+4	dat	dat	SCONJ	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	grens	grens	NOUN	_	_	_	_	_	_
+7	van	van	ADP	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	koninkrijk	koninkrijk	NOUN	_	_	_	_	_	_
+10	zo	zo	ADV	_	_	_	_	_	_
+11	klein	klein	ADJ	_	_	_	_	_	_
+12	is	zijn	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-006
+# text = De exacte locatie van het museum is nog onbekend, maar ondertussen zijn we al onderweg.
+1	De	de	DET	_	_	_	_	_	_
+2	exacte	exact	ADJ	_	_	_	_	_	_
+3	locatie	locatie	NOUN	_	_	_	_	_	_
+4	van	van	ADP	_	_	_	_	_	_
+5	het	het	DET	_	_	_	_	_	_
+6	museum	museum	NOUN	_	_	_	_	_	_
+7	is	zijn	AUX	_	_	_	_	_	_
+8	nog	nog	ADV	_	_	_	_	_	_
+9	onbekend	onbekend	ADJ	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	maar	maar	CCONJ	_	_	_	_	_	_
+12	ondertussen	ondertussen	ADV	_	_	_	_	_	_
+13	zijn	zijn	AUX	_	_	_	_	_	_
+14	we	wij	PRON	_	_	_	_	_	_
+15	al	al	ADV	_	_	_	_	_	_
+16	onderweg	onderweg	ADV	_	_	_	_	_	_
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-007
+# text = Rechts van de brede rivier staat een opvallend rood huis.
+1	Rechts	rechts	ADV	_	_	_	_	_	_
+2	van	van	ADP	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	brede	breed	ADJ	_	_	_	_	_	_
+5	rivier	rivier	NOUN	_	_	_	_	_	_
+6	staat	staan	VERB	_	_	_	_	_	_
+7	een	een	DET	_	_	_	_	_	_
+8	opvallend	opvallend	ADJ	_	_	_	_	_	_
+9	rood	rood	ADJ	_	_	_	_	_	_
+10	huis	huis	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-008
+# text = Het verkeerd gekozen wapen maakte de aanval tot een mislukking.
+1	Het	het	DET	_	_	_	_	_	_
+2	verkeerd	verkeerd	ADJ	_	_	_	_	_	_
+3	gekozen	kiezen	VERB	_	_	_	_	_	_
+4	wapen	wapen	NOUN	_	_	_	_	_	_
+5	maakte	maken	VERB	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	aanval	aanval	NOUN	_	_	_	_	_	_
+8	tot	tot	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	mislukking	mislukking	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-009
+# text = De advocaat voelde grote angst toen hij het drukke bureau binnenkwam.
+1	De	de	DET	_	_	_	_	_	_
+2	advocaat	advocaat	NOUN	_	_	_	_	_	_
+3	voelde	voelen	VERB	_	_	_	_	_	_
+4	grote	groot	ADJ	_	_	_	_	_	_
+5	angst	angst	NOUN	_	_	_	_	_	_
+6	toen	toen	SCONJ	_	_	_	_	_	_
+7	hij	hij	PRON	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	drukke	druk	ADJ	_	_	_	_	_	_
+10	bureau	bureau	NOUN	_	_	_	_	_	_
+11	binnenkwam	binnenkomen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-010
+# text = Elk gegeven over het goud in de hoofdstad werd zorgvuldig gecontroleerd.
+1	Elk	elk	DET	_	_	_	_	_	_
+2	gegeven	gegeven	NOUN	_	_	_	_	_	_
+3	over	over	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	goud	goud	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	de	de	DET	_	_	_	_	_	_
+8	hoofdstad	hoofdstad	NOUN	_	_	_	_	_	_
+9	werd	worden	AUX	_	_	_	_	_	_
+10	zorgvuldig	zorgvuldig	ADV	_	_	_	_	_	_
+11	gecontroleerd	controleren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-011
+# text = De leiding van het bedrijf werkt momenteel aan een nieuwe muur in het magazijn.
+1	De	de	DET	_	_	_	_	_	_
+2	leiding	leiding	NOUN	_	_	_	_	_	_
+3	van	van	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	bedrijf	bedrijf	NOUN	_	_	_	_	_	_
+6	werkt	werken	VERB	_	_	_	_	_	_
+7	momenteel	momenteel	ADV	_	_	_	_	_	_
+8	aan	aan	ADP	_	_	_	_	_	_
+9	een	een	DET	_	_	_	_	_	_
+10	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+11	muur	muur	NOUN	_	_	_	_	_	_
+12	in	in	ADP	_	_	_	_	_	_
+13	het	het	DET	_	_	_	_	_	_
+14	magazijn	magazijn	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-012
+# text = Mag ik deze tafel verplaatsen met jouw toestemming, en trouwens, waar is de stoel?
+1	Mag	mogen	AUX	_	_	_	_	_	_
+2	ik	ik	PRON	_	_	_	_	_	_
+3	deze	deze	DET	_	_	_	_	_	_
+4	tafel	tafel	NOUN	_	_	_	_	_	_
+5	verplaatsen	verplaatsen	VERB	_	_	_	_	_	_
+6	met	met	ADP	_	_	_	_	_	_
+7	jouw	jouw	PRON	_	_	_	_	_	_
+8	toestemming	toestemming	NOUN	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	en	en	CCONJ	_	_	_	_	_	_
+11	trouwens	trouwens	ADV	_	_	_	_	_	_
+12	,	,	PUNCT	_	_	_	_	_	_
+13	waar	waar	ADV	_	_	_	_	_	_
+14	is	zijn	AUX	_	_	_	_	_	_
+15	de	de	DET	_	_	_	_	_	_
+16	stoel	stoel	NOUN	_	_	_	_	_	_
+17	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-013
+# text = We mogen geen tijd verliezen en moeten ons op elke mogelijke wijze voorzien van water.
+1	We	wij	PRON	_	_	_	_	_	_
+2	mogen	mogen	AUX	_	_	_	_	_	_
+3	geen	geen	DET	_	_	_	_	_	_
+4	tijd	tijd	NOUN	_	_	_	_	_	_
+5	verliezen	verliezen	VERB	_	_	_	_	_	_
+6	en	en	CCONJ	_	_	_	_	_	_
+7	moeten	moeten	AUX	_	_	_	_	_	_
+8	ons	ons	PRON	_	_	_	_	_	_
+9	op	op	ADP	_	_	_	_	_	_
+10	elke	elk	DET	_	_	_	_	_	_
+11	mogelijke	mogelijk	ADJ	_	_	_	_	_	_
+12	wijze	wijze	NOUN	_	_	_	_	_	_
+13	voorzien	voorzien	VERB	_	_	_	_	_	_
+14	van	van	ADP	_	_	_	_	_	_
+15	water	water	NOUN	_	_	_	_	_	_
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-014
+# text = Zijn achtergrond hielp hem om het gevaar te zien voordat de finale begon.
+1	Zijn	zijn	PRON	_	_	_	_	_	_
+2	achtergrond	achtergrond	NOUN	_	_	_	_	_	_
+3	hielp	helpen	VERB	_	_	_	_	_	_
+4	hem	hij	PRON	_	_	_	_	_	_
+5	om	om	ADP	_	_	_	_	_	_
+6	het	het	DET	_	_	_	_	_	_
+7	gevaar	gevaar	NOUN	_	_	_	_	_	_
+8	te	te	PART	_	_	_	_	_	_
+9	zien	zien	VERB	_	_	_	_	_	_
+10	voordat	voordat	SCONJ	_	_	_	_	_	_
+11	de	de	DET	_	_	_	_	_	_
+12	finale	finale	NOUN	_	_	_	_	_	_
+13	begon	beginnen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-015
+# text = De groene premier besprak de inhoud van het nieuwe wetontwerp tijdens de vergadering.
+1	De	de	DET	_	_	_	_	_	_
+2	groene	groen	ADJ	_	_	_	_	_	_
+3	premier	premier	NOUN	_	_	_	_	_	_
+4	besprak	bespreken	VERB	_	_	_	_	_	_
+5	de	de	DET	_	_	_	_	_	_
+6	inhoud	inhoud	NOUN	_	_	_	_	_	_
+7	van	van	ADP	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	nieuwe	nieuw	ADJ	_	_	_	_	_	_
+10	wetontwerp	wetontwerp	NOUN	_	_	_	_	_	_
+11	tijdens	tijdens	ADP	_	_	_	_	_	_
+12	de	de	DET	_	_	_	_	_	_
+13	vergadering	vergadering	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-016
+# text = De vereniging besluit om met minder risico te reizen.
+1	De	de	DET	_	_	_	_	_	_
+2	vereniging	vereniging	NOUN	_	_	_	_	_	_
+3	besluit	besluiten	VERB	_	_	_	_	_	_
+4	om	om	SCONJ	_	_	_	_	_	_
+5	met	met	ADP	_	_	_	_	_	_
+6	minder	weinig	ADJ	_	_	_	_	_	_
+7	risico	risico	NOUN	_	_	_	_	_	_
+8	te	te	PART	_	_	_	_	_	_
+9	reizen	reizen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-017
+# text = De commissie uit het westen neemt een belangrijk besluit.
+1	De	de	DET	_	_	_	_	_	_
+2	commissie	commissie	NOUN	_	_	_	_	_	_
+3	uit	uit	ADP	_	_	_	_	_	_
+4	het	het	DET	_	_	_	_	_	_
+5	westen	westen	NOUN	_	_	_	_	_	_
+6	neemt	nemen	VERB	_	_	_	_	_	_
+7	een	een	DET	_	_	_	_	_	_
+8	belangrijk	belangrijk	ADJ	_	_	_	_	_	_
+9	besluit	besluit	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-018
+# text = Daardoor wordt de favoriete kandidaat gekozen om het evenement te organiseren.
+1	Daardoor	daardoor	ADV	_	_	_	_	_	_
+2	wordt	worden	AUX	_	_	_	_	_	_
+3	de	de	DET	_	_	_	_	_	_
+4	favoriete	favoriet	ADJ	_	_	_	_	_	_
+5	kandidaat	kandidaat	NOUN	_	_	_	_	_	_
+6	gekozen	kiezen	VERB	_	_	_	_	_	_
+7	om	om	SCONJ	_	_	_	_	_	_
+8	het	het	DET	_	_	_	_	_	_
+9	evenement	evenement	NOUN	_	_	_	_	_	_
+10	te	te	PART	_	_	_	_	_	_
+11	organiseren	organiseren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = handcraft-nl-b1-019
+# text = We richten ons hierbij op de gouden medailles.
+1	We	wij	PRON	_	_	_	_	_	_
+2	richten	richten	VERB	_	_	_	_	_	_
+3	ons	ons	PRON	_	_	_	_	_	_
+4	hierbij	hierbij	ADV	_	_	_	_	_	_
+5	op	op	ADP	_	_	_	_	_	_
+6	de	de	DET	_	_	_	_	_	_
+7	gouden	gouden	ADJ	_	_	_	_	_	_
+8	medailles	medaille	NOUN	_	_	_	_	_	_
 9	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = handcraft-nl-b1-020
-# text = Als we harder hadden gestudeerd, zouden we geslaagd zijn.
-1	Als	als	SCONJ	_	_	_	_	_	_
-2	we	we	PRON	_	_	_	_	_	_
-3	harder	hard	ADV	_	_	_	_	_	_
-4	hadden	hebben	AUX	_	_	_	_	_	_
-5	gestudeerd	studeren	VERB	_	_	_	_	_	_
-6	,	,	PUNCT	_	_	_	_	_	_
-7	zouden	zullen	AUX	_	_	_	_	_	_
-8	we	we	PRON	_	_	_	_	_	_
-9	geslaagd	slagen	VERB	_	_	_	_	_	_
-10	zijn	zijn	AUX	_	_	_	_	_	_
-11	.	.	PUNCT	_	_	_	_	_	_
-
+# text = Deze ochtend maakte hij een lastige indruk.
+1	Deze	deze	DET	_	_	_	_	_	_
+2	ochtend	ochtend	NOUN	_	_	_	_	_	_
+3	maakte	maken	VERB	_	_	_	_	_	_
+4	hij	hij	PRON	_	_	_	_	_	_
+5	een	een	DET	_	_	_	_	_	_
+6	lastige	lastig	ADJ	_	_	_	_	_	_
+7	indruk	indruk	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
