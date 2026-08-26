@@ -20,6 +20,13 @@ import onnxruntime as ort
 from transformers import AutoTokenizer
 
 from lemmatizer.data.conllu import read_conllu
+from lemmatizer.data.edit_trees import apply_edit_label
+from lemmatizer.eval.zh_char_utils import (
+    MAX_LENGTH,
+    _build_char_layout,
+    _decode_char_labels,
+    label_to_upos,
+)
 
 EUROBERT_PATH = os.path.expanduser(
     "~/.cache/huggingface/hub/models--EuroBERT--EuroBERT-210m/"
@@ -73,13 +80,6 @@ LANG_CONFIGS = {
 }
 
 IDENTITY_UPOS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
-MAX_LENGTH = 256
-
-
-def label_to_upos(label: str) -> str:
-    if label.startswith("B-") or label.startswith("I-"):
-        return label[2:]
-    return "X"
 
 
 def load_label_maps(lang: str) -> tuple[dict, dict, dict, dict]:
@@ -147,7 +147,6 @@ def _apply_edit_tree_prediction(
     """Try edit-tree labels to predict a lemma. Return applied lemma or None."""
     if token_idx is None or token_idx >= lemma_logits.shape[1]:
         return None
-    from lemmatizer.data.edit_trees import apply_edit_label
 
     row = lemma_logits[0][token_idx]
     valid = row[candidate_ids]
@@ -185,7 +184,7 @@ def _resolve_lemma_multitask(
         return edit_result if edit_result is not None else word
     entry = lexicon[word]
     if isinstance(entry, dict):
-        return entry.get(gold_pos, next(iter(entry.values())))
+        return entry.get(gold_pos, word)
     return entry
 
 
@@ -312,29 +311,6 @@ def eval_multitask(lang: str, sentences: list) -> dict:
 # --- eval_zh helpers ---
 
 
-def _build_zh_char_offsets(words: list) -> tuple[list, list]:
-    """Flatten words into chars and record each word's start offset."""
-    chars = []
-    word_offsets = []
-    for w in words:
-        word_offsets.append(len(chars))
-        chars.extend(list(w))
-    return chars, word_offsets
-
-
-def _build_zh_char_labels(word_ids: list, preds: np.ndarray, n_chars: int) -> list:
-    """Map token-level predictions to character-level labels."""
-    char_label = [None] * n_chars
-    prev_wid = None
-    for ti, wid in enumerate(word_ids):
-        if wid is None or wid == prev_wid:
-            continue
-        prev_wid = wid
-        if wid < n_chars and ti < len(preds):
-            char_label[wid] = int(preds[ti])
-    return char_label
-
-
 def _predict_zh_upos(char_label: list, offset: int, id2label: dict) -> str:
     """Predict UPOS from character-level label, or 'X' if unknown."""
     if char_label[offset] is not None:
@@ -386,7 +362,7 @@ def eval_zh(sentences: list) -> dict:
         gold_lemmas = sent["lemmas"]
         gold_upos = sent["upos"]
 
-        chars, word_offsets = _build_zh_char_offsets(words)
+        chars, word_offsets = _build_char_layout(words)
         n_chars = min(len(chars), MAX_LENGTH - 2)
         encoding = tokenizer(
             chars[:n_chars],
@@ -400,8 +376,7 @@ def eval_zh(sentences: list) -> dict:
         outputs = sess.run(None, {"input_ids": input_ids, "attention_mask": attention_mask})
         preds = np.argmax(outputs[0], axis=-1)[0]
 
-        word_ids = encoding.word_ids()
-        char_label = _build_zh_char_labels(word_ids, preds, n_chars)
+        char_label = _decode_char_labels(encoding, preds, n_chars)
 
         for i, (word, gold_lemma, gold_pos) in enumerate(
             zip(words, gold_lemmas, gold_upos, strict=True)

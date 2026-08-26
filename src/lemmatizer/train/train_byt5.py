@@ -523,7 +523,7 @@ def _run_epoch_and_record(
         optimizer,
         epoch,
         upos_weight=upos_weight,
-        seed=opts.seed,
+        seed=opts.seed + epoch,
     )
     metrics = {
         "epoch": epoch,

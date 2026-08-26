@@ -426,7 +426,7 @@ def _run_finetune_curriculum(
     for epoch in range(1, epochs + 1):
         best_val_acc = _run_epoch(
             model, current_train, train_data, val_data, opts.batch_size,
-            optimizer, epoch, output_dir, best_val_acc, results, seed=opts.seed,
+            optimizer, epoch, output_dir, best_val_acc, results, seed=opts.seed + epoch,
         )
         if epoch < epochs:
             current_train, current_val = _grow_curriculum_pools(
@@ -448,7 +448,7 @@ def _run_finetune_standard(
     for epoch in range(1, int(opts.epochs) + 1):
         best_val_acc = _run_epoch(
             model, train_data, train_data, val_data, opts.batch_size,
-            optimizer, epoch, output_dir, best_val_acc, results, seed=opts.seed,
+            optimizer, epoch, output_dir, best_val_acc, results, seed=opts.seed + epoch,
         )
 
 
