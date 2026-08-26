@@ -67,27 +67,47 @@ def _parse_kv(value: str) -> dict[str, str]:
     """Parse a 'key=value,key=value' string into a dict."""
     if not value:
         return {}
-    return {k: v for item in value.split(",") for k, v in [item.split("=", 1)]}
+    result: dict[str, str] = {}
+    for item in value.split(","):
+        if "=" not in item:
+            raise typer.BadParameter(
+                f"Expected key=value, got '{item.strip()}'"
+            )
+        k, v = item.split("=", 1)
+        result[k.strip()] = v.strip()
+    return result
 
 
 def _parse_lora(value: str) -> LoraOptions:
     d = _parse_kv(value)
-    return LoraOptions(rank=int(d.get("rank", 8)), alpha=float(d.get("alpha", 16.0)))
+    try:
+        return LoraOptions(
+            rank=int(d.get("rank", 8)), alpha=float(d.get("alpha", 16.0))
+        )
+    except ValueError as e:
+        raise typer.BadParameter(f"Invalid LoRA config: {e}") from e
 
 
 def _parse_unfreeze(value: str) -> UnfreezeOptions:
     d = _parse_kv(value)
-    return UnfreezeOptions(
-        encoder=d.get("encoder", "false").lower() in ("true", "1", "yes"),
-        last_n=int(d.get("last_n", 0)),
-    )
+    try:
+        return UnfreezeOptions(
+            encoder=d.get("encoder", "false").lower() in ("true", "1", "yes"),
+            last_n=int(d.get("last_n", 0)),
+        )
+    except ValueError as e:
+        raise typer.BadParameter(f"Invalid unfreeze config: {e}") from e
 
 
 def _parse_row_limits(value: str) -> RowLimitOptions:
     d = _parse_kv(value)
-    return RowLimitOptions(
-        max_train=int(d.get("max_train", 0)), max_val=int(d.get("max_val", 0))
-    )
+    try:
+        return RowLimitOptions(
+            max_train=int(d.get("max_train", 0)),
+            max_val=int(d.get("max_val", 0)),
+        )
+    except ValueError as e:
+        raise typer.BadParameter(f"Invalid row-limits config: {e}") from e
 
 
 @app.command("fetch-ud")

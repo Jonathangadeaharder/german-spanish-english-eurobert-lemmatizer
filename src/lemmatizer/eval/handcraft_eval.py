@@ -104,6 +104,7 @@ def _find_token_index(word_ids: list, word_id: int) -> int | None:
     for ti, wid in enumerate(word_ids):
         if wid is not None and wid == word_id and wid != prev_wid:
             return ti
+        prev_wid = wid
     return None
 
 
@@ -163,16 +164,6 @@ def _apply_edit_tree_prediction(
     return None
 
 
-def _lexicon_lookup(word: str, lexicon: dict, gold_pos: str, dict_default: str) -> str:
-    """Return lexicon entry for word, or word if not found."""
-    if word not in lexicon:
-        return word
-    entry = lexicon[word]
-    if isinstance(entry, dict):
-        return entry.get(gold_pos, dict_default)
-    return entry
-
-
 def _resolve_lemma_multitask(
     word: str,
     token_idx: int | None,
@@ -186,20 +177,16 @@ def _resolve_lemma_multitask(
     edit_result = _apply_edit_tree_prediction(
         word, token_idx, lemma_logits, candidate_ids, id2label
     )
-    if edit_result is not None:
+    if edit_result is not None and edit_result != word:
         return edit_result
 
-    if token_idx is not None and token_idx < lemma_logits.shape[1]:
-        # Edit tree attempted but produced nothing; lexicon fallback
-        if word not in lexicon:
-            return word
-        entry = lexicon[word]
-        if isinstance(entry, dict):
-            return entry.get(gold_pos, next(iter(entry.values())))
-        return entry
-
-    # No valid token; identity with lexicon fallback
-    return _lexicon_lookup(word, lexicon, gold_pos, word)
+    # Edit tree gave identity or nothing → lexicon fallback
+    if word not in lexicon:
+        return edit_result if edit_result is not None else word
+    entry = lexicon[word]
+    if isinstance(entry, dict):
+        return entry.get(gold_pos, next(iter(entry.values())))
+    return entry
 
 
 def _process_multitask_word(

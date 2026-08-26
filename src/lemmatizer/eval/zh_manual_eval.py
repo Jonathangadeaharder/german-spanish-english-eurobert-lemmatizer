@@ -22,7 +22,6 @@ from transformers import AutoTokenizer
 
 from lemmatizer.data.conllu import read_conllu
 from lemmatizer.eval.zh_char_utils import (
-    MAX_LENGTH,
     _predict_sentence_chars,
     label_to_upos,
 )
@@ -118,7 +117,7 @@ def _process_sentence(
     char_label, word_start_offsets = _predict_sentence_chars(
         tokenizer, model, gold_words, sent_idx
     )
-    n_chars = min(sum(len(w) for w in gold_words), MAX_LENGTH - 2)
+    n_chars = len(char_label)
 
     _score_sentence(
         gold_words, gold_lemmas, gold_upos, word_start_offsets,

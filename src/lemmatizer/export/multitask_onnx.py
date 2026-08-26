@@ -102,7 +102,7 @@ def merge_lora_weights(
     # Collect LoRA pairs: layers.{i}.{q,k,v,o}_proj.lora_{a,b}
     lora_pairs: dict[str, dict[str, np.ndarray]] = {}
     for key in list(weights.keys()):
-        m = re.match(r"layers\.(\d+)\.(q_proj|k_proj|v_proj|o_proj)\.lora_[ab]", key)
+        m = re.match(r"layers\.(\d+)\.(q_proj|k_proj|v_proj|o_proj)\.lora_([ab])", key)
         if m:
             layer_idx, proj, ab = m.groups()
             base = f"layers.{layer_idx}.{proj}"

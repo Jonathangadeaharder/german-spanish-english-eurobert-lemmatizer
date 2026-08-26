@@ -387,7 +387,7 @@ def main() -> None:
 
             for word_offset, (word, gold_lemma) in enumerate(zip(words, lemmas, strict=True)):
                 word_id = first_word_id + word_offset
-                ctx = TreebankContext(
+                tb_ctx = TreebankContext(
                     gold_upos=gold_upos,
                     predicted_upos_by_word=predicted_upos_by_word,
                     raw_labels_by_word=raw_labels_by_word,
@@ -401,7 +401,7 @@ def main() -> None:
                     stats=stats,
                 )
                 _process_treebank_word(
-                    word, gold_lemma, word_offset, word_id, ctx,
+                    word, gold_lemma, word_offset, word_id, tb_ctx,
                 )
 
     ctx.backend.close()
