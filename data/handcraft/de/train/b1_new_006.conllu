@@ -1,0 +1,2793 @@
+# sent_id = de_b1_train_305
+# text = Wenn ich Zeit hätte, würde ich ein Buch lesen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	Zeit	Zeit	NOUN	_	_	_	_	_	_
+4	hätte	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	würde	werden	AUX	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	ein	ein	DET	_	_	_	_	_	_
+9	Buch	Buch	NOUN	_	_	_	_	_	_
+10	lesen	lesen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_306
+# text = Der Brief, der gestern angekommen ist, liegt auf dem Tisch.
+1	Der	der	DET	_	_	_	_	_	_
+2	Brief	Brief	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	gestern	gestern	ADV	_	_	_	_	_	_
+6	angekommen	ankommen	VERB	_	_	_	_	_	_
+7	ist	sein	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	liegt	liegen	VERB	_	_	_	_	_	_
+10	auf	auf	ADP	_	_	_	_	_	_
+11	dem	der	DET	_	_	_	_	_	_
+12	Tisch	Tisch	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_307
+# text = Weil es stark geregnet hat, sind die Straßen nass.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	stark	stark	ADV	_	_	_	_	_	_
+4	geregnet	regnen	VERB	_	_	_	_	_	_
+5	hat	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	sind	sein	AUX	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Straßen	Straße	NOUN	_	_	_	_	_	_
+10	nass	nass	ADJ	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_308
+# text = Die Aufgabe muss bis morgen erledigt werden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+3	muss	müssen	AUX	_	_	_	_	_	_
+4	bis	bis	ADP	_	_	_	_	_	_
+5	morgen	morgen	ADV	_	_	_	_	_	_
+6	erledigt	erledigen	VERB	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_309
+# text = Ich habe gehört, dass du nach Berlin fährst.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	gehört	hören	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	du	du	PRON	_	_	_	_	_	_
+7	nach	nach	ADP	_	_	_	_	_	_
+8	Berlin	Berlin	PROPN	_	_	_	_	_	_
+9	fährst	fahren	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_310
+# text = Obwohl der Zug Verspätung hatte, kamen wir pünktlich an.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Zug	Zug	NOUN	_	_	_	_	_	_
+4	Verspätung	Verspätung	NOUN	_	_	_	_	_	_
+5	hatte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	kamen	kommen	VERB	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	pünktlich	pünktlich	ADJ	_	_	_	_	_	_
+10	an	an	PART	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_311
+# text = Der Student, den ich getroffen habe, studiert Medizin.
+1	Der	der	DET	_	_	_	_	_	_
+2	Student	Student	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	getroffen	treffen	VERB	_	_	_	_	_	_
+7	habe	haben	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	studiert	studieren	VERB	_	_	_	_	_	_
+10	Medizin	Medizin	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_312
+# text = Sie hat sich sehr über das Geschenk gefreut.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	über	über	ADP	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Geschenk	Geschenk	NOUN	_	_	_	_	_	_
+8	gefreut	freuen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_313
+# text = Das Haus, dessen Dach repariert werden muss, ist sehr alt.
+1	Das	der	DET	_	_	_	_	_	_
+2	Haus	Haus	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dessen	dessen	PRON	_	_	_	_	_	_
+5	Dach	Dach	NOUN	_	_	_	_	_	_
+6	repariert	reparieren	VERB	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	muss	müssen	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	ist	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	alt	alt	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_314
+# text = Wir werden morgen nach Spanien reisen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	werden	werden	AUX	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	Spanien	Spanien	PROPN	_	_	_	_	_	_
+6	reisen	reisen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_315
+# text = Er hat mir gesagt, dass er krank ist.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	gesagt	sagen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	krank	krank	ADJ	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_316
+# text = Die Kinder spielen auf dem Spielplatz, während die Eltern auf einer Bank sitzen.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	spielen	spielen	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Spielplatz	Spielplatz	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	während	während	SCONJ	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Eltern	Eltern	NOUN	_	_	_	_	_	_
+11	auf	auf	ADP	_	_	_	_	_	_
+12	einer	ein	DET	_	_	_	_	_	_
+13	Bank	Bank	NOUN	_	_	_	_	_	_
+14	sitzen	sitzen	VERB	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_317
+# text = Ich möchte wissen, ob morgen Deutschunterricht stattfindet.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	möchte	mögen	AUX	_	_	_	_	_	_
+3	wissen	wissen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	morgen	morgen	ADV	_	_	_	_	_	_
+7	Deutschunterricht	Deutschunterricht	NOUN	_	_	_	_	_	_
+8	stattfindet	stattfinden	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_318
+# text = Das Auto wurde vor drei Jahren gekauft.
+1	Das	der	DET	_	_	_	_	_	_
+2	Auto	Auto	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	vor	vor	ADP	_	_	_	_	_	_
+5	drei	drei	NUM	_	_	_	_	_	_
+6	Jahren	Jahr	NOUN	_	_	_	_	_	_
+7	gekauft	kaufen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_319
+# text = Kannst du mir helfen, die Koffer zu tragen?
+1	Kannst	können	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	helfen	helfen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Koffer	Koffer	NOUN	_	_	_	_	_	_
+8	zu	zu	PART	_	_	_	_	_	_
+9	tragen	tragen	VERB	_	_	_	_	_	_
+10	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_320
+# text = Sie ist die Frau, die das Buch geschrieben hat.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Frau	Frau	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	die	der	PRON	_	_	_	_	_	_
+7	das	der	DET	_	_	_	_	_	_
+8	Buch	Buch	NOUN	_	_	_	_	_	_
+9	geschrieben	schreiben	VERB	_	_	_	_	_	_
+10	hat	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_321
+# text = Ich hatte das Buch schon gelesen, bevor der Film herauskam.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hatte	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Buch	Buch	NOUN	_	_	_	_	_	_
+5	schon	schon	ADV	_	_	_	_	_	_
+6	gelesen	lesen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bevor	bevor	SCONJ	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Film	Film	NOUN	_	_	_	_	_	_
+11	herauskam	herauskommen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_322
+# text = Wir müssen uns beeilen, damit wir den Zug nicht verpassen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	müssen	müssen	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	beeilen	beeilen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	damit	damit	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Zug	Zug	NOUN	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	verpassen	verpassen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_323
+# text = Nachdem er gegessen hatte, ging er spazieren.
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	gegessen	essen	VERB	_	_	_	_	_	_
+4	hatte	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	ging	gehen	VERB	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	spazieren	spazieren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_324
+# text = Der Lehrer, dem ich eine E-Mail geschrieben habe, hat geantwortet.
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dem	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	eine	ein	DET	_	_	_	_	_	_
+7	E-Mail	E-Mail	NOUN	_	_	_	_	_	_
+8	geschrieben	schreiben	VERB	_	_	_	_	_	_
+9	habe	haben	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	hat	haben	AUX	_	_	_	_	_	_
+12	geantwortet	antworten	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_325
+# text = Es ist wichtig, jeden Tag etwas Neues zu lernen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	jeden	jed	DET	_	_	_	_	_	_
+6	Tag	Tag	NOUN	_	_	_	_	_	_
+7	etwas	etwas	PRON	_	_	_	_	_	_
+8	Neues	neu	ADJ	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	lernen	lernen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_326
+# text = Die Hausaufgaben wurden von allen Schülern gemacht.
+1	Die	der	DET	_	_	_	_	_	_
+2	Hausaufgaben	Hausaufgabe	NOUN	_	_	_	_	_	_
+3	wurden	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	allen	all	DET	_	_	_	_	_	_
+6	Schülern	Schüler	NOUN	_	_	_	_	_	_
+7	gemacht	machen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_327
+# text = Wenn das Wetter schön ist, gehen wir schwimmen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	schön	schön	ADJ	_	_	_	_	_	_
+5	ist	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	gehen	gehen	VERB	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	schwimmen	schwimmen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_328
+# text = Ich habe mich gefreut, dich wiederzusehen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	gefreut	freuen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dich	du	PRON	_	_	_	_	_	_
+7	wiederzusehen	wiedersehen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_329
+# text = Er nimmt das Buch, das auf dem Tisch liegt.
+1	Er	er	PRON	_	_	_	_	_	_
+2	nimmt	nehmen	VERB	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Buch	Buch	NOUN	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	das	der	PRON	_	_	_	_	_	_
+7	auf	auf	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Tisch	Tisch	NOUN	_	_	_	_	_	_
+10	liegt	liegen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_330
+# text = Wir haben beschlossen, das Wochenende zu verbringen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	beschlossen	beschließen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Wochenende	Wochenende	NOUN	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	verbringen	verbringen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_331
+# text = Die Frau, die dort steht, ist meine Deutschlehrerin.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frau	Frau	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	dort	dort	ADV	_	_	_	_	_	_
+6	steht	stehen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	ist	sein	AUX	_	_	_	_	_	_
+9	meine	mein	DET	_	_	_	_	_	_
+10	Deutschlehrerin	Deutschlehrerin	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_332
+# text = Ich konnte gestern nicht einschlafen, weil es zu laut war.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	konnte	können	AUX	_	_	_	_	_	_
+3	gestern	gestern	ADV	_	_	_	_	_	_
+4	nicht	nicht	PART	_	_	_	_	_	_
+5	einschlafen	einschlafen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	weil	weil	SCONJ	_	_	_	_	_	_
+8	es	es	PRON	_	_	_	_	_	_
+9	zu	zu	ADV	_	_	_	_	_	_
+10	laut	laut	ADJ	_	_	_	_	_	_
+11	war	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_333
+# text = Das Museum kann täglich besucht werden.
+1	Das	der	DET	_	_	_	_	_	_
+2	Museum	Museum	NOUN	_	_	_	_	_	_
+3	kann	können	AUX	_	_	_	_	_	_
+4	täglich	täglich	ADV	_	_	_	_	_	_
+5	besucht	besuchen	VERB	_	_	_	_	_	_
+6	werden	werden	AUX	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_334
+# text = Sie hat sich die Hände gewaschen, bevor sie kochte.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Hände	Hand	NOUN	_	_	_	_	_	_
+6	gewaschen	waschen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bevor	bevor	SCONJ	_	_	_	_	_	_
+9	sie	sie	PRON	_	_	_	_	_	_
+10	kochte	kochen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_335
+# text = Der Film, den wir gestern gesehen haben, war sehr spannend.
+1	Der	der	DET	_	_	_	_	_	_
+2	Film	Film	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	gestern	gestern	ADV	_	_	_	_	_	_
+7	gesehen	sehen	VERB	_	_	_	_	_	_
+8	haben	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	spannend	spannend	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_336
+# text = Ich würde gern nach Japan reisen, wenn ich das Geld dafür hätte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	würde	werden	AUX	_	_	_	_	_	_
+3	gern	gern	ADV	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	Japan	Japan	PROPN	_	_	_	_	_	_
+6	reisen	reisen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wenn	wenn	SCONJ	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	das	der	DET	_	_	_	_	_	_
+11	Geld	Geld	NOUN	_	_	_	_	_	_
+12	dafür	dafür	ADV	_	_	_	_	_	_
+13	hätte	haben	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_337
+# text = Sobald der Bus ankam, stiegen die Fahrgäste aus.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	der	der	DET	_	_	_	_	_	_
+3	Bus	Bus	NOUN	_	_	_	_	_	_
+4	ankam	ankommen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	stiegen	steigen	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Fahrgäste	Fahrgast	NOUN	_	_	_	_	_	_
+9	aus	aus	PART	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_338
+# text = Man muss die Rechnung bis Freitag bezahlen.
+1	Man	man	PRON	_	_	_	_	_	_
+2	muss	müssen	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+5	bis	bis	ADP	_	_	_	_	_	_
+6	Freitag	Freitag	PROPN	_	_	_	_	_	_
+7	bezahlen	bezahlen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_339
+# text = Die Kinder, die in dem Garten spielen, sind sehr glücklich.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Garten	Garten	NOUN	_	_	_	_	_	_
+8	spielen	spielen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	sind	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	glücklich	glücklich	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_340
+# text = Er hat versprochen, pünktlich zu kommen.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	versprochen	versprechen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	pünktlich	pünktlich	ADJ	_	_	_	_	_	_
+6	zu	zu	PART	_	_	_	_	_	_
+7	kommen	kommen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_341
+# text = Während ich koche, kannst du den Tisch decken.
+1	Während	während	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	koche	kochen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	kannst	können	AUX	_	_	_	_	_	_
+6	du	du	PRON	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Tisch	Tisch	NOUN	_	_	_	_	_	_
+9	decken	decken	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_342
+# text = Das Buch, das ich lesen wollte, war schon ausgeliehen.
+1	Das	der	DET	_	_	_	_	_	_
+2	Buch	Buch	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	lesen	lesen	VERB	_	_	_	_	_	_
+7	wollte	wollen	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	war	sein	AUX	_	_	_	_	_	_
+10	schon	schon	ADV	_	_	_	_	_	_
+11	ausgeliehen	ausleihen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_343
+# text = Ich freue mich darauf, dich bald wiederzusehen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	freue	freuen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	darauf	darauf	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dich	du	PRON	_	_	_	_	_	_
+7	bald	bald	ADV	_	_	_	_	_	_
+8	wiederzusehen	wiedersehen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_344
+# text = Der Hund, der den ganzen Tag gebellt hat, ist endlich müde.
+1	Der	der	DET	_	_	_	_	_	_
+2	Hund	Hund	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	ganzen	ganz	ADJ	_	_	_	_	_	_
+7	Tag	Tag	NOUN	_	_	_	_	_	_
+8	gebellt	bellen	VERB	_	_	_	_	_	_
+9	hat	haben	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	endlich	endlich	ADV	_	_	_	_	_	_
+13	müde	müde	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_345
+# text = Wir haben uns entschieden, nach Spanien zu ziehen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	entschieden	entscheiden	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	nach	nach	ADP	_	_	_	_	_	_
+7	Spanien	Spanien	PROPN	_	_	_	_	_	_
+8	zu	zu	PART	_	_	_	_	_	_
+9	ziehen	ziehen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_346
+# text = Die Aufgaben, die der Lehrer gegeben hat, waren nicht schwer.
+1	Die	der	DET	_	_	_	_	_	_
+2	Aufgaben	Aufgabe	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+7	gegeben	geben	VERB	_	_	_	_	_	_
+8	hat	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	waren	sein	AUX	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	schwer	schwer	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_347
+# text = Ich habe den Schlüssel verloren, mit dem ich die Tür öffnen wollte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Schlüssel	Schlüssel	NOUN	_	_	_	_	_	_
+5	verloren	verlieren	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	dem	der	PRON	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	die	der	DET	_	_	_	_	_	_
+11	Tür	Tür	NOUN	_	_	_	_	_	_
+12	öffnen	öffnen	VERB	_	_	_	_	_	_
+13	wollte	wollen	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_348
+# text = Sie wusste nicht, ob sie die Einladung annehmen sollte.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	wusste	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	sie	sie	PRON	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Einladung	Einladung	NOUN	_	_	_	_	_	_
+9	annehmen	annehmen	VERB	_	_	_	_	_	_
+10	sollte	sollen	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_349
+# text = Das Haus, in dem ich aufgewachsen bin, wurde verkauft.
+1	Das	der	DET	_	_	_	_	_	_
+2	Haus	Haus	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	dem	der	PRON	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	aufgewachsen	aufwachsen	VERB	_	_	_	_	_	_
+8	bin	sein	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	wurde	werden	AUX	_	_	_	_	_	_
+11	verkauft	verkaufen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_350
+# text = Er arbeitet so viel, dass er keine Zeit für Hobbys hat.
+1	Er	er	PRON	_	_	_	_	_	_
+2	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+3	so	so	ADV	_	_	_	_	_	_
+4	viel	viel	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	keine	kein	DET	_	_	_	_	_	_
+9	Zeit	Zeit	NOUN	_	_	_	_	_	_
+10	für	für	ADP	_	_	_	_	_	_
+11	Hobbys	Hobby	NOUN	_	_	_	_	_	_
+12	hat	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_351
+# text = Die Kinder mussten sich anstellen, bevor sie das Zimmer betreten durften.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	mussten	müssen	AUX	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	anstellen	anstellen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bevor	bevor	SCONJ	_	_	_	_	_	_
+8	sie	sie	PRON	_	_	_	_	_	_
+9	das	der	DET	_	_	_	_	_	_
+10	Zimmer	Zimmer	NOUN	_	_	_	_	_	_
+11	betreten	betreten	VERB	_	_	_	_	_	_
+12	durften	dürfen	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_352
+# text = Ich habe mir ein Fahrrad gekauft, das ich gestern online gesehen habe.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	ein	ein	DET	_	_	_	_	_	_
+5	Fahrrad	Fahrrad	NOUN	_	_	_	_	_	_
+6	gekauft	kaufen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	das	der	PRON	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	gestern	gestern	ADV	_	_	_	_	_	_
+11	online	online	ADV	_	_	_	_	_	_
+12	gesehen	sehen	VERB	_	_	_	_	_	_
+13	habe	haben	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_353
+# text = Weil die Straße gesperrt war, mussten wir einen Umweg fahren.
+1	Weil	weil	SCONJ	_	_	_	_	_	_
+2	die	der	DET	_	_	_	_	_	_
+3	Straße	Straße	NOUN	_	_	_	_	_	_
+4	gesperrt	sperren	VERB	_	_	_	_	_	_
+5	war	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	mussten	müssen	AUX	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	einen	ein	DET	_	_	_	_	_	_
+10	Umweg	Umweg	NOUN	_	_	_	_	_	_
+11	fahren	fahren	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_354
+# text = Der Brief, der auf dem Tisch liegt, muss noch beantwortet werden.
+1	Der	der	DET	_	_	_	_	_	_
+2	Brief	Brief	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Tisch	Tisch	NOUN	_	_	_	_	_	_
+8	liegt	liegen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	muss	müssen	AUX	_	_	_	_	_	_
+11	noch	noch	ADV	_	_	_	_	_	_
+12	beantwortet	beantworten	VERB	_	_	_	_	_	_
+13	werden	werden	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_355
+# text = Der Student , der im Wintersemester kam , hat seine Prüfung bestanden .
+1	Der	der	DET	_	_	_	_	_	_
+2	Student	Student	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	im	in	ADP	_	_	_	_	_	_
+6	Wintersemester	Wintersemester	NOUN	_	_	_	_	_	_
+7	kam	kommen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	hat	haben	AUX	_	_	_	_	_	_
+10	seine	sein	DET	_	_	_	_	_	_
+11	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+12	bestanden	bestehen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_356
+# text = Wenn das Wetter schön wäre , würden wir ins Schwimmbad gehen .
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	schön	schön	ADJ	_	_	_	_	_	_
+5	wäre	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würden	werden	AUX	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	ins	in	ADP	_	_	_	_	_	_
+10	Schwimmbad	Schwimmbad	NOUN	_	_	_	_	_	_
+11	gehen	gehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_357
+# text = Die Bücher , die du mir gegeben hast , waren sehr interessant .
+1	Die	der	DET	_	_	_	_	_	_
+2	Bücher	Buch	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	du	du	PRON	_	_	_	_	_	_
+6	mir	ich	PRON	_	_	_	_	_	_
+7	gegeben	geben	VERB	_	_	_	_	_	_
+8	hast	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	waren	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	interessant	interessant	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_358
+# text = Er hat sich gefreut , weil er eine gute Note bekommen hat .
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	gefreut	freuen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	weil	weil	SCONJ	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	eine	ein	DET	_	_	_	_	_	_
+9	gute	gut	ADJ	_	_	_	_	_	_
+10	Note	Note	NOUN	_	_	_	_	_	_
+11	bekommen	bekommen	VERB	_	_	_	_	_	_
+12	hat	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_359
+# text = Das Haus , dessen Dach repariert werden muss , ist sehr alt .
+1	Das	der	DET	_	_	_	_	_	_
+2	Haus	Haus	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dessen	dessen	PRON	_	_	_	_	_	_
+5	Dach	Dach	NOUN	_	_	_	_	_	_
+6	repariert	reparieren	VERB	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	muss	müssen	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	ist	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	alt	alt	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_360
+# text = Wir könnten ins Kino gehen , wenn wir Zeit hätten .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	könnten	können	AUX	_	_	_	_	_	_
+3	ins	in	ADP	_	_	_	_	_	_
+4	Kino	Kino	NOUN	_	_	_	_	_	_
+5	gehen	gehen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wenn	wenn	SCONJ	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	Zeit	Zeit	NOUN	_	_	_	_	_	_
+10	hätten	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_361
+# text = Die Frau , mit der ich gesprochen habe , arbeitet in einer Bank .
+1	Die	der	DET	_	_	_	_	_	_
+2	Frau	Frau	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	mit	mit	ADP	_	_	_	_	_	_
+5	der	der	PRON	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	gesprochen	sprechen	VERB	_	_	_	_	_	_
+8	habe	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+11	in	in	ADP	_	_	_	_	_	_
+12	einer	ein	DET	_	_	_	_	_	_
+13	Bank	Bank	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_362
+# text = Ich weiß nicht , ob er morgen zur Schule kommen wird .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	er	er	PRON	_	_	_	_	_	_
+7	morgen	morgen	ADV	_	_	_	_	_	_
+8	zur	zu	ADP	_	_	_	_	_	_
+9	Schule	Schule	NOUN	_	_	_	_	_	_
+10	kommen	kommen	VERB	_	_	_	_	_	_
+11	wird	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_363
+# text = Nachdem sie gefrühstückt hatte , ist sie zur Arbeit gefahren .
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	sie	sie	PRON	_	_	_	_	_	_
+3	gefrühstückt	frühstücken	VERB	_	_	_	_	_	_
+4	hatte	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	ist	sein	AUX	_	_	_	_	_	_
+7	sie	sie	PRON	_	_	_	_	_	_
+8	zur	zu	ADP	_	_	_	_	_	_
+9	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+10	gefahren	fahren	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_364
+# text = Das Auto wurde von einem Mechaniker repariert .
+1	Das	der	DET	_	_	_	_	_	_
+2	Auto	Auto	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	einem	ein	DET	_	_	_	_	_	_
+6	Mechaniker	Mechaniker	NOUN	_	_	_	_	_	_
+7	repariert	reparieren	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_365
+# text = Er hat gesagt , dass er müde ist und schlafen will .
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	gesagt	sagen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	er	er	PRON	_	_	_	_	_	_
+7	müde	müde	ADJ	_	_	_	_	_	_
+8	ist	sein	AUX	_	_	_	_	_	_
+9	und	und	CCONJ	_	_	_	_	_	_
+10	schlafen	schlafen	VERB	_	_	_	_	_	_
+11	will	wollen	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_366
+# text = Die Kinder spielen auf dem Spielplatz , der hinter der Schule liegt .
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	spielen	spielen	VERB	_	_	_	_	_	_
+4	auf	auf	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Spielplatz	Spielplatz	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	der	der	PRON	_	_	_	_	_	_
+9	hinter	hinter	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Schule	Schule	NOUN	_	_	_	_	_	_
+12	liegt	liegen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_367
+# text = Ich möchte wissen , wann der Zug ankommen wird .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	möchte	mögen	AUX	_	_	_	_	_	_
+3	wissen	wissen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wann	wann	ADV	_	_	_	_	_	_
+6	der	der	DET	_	_	_	_	_	_
+7	Zug	Zug	NOUN	_	_	_	_	_	_
+8	ankommen	ankommen	VERB	_	_	_	_	_	_
+9	wird	werden	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_368
+# text = Sie hat sich die Hände gewaschen , bevor sie aß .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Hände	Hand	NOUN	_	_	_	_	_	_
+6	gewaschen	waschen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bevor	bevor	SCONJ	_	_	_	_	_	_
+9	sie	sie	PRON	_	_	_	_	_	_
+10	aß	essen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_369
+# text = Wir müssen uns beeilen , damit wir den Bus nicht verpassen .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	müssen	müssen	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	beeilen	beeilen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	damit	damit	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Bus	Bus	NOUN	_	_	_	_	_	_
+10	nicht	nicht	PART	_	_	_	_	_	_
+11	verpassen	verpassen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_370
+# text = Der Lehrer , dessen Klasse wir besucht haben , ist sehr freundlich .
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	dessen	dessen	PRON	_	_	_	_	_	_
+5	Klasse	Klasse	NOUN	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	besucht	besuchen	VERB	_	_	_	_	_	_
+8	haben	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	ist	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	freundlich	freundlich	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_371
+# text = Ich hätte dir geholfen , wenn du mich gefragt hättest .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hätte	haben	AUX	_	_	_	_	_	_
+3	dir	du	PRON	_	_	_	_	_	_
+4	geholfen	helfen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wenn	wenn	SCONJ	_	_	_	_	_	_
+7	du	du	PRON	_	_	_	_	_	_
+8	mich	ich	PRON	_	_	_	_	_	_
+9	gefragt	fragen	VERB	_	_	_	_	_	_
+10	hättest	haben	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_372
+# text = Die Hausaufgaben müssen bis morgen gemacht werden .
+1	Die	der	DET	_	_	_	_	_	_
+2	Hausaufgaben	Hausaufgabe	NOUN	_	_	_	_	_	_
+3	müssen	müssen	AUX	_	_	_	_	_	_
+4	bis	bis	ADP	_	_	_	_	_	_
+5	morgen	morgen	ADV	_	_	_	_	_	_
+6	gemacht	machen	VERB	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_373
+# text = Er interessiert sich für Musik und spielt gern Gitarre .
+1	Er	er	PRON	_	_	_	_	_	_
+2	interessiert	interessieren	VERB	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	für	für	ADP	_	_	_	_	_	_
+5	Musik	Musik	NOUN	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	spielt	spielen	VERB	_	_	_	_	_	_
+8	gern	gern	ADV	_	_	_	_	_	_
+9	Gitarre	Gitarre	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_374
+# text = Wegen des Regens konnten wir nicht nach draußen gehen .
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	Regens	Regen	NOUN	_	_	_	_	_	_
+4	konnten	können	AUX	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	nicht	nicht	PART	_	_	_	_	_	_
+7	nach	nach	ADP	_	_	_	_	_	_
+8	draußen	draußen	ADV	_	_	_	_	_	_
+9	gehen	gehen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_375
+# text = Das Museum , das wir gestern besucht haben , war beeindruckend .
+1	Das	der	DET	_	_	_	_	_	_
+2	Museum	Museum	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	gestern	gestern	ADV	_	_	_	_	_	_
+7	besucht	besuchen	VERB	_	_	_	_	_	_
+8	haben	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	beeindruckend	beeindruckend	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_376
+# text = Sie wird nächstes Jahr nach Deutschland reisen , um Deutsch zu lernen .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	nächstes	nah	ADJ	_	_	_	_	_	_
+4	Jahr	Jahr	NOUN	_	_	_	_	_	_
+5	nach	nach	ADP	_	_	_	_	_	_
+6	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+7	reisen	reisen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	um	um	SCONJ	_	_	_	_	_	_
+10	Deutsch	Deutsch	PROPN	_	_	_	_	_	_
+11	zu	zu	PART	_	_	_	_	_	_
+12	lernen	lernen	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_377
+# text = Kannst du mir sagen , wo die nächste Post ist .
+1	Kannst	können	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	sagen	sagen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wo	wo	ADV	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	nächste	nah	ADJ	_	_	_	_	_	_
+9	Post	Post	NOUN	_	_	_	_	_	_
+10	ist	sein	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_378
+# text = Der Zug fährt um acht Uhr ab und kommt um zehn Uhr an .
+1	Der	der	DET	_	_	_	_	_	_
+2	Zug	Zug	NOUN	_	_	_	_	_	_
+3	fährt	abfahren	VERB	_	_	_	_	_	_
+4	um	um	ADP	_	_	_	_	_	_
+5	acht	acht	NUM	_	_	_	_	_	_
+6	Uhr	Uhr	NOUN	_	_	_	_	_	_
+7	ab	ab	VERB	_	_	_	_	_	_
+8	und	und	CCONJ	_	_	_	_	_	_
+9	kommt	ankommen	VERB	_	_	_	_	_	_
+10	um	um	ADP	_	_	_	_	_	_
+11	zehn	zehn	NUM	_	_	_	_	_	_
+12	Uhr	Uhr	NOUN	_	_	_	_	_	_
+13	an	an	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_379
+# text = Ich habe versucht , dich anzurufen , aber du warst nicht zu Hause .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	versucht	versuchen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dich	du	PRON	_	_	_	_	_	_
+6	anzurufen	anrufen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	aber	aber	CCONJ	_	_	_	_	_	_
+9	du	du	PRON	_	_	_	_	_	_
+10	warst	sein	AUX	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	zu	zu	PART	_	_	_	_	_	_
+13	Hause	Haus	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_380
+# text = Obwohl es kalt war , sind wir im See geschwommen .
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	kalt	kalt	ADJ	_	_	_	_	_	_
+4	war	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	sind	sein	AUX	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	im	in	ADP	_	_	_	_	_	_
+9	See	See	NOUN	_	_	_	_	_	_
+10	geschwommen	schwimmen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_381
+# text = Die Studenten , die der Professor unterstützt hat , haben die Prüfung bestanden .
+1	Die	der	DET	_	_	_	_	_	_
+2	Studenten	Student	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Professor	Professor	NOUN	_	_	_	_	_	_
+7	unterstützt	unterstützen	VERB	_	_	_	_	_	_
+8	hat	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	haben	haben	AUX	_	_	_	_	_	_
+11	die	der	DET	_	_	_	_	_	_
+12	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+13	bestanden	bestehen	VERB	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_382
+# text = Es ist wichtig , jeden Tag etwas Neues zu lernen .
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	jeden	jed	DET	_	_	_	_	_	_
+6	Tag	Tag	NOUN	_	_	_	_	_	_
+7	etwas	etwas	PRON	_	_	_	_	_	_
+8	Neues	neu	ADJ	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	lernen	lernen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_383
+# text = Wenn ich du wäre , würde ich einen Arzt rufen .
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	du	du	PRON	_	_	_	_	_	_
+4	wäre	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	würde	werden	AUX	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	einen	ein	DET	_	_	_	_	_	_
+9	Arzt	Arzt	NOUN	_	_	_	_	_	_
+10	rufen	rufen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_384
+# text = Das Buch , das auf dem Tisch liegt , gehört meinem Bruder .
+1	Das	der	DET	_	_	_	_	_	_
+2	Buch	Buch	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Tisch	Tisch	NOUN	_	_	_	_	_	_
+8	liegt	liegen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	gehört	gehören	VERB	_	_	_	_	_	_
+11	meinem	mein	DET	_	_	_	_	_	_
+12	Bruder	Bruder	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_385
+# text = Sie hat sich dafür entschieden , ein neues Auto zu kaufen .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	dafür	dafür	ADV	_	_	_	_	_	_
+5	entschieden	entscheiden	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	ein	ein	DET	_	_	_	_	_	_
+8	neues	neu	ADJ	_	_	_	_	_	_
+9	Auto	Auto	NOUN	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	kaufen	kaufen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_386
+# text = Während er kochte , hat sie den Tisch gedeckt .
+1	Während	während	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	kochte	kochen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	hat	haben	AUX	_	_	_	_	_	_
+6	sie	sie	PRON	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Tisch	Tisch	NOUN	_	_	_	_	_	_
+9	gedeckt	decken	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_387
+# text = Die Aufgabe kann von jedem Schüler gelöst werden .
+1	Die	der	DET	_	_	_	_	_	_
+2	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+3	kann	können	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	jedem	jed	DET	_	_	_	_	_	_
+6	Schüler	Schüler	NOUN	_	_	_	_	_	_
+7	gelöst	lösen	VERB	_	_	_	_	_	_
+8	werden	werden	AUX	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_388
+# text = Ich habe mir einen Film angesehen und danach ein Buch gelesen .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	einen	ein	DET	_	_	_	_	_	_
+5	Film	Film	NOUN	_	_	_	_	_	_
+6	angesehen	ansehen	VERB	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	danach	danach	ADV	_	_	_	_	_	_
+9	ein	ein	DET	_	_	_	_	_	_
+10	Buch	Buch	NOUN	_	_	_	_	_	_
+11	gelesen	lesen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_389
+# text = Der Bus , mit dem wir gefahren sind , war sehr voll .
+1	Der	der	DET	_	_	_	_	_	_
+2	Bus	Bus	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	mit	mit	ADP	_	_	_	_	_	_
+5	dem	der	PRON	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	gefahren	fahren	VERB	_	_	_	_	_	_
+8	sind	sein	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	voll	voll	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_390
+# text = Er hat die Rechnung schon bezahlt , obwohl er wenig Geld hat .
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+5	schon	schon	ADV	_	_	_	_	_	_
+6	bezahlt	bezahlen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	obwohl	obwohl	SCONJ	_	_	_	_	_	_
+9	er	er	PRON	_	_	_	_	_	_
+10	wenig	wenig	ADJ	_	_	_	_	_	_
+11	Geld	Geld	NOUN	_	_	_	_	_	_
+12	hat	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_391
+# text = Wir werden uns bemühen , pünktlich zu sein .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	werden	werden	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	bemühen	bemühen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	pünktlich	pünktlich	ADJ	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	sein	sein	AUX	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_392
+# text = Das Kind , das dort spielt , wohnt seit einem Jahr hier .
+1	Das	der	DET	_	_	_	_	_	_
+2	Kind	Kind	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	dort	dort	ADV	_	_	_	_	_	_
+6	spielt	spielen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wohnt	wohnen	VERB	_	_	_	_	_	_
+9	seit	seit	ADP	_	_	_	_	_	_
+10	einem	ein	DET	_	_	_	_	_	_
+11	Jahr	Jahr	NOUN	_	_	_	_	_	_
+12	hier	hier	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_393
+# text = Ich freue mich darauf , dich bald wiederzusehen .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	freue	freuen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	darauf	darauf	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dich	du	PRON	_	_	_	_	_	_
+7	bald	bald	ADV	_	_	_	_	_	_
+8	wiederzusehen	wiedersehen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_394
+# text = Sie hat mir erzählt , dass sie nach Berlin umziehen wird .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	erzählt	erzählen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	sie	sie	PRON	_	_	_	_	_	_
+8	nach	nach	ADP	_	_	_	_	_	_
+9	Berlin	Berlin	PROPN	_	_	_	_	_	_
+10	umziehen	umziehen	VERB	_	_	_	_	_	_
+11	wird	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_395
+# text = Die Blumen , die er ihr geschenkt hat , waren wunderschön .
+1	Die	der	DET	_	_	_	_	_	_
+2	Blumen	Blume	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	er	er	PRON	_	_	_	_	_	_
+6	ihr	sie	PRON	_	_	_	_	_	_
+7	geschenkt	schenken	VERB	_	_	_	_	_	_
+8	hat	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	waren	sein	AUX	_	_	_	_	_	_
+11	wunderschön	wunderschön	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_396
+# text = Man muss vorsichtig sein , wenn man über die Straße geht .
+1	Man	man	PRON	_	_	_	_	_	_
+2	muss	müssen	AUX	_	_	_	_	_	_
+3	vorsichtig	vorsichtig	ADJ	_	_	_	_	_	_
+4	sein	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wenn	wenn	SCONJ	_	_	_	_	_	_
+7	man	man	PRON	_	_	_	_	_	_
+8	über	über	ADP	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Straße	Straße	NOUN	_	_	_	_	_	_
+11	geht	gehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_397
+# text = Der Film , den wir gestern gesehen haben , war langweilig .
+1	Der	der	DET	_	_	_	_	_	_
+2	Film	Film	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	gestern	gestern	ADV	_	_	_	_	_	_
+7	gesehen	sehen	VERB	_	_	_	_	_	_
+8	haben	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	langweilig	langweilig	ADJ	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_398
+# text = Ich habe vergessen , meine Freundin anzurufen .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	vergessen	vergessen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	meine	mein	DET	_	_	_	_	_	_
+6	Freundin	Freundin	NOUN	_	_	_	_	_	_
+7	anzurufen	anrufen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_399
+# text = Er hat das Licht ausgemacht , bevor er das Zimmer verlassen hat .
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Licht	Licht	NOUN	_	_	_	_	_	_
+5	ausgemacht	ausmachen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bevor	bevor	SCONJ	_	_	_	_	_	_
+8	er	er	PRON	_	_	_	_	_	_
+9	das	der	DET	_	_	_	_	_	_
+10	Zimmer	Zimmer	NOUN	_	_	_	_	_	_
+11	verlassen	verlassen	VERB	_	_	_	_	_	_
+12	hat	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_400
+# text = Die Eltern , deren Sohn in meiner Klasse ist , sind sehr nett .
+1	Die	der	DET	_	_	_	_	_	_
+2	Eltern	Eltern	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	deren	PRON	_	_	_	_	_	_
+5	Sohn	Sohn	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	meiner	mein	DET	_	_	_	_	_	_
+8	Klasse	Klasse	NOUN	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	sind	sein	AUX	_	_	_	_	_	_
+12	sehr	sehr	ADV	_	_	_	_	_	_
+13	nett	nett	ADJ	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_401
+# text = Sie sieht müde aus , weil sie die ganze Nacht gearbeitet hat .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	sieht	aussehen	VERB	_	_	_	_	_	_
+3	müde	müde	ADJ	_	_	_	_	_	_
+4	aus	aus	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	weil	weil	SCONJ	_	_	_	_	_	_
+7	sie	sie	PRON	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	ganze	ganz	ADJ	_	_	_	_	_	_
+10	Nacht	Nacht	NOUN	_	_	_	_	_	_
+11	gearbeitet	arbeiten	VERB	_	_	_	_	_	_
+12	hat	haben	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_402
+# text = Das Paket wird morgen geliefert werden , wenn alles gut geht .
+1	Das	der	DET	_	_	_	_	_	_
+2	Paket	Paket	NOUN	_	_	_	_	_	_
+3	wird	werden	AUX	_	_	_	_	_	_
+4	morgen	morgen	ADV	_	_	_	_	_	_
+5	geliefert	liefern	VERB	_	_	_	_	_	_
+6	werden	werden	AUX	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wenn	wenn	SCONJ	_	_	_	_	_	_
+9	alles	all	PRON	_	_	_	_	_	_
+10	gut	gut	ADV	_	_	_	_	_	_
+11	geht	gehen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_403
+# text = Wir haben beschlossen , zusammen in den Urlaub zu fahren .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	beschlossen	beschließen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	zusammen	zusammen	ADV	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	den	der	DET	_	_	_	_	_	_
+8	Urlaub	Urlaub	NOUN	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	fahren	fahren	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_404
+# text = Der Mantel , der im Schrank hängt , gehört meinem Vater .
+1	Der	der	DET	_	_	_	_	_	_
+2	Mantel	Mantel	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	im	in	ADP	_	_	_	_	_	_
+6	Schrank	Schrank	NOUN	_	_	_	_	_	_
+7	hängt	hängen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	gehört	gehören	VERB	_	_	_	_	_	_
+10	meinem	mein	DET	_	_	_	_	_	_
+11	Vater	Vater	NOUN	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_405
+# text = Der Student, der neben mir wohnt, studiert Medizin.
+1	Der	der	DET	_	_	_	_	_	_
+2	Student	Student	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	neben	neben	ADP	_	_	_	_	_	_
+6	mir	ich	PRON	_	_	_	_	_	_
+7	wohnt	wohnen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	studiert	studieren	VERB	_	_	_	_	_	_
+10	Medizin	Medizin	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_406
+# text = Wenn ich morgen Zeit hätte, würde ich dir helfen.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	Zeit	Zeit	NOUN	_	_	_	_	_	_
+5	hätte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würde	werden	AUX	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	dir	du	PRON	_	_	_	_	_	_
+10	helfen	helfen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_407
+# text = Das Haus wurde letztes Jahr gebaut und jetzt verkauft.
+1	Das	der	DET	_	_	_	_	_	_
+2	Haus	Haus	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	letztes	letzt	ADJ	_	_	_	_	_	_
+5	Jahr	Jahr	NOUN	_	_	_	_	_	_
+6	gebaut	bauen	VERB	_	_	_	_	_	_
+7	und	und	CCONJ	_	_	_	_	_	_
+8	jetzt	jetzt	ADV	_	_	_	_	_	_
+9	verkauft	verkaufen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_408
+# text = Ich weiß nicht, ob er heute Abend mitkommen kann.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	weiß	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	er	er	PRON	_	_	_	_	_	_
+7	heute	heute	ADV	_	_	_	_	_	_
+8	Abend	Abend	NOUN	_	_	_	_	_	_
+9	mitkommen	mitkommen	VERB	_	_	_	_	_	_
+10	kann	können	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_409
+# text = Die Frau, deren Auto gestern gestohlen wurde, ist sehr traurig.
+1	Die	der	DET	_	_	_	_	_	_
+2	Frau	Frau	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	deren	PRON	_	_	_	_	_	_
+5	Auto	Auto	NOUN	_	_	_	_	_	_
+6	gestern	gestern	ADV	_	_	_	_	_	_
+7	gestohlen	stehlen	VERB	_	_	_	_	_	_
+8	wurde	werden	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	ist	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	traurig	traurig	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_410
+# text = Wir hatten das Buch schon gelesen, bevor der Film kam.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	hatten	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Buch	Buch	NOUN	_	_	_	_	_	_
+5	schon	schon	ADV	_	_	_	_	_	_
+6	gelesen	lesen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bevor	bevor	SCONJ	_	_	_	_	_	_
+9	der	der	DET	_	_	_	_	_	_
+10	Film	Film	NOUN	_	_	_	_	_	_
+11	kam	kommen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_411
+# text = Er muss um acht Uhr aufstehen, damit er pünktlich ist.
+1	Er	er	PRON	_	_	_	_	_	_
+2	muss	müssen	AUX	_	_	_	_	_	_
+3	um	um	ADP	_	_	_	_	_	_
+4	acht	acht	NUM	_	_	_	_	_	_
+5	Uhr	Uhr	NOUN	_	_	_	_	_	_
+6	aufstehen	aufstehen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	damit	damit	SCONJ	_	_	_	_	_	_
+9	er	er	PRON	_	_	_	_	_	_
+10	pünktlich	pünktlich	ADJ	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_412
+# text = Mein Bruder hat sich ein neues Fahrrad gekauft.
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Bruder	Bruder	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	ein	ein	DET	_	_	_	_	_	_
+6	neues	neu	ADJ	_	_	_	_	_	_
+7	Fahrrad	Fahrrad	NOUN	_	_	_	_	_	_
+8	gekauft	kaufen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_413
+# text = Wegen des schlechten Wetters bleiben wir heute zu Hause.
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	schlechten	schlecht	ADJ	_	_	_	_	_	_
+4	Wetters	Wetter	NOUN	_	_	_	_	_	_
+5	bleiben	bleiben	VERB	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	heute	heute	ADV	_	_	_	_	_	_
+8	zu	zu	ADP	_	_	_	_	_	_
+9	Hause	Haus	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_414
+# text = Ich würde gern nach Berlin fahren, wenn ich Geld hätte.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	würde	werden	AUX	_	_	_	_	_	_
+3	gern	gern	ADV	_	_	_	_	_	_
+4	nach	nach	ADP	_	_	_	_	_	_
+5	Berlin	Berlin	PROPN	_	_	_	_	_	_
+6	fahren	fahren	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wenn	wenn	SCONJ	_	_	_	_	_	_
+9	ich	ich	PRON	_	_	_	_	_	_
+10	Geld	Geld	NOUN	_	_	_	_	_	_
+11	hätte	haben	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_415
+# text = Der Lehrer erklärt den Schülern, wie die Aufgabe gelöst wird.
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	erklärt	erklären	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Schülern	Schüler	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wie	wie	SCONJ	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Aufgabe	Aufgabe	NOUN	_	_	_	_	_	_
+10	gelöst	lösen	VERB	_	_	_	_	_	_
+11	wird	werden	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_416
+# text = Sie hat sich sehr für die deutsche Sprache interessiert.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	für	für	ADP	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	deutsche	deutsch	ADJ	_	_	_	_	_	_
+8	Sprache	Sprache	NOUN	_	_	_	_	_	_
+9	interessiert	interessieren	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_417
+# text = Obwohl es regnete, sind wir spazieren gegangen.
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	regnete	regnen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	sind	sein	AUX	_	_	_	_	_	_
+6	wir	wir	PRON	_	_	_	_	_	_
+7	spazieren	spazieren	VERB	_	_	_	_	_	_
+8	gegangen	gehen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_418
+# text = Die Kinder freuen sich auf die Sommerferien.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	freuen	freuen	VERB	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Sommerferien	Sommerferien	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_419
+# text = Es ist wichtig, jeden Tag etwas Deutsch zu lernen.
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	jeden	jed	DET	_	_	_	_	_	_
+6	Tag	Tag	NOUN	_	_	_	_	_	_
+7	etwas	etwas	PRON	_	_	_	_	_	_
+8	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+9	zu	zu	PART	_	_	_	_	_	_
+10	lernen	lernen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_420
+# text = Er hatte den Schlüssel verloren und konnte nicht ins Haus.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hatte	haben	AUX	_	_	_	_	_	_
+3	den	der	DET	_	_	_	_	_	_
+4	Schlüssel	Schlüssel	NOUN	_	_	_	_	_	_
+5	verloren	verlieren	VERB	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	konnte	können	AUX	_	_	_	_	_	_
+8	nicht	nicht	PART	_	_	_	_	_	_
+9	ins	in	ADP	_	_	_	_	_	_
+10	Haus	Haus	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_421
+# text = Morgen wird der Zug um halb sieben abfahren.
+1	Morgen	morgen	ADV	_	_	_	_	_	_
+2	wird	werden	AUX	_	_	_	_	_	_
+3	der	der	DET	_	_	_	_	_	_
+4	Zug	Zug	NOUN	_	_	_	_	_	_
+5	um	um	ADP	_	_	_	_	_	_
+6	halb	halb	ADJ	_	_	_	_	_	_
+7	sieben	sieben	NUM	_	_	_	_	_	_
+8	abfahren	abfahren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_422
+# text = Ich versuche, jeden Abend ein bisschen zu lesen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	versuche	versuchen	VERB	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	jeden	jed	DET	_	_	_	_	_	_
+5	Abend	Abend	NOUN	_	_	_	_	_	_
+6	ein	ein	DET	_	_	_	_	_	_
+7	bisschen	bisschen	PRON	_	_	_	_	_	_
+8	zu	zu	PART	_	_	_	_	_	_
+9	lesen	lesen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_423
+# text = Das Museum kann von Dienstag bis Sonntag besucht werden.
+1	Das	der	DET	_	_	_	_	_	_
+2	Museum	Museum	NOUN	_	_	_	_	_	_
+3	kann	können	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	Dienstag	Dienstag	PROPN	_	_	_	_	_	_
+6	bis	bis	ADP	_	_	_	_	_	_
+7	Sonntag	Sonntag	PROPN	_	_	_	_	_	_
+8	besucht	besuchen	VERB	_	_	_	_	_	_
+9	werden	werden	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_424
+# text = Wir haben uns gestern mit unseren Freunden getroffen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	uns	sich	PRON	_	_	_	_	_	_
+4	gestern	gestern	ADV	_	_	_	_	_	_
+5	mit	mit	ADP	_	_	_	_	_	_
+6	unseren	unser	DET	_	_	_	_	_	_
+7	Freunden	Freund	NOUN	_	_	_	_	_	_
+8	getroffen	treffen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_425
+# text = Wenn du dich beeilst, erreichst du noch den Bus.
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	dich	du	PRON	_	_	_	_	_	_
+4	beeilst	beeilen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	erreichst	erreichen	VERB	_	_	_	_	_	_
+7	du	du	PRON	_	_	_	_	_	_
+8	noch	noch	ADV	_	_	_	_	_	_
+9	den	der	DET	_	_	_	_	_	_
+10	Bus	Bus	NOUN	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_426
+# text = Der Film, den wir gestern gesehen haben, war sehr spannend.
+1	Der	der	DET	_	_	_	_	_	_
+2	Film	Film	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	gestern	gestern	ADV	_	_	_	_	_	_
+7	gesehen	sehen	VERB	_	_	_	_	_	_
+8	haben	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	spannend	spannend	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_427
+# text = Ich muss einkaufen gehen, bevor die Geschäfte schließen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	muss	müssen	AUX	_	_	_	_	_	_
+3	einkaufen	einkaufen	VERB	_	_	_	_	_	_
+4	gehen	gehen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	bevor	bevor	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Geschäfte	Geschäft	NOUN	_	_	_	_	_	_
+9	schließen	schließen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_428
+# text = Es wäre schön, wenn du am Wochenende kommen könntest.
+1	Es	es	PRON	_	_	_	_	_	_
+2	wäre	sein	AUX	_	_	_	_	_	_
+3	schön	schön	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	wenn	wenn	SCONJ	_	_	_	_	_	_
+6	du	du	PRON	_	_	_	_	_	_
+7	am	an	ADP	_	_	_	_	_	_
+8	Wochenende	Wochenende	NOUN	_	_	_	_	_	_
+9	kommen	kommen	VERB	_	_	_	_	_	_
+10	könntest	können	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_429
+# text = Sie hat das Examen bestanden, obwohl sie krank war.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Examen	Examen	NOUN	_	_	_	_	_	_
+5	bestanden	bestehen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	obwohl	obwohl	SCONJ	_	_	_	_	_	_
+8	sie	sie	PRON	_	_	_	_	_	_
+9	krank	krank	ADJ	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_430
+# text = Der Student antwortet dem Professor höflich auf die Frage.
+1	Der	der	DET	_	_	_	_	_	_
+2	Student	Student	NOUN	_	_	_	_	_	_
+3	antwortet	antworten	VERB	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Professor	Professor	NOUN	_	_	_	_	_	_
+6	höflich	höflich	ADJ	_	_	_	_	_	_
+7	auf	auf	ADP	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	Frage	Frage	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_431
+# text = Meine Eltern haben mir ein schönes Geschenk zum Geburtstag gegeben.
+1	Meine	mein	DET	_	_	_	_	_	_
+2	Eltern	Eltern	NOUN	_	_	_	_	_	_
+3	haben	haben	AUX	_	_	_	_	_	_
+4	mir	ich	PRON	_	_	_	_	_	_
+5	ein	ein	DET	_	_	_	_	_	_
+6	schönes	schön	ADJ	_	_	_	_	_	_
+7	Geschenk	Geschenk	NOUN	_	_	_	_	_	_
+8	zum	zu	ADP	_	_	_	_	_	_
+9	Geburtstag	Geburtstag	NOUN	_	_	_	_	_	_
+10	gegeben	geben	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_432
+# text = Während er aß, telefonierte er mit seiner Mutter.
+1	Während	während	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	aß	essen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	telefonierte	telefonieren	VERB	_	_	_	_	_	_
+6	er	er	PRON	_	_	_	_	_	_
+7	mit	mit	ADP	_	_	_	_	_	_
+8	seiner	sein	DET	_	_	_	_	_	_
+9	Mutter	Mutter	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_433
+# text = Die Hausaufgaben müssen bis Freitag abgegeben werden.
+1	Die	der	DET	_	_	_	_	_	_
+2	Hausaufgaben	Hausaufgabe	NOUN	_	_	_	_	_	_
+3	müssen	müssen	AUX	_	_	_	_	_	_
+4	bis	bis	ADP	_	_	_	_	_	_
+5	Freitag	Freitag	PROPN	_	_	_	_	_	_
+6	abgegeben	abgeben	VERB	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_434
+# text = Ich hatte mir das Konzert angesehen, bevor es ausverkauft war.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hatte	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Konzert	Konzert	NOUN	_	_	_	_	_	_
+6	angesehen	ansehen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	bevor	bevor	SCONJ	_	_	_	_	_	_
+9	es	es	PRON	_	_	_	_	_	_
+10	ausverkauft	ausverkaufen	VERB	_	_	_	_	_	_
+11	war	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_435
+# text = Kannst du mir bitte sagen, wo die nächste Bäckerei ist?
+1	Kannst	können	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	bitte	bitten	VERB	_	_	_	_	_	_
+5	sagen	sagen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	wo	wo	ADV	_	_	_	_	_	_
+8	die	der	DET	_	_	_	_	_	_
+9	nächste	nah	ADJ	_	_	_	_	_	_
+10	Bäckerei	Bäckerei	NOUN	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_436
+# text = Er fing an zu weinen, als er die Nachricht hörte.
+1	Er	er	PRON	_	_	_	_	_	_
+2	fing	fangen	VERB	_	_	_	_	_	_
+3	an	an	VERB	_	_	_	_	_	_
+4	zu	zu	PART	_	_	_	_	_	_
+5	weinen	weinen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	als	als	SCONJ	_	_	_	_	_	_
+8	er	er	PRON	_	_	_	_	_	_
+9	die	der	DET	_	_	_	_	_	_
+10	Nachricht	Nachricht	NOUN	_	_	_	_	_	_
+11	hörte	hören	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_437
+# text = Die Blumen, die sie ihm geschenkt hat, sind schon verwelkt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Blumen	Blume	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	sie	sie	PRON	_	_	_	_	_	_
+6	ihm	er	PRON	_	_	_	_	_	_
+7	geschenkt	schenken	VERB	_	_	_	_	_	_
+8	hat	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	sind	sein	AUX	_	_	_	_	_	_
+11	schon	schon	ADV	_	_	_	_	_	_
+12	verwelkt	verwelken	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_438
+# text = Wir werden nächstes Jahr nach Spanien reisen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	werden	werden	AUX	_	_	_	_	_	_
+3	nächstes	nah	ADJ	_	_	_	_	_	_
+4	Jahr	Jahr	NOUN	_	_	_	_	_	_
+5	nach	nach	ADP	_	_	_	_	_	_
+6	Spanien	Spanien	PROPN	_	_	_	_	_	_
+7	reisen	reisen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_439
+# text = Ich wusste nicht, dass du so gut Klavier spielen kannst.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	wusste	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	du	du	PRON	_	_	_	_	_	_
+7	so	so	ADV	_	_	_	_	_	_
+8	gut	gut	ADJ	_	_	_	_	_	_
+9	Klavier	Klavier	NOUN	_	_	_	_	_	_
+10	spielen	spielen	VERB	_	_	_	_	_	_
+11	kannst	können	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_440
+# text = Der Hund des Nachbarn bellt die ganze Nacht.
+1	Der	der	DET	_	_	_	_	_	_
+2	Hund	Hund	NOUN	_	_	_	_	_	_
+3	des	der	DET	_	_	_	_	_	_
+4	Nachbarn	Nachbar	NOUN	_	_	_	_	_	_
+5	bellt	bellen	VERB	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	ganze	ganz	ADJ	_	_	_	_	_	_
+8	Nacht	Nacht	NOUN	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_441
+# text = Du solltest mehr Wasser trinken, damit du gesund bleibst.
+1	Du	du	PRON	_	_	_	_	_	_
+2	solltest	sollen	AUX	_	_	_	_	_	_
+3	mehr	mehr	ADV	_	_	_	_	_	_
+4	Wasser	Wasser	NOUN	_	_	_	_	_	_
+5	trinken	trinken	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	damit	damit	SCONJ	_	_	_	_	_	_
+8	du	du	PRON	_	_	_	_	_	_
+9	gesund	gesund	ADJ	_	_	_	_	_	_
+10	bleibst	bleiben	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_442
+# text = Die Kinder wurden von der Lehrerin gelobt.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	wurden	werden	AUX	_	_	_	_	_	_
+4	von	von	ADP	_	_	_	_	_	_
+5	der	der	DET	_	_	_	_	_	_
+6	Lehrerin	Lehrerin	NOUN	_	_	_	_	_	_
+7	gelobt	loben	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_443
+# text = Sie hat sich die Hände nach dem Essen gewaschen.
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Hände	Hand	NOUN	_	_	_	_	_	_
+6	nach	nach	ADP	_	_	_	_	_	_
+7	dem	der	DET	_	_	_	_	_	_
+8	Essen	Essen	NOUN	_	_	_	_	_	_
+9	gewaschen	waschen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_444
+# text = Ich habe gehört, dass er eine neue Stelle gefunden hat.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	gehört	hören	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	er	er	PRON	_	_	_	_	_	_
+7	eine	ein	DET	_	_	_	_	_	_
+8	neue	neu	ADJ	_	_	_	_	_	_
+9	Stelle	Stelle	NOUN	_	_	_	_	_	_
+10	gefunden	finden	VERB	_	_	_	_	_	_
+11	hat	haben	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_445
+# text = Falls es morgen schneit, fallen die Schulen aus.
+1	Falls	falls	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	morgen	morgen	ADV	_	_	_	_	_	_
+4	schneit	schneien	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	fallen	fallen	VERB	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Schulen	Schule	NOUN	_	_	_	_	_	_
+9	aus	aus	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_446
+# text = Wir saßen unter den Bäumen und aßen einen Kuchen.
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	saßen	sitzen	VERB	_	_	_	_	_	_
+3	unter	unter	ADP	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Bäumen	Baum	NOUN	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	aßen	essen	VERB	_	_	_	_	_	_
+8	einen	ein	DET	_	_	_	_	_	_
+9	Kuchen	Kuchen	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_447
+# text = Er hat sein Auto vor dem Haus geparkt.
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sein	sein	DET	_	_	_	_	_	_
+4	Auto	Auto	NOUN	_	_	_	_	_	_
+5	vor	vor	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Haus	Haus	NOUN	_	_	_	_	_	_
+8	geparkt	parken	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_448
+# text = Die Kinder liefen über die Straße zu dem Spielplatz.
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	liefen	laufen	VERB	_	_	_	_	_	_
+4	über	über	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Straße	Straße	NOUN	_	_	_	_	_	_
+7	zu	zu	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Spielplatz	Spielplatz	NOUN	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_449
+# text = Meine Schwester will Ärztin werden und in München arbeiten.
+1	Meine	mein	DET	_	_	_	_	_	_
+2	Schwester	Schwester	NOUN	_	_	_	_	_	_
+3	will	wollen	AUX	_	_	_	_	_	_
+4	Ärztin	Ärztin	NOUN	_	_	_	_	_	_
+5	werden	werden	AUX	_	_	_	_	_	_
+6	und	und	CCONJ	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	München	München	PROPN	_	_	_	_	_	_
+9	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_450
+# text = Das Buch, das auf dem Tisch liegt, gehört meinem Vater.
+1	Das	der	DET	_	_	_	_	_	_
+2	Buch	Buch	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Tisch	Tisch	NOUN	_	_	_	_	_	_
+8	liegt	liegen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	gehört	gehören	VERB	_	_	_	_	_	_
+11	meinem	mein	DET	_	_	_	_	_	_
+12	Vater	Vater	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_451
+# text = Ich habe vergessen, die Rechnung zu bezahlen.
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	vergessen	vergessen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Rechnung	Rechnung	NOUN	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	bezahlen	bezahlen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_452
+# text = Er durfte nicht hinausgehen, weil es schon spät war.
+1	Er	er	PRON	_	_	_	_	_	_
+2	durfte	dürfen	AUX	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	hinausgehen	hinausgehen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	weil	weil	SCONJ	_	_	_	_	_	_
+7	es	es	PRON	_	_	_	_	_	_
+8	schon	schon	ADV	_	_	_	_	_	_
+9	spät	spät	ADJ	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_453
+# text = Der Brief wurde an die falsche Adresse geschickt.
+1	Der	der	DET	_	_	_	_	_	_
+2	Brief	Brief	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	an	an	ADP	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	falsche	falsch	ADJ	_	_	_	_	_	_
+7	Adresse	Adresse	NOUN	_	_	_	_	_	_
+8	geschickt	schicken	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_454
+# text = Sobald er nach Hause kommt, ruft er seine Eltern an.
+1	Sobald	sobald	SCONJ	_	_	_	_	_	_
+2	er	er	PRON	_	_	_	_	_	_
+3	nach	nach	ADP	_	_	_	_	_	_
+4	Hause	Haus	NOUN	_	_	_	_	_	_
+5	kommt	kommen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	ruft	anrufen	VERB	_	_	_	_	_	_
+8	er	er	PRON	_	_	_	_	_	_
+9	seine	sein	DET	_	_	_	_	_	_
+10	Eltern	Eltern	NOUN	_	_	_	_	_	_
+11	an	an	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_455
+# text = Wenn ich mehr Geld hätte , würde ich eine Reise machen .
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	mehr	mehr	ADV	_	_	_	_	_	_
+4	Geld	Geld	NOUN	_	_	_	_	_	_
+5	hätte	haben	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würde	werden	AUX	_	_	_	_	_	_
+8	ich	ich	PRON	_	_	_	_	_	_
+9	eine	ein	DET	_	_	_	_	_	_
+10	Reise	Reise	NOUN	_	_	_	_	_	_
+11	machen	machen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_456
+# text = Der Zug , der um drei Uhr abfährt , hat eine Stunde Verspätung .
+1	Der	der	DET	_	_	_	_	_	_
+2	Zug	Zug	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	um	um	ADP	_	_	_	_	_	_
+6	drei	drei	NUM	_	_	_	_	_	_
+7	Uhr	Uhr	NOUN	_	_	_	_	_	_
+8	abfährt	abfahren	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	hat	haben	AUX	_	_	_	_	_	_
+11	eine	ein	DET	_	_	_	_	_	_
+12	Stunde	Stunde	NOUN	_	_	_	_	_	_
+13	Verspätung	Verspätung	NOUN	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_457
+# text = Ich habe gehört , dass du in dieser Woche nach Berlin fährst .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	gehört	hören	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	du	du	PRON	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	dieser	dies	DET	_	_	_	_	_	_
+9	Woche	Woche	NOUN	_	_	_	_	_	_
+10	nach	nach	ADP	_	_	_	_	_	_
+11	Berlin	Berlin	PROPN	_	_	_	_	_	_
+12	fährst	fahren	VERB	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_458
+# text = Die Kinder spielen in dem Garten , obwohl es regnet .
+1	Die	der	DET	_	_	_	_	_	_
+2	Kinder	Kind	NOUN	_	_	_	_	_	_
+3	spielen	spielen	VERB	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	dem	der	DET	_	_	_	_	_	_
+6	Garten	Garten	NOUN	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	obwohl	obwohl	SCONJ	_	_	_	_	_	_
+9	es	es	PRON	_	_	_	_	_	_
+10	regnet	regnen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_459
+# text = Mein Bruder hat sein Auto verkauft , weil es zu alt war .
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Bruder	Bruder	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	sein	sein	DET	_	_	_	_	_	_
+5	Auto	Auto	NOUN	_	_	_	_	_	_
+6	verkauft	verkaufen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	weil	weil	SCONJ	_	_	_	_	_	_
+9	es	es	PRON	_	_	_	_	_	_
+10	zu	zu	PART	_	_	_	_	_	_
+11	alt	alt	ADJ	_	_	_	_	_	_
+12	war	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_460
+# text = Wir müssen uns beeilen , damit wir den Bus noch erreichen .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	müssen	müssen	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	beeilen	beeilen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	damit	damit	SCONJ	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	den	der	DET	_	_	_	_	_	_
+9	Bus	Bus	NOUN	_	_	_	_	_	_
+10	noch	noch	ADV	_	_	_	_	_	_
+11	erreichen	erreichen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_461
+# text = Gestern Abend wurde das neue Restaurant eröffnet .
+1	Gestern	gestern	ADV	_	_	_	_	_	_
+2	Abend	Abend	NOUN	_	_	_	_	_	_
+3	wurde	werden	AUX	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	neue	neu	ADJ	_	_	_	_	_	_
+6	Restaurant	Restaurant	NOUN	_	_	_	_	_	_
+7	eröffnet	eröffnen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_462
+# text = Sie kann sehr gut Klavier spielen , seit sie sechs Jahre alt ist .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	kann	können	AUX	_	_	_	_	_	_
+3	sehr	sehr	ADV	_	_	_	_	_	_
+4	gut	gut	ADV	_	_	_	_	_	_
+5	Klavier	Klavier	NOUN	_	_	_	_	_	_
+6	spielen	spielen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	seit	seit	SCONJ	_	_	_	_	_	_
+9	sie	sie	PRON	_	_	_	_	_	_
+10	sechs	sechs	NUM	_	_	_	_	_	_
+11	Jahre	Jahr	NOUN	_	_	_	_	_	_
+12	alt	alt	ADJ	_	_	_	_	_	_
+13	ist	sein	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_463
+# text = Ich freue mich darauf , dich bald wiederzusehen .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	freue	freuen	VERB	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	darauf	darauf	ADV	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dich	du	PRON	_	_	_	_	_	_
+7	bald	bald	ADV	_	_	_	_	_	_
+8	wiederzusehen	wiedersehen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_464
+# text = Wegen des schlechten Wetters fiel das Spiel aus .
+1	Wegen	wegen	ADP	_	_	_	_	_	_
+2	des	der	DET	_	_	_	_	_	_
+3	schlechten	schlecht	ADJ	_	_	_	_	_	_
+4	Wetters	Wetter	NOUN	_	_	_	_	_	_
+5	fiel	ausfallen	VERB	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Spiel	Spiel	NOUN	_	_	_	_	_	_
+8	aus	aus	ADP	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_465
+# text = Die Hausaufgaben müssen bis Freitag abgegeben werden .
+1	Die	der	DET	_	_	_	_	_	_
+2	Hausaufgaben	Hausaufgabe	NOUN	_	_	_	_	_	_
+3	müssen	müssen	AUX	_	_	_	_	_	_
+4	bis	bis	ADP	_	_	_	_	_	_
+5	Freitag	Freitag	NOUN	_	_	_	_	_	_
+6	abgegeben	abgeben	VERB	_	_	_	_	_	_
+7	werden	werden	AUX	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_466
+# text = Wenn ich Zeit habe , helfe ich dir gerne .
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	ich	ich	PRON	_	_	_	_	_	_
+3	Zeit	Zeit	NOUN	_	_	_	_	_	_
+4	habe	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	helfe	helfen	VERB	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	dir	du	PRON	_	_	_	_	_	_
+9	gerne	gerne	ADV	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_467
+# text = Er hat mir gesagt , dass er morgen zu der Arbeit gehen muss .
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	gesagt	sagen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	er	er	PRON	_	_	_	_	_	_
+8	morgen	morgen	ADV	_	_	_	_	_	_
+9	zu	zu	ADP	_	_	_	_	_	_
+10	der	der	DET	_	_	_	_	_	_
+11	Arbeit	Arbeit	NOUN	_	_	_	_	_	_
+12	gehen	gehen	VERB	_	_	_	_	_	_
+13	muss	müssen	AUX	_	_	_	_	_	_
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_468
+# text = Das Buch , das ich lesen wollte , war leider nicht da .
+1	Das	der	DET	_	_	_	_	_	_
+2	Buch	Buch	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	das	der	PRON	_	_	_	_	_	_
+5	ich	ich	PRON	_	_	_	_	_	_
+6	lesen	lesen	VERB	_	_	_	_	_	_
+7	wollte	wollen	AUX	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	war	sein	AUX	_	_	_	_	_	_
+10	leider	leider	ADV	_	_	_	_	_	_
+11	nicht	nicht	PART	_	_	_	_	_	_
+12	da	da	ADV	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_469
+# text = Wir waren in dem Kino , als der Sturm begann .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	waren	sein	AUX	_	_	_	_	_	_
+3	in	in	ADP	_	_	_	_	_	_
+4	dem	der	DET	_	_	_	_	_	_
+5	Kino	Kino	NOUN	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	als	als	SCONJ	_	_	_	_	_	_
+8	der	der	DET	_	_	_	_	_	_
+9	Sturm	Sturm	NOUN	_	_	_	_	_	_
+10	begann	beginnen	VERB	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_470
+# text = Die Studenten haben ihre Prüfung bestanden .
+1	Die	der	DET	_	_	_	_	_	_
+2	Studenten	Student	NOUN	_	_	_	_	_	_
+3	haben	haben	AUX	_	_	_	_	_	_
+4	ihre	ihr	DET	_	_	_	_	_	_
+5	Prüfung	Prüfung	NOUN	_	_	_	_	_	_
+6	bestanden	bestehen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_471
+# text = Ich möchte wissen , ob du an dem Wochenende Zeit hast .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	möchte	mögen	AUX	_	_	_	_	_	_
+3	wissen	wissen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	ob	ob	SCONJ	_	_	_	_	_	_
+6	du	du	PRON	_	_	_	_	_	_
+7	an	an	ADP	_	_	_	_	_	_
+8	dem	der	DET	_	_	_	_	_	_
+9	Wochenende	Wochenende	NOUN	_	_	_	_	_	_
+10	Zeit	Zeit	NOUN	_	_	_	_	_	_
+11	hast	haben	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_472
+# text = Der Lehrer erklärt den Schülern die Grammatik .
+1	Der	der	DET	_	_	_	_	_	_
+2	Lehrer	Lehrer	NOUN	_	_	_	_	_	_
+3	erklärt	erklären	VERB	_	_	_	_	_	_
+4	den	der	DET	_	_	_	_	_	_
+5	Schülern	Schüler	NOUN	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Grammatik	Grammatik	NOUN	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_473
+# text = Nachdem sie gegessen hatten , gingen sie spazieren .
+1	Nachdem	nachdem	SCONJ	_	_	_	_	_	_
+2	sie	sie	PRON	_	_	_	_	_	_
+3	gegessen	essen	VERB	_	_	_	_	_	_
+4	hatten	haben	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	gingen	gehen	VERB	_	_	_	_	_	_
+7	sie	sie	PRON	_	_	_	_	_	_
+8	spazieren	spazieren	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_474
+# text = Es ist wichtig , dass man regelmäßig Wasser trinkt .
+1	Es	es	PRON	_	_	_	_	_	_
+2	ist	sein	AUX	_	_	_	_	_	_
+3	wichtig	wichtig	ADJ	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	man	man	PRON	_	_	_	_	_	_
+7	regelmäßig	regelmäßig	ADV	_	_	_	_	_	_
+8	Wasser	Wasser	NOUN	_	_	_	_	_	_
+9	trinkt	trinken	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_475
+# text = Mein Vater hat das Auto zu der Werkstatt gebracht .
+1	Mein	mein	DET	_	_	_	_	_	_
+2	Vater	Vater	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	das	der	DET	_	_	_	_	_	_
+5	Auto	Auto	NOUN	_	_	_	_	_	_
+6	zu	zu	ADP	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Werkstatt	Werkstatt	NOUN	_	_	_	_	_	_
+9	gebracht	bringen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_476
+# text = Die Frau , deren Sohn in meiner Klasse ist , arbeitet bei der Bank .
+1	Die	der	DET	_	_	_	_	_	_
+2	Frau	Frau	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	deren	PRON	_	_	_	_	_	_
+5	Sohn	Sohn	NOUN	_	_	_	_	_	_
+6	in	in	ADP	_	_	_	_	_	_
+7	meiner	mein	DET	_	_	_	_	_	_
+8	Klasse	Klasse	NOUN	_	_	_	_	_	_
+9	ist	sein	AUX	_	_	_	_	_	_
+10	,	,	PUNCT	_	_	_	_	_	_
+11	arbeitet	arbeiten	VERB	_	_	_	_	_	_
+12	bei	bei	ADP	_	_	_	_	_	_
+13	der	der	DET	_	_	_	_	_	_
+14	Bank	Bank	NOUN	_	_	_	_	_	_
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_477
+# text = Ich habe mich sehr über das Geschenk gefreut .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	sehr	sehr	ADV	_	_	_	_	_	_
+5	über	über	ADP	_	_	_	_	_	_
+6	das	der	DET	_	_	_	_	_	_
+7	Geschenk	Geschenk	NOUN	_	_	_	_	_	_
+8	gefreut	freuen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_478
+# text = Er wusste nicht , woher die Gäste gekommen waren .
+1	Er	er	PRON	_	_	_	_	_	_
+2	wusste	wissen	VERB	_	_	_	_	_	_
+3	nicht	nicht	PART	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	woher	woher	ADV	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Gäste	Gast	NOUN	_	_	_	_	_	_
+8	gekommen	kommen	VERB	_	_	_	_	_	_
+9	waren	sein	AUX	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_479
+# text = Wir werden bald in den Urlaub fahren .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	werden	werden	AUX	_	_	_	_	_	_
+3	bald	bald	ADV	_	_	_	_	_	_
+4	in	in	ADP	_	_	_	_	_	_
+5	den	der	DET	_	_	_	_	_	_
+6	Urlaub	Urlaub	NOUN	_	_	_	_	_	_
+7	fahren	fahren	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_480
+# text = Kannst du mir bitte das Salz reichen ?
+1	Kannst	können	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	bitte	bitte	ADV	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Salz	Salz	NOUN	_	_	_	_	_	_
+7	reichen	reichen	VERB	_	_	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_481
+# text = Das Kind hat sich das Knie verletzt , als es gefallen ist .
+1	Das	der	DET	_	_	_	_	_	_
+2	Kind	Kind	NOUN	_	_	_	_	_	_
+3	hat	haben	AUX	_	_	_	_	_	_
+4	sich	sich	PRON	_	_	_	_	_	_
+5	das	der	DET	_	_	_	_	_	_
+6	Knie	Knie	NOUN	_	_	_	_	_	_
+7	verletzt	verletzen	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	als	als	SCONJ	_	_	_	_	_	_
+10	es	es	PRON	_	_	_	_	_	_
+11	gefallen	fallen	VERB	_	_	_	_	_	_
+12	ist	sein	AUX	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_482
+# text = Sie hat die ganze Nacht durchgeschlafen .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	die	der	DET	_	_	_	_	_	_
+4	ganze	ganz	ADJ	_	_	_	_	_	_
+5	Nacht	Nacht	NOUN	_	_	_	_	_	_
+6	durchgeschlafen	durchschlafen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_483
+# text = Ich hätte dich angerufen , wenn ich deine Nummer gehabt hätte .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	hätte	haben	AUX	_	_	_	_	_	_
+3	dich	du	PRON	_	_	_	_	_	_
+4	angerufen	anrufen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	wenn	wenn	SCONJ	_	_	_	_	_	_
+7	ich	ich	PRON	_	_	_	_	_	_
+8	deine	dein	DET	_	_	_	_	_	_
+9	Nummer	Nummer	NOUN	_	_	_	_	_	_
+10	gehabt	haben	VERB	_	_	_	_	_	_
+11	hätte	haben	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_484
+# text = Der Film , den wir gestern gesehen haben , war sehr spannend .
+1	Der	der	DET	_	_	_	_	_	_
+2	Film	Film	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	den	der	PRON	_	_	_	_	_	_
+5	wir	wir	PRON	_	_	_	_	_	_
+6	gestern	gestern	ADV	_	_	_	_	_	_
+7	gesehen	sehen	VERB	_	_	_	_	_	_
+8	haben	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	war	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	spannend	spannend	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_485
+# text = In Deutschland darf man mit achtzehn Jahren Auto fahren .
+1	In	in	ADP	_	_	_	_	_	_
+2	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+3	darf	dürfen	AUX	_	_	_	_	_	_
+4	man	man	PRON	_	_	_	_	_	_
+5	mit	mit	ADP	_	_	_	_	_	_
+6	achtzehn	achtzehn	NUM	_	_	_	_	_	_
+7	Jahren	Jahr	NOUN	_	_	_	_	_	_
+8	Auto	Auto	NOUN	_	_	_	_	_	_
+9	fahren	fahren	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_486
+# text = Wir haben uns entschieden , nach München umzuziehen .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	entschieden	entscheiden	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	nach	nach	ADP	_	_	_	_	_	_
+7	München	München	PROPN	_	_	_	_	_	_
+8	umzuziehen	umziehen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_487
+# text = Die Blumen , die sie mir geschenkt hat , sind sehr schön .
+1	Die	der	DET	_	_	_	_	_	_
+2	Blumen	Blume	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	die	der	PRON	_	_	_	_	_	_
+5	sie	sie	PRON	_	_	_	_	_	_
+6	mir	ich	PRON	_	_	_	_	_	_
+7	geschenkt	schenken	VERB	_	_	_	_	_	_
+8	hat	haben	AUX	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	sind	sein	AUX	_	_	_	_	_	_
+11	sehr	sehr	ADV	_	_	_	_	_	_
+12	schön	schön	ADJ	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_488
+# text = Ich muss mich bei dir entschuldigen .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	muss	müssen	AUX	_	_	_	_	_	_
+3	mich	ich	PRON	_	_	_	_	_	_
+4	bei	bei	ADP	_	_	_	_	_	_
+5	dir	du	PRON	_	_	_	_	_	_
+6	entschuldigen	entschuldigen	VERB	_	_	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_489
+# text = Obwohl es kalt war , sind wir schwimmen gegangen .
+1	Obwohl	obwohl	SCONJ	_	_	_	_	_	_
+2	es	es	PRON	_	_	_	_	_	_
+3	kalt	kalt	ADJ	_	_	_	_	_	_
+4	war	sein	AUX	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	sind	sein	AUX	_	_	_	_	_	_
+7	wir	wir	PRON	_	_	_	_	_	_
+8	schwimmen	schwimmen	VERB	_	_	_	_	_	_
+9	gegangen	gehen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_490
+# text = Sie hat gesagt , dass sie kommen wird .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	gesagt	sagen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	sie	sie	PRON	_	_	_	_	_	_
+7	kommen	kommen	VERB	_	_	_	_	_	_
+8	wird	werden	AUX	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_491
+# text = Der Hund , der in dem Garten läuft , gehört dem Nachbarn .
+1	Der	der	DET	_	_	_	_	_	_
+2	Hund	Hund	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	in	in	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Garten	Garten	NOUN	_	_	_	_	_	_
+8	läuft	laufen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	gehört	gehören	VERB	_	_	_	_	_	_
+11	dem	der	DET	_	_	_	_	_	_
+12	Nachbarn	Nachbar	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_492
+# text = Ich lerne Deutsch , damit ich in Deutschland studieren kann .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	lerne	lernen	VERB	_	_	_	_	_	_
+3	Deutsch	Deutsch	NOUN	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	damit	damit	SCONJ	_	_	_	_	_	_
+6	ich	ich	PRON	_	_	_	_	_	_
+7	in	in	ADP	_	_	_	_	_	_
+8	Deutschland	Deutschland	PROPN	_	_	_	_	_	_
+9	studieren	studieren	VERB	_	_	_	_	_	_
+10	kann	können	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_493
+# text = Hast du schon gehört , dass die Schule morgen geschlossen ist ?
+1	Hast	haben	AUX	_	_	_	_	_	_
+2	du	du	PRON	_	_	_	_	_	_
+3	schon	schon	ADV	_	_	_	_	_	_
+4	gehört	hören	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	dass	dass	SCONJ	_	_	_	_	_	_
+7	die	der	DET	_	_	_	_	_	_
+8	Schule	Schule	NOUN	_	_	_	_	_	_
+9	morgen	morgen	ADV	_	_	_	_	_	_
+10	geschlossen	schließen	VERB	_	_	_	_	_	_
+11	ist	sein	AUX	_	_	_	_	_	_
+12	?	?	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_494
+# text = Er hat mir versprochen , pünktlich zu sein .
+1	Er	er	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	mir	ich	PRON	_	_	_	_	_	_
+4	versprochen	versprechen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	pünktlich	pünktlich	ADV	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	sein	sein	AUX	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_495
+# text = Die Schüler , deren Eltern heute arbeiten , bleiben in der Schule .
+1	Die	der	DET	_	_	_	_	_	_
+2	Schüler	Schüler	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	deren	deren	PRON	_	_	_	_	_	_
+5	Eltern	Eltern	NOUN	_	_	_	_	_	_
+6	heute	heute	ADV	_	_	_	_	_	_
+7	arbeiten	arbeiten	VERB	_	_	_	_	_	_
+8	,	,	PUNCT	_	_	_	_	_	_
+9	bleiben	bleiben	VERB	_	_	_	_	_	_
+10	in	in	ADP	_	_	_	_	_	_
+11	der	der	DET	_	_	_	_	_	_
+12	Schule	Schule	NOUN	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_496
+# text = Wir haben das Haus renoviert , bevor wir eingezogen sind .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	haben	haben	AUX	_	_	_	_	_	_
+3	das	der	DET	_	_	_	_	_	_
+4	Haus	Haus	NOUN	_	_	_	_	_	_
+5	renoviert	renovieren	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	bevor	bevor	SCONJ	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	eingezogen	einziehen	VERB	_	_	_	_	_	_
+10	sind	sein	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_497
+# text = Man sollte jeden Tag etwas Obst essen .
+1	Man	man	PRON	_	_	_	_	_	_
+2	sollte	sollen	AUX	_	_	_	_	_	_
+3	jeden	jed	DET	_	_	_	_	_	_
+4	Tag	Tag	NOUN	_	_	_	_	_	_
+5	etwas	etwas	PRON	_	_	_	_	_	_
+6	Obst	Obst	NOUN	_	_	_	_	_	_
+7	essen	essen	VERB	_	_	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_498
+# text = Wenn das Wetter schön wäre , würden wir einen Ausflug machen .
+1	Wenn	wenn	SCONJ	_	_	_	_	_	_
+2	das	der	DET	_	_	_	_	_	_
+3	Wetter	Wetter	NOUN	_	_	_	_	_	_
+4	schön	schön	ADJ	_	_	_	_	_	_
+5	wäre	sein	AUX	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	würden	werden	AUX	_	_	_	_	_	_
+8	wir	wir	PRON	_	_	_	_	_	_
+9	einen	ein	DET	_	_	_	_	_	_
+10	Ausflug	Ausflug	NOUN	_	_	_	_	_	_
+11	machen	machen	VERB	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_499
+# text = Sie hat sich daran gewöhnt , früh aufzustehen .
+1	Sie	sie	PRON	_	_	_	_	_	_
+2	hat	haben	AUX	_	_	_	_	_	_
+3	sich	sich	PRON	_	_	_	_	_	_
+4	daran	daran	ADV	_	_	_	_	_	_
+5	gewöhnt	gewöhnen	VERB	_	_	_	_	_	_
+6	,	,	PUNCT	_	_	_	_	_	_
+7	früh	früh	ADV	_	_	_	_	_	_
+8	aufzustehen	aufstehen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_500
+# text = Der Brief , der auf dem Tisch liegt , ist für dich .
+1	Der	der	DET	_	_	_	_	_	_
+2	Brief	Brief	NOUN	_	_	_	_	_	_
+3	,	,	PUNCT	_	_	_	_	_	_
+4	der	der	PRON	_	_	_	_	_	_
+5	auf	auf	ADP	_	_	_	_	_	_
+6	dem	der	DET	_	_	_	_	_	_
+7	Tisch	Tisch	NOUN	_	_	_	_	_	_
+8	liegt	liegen	VERB	_	_	_	_	_	_
+9	,	,	PUNCT	_	_	_	_	_	_
+10	ist	sein	AUX	_	_	_	_	_	_
+11	für	für	ADP	_	_	_	_	_	_
+12	dich	du	PRON	_	_	_	_	_	_
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_501
+# text = Ich habe vergessen , die Milch zu kaufen .
+1	Ich	ich	PRON	_	_	_	_	_	_
+2	habe	haben	AUX	_	_	_	_	_	_
+3	vergessen	vergessen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	die	der	DET	_	_	_	_	_	_
+6	Milch	Milch	NOUN	_	_	_	_	_	_
+7	zu	zu	PART	_	_	_	_	_	_
+8	kaufen	kaufen	VERB	_	_	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_502
+# text = Es wurde beschlossen , dass die Sitzung verschoben werden muss .
+1	Es	es	PRON	_	_	_	_	_	_
+2	wurde	werden	AUX	_	_	_	_	_	_
+3	beschlossen	beschließen	VERB	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	dass	dass	SCONJ	_	_	_	_	_	_
+6	die	der	DET	_	_	_	_	_	_
+7	Sitzung	Sitzung	NOUN	_	_	_	_	_	_
+8	verschoben	verschieben	VERB	_	_	_	_	_	_
+9	werden	werden	AUX	_	_	_	_	_	_
+10	muss	müssen	AUX	_	_	_	_	_	_
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_503
+# text = Wir hatten uns getroffen , bevor der Film anfing .
+1	Wir	wir	PRON	_	_	_	_	_	_
+2	hatten	haben	AUX	_	_	_	_	_	_
+3	uns	wir	PRON	_	_	_	_	_	_
+4	getroffen	treffen	VERB	_	_	_	_	_	_
+5	,	,	PUNCT	_	_	_	_	_	_
+6	bevor	bevor	SCONJ	_	_	_	_	_	_
+7	der	der	DET	_	_	_	_	_	_
+8	Film	Film	NOUN	_	_	_	_	_	_
+9	anfing	anfangen	VERB	_	_	_	_	_	_
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = de_b1_train_504
+# text = Die Schüler müssen die Bücher zurückbringen , wenn sie fertig sind .
+1	Die	der	DET	_	_	_	_	_	_
+2	Schüler	Schüler	NOUN	_	_	_	_	_	_
+3	müssen	müssen	AUX	_	_	_	_	_	_
+4	die	der	DET	_	_	_	_	_	_
+5	Bücher	Buch	NOUN	_	_	_	_	_	_
+6	zurückbringen	zurückbringen	VERB	_	_	_	_	_	_
+7	,	,	PUNCT	_	_	_	_	_	_
+8	wenn	wenn	SCONJ	_	_	_	_	_	_
+9	sie	sie	PRON	_	_	_	_	_	_
+10	fertig	fertig	ADJ	_	_	_	_	_	_
+11	sind	sein	AUX	_	_	_	_	_	_
+12	.	.	PUNCT	_	_	_	_	_	_
+
