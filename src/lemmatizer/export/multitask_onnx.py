@@ -23,7 +23,6 @@ import os
 import re
 from collections.abc import Callable
 from pathlib import Path
-from typing import cast
 
 import numpy as np
 import torch
@@ -208,33 +207,54 @@ _CLASSIFIER_KEYS = (
 )
 
 
+class _SyncResult:
+    """Typed result for one MLX backbone key sync action."""
+
+    __slots__ = ("action", "mlx_key", "hf_key", "tensor", "target")
+
+    def __init__(
+        self,
+        action: str,
+        mlx_key: str = "",
+        hf_key: str = "",
+        tensor: np.ndarray | None = None,
+        target: torch.Tensor | None = None,
+    ) -> None:
+        self.action = action
+        self.mlx_key = mlx_key
+        self.hf_key = hf_key
+        self.tensor = tensor
+        self.target = target
+
+
 def _sync_backbone_key(
     mlx_key: str,
     tensor: np.ndarray,
     mapper: Callable[[str], str | None],
     hf_state: dict[str, torch.Tensor],
-) -> tuple[str, object]:
-    """Process one MLX backbone key, returning (action, data).
+) -> _SyncResult:
+    """Process one MLX backbone key, returning a typed _SyncResult.
 
-    action is "mapped" (data=(hf_key, tensor, target)), "skipped"
-    (data=mlx_key), "missing" (data=(mlx_key, info)), or "ignore" (data=None).
+    Actions: "ignore", "skipped" (mlx_key set), "missing" (mlx_key + hf_key
+    set), or "mapped" (hf_key, tensor, target set).
     """
     if mlx_key in _CLASSIFIER_KEYS:
-        return "ignore", None
+        return _SyncResult("ignore")
     if mlx_key.startswith(LAYERS_PREFIX) and "lora" in mlx_key:
-        return "ignore", None
+        return _SyncResult("ignore")
     hf_key = mapper(mlx_key)
     if hf_key is None:
-        return "skipped", mlx_key
+        return _SyncResult("skipped", mlx_key=mlx_key)
     if hf_key not in hf_state:
-        return "missing", (mlx_key, hf_key)
+        return _SyncResult("missing", mlx_key=mlx_key, hf_key=hf_key)
     target = hf_state[hf_key]
     if tuple(target.shape) != tuple(tensor.shape):
-        return "missing", (
-            mlx_key,
-            f"{hf_key} (shape: {tuple(tensor.shape)} vs {tuple(target.shape)})",
+        return _SyncResult(
+            "missing",
+            mlx_key=mlx_key,
+            hf_key=f"{hf_key} (shape: {tuple(tensor.shape)} vs {tuple(target.shape)})",
         )
-    return "mapped", (hf_key, tensor, target)
+    return _SyncResult("mapped", hf_key=hf_key, tensor=tensor, target=target)
 
 
 def _load_classifier_heads(
@@ -269,19 +289,20 @@ def sync_weights(
 
     mapped, skipped, missing = 0, [], []
     for mlx_key, tensor in weights.items():
-        action, data = _sync_backbone_key(mlx_key, tensor, mapper, hf_state)
-        if action == "ignore":
+        result = _sync_backbone_key(mlx_key, tensor, mapper, hf_state)
+        if result.action == "ignore":
             continue
-        if action == "skipped":
-            skipped.append(data)
-        elif action == "missing":
-            missing.append(data)
-        elif action == "mapped":
-            hf_key, t, target = cast(tuple[str, np.ndarray, torch.Tensor], data)
-            hf_state[hf_key] = torch.from_numpy(t).to(target.dtype)
+        if result.action == "skipped":
+            skipped.append(result.mlx_key)
+        elif result.action == "missing":
+            missing.append((result.mlx_key, result.hf_key))
+        elif result.action == "mapped":
+            hf_state[result.hf_key] = torch.from_numpy(result.tensor).to(
+                result.target.dtype
+            )
             mapped += 1
         else:
-            raise ValueError(f"Unknown sync action: {action}")
+            raise ValueError(f"Unknown sync action: {result.action}")
 
     backbone.load_state_dict(hf_state, strict=False)
     _load_classifier_heads(weights, wrapper)

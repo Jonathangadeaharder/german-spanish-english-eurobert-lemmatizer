@@ -82,7 +82,12 @@ def build_lemma_vocab(
 
 
 def _encode_word_bytes(word: str, byte_ids: list[int]) -> tuple[int, int]:
-    """Append word's UTF-8 bytes to byte_ids, return (start, end) span."""
+    """Append word's UTF-8 bytes + trailing space delimiter to byte_ids.
+
+    The returned (start, end) span covers only the word bytes, excluding
+    the injected space. The space acts as an inter-word delimiter in the
+    flat byte sequence.
+    """
     start = len(byte_ids)
     for b in word.encode("utf-8"):
         byte_ids.append(b + BYTE_ID_OFFSET)
