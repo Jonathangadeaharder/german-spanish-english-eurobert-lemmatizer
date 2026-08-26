@@ -107,7 +107,7 @@ def main():
             lemma_row = lemma_logits[batch_index][token_idx]
 
             # Predict lemma
-            predicted_lemma, source, upos_tag, _ = ctx.predict_word(words[term_idx], "", lemma_row)
+            predicted_lemma, source, _, _ = ctx.predict_word(words[term_idx], "", lemma_row)
 
             if predicted_lemma is None:
                 predicted_lemma = words[term_idx].lower()

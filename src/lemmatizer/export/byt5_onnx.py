@@ -104,7 +104,7 @@ class ByT5LemmaONNXWrapper(nn.Module):
             return_dict=True,
         ).last_hidden_state  # (B, T, D)
 
-        B, T, D = enc_out.shape
+        _, T, _ = enc_out.shape
         byte_idx = torch.arange(T, device=enc_out.device)  # (T,)
         starts = word_byte_spans[:, :, 0:1]  # (B, N_words, 1)
         ends = word_byte_spans[:, :, 1:2]

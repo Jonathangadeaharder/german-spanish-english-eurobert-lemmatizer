@@ -158,7 +158,7 @@ class ByT5EncoderLemmaClassifier(nn.Module):
         Returns:
             (B, N_words, d_model) pooled word vectors.
         """
-        B, T, D = enc_out.shape
+        _, T, _ = enc_out.shape
 
         byte_idx = mx.arange(T)  # (T,)
         starts = word_byte_spans[:, :, 0:1]  # (B, N_words, 1)

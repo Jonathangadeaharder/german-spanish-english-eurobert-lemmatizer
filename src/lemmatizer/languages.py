@@ -20,6 +20,8 @@ from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 
+MODEL_NAME = "EuroBERT/EuroBERT-210m"
+
 
 class Family(str, Enum):
     """Which trainer module owns a language."""
@@ -59,7 +61,7 @@ LANGUAGES: tuple[LanguageSpec, ...] = (
         lang="en",
         name="english",
         family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m",
+        base_model=MODEL_NAME,
         lang_token="[LANG_EN]",
         ud_repo="UD_English-EWT",
         ud_prefix="en_ewt",
@@ -70,7 +72,7 @@ LANGUAGES: tuple[LanguageSpec, ...] = (
         lang="de",
         name="german",
         family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m",
+        base_model=MODEL_NAME,
         lang_token="[LANG_DE]",
         ud_repo="UD_German-GSD",
         ud_prefix="de_gsd",
@@ -81,7 +83,7 @@ LANGUAGES: tuple[LanguageSpec, ...] = (
         lang="es",
         name="spanish",
         family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m",
+        base_model=MODEL_NAME,
         lang_token="[LANG_ES]",
         ud_repo="UD_Spanish-AnCora",
         ud_prefix="es_ancora",
@@ -92,7 +94,7 @@ LANGUAGES: tuple[LanguageSpec, ...] = (
         lang="fr",
         name="french",
         family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m",
+        base_model=MODEL_NAME,
         lang_token="[LANG_FR]",
         ud_repo="UD_French-GSD",
         ud_prefix="fr_gsd",
@@ -136,7 +138,7 @@ LANGUAGES: tuple[LanguageSpec, ...] = (
         lang="nl",
         name="dutch",
         family=Family.MULTITASK,
-        base_model="EuroBERT/EuroBERT-210m",
+        base_model=MODEL_NAME,
         lang_token="[LANG_NL]",
         ud_repo="UD_Dutch-Alpino",
         ud_prefix="nl_alpino",
@@ -179,7 +181,7 @@ def lang_codes() -> tuple[str, ...]:
 # callers (`LANG_TOKENS`, `LANGUAGE_NAMES`, etc.) keep working during the
 # transition; they are pure projections over `LANGUAGES`.
 
-DEFAULT_BASE_MODEL = "EuroBERT/EuroBERT-210m"
+DEFAULT_BASE_MODEL = MODEL_NAME
 
 # Local multilingual tokenizer saved by dataset.main() (shared EuroBERT
 # WordPiece + LANG_* special tokens). Used as the tokenizer fallback for

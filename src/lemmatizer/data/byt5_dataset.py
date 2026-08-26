@@ -24,14 +24,16 @@ from lemmatizer.data.conllu import read_conllu
 
 PAD_LABEL = -100
 
+UNK_TOKEN = "<UNK>"
+
 # ByT5 vocab layout (matches google/byt5-small SentencePiece byte encoding):
 # id 0 = <pad>, id 1 = </s> (EOS), id 2 = <unk>, ids 3..258 are the 256 byte
 # values (byte value b -> id b + 3); 259..383 unused. EOS at start and end.
 BYT5_PAD = 0
 BYT5_EOS = 1
 BYTE_ID_OFFSET = 3
-SPECIAL_TOKENS = ["<PAD>", "<UNK>", "<IDENTITY>"]
-SPECIAL_TOKEN_IDS = {"<PAD>": 0, "<UNK>": 1, "<IDENTITY>": 2}
+SPECIAL_TOKENS = ["<PAD>", UNK_TOKEN, "<IDENTITY>"]
+SPECIAL_TOKEN_IDS = {"<PAD>": 0, UNK_TOKEN: 1, "<IDENTITY>": 2}
 
 
 def build_lemma_vocab(
@@ -106,7 +108,7 @@ def encode_sentence(
     labels: list[int] = []
     upos_labels: list[int] = []
 
-    unk_id = lemma2id.get("<UNK>", 1)
+    unk_id = lemma2id.get(UNK_TOKEN, 1)
     seen = unknown_upos_seen if unknown_upos_seen is not None else set()
 
     for word, lemma, upos in zip(words, lemmas, upos_tags, strict=True):

@@ -38,12 +38,14 @@ RUN_DIRS = {
     "sv": "runs/mlx-sv-multitask-v2",
 }
 
+EUROBERT_MODEL = "EuroBERT/EuroBERT-210m"
+
 BASE_MODELS = {
-    "de": "EuroBERT/EuroBERT-210m",
-    "en": "EuroBERT/EuroBERT-210m",
-    "es": "EuroBERT/EuroBERT-210m",
-    "fr": "EuroBERT/EuroBERT-210m",
-    "nl": "EuroBERT/EuroBERT-210m",
+    "de": EUROBERT_MODEL,
+    "en": EUROBERT_MODEL,
+    "es": EUROBERT_MODEL,
+    "fr": EUROBERT_MODEL,
+    "nl": EUROBERT_MODEL,
     "sv": "vesteinn/ScandiBERT",
 }
 
@@ -55,6 +57,8 @@ SCANDIBERT_SNAPSHOT = (
     "~/.cache/huggingface/hub/models--vesteinn--ScandiBERT/"
     "snapshots/e8339695d4bc4e61f1050b4c71853bed348a18b3"
 )
+
+LAYERS_PREFIX = "layers."
 
 
 class MultitaskONNXWrapper(nn.Module):
@@ -126,7 +130,7 @@ def map_eurobert_mlx_to_hf(mlx_key: str) -> str | None:
         return "embed_tokens.weight"
     if mlx_key == "norm.weight":
         return "norm.weight"
-    if mlx_key.startswith("layers."):
+    if mlx_key.startswith(LAYERS_PREFIX):
         m = re.match(r"layers\.(\d+)\.(.+)", mlx_key)
         if not m:
             return None
@@ -164,7 +168,7 @@ def map_bert_mlx_to_hf(mlx_key: str) -> str | None:
     }
     if mlx_key in embedding_map:
         return embedding_map[mlx_key]
-    if mlx_key.startswith("layers."):
+    if mlx_key.startswith(LAYERS_PREFIX):
         m = re.match(r"layers\.(\d+)\.(.+)", mlx_key)
         if not m:
             return None
@@ -213,7 +217,7 @@ def sync_weights(
             "lemma_classifier.bias",
         ):
             continue
-        if mlx_key.startswith("layers.") and "lora" in mlx_key:
+        if mlx_key.startswith(LAYERS_PREFIX) and "lora" in mlx_key:
             continue
         hf_key = mapper(mlx_key)
         if hf_key is None:
