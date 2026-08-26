@@ -27,6 +27,9 @@ BERT_PATH = "models/bert-base-chinese-mlx"
 CHECKPOINT = "runs/mlx-zh-bio-pos/best.safetensors"
 LABELS_PATH = "data/processed/zh_bio/labels.json"
 
+CLASSIFIER_WEIGHT = "classifier.weight"
+CLASSIFIER_BIAS = "classifier.bias"
+
 
 def load_mlx_weights(path: str) -> dict[str, np.ndarray]:
     weights = {}
@@ -112,10 +115,10 @@ def map_zh_mlx_to_hf(mlx_key: str) -> str | None:
         return None
 
     # Classifier head
-    if mlx_key == "classifier.weight":
-        return "classifier.weight"
-    if mlx_key == "classifier.bias":
-        return "classifier.bias"
+    if mlx_key == CLASSIFIER_WEIGHT:
+        return CLASSIFIER_WEIGHT
+    if mlx_key == CLASSIFIER_BIAS:
+        return CLASSIFIER_BIAS
 
     return None
 
@@ -193,7 +196,7 @@ def main() -> None:
     if skipped:
         print(f"  skipped: {skipped[:5]}", flush=True)
     # Verify classifier weights were loaded
-    if "classifier.weight" not in weights or "classifier.bias" not in weights:
+    if CLASSIFIER_WEIGHT not in weights or CLASSIFIER_BIAS not in weights:
         raise RuntimeError("[zh] Missing classifier weights in checkpoint")
 
     if missing:

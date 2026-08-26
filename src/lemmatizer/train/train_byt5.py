@@ -19,6 +19,8 @@ from lemmatizer.train.grad_utils import tree_add, tree_scale
 
 PAD_LABEL = -100
 
+UNK_TOKEN = "<UNK>"
+
 
 def collate_batch(rows: list[dict]) -> dict:
     max_len = 768
@@ -113,8 +115,8 @@ def evaluate(
                 if lemma in ("_", "-"):
                     continue
                 pred_id = int(preds_np[b, w])
-                pred_lemma = id2lemma.get(pred_id, "<UNK>")
-                if pred_lemma == "<UNK>":
+                pred_lemma = id2lemma.get(pred_id, UNK_TOKEN)
+                if pred_lemma == UNK_TOKEN:
                     pred_lemma = lexicon.get(word, word)
                 stats["total"] += 1
                 if pred_lemma == lemma:
@@ -174,8 +176,8 @@ def find_struggles(
                 ):
                     continue
                 pred_id = int(preds[b, w])
-                pred_lemma = id2lemma.get(pred_id, "<UNK>")
-                if pred_lemma == "<UNK>":
+                pred_lemma = id2lemma.get(pred_id, UNK_TOKEN)
+                if pred_lemma == UNK_TOKEN:
                     pred_lemma = lexicon.get(word, word)
                 if pred_lemma != lemma:
                     # Mark label class as struggled

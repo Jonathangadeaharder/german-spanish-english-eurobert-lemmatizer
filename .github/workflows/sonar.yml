@@ -1,4 +1,4 @@
-name: SonarCloud Analysis
+name: SonarQube Analysis
 
 on:
   push:
@@ -8,22 +8,73 @@ on:
 
 permissions:
   contents: read
-  pull-requests: read
+
+concurrency:
+  group: sonar-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  sonar:
-    name: SonarCloud
-    runs-on: ubuntu-latest
+  sonarqube:
+    name: SonarQube
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    timeout-minutes: 30
+    env:
+      SONAR_PROJECT_KEY: jonathangadeaharder_german-spanish-english-eurobert-lemmatizer
     steps:
       - uses: actions/checkout@v6.0.3
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-      - run: pip install uv
-      - run: uv sync --all-groups --frozen
-      - uses: SonarSource/sonarqube-scan-action@v6.0
+      - name: Install jq
+        shell: bash
+        run: brew install jq || command -v jq >/dev/null
+      - name: Wait for SonarQube
+        shell: bash
+        run: |
+          for i in $(seq 1 36); do
+            STATUS=$(curl -sf --max-time 2 http://127.0.0.1:9001/api/system/status \
+              | jq -r '.status' || true)
+            echo "Sonar status: ${STATUS:-unreachable} ($i/36)"
+            if [ "$STATUS" = "UP" ]; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::SonarQube at localhost:9001 never became UP"
+          exit 1
+      - name: SonarQube Scan
+        id: scan
+        uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: http://127.0.0.1:9001
+          SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true
+      - name: Print new-code issues
+        if: always()
+        shell: bash
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          BASE="http://localhost:9001"
+          AUTH="Authorization: Bearer $SONAR_TOKEN"
+          curl -fsS --max-time 10 -H "$AUTH" \
+            "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
+            | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
+      - name: Enforce quality gate
+        if: steps.scan.outcome == 'success'
+        shell: bash
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          BASE="http://localhost:9001"
+          AUTH="Authorization: Bearer $SONAR_TOKEN"
+          GATE=$(curl -fsS --max-time 10 -H "$AUTH" \
+            "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
+          echo "$GATE" | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
+          GATE_STATUS=$(echo "$GATE" | jq -r '.projectStatus.status // "UNKNOWN"')
+          echo "Gate status: $GATE_STATUS"
+          if [ "$GATE_STATUS" != "OK" ]; then
+            echo "::error::SonarQube quality gate is $GATE_STATUS"
+            exit 1
+          fi

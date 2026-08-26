@@ -218,7 +218,7 @@ class TransformerEncoderLayer(nn.Module):
 class TransformerEncoder(nn.Module):
     def __init__(self, config):
         super().__init__()
-        self.layers = [TransformerEncoderLayer(config) for i in range(config.num_layers)]
+        self.layers = [TransformerEncoderLayer(config) for _ in range(config.num_layers)]
         self.ln = nn.RMSNorm(config.d_model, eps=config.layer_norm_epsilon)
         self.relative_attention_bias = RelativePositionBias(config, bidirectional=True)
 
@@ -266,7 +266,7 @@ class TransformerDecoder(nn.Module):
     def __init__(self, config):
         super().__init__()
         n_layers = getattr(config, "num_decoder_layers", config.num_layers)
-        self.layers = [TransformerDecoderLayer(config) for i in range(n_layers)]
+        self.layers = [TransformerDecoderLayer(config) for _ in range(n_layers)]
         self.ln = nn.RMSNorm(config.d_model, eps=config.layer_norm_epsilon)
         self.relative_attention_bias = RelativePositionBias(config, bidirectional=False)
 

@@ -156,7 +156,6 @@ def eval_multitask(lang: str, sentences: list) -> dict:
             for ti, wid in enumerate(word_ids):
                 if wid is not None and wid == word_id and wid != prev_wid:
                     token_idx = ti
-                    prev_wid = wid
                     break
 
             if token_idx is not None and token_idx < upos_logits.shape[1]:

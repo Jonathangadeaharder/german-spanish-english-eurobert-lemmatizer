@@ -21,6 +21,11 @@ from lemmatizer.languages import LanguageSpec, language_assets
 from lemmatizer.train import TrainOptions
 from lemmatizer.train.grad_utils import tree_add, tree_scale
 
+MODEL_PREFIX = "model."
+EMBED_TOKENS_WEIGHT = "embed_tokens.weight"
+MODEL_EMBED_TOKENS_WEIGHT = "model.embed_tokens.weight"
+UPOS_CLASSIFIER_WEIGHT = "upos_classifier.weight"
+
 
 def read_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -226,9 +231,9 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
             return weights[key_mlx]
         return None
 
-    embed = _get("model.embed_tokens.weight", "embed_tokens.weight")
+    embed = _get(MODEL_EMBED_TOKENS_WEIGHT, EMBED_TOKENS_WEIGHT)
     if embed is not None:
-        assign(model, "embed_tokens.weight", embed)
+        assign(model, EMBED_TOKENS_WEIGHT, embed)
     else:
         # Missing backbone weights leave the model randomly initialized
         # and produce garbage predictions; raise rather than silently
@@ -286,20 +291,20 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
 
 
 def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> None:
-    has_model_prefix = any(k.startswith("model.") for k in weights)
+    has_model_prefix = any(k.startswith(MODEL_PREFIX) for k in weights)
 
     def get_weight(key: str) -> mx.array:
         orig_key = key
-        if not has_model_prefix and key.startswith("model."):
+        if not has_model_prefix and key.startswith(MODEL_PREFIX):
             key = key[6:]
         if key in weights:
             return weights[key]
         # Try roberta. prefix for ScandiBERT. Replace only the leading
-        # "model." (count=1) so a key containing "model." later in its
+        # MODEL_PREFIX (count=1) so a key containing MODEL_PREFIX later in its
         # path is not corrupted — replace-all would silently remap such
         # keys and fail to load the weight.
         roberta_key = (
-            key.replace("model.", "roberta.", 1) if key.startswith("model.") else f"roberta.{key}"
+            key.replace(MODEL_PREFIX, "roberta.", 1) if key.startswith(MODEL_PREFIX) else f"roberta.{key}"
         )
         if roberta_key in weights:
             return weights[roberta_key]
@@ -313,15 +318,15 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
         if alt_key and alt_key in weights:
             return weights[alt_key]
         # Also try roberta-prefixed alternates. count=1 to avoid replacing
-        # a "model." substring later in the key path.
+        # a MODEL_PREFIX substring later in the key path.
         roberta_alt = (
-            alt_key.replace("model.", "roberta.", 1)
-            if alt_key and alt_key.startswith("model.")
+            alt_key.replace(MODEL_PREFIX, "roberta.", 1)
+            if alt_key and alt_key.startswith(MODEL_PREFIX)
             else None
         )
         if roberta_alt and roberta_alt in weights:
             return weights[roberta_alt]
-        if alt_key and not has_model_prefix and alt_key.startswith("model."):
+        if alt_key and not has_model_prefix and alt_key.startswith(MODEL_PREFIX):
             alt_key_no_pref = alt_key[6:]
             if alt_key_no_pref in weights:
                 return weights[alt_key_no_pref]
@@ -377,8 +382,8 @@ def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> Non
     assign(model, "LayerNorm.weight", get_weight("model.embeddings.LayerNorm.weight"))
     assign(model, "LayerNorm.bias", get_weight("model.embeddings.LayerNorm.bias"))
 
-    if "upos_classifier.weight" in weights:
-        assign(model, "upos_classifier.weight", weights["upos_classifier.weight"])
+    if UPOS_CLASSIFIER_WEIGHT in weights:
+        assign(model, UPOS_CLASSIFIER_WEIGHT, weights[UPOS_CLASSIFIER_WEIGHT])
         assign(model, "upos_classifier.bias", weights["upos_classifier.bias"])
         assign(model, "lemma_classifier.weight", weights["lemma_classifier.weight"])
         assign(model, "lemma_classifier.bias", weights["lemma_classifier.bias"])
@@ -891,12 +896,12 @@ def build_model(lang: str, checkpoint: Path):
             if k not in cfg:
                 cfg[k] = v
 
-    has_model_prefix = any(k.startswith("model.") for k in weights)
-    if "model.embed_tokens.weight" in weights or "embed_tokens.weight" in weights:
+    has_model_prefix = any(k.startswith(MODEL_PREFIX) for k in weights)
+    if MODEL_EMBED_TOKENS_WEIGHT in weights or EMBED_TOKENS_WEIGHT in weights:
         key = (
-            "model.embed_tokens.weight"
-            if "model.embed_tokens.weight" in weights
-            else "embed_tokens.weight"
+            MODEL_EMBED_TOKENS_WEIGHT
+            if MODEL_EMBED_TOKENS_WEIGHT in weights
+            else EMBED_TOKENS_WEIGHT
         )
         vocab_size = weights[key].shape[0]
         model = EuroBertMultitask(cfg, vocab_size=vocab_size, n_upos=n_upos, n_lemma=n_lemma)

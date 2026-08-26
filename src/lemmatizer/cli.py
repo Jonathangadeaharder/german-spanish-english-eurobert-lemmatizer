@@ -17,6 +17,8 @@ import typer
 from lemmatizer.languages import LANGUAGES, lang_codes, spec
 from lemmatizer.train import TrainOptions, train_language
 
+EVAL_BATCH_SIZE_HELP = "Evaluation batch size"
+
 app = typer.Typer(
     add_completion=False,
     no_args_is_help=True,
@@ -137,7 +139,7 @@ def train(
 def evaluate(
     model_dir: str | None = typer.Option(None, help="Model directory"),
     eval_limit: int | None = typer.Option(None, help="Limit total test rows"),
-    batch_size: int | None = typer.Option(None, help="Evaluation batch size"),
+    batch_size: int | None = typer.Option(None, help=EVAL_BATCH_SIZE_HELP),
 ) -> None:
     """Treebank evaluation (UPOS + lemma accuracy)."""
     _set_env(
@@ -152,7 +154,7 @@ def evaluate(
 
 @app.command("evaluate-cefr")
 def evaluate_cefr(
-    batch_size: int | None = typer.Option(None, help="Evaluation batch size"),
+    batch_size: int | None = typer.Option(None, help=EVAL_BATCH_SIZE_HELP),
 ) -> None:
     """CEFR-level evaluation via the shared EvalContext."""
     _set_env(EVAL_BATCH_SIZE=batch_size)
@@ -164,7 +166,7 @@ def evaluate_cefr(
 @app.command("cefr-eval")
 def cefr_eval(
     lang: str = typer.Option(..., help=f"Language: {', '.join(lang_codes())} or 'all'"),
-    batch_size: int = typer.Option(8, min=1, help="Evaluation batch size"),
+    batch_size: int = typer.Option(8, min=1, help=EVAL_BATCH_SIZE_HELP),
 ) -> None:
     """CEFR vocabulary eval gate (>90% lemma + UPOS, nonzero exit on fail)."""
     if lang != "all":
