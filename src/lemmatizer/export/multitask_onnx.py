@@ -439,7 +439,6 @@ def export_lang(lang: str) -> None:
 
     hidden_size = config.hidden_size
     wrapper = MultitaskONNXWrapper(backbone, hidden_size, n_upos, n_lemma)
-    wrapper.eval()
 
     # Sync weights
     print(f"[{lang}] Syncing weights...", flush=True)
