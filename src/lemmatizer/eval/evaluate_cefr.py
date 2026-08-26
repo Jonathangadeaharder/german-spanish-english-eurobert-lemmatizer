@@ -41,6 +41,101 @@ def find_term_index(words: list[str], term: str) -> int | None:
     return None
 
 
+def _prepare_cefr_batch(batch):
+    """Extract words and metadata from a batch of CEFR rows."""
+    words_batch = []
+    metadata = []
+    for row in batch:
+        words = row.sentence.split()
+        idx = find_term_index(words, row.term)
+        if idx is None:
+            continue
+        words_batch.append(words)
+        metadata.append((row, idx))
+    return words_batch, metadata
+
+
+def _find_token_index(encoded, batch_index, word_id):
+    """Find the first token index for a given word_id in the encoded batch."""
+    word_ids = encoded.word_ids(batch_index=batch_index)
+    for ti, wid in enumerate(word_ids):
+        if wid == word_id:
+            return ti
+    return None
+
+
+def _record_cefr_result(row, level, predicted_lemma, pred_source, stats, sample_errors):
+    """Record correctness stats and collect sample errors."""
+    correct = predicted_lemma.lower() == row.term.lower()
+    stats[level]["total"] += 1
+    if correct:
+        stats[level]["correct"] += 1
+    elif len(sample_errors[level]) < 8:
+        sample_errors[level].append(
+            {
+                "term": row.term,
+                "level": level,
+                "sentence": row.sentence,
+                "predicted_lemma": predicted_lemma,
+                "source": pred_source,
+            }
+        )
+
+
+def _process_cefr_batch(
+    ctx, encoded, lemma_logits, metadata, first_word_offset, stats, sample_errors
+):
+    """Process predictions for all words in a CEFR batch."""
+    for batch_index, (row, term_idx) in enumerate(metadata):
+        words = row.sentence.split()
+        word_id = first_word_offset + term_idx
+
+        token_idx = _find_token_index(encoded, batch_index, word_id)
+        if token_idx is None:
+            continue
+
+        lemma_row = lemma_logits[batch_index][token_idx]
+
+        predicted_lemma, pred_source, _, _ = ctx.predict_word(words[term_idx], "", lemma_row)
+
+        if predicted_lemma is None:
+            predicted_lemma = words[term_idx].lower()
+
+        _record_cefr_result(
+            row, row.level, predicted_lemma, pred_source, stats, sample_errors
+        )
+
+
+def _build_cefr_report(lang, stats, sample_errors):
+    """Build the CEFR evaluation report dictionary."""
+    report = {"lang": lang, "levels": {}}
+    total_correct = 0
+    total_total = 0
+
+    for level in ["A1", "A2", "B1", "B2", "C1"]:
+        total = stats[level]["total"]
+        correct = stats[level]["correct"]
+        lo, hi = wilson_interval(correct, total)
+        report["levels"][level] = {
+            "total": total,
+            "correct": correct,
+            "accuracy": round(correct / total, 4) if total else 0.0,
+            "wilson_95_ci": [round(lo, 4), round(hi, 4)],
+            "examples": sample_errors[level],
+        }
+        total_correct += correct
+        total_total += total
+
+    if total_total > 0:
+        report["overall"] = {
+            "correct": total_correct,
+            "total": total_total,
+            "accuracy": round(total_correct / total_total, 4),
+        }
+
+    return report
+
+
 def main():
     ctx = build_eval_context()
     lang = ctx.lang
@@ -71,90 +166,17 @@ def main():
 
     for start in range(0, len(rows), batch_size):
         batch = rows[start : start + batch_size]
-        words_batch = []
-        metadata = []
-
-        for row in batch:
-            words = row.sentence.split()
-            idx = find_term_index(words, row.term)
-            if idx is None:
-                continue
-            words_batch.append(words)
-            metadata.append((row, idx))
-
+        words_batch, metadata = _prepare_cefr_batch(batch)
         if not words_batch:
             continue
 
         encoded = ctx.encode(words_batch)
-        upos_logits, lemma_logits = ctx.backend.run(encoded)
+        _, lemma_logits = ctx.backend.run(encoded)
+        _process_cefr_batch(
+            ctx, encoded, lemma_logits, metadata, first_word_offset, stats, sample_errors
+        )
 
-        for batch_index, (row, term_idx) in enumerate(metadata):
-            words = row.sentence.split()
-            word_id = first_word_offset + term_idx
-
-            word_ids = encoded.word_ids(batch_index=batch_index)
-
-            # Find the token index for this word
-            token_idx = None
-            for ti, wid in enumerate(word_ids):
-                if wid == word_id:
-                    token_idx = ti
-                    break
-
-            if token_idx is None:
-                continue
-
-            lemma_row = lemma_logits[batch_index][token_idx]
-
-            # Predict lemma
-            predicted_lemma, source, _, _ = ctx.predict_word(words[term_idx], "", lemma_row)
-
-            if predicted_lemma is None:
-                predicted_lemma = words[term_idx].lower()
-
-            level = row.level
-            correct = predicted_lemma.lower() == row.term.lower()
-
-            stats[level]["total"] += 1
-            if correct:
-                stats[level]["correct"] += 1
-            elif len(sample_errors[level]) < 8:
-                sample_errors[level].append(
-                    {
-                        "term": row.term,
-                        "level": level,
-                        "sentence": row.sentence,
-                        "predicted_lemma": predicted_lemma,
-                        "source": source,
-                    }
-                )
-
-    # Build report
-    report = {"lang": lang, "levels": {}}
-    total_correct = 0
-    total_total = 0
-
-    for level in ["A1", "A2", "B1", "B2", "C1"]:
-        total = stats[level]["total"]
-        correct = stats[level]["correct"]
-        lo, hi = wilson_interval(correct, total)
-        report["levels"][level] = {
-            "total": total,
-            "correct": correct,
-            "accuracy": round(correct / total, 4) if total else 0.0,
-            "wilson_95_ci": [round(lo, 4), round(hi, 4)],
-            "examples": sample_errors[level],
-        }
-        total_correct += correct
-        total_total += total
-
-    if total_total > 0:
-        report["overall"] = {
-            "correct": total_correct,
-            "total": total_total,
-            "accuracy": round(total_correct / total_total, 4),
-        }
-
+    report = _build_cefr_report(lang, stats, sample_errors)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
     ctx.backend.close()

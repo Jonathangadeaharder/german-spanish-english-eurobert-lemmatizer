@@ -55,6 +55,49 @@ def coerce_label2id(label2id: dict) -> dict:
     return {k: int(v) for k, v in label2id.items()}
 
 
+def _build_label_lists(
+    lang: str,
+    original_words: list[str],
+    lemmas: list[str],
+    upos_tags: list[str],
+    lemma_label2id: dict,
+    upos_label2id: dict,
+) -> tuple[list[int], list[int]]:
+    """Build per-word lemma and UPOS label lists (with LANG_TOKEN sentinel)."""
+    lemma_labels = [-100]
+    upos_labels = [-100]
+    for word, lemma, upos in zip(original_words, lemmas, upos_tags, strict=True):
+        base_label = make_edit_label(word, lemma)
+        full_label = f"{lang}::{base_label}"
+        lemma_label_id = lemma_label2id.get(full_label, lemma_label2id["UNKNOWN"])
+        upos_label_id = upos_label2id.get(upos, -100)
+
+        if upos == "PROPN":
+            lemma_label_id = -100
+
+        lemma_labels.append(lemma_label_id)
+        upos_labels.append(upos_label_id)
+    return lemma_labels, upos_labels
+
+
+def _align_labels(
+    word_ids: list[int | None], lemma_labels: list[int], upos_labels: list[int]
+) -> tuple[list[int], list[int]]:
+    """Spread subword labels: first subword of each word gets the label."""
+    labels = []
+    upos_batch_labels = []
+    previous_word_id = None
+    for word_id in word_ids:
+        if word_id is not None and word_id != previous_word_id:
+            labels.append(lemma_labels[word_id])
+            upos_batch_labels.append(upos_labels[word_id])
+        else:
+            labels.append(-100)
+            upos_batch_labels.append(-100)
+        previous_word_id = word_id
+    return labels, upos_batch_labels
+
+
 def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
     sentences = read_conllu(path, lang=lang)
     rows = []
@@ -66,20 +109,9 @@ def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
         upos_tags = sent["upos"]
 
         words = [LANG_TOKEN[lang]] + original_words
-        lemma_labels = [-100]
-        upos_labels = [-100]
-
-        for word, lemma, upos in zip(original_words, lemmas, upos_tags, strict=True):
-            base_label = make_edit_label(word, lemma)
-            full_label = f"{lang}::{base_label}"
-            lemma_label_id = lemma_label2id.get(full_label, lemma_label2id["UNKNOWN"])
-            upos_label_id = upos_label2id.get(upos, -100)
-
-            if upos == "PROPN":
-                lemma_label_id = -100
-
-            lemma_labels.append(lemma_label_id)
-            upos_labels.append(upos_label_id)
+        lemma_labels, upos_labels = _build_label_lists(
+            lang, original_words, lemmas, upos_tags, lemma_label2id, upos_label2id
+        )
 
         enc = tokenizer(
             words,
@@ -89,23 +121,7 @@ def convert_file(path, lang, tokenizer, lemma_label2id, upos_label2id):
         )
 
         word_ids = enc.word_ids()
-
-        labels = []
-        upos_batch_labels = []
-        previous_word_id = None
-
-        for word_id in word_ids:
-            if word_id is None:
-                labels.append(-100)
-                upos_batch_labels.append(-100)
-            elif word_id != previous_word_id:
-                labels.append(lemma_labels[word_id])
-                upos_batch_labels.append(upos_labels[word_id])
-            else:
-                labels.append(-100)
-                upos_batch_labels.append(-100)
-
-            previous_word_id = word_id
+        labels, upos_batch_labels = _align_labels(word_ids, lemma_labels, upos_labels)
 
         enc["labels"] = labels
         enc["upos_labels"] = upos_batch_labels

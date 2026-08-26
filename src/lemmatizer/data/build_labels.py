@@ -13,8 +13,52 @@ OUT_DIR = Path("artifacts")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def main():
-    langs = [s.lang for s in LANGUAGES]
+def _process_token(
+    lang: str,
+    word: str,
+    lemma: str,
+    upos: str,
+    counter: Counter,
+    examples: dict,
+    lexicon_counts: dict,
+    upos_counts: Counter,
+    exceptions: list,
+) -> None:
+    """Process one token: update counts, check reconstruction, record examples."""
+    if upos and upos != "_":
+        upos_counts[upos] += 1
+
+    lexicon_counts[lang][word][lemma] += 1
+
+    base_label = make_edit_label(word, lemma)
+    reconstructed = apply_edit_label(word, base_label)
+
+    if reconstructed != lemma:
+        exceptions.append(
+            {
+                "lang": lang,
+                "word": word,
+                "lemma": lemma,
+                "base_label": base_label,
+                "reason": "reconstruction_failed",
+            }
+        )
+        return
+
+    full_label = f"{lang}::{base_label}"
+    counter[full_label] += 1
+
+    if full_label not in examples:
+        examples[full_label] = {
+            "lang": lang,
+            "word": word,
+            "lemma": lemma,
+            "base_label": base_label,
+        }
+
+
+def _mine_labels(langs: list[str]):
+    """Mine edit-tree labels, lexicon counts, UPOS counts, and exceptions."""
     counter = Counter()
     examples = {}
     lexicon_counts = {lang: defaultdict(Counter) for lang in langs}
@@ -27,55 +71,73 @@ def main():
         paths = [splits["train"], splits["validation"]]
         for path in paths:
             sentences = read_conllu(path, lang=lang)
-
             for sent in sentences:
                 for word, lemma, upos in zip(
                     sent["words"], sent["lemmas"], sent["upos"], strict=True
                 ):
-                    if upos and upos != "_":
-                        upos_counts[upos] += 1
+                    _process_token(
+                        lang, word, lemma, upos,
+                        counter, examples, lexicon_counts, upos_counts, exceptions,
+                    )
 
-                    lexicon_counts[lang][word][lemma] += 1
+    return counter, examples, lexicon_counts, upos_counts, exceptions
 
-                    base_label = make_edit_label(word, lemma)
-                    reconstructed = apply_edit_label(word, base_label)
 
-                    if reconstructed != lemma:
-                        exceptions.append(
-                            {
-                                "lang": lang,
-                                "word": word,
-                                "lemma": lemma,
-                                "base_label": base_label,
-                                "reason": "reconstruction_failed",
-                            }
-                        )
-                        continue
-
-                    full_label = f"{lang}::{base_label}"
-
-                    counter[full_label] += 1
-
-                    if full_label not in examples:
-                        examples[full_label] = {
-                            "lang": lang,
-                            "word": word,
-                            "lemma": lemma,
-                            "base_label": base_label,
-                        }
-
+def _build_labels_list(counter: Counter, langs: list[str]) -> list[str]:
+    """Build the full label list: frequent labels + per-lang IDENTITY/LOWERCASE."""
     labels = ["UNKNOWN"]
-
     for label, count in counter.most_common():
         if count >= MIN_LABEL_COUNT:
             labels.append(label)
-
     for lang in langs:
         for base in ["IDENTITY", "LOWERCASE"]:
             label = f"{lang}::{base}"
             if label not in labels:
                 labels.append(label)
+    return labels
 
+
+def _build_lexicon(lexicon_counts: dict, langs: list[str]) -> dict:
+    """Build per-language lexicon: word → most frequent lemma."""
+    lexicon = {}
+    for lang in langs:
+        lang_lexicon = {}
+        for word, lemma_counts in lexicon_counts[lang].items():
+            winner = sorted(
+                lemma_counts.items(),
+                key=lambda item: (-item[1], item[0]),
+            )[0][0]
+            lang_lexicon[word] = winner
+        lexicon[lang] = lang_lexicon
+    return lexicon
+
+
+def _build_reduced_labels(
+    counter: Counter, labels: list[str], langs: list[str]
+) -> tuple[list[str], list[str]]:
+    """Build top-N reduced label list + top_trees list."""
+    top_trees = []
+    for label, _count in counter.most_common():
+        if label in labels and label != "UNKNOWN":
+            top_trees.append(label)
+        if len(top_trees) >= TOP_TREE_COUNT:
+            break
+
+    reduced_labels = ["UNKNOWN"] + top_trees
+    for lang in langs:
+        for base in ["IDENTITY", "LOWERCASE"]:
+            label = f"{lang}::{base}"
+            if label not in reduced_labels:
+                reduced_labels.append(label)
+
+    return reduced_labels, top_trees
+
+
+def main():
+    langs = [s.lang for s in LANGUAGES]
+    counter, examples, lexicon_counts, upos_counts, exceptions = _mine_labels(langs)
+
+    labels = _build_labels_list(counter, langs)
     label2id = {label: i for i, label in enumerate(labels)}
     id2label = {str(i): label for label, i in label2id.items()}
     upos_labels = sorted(upos_counts)
@@ -91,19 +153,7 @@ def main():
         for label in labels
     }
 
-    lexicon = {}
-
-    for lang in langs:
-        lang_lexicon = {}
-
-        for word, lemma_counts in lexicon_counts[lang].items():
-            winner = sorted(
-                lemma_counts.items(),
-                key=lambda item: (-item[1], item[0]),
-            )[0][0]
-            lang_lexicon[word] = winner
-
-        lexicon[lang] = lang_lexicon
+    lexicon = _build_lexicon(lexicon_counts, langs)
 
     (OUT_DIR / "label2id.json").write_text(
         json.dumps(label2id, ensure_ascii=False, indent=2),
@@ -140,20 +190,7 @@ def main():
         encoding="utf-8",
     )
 
-    top_trees = []
-    for label, _count in counter.most_common():
-        if label in labels and label != "UNKNOWN":
-            top_trees.append(label)
-        if len(top_trees) >= TOP_TREE_COUNT:
-            break
-
-    reduced_labels = ["UNKNOWN"] + top_trees
-    for lang in langs:
-        for base in ["IDENTITY", "LOWERCASE"]:
-            label = f"{lang}::{base}"
-            if label not in reduced_labels:
-                reduced_labels.append(label)
-
+    reduced_labels, top_trees = _build_reduced_labels(counter, labels, langs)
     reduced_label2id = {label: i for i, label in enumerate(reduced_labels)}
     reduced_id2label = {str(i): label for label, i in reduced_label2id.items()}
 

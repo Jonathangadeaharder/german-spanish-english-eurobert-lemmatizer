@@ -30,7 +30,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from lemmatizer.eval.cefr_data import LEVELS, build_sentence_index
-from lemmatizer.eval.context import build_eval_context
+from lemmatizer.eval.context import EvalContext, build_eval_context
 from lemmatizer.languages import (
     LANGUAGE_NAMES,
     LANGUAGES,
@@ -78,23 +78,32 @@ def load_cefr_vocab_with_pos(lang: str) -> list[CefrVocabEntry]:
         csv_path = vocab_dir / lang_name / f"{level}.csv"
         if not csv_path.exists():
             continue
-        # utf-8-sig strips a BOM if present (Windows exports).
-        with csv_path.open(encoding="utf-8-sig") as f:
-            reader = csv.DictReader(f)
-            fieldnames = reader.fieldnames
-            if not fieldnames:
-                continue
-            # Use the registry's exact lemma column name; fall back to
-            # first column only if the registry has no mapping.
-            first_col = VOCAB_LEMMA_COLUMNS.get(lang) or fieldnames[0]
-            header_pos = _resolve_pos_column(fieldnames)
-            for row in reader:
-                term = (row.get(first_col) or "").strip()
-                pos = (row.get(header_pos) or "").strip() if header_pos else ""
-                if term:
-                    entries.append(CefrVocabEntry(level=level, term=term, pos=pos))
+        entries.extend(_read_level_csv_entries(csv_path, lang, level))
 
     return entries
+
+
+def _read_level_csv_entries(
+    csv_path: Path, lang: str, level: str
+) -> list[CefrVocabEntry]:
+    """Read one level's CSV and return its CefrVocabEntry list."""
+    # utf-8-sig strips a BOM if present (Windows exports).
+    with csv_path.open(encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+        if not fieldnames:
+            return []
+        # Use the registry's exact lemma column name; fall back to
+        # first column only if the registry has no mapping.
+        first_col = VOCAB_LEMMA_COLUMNS.get(lang) or fieldnames[0]
+        header_pos = _resolve_pos_column(fieldnames)
+        level_entries: list[CefrVocabEntry] = []
+        for row in reader:
+            term = (row.get(first_col) or "").strip()
+            pos = (row.get(header_pos) or "").strip() if header_pos else ""
+            if term:
+                level_entries.append(CefrVocabEntry(level=level, term=term, pos=pos))
+        return level_entries
 
 
 def _resolve_pos_column(fieldnames: list[str] | None) -> str | None:
@@ -118,110 +127,12 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         vocab = load_cefr_vocab_with_pos(lang)
         sentence_index = build_sentence_index(lang)
 
-        # Index vocab by (level, term) so each CEFR word is scored once.
-        # Store pre-split words to avoid re-splitting every batch iteration.
-        rows: list[tuple[CefrVocabEntry, list[str], int]] = []
-        skipped_no_sentence = 0
-        skipped_no_match = 0
-        skipped_no_token = 0
-        content_vocab_total = 0
-        for entry in vocab:
-            if entry.pos.upper() in NON_CONTENT_POS:
-                continue
-            content_vocab_total += 1
-            sentences = sentence_index.get(entry.term.lower(), [])
-            if not sentences:
-                skipped_no_sentence += 1
-                continue
-            # Try each available sentence until one matches the term,
-            # so a tokenization mismatch on one sentence does not drop
-            # the term from evaluation.
-            matched = False
-            for sentence in sentences:
-                words = sentence.split()
-                idx = _find_term_index(words, entry.term)
-                if idx is not None:
-                    rows.append((entry, words, idx))
-                    matched = True
-                    break
-            if not matched:
-                skipped_no_match += 1
-
-        stats: dict[str, dict] = defaultdict(
-            lambda: {
-                "lemma_correct": 0,
-                "lemma_total": 0,
-                "lemma_errors": 0,
-                "upos_correct": 0,
-                "upos_total": 0,
-                "upos_errors_count": 0,
-                "never_correct": [],
-                "upos_errors": [],
-            }
+        rows, skipped_no_sentence, skipped_no_match, content_vocab_total = (
+            _collect_eval_rows(vocab, sentence_index)
         )
-
-        for start in range(0, len(rows), batch_size):
-            batch = rows[start : start + batch_size]
-            words_batch = [words for _, words, _ in batch]
-            encoded = ctx.encode(words_batch)
-            upos_logits, lemma_logits = ctx.backend.run(encoded)
-
-            for batch_index, (entry, words, term_idx) in enumerate(batch):
-                word_ids = encoded.word_ids(batch_index=batch_index)
-                token_idx = _first_token_for_word(word_ids, first_word_offset, term_idx)
-                if token_idx is None:
-                    skipped_no_token += 1
-                    continue
-
-                word = words[term_idx]
-                # upos="" is safe: predict_word only uses it as a fallback when
-                # upos_logits is None, which never happens here. We want UPOS
-                # predicted from logits, not from the gold POS value.
-                predicted_lemma, source, predicted_upos, _ = ctx.predict_word(
-                    word,
-                    "",
-                    lemma_logits[batch_index][token_idx],
-                    upos_logits[batch_index][token_idx],
-                )
-                gold_pos = entry.pos.upper() if entry.pos else ""
-
-                # Lemma metric: skip POS where lemma concept does not apply.
-                if gold_pos not in NON_CONTENT_POS:
-                    stats[entry.level]["lemma_total"] += 1
-                    if (
-                        predicted_lemma is not None
-                        and predicted_lemma.lower() == entry.term.lower()
-                    ):
-                        stats[entry.level]["lemma_correct"] += 1
-                    else:
-                        stats[entry.level]["lemma_errors"] += 1
-                        if len(stats[entry.level]["never_correct"]) < MAX_NEVER_CORRECT_EXAMPLES:
-                            stats[entry.level]["never_correct"].append(
-                                {
-                                    "term": entry.term,
-                                    "level": entry.level,
-                                    "pos": gold_pos,
-                                    "predicted_lemma": predicted_lemma,
-                                    "source": source,
-                                }
-                            )
-
-                # UPOS metric: score on content tokens (skip non-content).
-                if gold_pos and gold_pos not in NON_CONTENT_POS:
-                    stats[entry.level]["upos_total"] += 1
-                    if predicted_upos == gold_pos:
-                        stats[entry.level]["upos_correct"] += 1
-                    else:
-                        stats[entry.level]["upos_errors_count"] += 1
-                        if len(stats[entry.level]["upos_errors"]) < MAX_NEVER_CORRECT_EXAMPLES:
-                            stats[entry.level]["upos_errors"].append(
-                                {
-                                    "term": entry.term,
-                                    "level": entry.level,
-                                    "gold_upos": gold_pos,
-                                    "predicted_upos": predicted_upos,
-                                }
-                            )
+        stats, skipped_no_token = _process_batches(
+            rows, ctx, batch_size, first_word_offset
+        )
     finally:
         if ctx is not None:
             ctx.backend.close()
@@ -270,6 +181,149 @@ def evaluate_language(lang: str, out_dir: Path, batch_size: int = 8) -> dict:
         json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     return report
+
+
+def _new_level_stats() -> dict:
+    return {
+        "lemma_correct": 0,
+        "lemma_total": 0,
+        "lemma_errors": 0,
+        "upos_correct": 0,
+        "upos_total": 0,
+        "upos_errors_count": 0,
+        "never_correct": [],
+        "upos_errors": [],
+    }
+
+
+def _collect_eval_rows(
+    vocab: list[CefrVocabEntry],
+    sentence_index: dict,
+) -> tuple[list[tuple[CefrVocabEntry, list[str], int]], int, int, int]:
+    # Index vocab by (level, term) so each CEFR word is scored once.
+    # Store pre-split words to avoid re-splitting every batch iteration.
+    rows: list[tuple[CefrVocabEntry, list[str], int]] = []
+    skipped_no_sentence = 0
+    skipped_no_match = 0
+    content_vocab_total = 0
+    for entry in vocab:
+        if entry.pos.upper() in NON_CONTENT_POS:
+            continue
+        content_vocab_total += 1
+        sentences = sentence_index.get(entry.term.lower(), [])
+        if not sentences:
+            skipped_no_sentence += 1
+            continue
+        match = _match_term_in_sentences(sentences, entry.term)
+        if match is None:
+            skipped_no_match += 1
+            continue
+        words, idx = match
+        rows.append((entry, words, idx))
+    return rows, skipped_no_sentence, skipped_no_match, content_vocab_total
+
+
+def _match_term_in_sentences(
+    sentences: list[str], term: str
+) -> tuple[list[str], int] | None:
+    # Try each available sentence until one matches the term, so a
+    # tokenization mismatch on one sentence does not drop the term
+    # from evaluation.
+    for sentence in sentences:
+        words = sentence.split()
+        idx = _find_term_index(words, term)
+        if idx is not None:
+            return (words, idx)
+    return None
+
+
+def _process_batches(
+    rows: list[tuple[CefrVocabEntry, list[str], int]],
+    ctx: EvalContext,
+    batch_size: int,
+    first_word_offset: int,
+) -> tuple[dict, int]:
+    stats: dict[str, dict] = defaultdict(_new_level_stats)
+    skipped_no_token = 0
+    for start in range(0, len(rows), batch_size):
+        batch = rows[start : start + batch_size]
+        words_batch = [words for _, words, _ in batch]
+        encoded = ctx.encode(words_batch)
+        upos_logits, lemma_logits = ctx.backend.run(encoded)
+
+        for batch_index, (entry, words, term_idx) in enumerate(batch):
+            word_ids = encoded.word_ids(batch_index=batch_index)
+            token_idx = _first_token_for_word(word_ids, first_word_offset, term_idx)
+            if token_idx is None:
+                skipped_no_token += 1
+                continue
+
+            word = words[term_idx]
+            # upos="" is safe: predict_word only uses it as a fallback when
+            # upos_logits is None, which never happens here. We want UPOS
+            # predicted from logits, not from the gold POS value.
+            predicted_lemma, source, predicted_upos, _ = ctx.predict_word(
+                word,
+                "",
+                lemma_logits[batch_index][token_idx],
+                upos_logits[batch_index][token_idx],
+            )
+            gold_pos = entry.pos.upper() if entry.pos else ""
+            _record_lemma_metric(stats, entry, gold_pos, predicted_lemma, source)
+            _record_upos_metric(stats, entry, gold_pos, predicted_upos)
+    return stats, skipped_no_token
+
+
+def _record_lemma_metric(
+    stats: dict[str, dict],
+    entry: CefrVocabEntry,
+    gold_pos: str,
+    predicted_lemma: str | None,
+    source: str,
+) -> None:
+    # Lemma metric: skip POS where lemma concept does not apply.
+    if gold_pos in NON_CONTENT_POS:
+        return
+    stats[entry.level]["lemma_total"] += 1
+    if predicted_lemma is not None and predicted_lemma.lower() == entry.term.lower():
+        stats[entry.level]["lemma_correct"] += 1
+        return
+    stats[entry.level]["lemma_errors"] += 1
+    if len(stats[entry.level]["never_correct"]) < MAX_NEVER_CORRECT_EXAMPLES:
+        stats[entry.level]["never_correct"].append(
+            {
+                "term": entry.term,
+                "level": entry.level,
+                "pos": gold_pos,
+                "predicted_lemma": predicted_lemma,
+                "source": source,
+            }
+        )
+
+
+def _record_upos_metric(
+    stats: dict[str, dict],
+    entry: CefrVocabEntry,
+    gold_pos: str,
+    predicted_upos: str,
+) -> None:
+    # UPOS metric: score on content tokens (skip non-content).
+    if not gold_pos or gold_pos in NON_CONTENT_POS:
+        return
+    stats[entry.level]["upos_total"] += 1
+    if predicted_upos == gold_pos:
+        stats[entry.level]["upos_correct"] += 1
+        return
+    stats[entry.level]["upos_errors_count"] += 1
+    if len(stats[entry.level]["upos_errors"]) < MAX_NEVER_CORRECT_EXAMPLES:
+        stats[entry.level]["upos_errors"].append(
+            {
+                "term": entry.term,
+                "level": entry.level,
+                "gold_upos": gold_pos,
+                "predicted_upos": predicted_upos,
+            }
+        )
 
 
 def _strip_trailing_punct(word: str) -> str:
@@ -345,21 +399,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # Pre-check: skip languages whose model artifacts are missing so the
     # nightly gate reports a clear skip instead of a raw traceback.
-    skipped: list[str] = []
-    evalable: list[str] = []
-    for lang in langs:
-        assets = language_assets(lang)
-        label2id_path = Path(assets.label2id_path)
-        if not label2id_path.exists():
-            print(
-                f"CEFR eval: {lang} SKIP — artifacts missing "
-                f"(no {label2id_path}). Train the model first.",
-                file=sys.stderr,
-                flush=True,
-            )
-            skipped.append(lang)
-        else:
-            evalable.append(lang)
+    evalable, skipped = _partition_evalable_langs(langs)
 
     if not evalable:
         print(
@@ -373,27 +413,9 @@ def main(argv: list[str] | None = None) -> int:
     failed: list[str] = []
     for lang in evalable:
         print(f"CEFR eval: {lang}", flush=True)
-        try:
-            report = evaluate_language(lang, out_dir, args.batch_size)
-        except Exception as exc:  # noqa: BLE001 — CI gate must report all langs
-            tb = traceback.format_exc()
-            print(f"  {lang}: ERROR {type(exc).__name__}: {exc}\n{tb}", file=sys.stderr, flush=True)
-            summary[lang] = {"error": str(exc), "type": type(exc).__name__}
-            failed.append(lang)
-            continue
-        ov = report["overall"]
-        summary[lang] = ov
-        lemma_ok = ov["lemma_accuracy"] >= GATE_ACCURACY
-        upos_ok = ov["upos_accuracy"] >= GATE_ACCURACY
-        coverage_ok = ov["coverage"] >= MIN_COVERAGE
-        status = "PASS" if lemma_ok and upos_ok and coverage_ok else "FAIL"
-        print(
-            f"  {lang}: lemma={ov['lemma_accuracy']:.4f} "
-            f"upos={ov['upos_accuracy']:.4f} "
-            f"coverage={ov['coverage']:.4f} [{status}]",
-            flush=True,
-        )
-        if not (lemma_ok and upos_ok and coverage_ok):
+        entry, lang_failed = _run_lang_eval(lang, out_dir, args.batch_size)
+        summary[lang] = entry
+        if lang_failed:
             failed.append(lang)
 
     print(json.dumps({"summary": summary, "gate": GATE_ACCURACY}, indent=2))
@@ -403,6 +425,49 @@ def main(argv: list[str] | None = None) -> int:
         print(f"GATE FAILED: {failed} below {GATE_ACCURACY:.0%}", file=sys.stderr)
         return 1
     return 0
+
+
+def _partition_evalable_langs(langs: list[str]) -> tuple[list[str], list[str]]:
+    """Split languages into (evalable, skipped) by model-artifact presence."""
+    skipped: list[str] = []
+    evalable: list[str] = []
+    for lang in langs:
+        assets = language_assets(lang)
+        label2id_path = Path(assets.label2id_path)
+        if not label2id_path.exists():
+            print(
+                f"CEFR eval: {lang} SKIP — artifacts missing "
+                f"(no {label2id_path}). Train the model first.",
+                file=sys.stderr,
+                flush=True,
+            )
+            skipped.append(lang)
+            continue
+        evalable.append(lang)
+    return evalable, skipped
+
+
+def _run_lang_eval(lang: str, out_dir: Path, batch_size: int) -> tuple[dict, bool]:
+    """Evaluate one language. Returns (summary entry, failed flag)."""
+    try:
+        report = evaluate_language(lang, out_dir, batch_size)
+    except Exception as exc:  # noqa: BLE001 — CI gate must report all langs
+        tb = traceback.format_exc()
+        print(f"  {lang}: ERROR {type(exc).__name__}: {exc}\n{tb}", file=sys.stderr, flush=True)
+        return {"error": str(exc), "type": type(exc).__name__}, True
+    ov = report["overall"]
+    lemma_ok = ov["lemma_accuracy"] >= GATE_ACCURACY
+    upos_ok = ov["upos_accuracy"] >= GATE_ACCURACY
+    coverage_ok = ov["coverage"] >= MIN_COVERAGE
+    status = "PASS" if lemma_ok and upos_ok and coverage_ok else "FAIL"
+    print(
+        f"  {lang}: lemma={ov['lemma_accuracy']:.4f} "
+        f"upos={ov['upos_accuracy']:.4f} "
+        f"coverage={ov['coverage']:.4f} [{status}]",
+        flush=True,
+    )
+    failed = not (lemma_ok and upos_ok and coverage_ok)
+    return ov, failed
 
 
 if __name__ == "__main__":

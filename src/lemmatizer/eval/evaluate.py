@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 from collections import Counter, defaultdict
+from dataclasses import dataclass
 
 import numpy as np
 from datasets import load_from_disk
@@ -159,6 +160,164 @@ def resolve_prediction(
     return word, "identity", edit_failed
 
 
+def _resolve_constrained_base_label(
+    word_id, word, raw_labels_by_word, constrained_ids_by_word,
+    lemma_logits_by_word, candidate_ids, id2label, lang, valid_mask, stats,
+):
+    """Resolve the constrained base label for a word, updating unknown stats."""
+    raw_label = raw_labels_by_word.get(word_id)
+    if raw_label == "UNKNOWN":
+        stats["unknown"] += 1
+
+    constrained_id = constrained_ids_by_word.get(word_id)
+    if constrained_id is None:
+        stats["missing_prediction"] += 1
+        return None
+
+    constrained_label = id2label.get(str(constrained_id), "UNKNOWN")
+    if constrained_label == "UNKNOWN":
+        stats["unknown"] += 1
+    base_label = strip_lang_prefix(constrained_label, lang)
+    if base_label == "UNKNOWN":
+        base_label = None
+    if valid_mask and word_id in lemma_logits_by_word:
+        base_label = select_valid_label_id(
+            lemma_logits_by_word[word_id],
+            candidate_ids,
+            id2label,
+            lang,
+            word,
+        )
+
+    return base_label
+
+
+@dataclass
+class TreebankContext:
+    gold_upos: list[str]
+    predicted_upos_by_word: dict
+    raw_labels_by_word: dict
+    constrained_ids_by_word: dict
+    lemma_logits_by_word: dict
+    candidate_ids: list[int]
+    id2label: dict[str, str]
+    lexicon: dict
+    lang: str
+    valid_mask: bool
+    stats: dict
+
+
+def _process_treebank_word(
+    word, gold_lemma, word_offset, word_id, ctx: TreebankContext,
+):
+    """Process a single word's prediction and update stats."""
+    stats = ctx.stats
+    stats["total"] += 1
+
+    upos_tag = ctx.gold_upos[word_offset] if word_offset < len(ctx.gold_upos) else "_"
+    upos_bucket = stats["upos"][upos_tag]
+    upos_bucket["total"] += 1
+
+    predicted_upos = ctx.predicted_upos_by_word.get(word_id, "X")
+    stats["pred_upos"][predicted_upos] += 1
+    if predicted_upos == upos_tag:
+        stats["upos_correct"] += 1
+        upos_bucket["correct"] += 1
+
+    if upos_tag == "PROPN":
+        return
+
+    stats["lemma_total"] += 1
+    if word not in ctx.lexicon:
+        stats["oov_total"] += 1
+    else:
+        stats["in_vocab_total"] += 1
+
+    if predicted_upos == "PROPN":
+        predicted_lemma, source, failed_apply = resolve_prediction(
+            word, predicted_upos, None, ctx.lexicon, lang=ctx.lang
+        )
+    else:
+        stats["edit_tree_total"] += 1
+        base_label = _resolve_constrained_base_label(
+            word_id, word, ctx.raw_labels_by_word, ctx.constrained_ids_by_word,
+            ctx.lemma_logits_by_word, ctx.candidate_ids, ctx.id2label,
+            ctx.lang, ctx.valid_mask, stats,
+        )
+        predicted_lemma, source, failed_apply = resolve_prediction(
+            word, predicted_upos, base_label, ctx.lexicon, lang=ctx.lang
+        )
+
+    stats["source_counts"][source] += 1
+    if failed_apply:
+        stats["failed_apply"] += 1
+
+    if predicted_lemma == gold_lemma:
+        stats["lemma_correct"] += 1
+        stats["edit_tree_correct"] += 1
+        if word not in ctx.lexicon:
+            stats["oov_correct"] += 1
+        else:
+            stats["in_vocab_correct"] += 1
+
+
+def _build_eval_summary(lang, stats):
+    """Build the summary dictionary from evaluation stats."""
+    upos_report: dict[str, dict] = {}
+    for upos_tag, bucket in sorted(
+        stats["upos"].items(),
+        key=lambda item: (-item[1]["total"], item[0]),
+    ):
+        upos_total = bucket["total"] or 1
+        upos_report[upos_tag] = {
+            "total": bucket["total"],
+            "accuracy": round(bucket["correct"] / upos_total, 4),
+        }
+
+    total = stats["total"] or 1
+    lemma_total = stats["lemma_total"] or 1
+    oov_total = stats["oov_total"] or 1
+    in_vocab_total = stats["in_vocab_total"] or 1
+    edit_tree_total = stats["edit_tree_total"] or 1
+
+    return {
+        "lang": lang,
+        "total": stats["total"],
+        "upos_accuracy": round(stats["upos_correct"] / total, 4),
+        "lemma_accuracy": round(stats["lemma_correct"] / lemma_total, 4),
+        "lemma_total": stats["lemma_total"],
+        "unknown_rate": round(stats["unknown"] / lemma_total, 4),
+        "failed_apply_rate": round(stats["failed_apply"] / lemma_total, 4),
+        "missing_prediction_rate": round(stats["missing_prediction"] / lemma_total, 4),
+        "oov_accuracy": round(stats["oov_correct"] / oov_total, 4),
+        "in_vocab_accuracy": round(stats["in_vocab_correct"] / in_vocab_total, 4),
+        "edit_tree_accuracy": (
+            round(stats["edit_tree_correct"] / edit_tree_total, 4)
+            if stats["edit_tree_total"] > 0
+            else None
+        ),
+        "source_counts": dict(stats["source_counts"]),
+        "upos_by_gold": upos_report,
+    }
+
+
+def _write_eval_report(ctx, summary, eval_limit, batch_size):
+    """Write the evaluation report to disk and print the summary."""
+    report = {
+        "config": {
+            "eval_limit": eval_limit,
+            "batch_size": batch_size,
+            "backend": ctx.backend.__class__.__name__,
+        },
+        "summary": summary,
+    }
+
+    report_path = ctx.assets.artifacts_dir / "eval_report.json"
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    print(f"Saved evaluation report to {report_path}")
+
+
 def main() -> None:
     ctx = build_eval_context()
     lang = ctx.lang
@@ -226,128 +385,30 @@ def main() -> None:
                 upos_id2label,
             )
 
+            tb_ctx = TreebankContext(
+                gold_upos=gold_upos,
+                predicted_upos_by_word=predicted_upos_by_word,
+                raw_labels_by_word=raw_labels_by_word,
+                constrained_ids_by_word=constrained_ids_by_word,
+                lemma_logits_by_word=lemma_logits_by_word,
+                candidate_ids=candidate_ids,
+                id2label=id2label,
+                lexicon=lexicon,
+                lang=lang,
+                valid_mask=valid_mask,
+                stats=stats,
+            )
+
             for word_offset, (word, gold_lemma) in enumerate(zip(words, lemmas, strict=True)):
                 word_id = first_word_id + word_offset
-                stats["total"] += 1
-
-                upos_tag = gold_upos[word_offset] if word_offset < len(gold_upos) else "_"
-                upos_bucket = stats["upos"][upos_tag]
-                upos_bucket["total"] += 1
-
-                predicted_upos = predicted_upos_by_word.get(word_id, "X")
-                stats["pred_upos"][predicted_upos] += 1
-                if predicted_upos == upos_tag:
-                    stats["upos_correct"] += 1
-                    upos_bucket["correct"] += 1
-
-                if upos_tag == "PROPN":
-                    continue
-
-                stats["lemma_total"] += 1
-                if word not in lexicon:
-                    stats["oov_total"] += 1
-                else:
-                    stats["in_vocab_total"] += 1
-
-                if predicted_upos == "PROPN":
-                    predicted_lemma, source, failed_apply = resolve_prediction(
-                        word, predicted_upos, None, lexicon, lang=lang
-                    )
-                else:
-                    stats["edit_tree_total"] += 1
-
-                    raw_label = raw_labels_by_word.get(word_id)
-                    if raw_label == "UNKNOWN":
-                        stats["unknown"] += 1
-
-                    constrained_id = constrained_ids_by_word.get(word_id)
-                    if constrained_id is None:
-                        stats["missing_prediction"] += 1
-                        base_label = None
-                    else:
-                        constrained_label = id2label.get(str(constrained_id), "UNKNOWN")
-                        if constrained_label == "UNKNOWN":
-                            stats["unknown"] += 1
-                        base_label = strip_lang_prefix(constrained_label, lang)
-                        if base_label == "UNKNOWN":
-                            base_label = None
-                        if valid_mask and word_id in lemma_logits_by_word:
-                            base_label = select_valid_label_id(
-                                lemma_logits_by_word[word_id],
-                                candidate_ids,
-                                id2label,
-                                lang,
-                                word,
-                            )
-
-                    predicted_lemma, source, failed_apply = resolve_prediction(
-                        word, predicted_upos, base_label, lexicon, lang=lang
-                    )
-
-                stats["source_counts"][source] += 1
-                if failed_apply:
-                    stats["failed_apply"] += 1
-
-                if predicted_lemma == gold_lemma:
-                    stats["lemma_correct"] += 1
-                    stats["edit_tree_correct"] += 1
-                    if word not in lexicon:
-                        stats["oov_correct"] += 1
-                    else:
-                        stats["in_vocab_correct"] += 1
+                _process_treebank_word(
+                    word, gold_lemma, word_offset, word_id, tb_ctx,
+                )
 
     ctx.backend.close()
 
-    upos_report: dict[str, dict] = {}
-    for upos_tag, bucket in sorted(
-        stats["upos"].items(),
-        key=lambda item: (-item[1]["total"], item[0]),
-    ):
-        upos_total = bucket["total"] or 1
-        upos_report[upos_tag] = {
-            "total": bucket["total"],
-            "accuracy": round(bucket["correct"] / upos_total, 4),
-        }
-
-    total = stats["total"] or 1
-    lemma_total = stats["lemma_total"] or 1
-    oov_total = stats["oov_total"] or 1
-    in_vocab_total = stats["in_vocab_total"] or 1
-    edit_tree_total = stats["edit_tree_total"] or 1
-
-    summary = {
-        "lang": lang,
-        "total": stats["total"],
-        "upos_accuracy": round(stats["upos_correct"] / total, 4),
-        "lemma_accuracy": round(stats["lemma_correct"] / lemma_total, 4),
-        "lemma_total": stats["lemma_total"],
-        "unknown_rate": round(stats["unknown"] / lemma_total, 4),
-        "failed_apply_rate": round(stats["failed_apply"] / lemma_total, 4),
-        "missing_prediction_rate": round(stats["missing_prediction"] / lemma_total, 4),
-        "oov_accuracy": round(stats["oov_correct"] / oov_total, 4),
-        "in_vocab_accuracy": round(stats["in_vocab_correct"] / in_vocab_total, 4),
-        "edit_tree_accuracy": (
-            round(stats["edit_tree_correct"] / edit_tree_total, 4)
-            if stats["edit_tree_total"] > 0
-            else None
-        ),
-        "source_counts": dict(stats["source_counts"]),
-        "upos_by_gold": upos_report,
-    }
-
-    report = {
-        "config": {
-            "eval_limit": eval_limit,
-            "batch_size": batch_size,
-            "backend": ctx.backend.__class__.__name__,
-        },
-        "summary": summary,
-    }
-
-    report_path = ctx.assets.artifacts_dir / "eval_report.json"
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps(summary, ensure_ascii=False, indent=2))
-    print(f"Saved evaluation report to {report_path}")
+    summary = _build_eval_summary(lang, stats)
+    _write_eval_report(ctx, summary, eval_limit, batch_size)
 
 
 if __name__ == "__main__":

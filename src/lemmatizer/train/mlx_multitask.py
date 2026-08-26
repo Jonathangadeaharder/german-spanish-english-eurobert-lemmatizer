@@ -5,6 +5,7 @@ import json
 import math
 import random
 import time
+from dataclasses import dataclass
 from pathlib import Path
 
 import mlx.core as mx
@@ -20,6 +21,8 @@ from lemmatizer.data.label_space import LabelSpace
 from lemmatizer.languages import LanguageSpec, language_assets
 from lemmatizer.train import TrainOptions
 from lemmatizer.train.grad_utils import tree_add, tree_scale
+from lemmatizer.train.lora import LoRALinear
+from lemmatizer.train.train_byt5 import _expand_pool_indices
 
 MODEL_PREFIX = "model."
 EMBED_TOKENS_WEIGHT = "embed_tokens.weight"
@@ -46,26 +49,6 @@ class RMSNorm(nn.Module):
         return self.weight * (
             x * mx.rsqrt(mx.mean(mx.square(x), axis=-1, keepdims=True) + self.eps)
         )
-
-
-class LoRALinear(nn.Module):
-    def __init__(self, base: nn.Linear, rank: int, alpha: float):
-        super().__init__()
-        self.weight = base.weight
-        self.bias = getattr(base, "bias", None)
-        self.rank = rank
-        self.scale = alpha / rank
-        self.lora_a = mx.random.normal((rank, base.weight.shape[1])) * 0.01
-        self.lora_b = mx.zeros((base.weight.shape[0], rank))
-        self.freeze(keys=["weight"])
-        if self.bias is not None:
-            self.freeze(keys=["bias"])
-
-    def __call__(self, x: mx.array) -> mx.array:
-        y = x @ self.weight.T
-        if self.bias is not None:
-            y = y + self.bias
-        return y + ((x @ self.lora_a.T) @ self.lora_b.T) * self.scale
 
 
 def rotate_half(x: mx.array) -> mx.array:
@@ -221,66 +204,92 @@ def assign(obj, name: str, value: mx.array) -> None:
     setattr(target, parts[-1], value)
 
 
-def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]) -> None:
-    # Handle both HF format (model.embed_tokens.weight, model.layers.N.self_attn.)
-    # and MLX-saved format (embed_tokens.weight, layers.N.q_proj.).
-    def _get(key_hf: str, key_mlx: str = "") -> mx.array | None:
-        if key_hf in weights:
-            return weights[key_hf]
-        if key_mlx and key_mlx in weights:
-            return weights[key_mlx]
-        return None
+def _lookup_weight(
+    weights: dict[str, mx.array], key_hf: str, key_mlx: str = ""
+) -> mx.array | None:
+    if key_hf in weights:
+        return weights[key_hf]
+    if key_mlx and key_mlx in weights:
+        return weights[key_mlx]
+    return None
 
-    embed = _get(MODEL_EMBED_TOKENS_WEIGHT, EMBED_TOKENS_WEIGHT)
-    if embed is not None:
-        assign(model, EMBED_TOKENS_WEIGHT, embed)
-    else:
-        # Missing backbone weights leave the model randomly initialized
-        # and produce garbage predictions; raise rather than silently
-        # continue. Only classifier heads are legitimately optional.
-        raise ValueError(
-            "Missing critical backbone weight: embed_tokens.weight. "
-            "The checkpoint format does not match the model; refusing to "
-            "train with randomly initialized embeddings."
-        )
-    norm = _get("model.norm.weight", "norm.weight")
-    if norm is not None:
-        assign(model, "norm.weight", norm)
-    else:
-        raise ValueError(
-            "Missing critical backbone weight: norm.weight. "
-            "Refusing to train with randomly initialized final norm."
-        )
+
+def _require_backbone_weight(
+    weights: dict[str, mx.array], key_hf: str, key_mlx: str, message: str
+) -> mx.array:
+    w = _lookup_weight(weights, key_hf, key_mlx)
+    if w is not None:
+        return w
+    raise ValueError(message)
+
+
+def _load_eurobert_classifier_heads(
+    model: EuroBertMultitask, weights: dict[str, mx.array]
+) -> None:
     # Classifier heads may not exist in base model checkpoints; only load
     # them when present so training can warm-start from a bare backbone.
     for head in ("upos_classifier", "lemma_classifier"):
         for suffix in ("weight", "bias"):
             key = f"{head}.{suffix}"
-            w = _get(f"model.{key}", key)
+            w = _lookup_weight(weights, f"model.{key}", key)
             if w is not None:
                 assign(model, key, w)
+
+
+def _load_eurobert_layer(
+    layer, i: int, weights: dict[str, mx.array]
+) -> list[str]:
+    # Try HF format first (model.layers.N.self_attn.q_proj.weight),
+    # then MLX format (layers.N.q_proj.weight).
+    missing: list[str] = []
+    for local, remote in [
+        ("input_layernorm.weight", "input_layernorm.weight"),
+        ("post_attention_layernorm.weight", "post_attention_layernorm.weight"),
+        ("q_proj.weight", "self_attn.q_proj.weight"),
+        ("k_proj.weight", "self_attn.k_proj.weight"),
+        ("v_proj.weight", "self_attn.v_proj.weight"),
+        ("o_proj.weight", "self_attn.o_proj.weight"),
+        ("gate_proj.weight", "mlp.gate_proj.weight"),
+        ("up_proj.weight", "mlp.up_proj.weight"),
+        ("down_proj.weight", "mlp.down_proj.weight"),
+    ]:
+        hf_key = f"model.layers.{i}.{remote}"
+        mlx_key = f"layers.{i}.{local}"
+        w = _lookup_weight(weights, hf_key, mlx_key)
+        if w is not None:
+            assign(layer, local, w)
+        else:
+            missing.append(mlx_key)
+    return missing
+
+
+def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]) -> None:
+    # Handle both HF format (model.embed_tokens.weight, model.layers.N.self_attn.)
+    # and MLX-saved format (embed_tokens.weight, layers.N.q_proj.).
+    # Missing backbone weights leave the model randomly initialized
+    # and produce garbage predictions; raise rather than silently
+    # continue. Only classifier heads are legitimately optional.
+    embed = _require_backbone_weight(
+        weights,
+        MODEL_EMBED_TOKENS_WEIGHT,
+        EMBED_TOKENS_WEIGHT,
+        "Missing critical backbone weight: embed_tokens.weight. "
+        "The checkpoint format does not match the model; refusing to "
+        "train with randomly initialized embeddings.",
+    )
+    assign(model, EMBED_TOKENS_WEIGHT, embed)
+    norm = _require_backbone_weight(
+        weights,
+        "model.norm.weight",
+        "norm.weight",
+        "Missing critical backbone weight: norm.weight. "
+        "Refusing to train with randomly initialized final norm.",
+    )
+    assign(model, "norm.weight", norm)
+    _load_eurobert_classifier_heads(model, weights)
     missing_layer_weights: list[str] = []
     for i, layer in enumerate(model.layers):
-        # Try HF format first (model.layers.N.self_attn.q_proj.weight),
-        # then MLX format (layers.N.q_proj.weight).
-        for local, remote in [
-            ("input_layernorm.weight", "input_layernorm.weight"),
-            ("post_attention_layernorm.weight", "post_attention_layernorm.weight"),
-            ("q_proj.weight", "self_attn.q_proj.weight"),
-            ("k_proj.weight", "self_attn.k_proj.weight"),
-            ("v_proj.weight", "self_attn.v_proj.weight"),
-            ("o_proj.weight", "self_attn.o_proj.weight"),
-            ("gate_proj.weight", "mlp.gate_proj.weight"),
-            ("up_proj.weight", "mlp.up_proj.weight"),
-            ("down_proj.weight", "mlp.down_proj.weight"),
-        ]:
-            hf_key = f"model.layers.{i}.{remote}"
-            mlx_key = f"layers.{i}.{local}"
-            w = _get(hf_key, mlx_key)
-            if w is not None:
-                assign(layer, local, w)
-            else:
-                missing_layer_weights.append(mlx_key)
+        missing_layer_weights.extend(_load_eurobert_layer(layer, i, weights))
     if missing_layer_weights:
         raise ValueError(
             "Missing critical backbone layer weights (first 3): "
@@ -290,83 +299,118 @@ def load_eurobert_weights(model: EuroBertMultitask, weights: dict[str, mx.array]
         )
 
 
+_BERT_EMBED_ALTERNATES = {
+    "model.embeddings.LayerNorm.weight": "model.embeddings.norm.weight",
+    "model.embeddings.LayerNorm.bias": "model.embeddings.norm.bias",
+    "embeddings.LayerNorm.weight": "embeddings.norm.weight",
+    "embeddings.LayerNorm.bias": "embeddings.norm.bias",
+}
+
+_BERT_ENCODER_SUFFIX_MAP = {
+    "attention.self.query.weight": "attention.query_proj.weight",
+    "attention.self.query.bias": "attention.query_proj.bias",
+    "attention.self.key.weight": "attention.key_proj.weight",
+    "attention.self.key.bias": "attention.key_proj.bias",
+    "attention.self.value.weight": "attention.value_proj.weight",
+    "attention.self.value.bias": "attention.value_proj.bias",
+    "attention.output.dense.weight": "attention.out_proj.weight",
+    "attention.output.dense.bias": "attention.out_proj.bias",
+    "attention.output.LayerNorm.weight": "ln1.weight",
+    "attention.output.LayerNorm.bias": "ln1.bias",
+    "intermediate.dense.weight": "linear1.weight",
+    "intermediate.dense.bias": "linear1.bias",
+    "output.dense.weight": "linear2.weight",
+    "output.dense.bias": "linear2.bias",
+    "output.LayerNorm.weight": "ln2.weight",
+    "output.LayerNorm.bias": "ln2.bias",
+}
+
+
+def _bert_resolve_key(
+    weights: dict[str, mx.array], key: str
+) -> mx.array | None:
+    if key in weights:
+        return weights[key]
+    # Try roberta. prefix for ScandiBERT. Replace only the leading
+    # MODEL_PREFIX (count=1) so a key containing MODEL_PREFIX later in its
+    # path is not corrupted — replace-all would silently remap such
+    # keys and fail to load the weight.
+    roberta_key = (
+        key.replace(MODEL_PREFIX, "roberta.", 1) if key.startswith(MODEL_PREFIX) else f"roberta.{key}"
+    )
+    if roberta_key in weights:
+        return weights[roberta_key]
+    return None
+
+
+def _bert_lookup_embed_alternate(
+    weights: dict[str, mx.array], has_model_prefix: bool, key: str
+) -> mx.array | None:
+    alt_key = _BERT_EMBED_ALTERNATES.get(key)
+    if alt_key and alt_key in weights:
+        return weights[alt_key]
+    # Also try roberta-prefixed alternates. count=1 to avoid replacing
+    # a MODEL_PREFIX substring later in the key path.
+    roberta_alt = (
+        alt_key.replace(MODEL_PREFIX, "roberta.", 1)
+        if alt_key and alt_key.startswith(MODEL_PREFIX)
+        else None
+    )
+    if roberta_alt and roberta_alt in weights:
+        return weights[roberta_alt]
+    if alt_key and not has_model_prefix and alt_key.startswith(MODEL_PREFIX):
+        alt_key_no_pref = alt_key[6:]
+        if alt_key_no_pref in weights:
+            return weights[alt_key_no_pref]
+    return None
+
+
+def _bert_lookup_encoder_layer(
+    weights: dict[str, mx.array], orig_key: str
+) -> mx.array | None:
+    # Check alternates for encoder layers
+    if "model.encoder.layer." not in orig_key:
+        return None
+    parts = orig_key.split(".")
+    try:
+        idx = parts[3]
+        suffix = ".".join(parts[4:])
+        mapped_suffix = _BERT_ENCODER_SUFFIX_MAP.get(suffix)
+        if mapped_suffix:
+            alt_key = f"model.encoder.layers.{idx}.{mapped_suffix}"
+            if alt_key in weights:
+                return weights[alt_key]
+            alt_key_no_pref = f"encoder.layers.{idx}.{mapped_suffix}"
+            if alt_key_no_pref in weights:
+                return weights[alt_key_no_pref]
+    except Exception:
+        pass
+    return None
+
+
+def _bert_get_weight(
+    weights: dict[str, mx.array], has_model_prefix: bool, orig_key: str
+) -> mx.array:
+    key = orig_key
+    if not has_model_prefix and key.startswith(MODEL_PREFIX):
+        key = key[6:]
+    found = _bert_resolve_key(weights, key)
+    if found is not None:
+        return found
+    found = _bert_lookup_embed_alternate(weights, has_model_prefix, key)
+    if found is not None:
+        return found
+    found = _bert_lookup_encoder_layer(weights, orig_key)
+    if found is not None:
+        return found
+    raise KeyError(f"Could not find key {key} in weights.")
+
+
 def load_bert_weights(model: BertMultitask, weights: dict[str, mx.array]) -> None:
     has_model_prefix = any(k.startswith(MODEL_PREFIX) for k in weights)
 
     def get_weight(key: str) -> mx.array:
-        orig_key = key
-        if not has_model_prefix and key.startswith(MODEL_PREFIX):
-            key = key[6:]
-        if key in weights:
-            return weights[key]
-        # Try roberta. prefix for ScandiBERT. Replace only the leading
-        # MODEL_PREFIX (count=1) so a key containing MODEL_PREFIX later in its
-        # path is not corrupted — replace-all would silently remap such
-        # keys and fail to load the weight.
-        roberta_key = (
-            key.replace(MODEL_PREFIX, "roberta.", 1) if key.startswith(MODEL_PREFIX) else f"roberta.{key}"
-        )
-        if roberta_key in weights:
-            return weights[roberta_key]
-        alternates = {
-            "model.embeddings.LayerNorm.weight": "model.embeddings.norm.weight",
-            "model.embeddings.LayerNorm.bias": "model.embeddings.norm.bias",
-            "embeddings.LayerNorm.weight": "embeddings.norm.weight",
-            "embeddings.LayerNorm.bias": "embeddings.norm.bias",
-        }
-        alt_key = alternates.get(key)
-        if alt_key and alt_key in weights:
-            return weights[alt_key]
-        # Also try roberta-prefixed alternates. count=1 to avoid replacing
-        # a MODEL_PREFIX substring later in the key path.
-        roberta_alt = (
-            alt_key.replace(MODEL_PREFIX, "roberta.", 1)
-            if alt_key and alt_key.startswith(MODEL_PREFIX)
-            else None
-        )
-        if roberta_alt and roberta_alt in weights:
-            return weights[roberta_alt]
-        if alt_key and not has_model_prefix and alt_key.startswith(MODEL_PREFIX):
-            alt_key_no_pref = alt_key[6:]
-            if alt_key_no_pref in weights:
-                return weights[alt_key_no_pref]
-
-        # Check alternates for encoder layers
-        if "model.encoder.layer." in orig_key:
-            parts = orig_key.split(".")
-            try:
-                idx = parts[3]
-                suffix = ".".join(parts[4:])
-                mappings = {
-                    "attention.self.query.weight": "attention.query_proj.weight",
-                    "attention.self.query.bias": "attention.query_proj.bias",
-                    "attention.self.key.weight": "attention.key_proj.weight",
-                    "attention.self.key.bias": "attention.key_proj.bias",
-                    "attention.self.value.weight": "attention.value_proj.weight",
-                    "attention.self.value.bias": "attention.value_proj.bias",
-                    "attention.output.dense.weight": "attention.out_proj.weight",
-                    "attention.output.dense.bias": "attention.out_proj.bias",
-                    "attention.output.LayerNorm.weight": "ln1.weight",
-                    "attention.output.LayerNorm.bias": "ln1.bias",
-                    "intermediate.dense.weight": "linear1.weight",
-                    "intermediate.dense.bias": "linear1.bias",
-                    "output.dense.weight": "linear2.weight",
-                    "output.dense.bias": "linear2.bias",
-                    "output.LayerNorm.weight": "ln2.weight",
-                    "output.LayerNorm.bias": "ln2.bias",
-                }
-                mapped_suffix = mappings.get(suffix)
-                if mapped_suffix:
-                    alt_key = f"model.encoder.layers.{idx}.{mapped_suffix}"
-                    if alt_key in weights:
-                        return weights[alt_key]
-                    alt_key_no_pref = f"encoder.layers.{idx}.{mapped_suffix}"
-                    if alt_key_no_pref in weights:
-                        return weights[alt_key_no_pref]
-            except Exception:
-                pass
-
-        raise KeyError(f"Could not find key {key} in weights.")
+        return _bert_get_weight(weights, has_model_prefix, key)
 
     assign(model, "word_embeddings.weight", get_weight("model.embeddings.word_embeddings.weight"))
     assign(
@@ -596,12 +640,149 @@ def raw_to_contiguous_map(label2id: dict[str, str]) -> dict[int, int]:
     return {int(label2id[label]): int(remapped[label]) for label in label2id}
 
 
-def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split: str = "") -> dict:
+def _score_eval_word(
+    word,
+    gold_lemma,
+    gold_pos,
+    token_i,
+    b,
+    has_upos,
+    upos_np,
+    lemma_np,
+    ctx: EvalContext,
+):
+    total = 1
+    upos_correct = 0
+    upos_total = 0
+    if has_upos:
+        predicted_upos = ctx.upos_id2label.get(
+            str(int(np.argmax(upos_np[b, token_i]))), "X"
+        )
+        upos_total = 1
+        if predicted_upos == gold_pos:
+            upos_correct = 1
+    else:
+        # No trained UPOS head: do NOT count upos_correct, else
+        # the reported upos_accuracy would be a misleading 100%
+        # (predicted_upos defaults to gold_pos below only for the
+        # IDENTITY_UPOS skip / resolve() path, never as a score).
+        predicted_upos = gold_pos
+    if gold_pos in IDENTITY_UPOS:
+        return total, upos_correct, upos_total, 0, 0
+    lemma_total = 1
+    base = (
+        None
+        if predicted_upos in IDENTITY_UPOS
+        else select_valid(lemma_np[b, token_i], ctx.ids, ctx.id2label, ctx.lang, word)
+    )
+    lemma_correct = 1 if resolve(word, predicted_upos, base, ctx.lexicon) == gold_lemma else 0
+    return total, upos_correct, upos_total, lemma_total, lemma_correct
+
+
+def _evaluate_row(row, b, upos_np, lemma_np, ctx: EvalContext):
+    positions = word_positions(row)
+    # n_positions != n_words: (1) MAX_LENGTH truncation (tail words
+    # beyond the token budget), or (2) an alignment drop (a present
+    # word's UPOS masked to -100). Distinguish so drops surface.
+    n_positions = len(positions)
+    n_words = len(row["words"])
+    # Use input_ids directly (pad_batch already requires it); a
+    # missing key should fail loudly, not silently default to [].
+    n_tokens = len(row["input_ids"])
+    alignment_drop = 0
+    if n_positions != n_words:
+        # Compare word counts, not subword token counts: n_tokens is
+        # subword pieces and usually >> n_words, so the prior check
+        # rarely flagged real MAX_LENGTH truncation.
+        n_kept = _n_kept_words(row)
+        legit_truncation = n_words > n_kept
+        if not legit_truncation:
+            # An alignment drop, not MAX_LENGTH truncation — a real
+            # mismatch that would previously pass silently. Track it
+            # so it surfaces prominently in the returned metrics.
+            alignment_drop = 1
+        print(
+            json.dumps(
+                {
+                    "event": "eval_truncate",
+                    "n_words": n_words,
+                    "n_positions": n_positions,
+                    "n_tokens": n_tokens,
+                    "n_kept": n_kept,
+                    "legit_truncation": legit_truncation,
+                    "cause": "max_length" if legit_truncation else "upos_mask_alignment",
+                }
+            ),
+            flush=True,
+        )
+    has_upos = "upos_labels" in row
+    total = upos_correct = upos_total = lemma_total = lemma_correct = 0
+    for word_i, (word, gold_lemma, gold_pos) in enumerate(
+        zip(row["words"], row["lemmas"], row["upos"], strict=True)
+    ):
+        if word_i >= len(positions):
+            break
+        token_i = positions[word_i]
+        t, uc, ut, lt, lc = _score_eval_word(
+            word,
+            gold_lemma,
+            gold_pos,
+            token_i,
+            b,
+            has_upos,
+            upos_np,
+            lemma_np,
+            ctx,
+        )
+        total += t
+        upos_correct += uc
+        upos_total += ut
+        lemma_total += lt
+        lemma_correct += lc
+    return total, upos_correct, upos_total, lemma_total, lemma_correct, alignment_drop
+
+
+def _print_eval_progress(split, batch_index, batches, lang, t0):
+    if split and (batch_index % 100 == 0 or batch_index == batches):
+        print(
+            json.dumps(
+                {
+                    "event": "eval_progress",
+                    "lang": lang,
+                    "split": split,
+                    "batch": batch_index,
+                    "batches": batches,
+                    "elapsed_s": round(time.time() - t0, 1),
+                }
+            ),
+            flush=True,
+        )
+
+
+def _maybe_clear_cache(batch_index):
+    if batch_index % 10 == 0:
+        mx.clear_cache()
+
+
+@dataclass
+class EvalContext:
+    """Static context shared across all words/rows during eval."""
+
+    ids: np.ndarray
+    id2label: dict[str, str]
+    upos_id2label: dict[str, str]
+    lang: str
+    lexicon: dict
+
+
+def _load_eval_context(
+    assets, lang: str, rows: list[dict]
+) -> tuple[dict[int, int], EvalContext]:
+    """Read label files and set up label space for eval / find_struggles.
+
+    Returns (label_remap, eval_ctx).
+    """
     label2id = read_json(assets.label2id_path)
-    # upos_label2id may be absent for datasets built without a UPOS label
-    # map (byt5_dataset with upos2id=None). Read it lazily so evaluate
-    # does not raise FileNotFoundError before the per-row has_upos branch
-    # runs — mirroring the guard already present in find_struggles().
     has_upos_dataset = bool(rows) and "upos_labels" in rows[0]
     upos_label2id = (
         read_json(assets.upos_label2id_path)
@@ -616,6 +797,12 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
     lexicon = read_json(assets.lexicon_path) if assets.lexicon_path.exists() else {}
     if not isinstance(lexicon, dict):
         lexicon = {}
+    eval_ctx = EvalContext(ids=ids, id2label=id2label, upos_id2label=upos_id2label, lang=lang, lexicon=lexicon)
+    return label_remap, eval_ctx
+
+
+def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split: str = "") -> dict:
+    label_remap, eval_ctx = _load_eval_context(assets, lang, rows)
 
     total = upos_correct = upos_total = lemma_total = lemma_correct = 0
     loss_total = loss_batches = alignment_drops = 0
@@ -637,87 +824,17 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         upos_np = np.array(upos_logits)
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
-            positions = word_positions(row)
-            # n_positions != n_words: (1) MAX_LENGTH truncation (tail words
-            # beyond the token budget), or (2) an alignment drop (a present
-            # word's UPOS masked to -100). Distinguish so drops surface.
-            n_positions = len(positions)
-            n_words = len(row["words"])
-            # Use input_ids directly (pad_batch already requires it); a
-            # missing key should fail loudly, not silently default to [].
-            n_tokens = len(row["input_ids"])
-            if n_positions != n_words:
-                # Compare word counts, not subword token counts: n_tokens is
-                # subword pieces and usually >> n_words, so the prior check
-                # rarely flagged real MAX_LENGTH truncation.
-                n_kept = _n_kept_words(row)
-                legit_truncation = n_words > n_kept
-                if not legit_truncation:
-                    # An alignment drop, not MAX_LENGTH truncation — a real
-                    # mismatch that would previously pass silently. Track it
-                    # so it surfaces prominently in the returned metrics.
-                    alignment_drops += 1
-                print(
-                    json.dumps(
-                        {
-                            "event": "eval_truncate",
-                            "n_words": n_words,
-                            "n_positions": n_positions,
-                            "n_tokens": n_tokens,
-                            "n_kept": n_kept,
-                            "legit_truncation": legit_truncation,
-                            "cause": "max_length" if legit_truncation else "upos_mask_alignment",
-                        }
-                    ),
-                    flush=True,
-                )
-            has_upos = "upos_labels" in row
-            for word_i, (word, gold_lemma, gold_pos) in enumerate(
-                zip(row["words"], row["lemmas"], row["upos"], strict=True)
-            ):
-                if word_i >= len(positions):
-                    break
-                token_i = positions[word_i]
-                total += 1
-                if has_upos:
-                    predicted_upos = upos_id2label.get(
-                        str(int(np.argmax(upos_np[b, token_i]))), "X"
-                    )
-                    upos_total += 1
-                    if predicted_upos == gold_pos:
-                        upos_correct += 1
-                else:
-                    # No trained UPOS head: do NOT count upos_correct, else
-                    # the reported upos_accuracy would be a misleading 100%
-                    # (predicted_upos defaults to gold_pos below only for the
-                    # IDENTITY_UPOS skip / resolve() path, never as a score).
-                    predicted_upos = gold_pos
-                if gold_pos in IDENTITY_UPOS:
-                    continue
-                lemma_total += 1
-                base = (
-                    None
-                    if predicted_upos in IDENTITY_UPOS
-                    else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
-                )
-                if resolve(word, predicted_upos, base, lexicon) == gold_lemma:
-                    lemma_correct += 1
-        if split and (batch_index % 100 == 0 or batch_index == batches):
-            print(
-                json.dumps(
-                    {
-                        "event": "eval_progress",
-                        "lang": lang,
-                        "split": split,
-                        "batch": batch_index,
-                        "batches": batches,
-                        "elapsed_s": round(time.time() - t0, 1),
-                    }
-                ),
-                flush=True,
+            t, uc, ut, lt, lc, ad = _evaluate_row(
+                row, b, upos_np, lemma_np, eval_ctx
             )
-        if batch_index % 10 == 0:
-            mx.clear_cache()
+            total += t
+            upos_correct += uc
+            upos_total += ut
+            lemma_total += lt
+            lemma_correct += lc
+            alignment_drops += ad
+        _print_eval_progress(split, batch_index, batches, lang, t0)
+        _maybe_clear_cache(batch_index)
     return {
         "loss": round(loss_total / max(loss_batches, 1), 4),
         "tokens": total,
@@ -732,27 +849,95 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
     }
 
 
+def _find_struggle_word(
+    word,
+    gold_lemma,
+    gold_pos,
+    token_i,
+    b,
+    has_upos,
+    upos_np,
+    lemma_np,
+    ctx: EvalContext,
+):
+    if has_upos:
+        predicted_upos = ctx.upos_id2label.get(
+            str(int(np.argmax(upos_np[b, token_i]))), "X"
+        )
+    else:
+        predicted_upos = gold_pos
+    if gold_pos in IDENTITY_UPOS:
+        return None
+    base = (
+        None
+        if predicted_upos in IDENTITY_UPOS
+        else select_valid(lemma_np[b, token_i], ctx.ids, ctx.id2label, ctx.lang, word)
+    )
+    pred_lemma = resolve(word, predicted_upos, base, ctx.lexicon)
+    return None if pred_lemma == gold_lemma else gold_lemma
+
+
+def _find_struggles_row(row, b, upos_np, lemma_np, ctx: EvalContext):
+    positions = word_positions(row)
+    n_positions = len(positions)
+    n_words = len(row["words"])
+    # Use input_ids directly (pad_batch already requires it); a
+    # missing key should fail loudly, not silently default to [].
+    n_tokens = len(row["input_ids"])
+    alignment_drop = 0
+    if n_positions != n_words:
+        # Compare against kept-word count, not subword token count
+        # (n_tokens is subword pieces and >> n_words, so the prior
+        # check rarely flagged MAX_LENGTH truncation). upos drop.
+        n_kept = _n_kept_words(row)
+        legit_truncation = n_words > n_kept
+        if not legit_truncation:
+            alignment_drop = 1
+        print(
+            json.dumps(
+                {
+                    "event": "struggles_truncate",
+                    "n_words": n_words,
+                    "n_positions": n_positions,
+                    "n_tokens": n_tokens,
+                    "n_kept": n_kept,
+                    "legit_truncation": legit_truncation,
+                    "cause": "max_length" if legit_truncation else "upos_mask_alignment",
+                }
+            ),
+            flush=True,
+        )
+    # Align words/lemmas/upos to the exact `positions` indices
+    # (see _aligned_words); `[:n_positions]` would misalign after the
+    # first mid-sequence masked word in the no-upos_labels fallback.
+    has_upos = "upos_labels" in row
+    struggles: set[str] = set()
+    for word_i, (word, gold_lemma, gold_pos) in enumerate(
+        zip(row["words"], row["lemmas"], row["upos"], strict=True)
+    ):
+        if word_i >= len(positions):
+            break
+        token_i = positions[word_i]
+        struggled = _find_struggle_word(
+            word,
+            gold_lemma,
+            gold_pos,
+            token_i,
+            b,
+            has_upos,
+            upos_np,
+            lemma_np,
+            ctx,
+        )
+        if struggled is not None:
+            struggles.add(struggled)
+    return struggles, alignment_drop
+
+
 def find_struggles(
     model, validation_rows: list[dict], lang: str, assets, batch_size: int
 ) -> set[str]:
-    label2id = read_json(assets.label2id_path)
-    # upos_label2id may be absent for datasets built without a UPOS label map
-    # (byt5_dataset with upos2id=None). Read it lazily so find_struggles does
-    # not raise FileNotFoundError before the per-row has_upos branch runs.
-    has_upos_dataset = bool(validation_rows) and "upos_labels" in validation_rows[0]
-    upos_label2id = (
-        read_json(assets.upos_label2id_path)
-        if has_upos_dataset and assets.upos_label2id_path.exists()
-        else {}
-    )
-    label_space = LabelSpace(label2id)
-    label_remap = raw_to_contiguous_map(label2id)
-    id2label = label_space.id2label
-    upos_id2label = {str(v): k for k, v in upos_label2id.items()}
-    ids = label_space.candidate_ids(lang)
-    lexicon = read_json(assets.lexicon_path) if assets.lexicon_path.exists() else {}
-    if not isinstance(lexicon, dict):
-        lexicon = {}
+    label_remap, eval_ctx = _load_eval_context(assets, lang, validation_rows)
 
     struggles = set()
     alignment_drops = 0
@@ -765,60 +950,11 @@ def find_struggles(
         upos_np = np.array(upos_logits)
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
-            positions = word_positions(row)
-            n_positions = len(positions)
-            n_words = len(row["words"])
-            # Use input_ids directly (pad_batch already requires it); a
-            # missing key should fail loudly, not silently default to [].
-            n_tokens = len(row["input_ids"])
-            if n_positions != n_words:
-                # Compare against kept-word count, not subword token count
-                # (n_tokens is subword pieces and >> n_words, so the prior
-                # check rarely flagged MAX_LENGTH truncation). upos drop.
-                n_kept = _n_kept_words(row)
-                legit_truncation = n_words > n_kept
-                if not legit_truncation:
-                    alignment_drops += 1
-                print(
-                    json.dumps(
-                        {
-                            "event": "struggles_truncate",
-                            "n_words": n_words,
-                            "n_positions": n_positions,
-                            "n_tokens": n_tokens,
-                            "n_kept": n_kept,
-                            "legit_truncation": legit_truncation,
-                            "cause": "max_length" if legit_truncation else "upos_mask_alignment",
-                        }
-                    ),
-                    flush=True,
-                )
-            # Align words/lemmas/upos to the exact `positions` indices
-            # (see _aligned_words); `[:n_positions]` would misalign after the
-            # first mid-sequence masked word in the no-upos_labels fallback.
-            has_upos = "upos_labels" in row
-            for word_i, (word, gold_lemma, gold_pos) in enumerate(
-                zip(row["words"], row["lemmas"], row["upos"], strict=True)
-            ):
-                if word_i >= len(positions):
-                    break
-                token_i = positions[word_i]
-                if has_upos:
-                    predicted_upos = upos_id2label.get(
-                        str(int(np.argmax(upos_np[b, token_i]))), "X"
-                    )
-                else:
-                    predicted_upos = gold_pos
-                if gold_pos in IDENTITY_UPOS:
-                    continue
-                base = (
-                    None
-                    if predicted_upos in IDENTITY_UPOS
-                    else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
-                )
-                pred_lemma = resolve(word, predicted_upos, base, lexicon)
-                if pred_lemma != gold_lemma:
-                    struggles.add(gold_lemma)
+            row_struggles, ad = _find_struggles_row(
+                row, b, upos_np, lemma_np, eval_ctx
+            )
+            struggles |= row_struggles
+            alignment_drops += ad
         mx.clear_cache()
     # Surface alignment drops prominently: non-zero means real word/token
     # mismatches (not MAX_LENGTH truncation) corrupted some rows' scores.
@@ -830,51 +966,62 @@ def find_struggles(
     return struggles
 
 
+def _build_lemma_index_map(rows: list[dict]) -> dict[str, list[int]]:
+    lemma_map: dict[str, list[int]] = {}
+    for idx, row in enumerate(rows):
+        for lemma in row["lemmas"]:
+            lemma_map.setdefault(lemma, []).append(idx)
+    return lemma_map
+
+
+def _select_first_per_lemma(lemma_map: dict[str, list[int]], max_count: int) -> set[int]:
+    selected: set[int] = set()
+    for lemma in lemma_map:
+        selected.add(lemma_map[lemma][0])
+        if len(selected) >= max_count:
+            break
+    return selected
+
+
+def _fill_to_capacity(selected: set[int], total: int, max_count: int) -> None:
+    for idx in range(total):
+        if idx not in selected:
+            selected.add(idx)
+        if len(selected) == max_count:
+            break
+
+
+def _select_uncovered_train(
+    uncovered_lemmas: set[str], train_lemma_map: dict[str, list[int]]
+) -> set[int]:
+    selected: set[int] = set()
+    for lemma in uncovered_lemmas:
+        if lemma in train_lemma_map:
+            selected.add(train_lemma_map[lemma][0])
+    return selected
+
+
 def build_curriculum_datasets(
     train_rows: list[dict], val_rows: list[dict], max_train: int = 7000, max_val: int = 700
 ):
-    train_lemma_map = {}
-    for idx, row in enumerate(train_rows):
-        for lemma in row["lemmas"]:
-            train_lemma_map.setdefault(lemma, []).append(idx)
-
-    val_lemma_map = {}
-    for idx, row in enumerate(val_rows):
-        for lemma in row["lemmas"]:
-            val_lemma_map.setdefault(lemma, []).append(idx)
+    train_lemma_map = _build_lemma_index_map(train_rows)
+    val_lemma_map = _build_lemma_index_map(val_rows)
 
     all_lemmas = set(train_lemma_map.keys()) | set(val_lemma_map.keys())
 
-    selected_val_indices = set()
-    for lemma in val_lemma_map:
-        selected_val_indices.add(val_lemma_map[lemma][0])
-        if len(selected_val_indices) >= max_val:
-            break
-
+    selected_val_indices = _select_first_per_lemma(val_lemma_map, max_val)
     if len(selected_val_indices) < max_val:
-        for idx in range(len(val_rows)):
-            if idx not in selected_val_indices:
-                selected_val_indices.add(idx)
-            if len(selected_val_indices) == max_val:
-                break
+        _fill_to_capacity(selected_val_indices, len(val_rows), max_val)
 
     covered_in_val = set()
     for idx in selected_val_indices:
         covered_in_val.update(val_rows[idx]["lemmas"])
 
     uncovered_lemmas = all_lemmas - covered_in_val
-    selected_train_indices = set()
-
-    for lemma in uncovered_lemmas:
-        if lemma in train_lemma_map:
-            selected_train_indices.add(train_lemma_map[lemma][0])
+    selected_train_indices = _select_uncovered_train(uncovered_lemmas, train_lemma_map)
 
     if len(selected_train_indices) < max_train:
-        for idx in range(len(train_rows)):
-            if idx not in selected_train_indices:
-                selected_train_indices.add(idx)
-            if len(selected_train_indices) == max_train:
-                break
+        _fill_to_capacity(selected_train_indices, len(train_rows), max_train)
 
     final_train = [train_rows[i] for i in selected_train_indices]
     final_val = [val_rows[i] for i in selected_val_indices]
@@ -936,6 +1083,7 @@ def train_epoch(
     grad_accum: int = 1,
     upos_weight: float = 1.0,
     lemma_class_weights: mx.array | None = None,
+    seed: int = 0,
 ) -> float:
     model.train()
 
@@ -950,7 +1098,8 @@ def train_epoch(
         return lemma_loss
 
     loss_and_grad = nn.value_and_grad(model, loss_fn)
-    order = np.random.permutation(len(rows))
+    rng = np.random.default_rng(seed)
+    order = rng.permutation(len(rows))
     total = n = 0
     batches = math.ceil(len(order) / batch_size)
     t0 = time.time()
@@ -1054,10 +1203,307 @@ def main() -> None:
     run(spec(args.lang), opts)
 
 
+def _setup_finetune_modules(model, opts: TrainOptions, lang: str) -> None:
+    if opts.lora_rank > 0:
+        attach_lora(model, opts.lora_rank, opts.lora_alpha)
+        print(
+            json.dumps(
+                {
+                    "event": "lora_attached",
+                    "lang": lang,
+                    "rank": opts.lora_rank,
+                    "alpha": opts.lora_alpha,
+                }
+            ),
+            flush=True,
+        )
+    else:
+        print("No LoRA modules attached (full fine-tuning)", flush=True)
+
+    if opts.unfreeze_encoder:
+        for layer in model.layers:
+            layer.unfreeze()
+        print("Unfroze all encoder layers", flush=True)
+    elif opts.unfreeze_last_n > 0:
+        n_layers = len(model.layers)
+        for idx in range(max(0, n_layers - opts.unfreeze_last_n), n_layers):
+            model.layers[idx].unfreeze()
+        print(f"Unfroze last {opts.unfreeze_last_n} encoder layers", flush=True)
+
+
+def _build_finetune_optimizer(
+    opts: TrainOptions, effective_rows: list[dict], grad_accum: int, epochs_int: int
+):
+    # total_steps mirrors the actual optimizer-step count across all
+    # epochs. Optimizer steps per epoch = ceil(batches / grad_accum)
+    # where batches = ceil(rows / batch_size).
+    # Note: when curriculum is enabled, actual steps are fewer
+    # (early epochs use subsets). The schedule is approximate —
+    # the LR will remain elevated rather than decaying fully.
+    warmup_frac = max(0.0, min(0.99, opts.warmup))
+    batches_per_epoch = math.ceil(len(effective_rows) / opts.batch_size)
+    steps_per_epoch = max(1, math.ceil(batches_per_epoch / grad_accum))
+    total_steps = max(1, steps_per_epoch * epochs_int)
+    warmup_steps = min(
+        max(1, int(total_steps * warmup_frac)),
+        max(1, total_steps - 1),
+    )
+    decay_steps = max(1, total_steps - warmup_steps)
+    lr_schedule = optim.join_schedules(
+        [
+            optim.linear_schedule(0.0, opts.lr, warmup_steps),
+            optim.cosine_decay(opts.lr, decay_steps, end=0.0),
+        ],
+        [warmup_steps],
+    )
+    optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
+    print(
+        f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}, "
+        f"grad_accum: {grad_accum}, upos_weight: {opts.upos_weight}",
+        flush=True,
+    )
+    return optimizer
+
+
+def _prepare_lemma_weights(
+    opts: TrainOptions, label_remap: dict[int, int], effective_rows: list[dict]
+):
+    n_lemma_classes = len(label_remap) if label_remap else 0
+    if n_lemma_classes == 0:
+        return None
+    cw_np, nonzero_mask = compute_class_weights(
+        effective_rows, label_remap, n_lemma_classes
+    )
+    nonzero = cw_np[nonzero_mask]
+    # Computed once from the full training set; under curriculum mode
+    # the growing subset over-represents easy labels early, so global
+    # weights under-correct then. Accepted (curriculum is off by default).
+    lemma_cw = mx.array(cw_np)
+    print(
+        json.dumps(
+            {
+                "event": "class_weights",
+                "n_classes": n_lemma_classes,
+                "n_present": int(nonzero_mask.sum()),
+                "min": float(nonzero.min()) if len(nonzero) else 0.0,
+                "max": float(nonzero.max()) if len(nonzero) else 0.0,
+                "mean": float(nonzero.mean()) if len(nonzero) else 0.0,
+            }
+        ),
+        flush=True,
+    )
+    return lemma_cw
+
+
+def _run_train_epoch(
+    model,
+    train_subset,
+    opts: TrainOptions,
+    lang: str,
+    assets,
+    train_rows: list[dict],
+    val_rows: list[dict],
+    optimizer,
+    label_remap: dict[int, int],
+    grad_accum: int,
+    lemma_cw,
+    epoch_num: int,
+) -> dict:
+    t0 = time.time()
+    train_loss = train_epoch(
+        model,
+        train_subset,
+        opts.batch_size,
+        optimizer,
+        lang,
+        epoch_num,
+        label_remap,
+        grad_accum=grad_accum,
+        upos_weight=opts.upos_weight,
+        lemma_class_weights=lemma_cw,
+        seed=opts.seed + epoch_num,
+    )
+    return {
+        "epoch": epoch_num,
+        "train_loss": round(train_loss, 4),
+        "train": evaluate(
+            model,
+            train_rows[:5000],
+            lang,
+            assets,
+            opts.batch_size,
+            f"epoch_{epoch_num}_train",
+        ),
+        "validation": evaluate(
+            model, val_rows, lang, assets, opts.batch_size, f"epoch_{epoch_num}_validation"
+        ),
+        "elapsed_s": round(time.time() - t0, 1),
+    }
+
+
+def _expand_curriculum_pool(pool, current_indices, struggles, next_size):
+    _expand_pool_indices(pool, current_indices, struggles, next_size, label_key="lemmas")
+    return [pool[i] for i in current_indices]
+
+
+def _run_curriculum_loop(
+    model,
+    opts: TrainOptions,
+    lang: str,
+    assets,
+    datasets: tuple[list[dict], list[dict]],
+    output_dir: Path,
+    results: dict,
+    label_remap: dict[int, int],
+    optimizer,
+    grad_accum: int,
+    lemma_cw,
+    effective_rows: list[dict],
+    epochs_int: int,
+) -> None:
+    train_rows, val_rows = datasets
+    print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
+    max_train = 50000 if lang == "sv" else 7000
+    max_val = 5000 if lang == "sv" else 700
+    train_pool, val_pool = build_curriculum_datasets(
+        effective_rows, val_rows, max_train, max_val
+    )
+
+    current_train_indices = set(
+        range(min(len(train_pool), max(1, len(train_pool) // epochs_int)))
+    )
+    current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs_int))))
+
+    current_train = [train_pool[i] for i in current_train_indices]
+    current_val = [val_pool[i] for i in current_val_indices]
+
+    best_val_acc = -1.0
+
+    for epoch in range(1, epochs_int + 1):
+        metrics = _run_train_epoch(
+            model, current_train, opts, lang, assets, train_rows, val_rows,
+            optimizer, label_remap, grad_accum, lemma_cw, epoch,
+        )
+        results["finetune"].append(metrics)
+        print(json.dumps({"event": "epoch", **metrics}), flush=True)
+
+        val_acc = metrics["validation"]["lemma_accuracy"]
+        if val_acc > best_val_acc:
+            best_val_acc = val_acc
+            model.save_weights(str(output_dir / "best.safetensors"))
+            print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
+
+        model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
+
+        if epoch < epochs_int:
+            struggles = find_struggles(model, current_val, lang, assets, opts.batch_size)
+            print(
+                json.dumps(
+                    {
+                        "event": f"struggles_identified_epoch_{epoch}",
+                        "count": len(struggles),
+                    }
+                ),
+                flush=True,
+            )
+
+            next_train_size = min(
+                int((epoch + 1) * len(train_pool) / epochs_int), len(train_pool)
+            )
+            next_val_size = min(int((epoch + 1) * len(val_pool) / epochs_int), len(val_pool))
+
+            current_train = _expand_curriculum_pool(
+                train_pool, current_train_indices, struggles, next_train_size
+            )
+            current_val = _expand_curriculum_pool(
+                val_pool, current_val_indices, struggles, next_val_size
+            )
+
+
+def _run_standard_loop(
+    model,
+    opts: TrainOptions,
+    lang: str,
+    assets,
+    datasets: tuple[list[dict], list[dict]],
+    output_dir: Path,
+    results: dict,
+    label_remap: dict[int, int],
+    optimizer,
+    grad_accum: int,
+    lemma_cw,
+    effective_rows: list[dict],
+    epochs_int: int,
+) -> None:
+    train_rows, val_rows = datasets
+    best_val_acc = -1.0
+    epochs_since_best = 0
+    for epoch in range(epochs_int):
+        metrics = _run_train_epoch(
+            model, effective_rows, opts, lang, assets, train_rows, val_rows,
+            optimizer, label_remap, grad_accum, lemma_cw, epoch + 1,
+        )
+        results["finetune"].append(metrics)
+        print(json.dumps({"event": "epoch", **metrics}), flush=True)
+        val_acc = metrics["validation"]["lemma_accuracy"]
+        if val_acc > best_val_acc:
+            best_val_acc = val_acc
+            model.save_weights(str(output_dir / "best.safetensors"))
+            print(
+                f"  saved best (val_lemma={best_val_acc:.4f})",
+                flush=True,
+            )
+            epochs_since_best = 0
+        else:
+            epochs_since_best += 1
+            if opts.patience > 0 and epochs_since_best >= opts.patience:
+                print(
+                    json.dumps(
+                        {
+                            "event": "early_stopping",
+                            "epoch": epoch + 1,
+                            "best_val_acc": round(best_val_acc, 4),
+                            "epochs_since_best": epochs_since_best,
+                        }
+                    ),
+                    flush=True,
+                )
+                break
+
+
+def _run_finetune_phase(
+    model,
+    opts: TrainOptions,
+    lang: str,
+    assets,
+    label_remap: dict[int, int],
+    train_rows: list[dict],
+    val_rows: list[dict],
+    output_dir: Path,
+    results: dict,
+) -> None:
+    _setup_finetune_modules(model, opts, lang)
+    epochs_int = max(1, int(opts.epochs))
+    grad_accum = max(1, int(opts.grad_accum))
+    finetune_limit = opts.extra.get("finetune_rows", 0)
+    effective_rows = train_rows[:finetune_limit] if finetune_limit > 0 else train_rows
+    optimizer = _build_finetune_optimizer(opts, effective_rows, grad_accum, epochs_int)
+    lemma_cw = _prepare_lemma_weights(opts, label_remap, effective_rows)
+    if opts.curriculum:
+        _run_curriculum_loop(
+            model, opts, lang, assets, (train_rows, val_rows), output_dir, results,
+            label_remap, optimizer, grad_accum, lemma_cw, effective_rows, epochs_int,
+        )
+    else:
+        _run_standard_loop(
+            model, opts, lang, assets, (train_rows, val_rows), output_dir, results,
+            label_remap, optimizer, grad_accum, lemma_cw, effective_rows, epochs_int,
+        )
+
+
 def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     """Canonical entry: train the multilingual multitask model for `spec.lang`."""
     random.seed(opts.seed)
-    np.random.seed(opts.seed)
     mx.random.seed(opts.seed)
     lang = spec.lang
     assets = language_assets(lang)
@@ -1091,260 +1537,9 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
     if opts.epochs > 0:
-        if opts.lora_rank > 0:
-            attach_lora(model, opts.lora_rank, opts.lora_alpha)
-            print(
-                json.dumps(
-                    {
-                        "event": "lora_attached",
-                        "lang": lang,
-                        "rank": opts.lora_rank,
-                        "alpha": opts.lora_alpha,
-                    }
-                ),
-                flush=True,
-            )
-        else:
-            print("No LoRA modules attached (full fine-tuning)", flush=True)
-
-        if opts.unfreeze_encoder:
-            for layer in model.layers:
-                layer.unfreeze()
-            print("Unfroze all encoder layers", flush=True)
-        elif opts.unfreeze_last_n > 0:
-            n_layers = len(model.layers)
-            for idx in range(max(0, n_layers - opts.unfreeze_last_n), n_layers):
-                model.layers[idx].unfreeze()
-            print(f"Unfroze last {opts.unfreeze_last_n} encoder layers", flush=True)
-
-        # total_steps mirrors the actual optimizer-step count across all
-        # epochs. Optimizer steps per epoch = ceil(batches / grad_accum)
-        # where batches = ceil(rows / batch_size).
-        # Note: when curriculum is enabled, actual steps are fewer
-        # (early epochs use subsets). The schedule is approximate —
-        # the LR will remain elevated rather than decaying fully.
-        warmup_frac = max(0.0, min(0.99, opts.warmup))
-        epochs_int = max(1, int(opts.epochs))
-        grad_accum = max(1, int(opts.grad_accum))
-        finetune_limit = opts.extra.get("finetune_rows", 0)
-        effective_rows = train_rows[:finetune_limit] if finetune_limit > 0 else train_rows
-        batches_per_epoch = math.ceil(len(effective_rows) / opts.batch_size)
-        steps_per_epoch = max(1, math.ceil(batches_per_epoch / grad_accum))
-        total_steps = max(1, steps_per_epoch * epochs_int)
-        warmup_steps = min(
-            max(1, int(total_steps * warmup_frac)),
-            max(1, total_steps - 1),
+        _run_finetune_phase(
+            model, opts, lang, assets, label_remap, train_rows, val_rows, output_dir, results
         )
-        decay_steps = max(1, total_steps - warmup_steps)
-        lr_schedule = optim.join_schedules(
-            [
-                optim.linear_schedule(0.0, opts.lr, warmup_steps),
-                optim.cosine_decay(opts.lr, decay_steps, end=0.0),
-            ],
-            [warmup_steps],
-        )
-        optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
-        print(
-            f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}, "
-            f"grad_accum: {grad_accum}, upos_weight: {opts.upos_weight}",
-            flush=True,
-        )
-
-        n_lemma_classes = len(label_remap) if label_remap else 0
-        lemma_cw = None
-        if n_lemma_classes > 0:
-            cw_np, nonzero_mask = compute_class_weights(
-                effective_rows, label_remap, n_lemma_classes
-            )
-            nonzero = cw_np[nonzero_mask]
-            # Computed once from the full training set; under curriculum mode
-            # the growing subset over-represents easy labels early, so global
-            # weights under-correct then. Accepted (curriculum is off by default).
-            lemma_cw = mx.array(cw_np)
-            print(
-                json.dumps(
-                    {
-                        "event": "class_weights",
-                        "n_classes": n_lemma_classes,
-                        "n_present": int(nonzero_mask.sum()),
-                        "min": float(nonzero.min()) if len(nonzero) else 0.0,
-                        "max": float(nonzero.max()) if len(nonzero) else 0.0,
-                        "mean": float(nonzero.mean()) if len(nonzero) else 0.0,
-                    }
-                ),
-                flush=True,
-            )
-
-        if opts.curriculum:
-            print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
-            max_train = 50000 if lang == "sv" else 7000
-            max_val = 5000 if lang == "sv" else 700
-            train_pool, val_pool = build_curriculum_datasets(
-                effective_rows, val_rows, max_train, max_val
-            )
-
-            epochs = max(1, int(opts.epochs))
-            current_train_indices = set(
-                range(min(len(train_pool), max(1, len(train_pool) // epochs)))
-            )
-            current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
-
-            current_train = [train_pool[i] for i in current_train_indices]
-            current_val = [val_pool[i] for i in current_val_indices]
-
-            best_val_acc = -1.0
-
-            for epoch in range(1, epochs + 1):
-                t0 = time.time()
-                train_loss = train_epoch(
-                    model,
-                    current_train,
-                    opts.batch_size,
-                    optimizer,
-                    lang,
-                    epoch,
-                    label_remap,
-                    grad_accum=grad_accum,
-                    upos_weight=opts.upos_weight,
-                    lemma_class_weights=lemma_cw,
-                )
-                metrics = {
-                    "epoch": epoch,
-                    "train_loss": round(train_loss, 4),
-                    "train": evaluate(
-                        model,
-                        train_rows[:5000],
-                        lang,
-                        assets,
-                        opts.batch_size,
-                        f"epoch_{epoch}_train",
-                    ),
-                    "validation": evaluate(
-                        model, val_rows, lang, assets, opts.batch_size, f"epoch_{epoch}_validation"
-                    ),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }
-                results["finetune"].append(metrics)
-                print(json.dumps({"event": "epoch", **metrics}), flush=True)
-
-                val_acc = metrics["validation"]["lemma_accuracy"]
-                if val_acc > best_val_acc:
-                    best_val_acc = val_acc
-                    model.save_weights(str(output_dir / "best.safetensors"))
-                    print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
-
-                model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
-
-                if epoch < epochs:
-                    struggles = find_struggles(model, current_val, lang, assets, opts.batch_size)
-                    print(
-                        json.dumps(
-                            {
-                                "event": f"struggles_identified_epoch_{epoch}",
-                                "count": len(struggles),
-                            }
-                        ),
-                        flush=True,
-                    )
-
-                    next_train_size = min(
-                        int((epoch + 1) * len(train_pool) / epochs), len(train_pool)
-                    )
-                    next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
-
-                    remaining_train_indices = [
-                        i for i in range(len(train_pool)) if i not in current_train_indices
-                    ]
-                    remaining_train_indices.sort(
-                        key=lambda i: sum(1 for lbl in train_pool[i]["lemmas"] if lbl in struggles),
-                        reverse=True,
-                    )
-
-                    remaining_val_indices = [
-                        i for i in range(len(val_pool)) if i not in current_val_indices
-                    ]
-                    remaining_val_indices.sort(
-                        key=lambda i: sum(1 for lbl in val_pool[i]["lemmas"] if lbl in struggles),
-                        reverse=True,
-                    )
-
-                    added_train_indices = remaining_train_indices[
-                        : (next_train_size - len(current_train_indices))
-                    ]
-                    added_val_indices = remaining_val_indices[
-                        : (next_val_size - len(current_val_indices))
-                    ]
-
-                    current_train_indices.update(added_train_indices)
-                    current_val_indices.update(added_val_indices)
-
-                    current_train = [train_pool[i] for i in current_train_indices]
-                    current_val = [val_pool[i] for i in current_val_indices]
-
-        else:
-            best_val_acc = -1.0
-            epochs_since_best = 0
-            for epoch in range(epochs_int):
-                t0 = time.time()
-                train_loss = train_epoch(
-                    model,
-                    effective_rows,
-                    opts.batch_size,
-                    optimizer,
-                    lang,
-                    epoch + 1,
-                    label_remap,
-                    grad_accum=grad_accum,
-                    upos_weight=opts.upos_weight,
-                    lemma_class_weights=lemma_cw,
-                )
-                metrics = {
-                    "epoch": epoch + 1,
-                    "train_loss": round(train_loss, 4),
-                    "train": evaluate(
-                        model,
-                        train_rows[:5000],
-                        lang,
-                        assets,
-                        opts.batch_size,
-                        f"epoch_{epoch + 1}_train",
-                    ),
-                    "validation": evaluate(
-                        model,
-                        val_rows,
-                        lang,
-                        assets,
-                        opts.batch_size,
-                        f"epoch_{epoch + 1}_validation",
-                    ),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }
-                results["finetune"].append(metrics)
-                print(json.dumps({"event": "epoch", **metrics}), flush=True)
-                val_acc = metrics["validation"]["lemma_accuracy"]
-                if val_acc > best_val_acc:
-                    best_val_acc = val_acc
-                    model.save_weights(str(output_dir / "best.safetensors"))
-                    print(
-                        f"  saved best (val_lemma={best_val_acc:.4f})",
-                        flush=True,
-                    )
-                    epochs_since_best = 0
-                else:
-                    epochs_since_best += 1
-                    if opts.patience > 0 and epochs_since_best >= opts.patience:
-                        print(
-                            json.dumps(
-                                {
-                                    "event": "early_stopping",
-                                    "epoch": epoch + 1,
-                                    "best_val_acc": round(best_val_acc, 4),
-                                    "epochs_since_best": epochs_since_best,
-                                }
-                            ),
-                            flush=True,
-                        )
-                        break
 
     (output_dir / "metrics.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     print(json.dumps({"event": "saved", "path": str(output_dir / "metrics.json")}), flush=True)

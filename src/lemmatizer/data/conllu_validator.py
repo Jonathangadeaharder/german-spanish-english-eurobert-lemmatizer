@@ -56,6 +56,97 @@ def validate_file(path: str | Path) -> ValidationResult:
     return validate_text(text)
 
 
+def _check_missing_comments(
+    result: ValidationResult, line_num: int, has_sent_id: bool, has_text: bool
+) -> None:
+    """Check that a sentence has required sent_id and text comments."""
+    if not has_sent_id:
+        result.errors.append(f"Line {line_num}: sentence missing '# sent_id' comment")
+    if not has_text:
+        result.errors.append(f"Line {line_num}: sentence missing '# text' comment")
+
+
+def _close_sentence(
+    result: ValidationResult,
+    line_num: int,
+    sent_ids_seen: set[str],
+    sent_id: str | None,
+    text: str | None,
+    forms: list[str],
+) -> None:
+    """Run duplicate-sent_id and text-mismatch checks, update counts."""
+    if sent_id is not None:
+        if sent_id in sent_ids_seen:
+            result.errors.append(f"Line {line_num}: duplicate sent_id '{sent_id}'")
+        sent_ids_seen.add(sent_id)
+    if text is not None and forms:
+        mismatch = _text_content_mismatch(forms, text)
+        if mismatch:
+            result.errors.append(f"Line {line_num}: {mismatch}")
+    result.sentence_count += 1
+    result.token_count += len(forms)
+
+
+def _handle_comment_line(
+    line: str,
+    in_sentence: bool,
+    current_sent_id: str | None,
+    current_text: str | None,
+    has_sent_id: bool,
+    has_text: bool,
+) -> tuple[bool, str | None, str | None, bool, bool]:
+    """Parse a comment line, returning updated state."""
+    if not in_sentence:
+        in_sentence = True
+    sid_match = SENT_ID_RE.match(line)
+    if sid_match:
+        current_sent_id = sid_match.group(1).strip()
+        has_sent_id = True
+    text_match = TEXT_RE.match(line)
+    if text_match:
+        current_text = text_match.group(1)
+        has_text = True
+    return in_sentence, current_sent_id, current_text, has_sent_id, has_text
+
+
+def _validate_token_fields(
+    result: ValidationResult, line_num: int, cols: list[str]
+) -> str:
+    """Validate a token line's fields, returning the FORM to append."""
+    if len(cols) != 10:
+        result.errors.append(
+            f"Line {line_num}: expected 10 TAB-separated fields, "
+            f"got {len(cols)}. Possible space-instead-of-tab issue."
+        )
+        return cols[1] if len(cols) > 1 else ""
+
+    token_id, form, lemma, upos = cols[0], cols[1], cols[2], cols[3]
+
+    if not form:
+        result.errors.append(f"Line {line_num}: empty FORM field (token {token_id})")
+    if not lemma:
+        result.errors.append(
+            f"Line {line_num}: empty LEMMA field (token {token_id}, form='{form}')"
+        )
+    if upos and upos not in VALID_UPOS:
+        result.errors.append(
+            f"Line {line_num}: invalid UPOS '{upos}' (token {token_id}, form='{form}')"
+        )
+    for i in range(4, 10):
+        if cols[i] != "_":
+            result.errors.append(
+                f"Line {line_num}: column {i + 1} expected '_', "
+                f"got '{cols[i]}' (token {token_id})"
+            )
+
+    if not _is_nfc(form):
+        result.warnings.append(f"Line {line_num}: FORM '{form}' is not NFC-normalized")
+    if not _is_nfc(lemma):
+        result.warnings.append(f"Line {line_num}: LEMMA '{lemma}' is not NFC-normalized")
+
+    return form
+
+
 def validate_text(text: str) -> ValidationResult:
     result = ValidationResult()
 
@@ -75,26 +166,15 @@ def validate_text(text: str) -> ValidationResult:
     has_sent_id_comment = False
 
     for line_num, raw_line in enumerate(lines, 1):
-        line = raw_line
-
-        if line == "":
+        if raw_line == "":
             if in_sentence:
-                if not has_sent_id_comment:
-                    result.errors.append(f"Line {line_num}: sentence missing '# sent_id' comment")
-                if not has_text_comment:
-                    result.errors.append(f"Line {line_num}: sentence missing '# text' comment")
-                if current_sent_id is not None:
-                    if current_sent_id in sent_ids_seen:
-                        result.errors.append(
-                            f"Line {line_num}: duplicate sent_id '{current_sent_id}'"
-                        )
-                    sent_ids_seen.add(current_sent_id)
-                if current_text is not None and current_forms:
-                    mismatch = _text_content_mismatch(current_forms, current_text)
-                    if mismatch:
-                        result.errors.append(f"Line {line_num}: {mismatch}")
-                result.sentence_count += 1
-                result.token_count += len(current_forms)
+                _check_missing_comments(
+                    result, line_num, has_sent_id_comment, has_text_comment
+                )
+                _close_sentence(
+                    result, line_num, sent_ids_seen,
+                    current_sent_id, current_text, current_forms,
+                )
                 in_sentence = False
                 current_sent_id = None
                 current_text = None
@@ -103,69 +183,31 @@ def validate_text(text: str) -> ValidationResult:
                 has_sent_id_comment = False
             continue
 
-        if line.startswith("#"):
-            if not in_sentence:
-                in_sentence = True
-            sid_match = SENT_ID_RE.match(line)
-            if sid_match:
-                current_sent_id = sid_match.group(1).strip()
-                has_sent_id_comment = True
-            text_match = TEXT_RE.match(line)
-            if text_match:
-                current_text = text_match.group(1)
-                has_text_comment = True
+        if raw_line.startswith("#"):
+            (
+                in_sentence, current_sent_id, current_text,
+                has_sent_id_comment, has_text_comment,
+            ) = _handle_comment_line(
+                raw_line, in_sentence, current_sent_id, current_text,
+                has_sent_id_comment, has_text_comment,
+            )
             continue
 
         if not in_sentence:
             in_sentence = True
 
-        cols = line.split("\t")
-        if len(cols) != 10:
-            result.errors.append(
-                f"Line {line_num}: expected 10 TAB-separated fields, "
-                f"got {len(cols)}. Possible space-instead-of-tab issue."
-            )
-            current_forms.append(cols[1] if len(cols) > 1 else "")
-            continue
-
-        token_id, form, lemma, upos = cols[0], cols[1], cols[2], cols[3]
-
-        if not form:
-            result.errors.append(f"Line {line_num}: empty FORM field (token {token_id})")
-        if not lemma:
-            result.errors.append(
-                f"Line {line_num}: empty LEMMA field (token {token_id}, form='{form}')"
-            )
-        if upos and upos not in VALID_UPOS:
-            result.errors.append(
-                f"Line {line_num}: invalid UPOS '{upos}' (token {token_id}, form='{form}')"
-            )
-        for i in range(4, 10):
-            if cols[i] != "_":
-                result.errors.append(
-                    f"Line {line_num}: column {i + 1} expected '_', "
-                    f"got '{cols[i]}' (token {token_id})"
-                )
-
-        if not _is_nfc(form):
-            result.warnings.append(f"Line {line_num}: FORM '{form}' is not NFC-normalized")
-        if not _is_nfc(lemma):
-            result.warnings.append(f"Line {line_num}: LEMMA '{lemma}' is not NFC-normalized")
-
+        cols = raw_line.split("\t")
+        form = _validate_token_fields(result, line_num, cols)
         current_forms.append(form)
 
     if in_sentence:
-        result.errors.append(f"Line {len(lines)}: last sentence missing trailing blank line")
-        if current_sent_id is not None:
-            if current_sent_id in sent_ids_seen:
-                result.errors.append(f"Line {len(lines)}: duplicate sent_id '{current_sent_id}'")
-            sent_ids_seen.add(current_sent_id)
-        if current_text is not None and current_forms:
-            mismatch = _text_content_mismatch(current_forms, current_text)
-            if mismatch:
-                result.errors.append(f"Line {len(lines)}: {mismatch}")
-        result.sentence_count += 1
-        result.token_count += len(current_forms)
+        result.errors.append(
+            f"Line {len(lines)}: last sentence missing trailing blank line"
+        )
+        _close_sentence(
+            result, len(lines), sent_ids_seen,
+            current_sent_id, current_text, current_forms,
+        )
 
     return result
 

@@ -40,6 +40,18 @@ from transformers import T5Config, T5EncoderModel
 
 BYT5_MODEL_ID = "google/byt5-small"
 
+_T5_LAYER_TAIL_MAP = {
+    "attention.query_proj.weight": ".layer.0.SelfAttention.q.weight",
+    "attention.key_proj.weight": ".layer.0.SelfAttention.k.weight",
+    "attention.value_proj.weight": ".layer.0.SelfAttention.v.weight",
+    "attention.out_proj.weight": ".layer.0.SelfAttention.o.weight",
+    "ln1.weight": ".layer.0.layer_norm.weight",
+    "dense.wi_0.weight": ".layer.1.DenseReluDense.wi_0.weight",
+    "dense.wi_1.weight": ".layer.1.DenseReluDense.wi_1.weight",
+    "dense.wo.weight": ".layer.1.DenseReluDense.wo.weight",
+    "ln2.weight": ".layer.1.layer_norm.weight",
+}
+
 
 def _map_mlx_to_hf(mlx_key: str) -> str | None:
     """Translate an MLX t5.py parameter name to the HF T5 state_dict key.
@@ -56,26 +68,9 @@ def _map_mlx_to_hf(mlx_key: str) -> str | None:
     if mlx_key.startswith("encoder.layers."):
         rest = mlx_key[len("encoder.layers.") :]
         idx_str, tail = rest.split(".", 1)
-        idx = int(idx_str)
-        block = f"encoder.block.{idx}"
-        if tail == "attention.query_proj.weight":
-            return f"{block}.layer.0.SelfAttention.q.weight"
-        if tail == "attention.key_proj.weight":
-            return f"{block}.layer.0.SelfAttention.k.weight"
-        if tail == "attention.value_proj.weight":
-            return f"{block}.layer.0.SelfAttention.v.weight"
-        if tail == "attention.out_proj.weight":
-            return f"{block}.layer.0.SelfAttention.o.weight"
-        if tail == "ln1.weight":
-            return f"{block}.layer.0.layer_norm.weight"
-        if tail == "dense.wi_0.weight":
-            return f"{block}.layer.1.DenseReluDense.wi_0.weight"
-        if tail == "dense.wi_1.weight":
-            return f"{block}.layer.1.DenseReluDense.wi_1.weight"
-        if tail == "dense.wo.weight":
-            return f"{block}.layer.1.DenseReluDense.wo.weight"
-        if tail == "ln2.weight":
-            return f"{block}.layer.1.layer_norm.weight"
+        suffix = _T5_LAYER_TAIL_MAP.get(tail)
+        if suffix is not None:
+            return f"encoder.block.{int(idx_str)}{suffix}"
     return None
 
 

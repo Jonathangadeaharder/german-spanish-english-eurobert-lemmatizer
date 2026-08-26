@@ -21,6 +21,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from collections.abc import Callable
 from pathlib import Path
 
 import numpy as np
@@ -100,7 +101,7 @@ def merge_lora_weights(
     # Collect LoRA pairs: layers.{i}.{q,k,v,o}_proj.lora_{a,b}
     lora_pairs: dict[str, dict[str, np.ndarray]] = {}
     for key in list(weights.keys()):
-        m = re.match(r"layers\.(\d+)\.(q_proj|k_proj|v_proj|o_proj)\.lora_(a|b)", key)
+        m = re.match(r"layers\.(\d+)\.(q_proj|k_proj|v_proj|o_proj)\.lora_([ab])", key)
         if m:
             layer_idx, proj, ab = m.groups()
             base = f"layers.{layer_idx}.{proj}"
@@ -198,6 +199,84 @@ def map_bert_mlx_to_hf(mlx_key: str) -> str | None:
     return None
 
 
+_CLASSIFIER_KEYS = (
+    "upos_classifier.weight",
+    "upos_classifier.bias",
+    "lemma_classifier.weight",
+    "lemma_classifier.bias",
+)
+
+
+class _SyncResult:
+    """Typed result for one MLX backbone key sync action."""
+
+    __slots__ = ("action", "mlx_key", "hf_key", "tensor", "target")
+
+    def __init__(
+        self,
+        action: str,
+        mlx_key: str = "",
+        hf_key: str = "",
+        tensor: np.ndarray | None = None,
+        target: torch.Tensor | None = None,
+    ) -> None:
+        self.action = action
+        self.mlx_key = mlx_key
+        self.hf_key = hf_key
+        self.tensor = tensor
+        self.target = target
+
+
+def _sync_backbone_key(
+    mlx_key: str,
+    tensor: np.ndarray,
+    mapper: Callable[[str], str | None],
+    hf_state: dict[str, torch.Tensor],
+) -> _SyncResult:
+    """Process one MLX backbone key, returning a typed _SyncResult.
+
+    Actions: "ignore", "skipped" (mlx_key set), "missing" (mlx_key + hf_key
+    set), or "mapped" (hf_key, tensor, target set).
+    """
+    if mlx_key in _CLASSIFIER_KEYS:
+        return _SyncResult("ignore")
+    if mlx_key.startswith(LAYERS_PREFIX) and "lora" in mlx_key:
+        return _SyncResult("ignore")
+    hf_key = mapper(mlx_key)
+    if hf_key is None:
+        return _SyncResult("skipped", mlx_key=mlx_key)
+    if hf_key not in hf_state:
+        return _SyncResult("missing", mlx_key=mlx_key, hf_key=hf_key)
+    target = hf_state[hf_key]
+    if tuple(target.shape) != tuple(tensor.shape):
+        return _SyncResult(
+            "missing",
+            mlx_key=mlx_key,
+            hf_key=f"{hf_key} (shape: {tuple(tensor.shape)} vs {tuple(target.shape)})",
+        )
+    return _SyncResult("mapped", hf_key=hf_key, tensor=tensor, target=target)
+
+
+def _load_classifier_heads(
+    weights: dict[str, np.ndarray],
+    wrapper: MultitaskONNXWrapper,
+) -> None:
+    """Load classifier head weights from MLX checkpoint into wrapper."""
+    cls_state = {}
+    for name in ("upos_classifier", "lemma_classifier"):
+        for suffix in ("weight", "bias"):
+            key = f"{name}.{suffix}"
+            if key in weights:
+                param = getattr(wrapper, name)
+                target = getattr(param, suffix)
+                cls_state[key] = torch.from_numpy(weights[key]).to(target.dtype)
+    wrapper.load_state_dict(cls_state, strict=False)
+
+    missing_cls = [k for k in _CLASSIFIER_KEYS if k not in weights]
+    if missing_cls:
+        raise RuntimeError(f"Missing classifier weights: {missing_cls}")
+
+
 def sync_weights(
     weights: dict[str, np.ndarray],
     backbone: nn.Module,
@@ -210,57 +289,23 @@ def sync_weights(
 
     mapped, skipped, missing = 0, [], []
     for mlx_key, tensor in weights.items():
-        if mlx_key in (
-            "upos_classifier.weight",
-            "upos_classifier.bias",
-            "lemma_classifier.weight",
-            "lemma_classifier.bias",
-        ):
+        result = _sync_backbone_key(mlx_key, tensor, mapper, hf_state)
+        if result.action == "ignore":
             continue
-        if mlx_key.startswith(LAYERS_PREFIX) and "lora" in mlx_key:
-            continue
-        hf_key = mapper(mlx_key)
-        if hf_key is None:
-            skipped.append(mlx_key)
-            continue
-        if hf_key not in hf_state:
-            missing.append((mlx_key, hf_key))
-            continue
-        target = hf_state[hf_key]
-        if tuple(target.shape) != tuple(tensor.shape):
-            missing.append(
-                (mlx_key, f"{hf_key} (shape: {tuple(tensor.shape)} vs {tuple(target.shape)})")
+        if result.action == "skipped":
+            skipped.append(result.mlx_key)
+        elif result.action == "missing":
+            missing.append((result.mlx_key, result.hf_key))
+        elif result.action == "mapped":
+            hf_state[result.hf_key] = torch.from_numpy(result.tensor).to(
+                result.target.dtype
             )
-            continue
-        hf_state[hf_key] = torch.from_numpy(tensor).to(target.dtype)
-        mapped += 1
+            mapped += 1
+        else:
+            raise ValueError(f"Unknown sync action: {result.action}")
 
     backbone.load_state_dict(hf_state, strict=False)
-
-    # Classifier heads
-    cls_state = {}
-    for name in ("upos_classifier", "lemma_classifier"):
-        for suffix in ("weight", "bias"):
-            key = f"{name}.{suffix}"
-            if key in weights:
-                param = getattr(wrapper, name)
-                target = getattr(param, suffix)
-                cls_state[key] = torch.from_numpy(weights[key]).to(target.dtype)
-    wrapper.load_state_dict(cls_state, strict=False)
-
-    # Verify all 4 classifier params were loaded
-    missing_cls = [
-        k
-        for k in (
-            "upos_classifier.weight",
-            "upos_classifier.bias",
-            "lemma_classifier.weight",
-            "lemma_classifier.bias",
-        )
-        if k not in weights
-    ]
-    if missing_cls:
-        raise RuntimeError(f"Missing classifier weights: {missing_cls}")
+    _load_classifier_heads(weights, wrapper)
 
     return {
         "mapped": mapped,
@@ -271,113 +316,73 @@ def sync_weights(
     }
 
 
-def export_lang(lang: str) -> None:
-    if lang not in RUN_DIRS:
-        raise ValueError(f"Unknown language '{lang}'. Valid: {sorted(RUN_DIRS.keys())}")
-    model_dir = Path(os.getenv("MODEL_DIR", RUN_DIRS[lang]))
-    onnx_dir = Path(os.getenv("ONNX_DIR", f"onnx/eurobert-lemma-{lang}-210m"))
-    lexicon_dir = Path(os.getenv("LEXICON_DIR", f"artifacts/lemma_{lang}"))
-    export_dtype = os.getenv("EXPORT_DTYPE", "fp32").lower()
-    quantize = os.getenv("QUANTIZE", "int8").lower()
+_CRITICAL_BACKBONE_KEYS = (
+    "embed",
+    "norm",
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj",
+)
 
-    mlx_path = model_dir / "best.safetensors"
-    if not mlx_path.exists():
-        raise FileNotFoundError(f"No checkpoint at {mlx_path}")
 
-    onnx_dir.mkdir(parents=True, exist_ok=True)
-
-    # Load label maps — use label2id for classifier size (it may have one
-    # more entry than id2label due to the UNKNOWN token).
-    upos_label2id = json.loads((lexicon_dir / "upos_label2id.json").read_text("utf-8"))
-    label2id = json.loads((lexicon_dir / "label2id.json").read_text("utf-8"))
-    n_upos = len(upos_label2id)
-    n_lemma = len(label2id)
-    print(f"[{lang}] n_upos={n_upos}, n_lemma={n_lemma}", flush=True)
-
-    # Load MLX weights
-    print(f"[{lang}] Loading MLX weights from {mlx_path}", flush=True)
-    weights = load_mlx_weights(str(mlx_path))
-
-    # Check for LoRA keys
-    has_lora = any("lora" in k for k in weights)
-    if has_lora:
-        lora_keys = [k for k in weights if "lora" in k]
-        # Infer rank from lora_a tensor shape: (rank, in_features)
-        first_a = next((k for k in lora_keys if "lora_a" in k), None)
-        if first_a is not None:
-            lora_rank = weights[first_a].shape[0]
-        else:
-            lora_rank = 32 if lang == "de" else 16
-        # Alpha is a training hyperparameter not stored in the checkpoint.
-        # Training commands used: de → --lora-alpha 64, en/es/fr/nl → --lora-alpha 32.
-        # Override via LORA_ALPHA env var if training used a non-standard value.
-        default_alpha = 64.0 if lang == "de" else 32.0
-        lora_alpha = float(os.getenv("LORA_ALPHA", str(default_alpha)))
-        print(
-            f"[{lang}] Found LoRA adapters ({len(lora_keys)} keys), "
-            f"merging (rank={lora_rank}, alpha={lora_alpha})...",
-            flush=True,
-        )
-        weights = merge_lora_weights(weights, lora_rank, lora_alpha)
-
-    # Load HF backbone
-    base_model = BASE_MODELS[lang]
-    is_eurobert = "EuroBERT" in base_model
-    if is_eurobert:
-        model_path = os.path.expanduser(EUROBERT_SNAPSHOT)
+def _merge_lora_if_present(lang: str, weights: dict[str, np.ndarray]) -> dict[str, np.ndarray]:
+    """Detect and merge LoRA adapters in weights, if any are present."""
+    if not any("lora" in k for k in weights):
+        return weights
+    lora_keys = [k for k in weights if "lora" in k]
+    first_a = next((k for k in lora_keys if "lora_a" in k), None)
+    if first_a is not None:
+        lora_rank = weights[first_a].shape[0]
     else:
-        model_path = os.path.expanduser(SCANDIBERT_SNAPSHOT)
-
-    print(f"[{lang}] Loading HF backbone from {model_path}", flush=True)
-    config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
-    backbone = AutoModel.from_pretrained(model_path, trust_remote_code=True)
-    backbone.eval()
-
-    hidden_size = config.hidden_size
-    wrapper = MultitaskONNXWrapper(backbone, hidden_size, n_upos, n_lemma)
-
-    # Sync weights
-    print(f"[{lang}] Syncing weights...", flush=True)
-    report = sync_weights(weights, backbone, wrapper, is_eurobert)
+        lora_rank = 32 if lang == "de" else 16
+    # Alpha is a training hyperparameter not stored in the checkpoint.
+    # Training commands used: de → --lora-alpha 64, en/es/fr/nl → --lora-alpha 32.
+    # Override via LORA_ALPHA env var if training used a non-standard value.
+    default_alpha = 64.0 if lang == "de" else 32.0
+    lora_alpha = float(os.getenv("LORA_ALPHA", str(default_alpha)))
     print(
-        f"  mapped={report['mapped']} skipped={report['n_skipped']} missing={report['n_missing']}",
+        f"[{lang}] Found LoRA adapters ({len(lora_keys)} keys), "
+        f"merging (rank={lora_rank}, alpha={lora_alpha})...",
         flush=True,
     )
-    if report["skipped"]:
-        print(f"  skipped: {report['skipped'][:5]}", flush=True)
-    if report["missing"]:
-        critical = [
-            m
-            for m in report["missing"]
-            if any(
-                c in m[0]
-                for c in (
-                    "embed",
-                    "norm",
-                    "q_proj",
-                    "k_proj",
-                    "v_proj",
-                    "o_proj",
-                    "gate_proj",
-                    "up_proj",
-                    "down_proj",
-                )
-            )
-        ]
-        if critical:
-            raise RuntimeError(
-                f"[{lang}] Critical backbone weights not synced: {critical[:3]}. "
-                "Refusing to export with pretrained/random weights."
-            )
-        print(f"  missing: {report['missing'][:5]}", flush=True)
+    return merge_lora_weights(weights, lora_rank, lora_alpha)
 
-    wrapper.eval()
+
+def _verify_critical_missing(lang: str, report: dict) -> None:
+    """Raise if critical backbone weights are missing from sync report."""
+    if not report["missing"]:
+        return
+    critical = [
+        m for m in report["missing"] if any(c in m[0] for c in _CRITICAL_BACKBONE_KEYS)
+    ]
+    if critical:
+        raise RuntimeError(
+            f"[{lang}] Critical backbone weights not synced: {critical[:3]}. "
+            "Refusing to export with pretrained/random weights."
+        )
+    print(f"  missing: {report['missing'][:5]}", flush=True)
+
+
+def _apply_export_dtype(wrapper: nn.Module, export_dtype: str) -> nn.Module:
+    """Cast wrapper to the requested export dtype."""
     if export_dtype == "fp16":
-        wrapper = wrapper.half()
-    elif export_dtype == "bf16":
-        wrapper = wrapper.to(torch.bfloat16)
+        return wrapper.half()
+    if export_dtype == "bf16":
+        return wrapper.to(torch.bfloat16)
+    return wrapper
 
-    # Export
+
+def _export_onnx_model(
+    lang: str, wrapper: nn.Module, onnx_dir: Path, export_dtype: str, quantize: str
+) -> None:
+    """Export wrapper to ONNX and optionally quantize to int8."""
+    wrapper.eval()
+    wrapper = _apply_export_dtype(wrapper, export_dtype)
+
     B, T = 2, 32
     sample_ids = torch.zeros((B, T), dtype=torch.long)
     sample_mask = torch.ones((B, T), dtype=torch.long)
@@ -412,6 +417,64 @@ def export_lang(lang: str) -> None:
             weight_type=QuantType.QInt8,
         )
         print(f"[{lang}] Saved int8 quantized to {int8_path}", flush=True)
+
+
+def export_lang(lang: str) -> None:
+    if lang not in RUN_DIRS:
+        raise ValueError(f"Unknown language '{lang}'. Valid: {sorted(RUN_DIRS.keys())}")
+    model_dir = Path(os.getenv("MODEL_DIR", RUN_DIRS[lang]))
+    onnx_dir = Path(os.getenv("ONNX_DIR", f"onnx/eurobert-lemma-{lang}-210m"))
+    lexicon_dir = Path(os.getenv("LEXICON_DIR", f"artifacts/lemma_{lang}"))
+    export_dtype = os.getenv("EXPORT_DTYPE", "fp32").lower()
+    quantize = os.getenv("QUANTIZE", "int8").lower()
+
+    mlx_path = model_dir / "best.safetensors"
+    if not mlx_path.exists():
+        raise FileNotFoundError(f"No checkpoint at {mlx_path}")
+
+    onnx_dir.mkdir(parents=True, exist_ok=True)
+
+    # Load label maps — use label2id for classifier size (it may have one
+    # more entry than id2label due to the UNKNOWN token).
+    upos_label2id = json.loads((lexicon_dir / "upos_label2id.json").read_text("utf-8"))
+    label2id = json.loads((lexicon_dir / "label2id.json").read_text("utf-8"))
+    n_upos = len(upos_label2id)
+    n_lemma = len(label2id)
+    print(f"[{lang}] n_upos={n_upos}, n_lemma={n_lemma}", flush=True)
+
+    # Load MLX weights
+    print(f"[{lang}] Loading MLX weights from {mlx_path}", flush=True)
+    weights = load_mlx_weights(str(mlx_path))
+    weights = _merge_lora_if_present(lang, weights)
+
+    # Load HF backbone
+    base_model = BASE_MODELS[lang]
+    is_eurobert = "EuroBERT" in base_model
+    if is_eurobert:
+        model_path = os.path.expanduser(EUROBERT_SNAPSHOT)
+    else:
+        model_path = os.path.expanduser(SCANDIBERT_SNAPSHOT)
+
+    print(f"[{lang}] Loading HF backbone from {model_path}", flush=True)
+    config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
+    backbone = AutoModel.from_pretrained(model_path, trust_remote_code=True)
+    backbone.eval()
+
+    hidden_size = config.hidden_size
+    wrapper = MultitaskONNXWrapper(backbone, hidden_size, n_upos, n_lemma)
+
+    # Sync weights
+    print(f"[{lang}] Syncing weights...", flush=True)
+    report = sync_weights(weights, backbone, wrapper, is_eurobert)
+    print(
+        f"  mapped={report['mapped']} skipped={report['n_skipped']} missing={report['n_missing']}",
+        flush=True,
+    )
+    if report["skipped"]:
+        print(f"  skipped: {report['skipped'][:5]}", flush=True)
+    _verify_critical_missing(lang, report)
+
+    _export_onnx_model(lang, wrapper, onnx_dir, export_dtype, quantize)
 
 
 def main() -> None:

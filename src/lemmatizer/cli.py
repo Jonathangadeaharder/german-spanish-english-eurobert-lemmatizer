@@ -11,6 +11,7 @@ Eval and packaging are backend-agnostic (ONNX/LoRA/merged resolved by EvalContex
 from __future__ import annotations
 
 import os
+from dataclasses import dataclass
 
 import typer
 
@@ -30,7 +31,112 @@ def _set_env(**values: object) -> None:
     for key, value in values.items():
         if value is None:
             continue
-        os.environ[key] = "1" if value is True else "0" if value is False else str(value)
+        if value is True:
+            os.environ[key] = "1"
+        elif value is False:
+            os.environ[key] = "0"
+        else:
+            os.environ[key] = str(value)
+
+
+@dataclass
+class LoraOptions:
+    """Grouped LoRA hyperparameters."""
+
+    rank: int = 8
+    alpha: float = 16.0
+
+
+@dataclass
+class UnfreezeOptions:
+    """Grouped encoder-unfreezing flags."""
+
+    encoder: bool = False
+    last_n: int = 0
+
+
+@dataclass
+class RowLimitOptions:
+    """Grouped dataset row caps."""
+
+    max_train: int = 0
+    max_val: int = 0
+
+
+_LORA_KEYS = {"rank", "alpha"}
+_UNFREEZE_KEYS = {"encoder", "last_n"}
+_ROW_LIMIT_KEYS = {"max_train", "max_val"}
+_BOOL_TRUE = ("true", "1", "yes")
+_BOOL_FALSE = ("false", "0", "no")
+
+
+def _parse_kv(value: str, valid_keys: set[str] | None = None) -> dict[str, str]:
+    """Parse a 'key=value,key=value' string into a dict."""
+    if not value:
+        return {}
+    result: dict[str, str] = {}
+    for item in value.split(","):
+        if "=" not in item:
+            raise typer.BadParameter(
+                f"Expected key=value, got '{item.strip()}'"
+            )
+        k, v = item.split("=", 1)
+        k = k.strip()
+        v = v.strip()
+        if not k:
+            raise typer.BadParameter("Empty key in config")
+        if valid_keys is not None and k not in valid_keys:
+            raise typer.BadParameter(
+                f"Unknown key '{k}'. Valid keys: {', '.join(sorted(valid_keys))}"
+            )
+        result[k] = v
+    return result
+
+
+def _parse_bool(key: str, value: str) -> bool:
+    """Parse a boolean config value, rejecting unrecognized strings."""
+    v = value.lower()
+    if v in _BOOL_TRUE:
+        return True
+    if v in _BOOL_FALSE:
+        return False
+    raise typer.BadParameter(
+        f"Invalid boolean for '{key}': '{value}'. "
+        f"Use true/false, 1/0, or yes/no."
+    )
+
+
+def _parse_lora(value: str) -> LoraOptions:
+    d = _parse_kv(value, _LORA_KEYS)
+    try:
+        return LoraOptions(
+            rank=int(d.get("rank", 8)), alpha=float(d.get("alpha", 16.0))
+        )
+    except ValueError as e:
+        raise typer.BadParameter(f"Invalid LoRA config: {e}") from e
+
+
+def _parse_unfreeze(value: str) -> UnfreezeOptions:
+    d = _parse_kv(value, _UNFREEZE_KEYS)
+    try:
+        encoder_val = d.get("encoder", "false")
+        return UnfreezeOptions(
+            encoder=_parse_bool("encoder", encoder_val),
+            last_n=int(d.get("last_n", 0)),
+        )
+    except ValueError as e:
+        raise typer.BadParameter(f"Invalid unfreeze config: {e}") from e
+
+
+def _parse_row_limits(value: str) -> RowLimitOptions:
+    d = _parse_kv(value, _ROW_LIMIT_KEYS)
+    try:
+        return RowLimitOptions(
+            max_train=int(d.get("max_train", 0)),
+            max_val=int(d.get("max_val", 0)),
+        )
+    except ValueError as e:
+        raise typer.BadParameter(f"Invalid row-limits config: {e}") from e
 
 
 @app.command("fetch-ud")
@@ -90,16 +196,13 @@ def train(
     epochs: float = typer.Option(0.0, help="Epochs (0 = baseline eval only)"),
     batch_size: int = typer.Option(64, help="Batch size"),
     lr: float = typer.Option(2e-5, help="Learning rate"),
-    lora_rank: int = typer.Option(8, help="LoRA rank (0 = full finetune)"),
-    lora_alpha: float = typer.Option(16.0, help="LoRA alpha"),
     curriculum: bool = typer.Option(False, help="Enable curriculum sampling"),
-    max_train_rows: int = typer.Option(0, help="Cap train rows (0 = all)"),
-    max_val_rows: int = typer.Option(0, help="Cap val rows (0 = all)"),
-    unfreeze_encoder: bool = typer.Option(False, help="Unfreeze all encoder layers"),
-    unfreeze_last_n: int = typer.Option(0, help="Unfreeze last N encoder layers"),
     grad_accum: int = typer.Option(1, help="Gradient accumulation steps"),
     warmup: float = typer.Option(0.06, help="Warmup fraction (0-1)"),
     upos_weight: float = typer.Option(1.0, help="UPOS loss weight (default 1.0)"),
+    lora: str = typer.Option("", help="LoRA config: rank=8,alpha=16"),
+    unfreeze: str = typer.Option("", help="Unfreeze config: encoder=false,last_n=0"),
+    row_limits: str = typer.Option("", help="Row caps: max_train=0,max_val=0"),
 ) -> None:
     """Train the MLX model for one language.
 
@@ -108,19 +211,22 @@ def train(
       zh → BERT BIO-POS (openmed-backed)
       de/en/es/fr/sv → EuroBERT/ScandiBERT multitask (upos + lemma)
     """
+    lora_opts = _parse_lora(lora)
+    unfreeze_opts = _parse_unfreeze(unfreeze)
+    row_limit_opts = _parse_row_limits(row_limits)
     opts = TrainOptions(
         checkpoint=checkpoint,
         output_dir=output_dir,
         epochs=epochs,
         batch_size=batch_size,
         lr=lr,
-        lora_rank=lora_rank,
-        lora_alpha=lora_alpha,
+        lora_rank=lora_opts.rank,
+        lora_alpha=lora_opts.alpha,
         curriculum=curriculum,
-        max_train_rows=max_train_rows,
-        max_val_rows=max_val_rows,
-        unfreeze_encoder=unfreeze_encoder,
-        unfreeze_last_n=unfreeze_last_n,
+        max_train_rows=row_limit_opts.max_train,
+        max_val_rows=row_limit_opts.max_val,
+        unfreeze_encoder=unfreeze_opts.encoder,
+        unfreeze_last_n=unfreeze_opts.last_n,
         grad_accum=grad_accum,
         warmup=warmup,
         upos_weight=upos_weight,

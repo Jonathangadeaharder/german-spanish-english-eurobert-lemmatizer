@@ -14,28 +14,10 @@ from transformers import AutoTokenizer
 
 from lemmatizer.languages import LanguageSpec
 from lemmatizer.train import TrainOptions
+from lemmatizer.train.lora import LoRALinear
+from lemmatizer.train.train_byt5 import _expand_pool_indices
 
 MAX_LENGTH = 256
-
-
-class LoRALinear(nn.Module):
-    def __init__(self, base: nn.Linear, rank: int, alpha: float):
-        super().__init__()
-        self.weight = base.weight
-        self.bias = getattr(base, "bias", None)
-        self.rank = rank
-        self.scale = alpha / rank
-        self.lora_a = mx.random.normal((rank, base.weight.shape[1])) * 0.01
-        self.lora_b = mx.zeros((base.weight.shape[0], rank))
-        self.freeze(keys=["weight"])
-        if self.bias is not None:
-            self.freeze(keys=["bias"])
-
-    def __call__(self, x: mx.array) -> mx.array:
-        y = x @ self.weight.T
-        if self.bias is not None:
-            y = y + self.bias
-        return y + ((x @ self.lora_a.T) @ self.lora_b.T) * self.scale
 
 
 def attach_lora(model: nn.Module, rank: int, alpha: float) -> None:
@@ -109,7 +91,7 @@ def loss_fn(model, batch):
     labels = batch["labels"]
     mask = (labels != -100).astype(mx.float32)
     safe_labels = mx.maximum(labels, 0)
-    B, T, C = logits.shape
+    _, _, C = logits.shape
     flat_logits = logits.reshape(-1, C)
     flat_labels = safe_labels.reshape(-1)
     flat_mask = mask.reshape(-1)
@@ -184,44 +166,42 @@ def find_struggles(model, rows: list[dict], batch_size: int) -> set[int]:
     return struggles
 
 
+def _build_label_map(data: list[dict]) -> dict[int, list[int]]:
+    """Map each non-ignored label to the list of row indices that contain it."""
+    label_map: dict[int, list[int]] = {}
+    for idx, row in enumerate(data):
+        for label in row["labels"]:
+            if label != -100:
+                label_map.setdefault(label, []).append(idx)
+    return label_map
+
+
+def _select_indices_by_label(
+    label_map: dict[int, list[int]], data_len: int, target: int
+) -> set[int]:
+    """Pick up to *target* indices: first occurrence of each label, then backfill."""
+    selected: set[int] = set()
+    for indices in label_map.values():
+        selected.add(indices[0])
+        if len(selected) >= target:
+            break
+    if len(selected) < target:
+        for idx in range(data_len):
+            if idx not in selected:
+                selected.add(idx)
+            if len(selected) == target:
+                break
+    return selected
+
+
 def build_curriculum_datasets(train_data: list[dict], val_data: list[dict]):
-    train_label_map = {}
-    for idx, row in enumerate(train_data):
-        for label in row["labels"]:
-            if label != -100:
-                train_label_map.setdefault(label, []).append(idx)
+    train_label_map = _build_label_map(train_data)
+    val_label_map = _build_label_map(val_data)
 
-    val_label_map = {}
-    for idx, row in enumerate(val_data):
-        for label in row["labels"]:
-            if label != -100:
-                val_label_map.setdefault(label, []).append(idx)
-
-    selected_val_indices = set()
-    for label in val_label_map:
-        selected_val_indices.add(val_label_map[label][0])
-        if len(selected_val_indices) >= 700:
-            break
-
-    if len(selected_val_indices) < 700:
-        for idx in range(len(val_data)):
-            if idx not in selected_val_indices:
-                selected_val_indices.add(idx)
-            if len(selected_val_indices) == 700:
-                break
-
-    selected_train_indices = set()
-    for label in train_label_map:
-        selected_train_indices.add(train_label_map[label][0])
-        if len(selected_train_indices) >= 7000:
-            break
-
-    if len(selected_train_indices) < 7000:
-        for idx in range(len(train_data)):
-            if idx not in selected_train_indices:
-                selected_train_indices.add(idx)
-            if len(selected_train_indices) == 7000:
-                break
+    selected_val_indices = _select_indices_by_label(val_label_map, len(val_data), 700)
+    selected_train_indices = _select_indices_by_label(
+        train_label_map, len(train_data), 7000
+    )
 
     final_train = [train_data[i] for i in selected_train_indices]
     final_val = [val_data[i] for i in selected_val_indices]
@@ -234,10 +214,12 @@ def train_epoch(
     batch_size: int,
     optimizer,
     epoch: int,
+    seed: int = 0,
 ) -> float:
     model.train()
     loss_and_grad = nn.value_and_grad(model, loss_fn)
-    order = np.random.permutation(len(rows))
+    rng = np.random.default_rng(seed)
+    order = rng.permutation(len(rows))
     total = n = 0
     batches = math.ceil(len(order) / batch_size)
     t0 = time.time()
@@ -334,6 +316,142 @@ def _load_bert_model(model_path: str):
     return model
 
 
+def _setup_finetune(model, opts: TrainOptions):
+    """Attach LoRA or unfreeze the full model, then return a fresh optimizer."""
+    if opts.lora_rank > 0:
+        attach_lora(model, opts.lora_rank, opts.lora_alpha)
+        print(
+            json.dumps(
+                {"event": "lora_attached", "rank": opts.lora_rank, "alpha": opts.lora_alpha}
+            ),
+            flush=True,
+        )
+    else:
+        model.unfreeze()
+        print("Full fine-tuning (no LoRA)", flush=True)
+    return optim.AdamW(learning_rate=opts.lr, weight_decay=0.01)
+
+
+def _run_epoch(
+    model,
+    train_rows: list[dict],
+    eval_train: list[dict],
+    eval_val: list[dict],
+    batch_size: int,
+    optimizer,
+    epoch: int,
+    output_dir: Path,
+    best_val_acc: float,
+    results: dict,
+    seed: int = 0,
+) -> float:
+    """Train one epoch, evaluate, record metrics, save weights. Return updated best_val_acc."""
+    t0 = time.time()
+    train_loss = train_epoch(model, train_rows, batch_size, optimizer, epoch, seed=seed)
+    metrics = {
+        "epoch": epoch,
+        "train_loss": round(train_loss, 4),
+        "train": evaluate(model, eval_train, batch_size, f"epoch_{epoch}_train"),
+        "validation": evaluate(model, eval_val, batch_size, f"epoch_{epoch}_validation"),
+        "elapsed_s": round(time.time() - t0, 1),
+    }
+    results["finetune"].append(metrics)
+    print(json.dumps({"event": "epoch", **metrics}), flush=True)
+
+    val_acc = metrics["validation"]["accuracy"]
+    if val_acc >= best_val_acc:
+        best_val_acc = val_acc
+        model.save_weights(str(output_dir / "best.safetensors"))
+        print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
+    model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
+    return best_val_acc
+
+
+def _grow_curriculum_pools(
+    train_pool: list[dict],
+    val_pool: list[dict],
+    current_train_indices: set[int],
+    current_val_indices: set[int],
+    epoch: int,
+    epochs: int,
+    model,
+    current_val: list[dict],
+    batch_size: int,
+) -> tuple[list[dict], list[dict]]:
+    """Find struggled labels and expand curriculum pools for the next epoch."""
+    struggles = find_struggles(model, current_val, batch_size)
+    print(
+        json.dumps(
+            {
+                "event": f"struggles_identified_epoch_{epoch}",
+                "count": len(struggles),
+            }
+        ),
+        flush=True,
+    )
+
+    next_train_size = min(int((epoch + 1) * len(train_pool) / epochs), len(train_pool))
+    next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
+
+    _expand_pool_indices(train_pool, current_train_indices, struggles, next_train_size)
+    _expand_pool_indices(val_pool, current_val_indices, struggles, next_val_size)
+
+    current_train = [train_pool[i] for i in current_train_indices]
+    current_val = [val_pool[i] for i in current_val_indices]
+    return current_train, current_val
+
+
+def _run_finetune_curriculum(
+    model,
+    train_data: list[dict],
+    val_data: list[dict],
+    opts: TrainOptions,
+    optimizer,
+    output_dir: Path,
+    results: dict,
+) -> None:
+    print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
+    train_pool, val_pool = build_curriculum_datasets(train_data, val_data)
+
+    epochs = int(opts.epochs)
+    current_train_indices = set(
+        range(min(len(train_pool), max(1, len(train_pool) // epochs)))
+    )
+    current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
+
+    current_train = [train_pool[i] for i in current_train_indices]
+    current_val = [val_pool[i] for i in current_val_indices]
+
+    best_val_acc = -1.0
+    for epoch in range(1, epochs + 1):
+        best_val_acc = _run_epoch(
+            model, current_train, train_data, val_data, opts.batch_size,
+            optimizer, epoch, output_dir, best_val_acc, results, seed=opts.seed + epoch,
+        )
+        if epoch < epochs:
+            current_train, current_val = _grow_curriculum_pools(
+                train_pool, val_pool, current_train_indices, current_val_indices,
+                epoch, epochs, model, current_val, opts.batch_size,
+            )
+
+
+def _run_finetune_standard(
+    model,
+    train_data: list[dict],
+    val_data: list[dict],
+    opts: TrainOptions,
+    optimizer,
+    output_dir: Path,
+    results: dict,
+) -> None:
+    best_val_acc = -1.0
+    for epoch in range(1, int(opts.epochs) + 1):
+        best_val_acc = _run_epoch(
+            model, train_data, train_data, val_data, opts.batch_size,
+            optimizer, epoch, output_dir, best_val_acc, results, seed=opts.seed + epoch,
+        )
+
+
 def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     """Canonical entry: train the ZH BIO-POS model for `spec.lang` (zh)."""
     prune_layers = opts.extra.get("prune_layers", 12)
@@ -377,130 +495,11 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
     if opts.epochs > 0:
-        if opts.lora_rank > 0:
-            attach_lora(model, opts.lora_rank, opts.lora_alpha)
-            print(
-                json.dumps(
-                    {"event": "lora_attached", "rank": opts.lora_rank, "alpha": opts.lora_alpha}
-                ),
-                flush=True,
-            )
-        else:
-            model.unfreeze()
-            print("Full fine-tuning (no LoRA)", flush=True)
-
-        optimizer = optim.AdamW(learning_rate=opts.lr, weight_decay=0.01)
-
+        optimizer = _setup_finetune(model, opts)
         if opts.curriculum:
-            print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
-            train_pool, val_pool = build_curriculum_datasets(train_data, val_data)
-
-            epochs = int(opts.epochs)
-            current_train_indices = set(
-                range(min(len(train_pool), max(1, len(train_pool) // epochs)))
-            )
-            current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
-
-            current_train = [train_pool[i] for i in current_train_indices]
-            current_val = [val_pool[i] for i in current_val_indices]
-
-            best_val_acc = -1.0
-
-            for epoch in range(1, epochs + 1):
-                t0 = time.time()
-                train_loss = train_epoch(model, current_train, opts.batch_size, optimizer, epoch)
-                metrics = {
-                    "epoch": epoch,
-                    "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_data, opts.batch_size, f"epoch_{epoch}_train"),
-                    "validation": evaluate(
-                        model, val_data, opts.batch_size, f"epoch_{epoch}_validation"
-                    ),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }
-                results["finetune"].append(metrics)
-                print(json.dumps({"event": "epoch", **metrics}), flush=True)
-
-                val_acc = metrics["validation"]["accuracy"]
-                if val_acc >= best_val_acc:
-                    best_val_acc = val_acc
-                    model.save_weights(str(output_dir / "best.safetensors"))
-                    print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
-
-                model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
-
-                if epoch < epochs:
-                    struggles = find_struggles(model, current_val, opts.batch_size)
-                    print(
-                        json.dumps(
-                            {
-                                "event": f"struggles_identified_epoch_{epoch}",
-                                "count": len(struggles),
-                            }
-                        ),
-                        flush=True,
-                    )
-
-                    next_train_size = min(
-                        int((epoch + 1) * len(train_pool) / epochs), len(train_pool)
-                    )
-                    next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
-
-                    remaining_train_indices = [
-                        i for i in range(len(train_pool)) if i not in current_train_indices
-                    ]
-                    remaining_train_indices.sort(
-                        key=lambda i: sum(1 for lbl in train_pool[i]["labels"] if lbl in struggles),
-                        reverse=True,
-                    )
-
-                    remaining_val_indices = [
-                        i for i in range(len(val_pool)) if i not in current_val_indices
-                    ]
-                    remaining_val_indices.sort(
-                        key=lambda i: sum(1 for lbl in val_pool[i]["labels"] if lbl in struggles),
-                        reverse=True,
-                    )
-
-                    added_train_indices = remaining_train_indices[
-                        : (next_train_size - len(current_train_indices))
-                    ]
-                    added_val_indices = remaining_val_indices[
-                        : (next_val_size - len(current_val_indices))
-                    ]
-
-                    current_train_indices.update(added_train_indices)
-                    current_val_indices.update(added_val_indices)
-
-                    current_train = [train_pool[i] for i in current_train_indices]
-                    current_val = [val_pool[i] for i in current_val_indices]
-
+            _run_finetune_curriculum(model, train_data, val_data, opts, optimizer, output_dir, results)
         else:
-            best_val_acc = -1.0
-            for epoch in range(1, int(opts.epochs) + 1):
-                t0 = time.time()
-                train_loss = train_epoch(model, train_data, opts.batch_size, optimizer, epoch)
-                metrics = {
-                    "epoch": epoch,
-                    "train_loss": round(train_loss, 4),
-                    "train": evaluate(model, train_data, opts.batch_size, f"epoch_{epoch}_train"),
-                    "validation": evaluate(
-                        model, val_data, opts.batch_size, f"epoch_{epoch}_validation"
-                    ),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }
-                results["finetune"].append(metrics)
-                print(json.dumps({"event": "epoch", **metrics}), flush=True)
-
-                val_acc = metrics["validation"]["accuracy"]
-                if val_acc >= best_val_acc:
-                    best_val_acc = val_acc
-                    model.save_weights(str(output_dir / "best.safetensors"))
-                    print(
-                        f"  saved best model weights (val_acc={best_val_acc:.4f})",
-                        flush=True,
-                    )
-                model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
+            _run_finetune_standard(model, train_data, val_data, opts, optimizer, output_dir, results)
 
     (output_dir / "metrics.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
     print(json.dumps({"event": "saved", "path": str(output_dir / "metrics.json")}), flush=True)

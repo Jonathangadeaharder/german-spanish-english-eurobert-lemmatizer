@@ -112,23 +112,39 @@ def es_reflexive_lemma(word: str) -> str | None:
     return None
 
 
+def _apply_de_rules(word_lower: str) -> str | None:
+    if word_lower in DE_CONTRACTIONS:
+        return DE_CONTRACTIONS[word_lower]
+    return None
+
+
+def _apply_en_rules(word_lower: str, pred_upos: str) -> str | None:
+    if pred_upos in ("NOUN", "PROPN") and word_lower in EN_IRREGULAR_PLURALS:
+        return EN_IRREGULAR_PLURALS[word_lower]
+    if pred_upos == "DET" and word_lower in EN_DET_LEMMAS:
+        return EN_DET_LEMMAS[word_lower]
+    return None
+
+
+def _apply_es_rules(word_lower: str, pred_upos: str) -> str | None:
+    reflexive = es_reflexive_lemma(word_lower)
+    if pred_upos == "VERB" and reflexive is not None:
+        return reflexive
+    return None
+
+
 def apply_postprocess_rules(word: str, lang: str, pred_lemma: str, pred_upos: str) -> str:
     word_lower = word.lower()
 
     if lang == "de":
-        if word_lower in DE_CONTRACTIONS:
-            return DE_CONTRACTIONS[word_lower]
-
+        result = _apply_de_rules(word_lower)
     elif lang == "en":
-        if pred_upos in ("NOUN", "PROPN") and word_lower in EN_IRREGULAR_PLURALS:
-            return EN_IRREGULAR_PLURALS[word_lower]
-        if pred_upos == "DET" and word_lower in EN_DET_LEMMAS:
-            return EN_DET_LEMMAS[word_lower]
-
+        result = _apply_en_rules(word_lower, pred_upos)
     elif lang == "es":
-        if pred_upos == "VERB":
-            reflexive = es_reflexive_lemma(word_lower)
-            if reflexive is not None:
-                return reflexive
+        result = _apply_es_rules(word_lower, pred_upos)
+    else:
+        result = None
 
+    if result is not None:
+        return result
     return pred_lemma

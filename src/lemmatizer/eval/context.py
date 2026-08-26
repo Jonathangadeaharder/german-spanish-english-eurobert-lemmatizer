@@ -15,12 +15,16 @@ import json
 import os
 from dataclasses import dataclass
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 import numpy as np
 
 from lemmatizer.data.label_space import LabelSpace
 from lemmatizer.eval.backends import ModelBackend, backend_from_env
 from lemmatizer.languages import LANG_TOKENS, LanguageAssets, language_assets
+
+if TYPE_CHECKING:
+    from transformers import PreTrainedTokenizerBase
 
 
 @dataclass
@@ -31,7 +35,7 @@ class EvalContext:
     assets: LanguageAssets
     label_space: LabelSpace
     backend: ModelBackend
-    tokenizer: object
+    tokenizer: PreTrainedTokenizerBase
     lang_token: str | None
     prepend_lang: bool
     candidate_ids: np.ndarray
@@ -161,22 +165,15 @@ class EvalContext:
         return apply_edit_label(word, base_label)
 
 
-def build_eval_context(lang: str | None = None) -> EvalContext:
-    """Factory: resolves language_assets → LabelSpace → tokenizer → backend → EvalContext.
-
-    This is the single entry point for both treebank and CEFR evaluation.
-    """
-    assets = language_assets(lang)
-    resolved_lang = assets.lang
-
-    # 1. Load label files
+def _resolve_label_maps(
+    assets: LanguageAssets,
+    model_dir: str,
+    use_lora: bool,
+    onnx_model_path: str,
+) -> tuple[dict[str, int], dict[str, int]]:
+    """Load label2id/upos_label2id, allowing merged-model config overrides."""
     label2id = json.loads(Path(assets.label2id_path).read_text(encoding="utf-8"))
     upos_label2id = json.loads(Path(assets.upos_label2id_path).read_text(encoding="utf-8"))
-
-    # If using a merged model, the model dir's config may override label2id
-    model_dir = os.getenv("MODEL_DIR", str(assets.merged_dir))
-    use_lora = os.getenv("EVAL_USE_LORA", "").lower() in {"1", "true", "yes"}
-    onnx_model_path = os.getenv("EVAL_ONNX_MODEL", "")
 
     if not use_lora and not onnx_model_path:
         model_config_path = Path(model_dir) / "config.json"
@@ -189,22 +186,70 @@ def build_eval_context(lang: str | None = None) -> EvalContext:
             if config_u2i:
                 upos_label2id = config_u2i
 
-    # 2. Build label space (single remap)
-    label_space = LabelSpace(label2id)
+    return label2id, upos_label2id
 
-    # 3. Resolve tokenizer
+
+def _resolve_tokenizer(assets: LanguageAssets, onnx_model_path: str) -> PreTrainedTokenizerBase:
+    """Pick per-language or multilingual tokenizer."""
     from transformers import AutoTokenizer
 
     per_lang_tokenizer_dir = str(assets.tokenizer_dir)
     multilingual_tokenizer_dir = os.getenv("MULTILINGUAL_TOKENIZER_DIR", "artifacts/tokenizer")
 
     if onnx_model_path and Path(per_lang_tokenizer_dir).exists():
-        # Per-language ONNX model: use its own tokenizer
-        tokenizer = AutoTokenizer.from_pretrained(per_lang_tokenizer_dir, trust_remote_code=True)
-    else:
-        tokenizer = AutoTokenizer.from_pretrained(
-            multilingual_tokenizer_dir, trust_remote_code=True
-        )
+        return AutoTokenizer.from_pretrained(per_lang_tokenizer_dir, trust_remote_code=True)
+    return AutoTokenizer.from_pretrained(multilingual_tokenizer_dir, trust_remote_code=True)
+
+
+def _resolve_prepend_lang(
+    lang_token: str | None,
+    tokenizer: PreTrainedTokenizerBase,
+    onnx_model_path: str,
+) -> bool:
+    """Decide whether to prepend the lang token, based on env and vocab."""
+    prepend = bool(
+        lang_token
+        and lang_token in tokenizer.get_vocab()
+        and os.getenv("EVAL_PREPEND_LANG", "").lower() in {"1", "true", "yes"}
+    )
+    # For multilingual models (merged/Lora with multilingual tokenizer),
+    # always prepend the lang token if it's in the vocab.
+    if not onnx_model_path and lang_token and lang_token in tokenizer.get_vocab():
+        prepend = True
+    return prepend
+
+
+def _load_lexicon(assets: LanguageAssets) -> dict:
+    """Load lexicon JSON, returning empty dict if missing or invalid."""
+    lexicon_path = assets.lexicon_path
+    if not lexicon_path.exists():
+        return {}
+    lexicon = json.loads(lexicon_path.read_text(encoding="utf-8"))
+    if not isinstance(lexicon, dict):
+        return {}
+    return lexicon
+
+
+def build_eval_context(lang: str | None = None) -> EvalContext:
+    """Factory: resolves language_assets → LabelSpace → tokenizer → backend → EvalContext.
+
+    This is the single entry point for both treebank and CEFR evaluation.
+    """
+    assets = language_assets(lang)
+    resolved_lang = assets.lang
+
+    model_dir = os.getenv("MODEL_DIR", str(assets.merged_dir))
+    use_lora = os.getenv("EVAL_USE_LORA", "").lower() in {"1", "true", "yes"}
+    onnx_model_path = os.getenv("EVAL_ONNX_MODEL", "")
+
+    # 1. Load label files (with merged-model config overrides)
+    label2id, upos_label2id = _resolve_label_maps(assets, model_dir, use_lora, onnx_model_path)
+
+    # 2. Build label space (single remap)
+    label_space = LabelSpace(label2id)
+
+    # 3. Resolve tokenizer
+    tokenizer = _resolve_tokenizer(assets, onnx_model_path)
 
     # 4. Build backend
     backend = backend_from_env(assets)
@@ -212,25 +257,10 @@ def build_eval_context(lang: str | None = None) -> EvalContext:
 
     # 5. Resolve lang token
     lang_token = LANG_TOKENS.get(resolved_lang)
-    prepend_lang = bool(
-        lang_token
-        and lang_token in tokenizer.get_vocab()
-        and os.getenv("EVAL_PREPEND_LANG", "").lower() in {"1", "true", "yes"}
-    )
-
-    # For multilingual models (merged/Lora with multilingual tokenizer),
-    # always prepend the lang token if it's in the vocab.
-    if not onnx_model_path and lang_token and lang_token in tokenizer.get_vocab():
-        prepend_lang = True
+    prepend_lang = _resolve_prepend_lang(lang_token, tokenizer, onnx_model_path)
 
     # 6. Load lexicon
-    lexicon_path = assets.lexicon_path
-    if lexicon_path.exists():
-        lexicon = json.loads(lexicon_path.read_text(encoding="utf-8"))
-        if not isinstance(lexicon, dict):
-            lexicon = {}
-    else:
-        lexicon = {}
+    lexicon = _load_lexicon(assets)
 
     # 7. Build candidate IDs
     candidate_ids = label_space.candidate_ids(resolved_lang)

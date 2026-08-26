@@ -20,6 +20,7 @@ from pathlib import Path
 
 import numpy as np
 import torch
+import torch.nn as nn
 from safetensors import safe_open
 from transformers import AutoConfig, BertForTokenClassification
 
@@ -123,50 +124,22 @@ def map_zh_mlx_to_hf(mlx_key: str) -> str | None:
     return None
 
 
-def main() -> None:
-    model_path = os.getenv("BERT_PATH", BERT_PATH)
-    checkpoint = os.getenv("CHECKPOINT", CHECKPOINT)
-    labels_path = os.getenv("LABELS_PATH", LABELS_PATH)
-    onnx_dir = Path(os.getenv("ONNX_DIR", "onnx/eurobert-lemma-zh-210m"))
-    quantize = os.getenv("QUANTIZE", "int8").lower()
-
-    onnx_dir.mkdir(parents=True, exist_ok=True)
-
-    if not Path(checkpoint).exists():
-        raise FileNotFoundError(f"No checkpoint at {checkpoint}")
-    if not Path(labels_path).exists():
-        raise FileNotFoundError(f"No labels file at {labels_path}")
-
-    label_meta = json.loads(Path(labels_path).read_text("utf-8"))
-    n_labels = len(label_meta["label2id"])
-    print(f"[zh] n_labels={n_labels}", flush=True)
-
-    print(f"[zh] Loading MLX weights from {checkpoint}", flush=True)
-    weights = load_mlx_weights(checkpoint)
-
-    # Check for LoRA
-    has_lora = any("lora" in k for k in weights)
-    if has_lora:
-        # Infer rank from lora_a tensor shape
-        first_a = next((k for k in weights if "lora_a" in k), None)
-        lora_rank = weights[first_a].shape[0] if first_a else 8
-        lora_alpha = float(os.getenv("LORA_ALPHA", "16.0"))
-        print(
-            f"[zh] Found LoRA adapters, merging (rank={lora_rank}, alpha={lora_alpha})...",
-            flush=True,
-        )
-        weights = merge_lora(weights, rank=lora_rank, alpha=lora_alpha)
-
-    # Load HF BERT
-    print(f"[zh] Loading HF BertForTokenClassification from {model_path}", flush=True)
-    config = AutoConfig.from_pretrained(model_path)
-    config.num_labels = n_labels
-    model = BertForTokenClassification.from_pretrained(
-        model_path, config=config, ignore_mismatched_sizes=True
+def _merge_lora_zh(weights: dict[str, np.ndarray]) -> dict[str, np.ndarray]:
+    """Detect and merge LoRA adapters in zh_bio weights, if any are present."""
+    if not any("lora" in k for k in weights):
+        return weights
+    first_a = next((k for k in weights if "lora_a" in k), None)
+    lora_rank = weights[first_a].shape[0] if first_a else 8
+    lora_alpha = float(os.getenv("LORA_ALPHA", "16.0"))
+    print(
+        f"[zh] Found LoRA adapters, merging (rank={lora_rank}, alpha={lora_alpha})...",
+        flush=True,
     )
-    model.eval()
+    return merge_lora(weights, rank=lora_rank, alpha=lora_alpha)
 
-    # Sync weights
+
+def _sync_zh_weights(weights: dict[str, np.ndarray], model: nn.Module) -> None:
+    """Sync MLX zh_bio weights into HF BertForTokenClassification model."""
     hf_state = model.state_dict()
     mapped, skipped, missing = 0, [], []
     for mlx_key, tensor in weights.items():
@@ -195,12 +168,14 @@ def main() -> None:
     print(f"  mapped={mapped} skipped={len(skipped)} missing={len(missing)}", flush=True)
     if skipped:
         print(f"  skipped: {skipped[:5]}", flush=True)
-    # Verify classifier weights were loaded
     if CLASSIFIER_WEIGHT not in weights or CLASSIFIER_BIAS not in weights:
         raise RuntimeError("[zh] Missing classifier weights in checkpoint")
 
     if missing:
-        critical = [m for m in missing if any(c in m[0] for c in ("embed", "query", "key"))]
+        critical = [
+            m for m in missing
+            if any(c in m[0] for c in ("embed", "query", "key", "classifier"))
+        ]
         if critical:
             raise RuntimeError(
                 f"[zh] Critical backbone weights not synced: {critical[:3]}. "
@@ -208,7 +183,11 @@ def main() -> None:
             )
         print(f"  missing: {missing[:5]}", flush=True)
 
-    # Export
+
+def _export_zh_onnx(
+    model: nn.Module, onnx_dir: Path, quantize: str
+) -> None:
+    """Export BertForTokenClassification to ONNX and optionally quantize."""
     B, T = 2, 32
     sample_ids = torch.zeros((B, T), dtype=torch.long)
     sample_mask = torch.ones((B, T), dtype=torch.long)
@@ -242,6 +221,44 @@ def main() -> None:
             weight_type=QuantType.QInt8,
         )
         print(f"[zh] Saved int8 quantized to {int8_path}", flush=True)
+
+
+def main() -> None:
+    model_path = os.getenv("BERT_PATH", BERT_PATH)
+    checkpoint = os.getenv("CHECKPOINT", CHECKPOINT)
+    labels_path = os.getenv("LABELS_PATH", LABELS_PATH)
+    onnx_dir = Path(os.getenv("ONNX_DIR", "onnx/eurobert-lemma-zh-210m"))
+    quantize = os.getenv("QUANTIZE", "int8").lower()
+
+    onnx_dir.mkdir(parents=True, exist_ok=True)
+
+    if not Path(checkpoint).exists():
+        raise FileNotFoundError(f"No checkpoint at {checkpoint}")
+    if not Path(labels_path).exists():
+        raise FileNotFoundError(f"No labels file at {labels_path}")
+
+    label_meta = json.loads(Path(labels_path).read_text("utf-8"))
+    n_labels = len(label_meta["label2id"])
+    print(f"[zh] n_labels={n_labels}", flush=True)
+
+    print(f"[zh] Loading MLX weights from {checkpoint}", flush=True)
+    weights = load_mlx_weights(checkpoint)
+    weights = _merge_lora_zh(weights)
+
+    # Load HF BERT
+    print(f"[zh] Loading HF BertForTokenClassification from {model_path}", flush=True)
+    config = AutoConfig.from_pretrained(model_path)
+    config.num_labels = n_labels
+    model = BertForTokenClassification.from_pretrained(
+        model_path, config=config, ignore_mismatched_sizes=True
+    )
+    model.eval()
+
+    # Sync weights
+    _sync_zh_weights(weights, model)
+
+    # Export
+    _export_zh_onnx(model, onnx_dir, quantize)
 
 
 if __name__ == "__main__":
