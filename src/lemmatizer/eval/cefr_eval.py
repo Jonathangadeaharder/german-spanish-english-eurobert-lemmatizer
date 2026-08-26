@@ -35,6 +35,7 @@ from lemmatizer.languages import (
     LANGUAGE_NAMES,
     LANGUAGES,
     VOCAB_LEMMA_COLUMNS,
+    language_assets,
     vocab_levels_root,
 )
 
@@ -342,9 +343,35 @@ def main(argv: list[str] | None = None) -> int:
     langs: list[str] = [s.lang for s in LANGUAGES] if args.lang == "all" else [args.lang]
     out_dir: Path = args.out_dir
 
+    # Pre-check: skip languages whose model artifacts are missing so the
+    # nightly gate reports a clear skip instead of a raw traceback.
+    skipped: list[str] = []
+    evalable: list[str] = []
+    for lang in langs:
+        assets = language_assets(lang)
+        label2id_path = Path(assets.label2id_path)
+        if not label2id_path.exists():
+            print(
+                f"CEFR eval: {lang} SKIP — artifacts missing "
+                f"(no {label2id_path}). Train the model first.",
+                file=sys.stderr,
+                flush=True,
+            )
+            skipped.append(lang)
+        else:
+            evalable.append(lang)
+
+    if not evalable:
+        print(
+            "GATE SKIP: no languages have model artifacts. "
+            "Train models before running the nightly eval.",
+            file=sys.stderr,
+        )
+        return 0
+
     summary: dict[str, dict] = {}
     failed: list[str] = []
-    for lang in langs:
+    for lang in evalable:
         print(f"CEFR eval: {lang}", flush=True)
         try:
             report = evaluate_language(lang, out_dir, args.batch_size)
@@ -370,6 +397,8 @@ def main(argv: list[str] | None = None) -> int:
             failed.append(lang)
 
     print(json.dumps({"summary": summary, "gate": GATE_ACCURACY}, indent=2))
+    if skipped:
+        print(f"GATE SKIP: {skipped} skipped (missing artifacts)", file=sys.stderr)
     if failed:
         print(f"GATE FAILED: {failed} below {GATE_ACCURACY:.0%}", file=sys.stderr)
         return 1
