@@ -1328,7 +1328,7 @@ def _run_train_epoch(
         grad_accum=grad_accum,
         upos_weight=opts.upos_weight,
         lemma_class_weights=lemma_cw,
-        seed=opts.seed,
+        seed=opts.seed + epoch_num,
     )
     return {
         "epoch": epoch_num,

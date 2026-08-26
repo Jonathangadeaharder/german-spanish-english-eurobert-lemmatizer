@@ -200,7 +200,7 @@ class TreebankContext:
     constrained_ids_by_word: dict
     lemma_logits_by_word: dict
     candidate_ids: list[int]
-    id2label: dict[int, str]
+    id2label: dict[str, str]
     lexicon: dict
     lang: str
     valid_mask: list[bool]
@@ -385,21 +385,22 @@ def main() -> None:
                 upos_id2label,
             )
 
+            tb_ctx = TreebankContext(
+                gold_upos=gold_upos,
+                predicted_upos_by_word=predicted_upos_by_word,
+                raw_labels_by_word=raw_labels_by_word,
+                constrained_ids_by_word=constrained_ids_by_word,
+                lemma_logits_by_word=lemma_logits_by_word,
+                candidate_ids=candidate_ids,
+                id2label=id2label,
+                lexicon=lexicon,
+                lang=lang,
+                valid_mask=valid_mask,
+                stats=stats,
+            )
+
             for word_offset, (word, gold_lemma) in enumerate(zip(words, lemmas, strict=True)):
                 word_id = first_word_id + word_offset
-                tb_ctx = TreebankContext(
-                    gold_upos=gold_upos,
-                    predicted_upos_by_word=predicted_upos_by_word,
-                    raw_labels_by_word=raw_labels_by_word,
-                    constrained_ids_by_word=constrained_ids_by_word,
-                    lemma_logits_by_word=lemma_logits_by_word,
-                    candidate_ids=candidate_ids,
-                    id2label=id2label,
-                    lexicon=lexicon,
-                    lang=lang,
-                    valid_mask=valid_mask,
-                    stats=stats,
-                )
                 _process_treebank_word(
                     word, gold_lemma, word_offset, word_id, tb_ctx,
                 )
