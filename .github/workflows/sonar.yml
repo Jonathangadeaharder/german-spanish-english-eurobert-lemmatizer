@@ -1,4 +1,4 @@
-name: SonarCloud Analysis
+name: SonarQube Analysis
 
 on:
   push:
@@ -8,22 +8,46 @@ on:
 
 permissions:
   contents: read
-  pull-requests: read
 
 jobs:
-  sonar:
-    name: SonarCloud
-    runs-on: ubuntu-latest
+  sonarqube:
+    name: SonarQube
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
     steps:
       - uses: actions/checkout@v6.0.3
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.13"
-      - run: pip install uv
-      - run: uv sync --all-groups --frozen
-      - uses: SonarSource/sonarqube-scan-action@v6.0
+      - name: Wait for SonarQube
+        run: |
+          for i in $(seq 1 36); do
+            STATUS=$(curl -sf --max-time 2 http://127.0.0.1:9001/api/system/status \
+              | sed -n 's/.*"status":"\([^"]*\)".*/\1/p' || true)
+            echo "Sonar status: ${STATUS:-unreachable} ($i/36)"
+            if [ "$STATUS" = "UP" ]; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::SonarQube at localhost:9001 never became UP"
+          exit 1
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: http://127.0.0.1:9001
+      - name: Print quality gate and issues
+        if: always()
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          BASE="http://localhost:9001"
+          PK="jonathangadeaharder_german-spanish-english-eurobert-lemmatizer"
+          echo "--- quality gate ---"
+          curl -sS --max-time 10 -u "$SONAR_TOKEN:" \
+            "$BASE/api/qualitygates/project_status?projectKey=$PK" \
+            | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
+          echo "--- new-code issues ---"
+          curl -sS --max-time 10 -u "$SONAR_TOKEN:" \
+            "$BASE/api/issues/search?componentKeys=$PK&inNewCodePeriod=true&resolved=false&ps=100" \
+            | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
