@@ -25,6 +25,9 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+      - name: Install jq
+        shell: bash
+        run: brew install jq || command -v jq >/dev/null
       - name: Wait for SonarQube
         shell: bash
         run: |
@@ -40,11 +43,12 @@ jobs:
           echo "::error::SonarQube at localhost:9001 never became UP"
           exit 1
       - name: SonarQube Scan
+        id: scan
         uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001
-      - name: Print quality gate and issues
+      - name: Print new-code issues
         if: always()
         shell: bash
         env:
@@ -52,16 +56,22 @@ jobs:
         run: |
           BASE="http://localhost:9001"
           AUTH="Authorization: Bearer $SONAR_TOKEN"
-          echo "--- quality gate ---"
+          curl -sS --max-time 10 -H "$AUTH" \
+            "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
+            | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
+      - name: Enforce quality gate
+        if: steps.scan.outcome == 'success'
+        shell: bash
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          BASE="http://localhost:9001"
+          AUTH="Authorization: Bearer $SONAR_TOKEN"
           GATE=$(curl -sS --max-time 10 -H "$AUTH" \
             "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
           echo "$GATE" | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
           GATE_STATUS=$(echo "$GATE" | jq -r '.projectStatus.status // "UNKNOWN"')
           echo "Gate status: $GATE_STATUS"
-          echo "--- new-code issues ---"
-          curl -sS --max-time 10 -H "$AUTH" \
-            "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
-            | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
           if [ "$GATE_STATUS" != "OK" ]; then
             echo "::error::SonarQube quality gate is $GATE_STATUS"
             exit 1
