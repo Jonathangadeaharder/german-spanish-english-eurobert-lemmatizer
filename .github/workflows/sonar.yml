@@ -9,16 +9,24 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: sonar-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   sonarqube:
     name: SonarQube
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    timeout-minutes: 30
+    env:
+      SONAR_PROJECT_KEY: jonathangadeaharder_german-spanish-english-eurobert-lemmatizer
     steps:
       - uses: actions/checkout@v6.0.3
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Wait for SonarQube
+        shell: bash
         run: |
           for i in $(seq 1 36); do
             STATUS=$(curl -sf --max-time 2 http://127.0.0.1:9001/api/system/status \
@@ -38,16 +46,16 @@ jobs:
           SONAR_HOST_URL: http://127.0.0.1:9001
       - name: Print quality gate and issues
         if: always()
+        shell: bash
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           BASE="http://localhost:9001"
-          PK="jonathangadeaharder_german-spanish-english-eurobert-lemmatizer"
           echo "--- quality gate ---"
           curl -sS --max-time 10 -u "$SONAR_TOKEN:" \
-            "$BASE/api/qualitygates/project_status?projectKey=$PK" \
+            "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY" \
             | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
           echo "--- new-code issues ---"
           curl -sS --max-time 10 -u "$SONAR_TOKEN:" \
-            "$BASE/api/issues/search?componentKeys=$PK&inNewCodePeriod=true&resolved=false&ps=100" \
+            "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
             | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
