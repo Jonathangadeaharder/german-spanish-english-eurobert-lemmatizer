@@ -37,6 +37,50 @@ def check_file(path: str | Path, lang: str) -> LemmaCheckResult:
     return check_text(text, lang=lang)
 
 
+def _check_consistency(
+    result: LemmaCheckResult,
+    line: int,
+    form: str,
+    upos: str,
+    lemma: str,
+    form_upos_lemma: dict[tuple[str, str], str],
+) -> None:
+    """Check that same FORM+UPOS always maps to the same LEMMA."""
+    key = (form, upos)
+    if key in form_upos_lemma:
+        existing = form_upos_lemma[key]
+        if existing != lemma:
+            result.errors.append(
+                f"Line {line}: inconsistent lemma for "
+                f"FORM='{form}' UPOS={upos}: "
+                f"'{existing}' vs '{lemma}'"
+            )
+    else:
+        form_upos_lemma[key] = lemma
+
+
+def _run_lang_checks(
+    result: LemmaCheckResult,
+    line: int,
+    form: str,
+    lemma: str,
+    upos: str,
+    lang: str,
+) -> None:
+    """Dispatch language-specific lemma checks."""
+    if lang == "de":
+        _check_de_noun_capital(result, line, form, lemma, upos)
+        _check_de_verb_infinitive(result, line, form, lemma, upos)
+    elif lang == "en":
+        _check_en_verb_base(result, line, form, lemma, upos)
+    elif lang == "es":
+        _check_es_verb_infinitive(result, line, form, lemma, upos)
+    elif lang == "zh":
+        _check_zh_lemma_equals_form(result, line, form, lemma, upos)
+    elif lang == "ar":
+        _check_ar_arabic_script(result, line, form, lemma, upos)
+
+
 def check_text(text: str, lang: str) -> LemmaCheckResult:
     result = LemmaCheckResult()
     lines = text.split("\n")
@@ -55,33 +99,11 @@ def check_text(text: str, lang: str) -> LemmaCheckResult:
 
         _, form, lemma, upos = cols[0], cols[1], cols[2], cols[3]
 
-        key = (form, upos)
-        if key in form_upos_lemma:
-            existing = form_upos_lemma[key]
-            if existing != lemma:
-                result.errors.append(
-                    f"Line {current_line}: inconsistent lemma for "
-                    f"FORM='{form}' UPOS={upos}: "
-                    f"'{existing}' vs '{lemma}'"
-                )
-        else:
-            form_upos_lemma[key] = lemma
-
+        _check_consistency(result, current_line, form, upos, lemma, form_upos_lemma)
         _check_sense_numbers(result, current_line, form, lemma, upos)
         _check_punct_identity(result, current_line, form, lemma, upos)
         _check_propn_capital(result, current_line, form, lemma, upos, lang)
-
-        if lang == "de":
-            _check_de_noun_capital(result, current_line, form, lemma, upos)
-            _check_de_verb_infinitive(result, current_line, form, lemma, upos)
-        elif lang == "en":
-            _check_en_verb_base(result, current_line, form, lemma, upos)
-        elif lang == "es":
-            _check_es_verb_infinitive(result, current_line, form, lemma, upos)
-        elif lang == "zh":
-            _check_zh_lemma_equals_form(result, current_line, form, lemma, upos)
-        elif lang == "ar":
-            _check_ar_arabic_script(result, current_line, form, lemma, upos)
+        _run_lang_checks(result, current_line, form, lemma, upos, lang)
 
     return result
 

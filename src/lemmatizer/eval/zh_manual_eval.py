@@ -18,18 +18,20 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import mlx.core as mx
-import numpy as np
 from transformers import AutoTokenizer
 
 from lemmatizer.data.conllu import read_conllu
+from lemmatizer.eval.zh_char_utils import (
+    MAX_LENGTH,
+    _predict_sentence_chars,
+    label_to_upos,
+)
 
 GOLD_TEST = "data/gold/zh/test.conllu"
 BERT_PATH = "models/bert-base-chinese-mlx"
 ZH_BIO_CHECKPOINT = "runs/mlx-zh-bio-pos/best.safetensors"
 EXCEPTIONS_PATH = "artifacts/lemma_zh/exceptions.json"
 BIO_LABELS_PATH = "data/processed/zh_bio/labels.json"
-MAX_LENGTH = 256
 
 # UPOS tags skipped from lemma scoring (lemma == surface form).
 IDENTITY_UPOS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
@@ -42,11 +44,87 @@ def load_label_maps() -> tuple[dict[str, int], dict[int, str]]:
     return label2id, id2label
 
 
-def label_to_upos(label: str) -> str:
-    """Convert a BIO label string to its UPOS tag."""
-    if label.startswith("B-") or label.startswith("I-"):
-        return label[2:]
-    return "X"
+def _maybe_sample(samples, sent_idx, i, word, gold_lemma, pred_lemma, gold_pos, pred_pos):
+    if sent_idx < 3 and i < 5:
+        samples.append({
+            "word": word, "gold_lemma": gold_lemma,
+            "pred_lemma": pred_lemma, "gold_upos": gold_pos,
+            "pred_upos": pred_pos,
+        })
+
+
+def _score_sentence(
+    gold_words: list[str],
+    gold_lemmas: list[str],
+    gold_upos: list[str],
+    word_start_offsets: list[int],
+    n_chars: int,
+    char_label: list[int | None],
+    id2label: dict[int, str],
+    exceptions: dict,
+    sent_idx: int,
+    counters: dict,
+    samples: list[dict],
+) -> None:
+    """Score lemma and UPOS predictions for one sentence."""
+    for i, (word, gold_lemma, gold_pos) in enumerate(
+        zip(gold_words, gold_lemmas, gold_upos, strict=True)
+    ):
+        offset = word_start_offsets[i] if i < len(word_start_offsets) else 0
+
+        # Skip words beyond the truncation boundary — they can't be
+        # scored because the model never saw their chars.
+        if offset >= n_chars:
+            continue
+
+        counters["total_tokens"] += 1
+
+        # UPOS: use the first char of this word.
+        if char_label[offset] is not None:
+            raw_label = id2label.get(char_label[offset], "O")
+            pred_pos = label_to_upos(raw_label)
+        else:
+            pred_pos = "X"
+
+        counters["upos_total"] += 1
+        if pred_pos == gold_pos:
+            counters["upos_correct"] += 1
+
+        # Lemma: identity + exceptions.
+        pred_lemma = exceptions.get(word, word)
+        if gold_pos not in IDENTITY_UPOS:
+            counters["lemma_total"] += 1
+            if pred_lemma == gold_lemma:
+                counters["lemma_correct"] += 1
+
+        _maybe_sample(samples, sent_idx, i, word, gold_lemma, pred_lemma, gold_pos, pred_pos)
+
+
+def _process_sentence(
+    sent_idx: int,
+    sent: dict,
+    tokenizer,
+    model,
+    id2label: dict[int, str],
+    exceptions: dict,
+    counters: dict,
+    samples: list[dict],
+) -> None:
+    """Tokenize, predict, and score one sentence."""
+    gold_words = sent["words"]
+    gold_lemmas = sent["lemmas"]
+    gold_upos = sent["upos"]
+
+    char_label, word_start_offsets = _predict_sentence_chars(
+        tokenizer, model, gold_words, sent_idx
+    )
+    n_chars = min(sum(len(w) for w in gold_words), MAX_LENGTH - 2)
+
+    _score_sentence(
+        gold_words, gold_lemmas, gold_upos, word_start_offsets,
+        n_chars, char_label, id2label, exceptions, sent_idx,
+        counters, samples,
+    )
 
 
 def run() -> None:
@@ -68,105 +146,34 @@ def run() -> None:
     print(f"Model loaded from {ZH_BIO_CHECKPOINT}")
     model.eval()
 
-    lemma_total = 0
-    lemma_correct = 0
-    upos_total = 0
-    upos_correct = 0
-    total_tokens = 0
+    counters: dict[str, int] = {
+        "lemma_total": 0,
+        "lemma_correct": 0,
+        "upos_total": 0,
+        "upos_correct": 0,
+        "total_tokens": 0,
+    }
     samples: list[dict] = []
 
     for sent_idx, sent in enumerate(sentences):
-        gold_words = sent["words"]
-        gold_lemmas = sent["lemmas"]
-        gold_upos = sent["upos"]
-
-        # Build flat char list and track word start offsets.
-        chars: list[str] = []
-        word_start_offsets: list[int] = []
-        for word in gold_words:
-            word_start_offsets.append(len(chars))
-            chars.extend(list(word))
-
-        # Truncate to model max length.
-        n_chars = min(len(chars), MAX_LENGTH - 2)
-
-        # Tokenize char list.
-        encoding = tokenizer(
-            chars[:n_chars],
-            is_split_into_words=True,
-            truncation=True,
-            max_length=MAX_LENGTH,
+        _process_sentence(
+            sent_idx, sent, tokenizer, model, id2label,
+            exceptions, counters, samples,
         )
-
-        # Run model.
-        input_ids = mx.array(np.array([encoding["input_ids"]]))
-        logits = model(input_ids)
-        mx.eval(logits)
-        preds = np.array(mx.argmax(logits, axis=-1))[0]
-
-        # Map char positions → predicted label via tokenizer word_ids.
-        # word_ids[b][i] gives the original char index for token i.
-        word_ids = encoding.word_ids()
-        char_label: list[int | None] = [None] * n_chars
-        prev_wid = None
-        for token_idx, wid in enumerate(word_ids):
-            if wid is None or wid == prev_wid:
-                continue
-            prev_wid = wid
-            if wid < n_chars and token_idx < len(preds):
-                char_label[wid] = int(preds[token_idx])
-
-        # For each gold word, extract UPOS from its first char's B- label.
-        for i, (word, gold_lemma, gold_pos) in enumerate(
-            zip(gold_words, gold_lemmas, gold_upos, strict=True)
-        ):
-            offset = word_start_offsets[i] if i < len(word_start_offsets) else 0
-
-            # Skip words beyond the truncation boundary — they can't be
-            # scored because the model never saw their chars.
-            if offset >= n_chars:
-                continue
-
-            total_tokens += 1
-
-            # UPOS: use the first char of this word.
-            if char_label[offset] is not None:
-                raw_label = id2label.get(char_label[offset], "O")
-                pred_pos = label_to_upos(raw_label)
-            else:
-                pred_pos = "X"
-
-            upos_total += 1
-            if pred_pos == gold_pos:
-                upos_correct += 1
-
-            # Lemma: identity + exceptions.
-            pred_lemma = exceptions.get(word, word)
-            if gold_pos not in IDENTITY_UPOS:
-                lemma_total += 1
-                if pred_lemma == gold_lemma:
-                    lemma_correct += 1
-
-            if sent_idx < 3 and i < 5:
-                samples.append(
-                    {
-                        "word": word,
-                        "gold_lemma": gold_lemma,
-                        "pred_lemma": pred_lemma,
-                        "gold_upos": gold_pos,
-                        "pred_upos": pred_pos,
-                    }
-                )
 
     print(f"\n{'=' * 60}")
     print("Chinese Manual Evaluation (gold test)")
     print(f"{'=' * 60}")
-    print(f"Total tokens: {total_tokens}")
-    print(f"Lemma scored: {lemma_total}")
+    print(f"Total tokens: {counters['total_tokens']}")
+    print(f"Lemma scored: {counters['lemma_total']}")
     print(
-        f"Lemma accuracy: {lemma_correct}/{lemma_total} = {lemma_correct / max(lemma_total, 1):.4f}"
+        f"Lemma accuracy: {counters['lemma_correct']}/{counters['lemma_total']} = "
+        f"{counters['lemma_correct'] / max(counters['lemma_total'], 1):.4f}"
     )
-    print(f"UPOS accuracy: {upos_correct}/{upos_total} = {upos_correct / max(upos_total, 1):.4f}")
+    print(
+        f"UPOS accuracy: {counters['upos_correct']}/{counters['upos_total']} = "
+        f"{counters['upos_correct'] / max(counters['upos_total'], 1):.4f}"
+    )
     print("\nSample predictions:")
     for s in samples:
         match_l = "✓" if s["pred_lemma"] == s["gold_lemma"] else "✗"

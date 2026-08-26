@@ -71,6 +71,21 @@ def load_cefr_vocab(lang: str) -> dict[str, list[str]]:
     return by_level
 
 
+def _index_sentence(
+    index: dict[str, list[str]], sent: dict
+) -> None:
+    """Add one sentence's words to the lookup index (max 5 per word)."""
+    text = sent.get("text", "")
+    if not text:
+        text = " ".join(sent["words"])
+    for word in sent["words"]:
+        lower = word.lower()
+        if lower not in index:
+            index[lower] = []
+        if len(index[lower]) < 5:
+            index[lower].append(text)
+
+
 def build_sentence_index(lang: str) -> dict[str, list[str]]:
     """Index UD treebank sentences by lowercase word for fast lookup."""
     files = split_files_for_lang(lang)
@@ -82,15 +97,7 @@ def build_sentence_index(lang: str) -> dict[str, list[str]]:
             continue
         sentences = read_conllu(path, lang=lang)
         for sent in sentences:
-            text = sent.get("text", "")
-            if not text:
-                text = " ".join(sent["words"])
-            for word in sent["words"]:
-                lower = word.lower()
-                if lower not in index:
-                    index[lower] = []
-                if len(index[lower]) < 5:
-                    index[lower].append(text)
+            _index_sentence(index, sent)
 
     return index
 

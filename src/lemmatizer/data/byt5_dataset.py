@@ -36,6 +36,32 @@ SPECIAL_TOKENS = ["<PAD>", UNK_TOKEN, "<IDENTITY>"]
 SPECIAL_TOKEN_IDS = {"<PAD>": 0, UNK_TOKEN: 1, "<IDENTITY>": 2}
 
 
+def _count_lemmas(conllu_paths: list[str]) -> Counter:
+    """Count lemma frequencies, excluding PROPN and '_'/'-'/'empty' lemmas."""
+    counter: Counter = Counter()
+    for path in conllu_paths:
+        for sent in read_conllu(path, lang="ar"):
+            for lemma, upos in zip(sent["lemmas"], sent["upos"], strict=True):
+                if upos == "PROPN" or lemma in ("_", "-", ""):
+                    continue
+                counter[lemma] += 1
+    return counter
+
+
+def _assign_lemma_ids(counter: Counter, min_count: int) -> dict[str, int]:
+    """Assign sequential ids to lemmas, sorted by frequency (descending)."""
+    lemma2id: dict[str, int] = {}
+    for i, token in enumerate(SPECIAL_TOKENS):
+        lemma2id[token] = i
+    next_id = len(SPECIAL_TOKENS)
+    for lemma, count in counter.most_common():
+        if count < min_count or lemma in lemma2id:
+            continue
+        lemma2id[lemma] = next_id
+        next_id += 1
+    return lemma2id
+
+
 def build_lemma_vocab(
     conllu_paths: list[str],
     min_count: int = 1,
@@ -49,31 +75,44 @@ def build_lemma_vocab(
         lemma2id: {lemma_str: int}
         id2lemma: {int: lemma_str}  (inverse)
     """
-    counter: Counter = Counter()
-    for path in conllu_paths:
-        for sent in read_conllu(path, lang="ar"):
-            for lemma, upos in zip(sent["lemmas"], sent["upos"], strict=True):
-                if upos == "PROPN":
-                    continue
-                if lemma in ("_", "-", ""):
-                    continue
-                counter[lemma] += 1
-
-    lemma2id: dict[str, int] = {}
-    for i, token in enumerate(SPECIAL_TOKENS):
-        lemma2id[token] = i
-
-    next_id = len(SPECIAL_TOKENS)
-    for lemma, count in counter.most_common():
-        if count < min_count:
-            continue
-        if lemma in lemma2id:
-            continue
-        lemma2id[lemma] = next_id
-        next_id += 1
-
+    counter = _count_lemmas(conllu_paths)
+    lemma2id = _assign_lemma_ids(counter, min_count)
     id2lemma = {idx: lemma for lemma, idx in lemma2id.items()}
     return lemma2id, id2lemma
+
+
+def _encode_word_bytes(word: str, byte_ids: list[int]) -> tuple[int, int]:
+    """Append word's UTF-8 bytes to byte_ids, return (start, end) span."""
+    start = len(byte_ids)
+    for b in word.encode("utf-8"):
+        byte_ids.append(b + BYTE_ID_OFFSET)
+    end = len(byte_ids)
+    byte_ids.append(ord(" ") + BYTE_ID_OFFSET)
+    return start, end
+
+
+def _lemma_label_for(lemma: str, upos: str, lemma2id: dict[str, int], unk_id: int) -> int:
+    """Return lemma id, or PAD_LABEL for PROPN / '_' / '-' lemmas."""
+    if upos == "PROPN" or lemma in ("_", "-"):
+        return PAD_LABEL
+    return lemma2id.get(lemma, unk_id)
+
+
+def _upos_label_for(upos: str, upos2id: dict[str, int], seen: set[str]) -> int:
+    """Return UPOS id, or PAD_LABEL for unknown tags (warns once per tag)."""
+    if upos in upos2id:
+        return upos2id[upos]
+    # Unknown UPOS tags are masked from the loss (PAD_LABEL).
+    # Warn once per tag (scoped to the caller's `seen` set) so
+    # silent signal loss surfaces without flooding build logs.
+    if upos not in seen:
+        seen.add(upos)
+        print(
+            f"WARNING: unknown UPOS tag '{upos}' not in upos2id; "
+            "masking to PAD_LABEL (-100).",
+            flush=True,
+        )
+    return PAD_LABEL
 
 
 def encode_sentence(
@@ -112,35 +151,11 @@ def encode_sentence(
     seen = unknown_upos_seen if unknown_upos_seen is not None else set()
 
     for word, lemma, upos in zip(words, lemmas, upos_tags, strict=True):
-        start = len(byte_ids)
-        word_bytes = word.encode("utf-8")
-        for b in word_bytes:
-            byte_ids.append(b + BYTE_ID_OFFSET)
-        end = len(byte_ids)
+        start, end = _encode_word_bytes(word, byte_ids)
         spans.append((start, end))
-
-        byte_ids.append(ord(" ") + BYTE_ID_OFFSET)
-
-        if upos == "PROPN" or lemma in ("_", "-"):
-            labels.append(PAD_LABEL)
-        else:
-            labels.append(lemma2id.get(lemma, unk_id))
-
+        labels.append(_lemma_label_for(lemma, upos, lemma2id, unk_id))
         if upos2id is not None:
-            if upos in upos2id:
-                upos_labels.append(upos2id[upos])
-            else:
-                # Unknown UPOS tags are masked from the loss (PAD_LABEL).
-                # Warn once per tag (scoped to the caller's `seen` set) so
-                # silent signal loss surfaces without flooding build logs.
-                if upos not in seen:
-                    seen.add(upos)
-                    print(
-                        f"WARNING: unknown UPOS tag '{upos}' not in upos2id; "
-                        "masking to PAD_LABEL (-100).",
-                        flush=True,
-                    )
-                upos_labels.append(PAD_LABEL)
+            upos_labels.append(_upos_label_for(upos, upos2id, seen))
 
     byte_ids.append(BYT5_EOS)
 

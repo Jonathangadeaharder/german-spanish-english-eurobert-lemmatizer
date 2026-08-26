@@ -20,6 +20,73 @@ from lemmatizer.languages import LANGUAGES, language_assets
 IDENTITY_UPOS = {"PROPN", "PUNCT", "SYM", "X", "NUM"}
 
 
+def _classify_token(
+    word: str, lemma: str, upos: str, lang: str, label2id: dict, lexicon: dict
+) -> str:
+    """Classify a single token for ceiling computation.
+
+    Returns one of: ``identity_upos_skipped``, ``learnable``, ``in_lexicon``,
+    ``identity_fallback``, ``unlearnable``.
+    """
+    if upos in IDENTITY_UPOS or lemma in ("_", "-"):
+        return "identity_upos_skipped"
+
+    base_label = make_edit_label(word, lemma)
+    full_label = f"{lang}::{base_label}"
+
+    if full_label in label2id:
+        return "learnable"
+
+    if word in lexicon:
+        lex_entry = lexicon[word]
+        if isinstance(lex_entry, dict):
+            lex_lemma = lex_entry.get(upos, next(iter(lex_entry.values())))
+        else:
+            lex_lemma = lex_entry
+        if lex_lemma == lemma:
+            return "in_lexicon"
+        return "unlearnable"
+
+    if word == lemma:
+        return "identity_fallback"
+
+    return "unlearnable"
+
+
+def _compute_split_ceiling(
+    conllu_path: Path, lang: str, label2id: dict, lexicon: dict
+) -> dict:
+    """Compute ceiling stats for a single split (dev/test)."""
+    sentences = read_conllu(str(conllu_path), lang=lang)
+    counts = {
+        "total": 0,
+        "learnable": 0,
+        "identity_upos_skipped": 0,
+        "identity_fallback": 0,
+        "in_lexicon": 0,
+        "unlearnable": 0,
+    }
+
+    for sent in sentences:
+        for word, lemma, upos in zip(sent["words"], sent["lemmas"], sent["upos"], strict=True):
+            category = _classify_token(word, lemma, upos, lang, label2id, lexicon)
+            counts[category] += 1
+            if category != "identity_upos_skipped":
+                counts["total"] += 1
+
+    solvable = counts["learnable"] + counts["in_lexicon"] + counts["identity_fallback"]
+    ceiling = solvable / max(counts["total"], 1)
+    return {
+        "total_scored": counts["total"],
+        "learnable_via_edit_tree": counts["learnable"],
+        "in_lexicon": counts["in_lexicon"],
+        "identity_fallback": counts["identity_fallback"],
+        "identity_upos_skipped": counts["identity_upos_skipped"],
+        "unlearnable": counts["unlearnable"],
+        "ceiling": round(ceiling, 4),
+    }
+
+
 def compute_ceiling(lang: str) -> dict:
     assets = language_assets(lang)
     label2id = json.loads(assets.label2id_path.read_text(encoding="utf-8"))
@@ -33,53 +100,7 @@ def compute_ceiling(lang: str) -> dict:
         conllu_path = gold_dir / f"{split}.conllu"
         if not conllu_path.exists():
             continue
-
-        sentences = read_conllu(str(conllu_path), lang=lang)
-        total = 0
-        learnable = 0
-        identity_upos_skipped = 0
-        identity_fallback = 0
-        in_lexicon = 0
-        unlearnable = 0
-
-        for sent in sentences:
-            for word, lemma, upos in zip(sent["words"], sent["lemmas"], sent["upos"], strict=True):
-                if upos in IDENTITY_UPOS or lemma in ("_", "-"):
-                    identity_upos_skipped += 1
-                    continue
-
-                total += 1
-                base_label = make_edit_label(word, lemma)
-                full_label = f"{lang}::{base_label}"
-
-                if full_label in label2id:
-                    learnable += 1
-                elif word in lexicon:
-                    lex_entry = lexicon[word]
-                    if isinstance(lex_entry, dict):
-                        lex_lemma = lex_entry.get(upos, next(iter(lex_entry.values())))
-                    else:
-                        lex_lemma = lex_entry
-                    if lex_lemma == lemma:
-                        in_lexicon += 1
-                    else:
-                        unlearnable += 1
-                elif word == lemma:
-                    identity_fallback += 1
-                else:
-                    unlearnable += 1
-
-        solvable = learnable + in_lexicon + identity_fallback
-        ceiling = solvable / max(total, 1)
-        results["splits"][split] = {
-            "total_scored": total,
-            "learnable_via_edit_tree": learnable,
-            "in_lexicon": in_lexicon,
-            "identity_fallback": identity_fallback,
-            "identity_upos_skipped": identity_upos_skipped,
-            "unlearnable": unlearnable,
-            "ceiling": round(ceiling, 4),
-        }
+        results["splits"][split] = _compute_split_ceiling(conllu_path, lang, label2id, lexicon)
 
     return results
 

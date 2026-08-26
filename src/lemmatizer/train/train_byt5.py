@@ -54,6 +54,95 @@ def collate_batch(rows: list[dict]) -> dict:
     return result
 
 
+def _resolve_pred_lemma(
+    pred_id: int, word: str, id2lemma: dict[int, str], lexicon: dict[str, str]
+) -> str:
+    pred_lemma = id2lemma.get(pred_id, UNK_TOKEN)
+    if pred_lemma == UNK_TOKEN:
+        pred_lemma = lexicon.get(word, word)
+    return pred_lemma
+
+
+def _update_upos_stats(
+    stats: dict,
+    upos_preds_row: np.ndarray | None,
+    w: int,
+    upos: str,
+    upos_id2label: dict[int, str] | None,
+) -> None:
+    if upos_preds_row is None or w >= len(upos_preds_row):
+        return
+    pred_upos_id = int(upos_preds_row[w])
+    if upos_id2label and pred_upos_id in upos_id2label:
+        stats["upos_total"] += 1
+        if upos_id2label[pred_upos_id] == upos:
+            stats["upos_correct"] += 1
+
+
+def _score_lemma_word(
+    stats: dict,
+    word: str,
+    lemma: str,
+    upos: str,
+    pred_id: int,
+    id2lemma: dict[int, str],
+    lexicon: dict[str, str],
+) -> None:
+    # Identity tags: lemma == word, skip from lemma scoring.
+    # PROPN/PUNCT/SYM/X/NUM are skipped for EuroBERT parity; the
+    # `lemma == word` fallback catches identity-lemma tokens.
+    if upos in ("PROPN", "PUNCT", "SYM", "X", "NUM") or lemma == word:
+        stats["identity_skip"] += 1
+        return
+    if lemma in ("_", "-"):
+        return
+    pred_lemma = _resolve_pred_lemma(pred_id, word, id2lemma, lexicon)
+    stats["total"] += 1
+    if pred_lemma == lemma:
+        stats["correct"] += 1
+    stats["by_upos"].setdefault(upos, {"correct": 0, "total": 0})
+    stats["by_upos"][upos]["total"] += 1
+    if pred_lemma == lemma:
+        stats["by_upos"][upos]["correct"] += 1
+
+
+def _score_row_words(
+    stats: dict,
+    row: dict,
+    preds_row: np.ndarray,
+    upos_preds_row: np.ndarray | None,
+    track_upos: bool,
+    upos_id2label: dict[int, str] | None,
+    id2lemma: dict[int, str],
+    lexicon: dict[str, str],
+) -> None:
+    for w, (word, lemma, upos) in enumerate(
+        zip(row["words"], row["lemmas"], row["upos"], strict=True)
+    ):
+        if w >= len(preds_row):
+            break
+        # UPOS accuracy (all words including PROPN)
+        if track_upos:
+            _update_upos_stats(stats, upos_preds_row, w, upos, upos_id2label)
+        _score_lemma_word(stats, word, lemma, upos, int(preds_row[w]), id2lemma, lexicon)
+
+
+def _run_batch_predictions(
+    model: ByT5EncoderLemmaClassifier, batch: dict
+) -> tuple[np.ndarray, np.ndarray | None]:
+    logits, upos_logits = model(batch["input_ids"], batch["word_byte_spans"])
+    preds = mx.argmax(logits, axis=-1)
+    mx.eval(preds)
+    preds_np = np.array(preds)
+    if upos_logits is not None:
+        upos_preds = mx.argmax(upos_logits, axis=-1)
+        mx.eval(upos_preds)
+        upos_preds_np = np.array(upos_preds)
+    else:
+        upos_preds_np = None
+    return preds_np, upos_preds_np
+
+
 def evaluate(
     model: ByT5EncoderLemmaClassifier,
     rows: list[dict],
@@ -79,52 +168,12 @@ def evaluate(
     track_upos = upos_id2label is not None
     for i in range(0, len(rows), batch_size):
         batch = collate_batch(rows[i : i + batch_size])
-        output = model(batch["input_ids"], batch["word_byte_spans"])
-        logits, upos_logits = output
-        if upos_logits is not None:
-            upos_preds = mx.argmax(upos_logits, axis=-1)
-            mx.eval(upos_preds)
-            upos_preds_np = np.array(upos_preds)
-        else:
-            upos_preds_np = None
-        preds = mx.argmax(logits, axis=-1)
-        mx.eval(preds)
-        preds_np = np.array(preds)
-
+        preds_np, upos_preds_np = _run_batch_predictions(model, batch)
         for b in range(len(rows[i : i + batch_size])):
-            row = rows[i + b]
-            for w, (word, lemma, upos) in enumerate(
-                zip(row["words"], row["lemmas"], row["upos"], strict=True)
-            ):
-                if w >= len(preds_np[b]):
-                    break
-                # UPOS accuracy (all words including PROPN)
-                if track_upos and upos_preds_np is not None and w < len(upos_preds_np[b]):
-                    pred_upos_id = int(upos_preds_np[b, w])
-                    if upos_id2label and pred_upos_id in upos_id2label:
-                        stats["upos_total"] += 1
-                        if upos_id2label[pred_upos_id] == upos:
-                            stats["upos_correct"] += 1
-
-                # Identity tags: lemma == word, skip from lemma scoring.
-                # PROPN/PUNCT/SYM/X/NUM are skipped for EuroBERT parity; the
-                # `lemma == word` fallback catches identity-lemma tokens.
-                if upos in ("PROPN", "PUNCT", "SYM", "X", "NUM") or lemma == word:
-                    stats["identity_skip"] += 1
-                    continue
-                if lemma in ("_", "-"):
-                    continue
-                pred_id = int(preds_np[b, w])
-                pred_lemma = id2lemma.get(pred_id, UNK_TOKEN)
-                if pred_lemma == UNK_TOKEN:
-                    pred_lemma = lexicon.get(word, word)
-                stats["total"] += 1
-                if pred_lemma == lemma:
-                    stats["correct"] += 1
-                stats["by_upos"].setdefault(upos, {"correct": 0, "total": 0})
-                stats["by_upos"][upos]["total"] += 1
-                if pred_lemma == lemma:
-                    stats["by_upos"][upos]["correct"] += 1
+            upos_row = upos_preds_np[b] if upos_preds_np is not None else None
+            _score_row_words(
+                stats, rows[i + b], preds_np[b], upos_row, track_upos, upos_id2label, id2lemma, lexicon
+            )
         if i % (batch_size * 10) == 0:
             mx.clear_cache()
 
@@ -143,6 +192,36 @@ def evaluate(
     }
 
 
+def _find_struggles_in_row(
+    row: dict,
+    preds_row: np.ndarray,
+    id2lemma: dict[int, str],
+    lexicon: dict[str, str],
+    struggles: set[int],
+) -> None:
+    for w, (word, lemma, upos) in enumerate(
+        zip(row["words"], row["lemmas"], row["upos"], strict=True)
+    ):
+        if w >= len(preds_row):
+            break
+        # Align with evaluate()'s expanded identity-skip set
+        # (PROPN/PUNCT/SYM/X/NUM) plus the `lemma == word` identity
+        # check: these tokens are not scored for lemma accuracy, so
+        # mispredictions on them must not enter the struggles set
+        # and skew curriculum decisions.
+        if (
+            upos in ("PROPN", "PUNCT", "SYM", "X", "NUM")
+            or lemma == word
+            or lemma in ("_", "-")
+        ):
+            continue
+        pred_id = int(preds_row[w])
+        pred_lemma = _resolve_pred_lemma(pred_id, word, id2lemma, lexicon)
+        if pred_lemma != lemma:
+            # Mark label class as struggled
+            struggles.add(pred_id)
+
+
 def find_struggles(
     model: ByT5EncoderLemmaClassifier,
     rows: list[dict],
@@ -159,74 +238,44 @@ def find_struggles(
         preds = np.array(mx.argmax(logits, axis=-1))
 
         for b, row in enumerate(batch_rows):
-            for w, (word, lemma, upos) in enumerate(
-                zip(row["words"], row["lemmas"], row["upos"], strict=True)
-            ):
-                if w >= len(preds[b]):
-                    break
-                # Align with evaluate()'s expanded identity-skip set
-                # (PROPN/PUNCT/SYM/X/NUM) plus the `lemma == word` identity
-                # check: these tokens are not scored for lemma accuracy, so
-                # mispredictions on them must not enter the struggles set
-                # and skew curriculum decisions.
-                if (
-                    upos in ("PROPN", "PUNCT", "SYM", "X", "NUM")
-                    or lemma == word
-                    or lemma in ("_", "-")
-                ):
-                    continue
-                pred_id = int(preds[b, w])
-                pred_lemma = id2lemma.get(pred_id, UNK_TOKEN)
-                if pred_lemma == UNK_TOKEN:
-                    pred_lemma = lexicon.get(word, word)
-                if pred_lemma != lemma:
-                    # Mark label class as struggled
-                    struggles.add(pred_id)
+            _find_struggles_in_row(row, preds[b], id2lemma, lexicon, struggles)
         mx.clear_cache()
     return struggles
+
+
+def _build_label_index_map(data: list[dict]) -> dict[int, list[int]]:
+    label_map: dict[int, list[int]] = {}
+    for idx, row in enumerate(data):
+        for label in row["labels"]:
+            if label != -100:
+                label_map.setdefault(label, []).append(idx)
+    return label_map
+
+
+def _select_covering_indices(
+    data: list[dict], label_map: dict[int, list[int]], max_count: int
+) -> set[int]:
+    selected: set[int] = set()
+    for label in label_map:
+        selected.add(label_map[label][0])
+        if len(selected) >= max_count:
+            break
+    if len(selected) < max_count:
+        for idx in range(len(data)):
+            if idx not in selected:
+                selected.add(idx)
+            if len(selected) == max_count:
+                break
+    return selected
 
 
 def build_curriculum_datasets(
     train_data: list[dict], val_data: list[dict], max_train: int = 6075, max_val: int = 909
 ):
-    train_label_map = {}
-    for idx, row in enumerate(train_data):
-        for label in row["labels"]:
-            if label != -100:
-                train_label_map.setdefault(label, []).append(idx)
-
-    val_label_map = {}
-    for idx, row in enumerate(val_data):
-        for label in row["labels"]:
-            if label != -100:
-                val_label_map.setdefault(label, []).append(idx)
-
-    selected_val_indices = set()
-    for label in val_label_map:
-        selected_val_indices.add(val_label_map[label][0])
-        if len(selected_val_indices) >= max_val:
-            break
-
-    if len(selected_val_indices) < max_val:
-        for idx in range(len(val_data)):
-            if idx not in selected_val_indices:
-                selected_val_indices.add(idx)
-            if len(selected_val_indices) == max_val:
-                break
-
-    selected_train_indices = set()
-    for label in train_label_map:
-        selected_train_indices.add(train_label_map[label][0])
-        if len(selected_train_indices) >= max_train:
-            break
-
-    if len(selected_train_indices) < max_train:
-        for idx in range(len(train_data)):
-            if idx not in selected_train_indices:
-                selected_train_indices.add(idx)
-            if len(selected_train_indices) == max_train:
-                break
-
+    train_label_map = _build_label_index_map(train_data)
+    val_label_map = _build_label_index_map(val_data)
+    selected_train_indices = _select_covering_indices(train_data, train_label_map, max_train)
+    selected_val_indices = _select_covering_indices(val_data, val_label_map, max_val)
     final_train = [train_data[i] for i in selected_train_indices]
     final_val = [val_data[i] for i in selected_val_indices]
     return final_train, final_val
@@ -240,12 +289,14 @@ def train_epoch(
     optimizer,
     epoch: int,
     upos_weight: float = 1.0,
+    seed: int = 0,
 ) -> float:
     model.train()
     total_loss = 0.0
     n_batches = 0
     t0 = time.time()
-    order = np.random.permutation(len(rows))
+    rng = np.random.default_rng(seed)
+    order = rng.permutation(len(rows))
     batches = math.ceil(len(order) / batch_size)
     accum_steps = max(1, int(grad_accum))
 
@@ -347,25 +398,8 @@ def main():
     run(spec("ar"), opts)
 
 
-def run(spec: LanguageSpec, opts: TrainOptions) -> None:
-    """Canonical entry: train the ByT5 lemma classifier for `spec.lang` (ar)."""
-    artifacts_dir = Path(opts.extra.get("artifacts_dir", f"artifacts/lemma_{spec.lang}"))
-    output_dir = Path(opts.output_dir or f"runs/{spec.lang}-byt5-mlx")
-    output_dir.mkdir(parents=True, exist_ok=True)
-    dataset_path = opts.extra.get("dataset_path", f"data/processed/{spec.lang}_byt5_lemma")
-    grad_accum = opts.extra.get("grad_accum", 4)
-    warmup = opts.extra.get("warmup", 0.06)
-    dropout = opts.extra.get("dropout", 0.1)
-    upos_weight = float(opts.extra.get("upos_weight", 1.0))
-
-    print(f"=== ByT5 {spec.name} lemma classifier (MLX) ===", flush=True)
-    print(
-        f"dataset={dataset_path} epochs={opts.epochs} batch={opts.batch_size} "
-        f"grad_accum={grad_accum} lr={opts.lr} dropout={dropout} "
-        f"upos_weight={upos_weight}",
-        flush=True,
-    )
-
+def _load_artifacts(artifacts_dir: Path) -> tuple:
+    """Load lemma, lexicon, and UPOS label maps from artifacts_dir."""
     lemma2id = json.loads((artifacts_dir / "lemma_label2id.json").read_text(encoding="utf-8"))
     id2lemma = {
         int(k): v
@@ -388,6 +422,250 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     num_upos = len(upos2id) if upos2id else 0
     if num_upos:
         print(f"UPOS vocab: {num_upos} classes (joint training enabled)", flush=True)
+
+    return lemma2id, id2lemma, lexicon, upos_id2label, num_upos
+
+
+def _build_optimizer(
+    opts: TrainOptions, train_rows: list[dict], grad_accum: int, warmup: float
+) -> tuple:
+    """Create the LR schedule + AdamW optimizer for training."""
+    # Truncate opts.epochs to int BEFORE total_steps: both training
+    # loops iterate int(opts.epochs) times, so a fractional value (e.g.
+    # 3.5) would over-configure the scheduler and block full LR decay.
+    # max(1, ...) guards against fractional epochs in (0, 1) where
+    # int() would yield 0 and cause ZeroDivisionError downstream
+    # (e.g. len(train_pool) // epochs).
+    epochs_int = max(1, int(opts.epochs))
+    # total_steps mirrors the actual optimizer-step count across all
+    # epochs: (rows / (batch * grad_accum)) * epochs, floored per epoch.
+    steps_per_epoch = len(train_rows) // (opts.batch_size * grad_accum)
+    total_steps = max(1, int(steps_per_epoch * epochs_int))
+    warmup_steps = max(1, int(total_steps * warmup))
+    decay_steps = max(1, total_steps - warmup_steps)
+    print(f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}", flush=True)
+
+    lr_schedule = optim.join_schedules(
+        [
+            optim.linear_schedule(0.0, opts.lr, warmup_steps),
+            optim.cosine_decay(opts.lr, decay_steps, end=0.0),
+        ],
+        [warmup_steps],
+    )
+    optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
+    return optimizer, epochs_int
+
+
+def _expand_pool_indices(
+    pool: list[dict],
+    current_indices: set[int],
+    struggles: set,
+    next_size: int,
+    label_key: str = "labels",
+) -> None:
+    """Sort remaining pool entries by struggle overlap and add top-N."""
+    remaining = [i for i in range(len(pool)) if i not in current_indices]
+    remaining.sort(
+        key=lambda i, s=struggles: sum(
+            1 for lbl in pool[i][label_key] if lbl in s
+        ),
+        reverse=True,
+    )
+    added = remaining[: (next_size - len(current_indices))]
+    current_indices.update(added)
+
+
+def _expand_curriculum(
+    epoch: int,
+    epochs: int,
+    train_pool: list[dict],
+    val_pool: list[dict],
+    current_train_indices: set[int],
+    current_val_indices: set[int],
+    struggles: set[int],
+) -> tuple[set[int], set[int], list[dict], list[dict]]:
+    """Expand curriculum pools for the next epoch based on struggled labels."""
+    next_train_size = min(
+        int((epoch + 1) * len(train_pool) / epochs), len(train_pool)
+    )
+    next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
+
+    _expand_pool_indices(train_pool, current_train_indices, struggles, next_train_size)
+    _expand_pool_indices(val_pool, current_val_indices, struggles, next_val_size)
+
+    current_train = [train_pool[i] for i in current_train_indices]
+    current_val = [val_pool[i] for i in current_val_indices]
+    return current_train_indices, current_val_indices, current_train, current_val
+
+
+def _run_epoch_and_record(
+    model,
+    train_subset: list[dict],
+    train_rows: list[dict],
+    val_rows: list[dict],
+    opts: TrainOptions,
+    grad_accum: int,
+    optimizer,
+    epoch: int,
+    upos_weight: float,
+    id2lemma: dict[int, str],
+    lexicon: dict[str, str],
+    upos_id2label: dict[int, str] | None,
+    results: dict,
+) -> tuple[dict, float]:
+    """Train one epoch, evaluate, record metrics. Return (metrics, train_loss)."""
+    t0 = time.time()
+    train_loss = train_epoch(
+        model,
+        train_subset,
+        opts.batch_size,
+        grad_accum,
+        optimizer,
+        epoch,
+        upos_weight=upos_weight,
+        seed=opts.seed,
+    )
+    metrics = {
+        "epoch": epoch,
+        "train_loss": round(train_loss, 4),
+        "train": evaluate(
+            model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label
+        ),
+        "validation": evaluate(
+            model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label
+        ),
+        "elapsed_s": round(time.time() - t0, 1),
+    }
+    results["finetune"].append(metrics)
+    print(json.dumps({"event": "epoch", **metrics}), flush=True)
+    return metrics, train_loss
+
+
+def _train_curriculum(
+    model: ByT5EncoderLemmaClassifier,
+    opts: TrainOptions,
+    train_rows: list[dict],
+    val_rows: list[dict],
+    grad_accum: int,
+    optimizer,
+    epochs_int: int,
+    upos_weight: float,
+    id2lemma: dict[int, str],
+    lexicon: dict[str, str],
+    upos_id2label: dict[int, str] | None,
+    output_dir: Path,
+    results: dict,
+) -> None:
+    print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
+    train_pool, val_pool = build_curriculum_datasets(
+        train_rows, val_rows, max_train=6075, max_val=909
+    )
+
+    epochs = epochs_int
+    current_train_indices = set(
+        range(min(len(train_pool), max(1, len(train_pool) // epochs)))
+    )
+    current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
+
+    current_train = [train_pool[i] for i in current_train_indices]
+    current_val = [val_pool[i] for i in current_val_indices]
+
+    best_val_acc = -1.0
+    best_val_loss = float("inf")
+
+    for epoch in range(1, epochs + 1):
+        metrics, train_loss = _run_epoch_and_record(
+            model, current_train, train_rows, val_rows, opts, grad_accum,
+            optimizer, epoch, upos_weight, id2lemma, lexicon, upos_id2label,
+            results,
+        )
+
+        # Save best model by validation accuracy
+        val_acc = metrics["validation"]["lemma_accuracy"]
+        if val_acc >= best_val_acc:
+            best_val_acc = val_acc
+            model.save_weights(str(output_dir / "best.safetensors"))
+            print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
+        if train_loss < best_val_loss:
+            best_val_loss = train_loss
+            model.save_weights(str(output_dir / "best_loss.safetensors"))
+
+        model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
+
+        if epoch < epochs:
+            struggles = find_struggles(
+                model, current_val, opts.batch_size, id2lemma, lexicon
+            )
+            print(
+                json.dumps(
+                    {
+                        "event": f"struggles_identified_epoch_{epoch}",
+                        "count": len(struggles),
+                    }
+                ),
+                flush=True,
+            )
+            current_train_indices, current_val_indices, current_train, current_val = _expand_curriculum(
+                epoch, epochs, train_pool, val_pool,
+                current_train_indices, current_val_indices, struggles,
+            )
+
+
+def _train_standard(
+    model: ByT5EncoderLemmaClassifier,
+    opts: TrainOptions,
+    train_rows: list[dict],
+    val_rows: list[dict],
+    grad_accum: int,
+    optimizer,
+    epochs_int: int,
+    upos_weight: float,
+    id2lemma: dict[int, str],
+    lexicon: dict[str, str],
+    upos_id2label: dict[int, str] | None,
+    output_dir: Path,
+    results: dict,
+) -> None:
+    best_val_loss = float("inf")
+    best_val_acc = -1.0
+
+    for epoch in range(1, epochs_int + 1):
+        metrics, train_loss = _run_epoch_and_record(
+            model, train_rows, train_rows, val_rows, opts, grad_accum,
+            optimizer, epoch, upos_weight, id2lemma, lexicon, upos_id2label,
+            results,
+        )
+
+        # Fix best model saving logic by validation accuracy
+        if metrics["validation"]["lemma_accuracy"] >= best_val_acc:
+            best_val_acc = metrics["validation"]["lemma_accuracy"]
+            model.save_weights(str(output_dir / "best.safetensors"))
+            print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
+        if train_loss < best_val_loss:
+            best_val_loss = train_loss
+            model.save_weights(str(output_dir / "best_loss.safetensors"))
+
+
+def run(spec: LanguageSpec, opts: TrainOptions) -> None:
+    """Canonical entry: train the ByT5 lemma classifier for `spec.lang` (ar)."""
+    artifacts_dir = Path(opts.extra.get("artifacts_dir", f"artifacts/lemma_{spec.lang}"))
+    output_dir = Path(opts.output_dir or f"runs/{spec.lang}-byt5-mlx")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    dataset_path = opts.extra.get("dataset_path", f"data/processed/{spec.lang}_byt5_lemma")
+    grad_accum = opts.extra.get("grad_accum", 4)
+    warmup = opts.extra.get("warmup", 0.06)
+    dropout = opts.extra.get("dropout", 0.1)
+    upos_weight = float(opts.extra.get("upos_weight", 1.0))
+
+    print(f"=== ByT5 {spec.name} lemma classifier (MLX) ===", flush=True)
+    print(
+        f"dataset={dataset_path} epochs={opts.epochs} batch={opts.batch_size} "
+        f"grad_accum={grad_accum} lr={opts.lr} dropout={dropout} "
+        f"upos_weight={upos_weight}",
+        flush=True,
+    )
+
+    lemma2id, id2lemma, lexicon, upos_id2label, num_upos = _load_artifacts(artifacts_dir)
 
     ds = load_from_disk(dataset_path)
     train_rows = [ds["train"][i] for i in range(len(ds["train"]))]
@@ -428,171 +706,17 @@ def run(spec: LanguageSpec, opts: TrainOptions) -> None:
     print(json.dumps({"event": "baseline", **results["baseline"]}), flush=True)
 
     if opts.epochs > 0:
-        # Truncate opts.epochs to int BEFORE total_steps: both training
-        # loops iterate int(opts.epochs) times, so a fractional value (e.g.
-        # 3.5) would over-configure the scheduler and block full LR decay.
-        # max(1, ...) guards against fractional epochs in (0, 1) where
-        # int() would yield 0 and cause ZeroDivisionError downstream
-        # (e.g. len(train_pool) // epochs).
-        epochs_int = max(1, int(opts.epochs))
-        # total_steps mirrors the actual optimizer-step count across all
-        # epochs: (rows / (batch * grad_accum)) * epochs, floored per epoch.
-        steps_per_epoch = len(train_rows) // (opts.batch_size * grad_accum)
-        total_steps = max(1, int(steps_per_epoch * epochs_int))
-        warmup_steps = max(1, int(total_steps * warmup))
-        decay_steps = max(1, total_steps - warmup_steps)
-        print(f"Total optimizer steps: {total_steps}, warmup: {warmup_steps}", flush=True)
-
-        lr_schedule = optim.join_schedules(
-            [
-                optim.linear_schedule(0.0, opts.lr, warmup_steps),
-                optim.cosine_decay(opts.lr, decay_steps, end=0.0),
-            ],
-            [warmup_steps],
-        )
-        optimizer = optim.AdamW(learning_rate=lr_schedule, weight_decay=0.01)
-
-        best_val_loss = float("inf")
-        best_val_acc = -1.0
-
+        optimizer, epochs_int = _build_optimizer(opts, train_rows, grad_accum, warmup)
         if opts.curriculum:
-            print(json.dumps({"event": "curriculum_pool_building"}), flush=True)
-            train_pool, val_pool = build_curriculum_datasets(
-                train_rows, val_rows, max_train=6075, max_val=909
+            _train_curriculum(
+                model, opts, train_rows, val_rows, grad_accum, optimizer, epochs_int,
+                upos_weight, id2lemma, lexicon, upos_id2label, output_dir, results,
             )
-
-            epochs = epochs_int
-            current_train_indices = set(
-                range(min(len(train_pool), max(1, len(train_pool) // epochs)))
-            )
-            current_val_indices = set(range(min(len(val_pool), max(1, len(val_pool) // epochs))))
-
-            current_train = [train_pool[i] for i in current_train_indices]
-            current_val = [val_pool[i] for i in current_val_indices]
-
-            best_val_acc = -1.0
-            best_val_loss = float("inf")
-
-            for epoch in range(1, epochs + 1):
-                t0 = time.time()
-                train_loss = train_epoch(
-                    model,
-                    current_train,
-                    opts.batch_size,
-                    grad_accum,
-                    optimizer,
-                    epoch,
-                    upos_weight=upos_weight,
-                )
-                metrics = {
-                    "epoch": epoch,
-                    "train_loss": round(train_loss, 4),
-                    "train": evaluate(
-                        model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label
-                    ),
-                    "validation": evaluate(
-                        model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label
-                    ),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }
-                results["finetune"].append(metrics)
-                print(json.dumps({"event": "epoch", **metrics}), flush=True)
-
-                # Save best model by validation accuracy
-                val_acc = metrics["validation"]["lemma_accuracy"]
-                if val_acc >= best_val_acc:
-                    best_val_acc = val_acc
-                    model.save_weights(str(output_dir / "best.safetensors"))
-                    print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
-                if train_loss < best_val_loss:
-                    best_val_loss = train_loss
-                    model.save_weights(str(output_dir / "best_loss.safetensors"))
-
-                model.save_weights(str(output_dir / f"epoch-{epoch}.safetensors"))
-
-                if epoch < epochs:
-                    struggles = find_struggles(
-                        model, current_val, opts.batch_size, id2lemma, lexicon
-                    )
-                    print(
-                        json.dumps(
-                            {
-                                "event": f"struggles_identified_epoch_{epoch}",
-                                "count": len(struggles),
-                            }
-                        ),
-                        flush=True,
-                    )
-
-                    next_train_size = min(
-                        int((epoch + 1) * len(train_pool) / epochs), len(train_pool)
-                    )
-                    next_val_size = min(int((epoch + 1) * len(val_pool) / epochs), len(val_pool))
-
-                    remaining_train_indices = [
-                        i for i in range(len(train_pool)) if i not in current_train_indices
-                    ]
-                    remaining_train_indices.sort(
-                        key=lambda i: sum(1 for lbl in train_pool[i]["labels"] if lbl in struggles),
-                        reverse=True,
-                    )
-
-                    remaining_val_indices = [
-                        i for i in range(len(val_pool)) if i not in current_val_indices
-                    ]
-                    remaining_val_indices.sort(
-                        key=lambda i: sum(1 for lbl in val_pool[i]["labels"] if lbl in struggles),
-                        reverse=True,
-                    )
-
-                    added_train_indices = remaining_train_indices[
-                        : (next_train_size - len(current_train_indices))
-                    ]
-                    added_val_indices = remaining_val_indices[
-                        : (next_val_size - len(current_val_indices))
-                    ]
-
-                    current_train_indices.update(added_train_indices)
-                    current_val_indices.update(added_val_indices)
-
-                    current_train = [train_pool[i] for i in current_train_indices]
-                    current_val = [val_pool[i] for i in current_val_indices]
-
         else:
-            for epoch in range(1, epochs_int + 1):
-                t0 = time.time()
-                train_loss = train_epoch(
-                    model,
-                    train_rows,
-                    opts.batch_size,
-                    grad_accum,
-                    optimizer,
-                    epoch,
-                    upos_weight=upos_weight,
-                )
-                metrics = {
-                    "epoch": epoch,
-                    "train_loss": round(train_loss, 4),
-                    "train": evaluate(
-                        model, train_rows[:1000], opts.batch_size, id2lemma, lexicon, upos_id2label
-                    ),
-                    "validation": evaluate(
-                        model, val_rows, opts.batch_size, id2lemma, lexicon, upos_id2label
-                    ),
-                    "elapsed_s": round(time.time() - t0, 1),
-                }
-                results["finetune"].append(metrics)
-                print(json.dumps({"event": "epoch", **metrics}), flush=True)
-
-                # Fix best model saving logic by validation accuracy
-                if metrics["validation"]["lemma_accuracy"] >= best_val_acc:
-                    best_val_acc = metrics["validation"]["lemma_accuracy"]
-                    model.save_weights(str(output_dir / "best.safetensors"))
-                    print(f"  saved best model weights (val_acc={best_val_acc:.4f})", flush=True)
-                if train_loss < best_val_loss:
-                    best_val_loss = train_loss
-                    model.save_weights(str(output_dir / "best_loss.safetensors"))
-
+            _train_standard(
+                model, opts, train_rows, val_rows, grad_accum, optimizer, epochs_int,
+                upos_weight, id2lemma, lexicon, upos_id2label, output_dir, results,
+            )
         model.save_weights(str(output_dir / "final.safetensors"))
         print(f"Done! → {output_dir}", flush=True)
 

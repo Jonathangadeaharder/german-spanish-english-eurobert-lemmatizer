@@ -77,6 +77,13 @@ def check_cross_file(
     return result
 
 
+def _parse_comment_value(line: str) -> str:
+    """Extract the value from a comment line, handling '=' or ':' separators."""
+    if "=" in line:
+        return line.split("=", 1)[1].strip()
+    return line.split(":", 1)[1].strip()
+
+
 def _extract_sentences(text: str) -> list[tuple[str, str]]:
     sentences: list[tuple[str, str]] = []
     current_sent_id = ""
@@ -84,15 +91,9 @@ def _extract_sentences(text: str) -> list[tuple[str, str]]:
 
     for line in text.split("\n"):
         if line.startswith("# sent_id"):
-            if "=" in line:
-                current_sent_id = line.split("=", 1)[1].strip()
-            else:
-                current_sent_id = line.split(":", 1)[1].strip()
+            current_sent_id = _parse_comment_value(line)
         elif line.startswith("# text"):
-            if "=" in line:
-                current_text = line.split("=", 1)[1].strip()
-            else:
-                current_text = line.split(":", 1)[1].strip()
+            current_text = _parse_comment_value(line)
         elif line.strip() == "":
             if current_sent_id and current_text:
                 sentences.append((current_sent_id, current_text))
