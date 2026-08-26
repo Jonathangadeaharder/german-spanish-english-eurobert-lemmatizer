@@ -184,6 +184,8 @@ def _resolve_lemma_multitask(
         return edit_result if edit_result is not None else word
     entry = lexicon[word]
     if isinstance(entry, dict):
+        if token_idx is not None and token_idx < lemma_logits.shape[1]:
+            return entry.get(gold_pos, next(iter(entry.values())))
         return entry.get(gold_pos, word)
     return entry
 

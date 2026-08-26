@@ -251,7 +251,6 @@ def _load_classifier_heads(
                 target = getattr(param, suffix)
                 cls_state[key] = torch.from_numpy(weights[key]).to(target.dtype)
     wrapper.load_state_dict(cls_state, strict=False)
-    wrapper.eval()
 
     missing_cls = [k for k in _CLASSIFIER_KEYS if k not in weights]
     if missing_cls:

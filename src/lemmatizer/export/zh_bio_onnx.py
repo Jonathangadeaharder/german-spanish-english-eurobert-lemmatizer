@@ -172,7 +172,10 @@ def _sync_zh_weights(weights: dict[str, np.ndarray], model: nn.Module) -> None:
         raise RuntimeError("[zh] Missing classifier weights in checkpoint")
 
     if missing:
-        critical = [m for m in missing if any(c in m[0] for c in ("embed", "query", "key"))]
+        critical = [
+            m for m in missing
+            if any(c in m[0] for c in ("embed", "query", "key", "classifier"))
+        ]
         if critical:
             raise RuntimeError(
                 f"[zh] Critical backbone weights not synced: {critical[:3]}. "

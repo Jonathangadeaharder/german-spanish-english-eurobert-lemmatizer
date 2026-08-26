@@ -41,8 +41,8 @@ def _check_consistency(
     result: LemmaCheckResult,
     line: int,
     form: str,
-    upos: str,
     lemma: str,
+    upos: str,
     form_upos_lemma: dict[tuple[str, str], str],
 ) -> None:
     """Check that same FORM+UPOS always maps to the same LEMMA."""
@@ -99,7 +99,7 @@ def check_text(text: str, lang: str) -> LemmaCheckResult:
 
         _, form, lemma, upos = cols[0], cols[1], cols[2], cols[3]
 
-        _check_consistency(result, current_line, form, upos, lemma, form_upos_lemma)
+        _check_consistency(result, current_line, form, lemma, upos, form_upos_lemma)
         _check_sense_numbers(result, current_line, form, lemma, upos)
         _check_punct_identity(result, current_line, form, lemma, upos)
         _check_propn_capital(result, current_line, form, lemma, upos, lang)
