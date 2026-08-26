@@ -276,10 +276,12 @@ def sync_weights(
             skipped.append(data)
         elif action == "missing":
             missing.append(data)
-        else:
+        elif action == "mapped":
             hf_key, t, target = cast(tuple[str, np.ndarray, torch.Tensor], data)
             hf_state[hf_key] = torch.from_numpy(t).to(target.dtype)
             mapped += 1
+        else:
+            raise ValueError(f"Unknown sync action: {action}")
 
     backbone.load_state_dict(hf_state, strict=False)
     _load_classifier_heads(weights, wrapper)

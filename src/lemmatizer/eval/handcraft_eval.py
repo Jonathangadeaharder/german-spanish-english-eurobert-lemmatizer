@@ -23,8 +23,8 @@ from lemmatizer.data.conllu import read_conllu
 from lemmatizer.data.edit_trees import apply_edit_label
 from lemmatizer.eval.zh_char_utils import (
     MAX_LENGTH,
-    _build_char_layout,
-    _decode_char_labels,
+    build_char_layout,
+    decode_char_labels,
     label_to_upos,
 )
 
@@ -364,7 +364,7 @@ def eval_zh(sentences: list) -> dict:
         gold_lemmas = sent["lemmas"]
         gold_upos = sent["upos"]
 
-        chars, word_offsets = _build_char_layout(words)
+        chars, word_offsets = build_char_layout(words)
         n_chars = min(len(chars), MAX_LENGTH - 2)
         encoding = tokenizer(
             chars[:n_chars],
@@ -378,7 +378,7 @@ def eval_zh(sentences: list) -> dict:
         outputs = sess.run(None, {"input_ids": input_ids, "attention_mask": attention_mask})
         preds = np.argmax(outputs[0], axis=-1)[0]
 
-        char_label = _decode_char_labels(encoding, preds, n_chars)
+        char_label = decode_char_labels(encoding, preds, n_chars)
 
         for i, (word, gold_lemma, gold_pos) in enumerate(
             zip(words, gold_lemmas, gold_upos, strict=True)

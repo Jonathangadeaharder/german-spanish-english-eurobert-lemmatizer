@@ -25,7 +25,7 @@ def label_to_upos(label: str) -> str:
     return "X"
 
 
-def _build_char_layout(
+def build_char_layout(
     gold_words: list[str],
 ) -> tuple[list[str], list[int]]:
     """Flatten gold words into a char list, tracking word start offsets."""
@@ -37,7 +37,7 @@ def _build_char_layout(
     return chars, word_start_offsets
 
 
-def _decode_char_labels(
+def decode_char_labels(
     encoding, preds: np.ndarray, n_chars: int
 ) -> list[int | None]:
     """Map tokenizer word_ids to per-char predicted label indices."""
@@ -53,7 +53,7 @@ def _decode_char_labels(
     return char_label
 
 
-def _predict_sentence_chars(
+def predict_sentence_chars(
     tokenizer: PreTrainedTokenizer,
     model,
     gold_words: list[str],
@@ -64,7 +64,7 @@ def _predict_sentence_chars(
     Returns (char_label, word_start_offsets). Clears MLX cache every
     50 sentences to bound memory during long evaluation runs.
     """
-    chars, word_start_offsets = _build_char_layout(gold_words)
+    chars, word_start_offsets = build_char_layout(gold_words)
     n_chars = min(len(chars), MAX_LENGTH - 2)
     encoding = tokenizer(
         chars[:n_chars],
@@ -78,5 +78,5 @@ def _predict_sentence_chars(
     preds = np.array(mx.argmax(logits, axis=-1))[0]
     if sent_idx % 50 == 0:
         mx.clear_cache()
-    char_label = _decode_char_labels(encoding, preds, n_chars)
+    char_label = decode_char_labels(encoding, preds, n_chars)
     return char_label, word_start_offsets
