@@ -203,7 +203,7 @@ class TreebankContext:
     id2label: dict[str, str]
     lexicon: dict
     lang: str
-    valid_mask: list[bool]
+    valid_mask: bool
     stats: dict
 
 

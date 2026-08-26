@@ -5,6 +5,7 @@ import json
 import math
 import random
 import time
+from dataclasses import dataclass
 from pathlib import Path
 
 import mlx.core as mx
@@ -648,17 +649,13 @@ def _score_eval_word(
     has_upos,
     upos_np,
     lemma_np,
-    ids,
-    id2label,
-    upos_id2label,
-    lang,
-    lexicon,
+    ctx: EvalContext,
 ):
     total = 1
     upos_correct = 0
     upos_total = 0
     if has_upos:
-        predicted_upos = upos_id2label.get(
+        predicted_upos = ctx.upos_id2label.get(
             str(int(np.argmax(upos_np[b, token_i]))), "X"
         )
         upos_total = 1
@@ -676,13 +673,13 @@ def _score_eval_word(
     base = (
         None
         if predicted_upos in IDENTITY_UPOS
-        else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
+        else select_valid(lemma_np[b, token_i], ctx.ids, ctx.id2label, ctx.lang, word)
     )
-    lemma_correct = 1 if resolve(word, predicted_upos, base, lexicon) == gold_lemma else 0
+    lemma_correct = 1 if resolve(word, predicted_upos, base, ctx.lexicon) == gold_lemma else 0
     return total, upos_correct, upos_total, lemma_total, lemma_correct
 
 
-def _evaluate_row(row, b, upos_np, lemma_np, ids, id2label, upos_id2label, lang, lexicon):
+def _evaluate_row(row, b, upos_np, lemma_np, ctx: EvalContext):
     positions = word_positions(row)
     # n_positions != n_words: (1) MAX_LENGTH truncation (tail words
     # beyond the token budget), or (2) an alignment drop (a present
@@ -735,11 +732,7 @@ def _evaluate_row(row, b, upos_np, lemma_np, ids, id2label, upos_id2label, lang,
             has_upos,
             upos_np,
             lemma_np,
-            ids,
-            id2label,
-            upos_id2label,
-            lang,
-            lexicon,
+            ctx,
         )
         total += t
         upos_correct += uc
@@ -771,12 +764,23 @@ def _maybe_clear_cache(batch_index):
         mx.clear_cache()
 
 
+@dataclass
+class EvalContext:
+    """Static context shared across all words/rows during eval."""
+
+    ids: np.ndarray
+    id2label: dict[str, str]
+    upos_id2label: dict[str, str]
+    lang: str
+    lexicon: dict
+
+
 def _load_eval_context(
     assets, lang: str, rows: list[dict]
-) -> tuple[dict[int, int], dict[str, str], dict[str, str], np.ndarray, dict]:
+) -> tuple[dict[int, int], EvalContext]:
     """Read label files and set up label space for eval / find_struggles.
 
-    Returns (label_remap, id2label, upos_id2label, ids, lexicon).
+    Returns (label_remap, eval_ctx).
     """
     label2id = read_json(assets.label2id_path)
     has_upos_dataset = bool(rows) and "upos_labels" in rows[0]
@@ -793,13 +797,12 @@ def _load_eval_context(
     lexicon = read_json(assets.lexicon_path) if assets.lexicon_path.exists() else {}
     if not isinstance(lexicon, dict):
         lexicon = {}
-    return label_remap, id2label, upos_id2label, ids, lexicon
+    eval_ctx = EvalContext(ids=ids, id2label=id2label, upos_id2label=upos_id2label, lang=lang, lexicon=lexicon)
+    return label_remap, eval_ctx
 
 
 def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split: str = "") -> dict:
-    label_remap, id2label, upos_id2label, ids, lexicon = _load_eval_context(
-        assets, lang, rows
-    )
+    label_remap, eval_ctx = _load_eval_context(assets, lang, rows)
 
     total = upos_correct = upos_total = lemma_total = lemma_correct = 0
     loss_total = loss_batches = alignment_drops = 0
@@ -822,7 +825,7 @@ def evaluate(model, rows: list[dict], lang: str, assets, batch_size: int, split:
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             t, uc, ut, lt, lc, ad = _evaluate_row(
-                row, b, upos_np, lemma_np, ids, id2label, upos_id2label, lang, lexicon
+                row, b, upos_np, lemma_np, eval_ctx
             )
             total += t
             upos_correct += uc
@@ -855,14 +858,10 @@ def _find_struggle_word(
     has_upos,
     upos_np,
     lemma_np,
-    ids,
-    id2label,
-    upos_id2label,
-    lang,
-    lexicon,
+    ctx: EvalContext,
 ):
     if has_upos:
-        predicted_upos = upos_id2label.get(
+        predicted_upos = ctx.upos_id2label.get(
             str(int(np.argmax(upos_np[b, token_i]))), "X"
         )
     else:
@@ -872,13 +871,13 @@ def _find_struggle_word(
     base = (
         None
         if predicted_upos in IDENTITY_UPOS
-        else select_valid(lemma_np[b, token_i], ids, id2label, lang, word)
+        else select_valid(lemma_np[b, token_i], ctx.ids, ctx.id2label, ctx.lang, word)
     )
-    pred_lemma = resolve(word, predicted_upos, base, lexicon)
+    pred_lemma = resolve(word, predicted_upos, base, ctx.lexicon)
     return None if pred_lemma == gold_lemma else gold_lemma
 
 
-def _find_struggles_row(row, b, upos_np, lemma_np, ids, id2label, upos_id2label, lang, lexicon):
+def _find_struggles_row(row, b, upos_np, lemma_np, ctx: EvalContext):
     positions = word_positions(row)
     n_positions = len(positions)
     n_words = len(row["words"])
@@ -928,11 +927,7 @@ def _find_struggles_row(row, b, upos_np, lemma_np, ids, id2label, upos_id2label,
             has_upos,
             upos_np,
             lemma_np,
-            ids,
-            id2label,
-            upos_id2label,
-            lang,
-            lexicon,
+            ctx,
         )
         if struggled is not None:
             struggles.add(struggled)
@@ -942,9 +937,7 @@ def _find_struggles_row(row, b, upos_np, lemma_np, ids, id2label, upos_id2label,
 def find_struggles(
     model, validation_rows: list[dict], lang: str, assets, batch_size: int
 ) -> set[str]:
-    label_remap, id2label, upos_id2label, ids, lexicon = _load_eval_context(
-        assets, lang, validation_rows
-    )
+    label_remap, eval_ctx = _load_eval_context(assets, lang, validation_rows)
 
     struggles = set()
     alignment_drops = 0
@@ -958,7 +951,7 @@ def find_struggles(
         lemma_np = np.array(lemma_logits)
         for b, row in enumerate(batch_rows):
             row_struggles, ad = _find_struggles_row(
-                row, b, upos_np, lemma_np, ids, id2label, upos_id2label, lang, lexicon
+                row, b, upos_np, lemma_np, eval_ctx
             )
             struggles |= row_struggles
             alignment_drops += ad
