@@ -51,11 +51,18 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           BASE="http://localhost:9001"
+          AUTH="Authorization: Bearer $SONAR_TOKEN"
           echo "--- quality gate ---"
-          curl -sS --max-time 10 -u "$SONAR_TOKEN:" \
-            "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY" \
-            | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
+          GATE=$(curl -sS --max-time 10 -H "$AUTH" \
+            "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
+          echo "$GATE" | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
+          GATE_STATUS=$(echo "$GATE" | jq -r '.projectStatus.status // "UNKNOWN"')
+          echo "Gate status: $GATE_STATUS"
           echo "--- new-code issues ---"
-          curl -sS --max-time 10 -u "$SONAR_TOKEN:" \
+          curl -sS --max-time 10 -H "$AUTH" \
             "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
             | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
+          if [ "$GATE_STATUS" != "OK" ]; then
+            echo "::error::SonarQube quality gate is $GATE_STATUS"
+            exit 1
+          fi
