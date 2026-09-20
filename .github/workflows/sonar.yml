@@ -15,7 +15,10 @@ permissions:
 jobs:
   sonarqube:
     name: SonarQube
-    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'pull_request' &&
+       github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
     timeout-minutes: 30
     concurrency:
@@ -38,12 +41,10 @@ jobs:
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
         shell: bash
         run: |
-          case "$PR_AUTHOR" in
-            *dependabot*)
-              echo "::notice::Sonar scan deferred to the 'SonarQube (dependabot)' workflow_run job: pull_request events from dependabot cannot access repo secrets."
-              echo "deferred=true" >> "$GITHUB_OUTPUT"
-              ;;
-          esac
+          if [ "$PR_AUTHOR" = "dependabot[bot]" ] || [ "$PR_AUTHOR" = "app/dependabot" ]; then
+            echo "::notice::Sonar scan deferred to the 'SonarQube (dependabot)' workflow_run job: pull_request events from dependabot cannot access repo secrets."
+            echo "deferred=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Install jq
         if: steps.preflight.outputs.deferred != 'true'
         shell: bash
@@ -61,7 +62,7 @@ jobs:
             fi
             sleep 5
           done
-          echo "::error::SonarQube at localhost:9001 never became UP"
+          echo "::error::SonarQube at 127.0.0.1:9001 never became UP"
           exit 1
       - name: SonarQube Scan
         id: scan
@@ -77,7 +78,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          BASE="http://localhost:9001"
+          BASE="http://127.0.0.1:9001"
           AUTH="Authorization: Bearer $SONAR_TOKEN"
           curl -fsS --max-time 10 -H "$AUTH" \
             "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
@@ -89,7 +90,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          BASE="http://localhost:9001"
+          BASE="http://127.0.0.1:9001"
           AUTH="Authorization: Bearer $SONAR_TOKEN"
           GATE=$(curl -fsS --max-time 10 -H "$AUTH" \
             "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
@@ -107,9 +108,12 @@ jobs:
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.head_repository.full_name == github.repository &&
+      startsWith(github.event.workflow_run.head_branch, 'dependabot/') &&
       (
-        contains(github.event.workflow_run.triggering_actor.login, 'dependabot') ||
-        contains(github.event.workflow_run.actor.login, 'dependabot')
+        github.event.workflow_run.triggering_actor.login == 'dependabot[bot]' ||
+        github.event.workflow_run.actor.login == 'dependabot[bot]' ||
+        github.event.workflow_run.triggering_actor.login == 'app/dependabot' ||
+        github.event.workflow_run.actor.login == 'app/dependabot'
       )
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
     timeout-minutes: 30
@@ -119,6 +123,9 @@ jobs:
     env:
       SONAR_PROJECT_KEY: jonathangadeaharder_german-spanish-english-eurobert-lemmatizer
     steps:
+      - name: Install jq
+        shell: bash
+        run: brew install jq || command -v jq >/dev/null
       - name: Resolve pull request number
         id: pr
         shell: bash
@@ -129,27 +136,23 @@ jobs:
         run: |
           PR="$EVENT_PR"
           if [ -z "$PR" ] || [ "$PR" = "null" ]; then
-            PR=$(curl -sf --max-time 10 -H "Authorization: Bearer $GH_TOKEN" \
-              "https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$HEAD_SHA/pulls" \
-              | grep -m1 -o '"number": *[0-9]*' | tr -dc '0-9') || true
+            RESP=$(curl -fsS --max-time 10 -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$HEAD_SHA/pulls")
+            PR=$(echo "$RESP" | jq -r '.[0].number // empty')
+            if [ -z "$PR" ]; then
+              echo "::notice::No pull request found for $HEAD_SHA; nothing to scan."
+              echo "available=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
           fi
-          if [ -z "$PR" ]; then
-            echo "::notice::No open pull request for $HEAD_SHA; nothing to scan."
-            echo "available=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "number=$PR" >> "$GITHUB_OUTPUT"
-            echo "available=true" >> "$GITHUB_OUTPUT"
-          fi
+          echo "number=$PR" >> "$GITHUB_OUTPUT"
+          echo "available=true" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v6.0.3
         if: steps.pr.outputs.available == 'true'
         with:
           ref: refs/pull/${{ steps.pr.outputs.number }}/merge
           fetch-depth: 0
           persist-credentials: false
-      - name: Install jq
-        if: steps.pr.outputs.available == 'true'
-        shell: bash
-        run: brew install jq || command -v jq >/dev/null
       - name: Wait for SonarQube
         if: steps.pr.outputs.available == 'true'
         shell: bash
@@ -163,7 +166,7 @@ jobs:
             fi
             sleep 5
           done
-          echo "::error::SonarQube at localhost:9001 never became UP"
+          echo "::error::SonarQube at 127.0.0.1:9001 never became UP"
           exit 1
       - name: SonarQube Scan
         id: scan
@@ -179,7 +182,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          BASE="http://localhost:9001"
+          BASE="http://127.0.0.1:9001"
           AUTH="Authorization: Bearer $SONAR_TOKEN"
           curl -fsS --max-time 10 -H "$AUTH" \
             "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
@@ -191,7 +194,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          BASE="http://localhost:9001"
+          BASE="http://127.0.0.1:9001"
           AUTH="Authorization: Bearer $SONAR_TOKEN"
           GATE=$(curl -fsS --max-time 10 -H "$AUTH" \
             "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
