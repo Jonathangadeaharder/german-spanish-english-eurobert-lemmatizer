@@ -1,0 +1,194 @@
+"""Contract tests for the Sonar workflow's dependabot handling (issue #59).
+
+Dependabot-triggered ``pull_request`` events never receive repo secrets
+(GitHub platform behavior), so the pull_request Sonar scan 401s against the
+runner-local SonarQube on every dependabot PR. The contract under test:
+
+- the pull_request job defers dependabot PRs with a visible notice instead of
+  failing, and none of its scan steps run for them;
+- a workflow_run job (which does receive secrets) performs the real scan,
+  restricted to this repository's dependabot PRs with a passing CI run;
+- the workflow_run trigger never reaches the push/pull_request job (no
+  redundant default-branch scans cancelling push-triggered runs);
+- PR-number resolution fails loudly on API errors (no silent green bypass)
+  and only skips when the API confirms no pull request exists.
+"""
+
+from __future__ import annotations
+
+import re
+from pathlib import Path
+
+import yaml
+
+WORKFLOW = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "sonar.yml"
+
+
+def _load_workflow() -> dict:
+    with WORKFLOW.open() as fh:
+        return yaml.safe_load(fh)
+
+
+def _triggers(workflow: dict) -> dict:
+    triggers = workflow.get("on") or workflow.get(True)
+    assert isinstance(triggers, dict)
+    return triggers
+
+
+def _dependabot_job(jobs: dict) -> dict:
+    gated = [j for j in jobs.values() if "workflow_run" in str(j.get("if", ""))]
+    assert gated, "sonar.yml must have a workflow_run-gated job for dependabot PRs"
+    assert len(gated) == 1, "expected exactly one workflow_run-gated Sonar job"
+    return gated[0]
+
+
+def _step_with_id(job: dict, step_id: str) -> dict:
+    steps = [s for s in job["steps"] if s.get("id") == step_id]
+    assert steps, f"job must have a step with id '{step_id}'"
+    return steps[0]
+
+
+def test_workflow_run_triggers_on_completed_ci() -> None:
+    workflow_run = _triggers(_load_workflow())["workflow_run"]
+    assert "CI" in workflow_run["workflows"]
+    assert "completed" in workflow_run["types"]
+
+
+def test_pull_request_job_never_runs_on_workflow_run_events() -> None:
+    job = _load_workflow()["jobs"]["sonarqube"]
+    job_if = str(job["if"])
+    assert "github.event_name == 'push'" in job_if
+    assert "github.event_name == 'pull_request'" in job_if
+    assert "!= 'pull_request'" not in job_if
+
+
+def test_dependabot_job_is_restricted_to_this_repo() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    job_if = str(job["if"])
+    assert "github.event_name == 'workflow_run'" in job_if
+    assert "github.event.workflow_run.event == 'pull_request'" in job_if
+    assert "github.event.workflow_run.conclusion == 'success'" in job_if
+    assert "github.event.workflow_run.head_repository.full_name" in job_if
+    assert "github.repository" in job_if
+
+
+def test_dependabot_job_gates_on_branch_prefix_only() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    job_if = str(job["if"])
+    assert "startsWith(github.event.workflow_run.head_branch, 'dependabot/')" in job_if
+    assert "triggering_actor" not in job_if, (
+        "run-actor identity diverges from PR author: a human pushing to a "
+        "dependabot branch would silently skip the scan"
+    )
+    assert "contains(" not in job_if, "substring actor matching is too broad"
+
+
+def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    scan = _step_with_id(job, "scan")
+    assert "secrets.SONAR_TOKEN" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
+    scanner_opts = str(scan.get("env", {}).get("SONAR_SCANNER_OPTS", ""))
+    assert "-Dsonar.projectKey=" in scanner_opts, (
+        "projectKey must be pinned on the command line: the tree's "
+        "sonar-project.properties is PR-controlled and must not decouple the "
+        "scan from the gate"
+    )
+    checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
+    ref = str(checkout.get("with", {}).get("ref", ""))
+    assert "github.event.workflow_run.head_sha" in ref, (
+        "checkout must use the CI-validated head SHA: the live merge ref can "
+        "advance between CI completion and the scan (TOCTOU)"
+    )
+    assert "refs/pull/" not in ref
+
+
+def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    reset = next(
+        (s for s in job["steps"] if s.get("name") == "Reset scanner config to trusted main"),
+        None,
+    )
+    assert reset is not None, (
+        "the PR tree's sonar-project.properties must not steer the scan: "
+        "reset it from trusted main before scanning"
+    )
+    assert "git show origin/main:sonar-project.properties" in str(reset["run"])
+
+
+def test_dependabot_job_can_read_pull_requests() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    permissions = job["permissions"]
+    assert permissions["contents"] == "read"
+    assert permissions["pull-requests"] == "read"
+
+
+def test_dependabot_job_resolves_pr_with_jq_and_fails_loudly() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    resolve = _step_with_id(job, "pr")
+    run = str(resolve["run"])
+    assert "GITHUB_EVENT_PATH" in run
+    assert "jq -r '.workflow_run.pull_requests[0].number // empty'" in run
+    assert "EVENT_PR" not in run, (
+        "the event PR number must not be evaluated as a GitHub expression: an empty "
+        "pull_requests array must degrade to the API fallback, not fail the step"
+    )
+    assert "*[!0-9]*" in run, "resolved PR number must be validated as numeric"
+    assert "pulls/$PR" in run
+    assert ".user.login" in run, "the scan must verify the PR author is dependabot"
+    assert '"$AUTHOR" != "dependabot[bot]"' in run, (
+        "the author comparison must use the quoted canonical login: unquoted "
+        "dependabot[bot] is a glob character class and never matches"
+    )
+    assert ".head.sha" in run, "the scan must verify the PR head SHA matches the scanned commit"
+    assert "$HEAD_SHA" in run, "the head SHA comparison must use the validated workflow_run SHA"
+    assert "curl -fsS" in run
+    assert "|| true" not in run, "API errors must fail the job, not silently pass it"
+    assert "grep" not in run, "parse API JSON with jq, not grep"
+
+
+def test_pull_request_job_defers_dependabot_with_notice() -> None:
+    job = _load_workflow()["jobs"]["sonarqube"]
+    preflight = _step_with_id(job, "preflight")
+    assert "github.event_name == 'pull_request'" in str(preflight.get("if", ""))
+    run = str(preflight["run"])
+    assert '"$PR_AUTHOR" = "dependabot[bot]"' in run
+    text = WORKFLOW.read_text()
+    assert "app/dependabot" not in text, (
+        "use the canonical REST login only: app/dependabot is a GraphQL "
+        "display form and must not appear in workflow logic"
+    )
+    assert "::notice::" in run
+    assert 'echo "deferred=true" >> "$GITHUB_OUTPUT"' in run
+    assert "*dependabot*" not in run, "substring author matching is too broad"
+
+
+def test_pull_request_job_skips_scan_steps_when_deferred() -> None:
+    job = _load_workflow()["jobs"]["sonarqube"]
+    checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
+    preflight = _step_with_id(job, "preflight")
+    assert job["steps"].index(preflight) < job["steps"].index(checkout)
+    assert "steps.preflight.outputs.deferred != 'true'" in str(checkout.get("if", ""))
+    for step_id in ("scan", "enforce"):
+        step = _step_with_id(job, step_id)
+        assert "steps.preflight.outputs.deferred != 'true'" in str(step.get("if", ""))
+
+
+def test_workflow_uses_loopback_ip_not_localhost() -> None:
+    text = WORKFLOW.read_text()
+    assert "localhost:9001" not in text
+
+
+def test_diagnostic_steps_do_not_run_on_cancelled_jobs() -> None:
+    text = WORKFLOW.read_text()
+    assert "always()" not in text, "!cancelled() skips diagnostics on cancelled jobs"
+
+
+def test_checkout_actions_are_sha_pinned() -> None:
+    jobs = _load_workflow()["jobs"]
+    for job in jobs.values():
+        for step in job["steps"]:
+            uses = str(step.get("uses", ""))
+            if uses.startswith("actions/checkout@"):
+                assert re.fullmatch(r"actions/checkout@[0-9a-f]{40}", uses), (
+                    f"checkout must be SHA-pinned in this secret-bearing workflow: {uses}"
+                )

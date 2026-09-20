@@ -5,31 +5,53 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
 
 permissions:
   contents: read
 
-concurrency:
-  group: sonar-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   sonarqube:
     name: SonarQube
-    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'pull_request' &&
+       github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
     timeout-minutes: 30
+    concurrency:
+      group: sonar-${{ github.ref }}
+      cancel-in-progress: true
     env:
       SONAR_PROJECT_KEY: jonathangadeaharder_german-spanish-english-eurobert-lemmatizer
     steps:
-      - uses: actions/checkout@v6.0.3
+      # Dependabot pull_request events never receive repo secrets (GitHub
+      # platform behavior), so scanning here 401s. Such PRs are deferred to
+      # the SonarQube (dependabot) workflow_run job with a visible notice.
+      - name: Defer dependabot PRs to workflow_run job
+        id: preflight
+        if: github.event_name == 'pull_request'
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        shell: bash
+        run: |
+          if [ "$PR_AUTHOR" = "dependabot[bot]" ]; then
+            echo "::notice::Sonar scan deferred to the 'SonarQube (dependabot)' workflow_run job: pull_request events from dependabot cannot access repo secrets."
+            echo "deferred=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
+        if: steps.preflight.outputs.deferred != 'true'
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Install jq
+        if: steps.preflight.outputs.deferred != 'true'
         shell: bash
         run: brew install jq || command -v jq >/dev/null
       - name: Wait for SonarQube
+        if: steps.preflight.outputs.deferred != 'true'
         shell: bash
         run: |
           for i in $(seq 1 36); do
@@ -41,33 +63,164 @@ jobs:
             fi
             sleep 5
           done
-          echo "::error::SonarQube at localhost:9001 never became UP"
+          echo "::error::SonarQube at 127.0.0.1:9001 never became UP"
           exit 1
       - name: SonarQube Scan
         id: scan
+        if: steps.preflight.outputs.deferred != 'true'
         uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001
           SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true
       - name: Print new-code issues
-        if: always()
+        if: ${{ !cancelled() && steps.preflight.outputs.deferred != 'true' }}
         shell: bash
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          BASE="http://localhost:9001"
+          BASE="http://127.0.0.1:9001"
           AUTH="Authorization: Bearer $SONAR_TOKEN"
           curl -fsS --max-time 10 -H "$AUTH" \
             "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
             | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
       - name: Enforce quality gate
-        if: steps.scan.outcome == 'success'
+        id: enforce
+        if: steps.preflight.outputs.deferred != 'true' && steps.scan.outcome == 'success'
         shell: bash
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          BASE="http://localhost:9001"
+          BASE="http://127.0.0.1:9001"
+          AUTH="Authorization: Bearer $SONAR_TOKEN"
+          GATE=$(curl -fsS --max-time 10 -H "$AUTH" \
+            "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
+          echo "$GATE" | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
+          GATE_STATUS=$(echo "$GATE" | jq -r '.projectStatus.status // "UNKNOWN"')
+          echo "Gate status: $GATE_STATUS"
+          if [ "$GATE_STATUS" != "OK" ]; then
+            echo "::error::SonarQube quality gate is $GATE_STATUS"
+            exit 1
+          fi
+  # Only dependabot-authored same-repo PRs reach this secret-scoped job; the
+  # resolve step re-verifies author and head SHA via the PR API, and scanner
+  # config comes from trusted main, not the PR tree.
+  sonarqube-dependabot:
+    name: SonarQube (dependabot)
+    permissions:
+      contents: read
+      pull-requests: read
+    if: >-
+      github.event_name == 'workflow_run' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      startsWith(github.event.workflow_run.head_branch, 'dependabot/')
+    runs-on: [self-hosted, macOS, ARM64, VidiomTM]
+    timeout-minutes: 30
+    concurrency:
+      group: sonar-dependabot-${{ github.event.workflow_run.head_branch }}
+      cancel-in-progress: true
+    env:
+      SONAR_PROJECT_KEY: jonathangadeaharder_german-spanish-english-eurobert-lemmatizer
+    steps:
+      - name: Install jq
+        shell: bash
+        run: brew install jq || command -v jq >/dev/null
+      - name: Resolve pull request number
+        id: pr
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          PR=$(jq -r '.workflow_run.pull_requests[0].number // empty' "$GITHUB_EVENT_PATH")
+          if [ -z "$PR" ] || [ "$PR" = "null" ]; then
+            RESP=$(curl -fsS --max-time 10 -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$HEAD_SHA/pulls")
+            PR=$(echo "$RESP" | jq -r '.[0].number // empty')
+            if [ -z "$PR" ]; then
+              echo "::notice::No pull request found for $HEAD_SHA; nothing to scan."
+              echo "available=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          case "$PR" in
+            ''|*[!0-9]*)
+              echo "::error::Resolved pull request number is not numeric: '$PR'"
+              exit 1
+              ;;
+          esac
+          PR_DATA=$(curl -fsS --max-time 10 -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/$PR")
+          AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login // empty')
+          PR_HEAD=$(echo "$PR_DATA" | jq -r '.head.sha // empty')
+          if [ "$AUTHOR" != "dependabot[bot]" ]; then
+            echo "::notice::PR #$PR was authored by '$AUTHOR', not dependabot; the pull_request Sonar job scans it instead."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$PR_HEAD" != "$HEAD_SHA" ]; then
+            echo "::notice::PR #$PR head has advanced beyond the commit CI validated; a newer scan run is in flight."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "number=$PR" >> "$GITHUB_OUTPUT"
+          echo "available=true" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
+        if: steps.pr.outputs.available == 'true'
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Reset scanner config to trusted main
+        if: steps.pr.outputs.available == 'true'
+        shell: bash
+        run: |
+          git fetch --no-tags origin main
+          git show origin/main:sonar-project.properties > sonar-project.properties
+      - name: Wait for SonarQube
+        if: steps.pr.outputs.available == 'true'
+        shell: bash
+        run: |
+          for i in $(seq 1 36); do
+            STATUS=$(curl -sf --max-time 2 http://127.0.0.1:9001/api/system/status \
+              | jq -r '.status' || true)
+            echo "Sonar status: ${STATUS:-unreachable} ($i/36)"
+            if [ "$STATUS" = "UP" ]; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::SonarQube at 127.0.0.1:9001 never became UP"
+          exit 1
+      - name: SonarQube Scan
+        id: scan
+        if: steps.pr.outputs.available == 'true'
+        uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: http://127.0.0.1:9001
+          SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
+      - name: Print new-code issues
+        if: ${{ !cancelled() && steps.pr.outputs.available == 'true' }}
+        shell: bash
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          BASE="http://127.0.0.1:9001"
+          AUTH="Authorization: Bearer $SONAR_TOKEN"
+          curl -fsS --max-time 10 -H "$AUTH" \
+            "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
+            | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
+      - name: Enforce quality gate
+        id: enforce
+        if: steps.pr.outputs.available == 'true' && steps.scan.outcome == 'success'
+        shell: bash
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: |
+          BASE="http://127.0.0.1:9001"
           AUTH="Authorization: Bearer $SONAR_TOKEN"
           GATE=$(curl -fsS --max-time 10 -H "$AUTH" \
             "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
