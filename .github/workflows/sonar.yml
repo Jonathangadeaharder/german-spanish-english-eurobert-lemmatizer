@@ -37,7 +37,7 @@ jobs:
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
         shell: bash
         run: |
-          if [ "$PR_AUTHOR" = "dependabot[bot]" ] || [ "$PR_AUTHOR" = "app/dependabot" ]; then
+          if [ "$PR_AUTHOR" = "dependabot[bot]" ]; then
             echo "::notice::Sonar scan deferred to the 'SonarQube (dependabot)' workflow_run job: pull_request events from dependabot cannot access repo secrets."
             echo "deferred=true" >> "$GITHUB_OUTPUT"
           fi
@@ -102,10 +102,9 @@ jobs:
             echo "::error::SonarQube quality gate is $GATE_STATUS"
             exit 1
           fi
-  # Only dependabot-authored PRs from same-repo dependabot/* branches reach
-  # this secret-scoped job (author re-verified via the PR API in the resolve
-  # step). The checked-out tree cannot override SONAR_HOST_URL (step env) or
-  # reach any secret beyond the runner-local SonarQube token.
+  # Only dependabot-authored same-repo PRs reach this secret-scoped job; the
+  # resolve step re-verifies the author via the PR API. Host URL is a step
+  # env, projectKey is pinned via scanner opts, and the token is local-only.
   sonarqube-dependabot:
     name: SonarQube (dependabot)
     permissions:
@@ -156,7 +155,7 @@ jobs:
             "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/$PR" \
             | jq -r '.user.login // empty')
           case "$AUTHOR" in
-            dependabot[bot]|app/dependabot)
+            'dependabot[bot]')
               ;;
             *)
               echo "::notice::PR #$PR was authored by '$AUTHOR', not dependabot; the pull_request Sonar job scans it instead."
@@ -194,7 +193,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: http://127.0.0.1:9001
-          SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true
+          SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
       - name: Print new-code issues
         if: ${{ !cancelled() && steps.pr.outputs.available == 'true' }}
         shell: bash

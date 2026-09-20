@@ -87,6 +87,12 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
     scan = _step_with_id(job, "scan")
     assert "secrets.SONAR_TOKEN" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
+    scanner_opts = str(scan.get("env", {}).get("SONAR_SCANNER_OPTS", ""))
+    assert "-Dsonar.projectKey=" in scanner_opts, (
+        "projectKey must be pinned on the command line: the tree's "
+        "sonar-project.properties is PR-controlled and must not decouple the "
+        "scan from the gate"
+    )
     checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
     assert "refs/pull/" in str(checkout.get("with", {}).get("ref", ""))
 
@@ -111,7 +117,10 @@ def test_dependabot_job_resolves_pr_with_jq_and_fails_loudly() -> None:
     assert "*[!0-9]*" in run, "resolved PR number must be validated as numeric"
     assert "pulls/$PR" in run
     assert ".user.login" in run, "the scan must verify the PR author is dependabot"
-    assert "dependabot[bot]|app/dependabot" in run
+    assert "'dependabot[bot]')" in run, (
+        "the case pattern must be quoted: unquoted dependabot[bot] is a glob "
+        "character class and never matches the real login"
+    )
     assert "curl -fsS" in run
     assert "|| true" not in run, "API errors must fail the job, not silently pass it"
     assert "grep" not in run, "parse API JSON with jq, not grep"
@@ -123,6 +132,11 @@ def test_pull_request_job_defers_dependabot_with_notice() -> None:
     assert "github.event_name == 'pull_request'" in str(preflight.get("if", ""))
     run = str(preflight["run"])
     assert '"$PR_AUTHOR" = "dependabot[bot]"' in run
+    text = WORKFLOW.read_text()
+    assert "app/dependabot" not in text, (
+        "use the canonical REST login only: app/dependabot is a GraphQL "
+        "display form and must not appear in workflow logic"
+    )
     assert "::notice::" in run
     assert 'echo "deferred=true" >> "$GITHUB_OUTPUT"' in run
     assert "*dependabot*" not in run, "substring author matching is too broad"
