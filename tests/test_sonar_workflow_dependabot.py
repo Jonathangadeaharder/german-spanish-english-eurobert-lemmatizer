@@ -71,11 +71,14 @@ def test_dependabot_job_is_restricted_to_this_repo() -> None:
     assert "github.repository" in job_if
 
 
-def test_dependabot_job_gates_on_exact_bot_identity_and_branch() -> None:
+def test_dependabot_job_gates_on_branch_prefix_only() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
     job_if = str(job["if"])
-    assert "== 'dependabot[bot]'" in job_if
     assert "startsWith(github.event.workflow_run.head_branch, 'dependabot/')" in job_if
+    assert "triggering_actor" not in job_if, (
+        "run-actor identity diverges from PR author: a human pushing to a "
+        "dependabot branch would silently skip the scan"
+    )
     assert "contains(" not in job_if, "substring actor matching is too broad"
 
 
@@ -117,6 +120,10 @@ def test_pull_request_job_defers_dependabot_with_notice() -> None:
 
 def test_pull_request_job_skips_scan_steps_when_deferred() -> None:
     job = _load_workflow()["jobs"]["sonarqube"]
+    checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
+    preflight = _step_with_id(job, "preflight")
+    assert job["steps"].index(preflight) < job["steps"].index(checkout)
+    assert "steps.preflight.outputs.deferred != 'true'" in str(checkout.get("if", ""))
     for step_id in ("scan", "enforce"):
         step = _step_with_id(job, step_id)
         assert "steps.preflight.outputs.deferred != 'true'" in str(step.get("if", ""))

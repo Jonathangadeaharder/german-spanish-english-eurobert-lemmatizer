@@ -27,10 +27,6 @@ jobs:
     env:
       SONAR_PROJECT_KEY: jonathangadeaharder_german-spanish-english-eurobert-lemmatizer
     steps:
-      - uses: actions/checkout@v6.0.3
-        with:
-          fetch-depth: 0
-          persist-credentials: false
       # Dependabot pull_request events never receive repo secrets (GitHub
       # platform behavior), so scanning here 401s. Such PRs are deferred to
       # the SonarQube (dependabot) workflow_run job with a visible notice.
@@ -45,6 +41,11 @@ jobs:
             echo "::notice::Sonar scan deferred to the 'SonarQube (dependabot)' workflow_run job: pull_request events from dependabot cannot access repo secrets."
             echo "deferred=true" >> "$GITHUB_OUTPUT"
           fi
+      - uses: actions/checkout@v6.0.3
+        if: steps.preflight.outputs.deferred != 'true'
+        with:
+          fetch-depth: 0
+          persist-credentials: false
       - name: Install jq
         if: steps.preflight.outputs.deferred != 'true'
         shell: bash
@@ -111,13 +112,7 @@ jobs:
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.head_repository.full_name == github.repository &&
-      startsWith(github.event.workflow_run.head_branch, 'dependabot/') &&
-      (
-        github.event.workflow_run.triggering_actor.login == 'dependabot[bot]' ||
-        github.event.workflow_run.actor.login == 'dependabot[bot]' ||
-        github.event.workflow_run.triggering_actor.login == 'app/dependabot' ||
-        github.event.workflow_run.actor.login == 'app/dependabot'
-      )
+      startsWith(github.event.workflow_run.head_branch, 'dependabot/')
     runs-on: [self-hosted, macOS, ARM64, VidiomTM]
     timeout-minutes: 30
     concurrency:
