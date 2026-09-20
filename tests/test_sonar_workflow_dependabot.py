@@ -87,6 +87,13 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
     assert "refs/pull/" in str(checkout.get("with", {}).get("ref", ""))
 
 
+def test_dependabot_job_can_read_pull_requests() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    permissions = job["permissions"]
+    assert permissions["contents"] == "read"
+    assert permissions["pull-requests"] == "read"
+
+
 def test_dependabot_job_resolves_pr_with_jq_and_fails_loudly() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
     resolve = _step_with_id(job, "pr")
