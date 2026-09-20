@@ -103,8 +103,8 @@ jobs:
             exit 1
           fi
   # Only dependabot-authored same-repo PRs reach this secret-scoped job; the
-  # resolve step re-verifies the author via the PR API. Host URL is a step
-  # env, projectKey is pinned via scanner opts, and the token is local-only.
+  # resolve step re-verifies author and head SHA via the PR API, and scanner
+  # config comes from trusted main, not the PR tree.
   sonarqube-dependabot:
     name: SonarQube (dependabot)
     permissions:
@@ -151,26 +151,34 @@ jobs:
               exit 1
               ;;
           esac
-          AUTHOR=$(curl -fsS --max-time 10 -H "Authorization: Bearer $GH_TOKEN" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/$PR" \
-            | jq -r '.user.login // empty')
-          case "$AUTHOR" in
-            'dependabot[bot]')
-              ;;
-            *)
-              echo "::notice::PR #$PR was authored by '$AUTHOR', not dependabot; the pull_request Sonar job scans it instead."
-              echo "available=false" >> "$GITHUB_OUTPUT"
-              exit 0
-              ;;
-          esac
+          PR_DATA=$(curl -fsS --max-time 10 -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/$PR")
+          AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login // empty')
+          PR_HEAD=$(echo "$PR_DATA" | jq -r '.head.sha // empty')
+          if [ "$AUTHOR" != "dependabot[bot]" ]; then
+            echo "::notice::PR #$PR was authored by '$AUTHOR', not dependabot; the pull_request Sonar job scans it instead."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$PR_HEAD" != "$HEAD_SHA" ]; then
+            echo "::notice::PR #$PR head has advanced beyond the commit CI validated; a newer scan run is in flight."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           echo "number=$PR" >> "$GITHUB_OUTPUT"
           echo "available=true" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         if: steps.pr.outputs.available == 'true'
         with:
-          ref: refs/pull/${{ steps.pr.outputs.number }}/merge
+          ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
           persist-credentials: false
+      - name: Reset scanner config to trusted main
+        if: steps.pr.outputs.available == 'true'
+        shell: bash
+        run: |
+          git fetch --no-tags origin main
+          git show origin/main:sonar-project.properties > sonar-project.properties
       - name: Wait for SonarQube
         if: steps.pr.outputs.available == 'true'
         shell: bash

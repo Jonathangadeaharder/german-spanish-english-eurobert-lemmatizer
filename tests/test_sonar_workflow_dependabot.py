@@ -94,7 +94,25 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
         "scan from the gate"
     )
     checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
-    assert "refs/pull/" in str(checkout.get("with", {}).get("ref", ""))
+    ref = str(checkout.get("with", {}).get("ref", ""))
+    assert "github.event.workflow_run.head_sha" in ref, (
+        "checkout must use the CI-validated head SHA: the live merge ref can "
+        "advance between CI completion and the scan (TOCTOU)"
+    )
+    assert "refs/pull/" not in ref
+
+
+def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    reset = next(
+        (s for s in job["steps"] if s.get("name") == "Reset scanner config to trusted main"),
+        None,
+    )
+    assert reset is not None, (
+        "the PR tree's sonar-project.properties must not steer the scan: "
+        "reset it from trusted main before scanning"
+    )
+    assert "git show origin/main:sonar-project.properties" in str(reset["run"])
 
 
 def test_dependabot_job_can_read_pull_requests() -> None:
@@ -117,10 +135,12 @@ def test_dependabot_job_resolves_pr_with_jq_and_fails_loudly() -> None:
     assert "*[!0-9]*" in run, "resolved PR number must be validated as numeric"
     assert "pulls/$PR" in run
     assert ".user.login" in run, "the scan must verify the PR author is dependabot"
-    assert "'dependabot[bot]')" in run, (
-        "the case pattern must be quoted: unquoted dependabot[bot] is a glob "
-        "character class and never matches the real login"
+    assert '"$AUTHOR" != "dependabot[bot]"' in run, (
+        "the author comparison must use the quoted canonical login: unquoted "
+        "dependabot[bot] is a glob character class and never matches"
     )
+    assert ".head.sha" in run, "the scan must verify the PR head SHA matches the scanned commit"
+    assert "$HEAD_SHA" in run, "the head SHA comparison must use the validated workflow_run SHA"
     assert "curl -fsS" in run
     assert "|| true" not in run, "API errors must fail the job, not silently pass it"
     assert "grep" not in run, "parse API JSON with jq, not grep"
