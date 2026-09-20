@@ -16,6 +16,7 @@ runner-local SonarQube on every dependabot PR. The contract under test:
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import yaml
@@ -101,7 +102,13 @@ def test_dependabot_job_resolves_pr_with_jq_and_fails_loudly() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
     resolve = _step_with_id(job, "pr")
     run = str(resolve["run"])
-    assert "jq -r '.[0].number // empty'" in run
+    assert "GITHUB_EVENT_PATH" in run
+    assert "jq -r '.workflow_run.pull_requests[0].number // empty'" in run
+    assert "EVENT_PR" not in run, (
+        "the event PR number must not be evaluated as a GitHub expression: an empty "
+        "pull_requests array must degrade to the API fallback, not fail the step"
+    )
+    assert "*[!0-9]*" in run, "resolved PR number must be validated as numeric"
     assert "curl -fsS" in run
     assert "|| true" not in run, "API errors must fail the job, not silently pass it"
     assert "grep" not in run, "parse API JSON with jq, not grep"
@@ -132,3 +139,14 @@ def test_pull_request_job_skips_scan_steps_when_deferred() -> None:
 def test_workflow_uses_loopback_ip_not_localhost() -> None:
     text = WORKFLOW.read_text()
     assert "localhost:9001" not in text
+
+
+def test_checkout_actions_are_sha_pinned() -> None:
+    jobs = _load_workflow()["jobs"]
+    for job in jobs.values():
+        for step in job["steps"]:
+            uses = str(step.get("uses", ""))
+            if uses.startswith("actions/checkout@"):
+                assert re.fullmatch(r"actions/checkout@[0-9a-f]{40}", uses), (
+                    f"checkout must be SHA-pinned in this secret-bearing workflow: {uses}"
+                )
