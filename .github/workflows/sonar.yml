@@ -74,7 +74,7 @@ jobs:
           SONAR_HOST_URL: http://127.0.0.1:9001
           SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true
       - name: Print new-code issues
-        if: !cancelled() && steps.preflight.outputs.deferred != 'true'
+        if: ${{ !cancelled() && steps.preflight.outputs.deferred != 'true' }}
         shell: bash
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
@@ -196,7 +196,7 @@ jobs:
           SONAR_HOST_URL: http://127.0.0.1:9001
           SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true
       - name: Print new-code issues
-        if: !cancelled() && steps.pr.outputs.available == 'true'
+        if: ${{ !cancelled() && steps.pr.outputs.available == 'true' }}
         shell: bash
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

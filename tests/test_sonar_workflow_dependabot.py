@@ -146,7 +146,7 @@ def test_workflow_uses_loopback_ip_not_localhost() -> None:
 
 def test_diagnostic_steps_do_not_run_on_cancelled_jobs() -> None:
     text = WORKFLOW.read_text()
-    assert "always()" not in text, "use !cancelled(): diagnostics must skip when the job is cancelled"
+    assert "always()" not in text, "!cancelled() skips diagnostics on cancelled jobs"
 
 
 def test_checkout_actions_are_sha_pinned() -> None:
