@@ -109,6 +109,9 @@ def test_dependabot_job_resolves_pr_with_jq_and_fails_loudly() -> None:
         "pull_requests array must degrade to the API fallback, not fail the step"
     )
     assert "*[!0-9]*" in run, "resolved PR number must be validated as numeric"
+    assert "pulls/$PR" in run
+    assert ".user.login" in run, "the scan must verify the PR author is dependabot"
+    assert "dependabot[bot]|app/dependabot" in run
     assert "curl -fsS" in run
     assert "|| true" not in run, "API errors must fail the job, not silently pass it"
     assert "grep" not in run, "parse API JSON with jq, not grep"
