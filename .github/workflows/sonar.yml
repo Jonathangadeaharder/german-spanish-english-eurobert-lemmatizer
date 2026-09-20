@@ -74,7 +74,7 @@ jobs:
           SONAR_HOST_URL: http://127.0.0.1:9001
           SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true
       - name: Print new-code issues
-        if: always() && steps.preflight.outputs.deferred != 'true'
+        if: !cancelled() && steps.preflight.outputs.deferred != 'true'
         shell: bash
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
@@ -102,6 +102,10 @@ jobs:
             echo "::error::SonarQube quality gate is $GATE_STATUS"
             exit 1
           fi
+  # Only dependabot-authored PRs from same-repo dependabot/* branches reach
+  # this secret-scoped job (author re-verified via the PR API in the resolve
+  # step). The checked-out tree cannot override SONAR_HOST_URL (step env) or
+  # reach any secret beyond the runner-local SonarQube token.
   sonarqube-dependabot:
     name: SonarQube (dependabot)
     permissions:
@@ -192,7 +196,7 @@ jobs:
           SONAR_HOST_URL: http://127.0.0.1:9001
           SONAR_SCANNER_OPTS: -Dsonar.qualitygate.wait=true
       - name: Print new-code issues
-        if: always() && steps.pr.outputs.available == 'true'
+        if: !cancelled() && steps.pr.outputs.available == 'true'
         shell: bash
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
