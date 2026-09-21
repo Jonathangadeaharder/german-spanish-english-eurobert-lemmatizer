@@ -181,6 +181,32 @@ def test_diagnostics_surface_failures_instead_of_swallowing() -> None:
         "failures must emit a visible warning"
     )
     assert "::warning::" in run
+    assert "|| echo" in run, (
+        "a 200 with an unexpected payload must degrade to a warning, not "
+        "fail the job after a successful scan"
+    )
+
+
+def test_query_steps_urlencode_the_project_key() -> None:
+    composite = _load_composite()
+    for name in ("Print new-code issues", "Enforce quality gate"):
+        step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
+        run = str(step["run"])
+        assert "curl -fsS -G" in run and "--data-urlencode" in run, (
+            "the project key reaches the API as an encoded parameter, not "
+            "raw URL interpolation that a ':' or '&' can corrupt"
+        )
+
+
+def test_composite_rejects_whitespace_or_quotes_in_project_key() -> None:
+    composite = _load_composite()
+    step = next(s for s in composite["runs"]["steps"] if s.get("name") == "Validate inputs")
+    run = str(step["run"])
+    assert "[[:space:]" in run and "::error::" in run, (
+        "SONAR_SCANNER_OPTS splits on whitespace: a project key containing "
+        "whitespace or quotes must be rejected up front, not silently "
+        "truncated at the scan invocation"
+    )
 
 
 def test_composite_scan_wires_token_from_caller() -> None:
@@ -203,6 +229,10 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "reset it from trusted main before scanning"
     )
     assert "git show origin/main:sonar-project.properties" in str(reset["run"])
+    assert "git rev-parse --verify refs/remotes/origin/main" in str(reset["run"]), (
+        "the reset fetches only when origin/main is not already local: the "
+        "dependabot caller's restore step fetched it moments earlier"
+    )
     assert "inputs.reset-config == 'true'" in str(reset.get("if", "")), (
         "composite inputs are strings and the string 'false' is truthy: the "
         "reset must compare against 'true' explicitly or it runs in every "

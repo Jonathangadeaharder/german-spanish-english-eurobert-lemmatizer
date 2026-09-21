@@ -24,11 +24,21 @@ inputs:
 runs:
   using: composite
   steps:
+    - name: Validate inputs
+      shell: bash
+      env:
+        PROJECT_KEY: ${{ inputs.project-key }}
+      run: |
+        if [[ "$PROJECT_KEY" =~ [[:space:]\"\'] ]]; then
+          echo "::error::project-key must not contain whitespace or quotes: it is interpolated into SONAR_SCANNER_OPTS"
+          exit 1
+        fi
     - name: Reset scanner config to trusted main
       if: ${{ inputs.reset-config == 'true' }}
       shell: bash
       run: |
-        git fetch --no-tags origin main
+        git rev-parse --verify refs/remotes/origin/main >/dev/null 2>&1 \
+          || git fetch --no-tags origin main
         git show origin/main:sonar-project.properties > sonar-project.properties
     - name: Install jq
       shell: bash
@@ -66,14 +76,20 @@ runs:
       run: |
         set -o pipefail
         AUTH="Authorization: Bearer $SONAR_TOKEN"
-        RESPONSE=$(curl -fsS --max-time 10 -H "$AUTH" \
-          "$SONAR_HOST_URL/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100") \
+        RESPONSE=$(curl -fsS -G --max-time 10 -H "$AUTH" \
+          --data-urlencode "componentKeys=$SONAR_PROJECT_KEY" \
+          --data-urlencode "inNewCodePeriod=true" \
+          --data-urlencode "resolved=false" \
+          --data-urlencode "ps=100" \
+          "$SONAR_HOST_URL/api/issues/search") \
           || { echo "::warning::new-code issue query failed; listing skipped"; exit 0; }
-        echo "$RESPONSE" | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"'
-        TOTAL=$(echo "$RESPONSE" | jq -r '.total // 0')
+        echo "$RESPONSE" | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' \
+          || echo "::warning::new-code issue payload did not parse; listing skipped"
+        TOTAL=$(echo "$RESPONSE" | jq -r '.total // 0' || echo 0)
         if [ "${TOTAL:-0}" -gt 100 ]; then
           echo "::warning::${TOTAL} new-code issues match; only the first 100 are listed"
         fi
+        exit 0
     - name: Enforce quality gate
       if: ${{ steps.scan.outcome == 'success' }}
       shell: bash
@@ -83,8 +99,10 @@ runs:
         SONAR_PROJECT_KEY: ${{ inputs.project-key }}
       run: |
         AUTH="Authorization: Bearer $SONAR_TOKEN"
-        GATE=$(curl -fsS --max-time 10 -H "$AUTH" \
-          "$SONAR_HOST_URL/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
+        GATE=$(curl -fsS -G --max-time 10 -H "$AUTH" \
+          --data-urlencode "projectKey=$SONAR_PROJECT_KEY" \
+          "$SONAR_HOST_URL/api/qualitygates/project_status") \
+          || { echo "::error::quality gate query failed"; exit 1; }
         echo "$GATE" | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
         GATE_STATUS=$(echo "$GATE" | jq -r '.projectStatus.status // "UNKNOWN"')
         echo "Gate status: $GATE_STATUS"
