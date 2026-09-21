@@ -45,11 +45,33 @@ def _load_composite() -> dict:
 def _composite_call(job: dict) -> dict:
     calls = [
         s for s in job["steps"]
-        if str(s.get("uses", "")).startswith("./.github/actions/sonar-scan")
+        if "/.github/actions/sonar-scan" in str(s.get("uses", ""))
     ]
     assert calls, "job must invoke the sonar-scan composite action"
     assert len(calls) == 1, "expected exactly one sonar-scan composite call per job"
     return calls[0]
+
+
+def test_pull_request_job_invokes_workspace_composite() -> None:
+    job = _load_workflow()["jobs"]["sonarqube"]
+    uses = str(_composite_call(job).get("uses", ""))
+    assert uses == "./.github/actions/sonar-scan", (
+        "the pull_request job is restricted to same-repo PRs and must run "
+        "the PR's own composite code so changes to it are tested by CI"
+    )
+
+
+def test_dependabot_job_invokes_composite_from_trusted_main() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    uses = str(_composite_call(job).get("uses", ""))
+    assert uses == (
+        "Jonathangadeaharder/german-spanish-english-eurobert-lemmatizer"
+        "/.github/actions/sonar-scan@main"
+    ), (
+        "the dependabot job scans a PR tree in the workspace: a "
+        "workspace-relative (./) composite would execute PR-sourced action "
+        "code with repo secrets"
+    )
 
 
 def _triggers(workflow: dict) -> dict:
@@ -149,10 +171,35 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "reset it from trusted main before scanning"
     )
     assert "git show origin/main:sonar-project.properties" in str(reset["run"])
+    assert "inputs.reset-config == 'true'" in str(reset.get("if", "")), (
+        "composite inputs are strings and the string 'false' is truthy: the "
+        "reset must compare against 'true' explicitly or it runs in every "
+        "caller, including the pull_request job"
+    )
     job = _dependabot_job(_load_workflow()["jobs"])
     assert str(_composite_call(job).get("with", {}).get("reset-config", "")).lower() == "true", (
         "the dependabot job must request the trusted-main config reset"
     )
+
+
+def test_composite_declares_project_key_explicitly() -> None:
+    composite = _load_composite()
+    assert composite["inputs"]["project-key"]["required"] is True, (
+        "the composite must not silently rely on caller job env: declare "
+        "the project key as an input so a missing value fails loudly"
+    )
+    for name in ("Print new-code issues", "Enforce quality gate"):
+        step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
+        assert "${{ inputs.project-key }}" in str(
+            step.get("env", {}).get("SONAR_PROJECT_KEY", "")
+        )
+
+
+def test_jobs_pass_project_key_to_composite() -> None:
+    jobs = _load_workflow()["jobs"]
+    for job in (jobs["sonarqube"], _dependabot_job(jobs)):
+        with_ = _composite_call(job).get("with", {})
+        assert "env.SONAR_PROJECT_KEY" in str(with_.get("project-key", ""))
 
 
 def test_dependabot_job_can_read_pull_requests() -> None:

@@ -5,10 +5,13 @@ inputs:
   token:
     description: SonarQube authentication token (pass secrets.SONAR_TOKEN).
     required: true
+  project-key:
+    description: SonarQube project key scanned and queried by these steps.
+    required: true
   reset-config:
-    description: Replace sonar-project.properties with the trusted main version before scanning.
+    description: "'true' replaces sonar-project.properties with the trusted main version."
     required: false
-    default: false
+    default: 'false'
   scanner-opts:
     description: SONAR_SCANNER_OPTS value for the scan step.
     required: false
@@ -18,7 +21,7 @@ runs:
   using: composite
   steps:
     - name: Reset scanner config to trusted main
-      if: ${{ inputs.reset-config }}
+      if: ${{ inputs.reset-config == 'true' }}
       shell: bash
       run: |
         git fetch --no-tags origin main
@@ -52,6 +55,7 @@ runs:
       shell: bash
       env:
         SONAR_TOKEN: ${{ inputs.token }}
+        SONAR_PROJECT_KEY: ${{ inputs.project-key }}
       run: |
         BASE="http://127.0.0.1:9001"
         AUTH="Authorization: Bearer $SONAR_TOKEN"
@@ -63,6 +67,7 @@ runs:
       shell: bash
       env:
         SONAR_TOKEN: ${{ inputs.token }}
+        SONAR_PROJECT_KEY: ${{ inputs.project-key }}
       run: |
         BASE="http://127.0.0.1:9001"
         AUTH="Authorization: Bearer $SONAR_TOKEN"

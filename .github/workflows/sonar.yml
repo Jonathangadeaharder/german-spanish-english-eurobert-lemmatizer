@@ -51,9 +51,10 @@ jobs:
         if: steps.preflight.outputs.deferred != 'true'
         with:
           token: ${{ secrets.SONAR_TOKEN }}
+          project-key: ${{ env.SONAR_PROJECT_KEY }}
   # Only dependabot-authored same-repo PRs reach this secret-scoped job; the
-  # resolve step re-verifies author and head SHA, and workflow_run resolves
-  # the workflow and composite action from trusted main, not the PR tree.
+  # resolve step re-verifies author and head SHA. The composite action is
+  # ref-pinned to main because the workspace holds the PR tree, not main.
   sonarqube-dependabot:
     name: SonarQube (dependabot)
     permissions:
@@ -123,9 +124,10 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: SonarQube scan
-        uses: ./.github/actions/sonar-scan
+        uses: Jonathangadeaharder/german-spanish-english-eurobert-lemmatizer/.github/actions/sonar-scan@main
         if: steps.pr.outputs.available == 'true'
         with:
           token: ${{ secrets.SONAR_TOKEN }}
-          reset-config: true
+          project-key: ${{ env.SONAR_PROJECT_KEY }}
+          reset-config: 'true'
           scanner-opts: -Dsonar.qualitygate.wait=true -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
