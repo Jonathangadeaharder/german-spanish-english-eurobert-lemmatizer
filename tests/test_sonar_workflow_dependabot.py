@@ -189,6 +189,37 @@ def test_scan_and_gate_target_the_same_project() -> None:
     )
 
 
+def test_install_jq_fails_loudly_without_homebrew() -> None:
+    step = next(s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Install jq")
+    run = str(step["run"])
+    assert "command -v brew" in run and "::error::" in run, (
+        "brew is the only install path: on a runner without Homebrew the "
+        "step must fail with an explicit error, not a cryptic command-not-found"
+    )
+    description = str(_load_composite().get("description", ""))
+    assert "macOS" in description, (
+        "the macOS-only runner requirement must be documented in the "
+        "action description so reuse on ubuntu-* fails on sight, not in CI"
+    )
+
+
+def test_diagnostics_neutralize_log_command_injection() -> None:
+    composite = _load_composite()
+    diagnostics = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Print new-code issues"
+    )
+    run = str(diagnostics["run"])
+    assert 'gsub("[\\\\n\\\\r\\\\t]"; " ")' in run, (
+        "issue messages echo content from the scanned (untrusted) tree: a "
+        "newline plus ::error:: or ::add-mask:: in a message would be "
+        "interpreted as a runner workflow command"
+    )
+    assert run.index("gsub") > run.index('"ISSUE '), (
+        "the neutralizer must apply to the composed line, covering severity, "
+        "rule, component and message fields alike"
+    )
+
+
 def test_diagnostics_surface_failures_instead_of_swallowing() -> None:
     composite = _load_composite()
     diagnostics = next(
@@ -257,6 +288,18 @@ def test_composite_rejects_empty_project_key() -> None:
     )
 
 
+def test_composite_rejects_multitoken_scanner_opts() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert "[[:space:][:cntrl:]]" in run, (
+        "the scanner re-tokenizes SONAR_SCANNER_OPTS on whitespace: a second "
+        "token could inject properties the blocklist does not know, so the "
+        "guard must fail closed on any whitespace or control character"
+    )
+
+
 def test_composite_rejects_endpoint_or_credential_overrides_in_scanner_opts() -> None:
     step = next(
         s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
@@ -294,7 +337,15 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "the reset must be atomic: a truncated empty config must never "
         "replace the working file while the job continues"
     )
-    assert "grep -q . sonar-project.properties.tmp" in str(reset["run"])
+    assert "grep -q '[^[:space:]]' sonar-project.properties.tmp" in str(reset["run"]), (
+        "grep -q . matches whitespace-only lines: a config of blank lines "
+        "would pass and count as the trusted config"
+    )
+    assert "if ! git fetch --no-tags origin main" in str(reset["run"]), (
+        "the fetch fallback runs without persisted credentials: a bare "
+        "failure would be misreported by the following git show as a "
+        "missing config on origin/main"
+    )
     assert "::error::" in str(reset["run"]), (
         "this step is the security control keeping PR-sourced scan config "
         "away from the scan: a bare grep exit code is not a self-explanatory "

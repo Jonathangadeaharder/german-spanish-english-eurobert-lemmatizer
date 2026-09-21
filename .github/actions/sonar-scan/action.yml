@@ -1,5 +1,5 @@
 name: sonar-scan
-description: Shared SonarQube scan steps used by both SonarQube jobs in sonar.yml. Callers check out sources before invoking; the scanner enforces the quality gate via -Dsonar.qualitygate.wait=true.
+description: Shared SonarQube scan steps used by both SonarQube jobs in sonar.yml. Callers check out sources before invoking; the scanner enforces the quality gate via -Dsonar.qualitygate.wait=true. macOS/Homebrew runners only (the jq install path).
 
 inputs:
   token:
@@ -13,7 +13,7 @@ inputs:
     required: false
     default: 'false'
   scanner-opts:
-    description: Extra SONAR_SCANNER_OPTS from the caller; qualitygate.wait and projectKey are always appended. Must never carry untrusted or PR-derived data.
+    description: Extra SONAR_SCANNER_OPTS from the caller, single token only (the scanner re-tokenizes on whitespace); qualitygate.wait and projectKey are always appended. Must never carry untrusted or PR-derived data.
     required: false
     default: ''
   sonar-host-url:
@@ -38,6 +38,10 @@ runs:
           echo "::error::project-key must not contain whitespace or quotes: it is interpolated into SONAR_SCANNER_OPTS"
           exit 1
         fi
+        if [[ "$SCANNER_OPTS" =~ [[:space:][:cntrl:]] ]]; then
+          echo "::error::scanner-opts must be a single token: the scanner re-tokenizes the value on whitespace, so a second token could inject properties the property blocklist does not know"
+          exit 1
+        fi
         if [[ "$SCANNER_OPTS" =~ sonar\.(host\.url|login|token|password) ]]; then
           echo "::error::scanner-opts must not override sonar.host.url or credential properties: they are pinned to the trusted host and token inputs"
           exit 1
@@ -46,22 +50,33 @@ runs:
       if: ${{ inputs.reset-config == 'true' }}
       shell: bash
       run: |
-        git rev-parse --verify refs/remotes/origin/main >/dev/null 2>&1 \
-          || git fetch --no-tags origin main
+        if ! git rev-parse --verify refs/remotes/origin/main >/dev/null 2>&1; then
+          if ! git fetch --no-tags origin main; then
+            echo "::error::failed to fetch origin/main: the trusted scanner config cannot be resolved"
+            exit 1
+          fi
+        fi
         if ! git show origin/main:sonar-project.properties > sonar-project.properties.tmp; then
           rm -f sonar-project.properties.tmp
           echo "::error::origin/main has no sonar-project.properties; refusing to scan without the trusted config"
           exit 1
         fi
-        if ! grep -q . sonar-project.properties.tmp; then
+        if ! grep -q '[^[:space:]]' sonar-project.properties.tmp; then
           rm -f sonar-project.properties.tmp
-          echo "::error::sonar-project.properties on origin/main is empty; refusing to scan without the trusted config"
+          echo "::error::sonar-project.properties on origin/main has no non-whitespace content; refusing to scan without the trusted config"
           exit 1
         fi
         mv sonar-project.properties.tmp sonar-project.properties
     - name: Install jq
       shell: bash
-      run: command -v jq >/dev/null || brew install jq
+      run: |
+        command -v jq >/dev/null && exit 0
+        if command -v brew >/dev/null; then
+          brew install jq
+        else
+          echo "::error::jq is missing and Homebrew is unavailable; this action currently supports macOS runners only"
+          exit 1
+        fi
     - name: Wait for SonarQube
       shell: bash
       env:
@@ -102,7 +117,7 @@ runs:
           --data-urlencode "ps=100" \
           "$SONAR_HOST_URL/api/issues/search") \
           || { echo "::warning::new-code issue query failed; listing skipped"; exit 0; }
-        echo "$RESPONSE" | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' \
+        echo "$RESPONSE" | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)" | gsub("[\\n\\r\\t]"; " ")' \
           || echo "::warning::new-code issue payload did not parse; listing skipped"
         TOTAL=$(echo "$RESPONSE" | jq -r '.total // 0' || echo 0)
         if [ "${TOTAL:-0}" -gt 100 ]; then
