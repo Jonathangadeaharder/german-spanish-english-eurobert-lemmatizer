@@ -71,8 +71,8 @@ runs:
           echo "::error::token is empty: a required input is only enforced when omitted, an empty expression still passes and sends an empty Bearer credential"
           exit 1
         fi
-        if [[ "$SONAR_TOKEN" =~ [[:cntrl:]] ]]; then
-          echo "::error::token contains control characters: formatted into an HTTP header it would inject additional headers"
+        if [[ "$SONAR_TOKEN" =~ [[:cntrl:][:space:]] ]]; then
+          echo "::error::token contains control characters or whitespace: formatted into an HTTP header it would inject additional headers or split the Bearer value"
           exit 1
         fi
         case "$SONAR_HOST_URL" in
@@ -93,7 +93,7 @@ runs:
       run: |
         REMOTE_URL=$(git remote get-url origin || true)
         case "$REMOTE_URL" in
-          "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"https://github.com/$GITHUB_REPOSITORY/"|"git@github.com:$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
+          "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"https://github.com/$GITHUB_REPOSITORY/"|"git@github.com:$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
             ;;
           *)
             echo "::error::origin remote '$REMOTE_URL' is not $GITHUB_REPOSITORY: the trusted-main reset requires the base repository's remote, not a fork's or a similarly named repository's"
@@ -106,6 +106,10 @@ runs:
         fi
         if [ -e sonar-project.properties ] && [ ! -f sonar-project.properties ]; then
           echo "::error::sonar-project.properties exists but is not a regular file: refusing to move the trusted config into it"
+          exit 1
+        fi
+        if [ -e sonar-project.properties.tmp ] && [ ! -f sonar-project.properties.tmp ]; then
+          echo "::error::sonar-project.properties.tmp exists but is not a regular file: refusing to write the trusted config into it"
           exit 1
         fi
         TRUSTED_BRANCH="${TRUSTED_REF#origin/}"

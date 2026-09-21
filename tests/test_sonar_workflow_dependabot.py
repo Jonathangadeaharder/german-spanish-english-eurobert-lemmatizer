@@ -116,7 +116,9 @@ def test_composite_rejects_empty_token() -> None:
         "empty secrets expression passes and produces confusing scanner "
         "and curl failures late in the job instead of failing up front"
     )
-    assert run.index('-z "$SONAR_TOKEN"') < run.index('"$SONAR_TOKEN" =~ [[:cntrl:]]'), (
+    assert run.index('-z "$SONAR_TOKEN"') < run.index(
+        '"$SONAR_TOKEN" =~ [[:cntrl:][:space:]]'
+    ), (
         "the emptiness check must come first: an empty token contains no "
         "control characters and passes the character screen"
     )
@@ -128,9 +130,10 @@ def test_composite_rejects_control_characters_in_token() -> None:
     )
     assert str(step.get("env", {}).get("SONAR_TOKEN", "")) == "${{ inputs.token }}"
     run = str(step["run"])
-    assert '"$SONAR_TOKEN" =~ [[:cntrl:]]' in run, (
-        "a multiline or control-character token formatted into the HTTP "
-        "header injects additional headers into the request"
+    assert '"$SONAR_TOKEN" =~ [[:cntrl:][:space:]]' in run, (
+        "a multiline, control-character or whitespace-bearing token splits "
+        "the Bearer header into a malformed value (or injects additional "
+        "headers) in both the scan and the issues query"
     )
 
 
@@ -624,6 +627,10 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "the ssh:// spelling without .git is also a valid GitHub remote: "
         "exact-match arms must cover it, not reject it"
     )
+    assert '"ssh://git@github.com:22/$GITHUB_REPOSITORY"' in str(reset["run"]), (
+        "the port-22 ssh:// spelling without .git is also a valid GitHub "
+        "remote: exact-match arms must cover it, not reject it"
+    )
     assert '"https://github.com/$GITHUB_REPOSITORY/"' in str(reset["run"]), (
         "the https spelling with a trailing slash is also a valid GitHub "
         "remote: exact-match arms must cover it, not reject it"
@@ -637,6 +644,12 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "mv into a pre-existing directory or FIFO silently hides the "
         "trusted config and the scan runs without it: only a missing path "
         "or a regular file may be replaced"
+    )
+    assert "[ ! -f sonar-project.properties.tmp ]" in str(reset["run"]), (
+        "the redirect into the tmp path follows directories into a "
+        "misleading no-config error and blocks on a planted FIFO until the "
+        "job times out: the same regular-file refusal must cover the tmp "
+        "path"
     )
     assert "::error::" in str(reset["run"]), (
         "this step is the security control keeping PR-sourced scan config "

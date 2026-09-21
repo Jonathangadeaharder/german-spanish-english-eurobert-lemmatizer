@@ -132,7 +132,7 @@ jobs:
         run: |
           REMOTE_URL=$(git remote get-url origin || true)
           case "$REMOTE_URL" in
-            "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"https://github.com/$GITHUB_REPOSITORY/"|"git@github.com:$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
+            "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"https://github.com/$GITHUB_REPOSITORY/"|"git@github.com:$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
               ;;
             *)
               echo "::error::origin remote '$REMOTE_URL' is not $GITHUB_REPOSITORY: refusing to restore the scan action from an unverified remote"
