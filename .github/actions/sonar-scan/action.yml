@@ -1,0 +1,196 @@
+name: sonar-scan
+description: Shared SonarQube scan steps used by both SonarQube jobs in sonar.yml. Callers check out sources before invoking; the scanner enforces the quality gate via -Dsonar.qualitygate.wait=true. macOS/Homebrew runners only (the jq install path).
+
+inputs:
+  token:
+    description: SonarQube authentication token (pass secrets.SONAR_TOKEN).
+    required: true
+  project-key:
+    description: SonarQube project key the scan reports to and the diagnostics query.
+    required: true
+  reset-config:
+    description: "'true' replaces sonar-project.properties with the trusted main version. Opt-in by design: same-repo PRs scan their submitted config, the dependabot path resets because its PR tree is untrusted."
+    required: false
+    default: 'false'
+  scanner-opts:
+    description: Extra SONAR_SCANNER_OPTS from the caller, single token only, allowlisted to -Dsonar.coverage.* properties and -Xmx/-Xss JVM sizes; qualitygate.wait and projectKey are always appended. Must never carry untrusted or PR-derived data.
+    required: false
+    default: ''
+  trusted-ref:
+    description: Remote ref holding the trusted scanner config for the reset path, e.g. origin/main. Must be an origin/<ref> spelling.
+    required: false
+    default: origin/main
+  sonar-host-url:
+    description: SonarQube base URL used for the readiness wait, scan and API calls. Callers must pass a static value only, never PR- or branch-derived data; the SONAR_TOKEN rides a Bearer header to this URL.
+    required: false
+    default: http://127.0.0.1:9001
+
+runs:
+  using: composite
+  steps:
+    - name: Validate inputs
+      id: validate
+      shell: bash
+      env:
+        PROJECT_KEY: ${{ inputs.project-key }}
+        SCANNER_OPTS: ${{ inputs.scanner-opts }}
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
+        RESET_CONFIG: ${{ inputs.reset-config }}
+        TRUSTED_REF: ${{ inputs.trusted-ref }}
+        SONAR_TOKEN: ${{ inputs.token }}
+      run: |
+        if [ -z "$PROJECT_KEY" ]; then
+          echo "::error::project-key is empty: a required input is only enforced when omitted, an empty expression still passes and would disable the issues filter"
+          exit 1
+        fi
+        if [[ "$PROJECT_KEY" =~ [[:cntrl:][:space:]\"\'] ]]; then
+          echo "::error::project-key must not contain control characters, whitespace or quotes: it is interpolated into SONAR_SCANNER_OPTS"
+          exit 1
+        fi
+        if [[ "$SCANNER_OPTS" =~ [[:space:][:cntrl:]] ]]; then
+          echo "::error::scanner-opts must be a single token: the scanner re-tokenizes the value on whitespace, so a second token could inject properties outside the allowlist"
+          exit 1
+        fi
+        ALLOWED='^(-Dsonar\.coverage\.[A-Za-z0-9._-]+=[^[:space:]]+|-Xmx[0-9]+[kKmMgG]|-Xss[0-9]+[kKmMgG])?$'
+        if [[ ! "$SCANNER_OPTS" =~ $ALLOWED ]]; then
+          echo "::error::scanner-opts is allowlisted to -Dsonar.coverage.* properties and -Xmx/-Xss JVM sizes with an explicit unit: scan-targeting and credential properties are not accepted"
+          exit 1
+        fi
+        case "$RESET_CONFIG" in
+          'true'|'false') ;;
+          *)
+            echo "::error::reset-config must be 'true' or 'false': any other spelling silently disables the trusted-config security control"
+            exit 1
+            ;;
+        esac
+        if [[ ! "$TRUSTED_REF" =~ ^origin/[A-Za-z0-9._/-]+$ ]]; then
+          echo "::error::trusted-ref must be an origin/<ref> spelling like origin/main: it names the remote ref the trusted config is reset from"
+          exit 1
+        fi
+        if [[ "$TRUSTED_REF" =~ (\.\.|^origin/\.|/\.) ]]; then
+          echo "::error::trusted-ref must not contain consecutive dots or dot-leading components: git rejects those refnames and validation must not rely on that"
+          exit 1
+        fi
+        if [ -z "$SONAR_TOKEN" ]; then
+          echo "::error::token is empty: a required input is only enforced when omitted, an empty expression still passes and sends an empty Bearer credential"
+          exit 1
+        fi
+        if [[ "$SONAR_TOKEN" =~ [[:cntrl:][:space:]] ]]; then
+          echo "::error::token contains control characters or whitespace: formatted into an HTTP header it would inject additional headers or split the Bearer value"
+          exit 1
+        fi
+        case "$SONAR_HOST_URL" in
+          *@*)
+            echo "::error::sonar-host-url must not contain userinfo: the host after any @ would receive the SONAR_TOKEN Bearer header"
+            exit 1
+            ;;
+        esac
+        if [[ ! "$SONAR_HOST_URL" =~ ^(http://127\.0\.0\.1(:[0-9]+)?(/.*)?|https://[^[:space:][:cntrl:]]+)$ ]]; then
+          echo "::error::sonar-host-url must be loopback http or an https URL, anchored to the host: it receives the SONAR_TOKEN as a Bearer header"
+          exit 1
+        fi
+    - name: Reset scanner config to trusted main
+      if: ${{ inputs.reset-config == 'true' }}
+      shell: bash
+      env:
+        TRUSTED_REF: ${{ inputs.trusted-ref }}
+      run: |
+        REMOTE_URL=$(git remote get-url origin || true)
+        case "$REMOTE_URL" in
+          "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"https://github.com/$GITHUB_REPOSITORY/"|"git@github.com:$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
+            ;;
+          *)
+            echo "::error::origin remote '$REMOTE_URL' is not $GITHUB_REPOSITORY: the trusted-main reset requires the base repository's remote, not a fork's or a similarly named repository's"
+            exit 1
+            ;;
+        esac
+        if [ -L sonar-project.properties ] || [ -L sonar-project.properties.tmp ]; then
+          echo "::error::unexpected symlink at sonar-project.properties(.tmp): refusing to write the trusted config through it"
+          exit 1
+        fi
+        if [ -e sonar-project.properties ] && [ ! -f sonar-project.properties ]; then
+          echo "::error::sonar-project.properties exists but is not a regular file: refusing to move the trusted config into it"
+          exit 1
+        fi
+        if [ -e sonar-project.properties.tmp ] && [ ! -f sonar-project.properties.tmp ]; then
+          echo "::error::sonar-project.properties.tmp exists but is not a regular file: refusing to write the trusted config into it"
+          exit 1
+        fi
+        TRUSTED_BRANCH="${TRUSTED_REF#origin/}"
+        if ! git rev-parse --verify "refs/remotes/$TRUSTED_REF" >/dev/null 2>&1; then
+          if ! git fetch --no-tags origin "+refs/heads/$TRUSTED_BRANCH:refs/remotes/$TRUSTED_REF"; then
+            echo "::error::failed to fetch origin/$TRUSTED_BRANCH: the trusted scanner config cannot be resolved"
+            exit 1
+          fi
+        fi
+        if ! git show "$TRUSTED_REF:sonar-project.properties" > sonar-project.properties.tmp; then
+          rm -f sonar-project.properties.tmp
+          echo "::error::$TRUSTED_REF has no sonar-project.properties; refusing to scan without the trusted config"
+          exit 1
+        fi
+        if ! grep -q '[^[:space:]]' sonar-project.properties.tmp; then
+          rm -f sonar-project.properties.tmp
+          echo "::error::sonar-project.properties on $TRUSTED_REF has no non-whitespace content; refusing to scan without the trusted config"
+          exit 1
+        fi
+        mv sonar-project.properties.tmp sonar-project.properties
+    - name: Install jq
+      shell: bash
+      run: |
+        command -v jq >/dev/null && exit 0
+        if command -v brew >/dev/null; then
+          brew install jq
+        else
+          echo "::error::jq is missing and Homebrew is unavailable; this action currently supports macOS runners only"
+          exit 1
+        fi
+    - name: Wait for SonarQube
+      shell: bash
+      env:
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
+      run: |
+        for i in $(seq 1 36); do
+          STATUS=$(curl -sf --max-time 2 "$SONAR_HOST_URL/api/system/status" \
+            | jq -r '.status' || true)
+          echo "Sonar status: ${STATUS:-unreachable} ($i/36)"
+          if [ "$STATUS" = "UP" ]; then
+            exit 0
+          fi
+          sleep 5
+        done
+        echo "::error::SonarQube at $SONAR_HOST_URL never became UP"
+        exit 1
+    - name: SonarQube Scan
+      id: scan
+      if: ${{ steps.validate.outcome == 'success' }}
+      uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
+      env:
+        SONAR_TOKEN: ${{ inputs.token }}
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
+        SONAR_SCANNER_OPTS: ${{ inputs.scanner-opts }} -Dsonar.qualitygate.wait=true -Dsonar.projectKey=${{ inputs.project-key }}
+    - name: Print new-code issues
+      if: ${{ !cancelled() && steps.validate.outcome == 'success' && steps.scan.outcome != 'skipped' }}
+      shell: bash
+      env:
+        SONAR_TOKEN: ${{ inputs.token }}
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
+        SONAR_PROJECT_KEY: ${{ inputs.project-key }}
+      run: |
+        set -o pipefail
+        RESPONSE=$(printf 'Authorization: Bearer %s\n' "$SONAR_TOKEN" | curl -fsS -G --max-time 10 --header @- \
+          --data-urlencode "componentKeys=$SONAR_PROJECT_KEY" \
+          --data-urlencode "inNewCodePeriod=true" \
+          --data-urlencode "resolved=false" \
+          --data-urlencode "ps=100" \
+          "$SONAR_HOST_URL/api/issues/search") \
+          || { echo "::warning::new-code issue query failed; listing skipped"; exit 0; }
+        echo "$RESPONSE" | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)" | gsub("[\\n\\r\\t]"; " ")' \
+          || echo "::warning::new-code issue payload did not parse; listing skipped"
+        TOTAL=$(echo "$RESPONSE" | jq -r '.total // 0' || echo 0)
+        case "$TOTAL" in
+          ''|*[!0-9]*) TOTAL=0 ;;
+        esac
+        if [ "${TOTAL:-0}" -gt 100 ]; then
+          echo "::warning::${TOTAL} new-code issues match; only the first 100 are listed"
+        fi
+        exit 0

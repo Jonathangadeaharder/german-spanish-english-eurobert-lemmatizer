@@ -12,6 +12,15 @@ runner-local SonarQube on every dependabot PR. The contract under test:
   redundant default-branch scans cancelling push-triggered runs);
 - PR-number resolution fails loudly on API errors (no silent green bypass)
   and only skips when the API confirms no pull request exists.
+
+The shared scan steps (config reset, jq, wait, scan, diagnostics) live
+in the composite action ``.github/actions/sonar-scan``; both jobs check
+out sources caller-side before invoking it (local composite actions
+are loaded from the workspace and cannot check out themselves). The
+scanner itself enforces the quality gate via
+``-Dsonar.qualitygate.wait=true``; a separate post-scan gate check was
+removed as dead code (it could only fail on query flakiness, turning
+infra blips into red builds).
 """
 
 from __future__ import annotations
@@ -22,11 +31,247 @@ from pathlib import Path
 import yaml
 
 WORKFLOW = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "sonar.yml"
+COMPOSITE = (
+    Path(__file__).resolve().parents[1] / ".github" / "actions" / "sonar-scan" / "action.yml"
+)
 
 
 def _load_workflow() -> dict:
     with WORKFLOW.open() as fh:
         return yaml.safe_load(fh)
+
+
+def _load_composite() -> dict:
+    with COMPOSITE.open() as fh:
+        return yaml.safe_load(fh)
+
+
+def _composite_call(job: dict) -> dict:
+    calls = [
+        s for s in job["steps"]
+        if "/.github/actions/sonar-scan" in str(s.get("uses", ""))
+    ]
+    assert calls, "job must invoke the sonar-scan composite action"
+    assert len(calls) == 1, "expected exactly one sonar-scan composite call per job"
+    return calls[0]
+
+
+def test_pull_request_job_invokes_workspace_composite() -> None:
+    job = _load_workflow()["jobs"]["sonarqube"]
+    uses = str(_composite_call(job).get("uses", ""))
+    assert uses == "./.github/actions/sonar-scan", (
+        "the pull_request job is restricted to same-repo PRs and must run "
+        "the PR's own composite code so changes to it are tested by CI"
+    )
+
+
+def test_dependabot_job_restores_scan_action_from_trusted_main() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        (
+            s
+            for s in job["steps"]
+            if s.get("name") == "Restore scan action from trusted main"
+        ),
+        None,
+    )
+    assert restore is not None, (
+        "the dependabot job scans a PR tree in the workspace: without a "
+        "restore step, a workspace-relative composite executes PR-sourced "
+        "action code with repo secrets"
+    )
+    assert "steps.pr.outputs.available == 'true'" in str(restore.get("if", ""))
+    assert "git checkout origin/main -- .github/actions" in str(restore["run"])
+    call = _composite_call(job)
+    assert str(call.get("uses", "")) == "./.github/actions/sonar-scan"
+    assert job["steps"].index(restore) < job["steps"].index(call)
+
+
+def test_restore_removes_pr_added_action_files() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    assert "rm -rf .github/actions" in run, (
+        "restoring only .github/actions/sonar-scan leaves every other "
+        "PR-added sibling action in place: the moment trusted main's "
+        "composite grows a second local uses:, it would resolve from the "
+        "PR tree and run with SONAR_TOKEN"
+    )
+    assert "rm -rf .github/actions/sonar-scan" not in run
+    assert "git checkout origin/main -- .github/actions/sonar-scan" not in run
+    assert run.index("rm -rf .github/actions") < run.index(
+        "git checkout origin/main -- .github/actions"
+    )
+
+
+def test_composite_rejects_empty_token() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert '-z "$SONAR_TOKEN"' in run, (
+        "required is only enforced when an input is omitted from with:: an "
+        "empty secrets expression passes and produces confusing scanner "
+        "and curl failures late in the job instead of failing up front"
+    )
+    assert run.index('-z "$SONAR_TOKEN"') < run.index(
+        '"$SONAR_TOKEN" =~ [[:cntrl:][:space:]]'
+    ), (
+        "the emptiness check must come first: an empty token contains no "
+        "control characters and passes the character screen"
+    )
+
+
+def test_composite_rejects_control_characters_in_token() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("SONAR_TOKEN", "")) == "${{ inputs.token }}"
+    run = str(step["run"])
+    assert '"$SONAR_TOKEN" =~ [[:cntrl:][:space:]]' in run, (
+        "a multiline, control-character or whitespace-bearing token splits "
+        "the Bearer header into a malformed value (or injects additional "
+        "headers) in both the scan and the issues query"
+    )
+
+
+def test_composite_validates_trusted_ref_spelling() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("TRUSTED_REF", "")) == "${{ inputs.trusted-ref }}"
+    run = str(step["run"])
+    assert "^origin/[A-Za-z0-9._/-]+$" in run, (
+        "the reset fetches and shows whatever ref this input names: it must "
+        "be pinned to the origin/ namespace or a caller could point it at "
+        "refs/pull/*"
+    )
+
+
+def test_composite_rejects_dot_components_in_trusted_ref() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert r"(\.\.|^origin/\.|/\.)" in run, (
+        "the charset regex admits origin/.., origin/main/../evil and "
+        "dot-leading components: safety must not depend on git rejecting "
+        "those refnames downstream, and dotted branch names like v1.2 "
+        "must still pass"
+    )
+    assert run.index("^origin/[A-Za-z0-9._/-]+$") < run.index(r"(\.\.|^origin/\.|/\.)"), (
+        "the dot screen presupposes the origin/ shape: it must run after "
+        "the spelling check, not before"
+    )
+
+
+def test_restore_verifies_main_has_the_action_before_replacing() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    assert "git cat-file -e origin/main:.github/actions/sonar-scan/action.yml" in run, (
+        "rm -rf deletes the PR-tree copy before the checkout: if main does "
+        "not provide the action, the job dies with a confusing 'Can't find "
+        "action.yml' instead of an explicit error"
+    )
+    assert run.index("git cat-file -e") < run.index("rm -rf .github/actions")
+
+
+def test_restore_validates_origin_remote_before_fetch() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    assert "git remote get-url origin" in run and "::error::" in run, (
+        "the restore installs executable action code that runs with "
+        "SONAR_TOKEN: on a persisted self-hosted workspace a stale or "
+        "forged origin makes the fetch and checkout pull attacker-chosen "
+        "code, and the composite's own remote check runs only after that "
+        "code is already in place"
+    )
+    assert '"https://github.com/$GITHUB_REPOSITORY.git"' in run, (
+        "the origin check must be an exact match against the base "
+        "repository, using the same arms as the composite's reset step"
+    )
+    assert run.index("git remote get-url origin") < run.index("git fetch"), (
+        "the remote must be verified before anything is fetched from it"
+    )
+    assert (
+        'git fetch --no-tags origin "+refs/heads/main:refs/remotes/origin/main"' in run
+    ), (
+        "a bare-branch fetch depends on the workspace's fetch refspec "
+        "configuring the opportunistic remote-tracking update: map the "
+        "refspec explicitly like the composite's reset path"
+    )
+
+
+def _origin_allowlist_arms(run: str) -> str:
+    match = re.search(r'case "\$REMOTE_URL" in\s*\n\s*(.+)', run)
+    assert match, "origin-remote allowlist case block not found"
+    return match.group(1).strip()
+
+
+def test_origin_remote_allowlist_cannot_drift_between_copies() -> None:
+    workflow_run = str(
+        next(
+            s
+            for s in _dependabot_job(_load_workflow()["jobs"])["steps"]
+            if s.get("name") == "Restore scan action from trusted main"
+        )["run"]
+    )
+    composite_run = str(
+        next(
+            s
+            for s in _load_composite()["runs"]["steps"]
+            if s.get("name") == "Reset scanner config to trusted main"
+        )["run"]
+    )
+    assert _origin_allowlist_arms(workflow_run) == _origin_allowlist_arms(composite_run), (
+        "the origin-remote check exists in two copies because the "
+        "workflow-level one must run before any PR-tree code can be "
+        "trusted: if the arm sets drift, one copy accepts a remote the "
+        "other rejects, so the suite is the single source keeping them "
+        "in lockstep"
+    )
+
+
+def test_restore_and_composite_trusted_refs_lockstep() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    match = re.search(
+        r'refs/heads/([A-Za-z0-9._/-]+):refs/remotes/origin/\1', str(restore["run"])
+    )
+    assert match, "the restore fetch must map its refspec explicitly"
+    assert str(_composite_call(job).get("with", {}).get("trusted-ref", "")) == (
+        f"origin/{match.group(1)}"
+    ), (
+        "the restore fetches the action from one branch while the composite "
+        "resets the scanner config from the trusted-ref input: two "
+        "independently configurable trust roots can drift, so the call must "
+        "pin trusted-ref to the branch the restore actually used"
+    )
+
+
+def test_restore_refuses_symlinked_action_paths() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    for path in (".github", ".github/actions"):
+        assert f"[ -L {path} ]" in run, (
+            f"rm -rf and git checkout resolve through a planted symlink at "
+            f"{path} and can write outside the workspace on the self-hosted "
+            "runner"
+        )
+    assert run.index("[ -L .github ]") < run.index("rm -rf .github/actions")
 
 
 def _triggers(workflow: dict) -> dict:
@@ -45,6 +290,12 @@ def _dependabot_job(jobs: dict) -> dict:
 def _step_with_id(job: dict, step_id: str) -> dict:
     steps = [s for s in job["steps"] if s.get("id") == step_id]
     assert steps, f"job must have a step with id '{step_id}'"
+    return steps[0]
+
+
+def _step_with_name(job: dict, name: str) -> dict:
+    steps = [s for s in job["steps"] if s.get("name") == name]
+    assert steps, f"job must have a step named '{name}'"
     return steps[0]
 
 
@@ -85,13 +336,11 @@ def test_dependabot_job_gates_on_branch_prefix_only() -> None:
 
 def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
-    scan = _step_with_id(job, "scan")
-    assert "secrets.SONAR_TOKEN" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
-    scanner_opts = str(scan.get("env", {}).get("SONAR_SCANNER_OPTS", ""))
-    assert "-Dsonar.projectKey=" in scanner_opts, (
-        "projectKey must be pinned on the command line: the tree's "
-        "sonar-project.properties is PR-controlled and must not decouple the "
-        "scan from the gate"
+    call = _composite_call(job)
+    with_ = call.get("with", {})
+    assert "secrets.SONAR_TOKEN" in str(with_.get("token", "")), (
+        "the dependabot scan must run with the repo secret; the token "
+        "reaches the composite via the token input"
     )
     checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
     ref = str(checkout.get("with", {}).get("ref", ""))
@@ -102,17 +351,383 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
     assert "refs/pull/" not in ref
 
 
+def test_scan_and_gate_target_the_same_project() -> None:
+    scan = _step_with_name(_load_composite()["runs"], "SonarQube Scan")
+    scanner_opts = str(scan.get("env", {}).get("SONAR_SCANNER_OPTS", ""))
+    assert "-Dsonar.projectKey=${{ inputs.project-key }}" in scanner_opts, (
+        "the scan must be pinned to the same project-key input the gate "
+        "queries: otherwise a PR-controlled sonar-project.properties can "
+        "steer the scan to a different project than the gate evaluates"
+    )
+    assert "-Dsonar.qualitygate.wait=true" in scanner_opts, (
+        "the gate-wait flag must not live in the overridable scanner-opts "
+        "input: a caller override could otherwise drop it and race the "
+        "separate gate check with an UNKNOWN result"
+    )
+
+
+def test_install_jq_fails_loudly_without_homebrew() -> None:
+    step = next(s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Install jq")
+    run = str(step["run"])
+    assert "command -v brew" in run and "::error::" in run, (
+        "brew is the only install path: on a runner without Homebrew the "
+        "step must fail with an explicit error, not a cryptic command-not-found"
+    )
+    description = str(_load_composite().get("description", ""))
+    assert "macOS" in description, (
+        "the macOS-only runner requirement must be documented in the "
+        "action description so reuse on ubuntu-* fails on sight, not in CI"
+    )
+
+
+def test_diagnostics_neutralize_log_command_injection() -> None:
+    composite = _load_composite()
+    diagnostics = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Print new-code issues"
+    )
+    run = str(diagnostics["run"])
+    assert 'gsub("[\\\\n\\\\r\\\\t]"; " ")' in run, (
+        "issue messages echo content from the scanned (untrusted) tree: a "
+        "newline plus ::error:: or ::add-mask:: in a message would be "
+        "interpreted as a runner workflow command"
+    )
+    assert run.index("gsub") > run.index('"ISSUE '), (
+        "the neutralizer must apply to the composed line, covering severity, "
+        "rule, component and message fields alike"
+    )
+    assert "*[!0-9]*" in run, (
+        "a non-numeric .total makes the -gt test error out instead of "
+        "degrading gracefully like the rest of the step"
+    )
+
+
+def test_diagnostics_surface_failures_instead_of_swallowing() -> None:
+    composite = _load_composite()
+    diagnostics = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Print new-code issues"
+    )
+    run = str(diagnostics["run"])
+    assert "set -o pipefail" in run
+    assert "|| true" not in run, (
+        "a swallowed curl/jq failure reads as 'no new-code issues': query "
+        "failures must emit a visible warning"
+    )
+    assert "::warning::" in run
+    assert "|| echo" in run, (
+        "a 200 with an unexpected payload must degrade to a warning, not "
+        "fail the job after a successful scan"
+    )
+
+
+def test_query_steps_urlencode_the_project_key() -> None:
+    composite = _load_composite()
+    for name in ("Print new-code issues",):
+        step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
+        run = str(step["run"])
+        assert "curl -fsS -G" in run and "--data-urlencode" in run, (
+            "the project key reaches the API as an encoded parameter, not "
+            "raw URL interpolation that a ':' or '&' can corrupt"
+        )
+        assert "--header @-" in run and "printf 'Authorization: Bearer %s\\n' " in run, (
+            "curl -H puts the token in the argv of the runner process where "
+            "ps and process auditing can see it: pass it via stdin instead"
+        )
+        assert 'AUTH="Authorization' not in run, (
+            "the bearer header must not be composed into a shell variable "
+            "that ends up in the curl command line"
+        )
+
+
+def test_callers_pass_only_declared_composite_inputs() -> None:
+    declared = set(_load_composite()["inputs"])
+    jobs = _load_workflow()["jobs"]
+    for job in (jobs["sonarqube"], _dependabot_job(jobs)):
+        for key in _composite_call(job).get("with", {}):
+            assert key in declared, (
+                f"composite call passes unrecognized input '{key}': GitHub "
+                "silently ignores unknown action inputs, so a typo here "
+                "disables the corresponding behavior without failing CI"
+            )
+
+
+def test_composite_rejects_whitespace_or_quotes_in_project_key() -> None:
+    composite = _load_composite()
+    step = next(s for s in composite["runs"]["steps"] if s.get("name") == "Validate inputs")
+    run = str(step["run"])
+    assert '[[:cntrl:][:space:]' in run and "::error::" in run, (
+        "SONAR_SCANNER_OPTS splits on whitespace and chokes on control "
+        "characters: a project key containing either must be rejected up "
+        "front, not silently mis-scanned"
+    )
+
+
+def test_composite_rejects_empty_project_key() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert '-z "$PROJECT_KEY"' in run, (
+        "required is only enforced when an input is omitted from with:: an "
+        "empty expression passes and yields -Dsonar.projectKey= plus an "
+        "unfiltered componentKeys= query instead of failing loudly"
+    )
+    assert run.index('-z "$PROJECT_KEY"') < run.index("[[:space:"), (
+        "the emptiness check must come first: an empty key contains no "
+        "whitespace and passes the character screen"
+    )
+
+
+def test_composite_rejects_multitoken_scanner_opts() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert "[[:space:][:cntrl:]]" in run, (
+        "the scanner re-tokenizes SONAR_SCANNER_OPTS on whitespace: a second "
+        "token could inject properties the blocklist does not know, so the "
+        "guard must fail closed on any whitespace or control character"
+    )
+
+
+def test_composite_allowlists_scanner_opts() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("SCANNER_OPTS", "")) == "${{ inputs.scanner-opts }}"
+    run = str(step["run"])
+    assert "sonar\\.coverage\\." in run and "-Xmx" in run and "-Xss" in run, (
+        "a blocklist is inherently incomplete (projectBaseDir, sources, "
+        "exclusions, branch.name alter the scan materially): scanner-opts "
+        "must be allowlisted to coverage properties and JVM sizes"
+    )
+    assert "-Xmx[0-9]+[kKmMgG]" in run, (
+        "a JVM size without an explicit unit is bytes and crashes the "
+        "scanner on a typo: require the unit"
+    )
+    assert "sonar\\.(host\\.url|login|token|password)" not in run, (
+        "the round-7 blocklist is superseded by the allowlist"
+    )
+
+
+def test_composite_validates_sonar_host_url_scheme() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("SONAR_HOST_URL", "")) == "${{ inputs.sonar-host-url }}"
+    run = str(step["run"])
+    assert "*@*" in run and "::error::" in run, (
+        "the token rides the Bearer header to whatever host this input "
+        "names: userinfo can redirect the effective host"
+    )
+    assert "http://127\\.0\\.0\\.1(:[0-9]+)?(/.*)?" in run, (
+        "a glob arm like http://127.0.0.1* accepts 127.0.0.1.attacker.com: "
+        "the loopback host must be anchored"
+    )
+
+
+def test_scan_requires_successful_validation() -> None:
+    composite = _load_composite()
+    scan = next(s for s in composite["runs"]["steps"] if s.get("name") == "SonarQube Scan")
+    if_ = str(scan.get("if", ""))
+    assert "steps.validate.outcome == 'success'" in if_, (
+        "a caller invoking this action with step- or job-level "
+        "continue-on-error lets a failed validation continue into the scan, "
+        "injecting the unvalidated project-key and scanner-opts straight "
+        "into SONAR_SCANNER_OPTS and bypassing the allowlist"
+    )
+
+
+def test_diagnostics_require_successful_validation() -> None:
+    composite = _load_composite()
+    validate = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert validate.get("id") == "validate"
+    diagnostics = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Print new-code issues"
+    )
+    if_ = str(diagnostics.get("if", ""))
+    assert "steps.validate.outcome == 'success'" in if_, (
+        "!cancelled() runs the diagnostics even after a failed validation, "
+        "sending the SONAR_TOKEN Bearer header to the host validation "
+        "rejected"
+    )
+    assert "steps.scan.outcome != 'skipped'" in if_, (
+        "without the scan-attempted gate, a reset/wait/install failure still "
+        "triggers a token-bearing query that lists issues from a previous "
+        "scan as if they were current"
+    )
+
+
+def test_composite_rejects_mispelled_reset_config() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("RESET_CONFIG", "")) == "${{ inputs.reset-config }}"
+    run = str(step["run"])
+    assert "'true'|'false') ;;" in run and "::error::" in run, (
+        "any non-'true' spelling silently disables the trusted-config "
+        "security control: the guard is == 'true', so 'True'/'yes'/'1' "
+        "must fail loudly instead of downgrading to reset-config=false"
+    )
+
+
+def test_composite_scan_wires_token_from_caller() -> None:
+    scan = _step_with_name(_load_composite()["runs"], "SonarQube Scan")
+    assert "${{ inputs.token }}" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
+    assert scan.get("id") == "scan", (
+        "the diagnostics gate must know whether the scan was attempted: "
+        "without the id the gate cannot distinguish a failed scan (issues "
+        "worth listing) from a skipped one (stale issues)"
+    )
+
+
 def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
-    job = _dependabot_job(_load_workflow()["jobs"])
+    composite = _load_composite()
     reset = next(
-        (s for s in job["steps"] if s.get("name") == "Reset scanner config to trusted main"),
+        (
+            s
+            for s in composite["runs"]["steps"]
+            if s.get("name") == "Reset scanner config to trusted main"
+        ),
         None,
     )
     assert reset is not None, (
         "the PR tree's sonar-project.properties must not steer the scan: "
         "reset it from trusted main before scanning"
     )
-    assert "git show origin/main:sonar-project.properties" in str(reset["run"])
+    assert reset.get("env", {}).get("TRUSTED_REF") == "${{ inputs.trusted-ref }}"
+    assert '"$TRUSTED_REF:sonar-project.properties"' in str(reset["run"]), (
+        "hardcoding origin/main makes the reset abort on repositories whose "
+        "default branch is not main: the ref comes from the trusted-ref input"
+    )
+    assert "git rev-parse --verify \"refs/remotes/$TRUSTED_REF\"" in str(reset["run"]), (
+        "the local-ref fetch guard must check the same parameterized ref"
+    )
+    assert (
+        'git fetch --no-tags origin '
+        '"+refs/heads/$TRUSTED_BRANCH:refs/remotes/$TRUSTED_REF"' in str(reset["run"])
+    ), (
+        "fetching the bare branch stores only FETCH_HEAD on single-ref "
+        "checkouts, so the remote-tracking ref the git show reads is never "
+        "created: the refspec must map it explicitly"
+    )
+    assert (
+        'if ! git fetch --no-tags origin '
+        '"+refs/heads/$TRUSTED_BRANCH:refs/remotes/$TRUSTED_REF"' in str(reset["run"])
+    ), (
+        "the fetch fallback runs without persisted credentials: a bare "
+        "failure would be misreported by the following git show as a "
+        "missing trusted config"
+    )
+    assert "sonar-project.properties.tmp" in str(reset["run"]), (
+        "the reset must be atomic: a truncated empty config must never "
+        "replace the working file while the job continues"
+    )
+    assert "grep -q '[^[:space:]]' sonar-project.properties.tmp" in str(reset["run"]), (
+        "grep -q . matches whitespace-only lines: a config of blank lines "
+        "would pass and count as the trusted config"
+    )
+    assert "$TRUSTED_REF has no non-whitespace content" in str(reset["run"]), (
+        "the empty-config error hardcoded origin/main: with a configurable "
+        "trusted-ref the message named the wrong ref and misled the operator"
+    )
+    assert '"https://github.com/$GITHUB_REPOSITORY.git"' in str(reset["run"]), (
+        "a substring remote match lets owner/repo-evil pass for owner/repo: "
+        "the remote must equal the base repository's exact URL"
+    )
+    assert "ssh://git@github.com/$GITHUB_REPOSITORY.git" in str(reset["run"]), (
+        "exact URL matching must not reject legitimate ssh:// remotes: "
+        "fail-closed is right, unusable-for-valid-setups is not"
+    )
+    assert '"git@github.com:$GITHUB_REPOSITORY"' in str(reset["run"]), (
+        "the git@ spelling without a .git suffix is a valid GitHub remote: "
+        "exact-match arms must cover it, not reject it"
+    )
+    assert '"ssh://git@github.com/$GITHUB_REPOSITORY"' in str(reset["run"]), (
+        "the ssh:// spelling without .git is also a valid GitHub remote: "
+        "exact-match arms must cover it, not reject it"
+    )
+    assert '"ssh://git@github.com:22/$GITHUB_REPOSITORY"' in str(reset["run"]), (
+        "the port-22 ssh:// spelling without .git is also a valid GitHub "
+        "remote: exact-match arms must cover it, not reject it"
+    )
+    assert '"https://github.com/$GITHUB_REPOSITORY/"' in str(reset["run"]), (
+        "the https spelling with a trailing slash is also a valid GitHub "
+        "remote: exact-match arms must cover it, not reject it"
+    )
+    assert "[ -L sonar-project.properties ]" in str(reset["run"]), (
+        "the trusted-config write follows a planted symlink at the tmp "
+        "path: this is the same class of attack the sonar.yml restore "
+        "guard covers for .github/actions"
+    )
+    assert "[ ! -f sonar-project.properties ]" in str(reset["run"]), (
+        "mv into a pre-existing directory or FIFO silently hides the "
+        "trusted config and the scan runs without it: only a missing path "
+        "or a regular file may be replaced"
+    )
+    assert "[ ! -f sonar-project.properties.tmp ]" in str(reset["run"]), (
+        "the redirect into the tmp path follows directories into a "
+        "misleading no-config error and blocks on a planted FIFO until the "
+        "job times out: the same regular-file refusal must cover the tmp "
+        "path"
+    )
+    assert "::error::" in str(reset["run"]), (
+        "this step is the security control keeping PR-sourced scan config "
+        "away from the scan: a bare grep exit code is not a self-explanatory "
+        "CI failure"
+    )
+    assert "rm -f sonar-project.properties.tmp" in str(reset["run"]), (
+        "a failed reset must not leave the empty temp file behind in the "
+        "workspace while the original file is untouched"
+    )
+    assert "inputs.reset-config == 'true'" in str(reset.get("if", "")), (
+        "composite inputs are strings and the string 'false' is truthy: the "
+        "reset must compare against 'true' explicitly or it runs in every "
+        "caller, including the pull_request job"
+    )
+    job = _dependabot_job(_load_workflow()["jobs"])
+    assert str(_composite_call(job).get("with", {}).get("reset-config", "")).lower() == "true", (
+        "the dependabot job must request the trusted-main config reset"
+    )
+
+
+def test_composite_declares_project_key_explicitly() -> None:
+    composite = _load_composite()
+    assert composite["inputs"]["project-key"]["required"] is True, (
+        "the composite must not silently rely on caller job env: declare "
+        "the project key as an input so a missing value fails loudly"
+    )
+    for name in ("Print new-code issues",):
+        step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
+        assert "${{ inputs.project-key }}" in str(
+            step.get("env", {}).get("SONAR_PROJECT_KEY", "")
+        )
+
+
+def test_composite_single_sources_the_sonar_host_url() -> None:
+    composite = _load_composite()
+    assert composite["inputs"]["sonar-host-url"]["default"] == "http://127.0.0.1:9001"
+    for name in (
+        "Wait for SonarQube",
+        "SonarQube Scan",
+        "Print new-code issues",
+    ):
+        step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
+        assert str(step.get("env", {}).get("SONAR_HOST_URL", "")) == (
+            "${{ inputs.sonar-host-url }}"
+        ), (
+            "each step must take the SonarQube URL from the sonar-host-url "
+            "input so the wait, scan and gate cannot drift to different endpoints"
+        )
+        assert "127.0.0.1" not in str(step.get("run", ""))
+
+
+def test_jobs_pass_project_key_to_composite() -> None:
+    jobs = _load_workflow()["jobs"]
+    for job in (jobs["sonarqube"], _dependabot_job(jobs)):
+        with_ = _composite_call(job).get("with", {})
+        assert "env.SONAR_PROJECT_KEY" in str(with_.get("project-key", ""))
 
 
 def test_dependabot_job_can_read_pull_requests() -> None:
@@ -166,29 +781,35 @@ def test_pull_request_job_skips_scan_steps_when_deferred() -> None:
     job = _load_workflow()["jobs"]["sonarqube"]
     checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
     preflight = _step_with_id(job, "preflight")
-    assert job["steps"].index(preflight) < job["steps"].index(checkout)
+    call = _composite_call(job)
+    assert (
+        job["steps"].index(preflight) < job["steps"].index(checkout) < job["steps"].index(call)
+    )
     assert "steps.preflight.outputs.deferred != 'true'" in str(checkout.get("if", ""))
-    for step_id in ("scan", "enforce"):
-        step = _step_with_id(job, step_id)
-        assert "steps.preflight.outputs.deferred != 'true'" in str(step.get("if", ""))
+    assert "steps.preflight.outputs.deferred != 'true'" in str(call.get("if", "")), (
+        "the composite call carrying every scan step must be gated by the "
+        "preflight guard: none of the scan steps may run for deferred PRs"
+    )
 
 
 def test_workflow_uses_loopback_ip_not_localhost() -> None:
-    text = WORKFLOW.read_text()
-    assert "localhost:9001" not in text
+    for path in (WORKFLOW, COMPOSITE):
+        assert "localhost:9001" not in path.read_text()
 
 
 def test_diagnostic_steps_do_not_run_on_cancelled_jobs() -> None:
-    text = WORKFLOW.read_text()
-    assert "always()" not in text, "!cancelled() skips diagnostics on cancelled jobs"
+    for path in (WORKFLOW, COMPOSITE):
+        assert "always()" not in path.read_text(), (
+            "!cancelled() skips diagnostics on cancelled jobs"
+        )
 
 
 def test_checkout_actions_are_sha_pinned() -> None:
-    jobs = _load_workflow()["jobs"]
-    for job in jobs.values():
-        for step in job["steps"]:
-            uses = str(step.get("uses", ""))
-            if uses.startswith("actions/checkout@"):
-                assert re.fullmatch(r"actions/checkout@[0-9a-f]{40}", uses), (
-                    f"checkout must be SHA-pinned in this secret-bearing workflow: {uses}"
-                )
+    steps = [s for job in _load_workflow()["jobs"].values() for s in job["steps"]]
+    steps += _load_composite()["runs"]["steps"]
+    for step in steps:
+        uses = str(step.get("uses", ""))
+        if uses.startswith("actions/checkout@"):
+            assert re.fullmatch(r"actions/checkout@[0-9a-f]{40}", uses), (
+                f"checkout must be SHA-pinned in this secret-bearing workflow: {uses}"
+            )
