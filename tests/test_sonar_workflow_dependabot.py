@@ -61,17 +61,26 @@ def test_pull_request_job_invokes_workspace_composite() -> None:
     )
 
 
-def test_dependabot_job_invokes_composite_from_trusted_main() -> None:
+def test_dependabot_job_restores_scan_action_from_trusted_main() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
-    uses = str(_composite_call(job).get("uses", ""))
-    assert uses == (
-        "Jonathangadeaharder/german-spanish-english-eurobert-lemmatizer"
-        "/.github/actions/sonar-scan@main"
-    ), (
-        "the dependabot job scans a PR tree in the workspace: a "
-        "workspace-relative (./) composite would execute PR-sourced action "
-        "code with repo secrets"
+    restore = next(
+        (
+            s
+            for s in job["steps"]
+            if s.get("name") == "Restore scan action from trusted main"
+        ),
+        None,
     )
+    assert restore is not None, (
+        "the dependabot job scans a PR tree in the workspace: without a "
+        "restore step, a workspace-relative composite executes PR-sourced "
+        "action code with repo secrets"
+    )
+    assert "steps.pr.outputs.available == 'true'" in str(restore.get("if", ""))
+    assert "git checkout origin/main -- .github/actions/sonar-scan" in str(restore["run"])
+    call = _composite_call(job)
+    assert str(call.get("uses", "")) == "./.github/actions/sonar-scan"
+    assert job["steps"].index(restore) < job["steps"].index(call)
 
 
 def _triggers(workflow: dict) -> dict:
@@ -136,12 +145,6 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
         "the dependabot scan must run with the repo secret; the token "
         "reaches the composite via the token input"
     )
-    scanner_opts = str(with_.get("scanner-opts", ""))
-    assert "-Dsonar.projectKey=" in scanner_opts, (
-        "projectKey must be pinned on the command line: the tree's "
-        "sonar-project.properties is PR-controlled and must not decouple the "
-        "scan from the gate"
-    )
     checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
     ref = str(checkout.get("with", {}).get("ref", ""))
     assert "github.event.workflow_run.head_sha" in ref, (
@@ -149,6 +152,16 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
         "advance between CI completion and the scan (TOCTOU)"
     )
     assert "refs/pull/" not in ref
+
+
+def test_scan_and_gate_target_the_same_project() -> None:
+    scan = _step_with_id(_load_composite()["runs"], "scan")
+    scanner_opts = str(scan.get("env", {}).get("SONAR_SCANNER_OPTS", ""))
+    assert "-Dsonar.projectKey=${{ inputs.project-key }}" in scanner_opts, (
+        "the scan must be pinned to the same project-key input the gate "
+        "queries: otherwise a PR-controlled sonar-project.properties can "
+        "steer the scan to a different project than the gate evaluates"
+    )
 
 
 def test_composite_scan_wires_token_from_caller() -> None:
@@ -193,6 +206,25 @@ def test_composite_declares_project_key_explicitly() -> None:
         assert "${{ inputs.project-key }}" in str(
             step.get("env", {}).get("SONAR_PROJECT_KEY", "")
         )
+
+
+def test_composite_single_sources_the_sonar_host_url() -> None:
+    composite = _load_composite()
+    assert composite["inputs"]["sonar-host-url"]["default"] == "http://127.0.0.1:9001"
+    for name in (
+        "Wait for SonarQube",
+        "SonarQube Scan",
+        "Print new-code issues",
+        "Enforce quality gate",
+    ):
+        step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
+        assert str(step.get("env", {}).get("SONAR_HOST_URL", "")) == (
+            "${{ inputs.sonar-host-url }}"
+        ), (
+            "each step must take the SonarQube URL from the sonar-host-url "
+            "input so the wait, scan and gate cannot drift to different endpoints"
+        )
+        assert "127.0.0.1" not in str(step.get("run", ""))
 
 
 def test_jobs_pass_project_key_to_composite() -> None:

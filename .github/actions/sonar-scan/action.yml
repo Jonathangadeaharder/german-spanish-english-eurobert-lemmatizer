@@ -6,16 +6,20 @@ inputs:
     description: SonarQube authentication token (pass secrets.SONAR_TOKEN).
     required: true
   project-key:
-    description: SonarQube project key scanned and queried by these steps.
+    description: SonarQube project key the scan reports to and the diagnostics query.
     required: true
   reset-config:
     description: "'true' replaces sonar-project.properties with the trusted main version."
     required: false
     default: 'false'
   scanner-opts:
-    description: SONAR_SCANNER_OPTS value for the scan step.
+    description: Base SONAR_SCANNER_OPTS value; the project key is always appended.
     required: false
     default: -Dsonar.qualitygate.wait=true
+  sonar-host-url:
+    description: SonarQube base URL used for the readiness wait, scan and API calls.
+    required: false
+    default: http://127.0.0.1:9001
 
 runs:
   using: composite
@@ -31,9 +35,11 @@ runs:
       run: brew install jq || command -v jq >/dev/null
     - name: Wait for SonarQube
       shell: bash
+      env:
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
       run: |
         for i in $(seq 1 36); do
-          STATUS=$(curl -sf --max-time 2 http://127.0.0.1:9001/api/system/status \
+          STATUS=$(curl -sf --max-time 2 "$SONAR_HOST_URL/api/system/status" \
             | jq -r '.status' || true)
           echo "Sonar status: ${STATUS:-unreachable} ($i/36)"
           if [ "$STATUS" = "UP" ]; then
@@ -41,38 +47,38 @@ runs:
           fi
           sleep 5
         done
-        echo "::error::SonarQube at 127.0.0.1:9001 never became UP"
+        echo "::error::SonarQube at $SONAR_HOST_URL never became UP"
         exit 1
     - name: SonarQube Scan
       id: scan
       uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
       env:
         SONAR_TOKEN: ${{ inputs.token }}
-        SONAR_HOST_URL: http://127.0.0.1:9001
-        SONAR_SCANNER_OPTS: ${{ inputs.scanner-opts }}
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
+        SONAR_SCANNER_OPTS: ${{ inputs.scanner-opts }} -Dsonar.projectKey=${{ inputs.project-key }}
     - name: Print new-code issues
       if: ${{ !cancelled() }}
       shell: bash
       env:
         SONAR_TOKEN: ${{ inputs.token }}
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
         SONAR_PROJECT_KEY: ${{ inputs.project-key }}
       run: |
-        BASE="http://127.0.0.1:9001"
         AUTH="Authorization: Bearer $SONAR_TOKEN"
         curl -fsS --max-time 10 -H "$AUTH" \
-          "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
+          "$SONAR_HOST_URL/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
           | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
     - name: Enforce quality gate
       if: ${{ steps.scan.outcome == 'success' }}
       shell: bash
       env:
         SONAR_TOKEN: ${{ inputs.token }}
+        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
         SONAR_PROJECT_KEY: ${{ inputs.project-key }}
       run: |
-        BASE="http://127.0.0.1:9001"
         AUTH="Authorization: Bearer $SONAR_TOKEN"
         GATE=$(curl -fsS --max-time 10 -H "$AUTH" \
-          "$BASE/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
+          "$SONAR_HOST_URL/api/qualitygates/project_status?projectKey=$SONAR_PROJECT_KEY")
         echo "$GATE" | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
         GATE_STATUS=$(echo "$GATE" | jq -r '.projectStatus.status // "UNKNOWN"')
         echo "Gate status: $GATE_STATUS"
