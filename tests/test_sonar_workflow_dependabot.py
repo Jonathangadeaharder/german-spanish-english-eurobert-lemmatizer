@@ -150,6 +150,23 @@ def test_composite_validates_trusted_ref_spelling() -> None:
     )
 
 
+def test_composite_rejects_dot_components_in_trusted_ref() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert r"(\.\.|^origin/\.|/\.)" in run, (
+        "the charset regex admits origin/.., origin/main/../evil and "
+        "dot-leading components: safety must not depend on git rejecting "
+        "those refnames downstream, and dotted branch names like v1.2 "
+        "must still pass"
+    )
+    assert run.index("^origin/[A-Za-z0-9._/-]+$") < run.index(r"(\.\.|^origin/\.|/\.)"), (
+        "the dot screen presupposes the origin/ shape: it must run after "
+        "the spelling check, not before"
+    )
+
+
 def test_restore_verifies_main_has_the_action_before_replacing() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
     restore = next(
@@ -610,6 +627,10 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
     assert "grep -q '[^[:space:]]' sonar-project.properties.tmp" in str(reset["run"]), (
         "grep -q . matches whitespace-only lines: a config of blank lines "
         "would pass and count as the trusted config"
+    )
+    assert "$TRUSTED_REF has no non-whitespace content" in str(reset["run"]), (
+        "the empty-config error hardcoded origin/main: with a configurable "
+        "trusted-ref the message named the wrong ref and misled the operator"
     )
     assert '"https://github.com/$GITHUB_REPOSITORY.git"' in str(reset["run"]), (
         "a substring remote match lets owner/repo-evil pass for owner/repo: "
