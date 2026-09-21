@@ -272,6 +272,14 @@ def test_query_steps_urlencode_the_project_key() -> None:
             "the project key reaches the API as an encoded parameter, not "
             "raw URL interpolation that a ':' or '&' can corrupt"
         )
+        assert "--header @-" in run and "printf 'Authorization: Bearer %s\\n' " in run, (
+            "curl -H puts the token in the argv of the runner process where "
+            "ps and process auditing can see it: pass it via stdin instead"
+        )
+        assert 'AUTH="Authorization' not in run, (
+            "the bearer header must not be composed into a shell variable "
+            "that ends up in the curl command line"
+        )
 
 
 def test_callers_pass_only_declared_composite_inputs() -> None:
@@ -290,10 +298,10 @@ def test_composite_rejects_whitespace_or_quotes_in_project_key() -> None:
     composite = _load_composite()
     step = next(s for s in composite["runs"]["steps"] if s.get("name") == "Validate inputs")
     run = str(step["run"])
-    assert "[[:space:]" in run and "::error::" in run, (
-        "SONAR_SCANNER_OPTS splits on whitespace: a project key containing "
-        "whitespace or quotes must be rejected up front, not silently "
-        "truncated at the scan invocation"
+    assert '[[:cntrl:][:space:]' in run and "::error::" in run, (
+        "SONAR_SCANNER_OPTS splits on whitespace and chokes on control "
+        "characters: a project key containing either must be rejected up "
+        "front, not silently mis-scanned"
     )
 
 
@@ -336,6 +344,10 @@ def test_composite_allowlists_scanner_opts() -> None:
         "exclusions, branch.name alter the scan materially): scanner-opts "
         "must be allowlisted to coverage properties and JVM sizes"
     )
+    assert "-Xmx[0-9]+[kKmMgG]" in run, (
+        "a JVM size without an explicit unit is bytes and crashes the "
+        "scanner on a typo: require the unit"
+    )
     assert "sonar\\.(host\\.url|login|token|password)" not in run, (
         "the round-7 blocklist is superseded by the allowlist"
     )
@@ -366,19 +378,39 @@ def test_diagnostics_require_successful_validation() -> None:
     diagnostics = next(
         s for s in composite["runs"]["steps"] if s.get("name") == "Print new-code issues"
     )
-    assert "steps.validate.outcome == 'success'" in str(diagnostics.get("if", "")), (
+    if_ = str(diagnostics.get("if", ""))
+    assert "steps.validate.outcome == 'success'" in if_, (
         "!cancelled() runs the diagnostics even after a failed validation, "
         "sending the SONAR_TOKEN Bearer header to the host validation "
         "rejected"
+    )
+    assert "steps.scan.outcome != 'skipped'" in if_, (
+        "without the scan-attempted gate, a reset/wait/install failure still "
+        "triggers a token-bearing query that lists issues from a previous "
+        "scan as if they were current"
+    )
+
+
+def test_composite_rejects_mispelled_reset_config() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("RESET_CONFIG", "")) == "${{ inputs.reset-config }}"
+    run = str(step["run"])
+    assert "'true'|'false') ;;" in run and "::error::" in run, (
+        "any non-'true' spelling silently disables the trusted-config "
+        "security control: the guard is == 'true', so 'True'/'yes'/'1' "
+        "must fail loudly instead of downgrading to reset-config=false"
     )
 
 
 def test_composite_scan_wires_token_from_caller() -> None:
     scan = _step_with_name(_load_composite()["runs"], "SonarQube Scan")
     assert "${{ inputs.token }}" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
-    assert not scan.get("id"), (
-        "steps.scan was only read by the removed Enforce gate step: a dead id "
-        "invites future steps to depend on a step outcome nothing guarantees"
+    assert scan.get("id") == "scan", (
+        "the diagnostics gate must know whether the scan was attempted: "
+        "without the id the gate cannot distinguish a failed scan (issues "
+        "worth listing) from a skipped one (stale issues)"
     )
 
 
@@ -413,6 +445,15 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
     assert '"https://github.com/$GITHUB_REPOSITORY.git"' in str(reset["run"]), (
         "a substring remote match lets owner/repo-evil pass for owner/repo: "
         "the remote must equal the base repository's exact URL"
+    )
+    assert "ssh://git@github.com/$GITHUB_REPOSITORY.git" in str(reset["run"]), (
+        "exact URL matching must not reject legitimate ssh:// remotes: "
+        "fail-closed is right, unusable-for-valid-setups is not"
+    )
+    assert "[ -L sonar-project.properties ]" in str(reset["run"]), (
+        "the trusted-config write follows a planted symlink at the tmp "
+        "path: this is the same class of attack the sonar.yml restore "
+        "guard covers for .github/actions"
     )
     assert "::error::" in str(reset["run"]), (
         "this step is the security control keeping PR-sourced scan config "
