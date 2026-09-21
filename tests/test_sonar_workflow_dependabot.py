@@ -81,7 +81,7 @@ def test_dependabot_job_restores_scan_action_from_trusted_main() -> None:
         "action code with repo secrets"
     )
     assert "steps.pr.outputs.available == 'true'" in str(restore.get("if", ""))
-    assert "git checkout origin/main -- .github/actions/sonar-scan" in str(restore["run"])
+    assert "git checkout origin/main -- .github/actions" in str(restore["run"])
     call = _composite_call(job)
     assert str(call.get("uses", "")) == "./.github/actions/sonar-scan"
     assert job["steps"].index(restore) < job["steps"].index(call)
@@ -93,13 +93,16 @@ def test_restore_removes_pr_added_action_files() -> None:
         s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
     )
     run = str(restore["run"])
-    assert "rm -rf .github/actions/sonar-scan" in run, (
-        "git checkout origin/main only overlays files that exist on main: "
-        "files the PR added under the directory survive the restore and sit "
-        "next to the trusted action.yml, shadowing any future relative helper"
+    assert "rm -rf .github/actions" in run, (
+        "restoring only .github/actions/sonar-scan leaves every other "
+        "PR-added sibling action in place: the moment trusted main's "
+        "composite grows a second local uses:, it would resolve from the "
+        "PR tree and run with SONAR_TOKEN"
     )
-    assert run.index("rm -rf .github/actions/sonar-scan") < run.index(
-        "git checkout origin/main -- .github/actions/sonar-scan"
+    assert "rm -rf .github/actions/sonar-scan" not in run
+    assert "git checkout origin/main -- .github/actions/sonar-scan" not in run
+    assert run.index("rm -rf .github/actions") < run.index(
+        "git checkout origin/main -- .github/actions"
     )
 
 
@@ -155,7 +158,7 @@ def test_restore_verifies_main_has_the_action_before_replacing() -> None:
         "not provide the action, the job dies with a confusing 'Can't find "
         "action.yml' instead of an explicit error"
     )
-    assert run.index("git cat-file -e") < run.index("rm -rf .github/actions/sonar-scan")
+    assert run.index("git cat-file -e") < run.index("rm -rf .github/actions")
 
 
 def test_restore_validates_origin_remote_before_fetch() -> None:
@@ -187,19 +190,68 @@ def test_restore_validates_origin_remote_before_fetch() -> None:
     )
 
 
+def _origin_allowlist_arms(run: str) -> str:
+    match = re.search(r'case "\$REMOTE_URL" in\s*\n\s*(.+)', run)
+    assert match, "origin-remote allowlist case block not found"
+    return match.group(1).strip()
+
+
+def test_origin_remote_allowlist_cannot_drift_between_copies() -> None:
+    workflow_run = str(
+        next(
+            s
+            for s in _dependabot_job(_load_workflow()["jobs"])["steps"]
+            if s.get("name") == "Restore scan action from trusted main"
+        )["run"]
+    )
+    composite_run = str(
+        next(
+            s
+            for s in _load_composite()["runs"]["steps"]
+            if s.get("name") == "Reset scanner config to trusted main"
+        )["run"]
+    )
+    assert _origin_allowlist_arms(workflow_run) == _origin_allowlist_arms(composite_run), (
+        "the origin-remote check exists in two copies because the "
+        "workflow-level one must run before any PR-tree code can be "
+        "trusted: if the arm sets drift, one copy accepts a remote the "
+        "other rejects, so the suite is the single source keeping them "
+        "in lockstep"
+    )
+
+
+def test_restore_and_composite_trusted_refs_lockstep() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    match = re.search(
+        r'refs/heads/([A-Za-z0-9._/-]+):refs/remotes/origin/\1', str(restore["run"])
+    )
+    assert match, "the restore fetch must map its refspec explicitly"
+    assert str(_composite_call(job).get("with", {}).get("trusted-ref", "")) == (
+        f"origin/{match.group(1)}"
+    ), (
+        "the restore fetches the action from one branch while the composite "
+        "resets the scanner config from the trusted-ref input: two "
+        "independently configurable trust roots can drift, so the call must "
+        "pin trusted-ref to the branch the restore actually used"
+    )
+
+
 def test_restore_refuses_symlinked_action_paths() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
     restore = next(
         s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
     )
     run = str(restore["run"])
-    for path in (".github", ".github/actions", ".github/actions/sonar-scan"):
+    for path in (".github", ".github/actions"):
         assert f"[ -L {path} ]" in run, (
             f"rm -rf and git checkout resolve through a planted symlink at "
             f"{path} and can write outside the workspace on the self-hosted "
             "runner"
         )
-    assert run.index("[ -L .github ]") < run.index("rm -rf .github/actions/sonar-scan")
+    assert run.index("[ -L .github ]") < run.index("rm -rf .github/actions")
 
 
 def _triggers(workflow: dict) -> dict:
@@ -567,6 +619,14 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
     assert '"git@github.com:$GITHUB_REPOSITORY"' in str(reset["run"]), (
         "the git@ spelling without a .git suffix is a valid GitHub remote: "
         "exact-match arms must cover it, not reject it"
+    )
+    assert '"ssh://git@github.com/$GITHUB_REPOSITORY"' in str(reset["run"]), (
+        "the ssh:// spelling without .git is also a valid GitHub remote: "
+        "exact-match arms must cover it, not reject it"
+    )
+    assert '"https://github.com/$GITHUB_REPOSITORY/"' in str(reset["run"]), (
+        "the https spelling with a trailing slash is also a valid GitHub "
+        "remote: exact-match arms must cover it, not reject it"
     )
     assert "[ -L sonar-project.properties ]" in str(reset["run"]), (
         "the trusted-config write follows a planted symlink at the tmp "
