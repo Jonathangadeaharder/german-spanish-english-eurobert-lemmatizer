@@ -455,6 +455,11 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "path: this is the same class of attack the sonar.yml restore "
         "guard covers for .github/actions"
     )
+    assert "[ ! -f sonar-project.properties ]" in str(reset["run"]), (
+        "mv into a pre-existing directory or FIFO silently hides the "
+        "trusted config and the scan runs without it: only a missing path "
+        "or a regular file may be replaced"
+    )
     assert "::error::" in str(reset["run"]), (
         "this step is the security control keeping PR-sourced scan config "
         "away from the scan: a bare grep exit code is not a self-explanatory "
