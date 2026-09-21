@@ -135,6 +135,10 @@ jobs:
             exit 1
           fi
           git fetch --no-tags origin main
+          if ! git cat-file -e origin/main:.github/actions/sonar-scan/action.yml 2>/dev/null; then
+            echo "::error::origin/main does not provide .github/actions/sonar-scan/action.yml: cannot restore the trusted scan action"
+            exit 1
+          fi
           rm -rf .github/actions/sonar-scan
           git checkout origin/main -- .github/actions/sonar-scan
       - name: SonarQube scan

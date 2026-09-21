@@ -16,6 +16,10 @@ inputs:
     description: Extra SONAR_SCANNER_OPTS from the caller, single token only, allowlisted to -Dsonar.coverage.* properties and -Xmx/-Xss JVM sizes; qualitygate.wait and projectKey are always appended. Must never carry untrusted or PR-derived data.
     required: false
     default: ''
+  trusted-ref:
+    description: Remote ref holding the trusted scanner config for the reset path, e.g. origin/main. Must be an origin/<ref> spelling.
+    required: false
+    default: origin/main
   sonar-host-url:
     description: SonarQube base URL used for the readiness wait, scan and API calls. Callers must pass a static value only, never PR- or branch-derived data; the SONAR_TOKEN rides a Bearer header to this URL.
     required: false
@@ -32,6 +36,8 @@ runs:
         SCANNER_OPTS: ${{ inputs.scanner-opts }}
         SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
         RESET_CONFIG: ${{ inputs.reset-config }}
+        TRUSTED_REF: ${{ inputs.trusted-ref }}
+        SONAR_TOKEN: ${{ inputs.token }}
       run: |
         if [ -z "$PROJECT_KEY" ]; then
           echo "::error::project-key is empty: a required input is only enforced when omitted, an empty expression still passes and would disable the issues filter"
@@ -57,6 +63,14 @@ runs:
             exit 1
             ;;
         esac
+        if [[ ! "$TRUSTED_REF" =~ ^origin/[A-Za-z0-9._/-]+$ ]]; then
+          echo "::error::trusted-ref must be an origin/<ref> spelling like origin/main: it names the remote ref the trusted config is reset from"
+          exit 1
+        fi
+        if [[ "$SONAR_TOKEN" =~ [[:cntrl:]] ]]; then
+          echo "::error::token contains control characters: formatted into an HTTP header it would inject additional headers"
+          exit 1
+        fi
         case "$SONAR_HOST_URL" in
           *@*)
             echo "::error::sonar-host-url must not contain userinfo: the host after any @ would receive the SONAR_TOKEN Bearer header"
@@ -70,6 +84,8 @@ runs:
     - name: Reset scanner config to trusted main
       if: ${{ inputs.reset-config == 'true' }}
       shell: bash
+      env:
+        TRUSTED_REF: ${{ inputs.trusted-ref }}
       run: |
         REMOTE_URL=$(git remote get-url origin || true)
         case "$REMOTE_URL" in
@@ -88,15 +104,16 @@ runs:
           echo "::error::sonar-project.properties exists but is not a regular file: refusing to move the trusted config into it"
           exit 1
         fi
-        if ! git rev-parse --verify refs/remotes/origin/main >/dev/null 2>&1; then
-          if ! git fetch --no-tags origin main; then
-            echo "::error::failed to fetch origin/main: the trusted scanner config cannot be resolved"
+        TRUSTED_BRANCH="${TRUSTED_REF#origin/}"
+        if ! git rev-parse --verify "refs/remotes/$TRUSTED_REF" >/dev/null 2>&1; then
+          if ! git fetch --no-tags origin "$TRUSTED_BRANCH"; then
+            echo "::error::failed to fetch origin/$TRUSTED_BRANCH: the trusted scanner config cannot be resolved"
             exit 1
           fi
         fi
-        if ! git show origin/main:sonar-project.properties > sonar-project.properties.tmp; then
+        if ! git show "$TRUSTED_REF:sonar-project.properties" > sonar-project.properties.tmp; then
           rm -f sonar-project.properties.tmp
-          echo "::error::origin/main has no sonar-project.properties; refusing to scan without the trusted config"
+          echo "::error::$TRUSTED_REF has no sonar-project.properties; refusing to scan without the trusted config"
           exit 1
         fi
         if ! grep -q '[^[:space:]]' sonar-project.properties.tmp; then

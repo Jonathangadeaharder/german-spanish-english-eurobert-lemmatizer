@@ -103,6 +103,45 @@ def test_restore_removes_pr_added_action_files() -> None:
     )
 
 
+def test_composite_rejects_control_characters_in_token() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("SONAR_TOKEN", "")) == "${{ inputs.token }}"
+    run = str(step["run"])
+    assert '"$SONAR_TOKEN" =~ [[:cntrl:]]' in run, (
+        "a multiline or control-character token formatted into the HTTP "
+        "header injects additional headers into the request"
+    )
+
+
+def test_composite_validates_trusted_ref_spelling() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("TRUSTED_REF", "")) == "${{ inputs.trusted-ref }}"
+    run = str(step["run"])
+    assert "^origin/[A-Za-z0-9._/-]+$" in run, (
+        "the reset fetches and shows whatever ref this input names: it must "
+        "be pinned to the origin/ namespace or a caller could point it at "
+        "refs/pull/*"
+    )
+
+
+def test_restore_verifies_main_has_the_action_before_replacing() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    assert "git cat-file -e origin/main:.github/actions/sonar-scan/action.yml" in run, (
+        "rm -rf deletes the PR-tree copy before the checkout: if main does "
+        "not provide the action, the job dies with a confusing 'Can't find "
+        "action.yml' instead of an explicit error"
+    )
+    assert run.index("git cat-file -e") < run.index("rm -rf .github/actions/sonar-scan")
+
+
 def test_restore_refuses_symlinked_action_paths() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
     restore = next(
@@ -428,7 +467,23 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "the PR tree's sonar-project.properties must not steer the scan: "
         "reset it from trusted main before scanning"
     )
-    assert "git show origin/main:sonar-project.properties" in str(reset["run"])
+    assert reset.get("env", {}).get("TRUSTED_REF") == "${{ inputs.trusted-ref }}"
+    assert '"$TRUSTED_REF:sonar-project.properties"' in str(reset["run"]), (
+        "hardcoding origin/main makes the reset abort on repositories whose "
+        "default branch is not main: the ref comes from the trusted-ref input"
+    )
+    assert "git rev-parse --verify \"refs/remotes/$TRUSTED_REF\"" in str(reset["run"]), (
+        "the local-ref fetch guard must check the same parameterized ref"
+    )
+    assert 'git fetch --no-tags origin "$TRUSTED_BRANCH"' in str(reset["run"]), (
+        "the fetch fallback must request the trusted ref's branch, not a "
+        "hardcoded main"
+    )
+    assert "if ! git fetch --no-tags origin \"$TRUSTED_BRANCH\"" in str(reset["run"]), (
+        "the fetch fallback runs without persisted credentials: a bare "
+        "failure would be misreported by the following git show as a "
+        "missing trusted config"
+    )
     assert "sonar-project.properties.tmp" in str(reset["run"]), (
         "the reset must be atomic: a truncated empty config must never "
         "replace the working file while the job continues"
@@ -436,11 +491,6 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
     assert "grep -q '[^[:space:]]' sonar-project.properties.tmp" in str(reset["run"]), (
         "grep -q . matches whitespace-only lines: a config of blank lines "
         "would pass and count as the trusted config"
-    )
-    assert "if ! git fetch --no-tags origin main" in str(reset["run"]), (
-        "the fetch fallback runs without persisted credentials: a bare "
-        "failure would be misreported by the following git show as a "
-        "missing config on origin/main"
     )
     assert '"https://github.com/$GITHUB_REPOSITORY.git"' in str(reset["run"]), (
         "a substring remote match lets owner/repo-evil pass for owner/repo: "
@@ -468,10 +518,6 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
     assert "rm -f sonar-project.properties.tmp" in str(reset["run"]), (
         "a failed reset must not leave the empty temp file behind in the "
         "workspace while the original file is untouched"
-    )
-    assert "git rev-parse --verify refs/remotes/origin/main" in str(reset["run"]), (
-        "the reset fetches only when origin/main is not already local: the "
-        "dependabot caller's restore step fetched it moments earlier"
     )
     assert "inputs.reset-config == 'true'" in str(reset.get("if", "")), (
         "composite inputs are strings and the string 'false' is truthy: the "
