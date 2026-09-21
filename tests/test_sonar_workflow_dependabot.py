@@ -162,6 +162,25 @@ def test_scan_and_gate_target_the_same_project() -> None:
         "queries: otherwise a PR-controlled sonar-project.properties can "
         "steer the scan to a different project than the gate evaluates"
     )
+    assert "-Dsonar.qualitygate.wait=true" in scanner_opts, (
+        "the gate-wait flag must not live in the overridable scanner-opts "
+        "input: a caller override could otherwise drop it and race the "
+        "separate gate check with an UNKNOWN result"
+    )
+
+
+def test_diagnostics_surface_failures_instead_of_swallowing() -> None:
+    composite = _load_composite()
+    diagnostics = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Print new-code issues"
+    )
+    run = str(diagnostics["run"])
+    assert "set -o pipefail" in run
+    assert "|| true" not in run, (
+        "a swallowed curl/jq failure reads as 'no new-code issues': query "
+        "failures must emit a visible warning"
+    )
+    assert "::warning::" in run
 
 
 def test_composite_scan_wires_token_from_caller() -> None:

@@ -41,6 +41,9 @@ jobs:
             echo "::notice::Sonar scan deferred to the 'SonarQube (dependabot)' workflow_run job: pull_request events from dependabot cannot access repo secrets."
             echo "deferred=true" >> "$GITHUB_OUTPUT"
           fi
+      # Same-repo PRs are trusted collaborators, so the merge-ref copy of
+      # the composite runs here: changes to it are part of what CI tests,
+      # like the workflow file itself under pull_request events.
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         if: steps.preflight.outputs.deferred != 'true'
         with:
@@ -76,7 +79,7 @@ jobs:
     steps:
       - name: Install jq
         shell: bash
-        run: brew install jq || command -v jq >/dev/null
+        run: command -v jq >/dev/null || brew install jq
       - name: Resolve pull request number
         id: pr
         shell: bash
