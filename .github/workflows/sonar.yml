@@ -131,6 +131,7 @@ jobs:
         shell: bash
         run: |
           git fetch --no-tags origin main
+          rm -rf .github/actions/sonar-scan
           git checkout origin/main -- .github/actions/sonar-scan
       - name: SonarQube scan
         uses: ./.github/actions/sonar-scan

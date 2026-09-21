@@ -87,6 +87,22 @@ def test_dependabot_job_restores_scan_action_from_trusted_main() -> None:
     assert job["steps"].index(restore) < job["steps"].index(call)
 
 
+def test_restore_removes_pr_added_action_files() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    assert "rm -rf .github/actions/sonar-scan" in run, (
+        "git checkout origin/main only overlays files that exist on main: "
+        "files the PR added under the directory survive the restore and sit "
+        "next to the trusted action.yml, shadowing any future relative helper"
+    )
+    assert run.index("rm -rf .github/actions/sonar-scan") < run.index(
+        "git checkout origin/main -- .github/actions/sonar-scan"
+    )
+
+
 def _triggers(workflow: dict) -> dict:
     triggers = workflow.get("on") or workflow.get(True)
     assert isinstance(triggers, dict)
@@ -225,6 +241,35 @@ def test_composite_rejects_whitespace_or_quotes_in_project_key() -> None:
     )
 
 
+def test_composite_rejects_empty_project_key() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert '-z "$PROJECT_KEY"' in run, (
+        "required is only enforced when an input is omitted from with:: an "
+        "empty expression passes and yields -Dsonar.projectKey= plus an "
+        "unfiltered componentKeys= query instead of failing loudly"
+    )
+    assert run.index('-z "$PROJECT_KEY"') < run.index("[[:space:"), (
+        "the emptiness check must come first: an empty key contains no "
+        "whitespace and passes the character screen"
+    )
+
+
+def test_composite_rejects_endpoint_or_credential_overrides_in_scanner_opts() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("SCANNER_OPTS", "")) == "${{ inputs.scanner-opts }}"
+    run = str(step["run"])
+    assert "sonar\\.(host\\.url|login|token|password)" in run, (
+        "scanner-opts is interpolated into SONAR_SCANNER_OPTS without further "
+        "screening: a sonar.host.url or credential override can redirect the "
+        "authenticated scan and exfiltrate SONAR_TOKEN"
+    )
+
+
 def test_composite_scan_wires_token_from_caller() -> None:
     scan = _step_with_id(_load_composite()["runs"], "scan")
     assert "${{ inputs.token }}" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
@@ -250,6 +295,15 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "replace the working file while the job continues"
     )
     assert "grep -q . sonar-project.properties.tmp" in str(reset["run"])
+    assert "::error::" in str(reset["run"]), (
+        "this step is the security control keeping PR-sourced scan config "
+        "away from the scan: a bare grep exit code is not a self-explanatory "
+        "CI failure"
+    )
+    assert "rm -f sonar-project.properties.tmp" in str(reset["run"]), (
+        "a failed reset must not leave the empty temp file behind in the "
+        "workspace while the original file is untouched"
+    )
     assert "git rev-parse --verify refs/remotes/origin/main" in str(reset["run"]), (
         "the reset fetches only when origin/main is not already local: the "
         "dependabot caller's restore step fetched it moments earlier"

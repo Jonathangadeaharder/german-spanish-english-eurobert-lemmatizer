@@ -13,7 +13,7 @@ inputs:
     required: false
     default: 'false'
   scanner-opts:
-    description: Extra SONAR_SCANNER_OPTS from the caller; qualitygate.wait and projectKey are always appended.
+    description: Extra SONAR_SCANNER_OPTS from the caller; qualitygate.wait and projectKey are always appended. Must never carry untrusted or PR-derived data.
     required: false
     default: ''
   sonar-host-url:
@@ -28,9 +28,18 @@ runs:
       shell: bash
       env:
         PROJECT_KEY: ${{ inputs.project-key }}
+        SCANNER_OPTS: ${{ inputs.scanner-opts }}
       run: |
+        if [ -z "$PROJECT_KEY" ]; then
+          echo "::error::project-key is empty: a required input is only enforced when omitted, an empty expression still passes and would disable the issues filter"
+          exit 1
+        fi
         if [[ "$PROJECT_KEY" =~ [[:space:]\"\'] ]]; then
           echo "::error::project-key must not contain whitespace or quotes: it is interpolated into SONAR_SCANNER_OPTS"
+          exit 1
+        fi
+        if [[ "$SCANNER_OPTS" =~ sonar\.(host\.url|login|token|password) ]]; then
+          echo "::error::scanner-opts must not override sonar.host.url or credential properties: they are pinned to the trusted host and token inputs"
           exit 1
         fi
     - name: Reset scanner config to trusted main
@@ -39,8 +48,16 @@ runs:
       run: |
         git rev-parse --verify refs/remotes/origin/main >/dev/null 2>&1 \
           || git fetch --no-tags origin main
-        git show origin/main:sonar-project.properties > sonar-project.properties.tmp
-        grep -q . sonar-project.properties.tmp
+        if ! git show origin/main:sonar-project.properties > sonar-project.properties.tmp; then
+          rm -f sonar-project.properties.tmp
+          echo "::error::origin/main has no sonar-project.properties; refusing to scan without the trusted config"
+          exit 1
+        fi
+        if ! grep -q . sonar-project.properties.tmp; then
+          rm -f sonar-project.properties.tmp
+          echo "::error::sonar-project.properties on origin/main is empty; refusing to scan without the trusted config"
+          exit 1
+        fi
         mv sonar-project.properties.tmp sonar-project.properties
     - name: Install jq
       shell: bash
