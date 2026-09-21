@@ -130,8 +130,8 @@ jobs:
         if: steps.pr.outputs.available == 'true'
         shell: bash
         run: |
-          if [ -L .github/actions ] || [ -L .github/actions/sonar-scan ]; then
-            echo "::error::unexpected symlink under .github/actions in the PR tree: refusing to touch the runner filesystem through it"
+          if [ -L .github ] || [ -L .github/actions ] || [ -L .github/actions/sonar-scan ]; then
+            echo "::error::unexpected symlink in the PR tree's action paths: refusing to touch the runner filesystem through it"
             exit 1
           fi
           git fetch --no-tags origin main

@@ -25,6 +25,7 @@ runs:
   using: composite
   steps:
     - name: Validate inputs
+      id: validate
       shell: bash
       env:
         PROJECT_KEY: ${{ inputs.project-key }}
@@ -49,20 +50,28 @@ runs:
           exit 1
         fi
         case "$SONAR_HOST_URL" in
-          http://127.0.0.1*|https://*) ;;
-          *)
-            echo "::error::sonar-host-url must be loopback http or an https URL: it receives the SONAR_TOKEN as a Bearer header"
+          *@*)
+            echo "::error::sonar-host-url must not contain userinfo: the host after any @ would receive the SONAR_TOKEN Bearer header"
             exit 1
             ;;
         esac
+        if [[ ! "$SONAR_HOST_URL" =~ ^(http://127\.0\.0\.1(:[0-9]+)?(/.*)?|https://[^[:space:][:cntrl:]]+)$ ]]; then
+          echo "::error::sonar-host-url must be loopback http or an https URL, anchored to the host: it receives the SONAR_TOKEN as a Bearer header"
+          exit 1
+        fi
     - name: Reset scanner config to trusted main
       if: ${{ inputs.reset-config == 'true' }}
       shell: bash
       run: |
-        if ! git remote get-url origin | grep -qF "$GITHUB_REPOSITORY"; then
-          echo "::error::origin remote does not point at $GITHUB_REPOSITORY: the trusted-main reset requires the base repository's remote, not a fork's"
-          exit 1
-        fi
+        REMOTE_URL=$(git remote get-url origin || true)
+        case "$REMOTE_URL" in
+          "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git")
+            ;;
+          *)
+            echo "::error::origin remote '$REMOTE_URL' is not $GITHUB_REPOSITORY: the trusted-main reset requires the base repository's remote, not a fork's or a similarly named repository's"
+            exit 1
+            ;;
+        esac
         if ! git rev-parse --verify refs/remotes/origin/main >/dev/null 2>&1; then
           if ! git fetch --no-tags origin main; then
             echo "::error::failed to fetch origin/main: the trusted scanner config cannot be resolved"
@@ -113,7 +122,7 @@ runs:
         SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
         SONAR_SCANNER_OPTS: ${{ inputs.scanner-opts }} -Dsonar.qualitygate.wait=true -Dsonar.projectKey=${{ inputs.project-key }}
     - name: Print new-code issues
-      if: ${{ !cancelled() }}
+      if: ${{ !cancelled() && steps.validate.outcome == 'success' }}
       shell: bash
       env:
         SONAR_TOKEN: ${{ inputs.token }}

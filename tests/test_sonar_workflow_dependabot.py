@@ -109,12 +109,13 @@ def test_restore_refuses_symlinked_action_paths() -> None:
         s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
     )
     run = str(restore["run"])
-    assert "[ -L .github/actions ]" in run and "[ -L .github/actions/sonar-scan ]" in run, (
-        "rm -rf and git checkout resolve through a planted symlink under "
-        ".github/actions and can write outside the workspace on the "
-        "self-hosted runner"
-    )
-    assert run.index("[ -L .github/actions ]") < run.index("rm -rf .github/actions/sonar-scan")
+    for path in (".github", ".github/actions", ".github/actions/sonar-scan"):
+        assert f"[ -L {path} ]" in run, (
+            f"rm -rf and git checkout resolve through a planted symlink at "
+            f"{path} and can write outside the workspace on the self-hosted "
+            "runner"
+        )
+    assert run.index("[ -L .github ]") < run.index("rm -rf .github/actions/sonar-scan")
 
 
 def _triggers(workflow: dict) -> dict:
@@ -346,9 +347,29 @@ def test_composite_validates_sonar_host_url_scheme() -> None:
     )
     assert str(step.get("env", {}).get("SONAR_HOST_URL", "")) == "${{ inputs.sonar-host-url }}"
     run = str(step["run"])
-    assert 'http://127.0.0.1*|https://*) ;;' in run and "::error::" in run, (
+    assert "*@*" in run and "::error::" in run, (
         "the token rides the Bearer header to whatever host this input "
-        "names: non-loopback plaintext URLs must be rejected up front"
+        "names: userinfo can redirect the effective host"
+    )
+    assert "http://127\\.0\\.0\\.1(:[0-9]+)?(/.*)?" in run, (
+        "a glob arm like http://127.0.0.1* accepts 127.0.0.1.attacker.com: "
+        "the loopback host must be anchored"
+    )
+
+
+def test_diagnostics_require_successful_validation() -> None:
+    composite = _load_composite()
+    validate = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert validate.get("id") == "validate"
+    diagnostics = next(
+        s for s in composite["runs"]["steps"] if s.get("name") == "Print new-code issues"
+    )
+    assert "steps.validate.outcome == 'success'" in str(diagnostics.get("if", "")), (
+        "!cancelled() runs the diagnostics even after a failed validation, "
+        "sending the SONAR_TOKEN Bearer header to the host validation "
+        "rejected"
     )
 
 
@@ -389,10 +410,9 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "failure would be misreported by the following git show as a "
         "missing config on origin/main"
     )
-    assert 'grep -qF "$GITHUB_REPOSITORY"' in str(reset["run"]), (
-        "in fork-PR checkouts origin points at the fork: the trusted-main "
-        "reset must verify the remote belongs to the base repository or it "
-        "resets from attacker-controlled content"
+    assert '"https://github.com/$GITHUB_REPOSITORY.git"' in str(reset["run"]), (
+        "a substring remote match lets owner/repo-evil pass for owner/repo: "
+        "the remote must equal the base repository's exact URL"
     )
     assert "::error::" in str(reset["run"]), (
         "this step is the security control keeping PR-sourced scan config "
