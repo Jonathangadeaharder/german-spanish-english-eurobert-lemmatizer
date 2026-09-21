@@ -13,10 +13,14 @@ runner-local SonarQube on every dependabot PR. The contract under test:
 - PR-number resolution fails loudly on API errors (no silent green bypass)
   and only skips when the API confirms no pull request exists.
 
-The shared scan steps (config reset, jq, wait, scan, diagnostics, gate)
-live in the composite action ``.github/actions/sonar-scan``; both jobs
-check out sources caller-side before invoking it (local composite
-actions are loaded from the workspace and cannot check out themselves).
+The shared scan steps (config reset, jq, wait, scan, diagnostics) live
+in the composite action ``.github/actions/sonar-scan``; both jobs check
+out sources caller-side before invoking it (local composite actions
+are loaded from the workspace and cannot check out themselves). The
+scanner itself enforces the quality gate via
+``-Dsonar.qualitygate.wait=true``; a separate post-scan gate check was
+removed as dead code (it could only fail on query flakiness, turning
+infra blips into red builds).
 """
 
 from __future__ import annotations
@@ -189,13 +193,25 @@ def test_diagnostics_surface_failures_instead_of_swallowing() -> None:
 
 def test_query_steps_urlencode_the_project_key() -> None:
     composite = _load_composite()
-    for name in ("Print new-code issues", "Enforce quality gate"):
+    for name in ("Print new-code issues",):
         step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
         run = str(step["run"])
         assert "curl -fsS -G" in run and "--data-urlencode" in run, (
             "the project key reaches the API as an encoded parameter, not "
             "raw URL interpolation that a ':' or '&' can corrupt"
         )
+
+
+def test_callers_pass_only_declared_composite_inputs() -> None:
+    declared = set(_load_composite()["inputs"])
+    jobs = _load_workflow()["jobs"]
+    for job in (jobs["sonarqube"], _dependabot_job(jobs)):
+        for key in _composite_call(job).get("with", {}):
+            assert key in declared, (
+                f"composite call passes unrecognized input '{key}': GitHub "
+                "silently ignores unknown action inputs, so a typo here "
+                "disables the corresponding behavior without failing CI"
+            )
 
 
 def test_composite_rejects_whitespace_or_quotes_in_project_key() -> None:
@@ -229,6 +245,11 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "reset it from trusted main before scanning"
     )
     assert "git show origin/main:sonar-project.properties" in str(reset["run"])
+    assert "sonar-project.properties.tmp" in str(reset["run"]), (
+        "the reset must be atomic: a truncated empty config must never "
+        "replace the working file while the job continues"
+    )
+    assert "grep -q . sonar-project.properties.tmp" in str(reset["run"])
     assert "git rev-parse --verify refs/remotes/origin/main" in str(reset["run"]), (
         "the reset fetches only when origin/main is not already local: the "
         "dependabot caller's restore step fetched it moments earlier"
@@ -250,7 +271,7 @@ def test_composite_declares_project_key_explicitly() -> None:
         "the composite must not silently rely on caller job env: declare "
         "the project key as an input so a missing value fails loudly"
     )
-    for name in ("Print new-code issues", "Enforce quality gate"):
+    for name in ("Print new-code issues",):
         step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
         assert "${{ inputs.project-key }}" in str(
             step.get("env", {}).get("SONAR_PROJECT_KEY", "")
@@ -264,7 +285,6 @@ def test_composite_single_sources_the_sonar_host_url() -> None:
         "Wait for SonarQube",
         "SonarQube Scan",
         "Print new-code issues",
-        "Enforce quality gate",
     ):
         step = next(s for s in composite["runs"]["steps"] if s.get("name") == name)
         assert str(step.get("env", {}).get("SONAR_HOST_URL", "")) == (

@@ -1,5 +1,5 @@
 name: sonar-scan
-description: Shared SonarQube scan steps used by both SonarQube jobs in sonar.yml. Callers check out sources before invoking.
+description: Shared SonarQube scan steps used by both SonarQube jobs in sonar.yml. Callers check out sources before invoking; the scanner enforces the quality gate via -Dsonar.qualitygate.wait=true.
 
 inputs:
   token:
@@ -39,7 +39,9 @@ runs:
       run: |
         git rev-parse --verify refs/remotes/origin/main >/dev/null 2>&1 \
           || git fetch --no-tags origin main
-        git show origin/main:sonar-project.properties > sonar-project.properties
+        git show origin/main:sonar-project.properties > sonar-project.properties.tmp
+        grep -q . sonar-project.properties.tmp
+        mv sonar-project.properties.tmp sonar-project.properties
     - name: Install jq
       shell: bash
       run: command -v jq >/dev/null || brew install jq
@@ -90,23 +92,3 @@ runs:
           echo "::warning::${TOTAL} new-code issues match; only the first 100 are listed"
         fi
         exit 0
-    - name: Enforce quality gate
-      if: ${{ steps.scan.outcome == 'success' }}
-      shell: bash
-      env:
-        SONAR_TOKEN: ${{ inputs.token }}
-        SONAR_HOST_URL: ${{ inputs.sonar-host-url }}
-        SONAR_PROJECT_KEY: ${{ inputs.project-key }}
-      run: |
-        AUTH="Authorization: Bearer $SONAR_TOKEN"
-        GATE=$(curl -fsS -G --max-time 10 -H "$AUTH" \
-          --data-urlencode "projectKey=$SONAR_PROJECT_KEY" \
-          "$SONAR_HOST_URL/api/qualitygates/project_status") \
-          || { echo "::error::quality gate query failed"; exit 1; }
-        echo "$GATE" | jq '.projectStatus.conditions[] | select(.status=="ERROR")' || true
-        GATE_STATUS=$(echo "$GATE" | jq -r '.projectStatus.status // "UNKNOWN"')
-        echo "Gate status: $GATE_STATUS"
-        if [ "$GATE_STATUS" != "OK" ]; then
-          echo "::error::SonarQube quality gate is $GATE_STATUS"
-          exit 1
-        fi
