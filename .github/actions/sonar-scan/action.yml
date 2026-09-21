@@ -1,19 +1,12 @@
 name: sonar-scan
-description: Shared SonarQube scan steps used by both SonarQube jobs in sonar.yml.
+description: Shared SonarQube scan steps used by both SonarQube jobs in sonar.yml. Callers check out sources before invoking.
 
 inputs:
   token:
     description: SonarQube authentication token (pass secrets.SONAR_TOKEN).
     required: true
-  ref:
-    description: Git ref to check out; empty uses the event's default ref.
-    required: false
-    default: ''
-  scan-enabled:
-    description: "'true'/'false' gate from the caller's skip-guard step output."
-    required: true
   reset-config:
-    description: Replace sonar-project.properties with the trusted main version after checkout.
+    description: Replace sonar-project.properties with the trusted main version before scanning.
     required: false
     default: false
   scanner-opts:
@@ -24,25 +17,16 @@ inputs:
 runs:
   using: composite
   steps:
-    - name: Check out sources
-      if: ${{ inputs.scan-enabled == 'true' }}
-      uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
-      with:
-        ref: ${{ inputs.ref }}
-        fetch-depth: 0
-        persist-credentials: false
     - name: Reset scanner config to trusted main
-      if: ${{ inputs.scan-enabled == 'true' && inputs.reset-config }}
+      if: ${{ inputs.reset-config }}
       shell: bash
       run: |
         git fetch --no-tags origin main
         git show origin/main:sonar-project.properties > sonar-project.properties
     - name: Install jq
-      if: ${{ inputs.scan-enabled == 'true' }}
       shell: bash
       run: brew install jq || command -v jq >/dev/null
     - name: Wait for SonarQube
-      if: ${{ inputs.scan-enabled == 'true' }}
       shell: bash
       run: |
         for i in $(seq 1 36); do
@@ -58,14 +42,13 @@ runs:
         exit 1
     - name: SonarQube Scan
       id: scan
-      if: ${{ inputs.scan-enabled == 'true' }}
       uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
       env:
         SONAR_TOKEN: ${{ inputs.token }}
         SONAR_HOST_URL: http://127.0.0.1:9001
         SONAR_SCANNER_OPTS: ${{ inputs.scanner-opts }}
     - name: Print new-code issues
-      if: ${{ !cancelled() && inputs.scan-enabled == 'true' }}
+      if: ${{ !cancelled() }}
       shell: bash
       env:
         SONAR_TOKEN: ${{ inputs.token }}
@@ -76,7 +59,7 @@ runs:
           "$BASE/api/issues/search?componentKeys=$SONAR_PROJECT_KEY&inNewCodePeriod=true&resolved=false&ps=100" \
           | jq -r '.issues[] | "ISSUE \(.severity) \(.rule) \(.component):\(.line // 0) \(.message)"' || true
     - name: Enforce quality gate
-      if: ${{ inputs.scan-enabled == 'true' && steps.scan.outcome == 'success' }}
+      if: ${{ steps.scan.outcome == 'success' }}
       shell: bash
       env:
         SONAR_TOKEN: ${{ inputs.token }}

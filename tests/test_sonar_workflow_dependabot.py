@@ -12,6 +12,11 @@ runner-local SonarQube on every dependabot PR. The contract under test:
   redundant default-branch scans cancelling push-triggered runs);
 - PR-number resolution fails loudly on API errors (no silent green bypass)
   and only skips when the API confirms no pull request exists.
+
+The shared scan steps (config reset, jq, wait, scan, diagnostics, gate)
+live in the composite action ``.github/actions/sonar-scan``; both jobs
+check out sources caller-side before invoking it (local composite
+actions are loaded from the workspace and cannot check out themselves).
 """
 
 from __future__ import annotations
@@ -22,11 +27,29 @@ from pathlib import Path
 import yaml
 
 WORKFLOW = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "sonar.yml"
+COMPOSITE = (
+    Path(__file__).resolve().parents[1] / ".github" / "actions" / "sonar-scan" / "action.yml"
+)
 
 
 def _load_workflow() -> dict:
     with WORKFLOW.open() as fh:
         return yaml.safe_load(fh)
+
+
+def _load_composite() -> dict:
+    with COMPOSITE.open() as fh:
+        return yaml.safe_load(fh)
+
+
+def _composite_call(job: dict) -> dict:
+    calls = [
+        s for s in job["steps"]
+        if str(s.get("uses", "")).startswith("./.github/actions/sonar-scan")
+    ]
+    assert calls, "job must invoke the sonar-scan composite action"
+    assert len(calls) == 1, "expected exactly one sonar-scan composite call per job"
+    return calls[0]
 
 
 def _triggers(workflow: dict) -> dict:
@@ -85,9 +108,13 @@ def test_dependabot_job_gates_on_branch_prefix_only() -> None:
 
 def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
     job = _dependabot_job(_load_workflow()["jobs"])
-    scan = _step_with_id(job, "scan")
-    assert "secrets.SONAR_TOKEN" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
-    scanner_opts = str(scan.get("env", {}).get("SONAR_SCANNER_OPTS", ""))
+    call = _composite_call(job)
+    with_ = call.get("with", {})
+    assert "secrets.SONAR_TOKEN" in str(with_.get("token", "")), (
+        "the dependabot scan must run with the repo secret; the token "
+        "reaches the composite via the token input"
+    )
+    scanner_opts = str(with_.get("scanner-opts", ""))
     assert "-Dsonar.projectKey=" in scanner_opts, (
         "projectKey must be pinned on the command line: the tree's "
         "sonar-project.properties is PR-controlled and must not decouple the "
@@ -102,10 +129,19 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
     assert "refs/pull/" not in ref
 
 
+def test_composite_scan_wires_token_from_caller() -> None:
+    scan = _step_with_id(_load_composite()["runs"], "scan")
+    assert "${{ inputs.token }}" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
+
+
 def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
-    job = _dependabot_job(_load_workflow()["jobs"])
+    composite = _load_composite()
     reset = next(
-        (s for s in job["steps"] if s.get("name") == "Reset scanner config to trusted main"),
+        (
+            s
+            for s in composite["runs"]["steps"]
+            if s.get("name") == "Reset scanner config to trusted main"
+        ),
         None,
     )
     assert reset is not None, (
@@ -113,6 +149,10 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "reset it from trusted main before scanning"
     )
     assert "git show origin/main:sonar-project.properties" in str(reset["run"])
+    job = _dependabot_job(_load_workflow()["jobs"])
+    assert str(_composite_call(job).get("with", {}).get("reset-config", "")).lower() == "true", (
+        "the dependabot job must request the trusted-main config reset"
+    )
 
 
 def test_dependabot_job_can_read_pull_requests() -> None:
@@ -166,29 +206,35 @@ def test_pull_request_job_skips_scan_steps_when_deferred() -> None:
     job = _load_workflow()["jobs"]["sonarqube"]
     checkout = next(s for s in job["steps"] if "actions/checkout" in str(s.get("uses", "")))
     preflight = _step_with_id(job, "preflight")
-    assert job["steps"].index(preflight) < job["steps"].index(checkout)
+    call = _composite_call(job)
+    assert (
+        job["steps"].index(preflight) < job["steps"].index(checkout) < job["steps"].index(call)
+    )
     assert "steps.preflight.outputs.deferred != 'true'" in str(checkout.get("if", ""))
-    for step_id in ("scan", "enforce"):
-        step = _step_with_id(job, step_id)
-        assert "steps.preflight.outputs.deferred != 'true'" in str(step.get("if", ""))
+    assert "steps.preflight.outputs.deferred != 'true'" in str(call.get("if", "")), (
+        "the composite call carrying every scan step must be gated by the "
+        "preflight guard: none of the scan steps may run for deferred PRs"
+    )
 
 
 def test_workflow_uses_loopback_ip_not_localhost() -> None:
-    text = WORKFLOW.read_text()
-    assert "localhost:9001" not in text
+    for path in (WORKFLOW, COMPOSITE):
+        assert "localhost:9001" not in path.read_text()
 
 
 def test_diagnostic_steps_do_not_run_on_cancelled_jobs() -> None:
-    text = WORKFLOW.read_text()
-    assert "always()" not in text, "!cancelled() skips diagnostics on cancelled jobs"
+    for path in (WORKFLOW, COMPOSITE):
+        assert "always()" not in path.read_text(), (
+            "!cancelled() skips diagnostics on cancelled jobs"
+        )
 
 
 def test_checkout_actions_are_sha_pinned() -> None:
-    jobs = _load_workflow()["jobs"]
-    for job in jobs.values():
-        for step in job["steps"]:
-            uses = str(step.get("uses", ""))
-            if uses.startswith("actions/checkout@"):
-                assert re.fullmatch(r"actions/checkout@[0-9a-f]{40}", uses), (
-                    f"checkout must be SHA-pinned in this secret-bearing workflow: {uses}"
-                )
+    steps = [s for job in _load_workflow()["jobs"].values() for s in job["steps"]]
+    steps += _load_composite()["runs"]["steps"]
+    for step in steps:
+        uses = str(step.get("uses", ""))
+        if uses.startswith("actions/checkout@"):
+            assert re.fullmatch(r"actions/checkout@[0-9a-f]{40}", uses), (
+                f"checkout must be SHA-pinned in this secret-bearing workflow: {uses}"
+            )

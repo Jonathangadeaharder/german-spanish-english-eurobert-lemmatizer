@@ -41,11 +41,16 @@ jobs:
             echo "::notice::Sonar scan deferred to the 'SonarQube (dependabot)' workflow_run job: pull_request events from dependabot cannot access repo secrets."
             echo "deferred=true" >> "$GITHUB_OUTPUT"
           fi
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
+        if: steps.preflight.outputs.deferred != 'true'
+        with:
+          fetch-depth: 0
+          persist-credentials: false
       - name: SonarQube scan
         uses: ./.github/actions/sonar-scan
+        if: steps.preflight.outputs.deferred != 'true'
         with:
           token: ${{ secrets.SONAR_TOKEN }}
-          scan-enabled: ${{ steps.preflight.outputs.deferred != 'true' }}
   # Only dependabot-authored same-repo PRs reach this secret-scoped job; the
   # resolve step re-verifies author and head SHA, and workflow_run resolves
   # the workflow and composite action from trusted main, not the PR tree.
@@ -111,11 +116,16 @@ jobs:
           fi
           echo "number=$PR" >> "$GITHUB_OUTPUT"
           echo "available=true" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
+        if: steps.pr.outputs.available == 'true'
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+          persist-credentials: false
       - name: SonarQube scan
         uses: ./.github/actions/sonar-scan
+        if: steps.pr.outputs.available == 'true'
         with:
           token: ${{ secrets.SONAR_TOKEN }}
-          ref: ${{ github.event.workflow_run.head_sha }}
-          scan-enabled: ${{ steps.pr.outputs.available == 'true' }}
           reset-config: true
           scanner-opts: -Dsonar.qualitygate.wait=true -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
