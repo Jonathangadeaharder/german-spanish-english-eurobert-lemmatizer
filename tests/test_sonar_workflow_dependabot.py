@@ -103,6 +103,20 @@ def test_restore_removes_pr_added_action_files() -> None:
     )
 
 
+def test_restore_refuses_symlinked_action_paths() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    assert "[ -L .github/actions ]" in run and "[ -L .github/actions/sonar-scan ]" in run, (
+        "rm -rf and git checkout resolve through a planted symlink under "
+        ".github/actions and can write outside the workspace on the "
+        "self-hosted runner"
+    )
+    assert run.index("[ -L .github/actions ]") < run.index("rm -rf .github/actions/sonar-scan")
+
+
 def _triggers(workflow: dict) -> dict:
     triggers = workflow.get("on") or workflow.get(True)
     assert isinstance(triggers, dict)
@@ -119,6 +133,12 @@ def _dependabot_job(jobs: dict) -> dict:
 def _step_with_id(job: dict, step_id: str) -> dict:
     steps = [s for s in job["steps"] if s.get("id") == step_id]
     assert steps, f"job must have a step with id '{step_id}'"
+    return steps[0]
+
+
+def _step_with_name(job: dict, name: str) -> dict:
+    steps = [s for s in job["steps"] if s.get("name") == name]
+    assert steps, f"job must have a step named '{name}'"
     return steps[0]
 
 
@@ -175,7 +195,7 @@ def test_dependabot_job_scans_with_secrets_and_merge_ref() -> None:
 
 
 def test_scan_and_gate_target_the_same_project() -> None:
-    scan = _step_with_id(_load_composite()["runs"], "scan")
+    scan = _step_with_name(_load_composite()["runs"], "SonarQube Scan")
     scanner_opts = str(scan.get("env", {}).get("SONAR_SCANNER_OPTS", ""))
     assert "-Dsonar.projectKey=${{ inputs.project-key }}" in scanner_opts, (
         "the scan must be pinned to the same project-key input the gate "
@@ -217,6 +237,10 @@ def test_diagnostics_neutralize_log_command_injection() -> None:
     assert run.index("gsub") > run.index('"ISSUE '), (
         "the neutralizer must apply to the composed line, covering severity, "
         "rule, component and message fields alike"
+    )
+    assert "*[!0-9]*" in run, (
+        "a non-numeric .total makes the -gt test error out instead of "
+        "degrading gracefully like the rest of the step"
     )
 
 
@@ -300,22 +324,41 @@ def test_composite_rejects_multitoken_scanner_opts() -> None:
     )
 
 
-def test_composite_rejects_endpoint_or_credential_overrides_in_scanner_opts() -> None:
+def test_composite_allowlists_scanner_opts() -> None:
     step = next(
         s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
     )
     assert str(step.get("env", {}).get("SCANNER_OPTS", "")) == "${{ inputs.scanner-opts }}"
     run = str(step["run"])
-    assert "sonar\\.(host\\.url|login|token|password)" in run, (
-        "scanner-opts is interpolated into SONAR_SCANNER_OPTS without further "
-        "screening: a sonar.host.url or credential override can redirect the "
-        "authenticated scan and exfiltrate SONAR_TOKEN"
+    assert "sonar\\.coverage\\." in run and "-Xmx" in run and "-Xss" in run, (
+        "a blocklist is inherently incomplete (projectBaseDir, sources, "
+        "exclusions, branch.name alter the scan materially): scanner-opts "
+        "must be allowlisted to coverage properties and JVM sizes"
+    )
+    assert "sonar\\.(host\\.url|login|token|password)" not in run, (
+        "the round-7 blocklist is superseded by the allowlist"
+    )
+
+
+def test_composite_validates_sonar_host_url_scheme() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    assert str(step.get("env", {}).get("SONAR_HOST_URL", "")) == "${{ inputs.sonar-host-url }}"
+    run = str(step["run"])
+    assert 'http://127.0.0.1*|https://*) ;;' in run and "::error::" in run, (
+        "the token rides the Bearer header to whatever host this input "
+        "names: non-loopback plaintext URLs must be rejected up front"
     )
 
 
 def test_composite_scan_wires_token_from_caller() -> None:
-    scan = _step_with_id(_load_composite()["runs"], "scan")
+    scan = _step_with_name(_load_composite()["runs"], "SonarQube Scan")
     assert "${{ inputs.token }}" in str(scan.get("env", {}).get("SONAR_TOKEN", ""))
+    assert not scan.get("id"), (
+        "steps.scan was only read by the removed Enforce gate step: a dead id "
+        "invites future steps to depend on a step outcome nothing guarantees"
+    )
 
 
 def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
@@ -345,6 +388,11 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
         "the fetch fallback runs without persisted credentials: a bare "
         "failure would be misreported by the following git show as a "
         "missing config on origin/main"
+    )
+    assert 'grep -qF "$GITHUB_REPOSITORY"' in str(reset["run"]), (
+        "in fork-PR checkouts origin points at the fork: the trusted-main "
+        "reset must verify the remote belongs to the base repository or it "
+        "resets from attacker-controlled content"
     )
     assert "::error::" in str(reset["run"]), (
         "this step is the security control keeping PR-sourced scan config "
