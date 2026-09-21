@@ -67,6 +67,10 @@ runs:
           echo "::error::trusted-ref must be an origin/<ref> spelling like origin/main: it names the remote ref the trusted config is reset from"
           exit 1
         fi
+        if [ -z "$SONAR_TOKEN" ]; then
+          echo "::error::token is empty: a required input is only enforced when omitted, an empty expression still passes and sends an empty Bearer credential"
+          exit 1
+        fi
         if [[ "$SONAR_TOKEN" =~ [[:cntrl:]] ]]; then
           echo "::error::token contains control characters: formatted into an HTTP header it would inject additional headers"
           exit 1
@@ -89,7 +93,7 @@ runs:
       run: |
         REMOTE_URL=$(git remote get-url origin || true)
         case "$REMOTE_URL" in
-          "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
+          "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
             ;;
           *)
             echo "::error::origin remote '$REMOTE_URL' is not $GITHUB_REPOSITORY: the trusted-main reset requires the base repository's remote, not a fork's or a similarly named repository's"
@@ -106,7 +110,7 @@ runs:
         fi
         TRUSTED_BRANCH="${TRUSTED_REF#origin/}"
         if ! git rev-parse --verify "refs/remotes/$TRUSTED_REF" >/dev/null 2>&1; then
-          if ! git fetch --no-tags origin "$TRUSTED_BRANCH"; then
+          if ! git fetch --no-tags origin "+refs/heads/$TRUSTED_BRANCH:refs/remotes/$TRUSTED_REF"; then
             echo "::error::failed to fetch origin/$TRUSTED_BRANCH: the trusted scanner config cannot be resolved"
             exit 1
           fi
@@ -150,6 +154,7 @@ runs:
         exit 1
     - name: SonarQube Scan
       id: scan
+      if: ${{ steps.validate.outcome == 'success' }}
       uses: SonarSource/sonarqube-scan-action@fd88b7d7ccbaefd23d8f36f73b59db7a3d246602  # nosemgrep
       env:
         SONAR_TOKEN: ${{ inputs.token }}

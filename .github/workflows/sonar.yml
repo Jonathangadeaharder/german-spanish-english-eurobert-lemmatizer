@@ -130,11 +130,20 @@ jobs:
         if: steps.pr.outputs.available == 'true'
         shell: bash
         run: |
+          REMOTE_URL=$(git remote get-url origin || true)
+          case "$REMOTE_URL" in
+            "https://github.com/$GITHUB_REPOSITORY.git"|"https://github.com/$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY"|"git@github.com:$GITHUB_REPOSITORY.git"|"ssh://git@github.com/$GITHUB_REPOSITORY.git"|"ssh://git@github.com:22/$GITHUB_REPOSITORY.git")
+              ;;
+            *)
+              echo "::error::origin remote '$REMOTE_URL' is not $GITHUB_REPOSITORY: refusing to restore the scan action from an unverified remote"
+              exit 1
+              ;;
+          esac
           if [ -L .github ] || [ -L .github/actions ] || [ -L .github/actions/sonar-scan ]; then
             echo "::error::unexpected symlink in the PR tree's action paths: refusing to touch the runner filesystem through it"
             exit 1
           fi
-          git fetch --no-tags origin main
+          git fetch --no-tags origin "+refs/heads/main:refs/remotes/origin/main"
           if ! git cat-file -e origin/main:.github/actions/sonar-scan/action.yml 2>/dev/null; then
             echo "::error::origin/main does not provide .github/actions/sonar-scan/action.yml: cannot restore the trusted scan action"
             exit 1

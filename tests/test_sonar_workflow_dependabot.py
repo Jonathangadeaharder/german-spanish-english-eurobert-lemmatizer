@@ -103,6 +103,22 @@ def test_restore_removes_pr_added_action_files() -> None:
     )
 
 
+def test_composite_rejects_empty_token() -> None:
+    step = next(
+        s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
+    )
+    run = str(step["run"])
+    assert '-z "$SONAR_TOKEN"' in run, (
+        "required is only enforced when an input is omitted from with:: an "
+        "empty secrets expression passes and produces confusing scanner "
+        "and curl failures late in the job instead of failing up front"
+    )
+    assert run.index('-z "$SONAR_TOKEN"') < run.index('"$SONAR_TOKEN" =~ [[:cntrl:]]'), (
+        "the emptiness check must come first: an empty token contains no "
+        "control characters and passes the character screen"
+    )
+
+
 def test_composite_rejects_control_characters_in_token() -> None:
     step = next(
         s for s in _load_composite()["runs"]["steps"] if s.get("name") == "Validate inputs"
@@ -140,6 +156,35 @@ def test_restore_verifies_main_has_the_action_before_replacing() -> None:
         "action.yml' instead of an explicit error"
     )
     assert run.index("git cat-file -e") < run.index("rm -rf .github/actions/sonar-scan")
+
+
+def test_restore_validates_origin_remote_before_fetch() -> None:
+    job = _dependabot_job(_load_workflow()["jobs"])
+    restore = next(
+        s for s in job["steps"] if s.get("name") == "Restore scan action from trusted main"
+    )
+    run = str(restore["run"])
+    assert "git remote get-url origin" in run and "::error::" in run, (
+        "the restore installs executable action code that runs with "
+        "SONAR_TOKEN: on a persisted self-hosted workspace a stale or "
+        "forged origin makes the fetch and checkout pull attacker-chosen "
+        "code, and the composite's own remote check runs only after that "
+        "code is already in place"
+    )
+    assert '"https://github.com/$GITHUB_REPOSITORY.git"' in run, (
+        "the origin check must be an exact match against the base "
+        "repository, using the same arms as the composite's reset step"
+    )
+    assert run.index("git remote get-url origin") < run.index("git fetch"), (
+        "the remote must be verified before anything is fetched from it"
+    )
+    assert (
+        'git fetch --no-tags origin "+refs/heads/main:refs/remotes/origin/main"' in run
+    ), (
+        "a bare-branch fetch depends on the workspace's fetch refspec "
+        "configuring the opportunistic remote-tracking update: map the "
+        "refspec explicitly like the composite's reset path"
+    )
 
 
 def test_restore_refuses_symlinked_action_paths() -> None:
@@ -408,6 +453,18 @@ def test_composite_validates_sonar_host_url_scheme() -> None:
     )
 
 
+def test_scan_requires_successful_validation() -> None:
+    composite = _load_composite()
+    scan = next(s for s in composite["runs"]["steps"] if s.get("name") == "SonarQube Scan")
+    if_ = str(scan.get("if", ""))
+    assert "steps.validate.outcome == 'success'" in if_, (
+        "a caller invoking this action with step- or job-level "
+        "continue-on-error lets a failed validation continue into the scan, "
+        "injecting the unvalidated project-key and scanner-opts straight "
+        "into SONAR_SCANNER_OPTS and bypassing the allowlist"
+    )
+
+
 def test_diagnostics_require_successful_validation() -> None:
     composite = _load_composite()
     validate = next(
@@ -475,11 +532,18 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
     assert "git rev-parse --verify \"refs/remotes/$TRUSTED_REF\"" in str(reset["run"]), (
         "the local-ref fetch guard must check the same parameterized ref"
     )
-    assert 'git fetch --no-tags origin "$TRUSTED_BRANCH"' in str(reset["run"]), (
-        "the fetch fallback must request the trusted ref's branch, not a "
-        "hardcoded main"
+    assert (
+        'git fetch --no-tags origin '
+        '"+refs/heads/$TRUSTED_BRANCH:refs/remotes/$TRUSTED_REF"' in str(reset["run"])
+    ), (
+        "fetching the bare branch stores only FETCH_HEAD on single-ref "
+        "checkouts, so the remote-tracking ref the git show reads is never "
+        "created: the refspec must map it explicitly"
     )
-    assert "if ! git fetch --no-tags origin \"$TRUSTED_BRANCH\"" in str(reset["run"]), (
+    assert (
+        'if ! git fetch --no-tags origin '
+        '"+refs/heads/$TRUSTED_BRANCH:refs/remotes/$TRUSTED_REF"' in str(reset["run"])
+    ), (
         "the fetch fallback runs without persisted credentials: a bare "
         "failure would be misreported by the following git show as a "
         "missing trusted config"
@@ -499,6 +563,10 @@ def test_dependabot_job_resets_scanner_config_to_trusted_main() -> None:
     assert "ssh://git@github.com/$GITHUB_REPOSITORY.git" in str(reset["run"]), (
         "exact URL matching must not reject legitimate ssh:// remotes: "
         "fail-closed is right, unusable-for-valid-setups is not"
+    )
+    assert '"git@github.com:$GITHUB_REPOSITORY"' in str(reset["run"]), (
+        "the git@ spelling without a .git suffix is a valid GitHub remote: "
+        "exact-match arms must cover it, not reject it"
     )
     assert "[ -L sonar-project.properties ]" in str(reset["run"]), (
         "the trusted-config write follows a planted symlink at the tmp "
